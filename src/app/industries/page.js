@@ -10,8 +10,6 @@ import Casestudy from "../../components/industries_pages/case_study"
 import Faqs from "../../components/industries_pages/faq"
 import Footer from "../../components/footer"
 
-cimport rawData from "../../data/services/ai_and_saas_developments/ai_powered_app.json";
-
 const pgdata = rawData && typeof rawData === "object" ? rawData : null;
 
 export default function Home() {
