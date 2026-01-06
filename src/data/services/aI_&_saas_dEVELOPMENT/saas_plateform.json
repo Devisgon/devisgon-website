@@ -1,0 +1,179 @@
+{
+  "ai_apps_page": {
+    "hero_section": {
+      "title": "SaaS Platforms",
+      "subtitle": "Build, Scale & Monetize Your Software",
+      "description": "We design and develop SaaS platforms with multi-tenant architecture, secure billing, admin dashboards, and scalable cloud infrastructure, everything you need to launch and grow a subscription-based business.",
+      "buttons": [
+        {
+          "text": "Start My AI Project",
+          "link": "#start"
+        },
+        {
+          "text": "Contact Us",
+          "link": "#contact"
+        }
+      ],
+      "hero_image": "https://images.unsplash.com/photo-1616469829941-c7200edec809?q=80&w=800&auto=format&fit=crop"
+    },
+    "introduction_section": {
+      "heading": "What is ",
+      "span_heading":"SaaS Platform Development?",
+      "content": [
+        "At Devisgon, we build SaaS platforms that are launch-ready and future-proof. From MVP SaaS products for startups to enterprise-grade platforms for global businesses.",
+        "We specialize in multi-tenant systems, subscription/billing integrations, and admin dashboards that give you complete visibility into your product."
+      ],
+      "highlight_quote": "“Launch-ready SaaS, faster go-to-market, 3x scalability.”",
+      "side_image": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop"
+    },
+    "key_benefits_section": {
+      "title": "Key Benefits",
+      "subtitle": "Transform your operations with proven results",
+      "cards": [
+        {
+          "title": "Faster Launch",
+          "description": "We build fully functional SaaS products in weeks, reducing your time-to-market.",
+          "icon_type": "FaRocket"
+        },
+        {
+          "title": "Revenue Ready",
+          "description": "Integrated subscription billing systems like Stripe, PayPal, or Razorpay ensure monetization from day one.",
+          "icon_type": "HiCurrencyDollar "
+        },
+          {
+          "title": "Enterprise Security",
+          "description": "Built-in role-based access, encrypted data storage, and GDPR compliance.",
+          "icon_type": "IoShieldCheckmarkSharp "
+        },
+        {
+          "title": "Cloud Scalability",
+          "description": "Designed for thousands of users with zero downtime.",
+          "icon_type": "FaCloud "
+        }
+      ]
+    },
+    "what_you_get_section": {
+      "title": "What you'll get when you choose SaaS Platform Development",
+      "image": "https://images.unsplash.com/photo-1655720406100-3921a392d7ac?q=80&w=800&auto=format&fit=crop",
+      "list_items": [
+        {
+          "title": "1. Intelligent Applications",
+          "description": "Complete SaaS application with multi-tenant architecture."
+        },
+         {
+          "title": "2. Dashboard Analytics",
+          "description": "Admin dashboards with analytics and reporting."
+        },
+          {
+          "title": "3. API Endpoints",
+          "description": "API integrations with third-party tools (CRM, email, cloud storage, etc.)."
+        },
+         {
+          "title": "4. Documentation & Training",
+          "description": "Documentation and post-launch support."
+        }
+      ]
+    },
+    "technologies_section": {
+      "title": "We work with modern, proven technologies",
+      "subtitle": "Industry-leading tools for maximum reliability and performance",
+      "tools": [
+        { 
+          "name": "Python", 
+          "icon": "FaPython " 
+        },
+        { 
+          "name": "Node.js", 
+          "icon": "FaNodeJs " 
+        },
+        { 
+          "name": "React", 
+          "icon": "FaReact " 
+        },
+        { 
+          "name": "Docker", 
+          "icon": "FaDocker " 
+        },
+        { 
+          "name": "AWS", 
+          "icon": "FaAws " 
+        },
+        { 
+          "name": "MongoDB", 
+          "icon": "FaDatabase " 
+        }
+      ]
+    },
+    "process_section": {
+      "title": "Our Process",
+      "subtitle": "From concept to launch in 6 weeks",
+      "steps": [
+        {
+          "title": "Discover",
+          "description": "Market research, feature scoping, SaaS strategy.",
+          "icon": "FaSearch"
+        },
+        {
+          "title": "Design",
+          "description": "Wireframes, user flows, dashboard UI/UX.",
+          "icon": "TbTools"
+        },
+       {
+          "title": "Build",
+          "description": "Core SaaS modules, billing integration, admin panel.",
+          "icon": "FaHammer"
+        },
+       {
+          "title": "Launch",
+          "description": "Deploy to cloud, set up monitoring & scaling.",
+          "icon": "FaRocket"
+        }
+      ]
+    },
+    "case_study_section": {
+      "headline": "SaaS Growth 1,200 in 3 Months",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
+      "content": [
+       {
+          "label": "Problem",
+          "text": "A startup wanted to launch an analytics SaaS platform but lacked the resources for billing and scalability setup."
+        },
+        {
+          "label": "Solution",
+          "text": "We built a subscription-ready SaaS platform with multi-tenancy, dashboards, and Stripe integration in just 8 weeks."
+        },
+        {
+          "label": "Result",
+          "text": "They onboarded 1,200 users in 3 months and secured Series A funding."
+        }
+      ]
+    },
+    "faq_section": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Get answers to common questions",
+      "questions": [
+        {
+          "question": "How long does it take to build an MVP?",
+          "answer": "Typically, an MVP can be developed in 4-6 weeks depending on the complexity of the features."
+        },
+        {
+          "question": "Do you provide ongoing support after launch?",
+          "answer": "Yes, we offer post-launch maintenance and support packages to ensure your application runs smoothly."
+        },
+        {
+          "question": "Can you integrate AI features into my existing SaaS?",
+          "answer": "Absolutely. We specialize in integrating AI models into existing architectures via API."
+        },
+        {
+          "question": "What tech stack do you use for SaaS?",
+          "answer": "We primarily use Next.js, React, Node.js, Python, and cloud services like AWS or Vercel."
+        }
+      ],
+      "footer": {
+        "text": "Didn't find your answer?",
+        "link_text": "Contact us for more information",
+        "link_url": "/contact"
+      }
+    }
+  }
+}

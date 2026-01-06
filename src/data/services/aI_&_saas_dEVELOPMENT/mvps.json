@@ -1,0 +1,179 @@
+{
+  "ai_apps_page": {
+    "hero_section": {
+      "title": "MVPs & POCs",
+      "subtitle": "Validate Your Idea Fast",
+      "description": "We build Minimum Viable Products (MVPs) and Proof-of-Concepts (POCs) in weeks — helping you test real-world potential, attract investors, and launch faster with reduced risk.",
+      "buttons": [
+        {
+          "text": "Start My AI Project",
+          "link": "#start"
+        },
+        {
+          "text": "Contact Us",
+          "link": "#contact"
+        }
+      ],
+      "hero_image": "https://images.unsplash.com/photo-1616469829941-c7200edec809?q=80&w=800&auto=format&fit=crop"
+    },
+    "introduction_section": {
+      "heading": "What is",
+      "span_heading":" MVPs & POCs?",
+      "content": [
+        "Every great product starts with an idea, but ideas don’t secure customers or investors. The fastest way to prove an idea is to test it in the real world with an MVP or POC.",
+        "At Devisgon, we help startups, enterprises, and innovators validate product ideas quickly. Our MVPs focus on delivering the core features only. This approach saves time, money, and effort while providing a clear roadmap to product-market fit and investor readiness."
+      ],
+      "highlight_quote": "“Build smart, launch fast, validate with impact.”",
+      "side_image": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop"
+    },
+    "key_benefits_section": {
+      "title": "Key Benefits",
+      "subtitle": "Transform your operations with proven results",
+      "cards": [
+        {
+          "title": "Faster Go-To-Market",
+          "description": "Launch in weeks instead of months.",
+          "icon_type": "FaRocket"
+        },
+        {
+          "title": "Investor-Ready",
+          "description": "Use MVPs/POCs to demonstrate traction and raise funds.",
+          "icon_type": "HiCurrencyDollar "
+        },
+          {
+          "title": "Reduced Risk",
+          "description": "Validate ideas before committing to large-scale builds.",
+          "icon_type": "IoShieldCheckmarkSharp "
+        },
+        {
+          "title": "User Feedback",
+          "description": "Gather insights from real users early in the cycle.",
+          "icon_type": "FaCloud "
+        }
+      ]
+    },
+    "what_you_get_section": {
+      "title": "What you'll get when you choose with us on an MVP or POC",
+      "image": "https://images.unsplash.com/photo-1655720406100-3921a392d7ac?q=80&w=800&auto=format&fit=crop",
+      "list_items": [
+        {
+          "title": "1. Functional Prototype",
+          "description": "A working MVP or POC with core features only."
+        },
+         {
+          "title": "2. Interactive Demos",
+          "description": "Interactive prototypes for stakeholder demos."
+        },
+          {
+          "title": "3. Growth Roadmap",
+          "description": "Roadmap for scaling to a full product."
+        },
+         {
+          "title": "4. Technical Assets",
+          "description": "Source code, APIs, and deployment if needed."
+        }
+      ]
+    },
+    "technologies_section": {
+      "title": "We work with modern, proven technologies",
+      "subtitle": "Industry-leading tools for maximum reliability and performance",
+      "tools": [
+        { 
+          "name": "Python", 
+          "icon": "FaPython " 
+        },
+        { 
+          "name": "Node.js", 
+          "icon": "FaNodeJs " 
+        },
+        { 
+          "name": "React", 
+          "icon": "FaReact " 
+        },
+        { 
+          "name": "Docker", 
+          "icon": "FaDocker " 
+        },
+        { 
+          "name": "AWS", 
+          "icon": "FaAws " 
+        },
+        { 
+          "name": "MongoDB", 
+          "icon": "FaDatabase " 
+        }
+      ]
+    },
+    "process_section": {
+      "title": "Our Process",
+      "subtitle": "From concept to launch in 6 weeks",
+      "steps": [
+        {
+          "title": "Discover",
+          "description": "Define idea, identify core features, and scope MVP/POC.",
+          "icon": "FaSearch"
+        },
+        {
+          "title": "Design",
+          "description": "Build wireframes, prototypes, and workflows.",
+          "icon": "TbTools"
+        },
+       {
+          "title": "Build",
+          "description": "Develop essential features only, integrate key APIs.",
+          "icon": "FaHammer"
+        },
+       {
+          "title": "Launch",
+          "description": "Deploy, test with real users, and gather feedback.",
+          "icon": "FaRocket"
+        }
+      ]
+    },
+    "case_study_section": {
+      "headline": "Idea to $250K Seed in Weeks",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
+      "content": [
+       {
+          "label": "Problem",
+          "text": "A startup founder had an idea for a job-matching platform but needed to test feasibility and attract funding."
+        },
+        {
+          "label": "Solution",
+          "text": "We built a POC in 3 weeks to validate the matching algorithm, followed by an MVP with just the essential features."
+        },
+        {
+          "label": "Result",
+          "text": "The founder secured $250K in seed funding and expanded the platform into a full product."
+        }
+      ]
+    },
+    "faq_section": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Get answers to common questions",
+      "questions": [
+        {
+          "question": "How long does it take to build an MVP?",
+          "answer": "Typically, an MVP can be developed in 4-6 weeks depending on the complexity of the features."
+        },
+        {
+          "question": "Do you provide ongoing support after launch?",
+          "answer": "Yes, we offer post-launch maintenance and support packages to ensure your application runs smoothly."
+        },
+        {
+          "question": "Can you integrate AI features into my existing SaaS?",
+          "answer": "Absolutely. We specialize in integrating AI models into existing architectures via API."
+        },
+        {
+          "question": "What tech stack do you use for SaaS?",
+          "answer": "We primarily use Next.js, React, Node.js, Python, and cloud services like AWS or Vercel."
+        }
+      ],
+      "footer": {
+        "text": "Didn't find your answer?",
+        "link_text": "Contact us for more information",
+        "link_url": "/contact"
+      }
+    }
+  }
+}

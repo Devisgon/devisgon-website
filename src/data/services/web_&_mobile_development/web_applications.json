@@ -1,0 +1,180 @@
+{
+  "ai_apps_page": {
+    "hero_section": {
+      "title": "Web Applications",
+      "subtitle": "Scalable, Responsive & Future-Ready",
+      "description": "We design and build modern web applications with powerful backends, intuitive interfaces, and scalable cloud infrastructure, tailored to your business needs.",
+      "buttons": [
+        {
+          "text": "Start Web App Project",
+          "link": "#start"
+        },
+        {
+          "text": "Contact Us",
+          "link": "#contact"
+        }
+      ],
+      "hero_image": "https://images.unsplash.com/photo-1616469829941-c7200edec809?q=80&w=800&auto=format&fit=crop"
+    },
+    "introduction_section": {
+      "heading": "What is ",
+      "span_heading":" Web-Applications?",
+      "content": [
+        "At Devisgon, we specialize in building custom web applications that combine engaging frontends, secure APIs, and high-performance backends. Our apps are responsive, SEO-friendly, and optimized for cloud scalability, ensuring they perform seamlessly across devices.",
+        "We serve industries such as finance, healthcare, logistics, SaaS, and e-commerce, helping companies launch platforms that handle everything from real-time analytics to large-scale user engagement."
+      ],
+      "highlight_quote": "“Web apps, seamless experiences, 2x faster performance.”",
+      "side_image": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop"
+    },
+    "key_benefits_section": {
+      "title": "Key Benefits",
+      "subtitle": "Transform your operations with proven results",
+      "cards": [
+        {
+          "title": "Responsive & Accessible",
+          "description": "Optimized for desktop, mobile, and tablets with clean UI/UX.",
+          "icon_type": "FaRocket "
+        },
+        {
+          "title": "Custom Features",
+          "description": "Tailored modules like dashboards, CRMs, booking systems, or marketplaces.",
+          "icon_type": "RiCodeBoxFill "
+        },
+          {
+          "title": "Scalable",
+          "description": "Designed to grow with your business, handling millions of users if needed.",
+          "icon_type": "LiaExpandArrowsAltSolid "
+        },
+        {
+          "title": "Secure & Reliable",
+          "description": "Built with industry-standard encryption and compliance.",
+          "icon_type": "IoShieldCheckmarkSharp "
+        }
+      ]
+    },
+    "what_you_get_section": {
+      "title": "What you'll get when you choose  Web App Development",
+      "image": "https://images.unsplash.com/photo-1655720406100-3921a392d7ac?q=80&w=800&auto=format&fit=crop",
+      "list_items": [
+        {
+          "title": "1. End-to-End Web Application",
+          "description": "Fully functional web application (frontend + backend)"
+        },
+         {
+          "title": "2. Control at Your Fingertips",
+          "description": "Admin panel and dashboards for management"
+        },
+          {
+          "title": "3, Seamless Integrations",
+          "description": "API integrations (payments, CRMs, third-party services)"
+        },
+         {
+          "title": "4. Enterprise-Grade Security",
+          "description": "Secure user authentication and role management"
+        }
+      ]
+    },
+    "technologies_section": {
+      "title": "We work with modern, proven technologies",
+      "subtitle": "Industry-leading tools for maximum reliability and performance",
+      "tools": [
+        { 
+          "name": "next js.", 
+          "icon": "SiNextdotjs " 
+        },
+        { 
+          "name": "Django", 
+          "icon": "SiDjango " 
+        },
+        { 
+          "name": "React", 
+          "icon": "FaReact " 
+        },
+        { 
+          "name": "laravel", 
+          "icon": "FaLaravel " 
+        },
+        { 
+          "name": "AWS", 
+          "icon": "FaAws " 
+        },
+        { 
+          "name": "Kubernetes", 
+          "icon": "SiKubernetes " 
+        }
+      ]
+    },
+    "process_section": {
+      "title": "Our Process",
+      "subtitle": "From concept to launch in 6 weeks",
+      "steps": [
+        {
+          "title": "Discover",
+          "description": "Requirements gathering, competitor analysis, and feature planning.",
+          "icon": "FaSearch"
+        },
+      
+        {
+          "title": "Design",
+          "description": "Wireframes, UI/UX mockups, and system architecture.",
+          "icon": "TbTools"
+        },
+        {
+          "title": "Build",
+          "description": "Develop core features, integrations, and dashboards.",
+          "icon": "FaHammer"
+        },
+       {
+          "title": "Launch",
+          "description": "Deploy securely to cloud and monitor app performance.",
+          "icon": "FaRocket"
+        }
+      ]
+    },
+    "case_study_section": {
+      "headline": "50K Users, 30% Sales Growth with Custom Web App",
+      "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
+      "content": [
+       {
+          "label": "problem",
+          "text": "A fast-growing e-commerce company needed a scalable platform to handle thousands of daily users and real-time inventory updates."
+        },
+        {
+          "label": "Solution",
+          "text": "We developed a custom web application with React frontend, Node.js backend, and integrated payment gateways."
+        },
+        {
+          "label": "Result",
+          "text": "The platform scaled to 50,000+ monthly users with a 30% increase in sales and improved customer satisfaction."
+        }
+      ]
+    },
+    "faq_section": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Get answers to common questions",
+      "questions": [
+        {
+          "question": "Can you build apps for both iOS and Android?",
+          "answer": "Typically, an MVP can be developed in 4-6 weeks depending on the complexity of the features."
+        },
+        {
+          "question": "How secure are your enterprise solutions?",
+          "answer": "Yes, we offer post-launch maintenance and support packages to ensure your application runs smoothly."
+        },
+        {
+          "question": "Do you work with existing ERP/CRM systems?",
+          "answer": "Absolutely. We specialize in integrating AI models into existing architectures via API."
+        },
+        {
+          "question": "Can you scale apps as our business grows?",
+          "answer": "We primarily use Next.js, React, Node.js, Python, and cloud services like AWS or Vercel."
+        }
+      ],
+      "footer": {
+        "text": "Didn't find your answer?",
+        "link_text": "Contact us for more information",
+        "link_url": "/contact"
+      }
+    }
+  }
+}
