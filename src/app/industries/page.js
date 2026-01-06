@@ -1,4 +1,4 @@
-import data from "../../data/services/aI_&_saas_dEVELOPMENT/ai_powered_app.json"
+import data from "../../data/services/ai_and_saas-developments/ai_powered_app.json"
 import Header from "../../components/navbar"
 import Hero from "../../components/industries_pages/hero"
 import Introduction from "../../components/industries_pages/introduction"
