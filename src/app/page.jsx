@@ -21,7 +21,7 @@ export default function Home() {
     <ExportServices />
     <Solution data={data.solutions_section}/>
     <Comments data={data.testimonials_section}/>
-    <Ceo />
+    <Ceo data={data.ceo_message_section}/>
     <Team/>
     <Blogs data={data.blog_section}/>
     <Footer/>

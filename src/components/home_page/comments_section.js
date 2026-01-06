@@ -4,12 +4,7 @@ import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import data from "../../data/home_page.json";
 
-// Hardcoded images since JSON doesn't have them
-const testimonialImages = [
-  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&h=100&fit=crop&crop=face", // Jane
-  "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop&crop=face", // Cameron
-  "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop&crop=face", // Robert
-];
+
 
 const TestimonialSection = () => {
   const section = data.testimonials_section;
@@ -104,8 +99,8 @@ const TestimonialSection = () => {
                 {/* Top Part: Image + Name */}
                 <div className="flex items-center gap-4 mb-4 md:mb-6">
                   <img
-                    src={testimonialImages[index % testimonialImages.length]}
-                    alt={review.image_alt || review.name}
+                    src={review.image}
+                    alt={review.name}
                     className={`rounded-full object-cover border-2 border-white shadow-md ${
                       isActive ? "w-16 h-16" : "w-14 h-14"
                     }`}
