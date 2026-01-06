@@ -1,4 +1,6 @@
+"use client";
 import React from 'react';
+
 const IntroductionSection = ({ data }) => {
   return (
     <section className="w-full  py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
@@ -15,7 +17,7 @@ const IntroductionSection = ({ data }) => {
                 key={index} 
                 className="text-lg text-secondary leading-relaxed font-medium"
               >
-                {paragraph}
+                {data.paragraph}
               </p>
             ))}
           </div>

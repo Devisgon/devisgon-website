@@ -4,7 +4,6 @@ import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // Using react-icon
 
 const FAQSection = ({ data }) => {
   // Destructure section data
-  const { title, subtitle, questions, footer } = data.faq_section;
 
   // State to track which accordion item is open (null means all closed)
   const [openIndex, setOpenIndex] = useState(null);

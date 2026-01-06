@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 
 import ALLIcons from "../icons"

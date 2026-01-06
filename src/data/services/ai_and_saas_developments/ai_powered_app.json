@@ -1,9 +1,8 @@
-{
-  "ai_apps_page": {
+{  "slug": "ai_powered_app",
     "hero_section": {
-      "title": "MVPs & POCs",
-      "subtitle": "Validate Your Idea Fast",
-      "description": "We build Minimum Viable Products (MVPs) and Proof-of-Concepts (POCs) in weeks — helping you test real-world potential, attract investors, and launch faster with reduced risk.",
+      "title": "AI-Powered Apps",
+      "subtitle": "Smarter, Faster, Adaptive Software",
+      "description": "We build AI-driven applications that understand, predict, and personalize, helping your business run smarter.",
       "buttons": [
         {
           "text": "Start My AI Project",
@@ -17,13 +16,13 @@
       "hero_image": "https://images.unsplash.com/photo-1616469829941-c7200edec809?q=80&w=800&auto=format&fit=crop"
     },
     "introduction_section": {
-      "heading": "What is",
-      "span_heading":" MVPs & POCs?",
+      "heading": "What is ",
+      "span_heading":"AI Powered Apps?",
       "content": [
-        "Every great product starts with an idea, but ideas don’t secure customers or investors. The fastest way to prove an idea is to test it in the real world with an MVP or POC.",
-        "At Devisgon, we help startups, enterprises, and innovators validate product ideas quickly. Our MVPs focus on delivering the core features only. This approach saves time, money, and effort while providing a clear roadmap to product-market fit and investor readiness."
+        "At Devisgon, we build AI-powered apps that blend software, machine learning, and automation to analyze data, understand language, and deliver intelligent results faster.",
+       "From chatbots to recommendations and predictive dashboards, our scalable AI apps help industries like retail, healthcare, and finance unlock smarter digital experiences."
       ],
-      "highlight_quote": "“Build smart, launch fast, validate with impact.”",
+      "highlight_quote": "“Smarter AI apps, faster insights, 3x business efficiency.”",
       "side_image": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop"
     },
     "key_benefits_section": {
@@ -31,46 +30,46 @@
       "subtitle": "Transform your operations with proven results",
       "cards": [
         {
-          "title": "Faster Go-To-Market",
-          "description": "Launch in weeks instead of months.",
-          "icon_type": "FaRocket"
+          "title": "Smarter Workflows",
+          "description": "Automate repetitive tasks and decision-making with AI.",
+          "icon_type": "FaNetworkWired "
         },
         {
-          "title": "Investor-Ready",
-          "description": "Use MVPs/POCs to demonstrate traction and raise funds.",
-          "icon_type": "HiCurrencyDollar "
-        },
-          {
-          "title": "Reduced Risk",
-          "description": "Validate ideas before committing to large-scale builds.",
-          "icon_type": "IoShieldCheckmarkSharp "
+          "title": "Personalized Experiences",
+          "description": "Deliver recommendations, predictions, and tailored content to users.",
+          "icon_type": "PiSlidersFill "
         },
         {
-          "title": "User Feedback",
-          "description": "Gather insights from real users early in the cycle.",
-          "icon_type": "FaCloud "
+          "title": "Scalable Performance",
+          "description": "AI models optimized for real-time performance and cloud-native scaling.",
+          "icon_type": "FaRocket "
+        },
+        {
+          "title": "Continuous Learning",
+          "description": "Apps that get smarter with every interaction.",
+          "icon_type": "MdOutlineManageHistory "
         }
       ]
     },
     "what_you_get_section": {
-      "title": "What you'll get when you choose with us on an MVP or POC",
+      "title": "What you'll get when you choose AI-Powered Apps",
       "image": "https://images.unsplash.com/photo-1655720406100-3921a392d7ac?q=80&w=800&auto=format&fit=crop",
       "list_items": [
         {
-          "title": "1. Functional Prototype",
-          "description": "A working MVP or POC with core features only."
+          "title": "1. Intelligent Applications",
+          "description": "Custom web or mobile apps built to solve real business problems with AI."
         },
-         {
-          "title": "2. Interactive Demos",
-          "description": "Interactive prototypes for stakeholder demos."
+        {
+          "title": "2. Integrated AI Models",
+          "description": "Seamless features for chat, vision, and predictive analytics."
         },
-          {
-          "title": "3. Growth Roadmap",
-          "description": "Roadmap for scaling to a full product."
+        {
+          "title": "3. API Endpoints",
+          "description": "Easy integration with your existing systems and workflows."
         },
-         {
-          "title": "4. Technical Assets",
-          "description": "Source code, APIs, and deployment if needed."
+        {
+          "title": "4. Documentation & Training",
+          "description": "Clear guides and training to ensure smooth adoption."
         }
       ]
     },
@@ -110,43 +109,43 @@
       "steps": [
         {
           "title": "Discover",
-          "description": "Define idea, identify core features, and scope MVP/POC.",
-          "icon": "FaSearch"
+          "description": "Identify use cases & AI opportunities",
+          "icon": "FaSearch "
         },
         {
           "title": "Design",
-          "description": "Build wireframes, prototypes, and workflows.",
-          "icon": "TbTools"
+          "description": "Design Wireframes + model selection",
+          "icon": "TbTools "
         },
-       {
+        {
           "title": "Build",
-          "description": "Develop essential features only, integrate key APIs.",
-          "icon": "FaHammer"
+          "description": "Develop application + integrate AI models",
+          "icon": "FaHammer "
         },
-       {
+        {
           "title": "Launch",
-          "description": "Deploy, test with real users, and gather feedback.",
-          "icon": "FaRocket"
+          "description": "Deploy, monitor, and optimize your automation systems",
+          "icon": "FaRocket "
         }
       ]
     },
     "case_study_section": {
-      "headline": "Idea to $250K Seed in Weeks",
+      "headline": "Boosted Conversions 18% with AI",
       "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
-      "content": [
-       {
+      "content": {
+        "problem": {
           "label": "Problem",
-          "text": "A startup founder had an idea for a job-matching platform but needed to test feasibility and attract funding."
+          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
         },
-        {
+        "solution": {
           "label": "Solution",
-          "text": "We built a POC in 3 weeks to validate the matching algorithm, followed by an MVP with just the essential features."
+          "text": "We built an AI-powered recommendation engine into their e-commerce app."
         },
-        {
+        "result": {
           "label": "Result",
-          "text": "The founder secured $250K in seed funding and expanded the platform into a full product."
+          "text": "Conversion rates improved by 18% and session times increased by 25%."
         }
-      ]
+      }
     },
     "faq_section": {
       "title": "Frequently Asked Questions",
@@ -175,5 +174,5 @@
         "link_url": "/contact"
       }
     }
-  }
+  
 }

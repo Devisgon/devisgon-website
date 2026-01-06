@@ -1,9 +1,9 @@
-{
-  "ai_apps_page": {
+{  "slug": "mvps",
+
     "hero_section": {
-      "title": "Machine Learning Models",
-      "subtitle": "Data-Driven Predictions That Scale",
-      "description": "We build custom machine learning models for prediction, recommendation, classification, and automation — trained on your data and deployed for real-world performance.",
+      "title": "MVPs & POCs",
+      "subtitle": "Validate Your Idea Fast",
+      "description": "We build Minimum Viable Products (MVPs) and Proof-of-Concepts (POCs) in weeks — helping you test real-world potential, attract investors, and launch faster with reduced risk.",
       "buttons": [
         {
           "text": "Start My AI Project",
@@ -18,12 +18,12 @@
     },
     "introduction_section": {
       "heading": "What is",
-      "span_heading":"Machine Learning Models?",
+      "span_heading":" MVPs & POCs?",
       "content": [
-        "At Devisgon, we don’t just build models, we build production-ready ML pipelines. This means your models don’t live in notebooks; they’re deployed, monitored, and optimized to work with real-world data at scale.",
-        "We help businesses across retail, healthcare, logistics, fintech, and SaaS harness the power of ML to solve problems and gain a competitive edge."
+        "Every great product starts with an idea, but ideas don’t secure customers or investors. The fastest way to prove an idea is to test it in the real world with an MVP or POC.",
+        "At Devisgon, we help startups, enterprises, and innovators validate product ideas quickly. Our MVPs focus on delivering the core features only. This approach saves time, money, and effort while providing a clear roadmap to product-market fit and investor readiness."
       ],
-      "highlight_quote": "“Custom models, sharper predictions, 30% higher accuracy.”",
+      "highlight_quote": "“Build smart, launch fast, validate with impact.”",
       "side_image": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop"
     },
     "key_benefits_section": {
@@ -31,46 +31,46 @@
       "subtitle": "Transform your operations with proven results",
       "cards": [
         {
-          "title": "Accurate Predictions",
-          "description": "Forecast demand, detect anomalies, and recommend actions with precision.",
-          "icon_type": "TbTargetArrow "
+          "title": "Faster Go-To-Market",
+          "description": "Launch in weeks instead of months.",
+          "icon_type": "FaRocket"
         },
         {
-          "title": "Automation at Scale",
-          "description": "Replace manual analysis with AI-driven decision-making.",
+          "title": "Investor-Ready",
+          "description": "Use MVPs/POCs to demonstrate traction and raise funds.",
           "icon_type": "HiCurrencyDollar "
         },
           {
-          "title": "Custom-Tailored Models",
-          "description": "Models trained on your specific business data, not generic datasets.",
-          "icon_type": "BsCodeSquare "
+          "title": "Reduced Risk",
+          "description": "Validate ideas before committing to large-scale builds.",
+          "icon_type": "IoShieldCheckmarkSharp "
         },
         {
-          "title": "End-to-End Deployment",
-          "description": "From training to production monitoring, we handle the full ML lifecycle.",
-          "icon_type": "FaRocket "
+          "title": "User Feedback",
+          "description": "Gather insights from real users early in the cycle.",
+          "icon_type": "FaCloud "
         }
       ]
     },
     "what_you_get_section": {
-      "title": "What you'll get when you choose with us ML models",
+      "title": "What you'll get when you choose with us on an MVP or POC",
       "image": "https://images.unsplash.com/photo-1655720406100-3921a392d7ac?q=80&w=800&auto=format&fit=crop",
       "list_items": [
         {
-          "title": "1. Tailored ML Models",
-          "description": "Custom-trained ML models (classification, regression, clustering, NLP, etc.)"
+          "title": "1. Functional Prototype",
+          "description": "A working MVP or POC with core features only."
         },
          {
-          "title": "2. API Integration",
-          "description": "API endpoints for model integration into apps/software."
+          "title": "2. Interactive Demos",
+          "description": "Interactive prototypes for stakeholder demos."
         },
           {
-          "title": "3. Clear Documentation",
-          "description": "Model documentation and training reports."
+          "title": "3. Growth Roadmap",
+          "description": "Roadmap for scaling to a full product."
         },
          {
-          "title": "4. Scalable Deployment",
-          "description": "Scalable deployment on cloud or on-prem infrastructure."
+          "title": "4. Technical Assets",
+          "description": "Source code, APIs, and deployment if needed."
         }
       ]
     },
@@ -78,7 +78,7 @@
       "title": "We work with modern, proven technologies",
       "subtitle": "Industry-leading tools for maximum reliability and performance",
       "tools": [
-         { 
+        { 
           "name": "Python", 
           "icon": "FaPython " 
         },
@@ -110,41 +110,41 @@
       "steps": [
         {
           "title": "Discover",
-          "description": "Define business goals, identify data sources, and select ML use case.",
+          "description": "Define idea, identify core features, and scope MVP/POC.",
           "icon": "FaSearch"
         },
         {
           "title": "Design",
-          "description": "Data preprocessing, feature engineering, and model architecture planning.",
+          "description": "Build wireframes, prototypes, and workflows.",
           "icon": "TbTools"
         },
        {
           "title": "Build",
-          "description": "Train and validate ML models, test with historical datasets.",
+          "description": "Develop essential features only, integrate key APIs.",
           "icon": "FaHammer"
         },
        {
           "title": "Launch",
-          "description": "Deploy production-ready models with monitoring and feedback loops.",
+          "description": "Deploy, test with real users, and gather feedback.",
           "icon": "FaRocket"
         }
       ]
     },
     "case_study_section": {
-      "headline": "AI Cut Overstock by 18%",
+      "headline": "Idea to $250K Seed in Weeks",
       "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
       "content": [
        {
           "label": "Problem",
-          "text": "A logistics company struggled with unpredictable demand, leading to overstock and supply chain delays."
+          "text": "A startup founder had an idea for a job-matching platform but needed to test feasibility and attract funding."
         },
         {
           "label": "Solution",
-          "text": "We built a demand forecasting ML model trained on 5 years of sales and seasonal data."
+          "text": "We built a POC in 3 weeks to validate the matching algorithm, followed by an MVP with just the essential features."
         },
         {
           "label": "Result",
-          "text": "Forecast accuracy improved by 30%, reducing overstock costs by 18% and optimizing supply chain efficiency."
+          "text": "The founder secured $250K in seed funding and expanded the platform into a full product."
         }
       ]
     },
@@ -175,5 +175,5 @@
         "link_url": "/contact"
       }
     }
-  }
+  
 }

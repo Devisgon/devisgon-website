@@ -1,9 +1,9 @@
-{
-  "ai_apps_page": {
+{   "slug": "machine-learning",
+
     "hero_section": {
-      "title": "AI-Powered Apps",
-      "subtitle": "Smarter, Faster, Adaptive Software",
-      "description": "We build AI-driven applications that understand, predict, and personalize, helping your business run smarter.",
+      "title": "Machine Learning Models",
+      "subtitle": "Data-Driven Predictions That Scale",
+      "description": "We build custom machine learning models for prediction, recommendation, classification, and automation — trained on your data and deployed for real-world performance.",
       "buttons": [
         {
           "text": "Start My AI Project",
@@ -17,13 +17,13 @@
       "hero_image": "https://images.unsplash.com/photo-1616469829941-c7200edec809?q=80&w=800&auto=format&fit=crop"
     },
     "introduction_section": {
-      "heading": "What is ",
-      "span_heading":"AI Powered Apps?",
+      "heading": "What is",
+      "span_heading":"Machine Learning Models?",
       "content": [
-        "At Devisgon, we build AI-powered apps that blend software, machine learning, and automation to analyze data, understand language, and deliver intelligent results faster.",
-       "From chatbots to recommendations and predictive dashboards, our scalable AI apps help industries like retail, healthcare, and finance unlock smarter digital experiences."
+        "At Devisgon, we don’t just build models, we build production-ready ML pipelines. This means your models don’t live in notebooks; they’re deployed, monitored, and optimized to work with real-world data at scale.",
+        "We help businesses across retail, healthcare, logistics, fintech, and SaaS harness the power of ML to solve problems and gain a competitive edge."
       ],
-      "highlight_quote": "“Smarter AI apps, faster insights, 3x business efficiency.”",
+      "highlight_quote": "“Custom models, sharper predictions, 30% higher accuracy.”",
       "side_image": "https://images.unsplash.com/photo-1675271591211-126ad94e495d?q=80&w=800&auto=format&fit=crop"
     },
     "key_benefits_section": {
@@ -31,46 +31,46 @@
       "subtitle": "Transform your operations with proven results",
       "cards": [
         {
-          "title": "Smarter Workflows",
-          "description": "Automate repetitive tasks and decision-making with AI.",
-          "icon_type": "FaNetworkWired "
+          "title": "Accurate Predictions",
+          "description": "Forecast demand, detect anomalies, and recommend actions with precision.",
+          "icon_type": "TbTargetArrow "
         },
         {
-          "title": "Personalized Experiences",
-          "description": "Deliver recommendations, predictions, and tailored content to users.",
-          "icon_type": "PiSlidersFill "
+          "title": "Automation at Scale",
+          "description": "Replace manual analysis with AI-driven decision-making.",
+          "icon_type": "HiCurrencyDollar "
+        },
+          {
+          "title": "Custom-Tailored Models",
+          "description": "Models trained on your specific business data, not generic datasets.",
+          "icon_type": "BsCodeSquare "
         },
         {
-          "title": "Scalable Performance",
-          "description": "AI models optimized for real-time performance and cloud-native scaling.",
+          "title": "End-to-End Deployment",
+          "description": "From training to production monitoring, we handle the full ML lifecycle.",
           "icon_type": "FaRocket "
-        },
-        {
-          "title": "Continuous Learning",
-          "description": "Apps that get smarter with every interaction.",
-          "icon_type": "MdOutlineManageHistory "
         }
       ]
     },
     "what_you_get_section": {
-      "title": "What you'll get when you choose AI-Powered Apps",
+      "title": "What you'll get when you choose with us ML models",
       "image": "https://images.unsplash.com/photo-1655720406100-3921a392d7ac?q=80&w=800&auto=format&fit=crop",
       "list_items": [
         {
-          "title": "1. Intelligent Applications",
-          "description": "Custom web or mobile apps built to solve real business problems with AI."
+          "title": "1. Tailored ML Models",
+          "description": "Custom-trained ML models (classification, regression, clustering, NLP, etc.)"
         },
-        {
-          "title": "2. Integrated AI Models",
-          "description": "Seamless features for chat, vision, and predictive analytics."
+         {
+          "title": "2. API Integration",
+          "description": "API endpoints for model integration into apps/software."
         },
-        {
-          "title": "3. API Endpoints",
-          "description": "Easy integration with your existing systems and workflows."
+          {
+          "title": "3. Clear Documentation",
+          "description": "Model documentation and training reports."
         },
-        {
-          "title": "4. Documentation & Training",
-          "description": "Clear guides and training to ensure smooth adoption."
+         {
+          "title": "4. Scalable Deployment",
+          "description": "Scalable deployment on cloud or on-prem infrastructure."
         }
       ]
     },
@@ -78,7 +78,7 @@
       "title": "We work with modern, proven technologies",
       "subtitle": "Industry-leading tools for maximum reliability and performance",
       "tools": [
-        { 
+         { 
           "name": "Python", 
           "icon": "FaPython " 
         },
@@ -110,43 +110,43 @@
       "steps": [
         {
           "title": "Discover",
-          "description": "Identify use cases & AI opportunities",
-          "icon": "FaSearch "
+          "description": "Define business goals, identify data sources, and select ML use case.",
+          "icon": "FaSearch"
         },
         {
           "title": "Design",
-          "description": "Design Wireframes + model selection",
-          "icon": "TbTools "
+          "description": "Data preprocessing, feature engineering, and model architecture planning.",
+          "icon": "TbTools"
         },
-        {
+       {
           "title": "Build",
-          "description": "Develop application + integrate AI models",
-          "icon": "FaHammer "
+          "description": "Train and validate ML models, test with historical datasets.",
+          "icon": "FaHammer"
         },
-        {
+       {
           "title": "Launch",
-          "description": "Deploy, monitor, and optimize your automation systems",
-          "icon": "FaRocket "
+          "description": "Deploy production-ready models with monitoring and feedback loops.",
+          "icon": "FaRocket"
         }
       ]
     },
     "case_study_section": {
-      "headline": "Boosted Conversions 18% with AI",
+      "headline": "AI Cut Overstock by 18%",
       "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
-      "content": {
-        "problem": {
+      "content": [
+       {
           "label": "Problem",
-          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
+          "text": "A logistics company struggled with unpredictable demand, leading to overstock and supply chain delays."
         },
-        "solution": {
+        {
           "label": "Solution",
-          "text": "We built an AI-powered recommendation engine into their e-commerce app."
+          "text": "We built a demand forecasting ML model trained on 5 years of sales and seasonal data."
         },
-        "result": {
+        {
           "label": "Result",
-          "text": "Conversion rates improved by 18% and session times increased by 25%."
+          "text": "Forecast accuracy improved by 30%, reducing overstock costs by 18% and optimizing supply chain efficiency."
         }
-      }
+      ]
     },
     "faq_section": {
       "title": "Frequently Asked Questions",
@@ -175,5 +175,5 @@
         "link_url": "/contact"
       }
     }
-  }
+  
 }

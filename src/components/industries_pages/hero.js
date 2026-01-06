@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 import { Play } from 'lucide-react'; // Make sure to install lucide-react: npm i lucide-react
 

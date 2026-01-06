@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 // Combine icon libraries for dynamic lookup
 import AllIcons from "../icons"

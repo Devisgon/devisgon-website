@@ -1,3 +1,4 @@
+"use client";
 import React from 'react';
 // Assuming you have imported all icons as an object named AllIcons
 // Example: import * as AllIcons from 'react-icons/fa'; (or your specific setup)
