@@ -1,6 +1,5 @@
 {  "slug": "web-application",
 
-  "ai_apps_page": {
     "hero_section": {
       "title": "Web Applications",
       "subtitle": "Scalable, Responsive & Future-Ready",
@@ -133,22 +132,22 @@
       ]
     },
     "case_study_section": {
-      "headline": "50K Users, 30% Sales Growth with Custom Web App",
+      "headline": "Boosted Conversions 18% with AI",
       "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
-      "content": [
-       {
-          "label": "problem",
-          "text": "A fast-growing e-commerce company needed a scalable platform to handle thousands of daily users and real-time inventory updates."
+      "content": {
+        "problem": {
+          "label": "Problem",
+          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
         },
-        {
+        "solution": {
           "label": "Solution",
-          "text": "We developed a custom web application with React frontend, Node.js backend, and integrated payment gateways."
+          "text": "We built an AI-powered recommendation engine into their e-commerce app."
         },
-        {
+        "result": {
           "label": "Result",
-          "text": "The platform scaled to 50,000+ monthly users with a 30% increase in sales and improved customer satisfaction."
+          "text": "Conversion rates improved by 18% and session times increased by 25%."
         }
-      ]
+      }
     },
     "faq_section": {
       "title": "Frequently Asked Questions",
@@ -177,5 +176,5 @@
         "link_url": "/contact"
       }
     }
-  }
+  
 }

@@ -1,6 +1,5 @@
 {  "slug": "app-application",
 
-  "ai_apps_page": {
     "hero_section": {
       "title": "Mobile Applications",
       "subtitle": "Native & Cross-Platform Experiences",
@@ -132,22 +131,22 @@
       ]
     },
     "case_study_section": {
-      "headline": "20K Downloads & 45% Sales Boost with Retail Mobile App",
+      "headline": "Boosted Conversions 18% with AI",
       "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
-      "content": [
-       {
+      "content": {
+        "problem": {
           "label": "Problem",
-          "text": "A retail business needed a mobile shopping app to boost online sales and customer engagement."
+          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
         },
-        {
+        "solution": {
           "label": "Solution",
-          "text": "We built a cross-platform Flutter app with product catalog, payments, push notifications, and analytics."
+          "text": "We built an AI-powered recommendation engine into their e-commerce app."
         },
-        {
+        "result": {
           "label": "Result",
-          "text": "The app achieved 20,000 downloads in 3 months, increasing mobile sales by 45% and customer loyalty by 30%."
+          "text": "Conversion rates improved by 18% and session times increased by 25%."
         }
-      ]
+      }
     },
     "faq_section": {
       "title": "Frequently Asked Questions",
@@ -177,4 +176,3 @@
       }
     }
   }
-}

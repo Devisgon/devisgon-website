@@ -1,8 +1,13 @@
 "use client";
 
-import React from 'react';
+import React from "react";
 
 const CaseStudySection = ({ data }) => {
+  // Optional: fallback if data or content is missing
+  if (!data || !data.content) return null;
+
+  const { headline, image, content } = data;
+  const { problem, solution, result } = content;
 
   return (
     <section className="w-full bg-[#F7EDFE] py-20 px-6 md:px-12 lg:px-24">
@@ -10,54 +15,59 @@ const CaseStudySection = ({ data }) => {
         
         {/* --- Left Column: Text Content --- */}
         <div className="flex flex-col justify-center">
-          
           {/* Main Headline */}
           <h2 className="text-3xl md:text-4xl font-bold text-primary mb-10 leading-tight">
-            {data.headline}
+            {headline}
           </h2>
 
           {/* Problem Block */}
-          <div className="mb-6">
-            <h3 className="text-xl font-bold text-primary mb-2">
-              {data.content.problem.label}
-            </h3>
-            <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
-              {data.content.problem.text}
-            </p>
-          </div>
+          {problem && (
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-primary mb-2">
+                {problem.label}
+              </h3>
+              <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
+                {problem.text}
+              </p>
+            </div>
+          )}
 
           {/* Solution Block */}
-          <div className="mb-6">
-            <h3 className="text-xl font-bold text-primary mb-2">
-              {data.content.solution.label}
-            </h3>
-            <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
-              {data.content.solution.text}
-            </p>
-          </div>
+          {solution && (
+            <div className="mb-6">
+              <h3 className="text-xl font-bold text-primary mb-2">
+                {solution.label}
+              </h3>
+              <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
+                {solution.text}
+              </p>
+            </div>
+          )}
 
           {/* Result Block */}
-          <div>
-            <h3 className="text-xl font-bold text-primary mb-2">
-              {data.content.result.label}
-            </h3>
-            <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
-              {data.content.result.text}
-            </p>
-          </div>
-
+          {result && (
+            <div>
+              <h3 className="text-xl font-bold text-primary mb-2">
+                {result.label}
+              </h3>
+              <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
+                {result.text}
+              </p>
+            </div>
+          )}
         </div>
 
         {/* --- Right Column: Case Study Image --- */}
         <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
-          <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-purple-100 group">
-            {/* Image with hover effect */}
-            <img 
-              src={data.image} 
-              alt="Case Study Result" 
-              className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
-            />
-          </div>
+          {image && (
+            <div className="w-full rounded-2xl overflow-hidden shadow-2xl border border-purple-100 group">
+              <img
+                src={image}
+                alt={headline || "Case Study Image"}
+                className="w-full h-auto object-cover transform transition-transform duration-700 group-hover:scale-105"
+              />
+            </div>
+          )}
         </div>
 
       </div>

@@ -1,6 +1,5 @@
 {  "slug": "custom-bots",
 
-  "ai_apps_page": {
     "hero_section": {
       "title": "Custom Scripts & Bots",
       "subtitle": "Automate Anything, Save Hours",
@@ -139,22 +138,22 @@
       ]
     },
     "case_study_section": {
-      "headline": "12 Hours Saved Weekly with Automated Reporting Bot",
+      "headline": "Boosted Conversions 18% with AI",
       "image": "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=1000&auto=format&fit=crop",
-      "content": [
-       {
+      "content": {
+        "problem": {
           "label": "Problem",
-          "text": "A digital marketing agency spent hours every week compiling reports from Google Analytics, Facebook Ads, and LinkedIn."
+          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
         },
-        {
+        "solution": {
           "label": "Solution",
-          "text": "We built a Python bot that automatically fetched data, compiled it into a dashboard, and emailed reports weekly."
+          "text": "We built an AI-powered recommendation engine into their e-commerce app."
         },
-        {
+        "result": {
           "label": "Result",
-          "text": "Reporting time dropped from 12 hours per week to 30 minutes, improving accuracy and freeing the team for strategy."
+          "text": "Conversion rates improved by 18% and session times increased by 25%."
         }
-      ]
+      }
     },
     "faq_section": {
       "title": "Frequently Asked Questions",
@@ -183,5 +182,5 @@
         "link_url": "/contact"
       }
     }
-  }
+  
 }
