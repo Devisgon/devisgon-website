@@ -1,4 +1,4 @@
-import data from "../../data/services/ai_and_saas_developments/ai_powered_app.json"
+import rawData from "../../data/services/ai_and_saas_developments/ai_powered_app.json"
 import Header from "../../components/navbar"
 import Hero from "../../components/industries_pages/hero"
 import Introduction from "../../components/industries_pages/introduction"
@@ -10,24 +10,28 @@ import Casestudy from "../../components/industries_pages/case_study"
 import Faqs from "../../components/industries_pages/faq"
 import Footer from "../../components/footer"
 
-const pgdata = data;
+cimport rawData from "../../data/services/ai_and_saas_developments/ai_powered_app.json";
+
+const pgdata = rawData && typeof rawData === "object" ? rawData : null;
 
 export default function Home() {
+  if (!pgdata) {
+    throw new Error("Industries page data missing or invalid");
+  }
 
   return (
     <>
-    <Header/>
-    <Hero />
-   <Introduction data={pgdata.ai_apps_page.introduction_section} />
-   <KeyBenefitsSection data={pgdata.ai_apps_page.key_benefits_section}/>
-   <WhatYouGetSection data={pgdata.ai_apps_page.what_you_get_section}/>
-   <Technalogies data={pgdata.ai_apps_page.technologies_section}/>
-   <Progress data={pgdata.ai_apps_page.process_section}/>
-   <Casestudy data={pgdata.ai_apps_page.case_study_section}/>
-   <Faqs data={pgdata.ai_apps_page.faq_section}/>
-    <Footer/>
-
-    
+      <Header />
+      <Hero data={pgdata.hero_section} />
+      <Introduction data={pgdata.introduction_section} />
+      <KeyBenefitsSection data={pgdata.key_benefits_section} />
+      <WhatYouGetSection data={pgdata.what_you_get_section} />
+      <Technalogies data={pgdata.technologies_section} />
+      <Progress data={pgdata.process_section} />
+      <Casestudy data={pgdata.case_study_section} />
+      <Faqs data={pgdata.faq_section} />
+      <Footer />
     </>
   );
 }
+
