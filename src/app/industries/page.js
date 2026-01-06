@@ -10,7 +10,7 @@ import Casestudy from "../../components/industries_pages/case_study"
 import Faqs from "../../components/industries_pages/faq"
 import Footer from "../../components/footer"
 
-const pgdata = data[0]
+const pgdata = data;
 
 export default function Home() {
 
