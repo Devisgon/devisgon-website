@@ -87,7 +87,7 @@ const BlogSection = () => {
             </div>
           ))}
         </div>
-         <button className="p-4 bg-primary rounded-xl ml-[40%] mt-20">
+         <button className="p-4 bg-primary text-white rounded-xl ml-[40%] mt-20">
             View more
         </button>
 

@@ -3,7 +3,11 @@ import { FaArrowRight } from "react-icons/fa";
 
 const HeroSection = ({ data }) => {
   return (
-    <section className="relative w-full min-h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-[#FBF7FE] pt-20 pb-32">
+    <section className="relative w-full min-h-[90vh] flex flex-col items-center justify-center overflow-hidden bg-[#FBF7FE] pt-20 pb-32"
+     style={{
+    backgroundColor: "#FBF7FE",
+    backgroundImage: "url('/home_page/hero_section/hero_bg.svg')",
+  }}>
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center text-center">
 
         <div className="mb-6">
