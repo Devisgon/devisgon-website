@@ -1,28 +1,31 @@
 "use client";
-import React from 'react';
+import React from "react";
 
 const IntroductionSection = ({ data }) => {
+  if (!data) return null;
+
   return (
-    <section className="w-full  py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
+    <section className="w-full py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         <div className="flex flex-col gap-6">  
           <h2 className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
-            {data.heading} <span className="text-secondary">{data.span_heading}</span>
+            {data.heading}{" "}
+            <span className="text-secondary">{data.span_heading}</span>
           </h2>
 
           <div className="space-y-6">
-            {data.content.map((paragraph, index) => (
-              <p 
-                key={index} 
-                className="text-lg text-secondary leading-relaxed font-medium"
-              >
-                {data.paragraph}
-              </p>
-            ))}
+            {Array.isArray(data.content) &&
+              data.content.map((paragraph, index) => (
+                <p
+                  key={index}
+                  className="text-lg text-secondary leading-relaxed font-medium"
+                >
+                  {paragraph}
+                </p>
+              ))}
           </div>
 
-          {/* Highlight Quote Box */}
           <div className="mt-4 p-4 bg-[#EAD5F9] border-l-4 border-[#D1AFEC] rounded-r-xl shadow-sm">
             <p className="text-primary font-bold text-lg italic">
               {data.highlight_quote}
@@ -31,13 +34,13 @@ const IntroductionSection = ({ data }) => {
         </div>
 
         <div className="relative w-full h-full flex justify-center lg:justify-end">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-100 bg-black w-full max-w-lg">
-                 <img 
-                    src={data.side_image} 
-                    alt="AI App Interface" 
-                    className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
-                 />
-            </div>
+          <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-100 bg-black w-full max-w-lg">
+            <img
+              src={data.side_image}
+              alt="AI App Interface"
+              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+            />
+          </div>
         </div>
 
       </div>
