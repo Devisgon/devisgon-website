@@ -13,15 +13,12 @@ const WhatYouGetSection = ({ data }) => {
             {data.title}
           </h2>
 
-          {/* List Items Loop */}
           <div className="space-y-8">
             {data.list_items.map((item, index) => (
               <div key={index} className="flex flex-col">
-                {/* Item Title */}
                 <h3 className="text-xl font-bold text-primary mb-2">
                   {item.title}
                 </h3>
-                {/* Item Description */}
                 <p className="text-secondary text-base md:text-lg font-medium leading-relaxed opacity-90">
                   {item.description}
                 </p>
@@ -31,14 +28,12 @@ const WhatYouGetSection = ({ data }) => {
 
         </div>
 
-        {/* --- Right Column: Image --- */}
         <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
-          {/* Image Wrapper with styling */}
-          <div className="w-full rounded-3xl overflow-hidden shadow-2xl border border-purple-100">
+          <div className="w-full rounded-3xl overflow-hidden ">
             <img 
               src={data.image} 
               alt="Feature Illustration" 
-              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-700 ease-in-out"
+              className="w-full h-auto object-cover hover:scale-105  duration-700 "
             />
           </div>
         </div>

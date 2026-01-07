@@ -4,8 +4,6 @@ import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import data from "../../data/home_page.json";
 
-
-
 const TestimonialSection = () => {
   const section = data.testimonials_section;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -52,7 +50,6 @@ const TestimonialSection = () => {
                 {section.subtitle_note}
               </p>
 
-              {/* Navigation Buttons */}
               <div className="flex items-center justify-start lg:justify-end gap-3">
                 <button
                   onClick={handlePrev}
@@ -73,7 +70,6 @@ const TestimonialSection = () => {
           </div>
         </div>
 
-        {/* CARDS SECTION */}
         <div
           ref={containerRef}
           className="flex overflow-x-auto no-scrollbar gap-4 pb-4 scroll-smooth"
@@ -96,7 +92,6 @@ const TestimonialSection = () => {
                   }
                 `}
               >
-                {/* Top Part: Image + Name */}
                 <div className="flex items-center gap-4 mb-4 md:mb-6">
                   <img
                     src={review.image}

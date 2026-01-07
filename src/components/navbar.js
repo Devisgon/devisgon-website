@@ -13,7 +13,6 @@ const Navbar = () => {
 
   const navLinks = data.navbar;
 
-  // Theme logic
   useEffect(() => {
     setMounted(true);
     const storedTheme = localStorage.getItem("theme");
@@ -37,7 +36,6 @@ const Navbar = () => {
     localStorage.setItem("theme", newTheme ? "dark" : "light");
   };
 
-  // Mobile scroll lock
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "unset";
     return () => {
@@ -51,15 +49,10 @@ const Navbar = () => {
     <header className="fixed top-0 w-full z-50 bg-bg-primary border-b border-border/50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col group">
-          <span className="text-2xl font-bold text-primary">
-            DEVISGON
-            <span className="text-secondary group-hover:text-primary">.</span>
-          </span>
-          <span className="text-[10px] text-muted-foreground tracking-wide">
-            Unleashing Innovation
-          </span>
-        </Link>
+         <img
+          src="/logo/logo.svg"
+          alt="logo"
+         />
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
@@ -109,7 +102,6 @@ const Navbar = () => {
             </div>
           ))}
 
-          {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
             className="p-2 rounded-full hover:bg-muted transition-colors"
@@ -119,7 +111,6 @@ const Navbar = () => {
           </button>
         </nav>
 
-        {/* Mobile Controls */}
         <div className="md:hidden flex items-center gap-2">
           <button onClick={toggleTheme} className="p-2" aria-label="Toggle Theme">
             {isDark ? <Sun /> : <Moon />}
@@ -134,13 +125,11 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Sidebar */}
       <div
         className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
           ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
           bg-white text-gray-900 pointer-events-auto`}
       >
-        {/* Close Button */}
         <div className="flex justify-end p-4">
           <button
             onClick={() => setMobileOpen(false)}
@@ -151,7 +140,6 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Links */}
         <div className="p-6 space-y-6 overflow-y-auto h-[calc(100vh-64px)]">
           {navLinks.map((link) => (
             <div key={link.name} className="border-b pb-3 last:border-0">

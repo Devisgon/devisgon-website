@@ -12,17 +12,16 @@ const IntroductionSection = ({ data }) => {
           </h2>
 
           <div className="space-y-6">
-            {data.content.map((paragraph, index) => (
+            {data.content.map((content, index) => (
               <p 
                 key={index} 
                 className="text-lg text-secondary leading-relaxed font-medium"
               >
-                {data.paragraph}
+                {data.content}
               </p>
             ))}
           </div>
 
-          {/* Highlight Quote Box */}
           <div className="mt-4 p-4 bg-[#EAD5F9] border-l-4 border-[#D1AFEC] rounded-r-xl shadow-sm">
             <p className="text-primary font-bold text-lg italic">
               {data.highlight_quote}
@@ -30,8 +29,8 @@ const IntroductionSection = ({ data }) => {
           </div>
         </div>
 
-        <div className="relative w-full h-full flex justify-center lg:justify-end">
-            <div className="rounded-2xl overflow-hidden shadow-2xl border border-gray-100 bg-black w-full max-w-lg">
+        <div className="relative w-full flex justify-center lg:justify-end">
+            <div className="rounded-2xl overflow-hidden  w-full max-w-lg">
                  <img 
                     src={data.side_image} 
                     alt="AI App Interface" 

@@ -12,7 +12,6 @@ const ServicesList = () => {
           <section key={index} className="px-6 md:px-12 lg:px-20" style={{ backgroundColor: service.bg }}>
             <div className="max-w-7xl mx-auto m-4">
               
-              {/* --- Header Section --- */}
               <div className="text-center max-w-3xl mx-auto mb-16 mt-4">
                 <h3 className="text-primary font-bold text-lg md:text-xl mb-3">
                   {service.category}
@@ -34,7 +33,6 @@ const ServicesList = () => {
                     key={fIndex}
                     className="bg-white border max-w-xl border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 group"
                   >
-                    {/* Icon Box */}
                     <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   {IconComponent ? ( <IconComponent className="w-6 h-6 text-[#8B3DFF]" />) : ( <span className="text-red-600 text-xs">Icon not found</span>)}
 
@@ -49,7 +47,6 @@ const ServicesList = () => {
                 )})}
               </div>
 
-              {/* --- Central Banner Image --- */}
               <div className="relative w-full h-[300px] md:h-[400px]  overflow-hidden mb-12 ">
                  <img 
                    src={service.image} 
@@ -59,10 +56,8 @@ const ServicesList = () => {
                  
               </div>
 
-              {/* --- Footer Info (Deliverables & Tech Stack) --- */}
               <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pt-10">
                 
-                {/* Left: Deliverables */}
                 <div className="flex flex-col gap-3 items-center">
                   <span className="text-primary items-center font-bold text-sm uppercase tracking-wide">
                     Deliverables:
@@ -79,7 +74,6 @@ const ServicesList = () => {
                   </div>
                 </div>
 
-                {/* Right: Tech Stack */}
                 <div className="flex flex-col gap-3 md:items-center">
                   <span className="text-primary font-bold text-sm uppercase tracking-wide">
                     Tech Stack:

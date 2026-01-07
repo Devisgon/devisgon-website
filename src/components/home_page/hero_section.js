@@ -7,6 +7,8 @@ const HeroSection = ({ data }) => {
      style={{
     backgroundColor: "#FBF7FE",
     backgroundImage: "url('/home_page/hero_section/hero_bg.svg')",
+        backgroundRepeat: "no-repeat",
+    backgroundPosition: "center bottom",
   }}>
       <div className="relative z-10 container mx-auto px-4 flex flex-col items-center text-center">
 
