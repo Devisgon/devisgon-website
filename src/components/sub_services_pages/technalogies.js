@@ -5,7 +5,7 @@ import AllIcons from "../icons"
 const TechnologiesSection = ({ data }) => {
 
   return (
-    <section className="w-full bg-[#F7EDFE] py-20 px-4">
+    <section className="w-full bg-bg-primary py-20 px-4">
       <div className="container mx-auto max-w-7xl text-center">
         
         {/* --- Header --- */}

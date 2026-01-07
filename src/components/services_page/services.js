@@ -9,7 +9,7 @@ const ServicesList = () => {
             
 
         return (
-          <section key={index} className="px-6 md:px-12 lg:px-20" style={{ backgroundColor: service.bg }}>
+          <section key={index} className="px-6 md:px-12 lg:px-20 " style={{ backgroundColor: service.bg }}  >
             <div className="max-w-7xl mx-auto m-4">
               
               <div className="text-center max-w-3xl mx-auto mb-16 mt-4">

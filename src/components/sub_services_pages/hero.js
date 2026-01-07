@@ -12,7 +12,7 @@ const HeroSection = ({ data }) => {
       <div className="absolute top-1/2 -translate-y-1/2 left-1/2 w-[300px] h-[300px] rounded-full border-[40px] border-[#8145B5] opacity-10" />
       <div className="absolute top-20 right-16 w-[100px] h-[100px] rounded-full border-[16px] border-[#8145B5] opacity-10" />
 
-      <div className="  px-16 relative z-10 flex gap-0.5 ">
+      <div className="  px-22 relative z-10 flex gap-0.5 ">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-2/3 bg-[#E9D5FF] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10">
             <h1 className="text-5xl md:text-6xl font-bold text-primary mb-2 tracking-tight">{title}</h1>
@@ -30,7 +30,7 @@ const HeroSection = ({ data }) => {
           </div>
 
           <div className="w-full lg:w-1/3  z-20">
-            <div className="relative mx-auto w-[300px] h-[470px]  rounded-2xl  overflow-hidden">
+            <div className="relative mx-auto w-[300px] h-[550px]  rounded-2xl  overflow-hidden">
               <img
                 src={hero_image}
                 alt="App Interface"

@@ -34,8 +34,8 @@ const HeroSection = ({ data }) => {
       {data.cta_button.text}
    </span>
   <span
-    className="relative z-10 ml-auto mr-2 flex h-14 w-14 items-center justify-center  text-[#3b2363] transition-all duration-500" >
-    <FaArrowRight />
+    className="relative z-10 ml-auto mr-2  h-14 w-14 flex items-center justify-center  text-[#3b2363] transition-all duration-500" >
+    <FaArrowRight className=""/>
   </span>
 </button>
 

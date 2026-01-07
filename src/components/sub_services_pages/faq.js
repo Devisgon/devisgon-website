@@ -14,7 +14,7 @@ const FAQSection = ({ data }) => {
   };
 
   return (
-    <section className="w-full bg-white py-20 px-6">
+    <section className="w-full py-20 px-6">
       <div className="container mx-auto max-w-3xl">
         
         {/* --- Header --- */}

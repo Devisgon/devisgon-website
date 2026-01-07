@@ -61,7 +61,7 @@ const Navbar = () => {
               {/* Main Link */}
               <Link
                 href={link.href}
-                className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className="flex items-center gap-1 text-sm font-medium text-primary  transition-colors"
               >
                 {link.name}
                 {link.dropdown && (
@@ -72,7 +72,7 @@ const Navbar = () => {
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -left-84 mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -left-84 text-primary mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0 transition-all duration-200 z-50"
                 >
@@ -104,7 +104,7 @@ const Navbar = () => {
 
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full hover:bg-muted transition-colors"
+            className="p-2 rounded-full text-primary hover:bg-muted transition-colors"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}

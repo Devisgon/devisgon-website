@@ -15,9 +15,9 @@ export default function ContactPage() {
   return (
     <>
     <Header />
-    <div className="min-h-screen bg-[#fdf7ff]">
+    <div className="min-h-screen p-8">
 
-      <section className="w-full bg-[#FBF7FF] py-16 text-center px-4">
+      <section className="w-full py-16 text-center px-4">
         <h1 className="text-4xl md:text-5xl font-extrabold text-primary mb-4">
           Let's Talk About Your Project
         </h1>
@@ -42,26 +42,35 @@ export default function ContactPage() {
 
             <form  className="space-y-4">
 
-              <div className="grid grid-cols-2 gap-4">
-                
+              <div className="grid grid-cols-2 gap-4 ">
+                <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Name *</p>
                 <input
                   type="text"
                   placeholder="Your name"
                   className="text-primary border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4"
                 />
+                </div>
+               <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Email *</p>
                 <input
                   type="email"
                   placeholder="your@email.com"
                   className="text-primary border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4"
                 />
               </div>
-
+              </div>
+             <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Company</p>
               <input
                 type="text"
                 placeholder="Your company name"
                   className="text-primary w-full border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4"
               />
+               </div>
 
+               <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Project Type *</p>
               <select className="text-primary w-full border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4"> 
               <option>Select project type</option>
                 <option>Web Development</option>
@@ -70,14 +79,20 @@ export default function ContactPage() {
                 <option>AI Solutions</option>
                 <option>Automation</option>
               </select>
+               </div>
 
+               <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Budget Range</p>
               <select  className="text-primary w-full border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4">
                 <option>Select budget range</option>
                 <option>$5k - $10k</option>
                 <option>$10k - $20k</option>
                 <option>$20k+</option>
               </select>
-
+                  </div>
+             
+              <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Time Line</p>
               <select  className="text-primary w-full border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4">
                 <option>Select timeline</option>
                 <option>ASAP</option>
@@ -85,25 +100,31 @@ export default function ContactPage() {
                 <option>3 - 6 Months</option>
                <option>6 - 9 Months</option>
               </select>
+              </div>
 
+              <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">Project Detail *</p>
               <textarea
                 rows="4"
                 placeholder="Tell us about your project, goals, and any specific requirements..."
                   className="text-secondary w-full border-[#D1AFEC] bg-[#EAD5F9] rounded-2xl p-4 "
               />
+               </div>
 
+               <div className="flex flex-col gap-1">
+                  <p className="text-primary ml-2">File Upload</p>
              <div className="border-2 border-dashed border-purple-300 rounded-lg p-8 text-center text-sm relative cursor-pointer">
                <input
                type="file"
                    className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
                   />
-                  <p className="text-secondary ">
-                    <IoMdCloudUpload  />
-                    Drop files here or click to upload <br />  PDF, DOC, PNG up to 10MB
+                  <p className="text-secondary flex  flex-col  justify-center items-center ">
+                    <IoMdCloudUpload  className="text-4xl text-primary"/>
+                       Drop files here or click to upload <br />  PDF, DOC, PNG up to 10MB
                     </p>
                     
             </div>
-
+               </div>
 
               <div className="flex items-start gap-2 text-sm">
                 <input
@@ -128,10 +149,8 @@ export default function ContactPage() {
             </form>
           </div>
 
-          {/* ================= RIGHT SIDE ================= */}
           <div className="space-y-6">
 
-            {/* Schedule */}
             <div className="bg-[#F7EDFE] border-[#EAD5F9] rounded-2xl p-8 text-center">
               <h2 className="text-xl font-semibold text-primary mb-2">
                 Schedule a call
@@ -150,7 +169,6 @@ export default function ContactPage() {
               
             </div>
 
-            {/* Contact Info */}
             <div className="bg-[#F7EDFE] rounded-2xl border-[#E5E7EB] p-8 space-y-4">
               <h3 className="text-lg font-semibold text-primary">Get in touch</h3>
 
@@ -179,9 +197,9 @@ export default function ContactPage() {
                          </a>
                    </div>
                    <div className="flex flex-row gap-4 justify-start p-4">
-                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl"><FaTwitter /> </div>
-                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl"><IoLogoLinkedin /> </div>
-                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl"><FaBasketball  /> </div>
+                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl  transition-transform duration-500 ease-in-out hover:rotate-y-180"><FaTwitter  /> </div>
+                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl transition-transform duration-500 ease-in-out hover:rotate-y-180"><IoLogoLinkedin /> </div>
+                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl transition-transform duration-500 ease-in-out hover:rotate-y-180"><FaBasketball  /> </div>
 
                    </div>
                   

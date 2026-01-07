@@ -6,12 +6,10 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-16">
           
           <div className="flex flex-col items-start gap-6">
-            <h2 className="text-2xl font-bold tracking-wide uppercase">
-              DEVISGON<span className="text-[#8B3DFF]">.</span>
-              <span className="block text-[8px] normal-case tracking-normal text-gray-500 mt-[-2px]">
-                Unleashing Innovation, Transforming Business
-              </span>
-            </h2>
+            <img
+          src="/logo/logo.svg"
+          alt="logo"
+         />
             
             <div className="flex flex-col gap-3 text-sm md:text-base font-medium opacity-80">
               <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">
