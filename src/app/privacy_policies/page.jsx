@@ -12,7 +12,7 @@ const PrivacyPolicy = () => {
   return (
     <>
     <Header/>
-    <div className="bg--bg min-h-screen bg-[#FBF7FE] text-primary ">
+    <div className="bg--bg min-h-screen bg-bg-secondary text-primary ">
 
       {/* Header */}
       <div className="pt-20 pb-12 text-center px-4">

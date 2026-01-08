@@ -4,13 +4,13 @@ const ServicesList = () => {
   const services = data.services;
 
   return (
-    <div className="flex flex-col gap-24 py-0">
+    <div className="flex flex-col ">
       {services.map((service, index) => {
             
 
         return (
-          <section key={index} className="px-6 md:px-12 lg:px-20 " style={{ backgroundColor: service.bg }}  >
-            <div className="max-w-7xl mx-auto m-4">
+          <section key={index} className="px-6 md:px-12 lg:px-20 dark:bg-bg-secondary " style={{ backgroundColor: service.bg, }}   >
+            <div className="max-w-7xl mx-auto py-8">
               
               <div className="text-center max-w-3xl mx-auto mb-16 mt-4">
                 <h3 className="text-primary font-bold text-lg md:text-xl mb-3">
@@ -34,7 +34,7 @@ const ServicesList = () => {
                     className="bg-white border max-w-xl border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
-                  {IconComponent ? ( <IconComponent className="w-6 h-6 text-[#8B3DFF]" />) : ( <span className="text-red-600 text-xs">Icon not found</span>)}
+                  {IconComponent ? ( <IconComponent className="w-6 h-6 text-secondary" />) : ( <span className="text-primary text-xs">Icon not found</span>)}
 
                     </div>
                     <h4 className="text-lg font-bold text-primary mb-2 group-hover:text-secondary transition-colors">

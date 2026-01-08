@@ -4,7 +4,7 @@ import React from 'react';
 const KeyBenefitsSection = ({ data }) => {
 
   return (
-    <section className="w-full  bg-[#FBF7FE] py-20 px-6">
+    <section className="w-full  bg-bg-secondary py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         
         <div className="text-center mb-16">

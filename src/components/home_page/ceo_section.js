@@ -2,7 +2,7 @@ import React from 'react';
 const CEOSection = ({ data }) => {
   if (!data) return null;
   return (
-    <section id="about" className="py-20 bg-[#FBF7FE]">
+    <section id="about" className="py-20 bg-bg-secondary">
       <div className="max-w-2xl mx-auto">
         <div className="relative bg-card rounded-2xl shadow-testimonial p-12 pt-8">
           <div className="flex justify-center -translate-y-10">

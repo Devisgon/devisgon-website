@@ -3,7 +3,6 @@
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import data from "../../data/home_page.json";
-
 const TestimonialSection = () => {
   const section = data.testimonials_section;
   const [activeIndex, setActiveIndex] = useState(0);

@@ -2,7 +2,7 @@
 
 const CallToAction = () => {
   return (
-    <section className="relative overflow-hidden  bg-gradient-to-r from-[#c9a3f3] via-[#d7b7f6] to-[#e6cff9] px-8 py-16 md:px-16 text-center shadow-lg">
+    <section className="relative overflow-hidden  bg-gradient-to-r from-[#c9a3f3] via-[#d7b7f6] to-[#e6cff9]   dark:from-[#5A3D7A] dark:via-[#6B4B99] dark:to-[#7C63B8] px-8 py-16 md:px-16 text-center shadow-lg">
       <div className="w-full">
         <div >
           
@@ -16,12 +16,18 @@ const CallToAction = () => {
           </p>
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="px-6 py-3 rounded-lg bg-[#8145B5] text-white font-medium  transition">
+            <button className="px-6 py-3 rounded-lg bg-primary text-white font-medium  transition">
+              <a href="/contact">
+
               Book a Consultation
+              </a>
+
             </button>
 
-            <button className="px-6 py-3 rounded-lg border border-[#7c3aed] text-primary font-medium  hover:text-white transition">
+            <button className="px-6 py-3 rounded-lg bg-primary text-white font-medium  hover:text-white transition">
+              <a href="/contact">
               Contact Us
+              </a>
             </button>
           </div>
 

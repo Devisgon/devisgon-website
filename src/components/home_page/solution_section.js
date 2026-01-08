@@ -2,7 +2,7 @@ import { Sparkles, Code } from "lucide-react";
 
 const SolutionsSection = ({ data }) => {
   return (
-    <section className="w-full py-10  bg-[#F7EDFE]">
+    <section className="w-full py-10  bg-bg-primary">
       <div className="max-w-6xl mx-auto mt-32 px-6">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
 

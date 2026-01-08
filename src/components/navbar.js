@@ -104,7 +104,7 @@ const Navbar = () => {
 
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full text-primary hover:bg-muted transition-colors"
+            className="p-2 rounded-full border-transparent text-primary hover:bg-muted transition-colors"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}
@@ -128,9 +128,9 @@ const Navbar = () => {
       <div
         className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
           ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
-          bg-white text-gray-900 pointer-events-auto`}
+          bg-bg-primary text-primary pointer-events-auto`}
       >
-        <div className="flex justify-end p-4">
+        <div className="flex bg-bg-primary justify-end p-4">
           <button
             onClick={() => setMobileOpen(false)}
             className="p-2"
@@ -140,9 +140,9 @@ const Navbar = () => {
           </button>
         </div>
 
-        <div className="p-6 space-y-6 overflow-y-auto h-[calc(100vh-64px)]">
+        <div className="p-6 bg-bg-primary space-y-6 overflow-y-auto h-[calc(100vh-64px)]">
           {navLinks.map((link) => (
-            <div key={link.name} className="border-b pb-3 last:border-0">
+            <div key={link.name} className=" pb-3 last:border-0">
               {link.dropdown ? (
                 <button
                   className="flex justify-between w-full text-lg font-bold"
@@ -173,14 +173,14 @@ const Navbar = () => {
                 activeMobileDropdown === link.name &&
                 link.dropdown.columns.map((col) => (
                   <div key={col.title} className="pl-4 mt-2">
-                    <p className="text-xs uppercase font-semibold">{col.title}</p>
+                    <p className="text-xs text-primary uppercase font-bold">{col.title}</p>
                     <div className="pl-4 space-y-2 mt-2">
                       {col.links.map((sublink) => (
                         <Link
                           key={sublink.name}
                           href={sublink.href}
                           onClick={() => setMobileOpen(false)}
-                          className="block text-sm"
+                          className="block text-secondary text-sm"
                         >
                           {sublink.name}
                         </Link>
@@ -196,7 +196,7 @@ const Navbar = () => {
       {/* Overlay */}
       {mobileOpen && (
         <div
-          className="fixed inset-0 bg-black/30 z-40 md:hidden"
+          className="fixed inset-0  z-40 md:hidden"
           onClick={() => setMobileOpen(false)}
         />
       )}

@@ -45,7 +45,7 @@ const teamMembers = [
 
 const TeamSection = () => {
   return (
-    <section className="py-20 px-4 bg-[#F7EDFE]">
+    <section className="py-20 px-4 bg-bg-primary">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-3xl font-bold text-primary text-center mb-16">
           Meet Our Team

@@ -5,7 +5,7 @@ import { useRef } from "react";
 export default function ServicesSection({ data }) {
 
   return (
-    <section className="bg-[#FBF7FE] py-12 flex flex-col items-center overflow-hidden">
+    <section className="bg-bg-secondary py-12 flex flex-col items-center overflow-hidden">
       
       {/* Header */}
       <div className="flex flex-col justify-center items-center m-4 px-4">

@@ -6,7 +6,7 @@ import ALLIcons from "../icons"
 const ProcessSection = ({ data }) => {
 
   return (
-    <section className="w-full bg-[#FBF7FE] py-24 px-6">
+    <section className="w-full bg-bg-secondary py-24 px-6">
       <div className="container  mx-auto max-w-7xl text-center">
         
         <div className="mb-20">

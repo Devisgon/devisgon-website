@@ -4,13 +4,8 @@ const HeroSection = () => {
   const section = data.herosection;
 
   return (
-    <section className="relative w-full py-24 px-6 md:px-12 lg:px-20 bg-[#FBF7FE] overflow-hidden flex items-center justify-center"
-    style={{
-    backgroundColor: "#FBF7FE",
-    backgroundImage: "url('/services_page/hero_bg.svg')",
-        backgroundRepeat: "no-repeat",
-    backgroundPosition: "center",
-  }}>
+    <section className="relative w-full py-24 px-6 md:px-12 lg:px-20 bg-bg-secondary overflow-hidden flex items-center justify-center"
+   >
       
       
 
@@ -38,10 +33,8 @@ const HeroSection = () => {
               key={index}
               className={`
                 px-8 py-3.5 rounded-lg text-sm md:text-base font-semibold transition-all duration-300 shadow-md hover:shadow-lg
-                ${btn.action === "primary"
-                  ? "bg-[#8B3DFF] text-white hover:bg-[#7a35e0] border border-transparent"
-                  : " text-[#2E1045] border border-[#2E1045]/20 hover:border-[#8B3DFF] hover:text-[#8B3DFF] bg-white/50"
-                }
+                  text-white bg-primary border border-primary hover:bg-secondary  
+                
               `}
             >
               {btn.text}
