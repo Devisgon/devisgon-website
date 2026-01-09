@@ -1,8 +1,8 @@
 "use client";
 import { IoMdCloudUpload } from "react-icons/io";
-import { FaTwitter } from "react-icons/fa";
+import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
-import { FaBasketball } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
 import { MdCalendarToday } from "react-icons/md";
 
 
@@ -189,7 +189,7 @@ export default function ContactPage() {
                 <div className="flex items-center gap-3">
                <MapPin className="text-secondary" />
                   <a
-                 href="https://www.google.com/maps/search/?api=1&query=Okara,+Pakistan"
+                 href="https://www.google.com/maps/place/Devisgon+(Pvt)+Ltd/@30.8237207,73.4604255,45m/data=!3m1!1e3!4m6!3m5!1s0x8651e3cac465d70b:0xab20c32304ca36ad!8m2!3d30.8237237!4d73.4606447!16s%2Fg%2F11lv554tyx?hl=en&entry=ttu&g_ep=EgoyMDI2MDEwNi4wIKXMDSoKLDEwMDc5MjA3MUgBUAM%3D"
                   target="_blank"
                  rel="noopener noreferrer"
                    className="text-secondary hover:underline" >
@@ -197,9 +197,9 @@ export default function ContactPage() {
                          </a>
                    </div>
                    <div className="flex flex-row gap-4 justify-start p-4">
-                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl  transition-transform duration-500 ease-in-out hover:rotate-y-180"><FaTwitter  /> </div>
-                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl transition-transform duration-500 ease-in-out hover:rotate-y-180"><IoLogoLinkedin /> </div>
-                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl transition-transform duration-500 ease-in-out hover:rotate-y-180"><FaBasketball  /> </div>
+                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl  transition-transform duration-500 ease-in-out hover:rotate-y-180"> <a href="https://www.facebook.com/Devisgon/">  <FaSquareFacebook /> </a></div>
+                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl transition-transform duration-500 ease-in-out hover:rotate-y-180"> <a href="https://www.linkedin.com/company/devisgon/posts/?feedView=all"> <IoLogoLinkedin /> </a></div>
+                    <div className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl transition-transform duration-500 ease-in-out hover:rotate-y-180"> <a href="https://www.instagram.com/devisgon?igsh=MXczMDQwcnJkc3djMA=="> <FaInstagram   /> </a></div>
 
                    </div>
                   

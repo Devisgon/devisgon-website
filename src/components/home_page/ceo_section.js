@@ -1,3 +1,5 @@
+"use client";
+
 import React from 'react';
 const CEOSection = ({ data }) => {
   if (!data) return null;

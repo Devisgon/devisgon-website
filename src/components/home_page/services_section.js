@@ -1,7 +1,5 @@
 "use client";
 
-import { useRef } from "react";
-
 export default function ServicesSection({ data }) {
 
   return (
@@ -36,7 +34,7 @@ export default function ServicesSection({ data }) {
 
               {/* Text */}
               <div className="absolute bottom-8 max-w-20 left-16 right-4 z-10">
-                <h3 className="text-2xl font-bold text-white leading-tight">
+                <h3 className="text-4xl font-bold text-white leading-tight">
                   {card.title}
                 </h3>
               </div>

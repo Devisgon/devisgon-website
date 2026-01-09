@@ -36,7 +36,7 @@ const Footer = () => {
           <div>
             <h3 className="font-bold text-lg mb-6">Help</h3>
             <ul className="flex flex-col gap-4 text-secondary text-sm md:text-[15px]">
-              <li><a href="/contact'o" className="hover:opacity-80 transition-opacity">Customer Support</a></li>
+              <li><a href="/contact" className="hover:opacity-80 transition-opacity">Customer Support</a></li>
               <li><a href="/terms_condition" className="hover:opacity-80 transition-opacity">Terms & Conditions</a></li>
               <li><a href="/privacy_policies" className="hover:opacity-80 transition-opacity">Privacy Policy</a></li>
             </ul>
