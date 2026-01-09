@@ -45,30 +45,29 @@ export default async function IndustryPage({ params }) {
     `${slug}.json`
   );
 
-  let page;
+  let data;
 
   try {
     const raw = fs.readFileSync(jsonPath, "utf-8");
-    page = JSON.parse(raw);
+    data = JSON.parse(raw);
   } catch (error) {
     console.error(`Industry JSON not found for slug: ${slug}`, error);
     notFound();
   }
 
   return (
-    <>
+     <>
       <Header />
-      <Hero data={page.hero_section} />
-      <Introduction data={page.introduction_section} />
-      <KeyBenefitsSection data={page.key_benefits_section} />
-      <WhatYouGetSection data={page.what_you_get_section} />
-      <Technalogies data={page.technologies_section} />
-      <Progress data={page.process_section} />
-      <Casestudy data={page.case_study_section}/>
-      <Faqs data={page.faq_section} />
-        <Contact/>
-
-      <Footer/>
+      <Hero data={data.hero_section} />
+      <Introduction data={data.introduction_section} />
+      <KeyBenefitsSection data={data.key_benefits_section} />
+      <WhatYouGetSection data={data.what_you_get_section} />
+      <Technalogies data={data.technologies_section} />
+      <Progress data={data.process_section} />
+      <Casestudy data={data.case_study_section}/>
+      <Faqs data={data.faq_section} />
+      <Contact/>
+      <Footer />
     </>
   );
 }
