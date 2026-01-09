@@ -1,3 +1,7 @@
+export default function IndustriesPage() {
+  return null
+}
+
 // import rawData from "../../data/services/ai_and_saas_developments/ai_powered_app.json"
 // import Header from "../../components/navbar"
 // import Hero from "../../components/industries_pages/hero"
