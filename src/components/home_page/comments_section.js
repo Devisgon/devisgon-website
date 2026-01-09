@@ -3,9 +3,6 @@
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import data from "../../data/home_page.json";
-
-
-
 const TestimonialSection = () => {
   const section = data.testimonials_section;
   const [activeIndex, setActiveIndex] = useState(0);
@@ -52,7 +49,6 @@ const TestimonialSection = () => {
                 {section.subtitle_note}
               </p>
 
-              {/* Navigation Buttons */}
               <div className="flex items-center justify-start lg:justify-end gap-3">
                 <button
                   onClick={handlePrev}
@@ -73,10 +69,9 @@ const TestimonialSection = () => {
           </div>
         </div>
 
-        {/* CARDS SECTION */}
         <div
           ref={containerRef}
-          className="flex overflow-x-auto no-scrollbar gap-4 pb-4 scroll-smooth"
+          className="flex  overflow-x-auto  gap-4 pb-4 "
         >
           {section.reviews.map((review, index) => {
             const isActive = index === activeIndex;
@@ -89,15 +84,14 @@ const TestimonialSection = () => {
                 }}
                 className={`
                   flex-shrink-0 cursor-pointer rounded-3xl p-6 md:p-8 flex flex-col justify-between
-                  transition-all duration-500 ease-out
+                  transition-all duration-800 ease-out
                   ${isActive 
-                    ? "w-80 md:w-96 bg-white shadow-2xl shadow-[#8145B5] scale-100 z-20 border-transparent" 
+                    ? "w-80 md:w-96 bg-white shadow-2xl  shadow-[#8145B5] scale-100 z-20 border-transparent" 
                     : "w-72 md:w-80 bg-white scale-95 opacity-60"
                   }
                 `}
               >
-                {/* Top Part: Image + Name */}
-                <div className="flex items-center gap-4 mb-4 md:mb-6">
+                <div className="flex items-center  gap-4 mb-4 md:mb-6">
                   <img
                     src={review.image}
                     alt={review.name}

@@ -13,7 +13,6 @@ const Navbar = () => {
 
   const navLinks = data.navbar;
 
-  // Theme logic
   useEffect(() => {
     setMounted(true);
     const storedTheme = localStorage.getItem("theme");
@@ -37,7 +36,6 @@ const Navbar = () => {
     localStorage.setItem("theme", newTheme ? "dark" : "light");
   };
 
-  // Mobile scroll lock
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "unset";
     return () => {
@@ -51,15 +49,10 @@ const Navbar = () => {
     <header className="fixed top-0 w-full z-50 bg-bg-primary border-b border-border/50 backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-        <Link href="/" className="flex flex-col group">
-          <span className="text-2xl font-bold text-primary">
-            DEVISGON
-            <span className="text-secondary group-hover:text-primary">.</span>
-          </span>
-          <span className="text-[10px] text-muted-foreground tracking-wide">
-            Unleashing Innovation
-          </span>
-        </Link>
+         <img
+          src="/logo/logo.svg"
+          alt="logo"
+         />
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8">
@@ -68,7 +61,7 @@ const Navbar = () => {
               {/* Main Link */}
               <Link
                 href={link.href}
-                className="flex items-center gap-1 text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className="flex items-center gap-1 text-sm font-medium text-primary  transition-colors"
               >
                 {link.name}
                 {link.dropdown && (
@@ -79,7 +72,7 @@ const Navbar = () => {
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -left-84 mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -left-84 text-primary mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0 transition-all duration-200 z-50"
                 >
@@ -109,17 +102,15 @@ const Navbar = () => {
             </div>
           ))}
 
-          {/* Theme Toggle */}
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full hover:bg-muted transition-colors"
+            className="p-2 rounded-full border-transparent text-primary hover:bg-muted transition-colors"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}
           </button>
         </nav>
 
-        {/* Mobile Controls */}
         <div className="md:hidden flex items-center gap-2">
           <button onClick={toggleTheme} className="p-2" aria-label="Toggle Theme">
             {isDark ? <Sun /> : <Moon />}
@@ -134,14 +125,12 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Mobile Sidebar */}
       <div
         className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
           ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
-          bg-white text-gray-900 pointer-events-auto`}
+          bg-bg-primary text-primary pointer-events-auto`}
       >
-        {/* Close Button */}
-        <div className="flex justify-end p-4">
+        <div className="flex bg-bg-primary justify-end p-4">
           <button
             onClick={() => setMobileOpen(false)}
             className="p-2"
@@ -151,10 +140,9 @@ const Navbar = () => {
           </button>
         </div>
 
-        {/* Mobile Menu Links */}
-        <div className="p-6 space-y-6 overflow-y-auto h-[calc(100vh-64px)]">
+        <div className="p-6 bg-bg-primary space-y-6 overflow-y-auto h-[calc(100vh-64px)]">
           {navLinks.map((link) => (
-            <div key={link.name} className="border-b pb-3 last:border-0">
+            <div key={link.name} className=" pb-3 last:border-0">
               {link.dropdown ? (
                 <button
                   className="flex justify-between w-full text-lg font-bold"
@@ -185,14 +173,14 @@ const Navbar = () => {
                 activeMobileDropdown === link.name &&
                 link.dropdown.columns.map((col) => (
                   <div key={col.title} className="pl-4 mt-2">
-                    <p className="text-xs uppercase font-semibold">{col.title}</p>
+                    <p className="text-xs text-primary uppercase font-bold">{col.title}</p>
                     <div className="pl-4 space-y-2 mt-2">
                       {col.links.map((sublink) => (
                         <Link
                           key={sublink.name}
                           href={sublink.href}
                           onClick={() => setMobileOpen(false)}
-                          className="block text-sm"
+                          className="block text-secondary text-sm"
                         >
                           {sublink.name}
                         </Link>
@@ -208,7 +196,7 @@ const Navbar = () => {
       {/* Overlay */}
       {mobileOpen && (
         <div
-          className="fixed inset-0 bg-black/30 z-40 md:hidden"
+          className="fixed inset-0  z-40 md:hidden"
           onClick={() => setMobileOpen(false)}
         />
       )}

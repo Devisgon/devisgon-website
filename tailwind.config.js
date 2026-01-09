@@ -12,7 +12,7 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         "bg-primary": "var(--bg_primary)",
-
+        "bg-secondary":"var(--bg_secondary)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
       },

@@ -14,35 +14,35 @@
       "services_list": [
         {
           "title": "WEB DEVELOPMENT",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "image_alt": "/home_page/services/web_development.svg"
         },
         {
           "title": "APP DEVELOPMENT",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "image_alt": "/home_page/services/app_development.svg"
         },
         {
-          "title": "CUSTOM SOFTWARE DEVELOPMENT",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "title": "SaaS development",
+          "image_alt": "/home_page/services/saas_development.svg"
         },
         {
-          "title": "DATA SCIENCE",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "title": "DATA Analytics",
+          "image_alt": "/home_page/services/data_analysing.svg"
         },
         {
           "title": "Cloude & Deployment",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "image_alt": "/home_page/services/cloude_and_development.svg"
         },
         {
           "title": "Design & Strategy",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "image_alt": "/home_page/services/design_stratagy.svg"
         },
         {
           "title": "Software Consulting",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "image_alt": "/home_page/services/software_consulting.svg"
         },
         {
           "title": "Technical Writing",
-          "image_alt": "/home_page/services/custom_software.svg"
+          "image_alt": "/home_page/services/technical_writing.svg"
         }
       ]
     },
@@ -172,6 +172,51 @@
       "role": "CEO, Devisgon Pvt. Ltd."
     },
    
+   "teamMembers" :{
+    "team": [
+     {
+    "id": 1,
+    "image": "/home_page/our_team/team01.svg",
+    "alt": "Team member 1"
+     },
+   {
+    "id": 2,
+    "image": "/home_page/our_team/team02.svg",
+    "alt": "Team member 2"
+   },
+  {
+    "id": 3,
+    "image": "/home_page/our_team/team03.svg",
+    "alt": "Team member 3"
+  },
+  {
+    "id": 4,
+    "image": "/home_page/our_team/team04.svg",
+    "alt": "Team member 4"
+  },
+  {
+    "id": 5,
+    "image": "/home_page/our_team/team05.svg",
+    "alt": "Team member 5"
+  },
+  {
+    "id": 6,
+    "image": "/home_page/our_team/team06.svg",
+    "alt": "Team member 6"
+  },
+  {
+    "id": 7,
+    "image": "/home_page/our_team/team07.svg",
+    "alt": "Team member 7"
+  },
+  {
+    "id": 8,
+    "image": "/home_page/our_team/team08.svg",
+    "alt": "Team member 8"
+  }
+]},
+
+
     "scale_values_section": {
       "id": "values",
       "title": "Scale Your Business with our Expert Services",

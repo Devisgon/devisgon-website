@@ -7,11 +7,11 @@ const TermsAndConditions = () => {
   return (
     <>
     <Header/>
-    <div className="min-h-screen bg-[#FBF7FE] py-12 px-4 sm:px-6 lg:px-8 ">
+    <div className="min-h-screen bg-bg-secondary py-24 px-4 sm:px-6 lg:px-8 ">
       <div className="max-w-7xl mx-auto">
         
         {/* Header Section */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-primary mb-4">
             {data.title}
           </h1>
@@ -23,8 +23,8 @@ const TermsAndConditions = () => {
         <div className="flex flex-col lg:flex-row gap-12">
           
           {/*  Table of Contents */}
-          <aside className="lg:w-1/4">
-            <div className="sticky top-8  rounded-2xl p-6 border border-[#E5E7EB]">
+        <aside className="hidden lg:block w-1/4 h-fit sticky top-24 ">
+          <div className=" p-6 rounded-2xl shadow border border-[#E5E7EB]">
               <h2 className="text-sm font-bold text-primary uppercase tracking-wider mb-4">
                 Table of Contents
               </h2>

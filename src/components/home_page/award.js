@@ -70,7 +70,7 @@ const Counter = ({ value, prefix = "", suffix = "" }) => {
 
 const Awards = () => {
   return (
-    <section className="bg-[#FBF7FE] py-20">
+    <section className="bg-bg-secondary py-20">
       <div className="flex flex-wrap justify-center gap-20 text-center">
         {data.map((item, index) => (
           <div key={index} className="flex flex-col items-center gap-4">

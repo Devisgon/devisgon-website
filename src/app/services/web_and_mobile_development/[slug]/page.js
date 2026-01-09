@@ -1,12 +1,13 @@
 import Header from "../../../../components/navbar";
-import Hero from "../../../../components/industries_pages/hero";
-import Introduction from "../../../../components/industries_pages/introduction";
-import KeyBenefitsSection from "../../../../components/industries_pages/key_benefits";
-import WhatYouGetSection from "../../../../components/industries_pages/what_we_do";
-import Technalogies from "../../../../components/industries_pages/technalogies";
-import Progress from "../../../../components/industries_pages/process_section";
-import Casestudy from "../../../../components/industries_pages/case_study";
-import Faqs from "../../../../components/industries_pages/faq";
+import Hero from "../../../../components/sub_services_pages/hero";
+import Introduction from "../../../../components/sub_services_pages/introduction";
+import KeyBenefitsSection from "../../../../components/sub_services_pages/key_benefits";
+import WhatYouGetSection from "../../../../components/sub_services_pages/what_we_do";
+import Technalogies from "../../../../components/sub_services_pages/technalogies";
+import Progress from "../../../../components/sub_services_pages/process_section";
+import Casestudy from "../../../../components/sub_services_pages/case_study";
+import Faqs from "../../../../components/sub_services_pages/faq";
+import Contact from '../../../../components/sub_services_pages/contact'
 import Footer from "../../../../components/footer";
 import { notFound } from "next/navigation";
 import fs from "fs";
@@ -65,6 +66,8 @@ export default async function IndustryPage({ params }) {
       <Progress data={page.process_section} />
       <Casestudy data={page.case_study_section}/>
       <Faqs data={page.faq_section} />
+        <Contact/>
+
       <Footer/>
     </>
   );

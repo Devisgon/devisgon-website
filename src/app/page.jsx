@@ -18,11 +18,11 @@ export default function Home() {
     <Hero data={data.hero_section}/>
     <Services data={data.services_section}/>
     <Award/>
-    <ExportServices />
+    <ExportServices data={data.expert_services_section} />
     <Solution data={data.solutions_section}/>
     <Comments data={data.testimonials_section}/>
     <Ceo data={data.ceo_message_section}/>
-    <Team/>
+    <Team data={data.teamMembers.team}/>
     <Blogs data={data.blog_section}/>
     <Footer/>
 
@@ -30,3 +30,5 @@ export default function Home() {
     </>
   );
 }
+
+

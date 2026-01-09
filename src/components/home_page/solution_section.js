@@ -1,8 +1,10 @@
+"use client";
+
 import { Sparkles, Code } from "lucide-react";
 
 const SolutionsSection = ({ data }) => {
   return (
-    <section className="w-full py-10  bg-[#F7EDFE]">
+    <section className="w-full py-10  bg-bg-primary">
       <div className="max-w-6xl mx-auto mt-32 px-6">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
 
@@ -51,7 +53,6 @@ const SolutionsSection = ({ data }) => {
               />
             </div>
 
-            {/* Floating Card */}
             <div className="absolute bottom-4 left-[20%] translate-y-1/3 bg-white rounded-xl shadow-2xl p-6 w-72 z-10">
               <p className="text-primary text-xs mb-1">
                 {data.side_card.pre_text}
