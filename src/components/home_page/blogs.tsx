@@ -1,7 +1,6 @@
 "use client";
 import  { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import data from "../../data/home_page.json";
 
 interface BlogPost {
   category: string;
@@ -19,15 +18,18 @@ interface BlogSectionData {
   posts: BlogPost[];
 }
 
-const BlogSection = () => {
-  const section: BlogSectionData = data.blog_section;
-  
+
+interface BlogSectionProps {
+  data: BlogSectionData;
+}
+
+const BlogSection = ({ data }: BlogSectionProps) => {  
   const [activeCategory, setActiveCategory] = useState<string>("All Categories");
 
   const filteredPosts =
     activeCategory == "All Categories"
-      ? section.posts
-      : section.posts.filter(
+      ? data.posts
+      : data.posts.filter(
           (post) => post.category.toUpperCase() === activeCategory.toUpperCase()
         );
 
@@ -37,18 +39,18 @@ const BlogSection = () => {
         
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h3 className="text-primary font-bold text-4xl mb-4">
-            {section.header_title}
+            {data.header_title}
           </h3>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
-            {section.main_title}
+            {data.main_title}
           </h2>
           <p className="text-secondary font-medium text-sm md:text-base">
-            {section.subtitle}
+            {data.subtitle}
           </p>
         </div>
 
         <div className="flex flex-wrap justify-start gap-3 mb-12">
-          {section.categories.map((category, index) => (
+          {data.categories.map((category, index) => (
             <button
               key={index}
               onClick={() => setActiveCategory(category)}

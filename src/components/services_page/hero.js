@@ -1,6 +1,5 @@
-import data from "../../data/services_page.json";
 
-const HeroSection = () => {
+const HeroSection = ({data}) => {
   const section = data.herosection;
 
   return (
@@ -15,23 +14,23 @@ const HeroSection = () => {
       <div className="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
         
         <h2 className="text-primary font-bold text-3xl md:text-7xl mb-4 tracking-tight">
-          {section.title}
+          {data.title}
         </h2>
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-[1.15]">
           <span className="text-secondary block md:inline">
-            {section.subtitle}
+            {data.subtitle}
           </span>
           <span className="text-primary block md:inline">
-            {section.span_subtitle}
+            {data.span_subtitle}
           </span>
         </h1>
 
         <p className="text-secondary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
-          {section.description}
+          {data.description}
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          {section.buttons.map((btn, index) => (
+          {data.buttons.map((btn, index) => (
             <button
               key={index}
               className={`

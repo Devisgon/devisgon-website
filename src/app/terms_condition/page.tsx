@@ -1,7 +1,5 @@
-import React from 'react';
-import Header from '../../components/navbar';
-import Footer from '../../components/footer';
-import data from '../../data/terms_condition.json';
+import Header from '@/components/navbar';
+import Footer from '@/components/footer';
 
 interface ContactDetails {
   email: string;
@@ -24,7 +22,18 @@ interface TermsData {
   sections: Section[];
 }
 
-const TermsAndConditions = () => {
+const TermsAndConditions = () => { 
+      let data: TermsData | null;
+
+  try {
+    data = require('@/data/terms_condition.json');
+  } catch (error) {
+    console.log("Failed to load home page data:", (error as Error).message);
+    data = null;
+  }
+ if (!data) {
+    return <p>check you internet connection or try again</p>;
+  }
   return (
     <>
       <Header />

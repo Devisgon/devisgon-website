@@ -1,5 +1,3 @@
-import Image from "next/image";
-import data from '@/data/home_page.json'
 import Header from '@/components/navbar'
 import Hero from '@/components/home_page/hero_section'
 import Services from '@/components/home_page/services_section'
@@ -12,6 +10,17 @@ import Team from '@/components/home_page/team_section'
 import Blogs from '@/components/home_page/blogs'
 import Footer from '@/components/footer'
 export default function Home() {
+    let data;
+
+  try {
+    data = require('@/data/home_page.json');
+  } catch (error) {
+    console.log("Failed to load home page data:");
+    data = null;
+  }
+ if (!data) {
+    return <p>check you internet connection or try again</p>;
+  }
   return (
     <>
     <Header/>
@@ -24,9 +33,7 @@ export default function Home() {
     <Ceo data={data.ceo_message_section}/>
     <Team data={data.teamMembers.team}/>
     <Blogs data={data.blog_section}/>
-    <Footer/>
-
-    
+    <Footer/>  
     </>
   );
 }

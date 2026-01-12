@@ -1,9 +1,7 @@
 "use client";
-
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import data from "../../data/home_page.json";
-const TestimonialSection = () => {
+const TestimonialSection = ({data}) => {
   const section = data.testimonials_section;
   const [activeIndex, setActiveIndex] = useState(0);
   const containerRef = useRef(null);
@@ -43,10 +41,10 @@ const TestimonialSection = () => {
 
             <div className="flex flex-col w-full lg:w-auto mt-4 lg:mt-0">
               <p className="lg:hidden text-secondary text-sm mb-4">
-                {section.subtitle_note}
+                {data.subtitle_note}
               </p>
               <p className="hidden lg:block text-secondary text-sm md:text-[15px] mb-6">
-                {section.subtitle_note}
+                {data.subtitle_note}
               </p>
 
               <div className="flex items-center justify-start lg:justify-end gap-3">
@@ -73,7 +71,7 @@ const TestimonialSection = () => {
           ref={containerRef}
           className="flex  overflow-x-auto  gap-4 pb-4 "
         >
-          {section.reviews.map((review, index) => {
+          {data.reviews.map((review, index) => {
             const isActive = index === activeIndex;
             return (
               <div

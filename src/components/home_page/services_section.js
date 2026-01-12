@@ -1,5 +1,4 @@
-"use client";
-
+"use client"
 export default function ServicesSection({ data }) {
 
   return (
@@ -20,6 +19,7 @@ export default function ServicesSection({ data }) {
         <div
           className="flex overflow-x-auto scroll-smooth snap-x snap-mandatory gap-2 px-6 md:px-12 pb-8 w-full no-scrollbar"
         >
+        
           {data.services_list.map((card, index) => (
             <div
               key={index}
