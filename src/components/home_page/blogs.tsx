@@ -1,13 +1,31 @@
 "use client";
-import { useState } from "react";
+import  { useState } from "react";
 import { ArrowRight } from "lucide-react";
 import data from "../../data/home_page.json";
 
+interface BlogPost {
+  category: string;
+  image: string;
+  title: string;
+  date: string;
+  link_text: string;
+}
+
+interface BlogSectionData {
+  header_title: string;
+  main_title: string;
+  subtitle: string;
+  categories: string[];
+  posts: BlogPost[];
+}
+
 const BlogSection = () => {
-  const section = data.blog_section;
-  const [activeCategory, setActiveCategory] = useState("All Categories");
+  const section: BlogSectionData = data.blog_section;
+  
+  const [activeCategory, setActiveCategory] = useState<string>("All Categories");
+
   const filteredPosts =
-    activeCategory === "All Categories"
+    activeCategory == "All Categories"
       ? section.posts
       : section.posts.filter(
           (post) => post.category.toUpperCase() === activeCategory.toUpperCase()
@@ -17,7 +35,6 @@ const BlogSection = () => {
     <section className="py-20 px-6 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto">
         
-        {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h3 className="text-primary font-bold text-4xl mb-4">
             {section.header_title}
@@ -30,7 +47,6 @@ const BlogSection = () => {
           </p>
         </div>
 
-        {/* Filter Categories */}
         <div className="flex flex-wrap justify-start gap-3 mb-12">
           {section.categories.map((category, index) => (
             <button
@@ -50,12 +66,10 @@ const BlogSection = () => {
           ))}
         </div>
 
-        {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
           {filteredPosts.map((post, index) => (
             <div key={index} className="group cursor-pointer flex flex-col h-full">
               
-              {/* Image Container */}
               <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-72 w-full">
                 <img
                   src={post.image}

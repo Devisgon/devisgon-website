@@ -9,7 +9,8 @@ const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
-  const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
+const [activeServiceCategory, setActiveServiceCategory] = useState(null);
+const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
   const navLinks = data.navbar;
 
@@ -110,11 +111,17 @@ const Navbar = () => {
             {isDark ? <Sun /> : <Moon />}
           </button>
         </nav>
-
+         
+         {/* mobile view */}
         <div className="md:hidden flex items-center gap-2">
           <button onClick={toggleTheme} className="p-2" aria-label="Toggle Theme">
             {isDark ? <Sun /> : <Moon />}
           </button>
+         
+         
+         
+         
+         
           <button
             onClick={() => setMobileOpen(true)}
             className="p-2"
@@ -125,73 +132,88 @@ const Navbar = () => {
         </div>
       </div>
 
-      <div
-        className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
-          ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
-          bg-bg-primary text-primary pointer-events-auto`}
-      >
-        <div className="flex bg-bg-primary justify-end p-4">
-          <button
-            onClick={() => setMobileOpen(false)}
-            className="p-2"
-            aria-label="Close Menu"
-          >
-            <X className="w-6 h-6" />
-          </button>
-        </div>
+     <div
+  className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
+    ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
+    bg-bg-primary text-primary`}
+>
+  {/* Close Button */}
+  <div className="flex justify-end p-4">
+    <button
+      onClick={() => setMobileOpen(false)}
+      className="p-2"
+      aria-label="Close Menu"
+    >
+      <X className="w-6 h-6" />
+    </button>
+  </div>
 
-        <div className="p-6 bg-bg-primary space-y-6 overflow-y-auto h-[calc(100vh-64px)]">
-          {navLinks.map((link) => (
-            <div key={link.name} className=" pb-3 last:border-0">
-              {link.dropdown ? (
+  <div className="p-6 space-y-6 bg-bg-secondary overflow-y-auto h-screen">
+    {navLinks.map((link) => (
+      <div key={link.name} className="pb-3">
+        
+        {/* MAIN NAV ITEM */}
+        {link.dropdown ? (
+          <button className="flex justify-between w-full text-xl font-bold" >
+            <a href="/services">   {link.name} </a>
+
+            <ChevronDown
+               onClick={() => {setActiveMobileDropdown( activeMobileDropdown === link.name ? null : link.name ); setActiveServiceCategory(null);}}
+               className={`transition-transform ${ activeMobileDropdown === link.name ? "rotate-180" : ""}`} />
+          </button>
+        ) : (
+          <Link
+            href={link.href}
+            onClick={() => setMobileOpen(false)}
+            className="block text-xl font-bold"
+          >
+            {link.name}
+          </Link>
+        )}
+
+        {link.dropdown && activeMobileDropdown === link.name && (
+          <div className="mt-4 space-y-3 pl-3">
+            {link.dropdown.columns.map((col) => (
+              <div key={col.title}>
+                
                 <button
-                  className="flex justify-between w-full text-lg font-bold"
+                  className="flex justify-between w-full text-base font-semibold uppercase"
                   onClick={() =>
-                    setActiveMobileDropdown(
-                      activeMobileDropdown === link.name ? null : link.name
+                    setActiveServiceCategory(
+                      activeServiceCategory === col.title ? null : col.title
                     )
                   }
                 >
-                  {link.name}
+                  {col.title}
                   <ChevronDown
                     className={`transition-transform ${
-                      activeMobileDropdown === link.name ? "rotate-180" : ""
+                      activeServiceCategory === col.title ? "rotate-180" : ""
                     }`}
                   />
                 </button>
-              ) : (
-                <Link
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block text-lg font-bold"
-                >
-                  {link.name}
-                </Link>
-              )}
 
-              {link.dropdown &&
-                activeMobileDropdown === link.name &&
-                link.dropdown.columns.map((col) => (
-                  <div key={col.title} className="pl-4 mt-2">
-                    <p className="text-xs text-primary uppercase font-bold">{col.title}</p>
-                    <div className="pl-4 space-y-2 mt-2">
-                      {col.links.map((sublink) => (
-                        <Link
-                          key={sublink.name}
-                          href={sublink.href}
-                          onClick={() => setMobileOpen(false)}
-                          className="block text-secondary text-sm"
-                        >
-                          {sublink.name}
-                        </Link>
-                      ))}
-                    </div>
+                {activeServiceCategory === col.title && (
+                  <div className="mt-2 pl-4 space-y-2">
+                    {col.links.map((sublink) => (
+                      <Link
+                        key={sublink.name}
+                        href={sublink.href}
+                        onClick={() => setMobileOpen(false)}
+                        className="block text-sm text-secondary"
+                      >
+                        {sublink.name}
+                      </Link>
+                    ))}
                   </div>
-                ))}
-            </div>
-          ))}
-        </div>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
       </div>
+    ))}
+  </div>
+</div>
 
       {/* Overlay */}
       {mobileOpen && (

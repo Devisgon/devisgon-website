@@ -1,56 +1,54 @@
-import data from "../../data/services_page.json";
 import allIcons from "../icons";
-const ServicesList = () => {
-  const services = data.services;
+const ServicesList = ({ data }) => {
 
   return (
     <div className="flex flex-col ">
-      {services.map((service, index) => {
+      {data.map((data, index) => {
             
 
         return (
-          <section key={index} className="px-6 md:px-12 lg:px-20 dark:bg-bg-secondary " style={{ backgroundColor: service.bg, }}   >
+          <section key={index} className="px-6 md:px-12 lg:px-20 dark:bg-bg-secondary " style={{ backgroundColor: data.bg, }}   >
             <div className="max-w-7xl mx-auto py-8">
               
               <div className="text-center max-w-3xl mx-auto mb-16 mt-4">
                 <h3 className="text-primary font-bold text-lg md:text-xl mb-3">
-                  {service.category}
+                  {data.category}
                 </h3>
                 <h2 className="text-3xl md:text-5xl font-bold text-secondary mb-6 leading-tight">
-                  {service.headline}
-                  <span className="text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">{service.span}</span>
+                  {data.headline}
+                  <span className="text-3xl md:text-5xl font-bold text-primary mb-6 leading-tight">{data.span}</span>
                 </h2>
                 <p className="text-secondary text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
-                  {service.description}
+                  {data.description}
                 </p>
               </div>
 
-              <div className="flex flex-row justify-center items-center gap-6 mb-16">
-                {service.features.map((feature, fIndex) => {
-                     const IconComponent = allIcons[feature.icon?.trim()];
+              <div className="flex flex-row justify-center flex-wrap items-center gap-6 mb-16">
+                {data.features.map((features, Index) => {
+                     const IconComponent = allIcons[features.icon?.trim()];
                 return (
                   <div
-                    key={fIndex}
-                    className="bg-white border max-w-xl border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 group"
+                    key={Index}
+                    className="bg-white border w-68 h-56 border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-xl hover:shadow-purple-500/10 transition-all duration-300 group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   {IconComponent ? ( <IconComponent className="w-6 h-6 text-secondary" />) : ( <span className="text-primary text-xs">Icon not found</span>)}
 
                     </div>
                     <h4 className="text-lg font-bold text-primary mb-2 group-hover:text-secondary transition-colors">
-                      {feature.title}
+                      {features.title}
                     </h4>
                     <p className="text-sm text-secondary leading-relaxed">
-                      {feature.details}
+                      {features.details}
                     </p>
                   </div>
                 )})}
               </div>
 
-              <div className="relative w-full h-[300px] md:h-[400px]  overflow-hidden mb-12 ">
+              <div className="relative w-full h-[300px] md:h-[400px]   overflow-hidden mb-12 ">
                  <img 
-                   src={service.image} 
-                   alt={service.category} 
+                   src={data.image} 
+                   alt={data.category} 
                    className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-800"
                  />
                  
@@ -63,7 +61,7 @@ const ServicesList = () => {
                     Deliverables:
                   </span>
                   <div className="flex flex-wrap gap-2">
-                    {service.deliverables.map((item, i) => (
+                    {data.deliverables.map((item, i) => (
                       <span 
                         key={i} 
                         className="px-4 py-1.5 rounded-full bg-[#EAD5F9] text-secondary text-xs font-semibold"
@@ -79,7 +77,7 @@ const ServicesList = () => {
                     Tech Stack:
                   </span>
                   <div className="flex flex-wrap gap-2 md:justify-end">
-                    {service.tech_stack.map((tech, i) => (
+                    {data.tech_stack.map((tech, i) => (
                       <span 
                         key={i} 
                         className="px-4 py-1.5 rounded-full bg-[#EAD5F9] text-secondary text-xs font-semibold border border-gray-200"

@@ -35,8 +35,10 @@
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "src/app/page.tsx"
-, "src/app/automations/[slug]/page.jsx", "src/components/home_page/hero_section.js", "src/app/page.jsx"  ],
+    "src/app/page.jsx",
+   "src/app/automations/[slug]/page.jsx",
+    "src/components/home_page/hero_section.js",
+    "src/app/page.jsx"  ],
   "exclude": [
     "node_modules"
   ]
