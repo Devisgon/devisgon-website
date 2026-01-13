@@ -1,0 +1,50 @@
+
+.track {
+ 
+  --size: 500px;
+  --gap: 0.5rem;  
+
+  height: var(--size);
+  display: flex;
+  overflow-x: auto;
+  gap: var(--gap);
+
+  padding: 0 calc((100% - (2 * var(--size) + 2 * var(--gap))) / 2);
+  scroll-snap-type: x mandatory;
+
+  -webkit-mask: radial-gradient(#0000 0 30%, #000 30.5%) 50%
+      calc(var(--size) * 0.5) / 300% 100%,
+    linear-gradient(0deg, black, black) 50% 0 / 100% var(--gap) no-repeat,
+    linear-gradient(0deg, black, black) 50% 100% / 100% var(--gap) no-repeat;
+
+  mask: radial-gradient(#0000 0 30%, #000 30.5%) 50%
+      calc(var(--size) * 0.5) / 300% 100%,
+    linear-gradient(0deg, black, black) 50% 0 / 100% var(--gap) no-repeat,
+    linear-gradient(0deg, black, black) 50% 100% / 100% var(--gap) no-repeat;
+}
+
+.track::-webkit-scrollbar {
+  display: none;
+}
+
+.card {
+  height: 500px;
+  width: 600px;
+  aspect-ratio: 1;
+  scroll-snap-align: center;
+  flex-shrink: 0;
+  position: relative;
+  border-radius: 2rem;
+  overflow: hidden;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  
+  transform: scale(0.8);
+}
+
+
+.cardImage {
+  height: 100%;
+  width: 100%;
+  object-fit: fill;
+}
+
