@@ -1,31 +1,36 @@
 "use client";
+
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 const TestimonialSection = ({data}) => {
-  const section = data.testimonials_section;
   const [activeIndex, setActiveIndex] = useState(0);
   const containerRef = useRef(null);
 
   const handlePrev = () => {
-    const newIndex = activeIndex === 0 ? section.reviews.length - 1 : activeIndex - 1;
+    const newIndex = activeIndex === 0 ? data.reviews.length - 1 : activeIndex - 1;
     setActiveIndex(newIndex);
     scrollToIndex(newIndex);
   };
 
   const handleNext = () => {
-    const newIndex = activeIndex === section.reviews.length - 1 ? 0 : activeIndex + 1;
+    const newIndex = activeIndex === data.reviews.length - 1 ? 0 : activeIndex + 1;
     setActiveIndex(newIndex);
     scrollToIndex(newIndex);
   };
 
-  const scrollToIndex = (index) => {
-    if (containerRef.current) {
-      const child = containerRef.current.children[index];
-      if (child) {
-        child.scrollIntoView({ behavior: "smooth", inline: "center" });
-      }
+ const scrollToIndex = (index) => {
+  if (containerRef.current) {
+    const child = containerRef.current.children[index];
+    if (child) {
+      child.scrollIntoView({ 
+        behavior: "smooth", 
+        inline: "center", 
+        block: "nearest" 
+      });
     }
-  };
+  }
+};
+
 
   return (
     <section className="py-16 px-4 md:px-8 lg:px-16">
@@ -69,7 +74,7 @@ const TestimonialSection = ({data}) => {
 
         <div
           ref={containerRef}
-          className="flex  overflow-x-auto  gap-4 pb-4 "
+          className="flex  overflow-x-auto justify-between  gap-4 p-8 "
         >
           {data.reviews.map((review, index) => {
             const isActive = index === activeIndex;
@@ -84,7 +89,7 @@ const TestimonialSection = ({data}) => {
                   flex-shrink-0 cursor-pointer rounded-3xl p-6 md:p-8 flex flex-col justify-between
                   transition-all duration-800 ease-out
                   ${isActive 
-                    ? "w-80 md:w-96 bg-white shadow-2xl  shadow-[#8145B5] scale-100 z-20 border-transparent" 
+                    ? "w-80 md:w-96  shadow-[0_0_40px_5px_rgb(129,69,181)]  scale-110  border-transparent" 
                     : "w-72 md:w-80 bg-white scale-95 opacity-60"
                   }
                 `}

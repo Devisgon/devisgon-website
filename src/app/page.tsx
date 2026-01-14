@@ -31,8 +31,8 @@ export default function Home() {
     <Award/>
     <ExportServices data={data.expert_services_section} />
     <Solution data={data.solutions_section}/>
+     <Progress data={data.working_process} />
     <Comments data={data.testimonials_section}/>
-    <Progress data={data.working_process} />
     <Ceo data={data.ceo_message_section}/>
     <Team data={data.teamMembers.team}/>
     <Blogs data={data.blog_section}/>

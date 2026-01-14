@@ -43,17 +43,17 @@ export default function ProcessSection({ data }) {
 
       {/* ================= HEADING ================= */}
       <div className="flex flex-col items-center text-center mb-20">
-        <p className="text-secondary text-2xl mb-4">
+        <p className="text-secondary font-bold text-3xl mb-4">
           {data.section_heading}
         </p>
 
-        <h1 className="text-primary font-bold text-5xl">
+        <h1 className="text-primary font-extrabold text-5xl">
           {data.main_heading}{" "}
-          <span className="text-secondary">{data.sub_heading}</span>
+          <span className="text-secondary">{data.span_heading}</span>
         </h1>
 
-        <h1 className="text-primary text-5xl font-bold mt-2">
-          {data.bottom_heading}
+        <h1 className="text-primary text-5xl font-extrabold mt-2">
+          {data.heading}
         </h1>
       </div>
 
