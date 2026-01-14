@@ -14,7 +14,7 @@ const TeamSection = ({data}) => {
             return (
               <div
                 key={member.id}
-                className="w-24 md:w-32 lg:w-36 h-36 md:h-52 lg:h-72 rounded-full overflow-hidden transition-transform duration-300 hover:scale-105"
+                className="w-24 md:w-32 lg:w-36 h-36 md:h-52 lg:h-72 rounded-full overflow-hidden inset-0 bg-black transition-transform duration-300 hover:scale-105"
                 style={{
                   marginBottom: isHigher ? '60px' : '0px',
                   borderRadius: '9999px'
@@ -23,8 +23,13 @@ const TeamSection = ({data}) => {
                 <img
                   src={member.image}
                   alt={member.alt}
-                  className="w-full h-full object-cover "
+                  className="w-full h-full object-cover inset-0 bg-black hover:opacity-50"
                 />
+                 <div className="absolute -top-12 right-2 h-full flex items-center px-2  hover:opacity-100 transition-opacity duration-300 rounded-r-full">
+                    <p className="text-white font-semibold text-sm md:text-base lg:text-lg transform -rotate-90 origin-right whitespace-nowrap">
+                       {member.alt}
+                   </p>
+                  </div>
               </div>
             );
           })}

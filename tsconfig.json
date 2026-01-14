@@ -32,11 +32,15 @@
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
+    "**/*.jsx",
+
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
-    "src/app/page.tsx"
-, "src/app/automations/[slug]/page.jsx", "src/components/home_page/hero_section.js", "src/app/page.jsx"  ],
+    "src/app/page.tsx",
+   "src/app/automations/[slug]/page.jsx",
+    "src/components/home_page/hero_section.js",
+    "src/app/page.tsx", "src/app/services/page.jsx", "src/components/home_page/working_progress.js"  ],
   "exclude": [
     "node_modules"
   ]

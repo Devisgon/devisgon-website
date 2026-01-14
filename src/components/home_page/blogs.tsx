@@ -1,15 +1,35 @@
 "use client";
-import { useState } from "react";
+import  { useState } from "react";
 import { ArrowRight } from "lucide-react";
-import data from "../../data/home_page.json";
 
-const BlogSection = () => {
-  const section = data.blog_section;
-  const [activeCategory, setActiveCategory] = useState("All Categories");
+interface BlogPost {
+  category: string;
+  image: string;
+  title: string;
+  date: string;
+  link_text: string;
+}
+
+interface BlogSectionData {
+  header_title: string;
+  main_title: string;
+  subtitle: string;
+  categories: string[];
+  posts: BlogPost[];
+}
+
+
+interface BlogSectionProps {
+  data: BlogSectionData;
+}
+
+const BlogSection = ({ data }: BlogSectionProps) => {  
+  const [activeCategory, setActiveCategory] = useState<string>("All Categories");
+
   const filteredPosts =
-    activeCategory === "All Categories"
-      ? section.posts
-      : section.posts.filter(
+    activeCategory == "All Categories"
+      ? data.posts
+      : data.posts.filter(
           (post) => post.category.toUpperCase() === activeCategory.toUpperCase()
         );
 
@@ -17,22 +37,20 @@ const BlogSection = () => {
     <section className="py-20 px-6 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto">
         
-        {/* Header Section */}
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h3 className="text-primary font-bold text-4xl mb-4">
-            {section.header_title}
+            {data.header_title}
           </h3>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
-            {section.main_title}
+            {data.main_title}
           </h2>
           <p className="text-secondary font-medium text-sm md:text-base">
-            {section.subtitle}
+            {data.subtitle}
           </p>
         </div>
 
-        {/* Filter Categories */}
         <div className="flex flex-wrap justify-start gap-3 mb-12">
-          {section.categories.map((category, index) => (
+          {data.categories.map((category, index) => (
             <button
               key={index}
               onClick={() => setActiveCategory(category)}
@@ -50,12 +68,10 @@ const BlogSection = () => {
           ))}
         </div>
 
-        {/* Blog Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
           {filteredPosts.map((post, index) => (
             <div key={index} className="group cursor-pointer flex flex-col h-full">
               
-              {/* Image Container */}
               <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-72 w-full">
                 <img
                   src={post.image}

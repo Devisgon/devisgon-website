@@ -1,8 +1,22 @@
 "use client";
 
 import React from 'react';
-const CEOSection = ({ data }) => {
+
+interface CEOData {
+  image: string;
+  title: string;
+  quote: string;
+  author: string;
+  role: string;
+}
+
+interface CEOSectionProps {
+  data: CEOData | null | undefined; 
+}
+
+const CEOSection = ({ data }: CEOSectionProps) => {
   if (!data) return null;
+
   return (
     <section id="about" className="py-20 bg-bg-secondary">
       <div className="max-w-2xl mx-auto">

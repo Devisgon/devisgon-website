@@ -1,39 +1,38 @@
 "use client";
-import { useEffect, useState } from "react";
+import  { useEffect, useState } from "react";
 
-const data = [
-  {
-    title: "Team Members",
-    value: 50,
-  },
-  {
-    title: "Projects Done",
-    value: 400,
-    suffix: "+",
-  },
-  {
-    title: "Awards",
-    value: 11,
-  },
-  {
-    title: "Projects Spends",
-    value: 3,
-    suffix: "M",
-    prefix: "$",
-  },
+interface AwardData {
+  title: string;
+  value: number;
+  suffix?: string;
+  prefix?: string;
+}
+
+const data: AwardData[] = [
+  { title: "Team Members", value: 50 },
+  { title: "Projects Done", value: 400, suffix: "+" },
+  { title: "Awards", value: 11 },
+  { title: "Projects Spends", value: 3, prefix: "$", suffix: "M" },
 ];
 
-const Counter = ({ value, prefix = "", suffix = "" }) => {
+interface CounterProps {
+  value: number;
+  prefix?: string;
+  suffix?: string;
+}
+
+const Counter = ({ value, prefix = "", suffix = "" }: CounterProps) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
     let start = 0;
-    const duration = 1500; 
-    const pauseTime = 1500; 
+    const duration = 1500;
+    const pauseTime = 1500;
     const stepTime = 30;
     const increment = value / (duration / stepTime);
 
-    let interval;
+    let interval: ReturnType<typeof setInterval>;
+    let timeout: ReturnType<typeof setTimeout>;
 
     const startCounting = () => {
       interval = setInterval(() => {
@@ -43,9 +42,9 @@ const Counter = ({ value, prefix = "", suffix = "" }) => {
           setCount(value);
           clearInterval(interval);
 
-          setTimeout(() => {
-            setCount(0);
+          timeout = setTimeout(() => {
             start = 0;
+            setCount(0);
             startCounting();
           }, pauseTime);
         } else {
@@ -56,7 +55,10 @@ const Counter = ({ value, prefix = "", suffix = "" }) => {
 
     startCounting();
 
-    return () => clearInterval(interval);
+    return () => {
+      clearInterval(interval);
+      clearTimeout(timeout);
+    };
   }, [value]);
 
   return (
