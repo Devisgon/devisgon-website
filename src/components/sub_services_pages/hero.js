@@ -15,9 +15,9 @@ const HeroSection = ({ data }) => {
       <div className="  px-22 relative z-10 flex gap-0.52  ">
         <div className="flex flex-col lg:flex-row items-center">
           <div className="w-full lg:w-2/3 bg-[#E9D5FF] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10">
-            <h1 className="text-5xl md:text-6xl font-bold text-primary mb-2 tracking-tight">{title}</h1>
-            <h2 className="text-3xl md:text-4xl font-bold text-primary/80 mb-6">{subtitle}</h2>
-            <p className="text-primary text-lg md:text-xl font-medium mb-10 max-w-lg leading-relaxed">{description}</p>
+            <h1 className="text-5xl md:text-6xl font-bold text-t-primary mb-2 tracking-tight">{title}</h1>
+            <h2 className="text-3xl md:text-4xl font-bold text-t-primary/80 mb-6">{subtitle}</h2>
+            <p className="text-t-primary text-lg md:text-xl font-medium mb-10 max-w-lg leading-relaxed">{description}</p>
 
             <div className="flex flex-col sm:flex-row gap-4">
               <button className="bg-primary hover:bg-primary text-white font-semibold py-4 px-8 rounded-xl transition-all shadow-md">

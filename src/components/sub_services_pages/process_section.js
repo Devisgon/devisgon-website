@@ -10,10 +10,10 @@ const ProcessSection = ({ data }) => {
       <div className="container  mx-auto max-w-7xl text-center">
         
         <div className="mb-20">
-          <h2 className="text-4xl font-extrabold text-primary mb-4">
+          <h2 className="text-4xl font-extrabold text-t-primary mb-4">
             {data.title}
           </h2>
-          <p className="text-lg text-secondary font-medium">
+          <p className="text-lg text-T_secondary font-medium">
             {data.subtitle}
           </p>
         </div>
@@ -36,11 +36,11 @@ const ProcessSection = ({ data }) => {
                   )}
                 </div>
 
-                <h3 className="text-xl font-bold text-primary mb-3">
+                <h3 className="text-xl font-bold text-t-primary mb-3">
                   {step.title}
                 </h3>
 
-                <p className="text-secondary/80 text-sm font-medium leading-relaxed max-w-[200px]">
+                <p className="text-t_secondary/80 text-sm font-medium leading-relaxed max-w-[200px]">
                   {step.description}
                 </p>
               </div>

@@ -13,19 +13,19 @@ const HeroSection = ({data}) => {
     
       <div className="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
         
-        <h2 className="text-primary font-bold text-3xl md:text-7xl mb-4 tracking-tight">
+        <h2 className="text-t-primary font-bold text-3xl md:text-7xl mb-4 tracking-tight">
           {data.title}
         </h2>
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-[1.15]">
-          <span className="text-secondary block md:inline">
+          <span className="text-t_secondary block md:inline">
             {data.subtitle}
           </span>
-          <span className="text-primary block md:inline">
+          <span className="text-t-primary block md:inline">
             {data.span_subtitle}
           </span>
         </h1>
 
-        <p className="text-secondary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
+        <p className="text-t_secondary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
           {data.description}
         </p>
 

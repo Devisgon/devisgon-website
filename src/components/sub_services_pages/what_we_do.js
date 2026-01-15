@@ -9,17 +9,17 @@ const WhatYouGetSection = ({ data }) => {
         
         <div className="flex flex-col justify-center">
           
-          <h2 className="text-2xl md:text-2xl lg:text-5xl font-bold text-primary mb-12 leading-tight">
+          <h2 className="text-2xl md:text-2xl lg:text-5xl font-bold text-t-primary mb-12 leading-tight">
             {data.title}
           </h2>
 
           <div className="space-y-8">
             {data.list_items.map((item, index) => (
               <div key={index} className="flex flex-col">
-                <h3 className="text-xl font-bold text-primary mb-2">
+                <h3 className="text-xl font-bold text-t-primary mb-2">
                   {item.title}
                 </h3>
-                <p className="text-secondary text-base md:text-lg font-medium leading-relaxed opacity-90">
+                <p className="text-t_secondary text-base md:text-lg font-medium leading-relaxed opacity-90">
                   {item.description}
                 </p>
               </div>

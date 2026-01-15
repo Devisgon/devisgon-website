@@ -12,16 +12,16 @@ const CaseStudySection = ({ data }) => {
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         <div className="flex flex-col justify-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-10 leading-tight">
+          <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-10 leading-tight">
             {headline}
           </h2>
 
           {problem && (
             <div className="mb-6">
-              <h3 className="text-xl font-bold text-primary mb-2">
+              <h3 className="text-xl font-bold text-t-primary mb-2">
                 {problem.label}
               </h3>
-              <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
+              <p className="text-t-secondary text-base md:text-lg leading-relaxed opacity-90">
                 {problem.text}
               </p>
             </div>
@@ -29,10 +29,10 @@ const CaseStudySection = ({ data }) => {
 
           {solution && (
             <div className="mb-6">
-              <h3 className="text-xl font-bold text-primary mb-2">
+              <h3 className="text-xl font-bold text-t-primary mb-2">
                 {solution.label}
               </h3>
-              <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
+              <p className="text-t_secondary text-base md:text-lg leading-relaxed opacity-90">
                 {solution.text}
               </p>
             </div>
@@ -40,10 +40,10 @@ const CaseStudySection = ({ data }) => {
 
           {result && (
             <div>
-              <h3 className="text-xl font-bold text-primary mb-2">
+              <h3 className="text-xl font-bold text-t-primary mb-2">
                 {result.label}
               </h3>
-              <p className="text-secondary text-base md:text-lg leading-relaxed opacity-90">
+              <p className="text-t_secondary text-base md:text-lg leading-relaxed opacity-90">
                 {result.text}
               </p>
             </div>

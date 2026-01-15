@@ -7,10 +7,10 @@ const TechnologiesSection = ({ data }) => {
     <section className="w-full bg-bg-primary py-20 px-4">
       <div className="container mx-auto max-w-7xl text-center">
         
-        <h2 className="text-3xl md:text-4xl font-bold text-primary mb-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-4">
           {data.title}
         </h2>
-        <p className="text-lg text-secondary font-medium mb-12">
+        <p className="text-lg text-t_secondary font-medium mb-12">
           {data.subtitle}
         </p>
 

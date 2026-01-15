@@ -19,10 +19,10 @@ const FAQSection = ({ data }) => {
         
         {/* --- Header --- */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-primary mb-3">
+          <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-3">
             {data.title}
           </h2>
-          <p className="text-lg text-secondary font-medium">
+          <p className="text-lg text-t_secondary font-medium">
             {data.subtitle}
           </p>
         </div>
@@ -67,12 +67,12 @@ const FAQSection = ({ data }) => {
 
         {/* --- Footer --- */}
         <div className="text-center mt-12">
-          <p className="text-secondary mb-2 font-medium">
+          <p className="text-t_secondary mb-2 font-medium">
             {data.footer.text}
           </p>
           <a 
             href={data.footer.link_url} 
-            className="text-primary font-bold hover:underline hover:text-primary transition-colors"
+            className="text-t-primary font-bold hover:underline hover:text-primary transition-colors"
           >
             {data.footer.link_text}
           </a>

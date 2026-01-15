@@ -8,10 +8,10 @@ const KeyBenefitsSection = ({ data }) => {
       <div className="container mx-auto max-w-7xl">
         
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-[#2E1065] mb-4">
+          <h2 className="text-4xl font-bold text-t-primary mb-4">
             {data.title}
           </h2>
-          <p className="text-lg text-[#7E22CE]/80 font-medium">
+          <p className="text-lg text-t_secondary font-medium">
             {data.subtitle}
           </p>
         </div>

@@ -9,16 +9,16 @@ const IntroductionSection = ({ data }) => {
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         <div className="flex flex-col gap-6">  
-          <h2 className="text-4xl md:text-5xl font-bold text-primary tracking-tight">
+          <h2 className="text-4xl md:text-5xl font-bold text-t-primary tracking-tight">
             {data.heading}{" "}
-            <span className="text-secondary">{data.span_heading}</span>
+            <span className="text-t_secondary">{data.span_heading}</span>
           </h2>
 
           <div className="space-y-6">
             {data.content.map((content, index) => (
               <p 
                 key={index} 
-                className="text-lg text-secondary leading-relaxed font-medium"
+                className="text-lg text-t_secondary leading-relaxed font-medium"
               >
                 {content}
               </p>

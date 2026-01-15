@@ -41,10 +41,10 @@ const TermsAndConditions = () => {
         <div className="max-w-7xl mx-auto">
           
           <div className="text-center mb-12">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-primary mb-4">
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-t-primary mb-4">
               {data.title}
             </h1>
-            <p className="text-secondary font-medium">
+            <p className="text-t-secondary font-medium">
               {data.date}
             </p>
           </div>
@@ -54,7 +54,7 @@ const TermsAndConditions = () => {
             {/* Table of Contents */}
             <aside className="hidden lg:block w-1/4 h-fit sticky top-24">
               <div className="p-6 rounded-2xl shadow border border-[#E5E7EB]">
-                <h2 className="text-sm font-bold text-primary uppercase tracking-wider mb-4">
+                <h2 className="text-sm font-bold text-t-primary uppercase tracking-wider mb-4">
                   Table of Contents
                 </h2>
                 <nav>
@@ -65,7 +65,7 @@ const TermsAndConditions = () => {
                         <li key={index}>
                           <a 
                             href={`#section-${sectionId}`} 
-                            className="text-sm text-secondary hover:underline transition-colors block"
+                            className="text-sm text-t_secondary hover:underline transition-colors block"
                           >
                             {item}
                           </a>
@@ -84,12 +84,12 @@ const TermsAndConditions = () => {
                   id={`section-${section.section_number}`} 
                   className="scroll-mt-24"
                 >
-                  <h2 className="text-2xl font-bold text-primary mb-4">
+                  <h2 className="text-2xl font-bold text-t-primary mb-4">
                     {section.section_number}. {section.heading}
                   </h2>
 
                   {section.content && section.content.map((paragraph, pIndex) => (
-                    <p key={pIndex} className="text-secondary leading-relaxed mb-4">
+                    <p key={pIndex} className="text-t_secondary leading-relaxed mb-4">
                       {paragraph}
                     </p>
                   ))}
@@ -97,7 +97,7 @@ const TermsAndConditions = () => {
                   {section.contact_details && (
                     <div className="mt-4">
                       {section.description && (
-                         <p className="text-secondary leading-relaxed mb-6">
+                         <p className="text-t_secondary leading-relaxed mb-6">
                            {section.description}
                          </p>
                       )}
