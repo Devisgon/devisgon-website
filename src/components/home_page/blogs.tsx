@@ -38,13 +38,13 @@ const BlogSection = ({ data }: BlogSectionProps) => {
       <div className="max-w-6xl mx-auto">
         
         <div className="text-center max-w-3xl mx-auto mb-12">
-          <h3 className="text-primary font-bold text-4xl mb-4">
+          <h3 className="text-t-primary font-bold text-4xl mb-4">
             {data.header_title}
           </h3>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary mb-6 leading-tight">
             {data.main_title}
           </h2>
-          <p className="text-secondary font-medium text-sm md:text-base">
+          <p className="text-t_secondary font-medium text-sm md:text-base">
             {data.subtitle}
           </p>
         </div>
@@ -58,8 +58,8 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                 px-6 py-2 rounded-lg text-xs md:text-sm font-bold transition-all duration-300
                 ${
                   activeCategory === category
-                    ? "bg-[#EAD5F9] text-primary" 
-                    : "bg-transparent text-secondary hover:bg-[#F5F0FA]" 
+                    ? "bg-[#9f7ab9] text-white" 
+                    : "bg-transparent text-t_secondary hover:bg-[#9f7ab9] " 
                 }
               `}
             >
@@ -86,16 +86,16 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                   <span className="bg-[#EAD5F9] text-[#402060] text-[10px] md:text-xs font-bold px-3 py-3 rounded-full uppercase tracking-wide">
                     {post.category}
                   </span>
-                  <p className="text-[#8E4EC6] text-xs font-medium">
+                  <p className="text-t-primary text-xs font-medium">
                     • Devison Tech Blog • {post.date}
                   </p>
                 </div>
 
-                <h3 className="text-xl md:text-2xl font-bold text-primary mb-4 leading-snug ">
+                <h3 className="text-xl md:text-2xl font-bold text-t-primary mb-4 leading-snug ">
                   {post.title}
                 </h3>
 
-                <div className="mt-auto flex items-center text-primary text-sm font-bold ">
+                <div className="mt-auto flex items-center text-t-primary text-sm font-bold ">
                   {post.link_text}
                   <ArrowRight className="w-4 h-4 ml-2 transition-transform hover:translate-x-1" />
                 </div>

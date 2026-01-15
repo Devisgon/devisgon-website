@@ -62,7 +62,7 @@ const Counter = ({ value, prefix = "", suffix = "" }: CounterProps) => {
   }, [value]);
 
   return (
-    <h2 className="text-4xl font-bold text-primary">
+    <h2 className="text-4xl font-bold text-t-primary">
       {prefix}
       {count}
       {suffix}
@@ -81,7 +81,7 @@ const Awards = () => {
               prefix={item.prefix}
               suffix={item.suffix}
             />
-            <p className="text-secondary text-2xl font-bold">
+            <p className="text-t-secondary text-2xl font-bold">
               {item.title}
             </p>
           </div>

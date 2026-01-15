@@ -13,6 +13,8 @@ module.exports = {
         foreground: "var(--foreground)",
         "bg-primary": "var(--bg_primary)",
         "bg-secondary":"var(--bg_secondary)",
+          "t-primary":"var(--t_primary)",
+          "t-secondary":"var(--t_secondary)",
         primary: "var(--primary)",
         secondary: "var(--secondary)",
       },

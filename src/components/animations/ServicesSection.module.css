@@ -8,6 +8,7 @@
   display: flex;
   overflow-x: auto;
   gap: var(--gap);
+  scroll-behavior: smooth;
 
   padding: 0 calc((100% - (2 * var(--size) + 2 * var(--gap))) / 2);
   scroll-snap-type: x mandatory;

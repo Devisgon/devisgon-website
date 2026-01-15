@@ -73,14 +73,14 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -left-84 text-primary mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -left-84 text-t-primary mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0 transition-all duration-200 z-50"
                 >
                   <div className="grid grid-cols-3 gap-8 p-8">
                     {link.dropdown.columns.map((col) => (
                       <div key={col.title}>
-                        <h3 className="text-xs font-bold uppercase text-primary mb-3">
+                        <h3 className="text-xs font-bold uppercase text-t-primary mb-3">
                           {col.title}
                         </h3>
                         <ul className="space-y-2">
@@ -135,7 +135,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
      <div
   className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
     ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
-    bg-bg-primary text-primary`}
+    bg-bg-primary text-t-primary`}
 >
   {/* Close Button */}
   <div className="flex justify-end p-4">
@@ -199,7 +199,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
                         key={sublink.name}
                         href={sublink.href}
                         onClick={() => setMobileOpen(false)}
-                        className="block text-sm text-secondary"
+                        className="block text-sm text-t-secondary"
                       >
                         {sublink.name}
                       </Link>

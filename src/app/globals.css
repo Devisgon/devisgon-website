@@ -6,6 +6,9 @@
   --bg_primary: #F7EDFE;
   --bg_secondary: #FBF7FE;
 
+  --t_primary:#402060;
+  --t_secondary:#8E4EC6;
+
   --primary: #402060;
   --secondary: #8E4EC6;
 }
@@ -19,6 +22,9 @@
   --color-primary: var(--primary);
   --color-secondary: var(--secondary);
 
+  --color-t-primary: var(--t_primary);
+  --color-t-secondary: var(--t_secondary);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -29,7 +35,10 @@
 
   --bg_primary: #181122;
   --bg_secondary: #1D1627;
-        
+  
+  --t_primary:#ffffff;
+  --t_secondary:#ffffff;
+
   --primary: #B48AE6;         
   --secondary: #9C6FD8;  }
 

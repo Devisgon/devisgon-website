@@ -6,7 +6,7 @@ const ExpertServicesSection = ({ data }) => {
   return (
     <section className="w-full py-20">
       <div className="max-w-5xl mx-auto px-4 md:px-8">
-        <h2 className="text-3xl md:text-4xl font-bold text-primary ml-0 md:ml-20 max-w-md mb-10">
+        <h2 className="text-3xl md:text-4xl font-bold text-t-primary ml-0 md:ml-20 max-w-md mb-10">
           {data.main_heading}
         </h2>
 

@@ -31,24 +31,24 @@ const CEOSection = ({ data }: CEOSectionProps) => {
             </div>
           </div>
           
-          <div className="bg-[#FBF7FE] rounded-2xl p-6 -mt-38 border-t-[6px] border-[#D1AFEC] shadow-xl">
-            <div className="absolute left-10 top-28 text-[300px] font-serif font-bold text-primary/10">
+          <div className="bg-background rounded-2xl p-6 -mt-38 border-t-[6px] border-[#D1AFEC] dark:border-white shadow-xl">
+            <div className="absolute left-10 top-28 text-[300px] font-serif font-bold text-t-primary/10">
               “
             </div>
 
             <div className="relative text-center space-y-6 mt-24">
-              <h2 className="text-2xl md:text-3xl font-bold text-primary">
+              <h2 className="text-2xl md:text-3xl font-bold text-t-primary">
                 {data.title}
               </h2>
 
-              <p className="text-secondary text-sm md:text-base leading-relaxed max-w-lg mx-auto">
+              <p className="text-t_secondary text-sm md:text-base leading-relaxed max-w-lg mx-auto">
                 "At <span className="font-semibold text-secondary">Devisgon</span>
                 {data.quote}
               </p>
 
               <div className="space-y-1">
-                <h3 className="text-xl font-bold text-primary">{data.author}</h3>
-                <p className="text-secondary font-medium">{data.role}</p>
+                <h3 className="text-xl font-bold text-t-primary">{data.author}</h3>
+                <p className="text-t_secondary font-medium">{data.role}</p>
               </div>
             </div>
           </div>

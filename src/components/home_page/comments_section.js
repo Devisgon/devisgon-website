@@ -38,17 +38,17 @@ const TestimonialSection = ({data}) => {
         <div className="relative mb-12">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
             <div className="relative z-10 shrink-0">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-primary leading-[1.1]">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary leading-[1.1]">
                 What Our <br />
                 Client Saying
               </h2>
             </div>
 
             <div className="flex flex-col w-full lg:w-auto mt-4 lg:mt-0">
-              <p className="lg:hidden text-secondary text-sm mb-4">
+              <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>
-              <p className="hidden lg:block text-secondary text-sm md:text-[15px] mb-6">
+              <p className="hidden lg:block text-t_secondary text-sm md:text-[15px] mb-6">
                 {data.subtitle_note}
               </p>
 
@@ -86,15 +86,15 @@ const TestimonialSection = ({data}) => {
                   scrollToIndex(index);
                 }}
                 className={`
-                  flex-shrink-0 cursor-pointer rounded-3xl p-6 md:p-8 flex flex-col justify-between
+                  flex-shrink-0 cursor-pointer rounded-3xl p-6  flex flex-col justify-between
                   transition-all duration-800 ease-out
                   ${isActive 
-                    ? "w-80 md:w-96  shadow-[0_0_40px_5px_rgb(129,69,181)]  scale-110  border-transparent" 
-                    : "w-72 md:w-80 bg-white scale-95 opacity-60"
+                    ? "w-92 md:w-92 h-68  shadow-[0_0_40px_5px_rgb(129,69,181)]  scale-110  border-transparent" 
+                    : "w-82 md:w-82 h-72 bg-white dark:bg-background scale-95 opacity-60"
                   }
                 `}
               >
-                <div className="flex items-center  gap-4 mb-4 md:mb-6">
+                <div className="flex items-center  gap-2 mb-6 md:mb-6">
                   <img
                     src={review.image}
                     alt={review.name}
@@ -103,13 +103,13 @@ const TestimonialSection = ({data}) => {
                     }`}
                   />
                   <div>
-                    <h4 className={`font-bold text-primary ${isActive ? "text-lg md:text-xl" : "text-base md:text-lg"}`}>
+                    <h4 className={`font-bold  ${isActive ? "text-lg text-t-primary md:text-xl" : "text-gray-700 md:text-lg"}`}>
                       {review.name}
                     </h4>
-                    <p className="text-primary text-sm font-medium">{review.role}</p>
+                    <p className={`font-medium  ${isActive ? "text-xm text-t-primary " : "text-gray-600 "}`}>{review.role}</p>
                   </div>
                 </div>
-                <p className={`leading-relaxed font-medium ${isActive ? "text-secondary text-base md:text-lg" : "text-secondary text-sm md:text-base"}`}>
+                <p className={`leading-relaxed font-medium ${isActive ? "text-t_secondary  md:text-lg" : "text-gray-500 text-sm md:text-base"}`}>
                   "{review.review}"
                 </p>
               </div>
