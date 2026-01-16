@@ -1,4 +1,5 @@
 "use client";
+import { Typewriter } from "react-simple-typewriter";
 
 import { Check } from "lucide-react";
 
@@ -43,12 +44,21 @@ const ExpertServicesSection = ({ data }) => {
                 className="flex-1 p-4 sm:p-6 rounded-xl"
                 style={{ backgroundColor: card.bg }}
               >
-                <h3
-                  className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide"
-                  style={{ color: card.main_text }}
-                >
-                  {card.title}
-                </h3>
+             <span className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide"
+              style={{ color: card.main_text }}>
+             <Typewriter
+                 words={[card.title]}
+                  loop
+                 cursor
+                   cursorStyle="|"
+                  typeSpeed={80}
+                     deleteSpeed={50}
+                         delaySpeed={1500}
+                         />
+                   </span>
+
+                
+                
 
                 <p
                   className="text-[10px] sm:text-xs leading-relaxed opacity-90"

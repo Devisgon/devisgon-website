@@ -16,23 +16,33 @@ export default function ServicesSection({ data }) {
           {data.main_title}
         </h1>
       </div>
+      <div className="relative w-full mt-8  overflow-x-auto ">
 
-      <div className="relative w-full mt-8">
         <div className={styles.cardsWrapper}>
-          
-          <div className={styles.track}>
+          <div className= {styles.track}>
             {data.services_list.map((card, index) => (
-              <div key={index} className={styles.card}>
-                <img
-                  src={card.image_alt}
-                  alt={card.title}
-                  className={styles.cardImage}
-                />
+              <div key={index} className={`${styles.card} group relative over overflow-hidden rounded-lg shadow-lg`}>
+                <a href={card.link} className="block w-full h-full relative">
+    
+    <img
+      src={card.image_alt} 
+      alt={card.title}
+      className={`${styles.cardImage} duration-500 group-hover:scale-110`}
+    />
 
-                   <h3 className="absolute top-96 left-58 -translate-x-1/2 -translate-y-1/2 text-5xl md:text-5xl font-bold text-white">
-    {card.title}
-  </h3>
-              </div>
+    <div className="absolute inset-0 flex flex-col justify-center  p-8  -mb-56  transition-colors duration-300">
+      
+      <h3 className="text-5xl font-bold text-white transition-transform duration-300 transform group-hover:-translate-y-4">
+        {card.title}
+      </h3>
+
+      <div className="text-white text-3xl font-bold opacity-0 ml-36 translate-y-8 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-2">
+        <p>Learn more ➜</p>
+      </div>
+
+    </div>
+  </a>
+</div>
             ))}
           </div>
           
