@@ -42,9 +42,7 @@ const TestimonialSection = ({data}) => {
                 What Our <br />
                 Client Saying
               </h2>
-              <p className="text-9xl text-t-primary  -mt-24 ml-84">
-↝
- </p>
+  
             </div>
 
             <div className="flex flex-col w-full overflow-visible lg:w-auto mt-4 lg:mt-0">
@@ -77,7 +75,7 @@ const TestimonialSection = ({data}) => {
 
         <div
           ref={containerRef}
-          className="flex  overflow-visible justify-between  gap-4 p-8 "
+          className="flex  overflow-x-hidden overflow-y-visible justify-between  gap-4 p-8 "
         >
           {data.reviews.map((review, index) => {
             const isActive = index === activeIndex;
@@ -92,7 +90,7 @@ const TestimonialSection = ({data}) => {
                   flex-shrink-0 cursor-pointer rounded-3xl p-6  flex flex-col justify-between
                   transition-all duration-800 ease-out
                   ${isActive 
-                    ? "w-92 md:w-92 h-68  shadow-[0_0_40px_5px_rgb(129,69,181)]  scale-110 -translate-y-16 border-transparent" 
+                    ? "w-92 md:w-92 h-68  shadow-[0_0_40px_5px_rgb(129,69,181)]  scale-110 -translate-y-1 border-transparent" 
                     : "w-82 md:w-82 h-72 bg-white dark:bg-background scale-95 opacity-60"
                   }
                 `}
