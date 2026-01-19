@@ -1,10 +1,11 @@
 "use client";
 
 import { Sparkles, Code } from "lucide-react";
+import type { SolutionsSectionProps } from "@/types/homepage/solution";
 
-const SolutionsSection = ({ data }) => {
+const SolutionsSection = ({ data }: SolutionsSectionProps) => {
   return (
-    <section className="w-full py-10  bg-bg-primary">
+    <section className="w-full py-10 bg-bg-primary">
       <div className="max-w-6xl mx-auto mt-32 px-6">
         <div className="flex flex-col lg:flex-row gap-12 items-start">
 
@@ -27,7 +28,7 @@ const SolutionsSection = ({ data }) => {
                     {index === 0 ? (
                       <Sparkles className="text-[#A71A7F] w-full h-full p-2 hover:bg-[#A71A7F] rounded-full hover:text-white hover:border-[#A71A7F]" />
                     ) : (
-                      <Code className="text-[#3AB8A9] w-full h-full rounded-full hover:bg-[#3AB8A9] p-2 hover:text-white hover:border-[#3AB8A9] " />
+                      <Code className="text-[#3AB8A9] w-full h-full p-2 rounded-full hover:bg-[#3AB8A9] hover:text-white hover:border-[#3AB8A9]" />
                     )}
                   </div>
 

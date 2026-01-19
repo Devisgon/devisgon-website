@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Check } from "lucide-react";
+import type { ProcessSectionProps } from "@/types/homepage/process";
 
 const stepsData = [
   { id: 1, title: "Exploration" },
@@ -9,11 +10,11 @@ const stepsData = [
   { id: 3, title: "Execute" },
   { id: 4, title: "Testing" },
   { id: 5, title: "Deliver" },
-];
+] as const;
 
-export default function ProcessSection({ data }) {
-  const [currentStep, setCurrentStep] = useState(1);
-  const [isLastGreen, setIsLastGreen] = useState(false);
+export default function ProcessSection({ data }: ProcessSectionProps) {
+  const [currentStep, setCurrentStep] = useState<number>(1);
+  const [isLastGreen, setIsLastGreen] = useState<boolean>(false);
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -24,7 +25,7 @@ export default function ProcessSection({ data }) {
           setTimeout(() => {
             setIsLastGreen(false);
             setCurrentStep(1);
-          },500);
+          }, 500);
 
           return prev;
         }
@@ -40,7 +41,6 @@ export default function ProcessSection({ data }) {
 
   return (
     <section className="bg-bg-secondary py-20 px-4">
-
       <div className="flex flex-col items-center text-center mb-20">
         <p className="text-t_secondary font-bold text-3xl mb-4">
           {data.section_heading}
@@ -56,11 +56,9 @@ export default function ProcessSection({ data }) {
         </h1>
       </div>
 
-     
       <div className="flex justify-center">
         <div className="relative w-full max-w-5xl">
-
-  
+          {/* Horizontal progress (desktop) */}
           <div className="hidden md:block absolute top-[2.5rem] left-4 w-[900px] h-1 rounded-full overflow-hidden">
             <div className="absolute w-full h-full bg-purple-200" />
             <div
@@ -69,7 +67,7 @@ export default function ProcessSection({ data }) {
             />
           </div>
 
-  
+          {/* Vertical progress (mobile) */}
           <div className="md:hidden absolute left-1/2 top-4 -translate-x-1/2 w-1 h-[700px] rounded-full overflow-hidden">
             <div className="absolute w-full h-full bg-purple-200" />
             <div
@@ -78,7 +76,7 @@ export default function ProcessSection({ data }) {
             />
           </div>
 
-          {/* ----- STEPS ----- */}
+          {/* Steps */}
           <div className="flex md:flex-row flex-col md:justify-between items-center md:items-start gap-12 relative z-10">
             {stepsData.map((step) => {
               const isActive = step.id <= currentStep;
@@ -87,7 +85,6 @@ export default function ProcessSection({ data }) {
 
               return (
                 <div key={step.id} className="flex flex-col items-center">
-
                   <div
                     className={`w-20 h-20 rounded-full flex items-center justify-center border-4 transition-all duration-500
                       ${
@@ -107,7 +104,6 @@ export default function ProcessSection({ data }) {
                     )}
                   </div>
 
-                  {/* Label */}
                   <p
                     className={`mt-4 text-lg font-semibold text-center transition-colors
                       ${
@@ -127,7 +123,6 @@ export default function ProcessSection({ data }) {
           </div>
         </div>
       </div>
-
     </section>
   );
 }

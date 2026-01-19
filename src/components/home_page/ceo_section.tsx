@@ -1,18 +1,5 @@
 "use client";
-
-import React from 'react';
-
-interface CEOData {
-  image: string;
-  title: string;
-  quote: string;
-  author: string;
-  role: string;
-}
-
-interface CEOSectionProps {
-  data: CEOData | null | undefined; 
-}
+import { CEOSectionProps } from "@/types/homepage/ceo"
 
 const CEOSection = ({ data }: CEOSectionProps) => {
   if (!data) return null;

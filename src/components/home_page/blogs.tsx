@@ -2,26 +2,7 @@
 import  { useState } from "react";
 import { ArrowRight } from "lucide-react";
 
-interface BlogPost {
-  category: string;
-  image: string;
-  title: string;
-  date: string;
-  link_text: string;
-}
-
-interface BlogSectionData {
-  header_title: string;
-  main_title: string;
-  subtitle: string;
-  categories: string[];
-  posts: BlogPost[];
-}
-
-
-interface BlogSectionProps {
-  data: BlogSectionData;
-}
+import { BlogSectionProps } from "@/types/homepage/blog"
 
 const BlogSection = ({ data }: BlogSectionProps) => {  
   const [activeCategory, setActiveCategory] = useState<string>("All Categories");

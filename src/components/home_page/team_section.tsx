@@ -1,8 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
+import type { TeamSectionProps } from "@/types/homepage/team";
 
-const TeamSection = ({ data }) => {
+const TeamSection = ({ data }: TeamSectionProps) => {
   return (
     <section className="py-20 px-4 bg-bg-primary">
       <div className="max-w-6xl mx-auto">
@@ -25,9 +26,7 @@ const TeamSection = ({ data }) => {
                   opacity: 1,
                   y: 0,
                 }}
-                viewport={{
-                  amount: 0.3,
-                }}
+                viewport={{ amount: 0.3 }}
                 transition={{
                   duration: 0.8,
                   ease: "easeOut",
