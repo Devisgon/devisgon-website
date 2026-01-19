@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
-import ALLIcons from '../icons'
-const CaseStudySection = ({ data }) => {
+import { CaseStudyProps } from "@/types/sub_services_page/case_study";
+
+const CaseStudySection: React.FC<CaseStudyProps> = ({ data }) => {
   if (!data || !data.content) return null;
 
   const { headline, image, content } = data;
@@ -10,7 +11,7 @@ const CaseStudySection = ({ data }) => {
   return (
     <section className="w-full bg-bg-primary py-20 px-6 md:px-12 lg:px-24">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-        
+        {/* Left Text */}
         <div className="flex flex-col justify-center">
           <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-10 leading-tight">
             {headline}
@@ -32,7 +33,7 @@ const CaseStudySection = ({ data }) => {
               <h3 className="text-xl font-bold text-t-primary mb-2">
                 {solution.label}
               </h3>
-              <p className="text-t_secondary text-base md:text-lg leading-relaxed opacity-90">
+              <p className="text-t-secondary text-base md:text-lg leading-relaxed opacity-90">
                 {solution.text}
               </p>
             </div>
@@ -43,16 +44,17 @@ const CaseStudySection = ({ data }) => {
               <h3 className="text-xl font-bold text-t-primary mb-2">
                 {result.label}
               </h3>
-              <p className="text-t_secondary text-base md:text-lg leading-relaxed opacity-90">
+              <p className="text-t-secondary text-base md:text-lg leading-relaxed opacity-90">
                 {result.text}
               </p>
             </div>
           )}
         </div>
 
+        {/* Right Image */}
         <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
           {image && (
-            <div className="w-full rounded-2xl overflow-hidden  ">
+            <div className="w-full rounded-2xl overflow-hidden">
               <img
                 src={image}
                 alt={headline || "Case Study Image"}
@@ -61,7 +63,6 @@ const CaseStudySection = ({ data }) => {
             </div>
           )}
         </div>
-
       </div>
     </section>
   );

@@ -1,23 +1,19 @@
 "use client";
 import React, { useState } from 'react';
-import { FiChevronDown, FiChevronUp } from "react-icons/fi"; // Using react-icons as requested previously
+import { FiChevronDown } from "react-icons/fi";
+import { FAQSectionProps } from "@/types/sub_services_page/faq";
 
-const FAQSection = ({ data }) => {
-  // Destructure section data
+const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
 
-  // State to track which accordion item is open (null means all closed)
-  const [openIndex, setOpenIndex] = useState(null);
-
-  // Toggle function
-  const toggleFAQ = (index) => {
+  const toggleFAQ = (index: number) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
   return (
     <section className="w-full py-20 px-6">
       <div className="container mx-auto max-w-3xl">
-        
-        {/* --- Header --- */}
+        {/* Header */}
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-3">
             {data.title}
@@ -27,7 +23,7 @@ const FAQSection = ({ data }) => {
           </p>
         </div>
 
-        {/* --- FAQ List --- */}
+        {/* FAQ List */}
         <div className="space-y-4">
           {data.questions.map((item, index) => {
             const isOpen = openIndex === index;
@@ -39,7 +35,7 @@ const FAQSection = ({ data }) => {
                   isOpen ? 'border-secondary shadow-md' : 'border-purple-100 hover:border-purple-200'
                 }`}
               >
-                {/* Question Header (Clickable) */}
+                {/* Question Header */}
                 <button
                   onClick={() => toggleFAQ(index)}
                   className="w-full flex items-center justify-between p-5 text-left focus:outline-none"
@@ -52,7 +48,7 @@ const FAQSection = ({ data }) => {
                   </div>
                 </button>
 
-                {/* Answer Content (Collapsible) */}
+                {/* Answer Content */}
                 <div 
                   className={`px-5 text-primary leading-relaxed overflow-hidden transition-all duration-300 ease-in-out ${
                     isOpen ? 'max-h-40 pb-5 opacity-100' : 'max-h-0 opacity-0'
@@ -65,7 +61,7 @@ const FAQSection = ({ data }) => {
           })}
         </div>
 
-        {/* --- Footer --- */}
+        {/* Footer */}
         <div className="text-center mt-12">
           <p className="text-t_secondary mb-2 font-medium">
             {data.footer.text}
@@ -77,7 +73,6 @@ const FAQSection = ({ data }) => {
             {data.footer.link_text}
           </a>
         </div>
-
       </div>
     </section>
   );

@@ -1,14 +1,16 @@
 "use client";
-import React from 'react';
+import React from "react";
+import { WhatYouGetSectionProps } from "@/types/sub_services_page/wwd";
 
-const WhatYouGetSection = ({ data }) => {
+const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
+  if (!data) return null;
 
   return (
-    <section className="w-full bg-bg-secondary  py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
+    <section className="w-full bg-bg-secondary py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
-        
+
+        {/* Left content */}
         <div className="flex flex-col justify-center">
-          
           <h2 className="text-2xl md:text-2xl lg:text-5xl font-bold text-t-primary mb-12 leading-tight">
             {data.title}
           </h2>
@@ -25,15 +27,15 @@ const WhatYouGetSection = ({ data }) => {
               </div>
             ))}
           </div>
-
         </div>
 
+        {/* Right image */}
         <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
-          <div className="w-full rounded-3xl overflow-hidden ">
-            <img 
-              src={data.image} 
-              alt="Feature Illustration" 
-              className="w-full h-auto object-cover hover:scale-105  duration-700 "
+          <div className="w-full rounded-3xl overflow-hidden">
+            <img
+              src={data.image}
+              alt="Feature Illustration"
+              className="w-full h-auto object-cover hover:scale-105 duration-700"
             />
           </div>
         </div>

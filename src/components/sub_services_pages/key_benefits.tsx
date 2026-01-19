@@ -1,10 +1,11 @@
 "use client";
-import AllIcons from '../icons'
-import React from 'react';
-const KeyBenefitsSection = ({ data }) => {
+import React from "react";
+import AllIcons from "../icons";
+import { KeyBenefitsSectionProps } from "@/types/sub_services_page/key_benefits";
 
+const KeyBenefitsSection: React.FC<KeyBenefitsSectionProps> = ({ data }) => {
   return (
-    <section className="w-full  bg-bg-secondary py-20 px-6">
+    <section className="w-full bg-bg-secondary py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         
         <div className="text-center mb-16">
@@ -18,7 +19,7 @@ const KeyBenefitsSection = ({ data }) => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {data.cards.map((card, index) => {
-            const iconName = card.icon_type.trim();
+            const iconName = card.icon_type.trim() as keyof typeof AllIcons; 
             const IconComponent = AllIcons[iconName];
 
             return (
