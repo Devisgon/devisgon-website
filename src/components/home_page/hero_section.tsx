@@ -28,11 +28,11 @@ const HeroSection = ({ data }: HeroSectionProps) => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-6xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-primary mb-8"
+          className="text-6xl md:text-6xl lg:text-7xl font-extrabold leading-[1.1] tracking-tight text-t-primary mb-8"
         >
           {data.title}
           <br />
-          <span className="text-primary">{data.main_title}</span>
+          <span className="text-t-primary">{data.main_title}</span>
         </motion.h1>
 
         {/* Description */}
@@ -40,7 +40,7 @@ const HeroSection = ({ data }: HeroSectionProps) => {
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="text-secondary text-lg md:text-xl font-medium max-w-2xl mb-12"
+          className="text-t_secondary text-lg md:text-xl font-medium max-w-2xl mb-12"
         >
           {data.description}
         </motion.p>

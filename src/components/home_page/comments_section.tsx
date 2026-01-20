@@ -38,7 +38,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   };
 
   return (
-    <section className="py-16 px-4 md:px-8 overflow-visible lg:px-16">
+    <section className="py-4 px-4 md:px-8 overflow-visible lg:px-16">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="relative mb-12">
@@ -48,7 +48,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
-              <p className="text-primary sm:hidden text-9xl ml-84 -mt-16">↝</p>
+              <p className="text-primary  text-9xl ml-84 -mt-16">↝</p>
             </div>
 
             <div className="flex flex-col w-full overflow-visible lg:w-auto mt-4 lg:mt-0">

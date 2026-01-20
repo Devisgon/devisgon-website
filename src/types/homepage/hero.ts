@@ -3,7 +3,7 @@ export interface HeroCTA {
 }
 
 export interface HeroSectionData {
-  title: string;
+  title?: string;
   pre_title: string;
   main_title: string;
   description: string;

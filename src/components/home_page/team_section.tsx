@@ -5,7 +5,7 @@ import type { TeamSectionProps } from "@/types/homepage/team";
 
 const TeamSection = ({ data }: TeamSectionProps) => {
   return (
-    <section className="py-20 px-4 bg-bg-primary">
+    <section className="py-20 px-4 md:h-screen lg:h-screen bg-bg-primary">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl font-bold text-t-primary text-center mb-16">
           Meet Our Team

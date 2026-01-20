@@ -15,10 +15,10 @@ const BlogSection = ({ data }: BlogSectionProps) => {
         );
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-20">
+    <section className="py-25 px-6 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto">
         
-        <div className="text-center max-w-3xl mx-auto mb-12">
+        <div className="text-center max-w-3xl mx-auto mt-2">
           <h3 className="text-t-primary font-bold text-4xl mb-4">
             {data.header_title}
           </h3>
@@ -49,7 +49,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
           {filteredPosts.map((post, index) => (
             <div key={index} className="group cursor-pointer flex flex-col h-full">
               

@@ -33,7 +33,7 @@ const ServicesList = ({ data }: ServicesListProps) => {
             <div className="flex flex-row justify-center flex-wrap items-center gap-6 mb-16">
               {section.features.map((feature, idx) => {
                const iconKey = feature.icon?.trim() as keyof typeof allIcons | undefined;
-                 const IconComponent = iconKey ? allIcons[iconKey] : null;
+const IconComponent = iconKey ? allIcons[iconKey] : null;
 
                 return (
                   <div

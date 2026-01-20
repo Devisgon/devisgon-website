@@ -1,7 +1,19 @@
 "use client";
-import { motion } from "framer-motion";
 
-const footerColumns = [
+import { motion } from "framer-motion";
+import React from "react";
+
+interface FooterLink {
+  name: string;
+  href: string;
+}
+
+interface FooterColumn {
+  title: string;
+  links: FooterLink[];
+}
+
+const footerColumns: FooterColumn[] = [
   {
     title: "Company",
     links: [
@@ -25,12 +37,12 @@ const footerColumns = [
   },
 ];
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
-    <footer className="bg-bg-primary pt-16 pb-8 px-6 md:px-12 lg:px-20 text-primary">
-      <div className="max-w-7xl mx-auto">
+    <footer className="bg-bg-primary md:h-screen lg:h-screen flex flex-col justify-center items-center text-center px-6 md:px-12 lg:px-20 text-primary">
+      <div className="max-w-7xl flex flex-col gap-24  w-full">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mt-8">
 
           {/* Logo & Contact */}
           <motion.div
@@ -38,11 +50,11 @@ const Footer = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.2 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="flex flex-col items-start gap-6"
+            className="flex flex-col items-center gap-6"
           >
-            <img src="/logo/logo.svg" alt="logo" />
+            <img src="/logo/logo.svg" alt="logo" className="w-32 md:w-60 mx-auto" />
 
-            <div className="flex flex-col gap-3 text-sm md:text-base font-medium opacity-80">
+            <div className="flex flex-col gap-6 text-md md:2xl font-medium opacity-80 text-center">
               <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">
                 info@devisgon.com
               </a>
@@ -52,7 +64,7 @@ const Footer = () => {
             </div>
           </motion.div>
 
-          {/* Columns */}
+          {/* Footer Columns */}
           {footerColumns.map((col, index) => (
             <motion.div
               key={index}
@@ -64,11 +76,12 @@ const Footer = () => {
                 ease: "easeOut",
                 delay: (index + 1) * 0.15,
               }}
+              className="flex flex-col items-center"
             >
-              <h3 className="font-bold text-lg mb-6">{col.title}</h3>
+              <h3 className="font-bold text-2xl mb-6">{col.title}</h3>
 
               {col.links.length > 0 && (
-                <ul className="flex flex-col gap-4 text-t_secondary text-sm md:text-[15px]">
+                <ul className="flex flex-col gap-4 text-t_secondary text-sm md:text-[20px]">
                   {col.links.map((link, i) => (
                     <li key={i}>
                       <a href={link.href} className="hover:border-b-2 transition-opacity">
@@ -80,7 +93,7 @@ const Footer = () => {
               )}
 
               {col.title === "Newsletter" && (
-                <form className="flex flex-col gap-4">
+                <form className="flex flex-col gap-6 mt-2 w-full max-w-xs mx-auto">
                   <input
                     type="email"
                     placeholder="Enter your email address"
@@ -98,10 +111,10 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Bottom */}
-        <div className="border-t border-primary pt-8 text-center">
+        {/* Footer Bottom */}
+        <div className="border-t border-primary p-4 -mb-16">
           <p className="text-t-primary text-sm">
-            © Copyright 2025–27, All Rights Reserved by Devigson
+            © Copyright 2025–27, All Rights Reserved by Devisgon
           </p>
         </div>
 

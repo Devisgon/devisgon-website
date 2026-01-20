@@ -40,7 +40,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
     ((currentStep - 1) / (stepsData.length - 1)) * 100;
 
   return (
-    <section className="bg-bg-secondary py-20 px-4">
+    <section className="bg-bg-secondary md:h-screen lg:h-screen py-20 px-4">
       <div className="flex flex-col items-center text-center mb-20">
         <p className="text-t_secondary font-bold text-3xl mb-4">
           {data.section_heading}
