@@ -5,12 +5,12 @@ import type { SolutionsSectionProps } from "@/types/homepage/solution";
 
 const SolutionsSection = ({ data }: SolutionsSectionProps) => {
   return (
-    <section className="w-full md:h-screen lg:h-screen  bg-bg-primary">
+    <section className="w-full py-10  bg-bg-primary">
       <div className="max-w-6xl mx-auto mt-2 px-4">
-        <div className="flex flex-col lg:flex-row gap-12 items-start">
+        <div className="flex flex-col lg:flex-row gap-12 ">
 
           {/* Left Content */}
-          <div className="lg:w-1/2 mt-8">
+          <div className="lg:w-1/2 mt-20">
             <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-6 leading-tight">
               {data.title}
             </h2>

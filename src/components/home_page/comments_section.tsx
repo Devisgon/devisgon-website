@@ -12,19 +12,16 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
     if (!containerRef.current) return;
 
     const child = containerRef.current.children[index] as HTMLElement | undefined;
-    if (child) {
-      child.scrollIntoView({
-        behavior: "smooth",
-        inline: "center",
-        block: "nearest",
-      });
-    }
+    child?.scrollIntoView({
+      behavior: "smooth",
+      inline: "center",
+      block: "nearest",
+    });
   };
 
   const handlePrev = () => {
     const newIndex =
       activeIndex === 0 ? data.reviews.length - 1 : activeIndex - 1;
-
     setActiveIndex(newIndex);
     scrollToIndex(newIndex);
   };
@@ -32,14 +29,13 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   const handleNext = () => {
     const newIndex =
       activeIndex === data.reviews.length - 1 ? 0 : activeIndex + 1;
-
     setActiveIndex(newIndex);
     scrollToIndex(newIndex);
   };
 
   return (
-    <section className="py-4 px-4 md:px-8 overflow-visible lg:px-16">
-      <div className="max-w-7xl mx-auto">
+    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-visible">
+      <div className="max-w-7xl mx-auto overflow-visible">
         {/* Header */}
         <div className="relative mb-12">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
@@ -48,23 +44,21 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
-              <p className="text-primary  text-9xl ml-84 -mt-16">↝</p>
+              <p className="text-primary text-9xl ml-84 -mt-16">↝</p>
             </div>
 
-            <div className="flex flex-col w-full overflow-visible lg:w-auto mt-4 lg:mt-0">
+            <div className="flex flex-col w-full lg:w-auto mt-4 lg:mt-0">
               <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>
-
               <p className="hidden lg:block text-t_secondary text-sm md:text-[15px] mb-6">
                 {data.subtitle_note}
               </p>
 
-              <div className="flex items-center justify-start lg:justify-end gap-3">
+              <div className="flex ml-[85%]  items-center gap-3">
                 <button
                   onClick={handlePrev}
                   className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors"
-                  aria-label="Previous testimonial"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
@@ -72,7 +66,6 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 <button
                   onClick={handleNext}
                   className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors"
-                  aria-label="Next testimonial"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
@@ -84,7 +77,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
         {/* Reviews */}
         <div
           ref={containerRef}
-          className="flex overflow-x-hidden overflow-y-visible justify-between gap-4 p-8"
+          className="flex justify-between gap-4 p-8 overflow-visible"
         >
           {data.reviews.map((review, index) => {
             const isActive = index === activeIndex;
@@ -98,15 +91,15 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 }}
                 className={`
                   flex-shrink-0 cursor-pointer rounded-3xl p-6 flex flex-col justify-between
-                  transition-all duration-800 ease-out
+                  transition-all duration-700 ease-out
                   ${
                     isActive
-                      ? "w-92 md:w-92 h-68 shadow-[0_0_40px_5px_rgb(129,69,181)] scale-110 -translate-y-1 border-transparent"
-                      : "w-82 md:w-82 h-72 bg-white dark:bg-background scale-95 opacity-60"
+                      ? "w-92 h-68 scale-110 -translate-y-18 z-20 shadow-[0_0_40px_5px_rgb(129,69,181)]"
+                      : "w-82 h-72 scale-95 opacity-60 bg-white dark:bg-background"
                   }
                 `}
               >
-                <div className="flex items-center gap-2 mb-6 md:mb-6">
+                <div className="flex items-center gap-2 mb-6">
                   <img
                     src={review.image}
                     alt={review.name}
@@ -128,7 +121,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                     <p
                       className={`font-medium ${
                         isActive
-                          ? "text-xm text-t-primary"
+                          ? "text-sm text-t-primary"
                           : "text-gray-600"
                       }`}
                     >

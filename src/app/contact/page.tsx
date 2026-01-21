@@ -14,6 +14,23 @@ import Footer from '../../components/footer';
 export default function ContactPage() {
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+const [file, setFile] = useState<File | null>(null);
+const [preview, setPreview] = useState<string | null>(null);
+
+   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+  if (e.target.files && e.target.files.length > 0) {
+    const selectedFile = e.target.files[0];
+    setFile(selectedFile);
+
+    // ONLY show preview if it's an image
+    if (selectedFile.type.startsWith("image/")) {
+      setPreview(URL.createObjectURL(selectedFile));
+    } else {
+      setPreview(null);
+    }
+  }
+};
+
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
@@ -169,21 +186,44 @@ export default function ContactPage() {
                 </div>
 
                 {/* File Upload */}
-                <div className="flex flex-col gap-1">
-                  <p className="text-primary ml-2">File Upload</p>
-                  <div className="border-2 border-dashed border-purple-300 rounded-lg p-8 text-center text-sm relative cursor-pointer hover:bg-[#FBF7FE] transition">
-                    <input
-                      type="file"
-                      name="file" 
-                      accept=".pdf,.doc,.docx,.png,.jpg,.jpeg" 
-                      className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
-                    />
-                    <div className="text-secondary flex flex-col justify-center items-center pointer-events-none">
-                      <IoMdCloudUpload className="text-4xl text-primary" />
-                      Drop files here or click to upload <br /> PDF, DOC, PNG up to 10MB
-                    </div>
-                  </div>
-                </div>
+<div className="border-2 border-dashed border-purple-300 rounded-lg p-8 text-center relative cursor-pointer hover:bg-[#FBF7FE] transition">
+  <input
+    type="file"
+    name="file"
+    accept=".pdf,.doc,.docx,.png,.jpg,.jpeg"
+    onChange={handleFileChange}
+    className="absolute inset-0 w-full h-full opacity-0 cursor-pointer"
+  />
+
+  <div className="pointer-events-none flex flex-col items-center">
+
+    {preview ? (
+      <>
+        <img
+          src={preview}
+          alt="Uploaded preview"
+          className="w-32 h-32 object-cover rounded-lg mb-2 border"
+        />
+        <p className="text-primary text-sm font-medium">
+          {file?.name}
+        </p>
+      </>
+    ) : file ? (
+      <p className="text-primary font-medium">
+        📎 {file.name} ({Math.round(file.size / 1024)} KB)
+      </p>
+    ) : (
+      <div>
+        <IoMdCloudUpload className="text-4xl text-primary ml-24 mb-2" />
+
+      <p className="text-secondary">
+        Drop files here or click to upload <br />
+        PNG, JPG, PDF up to 10MB
+      </p>
+      </div>
+    )}
+  </div>
+</div>
 
                 {/* Checkbox */}
                 <div className="flex items-start gap-2 text-sm">

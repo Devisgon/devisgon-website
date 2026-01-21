@@ -2,7 +2,26 @@
 import  { useState } from "react";
 import { ArrowRight } from "lucide-react";
 
-import { BlogSectionProps } from "@/types/homepage/blog"
+interface BlogPost {
+  category: string;
+  image: string;
+  title: string;
+  date: string;
+  link_text: string;
+}
+
+interface BlogSectionData {
+  header_title: string;
+  main_title: string;
+  subtitle: string;
+  categories: string[];
+  posts: BlogPost[];
+}
+
+
+interface BlogSectionProps {
+  data: BlogSectionData;
+}
 
 const BlogSection = ({ data }: BlogSectionProps) => {  
   const [activeCategory, setActiveCategory] = useState<string>("All Categories");
@@ -15,10 +34,10 @@ const BlogSection = ({ data }: BlogSectionProps) => {
         );
 
   return (
-    <section className="py-25 px-6 md:px-12 lg:px-20">
+    <section className="py-20 px-6 md:px-12 lg:px-20">
       <div className="max-w-6xl mx-auto">
         
-        <div className="text-center max-w-3xl mx-auto mt-2">
+        <div className="text-center max-w-3xl mx-auto mb-12">
           <h3 className="text-t-primary font-bold text-4xl mb-4">
             {data.header_title}
           </h3>
@@ -39,8 +58,8 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                 px-6 py-2 rounded-lg text-xs md:text-sm font-bold transition-all duration-300
                 ${
                   activeCategory === category
-                    ? "bg-[#9f7ab9] text-white" 
-                    : "bg-transparent text-t_secondary hover:bg-[#9f7ab9] " 
+                    ? "bg-[#EAD5F9] text-primary" 
+                    : "bg-transparent text-secondary hover:bg-[#F5F0FA]" 
                 }
               `}
             >
@@ -49,7 +68,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
           {filteredPosts.map((post, index) => (
             <div key={index} className="group cursor-pointer flex flex-col h-full">
               
@@ -67,7 +86,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                   <span className="bg-[#EAD5F9] text-[#402060] text-[10px] md:text-xs font-bold px-3 py-3 rounded-full uppercase tracking-wide">
                     {post.category}
                   </span>
-                  <p className="text-t-primary text-xs font-medium">
+                  <p className="text-[#8E4EC6] text-xs font-medium">
                     • Devison Tech Blog • {post.date}
                   </p>
                 </div>

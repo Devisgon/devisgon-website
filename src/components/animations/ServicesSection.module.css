@@ -1,6 +1,6 @@
 
 .track {
-   animation: linear infinite;
+
   --size: 500px;
   --gap: 0.5rem;  
 
@@ -49,9 +49,17 @@
   object-fit: fill;
 }
 
-@keyframes scroll {
-  0% {
+
+@keyframes marquee {
+  0%{
     transform: translateX(0);
   }
- 
+  100%{
+     
+    transform: translateX(-50);
+  
+  }
+  
 }
+
+

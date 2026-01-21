@@ -1,5 +1,4 @@
 "use client";
-import { ViewportRevealContainer, ViewportSection } from "@/components/animations/ScrollAnimationProvider";
 import Header from '@/components/navbar';
 import Hero from '@/components/home_page/hero_section';
 import Services from '@/components/home_page/services_section';
@@ -21,8 +20,7 @@ export default function Home() {
 
   return (
     <main>
-      <ViewportRevealContainer>
-        <ViewportSection>
+    
           <Header />
           <Hero data={data.hero_section} />
           <Services data={data.services_section} />
@@ -37,9 +35,7 @@ export default function Home() {
          <Team data={data.teamMembers.team} /> 
           <Blogs data={data.blog_section} />
            <Footer />
-        </ViewportSection>
 
-      </ViewportRevealContainer>
     </main>
   );
 }
