@@ -27,8 +27,8 @@ const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
             ))}
           </div>
 
-          <div className="mt-4 p-4 bg-[#EAD5F9] border-l-4 border-[#D1AFEC] rounded-r-xl shadow-sm">
-            <p className="text-primary font-bold text-lg italic">
+          <div className="mt-4 p-4 bg-[#e3c6f8] border-l-4 border-[#D1AFEC] rounded-r-xl shadow-sm">
+            <p className="text-secondary font-bold text-lg italic">
               {data.highlight_quote}
             </p>
           </div>

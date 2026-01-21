@@ -58,7 +58,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                 px-6 py-2 rounded-lg text-xs md:text-sm font-bold transition-all duration-300
                 ${
                   activeCategory === category
-                    ? "bg-[#EAD5F9] text-primary" 
+                    ? "bg-secondary text-t-primary" 
                     : "bg-transparent text-secondary hover:bg-[#F5F0FA]" 
                 }
               `}

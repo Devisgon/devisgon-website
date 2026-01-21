@@ -1,6 +1,37 @@
 "use client";
 import React from "react";
 import { WhatYouGetSectionProps } from "@/types/sub_services_page/wwd";
+import { motion, Variants } from "framer-motion";
+
+const textContainerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.2,
+      delayChildren: 0.1,
+    },
+  },
+};
+
+const textItemVariants: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { duration: 0.5, ease: "easeOut" } 
+  },
+};
+
+const imageVariants: Variants = {
+  hidden: { opacity: 0, x: 50, scale: 0.95 },
+  visible: { 
+    opacity: 1, 
+    x: 0, 
+    scale: 1,
+    transition: { duration: 0.8, ease: "easeOut", delay: 0.2 } 
+  },
+};
 
 const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
   if (!data) return null;
@@ -9,36 +40,55 @@ const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
     <section className="w-full bg-bg-secondary py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
-        {/* Left content */}
-        <div className="flex flex-col justify-center">
-          <h2 className="text-2xl md:text-2xl lg:text-5xl font-bold text-t-primary mb-12 leading-tight">
+        <motion.div 
+          className="flex flex-col justify-center"
+          variants={textContainerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, amount: 0.2 }} 
+        >
+          <motion.h2 
+            variants={textItemVariants}
+            className="text-2xl md:text-2xl lg:text-5xl font-bold text-t-primary mb-12 leading-tight"
+          >
             {data.title}
-          </h2>
+          </motion.h2>
 
           <div className="space-y-8">
             {data.list_items.map((item, index) => (
-              <div key={index} className="flex flex-col">
+              <motion.div 
+                key={index} 
+                className="flex flex-col"
+                variants={textItemVariants}
+              >
                 <h3 className="text-xl font-bold text-t-primary mb-2">
                   {item.title}
                 </h3>
                 <p className="text-t_secondary text-base md:text-lg font-medium leading-relaxed opacity-90">
                   {item.description}
                 </p>
-              </div>
+              </motion.div>
             ))}
           </div>
-        </div>
+        </motion.div>
 
-        {/* Right image */}
-        <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
+        <motion.div 
+          className="relative w-full h-full flex items-center justify-center lg:justify-end"
+          variants={imageVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, amount: 0.2 }} 
+        >
           <div className="w-full rounded-3xl overflow-hidden">
-            <img
+            <motion.img
               src={data.image}
               alt="Feature Illustration"
-              className="w-full h-auto object-cover hover:scale-105 duration-700"
+              className="w-full h-auto object-cover"
+              whileHover={{ scale: 1.05 }}
+              transition={{ duration: 0.5 }}
             />
           </div>
-        </div>
+        </motion.div>
 
       </div>
     </section>

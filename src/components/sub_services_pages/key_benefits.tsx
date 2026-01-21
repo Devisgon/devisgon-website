@@ -2,30 +2,65 @@
 import React from "react";
 import AllIcons from "../icons";
 import { KeyBenefitsSectionProps } from "@/types/sub_services_page/key_benefits";
+import { motion, Variants } from "framer-motion";
+
+const containerVariants: Variants = {
+  hidden: { opacity: 0 },
+  visible: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.15, 
+      delayChildren: 0.1,
+    },
+  },
+};
+
+const cardVariants: Variants = {
+  hidden: { opacity: 0, y: 30 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { duration: 0.5, ease: "easeOut" } 
+  },
+};
 
 const KeyBenefitsSection: React.FC<KeyBenefitsSectionProps> = ({ data }) => {
   return (
     <section className="w-full bg-bg-secondary py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         
-        <div className="text-center mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: false, amount: 0.5 }} 
+          transition={{ duration: 0.6 }}
+          className="text-center mb-16"
+        >
           <h2 className="text-4xl font-bold text-t-primary mb-4">
             {data.title}
           </h2>
           <p className="text-lg text-t_secondary font-medium">
             {data.subtitle}
           </p>
-        </div>
+        </motion.div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <motion.div 
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: false, amount: 0.1 }} 
+        >
           {data.cards.map((card, index) => {
             const iconName = card.icon_type.trim() as keyof typeof AllIcons; 
             const IconComponent = AllIcons[iconName];
 
             return (
-              <div 
-                key={index} 
-                className="bg-white border border-purple-200 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300 flex flex-col items-start"
+              <motion.div 
+                key={index}
+                variants={cardVariants}
+                whileHover={{ y: -8, transition: { duration: 0.3 } }}
+                className="bg-background border border-purple-200 rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300 flex flex-col items-start"
               >
                 <div className="w-14 h-14 bg-[#F3E8FF] rounded-xl flex items-center justify-center mb-6 text-[#9333EA]">
                   {IconComponent ? (
@@ -35,16 +70,16 @@ const KeyBenefitsSection: React.FC<KeyBenefitsSectionProps> = ({ data }) => {
                   )}
                 </div>
 
-                <h3 className="text-xl font-bold text-[#2E1065] mb-3">
+                <h3 className="text-xl font-bold text-t-primary mb-3">
                   {card.title}
                 </h3>
-                <p className="text-[#6B5B95] leading-relaxed text-sm">
+                <p className="text-t_secondary leading-relaxed text-sm">
                   {card.description}
                 </p>
-              </div>
+              </motion.div>
             );
           })}
-        </div>
+        </motion.div>
         
       </div>
     </section>

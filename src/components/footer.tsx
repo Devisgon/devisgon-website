@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
           >
             <img src="/logo/logo.svg" alt="logo" className="w-32 md:w-60 mx-auto" />
 
-            <div className="flex flex-col gap-6 text-md md:2xl font-medium opacity-80 text-center">
+            <div className="flex flex-col gap-6 text-t-primary text-md md:2xl font-medium opacity-80 text-center">
               <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">
                 info@devisgon.com
               </a>
@@ -78,7 +78,7 @@ const Footer: React.FC = () => {
               }}
               className="flex flex-col items-center"
             >
-              <h3 className="font-bold text-2xl mb-6">{col.title}</h3>
+              <h3 className="font-bold text-t-primary text-2xl mb-6">{col.title}</h3>
 
               {col.links.length > 0 && (
                 <ul className="flex flex-col gap-4 text-t_secondary text-sm md:text-[20px]">

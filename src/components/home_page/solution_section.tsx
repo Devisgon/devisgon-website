@@ -54,14 +54,14 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               />
             </div>
 
-            <div className="absolute bottom-4 left-[20%] translate-y-1/3 bg-white rounded-xl shadow-2xl p-6 w-72 z-10">
-              <p className="text-primary text-xs mb-1">
+            <div className="absolute bottom-4 left-[20%] text-t-primary translate-y-1/3 bg-background rounded-xl shadow-2xl p-6 w-72 z-10">
+              <p className=" text-xs mb-1">
                 {data.side_card.pre_text}
               </p>
-              <h4 className="text-lg font-bold text-primary mb-2">
+              <h4 className="text-lg font-bold  mb-2">
                 {data.side_card.title}
               </h4>
-              <p className="text-primary text-xs leading-relaxed">
+              <p className=" text-xs leading-relaxed">
                 {data.side_card.description}
               </p>
             </div>

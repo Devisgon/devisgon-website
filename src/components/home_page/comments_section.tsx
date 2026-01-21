@@ -44,7 +44,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
-              <p className="text-primary text-9xl ml-84 -mt-16">↝</p>
+              <p className="text-primary text-9xl ml-84 hidden sm:visible md:block -mt-16">↝</p>
             </div>
 
             <div className="flex flex-col w-full lg:w-auto mt-4 lg:mt-0">
@@ -55,7 +55,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 {data.subtitle_note}
               </p>
 
-              <div className="flex ml-[85%]  items-center gap-3">
+              <div className="flex ml-auto items-center gap-3">
                 <button
                   onClick={handlePrev}
                   className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors"
@@ -77,7 +77,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
         {/* Reviews */}
         <div
           ref={containerRef}
-          className="flex justify-between gap-4 p-8 overflow-visible"
+          className="flex gap-4 p-4 pt-18 sm:p-8 overflow-x-auto overflow-visible scroll-smooth"
         >
           {data.reviews.map((review, index) => {
             const isActive = index === activeIndex;
@@ -94,8 +94,8 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                   transition-all duration-700 ease-out
                   ${
                     isActive
-                      ? "w-92 h-68 scale-110 -translate-y-18 z-20 shadow-[0_0_40px_5px_rgb(129,69,181)]"
-                      : "w-82 h-72 scale-95 opacity-60 bg-white dark:bg-background"
+                      ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-12 z-20 shadow-[0_0_40px_5px_rgb(129,69,181)] bg-white dark:bg-background"
+                      : "w-72 sm:w-82 h-64 sm:h-72 scale-95 opacity-60 bg-white dark:bg-background"
                   }
                 `}
               >

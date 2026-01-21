@@ -62,7 +62,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
               {/* Main Link */}
               <Link
                 href={link.href}
-                className="flex items-center gap-1 text-sm font-medium text-primary  transition-colors"
+                className="flex items-center gap-1 text-sm font-medium text-t-primary  transition-colors"
               >
                 {link.name}
                 {link.dropdown && (
@@ -105,7 +105,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full border-transparent text-primary hover:bg-muted transition-colors"
+            className="p-2 rounded-full border-transparent text-t-primary hover:bg-muted transition-colors"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}
@@ -148,7 +148,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
     </button>
   </div>
 
-  <div className="p-6 space-y-6 bg-bg-secondary overflow-y-auto h-screen">
+  <div className="p-4 space-y-6 bg-bg-secondary overflow-y-auto h-screen">
     {navLinks.map((link) => (
       <div key={link.name} className="pb-3">
         
@@ -172,12 +172,12 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
         )}
 
         {link.dropdown && activeMobileDropdown === link.name && (
-          <div className="mt-4 space-y-3 pl-3">
+          <div className="mt-4 space-y-3 ">
             {link.dropdown.columns.map((col) => (
               <div key={col.title}>
                 
                 <button
-                  className="flex justify-between w-full text-base font-semibold uppercase"
+                  className="flex justify-between w-full text-1 font-normal"
                   onClick={() =>
                     setActiveServiceCategory(
                       activeServiceCategory === col.title ? null : col.title

@@ -40,7 +40,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
                   onClick={() => toggleFAQ(index)}
                   className="w-full flex items-center justify-between p-5 text-left focus:outline-none"
                 >
-                  <span className={`text-lg font-semibold ${isOpen ? 'text-secondary' : 'text-primary'}`}>
+                  <span className={`text-lg font-semibold ${isOpen ? 'text-secondary' : 'text-secondary'}`}>
                     {item.question}
                   </span>
                   <div className={`text-secondary transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
@@ -50,7 +50,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
 
                 {/* Answer Content */}
                 <div 
-                  className={`px-5 text-primary leading-relaxed overflow-hidden transition-all duration-300 ease-in-out ${
+                  className={`px-5 text-secondary leading-relaxed overflow-hidden transition-all duration-300 ease-in-out ${
                     isOpen ? 'max-h-40 pb-5 opacity-100' : 'max-h-0 opacity-0'
                   }`}
                 >
