@@ -65,34 +65,43 @@ export default function ContactPage() {
   };
 
   const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formRef.current) return;
+  e.preventDefault();
+  if (!formRef.current) return;
 
-    setIsSubmitting(true);
-    setStatus("");
+  setIsSubmitting(true);
+  setStatus("");
 
-    const formData = new FormData(formRef.current);
+  const formData = new FormData(formRef.current);
+  const jsonData: any = Object.fromEntries(formData.entries());
 
-    try {
-      const res = await fetch("/api/send_mail", {
-        method: "POST",
-        body: formData,
-      });
-      if (res.ok) {
-        setStatus("Thanks for contacting us!");
-        formRef.current.reset(); 
-        setFile(null);
-        setPreview(null);
-      } else {
-        setStatus("try");
-      }
-    } catch (err) {
-      console.error(err);
-      setStatus("try again, check network connection ");
-    } finally {
-      setIsSubmitting(false);
-    }
-  };
+  // Convert file to base64 if exists
+  if (file) {
+    const base64 = await new Promise<string>((resolve, reject) => {
+      const reader = new FileReader();
+      reader.readAsDataURL(file);
+      reader.onload = () => {
+        // Remove data:*/*;base64, prefix
+        const result = (reader.result as string).split(",")[1];
+        resolve(result);
+      };
+      reader.onerror = (err) => reject(err);
+    });
+
+    jsonData.fileBase64 = base64;
+    jsonData.fileName = file.name;
+    jsonData.fileType = file.type;
+  }
+
+  const res = await fetch("/api/contact", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify(jsonData),
+  });
+
+  const result = await res.json();
+  setStatus(result.success ? "Thanks for contacting us!" : "Try again");
+  setIsSubmitting(false);
+};
 
   return (
     <>
