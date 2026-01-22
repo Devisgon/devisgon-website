@@ -15,16 +15,17 @@ export async function POST(req) {
 
     const file = formData.get('file');
 
-    const transporter = nodemailer.createTransport({
-      service: 'gmail',
-      auth: {
-       
-      },
-    });
+   const transporter = nodemailer.createTransport({
+  service: "gmail",
+  auth: {
+    user: process.env.EMAIL_USER,
+    pass: process.env.EMAIL_PASS,
+  },
+});
 
     const mailOptions = {
       from: email,
-      to: 'dudeking1432@gmail.com',
+      to: process.env.Email_Receiver,
       subject: `New Contact Form Submission from ${name}`,
       text: `
         Name: ${name}

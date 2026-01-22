@@ -30,8 +30,8 @@ const HeroSection = ({ data }: HeroSectionProps) => {
           {data.buttons.map((btn, index) => (
             <button
               key={index}
-              className="px-8 py-3.5 rounded-lg text-sm md:text-base font-semibold transition-all duration-300 shadow-md hover:shadow-lg
-                        text-white bg-primary border border-primary hover:bg-secondary"
+              className="px-8 py-3.5 rounded-lg text-sm md:text-base font-semibold transition-all duration-300   hover:shadow-white
+                        text-white bg-btn-primary border border-primary hover:shadow-2xl hover-shadow-primary hover:bg-btn-secondary"
             >
               {btn.text}
             </button>

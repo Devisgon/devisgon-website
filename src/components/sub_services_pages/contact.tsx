@@ -18,13 +18,13 @@ const CallToAction: React.FC = () => {
 
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
             <a href="/contact" className="w-full sm:w-auto">
-              <button className="w-full px-6 py-3 rounded-lg bg-primary text-white font-medium transition">
+              <button className="w-full px-6 py-3 rounded-lg bg-btn-primary text-white hover:shadow-2xl hover:shadow-white hover:bg-btn-secondary font-medium transition">
                 Book a Consultation
               </button>
             </a>
 
             <a href="/contact" className="w-full sm:w-auto">
-              <button className="w-full px-6 py-3 rounded-lg bg-primary text-white font-medium hover:text-white transition">
+              <button className="w-full px-6 py-3 rounded-lg bg-btn-primary text-white font-medium hover:shadow-2xl hover:shadow-white hover:bg-btn-secondary transition">
                 Contact Us
               </button>
             </a>

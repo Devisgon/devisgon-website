@@ -1,4 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+@tailwind utilities;
 @import "tailwindcss";
+
 :root {
   --background: #ffffff;
   --foreground: #1a1a1a;
@@ -11,6 +16,11 @@
   --primary: #402060;
   --secondary: #8E4EC6;
   --axcend:#EAD5F9;
+
+  --btn-primary:#8E4EC6;
+  --btn-secondary:#402060;
+
+
 }
 
 @theme inline {
@@ -25,6 +35,9 @@
   --color-t-primary: var(--t_primary);
   --color-t_secondary: var(--t_secondary);
   --color-axcend: var(--axcend);
+
+  --color-btn-primary: var(--btn-primary);
+  --color-btn-secondary: var(--btn-secondary);
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
@@ -41,7 +54,10 @@
 
   --primary: #D6BCFA;       
   --secondary: #9F7AEA;
-    --axcend:#9c74b3;
+  --axcend:#9c74b3;
+
+  --btn-primary:#8E4EC6;
+  --btn-secondary:#402060;
 
 }
 

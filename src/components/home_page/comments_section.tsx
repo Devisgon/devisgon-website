@@ -34,8 +34,10 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   };
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-visible">
-      <div className="max-w-7xl mx-auto overflow-visible">
+    // Changed: Added overflow-hidden to section to prevent page-wide scrollbars on mobile
+    // while keeping inner elements visible on desktop
+    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden sm:overflow-visible">
+      <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="relative mb-12">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
@@ -44,7 +46,10 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
-              <p className="text-primary text-9xl ml-84 hidden sm:visible md:block -mt-16">↝</p>
+              {/* Note: ml-84 is a custom class, ensuring it exists in your tailwind config */}
+              <p className="text-primary text-9xl ml-84 hidden sm:visible md:block -mt-16">
+                ↝
+              </p>
             </div>
 
             <div className="flex flex-col w-full lg:w-auto mt-4 lg:mt-0">
@@ -58,14 +63,14 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
               <div className="flex ml-auto items-center gap-3">
                 <button
                   onClick={handlePrev}
-                  className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors border border-gray-100 shadow-sm"
                 >
                   <ChevronLeft className="w-6 h-6" />
                 </button>
 
                 <button
                   onClick={handleNext}
-                  className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors"
+                  className="w-10 h-10 rounded-full text-[#8145B5] bg-white flex items-center justify-center hover:bg-[#8145B5] hover:text-white transition-colors border border-gray-100 shadow-sm"
                 >
                   <ChevronRight className="w-6 h-6" />
                 </button>
@@ -74,10 +79,20 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
           </div>
         </div>
 
-        {/* Reviews */}
         <div
           ref={containerRef}
-          className="flex gap-4 p-4 pt-18 sm:p-8 overflow-x-auto overflow-visible scroll-smooth"
+          className={`
+            flex gap-4 
+            pt-18 pb-12 px-4 sm:p-8 
+            scroll-smooth
+            
+            overflow-x-auto        
+            snap-x snap-mandatory 
+            [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] /* Hides scrollbar */
+            
+            sm:overflow-visible     
+            sm:snap-none            
+          `}
         >
           {data.reviews.map((review, index) => {
             const isActive = index === activeIndex;
@@ -90,12 +105,16 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                   scrollToIndex(index);
                 }}
                 className={`
+                  snap-center 
+                  
                   flex-shrink-0 cursor-pointer rounded-3xl p-6 flex flex-col justify-between
                   transition-all duration-700 ease-out
+                  bg-white dark:bg-background
+                  
                   ${
                     isActive
-                      ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-12 z-20 shadow-[0_0_40px_5px_rgb(129,69,181)] bg-white dark:bg-background"
-                      : "w-72 sm:w-82 h-64 sm:h-72 scale-95 opacity-60 bg-white dark:bg-background"
+                      ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-18 z-20 shadow-[0_0_40px_5px_rgba(129,69,181,0.3)]"
+                      : "w-72 sm:w-82 h-64 sm:h-72 scale-95 opacity-60"
                   }
                 `}
               >
@@ -120,9 +139,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                     </h4>
                     <p
                       className={`font-medium ${
-                        isActive
-                          ? "text-sm text-t-primary"
-                          : "text-gray-600"
+                        isActive ? "text-sm text-t-primary" : "text-gray-600"
                       }`}
                     >
                       {review.role}

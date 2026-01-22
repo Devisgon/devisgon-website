@@ -11,13 +11,20 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "bg-primary": "var(--bg_primary)",
-        "bg-secondary":"var(--bg_secondary)",
-          "t-primary":"var(--t_primary)",
-          "t_secondary":"var(--t_secondary)",
+        
+        // Consistent Kebab-case naming
+        "bg-primary": "var(--bg-primary)",
+        "bg-secondary": "var(--bg-secondary)",
+        
+        "t-primary": "var(--t-primary)",
+        "t_secondary": "var(--t_secondary)",
+         "btn-primary": "var(--btn-primary)",
+        "btn-secondary": "var(--btn-secondary)",
+
+        
         primary: "var(--primary)",
         secondary: "var(--secondary)",
-         axcend: 'var(--axcend)',
+        axcend: "var(--axcend)",
 
       },
     },

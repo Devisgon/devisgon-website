@@ -4,9 +4,6 @@ import { Play } from "lucide-react";
 import { HeroSectionProps } from "@/types/sub_services_page/hero";
 import { motion, Variants } from "framer-motion";
 
-// --- Animation Variants ---
-
-// 1. Text Content Animation (Staggered Entrance)
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
   visible: {
@@ -27,7 +24,6 @@ const itemVariants: Variants = {
   },
 };
 
-// 2. Image Animation (Pop in from right)
 const imageVariants: Variants = {
   hidden: { opacity: 0, x: 50, scale: 0.9 },
   visible: { 
@@ -38,7 +34,6 @@ const imageVariants: Variants = {
   },
 };
 
-// 3. Background Circle "Breathing" Animation
 const circleVariants: Variants = {
   animate: {
     scale: [1, 1.1, 1],
@@ -57,7 +52,6 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
   return (
     <section className="relative w-full min-h-screen bg-bg-secondary overflow-hidden flex items-center justify-center py-30">
       
-      {/* --- Decorative Circles (Animated) --- */}
       <motion.div 
         variants={circleVariants}
         animate="animate"
@@ -66,7 +60,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
       <motion.div 
         variants={circleVariants}
         animate="animate"
-        transition={{ delay: 1 }} // Offset the breathing for variety
+        transition={{ delay: 1 }} 
         className="absolute top-1/2 -translate-y-1/2 left-1/2 w-[300px] h-[300px] rounded-full border-[40px] border-[#8145B5] opacity-10" 
       />
       <motion.div 
@@ -100,7 +94,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
               <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-primary hover:bg-primary text-white font-semibold py-4 px-8 rounded-xl transition-all shadow-md"
+                className="bg-btn-primary hover:bg-btn-secondary text-white hover:shadow-2xl hover:shadow-btn-primary font-semibold py-4 px-8 rounded-xl transition-all shadow-md"
               >
                 Start My AI Project
               </motion.button>
@@ -108,7 +102,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
                 href="/contact" 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
+                className="bg-transparent border-2 border-btn-primary text-primary hover:bg-btn-secondary hover:border-btn-secondary hover:shadow-2xl hover:shadow-btn-primary hover:text-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
               >
                 Contact Us
               </motion.a>
