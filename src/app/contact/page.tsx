@@ -45,11 +45,11 @@ const scaleInVariants: Variants = {
 
 export default function ContactPage() {
   const formRef = useRef<HTMLFormElement>(null);
-
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
+const [showOptions, setShowOptions] = useState(false);
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -303,7 +303,7 @@ export default function ContactPage() {
                   disabled={isSubmitting}
                   whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full bg-[#8145B5] text-white py-3 rounded-md transition disabled:opacity-50"
+                  className="w-full bg-btn-primary text-white py-3 rounded-md transition disabled:opacity-50"
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </motion.button>
@@ -316,28 +316,74 @@ export default function ContactPage() {
             <motion.div variants={fadeInUpVariants} className="space-y-6">
               
               {/* Schedule Call Card */}
-              <motion.div 
+             <motion.div
                 variants={scaleInVariants}
-                className="bg-bg-primary border-[#EAD5F9] rounded-2xl p-8 text-center"
-              >
-                <h2 className="text-2xl font-bold text-t-primary mb-2">
-                  Schedule a call
-                </h2>
-                <p className="text-t_secondary mb-4">
-                  Prefer to talk? Book a free 30-minute consultation call with our team
-                </p>
-                <div className="bg-bg-secondary flex flex-col items-center justify-center py-10 rounded-xl">
-                  <MdCalendarToday className="text-primary text-5xl mb-4" />
-                  <p className="text-t-primary font-bold text-xl mb-4">Calendly</p>
-                  <motion.button 
-                    whileHover={{ scale: 1.05 }}
-                    whileTap={{ scale: 0.95 }}
-                    className="bg-[#8145B5] text-white px-6 py-2 rounded-xl hover:bg-purple-700 transition"
-                  >
-                    Book a Call
-                  </motion.button>
-                </div>
-              </motion.div>
+             className="bg-bg-primary border-[#EAD5F9] rounded-2xl p-8 text-center">
+             <h2 className="text-2xl font-bold text-t-primary mb-2">
+               Schedule a call
+             </h2>
+
+                  <p className="text-t_secondary mb-4">
+                   Prefer to talk? Book a free 30-minute consultation call with our team
+                 </p>
+
+  <div className="bg-bg-secondary flex flex-col items-center justify-center py-10 rounded-xl">
+    {!showOptions ? (
+      <>
+        {/* Default View */}
+        <MdCalendarToday className="text-primary text-5xl mb-4" />
+        <p className="text-t-primary font-bold text-xl mb-4">Calendly</p>
+
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={() => setShowOptions(true)}
+          className="bg-[#8145B5] text-white px-6 py-2 rounded-xl hover:bg-purple-700 transition"
+        >
+          Book a Call
+        </motion.button>
+      </>
+    ) : (
+      <>
+        <p className="text-t-primary font-bold text-xl mb-6">
+          Choose  meeting duration
+        </p>
+
+        <motion.div className="flex flex-col gap-3 w-full px-6"
+          initial={{ opacity: 0, y: 30 }} 
+          whileInView={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 1, }}
+          viewport={{once:false}}
+        >
+          <a
+            href="https://calendly.com/abdullahshafique319/15-minute-meting"
+            target="_blank"
+            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
+          >
+            15 min meeting
+          </a>
+
+          <a
+            href="https://calendly.com/abdullahshafique319/30min"
+            target="_blank"
+            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
+          >
+            30 min meeting
+          </a>
+
+          <a
+            href="https://calendly.com/abdullahshafique319/one-hour-meeting"
+            target="_blank"
+            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
+          >
+            60 min meeting
+          </a>
+        </motion.div>
+      </>
+    )}
+  </div>
+</motion.div>
+
 
               {/* Contact Info List */}
               <div className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8 space-y-4">
@@ -393,7 +439,7 @@ export default function ContactPage() {
 
           </motion.div>
         </section>
-      </div>
+</div>
       <Footer />
     </>
   );

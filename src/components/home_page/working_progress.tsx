@@ -59,7 +59,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
       <div className="flex justify-center">
         <div className="relative w-full max-w-5xl">
           {/* Horizontal progress (desktop) */}
-          <div className="hidden md:block absolute top-[2.5rem] left-4 w-[900px] h-1 rounded-full overflow-hidden">
+          <div className="hidden md:block absolute top-[2.5rem] left-4 w-[950px] h-1 rounded-full overflow-hidden">
             <div className="absolute w-full h-full bg-purple-200" />
             <div
               className="absolute h-full bg-secondary transition-all duration-700"

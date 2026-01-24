@@ -133,12 +133,18 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
       </div>
 
      <div
-  className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
-    ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
+  className={`fixed inset-y-0 left-0 w-3/4 max-w-sm z-50 transform transition-transform duration-500 md:hidden
+    ${mobileOpen ? "translate-x-0" : "-translate-x-full"} 
     bg-bg-primary text-t-primary`}
 >
   {/* Close Button */}
-  <div className="flex justify-end p-4">
+  <div className="flex justify-between p-4">
+     {/* Logo */}
+         <img
+          src="/logo/logo.svg"
+          alt="logo"
+         />
+
     <button
       onClick={() => setMobileOpen(false)}
       className="p-2"
