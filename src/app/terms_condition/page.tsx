@@ -41,10 +41,10 @@ const TermsAndConditions = () => {
         <div className="max-w-7xl mx-auto">
           
           <div className="text-center mb-12">
-            <h1 className="text-4xl sm:text-5xl font-extrabold text-t-primary mb-4">
+            <h1 className="text-4xl sm:text-5xl font-extrabold text-t-primary dark:text-t-secondary mb-4">
               {data.title}
             </h1>
-            <p className="text-t-secondary font-medium">
+            <p className="text-t-secondary dark:text-t-primary font-medium">
               {data.date}
             </p>
           </div>
@@ -53,8 +53,8 @@ const TermsAndConditions = () => {
             
             {/* Table of Contents */}
             <aside className="hidden lg:block w-1/4 h-fit sticky top-24">
-              <div className="p-6 rounded-2xl shadow border border-[#E5E7EB]">
-                <h2 className="text-sm font-bold text-t-primary uppercase tracking-wider mb-4">
+              <div className="p-6 rounded-2xl shadow border border-[#D1AFEC] ">
+                <h2 className="text-sm font-bold text-t-primary  uppercase tracking-wider mb-4">
                   Table of Contents
                 </h2>
                 <nav>
@@ -65,7 +65,7 @@ const TermsAndConditions = () => {
                         <li key={index}>
                           <a 
                             href={`#section-${sectionId}`} 
-                            className="text-sm text-t_secondary hover:underline transition-colors block"
+                            className="text-sm text-t-secondary  hover:underline transition-colors block"
                           >
                             {item}
                           </a>
@@ -77,19 +77,19 @@ const TermsAndConditions = () => {
               </div>
             </aside>
 
-            <div className="lg:w-3/4 space-y-12 p-8 rounded-t-2xl border-b-0 border border-[#E5E7EB]">
+            <div className="lg:w-3/4 space-y-12 p-8 rounded-t-2xl  border-b-0 border border-[#D1AFEC] dark:border-hidden">
               {data.sections.map((section) => (
                 <div 
                   key={section.section_number} 
                   id={`section-${section.section_number}`} 
                   className="scroll-mt-24"
                 >
-                  <h2 className="text-2xl font-bold text-t-primary mb-4">
+                  <h2 className="text-2xl font-bold text-t-primary dark:text-t-secondary mb-4">
                     {section.section_number}. {section.heading}
                   </h2>
 
                   {section.content && section.content.map((paragraph, pIndex) => (
-                    <p key={pIndex} className="text-t_secondary leading-relaxed mb-4">
+                    <p key={pIndex} className="text-t-secondary dark:text-t-primary leading-relaxed mb-4">
                       {paragraph}
                     </p>
                   ))}
@@ -97,14 +97,14 @@ const TermsAndConditions = () => {
                   {section.contact_details && (
                     <div className="mt-4">
                       {section.description && (
-                         <p className="text-t_secondary leading-relaxed mb-6">
+                         <p className="text-t-secondary dark:text-t-primary leading-relaxed mb-6">
                            {section.description}
                          </p>
                       )}
-                      <div className="bg-[#F7EDFE] rounded-xl p-6 border border-[#E5E7EB]">
-                        <div className="space-y-3 text-secondary font-medium">
+                      <div className="bg-bg-primary rounded-xl p-6 ">
+                        <div className="space-y-3 text-t-secondary dark:text-t-primary font-medium">
                           <div className="flex flex-col sm:flex-row sm:items-center">
-                            <span className="w-32 font-bold text-secondary">Email:</span>
+                            <span className="w-32 font-bold text-secondary ">Email:</span>
                             <a href={`mailto:${section.contact_details.email}`} className="hover:underline">
                               {section.contact_details.email}
                             </a>

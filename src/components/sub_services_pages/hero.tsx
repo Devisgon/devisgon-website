@@ -50,7 +50,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
   const { title, subtitle, description, hero_image } = data;
 
   return (
-    <section className="relative w-full min-h-screen bg-bg-secondary overflow-hidden flex items-center justify-center py-30">
+    <section className="relative w-full bg-gradient-r from-[#352540] to-[#483a4f] min-h-screen overflow-hidden flex items-center justify-center py-30">
       
       <motion.div 
         variants={circleVariants}
@@ -75,7 +75,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
           
           {/* --- Left Content --- */}
           <motion.div 
-            className="w-full lg:w-2/3 bg-axcend rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
+            className="w-full lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
@@ -86,7 +86,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
             <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold text-t-primary/80 mb-6">
               {subtitle}
             </motion.h2>
-            <motion.p variants={itemVariants} className="text-t-primary text-lg md:text-xl font-medium mb-10 max-w-lg leading-relaxed">
+            <motion.p variants={itemVariants} className="text-t-secondary dark:text-t-primary text-lg md:text-xl font-medium mb-10 max-w-lg leading-relaxed">
               {description}
             </motion.p>
 
@@ -102,7 +102,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
                 href="/contact" 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-btn-primary text-primary hover:bg-btn-secondary hover:border-btn-secondary hover:shadow-2xl hover:shadow-btn-primary hover:text-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
+                className="bg-transparent border-2 border-btn-primary text-btn-lprimary hover:bg-btn-secondary hover:border-btn-secondary hover:shadow-2xl hover:shadow-btn-primary hover:text-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
               >
                 Contact Us
               </motion.a>

@@ -15,7 +15,7 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               {data.title}
             </h2>
 
-            <p className="text-t_secondary text-sm leading-relaxed mb-10 max-w-md">
+            <p className="text-t-secondary dark:text-t-primary text-sm leading-relaxed mb-10 max-w-md">
               At <span className="text-[#8E4EC6] font-semibold">DEVISGON</span>,{" "}
               {data.description}
             </p>
@@ -24,7 +24,7 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
             <div className="flex flex-col sm:flex-row gap-8">
               {data.features.map((feature, index) => (
                 <div key={index} className="flex-1">
-                  <div className="w-14 h-14 rounded-full bg-white border flex items-center justify-center mb-4 shadow-sm">
+                  <div className="w-14 h-14 rounded-full bg-background border  flex items-center justify-center mb-4 shadow-sm">
                     {index === 0 ? (
                       <Sparkles className="text-[#A71A7F] w-full h-full p-2 hover:bg-[#A71A7F] rounded-full hover:text-white hover:border-[#A71A7F]" />
                     ) : (
@@ -36,7 +36,7 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
                     {feature.title}
                   </h3>
 
-                  <p className="text-t_secondary text-sm leading-relaxed">
+                  <p className="text-t-secondary dark:text-t-primary text-sm leading-relaxed">
                     {feature.description}
                   </p>
                 </div>
@@ -54,7 +54,7 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               />
             </div>
 
-            <div className="absolute bottom-4 left-[20%] text-t-primary translate-y-1/3 bg-background rounded-xl shadow-2xl p-6 w-72 z-10">
+            <div className="absolute bottom-4 left-[20%] text-[#402060] translate-y-1/3 bg-white rounded-xl shadow-2xl p-6 w-72 z-10">
               <p className=" text-xs mb-1">
                 {data.side_card.pre_text}
               </p>

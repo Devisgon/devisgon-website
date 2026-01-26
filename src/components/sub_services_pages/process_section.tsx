@@ -35,7 +35,7 @@ const iconVariants: Variants = {
 
 const ProcessSection: React.FC<ProcessSectionProps> = ({ data }) => {
   return (
-    <section className="w-full bg-bg-secondary py-24 px-6">
+    <section className="w-full  py-24 px-6">
       <div className="container mx-auto max-w-7xl text-center">
         
         <motion.div 
@@ -48,7 +48,7 @@ const ProcessSection: React.FC<ProcessSectionProps> = ({ data }) => {
           <h2 className="text-4xl font-extrabold text-t-primary mb-4">
             {data.title}
           </h2>
-          <p className="text-lg text-t_secondary font-medium">
+          <p className="text-lg text-t-secondary dark:text-t-primary font-medium">
             {data.subtitle}
           </p>
         </motion.div>
@@ -75,20 +75,20 @@ const ProcessSection: React.FC<ProcessSectionProps> = ({ data }) => {
                 
                 <motion.div 
                   variants={iconVariants}
-                  className="w-24 h-24 bg-[#E9D5FF] rounded-full flex items-center justify-center mb-6 shadow-sm"
+                  className="w-24 h-24 bg-[#E9D5FF] dark:bg-[#47295C] rounded-full flex items-center justify-center mb-6 shadow-sm"
                 >
                   {IconComponent ? (
-                    <IconComponent className="text-black w-8 h-8" />
+                    <IconComponent className="text-black dark:text-[#ecd9fa] w-8 h-8" />
                   ) : (
                     <span className="text-xs">No Icon</span>
                   )}
                 </motion.div>
 
-                <h3 className="text-xl font-bold text-t-primary mb-3">
+                <h3 className="text-xl font-bold text-t-primary  mb-3">
                   {step.title}
                 </h3>
 
-                <p className="text-t_secondary/80 text-sm font-medium leading-relaxed max-w-[200px]">
+                <p className="text-t-secondary text-sm font-medium leading-relaxed max-w-[200px]">
                   {step.description}
                 </p>
 

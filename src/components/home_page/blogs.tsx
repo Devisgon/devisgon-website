@@ -34,17 +34,17 @@ const BlogSection = ({ data }: BlogSectionProps) => {
         );
 
   return (
-    <section className="py-20 px-6 md:px-12 lg:px-20">
+    <section className="py-20 px-6 md:px-12 bg-background lg:px-20">
       <div className="max-w-6xl mx-auto">
         
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h3 className="text-t-primary font-bold text-4xl mb-4">
             {data.header_title}
           </h3>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary mb-6 leading-tight">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary dark:text-[#8E4EC6]  mb-6 leading-tight">
             {data.main_title}
           </h2>
-          <p className="text-t_secondary font-medium text-sm md:text-base">
+          <p className="text-t-secondary font-medium text-sm md:text-base">
             {data.subtitle}
           </p>
         </div>
@@ -58,8 +58,8 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                 px-6 py-2 rounded-lg text-xs md:text-sm font-bold transition-all duration-300
                 ${
                   activeCategory === category
-                    ? "bg-secondary text-t-primary" 
-                    : "bg-transparent text-secondary hover:bg-[#F5F0FA]" 
+                    ? " bg-[#EAD5F9] dark:bg-[#47295C] text-t-primary" 
+                    : "bg-transparent text-t-secondary hover:bg-[#EAD5F9] dark:hover:bg-[#47295C]" 
                 }
               `}
             >
@@ -83,7 +83,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
               <div className="flex flex-col flex-grow items-start">
                 
                 <div className=" flex flex-col gap-2 items-start  mb-3">
-                  <span className="bg-[#EAD5F9] text-[#402060] text-[10px] md:text-xs font-bold px-3 py-3 rounded-full uppercase tracking-wide">
+                  <span className="bg-[#EAD5F9] dark:bg-[#47295C] text-[#402060] dark:text-white text-[10px] md:text-xs font-bold px-3 py-3 rounded-full uppercase tracking-wide">
                     {post.category}
                   </span>
                   <p className="text-[#8E4EC6] text-xs font-medium">
@@ -91,11 +91,11 @@ const BlogSection = ({ data }: BlogSectionProps) => {
                   </p>
                 </div>
 
-                <h3 className="text-xl md:text-2xl font-bold text-t-primary mb-4 leading-snug ">
+                <h3 className="text-xl md:text-2xl font-bold text-t-primary dark:text-t-secondary mb-4 leading-snug ">
                   {post.title}
                 </h3>
 
-                <div className="mt-auto flex items-center text-t-primary text-sm font-bold ">
+                <div className="mt-auto flex items-center text-t-primary  text-sm font-bold ">
                   {post.link_text}
                   <ArrowRight className="w-4 h-4 ml-2 transition-transform hover:translate-x-1" />
                 </div>
@@ -103,7 +103,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
             </div>
           ))}
         </div>
-         <button className="p-4 bg-primary text-white rounded-xl ml-[40%] mt-20">
+         <button className="p-4 bg-[#402060] dark:bg-[#6F1595] text-white rounded-xl ml-[40%] mt-20">
             View more
         </button>
 

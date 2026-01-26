@@ -44,7 +44,7 @@ const TechnologiesSection: React.FC<TechnologiesSectionProps> = ({ data }) => {
           <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-4">
             {data.title}
           </h2>
-          <p className="text-lg text-t_secondary font-medium mb-12">
+          <p className="text-lg text-t-secondary dark:text-t-primary font-medium mb-12">
             {data.subtitle}
           </p>
         </motion.div>
@@ -68,16 +68,16 @@ const TechnologiesSection: React.FC<TechnologiesSectionProps> = ({ data }) => {
                 key={index}
                 variants={itemVariants}
                 whileHover={{ y: -8, scale: 1.05 }}
-                className="w-32 h-32 md:w-40 md:h-36 bg-[#BE93E4] rounded-xl flex flex-col items-center justify-center shadow-sm hover:shadow-md cursor-pointer"
+                className="w-32 h-32 md:w-40 md:h-36 bg-[#BE93E4] dark:bg-[#8457AA] rounded-xl flex flex-col items-center justify-center shadow-sm hover:shadow-md cursor-pointer"
               >
-                <div className="text-white mb-3">
+                <div className="text-[#ebd7fa] dark:text-[#47295c]  mb-3">
                   {IconComponent ? (
                     <IconComponent size={40} />
                   ) : (
                     <span className="text-xs">No Icon</span>
                   )}
                 </div>
-                <span className="text-white font-semibold text-lg">
+                <span className="text-[#FBF7FE]  dark:text-[#1E1423] font-semibold text-lg">
                   {tool.name}
                 </span>
               </motion.div>

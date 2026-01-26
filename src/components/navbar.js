@@ -47,7 +47,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
   if (!mounted) return null;
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-bg-primary border-b border-border/50 backdrop-blur-sm">
+    <header className="fixed top-0 w-full z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b  backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
          <img
@@ -62,7 +62,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
               {/* Main Link */}
               <Link
                 href={link.href}
-                className="flex items-center gap-1 text-sm font-medium text-t-primary  transition-colors"
+                className="flex items-center gap-1 text-sm font-medium text-[#402060] dark:text-[#FEFCFE]  transition-colors"
               >
                 {link.name}
                 {link.dropdown && (
@@ -105,7 +105,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full border-transparent text-t-primary hover:bg-muted transition-colors"
+            className="p-2 rounded-full border-transparent  text-[#402060] dark:text-[#FEFCFE]  hover:bg-muted transition-colors"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}

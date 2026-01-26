@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
               <h3 className="font-bold text-t-primary text-2xl mb-6">{col.title}</h3>
 
               {col.links.length > 0 && (
-                <ul className="flex flex-col gap-4 text-t_secondary text-sm md:text-[20px]">
+                <ul className="flex flex-col gap-4 text-t-secondary text-sm md:text-[20px]">
                   {col.links.map((link, i) => (
                     <li key={i}>
                       <a href={link.href} className="hover:border-b-2 transition-opacity">
@@ -97,11 +97,11 @@ const Footer: React.FC = () => {
                   <input
                     type="email"
                     placeholder="Enter your email address"
-                    className="w-full px-4 py-3 rounded-lg border border-[#E0D4F5] bg-white text-sm focus:outline-none focus:border-secondary placeholder:text-secondary"
+                    className="w-full px-4 py-3 rounded-lg border border-[#E0D4F5] bg-white text-sm focus:outline-none focus:border-secondary placeholder:text-t-secondary"
                   />
                   <button
                     type="button"
-                    className="w-full py-3 bg-secondary text-white rounded-lg text-sm font-semibold hover:bg-primary transition-colors shadow-md"
+                    className="w-full py-3 bg-[#8145B5] text-white rounded-lg text-sm font-semibold hover:bg-primary transition-colors shadow-md"
                   >
                     Subscribe Now
                   </button>
@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-primary p-4 -mb-16">
+        <div className="border-t border-t-[#D1AFEC] dark:border-[#664282] p-4 -mb-16">
           <p className="text-t-primary text-sm">
             © Copyright 2025–27, All Rights Reserved by Devisgon
           </p>

@@ -12,50 +12,50 @@ const ServicesList = ({ data }: ServicesListProps) => {
   className={`
     px-6 md:px-12 lg:px-20 transition-colors duration-300
     ${index % 2 === 0 
-      ?  "bg-bg-secondary"
-      : "bg-background"
+      ?  "bg-background"
+      : " bg-foreground dark:bg-background"
     }
   `}
 >
           <div className="max-w-7xl mx-auto py-8">
             {/* Heading */}
             <div className="text-center max-w-3xl mx-auto mb-16 mt-4">
-              <h3 className="text-t-primary font-bold text-lg md:text-xl mb-3">
+              <h3 className="text-t-primary font-bold text-lg md:text-3xl mb-3">
                 {section.category}
               </h3>
-              <h2 className="text-3xl md:text-5xl font-bold text-t_secondary mb-6 leading-tight">
+              <h2 className="text-3xl md:text-5xl font-bold text-t-secondary mb-6 leading-tight">
                 {section.headline}
-                <span className="text-3xl md:text-5xl font-bold text-t-primary mb-6 leading-tight">
+                <span className="text-3xl md:text-5xl font-bold text-t-primary  mb-6 leading-tight">
                   {section.span}
                 </span>
               </h2>
-              <p className="text-t_secondary text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
+              <p className="text-t-secondary dark:text-t-primary text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
                 {section.description}
               </p>
             </div>
 
             {/* Features */}
-            <div className="flex flex-row justify-center flex-wrap items-center gap-6 mb-16">
+            <div className="grid grid-cols-1 md:grid-cols-4 justify-center  items-center gap-6 mb-16">
               {section.features.map((feature, idx) => {
                const iconKey = feature.icon?.trim() as keyof typeof allIcons | undefined;
-const IconComponent = iconKey ? allIcons[iconKey] : null;
+               const IconComponent = iconKey ? allIcons[iconKey] : null;
 
                 return (
                   <div
                     key={idx}
-                    className="bg-background border w-68 h-56 border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-2xl hover:shadow-purple-500/10  hover:transform hover:-translate-y-8 duration-300 group"
+                    className="bg-white border w-68 h-56 border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-2xl hover:shadow-purple-500/10  hover:transform hover:-translate-y-8 duration-300 group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                       {IconComponent ? (
-                        <IconComponent className="w-6 h-6 text-secondary" />
+                        <IconComponent className="w-6 h-6 text-t-secondary" />
                       ) : (
                         <span className="text-t-primary text-xs">Icon not found</span>
                       )}
                     </div>
-                    <h4 className="text-lg font-bold text-t-primary mb-2  transition-colors">
+                    <h4 className="text-lg font-bold text-[#402060] mb-2  transition-colors">
                       {feature.title}
                     </h4>
-                    <p className="text-sm text-t_secondary leading-relaxed">{feature.details}</p>
+                    <p className="text-sm text-t-secondary leading-relaxed">{feature.details}</p>
                   </div>
                 );
               })}
@@ -81,7 +81,7 @@ const IconComponent = iconKey ? allIcons[iconKey] : null;
                   {section.deliverables.map((item, i) => (
                     <span
                       key={i}
-                      className="px-4 py-1.5 rounded-full bg-[#EAD5F9] text-secondary text-xs hover:-translate-y-2 duration-400 font-semibold"
+                      className="px-4 py-1.5 rounded-full bg-[#EAD5F9] dark:text-white dark:bg-[#6F1595] text-t-secondary text-xs hover:-translate-y-2 duration-400 font-semibold"
                     >
                       {item}
                     </span>
@@ -98,7 +98,7 @@ const IconComponent = iconKey ? allIcons[iconKey] : null;
                   {section.tech_stack.map((tech, i) => (
                     <span
                       key={i}
-                      className="px-4 py-1.5 rounded-full bg-[#EAD5F9] text-secondary text-xs font-semibold border hover:-translate-y-2 duration-400 border-gray-200"
+                      className="px-4 py-1.5 rounded-full bg-[#EAD5F9] dark:bg-[#6F1595] dark:text-white text-t-secondary text-xs font-semibold  hover:-translate-y-2 duration-400 "
                     >
                       {tech}
                     </span>

@@ -48,7 +48,7 @@ const itemVariants: Variants = {
     y: 0,
     transition: {
       duration: 0.6,
-      ease: [0.16, 1, 0.3, 1], // ✅ TS-safe easing
+      ease: [0.16, 1, 0.3, 1], 
     },
   },
 };
@@ -114,7 +114,7 @@ const Counter = ({ value, prefix = "", suffix = "" }: CounterProps) => {
 const Awards = () => {
   return (
     <motion.section
-      className="bg-bg-secondary py-20"
+      className=" py-20"
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}

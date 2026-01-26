@@ -18,11 +18,11 @@ const HeroSection = ({ data }: HeroSectionProps) => {
         </h2>
 
         <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold mb-6 leading-[1.15]">
-          <span className="text-t_secondary block md:inline">{data.subtitle}</span>
+          <span className="text-t-secondary block md:inline">{data.subtitle}</span>
           <span className="text-t-primary block md:inline">{data.span_subtitle}</span>
         </h1>
 
-        <p className="text-t_secondary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
+        <p className="text-t-secondary dark:text-t-primary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
           {data.description}
         </p>
 
@@ -31,7 +31,7 @@ const HeroSection = ({ data }: HeroSectionProps) => {
             <button
               key={index}
               className="px-8 py-3.5 rounded-lg text-sm md:text-base font-semibold transition-all duration-300   hover:shadow-white
-                        text-white bg-btn-primary border border-primary hover:shadow-2xl hover-shadow-primary hover:bg-btn-secondary"
+                        text-white bg-btn-primary border border-btn-primary hover:shadow-2xl hover-shadow-btn-primary hover:bg-btn-secondary hover:text-t-secondary"
             >
               {btn.text}
             </button>

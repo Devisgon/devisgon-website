@@ -34,9 +34,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   };
 
   return (
-    // Changed: Added overflow-hidden to section to prevent page-wide scrollbars on mobile
-    // while keeping inner elements visible on desktop
-    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden sm:overflow-visible">
+    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden bg-foreground sm:overflow-visible">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="relative mb-12">
@@ -46,8 +44,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
-              {/* Note: ml-84 is a custom class, ensuring it exists in your tailwind config */}
-              <p className="text-primary text-9xl ml-84 hidden sm:visible md:block -mt-16">
+              <p className="text-t-primary text-9xl ml-84 hidden sm:visible md:block -mt-16">
                 ↝
               </p>
             </div>
@@ -56,7 +53,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
               <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>
-              <p className="hidden lg:block text-t_secondary text-sm md:text-[15px] mb-6">
+              <p className="hidden lg:block text-t-secondary text-sm md:text-[15px] mb-6">
                 {data.subtitle_note}
               </p>
 
@@ -108,8 +105,8 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                   snap-center 
                   
                   flex-shrink-0 cursor-pointer rounded-3xl p-6 flex flex-col justify-between
-                  transition-all duration-700 ease-out
-                  bg-white dark:bg-background
+                  transition-all duration-700 ease-out bg-foreground
+              
                   
                   ${
                     isActive
@@ -131,7 +128,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                     <h4
                       className={`font-bold ${
                         isActive
-                          ? "text-lg text-t-primary md:text-xl"
+                          ? "text-lg text-t-primary dark:text-t-secondary md:text-xl"
                           : "text-gray-700 md:text-lg"
                       }`}
                     >
@@ -139,7 +136,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                     </h4>
                     <p
                       className={`font-medium ${
-                        isActive ? "text-sm text-t-primary" : "text-gray-600"
+                        isActive ? "text-sm text-t-primary dark:text-t-primary" : "text-gray-600"
                       }`}
                     >
                       {review.role}
@@ -150,7 +147,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 <p
                   className={`leading-relaxed font-medium ${
                     isActive
-                      ? "text-t_secondary md:text-lg"
+                      ? "text-t-secondary dark:text-t-primary md:text-lg"
                       : "text-gray-500 text-sm md:text-base"
                   }`}
                 >

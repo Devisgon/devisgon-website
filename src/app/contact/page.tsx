@@ -139,7 +139,7 @@ const [showOptions, setShowOptions] = useState(false);
               className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8"
             >
               <h2 className="text-2xl font-bold text-t-primary mb-2">Send us a message</h2>
-              <p className="text-t_secondary mb-6">
+              <p className="text-t-secondary mb-6">
                 Fill out the form below and we’ll get back to you within 24 hours.
               </p>
 
@@ -244,7 +244,6 @@ const [showOptions, setShowOptions] = useState(false);
                   />
                 </div>
 
-                {/* File Upload (Animated Hover) */}
                 <motion.div 
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
@@ -303,7 +302,7 @@ const [showOptions, setShowOptions] = useState(false);
                   disabled={isSubmitting}
                   whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
-                  className="w-full bg-btn-primary text-white py-3 rounded-md transition disabled:opacity-50"
+                  className="w-full bg- text-white bg-t-secondary py-3 rounded-md transition disabled:opacity-50"
                 >
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </motion.button>
@@ -323,7 +322,7 @@ const [showOptions, setShowOptions] = useState(false);
                Schedule a call
              </h2>
 
-                  <p className="text-t_secondary mb-4">
+                  <p className="text-t-secondary mb-4">
                    Prefer to talk? Book a free 30-minute consultation call with our team
                  </p>
 
@@ -331,9 +330,8 @@ const [showOptions, setShowOptions] = useState(false);
     {!showOptions ? (
       <>
         {/* Default View */}
-        <MdCalendarToday className="text-primary text-5xl mb-4" />
+        <MdCalendarToday className="text-t-primary text-5xl mb-4" />
         <p className="text-t-primary font-bold text-xl mb-4">Calendly</p>
-
         <motion.button
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
@@ -390,26 +388,26 @@ const [showOptions, setShowOptions] = useState(false);
                 <h3 className="text-2xl font-bold text-t-primary">Get in touch</h3>
 
                 <div className="flex items-center gap-3">
-                  <Mail className="text-t_secondary" />
-                  <a href="mailto:info@devisgon.com" className="text-t_secondary hover:underline">
+                  <Mail className="text-t-secondary" />
+                  <a href="mailto:info@devisgon.com" className="text-t-secondary hover:underline">
                     info@devisgon.com
                   </a>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <Phone className="text-t_secondary" />
-                  <a href="tel:+923316944411" className="text-t_secondary hover:underline">
+                  <Phone className="text-t-secondary" />
+                  <a href="tel:+923316944411" className="text-t-secondary hover:underline">
                     +92 331 6944411
                   </a>
                 </div>
 
                 <div className="flex items-center gap-3">
-                  <MapPin className="text-t_secondary" />
+                  <MapPin className="text-t-secondary" />
                   <a
                     href="https://www.google.com/maps/search/?api=1&query=Okara,+Pakistan"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-t_secondary hover:underline"
+                    className="text-t-secondary hover:underline"
                   >
                     Okara, Pakistan
                   </a>
@@ -426,7 +424,7 @@ const [showOptions, setShowOptions] = useState(false);
                       key={idx}
                       whileHover={{ rotate: 360, scale: 1.1 }}
                       transition={{ duration: 0.6 }}
-                      className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-secondary text-3xl cursor-pointer"
+                      className="bg-[#EAD5F9] border-[#E5E7EB] rounded-2xl p-4 text-t-secondary text-3xl cursor-pointer"
                     >
                       <a href={social.Link} target="_blank">
                         <social.Icon />

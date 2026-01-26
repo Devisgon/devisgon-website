@@ -40,15 +40,15 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
     ((currentStep - 1) / (stepsData.length - 1)) * 100;
 
   return (
-    <section className="bg-bg-secondary  py-20 px-4">
+    <section className="bg-background  py-20 px-4">
       <div className="flex flex-col items-center text-center mb-20">
-        <p className="text-t_secondary font-bold text-3xl mb-4">
+        <p className="text-t-secondary font-bold text-3xl mb-4">
           {data.section_heading}
         </p>
 
         <h1 className="text-t-primary font-extrabold text-5xl">
           {data.main_heading}{" "}
-          <span className="text-t_secondary">{data.span_heading}</span>
+          <span className="text-t-secondary">{data.span_heading}</span>
         </h1>
 
         <h1 className="text-t-primary text-5xl font-extrabold mt-2">
@@ -62,7 +62,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
           <div className="hidden md:block absolute top-[2.5rem] left-4 w-[950px] h-1 rounded-full overflow-hidden">
             <div className="absolute w-full h-full bg-purple-200" />
             <div
-              className="absolute h-full bg-secondary transition-all duration-700"
+              className="absolute h-full bg-t-secondary transition-all duration-700"
               style={{ width: `${progressPercent}%` }}
             />
           </div>
@@ -71,7 +71,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
           <div className="md:hidden absolute left-1/2 top-4 -translate-x-1/2 w-1 h-[700px] rounded-full overflow-hidden">
             <div className="absolute w-full h-full bg-purple-200" />
             <div
-              className="absolute w-full bg-secondary transition-all duration-700"
+              className="absolute w-full bg-t-secondary transition-all duration-700"
               style={{ height: `${progressPercent}%` }}
             />
           </div>
@@ -86,19 +86,19 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
               return (
                 <div key={step.id} className="flex flex-col items-center">
                   <div
-                    className={`w-20 h-20 rounded-full flex items-center justify-center border-4 transition-all duration-500
+                    className={`w-20 h-20 rounded-full flex items-center justify-center border-4 border-[#EAD5F9] dark:border-[#47295C] transition-all duration-500
                       ${
                         isLastStep
                           ? "bg-[#138b33] border-[#138b33]"
                           : isActive
-                          ? "bg-secondary border-secondary"
-                          : "bg-white border-purple-300"
+                          ? "bg-t-secondary  "
+                          : "bg-white "
                       }
                     `}
                   >
                     {isActive && (
                       <Check
-                        className="w-8 h-8 text-white animate-in zoom-in duration-300"
+                        className="w-8 h-8 text-background animate-in zoom-in duration-300"
                         strokeWidth={3}
                       />
                     )}
@@ -110,8 +110,8 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
                         isLastStep
                           ? "text-[#138b33]"
                           : isActive
-                          ? "text-secondary"
-                          : "text-white"
+                          ? "text-t-secondary"
+                          : "text-[#6F6F6F]"
                       }
                     `}
                   >

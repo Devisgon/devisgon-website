@@ -6,7 +6,7 @@ import type { ExpertServicesSectionProps } from "@/types/homepage/expert_service
 
 const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
   return (
-    <section className="w-full py-16">
+    <section className="w-full bg-bg-secondary py-16">
       <div className="max-w-5xl mx-auto px-4 md:px-8">
         <h2 className="text-3xl md:text-4xl font-bold text-t-primary ml-0 md:ml-20 max-w-md mb-10">
           {data.main_heading}
@@ -20,7 +20,7 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
           />
 
           {/* Checklist Card */}
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-background rounded-2xl shadow-2xl p-4 sm:p-6 w-64 sm:w-72 z-20">
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#402060] rounded-2xl shadow-2xl p-4 sm:p-6 w-64 sm:w-72 z-20">
             <ul className="space-y-3 sm:space-y-4">
               {data.process_checklist_card.items.map((item, index) => (
                 <li key={index} className="flex text-t-primary items-center gap-2">
@@ -36,7 +36,7 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
           {/* Info Cards */}
           <div
             className="
-              flex flex-col p-2 mt-14
+              flex flex-col p-2 mt-14 
               md:absolute md:bottom-0 md:left-[25%] md:right-0 md:flex-row md:translate-y-1/2
               z-20
             "
