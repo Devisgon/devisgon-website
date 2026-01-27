@@ -60,7 +60,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
         <div className="relative w-full max-w-5xl">
           {/* Horizontal progress (desktop) */}
           <div className="hidden md:block absolute top-[2.5rem] left-4 w-[950px] h-1 rounded-full overflow-hidden">
-            <div className="absolute w-full h-full bg-purple-200" />
+            <div className="absolute w-full h-full bg-[#EAD5F9] dark:bg-[#47295C]" />
             <div
               className="absolute h-full bg-t-secondary transition-all duration-700"
               style={{ width: `${progressPercent}%` }}
@@ -69,7 +69,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
 
           {/* Vertical progress (mobile) */}
           <div className="md:hidden absolute left-1/2 top-4 -translate-x-1/2 w-1 h-[700px] rounded-full overflow-hidden">
-            <div className="absolute w-full h-full bg-purple-200" />
+            <div className="absolute w-full h-full bg-[#EAD5F9] dark:bg-[#47295C]" />
             <div
               className="absolute w-full bg-t-secondary transition-all duration-700"
               style={{ height: `${progressPercent}%` }}
@@ -92,7 +92,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
                           ? "bg-[#138b33] border-[#138b33]"
                           : isActive
                           ? "bg-t-secondary  "
-                          : "bg-white "
+                          : "bg-background "
                       }
                     `}
                   >

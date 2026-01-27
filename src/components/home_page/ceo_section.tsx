@@ -19,7 +19,7 @@ const CEOSection = ({ data }: CEOSectionProps) => {
           </div>
           
           <div className="bg-background dark:bg-[#ECD9FA] rounded-2xl p-4  -mt-40 border-t-[6px] border-[#D1AFEC] dark:border-[#664282] shadow-xl">
-            <div className="absolute left-10 top-28 text-[300px] font-serif font-bold text-t-primary/10">
+            <div className="absolute left-10 top-28 text-[300px]  dark:text-[#8457AA]/10 font-serif font-bold text-t-primary/10">
               “
             </div>
 

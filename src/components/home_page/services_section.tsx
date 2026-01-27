@@ -5,7 +5,7 @@ import type { ServicesSectionProps } from "@/types/homepage/services";
 
 export default function ServicesSection({ data }: ServicesSectionProps) {
   return (
-    <section className=" p-10 flex flex-col items-center overflow-hidden">
+    <section className=" p-10 flex flex-col bg-background items-center overflow-hidden">
       {/* Header */}
       <div className="flex flex-col justify-center items-center m-4 px-4 z-10 relative">
         <p className="text-t-secondary text-2xl font-semibold mb-2">

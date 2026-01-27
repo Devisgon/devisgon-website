@@ -5,6 +5,7 @@ export interface HeroCTA {
 export interface HeroSectionData {
   title?: string;
   pre_title: string;
+  sub_main_title:string;
   main_title: string;
   description: string;
   cta_button: HeroCTA;
