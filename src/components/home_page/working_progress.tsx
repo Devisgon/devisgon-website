@@ -46,12 +46,12 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
           {data.section_heading}
         </p>
 
-        <h1 className="text-t-primary font-extrabold text-5xl">
+        <h1 className="text-t-primary font-bold  md:text-5xl lg:text-5xl text-2xl">
           {data.main_heading}{" "}
           <span className="text-t-secondary">{data.span_heading}</span>
         </h1>
 
-        <h1 className="text-t-primary text-5xl font-extrabold mt-2">
+        <h1 className="text-t-primary text-2xl md:text-5xl lg:text-5xl font-bold mt-2">
           {data.heading}
         </h1>
       </div>

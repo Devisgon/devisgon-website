@@ -110,7 +110,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                   
                   ${
                     isActive
-                      ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-18 z-20 shadow-[0_0_70px_10px_#8145B5] "
+                      ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-18 z-20 shadow-[0_0_70px_10px_#8145B5] dark:shadow-[#8145B5]"
                       : "w-72 sm:w-82 h-64 sm:h-72 scale-95 opacity-60"
                   }
                 `}

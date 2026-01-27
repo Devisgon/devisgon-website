@@ -13,7 +13,13 @@ export interface ServiceItem {
   image: string;
   deliverables: string[];
   tech_stack: string[];
-  bg?: string; 
+  bg?: string;
+  forn:Serviceform[];
+
+}
+export interface Serviceform{
+  headline:string;
+  descdescription:string;
 }
 
 export interface ServicesListProps {

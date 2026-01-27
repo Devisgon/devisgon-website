@@ -5,13 +5,13 @@ import type { ServicesSectionProps } from "@/types/homepage/services";
 
 export default function ServicesSection({ data }: ServicesSectionProps) {
   return (
-    <section className=" p-10 flex flex-col bg-background items-center overflow-hidden">
+    <section className=" p-5 md:p-10 flex flex-col bg-background items-center overflow-hidden">
       {/* Header */}
       <div className="flex flex-col justify-center items-center m-4 px-4 z-10 relative">
         <p className="text-t-secondary text-2xl font-semibold mb-2">
           {data.header_title}
         </p>
-        <h1 className="text-4xl md:text-5xl font-bold text-t-primary max-w-2xl text-center leading-tight">
+        <h1 className="text-2xl  md:text-5xl font-bold text-t-primary max-w-3xl text-center leading-tight">
           {data.main_title}
         </h1>
       </div>

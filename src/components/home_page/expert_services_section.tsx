@@ -44,7 +44,7 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
             {data.core_info_cards.map((card, index) => (
               <div
                 key={index}
-                className="flex-1 p-4 sm:p-6 rounded-xl"
+                className="flex-1 p-4 sm:p-6 rounded-sm"
                 style={{ backgroundColor: card.bg }}
               >
                 <span

@@ -34,14 +34,14 @@ const BlogSection = ({ data }: BlogSectionProps) => {
         );
 
   return (
-    <section className="py-20 px-6 md:px-12 bg-background lg:px-20">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-6 md:px-8 bg-background lg:px-20">
+      <div className="max-w-9xl mx-auto">
         
-        <div className="text-center max-w-3xl mx-auto mb-12">
-          <h3 className="text-t-primary font-bold text-4xl mb-4">
+        <div className="text-center max-w-5xl mx-auto mb-12">
+          <h3 className="text-t-primary font-bold text-3xl md:text-4xl mb-4">
             {data.header_title}
           </h3>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary dark:text-[#8E4EC6]  mb-6 leading-tight">
+          <h2 className="text-xl md:text-5xl lg:text-5xl font-bold text-t-primary dark:text-[#8E4EC6]  mb-6 leading-tight">
             {data.main_title}
           </h2>
           <p className="text-t-secondary font-medium text-sm md:text-base">
