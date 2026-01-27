@@ -35,12 +35,12 @@ const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
         </div>
 
         {/* Right Image */}
-        <div className="w-full flex justify-center lg:justify-end">
+        <div className="w-full flex justify-center  lg:justify-end">
           <div className="rounded-2xl overflow-hidden w-full max-w-lg">
             <img 
               src={data.side_image} 
               alt="AI App Interface" 
-              className="w-full h-auto object-cover hover:scale-105 transition-transform duration-500"
+              className="w-full h-auto  hover:scale-105 transition-transform duration-500"
             />
           </div>
         </div>

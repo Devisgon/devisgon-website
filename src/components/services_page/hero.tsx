@@ -12,18 +12,19 @@ const [activeBtn, setActiveBtn] = useState<number | null>(null);  return (
         backgroundPosition: "top",
       }}
     >
-      <div className="relative z-10 max-w-4xl mx-auto text-center flex flex-col items-center">
-        <h2 className="text-t-primary font-bold text-3xl md:text-7xl mb-4 tracking-tight">
+      <div className="relative z-10 max-w-7xl mx-auto  flex flex-col items-center">
+        <h2 className="text-t-primary font-bold text-3xl md:text-7xl mb-4 tracking-tight        bg-clip-text dark:text-transparent
+dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)]">
           {data.title}
         </h2>
 
-        <h1 className="text-2xl md:text-5xl lg:text-7xl font-bold mb-6 leading-[1.15]">
-          <span className="text-t-secondary block md:inline 
+        <h1 className="text-2xl md:text-6xl text-center font-bold mb-6">
+          <span className="text-t-secondary 
              bg-clip-text dark:text-transparent
-dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">{data.subtitle}</span>
-          <span className="text-t-primary block md:inline 
+dark:bg-[linear-gradient(#8248b5_0%,#8248b5_70.71%)] ">{data.subtitle}</span>
+          <span className="text-t-primary  
              bg-clip-text dark:text-transparent
-dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">{data.span_subtitle}</span>
+dark:bg-[linear-gradient(135deg,#a782c4_0%,#D1AFEC_70.71%)] ">{data.span_subtitle}</span>
         </h1>
 
         <p className="text-t-secondary dark:text-t-primary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">

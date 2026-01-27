@@ -52,13 +52,15 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="flex flex-col items-center gap-6"
           >
-            <img src="/logo/logo.svg" alt="logo" className="w-32 md:w-60 mx-auto" />
+            <img src="/logo/logo.svg" alt="logo" className="w-32 md:w-60 dark:hidden mx-auto" />
+            <img src="/logo/dark_logo.svg" alt="logo" className="w-32 md:w-60 hidden dark:block mx-auto" />
 
-            <div className="flex flex-col gap-6 text-t-primary text-md md:2xl font-medium opacity-80 text-center">
+
+            <div className="flex flex-col gap-6 text-t-primary text-md md:2xl  font-medium opacity-80 text-center">
               <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">
                 info@devisgon.com
               </a>
-              <a href="tel:03316944411" className="hover:text-[#8B3DFF] hover:border-b-2">
+              <a href="tel:03316944411" className="hover:text-[#8B3DFF]  hover:border-b-2">
                 0331 6944411
               </a>
             </div>

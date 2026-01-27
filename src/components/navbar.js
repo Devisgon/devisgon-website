@@ -51,8 +51,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
          <img
-          src="/logo/logo.svg"
-          alt="logo"
+src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
          />
 
         {/* Desktop Nav */}

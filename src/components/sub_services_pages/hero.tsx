@@ -50,7 +50,8 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
   const { title, subtitle, description, hero_image } = data;
 
   return (
-    <section className="relative w-full bg-gradient-r from-[#352540] to-[#483a4f] min-h-screen overflow-hidden flex items-center justify-center py-30">
+    <section className="relative w-full bg-[radial-gradient(circle_at_0%_0%,rgba(234,213,249,0.4)_0%,rgba(234,213,249,0.4)_100%)] 
+dark:bg-[linear-gradient(to_right,#352440_0%,#45394d_100%)]    min-h-screen overflow-hidden flex items-center justify-center py-30">
       
       <motion.div 
         variants={circleVariants}
@@ -75,18 +76,22 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
           
           {/* --- Left Content --- */}
           <motion.div 
-            className="w-full lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
+            className="w-full h-[550px] lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
             variants={containerVariants}
             initial="hidden"
             animate="visible"
           >
-            <motion.h1 variants={itemVariants} className="text-5xl md:text-6xl font-bold text-t-primary mb-2 tracking-tight">
+            <motion.h1 variants={itemVariants} className="text-5xl md:text-6xl font-extrabold  mb-2 tracking-tight  bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060_50.16%,rgba(64,32,96,0.4)_97.71%)]
+           
+             bg-clip-text text-transparent">
               {title}
             </motion.h1>
-            <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold text-t-primary/80 mb-6">
+            <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold  mb-6  bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060_50.16%,rgba(64,32,96,0.4)_97.71%)]
+           
+             bg-clip-text text-transparent">
               {subtitle}
             </motion.h2>
-            <motion.p variants={itemVariants} className="text-t-secondary dark:text-t-primary text-lg md:text-xl font-medium mb-10 max-w-lg leading-relaxed">
+            <motion.p variants={itemVariants} className=" text-lg md:text-xl text-t-secondary dark:text-t-primary font-medium mb-10 max-w-lg leading-relaxed ">
               {description}
             </motion.p>
 
@@ -94,7 +99,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
               <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-btn-primary hover:bg-btn-secondary text-white hover:shadow-2xl hover:shadow-btn-primary font-semibold py-4 px-8 rounded-xl transition-all shadow-md"
+                className="bg-btn-primary  text-white hover:shadow-2xl hover:shadow-white font-semibold py-4 px-8 rounded-xl transition-all shadow-md"
               >
                 Start My AI Project
               </motion.button>
@@ -102,7 +107,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
                 href="/contact" 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-btn-primary text-btn-lprimary hover:bg-btn-secondary hover:border-btn-secondary hover:shadow-2xl hover:shadow-btn-primary hover:text-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
+                className="bg-transparent border-2 border-btn-primary text-btn-lprimary  hover:border-btn-secondary hover:shadow-2xl hover:shadow-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
               >
                 Contact Us
               </motion.a>

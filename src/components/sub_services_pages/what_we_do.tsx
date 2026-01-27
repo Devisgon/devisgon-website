@@ -49,7 +49,7 @@ const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
         >
           <motion.h2 
             variants={textItemVariants}
-            className="text-2xl md:text-2xl lg:text-5xl font-bold text-t-primary mb-12 leading-tight"
+            className="text-2xl md:text-3xl font-bold  text-t-primary mb-12 leading-tight"
           >
             {data.title}
           </motion.h2>
