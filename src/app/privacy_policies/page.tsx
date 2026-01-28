@@ -112,7 +112,7 @@ const PrivacyPolicy = () => {
 
                   {section.subsections?.map((sub, idx) => (
                     <div key={idx} className="mb-8 pl-4 text-t-secondary dark:text-t-primary">
-                      <h3 className="font-bold text-lg mb-3 ">
+                      <h3 className="font-bold text-lg mb-3 text-t-primary dark:text-t-secondary ">
                         {sub.title}
                       </h3>
                       <p className="mb-3 text-sm">

@@ -40,7 +40,7 @@ const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
             <img 
               src={data.side_image} 
               alt="AI App Interface" 
-              className="w-full h-auto  hover:scale-105 transition-transform duration-500"
+              className="w-full h-auto scale-101 hover:scale-110 transition-transform duration-500"
             />
           </div>
         </div>

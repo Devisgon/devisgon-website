@@ -105,7 +105,7 @@ const CaseStudySection: React.FC<CaseStudyProps> = ({ data }) => {
               <img
                 src={image}
                 alt={headline || "Case Study Image"}
-                className="w-full h-auto object-cover transform transition-transform duration-700 hover:scale-105"
+                className="w-full h-auto object-cover scale-101 hover:scale-110 transform transition-transform duration-700 "
               />
             </div>
           )}

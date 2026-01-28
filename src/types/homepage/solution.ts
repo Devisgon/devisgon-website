@@ -1,6 +1,7 @@
 export interface SolutionFeature {
   title: string;
   description: string;
+  icon:string
 }
 
 export interface SolutionSideCard {

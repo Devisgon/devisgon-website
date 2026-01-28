@@ -27,7 +27,7 @@ dark:bg-[linear-gradient(#8248b5_0%,#8248b5_70.71%)] ">{data.subtitle}</span>
 dark:bg-[linear-gradient(135deg,#a782c4_0%,#D1AFEC_70.71%)] ">{data.span_subtitle}</span>
         </h1>
 
-        <p className="text-t-secondary dark:text-t-primary text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
+        <p className="text-t-secondary dark:text-t-primary text-center text-base md:text-lg max-w-2xl mb-10 leading-relaxed font-medium">
           {data.description}
         </p>
 
@@ -36,7 +36,7 @@ dark:bg-[linear-gradient(135deg,#a782c4_0%,#D1AFEC_70.71%)] ">{data.span_subtitl
           <button
               key={index}
               onClick={() => setActiveBtn(index)}
-              className={`px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary 
+              className={`px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 dark:border-[#664282]
                 ${activeBtn == index 
                   ? 'bg-btn-primary text-white' 
                   : 'bg-transparent text-t-secondary hover:bg-btn-primary hover:text-white'

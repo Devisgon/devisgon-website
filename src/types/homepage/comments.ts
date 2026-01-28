@@ -6,6 +6,8 @@ export interface TestimonialReview {
 }
 
 export interface TestimonialData {
+  title:string;
+  icon:string;
   subtitle_note: string;
   reviews: TestimonialReview[];
 }

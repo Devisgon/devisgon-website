@@ -62,7 +62,7 @@ const KeyBenefitsSection: React.FC<KeyBenefitsSectionProps> = ({ data }) => {
                 whileHover={{ y: -8, transition: { duration: 0.3 } }}
                 className="bg-white border border-[#D1AFEC] rounded-2xl p-8 hover:shadow-lg transition-shadow duration-300 flex flex-col items-start"
               >
-                <div className="w-14 h-14 bg-[#EAD5F9] dark:bg-[#6F1595] rounded-xl flex items-center justify-center mb-6 text-[#9333EA] dark:text-[#EAD5F9]">
+                <div className="w-14 h-14 bg-[#EAD5F9] dark:bg-[#47295C] rounded-xl flex items-center justify-center mb-6 text-[#9333EA] dark:text-[#EAD5F9]">
                   {IconComponent ? (
                     <IconComponent size={28} />
                   ) : (

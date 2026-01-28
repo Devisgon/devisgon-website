@@ -83,7 +83,7 @@ const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
             <motion.img
               src={data.image}
               alt="Feature Illustration"
-              className="w-full h-auto object-cover"
+              className="w-full h-auto scale-101 hover:scale-110 object-cover"
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.5 }}
             />

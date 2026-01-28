@@ -1,6 +1,9 @@
 "use client";
 import React from "react";
-import { Play } from "lucide-react";
+import { FaPlay } from "react-icons/fa";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import { useState } from "react";
+
 import { HeroSectionProps } from "@/types/sub_services_page/hero";
 import { motion, Variants } from "framer-motion";
 
@@ -41,21 +44,20 @@ const circleVariants: Variants = {
     transition: {
       duration: 5,
       ease: "easeInOut",
-      repeat: Infinity,
     },
   },
 };
 
-const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
-  const { title, subtitle, description, hero_image } = data;
+const HeroSection: React.FC<HeroSectionProps> = ({ data } ) => {
+  const { title, subtitle, description, hero_image ,buttons = []} = data;
+    const [activeBtn, setActiveBtn] = useState<number | null>(null); 
+  
 
   return (
     <section className="relative w-full bg-[radial-gradient(circle_at_0%_0%,rgba(234,213,249,0.4)_0%,rgba(234,213,249,0.4)_100%)] 
-dark:bg-[linear-gradient(to_right,#352440_0%,#45394d_100%)]    min-h-screen overflow-hidden flex items-center justify-center py-30">
-      
+dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen overflow-hidden flex items-center justify-center py-30">
       <motion.div 
         variants={circleVariants}
-        animate="animate"
         className="absolute top-1/2 -translate-y-1/2 -left-70 w-[400px] h-[400px] rounded-full border-[60px] border-[#8145B5] opacity-10" 
       />
       <motion.div 
@@ -96,62 +98,101 @@ dark:bg-[linear-gradient(to_right,#352440_0%,#45394d_100%)]    min-h-screen over
             </motion.p>
 
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
+                      {data.buttons.map((btn, index) => (
+
               <motion.button 
+                 key={index}
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
-                className="bg-btn-primary  text-white hover:shadow-2xl hover:shadow-white font-semibold py-4 px-8 rounded-xl transition-all shadow-md"
+              onClick={() => setActiveBtn(index)}
+              className={`px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary 
+                ${activeBtn == index 
+                  ? 'bg-btn-primary text-white' 
+                  : 'bg-transparent text-t-secondary dark:text-t-primary hover:bg-btn-primary hover:text-white'
+                }`}
               >
-                Start My AI Project
-              </motion.button>
-              <motion.a 
-                href="/contact" 
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
-                className="bg-transparent border-2 border-btn-primary text-btn-lprimary  hover:border-btn-secondary hover:shadow-2xl hover:shadow-white font-semibold py-4 px-8 rounded-xl transition-all inline-block text-center"
-              >
-                Contact Us
-              </motion.a>
+                     {btn.text}     
+         </motion.button>))}
+             
             </motion.div>
           </motion.div>
+<motion.div
+  className="w-full lg:w-1/3 z-20"
+  variants={imageVariants}
+  initial="hidden"
+  animate="visible"
+>
+  <div className="relative mx-auto w-[300px] h-[550px] rounded-2xl overflow-hidden">
 
-          {/* --- Right Image --- */}
-          <motion.div 
-            className="w-full lg:w-1/3 z-20"
-            variants={imageVariants}
-            initial="hidden"
-            animate="visible"
-          >
-            <div className="relative mx-auto w-[300px] h-[550px] rounded-2xl overflow-hidden">
-              <img
-                src={hero_image}
-                alt="App Interface"
-                className="w-full h-full object-cover"
-              />
+    {/* IMAGE */}
+    <img
+      src={hero_image}
+      alt="App Interface"
+      className="absolute inset-0 w-full h-full object-cover scale-[1.02]"
+    />
 
-              <div className="absolute inset-0 flex flex-col justify-between p-6">
-                <div className="flex justify-between">
-                  <h3 className="text-white text-3xl font-bold leading-tight">
-                    Our Work.<br />Their Words.
-                  </h3>
-                  <div className="flex gap-1 mt-2">
-                    <div className="w-2 h-2 bg-white rounded-full"></div>
-                    <div className="w-2 h-2 bg-white/50 rounded-full"></div>
-                    <div className="w-2 h-2 bg-white/50 rounded-full"></div>
-                  </div>
-                </div>
+ 
 
-                <div className="flex justify-center">
-                  <motion.button 
-                    whileHover={{ scale: 1.1 }}
-                    whileTap={{ scale: 0.9 }}
-                    className="w-12 h-12 bg-black rounded-full flex items-center justify-center border border-white/20"
-                  >
-                    <Play className="text-white w-5 h-5 ml-1" />
-                  </motion.button>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+    <div
+      className="
+        absolute bottom-0 left-0 w-full h-[40%]
+        bg-gradient-to-t
+        from-[#BE93E4]/70
+        via-[#BE93E4]/40
+        to-transparent
+        z-[2]
+      "
+    />
+
+    {/* CONTENT */}
+    <div className="relative z-[3] h-full flex flex-col justify-between p-6 text-white">
+
+      {/* TOP */}
+      <div className="flex justify-between items-start">
+        <div>
+          <p className="text-white opacity-50 text-3xl font-semibold">
+            Our Work.
+          </p>
+          <p className="text-white text-3xl font-bold leading-tight">
+            Their Words.
+          </p>
+        </div>
+
+        <div className="flex gap-1 mt-2">
+          <span className="w-2 h-2 bg-white rounded-full" />
+          <span className="w-2 h-2 bg-white/50 rounded-full" />
+          <span className="w-2 h-2 bg-white/50 rounded-full" />
+        </div>
+      </div>
+
+      {/* ARROWS */}
+      <div className="flex gap-50 text-white -mx-3 mb-60">
+        <ChevronLeft className="w-12 h-6 " />
+        <ChevronRight className="w-12 h-6 " />
+      </div>
+    </div>
+
+    {/* PLAY BUTTON */}
+    <div className="absolute inset-0 flex items-center -mb-95 justify-center z-[4]">
+      <motion.button
+        whileHover={{ scale: 1.12 }}
+        whileTap={{ scale: 0.9 }}
+        className="
+          relative
+          w-14 h-14 rounded-full
+          bg-black
+          flex items-center justify-center
+          border 
+        "
+      >
+        <FaPlay className="text-[#EAD5F9] w-5 h-5 ml-1" />
+      </motion.button>
+    </div>
+
+ 
+
+  </div>
+</motion.div>
 
         </div>
       </div>
@@ -160,3 +201,6 @@ dark:bg-[linear-gradient(to_right,#352440_0%,#45394d_100%)]    min-h-screen over
 };
 
 export default HeroSection;
+
+
+  

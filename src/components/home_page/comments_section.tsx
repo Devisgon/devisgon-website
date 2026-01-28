@@ -38,18 +38,20 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="relative mb-12">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-4">
+          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between ">
             <div className="relative z-10 shrink-0">
               <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary leading-[1.1]">
                 What Our <br />
                 Client Saying
               </h2>
-              <p className="text-t-primary text-9xl ml-84 hidden sm:visible md:block -mt-16">
-                ↝
-              </p>
+                <img
+                src={data.icon}
+                alt="arrow"
+                className=" w-44 ml-80 hidden sm:visible md:block -mt-20"             
+              />
             </div>
 
-            <div className="flex flex-col w-full lg:w-auto mt-4 lg:mt-0">
+            <div className="flex flex-col w-full  lg:w-auto mt-4 lg:mt-0">
               <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>

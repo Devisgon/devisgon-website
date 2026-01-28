@@ -20,6 +20,8 @@ const footerColumns: FooterColumn[] = [
       { name: "Home", href: "/" },
       { name: "About Us", href: "#about" },
       { name: "Services", href: "/services" },
+     { name: "Technologies", href: "/services" },
+
       { name: "Contact Us", href: "/contact" },
     ],
   },
@@ -39,10 +41,10 @@ const footerColumns: FooterColumn[] = [
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-bg-primary md:h-screen lg:h-screen flex flex-col justify-center items-center text-center px-6 md:px-12 lg:px-20 text-primary">
-      <div className="max-w-7xl flex flex-col gap-24  w-full">
+    <footer className="bg-bg-primary  pt-16 pb-4 px-6 md:px-12 lg:px-20 text-primary">
+      <div className="max-w-7xl flex flex-col gap-12  w-full">
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8 mt-8">
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-8 lg:mt-8">
 
           {/* Logo & Contact */}
           <motion.div
@@ -50,17 +52,17 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ amount: 0.2 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
-            className="flex flex-col items-center gap-6"
+            className="flex flex-col items-start lg:items-center gap-6"
           >
-            <img src="/logo/logo.svg" alt="logo" className="w-32 md:w-60 dark:hidden mx-auto" />
-            <img src="/logo/dark_logo.svg" alt="logo" className="w-32 md:w-60 hidden dark:block mx-auto" />
+            <img src="/logo/logo.svg" alt="logo" className="w-60 ml-0 md:ml-12  dark:hidden mx-auto" />
+            <img src="/logo/dark_logo.svg" alt="logo" className="w-60 ml-0 md:ml-12   hidden dark:block mx-auto" />
 
 
             <div className="flex flex-col gap-6 text-t-primary text-md md:2xl  font-medium opacity-80 text-center">
               <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">
                 info@devisgon.com
               </a>
-              <a href="tel:03316944411" className="hover:text-[#8B3DFF]  hover:border-b-2">
+              <a href="tel:03316944411" className="hover:text-[#8B3DFF] -ml-12  hover:border-b-2">
                 0331 6944411
               </a>
             </div>
@@ -78,7 +80,7 @@ const Footer: React.FC = () => {
                 ease: "easeOut",
                 delay: (index + 1) * 0.15,
               }}
-              className="flex flex-col items-center"
+              className="flex flex-col items-start md:items-center"
             >
               <h3 className="font-bold text-t-primary text-2xl mb-6">{col.title}</h3>
 
@@ -114,7 +116,7 @@ const Footer: React.FC = () => {
         </div>
 
         {/* Footer Bottom */}
-        <div className="border-t border-t-[#D1AFEC] dark:border-[#664282] p-4 -mb-16">
+        <div className="border-t text-center border-t-[#D1AFEC] dark:border-[#664282] p-1">
           <p className="text-t-primary text-sm">
             © Copyright 2025–27, All Rights Reserved by Devisgon
           </p>

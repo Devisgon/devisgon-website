@@ -46,14 +46,14 @@ const ServicesList = ({ data }: ServicesListProps) => {
                     key={idx}
                     className="bg-white border w-full md:w-68  h-56 border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-2xl hover:shadow-purple-500/10  hover:transform hover:-translate-y-8 duration-300 group"
                   >
-                    <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                    <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] dark:bg-[#6F1595] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                       {IconComponent ? (
-                        <IconComponent className="w-6 h-6 text-t-secondary" />
+                        <IconComponent className="w-6 h-6 text-t-secondary dark:text-[#ECD9FA]" />
                       ) : (
                         <span className="text-t-primary text-xs">Icon not found</span>
                       )}
                     </div>
-                    <h4 className="text-lg font-bold text-[#402060] mb-2  transition-colors">
+                    <h4 className="text-lg font-bold text-[#402060]  mb-2  transition-colors">
                       {feature.title}
                     </h4>
                     <p className="text-sm text-t-secondary leading-relaxed">{feature.details}</p>

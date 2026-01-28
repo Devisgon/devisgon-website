@@ -9,13 +9,13 @@ const HeroSection = ({ data }: HeroSectionProps) => {
     <section
       className="relative w-full min-h-[90vh] flex flex-col items-center justify-center overflow-hidden pt-10 pb-32"  >
 
-  <div className="absolute -left-1 top-44 md:left-36 md:top-40 w-12 md:w-24 h-0.5 rounded-full rotate-[48deg]
+  <div className="absolute -left-1 top-44 md:left-72 md:top-36 w-12 md:w-24 h-0.5 rounded-full rotate-[48deg]
                   bg-gradient-to-r from-transparent to-[#8E4EC6] " />
 
-  <div className="absolute -right-2  md:right-20 md:top-70 w-12 md:w-24 h-0.5 rounded-full rotate-[135deg]
+  <div className="absolute -right-2  md:right-50 md:top-70 w-12 md:w-24 h-0.5 rounded-full rotate-[135deg]
                   bg-gradient-to-r from-transparent to-[#8E4EC6]" />
 
-  <div className="absolute left-1 top-60 w-8 md:left-6 md:top-60 md:w-24 h-0.5 rounded-full rotate-[48deg] md:opacity-10 opacity-50
+  <div className="absolute left-1 top-60 w-8 md:left-6  md:w-24 h-0.5 rounded-full rotate-[48deg] md:opacity-10 opacity-50
                   bg-gradient-to-r from-transparent to-[#8E4EC6]" />
 
   <div className="absolute right-3  md:right-8 md:top-90 md:w-24 w-12 h-0.5 rounded-full rotate-[136deg] md:opacity-10 opacity-50

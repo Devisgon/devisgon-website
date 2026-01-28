@@ -25,11 +25,11 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               {data.features.map((feature, index) => (
                 <div key={index} className="flex-1">
                   <div className="w-14 h-14 rounded-full bg-background border  flex items-center justify-center mb-4 shadow-sm">
-                    {index === 0 ? (
-                      <Sparkles className="text-[#A71A7F] w-full h-full p-2 hover:bg-[#A71A7F] rounded-full hover:text-white hover:border-[#A71A7F]" />
-                    ) : (
-                      <Code className="text-[#3AB8A9] w-full h-full p-2 rounded-full hover:bg-[#3AB8A9] hover:text-white hover:border-[#3AB8A9]" />
-                    )}
+                    <img
+                    src={feature.icon}
+                    alt="icon"
+                    className="h-10 w-10"
+                    />
                   </div>
 
                   <h3 className="text-lg font-bold text-t-primary mb-2">
