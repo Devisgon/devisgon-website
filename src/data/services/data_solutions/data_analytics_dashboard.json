@@ -1,12 +1,14 @@
 {  "slug": "data_analytics_dashboard",
 
+ 
+
     "hero_section": {
-      "title": "AI-Powered Automations",
-      "subtitle": "Work Smarter, Not Harder",
-      "description": "We design intelligent automation systems powered by AI that learn and adapt to your workflows — reducing errors, saving time, and scaling operations effortlessly.",
+      "title": "Data Analytics Dashboards",
+      "subtitle": "Insights at Your Fingertips",
+      "description": "We design interactive dashboards that transform raw data into real-time insights, empowering smarter and faster decision-making across your business.",
       "buttons": [
         {
-          "text": "Automate My Workflow",
+          "text": "Build My Dashboard",
           "link": "#start"
         },
         {
@@ -14,66 +16,63 @@
           "link": "#contact"
         }
       ],
-      "hero_image": "/all_services/ai_powered_automation/hero.svg"},
+      "hero_image": "/all_services/dashboard/hero.svg"},
     "introduction_section": {
       "heading": "What is",
-      "span_heading":" AI-Powered Automations?",
+      "span_heading":" Data Analytics Dashboards?",
       "content": [
-        "Businesses waste hundreds of hours every month on manual, repetitive tasks — from data entry to reporting to customer responses. AI-powered automations replace these with self-learning systems that work 24/7.",
-        "At Devisgon, we build automation pipelines powered by machine learning and natural language processing that adapt to your processes. These automations can:",
-        "Extract and process data",
-        "Trigger workflows automatically",
-        "Respond to customers with contextual intelligence",
-        "Optimize repetitive tasks with self-learning logic",
-        "The result: fewer errors, lower costs, and faster operations."
+      
+        "Data is only valuable if it’s understandable. Many businesses collect massive amounts of data but struggle to make sense of it. Manual reports are time-consuming, error-prone, and often outdated by the time they’re ready.",
+        "At Devisgon, we build custom data analytics dashboards that centralize your data, visualize trends, and deliver actionable insights in real-time. Our dashboards integrate seamlessly with CRMs, ERPs, marketing platforms, financial systems, and databases, giving you a single source of truth for your business.",
+        "From executive KPI dashboards to operational performance trackers, our dashboards are designed to be user-friendly, interactive, and decision-focused."    
       ],
-      "highlight_quote": "“Automated processes, instant results, zero inefficiency.”",
-      "side_image":"/all_services/ai_powered_automation/introduction.svg"},
+      "highlight_quote": " “Smarter dashboards, deeper insights, 3x better decisions.” ",
+      "side_image":"/all_services/dashboard/introduction.svg"},
     "key_benefits_section": {
       "title": "Key Benefits",
       "subtitle": "Transform your operations with proven results",
       "cards": [
         {
-          "title": "Save Time & Money",
-          "description": "Automate repetitive workflows and free up human teams for strategic work.",
-          "icon_type": "TbClockDollar "
+          "title": "Real-Time Data ",
+          "description": "Live updates ensure you’re always working with the latest numbers.",
+          "icon_type": "HiMiniSignal   "
         },
         {
-          "title": "Self-Learning Systems",
-          "description": "Unlike static rules, AI adapts and improves performance over time.",
-          "icon_type": "GiTrackedRobot "
+          "title": "Centralized Insights",
+          "description": "Bring data from multiple sources into one clean dashboard.",
+          "icon_type": "VscGraphLine "
         },
           {
-          "title": "Reduce Errors",
-          "description": "Eliminate mistakes caused by manual input.",
-          "icon_type": "MdError "
+          "title": "Custom Visuals",
+          "description": "Tailored charts, graphs, and KPIs designed for your business goals.",
+          "icon_type": "PiCodeFill  "
         },
         {
-          "title": "Scalable",
-          "description": "Automations can grow as your business grows, handling thousands of tasks in parallel.",
-          "icon_type": "MdCloseFullscreen "
+          "title": "Decision-Ready",
+          "description": "Clear insights that guide strategy, not just raw numbers.",
+          "icon_type": "VscGraphLine "
         }
       ]
     },
     "what_you_get_section": {
-      "title": "What you'll get when you choose  AI-Powered Automations",
-      "image": "/all_services/ai_powered_automation/wwg.svg",
+      "title": "What you'll get when you choose  Dashboards Development",
+      "image": "/all_services/dashboard/wwg.svg",
       "list_items": [
         {
-          "title": "1. Complete Automation Workflows",
-          "description": "End-to-end AI-driven automation workflows"
+          "title": "1. Interactive Dashboards",
+          "description": "Fully interactive analytics dashboard"
         },
          {
-          "title": "2. Smart Bots",
-          "description": "Bots for customer service, data entry, reporting, or task management"
+          "title": "2. Always Up-to-Date",
+          "description": "Real-time or scheduled data refresh pipelines"
         },
           {
-          "title": "3. Seamless Integrations",
-          "description": "Integration with existing business software (CRM, ERP, CMS, etc.)"
+          "title": "3. Seamless Integrations ",
+          "description": "Integration with CRMs, ERPs, APIs, or custom databases"
         },
          {
-          "title": "4. Training & Documentation",
-          "description": "Documentation & staff training for smooth adoption"
+          "title": "4. Tailored Insights ",
+          "description": "Custom KPIs, charts, and reports tailored to your industry"
         }
       ]
     },
@@ -82,28 +81,28 @@
       "subtitle": "Industry-leading tools for maximum reliability and performance",
       "tools": [
         { 
-          "name": "Python", 
-          "icon": "FaPython " 
+          "name": "Power BI", 
+          "icon": "FaSignal  " 
         },
         { 
-          "name": "Node.js", 
-          "icon": "nodFaNodeJs e" 
+          "name": "Tableau", 
+          "icon": " IoLogoTableau " 
         },
         { 
-          "name": "TensorFlow", 
-          "icon": "reaSiTensorflow ct" 
+          "name": "MongoDB", 
+          "icon": "FaDatabase  " 
         },
         { 
-          "name": "OpenAI", 
-          "icon": "SiOpenai " 
+          "name": "Pandas", 
+          "icon": " SiPandas" 
         },
         { 
-          "name": "AWS", 
-          "icon": "FaAws " 
+          "name": "Looker", 
+          "icon": "SiLooker  " 
         },
         { 
-          "name": "n8n", 
-          "icon": "moSiN8N " 
+          "name": "AWS Redshift", 
+          "icon": "FaAws  " 
         }
       ]
     },
@@ -113,45 +112,45 @@
       "steps": [
         {
           "title": "Discover",
-          "description": "Map your business processes to identify automation opportunities.",
+          "description": "Identify KPIs, data sources, and visualization needs.",
           "icon": "FaSearch"
         },
         {
           "title": "Design",
-          "description": "Plan AI workflows, integrations, and automation triggers.",
+          "description": "Wireframe dashboards, choose visualization styles.",
           "icon": "TbTools"
         },
        {
           "title": "Build",
-          "description": "Develop AI bots, automation scripts, and connect APIs.",
+          "description": "Develop dashboard UI, integrate data pipelines, configure charts.",
           "icon": "FaHammer"
         },
        {
           "title": "Launch",
-          "description": "Deploy automations, monitor performance, and refine continuously.",
+          "description": "Deploy dashboards with access controls and real-time sync.",
           "icon": "FaRocket"
         }
       ]
     },
     "case_study_section": {
-      "headline": "Boosted Conversions 18% with AI",
-      "image": "/all_services/ai_powered_automation/case_study.svg",
+      "headline": "60 Hours Saved Monthly with Real-Time SaaS Analytics Dashboard",
+      "image": "/all_services/dashboard/case_study.svg",
       "content": {
         "problem": {
           "label": "Problem",
-          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
+          "text": "A SaaS company relied on manual Excel reports to track revenue, churn, and customer activity."
         },
         "solution": {
           "label": "Solution",
-          "text": "We built an AI-powered recommendation engine into their e-commerce app."
+          "text": "We built a real-time analytics dashboard integrating Stripe, HubSpot, and internal databases."
         },
         "result": {
           "label": "Result",
-          "text": "Conversion rates improved by 18% and session times increased by 25%."
+          "text": "Reporting became instant, saving ~60 hours/month and helping the leadership team react to trends immediately."
         }
       }
     },
-    "faq_section": {
+  "faq_section": {
       "title": "Frequently Asked Questions",
       "subtitle": "Get answers to common questions",
       "questions": [

@@ -1,12 +1,12 @@
 {  "slug": "ai_ml_models",
 
     "hero_section": {
-      "title": "AI-Powered Automations",
-      "subtitle": "Work Smarter, Not Harder",
-      "description": "We design intelligent automation systems powered by AI that learn and adapt to your workflows — reducing errors, saving time, and scaling operations effortlessly.",
+      "title": "AI/ML Models",
+      "subtitle": "Predictive Power for Smarter Business",
+      "description": "We design and deploy artificial intelligence and machine learning models that transform your data into actionable insights, driving automation, forecasting, and personalized experiences.",
       "buttons": [
         {
-          "text": "Automate My Workflow",
+          "text": "Build My AI Model",
           "link": "#start"
         },
         {
@@ -14,66 +14,62 @@
           "link": "#contact"
         }
       ],
-      "hero_image": "/all_services/ai_powered_automation/hero.svg"},
+      "hero_image": "/all_services/ai_ml_models/hero.png"},
     "introduction_section": {
       "heading": "What is",
-      "span_heading":" AI-Powered Automations?",
+      "span_heading":" AI/ML Model?",
       "content": [
-        "Businesses waste hundreds of hours every month on manual, repetitive tasks — from data entry to reporting to customer responses. AI-powered automations replace these with self-learning systems that work 24/7.",
-        "At Devisgon, we build automation pipelines powered by machine learning and natural language processing that adapt to your processes. These automations can:",
-        "Extract and process data",
-        "Trigger workflows automatically",
-        "Respond to customers with contextual intelligence",
-        "Optimize repetitive tasks with self-learning logic",
-        "The result: fewer errors, lower costs, and faster operations."
+      
+        "At Devisgon, we build custom AI/ML models that fit your unique business needs. Unlike generic plug-and-play tools, our models are trained on your real data, ensuring accuracy and relevance. We also deploy them into production-ready environments with monitoring pipelines, so they stay reliable over time.",
+        "Our solutions are used across finance, retail, healthcare, logistics, SaaS, and e-commerce — helping organizations achieve efficiency, growth, and innovation."
       ],
-      "highlight_quote": "“Automated processes, instant results, zero inefficiency.”",
-      "side_image":"/all_services/ai_powered_automation/introduction.svg"},
-    "key_benefits_section": {
+      "highlight_quote": " “Smarter models, sharper analytics, 4x faster growth.” ",
+      "side_image":"/all_services/ai_ml_models/introduction.svg"},
+     "key_benefits_section": {
       "title": "Key Benefits",
       "subtitle": "Transform your operations with proven results",
       "cards": [
         {
-          "title": "Save Time & Money",
-          "description": "Automate repetitive workflows and free up human teams for strategic work.",
-          "icon_type": "TbClockDollar "
+          "title": "Continuous Improvement",
+          "description": "Models learn and improve as new data arrives.",
+          "icon_type": "HiMiniSignal   "
         },
         {
-          "title": "Self-Learning Systems",
-          "description": "Unlike static rules, AI adapts and improves performance over time.",
-          "icon_type": "GiTrackedRobot "
+          "title": "Personalized Experiences",
+          "description": "Deliver content and offers tailored to each user.",
+          "icon_type": "VscGraphLine "
         },
           {
-          "title": "Reduce Errors",
-          "description": "Eliminate mistakes caused by manual input.",
-          "icon_type": "MdError "
+          "title": "Smarter Decisions",
+          "description": "Turn raw data into automated recommendations.",
+          "icon_type": "PiCodeFill  "
         },
         {
-          "title": "Scalable",
-          "description": "Automations can grow as your business grows, handling thousands of tasks in parallel.",
-          "icon_type": "MdCloseFullscreen "
+          "title": "Accurate Forecasting",
+          "description": "Predict demand, revenue, or risks with precision.",
+          "icon_type": "VscGraphLine "
         }
       ]
     },
     "what_you_get_section": {
-      "title": "What you'll get when you choose  AI-Powered Automations",
-      "image": "/all_services/ai_powered_automation/wwg.svg",
+      "title": "What you'll get when you choose  AI/ML Models",
+      "image": "/all_services/ai_ml_models/wwg.svg",
       "list_items": [
         {
-          "title": "1. Complete Automation Workflows",
-          "description": "End-to-end AI-driven automation workflows"
+          "title": "1.Custom-Trained AI/ML Models",
+          "description": "Custom-trained AI/ML models (classification, regression, clustering, NLP, vision)"
         },
          {
-          "title": "2. Smart Bots",
-          "description": "Bots for customer service, data entry, reporting, or task management"
+          "title": "2. Seamless API Integration ",
+          "description": "API endpoints for easy integration into apps or systems"
         },
           {
-          "title": "3. Seamless Integrations",
-          "description": "Integration with existing business software (CRM, ERP, CMS, etc.)"
+          "title": "3. Automated Training Pipelines",
+          "description": "Automated training and retraining pipelines"
         },
          {
-          "title": "4. Training & Documentation",
-          "description": "Documentation & staff training for smooth adoption"
+          "title": "4.Performance Monitoring Dashboards",
+          "description": "Monitoring dashboards for accuracy and drift detection"
         }
       ]
     },
@@ -86,24 +82,20 @@
           "icon": "FaPython " 
         },
         { 
-          "name": "Node.js", 
-          "icon": "nodFaNodeJs e" 
-        },
-        { 
           "name": "TensorFlow", 
-          "icon": "reaSiTensorflow ct" 
+          "icon": "SiTensorflow " 
         },
         { 
-          "name": "OpenAI", 
-          "icon": "SiOpenai " 
+          "name": "Kubernetes", 
+          "icon": " AiOutlineKubernetes " 
         },
         { 
           "name": "AWS", 
           "icon": "FaAws " 
         },
         { 
-          "name": "n8n", 
-          "icon": "moSiN8N " 
+          "name": "Docker", 
+          "icon": "FaDocker " 
         }
       ]
     },
@@ -113,45 +105,45 @@
       "steps": [
         {
           "title": "Discover",
-          "description": "Map your business processes to identify automation opportunities.",
+          "description": "Define use cases, gather data, and identify ML opportunities.",
           "icon": "FaSearch"
         },
         {
           "title": "Design",
-          "description": "Plan AI workflows, integrations, and automation triggers.",
+          "description": "Data preprocessing, feature engineering, model architecture.",
           "icon": "TbTools"
         },
        {
           "title": "Build",
-          "description": "Develop AI bots, automation scripts, and connect APIs.",
+          "description": "Train, validate, and fine-tune models.",
           "icon": "FaHammer"
         },
        {
           "title": "Launch",
-          "description": "Deploy automations, monitor performance, and refine continuously.",
+          "description": "Deploy models with monitoring and retraining pipelines.",
           "icon": "FaRocket"
         }
       ]
     },
     "case_study_section": {
-      "headline": "Boosted Conversions 18% with AI",
-      "image": "/all_services/ai_powered_automation/case_study.svg",
+      "headline": "18% higher conversions and 22% bigger carts",
+      "image": "/all_services/ai_ml_models/case_study.svg",
       "content": {
         "problem": {
           "label": "Problem",
-          "text": "A retail client needed to reduce cart abandonment and improve user engagement."
+          "text": "An e-commerce client wanted to improve product recommendations but relied on static rules."
         },
         "solution": {
           "label": "Solution",
-          "text": "We built an AI-powered recommendation engine into their e-commerce app."
+          "text": "We built a recommendation engine using collaborative filtering and customer purchase history."
         },
         "result": {
           "label": "Result",
-          "text": "Conversion rates improved by 18% and session times increased by 25%."
+          "text": "Conversion rates increased by 18%, average cart value grew by 22%, and user engagement rose significantly."
         }
       }
     },
-    "faq_section": {
+   "faq_section": {
       "title": "Frequently Asked Questions",
       "subtitle": "Get answers to common questions",
       "questions": [
