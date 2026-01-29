@@ -1,0 +1,77 @@
+"use client";
+import React, { useState } from 'react';
+import { FiChevronDown } from "react-icons/fi";
+import { FAQSectionProps } from "@/types/sub_services_page/faq";
+
+const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
+  const [openIndex, setOpenIndex] = useState<number | null>(null);
+
+  const toggleFAQ = (index: number) => {
+    setOpenIndex(openIndex === index ? null : index);
+  };
+
+  return (
+    <section className="w-full bg-white dark:bg-background py-20 px-6">
+      <div className="container mx-auto max-w-3xl">
+        {/* Header */}
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-3">
+            {data.title}
+          </h2>
+          <p className="text-lg text-t-secondary dark:text-t-primary font-medium">
+            {data.subtitle}
+          </p>
+        </div>
+
+        {/* FAQ List */}
+        <div className="space-y-4">
+          {data.questions.map((item, index) => {
+            const isOpen = openIndex === index;
+
+            return (
+              <div 
+                key={index} 
+                className={"border rounded-xl transition-all duration-300 bg-transparent overflow-hidden border-t-secondary shadow-md"}  >
+                {/* Question Header */}
+                <button
+                  onClick={() => toggleFAQ(index)}
+                  className="w-full flex items-center justify-between p-5 text-left focus:outline-none"
+                >
+                  <span className={`text-lg font-semibold ${isOpen ? 'text-t-primary' : 'text-t-primary'}`}>
+                    {item.question}
+                  </span>
+                  <div className={`text-t-secondary transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                    <FiChevronDown size={24} />
+                  </div>
+                </button>
+
+                {/* Answer Content */}
+                <div 
+                  className={`px-5 text-t-secondary leading-relaxed overflow-hidden transition-all duration-300 ease-in-out ${
+                    isOpen ? 'max-h-40 pb-5 opacity-100' : 'max-h-0 opacity-0'
+                  }`}
+                >
+                  {item.answer}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="text-t-secondary mb-2 font-medium">
+            {data.footer.text}
+          </p>
+          <a 
+            href={data.footer.link_url} 
+            className="text-t-primary font-bold hover:underline hover:text-lg duration-900 transition-colors"
+          >
+            {data.footer.link_text}
+          </a>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default FAQSection;

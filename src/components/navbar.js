@@ -47,12 +47,11 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
   if (!mounted) return null;
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-bg-primary border-b border-border/50 backdrop-blur-sm">
+    <header className="fixed top-0 w-full z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b  backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
          <img
-          src="/logo/logo.svg"
-          alt="logo"
+src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
          />
 
         {/* Desktop Nav */}
@@ -62,7 +61,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
               {/* Main Link */}
               <Link
                 href={link.href}
-                className="flex items-center gap-1 text-sm font-medium text-primary  transition-colors"
+                className="flex items-center gap-1 text-sm font-medium text-[#402060] dark:text-[#FEFCFE]  transition-colors"
               >
                 {link.name}
                 {link.dropdown && (
@@ -73,14 +72,14 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -left-84 text-primary mt-2 w-[600px] bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -left-[430px] text-t-primary mt-2 w-[700px] bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0 transition-all duration-200 z-50"
                 >
-                  <div className="grid grid-cols-3 gap-8 p-8">
+                  <div className="grid grid-cols-4 gap-6 p-8">
                     {link.dropdown.columns.map((col) => (
                       <div key={col.title}>
-                        <h3 className="text-xs font-bold uppercase text-primary mb-3">
+                        <h3 className="text-xs font-bold uppercase text-t-primary mb-3">
                           {col.title}
                         </h3>
                         <ul className="space-y-2">
@@ -105,7 +104,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
           <button
             onClick={toggleTheme}
-            className="p-2 rounded-full border-transparent text-primary hover:bg-muted transition-colors"
+            className="p-2 rounded-full border-transparent  text-[#402060] dark:text-[#FEFCFE]  hover:bg-muted transition-colors"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}
@@ -113,11 +112,10 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
         </nav>
          
          {/* mobile view */}
-        <div className="md:hidden flex items-center gap-2">
+        <div className="md:hidden flex items-center text-[#402060] dark:text-[#FEFCFE]  gap-2">
           <button onClick={toggleTheme} className="p-2" aria-label="Toggle Theme">
             {isDark ? <Sun /> : <Moon />}
           </button>
-         
          
          
          
@@ -133,12 +131,16 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
       </div>
 
      <div
-  className={`fixed inset-y-0 right-0 w-3/4 max-w-sm z-50 transform transition-transform duration-300 md:hidden
-    ${mobileOpen ? "translate-x-0" : "translate-x-full"} 
-    bg-bg-primary text-primary`}
+  className={`fixed inset-y-0 left-0 w-3/4 max-w-sm z-50 transform transition-transform duration-500 md:hidden
+    ${mobileOpen ? "translate-x-0" : "-translate-x-full"} 
+    dark:bg-[#8457AA] text-t-primary bg-[#F7EDFE]`}
 >
   {/* Close Button */}
-  <div className="flex justify-end p-4">
+  <div className="flex justify-between p-4">
+     {/* Logo */}
+                     <img src="/logo/logo.svg" alt="logo" className=" dark:hidden " />
+            <img src="/logo/dark_logo.svg" alt="logo" className="hidden dark:block " />
+
     <button
       onClick={() => setMobileOpen(false)}
       className="p-2"
@@ -148,7 +150,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
     </button>
   </div>
 
-  <div className="p-6 space-y-6 bg-bg-secondary overflow-y-auto h-screen">
+  <div className="px-4 py-12 -mt-4 space-y-6 bg-[#F7EDFE] dark:bg-[#8457AA] overflow-y-auto h-screen">
     {navLinks.map((link) => (
       <div key={link.name} className="pb-3">
         
@@ -172,12 +174,12 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
         )}
 
         {link.dropdown && activeMobileDropdown === link.name && (
-          <div className="mt-4 space-y-3 pl-3">
+          <div className="mt-4 space-y-3 ">
             {link.dropdown.columns.map((col) => (
               <div key={col.title}>
                 
                 <button
-                  className="flex justify-between w-full text-base font-semibold uppercase"
+                  className="flex justify-between w-full text-1 font-normal"
                   onClick={() =>
                     setActiveServiceCategory(
                       activeServiceCategory === col.title ? null : col.title
@@ -199,7 +201,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
                         key={sublink.name}
                         href={sublink.href}
                         onClick={() => setMobileOpen(false)}
-                        className="block text-sm text-secondary"
+                        className="block text-sm text-t-secondary"
                       >
                         {sublink.name}
                       </Link>
@@ -218,7 +220,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
       {/* Overlay */}
       {mobileOpen && (
         <div
-          className="fixed inset-0  z-40 md:hidden"
+          className="fixed inset-0 z-40 md:hidden"
           onClick={() => setMobileOpen(false)}
         />
       )}

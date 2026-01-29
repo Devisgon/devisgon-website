@@ -1,50 +1,123 @@
 
 .track {
- 
   --size: 500px;
-  --gap: 0.5rem;  
 
   height: var(--size);
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  -webkit-mask: radial-gradient(
+      #0000 0 30%,
+      #000 30.5%
+    )
+    50% calc(var(--size) * 0.5) / 300% 100%;
+  mask: radial-gradient(
+      #0000 0 30%,
+      #000 30.5%
+    )
+    50% calc(var(--size) * 0.5) / 300% 100%;
+}
+
+
+.maskClip {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.marquee {
   display: flex;
-  overflow-x: auto;
-  gap: var(--gap);
-
-  padding: 0 calc((100% - (2 * var(--size) + 2 * var(--gap))) / 2);
-  scroll-snap-type: x mandatory;
-
-  -webkit-mask: radial-gradient(#0000 0 30%, #000 30.5%) 50%
-      calc(var(--size) * 0.5) / 300% 100%,
-    linear-gradient(0deg, black, black) 50% 0 / 100% var(--gap) no-repeat,
-    linear-gradient(0deg, black, black) 50% 100% / 100% var(--gap) no-repeat;
-
-  mask: radial-gradient(#0000 0 30%, #000 30.5%) 50%
-      calc(var(--size) * 0.5) / 300% 100%,
-    linear-gradient(0deg, black, black) 50% 0 / 100% var(--gap) no-repeat,
-    linear-gradient(0deg, black, black) 50% 100% / 100% var(--gap) no-repeat;
+  gap: 2rem;
+  width: max-content;
+  animation: marquee 40s linear infinite;
+  will-change: transform;
 }
 
-.track::-webkit-scrollbar {
-  display: none;
+.track:hover .marquee {
+  animation-play-state: paused;
 }
+
+.marqueeGroup {
+  display: flex;
+  gap: 2rem;
+}
+
 
 .card {
   height: 500px;
-  width: 600px;
-  aspect-ratio: 1;
-  scroll-snap-align: center;
+  width: 310px;
   flex-shrink: 0;
-  position: relative;
   border-radius: 2rem;
   overflow: hidden;
-  transition: transform 0.5s ease, opacity 0.5s ease;
-  
-  transform: scale(0.8);
+  position: relative;
+  text-decoration: none;
 }
 
-
+/* IMAGE */
 .cardImage {
-  height: 100%;
   width: 100%;
-  object-fit: fill;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
 }
 
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+  
+}
+
+.title {
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: -1rem;
+}
+
+.learnMore {
+  color: white;
+  font-size: 1.25rem;
+  font-weight: 600;
+  opacity: 0%;
+  transform: translateY(12px);
+    margin-bottom: 6rem;
+
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover .cardImage {
+  transform: scale(1.08);
+}
+
+.card:hover .learnMore {
+  opacity: 100;
+  transform: -translateY(24px);
+}
+
+
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .card {
+    width: 80vw;
+  }
+
+  .marquee {
+    animation-duration: 40s;
+  }
+}

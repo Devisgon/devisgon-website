@@ -1,0 +1,173 @@
+{  "slug": "ai_ml_models",
+
+    "hero_section": {
+      "title": "AI/ML Models",
+      "subtitle": "Predictive Power for Smarter Business",
+      "description": "We design and deploy artificial intelligence and machine learning models that transform your data into actionable insights, driving automation, forecasting, and personalized experiences.",
+      "buttons": [
+        {
+          "text": "Build My AI Model",
+          "link": "#start"
+        },
+        {
+          "text": "Contact Us",
+          "link": "#contact"
+        }
+      ],
+      "hero_image": "/all_services/ai_ml_models/hero.png"},
+    "introduction_section": {
+      "heading": "What is",
+      "span_heading":" AI/ML Model?",
+      "content": [
+      
+        "At Devisgon, we build custom AI/ML models that fit your unique business needs. Unlike generic plug-and-play tools, our models are trained on your real data, ensuring accuracy and relevance. We also deploy them into production-ready environments with monitoring pipelines, so they stay reliable over time.",
+        "Our solutions are used across finance, retail, healthcare, logistics, SaaS, and e-commerce — helping organizations achieve efficiency, growth, and innovation."
+      ],
+      "highlight_quote": " “Smarter models, sharper analytics, 4x faster growth.” ",
+      "side_image":"/all_services/ai_ml_models/introduction.svg"},
+     "key_benefits_section": {
+      "title": "Key Benefits",
+      "subtitle": "Transform your operations with proven results",
+      "cards": [
+        {
+          "title": "Continuous Improvement",
+          "description": "Models learn and improve as new data arrives.",
+          "icon_type": "HiMiniSignal   "
+        },
+        {
+          "title": "Personalized Experiences",
+          "description": "Deliver content and offers tailored to each user.",
+          "icon_type": "VscGraphLine "
+        },
+          {
+          "title": "Smarter Decisions",
+          "description": "Turn raw data into automated recommendations.",
+          "icon_type": "PiCodeFill  "
+        },
+        {
+          "title": "Accurate Forecasting",
+          "description": "Predict demand, revenue, or risks with precision.",
+          "icon_type": "VscGraphLine "
+        }
+      ]
+    },
+    "what_you_get_section": {
+      "title": "What you'll get when you choose  AI/ML Models",
+      "image": "/all_services/ai_ml_models/wwg.svg",
+      "list_items": [
+        {
+          "title": "1.Custom-Trained AI/ML Models",
+          "description": "Custom-trained AI/ML models (classification, regression, clustering, NLP, vision)"
+        },
+         {
+          "title": "2. Seamless API Integration ",
+          "description": "API endpoints for easy integration into apps or systems"
+        },
+          {
+          "title": "3. Automated Training Pipelines",
+          "description": "Automated training and retraining pipelines"
+        },
+         {
+          "title": "4.Performance Monitoring Dashboards",
+          "description": "Monitoring dashboards for accuracy and drift detection"
+        }
+      ]
+    },
+    "technologies_section": {
+      "title": "We work with modern, proven technologies",
+      "subtitle": "Industry-leading tools for maximum reliability and performance",
+      "tools": [
+        { 
+          "name": "Python", 
+          "icon": "FaPython " 
+        },
+        { 
+          "name": "TensorFlow", 
+          "icon": "SiTensorflow " 
+        },
+        { 
+          "name": "Kubernetes", 
+          "icon": " AiOutlineKubernetes " 
+        },
+        { 
+          "name": "AWS", 
+          "icon": "FaAws " 
+        },
+        { 
+          "name": "Docker", 
+          "icon": "FaDocker " 
+        }
+      ]
+    },
+    "process_section": {
+      "title": "Our Process",
+      "subtitle": "From concept to launch in 6 weeks",
+      "steps": [
+        {
+          "title": "Discover",
+          "description": "Define use cases, gather data, and identify ML opportunities.",
+          "icon": "FaSearch"
+        },
+        {
+          "title": "Design",
+          "description": "Data preprocessing, feature engineering, model architecture.",
+          "icon": "TbTools"
+        },
+       {
+          "title": "Build",
+          "description": "Train, validate, and fine-tune models.",
+          "icon": "FaHammer"
+        },
+       {
+          "title": "Launch",
+          "description": "Deploy models with monitoring and retraining pipelines.",
+          "icon": "FaRocket"
+        }
+      ]
+    },
+    "case_study_section": {
+      "headline": "18% higher conversions and 22% bigger carts",
+      "image": "/all_services/ai_ml_models/case_study.svg",
+      "content": {
+        "problem": {
+          "label": "Problem",
+          "text": "An e-commerce client wanted to improve product recommendations but relied on static rules."
+        },
+        "solution": {
+          "label": "Solution",
+          "text": "We built a recommendation engine using collaborative filtering and customer purchase history."
+        },
+        "result": {
+          "label": "Result",
+          "text": "Conversion rates increased by 18%, average cart value grew by 22%, and user engagement rose significantly."
+        }
+      }
+    },
+   "faq_section": {
+      "title": "Frequently Asked Questions",
+      "subtitle": "Get answers to common questions",
+      "questions": [
+        {
+          "question": "Can you build apps for both iOS and Android?",
+          "answer": "Typically, an MVP can be developed in 4-6 weeks depending on the complexity of the features."
+        },
+        {
+          "question": "How secure are your enterprise solutions?",
+          "answer": "Yes, we offer post-launch maintenance and support packages to ensure your application runs smoothly."
+        },
+        {
+          "question": "Do you work with existing ERP/CRM systems?",
+          "answer": "Absolutely. We specialize in integrating AI models into existing architectures via API."
+        },
+        {
+          "question": "Can you scale apps as our business grows?",
+          "answer": "We primarily use Next.js, React, Node.js, Python, and cloud services like AWS or Vercel."
+        }
+      ],
+      "footer": {
+        "text": "Didn't find your answer?",
+        "link_text": "Contact us for more information",
+        "link_url": "/contact"
+      }
+    }
+  }

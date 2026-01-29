@@ -1,0 +1,60 @@
+"use client";
+
+import { motion } from "framer-motion";
+import type { TeamSectionProps } from "@/types/homepage/team";
+
+const TeamSection = ({ data }: TeamSectionProps) => {
+  return (
+    <section className="py-20 px-4 md:h-screen lg:h-screen bg-bg-primary">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl font-bold text-t-primary text-center mb-16">
+          Meet Our Team
+        </h2>
+
+        <div className="md:flex grid grid-cols-2 justify-center items-center gap-4 md:gap-6">
+          {data.map((member, index) => {
+            const isFromTop = index % 2 === 0;
+
+            return (
+              <motion.div
+                key={member.id}
+                initial={{
+                  opacity: 0,
+                  y: isFromTop ? -40 : 40,
+                }}
+                whileInView={{
+                  opacity: 1,
+                  y: 0,
+                }}
+                viewport={{ amount: 0.3 }}
+                transition={{
+                  duration: 0.8,
+                  ease: "easeOut",
+                  type: "tween",
+                }}
+                className="w-36 md:w-32 lg:w-36 h-72 md:h-52 lg:h-72 rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform"
+                style={{
+                  marginBottom: isFromTop ? "60px" : "0px",
+                }}
+              >
+                <img
+                  src={member.image}
+                  alt={member.alt}
+                  className="w-full h-full object-cover group-hover:opacity-50 transition-opacity"
+                />
+
+                <div className="absolute -top-18 right-2 h-full flex items-center px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                  <p className="text-white font-semibold text-sm md:text-base lg:text-lg transform -rotate-90 origin-right whitespace-nowrap">
+                    {member.alt}
+                  </p>
+                </div>
+              </motion.div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default TeamSection;

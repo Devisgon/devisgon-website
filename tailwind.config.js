@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  darkMode: "class",
+  darkMode: 'class',
   content: [
     "./src/app/**/*.{js,ts,jsx,tsx}",
     "./src/pages/**/*.{js,ts,jsx,tsx}",
@@ -11,10 +11,21 @@ module.exports = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        "bg-primary": "var(--bg_primary)",
-        "bg-secondary":"var(--bg_secondary)",
+        
+        // Consistent Kebab-case naming
+        "bg-primary": "var(--bg-primary)",
+        "bg-secondary": "var(--bg-secondary)",
+        
+        "t-primary": "var(--t-primary)",
+        "t_secondary": "var(--t_secondary)",
+         "btn-primary": "var(--btn-primary)",
+        "btn-secondary": "var(--btn-secondary)",
+
+        
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        axcend: "var(--axcend)",
+
       },
     },
   },
