@@ -3,7 +3,7 @@
 import { useState, useRef } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { TestimonialSectionProps } from "@/types/homepage/comments";
-
+import { motion } from "framer-motion"
 const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   const [activeIndex, setActiveIndex] = useState<number>(0);
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -40,22 +40,34 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
         <div className="relative mb-12">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between ">
             <div className="relative z-10 shrink-0">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary leading-[1.1]">
+              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-16 text-t-primary leading-[1.1]">
                 What Our <br />
                 Client Saying
               </h2>
-                <img
-                src={data.icon}
-                alt="arrow"
-                className=" w-44 ml-80 hidden sm:visible md:block -mt-20"             
-              />
+               {/* Light mode */}
+{/* Light mode image */}
+<img
+   src="/home_page/comments_section/Vector_1.svg"
+
+  alt="arrow"
+  className="hidden md:block dark:hidden w-44 ml-90 -mt-35"
+/>
+
+{/* Dark mode image */}
+<img
+ src={data.icon}
+  alt="arrow"
+  className=" hidden dark:block w-44 ml-90 -mt-35"
+/>
+
+
             </div>
 
-            <div className="flex flex-col w-full  lg:w-auto mt-4 lg:mt-0">
+            <div className="flex flex-col w-full   mt-4 lg:mt-0">
               <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>
-              <p className="hidden lg:block text-t-secondary text-lg md:text-[15px] mb-6">
+              <p className="hidden lg:block text-t-secondary ml-12 max-w-xl text-xl  mb-6">
                 {data.subtitle_note}
               </p>
 
@@ -82,9 +94,10 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
           ref={containerRef}
           className={`
             flex gap-4 
+           md:mt-30
             pt-18 pb-12 px-4 sm:p-8 
             scroll-smooth
-            
+            justify-between
             overflow-x-auto        
             snap-x snap-mandatory 
             [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] /* Hides scrollbar */
@@ -93,71 +106,94 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
             sm:snap-none            
           `}
         >
-          {data.reviews.map((review, index) => {
-            const isActive = index === activeIndex;
+{data.reviews.map((review, index) => {
+  const isActive = index === activeIndex;
 
-            return (
-              <div
-                key={index}
-                onClick={() => {
-                  setActiveIndex(index);
-                  scrollToIndex(index);
-                }}
-                className={`
-                  snap-center 
-                  
-                  flex-shrink-0 cursor-pointer rounded-3xl p-6 flex flex-col justify-between
-                  transition-all duration-700 ease-out bg-white dark:bg-background
-              
-                  
-                  ${
-                    isActive
-                      ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-18 z-20 shadow-[0_0_70px_10px_#8145B5] dark:shadow-[#8145B5]"
-                      : "w-72 sm:w-82 h-64 sm:h-72 scale-95 opacity-60"
-                  }
-                `}
-              >
-                <div className="flex items-center gap-2 mb-6">
-                  <img
-                    src={review.image}
-                    alt={review.name}
-                    className={`rounded-full object-cover border-2 border-white shadow-md ${
-                      isActive ? "w-16 h-16" : "w-14 h-14"
-                    }`}
-                  />
+  return (
+    <div
+      key={index}
+      onClick={() => {
+        setActiveIndex(index);
+        scrollToIndex(index);
+      }}
 
-                  <div>
-                    <h4
-                      className={`font-bold ${
-                        isActive
-                          ? "text-lg text-t-primary dark:text-t-secondary md:text-xl"
-                          : "text-t-primary md:text-lg dark:text-t-secondary"
-                      }`}
-                    >
-                      {review.name}
-                    </h4>
-                    <p
-                      className={`font-medium ${
-                        isActive ? "text-sm text-t-primary dark:text-t-primary" : " text-t-primary dark:text-t-primary"
-                      }`}
-                    >
-                      {review.role}
-                    </p>
-                  </div>
-                </div>
+      className={`
+        snap-center relative overflow-visible
+        flex-shrink-0 cursor-pointer rounded-3xl p-6 flex flex-col justify-between
+        transition-all duration-700 ease-out
+        ${
+          isActive
+            ? "w-80 sm:w-92 h-68 sm:h-68 sm:scale-110 sm:-translate-y-18 z-20"
+            : "w-72 sm:w-82 h-64 sm:h-72 scale-95 opacity-60"
+        }
+      `}
+    >
+      {isActive && (
+        <motion.div
+          layoutId="activeGlow"
+className="absolute -bottom-5 left-0 right-0 h-1/2 -z-20"         
+ initial={false}
+          transition={{
+            type: "spring",
+            stiffness: 500,
+            damping: 100,
+          }}
+          style={{
+            background: "#8145B5",
+            filter: "blur(100px)",
+          }}
+        />
+      )}
 
-                <p
-                  className={`leading-relaxed font-medium ${
-                    isActive
-                      ? "text-t-secondary dark:text-t-primary md:text-lg"
-                      : "text-t-secondary text-sm md:text-base dark:text-t-primary"
-                  }`}
-                >
-                  "{review.review}"
-                </p>
-              </div>
-            );
-          })}
+
+      <div className="absolute inset-0 -z-10 bg-white dark:bg-background rounded-3xl" />
+
+
+      <div className="relative z-10 flex flex-col justify-between h-full">
+        <div className="flex items-center gap-2 mb-6">
+          <img
+            src={review.image}
+            alt={review.name}
+            className={`rounded-full object-cover border-2 border-white shadow-md ${
+              isActive ? "w-16 h-16" : "w-14 h-14"
+            }`}
+          />
+
+          <div>
+            <h4
+              className={`font-bold ${
+                isActive
+                  ? "text-lg text-t-primary dark:text-t-secondary md:text-xl"
+                  : "text-t-primary md:text-lg dark:text-t-secondary"
+              }`}
+            >
+              {review.name}
+            </h4>
+            <p
+              className={`font-medium ${
+                isActive
+                  ? "text-sm text-t-primary dark:text-t-primary"
+                  : " text-t-primary dark:text-t-primary"
+              }`}
+            >
+              {review.role}
+            </p>
+          </div>
+        </div>
+
+        <p
+          className={`leading-relaxed font-medium ${
+            isActive
+              ? "text-t-secondary dark:text-t-primary md:text-lg"
+              : "text-t-secondary text-sm md:text-base dark:text-t-primary"
+          }`}
+        >
+          "{review.review}"
+        </p>
+      </div>
+    </div>
+  );
+})}
         </div>
       </div>
     </section>

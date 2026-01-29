@@ -31,10 +31,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
             return (
               <div 
                 key={index} 
-                className={`border rounded-xl transition-all duration-300 bg-transparent overflow-hidden ${
-                  isOpen ? 'border-[#EAD5F9] shadow-md' : 'border-[#EAD5F9] '
-                }`}
-              >
+                className={"border rounded-xl transition-all duration-300 bg-transparent overflow-hidden border-t-secondary shadow-md"}  >
                 {/* Question Header */}
                 <button
                   onClick={() => toggleFAQ(index)}
@@ -43,7 +40,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
                   <span className={`text-lg font-semibold ${isOpen ? 'text-t-primary' : 'text-t-primary'}`}>
                     {item.question}
                   </span>
-                  <div className={`text-t-primary transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
+                  <div className={`text-t-secondary transform transition-transform duration-300 ${isOpen ? 'rotate-180' : ''}`}>
                     <FiChevronDown size={24} />
                   </div>
                 </button>
@@ -61,14 +58,13 @@ const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
           })}
         </div>
 
-        {/* Footer */}
         <div className="text-center mt-12">
-          <p className="text-t_secondary mb-2 font-medium">
+          <p className="text-t-secondary mb-2 font-medium">
             {data.footer.text}
           </p>
           <a 
             href={data.footer.link_url} 
-            className="text-t-primary font-bold hover:underline hover:text-primary transition-colors"
+            className="text-t-primary font-bold hover:underline hover:text-lg duration-900 transition-colors"
           >
             {data.footer.link_text}
           </a>

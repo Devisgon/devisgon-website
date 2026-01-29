@@ -80,7 +80,6 @@ const [showOptions, setShowOptions] = useState(false);
       const reader = new FileReader();
       reader.readAsDataURL(file);
       reader.onload = () => {
-        // Remove data:*/*;base64, prefix
         const result = (reader.result as string).split(",")[1];
         resolve(result);
       };
@@ -92,7 +91,7 @@ const [showOptions, setShowOptions] = useState(false);
     jsonData.fileType = file.type;
   }
 
-  const res = await fetch("", {
+  const res = await fetch("/api/contact_mail", {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(jsonData),
@@ -307,7 +306,7 @@ const [showOptions, setShowOptions] = useState(false);
                   {isSubmitting ? "Sending..." : "Send Message"}
                 </motion.button>
 
-                {status && <p className="mt-2 text-center text-primary font-medium">{status}</p>}
+                {status && <p className="mt-2 text-center text-t-primary font-medium">{status}</p>}
               </form>
             </motion.div>
 

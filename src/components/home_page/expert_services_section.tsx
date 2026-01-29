@@ -20,7 +20,7 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
           />
 
           {/* Checklist Card */}
-          <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#402060] rounded-2xl shadow-2xl p-4 sm:p-6 w-64 sm:w-72 z-20">
+          <div className="absolute right-0 top-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#402060] rounded-lg shadow-2xl p-4 sm:p-6 w-64 sm:w-72 z-20">
             <ul className="space-y-3 sm:space-y-4">
               {data.process_checklist_card.items.map((item, index) => (
                 <li key={index} className="flex text-t-primary items-center gap-2">

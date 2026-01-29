@@ -18,15 +18,15 @@ const ServicesList = ({ data }: ServicesListProps) => {
     }
   `}
 >
-          <div className="max-w-7xl mx-auto py-8">
+          <div className="max-w-9xl mx-auto py-8">
             {/* Heading */}
-            <div className="text-center max-w-3xl mx-auto mb-16 mt-4">
-              <h3 className="text-t-primary font-bold text-lg md:text-4xl mb-3">
+            <div className="text-center max-w-full  mb-16 mt-4">
+              <h3 className="text-t-primary font-bold text-lg md:text-4xl leading-tight mb-3">
                 {section.category}
               </h3>
-              <h2 className="text-xl md:text-5xl font-bold text-t-secondary mb-6 leading-tight">
+              <h2 className="text-xl md:text-4xl font-bold text-t-secondary mb-6 leading-tight">
                 {section.headline}
-                <span className="text-xl md:text-5xl font-bold text-t-primary  mb-6 leading-tight">
+                <span className="text-xl md:text-4xl font-bold text-t-primary  mb-6 leading-tight">
                   {section.span}
                 </span>
               </h2>
@@ -63,11 +63,11 @@ const ServicesList = ({ data }: ServicesListProps) => {
             </div>
 
             {/* Image */}
-            <div className="relative w-full h-[300px] md:h-[400px] overflow-hidden -mt-30 md:mt-12 -mb-30 md:mb-12">
+            <div className="relative w-full h-[300px] md:h-[300px] overflow-hidden -mt-30 md:mt-12 -mb-30 md:mb-12">
               <img
                 src={section.image}
                 alt={section.category}
-                className="w-full h-full object-fill transform hover:scale-105 transition-transform duration-800"
+                className="w-full h-full object-fill transform  transition-transform duration-800"
               />
             </div>
 
