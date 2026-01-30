@@ -5,13 +5,13 @@ import type { TeamSectionProps } from "@/types/homepage/team";
 
 const TeamSection = ({ data }: TeamSectionProps) => {
   return (
-    <section className="py-20 px-4 md:h-screen lg:h-screen bg-bg-primary">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-20 px-4 md:h-screen lg:h-auto bg-bg-primary">
+      <div className=" mx-auto">
         <h2 className="text-3xl font-bold text-t-primary text-center mb-16">
           Meet Our Team
         </h2>
 
-        <div className="md:flex grid grid-cols-2 justify-center items-center gap-4 md:gap-6">
+        <div className="md:flex grid grid-cols-2 justify-center md:justify-between items-center gap-4 md:gap-6">
           {data.map((member, index) => {
             const isFromTop = index % 2 === 0;
 
@@ -32,7 +32,7 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                   ease: "easeOut",
                   type: "tween",
                 }}
-                className="w-36 md:w-32 lg:w-36 h-72 md:h-52 lg:h-72 rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform"
+                className="w-36 md:w-32 lg:w-72 h-72 md:h-52 lg:h-full rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform"
                 style={{
                   marginBottom: isFromTop ? "60px" : "0px",
                 }}

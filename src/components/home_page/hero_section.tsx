@@ -107,14 +107,29 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
         </motion.div>
 
         {/* Background Image */}
-        <motion.img
-          src="/home_page/hero_section/hero_bg.svg"
-          alt="background"
-          className="-mt-24 opacity-100 overflow-hidden  select-none"
-          initial={{ x: "-100%", opacity: 0 }}
-          animate={{ x: "0%", opacity: 1 }}
-          transition={{ duration: 2, ease: "easeOut" }}
-        />
+      <motion.img
+  src="/home_page/hero_section/hero_bg.svg"
+  alt="background"
+  className="-mt-24 select-none"
+  initial={{ scale: 1, x: 0, y: 0 }}
+  animate={{
+    // Combines zoom, horizontal drift, and vertical floating
+    scale: [1, 1.15, 1], 
+    x: [0, 30, -30, 0], // Drifts side to side
+    y: [0, -20, 20, 0],  // Drifts up and down
+    rotate: [0, 2, -2, 0], // Slight rotation adds depth
+  }}
+  transition={{
+    duration: 20, // Keep it slow so it doesn't cause motion sickness
+    ease: "easeInOut",
+    repeat: Infinity,
+    repeatType: "mirror",
+  }}
+  style={{ 
+    filter: "blur(0.5px)", // Subtle blur makes the moving lines feel softer/more "airy"
+    transformOrigin: "center" 
+  }}
+/>
       </div>
     </section>
   );

@@ -103,9 +103,7 @@ const BlogSection = ({ data }: BlogSectionProps) => {
             </div>
           ))}
         </div>
-         <button className="p-4 bg-[#402060] dark:bg-[#6F1595] text-white rounded-xl ml-[40%] mt-20">
-            View more
-        </button>
+        
 
       </div>
        

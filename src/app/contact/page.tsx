@@ -105,7 +105,7 @@ const [showOptions, setShowOptions] = useState(false);
   return (
     <>
       <Header />
-      <div className="min-h-screen p-8">
+      <div className="min-h-screen  p-8">
         
         <motion.section 
           className="w-full py-16 text-center px-4"
@@ -123,9 +123,9 @@ const [showOptions, setShowOptions] = useState(false);
         </motion.section>
 
         {/* Contact Form Section */}
-        <section className="max-w-6xl mx-auto px-4 pb-20">
+        <section className="max-w-6xl mx-auto  px-4 pb-20">
           <motion.div 
-            className="grid md:grid-cols-2 gap-10"
+            className="grid md:grid-cols-2 justify-center items-center md:items-start gap-10"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
@@ -144,7 +144,7 @@ const [showOptions, setShowOptions] = useState(false);
 
               <form className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
                 {/* Name & Email */}
-                <div className="grid grid-cols-2 gap-4">
+                <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex flex-col gap-1">
                     <label htmlFor="name" className="text-t-primary ml-2">Name *</label>
                     <input
@@ -353,7 +353,7 @@ const [showOptions, setShowOptions] = useState(false);
           viewport={{once:false}}
         >
           <a
-            href="https://calendly.com/abdullahshafique319/15-minute-meting"
+            href = ""
             target="_blank"
             className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
           >
@@ -361,7 +361,7 @@ const [showOptions, setShowOptions] = useState(false);
           </a>
 
           <a
-            href="https://calendly.com/abdullahshafique319/30min"
+            href=""
             target="_blank"
             className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
           >
@@ -369,7 +369,7 @@ const [showOptions, setShowOptions] = useState(false);
           </a>
 
           <a
-            href="https://calendly.com/abdullahshafique319/one-hour-meeting"
+            href=""
             target="_blank"
             className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
           >

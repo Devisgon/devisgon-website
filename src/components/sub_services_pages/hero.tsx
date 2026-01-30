@@ -73,12 +73,12 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
         className="absolute top-20 right-16 w-[100px] h-[100px] rounded-full border-[16px] border-[#8145B5] opacity-10" 
       />
 
-      <div className="px-22 relative z-10 flex gap-0.52">
-        <div className="flex flex-col lg:flex-row items-center">
+      <div className="px-22 relative z-10 flex gap-0.52 ">
+        <div className="flex flex-col lg:flex-row gap-8 md:gap-2 items-center">
           
           {/* --- Left Content --- */}
           <motion.div 
-            className="w-full h-[550px] lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
+            className="w-full md:h-[550px] lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
             variants={containerVariants}
             initial="hidden"
             animate="visible"

@@ -112,7 +112,7 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
         </nav>
          
          {/* mobile view */}
-        <div className="md:hidden flex items-center text-[#402060] dark:text-[#FEFCFE]  gap-2">
+        <div className="md:hidden  flex items-center text-[#402060] dark:text-[#FEFCFE]  gap-2">
           <button onClick={toggleTheme} className="p-2" aria-label="Toggle Theme">
             {isDark ? <Sun /> : <Moon />}
           </button>
@@ -131,26 +131,23 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
       </div>
 
      <div
-  className={`fixed inset-y-0 left-0 w-3/4 max-w-sm z-50 transform transition-transform duration-500 md:hidden
+  className={`fixed inset-y-0 left-0  w-3/4 max-w-sm z-50 transform transition-transform duration-500 md:hidden
     ${mobileOpen ? "translate-x-0" : "-translate-x-full"} 
+    
     dark:bg-[#8457AA] text-t-primary bg-[#F7EDFE]`}
+
 >
-  {/* Close Button */}
-  <div className="flex justify-between p-4">
+  <div className="flex justify-between   p-4">
      {/* Logo */}
                      <img src="/logo/logo.svg" alt="logo" className=" dark:hidden " />
             <img src="/logo/dark_logo.svg" alt="logo" className="hidden dark:block " />
 
-    <button
-      onClick={() => setMobileOpen(false)}
-      className="p-2"
-      aria-label="Close Menu"
-    >
-      <X className="w-6 h-6" />
-    </button>
+  
   </div>
 
-  <div className="px-4 py-12 -mt-4 space-y-6 bg-[#F7EDFE] dark:bg-[#8457AA] overflow-y-auto h-screen">
+  <div className="px-4 py-12 -mt-8 space-y-6 bg-[#F7EDFE] dark:bg-[#8457AA] overflow-y-auto h-screen">
+     <div className="h-[1px] w-3xl -ml-4 -mt-4 bg-black"/>
+
     {navLinks.map((link) => (
       <div key={link.name} className="pb-3">
         
@@ -201,7 +198,7 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
                         key={sublink.name}
                         href={sublink.href}
                         onClick={() => setMobileOpen(false)}
-                        className="block text-sm text-t-secondary"
+                        className="block text-sm text-t-primary"
                       >
                         {sublink.name}
                       </Link>
@@ -218,12 +215,14 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
 </div>
 
       {/* Overlay */}
-      {mobileOpen && (
-        <div
-          className="fixed inset-0 z-40 md:hidden"
-          onClick={() => setMobileOpen(false)}
-        />
-      )}
+     {mobileOpen && (
+  <div
+    className="fixed w-full h-screen inset-0 z-40 md:hidden"
+    onClick={() => setMobileOpen(false)}
+    onTouchStart={() => setMobileOpen(false)}
+  />
+)}
+
     </header>
   );
 };

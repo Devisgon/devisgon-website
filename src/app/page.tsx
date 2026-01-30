@@ -12,7 +12,6 @@ import Team from '@/components/home_page/team_section'; // Imported
 import Blogs from '@/components/home_page/blogs';
 import Footer from '@/components/footer';
 import data from '@/data/home_page.json';
-
 export default function Home() {
   if (!data) {
     return <p>Check your internet connection</p>;
@@ -20,7 +19,6 @@ export default function Home() {
 
   return (
     <main>
-    
           <Header />
           <Hero data={data.hero_section} />
           <Services data={data.services_section} />
