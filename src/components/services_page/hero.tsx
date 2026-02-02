@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import type { HeroSectionProps } from "@/types/services_page/hero";
+import { animate } from "framer-motion";
 
 const HeroSection = ({ data }: HeroSectionProps) => {
 const [activeBtn, setActiveBtn] = useState<number | null>(null);  return (

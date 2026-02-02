@@ -12,7 +12,9 @@ import Header from '../../components/navbar';
 import Footer from '../../components/footer';
 import { motion, Variants } from "framer-motion";
 
-// --- Animation Variants ---
+const calendly15 = process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING!;
+const calendly30 = process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING!;
+const calendly60 = process.env.NEXT_PUBLIC_CALENDLY_60_MIN_MEETING!;
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -353,7 +355,7 @@ const [showOptions, setShowOptions] = useState(false);
           viewport={{once:false}}
         >
           <a
-            href = ""
+            href = {calendly15}
             target="_blank"
             className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
           >
@@ -361,7 +363,7 @@ const [showOptions, setShowOptions] = useState(false);
           </a>
 
           <a
-            href=""
+            href={calendly30}
             target="_blank"
             className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
           >
@@ -369,7 +371,7 @@ const [showOptions, setShowOptions] = useState(false);
           </a>
 
           <a
-            href=""
+            href={calendly60}
             target="_blank"
             className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
           >

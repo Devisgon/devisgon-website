@@ -95,12 +95,12 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
 
           <span className="absolute right-0 m-1 rounded-full h-16 w-16 bg-[#EAD5F9] dark:bg-[#47295C] transition-all duration-500 ease-in-out group-hover:w-50" />
            <a href="#about"> 
-           <span className="relative z-10 pl-8 font-medium text-lg transition-colors duration-300 group-hover:text-bold group-hover:texl-xl group-hover:text-[#4c386] dark:group-hover:text-[#8E4EC6] ">
+           <span className="relative z-10 pl-8 font-medium text-lg transition-colors  group-hover:text-bold group-hover:ml-3 duration-500 group-hover:texl-xl group-hover:text-[#4c386] dark:group-hover:text-[#8E4EC6] ">
             {data.cta_button.text}
             </span>
            </a>
 
-          <span className="relative z-10 ml-auto mr-2 h-14 w-14 flex items-center justify-center text-[#8E4EC6] transition-all duration-500">
+          <span className="relative z-10 ml-auto mr-2 h-14 w-14 flex items-center justify-center text-[#8E4EC6] group-hover:-ml-5 transition-all duration-900">
             <FaArrowRight className="ml-3" />
           </span>
         </button>
@@ -110,23 +110,21 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
       <motion.img
   src="/home_page/hero_section/hero_bg.svg"
   alt="background"
-  className="-mt-24 select-none"
+  className="-mt-24 -z-10 inset-0  select-none pointer-events-none"
   initial={{ scale: 1, x: 0, y: 0 }}
   animate={{
-    // Combines zoom, horizontal drift, and vertical floating
     scale: [1, 1.15, 1], 
-    x: [0, 30, -30, 0], // Drifts side to side
-    y: [0, -20, 20, 0],  // Drifts up and down
-    rotate: [0, 2, -2, 0], // Slight rotation adds depth
+    x: [0, 30, -30, 0], 
+    y: [0, -20, 20, 0],  
+    rotate: [0, 2, -2, 0],
   }}
   transition={{
-    duration: 20, // Keep it slow so it doesn't cause motion sickness
+    duration: 20, 
     ease: "easeInOut",
     repeat: Infinity,
     repeatType: "mirror",
   }}
   style={{ 
-    filter: "blur(0.5px)", // Subtle blur makes the moving lines feel softer/more "airy"
     transformOrigin: "center" 
   }}
 />

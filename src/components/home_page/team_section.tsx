@@ -32,7 +32,7 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                   ease: "easeOut",
                   type: "tween",
                 }}
-                className="w-36 md:w-32 lg:w-72 h-72 md:h-52 lg:h-full rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform"
+                className="w-36 md:w-32 lg:w-72 h-72 md:h-52 lg:h-72 rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform"
                 style={{
                   marginBottom: isFromTop ? "60px" : "0px",
                 }}
@@ -40,7 +40,7 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                 <img
                   src={member.image}
                   alt={member.alt}
-                  className="w-full h-full object-cover group-hover:opacity-50 transition-opacity"
+                  className="w-full h-full bg-[#c2bebf] object-cover group-hover:opacity-50 transition-opacity"
                 />
 
                 <div className="absolute -top-18 right-2 h-full flex items-center px-2 opacity-0 group-hover:opacity-100 transition-opacity duration-300">

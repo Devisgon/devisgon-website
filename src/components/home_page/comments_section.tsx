@@ -6,15 +6,14 @@ import type { TestimonialSectionProps } from "@/types/homepage/comments";
 import { motion } from "framer-motion";
 
 const TestimonialSection = ({ data }: TestimonialSectionProps) => {
-  const [carouselIndex, setCarouselIndex] = useState<number>(0); // Which group of 3 cards
-  const [activeIndexInCarousel, setActiveIndexInCarousel] = useState<number>(1); // Which card in the current group (0, 1, or 2)
+  const [carouselIndex, setCarouselIndex] = useState<number>(0); 
+  const [activeIndexInCarousel, setActiveIndexInCarousel] = useState<number>(1); 
   const [isPaused, setIsPaused] = useState<boolean>(false);
 
   const cardsPerCarousel = 3;
   const totalCarousels = Math.ceil(data.reviews.length / cardsPerCarousel);
-  const autoPlayInterval = 5000; // 5 seconds - adjust as needed
+  const autoPlayInterval = 5000; 
 
-  // Get the 3 cards for the current carousel
   const getCurrentCarouselCards = () => {
     const startIndex = carouselIndex * cardsPerCarousel;
     const endIndex = Math.min(startIndex + cardsPerCarousel, data.reviews.length);
@@ -26,30 +25,29 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   const handlePrev = () => {
     const newCarouselIndex = carouselIndex === 0 ? totalCarousels - 1 : carouselIndex - 1;
     setCarouselIndex(newCarouselIndex);
-    setActiveIndexInCarousel(1); // Reset to center card
+    setActiveIndexInCarousel(1); 
   };
 
   const handleNext = () => {
     const newCarouselIndex = carouselIndex === totalCarousels - 1 ? 0 : carouselIndex + 1;
     setCarouselIndex(newCarouselIndex);
-    setActiveIndexInCarousel(1); // Reset to center card
+    setActiveIndexInCarousel(1); 
   };
 
   const handleCardClick = (indexInCarousel: number) => {
     setActiveIndexInCarousel(indexInCarousel);
   };
 
-  // Auto-play functionality
   useEffect(() => {
     if (isPaused) return;
 
     const interval = setInterval(() => {
-      handleNext();
+      setCarouselIndex((prev) => (prev === totalCarousels - 1 ? 0 : prev + 1));
+      setActiveIndexInCarousel(1);
     }, autoPlayInterval);
 
     return () => clearInterval(interval);
-  }, [carouselIndex, isPaused]); // Re-create interval when carousel changes or pause state changes
-
+  }, [isPaused, totalCarousels, autoPlayInterval]); 
   return (
     <section 
       className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden bg-white dark:bg-background"
@@ -65,14 +63,12 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
-              {/* Light mode image */}
               <img
                 src="/home_page/comments_section/Vector_1.svg"
                 alt="arrow"
                 className="hidden md:block dark:hidden w-44 ml-90 -mt-35"
               />
 
-              {/* Dark mode image */}
               <img
                 src={data.icon}
                 alt="arrow"
@@ -109,7 +105,6 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
           </div>
         </div>
 
-        {/* Cards Container - Shows current carousel of 3 cards */}
         <div className="flex gap-4 md:gap-6 md:mt-30 pt-18 pb-12 justify-center items-center">
           {currentCards.map((review, indexInCarousel) => {
             const isActive = indexInCarousel === activeIndexInCarousel;
@@ -129,7 +124,6 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                   }
                 `}
               >
-                {/* Active card glow effect */}
                 {isActive && (
                   <motion.div
                     layoutId="activeGlow"
@@ -147,10 +141,8 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                   />
                 )}
 
-                {/* Card background */}
                 <div className="absolute inset-0 -z-10 bg-white dark:bg-background rounded-3xl" />
 
-                {/* Card content */}
                 <div className="relative z-10 flex flex-col justify-between h-full">
                   <div className="flex items-center gap-2 mb-6">
                     <img
@@ -198,7 +190,6 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
           })}
         </div>
 
-        {/* Carousel Indicators */}
         <div className="flex justify-center gap-2 mt-8">
           {Array.from({ length: totalCarousels }).map((_, index) => (
             <button
