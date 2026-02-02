@@ -12,7 +12,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
 
   const cardsPerCarousel = 3;
   const totalCarousels = Math.ceil(data.reviews.length / cardsPerCarousel);
-  const autoPlayInterval = 5000; 
+  const autoPlayInterval = 2000; 
 
   const getCurrentCarouselCards = () => {
     const startIndex = carouselIndex * cardsPerCarousel;

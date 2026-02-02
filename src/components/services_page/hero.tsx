@@ -1,19 +1,38 @@
 "use client";
 import { useState } from "react";
 import type { HeroSectionProps } from "@/types/services_page/hero";
-import { animate } from "framer-motion";
+import { motion } from "framer-motion";
 
 const HeroSection = ({ data }: HeroSectionProps) => {
 const [activeBtn, setActiveBtn] = useState<number | null>(null);  return (
     <section
-      className="relative w-full py-24 px-6 md:px-12 lg:px-20 bg-bg-secondary overflow-hidden flex items-center justify-center"
-      style={{
-        backgroundImage: "url('/services_page/hero_bg.svg')",
-        backgroundRepeat: "no-repeat",
-        backgroundPosition: "top",
-      }}
-    >
-      <div className="relative z-10 max-w-7xl mx-auto  flex flex-col items-center">
+      className="relative w-full py-24 px-6 md:px-12 lg:px-20 bg-bg-secondary overflow-hidden flex items-center justify-center">
+        <motion.div
+        className="absolute inset-0 w-full h-full"
+        initial={{ scale: 1 }}
+        animate={{
+          scale: [1, 1.1, 1],
+          x: [0, -30, 0],
+          y: [0, -20, 0],
+        }}
+        transition={{
+          duration: 15,
+          repeat: Infinity,
+ease: "easeInOut"
+,
+        }}
+        style={{
+          backgroundImage: "url('/services_page/hero_bg.svg')",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+          backgroundSize: "cover",
+        }}
+      />
+      <motion.div 
+        initial={{ opacity: 0, y: 40 }}
+  animate={{ opacity: 1, y: 0 }}
+  transition={{ duration: 1 }}
+      className="relative z-10 max-w-7xl mx-auto  flex flex-col items-center">
         <h2 className="text-t-primary font-bold text-3xl md:text-7xl mb-4 tracking-tight        bg-clip-text dark:text-transparent
 dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)]">
           {data.title}
@@ -47,7 +66,7 @@ dark:bg-[linear-gradient(135deg,#a782c4_0%,#D1AFEC_70.71%)] ">{data.span_subtitl
             </button>
           ))}
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
