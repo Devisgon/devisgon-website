@@ -9,13 +9,18 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@payloadcms/db-mongodb": "^3.74.0",
+    "@payloadcms/next": "^3.74.0",
+    "@payloadcms/richtext-lexical": "^3.74.0",
     "formidable": "^3.5.4",
     "framer-motion": "^12.26.2",
+    "graphql": "^16.12.0",
     "ipapi.co": "^0.3.0",
     "lucide-react": "^0.562.0",
     "next": "16.1.1",
     "nodemailer": "^7.0.12",
     "ogl": "^1.0.11",
+    "payload": "^3.74.0",
     "react": "19.2.3",
     "react-curved-text": "^3.0.1",
     "react-dom": "19.2.3",

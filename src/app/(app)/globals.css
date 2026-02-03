@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+
+@tailwind utilities;
+@import "tailwindcss";
+
+:root {
+  --background: #FBF7FE;
+  --bg_primary:#F7EDFE;
+  --bg_secondary:#FEFCFE;
+  --foreground: #ffffff;
+  --primry:#EAD5F9;
+
+  --t_primary:#402060;
+  --t_secondary:#8E4EC6;
+
+  --btn_primary:#8E4EC6;
+  --btn_secondary:#ffffff;
+ 
+
+
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-bg-primary: var(--bg_primary);
+  --color-bg-secondary: var(--bg_secondary);
+ --color-primary:var(--primary);
+
+  --color-t-primary: var(--t_primary);
+  --color-t-secondary: var(--t_secondary);
+
+
+  --color-btn-primary: var(--btn_primary);
+  --color-btn-secondary: var(--btn_secondary);
+
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+.dark {
+  --background: #1E1423;
+  --bg_primary:#301C3B;
+  --bg_secondary:#18111B;      
+  --foreground: #18111B; 
+    --primry:#8457AA;
+
+
+  --t_primary:#ECD9FA;
+  --t_secondary:#8E4EC6;
+
+    --btn_primary:#6F1595;
+  --btn_secondary:#ffffff;
+
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', Helvetica, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+@custom-variant dark (&:where(.dark, .dark *));
