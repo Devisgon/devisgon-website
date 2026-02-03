@@ -3,7 +3,7 @@
 import data from "../data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { Moon, Sun, Menu, X, ChevronDown } from "lucide-react";
+import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
 
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);

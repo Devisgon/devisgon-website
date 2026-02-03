@@ -35,7 +35,7 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                   ease: "easeOut",
                   type: "tween",
                 }}
-                className="relative w-36 md:w-32 lg:w-72 h-72 md:h-52 lg:h-72 rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform cursor-pointer"
+                className="relative w-36 md:w-32 lg:w-72 h-72 md:h-52 lg:h-72 xl:h-94 rounded-full overflow-hidden group bg-black hover:scale-105 transition-transform cursor-pointer"
                 style={{
                   marginBottom: isFromTop ? "60px" : "0px",
                 }}

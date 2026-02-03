@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import type { HeroSectionProps } from "@/types/homepage/hero";
+import Image from "next/image";
 
 const HeroSection = ({ data }: HeroSectionProps) => {
   return (
@@ -110,7 +111,8 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
       <motion.img
   src="/home_page/hero_section/hero_bg.svg"
   alt="background"
-  className="-mt-24 -z-10 inset-0  select-none pointer-events-none"
+
+  className="-mt-24 -z-10 inset-0  animate-pulse select-none pointer-events-none"
   initial={{ scale: 1, x: 0, y: 0 }}
   animate={{
     scale: [1, 1.15, 1], 

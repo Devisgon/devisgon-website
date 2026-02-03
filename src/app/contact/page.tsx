@@ -357,7 +357,7 @@ const [showOptions, setShowOptions] = useState(false);
           <a
             href = {calendly15}
             target="_blank"
-            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
+            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-t-primary transition  hover:scale-105"
           >
             15 min meeting
           </a>
@@ -365,7 +365,7 @@ const [showOptions, setShowOptions] = useState(false);
           <a
             href={calendly30}
             target="_blank"
-            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
+            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-t-primary transition  hover:scale-105"
           >
             30 min meeting
           </a>
@@ -373,7 +373,7 @@ const [showOptions, setShowOptions] = useState(false);
           <a
             href={calendly60}
             target="_blank"
-            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-white transition  hover:translate-x-4"
+            className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-t-primary transition  hover:scale-105"
           >
             60 min meeting
           </a>
