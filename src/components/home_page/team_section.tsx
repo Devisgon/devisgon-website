@@ -52,7 +52,7 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                 />
 
                 <div
-                  className={`absolute -top-18 right-2 h-full flex items-center px-2
+                  className={`absolute -top-24 right-2 h-full flex items-center px-2
                     transition-opacity duration-300
                     ${
                       activeId == member.id
@@ -60,7 +60,7 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                         : "opacity-0 group-hover:opacity-100"
                     }`}
                 >
-                  <p className="text-white font-semibold text-sm md:text-base lg:text-lg transform -rotate-90 origin-right whitespace-nowrap">
+                  <p className="text-white font-semibold text-center items-center text-sm md:text-base lg:text-lg transform -rotate-90 origin-right whitespace-nowrap">
                     {member.alt}
                   </p>
                 </div>

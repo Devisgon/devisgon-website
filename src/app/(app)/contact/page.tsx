@@ -8,8 +8,8 @@ import { FaInstagram } from "react-icons/fa";
 import { MdCalendarToday } from "react-icons/md";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
-import Header from '../../components/navbar';
-import Footer from '../../components/footer';
+import Header from '@/components/navbar';
+import Footer from '@/components/footer';
 import { motion, Variants } from "framer-motion";
 
 const calendly15 = process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING!;
