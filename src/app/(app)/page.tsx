@@ -31,6 +31,7 @@ export default function Home() {
           <Comments data={data.testimonials_section} />
           <Ceo data={data.ceo_message_section} />
          <Team data={data.teamMembers.team} /> 
+         <Blogs data={data.blog_section}/>
            <Footer />
 
     </main>

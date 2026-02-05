@@ -1,8 +1,8 @@
 "use client";
 import React from 'react';
-import Header from '../../components/navbar';
-import Footer from '../../components/footer';
-import data from "../../data/privacy_policy.json";
+import Header from '@/components/navbar';
+import Footer from '@/components/footer';
+import data from "@/data/privacy_policy.json";
   import { Mail, Phone, MapPin } from "lucide-react";
 
 
