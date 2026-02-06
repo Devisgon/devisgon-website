@@ -1,5 +1,5 @@
 import Hero from "@/components/blogs_page/hero"
-import Blogs from "@/components/blogs_page/blogs"
+import Blogs from "@/components/blogs_page/main_blog_page/blogs"
 import data from "@/data/home_page.json"
 export default async function BlogsPage() {
 return (

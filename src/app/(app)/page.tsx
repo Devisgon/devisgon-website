@@ -1,4 +1,3 @@
-"use client";
 import Hero from '@/components/home_page/hero_section';
 import Services from '@/components/home_page/services_section';
 import ExportServices from '@/components/home_page/expert_services_section';
@@ -19,7 +18,7 @@ export default function Home() {
     <main>
           <Hero data={data.hero_section} />
           <Services data={data.services_section} />
-                              <Award />
+            <Award />
 
           <ExportServices data={data.expert_services_section} />
 
@@ -28,7 +27,7 @@ export default function Home() {
           <Comments data={data.testimonials_section} />
           <Ceo data={data.ceo_message_section} />
          <Team data={data.teamMembers.team} /> 
-         <Blogs data={data.blog_section}/>
+         <Blogs/>
 
     </main>
   );

@@ -3,7 +3,7 @@ import config from '@payload-config'
 import { notFound } from 'next/navigation'
 import Image from 'next/image'
 import { RichText as PayloadRichText } from '@payloadcms/richtext-lexical/react'
-import AuthorSlug from '@/components/blogs_page/blogs'
+import AuthorSlug from '@/components/blogs_page/home_page_blogs/blogs'
 
 export default async function BlogPostPage({
   params,
