@@ -1,5 +1,4 @@
 "use client";
-import Header from '@/components/navbar';
 import Hero from '@/components/home_page/hero_section';
 import Services from '@/components/home_page/services_section';
 import ExportServices from '@/components/home_page/expert_services_section';
@@ -10,7 +9,6 @@ import Comments from '@/components/home_page/comments_section';
 import Ceo from '@/components/home_page/ceo_section';
 import Team from '@/components/home_page/team_section'; 
 import Blogs from '@/components/home_page/blogs';
-import Footer from '@/components/footer';
 import data from '@/data/home_page.json';
 export default function Home() {
   if (!data) {
@@ -19,7 +17,6 @@ export default function Home() {
 
   return (
     <main>
-          <Header />
           <Hero data={data.hero_section} />
           <Services data={data.services_section} />
                               <Award />
@@ -32,7 +29,6 @@ export default function Home() {
           <Ceo data={data.ceo_message_section} />
          <Team data={data.teamMembers.team} /> 
          <Blogs data={data.blog_section}/>
-           <Footer />
 
     </main>
   );

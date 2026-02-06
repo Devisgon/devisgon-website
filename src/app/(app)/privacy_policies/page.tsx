@@ -1,7 +1,6 @@
 "use client";
 import React from 'react';
-import Header from '@/components/navbar';
-import Footer from '@/components/footer';
+
 import data from "@/data/privacy_policy.json";
   import { Mail, Phone, MapPin } from "lucide-react";
 
@@ -47,7 +46,6 @@ const PrivacyPolicy = () => {
 
   return (
     <>
-      <Header />
       <div className="bg--bg min-h-screen  text-t-primary">
 
         {/* Header */}
@@ -225,7 +223,6 @@ const PrivacyPolicy = () => {
           </main>
         </div>
       </div>
-      <Footer />
     </>
   );
 };

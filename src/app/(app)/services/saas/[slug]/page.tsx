@@ -1,4 +1,3 @@
-import Header from "@/components/navbar";
 import Hero from "@/components/sub_services_pages/hero";
 import Introduction from "@/components/sub_services_pages/introduction";
 import KeyBenefitsSection from "@/components/sub_services_pages/key_benefits";
@@ -8,7 +7,6 @@ import Progress from "@/components/sub_services_pages/process_section";
 import Casestudy from "@/components/sub_services_pages/case_study";
 import Faqs from "@/components/sub_services_pages/faq";
 import Contact from '@/components/sub_services_pages/contact';
-import Footer from "@/components/footer";
 import { notFound } from "next/navigation";
 
 
@@ -47,7 +45,6 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
 
   return (
     <>
-      <Header />
       <Hero data={data.hero_section} />
       <Introduction data={data.introduction_section} />
       <KeyBenefitsSection data={data.key_benefits_section} />
@@ -57,7 +54,6 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
       <Casestudy data={data.case_study_section} />
       <Faqs data={data.faq_section} />
       <Contact />
-      <Footer />
     </>
   );
 }
