@@ -125,73 +125,45 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
   <div className="relative mx-auto w-[300px] h-[550px] rounded-2xl overflow-hidden">
 
     {/* IMAGE */}
-    <img
-      src={hero_image}
-      alt="App Interface"
-      className="absolute inset-0 w-full h-full object-cover scale-[1.02]"
-    />
 
- 
+  {/* VIDEO */}
+  <video
+    src={hero_image}
+    autoPlay
+    muted
+    loop
+    className="absolute inset-0 w-full h-full object-cover "
+  />
 
-    <div
-      className="
-        absolute bottom-0 left-0 w-full h-[40%]
-        bg-gradient-to-t
-        from-[#BE93E4]/70
-        via-[#BE93E4]/40
-        to-transparent
-        z-[2]
-      "
-    />
+  <div
+    className="
+      absolute bottom-0 left-0 w-full h-[40%]
+      bg-gradient-to-t
+      from-[#BE93E4]/70
+      via-[#BE93E4]/40
+      to-transparent
+      z-[2]
+      pointer-events-none
+    "
+  />
 
-    {/* CONTENT */}
-    <div className="relative z-[3] h-full flex flex-col justify-between p-6 text-white">
+  {/* CONTENT */}
+  <div className="relative z-[3] h-full flex flex-col justify-between p-6 text-white">
 
-      {/* TOP */}
-      <div className="flex justify-between items-start">
-        <div>
-          <p className="text-white opacity-50 text-3xl font-semibold">
-            Our Work.
-          </p>
-          <p className="text-white text-3xl font-bold leading-tight">
-            Their Words.
-          </p>
-        </div>
-
-        <div className="flex gap-1 mt-2">
-          <span className="w-2 h-2 bg-white rounded-full" />
-          <span className="w-2 h-2 bg-white/50 rounded-full" />
-          <span className="w-2 h-2 bg-white/50 rounded-full" />
-        </div>
-      </div>
-
-      {/* ARROWS */}
-      <div className="flex gap-50 text-white -mx-3 mb-60">
-        <ChevronLeft className="w-12 h-6 " />
-        <ChevronRight className="w-12 h-6 " />
+    <div className="flex justify-between items-start">
+      <div>
+        <p className="opacity-50 text-xl md:text-3xl font-semibold">
+          Our Work.
+        </p>
+        <p className="text-2xl md:text-3xl font-bold leading-tight">
+          Their Words.
+        </p>
       </div>
     </div>
-
-    {/* PLAY BUTTON */}
-    <div className="absolute inset-0 flex items-center -mb-95 justify-center z-[4]">
-      <motion.button
-        whileHover={{ scale: 1.12 }}
-        whileTap={{ scale: 0.9 }}
-        className="
-          relative
-          w-14 h-14 rounded-full
-          bg-black
-          flex items-center justify-center
-          border 
-        "
-      >
-        <FaPlay className="text-[#EAD5F9] w-5 h-5 ml-1" />
-      </motion.button>
-    </div>
-
- 
 
   </div>
+
+ </div>
 </motion.div>
 
         </div>
