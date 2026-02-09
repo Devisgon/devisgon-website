@@ -51,7 +51,7 @@ export function CategoryNav({ blogs, categories }: any) {
                     {blog.category}
                   </span>
                   <p className="text-[#8E4EC6] text-xs font-medium">
-                    • Devison Tech Blog • {blog.date}
+                    •By {blog.author}• {blog.date}
                   </p>
                 </div>
 
@@ -69,7 +69,10 @@ read more
         </div>
 
 
-       
+        <a href="/blogs" >
+         <button className="p-4 bg-[#402060] hover:-translate-y-4 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl ml-[45%] mt-20">
+            View more
+        </button></a>
 
 
 </div>

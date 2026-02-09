@@ -1,9 +1,9 @@
 import { getPayload } from 'payload'
 import config from '@payload-config'
 import { notFound } from 'next/navigation'
-import Image from 'next/image'
-import { RichText as PayloadRichText } from '@payloadcms/richtext-lexical/react'
-import AuthorSlug from '@/components/blogs_page/home_page_blogs/blogs'
+import { RichText } from '@payloadcms/richtext-lexical/react'
+
+import CustomRichText from "@/components/payload_rich_text_styling";
 
 export default async function BlogPostPage({
   params,
@@ -23,9 +23,9 @@ export default async function BlogPostPage({
   if (!blog) return notFound()
 
   return (
-    <main className="max-w-6xl mx-auto py-16 px-6 font-sans">
+    <main className="max-w-6xl mx-auto mt-12 py-16 px-6 font-sans">
       <header className="mb-12 border-b border-gray-100 pb-8">
-        <h1 className="text-5xl md:text-6xl font-bold  text-[#402060] dark:text-[#8E4EC6]  mb-6">
+        <h1 className="text-5xl md:text-6xl font-bold  text-t-primary dark:text-t-secondary mb-6">
           {blog.title}
         </h1>
         <div className="flex items-center gap-2 text-sm font-bold text-t-primary uppercase ">
@@ -38,13 +38,10 @@ export default async function BlogPostPage({
       <div className="flex flex-col lg:flex-row gap-12 mb-20">
         
         <div className="flex-1">
-          <div className="text-t-primary">
-            {blog.content ? (
-              <PayloadRichText data={blog.content} />
-            ) : (
-              <p>No content available.</p>
-            )}
-          </div>
+          <div className="prose prose-lg text-t-secondary max-w-none">
+<CustomRichText content={blog.content} />
+</div>
+
         </div>
 
              {blog.coverImage && typeof blog.coverImage === 'object' && (
