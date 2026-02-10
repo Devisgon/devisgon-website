@@ -91,15 +91,16 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}
         >
-          <button className="group relative inline-flex items-center w-52 p-2 overflow-hidden rounded-full bg-t-primary text-white hover:text-[#8E4EC6] dark:text-[#8E4EC6] shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <button 
+        onClick={() => window.location.href = "/contact"}
+           className="group relative inline-flex items-center w-52 p-2 overflow-hidden rounded-full bg-t-primary text-white hover:text-[#8E4EC6] dark:text-[#8E4EC6] shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
 
 
           <span className="absolute right-0 m-1 rounded-full h-16 w-16 bg-[#EAD5F9] dark:bg-[#47295C] transition-all duration-500 ease-in-out group-hover:w-50" />
-           <a href="#about"> 
            <span className="relative z-10 pl-8 font-medium text-lg transition-colors  group-hover:text-bold group-hover:ml-3 duration-500 group-hover:texl-xl group-hover:text-[#4c386] dark:group-hover:text-[#8E4EC6] ">
             {data.cta_button.text}
             </span>
-           </a>
+         
 
           <span className="relative z-10 ml-auto mr-2 h-14 w-14 flex items-center justify-center text-[#8E4EC6] group-hover:-ml-5 transition-all duration-900">
             <FaArrowRight className="ml-3" />

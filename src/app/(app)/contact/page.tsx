@@ -50,6 +50,13 @@ export default function ContactPage() {
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
 const [showOptions, setShowOptions] = useState(false);
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+const validateEmail = (value: string): boolean => {
+  const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  return regex.test(value);
+};
+
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
@@ -67,7 +74,14 @@ const [showOptions, setShowOptions] = useState(false);
   const handleSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
   if (!formRef.current) return;
+ if (!validateEmail(email)) {
+  setError("Use a valid email");
+    return; 
+  } else {
+    setError(""); 
+  }
 
+ 
   setIsSubmitting(true);
   setStatus("");
 
@@ -155,17 +169,30 @@ const [showOptions, setShowOptions] = useState(false);
                       className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
                     />
                   </div>
-                  <div className="flex flex-col gap-1">
-                    <label htmlFor="email" className="text-t-primary ml-2">Email *</label>
-                    <input
-                      id="email"
-                      type="email"
-                      name="email"
-                      placeholder="your@email.com"
-                      required
-                      className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
-                    />
-                  </div>
+                 <div className="flex flex-col gap-1">
+  <label htmlFor="email" className="text-t-primary ml-2">Email *</label>
+  <input
+    id="email"
+    type="email"
+    name="email"
+    value={email}
+ onChange={(e) => {
+    const value = e.target.value;
+    setEmail(value);
+
+    if (value && !validateEmail(value)) {
+      setError("Use a valid email");
+    } else {
+      setError("");
+    }
+  }}
+      placeholder="your@email.com"
+    required
+    className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
+  />
+{error && <p className="text-red-500 text-sm mt-1">{error}</p>}
+</div>
+
                 </div>
 
                 {/* Company */}

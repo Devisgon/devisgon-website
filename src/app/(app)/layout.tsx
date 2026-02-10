@@ -26,6 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <>
+   
           <Header/>
 
     <html lang="en" className="scroll-smooth">

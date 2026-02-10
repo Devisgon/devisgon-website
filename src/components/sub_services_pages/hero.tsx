@@ -99,9 +99,9 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
 
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
                       {data.buttons.map((btn, index) => (
+                   <a      href={btn.link}            key={index}>
 
-              <motion.button 
-                 key={index}
+                                 <motion.button 
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               onClick={() => setActiveBtn(index)}
@@ -112,7 +112,8 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
                 }`}
               >
                      {btn.text}     
-         </motion.button>))}
+         </motion.button></a>
+))}
              
             </motion.div>
           </motion.div>
@@ -122,9 +123,9 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
   initial="hidden"
   animate="visible"
 >
-  <div className="relative mx-auto w-[300px] h-[550px] rounded-2xl overflow-hidden">
+  <div className="relative mx-auto w-[300px]  h-[550px]  rounded-2xl overflow-hidden">
 
-    {/* IMAGE */}
+
 
   {/* VIDEO */}
   <video
@@ -132,7 +133,7 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
     autoPlay
     muted
     loop
-    className="absolute inset-0 w-full h-full object-cover "
+    className="absolute inset-0 w-full h-full object-contain "
   />
 
   <div

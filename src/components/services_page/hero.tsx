@@ -53,8 +53,9 @@ dark:bg-[linear-gradient(135deg,#a782c4_0%,#D1AFEC_70.71%)] ">{data.span_subtitl
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
           {data.buttons.map((btn, index) => (
+            <a href={btn.link}               key={index}
+>
           <button
-              key={index}
               onClick={() => setActiveBtn(index)}
               className={`px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 dark:border-[#664282]
                 ${activeBtn == index 
@@ -63,7 +64,7 @@ dark:bg-[linear-gradient(135deg,#a782c4_0%,#D1AFEC_70.71%)] ">{data.span_subtitl
                 }`}
             >
               {btn.text}
-            </button>
+            </button></a>
           ))}
         </div>
       </motion.div>

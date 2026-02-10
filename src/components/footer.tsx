@@ -1,5 +1,5 @@
 "use client";
-
+import { useState } from "react";
 import { motion } from "framer-motion";
 import React from "react";
 
@@ -40,11 +40,42 @@ const footerColumns: FooterColumn[] = [
 ];
 
 const Footer: React.FC = () => {
+    const [status, setStatus] = useState("");
+  
+    const [email, setEmail] = useState("");
+    const [error, setError] = useState("");
+  const validateEmail = (value: string): boolean => {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(value);
+  };
+  
+
+
+  const handleNewsletterSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+
+  if (!validateEmail(email)) {
+    setError("Please enter a valid email");
+    return;
+  }
+
+  setError("");
+  setStatus("Thanks for subscribing! our Newsletter ");
+  setEmail("");
+
+   setTimeout(() => {
+    setStatus("");
+  }, 10000);
+
+};
+
+
+
   return (
     <footer className="bg-bg-primary   pt-16 pb-4 px-6 md:px-12 lg:px-20 text-primary">
       <div className=" flex flex-col gap-12  w-full">
 
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 lg:gap-8 lg:mt-8">
+        <div className="grid grid-cols-1 items-start lg:grid-cols-4 gap-10 lg:gap-8 lg:mt-8">
 
           {/* Logo & Contact */}
           <motion.div
@@ -97,18 +128,37 @@ const Footer: React.FC = () => {
               )}
 
               {col.title === "Newsletter" && (
-                <form className="flex flex-col gap-6 mt-2 w-full max-w-xs mx-auto">
+                <form
+                  onSubmit={handleNewsletterSubmit}
+
+                className="flex flex-col gap-6 mt-2 w-full max-w-xs mx-auto">
                   <input
-                    type="email"
-                    placeholder="Enter your email address"
-                    className="w-full px-4 py-3 rounded-lg border border-[#E0D4F5] bg-white text-sm focus:outline-none focus:border-secondary placeholder:text-t-secondary"
-                  />
+ id="email"
+    type="email"
+    name="email"
+    value={email}
+ onChange={(e) => {
+    const value = e.target.value;
+    setEmail(value);
+
+    if (value && !validateEmail(value)) {
+      setError("please enter a valid email");
+    } else {
+      setError("");
+    }
+  }}                    placeholder="Enter your email address"
+                    className="w-full px-4 py-3 rounded-lg border text-black border-[#E0D4F5] bg-white text-sm focus:outline-none focus:border-secondary placeholder:text-t-secondary"
+                  />{error && <p className="text-red-500 text-sm -mt-6">{error}</p>}
+
                   <button
-                    type="button"
-                    className="w-full py-3 bg-[#8145B5] text-white rounded-lg text-sm font-semibold hover:bg-primary transition-colors shadow-md"
+                   type="submit"
+                    className="w-full py-3 bg-[#8145B5] text-white rounded-lg text-sm font-semibold hover:bg-t-primary dark:hover:text-t-secondary transition-colors shadow-md"
                   >
-                    Subscribe Now
+
+                    Subscribe
                   </button>
+                 {status && <p className="mt-2 text-center text-t-primary font-medium">{status}</p>}
+
                 </form>
               )}
             </motion.div>
