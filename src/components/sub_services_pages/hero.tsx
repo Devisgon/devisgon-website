@@ -97,7 +97,7 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
               {description}
             </motion.p>
 
-            <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4">
+            <motion.div variants={itemVariants} className="flex flex-col items-center sm:flex-row gap-4">
                       {data.buttons.map((btn, index) => (
                    <a      href={btn.link}            key={index}>
 

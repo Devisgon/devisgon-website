@@ -24,18 +24,18 @@ export default async function BlogPostPage({
 
   return (
     <main className="max-w-6xl mx-auto mt-12 py-16 px-6 font-sans">
-      <header className="mb-12 border-b border-gray-100 pb-8">
-        <h1 className="text-5xl md:text-6xl font-bold  text-t-primary dark:text-t-secondary mb-6">
+      <header className="md:mb-12 border-b border-gray-100 pb-8">
+        <h1 className="text-3xl md:text-6xl font-bold  text-t-primary dark:text-t-secondary mb-6">
           {blog.title}
         </h1>
         <div className="flex items-center gap-2 text-sm font-bold text-t-primary uppercase ">
-          <span >By Devison Team</span>
+          <span > by {blog.author}</span>
           <span className="text-[#8E4EC6]">•</span>
           <span>{new Date(blog.date).toLocaleDateString()}</span>
         </div>
       </header>
 
-      <div className="flex flex-col lg:flex-row gap-12 mb-20">
+      <div className="flex flex-col-reverse lg:flex-row gap-4 md:gap-12 lg:gap-12 md:mb-20">
         
         <div className="flex-1">
           <div className="prose prose-lg text-t-secondary max-w-none">
