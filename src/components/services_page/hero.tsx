@@ -15,15 +15,7 @@ const HeroSection = ({ data, currentLang, onToggleLang }: ExtendedHeroProps) => 
   return (
     <section className="relative w-full py-24 px-6 md:px-12 lg:px-20 bg-bg-secondary overflow-hidden flex items-center justify-center">
       
-      {/* --- Language Switcher Button --- */}
-      <div className="absolute top-6 right-6 z-50">
-        <button
-          onClick={onToggleLang}
-          className="px-4 py-2 bg-white/10 backdrop-blur-md border border-white/20 rounded-full text-xs font-bold hover:bg-btn-primary transition-all duration-300 shadow-lg"
-        >
-          {currentLang === "en" ? "اردو (Urdu)" : "English"}
-        </button>
-      </div>
+   
 
       <motion.div
         className="absolute inset-0 w-full h-full"

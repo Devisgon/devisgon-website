@@ -1,5 +1,7 @@
 
-
+"use client";
+import React from 'react';
+import { useLanguage } from '@/context/language_contaxt'; 
 interface ContactDetails {
   email: string;
   phone: string;
@@ -22,17 +24,17 @@ interface TermsData {
 }
 
 const TermsAndConditions = () => { 
-      let data: TermsData | null;
+  const { data: contextData } = useLanguage();
+  if (!contextData || !contextData.terms) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <p className="animate-pulse">Loading Terms & Conditions...</p>
+      </div>
+    );
+  }
 
-  try {
-    data = require('@/data/terms_condition.json');
-  } catch (error) {
-    console.log("Failed to load home page data:", (error as Error).message);
-    data = null;
-  }
- if (!data) {
-    return <p>check you internet connection or try again</p>;
-  }
+  const termsData = contextData.terms;
+
   return (
     <>
       <div className="min-h-screen bg-bg-secondary py-24 px-4 sm:px-6 lg:px-8">
@@ -40,10 +42,10 @@ const TermsAndConditions = () => {
           
           <div className="text-center mb-12">
             <h1 className="text-4xl sm:text-5xl font-extrabold text-t-primary dark:text-t-secondary mb-4">
-              {data.title}
+              {termsData.title}
             </h1>
             <p className="text-t-secondary dark:text-t-primary font-medium">
-              {data.date}
+              {termsData.date}
             </p>
           </div>
 
@@ -57,7 +59,7 @@ const TermsAndConditions = () => {
                 </h2>
                 <nav>
                   <ul className="space-y-3">
-                    {data.table_of_contents.map((item, index) => {
+                    {termsData.table_of_contents.map((item:string, index:string) => {
                       const sectionId = item.split('.')[0];
                       return (
                         <li key={index}>
@@ -76,7 +78,7 @@ const TermsAndConditions = () => {
             </aside>
 
             <div className="lg:w-3/4 space-y-12 p-8 rounded-t-2xl  border-b-0 border border-[#D1AFEC] dark:border-hidden">
-              {data.sections.map((section) => (
+              {termsData.sections.map((section:Section) => (
                 <div 
                   key={section.section_number} 
                   id={`section-${section.section_number}`} 

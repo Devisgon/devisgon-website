@@ -1,9 +1,7 @@
 "use client";
 import React from 'react';
-
-import data from "@/data/privacy_policy.json";
-  import { Mail, Phone, MapPin } from "lucide-react";
-
+import { useLanguage } from '@/context/language_contaxt'; 
+import { Mail, Phone, MapPin } from "lucide-react";
 
 interface Subsection {
   title: string;
@@ -28,14 +26,6 @@ interface PolicySection {
   contact_note?: string;
 }
 
-interface PrivacyData {
-  title: string;
-  date: string;
-  table_of_contents: string[];
-  sections: PolicySection[];
-}
-
-
 const PrivacyPolicy = () => {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
@@ -44,17 +34,27 @@ const PrivacyPolicy = () => {
     }
   };
 
+  const { data, lang } = useLanguage();
+  if (!data || !data.privacy) {
+    return (
+      <div className="flex items-center justify-center h-screen">
+        <p>Loading Privacy Policy...</p>
+      </div>
+    );
+  }
+  const privacyData = data.privacy;
+
   return (
-    <>
+ <>
       <div className="bg--bg min-h-screen  text-t-primary">
 
         {/* Header */}
         <div className="pt-20 pb-12 text-center px-4">
           <h1 className="text-4xl md:text-5xl text-t-primary dark:text-t-secondary font-extrabold mb-4">
-            {data.title}
+            {privacyData.title}
           </h1>
           <p className="text-t-secondary dark:text-t-primary font-medium text-sm md:text-base opacity-90">
-            {data.date}
+            {privacyData.date}
           </p>
         </div>
 
@@ -68,7 +68,7 @@ const PrivacyPolicy = () => {
               </h3>
 
               <ul className="space-y-3 text-sm font-medium text-t-secondary dark:text-t-secondary">
-                {data.table_of_contents.map((item, index) => {
+                {privacyData.table_of_contents.map((item:string, index:string) => {
                   const id = item.toLowerCase().replace(/\s+/g, "-");
                   return (
                     <li key={index}>
@@ -87,7 +87,7 @@ const PrivacyPolicy = () => {
 
           <main className="w-full lg:w-3/4 space-y-16">
 
-            {data.sections.map((section, index) => {
+            {privacyData.sections.map((section: PolicySection, index: number) => {
               const sectionId = section.heading
                 .toLowerCase()
                 .replace(/\s+/g, "-");
@@ -228,3 +228,6 @@ const PrivacyPolicy = () => {
 };
 
 export default PrivacyPolicy;
+
+
+

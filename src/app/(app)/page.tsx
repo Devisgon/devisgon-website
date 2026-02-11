@@ -8,7 +8,7 @@ import Comments from '@/components/home_page/comments_section';
 import Ceo from '@/components/home_page/ceo_section';
 import Team from '@/components/home_page/team_section'; 
 import Blogs from '@/components/home_page/blogs';
-import data from '@/data/home_page.json';
+import data from "@/data/english_data/home_page.json"
 export default function Home() {
   if (!data) {
     return <p>Check your internet connection</p>;

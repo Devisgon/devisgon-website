@@ -1,10 +1,9 @@
 "use client";
-
 import data from "../data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
-
+import Switcher from "./language_switch_component"
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -55,7 +54,7 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
          />
 
         {/* Desktop Nav */}
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden md:flex items-center gap-8"> <Switcher/>
           {navLinks.map((link) => (
             <div key={link.name} className="relative group">
               {/* Main Link */}

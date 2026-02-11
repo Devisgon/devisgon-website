@@ -14,7 +14,7 @@ export interface ServiceItem {
   deliverables: string[];
   tech_stack: string[];
   bg?: string;
-  forn:Serviceform[];
+  forn?: Serviceform[];
 
 }
 export interface Serviceform{
