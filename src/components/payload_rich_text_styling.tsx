@@ -18,9 +18,9 @@ const converters: JSXConvertersFunction = ({ defaultConverters }) => ({
 
     const base = "font-semibold mt-10 mb-4 text-t-primary dark:text-t-secondary"; 
 
-    if (node.tag === "h1") return <h1 className={`text-5xl ${base}`}>{children}</h1>;
-    if (node.tag === "h2") return <h2 className={`text-4xl ${base}`}>{children}</h2>;
-    if (node.tag === "h3") return <h3 className={`text-3xl ${base}`}>{children}</h3>;
+    if (node.tag === "h1") return <h1 className={`md:text-4xl text-3xl ${base}`}>{children}</h1>;
+    if (node.tag === "h2") return <h2 className={`md:text-3xl text-2xl ${base}`}>{children}</h2>;
+    if (node.tag === "h3") return <h3 className={`md:text-2xl  text-xl ${base}`}>{children}</h3>;
 
     if (typeof defaultConverters.heading === "function") {
       return defaultConverters.heading(args);

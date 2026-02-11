@@ -23,41 +23,39 @@ export default async function BlogPostPage({
   if (!blog) return notFound()
 
   return (
-    <main className="max-w-6xl mx-auto mt-12 py-16 px-6 font-sans">
-      <header className="md:mb-12 border-b border-gray-100 pb-8">
-        <h1 className="text-3xl md:text-6xl font-bold  text-t-primary dark:text-t-secondary mb-6">
+    <main className="max-w-6xl mx-auto mt-12 py-16 items-center flex flex-col px-6 font-sans">
+      <header className="md:mb-12  order-b flex items-center flex-col border-gray-100 pb-8">
+        <h1 className="text-3xl md:text-5xl font-bold text-center text-t-primary dark:text-t-secondary mb-6">
           {blog.title}
         </h1>
-        <div className="flex items-center gap-2 text-sm font-bold text-t-primary uppercase ">
+        <div className="flex items-center gap-2  text-sm font-bold text-t-primary uppercase ">
           <span > by {blog.author}</span>
           <span className="text-[#8E4EC6]">•</span>
           <span>{new Date(blog.date).toLocaleDateString()}</span>
         </div>
       </header>
 
-      <div className="flex flex-col-reverse lg:flex-row gap-4 md:gap-12 lg:gap-12 md:mb-20">
+      <div className="flex flex-col-reverse lg:flex-row items-center md:items-start -mt-56 md:mt-0 gap-4 md:gap-12 lg:gap-12 md:mb-20">
         
-        <div className="flex-1">
-          <div className="prose prose-lg text-t-secondary max-w-none">
-<CustomRichText content={blog.content} />
-</div>
+        <div className="flex-1 -mt-24 md:mt-0">
+             <CustomRichText content={blog.content} />
 
         </div>
 
              {blog.coverImage && typeof blog.coverImage === 'object' && (
-          <div className="lg:w-2/5 flex-shrink-0">
-            <div className="relative aspect-square md:aspect-[4/5] overflow-hidden  ">
+            <div className="relative w-96 h-[600px]   ">
               <img
                   src={blog.coverImage.url } 
                   alt={blog.coverImage.alt }
-                  className='w-full h-full'
+                  className='w-full h-full   object-contain mt-12 md:object-cover object-center '
               />
             </div>
-          </div>
         )}
       </div>
 
-      
+      <a href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
+          Back to Blogs
+        </a>
     </main>
   )
 }

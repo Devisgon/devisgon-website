@@ -10,9 +10,9 @@ export function CategoryNav({ blogs, categories }: any) {
       : blogs.filter((b: any) => b.category === activeCategory);
 
   return (
-    <div >
+    <div>
      
- <div className="flex flex-wrap justify-start gap-3 mb-12">
+ <div className="md:flex md:flex-wrap justify-start md:gap-3 grid grid-cols-3 mb-12">
         {categories.map((cat: string) => (
             <button
               key={cat}
@@ -70,7 +70,7 @@ read more
 
 
         <a href="/blogs" >
-         <button className="p-4 bg-[#402060] hover:-translate-y-4 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl md:ml-[45%] ml-26 mt-20">
+         <button className="p-4 bg-[#402060] hover:-translate-y-4 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl ml-[45%] mt-20">
             View more
         </button></a>
 
