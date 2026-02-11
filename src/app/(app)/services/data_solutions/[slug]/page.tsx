@@ -1,3 +1,8 @@
+"use client";
+import React, { use, useState, useEffect } from 'react';
+import { useLanguage } from '@/context/language_contaxt';
+import { notFound } from "next/navigation";
+
 import Hero from "@/components/sub_services_pages/hero";
 import Introduction from "@/components/sub_services_pages/introduction";
 import KeyBenefitsSection from "@/components/sub_services_pages/key_benefits";
@@ -7,44 +12,51 @@ import Progress from "@/components/sub_services_pages/process_section";
 import Casestudy from "@/components/sub_services_pages/case_study";
 import Faqs from "@/components/sub_services_pages/faq";
 import Contact from '@/components/sub_services_pages/contact';
-import { notFound } from "next/navigation";
 
+export default function IndustryPage({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = use(params);
+  const { lang } = useLanguage(); 
+  const [data, setData] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
-interface SubServiceData {
-  hero_section: any;
-  introduction_section: any;
-  key_benefits_section: any;
-  what_you_get_section: any;
-  technologies_section: any;
-  process_section: any;
-  case_study_section: any;
-  faq_section: any;
-}
+  useEffect(() => {
+    async function loadData() {
+      try {
+        setLoading(true);
+        let module;
 
-interface IndustryPageProps {
-  params: {
-    slug: string;
-  };
-}
+        if (lang === 'en') {
+          module = await import(`@/data/english_data/services/data_solutions/${slug}.json`);
+        } else {
+          module = await import(`@/data/urdu_data/services/data_solutions/${slug}.json`);
+        }
 
-export default async function IndustryPage({ params }: IndustryPageProps) {
-  const { slug } = await params;
+        setData(module.default);
+      } catch (error) {
+        console.error("File not found for this slug or language:", error);
+        setData(null);
+      } finally {
+        setLoading(false);
+      }
+    }
 
-  let data: SubServiceData | null = null;
-
-  try {
-    data = (await import(`@/data/services/data_solutions/${slug}.json`)).default as SubServiceData;
-  } catch (error) {
-    console.error(`JSON file not found for slug: ${slug} | ${(error as Error).message}`);
-    notFound();
+    loadData();
+  }, [slug, lang]);
+  
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
+      </div>
+    );
   }
 
   if (!data) {
-    return <p className="text-center py-20 text-red-500">this service is currently un-available</p>;
+    return notFound();
   }
 
   return (
-    <>
+    <div dir={lang === 'ur' ? 'rtl' : 'ltr'}>
       <Hero data={data.hero_section} />
       <Introduction data={data.introduction_section} />
       <KeyBenefitsSection data={data.key_benefits_section} />
@@ -54,6 +66,6 @@ export default async function IndustryPage({ params }: IndustryPageProps) {
       <Casestudy data={data.case_study_section} />
       <Faqs data={data.faq_section} />
       <Contact />
-    </>
+    </div>
   );
 }
