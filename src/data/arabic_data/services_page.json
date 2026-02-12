@@ -1,0 +1,263 @@
+{
+  "herosection": {
+    "title": "خدماتنا",
+    "subtitle": "حلول متكاملة من البداية إلى النهاية",
+    "span_subtitle": "للأعمال الحديثة",
+    "description": "من منصات SaaS المدعومة بالذكاء الاصطناعي إلى هندسة السحابة، نحن نغطي كامل نطاق الابتكار الرقمي بأحدث التقنيات والخبرات المثبتة.",
+    "buttons": [
+      {
+        "text": "تحدث إلى خبير",
+        "link": "/contact"
+      },
+      {
+        "text": "استكشف دراسات الحالة",
+        "link": "/contact"
+      }
+    ]
+  },
+  "services": [
+    {
+      "category": "تطوير الذاء الاصطناعي وSaaS",
+      "headline": "ابنِ برمجيات أذكى وبشكل أسرع",
+      "span": " ",
+      "bg": "#FBF7FE",
+      "description": "حول أفكارك إلى منصات SaaS ذكية مع ميزات مدعومة بالذكاء الاصطناعي وبنية تحتية قابلة للتوسع.",
+      "features": [
+        {
+          "title": "الأتمتة بالذكاء الاصطناعي",
+          "details": "حلول ذكاء اصطناعي مخصصة مع نماذج تعلم الآلة وأتمتة ذكية.",
+          "icon": "FaRobot "
+        },
+        {
+          "title": "منصات SaaS",
+          "details": "تطوير منصات SaaS كاملة مع إدارة الاشتراكات وتعدد المستأجرين.",
+          "icon": "FaCloud "
+        },
+        {
+          "title": "النماذج الأولية (MVP & POCs)",
+          "details": "تطوير سريع للنماذج الأولية وإثبات المفهوم للتحقق من جاهزية السوق.",
+          "icon": "FaRocket "
+        },
+        {
+          "title": "تكامل تعلم الآلة",
+          "details": "نماذج تعلم آلة مخصصة مدمجة في أنظمة الإنتاج.",
+          "icon": "FaGears "
+        }
+      ],
+      "image": "/services_page/ai_and_saas.svg",
+      "deliverables": [
+        "نماذج أولية قابلة للنقر",
+        "واجهات برمجة تطبيقات (REST APIs)",
+        "أنظمة الفوترة"
+      ],
+      "tech_stack": ["Next.js", "Python", "AWS", "Express.js"]
+    },
+    {
+      "category": "أتمتة سير العمل",
+      "headline": "أتمتة العمليات ",
+      "span": " باستخدام الذكاء الاصطناعي، أو بدون كود، أو بكود مخصص",
+      "description": "قم بتبسيط عمليات عملك من خلال حلول الأتمتة الذكية المصممة خصيصاً لتلبية احتياجاتك.",
+      "features": [
+        {
+          "title": "الأتمتة بالذكاء الاصطناعي",
+          "details": "سير عمل ذكي يتعلم ويتكيف مع أنماط عملك.",
+          "icon": "FaRobot"
+        },
+        {
+          "title": "حلول بدون كود (No-Code)",
+          "details": "تكامل مع Zapier و Make.com و n8n للنشر السريع.",
+          "icon": "FaLink  "
+        },
+        {
+          "title": "حلول بكود منخفض (Low-Code)",
+          "details": "سير عمل مخصص مع حد أدنى من البرمجة لتحقيق أقصى قدر من المرونة.",
+          "icon": "FaPuzzlePiece "
+        },
+        {
+          "title": "البرمجة المخصصة",
+          "details": "أتمتة باستخدام Python و JS و Selenium و Puppeteer و Playwright.",
+          "icon": "FaCode "
+        }
+      ],
+      "image": "/services_page/workflow_automation.svg",
+      "deliverables": [
+        "خارطة طريق الأتمتة",
+        "تكامل واجهات برمجة التطبيقات",
+        "أدوات المراقبة"
+      ],
+      "tech_stack": ["Zapier", "Make.com", "Python", "Airflow"]
+    },
+    {
+      "category": "تطوير الويب والموبايل",
+      "headline": "تطبيقات مخصصة",
+      "span": " لجميع الأجهزة ",
+      "bg": "#FBF7FE",
+      "description": "أنشئ تطبيقات مذهلة وسريعة الاستجابة تعمل بسلاسة عبر جميع المنصات والأجهزة.",
+      "features": [
+        {
+          "title": "تطبيقات الويب",
+          "details": "تطبيقات ويب متجاوبة باستخدام أطر عمل حديثة وأداء مثالي.",
+          "icon": "IoMdDesktop "
+        },
+        {
+          "title": "تطبيقات الموبايل",
+          "details": "تطوير تطبيقات iOS و Android و Flutter و React Native لجميع المنصات.",
+          "icon": "FaMobileScreenButton "
+        },
+        {
+          "title": "برمجيات مخصصة",
+          "details": "بوتات أتمتة وسكربتات مخصصة لاحتياجات العمل المتخصصة.",
+          "icon": "FaCode "
+        }
+      ],
+      "image": "/services_page/mobile_development.svg",
+      "deliverables": [
+        "واجهة مستخدم متجاوبة",
+        "لوحات تحكم الإدارة",
+        "رفع التطبيقات على المتاجر"
+      ],
+      "tech_stack": ["React", "Next.js", "Flutter", "PHP", "Java"]
+    },
+    {
+      "category": "حلول البيانات",
+      "headline": "من البيانات الخام ",
+      "span": " إلى رؤى تجارية",
+      "description": "حول بياناتك إلى رؤى قابلة للتنفيذ باستخدام تحليلات متقدمة وحلول تعلم الآلة.",
+      "features": [
+        {
+          "title": "استخراج البيانات",
+          "details": "كشط الويب وتنقيب البيانات من مصادر متنوعة.",
+          "icon": "FaDatabase "
+        },
+        {
+          "title": "لوحات تحكم التحليلات",
+          "details": "لوحات تحكم تفاعلية لتصور البيانات في الوقت الفعلي.",
+          "icon": "RiBarChartHorizontalFill "
+        },
+        {
+          "title": "تحليلات الأعمال",
+          "details": "رؤى استراتيجية وتحليل مقاييس الأداء.",
+          "icon": "GoGraph "
+        },
+        {
+          "title": "نماذج AI/ML",
+          "details": "التحليلات التنبؤية وحلول تعلم الآلة.",
+          "icon": "FaBrain "
+        }
+      ],
+      "image": "/services_page/data_solution.svg",
+      "deliverables": [
+        "خطوط أنابيب البيانات",
+        "لوحات تحكم تفاعلية",
+        "نماذج تنبؤية"
+      ],
+      "tech_stack": ["Python", "SQL", "Tableau", "Power BI"]
+    },
+    {
+      "category": "التصميم والتحليل",
+      "headline": "تحويل الأفكار",
+      "span": " إلى أنظمة معتمدة",
+      "bg": "#FBF7FE",
+      "description": "من المفهوم إلى التنفيذ، نقدم خدمات تصميم وتحليل شاملة للمنتجات الرقمية.",
+      "features": [
+        {
+          "title": "تصميم UI/UX",
+          "details": "تصميم متمحور حول المستخدم بجماليات حديثة وتجربة مستخدم مثالية.",
+          "icon": "MdColorLens "
+        },
+        {
+          "title": "بناء النماذج الأولية",
+          "details": "نماذج أولية تفاعلية لاختبار المستخدم واعتماد أصحاب المصلحة.",
+          "icon": "LuNetwork "
+        },
+        {
+          "title": "مخططات UML",
+          "details": "توثيق بنية النظام وتدفق العمليات.",
+          "icon": "PiShareNetworkFill "
+        },
+        {
+          "title": "التوثيق",
+          "details": "توثيق فني وتقني شامل للمستخدمين.",
+          "icon": "CgNotes "
+        }
+      ],
+      "image": "/services_page/design.svg",
+      "deliverables": [
+        "إطارات هيكلية (Wireframes)",
+        "أنظمة التصميم",
+        "توثيق المنتجات"
+      ],
+      "tech_stack": ["Figma", "Whimsical", "Notion", "Miro"]
+    },
+    {
+      "category": "البلوكشين وWeb3",
+      "headline": "تطوير عقود ذكية",
+      "span": " آمنة",
+      "description": "ابنِ المستقبل مع تطبيقات لا مركزية وحلول بلوكشين آمنة.",
+      "features": [
+        {
+          "title": "العقود الذكية",
+          "details": "عقود ذكية آمنة ومدققة لمختلف منصات البلوكشين.",
+          "icon": "FaLink "
+        },
+        {
+          "title": "اقتصاد الرموز (Tokenomics)",
+          "details": "تصميم الرموز والنماذج الاقتصادية لأنظمة بيئية مستدامة.",
+          "icon": "FaDatabase "
+        },
+        {
+          "title": "تطبيقات Web3",
+          "details": "تطبيقات لا مركزية مع واجهات مستخدم حديثة.",
+          "icon": "TbWorld "
+        }
+      ],
+      "image": "/services_page/block_chain.svg",
+      "deliverables": [
+        "عقود ذكية",
+        "تدقيق أمني",
+        "تكامل المحافظ الرقمية"
+      ],
+      "tech_stack": ["Solidity", "Ethers.js", "IPFS", "QuickNode"]
+    },
+    {
+      "category": "السحابة والبنية التحتية",
+      "headline": "بنية تحتية ",
+      "span": " قابلة للتوسع",
+      "bg": "#FBF7FE",
+      "description": "ابنِ بنية تحتية سحابية قوية وقابلة للتوسع مع ممارسات DevOps الحديثة وتصميم الهندسة المعمارية.",
+      "features": [
+        {
+          "title": "الهندسة السحابية",
+          "details": "حلول سحابية قابلة للتوسع على AWS و Azure و GCP.",
+          "icon": "FaCloud "
+        },
+        {
+          "title": "النشر والـ DevOps",
+          "details": "خطوط أنابيب CI/CD واستراتيجيات النشر المؤتمتة.",
+          "icon": "FaRocket "
+        },
+        {
+          "title": "هندسة الحلول",
+          "details": "تخطيط وتصميم بنية تحتية على مستوى المؤسسات.",
+          "icon": "FaNetworkWired "
+        },
+        {
+          "title": "تصميم الأنظمة",
+          "details": "بنية أنظمة عالية الأداء وتحسين الكفاءة.",
+          "icon": "FaGears "
+        }
+      ],
+      "image": "/services_page/cloude.svg",
+      "deliverables": [
+        "خطوط أنابيب CI/CD",
+        "وثائق الهندسة المعمارية",
+        "بنية تحتية قابلة للتوسع"
+      ],
+      "tech_stack": ["AWS", "Docker", "Kubernetes", "Azure"]
+    }
+  ],
+  "contact_form": {
+    "headline": "لنقم بالبناء بذكاء معاً",
+    "description": "تحدث إلى خبرائنا واكتشف كيف يمكن لـ Devisgon تسريع نمو عملك من خلال حلول تقنية متطورة."
+  }
+}

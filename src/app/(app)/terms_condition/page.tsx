@@ -25,14 +25,19 @@ interface TermsData {
 
 const TermsAndConditions = () => { 
 
-  const { i18n } = useTranslation();
-const termsData = i18n.getResourceBundle(i18n.language, 'terms');
-if (!termsData) {    return (
-      <div className="flex items-center justify-center h-screen">
-        <p className="animate-pulse">Loading Terms & Conditions...</p>
-      </div>
-    );
-  }
+const { i18n } = useTranslation();
+
+const termsData = (i18n && typeof i18n.getResourceBundle === 'function') 
+  ? i18n.getResourceBundle(i18n.language, 'terms') 
+  : null;
+
+if (!termsData) {
+  return (
+    <div className="flex items-center justify-center h-screen">
+      <p>Loading Privacy Policy...</p>
+    </div>
+  );
+}
 
 
   return (

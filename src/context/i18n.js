@@ -14,9 +14,17 @@ import servicesUr from '@/data/urdu_data/services_page.json';
 import privacyUr from '@/data/urdu_data/privacy_policy.json';
 import termsUr from '@/data/urdu_data/terms_condition.json';
 
+
+import homeAr from '@/data/arabic_data/home_page.json';
+import servicesAr from '@/data/arabic_data/services_page.json';
+import privacyAr from '@/data/arabic_data/privacy_policy.json';
+import termsAr from '@/data/arabic_data/terms_condition.json';
+
+
+
 i18n
-  .use(LanguageDetector) // Detects user language
-  .use(initReactI18next) // Passes i18n to react-i18next
+  .use(LanguageDetector)
+  .use(initReactI18next) 
   .init({
     resources: {
       en: {
@@ -30,25 +38,29 @@ i18n
         services: servicesUr,
         privacy: privacyUr,
         terms: termsUr
+      },
+       ar : {
+        home: homeAr,
+        services: servicesAr,
+        privacy: privacyAr,
+        terms: termsAr
       }
     },
     fallbackLng: 'en',
-    lng: 'en', // Default language
-    debug: false, // Set to true for debugging
+    lng: 'en', 
+    debug: false, 
     
-    // Namespace configuration
     ns: ['home', 'services', 'privacy', 'terms'],
     defaultNS: 'home',
     
     interpolation: {
-      escapeValue: false // React already escapes values
+      escapeValue: false 
     },
     
     react: {
       useSuspense: false
     },
     
-    // Detection options
     detection: {
       order: ['localStorage', 'navigator'],
       caches: ['localStorage'],

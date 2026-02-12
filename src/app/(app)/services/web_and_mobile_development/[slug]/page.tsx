@@ -31,7 +31,10 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
           module = await import(`@/data/english_data/services/web_and_mobile_development/${slug}.json`);
         } else if (lang === 'ur') {
           module = await import(`@/data/urdu_data/services/web_and_mobile_development/${slug}.json`);
-        } else {
+        }
+        else if (lang === 'ar') {
+          module = await import(`@/data/arabic_data/services/web_and_mobile_development/${slug}.json`);}
+           else {
           module = await import(`@/data/english_data/services/web_and_mobile_development/${slug}.json`);
         }
 

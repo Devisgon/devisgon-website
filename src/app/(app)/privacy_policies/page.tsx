@@ -3,7 +3,6 @@ import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mail, Phone, MapPin } from "lucide-react";
 
-// Interfaces stay the same...
 interface Subsection {
   title: string;
   description: string;
@@ -36,20 +35,22 @@ const PrivacyPolicy = () => {
   };
 
 
-  const { i18n } = useTranslation();
-  const privacyData = i18n.getResourceBundle(i18n.language, 'privacy');
-if (!privacyData) 
-  {    return (
-      <div className="flex items-center justify-center h-screen">
-        <p>Loading Privacy Policy...</p>
-      </div>
-    );
-  }
+const { i18n } = useTranslation();
 
+const privacyData = (i18n && typeof i18n.getResourceBundle === 'function') 
+  ? i18n.getResourceBundle(i18n.language, 'privacy') 
+  : null;
+
+if (!privacyData) {
+  return (
+    <div className="flex items-center justify-center h-screen">
+      <p>Loading Privacy Policy...</p>
+    </div>
+  );
+}
 
   return (
     <>
-      {/* 4. Use 'privacyData' instead of 'data' to render content */}
       <div className="bg-bg-primary min-h-screen text-t-primary">
 
         {/* Header */}
@@ -136,17 +137,43 @@ Table of Contents              </h3>
                     </div>
                   )}
 
-                  {/* Content & Safeguards logic stays same... */}
                 </section>
               );
             })}
 
-            {/* Static Contact Section (Optionally move to JSON for full translation) */}
-            <div className="max-w-5xl mx-auto border-t pt-16">
-              <h2 className="text-3xl font-bold text-[#8E4EC6] mb-4">
-Contact us              </h2>
-              {/* ... Rest of contact UI */}
-            </div>
+            <div className="max-w-5xl mx-auto">
+        <h2 className="text-3xl md:text-2xl font-bold text-[#8E4EC6] mb-4">
+          Contact Us
+        </h2>
+
+        <p className="text-t-secondary dark:text-t-primary mb-8 max-w-3xl">
+          If you have any questions, concerns, or requests regarding this Privacy
+          Policy or our data practices, please contact us:
+        </p>
+
+        <div className="rounded-xl bg-bg-primary p-8 space-y-4">
+          <div className="flex items-center gap-3 text-t-secondary dark:text-t-primary">
+            <Mail className="w-5 h-5 text-t-secondary dark:text-t-primary" />
+            <span>INFO@devisgon.com</span>
+          </div>
+
+          <div className="flex items-center gap-3 text-t-secondary dark:text-t-primary">
+            <Phone className="w-5 h-5 text-t-secondary dark:text-t-primary" />
+            <span>+92 331 6944411</span>
+          </div>
+
+          <div className="flex items-center gap-3 text-t-secondary dark:text-t-primary">
+            <MapPin className="w-5 h-5 text-t-secondary dark:text-t-primary" />
+            <span>Okara, Pakistan</span>
+          </div>
+        </div>
+
+        <p className="text-t-secondary dark:text-t-primary mt-6">
+          We will respond to your inquiry within 30 days of receipt.
+        </p>
+      </div>
+   
+
           </main>
         </div>
       </div>

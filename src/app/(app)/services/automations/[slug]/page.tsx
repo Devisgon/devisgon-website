@@ -30,7 +30,9 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
         if (lang === 'en') {
           module = await import(`@/data/english_data/services/workflow_automations/${slug}.json`);
         } else if (lang === 'ur') {
-          module = await import(`@/data/urdu_data/services/workflow_automations/${slug}.json`);
+          module = await import(`@/data/urdu_data/services/workflow_automations/${slug}.json`);}
+         else if (lang === 'ar') {
+          module = await import(`@/data/arabic_data/services/workflow_automations/${slug}.json`);
         } else {
           module = await import(`@/data/english_data/services/workflow_automations/${slug}.json`);
         }
