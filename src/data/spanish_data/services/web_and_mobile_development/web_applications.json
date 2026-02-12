@@ -1,0 +1,160 @@
+{
+  "slug": "web-application",
+  "hero_section": {
+    "title": "Aplicaciones Web",
+    "subtitle": "Escalables, Responsivas y Listas para el Futuro",
+    "description": "Diseñamos y construimos aplicaciones web modernas con backends potentes, interfaces intuitivas e infraestructura en la nube escalable, adaptadas a las necesidades de su negocio.",
+    "buttons": [
+      {
+        "text": "Iniciar Proyecto Web",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/web_development.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué son las",
+    "span_heading": " Aplicaciones Web?",
+    "content": [
+      "En Devisgon, nos especializamos en construir aplicaciones web personalizadas que combinan frontends atractivos, APIs seguras y backends de alto rendimiento. Nuestras aplicaciones son responsivas, amigables con el SEO y optimizadas para la escalabilidad en la nube, garantizando un funcionamiento fluido en todos los dispositivos.",
+      "Servimos a industrias como finanzas, salud, logística, SaaS y comercio electrónico, ayudando a las empresas a lanzar plataformas que manejan desde analítica en tiempo real hasta una interacción de usuarios a gran escala."
+    ],
+    "highlight_quote": "“Aplicaciones web, experiencias fluidas, rendimiento 2 veces más rápido.”",
+    "side_image": "/all_services/web_development/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Transforme sus operaciones con resultados comprobados",
+    "cards": [
+      {
+        "title": "Responsivo y Accesible",
+        "description": "Optimizado para escritorio, móviles y tabletas con una interfaz limpia.",
+        "icon_type": "FaRocket "
+      },
+      {
+        "title": "Funciones Personalizadas",
+        "description": "Módulos a medida como tableros, CRMs, sistemas de reserva o marketplaces.",
+        "icon_type": "RiCodeBoxFill "
+      },
+      {
+        "title": "Escalable",
+        "description": "Diseñado para crecer con su negocio, manejando millones de usuarios si es necesario.",
+        "icon_type": "LiaExpandArrowsAltSolid "
+      },
+      {
+        "title": "Seguro y Confiable",
+        "description": "Construido con encriptación y cumplimiento de estándares industriales.",
+        "icon_type": "IoShieldCheckmarkSharp "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrá al elegir el Desarrollo de Aplicaciones Web",
+    "image": "/all_services/web_development/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Aplicación Web Integral",
+        "description": "Aplicación web totalmente funcional (frontend + backend)."
+      },
+      {
+        "title": "2. Control a su Alcance",
+        "description": "Panel de administración y tableros para la gestión."
+      },
+      {
+        "title": "3. Integraciones Fluidas",
+        "description": "Integraciones de API (pagos, CRMs, servicios de terceros)."
+      },
+      {
+        "title": "4. Seguridad de Nivel Empresarial",
+        "description": "Autenticación segura de usuarios y gestión de roles."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Trabajamos con tecnologías modernas y probadas",
+    "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
+    "tools": [
+      { "name": "Next.js", "icon": "SiNextdotjs " },
+      { "name": "Django", "icon": "SiDjango " },
+      { "name": "React", "icon": "FaReact " },
+      { "name": "Laravel", "icon": "FaLaravel " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "Kubernetes", "icon": "SiKubernetes " }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Del concepto al lanzamiento en 6 semanas",
+    "steps": [
+      {
+        "title": "Descubrir",
+        "description": "Recopilación de requisitos, análisis de competencia y planificación de funciones.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseñar",
+        "description": "Wireframes, prototipos UI/UX y arquitectura del sistema.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construir",
+        "description": "Desarrollo de funciones principales, integraciones y tableros.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lanzar",
+        "description": "Despliegue seguro en la nube y monitoreo del rendimiento de la aplicación.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "50K usuarios, 30% de crecimiento en ventas con App Web personalizada",
+    "image": "/all_services/web_development/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una empresa de comercio electrónico en rápido crecimiento necesitaba una plataforma escalable para manejar miles de usuarios diarios e inventario en tiempo real."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Desarrollamos una aplicación web personalizada con frontend en React, backend en Node.js y pasarelas de pago integradas."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "La plataforma escaló a más de 50,000 usuarios mensuales con un aumento del 30% en ventas y una mejor satisfacción del cliente."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtenga respuestas a preguntas comunes",
+    "questions": [
+      {
+        "question": "¿Pueden construir aplicaciones tanto para iOS como para Android?",
+        "answer": "Normalmente, un MVP se puede desarrollar en 4-6 semanas dependiendo de la complejidad de las funciones."
+      },
+      {
+        "question": "¿Qué tan seguras son sus soluciones empresariales?",
+        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione sin problemas."
+      },
+      {
+        "question": "¿Trabajan con sistemas ERP/CRM existentes?",
+        "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
+      },
+      {
+        "question": "¿Pueden escalar las aplicaciones a medida que crece nuestro negocio?",
+        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontró su respuesta?",
+      "link_text": "Contáctenos para más información",
+      "link_url": "/contact"
+    }
+  }
+}

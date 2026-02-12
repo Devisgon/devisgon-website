@@ -1,0 +1,161 @@
+{
+  "slug": "data_analytics_dashboard",
+  "hero_section": {
+    "title": "Datenanalyse-Dashboards",
+    "subtitle": "Einblicke auf Knopfdruck",
+    "description": "Wir entwerfen interaktive Dashboards, die Rohdaten in Echtzeit-Einblicke verwandeln und so eine intelligentere und schnellere Entscheidungsfindung in Ihrem gesamten Unternehmen ermöglichen.",
+    "buttons": [
+      {
+        "text": "Mein Dashboard erstellen",
+        "link": "/contact"
+      },
+      {
+        "text": "Kontaktieren Sie uns",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/dashboard_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was sind",
+    "span_heading": " Datenanalyse-Dashboards?",
+    "content": [
+      "Daten sind nur dann wertvoll, wenn sie verständlich sind. Viele Unternehmen sammeln riesige Datenmengen, haben aber Mühe, diese sinnvoll zu nutzen. Manuelle Berichte sind zeitaufwendig, fehleranfällig und oft schon veraltet, wenn sie fertig sind.",
+      "Bei Devisgon erstellen wir maßgeschneiderte Datenanalyse-Dashboards, die Ihre Daten zentralisieren, Trends visualisieren und handlungsorientierte Erkenntnisse in Echtzeit liefern. Unsere Dashboards lassen sich nahtlos in CRMs, ERPs, Marketingplattformen, Finanzsysteme und Datenbanken integrieren und bieten Ihnen eine einzige verlässliche Datenquelle (Single Source of Truth) für Ihr Unternehmen.",
+      "Von KPI-Dashboards für Führungskräfte bis hin zu operativen Performance-Trackern – unsere Dashboards sind benutzerfreundlich, interaktiv und auf Entscheidungen ausgerichtet."
+    ],
+    "highlight_quote": " „Intelligentere Dashboards, tiefere Einblicke, 3-mal bessere Entscheidungen.“ ",
+    "side_image": "/all_services/dashboard/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Hauptvorteile",
+    "subtitle": "Transformieren Sie Ihre Abläufe mit bewährten Ergebnissen",
+    "cards": [
+      {
+        "title": "Echtzeit-Daten",
+        "description": "Live-Updates stellen sicher, dass Sie immer mit den aktuellsten Zahlen arbeiten.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Zentralisierte Einblicke",
+        "description": "Führen Sie Daten aus mehreren Quellen in einem übersichtlichen Dashboard zusammen.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Individuelle Visualisierungen",
+        "description": "Maßgeschneiderte Diagramme, Grafiken und KPIs, die auf Ihre Geschäftsziele abgestimmt sind.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Entscheidungsbereit",
+        "description": "Klare Erkenntnisse, die die Strategie leiten, nicht nur bloße Rohdaten.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie erhalten, wenn Sie sich für die Dashboard-Entwicklung entscheiden",
+    "image": "/all_services/dashboard/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Interaktive Dashboards",
+        "description": "Vollständig interaktives Analyse-Dashboard."
+      },
+      {
+        "title": "2. Immer aktuell",
+        "description": "Echtzeit- oder geplante Datenaktualisierungs-Pipelines."
+      },
+      {
+        "title": "3. Nahtlose Integrationen",
+        "description": "Integration mit CRMs, ERPs, APIs oder benutzerdefinierten Datenbanken."
+      },
+      {
+        "title": "4. Maßgeschneiderte Einblicke",
+        "description": "Benutzerdefinierte KPIs, Diagramme und Berichte, die auf Ihre Branche zugeschnitten sind."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir arbeiten mit modernen, bewährten Technologien",
+    "subtitle": "Branchenführende Tools für maximale Zuverlässigkeit und Leistung",
+    "tools": [
+      { "name": "Power BI", "icon": "FaSignal" },
+      { "name": "Tableau", "icon": "IoLogoTableau" },
+      { "name": "MongoDB", "icon": "FaDatabase" },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Looker", "icon": "SiLooker" },
+      { "name": "AWS Redshift", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Vom Konzept bis zum Launch in 6 Wochen",
+    "steps": [
+      {
+        "title": "Entdecken",
+        "description": "KPIs, Datenquellen und Visualisierungsanforderungen identifizieren.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Dashboards konzipieren (Wireframing), Visualisierungsstile auswählen.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Bauen",
+        "description": "Dashboard-UI entwickeln, Daten-Pipelines integrieren, Diagramme konfigurieren.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Dashboards mit Zugriffskontrollen und Echtzeit-Synchronisierung bereitstellen.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "60 Stunden monatlich gespart durch Echtzeit-SaaS-Analyse-Dashboard",
+    "image": "/all_services/dashboard/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "Ein SaaS-Unternehmen verließ sich auf manuelle Excel-Berichte, um Umsatz, Churn und Kundenaktivität zu verfolgen."
+      },
+      "solution": {
+        "label": "Lösung",
+        "text": "Wir haben ein Echtzeit-Analyse-Dashboard erstellt, das Stripe, HubSpot und interne Datenbanken integriert."
+      },
+      "result": {
+        "label": "Ergebnis",
+        "text": "Das Reporting erfolgt nun sofort, was ca. 60 Stunden/Monat spart und der Geschäftsführung hilft, sofort auf Trends zu reagieren."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Antworten auf gängige Fragen erhalten",
+    "questions": [
+      {
+        "question": "Können Sie Apps sowohl für iOS als auch für Android erstellen?",
+        "answer": "In der Regel kann ein MVP in 4-6 Wochen entwickelt werden, abhängig von der Komplexität der Funktionen."
+      },
+      {
+        "question": "Wie sicher sind Ihre Unternehmenslösungen?",
+        "answer": "Ja, wir bieten Wartungs- und Supportpakete nach dem Launch an, um sicherzustellen, dass Ihre Anwendung reibungslos läuft."
+      },
+      {
+        "question": "Arbeiten Sie mit bestehenden ERP/CRM-Systemen zusammen?",
+        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle über APIs in bestehende Architekturen zu integrieren."
+      },
+      {
+        "question": "Können Sie Apps skalieren, wenn unser Geschäft wächst?",
+        "answer": "Wir nutzen primär Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Keine Antwort gefunden?",
+      "link_text": "Kontaktieren Sie uns für weitere Informationen",
+      "link_url": "/contact"
+    }
+  }
+}

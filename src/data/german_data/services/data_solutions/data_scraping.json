@@ -1,0 +1,161 @@
+{
+  "slug": "data_scraping",
+  "hero_section": {
+    "title": "Datenextraktion & Scraping",
+    "subtitle": "Saubere, zuverlässige Daten im großen Stil",
+    "description": "Wir entwerfen sichere, automatisierte Pipelines zum Extrahieren, Bereinigen und Strukturieren von Daten aus Websites, APIs und internen Systemen.",
+    "buttons": [
+      {
+        "text": "Mein Datenprojekt automatisieren",
+        "link": "/contact"
+      },
+      {
+        "text": "Kontaktieren Sie uns",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/data_scraping.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist",
+    "span_heading": " Datenextraktion & Scraping?",
+    "content": [
+      "In der heutigen digitalen Wirtschaft sind Daten das neue Öl, aber Rohdaten sind oft verstreut, unstrukturiert und schwer zu nutzen. Unternehmen verbringen unzählige Stunden damit, Informationen manuell von Websites oder aus Berichten zu kopieren.",
+      "Bei Devisgon entwickeln wir maßgeschneiderte Lösungen für die Datenextraktion und das Web-Scraping, die große Datenmengen automatisch sammeln, bereinigen und organisieren. Ob es um das Scraping von Wettbewerber-Websites, das Sammeln von Produktkatalogen oder das Monitoring von Trends geht – wir liefern strukturierte Datensätze.",
+      "Wir stellen sicher, dass jede Pipeline skalierbar, genau und konform mit ethischen und rechtlichen Standards ist."
+    ],
+    "highlight_quote": " „Saubere Daten, schnellere Erkenntnisse, 5x mehr Effizienz.“ ",
+    "side_image": "/all_services/data_scraping/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Hauptvorteile",
+    "subtitle": "Transformieren Sie Ihre Abläufe mit bewährten Ergebnissen",
+    "cards": [
+      {
+        "title": "Automatisierte Erfassung",
+        "description": "Extrahieren Sie Daten von tausenden Seiten in wenigen Minuten.",
+        "icon_type": "FaRobot"
+      },
+      {
+        "title": "Sauber & Strukturiert",
+        "description": "Verwandeln Sie Rohdaten in gebrauchsfertige CSV-, JSON-Dateien oder Dashboards.",
+        "icon_type": "FaHandHoldingUsd"
+      },
+      {
+        "title": "Skalierbar",
+        "description": "Entwickelt für die Verarbeitung von Millionen von Datensätzen pro Tag.",
+        "icon_type": "AiFillDollarCircle"
+      },
+      {
+        "title": "Anpassbar",
+        "description": "Maßgeschneiderte Skripte für Ihre Branche, APIs oder spezifische Websites.",
+        "icon_type": "IoShieldCheckmarkSharp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie erhalten, wenn Sie Datenextraktion & Scraping wählen",
+    "image": "/all_services/data_scraping/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Nahtlose Pipelines",
+        "description": "Automatisierte Pipelines für die kontinuierliche Datenerfassung."
+      },
+      {
+        "title": "2. Sofort nutzbare Daten",
+        "description": "Bereinigte, strukturierte Datensätze (CSV, Excel, JSON, Datenbank)."
+      },
+      {
+        "title": "3. Individuelle Automatisierung",
+        "description": "Eigene Skripte oder Bots für wiederkehrende Extraktionen."
+      },
+      {
+        "title": "4. Sofortiger Zugriff",
+        "description": "Dashboards & APIs für den Zugriff in Echtzeit."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir arbeiten mit modernen, bewährten Technologien",
+    "subtitle": "Branchenführende Tools für maximale Zuverlässigkeit und Leistung",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Javascript", "icon": "FaJs" },
+      { "name": "PHP", "icon": "SiPhp " },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "AWS Lambda", "icon": "BsCollectionPlay" }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Vom Konzept bis zum Launch in 6 Wochen",
+    "steps": [
+      {
+        "title": "Entdecken",
+        "description": "Quellen (Websites, APIs, Systeme) und Datenanforderungen definieren.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Scraping-Logik, Datenformate und Pipelines planen.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Bauen",
+        "description": "Scraper, Bots und ETL-Workflows entwickeln.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Pipelines bereitstellen, Jobs planen und Performance überwachen.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "90 % Zeitersparnis durch automatisierte Preisüberwachung der Konkurrenz",
+    "image": "/all_services/data_scraping/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "Ein Marktforschungsunternehmen verfolgte Preise auf über 20 E-Commerce-Seiten manuell, was hunderte Stunden monatlich kostete."
+      },
+      "solution": {
+        "label": "Lösung",
+        "text": "Wir haben eine skalierbare Python-Pipeline gebaut, die Preise täglich extrahiert und in einem Dashboard speichert."
+      },
+      "result": {
+        "label": "Ergebnis",
+        "text": "Der Zeitaufwand sank um 90 %, die Genauigkeit stieg und Erkenntnisse waren sofort verfügbar."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Antworten auf gängige Fragen erhalten",
+    "questions": [
+      {
+        "question": "Können Sie Apps sowohl für iOS als auch für Android erstellen?",
+        "answer": "Normalerweise kann ein MVP in 4-6 Wochen entwickelt werden, abhängig von der Komplexität der Funktionen."
+      },
+      {
+        "question": "Wie sicher sind Ihre Unternehmenslösungen?",
+        "answer": "Ja, wir bieten Wartungs- und Supportpakete nach dem Launch an, um einen reibungslosen Betrieb zu gewährleisten."
+      },
+      {
+        "question": "Arbeiten Sie mit bestehenden ERP/CRM-Systemen zusammen?",
+        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle über APIs in bestehende Architekturen zu integrieren."
+      },
+      {
+        "question": "Können Sie Apps skalieren, wenn unser Geschäft wächst?",
+        "answer": "Wir nutzen primär Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Keine Antwort gefunden?",
+      "link_text": "Kontaktieren Sie uns für weitere Informationen",
+      "link_url": "/contact"
+    }
+  }
+}

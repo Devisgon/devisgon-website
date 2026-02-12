@@ -1,0 +1,166 @@
+{
+  "slug": "custom-bots",
+  "hero_section": {
+    "title": "定制脚本与机器人",
+    "subtitle": "自动化一切，节省大量时间",
+    "description": "我们构建轻量级脚本和智能机器人来处理重复性任务、集成系统并优化您的运营，从而为您节省时间并减少人工投入。",
+    "buttons": [
+      {
+        "text": "构建我的定制机器人",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/custom_boats.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " 定制脚本与机器人？",
+    "content": [
+      "并非所有的业务挑战都需要大规模的应用，有时，定制脚本或机器人是最快、最智能且最具成本效益的解决方案。",
+      " 在 Devisgon，我们专注于开发能够执行以下操作的脚本和自动化机器人：",
+      " • 从多个来源提取、转换和加载数据",
+      " • 自动化重复性工作流，如报表生成、文件管理或通知发送",
+      " • 抓取网页内容和 API",
+      " • 模拟用户操作进行测试和质量保证 (QA)",
+      " • 与 CRM、ERP 和数据库等工具集成",
+      " • 这些机器人 24/7 全天候运行，确保任务完成得更快且零错误，同时让您的团队能够专注于高价值工作。"
+    ],
+    "highlight_quote": "“智能机器人，更快的流程，4 倍生产力。”",
+    "side_image": "/all_services/custom_bots/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "节省时间",
+        "description": "自动化每天耗费数小时的重复性任务。",
+        "icon_type": "FaClock "
+      },
+      {
+        "title": "减少错误",
+        "description": "机器人的执行具有 100% 的一致性。",
+        "icon_type": "MdError "
+      },
+      {
+        "title": "成本效益",
+        "description": "以完整应用开发成本的一小部分提供轻量级解决方案。",
+        "icon_type": "HiMiniCurrencyDollar "
+      },
+      {
+        "title": "可扩展与可定制",
+        "description": "脚本可以针对任何工作流或系统量身定制。",
+        "icon_type": "IoShieldCheckmark "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择定制脚本与机器人您将获得什么",
+    "image": "/all_services/custom_bots/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 运行就绪的机器人",
+        "description": "轻量级、生产就绪的脚本或机器人。"
+      },
+      {
+        "title": "2. 完全透明",
+        "description": "带有清晰文档的源代码。"
+      },
+      {
+        "title": "3. 无缝连接",
+        "description": "API 集成或浏览器自动化。"
+      },
+      {
+        "title": "4. 端到端支持",
+        "description": "培训与部署支持。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Javascript", "icon": "FaJsSquare " },
+      { "name": "PHP", "icon": "FaPhp " },
+      { "name": "Pandas", "icon": "SiPandas " },
+      { "name": "Selenium", "icon": "SiSelenium " },
+      { "name": "Docker", "icon": "FaDocker " }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "识别手动流程并定义自动化范围。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "为自动化逻辑创建工作流图。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "开发脚本/机器人，集成 API 并测试输出结果。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署到云端或本地，设置定时任务并监控性能。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过自动报表机器人每周节省 12 小时",
+    "image": "/all_services/custom_bots/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家数字营销机构每周花费数小时从 Google Analytics、Facebook Ads 和 LinkedIn 汇总报告。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们构建了一个 Python 机器人，自动获取数据，将其汇总到仪表板中，并每周发送邮件报告。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "报表编制时间从每周 12 小时降至 30 分钟，提高了准确性并让团队能够专注于策略制定。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们能同时开发 iOS 和 Android 应用吗？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "你们的企业级解决方案安全性如何？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "你们支持现有的 ERP/CRM 系统吗？",
+        "answer": "当然。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "随着我们业务的增长，应用可以扩展吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}

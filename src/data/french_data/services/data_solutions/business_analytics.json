@@ -1,0 +1,160 @@
+{
+  "slug": "business_analytics",
+  "hero_section": {
+    "title": "Analyse Commerciale (Business Analytics)",
+    "subtitle": "Libérez la croissance grâce à des informations plus intelligentes",
+    "description": "Nous aidons les entreprises à analyser leurs flux de travail, leurs opérations et leurs indicateurs clés de performance (KPI) pour découvrir des opportunités, optimiser les performances et prendre des décisions basées sur les données en toute confiance.",
+    "buttons": [
+      {
+        "text": "Démarrer mon projet d'analyse",
+        "link": "/contact"
+      },
+      {
+        "text": "Contactez-nous",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/business_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "l'Analyse Commerciale ?",
+    "content": [
+      "Chez Devisgon, nous fournissons des solutions d'analyse commerciale qui vont au-delà des tableaux de bord. Nous combinons l'analyse de données, la modélisation prédictive et l'optimisation des processus pour révéler les goulots d'étranglement, les opportunités et les risques de votre entreprise.",
+      "Notre approche analytique connecte la finance, les opérations, les ventes, le marketing et l'expérience client — offrant à la direction une vue à 360° des performances. Que vous soyez une startup ou une grande entreprise, nous vous aidons à évoluer plus intelligemment, à réduire les inefficacités et à prévoir avec confiance."
+    ],
+    "highlight_quote": "« Des analyses plus pointues, des stratégies plus intelligentes, une croissance commerciale multipliée par 4. »",
+    "side_image": "/all_services/business/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages Clés",
+    "subtitle": "Transformez vos opérations avec des résultats prouvés",
+    "cards": [
+      {
+        "title": "Vue Holistique",
+        "description": "Des informations sur la finance, les ventes, le marketing et les opérations.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Gains d'Efficacité",
+        "description": "Identifiez les goulots d'étranglement et éliminez le gaspillage de ressources.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Stratégie Basée sur les Données",
+        "description": "Prenez des décisions commerciales basées sur des preuves, pas sur des suppositions.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Prévisions Futures",
+        "description": "Prédisez les tendances et planifiez la croissance en toute confiance.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtenez en choisissant l'Analyse Commerciale",
+    "image": "/all_services/business/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Rapports KPI Actionnables",
+        "description": "Rapports sur les indicateurs de performance et informations stratégiques."
+      },
+      {
+        "title": "2. Clarté des Processus",
+        "description": "Documents d'analyse des flux de travail et des processus."
+      },
+      {
+        "title": "3. Prévisions Tournées vers l'Avenir",
+        "description": "Modèles d'analyse prédictive pour la planification."
+      },
+      {
+        "title": "4. Recommandations de Croissance",
+        "description": "Recommandations pour les économies de coûts et le développement."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous travaillons avec des technologies modernes et éprouvées",
+    "subtitle": "Outils de pointe pour une fiabilité et une performance maximales",
+    "tools": [
+      { "name": "Power BI", "icon": "FaSignal" },
+      { "name": "Tableau", "icon": "IoLogoTableau" },
+      { "name": "MongoDB", "icon": "FaDatabase" },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Snowflake", "icon": "FaRegSnowflake" },
+      { "name": "AWS Redshift", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Notre Processus",
+    "subtitle": "Du concept au lancement en 6 semaines",
+    "steps": [
+      {
+        "title": "Découvrir",
+        "description": "Définir les KPI, les objectifs commerciaux et les sources de données.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Concevoir",
+        "description": "Cartographier les flux analytiques, construire des cadres de reporting personnalisés.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construire",
+        "description": "Développer des tableaux de bord, des rapports et des modèles prédictifs.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lancer",
+        "description": "Livrer les informations, former le personnel et affiner selon les retours.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Réduction de 25 % des coûts et livraisons 40 % plus rapides grâce à l'Analyse Commerciale",
+    "image": "/all_services/business/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une entreprise de logistique luttait contre la hausse des coûts et les retards de livraison mais manquait de visibilité sur ses métriques de performance."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons construit un cadre d'analyse commerciale intégrant les données opérationnelles, les KPI de livraison et les retours clients."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "L'entreprise a réduit ses coûts logistiques de 25 % et a diminué les retards de livraison de 40 %, tout en améliorant les scores de satisfaction client."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire Aux Questions",
+    "subtitle": "Obtenez des réponses aux questions courantes",
+    "questions": [
+      {
+        "question": "Pouvez-vous créer des applications pour iOS et Android ?",
+        "answer": "Généralement, un MVP peut être développé en 4 à 6 semaines selon la complexité des fonctionnalités."
+      },
+      {
+        "question": "Quel est le niveau de sécurité de vos solutions d'entreprise ?",
+        "answer": "Oui, nous proposons des forfaits de maintenance et de support après-vente pour garantir le bon fonctionnement de votre application."
+      },
+      {
+        "question": "Travaillez-vous avec les systèmes ERP/CRM existants ?",
+        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA aux architectures existantes via API."
+      },
+      {
+        "question": "Pouvez-vous faire évoluer les applications à mesure que notre entreprise grandit ?",
+        "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Contactez-nous pour plus d'informations",
+      "link_url": "/contact"
+    }
+  }
+}

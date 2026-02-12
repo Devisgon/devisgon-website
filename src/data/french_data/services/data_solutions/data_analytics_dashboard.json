@@ -1,0 +1,161 @@
+{
+  "slug": "data_analytics_dashboard",
+  "hero_section": {
+    "title": "Tableaux de Bord d'Analyse de Données",
+    "subtitle": "L'information à portée de main",
+    "description": "Nous concevons des tableaux de bord interactifs qui transforment les données brutes en informations en temps réel, permettant une prise de décision plus intelligente et plus rapide dans l'ensemble de votre entreprise.",
+    "buttons": [
+      {
+        "text": "Créer mon tableau de bord",
+        "link": "/contact"
+      },
+      {
+        "text": "Contactez-nous",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/dashboard_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": " les Tableaux de Bord d'Analyse de Données ?",
+    "content": [
+      "Les données n'ont de valeur que si elles sont compréhensibles. De nombreuses entreprises collectent des quantités massives de données mais peinent à leur donner du sens. Les rapports manuels sont chronophages, sujets aux erreurs et souvent obsolètes au moment où ils sont prêts.",
+      "Chez Devisgon, nous construisons des tableaux de bord d'analyse de données personnalisés qui centralisent vos données, visualisent les tendances et fournissent des informations exploitables en temps réel. Nos tableaux de bord s'intègrent parfaitement aux CRM, ERP, plateformes marketing, systèmes financiers et bases de données, vous offrant une source unique de vérité pour votre entreprise.",
+      "Des tableaux de bord KPI pour cadres aux outils de suivi de la performance opérationnelle, nos tableaux de bord sont conçus pour être conviviaux, interactifs et axés sur la décision."
+    ],
+    "highlight_quote": " « Des tableaux de bord plus intelligents, des analyses plus approfondies, des décisions 3 fois meilleures. » ",
+    "side_image": "/all_services/dashboard/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages Clés",
+    "subtitle": "Transformez vos opérations avec des résultats prouvés",
+    "cards": [
+      {
+        "title": "Données en Temps Réel",
+        "description": "Les mises à jour en direct garantissent que vous travaillez toujours avec les chiffres les plus récents.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Analyses Centralisées",
+        "description": "Regroupez les données de plusieurs sources dans un seul tableau de bord épuré.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Visuels Personnalisés",
+        "description": "Graphiques, diagrammes et KPI sur mesure conçus pour vos objectifs commerciaux.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Prêt pour la Décision",
+        "description": "Des informations claires qui guident la stratégie, pas seulement des chiffres bruts.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtenez en choisissant le développement de Tableaux de Bord",
+    "image": "/all_services/dashboard/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Tableaux de Bord Interactifs",
+        "description": "Tableau de bord d'analyse entièrement interactif."
+      },
+      {
+        "title": "2. Toujours à jour",
+        "description": "Pipelines de rafraîchissement des données en temps réel ou planifiés."
+      },
+      {
+        "title": "3. Intégrations Fluides",
+        "description": "Intégration avec les CRM, ERP, API ou bases de données personnalisées."
+      },
+      {
+        "title": "4. Informations sur mesure",
+        "description": "KPI, graphiques et rapports personnalisés adaptés à votre secteur d'activité."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous travaillons avec des technologies modernes et éprouvées",
+    "subtitle": "Outils de pointe pour une fiabilité et une performance maximales",
+    "tools": [
+      { "name": "Power BI", "icon": "FaSignal" },
+      { "name": "Tableau", "icon": "IoLogoTableau" },
+      { "name": "MongoDB", "icon": "FaDatabase" },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Looker", "icon": "SiLooker" },
+      { "name": "AWS Redshift", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Notre Processus",
+    "subtitle": "Du concept au lancement en 6 semaines",
+    "steps": [
+      {
+        "title": "Découvrir",
+        "description": "Identifier les KPI, les sources de données et les besoins de visualisation.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Concevoir",
+        "description": "Maquetter les tableaux de bord, choisir les styles de visualisation.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construire",
+        "description": "Développer l'UI du tableau de bord, intégrer les pipelines de données, configurer les graphiques.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lancer",
+        "description": "Déployer les tableaux de bord avec contrôles d'accès et synchronisation en temps réel.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "60 heures gagnées par mois grâce à un Tableau de Bord d'Analyse SaaS en temps réel",
+    "image": "/all_services/dashboard/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une entreprise SaaS s'appuyait sur des rapports Excel manuels pour suivre les revenus, l'attrition et l'activité des clients."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons construit un tableau de bord d'analyse en temps réel intégrant Stripe, HubSpot et les bases de données internes."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "Le reporting est devenu instantané, économisant ~60 heures/mois et aidant l'équipe dirigeante à réagir immédiatement aux tendances."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire Aux Questions",
+    "subtitle": "Obtenez des réponses aux questions courantes",
+    "questions": [
+      {
+        "question": "Pouvez-vous créer des applications pour iOS et Android ?",
+        "answer": "Généralement, un MVP peut être développé en 4 à 6 semaines selon la complexité des fonctionnalités."
+      },
+      {
+        "question": "Quel est le niveau de sécurité de vos solutions d'entreprise ?",
+        "answer": "Oui, nous proposons des forfaits de maintenance et de support après-vente pour garantir le bon fonctionnement de votre application."
+      },
+      {
+        "question": "Travaillez-vous avec les systèmes ERP/CRM existants ?",
+        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA aux architectures existantes via API."
+      },
+      {
+        "question": "Pouvez-vous faire évoluer les applications à mesure que notre entreprise grandit ?",
+        "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Contactez-nous pour plus d'informations",
+      "link_url": "/contact"
+    }
+  }
+}

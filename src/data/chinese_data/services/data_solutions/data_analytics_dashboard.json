@@ -1,0 +1,161 @@
+{
+  "slug": "data_analytics_dashboard",
+  "hero_section": {
+    "title": "数据分析可视化看板",
+    "subtitle": "洞察尽在掌握",
+    "description": "我们设计交互式可视化看板，将原始数据转化为实时见解，助力您的企业做出更明智、更快速的决策。",
+    "buttons": [
+      {
+        "text": "构建我的看板",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/dashboard_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " 数据分析可视化看板？",
+    "content": [
+      "数据只有在易于理解时才具有价值。许多企业收集了海量数据，却难以从中理出头绪。手动报表耗时、易错，且往往在完成时已经过时。",
+      "在 Devisgon，我们构建定制化数据分析看板，集中您的数据，使趋势可视化，并实时提供可操作的见解。我们的看板可与 CRM、ERP、营销平台、财务系统和数据库无缝集成，为您的业务提供单一的事实来源。",
+      "从高管 KPI 看板到运营绩效追踪器，我们的看板旨在做到用户友好、具备交互性且专注于决策支持。"
+    ],
+    "highlight_quote": " “更智能的看板，更深刻的洞察，3 倍提升决策质量。” ",
+    "side_image": "/all_services/dashboard/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "实时数据",
+        "description": "实时更新确保您始终基于最新数字进行工作。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "集中化洞察",
+        "description": "将来自多个源头的数据整合到一个简洁的看板中。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "定制化视觉效果",
+        "description": "专为您的业务目标设计的定制图表、图形和 KPI。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "决策就绪",
+        "description": "提供引导战略的清晰见解，而非仅仅是原始数字。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择看板开发您将获得什么",
+    "image": "/all_services/dashboard/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 交互式看板",
+        "description": "完全交互式的数据分析可视化看板。"
+      },
+      {
+        "title": "2. 始终保持最新",
+        "description": "实时或定期的自动数据刷新流水线。"
+      },
+      {
+        "title": "3. 无缝集成",
+        "description": "集成 CRM、ERP、API 或自定义数据库。"
+      },
+      {
+        "title": "4. 定制化见解",
+        "description": "针对您所在行业量身定制的 KPI、图表和报表。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Power BI", "icon": "FaSignal" },
+      { "name": "Tableau", "icon": "IoLogoTableau" },
+      { "name": "MongoDB", "icon": "FaDatabase" },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Looker", "icon": "SiLooker" },
+      { "name": "AWS Redshift", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "确定 KPI、数据源和可视化需求。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "设计看板原型，选择可视化风格。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "开发看板界面，集成数据流水线，配置图表。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署带有访问控制和实时同步功能的看板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "实时 SaaS 分析看板每月节省 60 小时人力",
+    "image": "/all_services/dashboard/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家 SaaS 公司依赖手动 Excel 报表来追踪收入、流失率和客户活跃度。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们构建了一个集成 Stripe、HubSpot 和内部数据库的实时分析看板。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "报表生成变得即时化，每月节省约 60 小时，并帮助领导层立即对趋势做出反应。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们能同时开发 iOS 和 Android 应用吗？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "你们的企业级解决方案安全性如何？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "你们支持现有的 ERP/CRM 系统吗？",
+        "answer": "当然。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "随着我们业务的增长，应用可以扩展吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}

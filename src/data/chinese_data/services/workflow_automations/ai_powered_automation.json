@@ -1,0 +1,165 @@
+{
+  "slug": "ai-powered-automation",
+  "hero_section": {
+    "title": "人工智能驱动的自动化",
+    "subtitle": "聪明地工作，而非辛苦地工作",
+    "description": "我们设计由 AI 驱动的智能自动化系统，能够学习并适应您的工作流——从而减少错误、节省时间并轻松扩展运营。",
+    "buttons": [
+      {
+        "text": "自动化我的工作流",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_powered_automation_video.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " 人工智能驱动的自动化？",
+    "content": [
+      "企业每月在数据输入、报表生成到客户回复等手动重复性任务上浪费数百小时。人工智能驱动的自动化将这些任务替换为全天候运行的自学习系统。",
+      "在 Devisgon，我们构建由机器学习和自然语言处理驱动的自动化流水线，能够适应您的流程。这些自动化系统可以：",
+      "   • 提取并处理数据",
+      "   • 自动触发工作流",
+      "   • 以情境智能回复客户",
+      "   • 通过自学习逻辑优化重复性任务",
+      "结果：错误更少、成本更低、运营更快。"
+    ],
+    "highlight_quote": "“自动化流程，即时结果，零低效。”",
+    "side_image": "/all_services/ai_powered_automation/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "节省时间和金钱",
+        "description": "自动化重复性工作流，让团队专注于战略性工作。",
+        "icon_type": "TbClockDollar"
+      },
+      {
+        "title": "自学习系统",
+        "description": "不同于静态规则，AI 会随着时间推移不断适应并提高性能。",
+        "icon_type": "GiTrackedRobot"
+      },
+      {
+        "title": "减少错误",
+        "description": "消除由手动输入引起的失误。",
+        "icon_type": "MdError"
+      },
+      {
+        "title": "可扩展性",
+        "description": "自动化可以随业务增长而扩展，并行处理数千个任务。",
+        "icon_type": "MdCloseFullscreen"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择人工智能驱动的自动化您将获得什么",
+    "image": "/all_services/ai_powered_automation/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 完整的自动化工作流",
+        "description": "端到端 AI 驱动的自动化工作流。"
+      },
+      {
+        "title": "2. 智能机器人",
+        "description": "用于客户服务、数据输入、报表生成或任务管理的机器人。"
+      },
+      {
+        "title": "3. 无缝集成",
+        "description": "与现有业务软件（CRM、ERP、CMS 等）集成。"
+      },
+      {
+        "title": "4. 培训与文档",
+        "description": "文档和员工培训，确保顺利采用。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Node.js", "icon": "FaNodeJs " },
+      { "name": "TensorFlow", "icon": "SiTensorflow " },
+      { "name": "OpenAI", "icon": "SiOpenai " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "n8n", "icon": "SiN8N " }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "绘制您的业务流程图，以识别自动化机会。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "规划 AI 工作流、集成方案和自动化触发器。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "开发 AI 机器人、自动化脚本并连接 API。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署自动化系统，监控性能并持续优化。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "从手动到提速 75%",
+    "image": "/all_services/ai_powered_automation/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家金融服务客户每月花费数百小时手动验证发票并处理付款。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们构建了一个 AI 驱动的自动化系统，提取发票数据，根据会计规则验证分录，并处理付款审批。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "处理时间减少了 75%，人为错误降至几乎为零，员工得以专注于更高价值的任务。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们可以对哪些工具进行自动化？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "自动化会取代我的团队吗？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "自动化能节省多少时间？",
+        "answer": "当然可以。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "你们会创建 AI 智能体（Agents）吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -27,13 +27,24 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
         setLoading(true);
         let module;
 
-        if (lang === 'en') {
+            if (lang === 'en') {
           module = await import(`@/data/english_data/services/data_solutions/${slug}.json`);
-        } else if (lang === 'ur') {
-          module = await import(`@/data/urdu_data/services/data_solutions/${slug}.json`);
-          }else if (lang === 'ar') {
-          module = await import(`@/data/arabic_data/services/data_solutions/${slug}.json`);
-        } else {
+        } else if (lang === 'ur'){
+          module = await import(`@/data/urdu_data/services/data_solutions/${slug}.json`);}
+         else if (lang === 'ar') {
+          module = await import(`@/data/arabic_data/services/data_solutions/${slug}.json`);        
+        }else if (lang === 'es') {
+          module = await import(`@/data/spanish_data/services/data_solutions/${slug}.json`);
+        } else if (lang === 'de') {
+          module = await import(`@/data/german_data/services/data_solutions/${slug}.json`);
+        } else if (lang === 'zh') {
+          module = await import(`@/data/chinese_data/services/data_solutions/${slug}.json`);
+        } else if (lang === 'fr') {
+          module = await import(`@/data/french_data/services/data_solutions/${slug}.json`);
+        } else if (lang === 'pa') {
+          module = await import(`@/data/punjabi_data/services/data_solutions/${slug}.json`);
+        }
+         else {
           module = await import(`@/data/english_data/services/data_solutions/${slug}.json`);
         }
 

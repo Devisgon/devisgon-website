@@ -1,0 +1,159 @@
+{
+  "slug": "ai_ml_models",
+  "hero_section": {
+    "title": "Modelos de IA/ML",
+    "subtitle": "Poder predictivo para negocios más inteligentes",
+    "description": "Diseñamos y desplegamos modelos de inteligencia artificial y aprendizaje automático que transforman sus datos en conocimientos accionables, impulsando la automatización, el pronóstico y las experiencias personalizadas.",
+    "buttons": [
+      {
+        "text": "Construir mi modelo de IA",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es un",
+    "span_heading": " Modelo de IA/ML?",
+    "content": [
+      "En Devisgon, construimos modelos de IA/ML personalizados que se ajustan a las necesidades únicas de su negocio. A diferencia de las herramientas genéricas listas para usar, nuestros modelos se entrenan con sus datos reales, garantizando precisión y relevancia. También los desplegamos en entornos listos para producción con pipelines de monitoreo, para que sigan siendo confiables con el tiempo.",
+      " Nuestras soluciones se utilizan en finanzas, retail, salud, logística, SaaS y comercio electrónico, ayudando a las organizaciones a lograr eficiencia, crecimiento e innovación."
+    ],
+    "highlight_quote": "“Modelos más inteligentes, analíticas más agudas, crecimiento 4 veces más rápido.”",
+    "side_image": "/all_services/ai_ml_models/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Transforme sus operaciones con resultados comprobados",
+    "cards": [
+      {
+        "title": "Mejora Continua",
+        "description": "Los modelos aprenden y mejoran a medida que llegan nuevos datos.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Experiencias Personalizadas",
+        "description": "Ofrezca contenido y ofertas adaptadas a cada usuario.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Decisiones más Inteligentes",
+        "description": "Convierta datos brutos en recomendaciones automatizadas.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Pronóstico Preciso",
+        "description": "Prediga la demanda, los ingresos o los riesgos con precisión.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrá al elegir Modelos de IA/ML",
+    "image": "/all_services/ai_ml_models/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Modelos de IA/ML entrenados a medida",
+        "description": "Modelos de IA/ML entrenados de forma personalizada (clasificación, regresión, clustering, NLP, visión artificial)."
+      },
+      {
+        "title": "2. Integración de API fluida",
+        "description": "Puntos de enlace de API para una fácil integración en aplicaciones o sistemas."
+      },
+      {
+        "title": "3. Pipelines de entrenamiento automatizados",
+        "description": "Pipelines automatizados de entrenamiento y reentrenamiento."
+      },
+      {
+        "title": "4. Paneles de monitoreo de rendimiento",
+        "description": "Paneles de monitoreo para detectar precisión y degradación del modelo (drift)."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Trabajamos con tecnologías modernas y probadas",
+    "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "TensorFlow", "icon": "SiTensorflow " },
+      { "name": "Kubernetes", "icon": " AiOutlineKubernetes " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "Docker", "icon": "FaDocker " }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Del concepto al lanzamiento en 6 semanas",
+    "steps": [
+      {
+        "title": "Descubrir",
+        "description": "Definir casos de uso, recopilar datos e identificar oportunidades de ML.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseñar",
+        "description": "Preprocesamiento de datos, ingeniería de características, arquitectura del modelo.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construir",
+        "description": "Entrenar, validar y ajustar modelos.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lanzar",
+        "description": "Desplegar modelos con pipelines de monitoreo y reentrenamiento.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Conversiones 18% más altas y carritos 22% más grandes",
+    "image": "/all_services/ai_ml_models/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Un cliente de comercio electrónico quería mejorar las recomendaciones de productos pero dependía de reglas estáticas."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Construimos un motor de recomendaciones utilizando filtrado colaborativo e historial de compras de los clientes."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Las tasas de conversión aumentaron un 18%, el valor promedio del carrito creció un 22% y el compromiso del usuario subió significativamente."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtenga respuestas a preguntas comunes",
+    "questions": [
+      {
+        "question": "¿Pueden crear aplicaciones tanto para iOS como para Android?",
+        "answer": "Normalmente, se puede desarrollar un MVP en 4-6 semanas dependiendo de la complejidad de las funciones."
+      },
+      {
+        "question": "¿Qué tan seguras son sus soluciones empresariales?",
+        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione sin problemas."
+      },
+      {
+        "question": "¿Trabajan con sistemas ERP/CRM existentes?",
+        "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
+      },
+      {
+        "question": "¿Pueden escalar las aplicaciones a medida que crece nuestro negocio?",
+        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontró su respuesta?",
+      "link_text": "Contáctenos para más información",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "herosection": {
+    "title": "我们的服务",
+    "subtitle": "为现代企业提供 ",
+    "span_subtitle": "端到端解决方案",
+    "description": "从人工智能驱动的 SaaS 到云工程，我们凭借尖端技术和成熟的专业知识，覆盖数字化创新的全方位领域。",
+    "buttons": [
+      {
+        "text": "咨询专家",
+        "link": "/contact"
+      },
+      {
+        "text": "查看案例研究",
+        "link": "/contact"
+      }
+    ]
+  },
+  "services": [
+    {
+      "category": "AI 与 SaaS 开发",
+      "headline": "更快构建更智能的软件",
+      "span": " ",
+      "bg": "#FBF7FE",
+      "description": "通过 AI 驱动的功能和可扩展架构，将您的想法转化为智能 SaaS 平台。",
+      "features": [
+        {
+          "title": "AI 驱动的自动化",
+          "details": "结合机器学习模型和智能自动化的定制化 AI 解决方案。",
+          "icon": "FaRobot "
+        },
+        {
+          "title": "SaaS 平台",
+          "details": "包含订阅管理和多租户机制的全栈 SaaS 开发。",
+          "icon": "FaCloud "
+        },
+        {
+          "title": "MVP 与 POC 开发",
+          "details": "快速原型设计和概念验证开发，用于市场验证。",
+          "icon": "FaRocket "
+        },
+        {
+          "title": "机器学习集成",
+          "details": "将定制机器学习模型集成到生产系统中。",
+          "icon": "FaGears "
+        }
+      ],
+      "image": "/services_page/ai_and_saas.svg",
+      "deliverables": [
+        "可点击原型",
+        "REST API",
+        "计费系统"
+      ],
+      "tech_stack": ["Next.js", "Python", "AWS", "Express.js"]
+    },
+    {
+      "category": "工作流自动化",
+      "headline": "利用 AI、无代码或定制代码",
+      "span": " 实现流程自动化",
+      "description": "通过根据您的特定需求量身定制的智能自动化解决方案，简化您的业务运营。",
+      "features": [
+        {
+          "title": "AI 驱动的自动化",
+          "details": "能够学习并适应您业务模式的智能工作流。",
+          "icon": "FaRobot"
+        },
+        {
+          "title": "无代码解决方案",
+          "details": "集成 Zapier、Make.com 和 n8n，实现快速部署。",
+          "icon": "FaLink  "
+        },
+        {
+          "title": "低代码解决方案",
+          "details": "通过极少量代码实现定制化工作流，获得最大灵活性。",
+          "icon": "FaPuzzlePiece "
+        },
+        {
+          "title": "定制代码开发",
+          "details": "基于 Python、JS、Selenium、Puppeteer 和 Playwright 的自动化。",
+          "icon": "FaCode "
+        }
+      ],
+      "image": "/services_page/workflow_automation.svg",
+      "deliverables": [
+        "自动化路线图",
+        "API 集成",
+        "监控工具"
+      ],
+      "tech_stack": ["Zapier", "Make.com", "Python", "Airflow"]
+    },
+    {
+      "category": "Web 与移动端开发",
+      "headline": "适配任何设备的",
+      "span": " 定制化应用 ",
+      "bg": "#FBF7FE",
+      "description": "创建精美、响应式的应用程序，在所有平台和设备上无缝运行。",
+      "features": [
+        {
+          "title": "Web 应用程序",
+          "details": "使用现代框架开发，具备最佳性能的响应式 Web 应用。",
+          "icon": "IoMdDesktop "
+        },
+        {
+          "title": "移动端应用",
+          "details": "适配所有平台的 iOS、Android、Flutter 和 React Native 开发。",
+          "icon": "FaMobileScreenButton "
+        },
+        {
+          "title": "定制脚本",
+          "details": "针对特定业务需求的自动化机器人和定制脚本。",
+          "icon": "FaCode "
+        }
+      ],
+      "image": "/services_page/mobile_development.svg",
+      "deliverables": [
+        "响应式 UI",
+        "管理控制台",
+        "应用商店上架辅导"
+      ],
+      "tech_stack": ["React", "Next.js", "Flutter", "PHP", "Java"]
+    },
+    {
+      "category": "数据解决方案",
+      "headline": "从原始数据 ",
+      "span": " 到业务洞察",
+      "description": "通过先进的分析和机器学习解决方案，将您的数据转化为可操作的见解。",
+      "features": [
+        {
+          "title": "数据提取",
+          "details": "从各种来源进行网页抓取和数据挖掘。",
+          "icon": "FaDatabase "
+        },
+        {
+          "title": "分析仪表板",
+          "details": "用于实时数据可视化的交互式仪表板。",
+          "icon": "RiBarChartHorizontalFill "
+        },
+        {
+          "title": "业务分析",
+          "details": "战略洞察和绩效指标分析。",
+          "icon": "GoGraph "
+        },
+        {
+          "title": "AI/ML 模型",
+          "details": "预测性分析和机器学习解决方案。",
+          "icon": "FaBrain "
+        }
+      ],
+      "image": "/services_page/data_solution.svg",
+      "deliverables": [
+        "数据流水线",
+        "交互式仪表板",
+        "预测模型"
+      ],
+      "tech_stack": ["Python", "SQL", "Tableau", "Power BI"]
+    },
+    {
+      "category": "设计与分析",
+      "headline": "将创意转化为",
+      "span": " 经验证的系统",
+      "bg": "#FBF7FE",
+      "description": "从概念到执行，我们为数字化产品提供全面的设计和分析服务。",
+      "features": [
+        {
+          "title": "UI/UX 设计",
+          "details": "以用户为中心的设计，兼具现代美学和最佳用户体验。",
+          "icon": "MdColorLens "
+        },
+        {
+          "title": "原型设计",
+          "details": "用于用户测试和利益相关者验证的交互式原型。",
+          "icon": "LuNetwork "
+        },
+        {
+          "title": "UML 图表",
+          "details": "系统架构和流程文档编制。",
+          "icon": "PiShareNetworkFill "
+        },
+        {
+          "title": "文档编制",
+          "details": "全面的技术和用户文档。",
+          "icon": "CgNotes "
+        }
+      ],
+      "image": "/services_page/design.svg",
+      "deliverables": [
+        "线框图",
+        "设计系统",
+        "产品文档"
+      ],
+      "tech_stack": ["Figma", "Whimsical", "Notion", "Miro"]
+    },
+    {
+      "category": "区块链与 Web3",
+      "headline": "安全智能合约",
+      "span": " 开发",
+      "description": "利用去中心化应用和安全区块链解决方案构建未来。",
+      "features": [
+        {
+          "title": "智能合约",
+          "details": "适用于各种区块链平台的安全、经审计的智能合约。",
+          "icon": "FaLink "
+        },
+        {
+          "title": "代币经济学",
+          "details": "代币设计和可持续生态系统的经济模型。",
+          "icon": "FaDatabase "
+        },
+        {
+          "title": "Web3 应用",
+          "details": "具备现代用户界面的去中心化应用程序。",
+          "icon": "TbWorld "
+        }
+      ],
+      "image": "/services_page/block_chain.svg",
+      "deliverables": [
+        "智能合约",
+        "安全审计",
+        "钱包集成"
+      ],
+      "tech_stack": ["Solidity", "Ethers.js", "IPFS", "QuickNode"]
+    },
+    {
+      "category": "云与架构",
+      "headline": "可扩展的 ",
+      "span": " 基础设施",
+      "bg": "#FBF7FE",
+      "description": "通过现代 DevOps 实践和架构设计，构建稳健、可扩展的云基础设施。",
+      "features": [
+        {
+          "title": "云工程",
+          "details": "基于 AWS、Azure 和 GCP 的可扩展云解决方案。",
+          "icon": "FaCloud "
+        },
+        {
+          "title": "部署与 DevOps",
+          "details": "CI/CD 流水线和自动化部署策略。",
+          "icon": "FaRocket "
+        },
+        {
+          "title": "解决方案架构",
+          "details": "企业级架构设计与规划。",
+          "icon": "FaNetworkWired "
+        },
+        {
+          "title": "系统设计",
+          "details": "高性能系统架构与优化。",
+          "icon": "FaGears "
+        }
+      ],
+      "image": "/services_page/cloude.svg",
+      "deliverables": [
+        "CI/CD 流水线",
+        "架构文档",
+        "可扩展基础设施"
+      ],
+      "tech_stack": ["AWS", "Docker", "Kubernetes", "Azure"]
+    }
+  ],
+  "contact_form": {
+    "headline": "让我们共同构建更智能的未来",
+    "description": "咨询我们的专家，了解 Devisgon 如何通过尖端技术解决方案加速您的业务增长。"
+  }
+}

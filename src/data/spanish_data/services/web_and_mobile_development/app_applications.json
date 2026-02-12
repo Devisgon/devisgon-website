@@ -1,0 +1,160 @@
+{
+  "slug": "app-application",
+  "hero_section": {
+    "title": "Aplicaciones Móviles",
+    "subtitle": "Experiencias Nativas y Multiplataforma",
+    "description": "Diseñamos y construimos aplicaciones para Android e iOS que son rápidas, seguras y fáciles de usar, impulsadas por frameworks nativos y multiplataforma para un máximo alcance y rendimiento.",
+    "buttons": [
+      {
+        "text": "Iniciar mi proyecto de App móvil",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/app_development.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es el ",
+    "span_heading": "Desarrollo de Aplicaciones Móviles?",
+    "content": [
+      "En Devisgon, construimos aplicaciones nativas (Swift, Kotlin) para un rendimiento máximo y aplicaciones multiplataforma (Flutter, React Native) para un desarrollo más rápido. Nuestras aplicaciones son intuitivas, seguras y escalables, con una integración fluida con backends, APIs y servicios en la nube.",
+      "Hemos entregado aplicaciones para comercio electrónico, fintech, salud, SaaS, logística y plataformas sociales, asegurando que las empresas puedan captar, convertir y retener usuarios en dispositivos móviles."
+    ],
+    "highlight_quote": "“Aplicaciones móviles, trayectorias fluidas, compromiso del usuario triplicado.”",
+    "side_image": "/all_services/app_development/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Transforme sus operaciones con resultados comprobados",
+    "cards": [
+      {
+        "title": "Alcance Multiplataforma",
+        "description": "Un solo código, dos plataformas (iOS y Android) con Flutter/React Native.",
+        "icon_type": "FaRocket"
+      },
+      {
+        "title": "Alto Rendimiento",
+        "description": "Construcciones nativas optimizadas para velocidad, uso sin conexión y baja latencia.",
+        "icon_type": "GoGraph"
+      },
+      {
+        "title": "UX Atractiva",
+        "description": "Diseños modernos e intuitivos que aumentan la retención de usuarios.",
+        "icon_type": "GoGraph"
+      },
+      {
+        "title": "Seguro y Escalable",
+        "description": "Aplicaciones construidas con cifrado de grado empresarial y escalabilidad en la nube.",
+        "icon_type": "IoShieldCheckmarkSharp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrá al elegir el Desarrollo de Aplicaciones Móviles",
+    "image": "/all_services/app_development/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Aplicaciones Multiplataforma",
+        "description": "Aplicación de iOS y/o Android totalmente funcional."
+      },
+      {
+        "title": "2. Experiencias a Medida",
+        "description": "Diseño UI/UX personalizado para móviles."
+      },
+      {
+        "title": "3. Integraciones Fluidas",
+        "description": "Integraciones de API y backend (pagos, notificaciones, etc.)."
+      },
+      {
+        "title": "5. Listas para Tiendas",
+        "description": "Despliegue en App Store y Google Play."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Trabajamos con tecnologías modernas y probadas",
+    "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
+    "tools": [
+      { "name": "Swift", "icon": "GrSwift " },
+      { "name": "Kotlin", "icon": "SiKotlin " },
+      { "name": "Flutter", "icon": "RiFlutterFill " },
+      { "name": "Laravel", "icon": "FaLaravel " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "PostgreSQL", "icon": "SiPostgresql " }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Del concepto al lanzamiento en 6 semanas",
+    "steps": [
+      {
+        "title": "Descubrir",
+        "description": "Identificar objetivos de la app, usuarios objetivo y funciones principales.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseñar",
+        "description": "Wireframes, maquetas UI/UX y trayectorias de usuario.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construir",
+        "description": "Desarrollar funciones de la app, integrar APIs y probar rendimiento.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lanzar",
+        "description": "Desplegar en App Store/Google Play con monitoreo continuo.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "20K descargas y 45% de aumento en ventas con App Móvil de Retail",
+    "image": "/all_services/app_development/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Un cliente minorista necesitaba reducir el abandono del carrito y mejorar la interacción del usuario."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Construimos una aplicación Flutter multiplataforma con catálogo de productos, pagos, notificaciones push y analítica."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Las tasas de conversión mejoraron un 18% y los tiempos de sesión aumentaron un 25%."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtenga respuestas a preguntas comunes",
+    "questions": [
+      {
+        "question": "¿Pueden crear aplicaciones tanto para iOS como para Android?",
+        "answer": "Normalmente, se puede desarrollar un MVP en 4-6 semanas dependiendo de la complejidad de las funciones."
+      },
+      {
+        "question": "¿Qué tan seguras son sus soluciones empresariales?",
+        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione sin problemas."
+      },
+      {
+        "question": "¿Trabajan con sistemas ERP/CRM existentes?",
+        "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
+      },
+      {
+        "question": "¿Pueden escalar las aplicaciones a medida que crece nuestro negocio?",
+        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontró su respuesta?",
+      "link_text": "Contáctenos para más información",
+      "link_url": "/contact"
+    }
+  }
+}

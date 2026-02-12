@@ -1,0 +1,160 @@
+{
+  "slug": "machine-learning",
+  "hero_section": {
+    "title": "Machine Learning Modelle",
+    "subtitle": "Datengesteuerte Vorhersagen, die skalieren",
+    "description": "Wir entwickeln maßgeschneiderte Machine-Learning-Modelle für Vorhersagen, Empfehlungen, Klassifizierungen und Automatisierung – trainiert mit Ihren Daten und optimiert für den Praxiseinsatz.",
+    "buttons": [
+      {
+        "text": "Mein KI-Projekt starten",
+        "link": "/contact"
+      },
+      {
+        "text": "Kontaktieren Sie uns",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was sind",
+    "span_heading": "Machine Learning Modelle?",
+    "content": [
+      "Bei Devisgon bauen wir nicht nur Modelle, wir entwickeln produktionsreife ML-Pipelines. Das bedeutet, dass Ihre Modelle nicht in Notebooks verstauben; sie werden bereitgestellt, überwacht und optimiert, um mit realen Daten in großem Maßstab zu arbeiten.",
+      "Wir helfen Unternehmen in den Bereichen Einzelhandel, Gesundheitswesen, Logistik, Fintech und SaaS, die Kraft von ML zu nutzen, um Probleme zu lösen und Wettbewerbsvorteile zu erzielen."
+    ],
+    "highlight_quote": "„Maßgeschneiderte Modelle, schärfere Vorhersagen, 30% höhere Genauigkeit.“",
+    "side_image": "/all_services/meachine_learning/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Hauptvorteile",
+    "subtitle": "Transformieren Sie Ihre Abläufe mit bewährten Ergebnissen",
+    "cards": [
+      {
+        "title": "Präzise Vorhersagen",
+        "description": "Prognostizieren Sie Nachfragen, erkennen Sie Anomalien und empfehlen Sie Maßnahmen mit Präzision.",
+        "icon_type": "TbTargetArrow "
+      },
+      {
+        "title": "Automatisierung im großen Stil",
+        "description": "Ersetzen Sie manuelle Analysen durch KI-gestützte Entscheidungsfindung.",
+        "icon_type": "HiCurrencyDollar "
+      },
+      {
+        "title": "Maßgeschneiderte Modelle",
+        "description": "Modelle, die auf Ihren spezifischen Geschäftsdaten trainiert werden, nicht auf generischen Datensätzen.",
+        "icon_type": "BsCodeSquare "
+      },
+      {
+        "title": "End-to-End Bereitstellung",
+        "description": "Vom Training bis zur Produktionsüberwachung übernehmen wir den gesamten ML-Lebenszyklus.",
+        "icon_type": "FaRocket "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie erhalten, wenn Sie unsere ML-Modelle wählen",
+    "image": "/all_services/meachine_learning/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Maßgeschneiderte ML-Modelle",
+        "description": "Individuell trainierte ML-Modelle (Klassifizierung, Regression, Clustering, NLP, etc.)"
+      },
+      {
+        "title": "2. API-Integration",
+        "description": "API-Endpunkte zur Integration der Modelle in Apps/Software."
+      },
+      {
+        "title": "3. Klare Dokumentation",
+        "description": "Modelldokumentation und Trainingsberichte."
+      },
+      {
+        "title": "4. Skalierbare Bereitstellung",
+        "description": "Skalierbare Bereitstellung in Cloud- oder On-Premise-Infrastrukturen."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir arbeiten mit modernen, bewährten Technologien",
+    "subtitle": "Branchenführende Tools für maximale Zuverlässigkeit und Leistung",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Node.js", "icon": "FaNodeJs " },
+      { "name": "React", "icon": "FaReact " },
+      { "name": "Docker", "icon": "FaDocker " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "MongoDB", "icon": "FaDatabase " }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Vom Konzept bis zum Launch in 6 Wochen",
+    "steps": [
+      {
+        "title": "Entdecken",
+        "description": "Geschäftsziele definieren, Datenquellen identifizieren und ML-Anwendungsfälle auswählen.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Datenvorverarbeitung, Feature Engineering und Planung der Modellarchitektur.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Bauen",
+        "description": "Training und Validierung von ML-Modellen, Tests mit historischen Datensätzen.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Bereitstellung produktionsreifer Modelle mit Überwachung und Feedback-Schleifen.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "KI reduzierte Überbestände um 18%",
+    "image": "/all_services/meachine_learning/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "Ein Logistikunternehmen kämpfte mit unvorhersehbarer Nachfrage, was zu Überbeständen und Verzögerungen in der Lieferkette führte."
+      },
+      "solution": {
+        "label": "Lösung",
+        "text": "Wir haben ein ML-Modell zur Nachfrageprognose entwickelt, das mit Verkaufs- und Saisondaten von 5 Jahren trainiert wurde."
+      },
+      "result": {
+        "label": "Ergebnis",
+        "text": "Die Prognosegenauigkeit verbesserte sich um 30%, was die Überbestands-Kosten um 18% senkte und die Effizienz der Lieferkette optimierte."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Antworten auf gängige Fragen",
+    "questions": [
+      {
+        "question": "Wie lange dauert es, ein MVP zu bauen?",
+        "answer": "Normalerweise kann ein MVP in 4-6 Wochen entwickelt werden, abhängig von der Komplexität der Funktionen."
+      },
+      {
+        "question": "Bieten Sie nach dem Launch Support an?",
+        "answer": "Ja, wir bieten Wartungs- und Supportpakete nach dem Launch an, um einen reibungslosen Betrieb zu gewährleisten."
+      },
+      {
+        "question": "Können Sie KI-Funktionen in mein bestehendes SaaS integrieren?",
+        "answer": "Absolut. Wir sind spezialisiert auf die Integration von KI-Modellen in bestehende Architekturen via API."
+      },
+      {
+        "question": "Welchen Tech-Stack nutzen Sie für SaaS?",
+        "answer": "Wir nutzen primär Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Antwort nicht gefunden?",
+      "link_text": "Kontaktieren Sie uns für weitere Informationen",
+      "link_url": "/contact"
+    }
+  }
+}

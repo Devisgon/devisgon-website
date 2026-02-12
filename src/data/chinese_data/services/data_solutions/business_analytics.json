@@ -1,0 +1,160 @@
+{
+  "slug": "business_analytics",
+  "hero_section": {
+    "title": "业务分析",
+    "subtitle": "通过智能化见解解锁增长动力",
+    "description": "我们帮助企业分析工作流、运营和关键绩效指标 (KPI)，以发现机遇、优化绩效并满怀信心地做出数据驱动型决策。",
+    "buttons": [
+      {
+        "text": "开始我的分析项目",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/business_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": "业务分析？",
+    "content": [
+      "在 Devisgon，我们提供的业务分析解决方案超越了简单的仪表板。我们结合数据分析、预测建模和流程优化，揭示您业务中的瓶颈、机遇和风险。",
+      "我们的分析方法连接财务、运营、销售、营销和客户体验——为领导层提供 360° 的绩效视角。无论您是初创公司还是大型企业，我们都能帮助您更智能地扩展规模、减少低效并满怀信心地进行预测。"
+    ],
+    "highlight_quote": "“更敏锐的分析，更智能的策略，4 倍业务增长。”",
+    "side_image": "/all_services/business/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "全局视角",
+        "description": "跨财务、销售、营销和运营的深入见解。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "效率提升",
+        "description": "识别瓶颈并消除资源浪费。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "数据驱动策略",
+        "description": "基于事实证据而非凭空猜测做出商业决策。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "未来预测",
+        "description": "满怀信心地预测趋势并规划增长。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择业务分析您将获得什么",
+    "image": "/all_services/business/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 可执行的 KPI 报告",
+        "description": "业务关键绩效指标报告与战略见解。"
+      },
+      {
+        "title": "2. 流程清晰化",
+        "description": "工作流与业务流程分析文档。"
+      },
+      {
+        "title": "3. 面向未来的预测",
+        "description": "用于业务预测的预测性分析模型。"
+      },
+      {
+        "title": "4. 增长建议",
+        "description": "关于成本节约与业务增长的专业建议。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Power BI", "icon": "FaSignal" },
+      { "name": "Tableau", "icon": "IoLogoTableau" },
+      { "name": "MongoDB", "icon": "FaDatabase" },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Snowflake", "icon": "FaRegSnowflake" },
+      { "name": "AWS Redshift", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "定义 KPI、业务目标和数据源。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "绘制分析工作流，构建定制化报告框架。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "开发仪表板、报告和预测模型。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "交付见解、培训员工，并根据反馈进行优化。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过业务分析实现成本降低 25% 且配送提速 40%",
+    "image": "/all_services/business/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家物流公司面临成本上升和配送延迟的困扰，但缺乏对绩效指标的可视化管理。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们构建了一个整合了运营数据、配送 KPI 和客户反馈的业务分析框架。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "该公司将物流成本降低了 25%，配送延迟减少了 40%，同时提高了客户满意度评分。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们能同时开发 iOS 和 Android 应用吗？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "你们的企业级解决方案安全性如何？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "你们支持现有的 ERP/CRM 系统吗？",
+        "answer": "当然。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "随着我们业务的增长，应用可以扩展吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}
