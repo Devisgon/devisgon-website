@@ -3,7 +3,10 @@ import data from "../data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
+import { useTranslation } from 'react-i18next';
 const Navbar = () => {
+    const { t } = useTranslation();
+
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [mounted, setMounted] = useState(false);

@@ -180,7 +180,7 @@ const Footer: React.FC = () => {
             © Copyright 2025–27, All Rights Reserved by Devisgon
           </p>
         </div>
-         <p className="-mt-16 md:-mt-20 "><Switcher/></p>
+         <div className="-mt-16 md:-mt-20 "><Switcher/></div>
 
       </div>
     </footer>

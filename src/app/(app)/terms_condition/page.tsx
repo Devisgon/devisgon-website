@@ -1,7 +1,7 @@
 
 "use client";
 import React from 'react';
-import { useLanguage } from '@/context/language_contaxt'; 
+import { useTranslation } from 'react-i18next';
 interface ContactDetails {
   email: string;
   phone: string;
@@ -24,16 +24,16 @@ interface TermsData {
 }
 
 const TermsAndConditions = () => { 
-  const { data: contextData } = useLanguage();
-  if (!contextData || !contextData.terms) {
-    return (
+
+  const { i18n } = useTranslation();
+const termsData = i18n.getResourceBundle(i18n.language, 'terms');
+if (!termsData) {    return (
       <div className="flex items-center justify-center h-screen">
         <p className="animate-pulse">Loading Terms & Conditions...</p>
       </div>
     );
   }
 
-  const termsData = contextData.terms;
 
   return (
     <>

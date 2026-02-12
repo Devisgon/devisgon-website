@@ -1,15 +1,40 @@
 "use client";
-import { useLanguage } from '@/context/language_contaxt';
+import React from 'react';
+import { useTranslation } from 'react-i18next';
+import '../context/i18n'; 
 
-export default function LangSwitcher() {
-  const { lang, toggleLanguage } = useLanguage();
+const LanguageSwitcher = () => {
+  const { i18n } = useTranslation();
+
+  const toggleLanguage = () => {
+    if (i18n && typeof i18n.changeLanguage === 'function') {
+      const newLang = i18n.language === "en" ? "ur" : "en";
+      
+      i18n.changeLanguage(newLang).then(() => {
+        document.documentElement.lang = newLang;
+      });
+    } else {
+      console.error("i18n.changeLanguage is missing. Check if I18nextProvider is in layout.js");
+    }
+  };
 
   return (
-    <button 
+    <button
       onClick={toggleLanguage}
-      className="px-4 py-2  text-white rounded-md font-medium "
+      style={{
+        padding: '8px 16px',
+        cursor: 'pointer',
+        borderRadius: '5px',
+        border: '1px solid #ccc',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '8px',
+        fontWeight: 'bold'
+      }}
     >
-      {lang === 'en' ? 'اردو' : 'English'}
+      {i18n.language === "en" ? "🇬🇧 English" : "🇵🇰 اردو"}
     </button>
   );
-}
+};
+
+export default LanguageSwitcher;

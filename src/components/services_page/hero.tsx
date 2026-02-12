@@ -2,14 +2,14 @@
 import { useState } from "react";
 import type { HeroSectionProps } from "@/types/services_page/hero";
 import { motion } from "framer-motion";
+import { useTranslation } from 'react-i18next';
 
-// Extend props to include language controls
-interface ExtendedHeroProps extends HeroSectionProps {
-  currentLang?: "en" | "ur";
-  onToggleLang?: () => void;
-}
 
-const HeroSection = ({ data, currentLang, onToggleLang }: ExtendedHeroProps) => {
+
+
+const HeroSection = ({ data,  }: HeroSectionProps) => {
+    const { t } = useTranslation('services');
+
   const [activeBtn, setActiveBtn] = useState<number | null>(null);
 
   return (

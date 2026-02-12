@@ -1,6 +1,6 @@
 "use client";
 import React, { use, useState, useEffect } from 'react';
-import { useLanguage } from '@/context/language_contaxt';
+import { useTranslation } from 'react-i18next';
 import { notFound } from "next/navigation";
 
 import Hero from "@/components/sub_services_pages/hero";
@@ -15,7 +15,9 @@ import Contact from '@/components/sub_services_pages/contact';
 
 export default function IndustryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
-  const { lang } = useLanguage(); 
+  const { i18n } = useTranslation();
+  const lang = i18n.language; 
+  
   const [data, setData] = useState<any>(null);
   const [loading, setLoading] = useState(true);
 
@@ -27,8 +29,10 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
 
         if (lang === 'en') {
           module = await import(`@/data/english_data/services/web_and_mobile_development/${slug}.json`);
-        } else {
+        } else if (lang === 'ur') {
           module = await import(`@/data/urdu_data/services/web_and_mobile_development/${slug}.json`);
+        } else {
+          module = await import(`@/data/english_data/services/web_and_mobile_development/${slug}.json`);
         }
 
         setData(module.default);
@@ -41,7 +45,7 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
     }
 
     loadData();
-  }, [slug, lang]);
+  }, [slug, lang]); 
   
   if (loading) {
     return (

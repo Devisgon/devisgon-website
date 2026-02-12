@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
-import { LanguageProvider } from '@/context/language_contaxt';
+import '@/context/i18n';
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -27,12 +27,10 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <LanguageProvider>
           <Header /> 
           
           <main>{children}</main>
                     <Footer /> 
-        </LanguageProvider>
       </body>
     </html>
   );

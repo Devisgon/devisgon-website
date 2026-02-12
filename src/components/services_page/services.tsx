@@ -2,8 +2,11 @@
 import { motion } from "framer-motion";
 import type { ServicesListProps } from "@/types/services_page/services";
 import allIcons from "../icons";
+import { useTranslation } from 'react-i18next';
 
 const ServicesList = ({ data }: ServicesListProps) => {
+    const { t } = useTranslation('services');
+
   return (
     <>
     <div className="flex flex-col">

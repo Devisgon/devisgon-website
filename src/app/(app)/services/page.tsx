@@ -2,12 +2,14 @@
 import Hero from "@/components/services_page/hero";
 import Service from '@/components/services_page/services';
 import Form from '@/components/sub_services_pages/contact';
-import { useLanguage } from '@/context/language_contaxt'; 
+import { useTranslation } from 'react-i18next';
 
 export default function Services() {
-  const { data } = useLanguage();
+  const { i18n } = useTranslation();
+  
+  const servicesData = i18n.getResourceBundle(i18n.language, 'services');
 
-  if (!data || !data.services) {
+  if (!servicesData) {
     return (
       <div className="flex items-center justify-center h-screen">
         <p>Loading services...</p>
@@ -15,13 +17,11 @@ export default function Services() {
     );
   }
 
-  const servicesData = data.services;
-
   return (
     <>
       <Hero data={servicesData.herosection} />
       <Service data={servicesData.services} />
-      <Form />
+      <Form  />
     </>
   );
 }
