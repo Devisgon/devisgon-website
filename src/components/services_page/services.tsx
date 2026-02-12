@@ -58,9 +58,9 @@ viewport={{ once: false }}
                   <motion.div
                     key={idx}
                       initial={{ opacity: 0, x: -40 }}
-whileInView={{ opacity: 1, x: 0 }}
-  transition={{ duration: 0.6 , }}
-viewport={{ once: false }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: false }}
+    transition={{ duration: 0.8 }}
                     className="bg-white border w-full md:w-68  h-56 border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-2xl hover:shadow-purple-500/10  hover:transform hover:-translate-y-8 duration-300 group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] dark:bg-[#6F1595] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -86,7 +86,7 @@ viewport={{ once: false }}
                 alt={section.category}
                   initial={{ opacity: 0, scale:0.5 }}
 whileInView={{ opacity: 1, scale: 1 }}
-  transition={{ duration: 0.5 }}
+  transition={{ duration: 0.2 }}
 viewport={{ once: true }}
                 className="w-full h-full object-fill transform  transition-transform duration-800"
               />

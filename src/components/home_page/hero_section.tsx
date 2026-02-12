@@ -1,5 +1,6 @@
 "use client";
-
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import type { HeroSectionProps } from "@/types/homepage/hero";

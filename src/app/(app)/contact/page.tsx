@@ -315,7 +315,7 @@ const validateEmail = (value: string): boolean => {
                   <input type="checkbox" className="mt-1" required />
                   <p className="text-t-primary">
                     I agree to the processing of my personal data in accordance with the{" "}
-                    <Link href="/privacy-policy" className="text-t_secondary underline">
+                    <Link href="/privacy_policies" className="text-t_secondary underline">
                       Privacy Policy
                     </Link>{" "}
                     and consent to receive communications about this inquiry.

@@ -33,8 +33,6 @@ const LanguageSwitcher = () => {
     if (i18n && typeof i18n.changeLanguage === "function") {
       i18n.changeLanguage(code).then(() => {
         document.documentElement.lang = code;
-        const isRtl = ["ur", "ar", "pa"].includes(code);
-        document.documentElement.dir = isRtl ? "rtl" : "ltr";
       });
     }
     setIsOpen(false);
@@ -51,7 +49,6 @@ const LanguageSwitcher = () => {
     }, 400);
   };
 
-  // Prevent rendering dynamic content until client-side hydration is complete
   if (!mounted) {
     return (
       <div className="px-3 py-2 opacity-0">

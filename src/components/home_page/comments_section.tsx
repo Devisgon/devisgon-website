@@ -76,7 +76,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
               />
             </div>
 
-            <div className="flex flex-col w-full mt-4 lg:mt-0">
+            <div className="flex flex-col w-full -mt-12  md:mt-0">
               <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>

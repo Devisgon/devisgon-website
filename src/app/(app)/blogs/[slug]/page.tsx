@@ -37,7 +37,7 @@ export default async function BlogPostPage({
 
       <div className="flex flex-col-reverse lg:flex-row items-center md:items-start -mt-56 md:mt-0 gap-4 md:gap-12 lg:gap-12 md:mb-20">
         
-        <div className="flex-1 -mt-24 md:mt-0">
+        <div className="flex-1 -mt-24 px-8 md:mt-0">
              <CustomRichText content={blog.content} />
 
         </div>
@@ -47,13 +47,13 @@ export default async function BlogPostPage({
               <img
                   src={blog.coverImage.url } 
                   alt={blog.coverImage.alt }
-                  className='w-full h-full   object-contain mt-12 md:object-cover object-center '
+                  className='w-full h-full   object-contain mt-12 px-6 md:px-0 md:object-cover object-center '
               />
             </div>
         )}
       </div>
 
-      <a href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
+      <a href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 -ml-2 md:-ml-12 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
           Back to Blogs
         </a>
     </main>

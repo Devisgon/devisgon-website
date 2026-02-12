@@ -62,7 +62,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
           </div>
 
           {/* Vertical progress (mobile) */}
-                    <div className="md:hidden absolute left-1/2 top-4 -translate-x-1/2 w-1 h-[700px] rounded-full overflow-hidden">
+                    <div className="md:hidden absolute left-1/2 top-4 -translate-x-1/2 w-1 h-[800px] rounded-full overflow-hidden">
             <div className="absolute w-full h-full bg-[#EAD5F9] dark:bg-[#47295C]" />
             <div
                      className="absolute w-full bg-t-secondary transition-all duration-700"
@@ -92,10 +92,10 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
                     )}
                   </div>
 
-                  <p    className={`mt-4 text-lg font-semibold text-center transition-colors
+                  <p    className={`mt-10 md:mt-4 text-lg font-semibold rotate-90 md:rotate-0 md:ml-0 -ml-8 text-center transition-colors
                       ${
                         isLastStep
-                                ? "text-[#138b33]"
+                                ? "text-[#138b33] "
                           : isActive
                                     ? "text-t-secondary"
                           : "text-[#6F6F6F]"
