@@ -1,9 +1,12 @@
 "use client";
-
+import { motion } from "framer-motion";
 import type { ServicesListProps } from "@/types/services_page/services";
 import allIcons from "../icons";
+import { useTranslation } from 'react-i18next';
 
 const ServicesList = ({ data }: ServicesListProps) => {
+    const { t } = useTranslation('services');
+
   return (
     <>
     <div className="flex flex-col">
@@ -21,15 +24,25 @@ const ServicesList = ({ data }: ServicesListProps) => {
           <div className="max-w-9xl mx-auto py-8">
             {/* Heading */}
             <div className="text-center max-w-full  mb-16 mt-4">
-              <h3 className="text-t-primary font-bold text-lg md:text-4xl leading-tight mb-3">
+              < motion.h3
+                initial={{ opacity: 0, y: -40 }}
+whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+viewport={{ once: false }}
+  className="text-t-primary font-bold text-lg md:text-4xl leading-tight mb-3">
                 {section.category}
-              </h3>
-              <h2 className="text-xl md:text-4xl font-bold text-t-secondary mb-6 leading-tight">
+              </motion.h3>
+              <motion.h2
+                initial={{ opacity: 0, y: 40 }}
+whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+viewport={{ once: false }}
+ className="text-xl md:text-4xl font-bold text-t-secondary mb-6 leading-tight">
                 {section.headline}
                 <span className="text-xl md:text-4xl font-bold text-t-primary  mb-6 leading-tight">
                   {section.span}
                 </span>
-              </h2>
+              </motion.h2>
               <p className="text-t-secondary dark:text-t-primary text-base md:text-lg max-w-2xl mx-auto leading-relaxed">
                 {section.description}
               </p>
@@ -42,8 +55,12 @@ const ServicesList = ({ data }: ServicesListProps) => {
                const IconComponent = iconKey ? allIcons[iconKey] : null;
 
                 return (
-                  <div
+                  <motion.div
                     key={idx}
+                      initial={{ opacity: 0, x: -40 }}
+    whileInView={{ opacity: 1, x: 0 }}
+    viewport={{ once: false }}
+    transition={{ duration: 0.8 }}
                     className="bg-white border w-full md:w-68  h-56 border-purple-100 rounded-2xl p-6 shadow-sm hover:shadow-2xl hover:shadow-purple-500/10  hover:transform hover:-translate-y-8 duration-300 group"
                   >
                     <div className="w-12 h-12 rounded-lg bg-[#F3E8FF] dark:bg-[#6F1595] flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
@@ -57,16 +74,20 @@ const ServicesList = ({ data }: ServicesListProps) => {
                       {feature.title}
                     </h4>
                     <p className="text-sm text-t-secondary leading-relaxed">{feature.details}</p>
-                  </div>
+                  </motion.div>
                 );
               })}
             </div>
 
             {/* Image */}
             <div className="relative w-full h-[300px] md:h-[300px] overflow-hidden -mt-30 md:mt-12 -mb-30 md:mb-12">
-              <img
+              <motion.img
                 src={section.image}
                 alt={section.category}
+                  initial={{ opacity: 0, scale:0.5 }}
+whileInView={{ opacity: 1, scale: 1 }}
+  transition={{ duration: 0.2 }}
+viewport={{ once: true }}
                 className="w-full h-full object-fill transform  transition-transform duration-800"
               />
             </div>
@@ -74,7 +95,8 @@ const ServicesList = ({ data }: ServicesListProps) => {
             {/* Deliverables & Tech Stack */}
             <div className="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 pt-10">
               {/* Deliverables */}
-              <div className="flex flex-col gap-3 items-center">
+              <motion.div
+               className="flex flex-col gap-3 items-center">
                 <span className="text-t-primary font-bold text-sm uppercase tracking-wide">
                   Deliverables:
                 </span>
@@ -88,10 +110,15 @@ const ServicesList = ({ data }: ServicesListProps) => {
                     </span>
                   ))}
                 </div>
-              </div>
+              </motion.div>
 
               {/* Tech Stack */}
-              <div className="flex flex-col justify-center items-center gap-3 md:items-center">
+              <motion.div
+                initial={{ opacity: 0, y: -40 }}
+whileInView={{ opacity: 1, y: 0 }}
+  transition={{ duration: 0.6 }}
+viewport={{ once: false }}
+className="flex flex-col justify-center items-center gap-3 md:items-center">
                 <span className="text-t-primary font-bold text-sm uppercase tracking-wide">
                   Tech Stack:
                 </span>
@@ -105,7 +132,7 @@ const ServicesList = ({ data }: ServicesListProps) => {
                     </span>
                   ))}
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </section>

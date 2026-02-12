@@ -1,0 +1,161 @@
+{
+  "slug": "data_scraping",
+  "hero_section": {
+    "title": "数据抓取与提取",
+    "subtitle": "大规模获取干净、可靠的数据",
+    "description": "我们设计安全、自动化的流水线，从网站、API 和内部系统中提取、清洗并结构化数据，为您提供具有实操价值的洞察。",
+    "buttons": [
+      {
+        "text": "自动化我的数据项目",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/data_scraping.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": "数据抓取与提取？",
+    "content": [
+      "在当今的数字经济中，数据是新的石油，但原始数据往往散乱、非结构化且难以使用。企业花费无数时间从网站、API 或报告中手动复制信息。",
+      "在 Devisgon，我们构建定制的数据提取和网页抓取解决方案，自动收集、清洗和组织海量数据。无论是抓取竞争对手网站、收集产品目录、提取财务报告还是监测社交趋势，我们的解决方案都能交付即用型、结构化的数据集。",
+      "我们确保每条流水线都具备可扩展性、准确性，并符合道德与法律标准。"
+    ],
+    "highlight_quote": " “干净的数据，更快的洞察，5 倍的效率提升。” ",
+    "side_image": "/all_services/data_scraping/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经过验证的结果转化您的运营",
+    "cards": [
+      {
+        "title": "自动化采集",
+        "description": "在数分钟内从数千个页面中提取数据。",
+        "icon_type": "FaRobot"
+      },
+      {
+        "title": "干净且结构化",
+        "description": "将原始数据转化为即用的 CSV、JSON 或可视化看板。",
+        "icon_type": "FaHandHoldingUsd"
+      },
+      {
+        "title": "可扩展性",
+        "description": "旨在处理每天数百万条记录。",
+        "icon_type": "AiFillDollarCircle"
+      },
+      {
+        "title": "可定制化",
+        "description": "为您所在的行业、API 或网站量身定制脚本。",
+        "icon_type": "IoShieldCheckmarkSharp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择数据抓取与提取您将获得什么",
+    "image": "/all_services/data_scraping/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 无缝流水线",
+        "description": "用于数据采集的自动化流水线。"
+      },
+      {
+        "title": "2. 即用型数据",
+        "description": "干净的结构化数据集（CSV, Excel, JSON, 数据库）。"
+      },
+      {
+        "title": "3. 定制自动化",
+        "description": "用于定期提取的定制脚本或机器人。"
+      },
+      {
+        "title": "4. 即时访问",
+        "description": "用于实时访问数据的看板和 API。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Javascript", "icon": "FaJs" },
+      { "name": "PHP", "icon": "SiPhp " },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "AWS Lambda", "icon": "BsCollectionPlay" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "定义来源（网站、API、系统）和数据需求。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "规划抓取逻辑、数据格式和流水线。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "开发爬虫、机器人和 ETL 工作流。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署流水线，设置定时任务，并监控性能。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过自动化竞争对手价格追踪节省 90% 的时间",
+    "image": "/all_services/data_scraping/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家市场调研公司手动追踪 20 多个电商网站的竞争对手定价，每月耗费数百小时。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们构建了一个可扩展的 Python + Scrapy 流水线，每日自动提取价格并存储在中央看板中。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "报表制作时间减少了 90%，准确性提高，洞察实现实时化。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们能同时开发 iOS 和 Android 应用吗？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "你们的企业级解决方案安全性如何？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "你们支持现有的 ERP/CRM 系统吗？",
+        "answer": "当然。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "随着我们业务的增长，应用可以扩展吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}

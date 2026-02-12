@@ -1,0 +1,160 @@
+{
+  "slug": "web-application",
+  "hero_section": {
+    "title": "Web 应用程序",
+    "subtitle": "可扩展、响应式且面向未来",
+    "description": "我们设计并构建具有强大后端、直观界面和可扩展云基础设施的现代 Web 应用程序，满足您的业务需求。",
+    "buttons": [
+      {
+        "text": "启动 Web 项目",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/web_development.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " Web 应用程序？",
+    "content": [
+      "在 Devisgon，我们专注于构建定制 Web 应用程序，结合了极具吸引力的前端、安全的 API 和高性能后端。我们的应用具备响应式设计、SEO 友好，并针对云扩展进行了优化，确保在各种设备上都能流畅运行。",
+      "我们服务于金融、医疗、物流、SaaS 和电子商务等行业，帮助公司发布能够处理从实时分析到大规模用户参与的各类平台。"
+    ],
+    "highlight_quote": "“Web 应用，无缝体验，性能提升 2 倍。”",
+    "side_image": "/all_services/web_development/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "响应式与易用性",
+        "description": "针对桌面、移动和平板电脑优化，拥有简洁的 UI/UX。",
+        "icon_type": "FaRocket "
+      },
+      {
+        "title": "定制功能",
+        "description": "量身定制的模块，如可视化看板、CRM、预订系统或商城。",
+        "icon_type": "RiCodeBoxFill "
+      },
+      {
+        "title": "可扩展性",
+        "description": "旨在随业务增长，必要时可处理数百万用户。",
+        "icon_type": "LiaExpandArrowsAltSolid "
+      },
+      {
+        "title": "安全可靠",
+        "description": "采用行业标准加密和合规性要求构建。",
+        "icon_type": "IoShieldCheckmarkSharp "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择 Web 应用开发您将获得什么",
+    "image": "/all_services/web_development/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 端到端 Web 应用",
+        "description": "功能齐全的 Web 应用程序（前端 + 后端）。"
+      },
+      {
+        "title": "2. 尽在掌握的控制权",
+        "description": "用于管理的管理后台和可视化看板。"
+      },
+      {
+        "title": "3. 无缝集成",
+        "description": "API 集成（支付、CRM、第三方服务）。"
+      },
+      {
+        "title": "4. 企业级安全",
+        "description": "安全的用户身份验证和角色管理。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Next.js", "icon": "SiNextdotjs " },
+      { "name": "Django", "icon": "SiDjango " },
+      { "name": "React", "icon": "FaReact " },
+      { "name": "Laravel", "icon": "FaLaravel " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "Kubernetes", "icon": "SiKubernetes " }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "需求收集、竞争对手分析和功能规划。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "线框图、UI/UX 原型和系统架构设计。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "开发核心功能、集成和可视化看板。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "安全部署到云端并监控应用性能。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过定制 Web 应用实现 5 万用户及 30% 销售增长",
+    "image": "/all_services/web_development/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家快速增长的电商公司需要一个可扩展的平台来处理数千名日常用户和实时库存更新。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们开发了一个定制 Web 应用，使用 React 前端、Node.js 后端并集成了支付网关。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "该平台每月用户超过 5 万，销售额增长 30%，客户满意度显著提高。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们能开发 iOS 和 Android 应用吗？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "你们的企业级解决方案安全性如何？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "你们支持现有的 ERP/CRM 系统吗？",
+        "answer": "当然。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "随着我们业务的增长，应用可以扩展吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}

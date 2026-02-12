@@ -1,0 +1,160 @@
+{
+  "slug": "app-application",
+  "hero_section": {
+    "title": "Applications Mobiles",
+    "subtitle": "Expériences Natives & Multiplateformes",
+    "description": "Nous concevons et développons des applications Android & iOS rapides, sécurisées et conviviales, propulsées par des frameworks natifs et multiplateformes pour une portée et des performances maximales.",
+    "buttons": [
+      {
+        "text": "Lancer mon projet d'application mobile",
+        "link": "/contact"
+      },
+      {
+        "text": "Contactez-nous",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/app_development.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que le ",
+    "span_heading": " Développement d'Applications Mobiles ?",
+    "content": [
+      "Chez Devisgon, nous construisons des applications natives (Swift, Kotlin) pour des performances ultimes et des applications multiplateformes (Flutter, React Native) pour un développement plus rapide. Nos applications sont intuitives, sécurisées et évolutives, avec une intégration transparente aux backends, API et services cloud.",
+      "Nous avons livré des applications pour le e-commerce, la fintech, la santé, le SaaS, la logistique et les plateformes sociales, permettant aux entreprises d'engager, de convertir et de fidéliser les utilisateurs sur mobile."
+    ],
+    "highlight_quote": "« Des applications mobiles, des parcours fluides, un engagement utilisateur multiplié par 3. »",
+    "side_image": "/all_services/app_development/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages Clés",
+    "subtitle": "Transformez vos opérations avec des résultats prouvés",
+    "cards": [
+      {
+        "title": "Portée Multiplateforme",
+        "description": "Un seul code, deux plateformes (iOS & Android) avec Flutter/React Native.",
+        "icon_type": "FaRocket"
+      },
+      {
+        "title": "Haute Performance",
+        "description": "Développements natifs optimisés pour la vitesse, l'utilisation hors ligne et une faible latence.",
+        "icon_type": "GoGraph"
+      },
+      {
+        "title": "UX Engageante",
+        "description": "Des designs modernes et intuitifs qui augmentent la rétention des utilisateurs.",
+        "icon_type": "GoGraph"
+      },
+      {
+        "title": "Sécurisé & Évolutif",
+        "description": "Applications bâties avec un cryptage de niveau entreprise et une évolutivité cloud.",
+        "icon_type": "IoShieldCheckmarkSharp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtenez en choisissant le développement d'applications mobiles",
+    "image": "/all_services/app_development/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Applications Multiplateformes",
+        "description": "Application iOS et/ou Android entièrement fonctionnelle."
+      },
+      {
+        "title": "2. Expériences sur Mesure",
+        "description": "Design UI/UX personnalisé pour mobile."
+      },
+      {
+        "title": "3. Intégrations Fluides",
+        "description": "Intégrations API & backend (paiements, notifications, etc.)."
+      },
+      {
+        "title": "5. Prêt pour les Stores",
+        "description": "Déploiement sur l'App Store & Google Play."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous travaillons avec des technologies modernes et éprouvées",
+    "subtitle": "Outils de pointe pour une fiabilité et une performance maximales",
+    "tools": [
+      { "name": "Swift", "icon": "GrSwift " },
+      { "name": "Kotlin", "icon": "SiKotlin " },
+      { "name": "Flutter", "icon": "RiFlutterFill " },
+      { "name": "Laravel", "icon": "FaLaravel " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "PostgreSQL", "icon": "SiPostgresql " }
+    ]
+  },
+  "process_section": {
+    "title": "Notre Processus",
+    "subtitle": "Du concept au lancement en 6 semaines",
+    "steps": [
+      {
+        "title": "Découvrir",
+        "description": "Identifier les objectifs de l'app, les utilisateurs cibles et les fonctionnalités clés.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Concevoir",
+        "description": "Wireframes, maquettes UI/UX et parcours utilisateurs.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construire",
+        "description": "Développer les fonctionnalités, intégrer les API et tester les performances.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lancer",
+        "description": "Déploiement sur App Store/Google Play avec surveillance continue.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "20K téléchargements & 45% de hausse des ventes avec une App Retail",
+    "image": "/all_services/app_development/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Un client retail devait réduire l'abandon de panier et améliorer l'engagement des utilisateurs."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons créé une app Flutter multiplateforme avec catalogue produits, paiements, notifications push et analyses."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "Les taux de conversion ont augmenté de 18% et le temps par session de 25%."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire Aux Questions",
+    "subtitle": "Obtenez des réponses aux questions courantes",
+    "questions": [
+      {
+        "question": "Pouvez-vous créer des applications pour iOS et Android ?",
+        "answer": "Généralement, un MVP peut être développé en 4 à 6 semaines selon la complexité des fonctionnalités."
+      },
+      {
+        "question": "Quel est le niveau de sécurité de vos solutions d'entreprise ?",
+        "answer": "Oui, nous proposons des forfaits de maintenance et de support après-vente pour garantir le bon fonctionnement."
+      },
+      {
+        "question": "Travaillez-vous avec les systèmes ERP/CRM existants ?",
+        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA via API."
+      },
+      {
+        "question": "Pouvez-vous faire évoluer les applications ?",
+        "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Pas de réponse ?",
+      "link_text": "Contactez-nous pour plus d'infos",
+      "link_url": "/contact"
+    }
+  }
+}

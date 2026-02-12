@@ -109,7 +109,6 @@ const Counter = ({ value, prefix = "", suffix = "" }: CounterProps) => {
   );
 };
 
-/* ------------------ Awards Section ------------------ */
 
 const Awards = () => {
   return (

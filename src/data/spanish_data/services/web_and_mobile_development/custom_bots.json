@@ -1,0 +1,166 @@
+{
+  "slug": "custom-bots",
+  "hero_section": {
+    "title": "Scripts y Bots Personalizados",
+    "subtitle": "Automatice cualquier cosa, ahorre horas",
+    "description": "Construimos scripts ligeros y bots inteligentes para manejar tareas repetitivas, integrar sistemas y optimizar sus operaciones, ahorrándole tiempo y reduciendo el esfuerzo manual.",
+    "buttons": [
+      {
+        "text": "Construir mi bot personalizado",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/custom_boats.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué son los",
+    "span_heading": " Scripts y Bots Personalizados?",
+    "content": [
+      "No todos los desafíos empresariales requieren aplicaciones a gran escala; a veces, un script o bot personalizado es la solución más rápida, inteligente y rentable.",
+      "En Devisgon, nos especializamos en desarrollar scripts y bots de automatización que:",
+      " • Extraen, transforman y cargan datos de múltiples fuentes",
+      " • Automatizan flujos de trabajo repetitivos como informes, gestión de archivos o notificaciones",
+      " • Realizan scraping de contenido web y APIs",
+      " • Simulan acciones de usuario para pruebas y control de calidad (QA)",
+      " • Se integran con herramientas como CRMs, ERPs y bases de datos",
+      " • Estos bots funcionan las 24 horas, los 7 días de la semana, asegurando que las tareas se realicen más rápido, con cero errores, mientras liberan a su equipo para enfocarse en trabajo de alto valor."
+    ],
+    "highlight_quote": "“Bots inteligentes, flujos de trabajo más rápidos, productividad 4x.”",
+    "side_image": "/all_services/custom_bots/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Transforme sus operaciones con resultados comprobados",
+    "cards": [
+      {
+        "title": "Ahorre Tiempo",
+        "description": "Automatice tareas repetitivas que consumen horas diariamente.",
+        "icon_type": "FaClock "
+      },
+      {
+        "title": "Reduzca Errores",
+        "description": "Los bots operan con una consistencia del 100%.",
+        "icon_type": "MdError "
+      },
+      {
+        "title": "Rentable",
+        "description": "Soluciones ligeras a una fracción del costo de desarrollo de una aplicación completa.",
+        "icon_type": "HiMiniCurrencyDollar "
+      },
+      {
+        "title": "Escalable y Personalizable",
+        "description": "Los scripts pueden adaptarse a cualquier flujo de trabajo o sistema.",
+        "icon_type": "IoShieldCheckmark "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrá al elegir Scripts y Bots Personalizados",
+    "image": "/all_services/custom_bots/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Bots Listos para Ejecutar",
+        "description": "Scripts o bots ligeros y listos para producción."
+      },
+      {
+        "title": "2. Transparencia Completa",
+        "description": "Código fuente con documentación clara."
+      },
+      {
+        "title": "3. Conectividad Fluida",
+        "description": "Integraciones de API o automatización de navegación."
+      },
+      {
+        "title": "4. Soporte de Extremo a Extremo",
+        "description": "Capacitación y soporte en el despliegue."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Trabajamos con tecnologías modernas y probadas",
+    "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Javascript", "icon": "FaJsSquare " },
+      { "name": "PHP", "icon": "FaPhp " },
+      { "name": "Pandas", "icon": "SiPandas " },
+      { "name": "Selenium", "icon": "SiSelenium " },
+      { "name": "Docker", "icon": "FaDocker " }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Del concepto al lanzamiento en 6 semanas",
+    "steps": [
+      {
+        "title": "Descubrir",
+        "description": "Identificar procesos manuales y definir el alcance de la automatización.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseñar",
+        "description": "Crear diagramas de flujo para la lógica de automatización.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construir",
+        "description": "Desarrollar scripts/bots, integrar APIs y probar resultados.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lanzar",
+        "description": "Desplegar en la nube o localmente, programar tareas y monitorear el rendimiento.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "12 horas ahorradas semanalmente con bot de informes automatizados",
+    "image": "/all_services/custom_bots/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una agencia de marketing digital pasaba horas cada semana recopilando informes de Google Analytics, Facebook Ads y LinkedIn."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Construimos un bot de Python que obtenía datos automáticamente, los compilaba en un tablero y enviaba informes semanales por correo."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "El tiempo de generación de informes bajó de 12 horas semanales a 30 minutos, mejorando la precisión y liberando al equipo para la estrategia."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtenga respuestas a preguntas comunes",
+    "questions": [
+      {
+        "question": "¿Pueden crear aplicaciones tanto para iOS como para Android?",
+        "answer": "Normalmente, un MVP se puede desarrollar en 4-6 semanas dependiendo de la complejidad de las funciones."
+      },
+      {
+        "question": "¿Qué tan seguras son sus soluciones empresariales?",
+        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione sin problemas."
+      },
+      {
+        "question": "¿Trabajan con sistemas ERP/CRM existentes?",
+        "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
+      },
+      {
+        "question": "¿Pueden escalar las aplicaciones a medida que crece nuestro negocio?",
+        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontró su respuesta?",
+      "link_text": "Contáctenos para más información",
+      "link_url": "/contact"
+    }
+  }
+}

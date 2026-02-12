@@ -1,0 +1,160 @@
+{
+  "slug": "saas-plateform",
+  "hero_section": {
+    "title": "SaaS 平台",
+    "subtitle": "构建、扩展并实现软件盈利",
+    "description": "我们设计并开发具有多租户架构、安全计费、管理仪表板和可扩展云基础设施的 SaaS 平台。提供您启动和发展订阅制业务所需的一切。",
+    "buttons": [
+      {
+        "text": "开启我的 AI 项目",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/saas_developmen.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是 ",
+    "span_heading": "SaaS 平台开发？",
+    "content": [
+      "在 Devisgon，我们构建即刻上线且面向未来的 SaaS 平台。从面向初创公司的 MVP SaaS 产品到面向全球企业的企业级平台。",
+      "我们专注于多租户系统、订阅/计费集成以及管理仪表板，让您对产品拥有完整的可见性。"
+    ],
+    "highlight_quote": "“即刻上线的 SaaS，更快的上市速度，3 倍的可扩展性。”",
+    "side_image": "/all_services/saas_platfroms/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "更快的启动速度",
+        "description": "我们在数周内构建功能齐全的 SaaS 产品，缩短您的上市时间。",
+        "icon_type": "FaRocket"
+      },
+      {
+        "title": "收入就绪",
+        "description": "集成的订阅计费系统（如 Stripe、PayPal 或 Razorpay）确保从第一天起就能实现盈利。",
+        "icon_type": "HiCurrencyDollar "
+      },
+      {
+        "title": "企业级安全",
+        "description": "内置基于角色的访问控制、加密数据存储，并符合 GDPR 标准。",
+        "icon_type": "IoShieldCheckmarkSharp "
+      },
+      {
+        "title": "云端可扩展性",
+        "description": "专为成千上万的用户设计，确保零停机时间。",
+        "icon_type": "FaCloud "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择 SaaS 平台开发您将获得什么",
+    "image": "/all_services/saas_platfroms/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 智能化应用程序",
+        "description": "具有多租户架构的完整 SaaS 应用程序。"
+      },
+      {
+        "title": "2. 仪表板分析",
+        "description": "具有分析和报告功能的管理仪表板。"
+      },
+      {
+        "title": "3. API 终端",
+        "description": "与第三方工具（CRM、电子邮件、云存储等）的 API 集成。"
+      },
+      {
+        "title": "4. 文档与培训",
+        "description": "技术文档及上线后的支持服务。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Node.js", "icon": "FaNodeJs " },
+      { "name": "React", "icon": "FaReact " },
+      { "name": "Docker", "icon": "FaDocker " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "MongoDB", "icon": "FaDatabase " }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "市场调研、功能范围界定、SaaS 策略制定。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "线框图、用户流程、仪表板 UI/UX 设计。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "核心 SaaS 模块开发、计费集成、管理面板制作。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署到云端，设置监控与扩展机制。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "SaaS 增长：3 个月内用户达 1,200 名",
+    "image": "/all_services/saas_platfroms/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一家初创公司想要启动一个分析类 SaaS 平台，但缺乏计费和可扩展性设置的资源。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们在仅 8 周内构建了一个具备多租户、仪表板和 Stripe 集成的订阅就绪型 SaaS 平台。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "他们在 3 个月内招募了 1,200 名用户，并获得了 A 轮融资。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "构建一个 MVP 需要多长时间？",
+        "answer": "通常，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "发布后是否提供持续支持？",
+        "answer": "是的，我们提供发布后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "你们能将 AI 功能集成到我现有的 SaaS 中吗？",
+        "answer": "当然可以。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "你们在 SaaS 开发中使用什么技术栈？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -1,0 +1,263 @@
+{
+  "herosection": {
+    "title": "Unsere Dienstleistungen",
+    "subtitle": "End-to-End-Lösungen ",
+    "span_subtitle": "für moderne Unternehmen",
+    "description": "Von KI-gestütztem SaaS bis hin zu Cloud-Engineering decken wir das gesamte Spektrum digitaler Innovationen mit modernster Technologie und bewährter Expertise ab.",
+    "buttons": [
+      {
+        "text": "Mit einem Experten sprechen",
+        "link": "/contact"
+      },
+      {
+        "text": "Fallstudien erkunden",
+        "link": "/contact"
+      }
+    ]
+  },
+  "services": [
+    {
+      "category": "KI & SaaS-Entwicklung",
+      "headline": "Intelligente Software schneller bauen",
+      "span": " ",
+      "bg": "#FBF7FE",
+      "description": "Verwandeln Sie Ihre Ideen in intelligente SaaS-Plattformen mit KI-gestützten Funktionen und skalierbarer Architektur.",
+      "features": [
+        {
+          "title": "KI-gestützte Automatisierung",
+          "details": "Maßgeschneiderte KI-Lösungen mit Machine-Learning-Modellen und intelligenter Automatisierung.",
+          "icon": "FaRobot "
+        },
+        {
+          "title": "SaaS-Plattformen",
+          "details": "Full-Stack SaaS-Entwicklung mit Abonnementverwaltung und Multi-Tenancy.",
+          "icon": "FaCloud "
+        },
+        {
+          "title": "MVP & POCs",
+          "details": "Schnelles Prototyping und Proof-of-Concept-Entwicklung zur Marktvalidierung.",
+          "icon": "FaRocket "
+        },
+        {
+          "title": "ML-Integration",
+          "details": "Maßgeschneiderte Machine-Learning-Modelle, integriert in Produktionssysteme.",
+          "icon": "FaGears "
+        }
+      ],
+      "image": "/services_page/ai_and_saas.svg",
+      "deliverables": [
+        "Klickbare Prototypen",
+        "REST-APIs",
+        "Abrechnungssysteme"
+      ],
+      "tech_stack": ["Next.js", "Python", "AWS", "Express.js"]
+    },
+    {
+      "category": "Workflow-Automatisierung",
+      "headline": "Prozesse automatisieren ",
+      "span": " mit KI, No-Code oder individuellem Code",
+      "description": "Optimieren Sie Ihre Geschäftsabläufe mit intelligenten Automatisierungslösungen, die auf Ihre spezifischen Bedürfnisse zugeschnitten sind.",
+      "features": [
+        {
+          "title": "KI-gestützte Automatisierung",
+          "details": "Intelligente Workflows, die lernen und sich an Ihre Geschäftsmuster anpassen.",
+          "icon": "FaRobot"
+        },
+        {
+          "title": "No-Code-Lösungen",
+          "details": "Zapier-, Make.com- und n8n-Integrationen für schnelle Bereitstellung.",
+          "icon": "FaLink  "
+        },
+        {
+          "title": "Low-Code-Lösungen",
+          "details": "Maßgeschneiderte Workflows mit minimalem Programmieraufwand für maximale Flexibilität.",
+          "icon": "FaPuzzlePiece "
+        },
+        {
+          "title": "Individuelle Programmierung",
+          "details": "Python, JS, Selenium, Puppeteer und Playwright Automatisierungen.",
+          "icon": "FaCode "
+        }
+      ],
+      "image": "/services_page/workflow_automation.svg",
+      "deliverables": [
+        "Automatisierungs-Roadmap",
+        "API-Integrationen",
+        "Monitoring-Tools"
+      ],
+      "tech_stack": ["Zapier", "Make.com", "Python", "Airflow"]
+    },
+    {
+      "category": "Web- & Mobilentwicklung",
+      "headline": "Maßgeschneiderte Apps",
+      "span": " für jedes Gerät ",
+      "bg": "#FBF7FE",
+      "description": "Erstellen Sie beeindruckende, responsive Anwendungen, die nahtlos auf allen Plattformen und Geräten funktionieren.",
+      "features": [
+        {
+          "title": "Web-Anwendungen",
+          "details": "Responsive Web-Apps mit modernen Frameworks und optimaler Leistung.",
+          "icon": "IoMdDesktop "
+        },
+        {
+          "title": "Mobile Apps",
+          "details": "iOS, Android, Flutter und React Native Entwicklung für alle Plattformen.",
+          "icon": "FaMobileScreenButton "
+        },
+        {
+          "title": "Individuelle Skripte",
+          "details": "Automatisierungs-Bots und maßgeschneiderte Skripte für spezielle Geschäftsanforderungen.",
+          "icon": "FaCode "
+        }
+      ],
+      "image": "/services_page/mobile_development.svg",
+      "deliverables": [
+        "Responsives UI",
+        "Admin-Dashboards",
+        "App Store Einreichungen"
+      ],
+      "tech_stack": ["React", "Next.js", "Flutter", "PHP", "Java"]
+    },
+    {
+      "category": "Datenlösungen",
+      "headline": "Von Rohdaten ",
+      "span": " zu Business Insights",
+      "description": "Verwandeln Sie Ihre Daten in handlungsrelevante Erkenntnisse mit fortschrittlichen Analysen und Machine-Learning-Lösungen.",
+      "features": [
+        {
+          "title": "Datenextraktion",
+          "details": "Web-Scraping und Data-Mining aus verschiedenen Quellen.",
+          "icon": "FaDatabase "
+        },
+        {
+          "title": "Analyse-Dashboards",
+          "details": "Interaktive Dashboards für Echtzeit-Datenvisualisierung.",
+          "icon": "RiBarChartHorizontalFill "
+        },
+        {
+          "title": "Business Analytics",
+          "details": "Strategische Einblicke und Leistungsmetriken-Analyse.",
+          "icon": "GoGraph "
+        },
+        {
+          "title": "KI/ML-Modelle",
+          "details": "Prädiktive Analysen und Machine-Learning-Lösungen.",
+          "icon": "FaBrain "
+        }
+      ],
+      "image": "/services_page/data_solution.svg",
+      "deliverables": [
+        "Daten-Pipelines",
+        "Interaktive Dashboards",
+        "Prädiktive Modelle"
+      ],
+      "tech_stack": ["Python", "SQL", "Tableau", "Power BI"]
+    },
+    {
+      "category": "Design & Analyse",
+      "headline": "Ideen verwirklichen",
+      "span": " in validierte Systeme",
+      "bg": "#FBF7FE",
+      "description": "Vom Konzept bis zur Ausführung bieten wir umfassende Design- und Analysedienstleistungen für digitale Produkte.",
+      "features": [
+        {
+          "title": "UI/UX Design",
+          "details": "Nutzerzentriertes Design mit moderner Ästhetik und optimaler Nutzererfahrung.",
+          "icon": "MdColorLens "
+        },
+        {
+          "title": "Prototyping",
+          "details": "Interaktive Prototypen für Nutzertests und Stakeholder-Validierung.",
+          "icon": "LuNetwork "
+        },
+        {
+          "title": "UML-Diagramme",
+          "details": "Systemarchitektur- und Prozessflussdokumentation.",
+          "icon": "PiShareNetworkFill "
+        },
+        {
+          "title": "Dokumentation",
+          "details": "Umfassende technische und Benutzerdokumentation.",
+          "icon": "CgNotes "
+        }
+      ],
+      "image": "/services_page/design.svg",
+      "deliverables": [
+        "Wireframes",
+        "Design-Systeme",
+        "Produktdokumentation"
+      ],
+      "tech_stack": ["Figma", "Whimsical", "Notion", "Miro"]
+    },
+    {
+      "category": "Blockchain & Web3",
+      "headline": "Sichere Smart Contract",
+      "span": " Entwicklung",
+      "description": "Bauen Sie die Zukunft mit dezentralen Anwendungen und sicheren Blockchain-Lösungen.",
+      "features": [
+        {
+          "title": "Smart Contracts",
+          "details": "Sichere, auditierte Smart Contracts für verschiedene Blockchain-Plattformen.",
+          "icon": "FaLink "
+        },
+        {
+          "title": "Tokenomics",
+          "details": "Token-Design und Wirtschaftsmodelle für nachhaltige Ökosysteme.",
+          "icon": "FaDatabase "
+        },
+        {
+          "title": "Web3 Apps",
+          "details": "Dezentrale Anwendungen mit modernen Nutzeroberflächen.",
+          "icon": "TbWorld "
+        }
+      ],
+      "image": "/services_page/block_chain.svg",
+      "deliverables": [
+        "Smart Contracts",
+        "Sicherheitsaudits",
+        "Wallet-Integrationen"
+      ],
+      "tech_stack": ["Solidity", "Ethers.js", "IPFS", "QuickNode"]
+    },
+    {
+      "category": "Cloud & Architektur",
+      "headline": "Infrastruktur, ",
+      "span": " die skaliert",
+      "bg": "#FBF7FE",
+      "description": "Bauen Sie eine robuste, skalierbare Cloud-Infrastruktur mit modernen DevOps-Praktiken und Architekturdesign.",
+      "features": [
+        {
+          "title": "Cloud Engineering",
+          "details": "Skalierbare Cloud-Lösungen auf AWS, Azure und GCP.",
+          "icon": "FaCloud "
+        },
+        {
+          "title": "Deployment & DevOps",
+          "details": "CI/CD-Pipelines und automatisierte Deployment-Strategien.",
+          "icon": "FaRocket "
+        },
+        {
+          "title": "Lösungsarchitektur",
+          "details": "Unternehmensgerechtes Architekturdesign und Planung.",
+          "icon": "FaNetworkWired "
+        },
+        {
+          "title": "Systemdesign",
+          "details": "Hochleistungs-Systemarchitektur und Optimierung.",
+          "icon": "FaGears "
+        }
+      ],
+      "image": "/services_page/cloude.svg",
+      "deliverables": [
+        "CI/CD-Pipelines",
+        "Architektur-Docs",
+        "Skalierbare Infrastruktur"
+      ],
+      "tech_stack": ["AWS", "Docker", "Kubernetes", "Azure"]
+    }
+  ],
+  "contact_form": {
+    "headline": "Lassen Sie uns gemeinsam intelligenter bauen",
+    "description": "Sprechen Sie mit unseren Experten und erfahren Sie, wie Devisgon Ihr Geschäftswachstum mit modernsten Technologielösungen beschleunigen kann."
+  }
+}

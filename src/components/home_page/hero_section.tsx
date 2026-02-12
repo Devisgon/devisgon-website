@@ -1,8 +1,10 @@
 "use client";
-
+import Skeleton from 'react-loading-skeleton'
+import 'react-loading-skeleton/dist/skeleton.css'
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import type { HeroSectionProps } from "@/types/homepage/hero";
+import Image from "next/image";
 
 const HeroSection = ({ data }: HeroSectionProps) => {
   return (
@@ -90,31 +92,46 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 1 }}
         >
-          <button className="group relative inline-flex items-center w-52 p-2 overflow-hidden rounded-full bg-t-primary text-white hover:text-[#8E4EC6] dark:text-[#8E4EC6] shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+          <button 
+        onClick={() => window.location.href = "/contact"}
+           className="group relative inline-flex items-center w-52 p-2 overflow-hidden rounded-full bg-t-primary text-white hover:text-[#8E4EC6] dark:text-[#8E4EC6] shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
 
 
           <span className="absolute right-0 m-1 rounded-full h-16 w-16 bg-[#EAD5F9] dark:bg-[#47295C] transition-all duration-500 ease-in-out group-hover:w-50" />
-           <a href="#about"> 
-           <span className="relative z-10 pl-8 font-medium text-lg transition-colors duration-300 group-hover:text-bold group-hover:texl-xl group-hover:text-[#4c386] dark:group-hover:text-[#8E4EC6] ">
+           <span className="relative z-10 pl-8 font-medium text-lg transition-colors  group-hover:text-bold group-hover:ml-3 duration-500 group-hover:texl-xl group-hover:text-[#4c386] dark:group-hover:text-[#8E4EC6] ">
             {data.cta_button.text}
             </span>
-           </a>
+         
 
-          <span className="relative z-10 ml-auto mr-2 h-14 w-14 flex items-center justify-center text-[#8E4EC6] transition-all duration-500">
+          <span className="relative z-10 ml-auto mr-2 h-14 w-14 flex items-center justify-center text-[#8E4EC6] group-hover:-ml-5 transition-all duration-900">
             <FaArrowRight className="ml-3" />
           </span>
         </button>
         </motion.div>
 
         {/* Background Image */}
-        <motion.img
-          src="/home_page/hero_section/hero_bg.svg"
-          alt="background"
-          className="-mt-24 opacity-100 overflow-hidden  select-none"
-          initial={{ x: "-100%", opacity: 0 }}
-          animate={{ x: "0%", opacity: 1 }}
-          transition={{ duration: 2, ease: "easeOut" }}
-        />
+      <motion.img
+  src="/home_page/hero_section/hero_bg.svg"
+  alt="background"
+
+  className="-mt-24 -z-10 inset-0  animate-pulse select-none pointer-events-none"
+  initial={{ scale: 1, x: 0, y: 0 }}
+  animate={{
+    scale: [1, 1.15, 1], 
+    x: [0, 30, -30, 0], 
+    y: [0, -20, 20, 0],  
+    rotate: [0, 2, -2, 0],
+  }}
+  transition={{
+    duration: 20, 
+    ease: "easeInOut",
+    repeat: Infinity,
+    repeatType: "mirror",
+  }}
+  style={{ 
+    transformOrigin: "center" 
+  }}
+/>
       </div>
     </section>
   );

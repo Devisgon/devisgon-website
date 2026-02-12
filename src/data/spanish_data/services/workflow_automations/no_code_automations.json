@@ -1,0 +1,158 @@
+{
+  "slug": "no-code-automation",
+  "hero_section": {
+    "title": "Automatizaciones No-Code",
+    "subtitle": "Construya sin programar",
+    "description": "Ayudamos a las empresas a aprovechar plataformas no-code como Zapier, Make.com y n8n para automatizar flujos de trabajo, conectar aplicaciones y lanzar soluciones más rápido, sin necesidad de desarrolladores.",
+    "buttons": [
+      {
+        "text": "Iniciar Automatización No-Code",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/no_code_automation.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué son las ",
+    "span_heading": " Herramientas No-Code (Zapier, Make.com, n8n)?",
+    "content": [
+      "En Devisgon, nos especializamos en diseñar, configurar y optimizar flujos de trabajo no-code para startups, PYMEs y grandes empresas. Configuramos integraciones entre aplicaciones (ej. CRMs, bases de datos, ERPs, herramientas de correo, APIs), creamos disparadores automatizados y aseguramos que sus flujos funcionen sin problemas a escala.",
+      "Esto permite que su negocio ahorre tiempo, reduzca costos y pruebe ideas más rápido, todo sin escribir una sola línea de código."
+    ],
+    "highlight_quote": "“Flujos de trabajo no-code, ejecución más rápida, cero complicaciones.”",
+    "side_image": "/all_services/no_code_automation/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Transforme sus operaciones con resultados comprobados",
+    "cards": [
+      {
+        "title": "Automatización Rápida",
+        "description": "Despliegue automatizaciones funcionales en horas en lugar de semanas.",
+        "icon_type": "FaRocket "
+      },
+      {
+        "title": "Costos Reducidos",
+        "description": "Elimine la necesidad de scripts personalizados y reduzca la dependencia de desarrolladores.",
+        "icon_type": "HiCurrencyDollar "
+      },
+      {
+        "title": "Flexibilidad",
+        "description": "Conecte fácilmente herramientas y servicios de terceros mediante flujos de arrastrar y soltar.",
+        "icon_type": "PiShareNetworkThin "
+      },
+      {
+        "title": "Escalabilidad",
+        "description": "Las herramientas no-code pueden crecer con su negocio, manejando miles de tareas por mes.",
+        "icon_type": "MdCloseFullscreen"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrá al elegir el Servicio de Automatización No-Code",
+    "image": "/all_services/no_code_automation/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Flujos de Trabajo Listos para Usar",
+        "description": "Flujos de trabajo completamente configurados en Zapier, Make.com o n8n."
+      },
+      {
+        "title": "2. Integraciones de Múltiples Pasos",
+        "description": "Automatizaciones de varios pasos que conectan apps y APIs."
+      },
+      {
+        "title": "3. Salvaguardas Confiables",
+        "description": "Mecanismos de manejo de errores y respaldo."
+      },
+      {
+        "title": "4. Optimización de Rendimiento",
+        "description": "Optimización para asegurar velocidad y escalabilidad."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Trabajamos con tecnologías modernas y probadas",
+    "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Make.com", "icon": "SiMake " },
+      { "name": "n8n", "icon": "SiN8N " },
+      { "name": "AWS", "icon": "FaAws " }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Del concepto al lanzamiento en 6 semanas",
+    "steps": [
+      {
+        "title": "Descubrir",
+        "description": "Identificar oportunidades de automatización y seleccionar la herramienta no-code adecuada.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseñar",
+        "description": "Mapear flujos de trabajo, disparadores e integraciones.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construir",
+        "description": "Configurar automatizaciones de múltiples pasos, conectar apps y probar escenarios.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lanzar",
+        "description": "Desplegar flujos de trabajo, monitorear el rendimiento y refinar procesos.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Automatización con Zapier redujo el trabajo de RR.HH. en un 70%",
+    "image": "/all_services/no_code_automation/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Un departamento de RR.HH. incorporaba manualmente a nuevos empleados enviando correos y creando cuentas."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Creamos una automatización en Zapier que al recibir el formulario de contratación, creaba cuentas en el software de RR.HH. y enviaba correos de bienvenida automáticamente."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "El tiempo de incorporación se redujo en un 70%, ahorrando ~20 horas al mes."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respuestas a preguntas comunes",
+    "questions": [
+      {
+        "question": "¿Qué herramientas pueden automatizar?",
+        "answer": "Normalmente, un MVP se puede desarrollar en 4-6 semanas dependiendo de la complejidad de las funciones."
+      },
+      {
+        "question": "¿La automatización reemplazará a mi equipo?",
+        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione sin problemas."
+      },
+      {
+        "question": "¿Cuánto tiempo puede ahorrar la automatización?",
+        "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
+      },
+      {
+        "question": "¿Crean agentes de IA?",
+        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontró su respuesta?",
+      "link_text": "Contáctenos para más información",
+      "link_url": "/contact"
+    }
+  }
+}

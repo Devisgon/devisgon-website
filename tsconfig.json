@@ -25,22 +25,30 @@
     "paths": {
       "@/*": [
         "./src/*"
+      ],
+      "@payload-config": [
+        "./src/payload.config.ts"
       ]
     }
   },
+  "types": ["payload-types"], 
   "include": [
     "next-env.d.ts",
     "**/*.ts",
     "**/*.tsx",
     "**/*.jsx",
-
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "src/app/page.tsx",
-   "src/app/automations/[slug]/page.jsx",
+    "src/app/automations/[slug]/page.jsx",
     "src/components/home_page/hero_section.tsx",
-    "src/app/page.tsx", "src/app/services/page.jsx", "src/components/home_page/working_progress.tsx", "src/components/home_page/comments_section.tsx", "src/api/send_mail/route.js"  ],
+    "src/app/page.tsx",
+    "src/app/services/page.jsx",
+    "src/components/home_page/working_progress.tsx",
+    "src/components/home_page/comments_section.tsx",
+    "src/api/send_mail/route.js"
+, "src/components/language_switch_component.tsx"  ],
   "exclude": [
     "node_modules"
   ]

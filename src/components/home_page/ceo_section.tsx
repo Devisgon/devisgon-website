@@ -5,11 +5,11 @@ const CEOSection = ({ data }: CEOSectionProps) => {
   if (!data) return null;
 
   return (
-    <section id="about" className=" p-8 bg-background">
+    <section id="about" className=" p-4 bg-background">
       <div className="max-w-2xl mx-auto">
-        <div className="relative bg-card rounded-2xl shadow-[0px_85.26px_181.4px_0px_rgba(21, 21, 21, 0.15)] p-4 pt-8">
+        <div className="relative  rounded-2xl shadow-[0px_85.26px_181.4px_0px_rgba(21, 21, 21, 0.15)] p-4 pt-8">
           <div className="flex justify-center -translate-y-10">
-            <div className="w-96 h-84 rounded-xl overflow-hidden shadow-lg">
+            <div className="w-68 md:w-96 h-84 rounded-xl overflow-hidden shadow-lg">
               <img
                 src={data.image}
                 alt="CEO"

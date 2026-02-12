@@ -1,0 +1,160 @@
+{
+  "slug": "machine-learning",
+  "hero_section": {
+    "title": "Modèles de Machine Learning",
+    "subtitle": "Des prédictions basées sur les données à grande échelle",
+    "description": "Nous créons des modèles d'apprentissage automatique personnalisés pour la prédiction, la recommandation, la classification et l'automatisation — entraînés sur vos données et déployés pour des performances réelles.",
+    "buttons": [
+      {
+        "text": "Lancer mon projet IA",
+        "link": "/contact"
+      },
+      {
+        "text": "Contactez-nous",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "les modèles de Machine Learning ?",
+    "content": [
+      "Chez Devisgon, nous ne nous contentons pas de construire des modèles, nous créons des pipelines de ML prêts pour la production. Cela signifie que vos modèles ne restent pas dans des carnets ; ils sont déployés, surveillés et optimisés pour fonctionner avec des données réelles à grande échelle.",
+      "Nous aidons les entreprises des secteurs de la vente au détail, de la santé, de la logistique, de la fintech et du SaaS à exploiter la puissance du ML pour résoudre des problèmes et acquérir un avantage concurrentiel."
+    ],
+    "highlight_quote": "« Des modèles personnalisés, des prédictions plus nettes, une précision supérieure de 30 %. »",
+    "side_image": "/all_services/meachine_learning/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages Clés",
+    "subtitle": "Transformez vos opérations avec des résultats prouvés",
+    "cards": [
+      {
+        "title": "Prédictions Précises",
+        "description": "Prévoyez la demande, détectez les anomalies et recommandez des actions avec précision.",
+        "icon_type": "TbTargetArrow "
+      },
+      {
+        "title": "Automatisation à Grande Échelle",
+        "description": "Remplacez l'analyse manuelle par une prise de décision pilotée par l'IA.",
+        "icon_type": "HiCurrencyDollar "
+      },
+      {
+        "title": "Modèles sur Mesure",
+        "description": "Modèles entraînés sur vos données métier spécifiques, pas sur des jeux de données génériques.",
+        "icon_type": "BsCodeSquare "
+      },
+      {
+        "title": "Déploiement de Bout en Bout",
+        "description": "De l'entraînement à la surveillance en production, nous gérons le cycle de vie complet du ML.",
+        "icon_type": "FaRocket "
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtenez en choisissant nos modèles de ML",
+    "image": "/all_services/meachine_learning/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Modèles de ML sur mesure",
+        "description": "Modèles de ML entraînés spécifiquement (classification, régression, clustering, NLP, etc.)"
+      },
+      {
+        "title": "2. Intégration API",
+        "description": "Points de terminaison API pour l'intégration des modèles dans les applications/logiciels."
+      },
+      {
+        "title": "3. Documentation Claire",
+        "description": "Documentation du modèle et rapports d'entraînement."
+      },
+      {
+        "title": "4. Déploiement Évolutif",
+        "description": "Déploiement évolutif sur infrastructure cloud ou sur site."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous travaillons avec des technologies modernes et éprouvées",
+    "subtitle": "Outils de pointe pour une fiabilité et une performance maximales",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Node.js", "icon": "FaNodeJs " },
+      { "name": "React", "icon": "FaReact " },
+      { "name": "Docker", "icon": "FaDocker " },
+      { "name": "AWS", "icon": "FaAws " },
+      { "name": "MongoDB", "icon": "FaDatabase " }
+    ]
+  },
+  "process_section": {
+    "title": "Notre Processus",
+    "subtitle": "Du concept au lancement en 6 semaines",
+    "steps": [
+      {
+        "title": "Découvrir",
+        "description": "Définir les objectifs métier, identifier les sources de données et sélectionner le cas d'utilisation ML.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Concevoir",
+        "description": "Prétraitement des données, ingénierie des caractéristiques et planification de l'architecture du modèle.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construire",
+        "description": "Entraîner et valider les modèles de ML, tester avec des jeux de données historiques.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lancer",
+        "description": "Déployer des modèles prêts pour la production avec surveillance et boucles de rétroaction.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "L'IA a réduit les stocks excédentaires de 18 %",
+    "image": "/all_services/meachine_learning/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une entreprise de logistique luttait contre une demande imprévisible, entraînant des stocks excédentaires et des retards dans la chaîne d'approvisionnement."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons construit un modèle de ML de prévision de la demande entraîné sur 5 ans de données de ventes et saisonnières."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "La précision des prévisions s'est améliorée de 30 %, réduisant les coûts de surstockage de 18 % et optimisant l'efficacité de la chaîne d'approvisionnement."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Questions Fréquemment Posées",
+    "subtitle": "Obtenez des réponses aux questions courantes",
+    "questions": [
+      {
+        "question": "Combien de temps faut-il pour construire un MVP ?",
+        "answer": "En général, un MVP peut être développé en 4 à 6 semaines selon la complexité des fonctionnalités."
+      },
+      {
+        "question": "Proposez-vous un support continu après le lancement ?",
+        "answer": "Oui, nous proposons des forfaits de maintenance et de support après-vente pour garantir le bon fonctionnement."
+      },
+      {
+        "question": "Pouvez-vous intégrer des fonctionnalités d'IA dans mon SaaS existant ?",
+        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA dans des architectures existantes via API."
+      },
+      {
+        "question": "Quelle pile technologique utilisez-vous pour le SaaS ?",
+        "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Contactez-nous pour plus d'informations",
+      "link_url": "/contact"
+    }
+  }
+}

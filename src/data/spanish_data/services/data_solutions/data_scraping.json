@@ -1,0 +1,161 @@
+{
+  "slug": "data_scraping",
+  "hero_section": {
+    "title": "Extracción de Datos y Scraping",
+    "subtitle": "Datos limpios y confiables a escala",
+    "description": "Diseñamos pipelines automatizados y seguros para extraer, limpiar y estructurar datos de sitios web, APIs y sistemas internos, potenciando sus decisiones con conocimientos accionables.",
+    "buttons": [
+      {
+        "text": "Automatizar mi proyecto de datos",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/data_scraping.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es la",
+    "span_heading": " Extracción de Datos y Scraping?",
+    "content": [
+      "En la economía digital actual, los datos son el nuevo petróleo, pero los datos brutos suelen estar dispersos, desestructurados y son difíciles de usar. Las empresas pasan incontables horas copiando manualmente información de sitios web, APIs o informes.",
+      "En Devisgon, creamos soluciones personalizadas de extracción de datos y web scraping que recopilan, limpian y organizan automáticamente grandes volúmenes de información. Ya sea para monitorear sitios de la competencia, recopilar catálogos de productos, extraer informes financieros o seguir tendencias sociales, nuestras soluciones ofrecen conjuntos de datos estructurados y listos para usar.",
+      "Nos aseguramos de que cada pipeline sea escalable, preciso y cumpla con los estándares éticos y legales."
+    ],
+    "highlight_quote": " “Datos limpios, conocimientos más rápidos, eficiencia 5x.” ",
+    "side_image": "/all_services/data_scraping/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Transforme sus operaciones con resultados comprobados",
+    "cards": [
+      {
+        "title": "Recopilación Automatizada",
+        "description": "Extraiga datos de miles de páginas en cuestión de minutos.",
+        "icon_type": "FaRobot"
+      },
+      {
+        "title": "Limpio y Estructurado",
+        "description": "Transforme datos brutos en formatos listos para usar como CSV, JSON o tableros.",
+        "icon_type": "FaHandHoldingUsd"
+      },
+      {
+        "title": "Escalable",
+        "description": "Diseñado para manejar millones de registros por día.",
+        "icon_type": "AiFillDollarCircle"
+      },
+      {
+        "title": "Personalizable",
+        "description": "Scripts a medida para su industria, APIs o sitios web específicos.",
+        "icon_type": "IoShieldCheckmarkSharp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrá al elegir Extracción de Datos y Scraping",
+    "image": "/all_services/data_scraping/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Pipelines Fluidos",
+        "description": "Pipelines automatizados para la recolección constante de datos."
+      },
+      {
+        "title": "2. Datos Listos para Usar",
+        "description": "Conjuntos de datos estructurados y limpios (CSV, Excel, JSON, base de datos)."
+      },
+      {
+        "title": "3. Automatización a Medida",
+        "description": "Scripts o bots personalizados para extracciones recurrentes."
+      },
+      {
+        "title": "4. Acceso Instantáneo",
+        "description": "Tableros y APIs para acceso a la información en tiempo real."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Trabajamos con tecnologías modernas y probadas",
+    "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Javascript", "icon": "FaJs" },
+      { "name": "PHP", "icon": "SiPhp " },
+      { "name": "Pandas", "icon": "SiPandas" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "AWS Lambda", "icon": "BsCollectionPlay" }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Del concepto al lanzamiento en 6 semanas",
+    "steps": [
+      {
+        "title": "Descubrir",
+        "description": "Definir fuentes (sitios web, APIs, sistemas) y requisitos de datos.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseñar",
+        "description": "Mapear la lógica de scraping, formatos de datos y pipelines.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Construir",
+        "description": "Desarrollar scrapers, bots y flujos de trabajo ETL.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Lanzar",
+        "description": "Desplegar pipelines, programar tareas y monitorear el rendimiento.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "90% de tiempo ahorrado con el seguimiento automatizado de precios de la competencia",
+    "image": "/all_services/data_scraping/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una empresa de investigación de mercado rastreaba manualmente los precios en más de 20 sitios de e-commerce, consumiendo cientos de horas al mes."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Construimos un pipeline escalable con Python + Scrapy que extraía precios diariamente y los centralizaba en un tablero."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "El tiempo de elaboración de informes cayó un 90%, la precisión mejoró y los datos estuvieron disponibles en tiempo real."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Obtenga respuestas a preguntas comunes",
+    "questions": [
+      {
+        "question": "¿Pueden crear aplicaciones tanto para iOS como para Android?",
+        "answer": "Normalmente, se puede desarrollar un MVP en 4-6 semanas dependiendo de la complejidad de las funciones."
+      },
+      {
+        "question": "¿Qué tan seguras son sus soluciones empresariales?",
+        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione sin problemas."
+      },
+      {
+        "question": "¿Trabajan con sistemas ERP/CRM existentes?",
+        "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
+      },
+      {
+        "question": "¿Pueden escalar las aplicaciones a medida que crece nuestro negocio?",
+        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontró su respuesta?",
+      "link_text": "Contáctenos para más información",
+      "link_url": "/contact"
+    }
+  }
+}

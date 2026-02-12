@@ -54,7 +54,7 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               />
             </div>
 
-            <div className="absolute bottom-4 left-[20%] text-[#402060] translate-y-1/3 bg-white rounded-xl shadow-2xl p-6 w-72 z-10">
+            <div className="absolute bottom-4 left-[20%] text-[#402060] -ml-[12%] md:ml-0  translate-y-1/3 bg-white rounded-xl shadow-2xl p-6 w-72 z-10">
               <p className=" text-xs mb-1">
                 {data.side_card.pre_text}
               </p>

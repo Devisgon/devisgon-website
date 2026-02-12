@@ -23,8 +23,9 @@ const CallToAction: React.FC = () => {
           </div>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
           {data.map((btn, index) => (
+            <a href="/contact"               key={index}
+>
           <button
-              key={index}
               onClick={() => setActiveBtn(index)}
               className={`px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary 
                 ${activeBtn == index 
@@ -33,7 +34,7 @@ const CallToAction: React.FC = () => {
                 }`}
             >
               {btn.text}
-            </button>
+            </button></a>
           ))}
         </div>
         </div>

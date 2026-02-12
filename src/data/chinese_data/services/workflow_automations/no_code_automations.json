@@ -1,0 +1,158 @@
+{
+  "slug": "no-code-automation",
+  "hero_section": {
+    "title": "无代码自动化",
+    "subtitle": "无需编程 即可构建",
+    "description": "我们帮助企业利用 Zapier、Make.com 和 n8n 等无代码平台来实现工作流自动化、连接应用程序并更快地发布解决方案，无需开发人员参与。",
+    "buttons": [
+      {
+        "text": "开启无代码自动化",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/no_code_automation.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是 ",
+    "span_heading": " 无代码工具 (Zapier, Make.com, n8n)?",
+    "content": [
+      "在 Devisgon，我们专注于为初创公司、中小企业和大型企业设计、配置和优化无代码工作流。我们建立应用间的集成（如 CRM、数据库、ERP、邮件工具、API），创建自动触发器，并确保您的工作流大规模稳定运行。",
+      "这使您的业务能够节省时间、降低成本并更快地测试想法，而无需编写任何代码。"
+    ],
+    "highlight_quote": "“无代码工作流，执行更快，零麻烦。”",
+    "side_image": "/all_services/no_code_automation/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "快速自动化",
+        "description": "在数小时内而非数周内部署可运行的自动化系统。",
+        "icon_type": "FaRocket "
+      },
+      {
+        "title": "降低成本",
+        "description": "消除对定制代码脚本的需求，减少对开发人员的依赖。",
+        "icon_type": "HiCurrencyDollar "
+      },
+      {
+        "title": "灵活性",
+        "description": "通过拖拽式工作流轻松连接第三方工具和服务。",
+        "icon_type": "PiShareNetworkThin "
+      },
+      {
+        "title": "可扩展性",
+        "description": "无代码工具可以随业务增长，每月处理数千个任务。",
+        "icon_type": "MdCloseFullscreen"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择无代码自动化服务您将获得什么",
+    "image": "/all_services/no_code_automation/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 即用型工作流",
+        "description": "在 Zapier、Make.com 或 n8n 上完整配置的工作流。"
+      },
+      {
+        "title": "2. 多步骤集成",
+        "description": "连接应用程序和 API 的多步骤自动化。"
+      },
+      {
+        "title": "3. 可靠的防护机制",
+        "description": "错误处理和容错机制。"
+      },
+      {
+        "title": "4. 性能优化",
+        "description": "针对性能和可扩展性的优化。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Python", "icon": "FaPython " },
+      { "name": "Make.com", "icon": "SiMake " },
+      { "name": "n8n", "icon": "SiN8N " },
+      { "name": "AWS", "icon": "FaAws " }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "识别自动化机会并选择合适的无代码工具。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "绘制工作流、触发器和集成方案。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "配置多步骤自动化，连接应用并测试场景。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署工作流，监控性能并优化流程。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Zapier 自动化将人力资源工作量减少了 70%",
+    "image": "/all_services/no_code_automation/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "一个人力资源部门通过发送邮件、创建账号等手动方式办理入职。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "我们在 Zapier 上构建了自动化，根据表单自动创建账号、发送欢迎邮件并添加至 Slack。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "入职办理时间减少了 70%，每月节省约 20 小时。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们可以对哪些工具进行自动化？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "自动化会取代我的团队吗？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "自动化能节省多少时间？",
+        "answer": "当然可以。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "你们会创建 AI 智能体吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}
