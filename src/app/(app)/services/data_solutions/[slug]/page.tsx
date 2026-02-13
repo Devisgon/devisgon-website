@@ -1,7 +1,8 @@
 "use client";
-import React, { use, useState, useEffect } from 'react';
+import  { use } from 'react';
 import { useTranslation } from 'react-i18next';
 import { notFound } from "next/navigation";
+import { workflowData } from "@/data/loaders/data_solutions";
 
 import Hero from "@/components/sub_services_pages/hero";
 import Introduction from "@/components/sub_services_pages/introduction";
@@ -15,66 +16,19 @@ import Contact from '@/components/sub_services_pages/contact';
 
 export default function IndustryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
-  const { i18n } = useTranslation(); // Get i18n instance
-  const lang = i18n.language; // Get current language
-  
-  const [data, setData] = useState<any>(null);
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    async function loadData() {
-      try {
-        setLoading(true);
-        let module;
-
-            if (lang === 'en') {
-          module = await import(`@/data/english_data/services/data_solutions/${slug}.json`);
-        } else if (lang === 'ur'){
-          module = await import(`@/data/urdu_data/services/data_solutions/${slug}.json`);}
-         else if (lang === 'ar') {
-          module = await import(`@/data/arabic_data/services/data_solutions/${slug}.json`);        
-        }else if (lang === 'es') {
-          module = await import(`@/data/spanish_data/services/data_solutions/${slug}.json`);
-        } else if (lang === 'de') {
-          module = await import(`@/data/german_data/services/data_solutions/${slug}.json`);
-        } else if (lang === 'zh') {
-          module = await import(`@/data/chinese_data/services/data_solutions/${slug}.json`);
-        } else if (lang === 'fr') {
-          module = await import(`@/data/french_data/services/data_solutions/${slug}.json`);
-        } else if (lang === 'pa') {
-          module = await import(`@/data/punjabi_data/services/data_solutions/${slug}.json`);
-        }
-         else {
-          module = await import(`@/data/english_data/services/data_solutions/${slug}.json`);
-        }
-
-        setData(module.default);
-      } catch (error) {
-        console.error("File not found for this slug or language:", error);
-        setData(null);
-      } finally {
-        setLoading(false);
-      }
-    }
-
-    loadData();
-  }, [slug, lang]); 
-  
-  if (loading) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-primary"></div>
-      </div>
-    );
-  }
+  const { i18n } = useTranslation(); 
+  const lang = i18n.language || 'en'; 
+  const data = workflowData[lang]?.[slug] || workflowData['en']?.[slug];
 
   if (!data) {
     return notFound();
   }
 
+  const isRTL = lang === 'ur' || lang === 'ar';
+
   return (
-    <div dir={lang === 'ur' ? 'rtl' : 'ltr'}>
-      <Hero data={data.hero_section} />
+    <div dir={isRTL ? 'rtl' : 'ltr'}>
+   <Hero data={data.hero_section} />
       <Introduction data={data.introduction_section} />
       <KeyBenefitsSection data={data.key_benefits_section} />
       <WhatYouGetSection data={data.what_you_get_section} />
@@ -83,6 +37,7 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
       <Casestudy data={data.case_study_section} />
       <Faqs data={data.faq_section} />
       <Contact />
+     
     </div>
   );
 }

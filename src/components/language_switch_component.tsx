@@ -18,13 +18,10 @@ const LanguageSwitcher = () => {
     { code: "de", name: "Deutsch", flag: "🇩🇪" },
     { code: "zh", name: "中文", flag: "🇨🇳" },
     { code: "fr", name: "Français", flag: "🇫🇷" },
-    { code: "pa", name: "پنجابی", flag: "🇵🇰" },
   ];
 
-  // Logic to find current language
   const currentLang = languages.find(l => l.code === i18n.language) || languages[0];
 
-  // Important: Set mounted to true on the client
   useEffect(() => {
     setMounted(true);
   }, []);

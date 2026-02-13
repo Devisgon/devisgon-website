@@ -1,5 +1,5 @@
 "use client";
-import data from "../data/navbar.json";
+import data from "@/data/english_data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
