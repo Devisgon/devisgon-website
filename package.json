@@ -9,8 +9,8 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@payloadcms/db-mongodb": "^3.74.0",
-    "@payloadcms/next": "^3.74.0",
+    "@payloadcms/db-postgres": "^3.76.1",
+    "@payloadcms/next": "^3.76.1",
     "@payloadcms/richtext-lexical": "^3.74.0",
     "formidable": "^3.5.4",
     "framer-motion": "^12.26.2",
@@ -20,7 +20,7 @@
     "i18next-http-backend": "^3.0.2",
     "ipapi.co": "^0.3.0",
     "lucide-react": "^0.562.0",
-    "next": "16.1.1",
+    "next": "15.4.11",
     "next-intl": "^4.8.2",
     "nodemailer": "^7.0.12",
     "ogl": "^1.0.11",
