@@ -1,0 +1,166 @@
+{
+  "slug": "bpa",
+  "hero_section": {
+    "title": "业务流程自动化 - BPA",
+    "subtitle": "优化、精简并扩展您的运营",
+    "description": "我们设计并实施智能工作流系统，消除手动任务，减少错误，并提高跨部门的运营效率。",
+    "buttons": [
+      {
+        "text": "自动化我的工作流",
+        "link": "/contact"
+      },
+      {
+        "text": "联系我们",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/low_code_automation.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " BPA 或业务流程自动化？",
+    "content": [
+      "由于手动审批、系统脱节和重复的运营任务，企业每天都在损失生产力。从人力资源入职和财务工作流到内部报告和 CRM 更新，低效正在悄悄减缓增长。",
+      "在 Devisgon，我们设计并实施结构化的业务流程自动化系统，精简跨部门运营。我们分析您的内部工作流，消除瓶颈，并构建基于规则的自动化管道，从而：",
+      "     自动路由审批",
+      "     同步系统间的数据",
+      "     无需手动即可生成报告",
+      "     根据预定义逻辑触发任务",
+      "     减少对重复人工操作的依赖",
+      "结果：更快的运营、更低的运营成本以及可衡量的生产力提升。"
+    ],
+    "highlight_quote": "减少对重复人工操作的依赖",
+    "side_image": "/all_services/low_code_automation/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "通过经证实的成果转化您的运营",
+    "cards": [
+      {
+        "title": "更快的运营",
+        "description": "消除由手动审批和重复任务引起的延迟。",
+        "icon_type": "TbClockDollar"
+      },
+      {
+        "title": "减少错误",
+        "description": "通过基于规则的工作流最大限度地减少人为错误。",
+        "icon_type": "GiTrackedRobot"
+      },
+      {
+        "title": "成本效率",
+        "description": "通过自动化降低运营成本。",
+        "icon_type": "MdError"
+      },
+      {
+        "title": "可扩展系统",
+        "description": "构建随业务共同增长的流程。",
+        "icon_type": "BsArrowsCollapseVertical"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择业务流程自动化您将获得什么",
+    "image": "/all_services/low_code_automation/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. 定制工作流架构",
+        "description": "根据您的内部流程量身定制结构化、基于规则的自动化。"
+      },
+      {
+        "title": "2. 审批与路由自动化",
+        "description": "自动化的任务分配和多级审批工作流。"
+      },
+      {
+        "title": "3. 部门级流程映射",
+        "description": "与人力资源、财务、运营和销售保持一致的清晰流程设计，并与现有业务软件（CRM、ERP、CMS 等）集成。"
+      },
+      {
+        "title": "4. 仪表板与报告系统",
+        "description": "实时查看工作流性能和瓶颈。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代且经证实的开发技术",
+    "subtitle": "行业领先的工具，确保最大的可靠性和性能",
+    "tools": [
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "Node.js", "icon": "FaNodeJs" },
+      { "name": "Zapier", "icon": "SiZapier" },
+      { "name": "OpenAI", "icon": "PiOpenAiLogoLight" },
+      { "name": "make.com", "icon": "SiMake" },
+      { "name": "n8n", "icon": "SiN8N" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "从概念到发布仅需 6 周",
+    "steps": [
+      {
+        "title": "探索",
+        "description": "流程审计与瓶颈分析",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "设计",
+        "description": "工作流蓝图与自动化逻辑",
+        "icon": "TbTools"
+      },
+      {
+        "title": "构建",
+        "description": "自动化引擎与系统集成",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "发布",
+        "description": "部署、监控与优化",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "90 天内运营效率提升 65%",
+    "image": "/all_services/low_code_automation/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "问题",
+        "text": "财务和人力资源部门的手动审批延迟。"
+      },
+      "solution": {
+        "label": "解决方案",
+        "text": "实施了具有基于角色的路由的结构化 BPA 工作流。"
+      },
+      "result": {
+        "label": "结果",
+        "text": "审批速度提高 65%，行政工作量减少 40%。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "获取常见问题的答案",
+    "questions": [
+      {
+        "question": "你们可以对哪些工具进行自动化？",
+        "answer": "通常情况下，根据功能的复杂程度，MVP 可以在 4-6 周内开发完成。"
+      },
+      {
+        "question": "自动化会取代我的团队吗？",
+        "answer": "是的，我们提供上线后的维护和支持包，以确保您的应用平稳运行。"
+      },
+      {
+        "question": "自动化能节省多少时间？",
+        "answer": "当然可以。我们擅长通过 API 将 AI 模型集成到现有架构中。"
+      },
+      {
+        "question": "你们会创建 AI 智能体吗？",
+        "answer": "我们主要使用 Next.js、React、Node.js、Python 以及 AWS 或 Vercel 等云服务。"
+      }
+    ],
+    "footer": {
+      "text": "没找到答案？",
+      "link_text": "联系我们了解更多信息",
+      "link_url": "/contact"
+    }
+  }
+}
