@@ -1,0 +1,94 @@
+{
+  "slug": "devops-infrastructure-automation",
+  "hero_section": {
+    "title": "Servicios de Automatización de DevOps e Infraestructura",
+    "subtitle": "Automatización CI/CD, Despliegue en la Nube y Escalado",
+    "description": "Automatice despliegues, aprovisionamiento en la nube y monitoreo mediante soluciones DevOps de clase empresarial.",
+    "buttons": [
+      { "text": "Automatizar mi infraestructura", "link": "/contact" },
+      { "text": "Contáctenos", "link": "/contact" }
+    ],
+    "hero_image": "/videos/Infrastructure_automation_services.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es la",
+    "span_heading": " Automatización de DevOps e Infraestructura?",
+    "content": [
+      "Los despliegues manuales y los entornos inconsistentes ralentizan el desarrollo de software moderno.",
+      "En Devisgon, implementamos automatización CI/CD e Infraestructura como Código (IaC) para agilizar sus lanzamientos. Nuestros servicios incluyen:",
+      "  • Automatización de pipelines de construcción y despliegue",
+      "  • Aprovisionamiento automatizado de infraestructura cloud",
+      "  • Configuración de sistemas de auto-escalado",
+      "  • Despliegue de sistemas de monitoreo y alertas",
+      "Resultado: lanzamientos más rápidos, mayor confiabilidad y sistemas escalables."
+    ],
+    "highlight_quote": "“Despliegues confiables. Infraestructura en la nube escalable.”",
+    "side_image": "/all_services/infrastructure/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Acelere sus ciclos de desarrollo",
+    "cards": [
+      { "title": "Lanzamientos Rápidos", "description": "Automatización mediante pipelines CI/CD.", "icon_type": "MdSpeed" },
+      { "title": "Menos tiempo de inactividad", "description": "Sistemas de monitoreo y recuperación automática.", "icon_type": "MdSecurity" },
+      { "title": "Escalabilidad Cloud", "description": "Infraestructura que escala automáticamente según la demanda.", "icon_type": "MdCloud" },
+      { "title": "Estabilidad Mejorada", "description": "Entornos consistentes usando Infrastructure as Code.", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtiene con DevOps",
+    "image": "/all_services/infrastructure/wwg.png",
+    "list_items": [
+      { "title": "1. Setup de Pipeline CI/CD", "description": "Flujo automatizado de construcción, prueba y despliegue." },
+      { "title": "2. Infraestructura como Código (IaC)", "description": "Aprovisionamiento cloud automatizado." },
+      { "title": "3. Sistemas de Monitoreo", "description": "Seguimiento de salud y rendimiento en tiempo real." },
+      { "title": "4. Respaldo y Recuperación", "description": "Soluciones de failover y backups seguros." }
+    ]
+  },
+  "technologies_section": {
+    "title": "Tecnologías DevOps",
+    "subtitle": "Toolkit moderno de automatización cloud",
+    "tools": [
+      { "name": "Docker", "icon": "FaDocker" },
+      { "name": "Kubernetes", "icon": "SiKubernetes" },
+      { "name": "AWS", "icon": "FaAws" },
+      { "name": "Terraform", "icon": "SiTerraform" },
+      { "name": "GitHub Actions", "icon": "SiGithubactions" }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Automatización en pocas semanas",
+    "steps": [
+      { "title": "Auditoría", "description": "Análisis de infraestructura y flujos.", "icon": "FaSearch" },
+      { "title": "Diseño", "description": "Creación de planos de automatización.", "icon": "TbTools" },
+      { "title": "Implementación", "description": "Despliegue de CI/CD y automatización cloud.", "icon": "FaHammer" },
+      { "title": "Optimización", "description": "Monitoreo y mejora del rendimiento.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Despliegue 75% más rápido",
+    "image": "/all_services/infrastructure/ase_study_1.png",
+    "content": {
+      "problem": { "label": "Problema", "text": "El despliegue manual causaba retrasos." },
+      "solution": { "label": "Solución", "text": "Implementación de pipelines CI/CD e IaC." },
+      "result": { "label": "Resultado", "text": "Tiempo de despliegue reducido un 75% con mayor confiabilidad." }
+    }
+  },
+  "faq_section": {
+    "title": "FAQ",
+    "subtitle": "Preguntas frecuentes sobre DevOps",
+    "questions": [
+      { "question": "¿Automatizan AWS y Azure?", "answer": "Sí, incluyendo despliegues multi-cloud." },
+      { "question": "¿Pueden automatizar lo existente?", "answer": "Sí, sin interrumpir operaciones." },
+      { "question": "¿Es seguro?", "answer": "Sí, con configuraciones de seguridad estrictas." },
+      { "question": "¿Cuánto tiempo toma?", "answer": "Generalmente de 2 a 4 semanas." },
+      { "question": "¿Ofrecen soporte?", "answer": "Sí, monitoreo y mantenimiento incluidos." }
+    ],
+    "footer": {
+      "text": "¿Necesita ayuda?",
+      "link_text": "Hable con nuestros expertos",
+      "link_url": "/contact"
+    }
+  }
+}

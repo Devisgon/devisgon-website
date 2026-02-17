@@ -1,0 +1,95 @@
+{
+  "slug": "api_integration",
+  "hero_section": {
+    "title": "API 与系统集成自动化服务",
+    "subtitle": "ERP 集成、CRM 集成与跨平台工作流自动化",
+    "description": "通过安全的 API 集成和自动数据同步系统，连接您的 ERP、CRM、会计软件、电子商务平台和 SaaS 工具。",
+    "buttons": [
+      { "text": "集成我的系统", "link": "/contact" },
+      { "text": "联系我们", "link": "/contact" }
+    ],
+    "hero_image": "/videos/ai_powered_app.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " API 与系统集成自动化？",
+    "content": [
+      "相互脱节的软件系统会产生数据孤岛、重复工作和运营效率低下。",
+      "在 Devisgon，我们设计安全的 API 集成和系统自动化解决方案，以统一您的数字生态系统。我们的集成服务：",
+      "  •  连接 ERP、CRM 和会计系统",
+      "  •  实现实时数据同步",
+      "  •  自动化跨平台工作流程",
+      "  •  实施基于 Webhook 的触发系统",
+      "结果：无缝的数据流、减少手动录入以及统一的运营。"
+    ],
+    "highlight_quote": "“连接系统。统一数据。自动高效。”",
+    "side_image": "/all_services/ai_powered_app/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "消除数据孤岛和低效",
+    "cards": [
+      { "title": "实时数据同步", "description": "自动在各平台间同步数据。", "icon_type": "MdSync" },
+      { "title": "ERP 与 CRM 集成", "description": "核心业务系统之间的安全集成。", "icon_type": "MdSettings" },
+      { "title": "工作流自动化", "description": "跨应用程序触发自动化流程。", "icon_type": "MdAutoFixHigh" },
+      { "title": "可扩展架构", "description": "为企业增长而构建的集成系统。", "icon_type": "MdTrendingUp" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择 API 与系统集成自动化，您将获得",
+    "image": "/all_services/ai_powered_app/wwg.svg",
+    "list_items": [
+      { "title": "1. 定制 API 集成", "description": "ERP、CRM 和 SaaS 工具之间的安全连接。" },
+      { "title": "2. 自动数据流水线", "description": "跨系统的实时同步。" },
+      { "title": "3. Webhook 与事件自动化", "description": "基于触发器的跨平台工作流。" },
+      { "title": "4. 集中监控仪表板", "description": "集成健康状况和性能的可视化。" }
+    ]
+  },
+  "technologies_section": {
+    "title": "集成技术",
+    "subtitle": "安全且可扩展的 API 架构",
+    "tools": [
+      { "name": "REST APIs", "icon": "FaExchangeAlt" },
+      { "name": "GraphQL", "icon": "SiGraphql" },
+      { "name": "Node.js", "icon": "FaNodeJs" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "AWS", "icon": "FaAws" },
+      { "name": "MongoDB", "icon": "SiMongodb" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "安全的集成部署",
+    "steps": [
+      { "title": "分析", "description": "审计现有系统和数据流。", "icon": "FaSearch" },
+      { "title": "架构", "description": "设计安全的 API 集成策略。", "icon": "TbTools" },
+      { "title": "开发", "description": "构建集成和自动化触发器。", "icon": "FaHammer" },
+      { "title": "部署", "description": "启动并监控实时同步。", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "统一 5 大业务系统",
+    "image": "/all_services/ai_powered_app/case_study.svg",
+    "content": {
+      "problem": { "label": "问题", "text": "一家零售公司使用脱节的 ERP、CRM 和会计工具，导致数据重复录入。" },
+      "solution": { "label": "解决方案", "text": "实施了基于 API 的集成，实现了订单和发票的自动同步。" },
+      "result": { "label": "结果", "text": "数据错误减少了 70%，报告实现了完全自动化。" }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "集成自动化 FAQ",
+    "questions": [
+      { "question": "你们能集成 ERP 和 CRM 系统吗？", "answer": "是的，我们在企业平台之间构建安全的 API 连接。" },
+      { "question": "你们提供实时数据同步吗？", "answer": "是的，包括基于 Webhook 和事件驱动的自动化。" },
+      { "question": "API 集成安全吗？", "answer": "我们实施加密连接和严格的身份验证协议。" },
+      { "question": "集成可以随业务增长而扩展吗？", "answer": "是的，我们的架构专为企业级可扩展性而构建。" },
+      { "question": "你们服务国际客户吗？", "answer": "是的，我们服务于美国、欧洲、澳大利亚、加拿大、阿联酋和海湾合作委员会国家。" }
+    ],
+    "footer": {
+      "text": "需要集成支持？",
+      "link_text": "联系我们的集成团队",
+      "link_url": "/contact"
+    }
+  }
+}

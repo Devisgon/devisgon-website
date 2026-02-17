@@ -1,0 +1,94 @@
+{
+  "slug": "robotic-process-automation",
+  "hero_section": {
+    "title": "Robotic Process Automation (RPA) Services",
+    "subtitle": "Data Entry, Invoice Extraction, and Legacy System Automation",
+    "description": "Deploy digital workers to automate repetitive tasks like data entry, invoice extraction, report downloads, and legacy software processes—reducing costs and increasing efficiency.",
+    "buttons": [
+      { "text": "Deploy Digital Workers", "link": "/contact" },
+      { "text": "Contact Us", "link": "/contact" }
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " Robotic Process Automation?",
+    "content": [
+      "Many companies rely on employees for repetitive tasks like entering invoice data, downloading reports, and updating legacy systems.",
+      "At Devisgon, we build RPA bots that mimic human interactions with applications and perform rule-based tasks 24/7. Our bots can:",
+      "  • Extract invoice data using OCR",
+      "  • Automate repetitive data entry",
+      "  • Download and generate reports",
+      "  • Operate legacy desktop systems",
+      "The result: Lower labor costs, faster processing, and near-zero errors."
+    ],
+    "highlight_quote": "“Digital workers that never stop.”",
+    "side_image": "/all_services/ai_powered_app/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Automate Repetitive Work Instantly",
+    "cards": [
+      { "title": "24/7 Execution", "description": "Bots work continuously without breaks.", "icon_type": "MdAccessTime" },
+      { "title": "Lower Costs", "description": "Reduce reliance on manual labor.", "icon_type": "MdSavings" },
+      { "title": "High Accuracy", "description": "Minimize errors in repetitive processes.", "icon_type": "MdVerified" },
+      { "title": "Legacy Compatible", "description": "Works without replacing current systems.", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Get with RPA",
+    "image": "/all_services/ai_powered_app/wwg.svg",
+    "list_items": [
+      { "title": "1. Custom RPA Bots", "description": "Software robots specifically designed for your workflow." },
+      { "title": "2. Invoice & Data Automation", "description": "Automated invoice extraction and data processing." },
+      { "title": "3. Legacy System Automation", "description": "Robot-driven automation for older applications." },
+      { "title": "4. Bot Monitoring Dashboard", "description": "Track performance and reporting in real-time." }
+    ]
+  },
+  "technologies_section": {
+    "title": "Modern RPA Technologies",
+    "subtitle": "Secure and Scalable Tools",
+    "tools": [
+      { "name": "UiPath", "icon": "SiUipath" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "Automation Anywhere", "icon": "SiAutomationanywhere" },
+      { "name": "AWS", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "Fast Bot Deployment in Weeks",
+    "steps": [
+      { "title": "Assessment", "description": "Identify repetitive automation opportunities.", "icon": "FaSearch" },
+      { "title": "Design", "description": "Create bot logic and automation workflow.", "icon": "TbTools" },
+      { "title": "Build", "description": "Develop and test RPA bots.", "icon": "FaHammer" },
+      { "title": "Deploy", "description": "Launch bots and monitor performance.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "80% Faster Invoice Processing",
+    "image": "/all_services/ai_powered_app/case_study.svg",
+    "content": {
+      "problem": { "label": "Problem", "text": "Manual invoice data entry was consuming hundreds of employee hours." },
+      "solution": { "label": "Solution", "text": "Implemented OCR-based RPA bots to extract and verify invoices." },
+      "result": { "label": "Result", "text": "Processing time reduced by 80% with 90% fewer errors." }
+    }
+  },
+  "faq_section": {
+    "title": "FAQ",
+    "subtitle": "Common Questions About RPA",
+    "questions": [
+      { "question": "Can RPA automate invoice extraction?", "answer": "Yes, including OCR-based invoice processing." },
+      { "question": "Does RPA work with legacy systems?", "answer": "Yes, bots mimic human interactions." },
+      { "question": "Is RPA secure?", "answer": "We implement encrypted and governed bot environments." },
+      { "question": "How scalable is RPA?", "answer": "Additional bots can be deployed as needed." },
+      { "question": "Do you serve international companies?", "answer": "Yes, including US, Europe, Australia, and Gulf markets." }
+    ],
+    "footer": {
+      "text": "Have more questions?",
+      "link_text": "Talk to our RPA team",
+      "link_url": "/contact"
+    }
+  }
+}
