@@ -1,0 +1,94 @@
+{
+  "slug": "devops-infrastructure-automation",
+  "hero_section": {
+    "title": "DevOps 与基础架构自动化服务",
+    "subtitle": "CI/CD 自动化、云部署与基础架构扩展",
+    "description": "通过专为全球 SaaS 和企业系统设计的企业级 DevOps 自动化解决方案，实现部署、云配置、监控和扩展的自动化。",
+    "buttons": [
+      { "text": "自动化我的基础架构", "link": "/contact" },
+      { "text": "联系我们", "link": "/contact" }
+    ],
+    "hero_image": "/videos/Infrastructure_automation_services.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是",
+    "span_heading": " DevOps 与基础架构自动化？",
+    "content": [
+      "手动部署、环境不一致和被动监控会减慢现代软件开发的速度。",
+      "在 Devisgon，我们实施 CI/CD 自动化和基础架构即代码 (IaC) 解决方案，简化软件发布和云管理。我们的服务包括：",
+      "  • 自动化构建和部署流水线",
+      "  • 自动化的云基础架构配置",
+      "  • 配置自动扩展系统",
+      "  • 部署自动化监控和警报系统",
+      "结果：更快的发布、更高的可靠性和可扩展的云系统。"
+    ],
+    "highlight_quote": "“可靠的部署。可扩展的云基础架构。”",
+    "side_image": "/all_services/infrastructure/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "加速开发周期",
+    "cards": [
+      { "title": "更快的发布", "description": "使用 CI/CD 流水线实现构建和部署自动化。", "icon_type": "MdSpeed" },
+      { "title": "减少停机时间", "description": "自动监控和恢复系统。", "icon_type": "MdSecurity" },
+      { "title": "云可扩展性", "description": "基础架构可根据需求自动扩展。", "icon_type": "MdCloud" },
+      { "title": "稳定性提升", "description": "使用基础架构即代码确保环境一致性。", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "选择 DevOps 自动化，您将获得",
+    "image": "/all_services/infrastructure/wwg.png",
+    "list_items": [
+      { "title": "1. CI/CD 流水线搭建", "description": "自动化构建、测试和部署工作流。" },
+      { "title": "2. 基础架构即代码 (IaC)", "description": "自动化的云配置和管理。" },
+      { "title": "3. 监控与警报系统", "description": "实时性能和健康状况监控。" },
+      { "title": "4. 备份与恢复", "description": "自动故障转移方案和安全备份。" }
+    ]
+  },
+  "technologies_section": {
+    "title": "DevOps 技术",
+    "subtitle": "现代云自动化工具包",
+    "tools": [
+      { "name": "Docker", "icon": "FaDocker" },
+      { "name": "Kubernetes", "icon": "SiKubernetes" },
+      { "name": "AWS", "icon": "FaAws" },
+      { "name": "Terraform", "icon": "SiTerraform" },
+      { "name": "GitHub Actions", "icon": "SiGithubactions" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "数周内完成自动化部署",
+    "steps": [
+      { "title": "审计", "description": "分析基础架构和部署流水线。", "icon": "FaSearch" },
+      { "title": "设计", "description": "创建自动化蓝图。", "icon": "TbTools" },
+      { "title": "实施", "description": "部署 CI/CD 和云自动化。", "icon": "FaHammer" },
+      { "title": "优化", "description": "监控并提升性能。", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "部署速度提升 75%",
+    "image": "/all_services/infrastructure/ase_study_1.png",
+    "content": {
+      "problem": { "label": "问题", "text": "手动部署导致延迟和停机。" },
+      "solution": { "label": "解决方案", "text": "实施了 CI/CD 流水线和基础架构即代码。" },
+      "result": { "label": "结果", "text": "部署时间减少了 75%，同时提高了可靠性。" }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "关于 DevOps 自动化的常见问题",
+    "questions": [
+      { "question": "你们支持 AWS 和 Azure 自动化吗？", "answer": "是的，包括多云部署。" },
+      { "question": "可以自动化现有基础架构吗？", "answer": "是的，且不会中断业务运行。" },
+      { "question": "DevOps 自动化安全吗？", "answer": "是的，采用严格的安全配置。" },
+      { "question": "实施需要多久？", "answer": "通常需要 2 到 4 周。" },
+      { "question": "你们提供持续支持吗？", "answer": "是的，包括监控和维护。" }
+    ],
+    "footer": {
+      "text": "需要基础架构方面的帮助吗？",
+      "link_text": "联系我们的 DevOps 专家",
+      "link_url": "/contact"
+    }
+  }
+}

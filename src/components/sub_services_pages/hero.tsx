@@ -78,7 +78,7 @@ dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen over
           
           {/* --- Left Content --- */}
           <motion.div 
-            className="w-full md:h-[550px] lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
+            className="w-full  lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10"
             variants={containerVariants}
             initial="hidden"
             animate="visible"

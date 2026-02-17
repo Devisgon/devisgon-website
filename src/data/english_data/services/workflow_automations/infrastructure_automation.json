@@ -1,0 +1,94 @@
+{
+  "slug": "devops-infrastructure-automation",
+  "hero_section": {
+    "title": "DevOps & Infrastructure Automation Services",
+    "subtitle": "CI/CD Automation, Cloud Deployment, and Infrastructure Scaling",
+    "description": "Automate deployments, cloud provisioning, monitoring, and scaling through enterprise-grade DevOps automation solutions designed for global SaaS and corporate systems.",
+    "buttons": [
+      { "text": "Automate My Infrastructure", "link": "/contact" },
+      { "text": "Contact Us", "link": "/contact" }
+    ],
+    "hero_image": "/videos/Infrastructure_automation_services.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " DevOps & Infrastructure Automation?",
+    "content": [
+      "Manual deployments, inconsistent environments, and reactive monitoring slow down modern software development.",
+      "At Devisgon, we implement CI/CD automation and Infrastructure as Code (IaC) solutions that streamline software releases and cloud management. Our services include:",
+      "  • Automating build and deployment pipelines",
+      "  • Automated cloud infrastructure provisioning",
+      "  • Configuring auto-scaling systems",
+      "  • Deploying automated monitoring and alerting systems",
+      "The result: Faster releases, improved reliability, and scalable cloud systems."
+    ],
+    "highlight_quote": "“Reliable deployments. Scalable cloud infrastructure.”",
+    "side_image": "/all_services/infrastructure/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Accelerate Development Cycles",
+    "cards": [
+      { "title": "Faster Releases", "description": "Automate building and deployment using CI/CD pipelines.", "icon_type": "MdSpeed" },
+      { "title": "Reduced Downtime", "description": "Automated monitoring and recovery systems.", "icon_type": "MdSecurity" },
+      { "title": "Cloud Scalability", "description": "Infrastructure that scales automatically based on demand.", "icon_type": "MdCloud" },
+      { "title": "Improved Stability", "description": "Consistent environments using Infrastructure as Code.", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Get with DevOps Automation",
+    "image": "/all_services/infrastructure/wwg.png",
+    "list_items": [
+      { "title": "1. CI/CD Pipeline Setup", "description": "Automated workflow for building, testing, and deployment." },
+      { "title": "2. Infrastructure as Code (IaC)", "description": "Automated cloud provisioning and configuration." },
+      { "title": "3. Monitoring & Alerting Systems", "description": "Real-time performance and health monitoring." },
+      { "title": "4. Backup & Recovery", "description": "Automated failover solutions and secure backups." }
+    ]
+  },
+  "technologies_section": {
+    "title": "DevOps Technologies",
+    "subtitle": "Modern Cloud Automation Toolkit",
+    "tools": [
+      { "name": "Docker", "icon": "FaDocker" },
+      { "name": "Kubernetes", "icon": "SiKubernetes" },
+      { "name": "AWS", "icon": "FaAws" },
+      { "name": "Terraform", "icon": "SiTerraform" },
+      { "name": "GitHub Actions", "icon": "SiGithubactions" }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "Deploy Automation in Weeks",
+    "steps": [
+      { "title": "Audit", "description": "Analyze infrastructure and deployment pipelines.", "icon": "FaSearch" },
+      { "title": "Design", "description": "Create automation blueprints.", "icon": "TbTools" },
+      { "title": "Implement", "description": "Deploy CI/CD and cloud automation.", "icon": "FaHammer" },
+      { "title": "Optimize", "description": "Monitor and improve performance.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "75% Faster Deployment",
+    "image": "/all_services/infrastructure/ase_study_1.png",
+    "content": {
+      "problem": { "label": "Problem", "text": "Manual deployment caused delays and downtime." },
+      "solution": { "label": "Solution", "text": "Implemented CI/CD pipelines and Infrastructure as Code." },
+      "result": { "label": "Result", "text": "Deployment time reduced by 75% with improved reliability." }
+    }
+  },
+  "faq_section": {
+    "title": "FAQ",
+    "subtitle": "Common Questions About DevOps Automation",
+    "questions": [
+      { "question": "Do you automate AWS and Azure?", "answer": "Yes, including multi-cloud deployments." },
+      { "question": "Can you automate existing infrastructure?", "answer": "Yes, without disrupting operations." },
+      { "question": "Is DevOps automation secure?", "answer": "Yes, with strict security configurations." },
+      { "question": "How long does implementation take?", "answer": "Usually 2 to 4 weeks." },
+      { "question": "Do you provide ongoing support?", "answer": "Yes, including monitoring and maintenance." }
+    ],
+    "footer": {
+      "text": "Need help with infrastructure?",
+      "link_text": "Talk to our DevOps experts",
+      "link_url": "/contact"
+    }
+  }
+}

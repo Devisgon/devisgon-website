@@ -1,5 +1,5 @@
 "use client";
-import data from "@/data/english_data/navbar.json";
+import data from "@/data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
@@ -73,9 +73,9 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -left-[430px] text-t-primary mt-2 w-[700px] bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -left-[630px] mt-6 text-t-primary w-[900px] bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
-                  translate-y-2 group-hover:translate-y-0 transition-all duration-200 z-50"
+                  translate-y-2 group-hover:translate-y-0  transition-all duration-200 z-50"
                 >
                   <div className="grid grid-cols-4 gap-6 p-8">
                     {link.dropdown.columns.map((col) => (

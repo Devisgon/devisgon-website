@@ -1,0 +1,95 @@
+{
+  "slug": "api_integration",
+  "hero_section": {
+    "title": "Services d'automatisation d'intégration d'API et de systèmes",
+    "subtitle": "Intégration ERP, Intégration CRM et automatisation des flux de travail multiplateformes",
+    "description": "Connectez votre ERP, CRM, logiciel de comptabilité, plateformes de commerce électronique et outils SaaS avec des intégrations d'API sécurisées et des systèmes de synchronisation de données automatisés.",
+    "buttons": [
+      { "text": "Intégrer mes systèmes", "link": "/contact" },
+      { "text": "Contactez-nous", "link": "/contact" }
+    ],
+    "hero_image": "/videos/api_system_integration_automation_video.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": " l'automatisation de l'intégration d'API et de systèmes ?",
+    "content": [
+      "Les systèmes logiciels déconnectés créent des silos de données, des doublons et des inefficacités opérationnelles.",
+      "Chez Devisgon, nous concevons des solutions sécurisées d'intégration d'API et d'automatisation de systèmes qui unifient votre écosystème numérique. Nos services :",
+      "  •  Connectent les systèmes ERP, CRM et de comptabilité",
+      "  •  Permettent la synchronisation des données en temps réel",
+      "  •  Automatisent les flux de travail multiplateformes",
+      "  •  Mettent en œuvre des systèmes de déclenchement basés sur des webhooks",
+      "Le résultat : un flux de données fluide, une réduction de la saisie manuelle et des opérations unifiées."
+    ],
+    "highlight_quote": "« Systèmes connectés. Données unifiées. Efficacité automatisée. »",
+    "side_image": "/all_services/api_system_integration_automation/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Éliminez les silos de données et les inefficacités",
+    "cards": [
+      { "title": "Sync de données en temps réel", "description": "Synchronisez automatiquement les données sur toutes les plateformes.", "icon_type": "MdSync" },
+      { "title": "Intégration ERP & CRM", "description": "Intégration sécurisée entre les systèmes métier de base.", "icon_type": "MdSettings" },
+      { "title": "Automatisation des flux", "description": "Déclenchez des processus automatisés entre les applications.", "icon_type": "MdAutoFixHigh" },
+      { "title": "Architecture évolutive", "description": "Systèmes d'intégration conçus pour la croissance de l'entreprise.", "icon_type": "MdTrendingUp" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtenez en choisissant l'automatisation de l'intégration d'API et de systèmes",
+    "image": "/all_services/api_system_integration_automation/wwg.svg",
+    "list_items": [
+      { "title": "1. Intégrations d'API personnalisées", "description": "Connexions sécurisées entre votre ERP, CRM et outils SaaS." },
+      { "title": "2. Pipelines de données automatisés", "description": "Synchronisation en temps réel sur l'ensemble des systèmes." },
+      { "title": "3. Automatisation Webhook & Événement", "description": "Flux de travail multiplateformes basés sur des déclencheurs." },
+      { "title": "4. Tableau de bord de surveillance", "description": "Visibilité sur la santé et les performances de l'intégration." }
+    ]
+  },
+  "technologies_section": {
+    "title": "Technologies d'intégration",
+    "subtitle": "Architecture d'API sécurisée et évolutive",
+    "tools": [
+      { "name": "REST APIs", "icon": "FaExchangeAlt" },
+      { "name": "GraphQL", "icon": "SiGraphql" },
+      { "name": "Node.js", "icon": "FaNodeJs" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "AWS", "icon": "FaAws" },
+      { "name": "MongoDB", "icon": "SiMongodb" }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Déploiement d'intégration sécurisée",
+    "steps": [
+      { "title": "Analyser", "description": "Auditer les systèmes existants et les flux de données.", "icon": "FaSearch" },
+      { "title": "Architecturer", "description": "Concevoir une stratégie d'intégration d'API sécurisée.", "icon": "TbTools" },
+      { "title": "Développer", "description": "Construire les intégrations et les déclencheurs d'automatisation.", "icon": "FaHammer" },
+      { "title": "Déployer", "description": "Lancer et surveiller la synchronisation en temps réel.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "5 systèmes métier unifiés",
+    "image": "/all_services/api_system_integration_automation/case_study.svg",
+    "content": {
+      "problem": { "label": "Problème", "text": "Une entreprise de vente au détail utilisait des outils ERP, CRM et comptables déconnectés causant des doublons." },
+      "solution": { "label": "Solution", "text": "Mise en œuvre d'une intégration basée sur l'API avec synchronisation automatisée des commandes." },
+      "result": { "label": "Résultat", "text": "Erreurs de données réduites de 70 % et reporting entièrement automatisé." }
+    }
+  },
+  "faq_section": {
+    "title": "Questions fréquemment posées",
+    "subtitle": "FAQ sur l'automatisation de l'intégration",
+    "questions": [
+      { "question": "Pouvez-vous intégrer les systèmes ERP et CRM ?", "answer": "Oui, nous construisons des connexions API sécurisées entre les plateformes d'entreprise." },
+      { "question": "Fournissez-vous la synchronisation des données en temps réel ?", "answer": "Oui, y compris l'automatisation pilotée par webhooks et événements." },
+      { "question": "L'intégration d'API est-elle sécurisée ?", "answer": "Nous mettons en œuvre des connexions cryptées et des protocoles d'authentification stricts." },
+      { "question": "Les intégrations peuvent-elles évoluer avec notre entreprise ?", "answer": "Oui, notre architecture est conçue pour l'évolutivité en entreprise." },
+      { "question": "Travaillez-vous avec des clients internationaux ?", "answer": "Oui, nous servons des entreprises aux USA, en Europe, en Australie, au Canada, aux Émirats Arabes Unis et dans les pays du CCG." }
+    ],
+    "footer": {
+      "text": "Besoin d'aide pour l'intégration ?",
+      "link_text": "Contactez notre équipe d'intégration",
+      "link_url": "/contact"
+    }
+  }
+}
