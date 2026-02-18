@@ -1,4 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 export function CategoryNav({ blogs, categories }: any) {
@@ -69,10 +72,10 @@ read more
         </div>
 
 
-        <a href="/blogs" >
+        <Link href="/blogs" >
          <button className="p-4 bg-[#402060] hover:-translate-y-4 ml-[30%] hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl md:ml-[40%] mt-20">
             View more
-        </button></a>
+        </button></Link>
 
 
 </div>

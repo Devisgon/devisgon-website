@@ -1,5 +1,5 @@
 export interface ServiceFeature {
-  icon?: any; 
+  icon?: unknown; 
   title: string;
   details: string;
 }

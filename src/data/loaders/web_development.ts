@@ -37,7 +37,7 @@ import frcb from "@/data/french_data/services/web_and_mobile_development//custom
 
 
 
-export const workflowData: Record<string, Record<string, any>> = {
+export const workflowData: Record<string, Record<string, unknown>> = {
   en: {
     "app_applications": enaa, 
     "web_applications": enwa,

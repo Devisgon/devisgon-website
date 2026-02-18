@@ -1,7 +1,7 @@
 import { IconType } from "react-icons";
 
 export interface ProcessStep {
-  icon: any;           
+  icon: unknown;           
   title: string;
   description: string;
 }

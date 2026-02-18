@@ -44,7 +44,7 @@ import frbn from "@/data/french_data/services/data_solutions/business_analytics.
 
 
 
-export const workflowData: Record<string, Record<string, any>> = {
+export const workflowData: Record<string, Record<string, unknown>> = {
   en: {
     "ai_ml_models": enml, 
     "data_scraping": ends,

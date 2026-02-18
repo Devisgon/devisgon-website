@@ -44,7 +44,7 @@ import frsaas from "@/data/french_data/services/ai_and_saas_developments/saas_pl
 
 
 
-export const workflowData: Record<string, Record<string, any>> = {
+export const workflowData: Record<string, Record<string, unknown>> = {
   en: {
     "ai_powered_app": enAi, 
     "meachine_learning": enmi,

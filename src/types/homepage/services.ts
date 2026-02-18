@@ -1,6 +1,6 @@
 export interface ServiceCard {
   title: string;
-  image_alt?: any;
+  image_alt?: unknown;
   link: string;
 }
 

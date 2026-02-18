@@ -182,7 +182,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                         : "text-t-secondary text-sm md:text-base dark:text-t-primary"
                     }`}
                   >
-                    "{review.review}"
+                    &quot;{review.review}&quot;
                   </p>
                 </div>
               </div>

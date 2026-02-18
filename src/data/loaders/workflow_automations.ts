@@ -75,7 +75,7 @@ import frMsa from "@/data/french_data/services/workflow_automations/marketing_sa
 import frApi from "@/data/french_data/services/workflow_automations/api_integration.json"
 
 
-export const workflowData: Record<string, Record<string, any>> = {
+export const workflowData: Record<string, Record<string, unknown>> = {
   en: {
     "ai_powered_automation": enAi,
     "low_code_automations": enLow,
