@@ -1,25 +1,27 @@
 import { postgresAdapter } from "@payloadcms/db-postgres";
-
 import { lexicalEditor } from "@payloadcms/richtext-lexical";
 import path from "path";
 import { buildConfig } from "payload";
 import { fileURLToPath } from "url";
 import sharp from "sharp";
+import { s3Storage } from "@payloadcms/storage-s3";
 
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
-import  Blogs  from "./collections/Blogs";
+import Blogs from "./collections/Blogs";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
+  // Ensure the serverURL is set for Vercel admin panel to route correctly
+  serverURL: process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000",
   cors: [
-    'http://localhost:3000',
-    'https://test-omega-coral-10.vercel.app', 
+    "http://localhost:3000",
+    "https://test-omega-coral-10.vercel.app",
   ],
   csrf: [
-    'https://test-omega-coral-10.vercel.app',
+    "https://test-omega-coral-10.vercel.app",
   ],
   admin: {
     user: Users.slug,
@@ -29,18 +31,32 @@ export default buildConfig({
   },
   collections: [Users, Media, Blogs],
   editor: lexicalEditor(),
-  secret: process.env.PAYLOAD_SECRET || "",
+  secret: process.env.PAYLOAD_SECRET || "fallback-secret-change-me",
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
   db: postgresAdapter({
     pool: {
       connectionString: process.env.DATABASE_URL || "",
- ssl: {
-    rejectUnauthorized: false,
-  },
-  },
+      ssl: { rejectUnauthorized: false },
+    },
   }),
   sharp,
-  plugins: [],
+  plugins: [
+    s3Storage({
+      collections: {
+        media: true, // Matches your Media collection slug
+      },
+      bucket: process.env.S3_BUCKET!,
+      config: {
+        endpoint: process.env.S3_ENDPOINT!,
+        region: process.env.S3_REGION || "auto",
+        credentials: {
+          accessKeyId: process.env.S3_ACCESS_KEY_ID!,
+          secretAccessKey: process.env.S3_SECRET_ACCESS_KEY!,
+        },
+        forcePathStyle: true, // Required for Supabase S3 compatibility
+      },
+    }),
+  ],
 });
