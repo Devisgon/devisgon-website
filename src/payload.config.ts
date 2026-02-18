@@ -14,7 +14,7 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
-  // Tells Payload exactly where it is hosted
+  // VITAL: This tells Payload its public address on Vercel
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000",
   cors: [
     "http://localhost:3000",
@@ -45,7 +45,7 @@ export default buildConfig({
   plugins: [
     s3Storage({
       collections: {
-        media: true, // Use 'media' to match your Media collection slug
+        media: true, 
       },
       bucket: process.env.S3_BUCKET!,
       config: {
@@ -55,7 +55,7 @@ export default buildConfig({
           accessKeyId: process.env.S3_ACCESS_KEY_ID!,
           secretAccessKey: process.env.S3_SECRET_ACCESS_KEY!,
         },
-        forcePathStyle: true, // Required for Supabase S3
+        forcePathStyle: true, // This is required for Supabase S3 compatibility
       },
     }),
   ],
