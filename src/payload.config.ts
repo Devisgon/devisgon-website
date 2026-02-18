@@ -14,7 +14,7 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
-  // Ensure the serverURL is set for Vercel admin panel to route correctly
+  // Tells Payload exactly where it is hosted
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000",
   cors: [
     "http://localhost:3000",
@@ -31,7 +31,7 @@ export default buildConfig({
   },
   collections: [Users, Media, Blogs],
   editor: lexicalEditor(),
-  secret: process.env.PAYLOAD_SECRET || "fallback-secret-change-me",
+  secret: process.env.PAYLOAD_SECRET || "default_secret_for_dev_only",
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
@@ -45,7 +45,7 @@ export default buildConfig({
   plugins: [
     s3Storage({
       collections: {
-        media: true, // Matches your Media collection slug
+        media: true, // Use 'media' to match your Media collection slug
       },
       bucket: process.env.S3_BUCKET!,
       config: {
@@ -55,7 +55,7 @@ export default buildConfig({
           accessKeyId: process.env.S3_ACCESS_KEY_ID!,
           secretAccessKey: process.env.S3_SECRET_ACCESS_KEY!,
         },
-        forcePathStyle: true, // Required for Supabase S3 compatibility
+        forcePathStyle: true, // Required for Supabase S3
       },
     }),
   ],
