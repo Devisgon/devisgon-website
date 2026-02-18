@@ -86,7 +86,7 @@ const validateEmail = (value: string): boolean => {
   setStatus("");
 
   const formData = new FormData(formRef.current);
-  const jsonData: any = Object.fromEntries(formData.entries());
+  const jsonData = Object.fromEntries(formData.entries());
 
   // Convert file to base64 if exists
   if (file) {
@@ -127,7 +127,7 @@ const validateEmail = (value: string): boolean => {
           transition={{ duration: 0.8 }}
         >
           <h1 className="text-4xl md:text-5xl font-extrabold text-t-primary mb-4">
-            Let's Talk About Your Project
+Let&apos;s Talk About Your Project
           </h1>
           <p className="max-w-2xl mx-auto text-sm md:text-base text-t-primary">
             Ready to bring your vision to life? We’d love to hear about your project and
