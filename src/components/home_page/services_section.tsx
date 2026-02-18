@@ -2,7 +2,7 @@
 
 import styles from "../animations/ServicesSection.module.css";
 import type { ServicesSectionProps } from "@/types/homepage/services";
-
+import Image from "next/image";
 export default function ServicesSection({ data }: ServicesSectionProps) {
   return (
     <section className=" p-5 md:p-10 flex flex-col bg-background items-center overflow-hidden">
@@ -31,6 +31,7 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
     <img
       src={card.image_alt}
       alt={card.title}
+      
       className={styles.cardImage}
     />
 

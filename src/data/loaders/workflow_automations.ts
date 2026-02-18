@@ -1,3 +1,8 @@
+
+
+
+
+
 // ENGLISH
 import enAi from "@/data/english_data/services/workflow_automations/ai_powered_automation.json";
 import enLow from "@/data/english_data/services/workflow_automations/low_code_automations.json";
@@ -74,7 +79,7 @@ import frDia from "@/data/french_data/services/workflow_automations/infrastructu
 import frMsa from "@/data/french_data/services/workflow_automations/marketing_sales_automation.json"
 import frApi from "@/data/french_data/services/workflow_automations/api_integration.json"
 
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const workflowData: Record<string, Record<string, any>> = {
   en: {
     "ai_powered_automation": enAi,

@@ -1,3 +1,4 @@
+
 // ENGLISH
 import enaa from "@/data/english_data/services/web_and_mobile_development/app_applications.json";
 import enwa from "@/data/english_data/services/web_and_mobile_development/web_applications.json";
@@ -36,12 +37,14 @@ import frwa from "@/data/french_data/services/web_and_mobile_development/web_app
 import frcb from "@/data/french_data/services/web_and_mobile_development//custom_bots.json";
 
 
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const workflowData: Record<string, Record<string, any>> = {
+  
   en: {
     "app_applications": enaa, 
     "web_applications": enwa,
     "custom_bots": encb,
+
 
   },
    ur: {

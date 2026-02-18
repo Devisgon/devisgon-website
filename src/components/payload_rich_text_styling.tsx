@@ -4,8 +4,8 @@ import {
   RichText,
   type JSXConvertersFunction,
 } from "@payloadcms/richtext-lexical/react";
-
 type Props = {
+  /* eslint-disable @typescript-eslint/no-explicit-any */
   content: any;
 };
 

@@ -1,4 +1,8 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
+
 "use client";
+import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 import { ArrowRight } from "lucide-react";
 export function CategoryNav({ blogs, categories }: any) {
@@ -37,9 +41,11 @@ export function CategoryNav({ blogs, categories }: any) {
             <div key={blog.id} className="group cursor-pointer flex flex-col h-full">
               
               <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-72 w-full">
-                <img
+                <Image
                   src={blog.coverImage.url}
                   alt={blog.title}
+                  width={100}
+                  height={100}
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
               </div>
@@ -69,10 +75,10 @@ read more
         </div>
 
 
-        <a href="/blogs" >
+        <Link href="/blogs" >
          <button className="p-4 bg-[#402060] hover:-translate-y-4 ml-[30%] hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl md:ml-[40%] mt-20">
             View more
-        </button></a>
+        </button></Link>
 
 
 </div>
