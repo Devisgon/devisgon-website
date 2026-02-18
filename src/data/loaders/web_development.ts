@@ -39,10 +39,12 @@ import frcb from "@/data/french_data/services/web_and_mobile_development//custom
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const workflowData: Record<string, Record<string, any>> = {
+  
   en: {
     "app_applications": enaa, 
     "web_applications": enwa,
     "custom_bots": encb,
+
 
   },
    ur: {
