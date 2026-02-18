@@ -1,6 +1,7 @@
 export interface ServiceCard {
   title: string;
-  image_alt?: unknown;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  image_alt?: any;
   link: string;
 }
 

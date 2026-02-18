@@ -1,3 +1,4 @@
+
 // ENGLISH
 import enml from "@/data/english_data/services/data_solutions/ai_ml_models.json";
 import ends from "@/data/english_data/services/data_solutions/data_scraping.json";
@@ -43,8 +44,8 @@ import frdad from "@/data/french_data/services/data_solutions/data_analytics_das
 import frbn from "@/data/french_data/services/data_solutions/business_analytics.json";
 
 
-
-export const workflowData: Record<string, Record<string, unknown>> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const workflowData: Record<string, Record<string, any>> = {
   en: {
     "ai_ml_models": enml, 
     "data_scraping": ends,

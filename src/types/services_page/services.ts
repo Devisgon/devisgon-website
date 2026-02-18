@@ -1,5 +1,6 @@
 export interface ServiceFeature {
-  icon?: unknown; 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  icon?: any; 
   title: string;
   details: string;
 }
@@ -10,7 +11,8 @@ export interface ServiceItem {
   span: string;
   description: string;
   features: ServiceFeature[];
-  image: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  image: any;
   deliverables: string[];
   tech_stack: string[];
   bg?: string;

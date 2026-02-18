@@ -1,7 +1,8 @@
 import { IconType } from "react-icons";
 
 export interface ProcessStep {
-  icon: unknown;           
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  icon: any;           
   title: string;
   description: string;
 }

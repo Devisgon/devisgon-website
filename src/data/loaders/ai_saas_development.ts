@@ -1,3 +1,5 @@
+
+
 // ENGLISH
 import enAi from "@/data/english_data/services/ai_and_saas_developments/ai_powered_app.json";
 import enmi from "@/data/english_data/services/ai_and_saas_developments/meachine_learning.json";
@@ -43,8 +45,8 @@ import frmvp from "@/data/french_data/services/ai_and_saas_developments/mvps.jso
 import frsaas from "@/data/french_data/services/ai_and_saas_developments/saas_plateform.json";
 
 
-
-export const workflowData: Record<string, Record<string, unknown>> = {
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+export const workflowData: Record<string, Record<string, any>> = {
   en: {
     "ai_powered_app": enAi, 
     "meachine_learning": enmi,
