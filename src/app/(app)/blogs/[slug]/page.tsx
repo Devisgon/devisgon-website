@@ -54,9 +54,9 @@ export default async function BlogPostPage({
         )}
       </div>
 
-      <link href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 -ml-2 md:-ml-12 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
+      <Link href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 -ml-2 md:-ml-12 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
           Back to Blogs
-        </link>
+        </Link>
     </main>
   )
 }
