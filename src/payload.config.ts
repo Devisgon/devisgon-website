@@ -14,6 +14,13 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
+  cors: [
+    'http://localhost:3000',
+    'https://test-omega-coral-10.vercel.app', 
+  ],
+  csrf: [
+    'https://test-omega-coral-10.vercel.app',
+  ],
   admin: {
     user: Users.slug,
     importMap: {
