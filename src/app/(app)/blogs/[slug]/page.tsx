@@ -2,7 +2,7 @@ import { getPayload } from 'payload'
 import config from '@payload-config'
 import { notFound } from 'next/navigation'
 import { RichText } from '@payloadcms/richtext-lexical/react'
-
+import Link from 'next/link'
 import CustomRichText from "@/components/payload_rich_text_styling";
 
 export default async function BlogPostPage({
@@ -13,6 +13,7 @@ export default async function BlogPostPage({
   const { slug } = await params
   const payload = await getPayload({ config })
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
   const result = await (payload as any).find({
     collection: 'blogs',
     where: { slug: { equals: slug } },
@@ -53,9 +54,9 @@ export default async function BlogPostPage({
         )}
       </div>
 
-      <a href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 -ml-2 md:-ml-12 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
+      <link href="/blogs" className="p-4 bg-[#402060] hover:-translate-y-4 -ml-2 md:-ml-12 hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl " >
           Back to Blogs
-        </a>
+        </link>
     </main>
   )
 }
