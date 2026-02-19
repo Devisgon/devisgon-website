@@ -2,10 +2,10 @@
   "slug": "robotic-process-automation",
   "hero_section": {
     "title": "机器人流程自动化 (RPA) 服务",
-    "subtitle": "数据输入、发票提取与旧系统自动化",
-    "description": "部署数字化员工，自动执行数据输入、发票提取、报告下载和旧软件流程等重复性任务，从而降低成本并提高效率。",
+    "subtitle": "数据录入、发票提取和遗留系统自动化",
+    "description": "部署数字员工来自动执行重复性任务，如数据录入、发票提取、报告下载和遗留软件流程——降低成本并提高效率。",
     "buttons": [
-      { "text": "部署数字化员工", "link": "/contact" },
+      { "text": "部署数字员工", "link": "/contact" },
       { "text": "联系我们", "link": "/contact" }
     ],
     "hero_image": "/videos/ai_ml_models.mp4"
@@ -14,15 +14,81 @@
     "heading": "什么是",
     "span_heading": " 机器人流程自动化？",
     "content": [
-      "许多公司依赖员工执行重复性任务，如输入发票数据、下载报告和更新旧系统。",
-      "在 Devisgon，我们构建 RPA 机器人，模拟人类与应用程序的交互，并 24/7 全天候执行基于规则的任务。我们的机器人可以：",
+      "许多公司依赖员工处理重复性任务，如输入发票数据、下载报告和更新遗留系统。",
+      "在 Devisgon，我们构建 RPA 机器人，模拟人类与应用程序的交互并执行基于规则的 24/7 任务。我们的机器人可以：",
       "  • 使用 OCR 提取发票数据",
-      "  • 自动化重复的数据输入",
+      "  • 自动执行重复的数据录入",
       "  • 下载并生成报告",
-      "  • 操作旧版桌面系统",
-      "结果：降低劳动力成本，加快处理速度，且几乎实现零错误。"
+      "  • 操作遗留桌面系统",
+      "结果：降低人工成本、加快处理速度并实现近乎零错误。"
     ],
-    "highlight_quote": "“永不停歇的数字化员工。”",
+    "highlight_quote": "“永不停歇的数字员工。”",
     "side_image": "/all_services/ai_powered_app/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "核心优势",
+    "subtitle": "即刻自动化重复性工作",
+    "cards": [
+      { "title": "24/7 执行", "description": "机器人持续工作，无需休息。", "icon_type": "MdAccessTime" },
+      { "title": "降低成本", "description": "减少对体力劳动的依赖。", "icon_type": "MdSavings" },
+      { "title": "高准确性", "description": "最大限度减少重复过程中的错误。", "icon_type": "MdVerified" },
+      { "title": "兼容遗留系统", "description": "无需更换当前系统即可工作。", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "通过 RPA 您将获得什么",
+    "image": "/all_services/ai_powered_app/wwg.svg",
+    "list_items": [
+      { "title": "1. 定制 RPA 机器人", "description": "专门为您的工作流程设计的软件机器人。" },
+      { "title": "2. 发票和数据自动化", "description": "自动发票提取和数据处理。" },
+      { "title": "3. 遗留系统自动化", "description": "机器人驱动的旧应用程序自动化。" },
+      { "title": "4. 机器人监控仪表盘", "description": "实时跟踪性能和报告。" }
+    ]
+  },
+  "technologies_section": {
+    "title": "现代 RPA 技术",
+    "subtitle": "安全且可扩展的工具",
+    "tools": [
+      { "name": "UiPath", "icon": "SiUipath" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "Automation Anywhere", "icon": "LiaAutoprefixer " },
+      { "name": "AWS", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "我们的流程",
+    "subtitle": "数周内快速部署机器人",
+    "steps": [
+      { "title": "评估", "description": "识别重复的自动化机会。", "icon": "FaSearch" },
+      { "title": "设计", "description": "创建机器人逻辑和自动化工作流。", "icon": "TbTools" },
+      { "title": "构建", "description": "开发并测试 RPA 机器人。", "icon": "FaHammer" },
+      { "title": "部署", "description": "启动机器人并监控性能。", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "发票处理速度提高 80%",
+    "image": "/all_services/ai_powered_app/case_study.svg",
+    "content": {
+      "problem": { "label": "问题", "text": "手动发票数据录入消耗了数百小时的员工时间。" },
+      "solution": { "label": "解决方案", "text": "实施了基于 OCR 的 RPA 机器人来提取和核实发票。" },
+      "result": { "label": "结果", "text": "处理时间减少了 80%，错误减少了 90%。" }
+    }
+  },
+  "faq_section": {
+    "title": "常见问题",
+    "subtitle": "关于 RPA 的常见疑问",
+    "questions": [
+      { "question": "RPA 可以自动提取发票吗？", "answer": "是的，包括基于 OCR 的发票处理。" },
+      { "question": "RPA 是否适用于遗留系统？", "answer": "是的，机器人模拟人类交互。" },
+      { "question": "RPA 安全吗？", "answer": "我们实施加密和受控的机器人环境。" },
+      { "question": "RPA 的可扩展性如何？", "answer": "可以根据需要部署额外的机器人。" },
+      { "question": "你们服务国际公司吗？", "answer": "是的，包括美国、欧洲、澳大利亚和海湾市场。" }
+    ],
+    "footer": {
+      "text": "还有更多问题？",
+      "link_text": "咨询我们的 RPA 团队",
+      "link_url": "/contact"
+    }
   }
 }

@@ -42,11 +42,7 @@ import servicesEs from '@/data/spanish_data/services_page.json';
 import privacyEs from '@/data/spanish_data/privacy_policy.json';
 import termsEs from '@/data/spanish_data/terms_condition.json';
 
-// Punjabi
-import homePa from '@/data/punjabi_data/home_page.json';
-import servicesPa from '@/data/punjabi_data/services_page.json';
-import privacyPa from '@/data/punjabi_data/privacy_policy.json';
-import termsPa from '@/data/punjabi_data/terms_condition.json';
+
 
 i18n
   .use(LanguageDetector)
@@ -60,7 +56,6 @@ i18n
       zh: { home: homeZh, services: servicesZh, privacy: privacyZh, terms: termsZh }, 
       de: { home: homeDe, services: servicesDe, privacy: privacyDe, terms: termsDe }, 
       es: { home: homeEs, services: servicesEs, privacy: privacyEs, terms: termsEs }, 
-      pa: { home: homePa, services: servicesPa, privacy: privacyPa, terms: termsPa }, 
     },
     fallbackLng: 'en',
     debug: false, 

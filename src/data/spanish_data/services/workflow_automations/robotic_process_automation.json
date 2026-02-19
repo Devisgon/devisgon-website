@@ -2,27 +2,93 @@
   "slug": "robotic-process-automation",
   "hero_section": {
     "title": "Servicios de Automatización Robótica de Procesos (RPA)",
-    "subtitle": "Entrada de datos, extracción de facturas y automatización de sistemas heredados",
-    "description": "Despliegue trabajadores digitales para automatizar tareas repetitivas como la entrada de datos, la extracción de facturas, la descarga de informes y los procesos de software heredados, reduciendo costos y aumentando la eficiencia.",
+    "subtitle": "Entrada de Datos, Extracción de Facturas y Automatización de Sistemas Heredados",
+    "description": "Despliegue trabajadores digitales para automatizar tareas repetitivas como la entrada de datos, extracción de facturas, descarga de informes y procesos de software heredados, reduciendo costos y aumentando la eficiencia.",
     "buttons": [
-      { "text": "Desplegar trabajadores digitales", "link": "/contact" },
+      { "text": "Desplegar Trabajadores Digitales", "link": "/contact" },
       { "text": "Contáctenos", "link": "/contact" }
     ],
-    "hero_image": "/videos/ai_ml_models.mp4"
+    "hero_image": "/videos/api_integration.mp4"
   },
   "introduction_section": {
     "heading": "¿Qué es la",
     "span_heading": " Automatización Robótica de Procesos?",
     "content": [
-      "Muchas empresas dependen de empleados para tareas repetitivas como ingresar datos de facturas, descargar informes y actualizar sistemas antiguos.",
+      "Muchas empresas dependen de empleados para tareas repetitivas como ingresar datos de facturas, descargar informes y actualizar sistemas heredados.",
       "En Devisgon, construimos bots de RPA que imitan las interacciones humanas con las aplicaciones y realizan tareas basadas en reglas las 24 horas, los 7 días de la semana. Nuestros bots pueden:",
-      "  • Extraer datos de facturas usando OCR",
+      "  • Extraer datos de facturas mediante OCR",
       "  • Automatizar la entrada de datos repetitiva",
       "  • Descargar y generar informes",
       "  • Operar sistemas de escritorio heredados",
-      "El resultado: menores costos de mano de obra, procesamiento más rápido y errores cercanos a cero."
+      "El resultado: menores costos laborales, procesamiento más rápido y errores cercanos a cero."
     ],
     "highlight_quote": "“Trabajadores digitales que nunca se detienen.”",
-    "side_image": "/all_services/ai_powered_app/introduction.svg"
+    "side_image": "/all_services/api_integration/introduction.jpeg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios Clave",
+    "subtitle": "Automatice el Trabajo Repetitivo al Instante",
+    "cards": [
+      { "title": "Ejecución 24/7", "description": "Los bots trabajan continuamente sin descansos.", "icon_type": "MdAccessTime" },
+      { "title": "Menores Costos", "description": "Reduzca la dependencia del trabajo manual.", "icon_type": "MdSavings" },
+      { "title": "Alta Precisión", "description": "Minimice errores en procesos repetitivos.", "icon_type": "MdVerified" },
+      { "title": "Compatible con Sistemas Heredados", "description": "Funciona sin reemplazar los sistemas actuales.", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que Obtiene con RPA",
+    "image": "/all_services/api_integration/wwg.jpeg",
+    "list_items": [
+      { "title": "1. Bots de RPA Personalizados", "description": "Robots de software diseñados específicamente para su flujo de trabajo." },
+      { "title": "2. Automatización de Facturas y Datos", "description": "Extracción automatizada de facturas y procesamiento de datos." },
+      { "title": "3. Automatización de Sistemas Heredados", "description": "Automatización impulsada por robots para aplicaciones antiguas." },
+      { "title": "4. Panel de Monitoreo de Bots", "description": "Siga el rendimiento y los informes en tiempo real." }
+    ]
+  },
+  "technologies_section": {
+    "title": "Tecnologías Modernas de RPA",
+    "subtitle": "Herramientas Seguras y Escalables",
+    "tools": [
+      { "name": "UiPath", "icon": "SiUipath" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "Automation Anywhere", "icon": "LiaAutoprefixer " },
+      { "name": "AWS", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro Proceso",
+    "subtitle": "Despliegue Rápido de Bots en Semanas",
+    "steps": [
+      { "title": "Evaluación", "description": "Identifique oportunidades de automatización repetitiva.", "icon": "FaSearch" },
+      { "title": "Diseño", "description": "Cree la lógica del bot y el flujo de trabajo de automatización.", "icon": "TbTools" },
+      { "title": "Construcción", "description": "Desarrolle y pruebe los bots de RPA.", "icon": "FaHammer" },
+      { "title": "Despliegue", "description": "Lance los bots y monitoree el rendimiento.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Procesamiento de Facturas un 80% más Rápido",
+    "image": "/all_services/api_integration/case_study.jpeg",
+    "content": {
+      "problem": { "label": "Problema", "text": "La entrada manual de datos de facturas consumía cientos de horas de los empleados." },
+      "solution": { "label": "Solución", "text": "Se implementaron bots de RPA basados en OCR para extraer y verificar facturas." },
+      "result": { "label": "Resultado", "text": "Tiempo de procesamiento reducido en un 80% con un 90% menos de errores." }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Preguntas Comunes sobre RPA",
+    "questions": [
+      { "question": "¿Puede el RPA automatizar la extracción de facturas?", "answer": "Sí, incluyendo el procesamiento de facturas basado en OCR." },
+      { "question": "¿Funciona el RPA con sistemas heredados?", "answer": "Sí, los bots imitan las interacciones humanas." },
+      { "question": "¿Es seguro el RPA?", "answer": "Implementamos entornos de bots encriptados y gobernados." },
+      { "question": "¿Qué tan escalable es el RPA?", "answer": "Se pueden desplegar bots adicionales según sea necesario." },
+      { "question": "¿Atienden a empresas internacionales?", "answer": "Sí, incluyendo los mercados de EE. UU., Europa, Australia y el Golfo." }
+    ],
+    "footer": {
+      "text": "¿Tiene más preguntas?",
+      "link_text": "Hable con nuestro equipo de RPA",
+      "link_url": "/contact"
+    }
   }
 }
