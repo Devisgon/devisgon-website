@@ -6,6 +6,7 @@
     "dev": "next dev ",
     "build": "next build ",
     "start": "next start",
+  "postbuild": "next-sitemap",
     "lint": "eslint"
   },
   "dependencies": {
@@ -26,6 +27,7 @@
     "lucide-react": "^0.562.0",
     "next": "15.4",
     "next-intl": "^4.8.2",
+    "next-sitemap": "^4.2.3",
     "nodemailer": "^7.0.12",
     "ogl": "^1.0.11",
     "payload": "^3.77.0",
