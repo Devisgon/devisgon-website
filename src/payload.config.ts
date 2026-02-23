@@ -28,7 +28,15 @@ export default buildConfig({
     importMap: {
       baseDir: path.resolve(dirname),
     },
+   
   },
+  localization: {
+  locales: [
+    'en','ur', 'fr', 'es', 'ar', 'de', 'zh', 
+  ],
+  defaultLocale: 'en',
+  fallback: true,
+},
   collections: [Users, Media, Blogs],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "default_secret_for_dev_only",

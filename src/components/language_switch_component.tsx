@@ -34,10 +34,12 @@ const LanguageSwitcher = () => {
   }, []);
 
   const changeLanguage = (code: string) => {
+      document.cookie = `lang=${code}; path=/`;
     if (i18n?.changeLanguage) {
       i18n.changeLanguage(code).then(() => {
         document.documentElement.lang = code;
       });
+      
     }
     setIsOpen(false);
   };
