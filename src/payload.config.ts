@@ -16,13 +16,14 @@ const dirname = path.dirname(filename);
 export default buildConfig({
   // VITAL: This tells Payload its public address on Vercel
   serverURL: process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000",
-  cors: [
-    "http://localhost:3000",
-    "https://test-omega-coral-10.vercel.app",
-  ],
-  csrf: [
-    "https://test-omega-coral-10.vercel.app",
-  ],
+ cors: [
+  "http://localhost:3000",
+  "https://devisgon.com",  
+],
+
+csrf: [
+  "https://devisgon.com",  
+],
   admin: {
     user: Users.slug,
     importMap: {
