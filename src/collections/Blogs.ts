@@ -8,8 +8,11 @@ const Blogs: CollectionConfig = {
     defaultColumns: ['title', 'category', 'date', 'status'],
   },
   access: {
-    read: () => true,
-  },
+  create: ({ req }) => Boolean(req.user),
+  read: () => true,
+  update: ({ req }) => Boolean(req.user),
+  delete: ({ req }) => Boolean(req.user),
+},
   fields: [
     {
       name: 'category',
