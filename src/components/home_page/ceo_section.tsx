@@ -30,7 +30,7 @@ const CEOSection = ({ data }: CEOSectionProps) => {
 
               <p className="text-t-secondary text-sm md:text-base leading-relaxed max-w-xl mx-auto">
                 &quot;At <span className="font-semibold text-secondary">Devisgon</span>
-                {data.quote}
+                {data.quote}&quot;
               </p>
 
               <div className="space-y-1">

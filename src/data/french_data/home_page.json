@@ -1,364 +1,130 @@
 {
-    "hero_section": {
-      "pre_title": "Your Partner in Next-Gen Technology",
-      "main_title": "AI-Powered Software ",
-      "sub_main_title":"Smarter Workflows",
-      "title":"Scalable Growth.",
-      "description": "Helping global businesses save 20–50% of time through AI automation.",
-      "cta_button": {
-        "text": "Get Started",
-        "link": "#"
-      }
-    },
-    "services_section": {
-      "header_title": "SERVICES",
-      "main_title": "We provide All-in-one Solution for every IT Service",
-      "services_list": [
-        {
-          "title": "WEB DEVELOPMENT",
-          "image_alt": "/home_page/services/web_development.svg",
-          "link":"/services/web_and_mobile_development/web_applications"
-        },
-        {
-          "title": "APP DEVELOPMENT",
-          "image_alt": "/home_page/services/app_development.svg",
-          "link": "/services/web_and_mobile_development/app_applications"
-        },
-        {
-          "title": "SaaS development",
-          "image_alt": "/home_page/services/saas_development.svg",
-          "link":"/services/saas/saas_plateform"
-
-        },
-        {
-          "title": "DATA Analytics",
-          "image_alt": "/home_page/services/data_analysing.svg",
-          "link":"/services/data_solutions/data_analytics_dashboard"
-
-        },
-        {
-          "title": "Cloude & Deployment",
-          "image_alt": "/home_page/services/cloude_and_development.svg",
-          "link":"/services/saas/mvps"
-
-        },
-        {
-          "title": "Design & Strategy",
-          "image_alt": "/home_page/services/design_stratagy.svg",
-          "link":"/services/automations/ai_powered_automation"
-
-        },
-        {
-          "title": "Software Consulting",
-          "image_alt": "/home_page/services/software_consulting.svg",
-          "link":"/services/web_and_mobile_development/app_applications"
-
-        },
-        {
-          "title": "Technical Writing",
-          "image_alt": "/home_page/services/technical_writing.svg",
-          "link":"/services/data_solutions/data_scraping"
-
-        }
-      ]
-    },
-   
-  "expert_services_section": {
-     "main_heading": "Scale Your Business with our Expert Services",
-     "process_checklist_card": {
-      "items": [
-        "Share Your Idea",
-        "Design Phase",
-        "QA (Quality Assurance) Excellence",
-        "Scalability and Automation"
-      ]
-     },
-     "image":"/home_page/expert_services/exper.svg",
-     "core_info_cards": [
-      {
-        "title": "OUR VALUES",
-        "content": "Innovation, Excellence, Agility, Trust, and Impact, the core of everything we build.",
-        "bg": "#8145B5",
-        "main_text"  :"white",
-        "text":"white"
-      },
-      {
-        "title": "OUR VISION",
-        "content": "To be the go-to global partner for AI-powered software and automation solutions, shaping the future of business technology.",
-        "bg": "#ffffff",
-        "main_text"  :"#402060",
-        "text":"black"
-      },
-      {
-        "title": "OUR MISSION",
-        "content": "Empowering businesses with AI solutions to automate, optimize, and grow.",
-        "bg": "#8145B5",
-         "main_text"  :"white",
-        "text":"white"
-      }
+  "hero_section": {
+    "pre_title": "Votre Partenaire en Technologie de Nouvelle Génération",
+    "main_title": "Logiciels Propulsés par l'IA",
+    "sub_main_title": "Flux de Travail Intelligents",
+    "title": "Croissance Évolutive.",
+    "description": "Aider les entreprises mondiales à gagner 20 à 50 % de temps grâce à l'automatisation par l'IA.",
+    "cta_button": { "text": "Commencer", "link": "#" }
+  },
+  "services_section": {
+    "header_title": "SERVICES",
+    "main_title": "Nous fournissons une solution tout-en-un pour chaque service informatique",
+    "services_list": [
+      { "title": "DÉVELOPPEMENT WEB", "image_alt": "/home_page/services/web_development.svg", "link": "/services/web_and_mobile_development/web_applications" },
+      { "title": "DÉVELOPPEMENT D'APPLICATIONS", "image_alt": "/home_page/services/app_development.svg", "link": "/services/web_and_mobile_development/app_applications" },
+      { "title": "Développement SaaS", "image_alt": "/home_page/services/saas_development.svg", "link": "/services/saas/saas_plateform" },
+      { "title": "Analyse de DONNÉES", "image_alt": "/home_page/services/data_analysing.svg", "link": "/services/data_solutions/data_analytics_dashboard" },
+      { "title": "Cloud et Déploiement", "image_alt": "/home_page/services/cloude_and_development.svg", "link": "/services/saas/mvps" },
+      { "title": "Design et Stratégie", "image_alt": "/home_page/services/design_stratagy.svg", "link": "/services/automations/ai_powered_automation" },
+      { "title": "Conseil en Logiciels", "image_alt": "/home_page/services/software_consulting.svg", "link": "/services/web_and_mobile_development/app_applications" },
+      { "title": "Rédaction Technique", "image_alt": "/home_page/services/technical_writing.svg", "link": "/services/data_solutions/data_scraping" }
     ]
   },
-    
-    "solutions_section": {
-      "id": "solutions",
-      "title": "We Help To Get The Right Solutions",
-      "description": "we go beyond building software, we design intelligent, scalable, and AI-powered solutions that streamline workflows, unlock growth, and adapt to your business needs.",
-      "features": [
-        {
-          "title": "AI-Powered Innovation",
-          "description": "Harness AI, automation, and cloud to turn challenges into opportunities.",
-          "icon": "/home_page/solution_section/gear.svg"
-        },
-        {
-          "title": "End-to-End Expertise",
-          "description": "From strategy to deployment, we deliver solutions that create real impact.",
-          "icon": "/home_page/solution_section/code.svg"
-        }
-      ],
-      "side_image":"/home_page/solution_section/solution.svg",
-      "side_card": {
-        "pre_text": "Need smart solutions?",
-        "title": "Looking for help?",
-        "description": "From AI apps to cloud solutions we turns challenges into opportunities."
-      }
-    },
-     "process_section": {
-      "id": "process",
-      "sub_title": "Our Working Process",
-      "main_title": "Our Working Process Shows How We Work For Our Customers",
-      "steps": [
-        {
-          "step_number": 1,
-          "title": "Exploration",
-          "status": "active"
-        },
-        {
-          "step_number": 2,
-          "title": "Planning",
-          "status": "pending"
-        },
-        {
-          "step_number": 3,
-          "title": "Execute",
-          "status": "pending"
-        },
-        {
-          "step_number": 4,
-          "title": "Testing",
-          "status": "pending"
-        },
-        {
-          "step_number": 5,
-          "title": "Deliver",
-          "status": "pending"
-        }
-      ]
-    },
-    
-    "testimonials_section": {
-      "title": "What Our Client Saying",
-      "subtitle_note": "Don't just take our word for it - see what actual users of our service have to say about their experience.",
-      "icon":"/home_page/comments_section/Vector.svg",
-      "reviews": [
-        {
-          "name": "Jane Cooper",
-          "role": "Marketing Coordinator",
-          "review": "Ask CDCR San Quintin State Prison 2008. We installed Purex dispensers throughout the prison to combat diseases... and it was a Roaring Success...",
-          "image": "/home_page/comments_section/comment.svg"
-        },
-        {
-          "name": "Cameron Williamson",
-          "role": "Nursing Assistant",
-          "review": "However rare side effects observed among children can be metabolic acidosis, coma, respiratory depression, and hypoglycemia.",
-          "image": "/home_page/comments_section/comment1.svg"
-        },
-        {
-          "name": "Robert Fox",
-          "role": "Dog Trainer",
-          "review": "Twenty 30-second applications within half an hour is well in excess of almost anyone's use of a sanitizer.",
-          "image": "/home_page/comments_section/comment2.svg"
-        },
-        {
-          "name": "Albert Flores",
-          "role": "Marketing Coordinator",
-"review": "The touchless infrared sensors have reduced cross-contamination risks and decreased the maintenance hours spent on dispenser repair.",
-          "image": "/home_page/comments_section/comment4.svg"
-        },
-        {
-          "name": "Arlene McCoy",
-          "role": "Nursing Assistant",
-          "review": "The implementation of alcohol-based hand rubs has shown a 40% reduction in healthcare-associated infections across our primary wards.",
-          "image": "/home_page/comments_section/comment5.svg"
-        },
-        {
-          "name": "Bessie Cooper",
-          "role": "Marketing Coordinator",
-          "review": "Compliance rates increased significantly once dispensers were placed at 'point-of-care' locations rather than just at the entrance.",
-          "image": "/home_page/comments_section/comment6.svg"
-        },
-        {
-         "name": "Eleanor Pena",
-          "role": "Marketing Coordinator",
-"review": "Dermal absorption of ethanol in neonates is a critical factor; therefore, we recommend non-alcohol-based alternatives for newborn care units.",          "image": "/home_page/comments_section/comment7.svg"
-        },
-        {
-"name": "Guy Hawkins",
-          "role": "Marketing Coordinator",
-"review": "The ergonomic design of the wall-mounted units allows for easier access for patients with limited mobility, promoting better hygiene autonomy.",          "image": "/home_page/comments_section/comment8.svg"
-        },
-        {
-          "name": "Rakuten Viber",
-          "role": "Nursing Assistant",
-          "review": "However rare side effects observed among children can be metabolic acidosis, coma, respiratory depression, and hypoglycemia.",
-          "image": "/home_page/comments_section/comment1.svg"
-        }
-      ]
-    },
-    "working_process":{
-         "section_heading":"Our Working Process",
-         "main_heading":"Our Working Process Shows ",
-         "span_heading":"How We Works",
-         "heading":"For Our Customers",
-         "stepsData" : [
-          { "id": 1, "title": "Exploration" },
-          { "id": 2, "title": "Planning" },
-          { "id": 3, "title": "Execute" },
-          { "id": 4, "title": "Testing" },
-          { "id": 5, "title": "Deliver" }
-            ]   
-    },
-    "ceo_message_section": {
-      "id": "ceo_message",
-      "image":"/home_page/ceo_section/ceo.svg",
-      "title": "A Message from Our CEO",
-      "quote": ", we believe innovation drives the future. Our mission is simple: make AI-powered technology practical and accessible for every business. With 300+ clients and 20+ startups, we've seen automation improve efficiency and reshape customer experiences. Together, let's build smarter, scalable, and secure solutions for tomorrow.",
-      "author": "Zainab Abdullah",
-      "role": "CEO, Devisgon Pvt. Ltd."
-    },
-   
-   "teamMembers" :{
+  "expert_services_section": {
+    "main_heading": "Développez votre entreprise avec nos Services d'Experts",
+    "process_checklist_card": { "items": ["Partagez votre Idée", "Phase de Conception", "Excellence QA (Assurance Qualité)", "Évolutivité et Automatisation"] },
+    "image": "/home_page/expert_services/exper.svg",
+    "core_info_cards": [
+      { "title": "NOS VALEURS", "content": "Innovation, Excellence, Agilité, Confiance et Impact, au cœur de tout ce que nous construisons.", "bg": "#8145B5", "main_text": "white", "text": "white" },
+      { "title": "NOTRE VISION", "content": "Être le partenaire mondial privilégié pour les logiciels et solutions d'automatisation IA.", "bg": "#ffffff", "main_text": "#402060", "text": "black" },
+      { "title": "NOTRE MISSION", "content": "Donner aux entreprises les moyens d'automatiser, d'optimiser et de croître grâce à l'IA.", "bg": "#8145B5", "main_text": "white", "text": "white" }
+    ]
+  },
+  "solutions_section": {
+    "id": "solutions",
+    "title": "Nous vous aidons à obtenir les bonnes solutions",
+    "description": "Nous allons au-delà du développement logiciel; nous concevons des solutions intelligentes et évolutives propulsées par l'IA.",
+    "features": [
+      { "title": "Innovation par l'IA", "description": "Exploitez l'IA et le cloud pour transformer les défis en opportunités.", "icon": "/home_page/solution_section/gear.svg" },
+      { "title": "Expertise de Bout en Bout", "description": "De la stratégie au déploiement, nous livrons des solutions à impact réel.", "icon": "/home_page/solution_section/code.svg" }
+    ],
+    "side_image": "/home_page/solution_section/solution.svg",
+    "side_card": { "pre_text": "Besoin de solutions intelligentes ?", "title": "Vous cherchez de l'aide ?", "description": "Des apps IA aux solutions cloud, nous transformons vos défis en opportunités." }
+  },
+  "process_section": {
+    "id": "process",
+    "sub_title": "Notre Processus de Travail",
+    "main_title": "Notre processus montre comment nous travaillons pour nos clients",
+    "steps": [
+      { "step_number": 1, "title": "Exploration", "status": "active" },
+      { "step_number": 2, "title": "Planification", "status": "pending" },
+      { "step_number": 3, "title": "Exécution", "status": "pending" },
+      { "step_number": 4, "title": "Tests", "status": "pending" },
+      { "step_number": 5, "title": "Livraison", "status": "pending" }
+    ]
+  },
+  "testimonials_section": {
+    "title": "Ce que disent nos clients",
+    "subtitle_note": "Ne nous croyez pas sur parole - voyez ce que les utilisateurs de nos services en disent.",
+    "icon": "/home_page/comments_section/Vector.svg",
+    "reviews": [
+      { "name": "Jane Cooper", "role": "Coordinatrice Marketing", "review": "Nous avons installé des distributeurs Purex dans toute la prison pour lutter contre les maladies... succès retentissant...", "image": "/home_page/comments_section/comment.svg" },
+      { "name": "Cameron Williamson", "role": "Aide-soignant", "review": "Les effets secondaires rares observés chez les enfants peuvent inclure l'acidose métabolique et le coma.", "image": "/home_page/comments_section/comment1.svg" },
+      { "name": "Robert Fox", "role": "Dresseur de chiens", "review": "Vingt applications de 30 secondes en une demi-heure dépassent largement l'usage normal d'un désinfectant.", "image": "/home_page/comments_section/comment2.svg" },
+      { "name": "Albert Flores", "role": "Coordinatrice Marketing", "review": "Les capteurs infrarouges sans contact ont réduit les risques de contamination croisée.", "image": "/home_page/comments_section/comment4.svg" },
+      { "name": "Arlene McCoy", "role": "Aide-soignant", "review": "L'utilisation de solutions hydroalcooliques a montré une réduction de 40% des infections.", "image": "/home_page/comments_section/comment5.svg" },
+      { "name": "Bessie Cooper", "role": "Coordinatrice Marketing", "review": "Le taux de conformité a augmenté significativement avec des distributeurs au point de soin.", "image": "/home_page/comments_section/comment6.svg" },
+      { "name": "Eleanor Pena", "role": "Coordinatrice Marketing", "review": "Nous recommandons des alternatives sans alcool pour les unités de soins néonatals.", "image": "/home_page/comments_section/comment7.svg" },
+      { "name": "Guy Hawkins", "role": "Coordinatrice Marketing", "review": "Le design ergonomique permet un accès plus facile pour les patients à mobilité réduite.", "image": "/home_page/comments_section/comment8.svg" },
+      { "name": "Rakuten Viber", "role": "Aide-soignant", "review": "Cependant, des effets secondaires rares chez les enfants peuvent inclure l'hypoglycémie.", "image": "/home_page/comments_section/comment1.svg" }
+    ]
+  },
+  "working_process": {
+    "section_heading": "Notre Processus de Travail",
+    "main_heading": "Notre processus montre ",
+    "span_heading": "Comment nous travaillons",
+    "heading": "Pour nos clients",
+    "stepsData": [
+      { "id": 1, "title": "Exploration" },
+      { "id": 2, "title": "Planification" },
+      { "id": 3, "title": "Exécution" },
+      { "id": 4, "title": "Tests" },
+      { "id": 5, "title": "Livraison" }
+    ]
+  },
+  "ceo_message_section": {
+    "id": "ceo_message",
+    "image": "/home_page/ceo_section/ceo.svg",
+    "title": "Un message de notre CEO",
+    "quote": "Nous croyons que l'innovation stimule l'avenir. Notre mission est de rendre l'IA accessible à chaque entreprise. Avec plus de 300 clients, nous avons vu l'automatisation transformer l'efficacité.",
+    "author": "Zainab Abdullah",
+    "role": "CEO, Devisgon Pvt. Ltd."
+  },
+  "teamMembers": {
     "team": [
-     {
-    "id": 1,
-    "image": "/home_page/our_team/team01.svg",
-    "alt": "Software Developers"
-     },
-   {
-    "id": 2,
-    "image": "/home_page/our_team/team02.svg",
-    "alt": "UI/UX Designer"
-   },
-  {
-    "id": 3,
-    "image": "/home_page/our_team/ahmad_sajid.svg",
-    "alt": "AI / ML Engineer"
+      { "id": 1, "image": "/home_page/our_team/team01.svg", "alt": "Développeurs Logiciels" },
+      { "id": 2, "image": "/home_page/our_team/team02.svg", "alt": "Designer UI/UX" },
+      { "id": 3, "image": "/home_page/our_team/ahmad_sajid.svg", "alt": "Ingénieur IA / ML" },
+      { "id": 4, "image": "/home_page/our_team/team04.svg", "alt": "Rédacteur de Contenu" },
+      { "id": 5, "image": "/home_page/our_team/hamza_zahid.svg", "alt": "Ingénieur Logiciel" },
+      { "id": 6, "image": "/home_page/our_team/abdullah_shafique.svg", "alt": "Ingénieur Automatisation" },
+      { "id": 7, "image": "/home_page/our_team/team08.svg", "alt": "Développeurs Web" },
+      { "id": 8, "image": "/home_page/our_team/mubashir.svg", "alt": "Développeur Backend Python" }
+    ]
   },
-  {
-    "id": 4,
-    "image": "/home_page/our_team/team04.svg",
-    "alt": "Content Writer"
+  "scale_values_section": {
+    "id": "values",
+    "title": "Développez votre entreprise avec nos services experts",
+    "checklist": ["Partagez votre Idée", "Phase de Conception", "Excellence QA", "Évolutivité et Automatisation"],
+    "cards": [
+      { "title": "NOS VALEURS", "content": "Innovation, Excellence, Agilité, Confiance et Impact." },
+      { "title": "NOTRE VISION", "content": "Être le partenaire mondial de référence pour les logiciels IA." },
+      { "title": "NOTRE MISSION", "content": "Donner aux entreprises les moyens d'automatiser et de croître." }
+    ]
   },
-  {
-    "id": 5,
-    "image": "/home_page/our_team/hamza_zahid.svg",
-    "alt": "Software Engineer"
-  },
-  {
-    "id": 6,
-    "image": "/home_page/our_team/abdullah_shafique.svg",
-    "alt": "Automation Engineer"
-  },
-  {
-    "id": 7,
-    "image": "/home_page/our_team/team08.svg",
-    "alt": "Web Developers"
-  },
-  {
-    "id": 8,
-    "image": "/home_page/our_team/mubashir.svg",
-    "alt": "Python Backend Developer "
+  "blog_section": {
+    "header_title": "Nos Blogs",
+    "main_title": "Découvrez comment l'IA façonne l'avenir des affaires.",
+    "subtitle": "Votre source d'innovation pilotée par l'IA.",
+    "categories": ["Toutes les catégories", "Technologie", "Automatisation", "Productivité", "CRM"],
+    "posts": [
+      { "category": "TECHNOLOGIE", "date": "18 Jan 2025", "title": "Comment les petites entreprises peuvent croître plus vite avec la technologie.", "link_text": "Lire l'article", "image": "/home_page/blogs/blog1.svg" },
+      { "category": "CRM", "date": "19 Jan 2025", "title": "Simplifiez la gestion client et boostez vos ventes.", "link_text": "Lire l'article", "image": "/home_page/blogs/blog2.svg" },
+      { "category": "PRODUCTIVITÉ", "date": "24 Jan 2025", "title": "Optimisez le travail d'équipe pour rester concentré.", "link_text": "Lire l'article", "image": "/home_page/blogs/blog3.svg" },
+      { "category": "AUTOMATISATION", "date": "30 Jan 2025", "title": "Réduisez les tâches répétitives avec l'IA.", "link_text": "Lire l'article", "image": "/home_page/blogs/blog4.svg" },
+      { "category": "INNOVATION", "date": "30 Jan 2025", "title": "Pourquoi la mise à niveau est essentielle pour les PME.", "link_text": "Lire l'article", "image": "/home_page/blogs/blog5.svg" },
+      { "category": "CROISSANCE", "date": "30 Jan 2025", "title": "Pourquoi les entreprises modernes ont besoin d'outils évolutifs.", "link_text": "Lire l'article", "image": "/home_page/blogs/blog6.svg" }
+    ]
   }
-]},
-
-
-    "scale_values_section": {
-      "id": "values",
-      "title": "Scale Your Business with our Expert Services",
-      "checklist": [
-        "Share Your Idea",
-        "Design Phase",
-        "QA (Quality Assurance) Excellence",
-        "Scalability and Automation"
-      ],
-      "cards": [
-        {
-          "title": "OUR VALUES",
-          "content": "Innovation, Excellence, Agility, Trust, and Impact, the core of everything we build."
-        },
-        {
-          "title": "OUR VISION",
-          "content": "To be the go-to global partner for AI-powered software and automation solutions, shaping the future of business technology."
-        },
-        {
-          "title": "OUR MISSION",
-          "content": "Empowering businesses with AI solutions to automate, optimize, and grow."
-        }
-      ]
-    },
-    "blog_section": {
-      "header_title": "Our Blogs",
-      "main_title": "Explore how AI and technology are shaping the future of business.",
-      "subtitle": "Your source for AI-driven innovation and business evolution.",
-      "categories": ["All Categories", "Technology", "Automation", "Productivity", "CRM"],
-      "posts": [
-        {
-          "category": "TECHNOLOGY",
-          "date": "18 Jan 2025",
-          "title": "How small businesses can scale faster with the right technology in place.",
-          "link_text": "Read Post",
-          "image":"/home_page/blogs/blog1.svg"
-        },
-        {
-          "category": "CRM",
-          "date": "19 Jan 2025",
-          "title": "Simplify customer management and boost sales with integrated solutions.",
-          "link_text": "Read Post",
-          "image":"/home_page/blogs/blog2.svg"
-
-        },
-        {
-          "category": "PRODUCTIVITY",
-          "date": "24 Jan 2025",
-          "title": "Streamline teamwork and communication to stay focused.",
-          "link_text": "Read Post",
-          "image":"/home_page/blogs/blog3.svg"
-
-        },
-        {
-          "category": "AUTOMATION",
-          "date": "30 Jan 2025",
-          "title": "Cut down repetitive work with AI-driven automation and save hours weekly.",
-          "link_text": "Read Post",
-          "image":"/home_page/blogs/blog4.svg"
-
-        },
-        {
-          "category": "INNOVATION",
-          "date": "30 Jan 2025",
-          "title": "Learn why upgrading is essential for small businesses.",
-          "link_text": "Read Post",
-          "image":"/home_page/blogs/blog5.svg"
-
-        },
-        {
-          "category": "GROWTH",
-          "date": "30 Jan 2025",
-          "title": "Why modern businesses need tools that grow with them.",
-          "link_text": "Read Post",
-          "image":"/home_page/blogs/blog6.svg"
-
-        }
-      ]
-    }
-    
 }

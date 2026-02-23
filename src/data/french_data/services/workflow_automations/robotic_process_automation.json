@@ -1,28 +1,94 @@
 {
   "slug": "robotic-process-automation",
   "hero_section": {
-    "title": "Services d'automatisation des processus robotisés (RPA)",
-    "subtitle": "Saisie de données, extraction de factures et automatisation des systèmes hérités",
+    "title": "Services d'Automatisation Robotisée des Processus (RPA)",
+    "subtitle": "Saisie de Données, Extraction de Factures et Automatisation de Systèmes Hérités",
     "description": "Déployez des travailleurs numériques pour automatiser les tâches répétitives telles que la saisie de données, l'extraction de factures, le téléchargement de rapports et les processus logiciels hérités, réduisant ainsi les coûts et augmentant l'efficacité.",
     "buttons": [
-      { "text": "Déployer des travailleurs numériques", "link": "/contact" },
+      { "text": "Déployer des Travailleurs Numériques", "link": "/contact" },
       { "text": "Contactez-nous", "link": "/contact" }
     ],
     "hero_image": "/videos/ai_ml_models.mp4"
   },
   "introduction_section": {
     "heading": "Qu'est-ce que",
-    "span_heading": " l'automatisation des processus robotisés ?",
+    "span_heading": " l'Automatisation Robotisée des Processus ?",
     "content": [
-      "De nombreuses entreprises comptent sur leurs employés pour des tâches répétitives comme la saisie de données de facturation ou la mise à jour de systèmes obsolètes.",
-      "Chez Devisgon, nous créons des robots RPA qui imitent les interactions humaines avec les applications et exécutent des tâches basées sur des règles 24h/24 et 7j/7. Nos robots peuvent :",
-      "  • Extraire les données de facturation via OCR",
+      "De nombreuses entreprises comptent sur leurs employés pour des tâches répétitives telles que la saisie de données de facturation, le téléchargement de rapports et la mise à jour de systèmes hérités.",
+      "Chez Devisgon, nous construisons des bots RPA qui imitent les interactions humaines avec les applications et effectuent des tâches basées sur des règles 24h/24 et 7j/7. Nos bots peuvent :",
+      "  • Extraire les données des factures via OCR",
       "  • Automatiser la saisie de données répétitive",
       "  • Télécharger et générer des rapports",
-      "  • Utiliser des systèmes de bureau hérités",
-      "Résultat : coûts de main-d'œuvre réduits, traitement plus rapide et erreurs quasi nulles."
+      "  • Exploiter des systèmes de bureau hérités",
+      "Le résultat : des coûts de main-d'œuvre réduits, un traitement plus rapide et des erreurs quasi nulles."
     ],
-    "highlight_quote": "« Des travailleurs numériques qui ne s'arrêtent jamais. »",
+    "highlight_quote": "“Des travailleurs numériques qui ne s'arrêtent jamais.”",
     "side_image": "/all_services/ai_powered_app/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages Clés",
+    "subtitle": "Automatisez Instantanément le Travail Répétitif",
+    "cards": [
+      { "title": "Exécution 24h/24, 7j/7", "description": "Les bots travaillent en continu sans interruption.", "icon_type": "MdAccessTime" },
+      { "title": "Réduction des Coûts", "description": "Réduisez la dépendance au travail manuel.", "icon_type": "MdSavings" },
+      { "title": "Haute Précision", "description": "Minimisez les erreurs dans les processus répétitifs.", "icon_type": "MdVerified" },
+      { "title": "Compatible Systèmes Hérités", "description": "Fonctionne sans remplacer les systèmes actuels.", "icon_type": "MdSettings" }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtenez avec la RPA",
+    "image": "/all_services/ai_powered_app/wwg.svg",
+    "list_items": [
+      { "title": "1. Bots RPA Personnalisés", "description": "Des robots logiciels conçus spécifiquement pour votre flux de travail." },
+      { "title": "2. Automatisation des Factures & Données", "description": "Extraction automatisée des factures et traitement des données." },
+      { "title": "3. Automatisation de Systèmes Hérités", "description": "Automatisation pilotée par robot pour les anciennes applications." },
+      { "title": "4. Tableau de Bord de Surveillance", "description": "Suivez les performances et les rapports en temps réel." }
+    ]
+  },
+  "technologies_section": {
+    "title": "Technologies RPA Modernes",
+    "subtitle": "Outils Sécurisés et Évolutifs",
+    "tools": [
+      { "name": "UiPath", "icon": "SiUipath" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "Automation Anywhere", "icon": "LiaAutoprefixer " },
+      { "name": "AWS", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Notre Processus",
+    "subtitle": "Déploiement Rapide de Bots en quelques semaines",
+    "steps": [
+      { "title": "Évaluation", "description": "Identifiez les opportunités d'automatisation répétitives.", "icon": "FaSearch" },
+      { "title": "Conception", "description": "Créez la logique du bot et le flux de travail d'automatisation.", "icon": "TbTools" },
+      { "title": "Construction", "description": "Développez et testez les bots RPA.", "icon": "FaHammer" },
+      { "title": "Déploiement", "description": "Lancez les bots et surveillez les performances.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Traitement des Factures 80 % plus Rapide",
+    "image": "/all_services/ai_powered_app/case_study.svg",
+    "content": {
+      "problem": { "label": "Problème", "text": "La saisie manuelle des données de facturation consommait des centaines d'heures de travail." },
+      "solution": { "label": "Solution", "text": "Mise en œuvre de bots RPA basés sur l'OCR pour extraire et vérifier les factures." },
+      "result": { "label": "Résultat", "text": "Temps de traitement réduit de 80 % avec 90 % d'erreurs en moins." }
+    }
+  },
+  "faq_section": {
+    "title": "FAQ",
+    "subtitle": "Questions Courantes sur la RPA",
+    "questions": [
+      { "question": "La RPA peut-elle automatiser l'extraction de factures ?", "answer": "Oui, y compris le traitement des factures basé sur l'OCR." },
+      { "question": "La RPA fonctionne-t-elle avec les systèmes hérités ?", "answer": "Oui, les bots imitent les interactions humaines." },
+      { "question": "La RPA est-elle sécurisée ?", "answer": "Nous mettons en œuvre des environnements de bots cryptés et gouvernés." },
+      { "question": "À quel point la RPA est-elle évolutive ?", "answer": "Des bots supplémentaires peuvent être déployés selon les besoins." },
+      { "question": "Servez-vous les entreprises internationales ?", "answer": "Oui, y compris les marchés américain, européen, australien et du Golfe." }
+    ],
+    "footer": {
+      "text": "Vous avez d'autres questions ?",
+      "link_text": "Parlez à notre équipe RPA",
+      "link_url": "/contact"
+    }
   }
 }

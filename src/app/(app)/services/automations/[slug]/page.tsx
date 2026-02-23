@@ -1,8 +1,8 @@
 "use client";
-import  { use } from 'react';
 import { useTranslation } from 'react-i18next';
-import { notFound } from "next/navigation";
 import { workflowData } from "@/data/loaders/workflow_automations";
+import { use, useEffect } from 'react';
+import { notFound, useSearchParams } from "next/navigation"; 
 
 import Hero from "@/components/sub_services_pages/hero";
 import Introduction from "@/components/sub_services_pages/introduction";
@@ -14,21 +14,32 @@ import Casestudy from "@/components/sub_services_pages/case_study";
 import Faqs from "@/components/sub_services_pages/faq";
 import Contact from '@/components/sub_services_pages/contact';
 
+
+
 export default function IndustryPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params);
-  const { i18n } = useTranslation(); 
-  const lang = i18n.language || 'en'; 
-  const data = workflowData[lang]?.[slug] || workflowData['en']?.[slug];
+  const searchParams = useSearchParams();
+  const { i18n } = useTranslation();
+  const urlLang = searchParams.get('lang');
+
+  useEffect(() => {
+    if (urlLang && urlLang !== i18n.language) {
+      i18n.changeLanguage(urlLang);
+    }
+  }, [urlLang, i18n]);
+
+  const activeLang = urlLang || i18n.language || 'en';
+  const data = workflowData[activeLang]?.[slug] || workflowData['en']?.[slug];
 
   if (!data) {
     return notFound();
   }
 
-  const isRTL = lang === 'ur' || lang === 'ar';
+  const isRTL = activeLang === 'ur' || activeLang === 'ar';
 
   return (
     <div dir={isRTL ? 'rtl' : 'ltr'}>
-   <Hero data={data.hero_section} />
+      <Hero data={data.hero_section} />
       <Introduction data={data.introduction_section} />
       <KeyBenefitsSection data={data.key_benefits_section} />
       <WhatYouGetSection data={data.what_you_get_section} />
@@ -37,7 +48,6 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
       <Casestudy data={data.case_study_section} />
       <Faqs data={data.faq_section} />
       <Contact />
-     
     </div>
   );
 }

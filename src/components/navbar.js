@@ -1,4 +1,5 @@
 "use client";
+import Switcher from "./language_switch_component"
 import data from "@/data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
@@ -109,8 +110,10 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
             aria-label="Toggle theme"
           >
             {isDark ? <Sun /> : <Moon />}
-          </button>
+          </button>                
+              <div className="-mr-14 "><Switcher/></div>
         </nav>
+
          
          {/* mobile view */}
         <div className="md:hidden  flex items-center text-[#402060] dark:text-[#FEFCFE]  gap-2">
@@ -212,8 +215,13 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
         )}
       </div>
     ))}
+          <div className="mr-4 "><Switcher/></div>
+
   </div>
+              <div className="mt-96 "><Switcher/></div>
+
 </div>
+
 
       {/* Overlay */}
      {mobileOpen && (

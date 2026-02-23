@@ -1,9 +1,9 @@
 {
   "slug": "robotic-process-automation",
   "hero_section": {
-    "title": "Robotic Process Automation (RPA) Dienste",
-    "subtitle": "Dateneingabe, Rechnungsextraktion und Altsystem-Automatisierung",
-    "description": "Setzen Sie digitale Mitarbeiter ein, um sich wiederholende Aufgaben wie Dateneingabe, Rechnungsextraktion, Berichtdownloads und Prozesse in Altsystemen zu automatisieren – für geringere Kosten und höhere Effizienz.",
+    "title": "Robotic Process Automation (RPA) Dienstleistungen",
+    "subtitle": "Datenerfassung, Rechnungsextraktion und Automatisierung von Altsystemen",
+    "description": "Setzen Sie digitale Mitarbeiter ein, um repetitive Aufgaben wie Dateneingabe, Rechnungsextraktion, Berichtdownloads und Prozesse in Altsystemen zu automatisieren – Kosten senken und Effizienz steigern.",
     "buttons": [
       { "text": "Digitale Mitarbeiter einsetzen", "link": "/contact" },
       { "text": "Kontaktieren Sie uns", "link": "/contact" }
@@ -14,15 +14,15 @@
     "heading": "Was ist",
     "span_heading": " Robotic Process Automation?",
     "content": [
-      "Viele Unternehmen verlassen sich auf Mitarbeiter für repetitive Aufgaben wie die Eingabe von Rechnungsdaten oder das Aktualisieren von Altsystemen.",
-      "Bei Devisgon entwickeln wir RPA-Bots, die menschliche Interaktionen mit Anwendungen nachahmen und regelbasierte Aufgaben rund um die Uhr ausführen. Unsere Bots können:",
+      "Viele Unternehmen verlassen sich auf Mitarbeiter für repetitive Aufgaben wie das Eingeben von Rechnungsdaten, Herunterladen von Berichten und Aktualisieren von Altsystemen.",
+      "Bei Devisgon bauen wir RPA-Bots, die menschliche Interaktionen mit Anwendungen nachahmen und regelbasierte Aufgaben rund um die Uhr ausführen. Unsere Bots können:",
       "  • Rechnungsdaten mittels OCR extrahieren",
       "  • Repetitive Dateneingaben automatisieren",
-      "  • Berichte herunterladen und erstellen",
-      "  • Veraltete Desktop-Systeme bedienen",
-      "Das Ergebnis: Niedrigere Personalkosten, schnellere Bearbeitung und nahezu null Fehler."
+      "  • Berichte herunterladen und generieren",
+      "  • Desktop-Altsysteme bedienen",
+      "Das Ergebnis: Geringere Arbeitskosten, schnellere Verarbeitung und nahezu null Fehler."
     ],
-    "highlight_quote": "„Digitale Mitarbeiter, die niemals aufhören.“",
+    "highlight_quote": "“Digitale Mitarbeiter, die niemals aufhören.”",
     "side_image": "/all_services/ai_powered_app/introduction.svg"
   },
   "key_benefits_section": {
@@ -31,8 +31,64 @@
     "cards": [
       { "title": "24/7 Ausführung", "description": "Bots arbeiten kontinuierlich ohne Pausen.", "icon_type": "MdAccessTime" },
       { "title": "Geringere Kosten", "description": "Reduzieren Sie die Abhängigkeit von manueller Arbeit.", "icon_type": "MdSavings" },
-      { "title": "Hohe Genauigkeit", "description": "Minimieren Sie Fehler in repetitiven Prozessen.", "icon_type": "MdVerified" },
-      { "title": "Legacy-kompatibel", "description": "Funktioniert ohne Austausch bestehender Systeme.", "icon_type": "MdSettings" }
+      { "title": "Hohe Genauigkeit", "description": "Fehler in repetitiven Prozessen minimieren.", "icon_type": "MdVerified" },
+      { "title": "Altsystem-kompatibel", "description": "Funktioniert ohne Austausch aktueller Systeme.", "icon_type": "MdSettings" }
     ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie mit RPA erhalten",
+    "image": "/all_services/ai_powered_app/wwg.svg",
+    "list_items": [
+      { "title": "1. Maßgeschneiderte RPA-Bots", "description": "Software-Roboter, die speziell für Ihren Workflow entwickelt wurden." },
+      { "title": "2. Rechnungs- & Datenautomatisierung", "description": "Automatisierte Rechnungsextraktion und Datenverarbeitung." },
+      { "title": "3. Altsystem-Automatisierung", "description": "Robotergesteuerte Automatisierung für ältere Anwendungen." },
+      { "title": "4. Bot-Monitoring-Dashboard", "description": "Leistung und Berichterstattung in Echtzeit verfolgen." }
+    ]
+  },
+  "technologies_section": {
+    "title": "Moderne RPA-Technologien",
+    "subtitle": "Sichere und skalierbare Tools",
+    "tools": [
+      { "name": "UiPath", "icon": "SiUipath" },
+      { "name": "Python", "icon": "FaPython" },
+      { "name": "Selenium", "icon": "SiSelenium" },
+      { "name": "Automation Anywhere", "icon": "LiaAutoprefixer " },
+      { "name": "AWS", "icon": "FaAws" }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Schnelle Bot-Bereitstellung in Wochen",
+    "steps": [
+      { "title": "Bewertung", "description": "Repetitive Automatisierungsmöglichkeiten identifizieren.", "icon": "FaSearch" },
+      { "title": "Design", "description": "Bot-Logik und Automatisierungsworkflow erstellen.", "icon": "TbTools" },
+      { "title": "Erstellung", "description": "RPA-Bots entwickeln und testen.", "icon": "FaHammer" },
+      { "title": "Bereitstellung", "description": "Bots starten und Leistung überwachen.", "icon": "FaRocket" }
+    ]
+  },
+  "case_study_section": {
+    "headline": "80% schnellere Rechnungsverarbeitung",
+    "image": "/all_services/ai_powered_app/case_study.svg",
+    "content": {
+      "problem": { "label": "Problem", "text": "Die manuelle Eingabe von Rechnungsdaten verbrauchte hunderte von Arbeitsstunden." },
+      "solution": { "label": "Lösung", "text": "Implementierung von OCR-basierten RPA-Bots zur Extraktion und Verifizierung von Rechnungen." },
+      "result": { "label": "Ergebnis", "text": "Verarbeitungszeit um 80% reduziert bei 90% weniger Fehlern." }
+    }
+  },
+  "faq_section": {
+    "title": "FAQ",
+    "subtitle": "Häufige Fragen zu RPA",
+    "questions": [
+      { "question": "Kann RPA die Rechnungsextraktion automatisieren?", "answer": "Ja, einschließlich OCR-basierter Rechnungsverarbeitung." },
+      { "question": "Funktioniert RPA mit Altsystemen?", "answer": "Ja, Bots ahmen menschliche Interaktionen nach." },
+      { "question": "Ist RPA sicher?", "answer": "Wir implementieren verschlüsselte und kontrollierte Bot-Umgebungen." },
+      { "question": "Wie skalierbar ist RPA?", "answer": "Zusätzliche Bots können nach Bedarf eingesetzt werden." },
+      { "question": "Bedienen Sie internationale Unternehmen?", "answer": "Ja, einschließlich der Märkte in den USA, Europa, Australien und am Golf." }
+    ],
+    "footer": {
+      "text": "Haben Sie weitere Fragen?",
+      "link_text": "Sprechen Sie mit unserem RPA-Team",
+      "link_url": "/contact"
+    }
   }
 }
