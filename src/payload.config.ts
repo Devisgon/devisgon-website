@@ -15,14 +15,15 @@ const dirname = path.dirname(filename);
 
 export default buildConfig({
   // VITAL: This tells Payload its public address on Vercel
-  serverURL: process.env.NEXT_PUBLIC_SERVER_URL || "http://localhost:3000",
- cors: [
+  serverURL:"http://localhost:3000",
+cors: [
   "http://localhost:3000",
-  "https://devisgon.com",  
+  "https://devisgon.com",
 ],
 
 csrf: [
-  "https://devisgon.com",  
+  "http://localhost:3000",
+  "https://devisgon.com",
 ],
   admin: {
     user: Users.slug,
@@ -31,13 +32,7 @@ csrf: [
     },
    
   },
-  localization: {
-  locales: [
-    'en','ur', 'fr', 'es', 'ar', 'de', 'zh', 
-  ],
-  defaultLocale: 'en',
-  fallback: true,
-},
+
   collections: [Users, Media, Blogs],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "default_secret_for_dev_only",

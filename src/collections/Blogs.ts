@@ -8,10 +8,10 @@ const Blogs: CollectionConfig = {
     defaultColumns: ['title', 'category', 'date', 'status'],
   },
   access: {
-  create: ({ req }) => Boolean(req.user),
+  create: () => true,
   read: () => true,
-  update: ({ req }) => Boolean(req.user),
-  delete: ({ req }) => Boolean(req.user),
+  update: () => true,
+  delete: () => true,
 },
   fields: [
     {
@@ -19,7 +19,6 @@ const Blogs: CollectionConfig = {
       type: 'text',
       required: true,
       label: 'Category',
-      localized: true,  
 
     },
 
@@ -28,7 +27,6 @@ const Blogs: CollectionConfig = {
       type: 'text',
       required: true,
       label: 'Blog Title',
-      localized: true,  
 
     },
 
@@ -67,7 +65,6 @@ const Blogs: CollectionConfig = {
       type: 'text',
       required: true,
       label: 'author',
-      localized: true,  
 
     },
 
@@ -86,7 +83,6 @@ const Blogs: CollectionConfig = {
       type: 'richText',
       editor: lexicalEditor({}),
       label: 'Content',
-      localized: true,  
 
     },
 

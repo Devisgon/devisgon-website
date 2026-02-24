@@ -66,15 +66,15 @@ const LanguageSwitcher = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-3 px-3 py-2 rounded-xl transition-all text-t-primary cursor-pointer group"
       >
-     
+     <span>Lan:</span>
         <span className={`text-[10px] flex items-center justify-center transition-transform duration-300 `}>
-                    {currentLang.code === "en" ? currentLang.icon : currentLang.flag}
+          {currentLang.code === "en" ? currentLang.icon : currentLang.flag}
 
         </span>
       </button>
 
       {isOpen && (
-        <div className="absolute   -ml-36 mt-3  min-w-[170px] bg-bg-primary border border-white/10 rounded-2xl shadow-2xl z-50 p-2 backdrop-blur-xl">
+        <div className="absolute   md:-ml-36 mt-3  min-w-[170px] bg-bg-primary border border-white/10 rounded-2xl shadow-2xl z-50 p-2 backdrop-blur-xl">
           <div className="flex flex-col gap-1">
             {languages.map((lang) => {
               const isActive = i18n.language?.startsWith(lang.code);

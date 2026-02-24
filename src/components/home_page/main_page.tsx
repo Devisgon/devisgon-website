@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import { useTranslation } from "react-i18next";
-
+import { CircleLoader } from "react-spinners";
 import Hero from '@/components/home_page/hero_section';
 import Services from '@/components/home_page/services_section';
 import ExportServices from '@/components/home_page/expert_services_section';
@@ -60,9 +60,11 @@ export default function Home() {
   if (isLoading) {
     return (
       <div className="flex items-center justify-center h-screen bg-bg-primary">
-        <p className="text-t-secondary font-medium">
-          Initializing Home...
-        </p>
+<CircleLoader
+  color="#8E4EC6" 
+  size={80}  
+  speedMultiplier={5}    
+/>       
       </div>
     );
   }

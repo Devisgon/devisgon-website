@@ -52,9 +52,9 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
     <header className="fixed top-0 w-full z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b  backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
-         <img
+         <a href="/"> <img
 src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
-         />
+         /></a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8"> 
