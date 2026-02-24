@@ -15,7 +15,7 @@ const dirname = path.dirname(filename);
 
 export default buildConfig({
   // VITAL: This tells Payload its public address on Vercel
-  serverURL:"http://localhost:3000",
+  serverURL:"https://devisgon.com",
 cors: [
   "http://localhost:3000",
   "https://devisgon.com",
