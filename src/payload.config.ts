@@ -14,8 +14,7 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
-  // VITAL: This tells Payload its public address on Vercel
-  serverURL:"http://localhost:3000",
+  serverURL:process.env.NEXT_PUBLIC_SERVER_URL,
 cors: [
   "http://localhost:3000",
   "https://devisgon.com",
@@ -60,7 +59,7 @@ csrf: [
           accessKeyId: process.env.S3_ACCESS_KEY_ID!,
           secretAccessKey: process.env.S3_SECRET_ACCESS_KEY!,
         },
-        forcePathStyle: true, // This is required for Supabase S3 compatibility
+        forcePathStyle: true, 
       },
     }),
   ],

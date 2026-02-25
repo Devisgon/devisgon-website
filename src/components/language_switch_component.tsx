@@ -66,7 +66,7 @@ const LanguageSwitcher = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-3 px-3 py-2 rounded-xl transition-all text-t-primary cursor-pointer group"
       >
-     <span>Lan:</span>
+     <span>Lng:</span>
         <span className={`text-[10px] flex items-center justify-center transition-transform duration-300 `}>
           {currentLang.code === "en" ? currentLang.icon : currentLang.flag}
 
