@@ -16,18 +16,15 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
   const navLinks = data.navbar;
 
-  useEffect(() => {
+useEffect(() => {
     setMounted(true);
     const storedTheme = localStorage.getItem("theme");
 
-    if (
-      storedTheme === "dark" ||
-      (!storedTheme &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
+    if (storedTheme === "dark") {
       setIsDark(true);
       document.documentElement.classList.add("dark");
     } else {
+      setIsDark(false); 
       document.documentElement.classList.remove("dark");
     }
   }, []);
@@ -49,7 +46,7 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
   if (!mounted) return null;
 
   return (
-    <header className="fixed top-0 w-full z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b  backdrop-blur-sm">
+    <header className="fixed top-0 w-screen z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b  backdrop-blur-sm">
       <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
         {/* Logo */}
          <a href="/"> <img

@@ -26,7 +26,7 @@ const cardVariants: Variants = {
 
 const KeyBenefitsSection: React.FC<KeyBenefitsSectionProps> = ({ data }) => {
   return (
-    <section className="w-full bg-background py-20 px-6">
+    <section className="w-screen md:w-full bg-background py-20 px-6">
       <div className="container mx-auto max-w-7xl">
         
         <motion.div 

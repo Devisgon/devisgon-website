@@ -35,7 +35,7 @@ const iconVariants: Variants = {
 
 const ProcessSection: React.FC<ProcessSectionProps> = ({ data }) => {
   return (
-    <section className="w-full  py-24 px-6">
+    <section className="w-screen md:w-full  py-24 px-6">
       <div className="container mx-auto max-w-7xl text-center">
         
         <motion.div 

@@ -32,7 +32,7 @@ const headerVariants: Variants = {
 
 const TechnologiesSection: React.FC<TechnologiesSectionProps> = ({ data }) => {
   return (
-    <section className="w-full bg-bg-primary py-20 px-4">
+    <section className="w-screen md:w-full bg-bg-primary py-20 px-4">
       <div className="container mx-auto max-w-7xl text-center">
         
         <motion.div

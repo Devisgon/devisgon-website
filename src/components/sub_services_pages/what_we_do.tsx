@@ -37,7 +37,7 @@ const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
   if (!data) return null;
 
   return (
-    <section className="w-full  py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
+    <section className="w-screen md:w-full  py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
       <div className="max-w-7xl w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-24 items-center">
 
         <motion.div 

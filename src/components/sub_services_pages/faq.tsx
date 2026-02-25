@@ -11,7 +11,7 @@ const FAQSection: React.FC<FAQSectionProps> = ({ data }) => {
   };
 
   return (
-    <section className="w-full bg-white dark:bg-background py-20 px-6">
+    <section className="w-screen md:w-full bg-white dark:bg-background py-20 px-6">
       <div className="container mx-auto max-w-3xl">
         {/* Header */}
         <div className="text-center mb-12">
