@@ -38,7 +38,7 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
   const isRTL = activeLang === 'ur' || activeLang === 'ar';
 
   return (
-    <div dir={isRTL ? 'rtl' : 'ltr'}>
+    <div className='overflow-x-hidden' dir={isRTL ? 'rtl' : 'ltr'}>
       <Hero data={data.hero_section} />
       <Introduction data={data.introduction_section} />
       <KeyBenefitsSection data={data.key_benefits_section} />

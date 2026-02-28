@@ -6,7 +6,7 @@ const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
   if (!data) return null;
 
   return (
-    <section className="w-full bg-background py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
+    <section className="w-screen md:w-full bg-background py-20 px-6 md:px-12 lg:px-24 flex items-center justify-center">
       <div className="max-w-7xl w-full grid grid-cols-1  lg:grid-cols-2 gap-12 lg:gap-20 items-center">
         
         {/* Left Text Content */}

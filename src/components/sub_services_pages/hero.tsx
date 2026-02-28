@@ -54,23 +54,23 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data } ) => {
   
 
   return (
-    <section className="relative w-full bg-[radial-gradient(circle_at_0%_0%,rgba(234,213,249,0.4)_0%,rgba(234,213,249,0.4)_100%)] 
+    <section className="relative w-screen md:w-full bg-[radial-gradient(circle_at_0%_0%,rgba(234,213,249,0.4)_0%,rgba(234,213,249,0.4)_100%)] 
 dark:bg-[linear-gradient(to_right,#382842_0%,#45394d_100%)]    min-h-screen overflow-hidden flex items-center justify-center py-30">
       <motion.div 
         variants={circleVariants}
-        className="absolute top-1/2 -translate-y-1/2 -left-70 w-[400px] h-[400px] rounded-full border-[60px] border-[#8145B5] opacity-10" 
+        className="absolute top-1/2 hidden md:block -translate-y-1/2 -left-70 w-[400px] h-[400px] rounded-full border-[60px] border-[#8145B5] opacity-10" 
       />
       <motion.div 
         variants={circleVariants}
         animate="animate"
         transition={{ delay: 1 }} 
-        className="absolute top-1/2 -translate-y-1/2 left-1/2 w-[300px] h-[300px] rounded-full border-[40px] border-[#8145B5] opacity-10" 
+        className="absolute top-1/2 hidden md:block -translate-y-1/2 left-1/2 w-[300px] h-[300px] rounded-full border-[40px] border-[#8145B5] opacity-10" 
       />
       <motion.div 
         variants={circleVariants}
         animate="animate"
         transition={{ delay: 2 }}
-        className="absolute top-20 right-16 w-[100px] h-[100px] rounded-full border-[16px] border-[#8145B5] opacity-10" 
+        className="absolute top-20 right-16 hidden md:block w-[100px] h-[100px] rounded-full border-[16px] border-[#8145B5] opacity-10" 
       />
 
       <div className="px-22 relative z-10 flex gap-0.52 ">
