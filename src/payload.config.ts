@@ -14,22 +14,20 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
-  serverURL:process.env.NEXT_PUBLIC_SERVER_URL,
-cors: [
-  "http://localhost:3000",
-  "https://devisgon.com",
-],
+  serverURL: "https://www.devisgon.com",
 
-csrf: [
-  "http://localhost:3000",
-  "https://devisgon.com",
-],
+  cors: [
+   "https://www.devisgon.com"
+  ],
+  csrf: [
+     "https://www.devisgon.com"
+  ],
+
   admin: {
     user: Users.slug,
     importMap: {
       baseDir: path.resolve(dirname),
     },
-   
   },
 
   collections: [Users, Media, Blogs],
@@ -38,14 +36,17 @@ csrf: [
   typescript: {
     outputFile: path.resolve(dirname, "payload-types.ts"),
   },
+
   db: postgresAdapter({
     pool: {
       connectionString: process.env.DATABASE_URL || "",
-      max:15 ,
+      max: 15,
       ssl: { rejectUnauthorized: false },
     },
   }),
+
   sharp,
+
   plugins: [
     s3Storage({
       collections: {
@@ -54,12 +55,12 @@ csrf: [
       bucket: process.env.S3_BUCKET!,
       config: {
         endpoint: process.env.S3_ENDPOINT!,
-        region: process.env.S3_REGION || "auto",
+        region: "us-east-1",
         credentials: {
           accessKeyId: process.env.S3_ACCESS_KEY_ID!,
           secretAccessKey: process.env.S3_SECRET_ACCESS_KEY!,
         },
-        forcePathStyle: true, 
+        forcePathStyle: true,     
       },
     }),
   ],
