@@ -16,7 +16,7 @@ const LanguageSwitcher = () => {
     { 
       code: "en", 
       name: "English", 
-      icon: <FiGlobe className="text-blue-400 w-5 h-5" />, 
+      icon: <FiGlobe className="text-t-primary w-5 h-5" />, 
       flag: <US title="United States" className="w-5 h-auto rounded-sm" /> 
     },
     { code: "ur", name: "اردو", flag: <PK title="Pakistan" className="w-5 h-auto rounded-sm" /> },
@@ -66,7 +66,6 @@ const LanguageSwitcher = () => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-3 px-3 py-2 rounded-xl transition-all text-t-primary cursor-pointer group"
       >
-     <span>Lng:</span>
         <span className={`text-[10px] flex items-center justify-center transition-transform duration-300 `}>
           {currentLang.code === "en" ? currentLang.icon : currentLang.flag}
 
