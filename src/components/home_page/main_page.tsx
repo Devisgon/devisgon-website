@@ -27,16 +27,23 @@ export default function Home() {
   const { t, i18n } = useTranslation("home");
 
   const [mounted, setMounted] = useState(false);
-  const [showTimedLoader, setShowTimedLoader] = useState(true);
+  const [showTimedLoader, setShowTimedLoader] = useState(false);
 
   useEffect(() => {
     setMounted(true);
 
-    const timer = window.setTimeout(() => {
-      setShowTimedLoader(false);
-    }, 1000);
+    const hasSeenLoader = sessionStorage.getItem("home_loader_shown");
 
-    return () => window.clearTimeout(timer);
+    if (!hasSeenLoader) {
+      setShowTimedLoader(true);
+
+      const timer = window.setTimeout(() => {
+        setShowTimedLoader(false);
+        sessionStorage.setItem("home_loader_shown", "true");
+      }, 1000);
+
+      return () => window.clearTimeout(timer);
+    }
   }, []);
 
   const heroSection = t("hero_section", {
@@ -71,13 +78,26 @@ export default function Home() {
     returnObjects: true,
   }) as TeamMember[];
 
-  const isLoading = !mounted || !i18n.isInitialized || showTimedLoader;
+  const isLoading = !mounted || !i18n.isInitialized;
 
   const isDataMissing =
     !heroSection ||
     !servicesSection ||
     typeof heroSection === "string" ||
     typeof servicesSection === "string";
+
+  if (showTimedLoader) {
+    return (
+      <div className="fixed inset-0 z-50 flex items-center justify-center bg-bg-primary">
+        <ClipLoader
+          color="#8E4EC6"
+          loading={true}
+          size={90}
+          aria-label="Loading Spinner"
+        />
+      </div>
+    );
+  }
 
   if (isLoading) {
     return (
