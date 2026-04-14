@@ -1,0 +1,174 @@
+{
+  "slug": "security_testing",
+  "hero_section": {
+    "title": "Security Testing & Penetration",
+    "subtitle": "Find the Vulnerabilities Before the Hackers Do",
+    "description": "Protect your application, your user data, and your reputation. We simulate real-world cyber attacks to identify and patch critical security flaws in your software before they can be exploited.",
+    "buttons": [
+      {
+        "text": "Secure Your Application",
+        "link": "/contact"
+      },
+      {
+        "text": "Speak to an Ethical Hacker",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/security_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " Security Testing?",
+    "content": [
+      "Security testing is the rigorous process of evaluating your software to uncover vulnerabilities, threats, and risks. Instead of waiting for a malicious attack to reveal the weak points in your system, our certified ethical hackers take the offensive, attempting to breach your applications using the exact same tools and techniques as real-world cybercriminals. ",
+      "At Devisgon, we go beyond automated scans. We dive deep into your application's logic, APIs, and infrastructure to find hidden loopholes like SQL injections, cross-site scripting (XSS), and broken authentication. We then provide actionable remediation steps to lock down your system completely."
+    ],
+    "highlight_quote": " “If you think compliance is expensive, try a data breach.” ",
+    "side_image": "/all_services/security_testing/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Why proactive security testing is a business necessity",
+    "cards": [
+      {
+        "title": "Prevent Costly Breaches",
+        "description": "Identify and patch zero-day vulnerabilities and critical flaws before they lead to catastrophic data loss or ransom demands.",
+        "icon_type": "MdLock"
+      },
+      {
+        "title": "Protect Brand Reputation",
+        "description": "Show your users and enterprise clients that their sensitive data is handled with the highest level of security.",
+        "icon_type": "MdVerifiedUser"
+      },
+      {
+        "title": "Ensure Compliance",
+        "description": "Meet the strict security testing requirements mandated by frameworks like SOC 2, HIPAA, PCI-DSS, and GDPR.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Secure the Supply Chain",
+        "description": "Verify that third-party plugins, APIs, and open-source libraries aren't introducing hidden risks into your application.",
+        "icon_type": "MdSecurity"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What you'll get when you choose Security Testing",
+    "image": "/all_services/security_testing/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Automated Vulnerability Scans",
+        "description": "Rapid, wide-net sweeps of your codebase and infrastructure to catch known Common Vulnerabilities and Exposures (CVEs)."
+      },
+      {
+        "title": "2. Manual Penetration Testing",
+        "description": "Deep-dive, human-led ethical hacking targeting complex business logic and sophisticated exploit chains."
+      },
+      {
+        "title": "3. OWASP Top 10 Audits",
+        "description": "Rigorous validation against the industry standard for the most critical web application security risks."
+      },
+      {
+        "title": "4. Actionable Remediation Reports",
+        "description": "Clear documentation of every vulnerability found, its risk severity, and exact code-level instructions on how to fix it."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We test using industry-standard security tools",
+    "subtitle": "The ultimate arsenal for ethical hacking and vulnerability detection",
+    "tools": [
+      {
+        "name": "Burp Suite",
+        "icon": "FaBug"
+      },
+      {
+        "name": "OWASP ZAP",
+        "icon": "FaShieldAlt"
+      },
+      {
+        "name": "Nessus",
+        "icon": "SiNessus"
+      },
+      {
+        "name": "Metasploit",
+        "icon": "FaTerminal"
+      },
+      {
+        "name": "Wireshark",
+        "icon": "SiWireshark"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "A structured approach to ethical hacking",
+    "steps": [
+      {
+        "title": "Reconnaissance",
+        "description": "We map your application's attack surface, identifying exposed endpoints, subdomains, and tech stacks.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Scanning",
+        "description": "We utilize advanced automated tools to identify misconfigurations and known vulnerabilities.",
+        "icon": "FaRadar"
+      },
+      {
+        "title": "Exploitation (Pentesting)",
+        "description": "Our engineers manually attempt to exploit the discovered vulnerabilities to determine their actual impact.",
+        "icon": "FaUnlockAlt"
+      },
+      {
+        "title": "Reporting & Patching",
+        "description": "We deliver a comprehensive risk report and work with your dev team to verify that the patches are effective.",
+        "icon": "FaFileContract"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Prevented a massive data leak in a healthcare portal",
+    "image": "/all_services/security_testing/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "A telehealth startup was weeks away from launching their patient portal but needed a final security audit to comply with HIPAA regulations."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "During our manual penetration test, we discovered a severe Insecure Direct Object Reference (IDOR) vulnerability that allowed any user to access other patients' medical records by manipulating the URL."
+      },
+      "result": {
+        "label": "Result",
+        "text": "We provided immediate remediation code. The vulnerability was patched before launch, avoiding a catastrophic HIPAA violation and preserving the startup's future."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about cybersecurity and penetration testing",
+    "questions": [
+      {
+        "question": "What is the difference between a Vulnerability Scan and a Penetration Test?",
+        "answer": "A Vulnerability Scan is an automated process that checks your systems for known flaws and reports them. A Penetration Test (Pentest) is a manual, human-led process where an ethical hacker actively tries to exploit those flaws to see how deep into the system they can get, simulating a real-world attack."
+      },
+      {
+        "question": "Is it safe to perform security testing on a live, production environment?",
+        "answer": "While we can test production environments carefully, we highly recommend performing intrusive security testing (like Penetration Testing) on a staging or replica environment. This ensures there is absolutely no disruption to your live users or risk of accidental data corruption."
+      },
+      {
+        "question": "How often should we perform security testing?",
+        "answer": "Best practices dictate running automated vulnerability scans continuously (integrated into your CI/CD pipeline). Deep-dive manual penetration tests should be conducted at least annually, or immediately following any major architecture change or significant feature release."
+      },
+      {
+        "question": "What happens after you find a vulnerability?",
+        "answer": "We don't just hand you a list of problems. We provide a detailed report ranking the vulnerabilities by severity (Critical, High, Medium, Low) alongside step-by-step remediation instructions. Once your developers apply the fix, we perform a 're-test' to guarantee the loophole is permanently closed."
+      }
+    ],
+    "footer": {
+      "text": "Didn't find your answer?",
+      "link_text": "Schedule a security consultation",
+      "link_url": "/contact"
+    }
+  }
+}
