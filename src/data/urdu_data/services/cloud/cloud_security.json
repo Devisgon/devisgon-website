@@ -1,0 +1,174 @@
+{
+  "slug": "cloud_security",
+  "hero_section": {
+    "title": "Cloud Security",
+    "subtitle": "Fortify Your Digital Infrastructure",
+    "description": "Protect your sensitive data, ensure regulatory compliance, and defend against modern cyber threats with our enterprise-grade cloud security architectures and continuous monitoring solutions.",
+    "buttons": [
+      {
+        "text": "Secure My Cloud",
+        "link": "/contact"
+      },
+      {
+        "text": "Get a Security Audit",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cloud_security.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " Cloud Security?",
+    "content": [
+      "Cloud security consists of the technologies, policies, and controls implemented to protect data, applications, and infrastructure associated with cloud computing. As businesses migrate to the cloud, the traditional network perimeter disappears, making a robust, multi-layered security architecture more critical than ever. ",
+      "At Devisgon, we adopt a 'Zero Trust' approach—meaning we never trust, and always verify. We secure your AWS, Azure, or Google Cloud environments from the ground up, implementing identity management, data encryption, and automated threat response so your business can scale with absolute peace of mind."
+    ],
+    "highlight_quote": " “Security is not a product you buy; it's a continuous process.” ",
+    "side_image": "/all_services/cloud_security/introduction.svg"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Why proactive cloud security is non-negotiable",
+    "cards": [
+      {
+        "title": "Threat Mitigation",
+        "description": "Stop ransomware, DDoS attacks, and unauthorized access before they can penetrate your systems.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Regulatory Compliance",
+        "description": "Ensure your infrastructure meets strict industry standards like SOC 2, HIPAA, GDPR, and PCI-DSS.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Data Privacy",
+        "description": "Keep your customers' sensitive information encrypted and protected from internal and external leaks.",
+        "icon_type": "MdLock"
+      },
+      {
+        "title": "24/7 Visibility",
+        "description": "Gain complete oversight of your network traffic with automated monitoring and instant alerts.",
+        "icon_type": "MdVisibility"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What you'll get when you choose Cloud Security",
+    "image": "/all_services/cloud_security/wwg.svg",
+    "list_items": [
+      {
+        "title": "1. Vulnerability Assessments",
+        "description": "Deep-dive audits of your current cloud setup to identify misconfigurations and exposed endpoints."
+      },
+      {
+        "title": "2. Identity & Access Management (IAM)",
+        "description": "Strict 'least-privilege' access controls ensuring users and apps only access what they absolutely need."
+      },
+      {
+        "title": "3. Data Encryption",
+        "description": "Military-grade encryption protocols applied to your data both at rest (in databases) and in transit."
+      },
+      {
+        "title": "4. Incident Response Playbooks",
+        "description": "Automated security protocols that immediately lock down compromised assets in the event of a breach."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We secure using industry-leading tools",
+    "subtitle": "Enterprise-grade software for maximum protection",
+    "tools": [
+      {
+        "name": "AWS Security Hub",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Cloudflare",
+        "icon": "SiCloudflare"
+      },
+      {
+        "name": "HashiCorp Vault",
+        "icon": "SiHashicorp"
+      },
+      {
+        "name": "Datadog",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Palo Alto Networks",
+        "icon": "SiPaloaltonetworks"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "Securing your infrastructure step-by-step",
+    "steps": [
+      {
+        "title": "Audit & Assess",
+        "description": "We run comprehensive scans on your cloud environment to identify critical vulnerabilities.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Architecture Design",
+        "description": "We map out a Zero-Trust security model tailored specifically to your tech stack.",
+        "icon": "FaShieldAlt"
+      },
+      {
+        "title": "Implementation",
+        "description": "We deploy firewalls, IAM policies, and encryption keys without disrupting your live services.",
+        "icon": "FaLock"
+      },
+      {
+        "title": "Monitor & Maintain",
+        "description": "We set up automated alerting systems and provide ongoing patch management and threat hunting.",
+        "icon": "FaChartLine"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Securing a fintech startup for SOC 2 Type II compliance",
+    "image": "/all_services/cloud_security/case_study.svg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "A rapidly growing financial application had exposed AWS S3 buckets and lacked proper access controls, putting them at risk of failing an upcoming compliance audit."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "We conducted a full security sweep, locked down public-facing infrastructure, encrypted all databases, and implemented a strict Identity and Access Management (IAM) policy."
+      },
+      "result": {
+        "label": "Result",
+        "text": "The client successfully passed their SOC 2 Type II audit in under 4 weeks, enabling them to close a critical $5M enterprise contract."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about cloud security",
+    "questions": [
+      {
+        "question": "Is the cloud less secure than on-premise servers?",
+        "answer": "No. Major cloud providers (AWS, Azure, Google) have infinitely better physical and baseline security than most private data centers. However, cloud security relies on a 'Shared Responsibility Model'. The provider secures the hardware, but you are responsible for securing how your data and apps are configured. That is where we come in."
+      },
+      {
+        "question": "What does 'Zero Trust' actually mean?",
+        "answer": "Zero Trust is a security framework requiring all users, whether inside or outside the organization's network, to be continuously authenticated and authorized before being granted or keeping access to applications and data."
+      },
+      {
+        "question": "Can you help us achieve compliance (SOC 2, HIPAA, GDPR)?",
+        "answer": "Absolutely. We specialize in mapping cloud architectures to strict regulatory frameworks. We can implement the technical controls required to pass your compliance audits with flying colors."
+      },
+      {
+        "question": "What happens if we suffer a cyber attack?",
+        "answer": "We build automated Incident Response (IR) protocols into your infrastructure. If abnormal behavior is detected (like a massive data download attempt), the system can automatically sever connections, revoke user access, and alert your team instantly to stop the attack in its tracks."
+      }
+    ],
+    "footer": {
+      "text": "Didn't find your answer?",
+      "link_text": "Contact our security team",
+      "link_url": "/contact"
+    }
+  }
+}
