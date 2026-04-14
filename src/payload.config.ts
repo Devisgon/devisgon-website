@@ -16,13 +16,13 @@ const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
-  serverURL: "http://localhost:3000",
+  serverURL: "https://www.devisgon.com",
 
   cors: [
-   "http://localhost:3000"
+   "https://www.devisgon.com"
   ],
   csrf: [
-     "http://localhost:3000"
+     "https://www.devisgon.com"
   ],
 
   admin: {
