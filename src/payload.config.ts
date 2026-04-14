@@ -9,18 +9,20 @@ import { s3Storage } from "@payloadcms/storage-s3";
 import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
 import Blogs from "./collections/Blogs";
+import Careers from "./collections/Careers";
+import FormSettings from "./globals/FormSettings";
 
 const filename = fileURLToPath(import.meta.url);
 const dirname = path.dirname(filename);
 
 export default buildConfig({
-  serverURL: "https://www.devisgon.com",
+  serverURL: "http://localhost:3000",
 
   cors: [
-   "https://www.devisgon.com"
+   "http://localhost:3000"
   ],
   csrf: [
-     "https://www.devisgon.com"
+     "http://localhost:3000"
   ],
 
   admin: {
@@ -30,7 +32,8 @@ export default buildConfig({
     },
   },
 
-  collections: [Users, Media, Blogs],
+  collections: [Users, Media, Blogs, Careers],
+  globals: [FormSettings],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "default_secret_for_dev_only",
   typescript: {
