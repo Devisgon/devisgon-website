@@ -1,10 +1,36 @@
 "use client";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { motion } from "framer-motion";
 import type { TeamSectionProps } from "@/types/homepage/team";
+import Link from "next/dist/client/link";
 
 const TeamSection = ({ data }: TeamSectionProps) => {
   const [activeId, setActiveId] = useState<string | number | null>(null);
+    const [isFormActive, setIsFormActive] = useState<boolean>(true);
+  const [isLoading, setIsLoading] = useState<boolean>(true);
+
+  useEffect(() => {
+    async function fetchSettings() {
+      try {
+        const res = await fetch("/api/globals/form-settings");
+        if (res.ok) {
+          const settingsData = await res.json();
+          if (settingsData.isGetStartedFormActive !== undefined) {
+            setIsFormActive(settingsData.isGetStartedFormActive);
+          }
+        }
+      } catch (error) {
+        console.error("Failed to fetch form settings", error);
+      } finally {
+        setIsLoading(false);
+      }
+    }
+    fetchSettings();
+  }, []);
+
+  if (isLoading) {
+    return null; // or a loading skeleton
+  }
 
   return (
     <section className="py-20 px-4 md:h-screen lg:h-auto bg-bg-primary">
@@ -68,6 +94,21 @@ const TeamSection = ({ data }: TeamSectionProps) => {
             );
           })}
         </div>
+         {isFormActive && (
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            viewport={{ once: true }}
+            className="text-center"
+          >
+            <Link
+              href="/get-started"
+              className="inline-block bg-gradient-to-r from-[#8E4EC6] to-[#D1AFEC] text-white px-8 py-3 rounded-full font-semibold hover:shadow-lg transition-shadow"
+            >
+              Join Our Team
+            </Link>
+          </motion.div>)}
       </div>
     </section>
   );

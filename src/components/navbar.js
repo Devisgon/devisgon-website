@@ -17,24 +17,23 @@ const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
   const navLinks = data.navbar;
 
 useEffect(() => {
-    setMounted(true);
-    const storedTheme = localStorage.getItem("theme");
+  setMounted(true);
+  setIsDark(false);
+  document.documentElement.classList.remove("dark");
+  
+  localStorage.removeItem("theme");
+}, []);
 
-    if (storedTheme === "dark") {
-      setIsDark(true);
-      document.documentElement.classList.add("dark");
-    } else {
-      setIsDark(false); 
-      document.documentElement.classList.remove("dark");
-    }
-  }, []);
-
-  const toggleTheme = () => {
-    const newTheme = !isDark;
-    setIsDark(newTheme);
-    document.documentElement.classList.toggle("dark", newTheme);
-    localStorage.setItem("theme", newTheme ? "dark" : "light");
-  };
+const toggleTheme = () => {
+  const newTheme = !isDark;
+  setIsDark(newTheme);
+  
+  if (newTheme) {
+    document.documentElement.classList.add("dark");
+  } else {
+    document.documentElement.classList.remove("dark");
+  }
+};
 
   useEffect(() => {
     document.body.style.overflow = mobileOpen ? "hidden" : "unset";
@@ -46,8 +45,8 @@ useEffect(() => {
   if (!mounted) return null;
 
   return (
-    <header className="fixed top-0 w-screen z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b  backdrop-blur-sm">
-      <div className="max-w-7xl mx-auto px-4 md:px-8 h-16 flex items-center justify-between">
+    <header className="fixed top-0 w-screen z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b   backdrop-blur-sm">
+      <div className="max-w-screen mx-auto px-4 md:px-18 h-16 flex items-center justify-between">
         {/* Logo */}
          <a href="/"> <img
 src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
@@ -108,7 +107,7 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
           >
             {isDark ? <Sun /> : <Moon />}
           </button>                
-              <div className="-mr-14 "><Switcher/></div>
+              <div className="-ml-2 "><Switcher/></div>
         </nav>
 
          
