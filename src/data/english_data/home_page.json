@@ -255,7 +255,7 @@
   },
   {
     "id": 4,
-    "image": "/home_page/our_team/team05.webp",
+    "image": "/home_page/our_team/team04.webp",
     "alt": "Content Writer"
   },
   {
@@ -270,12 +270,12 @@
   },
   {
     "id": 7,
-    "image": "/home_page/our_team/team06.webp",
+    "image": "/home_page/our_team/team08.webp",
     "alt": "Web Developers"
   },
   {
     "id": 8,
-    "image": "/home_page/our_team/mubashir.svg",
+    "image": "/home_page/our_team/mubashir.webp",
     "alt": "Python Backend Developer "
   }
 ]},
@@ -309,8 +309,56 @@
       "header_title": "Our Blogs",
       "main_title": "Explore how AI and technology are shaping the future of business.",
       "subtitle": "Your source for AI-driven innovation and business evolution.",
-      "categories": ["All Categories", "Technology", "Automation", "Productivity", "CRM"]
-    
+      "categories": ["All Categories", "Technology", "Automation", "Productivity", "CRM"],
+      "posts": [
+        {
+          "category": "TECHNOLOGY",
+          "date": "18 Jan 2025",
+          "title": "How small businesses can scale faster with the right technology in place.",
+          "link_text": "Read Post",
+          "image":"/home_page/blogs/blog1.svg"
+        },
+        {
+          "category": "CRM",
+          "date": "19 Jan 2025",
+          "title": "Simplify customer management and boost sales with integrated solutions.",
+          "link_text": "Read Post",
+          "image":"/home_page/blogs/blog2.svg"
+
+        },
+        {
+          "category": "PRODUCTIVITY",
+          "date": "24 Jan 2025",
+          "title": "Streamline teamwork and communication to stay focused.",
+          "link_text": "Read Post",
+          "image":"/home_page/blogs/blog3.svg"
+
+        },
+        {
+          "category": "AUTOMATION",
+          "date": "30 Jan 2025",
+          "title": "Cut down repetitive work with AI-driven automation and save hours weekly.",
+          "link_text": "Read Post",
+          "image":"/home_page/blogs/blog4.svg"
+
+        },
+        {
+          "category": "INNOVATION",
+          "date": "30 Jan 2025",
+          "title": "Learn why upgrading is essential for small businesses.",
+          "link_text": "Read Post",
+          "image":"/home_page/blogs/blog5.svg"
+
+        },
+        {
+          "category": "GROWTH",
+          "date": "30 Jan 2025",
+          "title": "Why modern businesses need tools that grow with them.",
+          "link_text": "Read Post",
+          "image":"/home_page/blogs/blog6.svg"
+
+        }
+      ]
     }
     
 }
