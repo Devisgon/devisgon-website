@@ -3,6 +3,8 @@ import React, { useEffect, useState } from "react";
 import Hero from "@/components/services_page/hero";
 import Service from '@/components/services_page/services';
 import Form from '@/components/sub_services_pages/contact';
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
 import { useTranslation } from 'react-i18next';
 
 import { HeroSectionData } from "@/types/services_page/hero";
@@ -41,9 +43,11 @@ export default function Services() {
 
   return (
     <>
+    <Header />
       <Hero data={herosection} />
       <Service data={services} />
       <Form />
+    <Footer />
     </>
   );
 }

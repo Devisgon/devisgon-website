@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 import { workflowData } from "@/data/loaders/testing";
 import { use, useEffect } from 'react';
 import { notFound, useSearchParams } from "next/navigation"; 
-
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
 import Hero from "@/components/sub_services_pages/hero";
 import Introduction from "@/components/sub_services_pages/introduction";
 import KeyBenefitsSection from "@/components/sub_services_pages/key_benefits";
@@ -38,6 +39,9 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
   const isRTL = activeLang === 'ur' || activeLang === 'ar';
 
   return (
+    <>
+    <Header />
+   
     <div className='overflow-x-hidden' dir={isRTL ? 'rtl' : 'ltr'}>
       <Hero data={data.hero_section} />
       <Introduction data={data.introduction_section} />
@@ -49,5 +53,7 @@ export default function IndustryPage({ params }: { params: Promise<{ slug: strin
       <Faqs data={data.faq_section} />
       <Contact />
     </div>
+    <Footer />
+    </> 
   );
 }

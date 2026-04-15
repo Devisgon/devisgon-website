@@ -11,7 +11,7 @@ export interface BlogSectionData {
   main_title: string;
   subtitle: string;
   categories: string[];
-  posts: BlogPost[];
+  posts?: BlogPost[];
 }
 
 export interface BlogSectionProps {
