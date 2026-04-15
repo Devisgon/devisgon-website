@@ -4,6 +4,8 @@ import { notFound } from 'next/navigation'
 import { RichText } from '@payloadcms/richtext-lexical/react'
 import Link from 'next/link'
 import CustomRichText from "@/components/payload_rich_text_styling";
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
 
 export default async function BlogPostPage({
   params,
@@ -24,7 +26,9 @@ export default async function BlogPostPage({
   if (!blog) return notFound()
 
   return (
-    <main className="max-w-6xl mx-auto mt-12 py-16 items-center flex flex-col px-6 font-sans">
+    <>
+      <Header />
+          <main className="max-w-6xl mx-auto mt-12 py-16 items-center flex flex-col px-6 font-sans">
       <header className="md:mb-12  order-b flex items-center flex-col border-gray-100 pb-8">
         <h1 className="text-3xl md:text-5xl font-bold text-center text-t-primary dark:text-t-secondary mb-6">
           {blog.title}
@@ -58,5 +62,7 @@ export default async function BlogPostPage({
           Back to Blogs
         </Link>
     </main>
+      <Footer />
+    </> 
   )
 }

@@ -1,4 +1,3 @@
-"use client";
 
 import { Typewriter } from "react-simple-typewriter";
 import { Check } from "lucide-react";

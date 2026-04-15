@@ -1,4 +1,3 @@
-"use client";
 import { CEOSectionProps } from "@/types/homepage/ceo"
 
 const CEOSection = ({ data }: CEOSectionProps) => {

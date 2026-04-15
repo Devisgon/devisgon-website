@@ -1,4 +1,3 @@
-"use client";
 
 import { Sparkles, Code } from "lucide-react";
 import type { SolutionsSectionProps } from "@/types/homepage/solution";

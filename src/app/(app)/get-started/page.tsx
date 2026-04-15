@@ -9,6 +9,9 @@ import { Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { motion, Variants } from "framer-motion";
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
+
 
 const containerVariants: Variants = {
   hidden: { opacity: 0 },
@@ -186,6 +189,7 @@ export default function GetStartedPage() {
 
   return (
     <>
+        <Header />
       <div className="min-h-screen p-8">
 
         <motion.section
@@ -516,6 +520,7 @@ export default function GetStartedPage() {
           </motion.div>
         </section>
       </div>
+      <Footer />
     </>
   );
 }

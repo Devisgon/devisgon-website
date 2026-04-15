@@ -2,6 +2,8 @@
 import React, { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mail, Phone, MapPin } from "lucide-react";
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
 
 
 interface Subsection {
@@ -64,6 +66,7 @@ const PrivacyPolicy = () => {
 
   return (
     <>
+      <Header />
       <div className="bg--bg min-h-screen  text-t-primary">
 
         {/* Header */}
@@ -242,6 +245,7 @@ const PrivacyPolicy = () => {
           </main>
         </div>
       </div>
+      <Footer />
     </>
   );
 };

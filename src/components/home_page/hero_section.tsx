@@ -1,4 +1,3 @@
-"use client";
 import Skeleton from 'react-loading-skeleton'
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
@@ -114,6 +113,10 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
   alt="background"
 
   className="-mt-24 -z-10 inset-0  animate-pulse select-none pointer-events-none"
+    fetchPriority="high"
+      loading="eager"
+
+
   initial={{ scale: 1, x: 0, y: 0 }}
   animate={{
     scale: [1, 1.15, 1], 

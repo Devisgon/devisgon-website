@@ -1,5 +1,6 @@
 "use client";
-
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
 import React, { useState, useRef } from "react";
 import { IoMdCloudUpload } from "react-icons/io";
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -118,6 +119,7 @@ const validateEmail = (value: string): boolean => {
 
   return (
     <>
+      <Header />
       <div className="min-h-screen  p-8">
         
         <motion.section 
@@ -463,6 +465,7 @@ Let&apos;s Talk About Your Project
           </motion.div>
         </section>
 </div>
+      <Footer />
     </>
   );
 }

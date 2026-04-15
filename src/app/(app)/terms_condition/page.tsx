@@ -1,6 +1,8 @@
 "use client";
 import  { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import Footer from '@/components/footer';
+import Header from '@/components/navbar';
 
 interface ContactDetails {
   email: string;
@@ -41,6 +43,8 @@ const TermsAndConditions = () => {
   }
 
   return (
+    <>
+      <Header />
     <div className="min-h-screen bg-bg-secondary py-24 px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         
@@ -132,7 +136,10 @@ const TermsAndConditions = () => {
         </div>
       </div>
     </div>
+    <Footer />
+    </>
   );
+
 };
 
 export default TermsAndConditions;
