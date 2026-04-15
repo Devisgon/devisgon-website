@@ -1,97 +1,97 @@
 {
   "slug": "database_management",
   "hero_section": {
-    "title": "Database Management",
-    "subtitle": "Secure, Scalable, and Lightning-Fast Data",
-    "description": "We design, optimize, and manage robust database architectures that ensure your critical business data is always available, highly secure, and optimized for peak performance.",
+    "title": "ڈیٹا بیس مینجمنٹ",
+    "subtitle": "محفوظ، توسیع پذیر، اور بجلی کا تیز ڈیٹا",
+    "description": "ہم مضبوط ڈیٹابیس آرکیٹیکچرز کو ڈیزائن، آپٹمائز اور ان کا نظم کرتے ہیں جو یقینی بناتے ہیں کہ آپ کا اہم کاروباری ڈیٹا ہمیشہ دستیاب، انتہائی محفوظ، اور بہترین کارکردگی کے لیے موزوں ہے۔",
     "buttons": [
       {
-        "text": "Optimize My Database",
+        "text": "میرے ڈیٹا بیس کو بہتر بنائیں",
         "link": "/contact"
       },
       {
-        "text": "Consult a Data Expert",
+        "text": "ڈیٹا ایکسپرٹ سے مشورہ کریں۔",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/database_management.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Database Management?",
+    "heading": "کیا ہے",
+    "span_heading": "ڈیٹا بیس مینجمنٹ؟",
     "content": [
-      "Data is the lifeblood of any modern application. Database Management involves architecting how that data is stored, structured, accessed, and secured. Whether you are dealing with relational data in SQL or massive document stores in NoSQL, a poorly configured database will eventually lead to slow load times, application crashes, and data loss. ",
-      "At Devisgon, we take the complexity out of data infrastructure. We build high-availability database clusters, perform deep query tuning, and set up automated disaster recovery pipelines so your application scales seamlessly from 100 to 1,000,000 users without breaking a sweat."
+      "ڈیٹا کسی بھی جدید ایپلی کیشن کا جاندار ہوتا ہے۔ ڈیٹا بیس مینجمنٹ میں آرکیٹیکٹنگ شامل ہوتی ہے کہ اس ڈیٹا کو کس طرح ذخیرہ، ساخت، رسائی اور محفوظ کیا جاتا ہے۔ چاہے آپ ایس کیو ایل میں متعلقہ ڈیٹا کے ساتھ کام کر رہے ہوں یا NoSQL میں بڑے پیمانے پر ڈاکومنٹ اسٹورز، ایک ناقص کنفیگر شدہ ڈیٹا بیس آخر کار سست لوڈ ٹائم، ایپلیکیشن کریشز، اور ڈیٹا کے نقصان کا باعث بنے گا۔",
+      "Devisgon میں، ہم ڈیٹا کے بنیادی ڈھانچے سے پیچیدگی کو دور کرتے ہیں۔ ہم اعلی دستیابی والے ڈیٹا بیس کلسٹرز بناتے ہیں، گہری استفسار کی ٹیوننگ کرتے ہیں، اور خودکار ڈیزاسٹر ریکوری پائپ لائنز ترتیب دیتے ہیں تاکہ آپ کی ایپلیکیشن بغیر کسی پسینے کے 100 سے 1,000,000 صارفین تک بغیر کسی رکاوٹ کے سکیل کر سکے۔"
     ],
-    "highlight_quote": " “Your application is only as fast as your database.” ",
-    "side_image": "/all_services/database_management/introduction.svg"
+    "highlight_quote": "\"آپ کی درخواست آپ کے ڈیٹا بیس کی طرح تیز ہے۔\"",
+    "side_image": "/all_services/db_mangment/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why professional database management is essential",
+    "title": "کلیدی فوائد",
+    "subtitle": "پیشہ ورانہ ڈیٹا بیس کا انتظام کیوں ضروری ہے۔",
     "cards": [
       {
-        "title": "Blazing Fast Queries",
-        "description": "Proper indexing and query optimization eliminate bottlenecks, making your application feel instantly responsive.",
+        "title": "تیز رفتار سوالات",
+        "description": "مناسب اشاریہ سازی اور استفسار کی اصلاح رکاوٹوں کو ختم کرتی ہے، جس سے آپ کی درخواست فوری طور پر جوابدہ محسوس ہوتی ہے۔",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "High Availability (99.99%)",
-        "description": "Clustered setups and read-replicas ensure your database never goes down, even during massive traffic spikes.",
+        "title": "اعلی دستیابی (99.99%)",
+        "description": "کلسٹرڈ سیٹ اپ اور پڑھنے کی نقلیں اس بات کو یقینی بناتی ہیں کہ آپ کا ڈیٹا بیس کبھی کم نہیں ہوتا، یہاں تک کہ بڑے پیمانے پر ٹریفک میں اضافے کے باوجود۔",
         "icon_type": "MdStorage"
       },
       {
-        "title": "Zero Data Loss",
-        "description": "Automated, encrypted backups and point-in-time recovery mean your data is always safe from corruption or human error.",
+        "title": "صفر ڈیٹا کا نقصان",
+        "description": "خودکار، انکرپٹڈ بیک اپ اور پوائنٹ ان ٹائم ریکوری کا مطلب ہے کہ آپ کا ڈیٹا بدعنوانی یا انسانی غلطی سے ہمیشہ محفوظ رہتا ہے۔",
         "icon_type": "MdOutlineBackup"
       },
       {
-        "title": "Seamless Scalability",
-        "description": "Architectures designed to shard or scale horizontally as your user base and data volume grow.",
+        "title": "سیملیس اسکیل ایبلٹی",
+        "description": "آپ کے صارف کی بنیاد اور ڈیٹا کا حجم بڑھنے کے ساتھ ہی افقی طور پر شارڈ یا اسکیل کرنے کے لیے ڈیزائن کیے گئے فن تعمیرات۔",
         "icon_type": "MdTrendingUp"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Database Management",
-    "image": "/all_services/database_management/wwg.svg",
+    "title": "جب آپ ڈیٹا بیس مینجمنٹ کا انتخاب کرتے ہیں تو آپ کو کیا ملے گا۔",
+    "image": "/all_services/db_mangment/wwg.webp",
     "list_items": [
       {
-        "title": "1. Database Architecture Design",
-        "description": "Selecting the right database engine (SQL vs. NoSQL) and designing an optimal schema for your specific use case."
+        "title": "1. ڈیٹا بیس آرکیٹیکچر ڈیزائن",
+        "description": "صحیح ڈیٹا بیس انجن کا انتخاب کرنا (SQL بمقابلہ NoSQL) اور اپنے مخصوص استعمال کے معاملے کے لیے ایک بہترین اسکیما ڈیزائن کرنا۔"
       },
       {
-        "title": "2. Performance Tuning & Indexing",
-        "description": "Deep analysis of slow queries and application of strategic indexes to speed up data retrieval."
+        "title": "2. پرفارمنس ٹیوننگ اور انڈیکسنگ",
+        "description": "سست سوالات کا گہرا تجزیہ اور ڈیٹا کی بازیافت کو تیز کرنے کے لیے اسٹریٹجک اشاریہ جات کا اطلاق۔"
       },
       {
-        "title": "3. Seamless Data Migration",
-        "description": "Moving your data from legacy systems to modern cloud databases with zero downtime and no data loss."
+        "title": "3. ہموار ڈیٹا کی منتقلی",
+        "description": "اپنے ڈیٹا کو لیگیسی سسٹمز سے جدید کلاؤڈ ڈیٹا بیس میں صفر ڈاؤن ٹائم کے ساتھ منتقل کرنا اور ڈیٹا کے نقصان کے بغیر۔"
       },
       {
-        "title": "4. Automated Maintenance",
-        "description": "Routine health checks, vacuuming, and patching to ensure continuous, secure operation."
+        "title": "4. خودکار دیکھ بھال",
+        "description": "مسلسل، محفوظ آپریشن کو یقینی بنانے کے لیے معمول کی صحت کی جانچ، ویکیومنگ، اور پیچنگ۔"
       }
     ]
   },
   "technologies_section": {
-    "title": "We manage industry-leading databases",
-    "subtitle": "The best engines for relational, document, and caching needs",
+    "title": "ہم صنعت کے معروف ڈیٹا بیس کا انتظام کرتے ہیں۔",
+    "subtitle": "رشتہ دار، دستاویز، اور کیشنگ کی ضروریات کے لیے بہترین انجن",
     "tools": [
       {
-        "name": "PostgreSQL",
+        "name": "پوسٹگری ایس کیو ایل",
         "icon": "SiPostgresql"
       },
       {
-        "name": "MongoDB",
+        "name": "مونگو ڈی بی",
         "icon": "SiMongodb"
       },
       {
-        "name": "MySQL",
+        "name": "مائی ایس کیو ایل",
         "icon": "SiMysql"
       },
       {
-        "name": "Redis",
+        "name": "ریڈیس",
         "icon": "SiRedis"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we secure and speed up your data",
+    "title": "ہمارا عمل",
+    "subtitle": "ہم آپ کے ڈیٹا کو کیسے محفوظ اور تیز کرتے ہیں۔",
     "steps": [
       {
-        "title": "Audit & Analyze",
-        "description": "We analyze your current schema, query logs, and server loads to identify bottlenecks.",
+        "title": "آڈٹ اور تجزیہ",
+        "description": "ہم رکاوٹوں کی نشاندہی کرنے کے لیے آپ کے موجودہ اسکیما، استفسار کے لاگز، اور سرور کے بوجھ کا تجزیہ کرتے ہیں۔",
         "icon": "FaSearch"
       },
       {
-        "title": "Design & Plan",
-        "description": "We architect a scalable solution, whether it's adding read-replicas, indexing, or migrating engines.",
+        "title": "ڈیزائن اور منصوبہ",
+        "description": "ہم ایک قابل توسیع حل کو آرکیٹیکٹ کرتے ہیں، چاہے وہ پڑھنے کے لیے نقلیں، اشاریہ سازی، یا منتقلی انجنوں کو شامل کر رہا ہو۔",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Implement & Optimize",
-        "description": "We rewrite inefficient queries, build the new architecture, and execute secure migrations.",
+        "title": "لاگو کریں اور بہتر بنائیں",
+        "description": "ہم غیر موثر سوالات کو دوبارہ لکھتے ہیں، نیا فن تعمیر بناتے ہیں، اور محفوظ نقل مکانی کو انجام دیتے ہیں۔",
         "icon": "FaDatabase"
       },
       {
-        "title": "Monitor & Backup",
-        "description": "We deploy 24/7 monitoring tools and establish strict, automated backup schedules.",
+        "title": "مانیٹر اور بیک اپ",
+        "description": "ہم 24/7 مانیٹرنگ ٹولز تعینات کرتے ہیں اور سخت، خودکار بیک اپ شیڈول قائم کرتے ہیں۔",
         "icon": "FaShieldAlt"
       }
     ]
   },
   "case_study_section": {
-    "headline": "300% faster query speeds for an e-commerce platform",
-    "image": "/all_services/database_management/case_study.svg",
+    "headline": "ای کامرس پلیٹ فارم کے لیے 300% تیز استفسار کی رفتار",
+    "image": "/all_services/db_mangment/cs.png",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A high-traffic e-commerce site experienced severe database lockups and timeout errors during flash sales, costing them thousands in abandoned carts."
+        "label": "مسئلہ",
+        "text": "ایک ہائی ٹریفک ای کامرس سائٹ کو فلیش سیلز کے دوران شدید ڈیٹا بیس لاک اپ اور ٹائم آؤٹ کی خرابیوں کا سامنا کرنا پڑا، جس کی لاگت انہیں ترک کر دی گئی گاڑیوں میں ہزاروں میں ادا کرنی پڑی۔"
       },
       "solution": {
-        "label": "Solution",
-        "text": "We optimized their PostgreSQL schema, implemented Redis for product catalog caching, and set up a master-slave read-replica architecture."
+        "label": "حل",
+        "text": "ہم نے ان کے PostgreSQL اسکیما کو بہتر بنایا، پروڈکٹ کیٹلاگ کیشنگ کے لیے Redis کو لاگو کیا، اور ایک ماسٹر-سلیو ریڈ-ریپلیکا فن تعمیر قائم کیا۔"
       },
       "result": {
-        "label": "Result",
-        "text": "Database CPU load dropped by 70%, average query response time improved by 300%, and the platform handled Black Friday traffic with zero downtime."
+        "label": "نتیجہ",
+        "text": "ڈیٹا بیس CPU لوڈ میں 70% کی کمی ہوئی، استفسار کے اوسط وقت میں 300% بہتری آئی، اور پلیٹ فارم نے بلیک فرائیڈے ٹریفک کو صفر ڈاؤن ٹائم کے ساتھ ہینڈل کیا۔"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about database architecture",
+    "title": "اکثر پوچھے گئے سوالات",
+    "subtitle": "ڈیٹا بیس فن تعمیر کے بارے میں جوابات حاصل کریں۔",
     "questions": [
       {
-        "question": "Should I use a SQL or NoSQL database?",
-        "answer": "It depends entirely on your data. SQL (like PostgreSQL or MySQL) is best for highly structured, relational data where data integrity and complex transactions are critical (like finance or e-commerce). NoSQL (like MongoDB) is great for unstructured data, rapid prototyping, and massive horizontal scaling."
+        "question": "کیا مجھے SQL یا NoSQL ڈیٹا بیس استعمال کرنا چاہیے؟",
+        "answer": "یہ مکمل طور پر آپ کے ڈیٹا پر منحصر ہے۔ ایس کیو ایل (جیسے PostgreSQL یا MySQL) انتہائی سٹرکچرڈ، رشتہ دار ڈیٹا کے لیے بہترین ہے جہاں ڈیٹا کی سالمیت اور پیچیدہ لین دین اہم ہیں (جیسے فنانس یا ای کامرس)۔ NoSQL (جیسے MongoDB) غیر ساختہ ڈیٹا، تیز رفتار پروٹو ٹائپنگ، اور بڑے پیمانے پر افقی اسکیلنگ کے لیے بہترین ہے۔"
       },
       {
-        "question": "What happens if our database server crashes?",
-        "answer": "We design high-availability architectures to prevent this. By using clustered setups and read-replicas across multiple server availability zones, if your primary database goes offline, traffic is automatically routed to a synchronized backup server in milliseconds."
+        "question": "اگر ہمارا ڈیٹا بیس سرور کریش ہو جائے تو کیا ہوتا ہے؟",
+        "answer": "ہم اسے روکنے کے لیے اعلیٰ دستیابی کے فن تعمیرات کو ڈیزائن کرتے ہیں۔ کلسٹرڈ سیٹ اپس اور ایک سے زیادہ سرور کی دستیابی والے زونز میں پڑھنے کی نقلیں استعمال کرنے سے، اگر آپ کا بنیادی ڈیٹا بیس آف لائن ہو جاتا ہے، تو ٹریفک خود بخود ملی سیکنڈز میں مطابقت پذیر بیک اپ سرور کی طرف روانہ ہو جاتا ہے۔"
       },
       {
-        "question": "Can you migrate our data from an old system?",
-        "answer": "Yes. Data migration is one of our core specialties. We map your old schema to the new one and execute the migration using secure pipelines, often achieving zero-downtime migrations so your business isn't interrupted."
+        "question": "کیا آپ ہمارے ڈیٹا کو پرانے سسٹم سے منتقل کر سکتے ہیں؟",
+        "answer": "جی ہاں ڈیٹا کی منتقلی ہماری بنیادی خصوصیات میں سے ایک ہے۔ ہم آپ کے پرانے اسکیما کو نئے سے نقشہ بناتے ہیں اور محفوظ پائپ لائنوں کا استعمال کرتے ہوئے منتقلی کو انجام دیتے ہیں، اکثر صفر ڈاؤن ٹائم مائیگریشن حاصل کرتے ہیں تاکہ آپ کے کاروبار میں خلل نہ پڑے۔"
       },
       {
-        "question": "How do you protect our database from hackers?",
-        "answer": "We implement strict network-level security (ensuring the database is never exposed to the public internet), enforce strong Identity and Access Management (IAM), encrypt data both at rest and in transit, and continuously monitor for suspicious query patterns."
+        "question": "آپ ہمارے ڈیٹا بیس کو ہیکرز سے کیسے بچاتے ہیں؟",
+        "answer": "ہم نیٹ ورک کی سطح پر سخت سیکیورٹی نافذ کرتے ہیں (اس بات کو یقینی بناتے ہوئے کہ ڈیٹا بیس کبھی بھی عوامی انٹرنیٹ کے سامنے نہ آئے)، مضبوط شناخت اور رسائی کا انتظام (IAM) نافذ کرتے ہیں، آرام اور ٹرانزٹ دونوں جگہ ڈیٹا کو انکرپٹ کرتے ہیں، اور مشکوک سوالات کے نمونوں کی مسلسل نگرانی کرتے ہیں۔"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Talk to our data architects",
+      "text": "آپ کا جواب نہیں ملا؟",
+      "link_text": "ہمارے ڈیٹا آرکیٹیکٹس سے بات کریں۔",
       "link_url": "/contact"
     }
   }

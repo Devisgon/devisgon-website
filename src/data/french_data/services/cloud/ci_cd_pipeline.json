@@ -1,89 +1,89 @@
 {
   "slug": "cicd_pipelines",
   "hero_section": {
-    "title": "CI/CD Pipelines",
-    "subtitle": "Accelerate Your Software Delivery",
-    "description": "Automate your build, test, and deployment processes. We design robust CI/CD pipelines that eliminate manual errors, increase release velocity, and ensure your software is always production-ready.",
+    "title": "Pipelines CI/CD",
+    "subtitle": "Accélérez la livraison de vos logiciels",
+    "description": "Automatisez vos processus de création, de test et de déploiement. Nous concevons des pipelines CI/CD robustes qui éliminent les erreurs manuelles, augmentent la vitesse de publication et garantissent que votre logiciel est toujours prêt pour la production.",
     "buttons": [
       {
-        "text": "Automate My Deployments",
+        "text": "Automatiser mes déploiements",
         "link": "/contact"
       },
       {
-        "text": "Talk to a DevOps Expert",
+        "text": "Parlez à un expert DevOps",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/cicd_pipelines.mp4"
   },
   "introduction_section": {
-    "heading": "What are",
-    "span_heading": " CI/CD Pipelines?",
+    "heading": "Que sont",
+    "span_heading": "Pipelines CI/CD ?",
     "content": [
-      "Continuous Integration (CI) and Continuous Deployment (CD) form the backbone of modern software engineering. CI automatically merges and tests your developers' code changes, while CD automates the release of that validated code to your live servers. ",
-      "At Devisgon, we eliminate the infamous 'it works on my machine' problem. By building custom pipelines tailored to your exact tech stack, we empower your team to push code with absolute confidence, knowing that automated quality gates will catch bugs before they ever reach your users."
+      "L'intégration continue (CI) et le déploiement continu (CD) constituent l'épine dorsale de l'ingénierie logicielle moderne. CI fusionne et teste automatiquement les modifications de code de vos développeurs, tandis que CD automatise la publication de ce code validé sur vos serveurs en direct.",
+      "Chez Devisgon, nous éliminons le fameux problème « ça fonctionne sur ma machine ». En créant des pipelines personnalisés adaptés à votre pile technologique exacte, nous permettons à votre équipe de transmettre du code en toute confiance, sachant que les contrôles de qualité automatisés détecteront les bogues avant qu'ils n'atteignent vos utilisateurs."
     ],
-    "highlight_quote": " “Ship code faster. Break things less.” ",
-    "side_image": "/all_services/cicd/introduction.svg"
+    "highlight_quote": "\"Expédiez le code plus rapidement. Cassez moins les choses.\"",
+    "side_image": "/all_services/ci_cd_pipeline/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why automation is the future of deployment",
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi l'automatisation est l'avenir du déploiement",
     "cards": [
       {
-        "title": "Faster Time-to-Market",
-        "description": "Release new features and bug fixes to your users in minutes instead of weeks.",
+        "title": "Une mise sur le marché plus rapide",
+        "description": "Publiez de nouvelles fonctionnalités et des corrections de bugs à vos utilisateurs en quelques minutes au lieu de quelques semaines.",
         "icon_type": "MdTimer"
       },
       {
-        "title": "Reduced Human Error",
-        "description": "Eliminate manual server configurations and copy-pasting that lead to catastrophic downtime.",
+        "title": "Erreur humaine réduite",
+        "description": "Éliminez les configurations manuelles du serveur et les copier-coller qui entraînent des temps d'arrêt catastrophiques.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Effortless Rollbacks",
-        "description": "If a bad update slips through, our pipelines allow you to instantly revert to the last stable version.",
+        "title": "Annulations sans effort",
+        "description": "Si une mauvaise mise à jour passe, nos pipelines vous permettent de revenir instantanément à la dernière version stable.",
         "icon_type": "MdRestore"
       },
       {
-        "title": "Developer Productivity",
-        "description": "Free your engineers from tedious deployment tasks so they can focus on writing great code.",
+        "title": "Productivité des développeurs",
+        "description": "Libérez vos ingénieurs des tâches de déploiement fastidieuses afin qu'ils puissent se concentrer sur l'écriture d'un code de qualité.",
         "icon_type": "MdCode"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose CI/CD Pipelines",
-    "image": "/all_services/cicd/wwg.svg",
+    "title": "Ce que vous obtiendrez en choisissant les pipelines CI/CD",
+    "image": "/all_services/ci_cd_pipeline/wwg.png",
     "list_items": [
       {
-        "title": "1. Automated Build Processes",
-        "description": "Code is automatically compiled, linted, and packaged into secure containers (like Docker) on every commit."
+        "title": "1. Processus de construction automatisés",
+        "description": "Le code est automatiquement compilé, linté et empaqueté dans des conteneurs sécurisés (comme Docker) à chaque validation."
       },
       {
-        "title": "2. Integrated Automated Testing",
-        "description": "Unit, integration, and security tests run automatically to block faulty code from being merged."
+        "title": "2. Tests automatisés intégrés",
+        "description": "Les tests unitaires, d'intégration et de sécurité s'exécutent automatiquement pour empêcher la fusion du code défectueux."
       },
       {
-        "title": "3. Zero-Downtime Deployments",
-        "description": "Advanced deployment strategies (like Blue-Green or Canary) so your app stays live during updates."
+        "title": "3. Déploiements sans temps d'arrêt",
+        "description": "Stratégies de déploiement avancées (comme Blue-Green ou Canary) pour que votre application reste active pendant les mises à jour."
       },
       {
-        "title": "4. Performance Monitoring",
-        "description": "Alerts and dashboards that notify your team instantly if a build fails or a deployment stalls."
+        "title": "4. Surveillance des performances",
+        "description": "Alertes et tableaux de bord qui informent instantanément votre équipe en cas d'échec d'une build ou d'un déploiement bloqué."
       }
     ]
   },
   "technologies_section": {
     "title": "We automate using industry-leading tools",
-    "subtitle": "The best DevOps platforms for reliable, scalable pipelines",
+    "subtitle": "Les meilleures plateformes DevOps pour des pipelines fiables et évolutifs",
     "tools": [
       {
-        "name": "GitHub Actions",
+        "name": "Actions GitHub",
         "icon": "SiGithubactions"
       },
       {
-        "name": "GitLab CI",
+        "name": "GitLabCI",
         "icon": "FaGitlab"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we streamline your software delivery",
+    "title": "Notre processus",
+    "subtitle": "Comment nous rationalisons la livraison de vos logiciels",
     "steps": [
       {
-        "title": "Infrastructure Audit",
-        "description": "We analyze your current hosting environment, codebase, and deployment bottlenecks.",
+        "title": "Audit des infrastructures",
+        "description": "Nous analysons votre environnement d'hébergement actuel, votre base de code et les goulots d'étranglement de déploiement.",
         "icon": "FaSearch"
       },
       {
-        "title": "Pipeline Architecture",
-        "description": "We design the workflow logic, defining staging environments and testing gates.",
+        "title": "Architecture des pipelines",
+        "description": "Nous concevons la logique du flux de travail, en définissant les environnements de préparation et les portes de test.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Scripting & Integration",
-        "description": "We write the configuration files (YAML) and connect your repository to your cloud provider.",
+        "title": "Script et intégration",
+        "description": "Nous écrivons les fichiers de configuration (YAML) et connectons votre référentiel à votre fournisseur cloud.",
         "icon": "FaTerminal"
       },
       {
-        "title": "Testing & Handover",
-        "description": "We run test deployments, document the pipeline, and train your dev team on the new workflow.",
+        "title": "Tests et transfert",
+        "description": "Nous effectuons des déploiements de tests, documentons le pipeline et formons votre équipe de développement au nouveau flux de travail.",
         "icon": "FaCheckDouble"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Reduced deployment time from 4 hours to 15 minutes",
-    "image": "/all_services/cicd/case_study.svg",
+    "headline": "Temps de déploiement réduit de 4 heures à 15 minutes",
+    "image": "/all_services/ci_cd_pipeline/cs.webp",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A SaaS company was doing manual deployments that required taking the site offline for hours every weekend, leading to developer burnout."
+        "label": "Problème",
+        "text": "Une entreprise SaaS effectuait des déploiements manuels qui nécessitaient de mettre le site hors ligne pendant des heures chaque week-end, entraînant l'épuisement des développeurs."
       },
       "solution": {
         "label": "Solution",
-        "text": "We implemented a fully automated CI/CD pipeline using GitHub Actions, Docker, and AWS Elastic Beanstalk with a rolling deployment strategy."
+        "text": "Nous avons mis en œuvre un pipeline CI/CD entièrement automatisé à l'aide de GitHub Actions, Docker et AWS Elastic Beanstalk avec une stratégie de déploiement continu."
       },
       "result": {
-        "label": "Result",
-        "text": "Deployments now happen automatically in 15 minutes with zero downtime, allowing the team to release features multiple times a day."
+        "label": "Résultat",
+        "text": "Les déploiements s'effectuent désormais automatiquement en 15 minutes sans aucun temps d'arrêt, ce qui permet à l'équipe de publier des fonctionnalités plusieurs fois par jour."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about DevOps and CI/CD",
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur DevOps et CI/CD",
     "questions": [
       {
-        "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
-        "answer": "Continuous Delivery means your code is automatically tested and ready to be deployed, but a human still has to push the final 'publish' button. Continuous Deployment takes it one step further—every code change that passes the automated tests is deployed straight to production without any human intervention."
+        "question": "Quelle est la différence entre la livraison continue et le déploiement continu ?",
+        "answer": "La livraison continue signifie que votre code est automatiquement testé et prêt à être déployé, mais qu'un humain doit encore appuyer sur le bouton final « publier ». Le déploiement continu va encore plus loin : chaque modification de code qui réussit les tests automatisés est déployée directement en production sans aucune intervention humaine."
       },
       {
-        "question": "Do I need CI/CD if I have a small development team?",
-        "answer": "Yes! CI/CD is arguably even more important for small teams. It acts as a digital safety net, catching bugs automatically and saving your limited engineering hours from being wasted on repetitive server uploads."
+        "question": "Ai-je besoin de CI/CD si j’ai une petite équipe de développement ?",
+        "answer": "Oui! Le CI/CD est sans doute encore plus important pour les petites équipes. Il agit comme un filet de sécurité numérique, détectant automatiquement les bogues et évitant que vos heures d'ingénierie limitées ne soient gaspillées en téléchargements répétitifs sur le serveur."
       },
       {
-        "question": "Will a CI/CD pipeline work with my existing codebase?",
-        "answer": "Absolutely. Whether you have a legacy monolithic application or modern microservices, we can build a pipeline around it. The pipeline scripts just tell the server how to build and move your specific code."
+        "question": "Un pipeline CI/CD fonctionnera-t-il avec ma base de code existante ?",
+        "answer": "Absolument. Que vous disposiez d’une application monolithique existante ou de microservices modernes, nous pouvons construire un pipeline autour de celle-ci. Les scripts de pipeline indiquent simplement au serveur comment créer et déplacer votre code spécifique."
       },
       {
-        "question": "What happens if a deployment fails or breaks the live site?",
-        "answer": "A properly designed CI/CD pipeline prevents this. The 'CI' phase will catch compilation or testing errors and block the deployment. If a bug somehow makes it to the 'CD' phase, we configure instant rollback commands so you can revert to the previous working version in seconds."
+        "question": "Que se passe-t-il si un déploiement échoue ou interrompt le site en ligne ?",
+        "answer": "Un pipeline CI/CD correctement conçu empêche cela. La phase « CI » détectera les erreurs de compilation ou de test et bloquera le déploiement. Si un bug parvient d'une manière ou d'une autre à la phase « CD », nous configurons des commandes de restauration instantanée afin que vous puissiez revenir à la version de travail précédente en quelques secondes."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact us for a free DevOps consultation",
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Contactez-nous pour une consultation DevOps gratuite",
       "link_url": "/contact"
     }
   }

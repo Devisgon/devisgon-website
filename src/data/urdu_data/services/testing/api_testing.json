@@ -1,173 +1,173 @@
 {
   "slug": "api_testing",
   "hero_section": {
-    "title": "API Testing Services",
-    "subtitle": "Bulletproof Your Application's Backbone",
-    "description": "Ensure your APIs are secure, highly performant, and functioning flawlessly. We rigorously test your backend architecture to prevent data leaks, eliminate bottlenecks, and guarantee seamless integrations.",
+    "title": "API ٹیسٹنگ سروسز",
+    "subtitle": "بلٹ پروف آپ کی درخواست کی ریڑھ کی ہڈی",
+    "description": "اس بات کو یقینی بنائیں کہ آپ کے APIs محفوظ، اعلیٰ کارکردگی اور بے عیب طریقے سے کام کر رہے ہیں۔ ڈیٹا لیک کو روکنے، رکاوٹوں کو ختم کرنے اور بغیر کسی رکاوٹ کے انضمام کی ضمانت دینے کے لیے ہم آپ کے بیک اینڈ فن تعمیر کی سختی سے جانچ کرتے ہیں۔",
     "buttons": [
       {
-        "text": "Test My API",
+        "text": "میرے API کی جانچ کریں۔",
         "link": "/contact"
       },
       {
-        "text": "Speak to a QA Engineer",
+        "text": "QA انجینئر سے بات کریں۔",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/api_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " API Testing?",
+    "heading": "کیا ہے",
+    "span_heading": "API ٹیسٹنگ؟",
     "content": [
-      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third-party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
-      "Unlike traditional UI testing, API testing bypasses the graphical interface to interact directly with your software's core logic. At Devisgon, we validate your REST, GraphQL, and SOAP endpoints for functionality, reliability, load capacity, and security. We ensure your system communicates flawlessly and securely under any condition."
+      "APIs (ایپلی کیشن پروگرامنگ انٹرفیس) وہ پوشیدہ پل ہیں جو آپ کے فرنٹ اینڈ انٹرفیس کو آپ کے بیک اینڈ ڈیٹا بیس اور بیرونی تھرڈ پارٹی سروسز سے جوڑتے ہیں۔ اگر آپ کا API ناکام ہوجاتا ہے، سست ہے، یا اس میں کمزوری ہے، تو آپ کی پوری ایپلیکیشن متاثر ہوگی۔",
+      "روایتی UI ٹیسٹنگ کے برعکس، API ٹیسٹنگ آپ کے سافٹ ویئر کی بنیادی منطق کے ساتھ براہ راست تعامل کرنے کے لیے گرافیکل انٹرفیس کو نظرانداز کرتی ہے۔ Devisgon میں، ہم آپ کے REST، GraphQL، اور SOAP کے اختتامی پوائنٹس کو فعالیت، بھروسے، بوجھ کی گنجائش، اور سیکیورٹی کے لیے درست کرتے ہیں۔ ہم یقینی بناتے ہیں کہ آپ کا سسٹم کسی بھی حالت میں بے عیب اور محفوظ طریقے سے بات چیت کرتا ہے۔"
     ],
-    "highlight_quote": " “Bugs found at the API layer are 10x cheaper to fix than those found in the UI.” ",
-    "side_image": "/all_services/api_testing/introduction.svg"
+    "highlight_quote": "\"API پرت میں پائے جانے والے کیڑے UI میں پائے جانے والے کیڑے سے ٹھیک کرنے کے لیے 10x سستے ہیں۔\"",
+    "side_image": "/all_services/api_testing/introduction.png"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why testing your API is non-negotiable",
+    "title": "کلیدی فوائد",
+    "subtitle": "آپ کے API کی جانچ کیوں غیر گفت و شنید ہے۔",
     "cards": [
       {
-        "title": "Early Bug Detection",
-        "description": "Test core business logic long before the graphical user interface (UI) is even built, saving massive development time.",
+        "title": "ابتدائی بگ کا پتہ لگانا",
+        "description": "گرافیکل یوزر انٹرفیس (UI) کے بننے سے بہت پہلے بنیادی کاروباری منطق کی جانچ کریں، جس سے بڑے پیمانے پر ترقیاتی وقت کی بچت ہوتی ہے۔",
         "icon_type": "MdBugReport"
       },
       {
-        "title": "Unbreakable Security",
-        "description": "Ensure sensitive data is properly encrypted and authentication protocols (like OAuth and JWT) are completely secure.",
+        "title": "اٹوٹ سیکیورٹی",
+        "description": "اس بات کو یقینی بنائیں کہ حساس ڈیٹا کو صحیح طریقے سے انکرپٹ کیا گیا ہے اور تصدیقی پروٹوکول (جیسے OAuth اور JWT) مکمل طور پر محفوظ ہیں۔",
         "icon_type": "MdSecurity"
       },
       {
-        "title": "Faster Release Cycles",
-        "description": "API tests execute in milliseconds compared to slow, brittle UI automated tests, vastly speeding up your CI/CD pipeline.",
+        "title": "تیز تر ریلیز سائیکل",
+        "description": "API ٹیسٹ سست، ٹوٹنے والے UI خودکار ٹیسٹوں کے مقابلے ملی سیکنڈز میں انجام پاتے ہیں، جو آپ کی CI/CD پائپ لائن کو کافی تیز کرتے ہیں۔",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "Seamless Integrations",
-        "description": "Guarantee that your software communicates perfectly with third-party tools like payment gateways or CRMs.",
+        "title": "ہموار انضمام",
+        "description": "اس بات کی ضمانت دیں کہ آپ کا سافٹ ویئر تھرڈ پارٹی ٹولز جیسے پیمنٹ گیٹ ویز یا CRMs کے ساتھ بالکل بات چیت کرتا ہے۔",
         "icon_type": "MdSync"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose API Testing",
-    "image": "/all_services/api_testing/wwg.svg",
+    "title": "جب آپ API ٹیسٹنگ کا انتخاب کرتے ہیں تو آپ کو کیا ملے گا۔",
+    "image": "/all_services/api_testing/wwg.png",
     "list_items": [
       {
-        "title": "1. Functional Endpoint Validation",
-        "description": "Rigorous testing of request methods (GET, POST, PUT, DELETE) and validation of correct JSON/XML payload responses."
+        "title": "1. فنکشنل اینڈ پوائنٹ کی توثیق",
+        "description": "درخواست کے طریقوں کی سخت جانچ (GET, POST, PUT, DELETE) اور درست JSON/XML پے لوڈ جوابات کی توثیق۔"
       },
       {
-        "title": "2. Load & Performance Testing",
-        "description": "Stress-testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
+        "title": "2. لوڈ اور کارکردگی کی جانچ",
+        "description": "یہ دیکھنے کے لیے کہ وہ بڑے پیمانے پر ٹریفک کے اضافے اور ہم وقت صارف کی درخواستوں کو کیسے ہینڈل کرتے ہیں، اپنے اختتامی پوائنٹس کو تناؤ کی جانچ کر رہے ہیں۔"
       },
       {
-        "title": "3. Security & Auth Audits",
-        "description": "Simulated attacks to check for vulnerabilities like SQL injection, broken authentication, and exposed endpoints."
+        "title": "3. سیکورٹی اور تصدیقی آڈٹ",
+        "description": "ایس کیو ایل انجیکشن، ٹوٹی ہوئی تصدیق، اور بے نقاب اختتامی پوائنٹس جیسی کمزوریوں کی جانچ کرنے کے لیے نقلی حملے۔"
       },
       {
-        "title": "4. Automated Test Suites",
-        "description": "A comprehensive suite of automated API scripts that integrate seamlessly into your existing deployment pipelines."
+        "title": "4. خودکار ٹیسٹ سویٹس",
+        "description": "خودکار API اسکرپٹس کا ایک جامع سوٹ جو آپ کی موجودہ تعیناتی پائپ لائنوں میں بغیر کسی رکاوٹ کے ضم ہوجاتا ہے۔"
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard QA tools",
-    "subtitle": "The best frameworks for accurate and automated API validation",
+    "title": "ہم انڈسٹری کے معیاری QA ٹولز کا استعمال کرتے ہوئے جانچ کرتے ہیں۔",
+    "subtitle": "درست اور خودکار API کی توثیق کے لیے بہترین فریم ورک",
     "tools": [
       {
-        "name": "Postman",
+        "name": "ڈاکیا",
         "icon": "SiPostman"
       },
       {
-        "name": "Swagger",
+        "name": "اکڑ",
         "icon": "SiSwagger"
       },
       {
-        "name": "JMeter",
+        "name": "جے میٹر",
         "icon": "SiApachejmeter"
       },
       {
-        "name": "REST Assured",
+        "name": "باقی یقین دہانی کرائی",
         "icon": "FaJava"
       },
       {
-        "name": "SoapUI",
+        "name": "صابن یو آئی",
         "icon": "TbApi"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A systematic approach to backend quality assurance",
+    "title": "ہمارا عمل",
+    "subtitle": "بیک اینڈ کوالٹی اشورینس کے لیے ایک منظم طریقہ",
     "steps": [
       {
-        "title": "Analyze Requirements",
-        "description": "We review your API documentation (e.g., Swagger/OpenAPI specs) and define the testing scope.",
+        "title": "تقاضوں کا تجزیہ کریں۔",
+        "description": "ہم آپ کے API دستاویزات کا جائزہ لیتے ہیں (مثال کے طور پر، Swagger/OpenAPI چشمی) اور جانچ کے دائرہ کار کی وضاحت کرتے ہیں۔",
         "icon": "FaSearch"
       },
       {
-        "title": "Design Scenarios",
-        "description": "We write comprehensive test cases covering positive, negative, and edge-case data inputs.",
+        "title": "ڈیزائن کے منظرنامے۔",
+        "description": "ہم جامع ٹیسٹ کیس لکھتے ہیں جس میں مثبت، منفی، اور ایج کیس ڈیٹا ان پٹ شامل ہوتے ہیں۔",
         "icon": "FaFileAlt"
       },
       {
-        "title": "Automate & Execute",
-        "description": "We build automated scripts to hit your endpoints, verifying response codes, times, and data payloads.",
+        "title": "خودکار اور عملدرآمد",
+        "description": "ہم جوابی کوڈز، اوقات اور ڈیٹا پے لوڈز کی تصدیق کرتے ہوئے، آپ کے اختتامی نقطوں کو نشانہ بنانے کے لیے خودکار اسکرپٹ بناتے ہیں۔",
         "icon": "FaRobot"
       },
       {
-        "title": "Report & Integrate",
-        "description": "We provide detailed bug reports and integrate the test suite directly into your CI/CD pipeline.",
+        "title": "رپورٹ کریں اور انٹیگریٹ کریں۔",
+        "description": "ہم تفصیلی بگ رپورٹس فراہم کرتے ہیں اور ٹیسٹ سویٹ کو براہ راست آپ کی CI/CD پائپ لائن میں ضم کرتے ہیں۔",
         "icon": "FaChartBar"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Eliminated payment gateway timeouts and increased conversions by 15%",
-    "image": "/all_services/api_testing/case_study.svg",
+    "headline": "ادائیگی کے گیٹ وے ٹائم آؤٹ کو ختم کر دیا گیا اور تبادلوں میں 15% اضافہ ہوا",
+    "image": "/all_services/api_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third-party payment API."
+        "label": "مسئلہ",
+        "text": "ایک فنٹیک ایپ بے ترتیب لین دین کی ناکامیوں کا سامنا کر رہی تھی کیونکہ ان کا موبائل UI فریق ثالث ادائیگی API سے سست ردعمل کو نہیں سنبھال سکتا تھا۔"
       },
       "solution": {
-        "label": "Solution",
-        "text": "We implemented a suite of automated API performance tests, uncovering a severe payload parsing bottleneck that only occurred under heavy server load."
+        "label": "حل",
+        "text": "ہم نے خودکار API کارکردگی ٹیسٹوں کا ایک مجموعہ لاگو کیا، جس میں ایک شدید پے لوڈ پارس کرنے والی رکاوٹ کا پردہ فاش کیا گیا جو صرف سرور کے بھاری بوجھ کے تحت ہوا تھا۔"
       },
       "result": {
-        "label": "Result",
-        "text": "By pinpointing and fixing the backend issue, timeout errors were completely eliminated, resulting in a 15% increase in successful transactions."
+        "label": "نتیجہ",
+        "text": "بیک اینڈ ایشو کی نشاندہی کرنے اور اسے ٹھیک کرنے سے، ٹائم آؤٹ کی خرابیوں کو مکمل طور پر ختم کر دیا گیا، جس کے نتیجے میں کامیاب ٹرانزیکشنز میں 15% اضافہ ہوا۔"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about backend quality assurance",
+    "title": "اکثر پوچھے گئے سوالات",
+    "subtitle": "بیک اینڈ کوالٹی اشورینس کے بارے میں جوابات حاصل کریں۔",
     "questions": [
       {
-        "question": "Why do I need API testing if I am already doing UI testing?",
-        "answer": "UI testing is slow, brittle, and only verifies what the user sees. API testing verifies the actual business logic and data. Because APIs can be tested without a graphical interface, you can find and fix critical bugs much earlier in the development lifecycle."
+        "question": "اگر میں پہلے ہی UI ٹیسٹنگ کر رہا ہوں تو مجھے API ٹیسٹنگ کی ضرورت کیوں ہے؟",
+        "answer": "UI ٹیسٹنگ سست، ٹوٹنے والی ہے، اور صرف وہی تصدیق کرتی ہے جو صارف دیکھتا ہے۔ API ٹیسٹنگ اصل کاروباری منطق اور ڈیٹا کی تصدیق کرتی ہے۔ چونکہ APIs کو گرافیکل انٹرفیس کے بغیر ٹیسٹ کیا جا سکتا ہے، آپ ڈیولپمنٹ لائف سائیکل میں بہت پہلے اہم کیڑے تلاش اور ٹھیک کر سکتے ہیں۔"
       },
       {
-        "question": "Do you test both REST and GraphQL APIs?",
-        "answer": "Yes. We have extensive experience testing traditional RESTful architectures, SOAP web services, and modern GraphQL endpoints where queries and mutations require specific data structure validations."
+        "question": "کیا آپ REST اور GraphQL APIs دونوں کی جانچ کرتے ہیں؟",
+        "answer": "جی ہاں ہمارے پاس روایتی RESTful architectures، SOAP ویب سروسز، اور جدید GraphQL اینڈ پوائنٹس کی جانچ کرنے کا وسیع تجربہ ہے جہاں استفسارات اور تغیرات کے لیے مخصوص ڈیٹا ڈھانچہ کی توثیق کی ضرورت ہوتی ہے۔"
       },
       {
-        "question": "Can you test APIs that require complex authentication?",
-        "answer": "Absolutely. We routinely write test scripts that handle complex, multi-step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
+        "question": "کیا آپ ایسے APIs کی جانچ کر سکتے ہیں جن کے لیے پیچیدہ تصدیق کی ضرورت ہوتی ہے؟",
+        "answer": "بالکل۔ ہم معمول کے مطابق ٹیسٹ اسکرپٹ لکھتے ہیں جو پیچیدہ، ملٹی سٹیپ توثیق کے بہاؤ کو سنبھالتے ہیں، بشمول OAuth 2.0، JWT (JSON ویب ٹوکنز)، API کیز، اور سیشن کوکیز۔"
       },
       {
-        "question": "Will these tests run automatically?",
-        "answer": "Yes! The ultimate goal of our API testing service is automation. We package our test suites using tools like Postman (Newman) or REST Assured so they can be triggered automatically by your CI/CD pipeline every time your developers push new code."
+        "question": "کیا یہ ٹیسٹ خود بخود چلیں گے؟",
+        "answer": "جی ہاں! ہماری API ٹیسٹنگ سروس کا حتمی مقصد آٹومیشن ہے۔ ہم پوسٹ مین (نیو مین) یا REST Assured جیسے ٹولز کا استعمال کرتے ہوئے اپنے ٹیسٹ سویٹس کو پیک کرتے ہیں تاکہ جب بھی آپ کے ڈویلپرز نیا کوڈ ڈالیں تو وہ آپ کی CI/CD پائپ لائن سے خود بخود متحرک ہو جائیں۔"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact our QA experts",
+      "text": "آپ کا جواب نہیں ملا؟",
+      "link_text": "ہمارے QA ماہرین سے رابطہ کریں۔",
       "link_url": "/contact"
     }
   }

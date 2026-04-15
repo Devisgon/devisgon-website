@@ -1,85 +1,85 @@
 {
   "slug": "manual_testing",
   "hero_section": {
-    "title": "Manual Testing Services",
-    "subtitle": "Human Insight for Flawless Software",
-    "description": "Ensure your software doesn't just work in theory, but thrives in the real world. Our expert QA engineers rigorously test your application by hand to uncover hidden bugs, visual glitches, and UX friction that automated scripts miss.",
+    "title": "خدمات الاختبار اليدوي",
+    "subtitle": "البصيرة البشرية للبرمجيات لا تشوبه شائبة",
+    "description": "تأكد من أن برنامجك لا يعمل من الناحية النظرية فحسب، بل يزدهر في العالم الحقيقي. يقوم مهندسو ضمان الجودة الخبراء لدينا باختبار تطبيقك يدويًا بدقة للكشف عن الأخطاء المخفية ومواطن الخلل المرئية ومشاكل تجربة المستخدم التي تفتقدها البرامج النصية الآلية.",
     "buttons": [
       {
-        "text": "Hire a QA Expert",
+        "text": "الاستعانة بخبير ضمان الجودة",
         "link": "/contact"
       },
       {
-        "text": "Explore QA Services",
+        "text": "اكتشف خدمات ضمان الجودة",
         "link": "/services"
       }
     ],
     "hero_image": "/videos/manual_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Manual Testing?",
+    "heading": "ما هو",
+    "span_heading": "اختبار يدوي؟",
     "content": [
-      "While automation is excellent for checking expected outcomes, it takes a human to find the unexpected. Manual testing is the process where QA engineers act as real end-users, actively exploring your application to identify usability issues, visual inconsistencies, and complex edge-case bugs. ",
-      "At Devisgon, our QA team doesn't just follow scripts; we try to break your software. We perform exploratory testing, cross-browser visual checks, and complex scenario validation to ensure your application is intuitive, accessible, and completely bulletproof before it reaches your customers."
+      "في حين أن الأتمتة ممتازة للتحقق من النتائج المتوقعة، إلا أن الأمر يتطلب إنسانًا للعثور على ما هو غير متوقع. الاختبار اليدوي هو العملية التي يعمل فيها مهندسو ضمان الجودة كمستخدمين نهائيين حقيقيين، حيث يستكشفون تطبيقك بشكل نشط لتحديد مشكلات قابلية الاستخدام، والتناقضات المرئية، والأخطاء المعقدة في حالة الحافة.",
+      "في Devisgon، لا يتبع فريق ضمان الجودة لدينا البرامج النصية فحسب؛ نحن نحاول كسر البرمجيات الخاصة بك. نحن نقوم بإجراء اختبارات استكشافية، وفحوصات مرئية عبر المتصفحات، والتحقق من صحة السيناريوهات المعقدة للتأكد من أن التطبيق الخاص بك بديهي، ويمكن الوصول إليه، ومقاوم للرصاص تمامًا قبل أن يصل إلى عملائك."
     ],
-    "highlight_quote": " “Automation checks the code. Manual testing checks the experience.” ",
-    "side_image": "/all_services/manual_testing/introduction.svg"
+    "highlight_quote": "\"تتحقق الأتمتة من الكود. ويتحقق الاختبار اليدوي من التجربة.\"",
+    "side_image": "/all_services/manual_testing/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why human intuition is irreplaceable in QA",
+    "title": "الفوائد الرئيسية",
+    "subtitle": "لماذا الحدس البشري لا يمكن الاستغناء عنه في ضمان الجودة",
     "cards": [
       {
-        "title": "Real User Perspective",
-        "description": "We test your app exactly how a real human would use it, catching UX friction and confusing navigation.",
+        "title": "منظور المستخدم الحقيقي",
+        "description": "نحن نختبر تطبيقك بدقة كيف يمكن أن يستخدمه الإنسان الحقيقي، مما يؤدي إلى اكتشاف الاحتكاك في تجربة المستخدم والتنقل المربك.",
         "icon_type": "MdPersonSearch"
       },
       {
-        "title": "Visual & UI Accuracy",
-        "description": "Automated tests can't tell if a button is slightly misaligned or an image is stretched; our human testers can.",
+        "title": "دقة الرؤية وواجهة المستخدم",
+        "description": "لا يمكن للاختبارات التلقائية معرفة ما إذا كان الزر منحرفًا قليلاً أو أن الصورة ممتدة؛ يمكن للاختبار البشري لدينا.",
         "icon_type": "MdVisibility"
       },
       {
-        "title": "Rapid Adaptability",
-        "description": "No need to write expensive code for testing. We can start testing new features the minute they are deployed.",
+        "title": "القدرة على التكيف السريع",
+        "description": "لا حاجة لكتابة تعليمات برمجية باهظة الثمن للاختبار. يمكننا البدء في اختبار الميزات الجديدة بمجرد نشرها.",
         "icon_type": "MdAutorenew"
       },
       {
-        "title": "Exploratory Discovery",
-        "description": "We go off-script to find the bizarre edge-cases and critical bugs that developers never anticipated.",
+        "title": "الاكتشاف الاستكشافي",
+        "description": "نحن نخرج عن النص للعثور على حالات الحافة الغريبة والأخطاء الحرجة التي لم يتوقعها المطورون أبدًا.",
         "icon_type": "MdExplore"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Manual Testing",
-    "image": "/all_services/manual_testing/wwg.svg",
+    "title": "ما ستحصل عليه عند اختيار الاختبار اليدوي",
+    "image": "/all_services/manual_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. Comprehensive Test Plans",
-        "description": "Detailed, step-by-step documentation of all test cases ensuring 100% feature coverage."
+        "title": "1. خطط الاختبار الشاملة",
+        "description": "توثيق تفصيلي خطوة بخطوة لجميع حالات الاختبار لضمان تغطية الميزات بنسبة 100%."
       },
       {
-        "title": "2. Exploratory Testing",
-        "description": "Unscripted, creative testing sessions designed to uncover hidden vulnerabilities and logic flaws."
+        "title": "2. الاختبارات الاستكشافية",
+        "description": "جلسات اختبار إبداعية غير مكتوبة مصممة للكشف عن نقاط الضعف المخفية والعيوب المنطقية."
       },
       {
-        "title": "3. Cross-Platform Validation",
-        "description": "Rigorous physical testing on real mobile devices (iOS/Android) and multiple web browsers."
+        "title": "3. التحقق من صحة الأنظمة الأساسية",
+        "description": "اختبارات مادية صارمة على الأجهزة المحمولة الحقيقية (iOS/Android) ومتصفحات الويب المتعددة."
       },
       {
-        "title": "4. Detailed Bug Reports",
-        "description": "Crystal-clear bug tickets complete with screenshots, screen recordings, and exact steps to reproduce."
+        "title": "4. تقارير الأخطاء التفصيلية",
+        "description": "تذاكر أخطاء واضحة تمامًا ومكتملة بلقطات الشاشة وتسجيلات الشاشة والخطوات الدقيقة لإعادة الإنتاج."
       }
     ]
   },
   "technologies_section": {
-    "title": "We track and test using the best QA tools",
-    "subtitle": "Industry standards for bug tracking and test management",
+    "title": "نحن نتتبع ونختبر باستخدام أفضل أدوات ضمان الجودة",
+    "subtitle": "معايير الصناعة لتتبع الأخطاء وإدارة الاختبار",
     "tools": [
       {
-        "name": "Jira",
+        "name": "جيرا",
         "icon": "SiJira"
       },
       {
@@ -87,87 +87,87 @@
         "icon": "FaClipboardCheck"
       },
       {
-        "name": "BrowserStack",
-        "icon": "SiBrowserstack"
+        "name": "متصفح ستاك",
+        "icon": "BsBrowserChrome"
       },
       {
-        "name": "Postman (Manual API)",
+        "name": "ساعي البريد (واجهة برمجة التطبيقات اليدوية)",
         "icon": "SiPostman"
       },
       {
-        "name": "Trello",
+        "name": "تريلو",
         "icon": "SiTrello"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A meticulous approach to quality assurance",
+    "title": "عمليتنا",
+    "subtitle": "نهج دقيق لضمان الجودة",
     "steps": [
       {
-        "title": "Analyze",
-        "description": "We review your product requirements, user stories, and design files to understand the expected behavior.",
+        "title": "تحليل",
+        "description": "نقوم بمراجعة متطلبات منتجك وقصص المستخدم وملفات التصميم لفهم السلوك المتوقع.",
         "icon": "FaSearch"
       },
       {
-        "title": "Plan",
-        "description": "We author comprehensive test cases, covering positive flows, negative flows, and edge cases.",
+        "title": "يخطط",
+        "description": "نقوم بتأليف حالات اختبار شاملة، تغطي التدفقات الإيجابية والتدفقات السلبية وحالات الحافة.",
         "icon": "FaEdit"
       },
       {
-        "title": "Execute",
-        "description": "We manually run the test cases, perform exploratory testing, and try to break the system.",
+        "title": "ينفذ",
+        "description": "نقوم بتشغيل حالات الاختبار يدويًا، وإجراء اختبارات استكشافية، ومحاولة كسر النظام.",
         "icon": "FaPlay"
       },
       {
-        "title": "Report & Verify",
-        "description": "We log detailed bug reports for the developers. Once fixed, we re-test to verify the resolution.",
+        "title": "الإبلاغ والتحقق",
+        "description": "نقوم بتسجيل تقارير الأخطاء التفصيلية للمطورين. بمجرد إصلاح المشكلة، نعيد الاختبار للتحقق من الدقة.",
         "icon": "FaBug"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Uncovering a critical checkout bug that automation missed",
-    "image": "/all_services/manual_testing/case_study.svg",
+    "headline": "الكشف عن خطأ فادح في عملية الدفع أخطأته الأتمتة",
+    "image": "/all_services/manual_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A SaaS platform passed all automated functional tests, but users were randomly abandoning the premium subscription upgrade page."
+        "label": "مشكلة",
+        "text": "اجتازت منصة SaaS جميع الاختبارات الوظيفية الآلية، لكن المستخدمين كانوا يتخلون بشكل عشوائي عن صفحة ترقية الاشتراك المميز."
       },
       "solution": {
-        "label": "Solution",
-        "text": "Our manual QA team performed exploratory testing on physical mobile devices and discovered that an overlapping cookie banner was completely blocking the 'Pay Now' button on older iPhone screens."
+        "label": "حل",
+        "text": "أجرى فريق ضمان الجودة اليدوي لدينا اختبارات استكشافية على الأجهزة المحمولة الفعلية واكتشف أن شعار ملفات تعريف الارتباط المتداخل كان يحظر تمامًا زر \"الدفع الآن\" على شاشات iPhone القديمة."
       },
       "result": {
-        "label": "Result",
-        "text": "The bug was visually invisible to the automated scripts. By logging and fixing this UI flaw, the client's subscription conversion rate immediately jumped by 22%."
+        "label": "نتيجة",
+        "text": "كان الخطأ غير مرئي للنصوص الآلية. من خلال تسجيل وإصلاح هذا الخلل في واجهة المستخدم، قفز معدل تحويل اشتراك العميل على الفور بنسبة 22%."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about manual quality assurance",
+    "title": "الأسئلة المتداولة",
+    "subtitle": "احصل على إجابات حول ضمان الجودة اليدوي",
     "questions": [
       {
-        "question": "If we have automated testing, do we still need manual testing?",
-        "answer": "Absolutely. Automation is blind to visual glitches, poor UX design, and completely unexpected user behaviors. A robust QA strategy uses automation to quickly test the core logic, and manual testing to ensure the application actually looks and feels great to a human being."
+        "question": "إذا كان لدينا اختبار آلي، فهل ما زلنا بحاجة إلى اختبار يدوي؟",
+        "answer": "قطعاً. الأتمتة لا تلحظ الأخطاء البصرية، وتصميم تجربة المستخدم الضعيف، وسلوكيات المستخدم غير المتوقعة تمامًا. تستخدم إستراتيجية ضمان الجودة القوية الأتمتة لاختبار المنطق الأساسي بسرعة، والاختبار اليدوي للتأكد من أن التطبيق يبدو رائعًا حقًا للإنسان."
       },
       {
-        "question": "What is Exploratory Testing?",
-        "answer": "Exploratory testing is a highly creative, unscripted QA approach. Instead of following a strict checklist, our QA engineers use their experience and intuition to wander through your app, intentionally trying weird combinations of actions to find bugs that no one anticipated."
+        "question": "ما هو الاختبار الاستكشافي؟",
+        "answer": "يعد الاختبار الاستكشافي أسلوبًا إبداعيًا للغاية وغير مكتوب لضمان الجودة. بدلاً من اتباع قائمة مرجعية صارمة، يستخدم مهندسو ضمان الجودة لدينا خبرتهم وحدسهم للتجول في تطبيقك، ويجربون عن عمد مجموعات غريبة من الإجراءات للعثور على الأخطاء التي لم يتوقعها أحد."
       },
       {
-        "question": "How do you test on different devices?",
-        "answer": "We use a combination of physical hardware (real iPhones, iPads, and Android phones) and cloud-based device labs like BrowserStack to ensure your application performs flawlessly regardless of the user's screen size or operating system."
+        "question": "كيف يمكنك الاختبار على أجهزة مختلفة؟",
+        "answer": "نحن نستخدم مجموعة من الأجهزة المادية (أجهزة iPhone وiPad وهواتف Android الحقيقية) ومختبرات الأجهزة المستندة إلى السحابة مثل BrowserStack لضمان أداء تطبيقك بشكل لا تشوبه شائبة بغض النظر عن حجم شاشة المستخدم أو نظام التشغيل."
       },
       {
-        "question": "How do you report bugs to our developers?",
-        "answer": "We integrate seamlessly with your development workflow. When we find a bug, we log a detailed ticket in your project management tool (like Jira, Trello, or Linear). Every ticket includes the environment details, exact steps to reproduce the bug, and visual evidence (screenshots or video recordings)."
+        "question": "كيف يمكنك الإبلاغ عن الأخطاء للمطورين لدينا؟",
+        "answer": "نحن نتكامل بسلاسة مع سير عمل التطوير الخاص بك. عندما نعثر على خطأ ما، نقوم بتسجيل تذكرة تفصيلية في أداة إدارة المشروع لديك (مثل Jira أو Trello أو Linear). تتضمن كل تذكرة تفاصيل البيئة والخطوات الدقيقة لإعادة إنتاج الخطأ والأدلة المرئية (لقطات الشاشة أو تسجيلات الفيديو)."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Talk to our QA team",
+      "text": "لم تجد إجابتك؟",
+      "link_text": "تحدث إلى فريق ضمان الجودة لدينا",
       "link_url": "/contact"
     }
   }

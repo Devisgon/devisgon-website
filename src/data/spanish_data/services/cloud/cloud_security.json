@@ -1,173 +1,173 @@
 {
   "slug": "cloud_security",
   "hero_section": {
-    "title": "Cloud Security",
-    "subtitle": "Fortify Your Digital Infrastructure",
-    "description": "Protect your sensitive data, ensure regulatory compliance, and defend against modern cyber threats with our enterprise-grade cloud security architectures and continuous monitoring solutions.",
+    "title": "Seguridad en la nube",
+    "subtitle": "Fortalezca su infraestructura digital",
+    "description": "Proteja sus datos confidenciales, garantice el cumplimiento normativo y defiéndase de las amenazas cibernéticas modernas con nuestras arquitecturas de seguridad en la nube de nivel empresarial y soluciones de monitoreo continuo.",
     "buttons": [
       {
-        "text": "Secure My Cloud",
+        "text": "Asegure mi nube",
         "link": "/contact"
       },
       {
-        "text": "Get a Security Audit",
+        "text": "Obtenga una auditoría de seguridad",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Cloud Security?",
+    "heading": "Qué es",
+    "span_heading": "¿Seguridad en la nube?",
     "content": [
-      "Cloud security consists of the technologies, policies, and controls implemented to protect data, applications, and infrastructure associated with cloud computing. As businesses migrate to the cloud, the traditional network perimeter disappears, making a robust, multi-layered security architecture more critical than ever. ",
-      "At Devisgon, we adopt a 'Zero Trust' approach—meaning we never trust, and always verify. We secure your AWS, Azure, or Google Cloud environments from the ground up, implementing identity management, data encryption, and automated threat response so your business can scale with absolute peace of mind."
+      "La seguridad en la nube consiste en las tecnologías, políticas y controles implementados para proteger los datos, las aplicaciones y la infraestructura asociada con la computación en la nube. A medida que las empresas migran a la nube, el perímetro de red tradicional desaparece, lo que hace que una arquitectura de seguridad sólida y de múltiples capas sea más crítica que nunca.",
+      "En Devisgon, adoptamos un enfoque de \"Confianza cero\", lo que significa que nunca confiamos y siempre verificamos. Protegemos sus entornos de AWS, Azure o Google Cloud desde cero, implementando administración de identidades, cifrado de datos y respuesta automatizada a amenazas para que su negocio pueda escalar con absoluta tranquilidad."
     ],
-    "highlight_quote": " “Security is not a product you buy; it's a continuous process.” ",
-    "side_image": "/all_services/cloud_security/introduction.svg"
+    "highlight_quote": "\"La seguridad no es un producto que se compra; es un proceso continuo\".",
+    "side_image": "/all_services/cloud_security/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why proactive cloud security is non-negotiable",
+    "title": "Beneficios clave",
+    "subtitle": "Por qué la seguridad proactiva en la nube no es negociable",
     "cards": [
       {
-        "title": "Threat Mitigation",
-        "description": "Stop ransomware, DDoS attacks, and unauthorized access before they can penetrate your systems.",
+        "title": "Mitigación de amenazas",
+        "description": "Detenga el ransomware, los ataques DDoS y el acceso no autorizado antes de que puedan penetrar en sus sistemas.",
         "icon_type": "MdSecurity"
       },
       {
-        "title": "Regulatory Compliance",
-        "description": "Ensure your infrastructure meets strict industry standards like SOC 2, HIPAA, GDPR, and PCI-DSS.",
+        "title": "Cumplimiento normativo",
+        "description": "Asegúrese de que su infraestructura cumpla con estrictos estándares industriales como SOC 2, HIPAA, GDPR y PCI-DSS.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Data Privacy",
-        "description": "Keep your customers' sensitive information encrypted and protected from internal and external leaks.",
+        "title": "Privacidad de datos",
+        "description": "Mantenga la información confidencial de sus clientes cifrada y protegida de filtraciones internas y externas.",
         "icon_type": "MdLock"
       },
       {
-        "title": "24/7 Visibility",
-        "description": "Gain complete oversight of your network traffic with automated monitoring and instant alerts.",
+        "title": "Visibilidad 24 horas al día, 7 días a la semana",
+        "description": "Obtenga una supervisión completa del tráfico de su red con monitoreo automatizado y alertas instantáneas.",
         "icon_type": "MdVisibility"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Cloud Security",
-    "image": "/all_services/cloud_security/wwg.svg",
+    "title": "Lo que obtendrás cuando elijas Cloud Security",
+    "image": "/all_services/cloud_security/wwg.jpg",
     "list_items": [
       {
-        "title": "1. Vulnerability Assessments",
-        "description": "Deep-dive audits of your current cloud setup to identify misconfigurations and exposed endpoints."
+        "title": "1. Evaluaciones de vulnerabilidad",
+        "description": "Auditorías profundas de su configuración actual de la nube para identificar configuraciones erróneas y puntos finales expuestos."
       },
       {
-        "title": "2. Identity & Access Management (IAM)",
-        "description": "Strict 'least-privilege' access controls ensuring users and apps only access what they absolutely need."
+        "title": "2. Gestión de identidad y acceso (IAM)",
+        "description": "Controles de acceso estrictos con \"mínimos privilegios\" que garantizan que los usuarios y las aplicaciones solo accedan a lo que absolutamente necesitan."
       },
       {
-        "title": "3. Data Encryption",
-        "description": "Military-grade encryption protocols applied to your data both at rest (in databases) and in transit."
+        "title": "3. Cifrado de datos",
+        "description": "Protocolos de cifrado de nivel militar aplicados a sus datos tanto en reposo (en bases de datos) como en tránsito."
       },
       {
-        "title": "4. Incident Response Playbooks",
-        "description": "Automated security protocols that immediately lock down compromised assets in the event of a breach."
+        "title": "4. Manuales de respuesta a incidentes",
+        "description": "Protocolos de seguridad automatizados que bloquean inmediatamente los activos comprometidos en caso de una infracción."
       }
     ]
   },
   "technologies_section": {
-    "title": "We secure using industry-leading tools",
-    "subtitle": "Enterprise-grade software for maximum protection",
+    "title": "Protegemos utilizando herramientas líderes en la industria",
+    "subtitle": "Software de nivel empresarial para máxima protección",
     "tools": [
       {
-        "name": "AWS Security Hub",
+        "name": "Centro de seguridad de AWS",
         "icon": "FaAws"
       },
       {
-        "name": "Cloudflare",
+        "name": "Llamarada de nube",
         "icon": "SiCloudflare"
       },
       {
-        "name": "HashiCorp Vault",
+        "name": "Bóveda de HashiCorp",
         "icon": "SiHashicorp"
       },
       {
-        "name": "Datadog",
+        "name": "perro de datos",
         "icon": "SiDatadog"
       },
       {
-        "name": "Palo Alto Networks",
+        "name": "Redes de Palo Alto",
         "icon": "SiPaloaltonetworks"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "Securing your infrastructure step-by-step",
+    "title": "Nuestro proceso",
+    "subtitle": "Asegurando su infraestructura paso a paso",
     "steps": [
       {
-        "title": "Audit & Assess",
-        "description": "We run comprehensive scans on your cloud environment to identify critical vulnerabilities.",
+        "title": "Auditoría y evaluación",
+        "description": "Realizamos análisis completos de su entorno de nube para identificar vulnerabilidades críticas.",
         "icon": "FaSearch"
       },
       {
-        "title": "Architecture Design",
-        "description": "We map out a Zero-Trust security model tailored specifically to your tech stack.",
+        "title": "Diseño de Arquitectura",
+        "description": "Diseñamos un modelo de seguridad Zero-Trust adaptado específicamente a su pila tecnológica.",
         "icon": "FaShieldAlt"
       },
       {
-        "title": "Implementation",
-        "description": "We deploy firewalls, IAM policies, and encryption keys without disrupting your live services.",
+        "title": "Implementación",
+        "description": "Implementamos firewalls, políticas de IAM y claves de cifrado sin interrumpir sus servicios en vivo.",
         "icon": "FaLock"
       },
       {
-        "title": "Monitor & Maintain",
-        "description": "We set up automated alerting systems and provide ongoing patch management and threat hunting.",
+        "title": "Monitorear y mantener",
+        "description": "Configuramos sistemas de alerta automatizados y brindamos administración continua de parches y búsqueda de amenazas.",
         "icon": "FaChartLine"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Securing a fintech startup for SOC 2 Type II compliance",
-    "image": "/all_services/cloud_security/case_study.svg",
+    "headline": "Asegurar una startup fintech para el cumplimiento de SOC 2 Tipo II",
+    "image": "/all_services/cloud_security/cs.png",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A rapidly growing financial application had exposed AWS S3 buckets and lacked proper access controls, putting them at risk of failing an upcoming compliance audit."
+        "label": "Problema",
+        "text": "Una aplicación financiera de rápido crecimiento había expuesto los depósitos de AWS S3 y carecía de controles de acceso adecuados, lo que los ponía en riesgo de no pasar una próxima auditoría de cumplimiento."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We conducted a full security sweep, locked down public-facing infrastructure, encrypted all databases, and implemented a strict Identity and Access Management (IAM) policy."
+        "label": "Solución",
+        "text": "Realizamos un barrido de seguridad completo, bloqueamos la infraestructura pública, ciframos todas las bases de datos e implementamos una estricta política de Gestión de Identidad y Acceso (IAM)."
       },
       "result": {
-        "label": "Result",
-        "text": "The client successfully passed their SOC 2 Type II audit in under 4 weeks, enabling them to close a critical $5M enterprise contract."
+        "label": "Resultado",
+        "text": "El cliente pasó con éxito su auditoría SOC 2 Tipo II en menos de 4 semanas, lo que le permitió cerrar un contrato empresarial crítico de 5 millones de dólares."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about cloud security",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre la seguridad en la nube",
     "questions": [
       {
-        "question": "Is the cloud less secure than on-premise servers?",
-        "answer": "No. Major cloud providers (AWS, Azure, Google) have infinitely better physical and baseline security than most private data centers. However, cloud security relies on a 'Shared Responsibility Model'. The provider secures the hardware, but you are responsible for securing how your data and apps are configured. That is where we come in."
+        "question": "¿Es la nube menos segura que los servidores locales?",
+        "answer": "No. Los principales proveedores de nube (AWS, Azure, Google) tienen una seguridad física y básica infinitamente mejor que la mayoría de los centros de datos privados. Sin embargo, la seguridad en la nube se basa en un \"modelo de responsabilidad compartida\". El proveedor protege el hardware, pero usted es responsable de proteger cómo se configuran sus datos y aplicaciones. Ahí es donde entramos nosotros."
       },
       {
-        "question": "What does 'Zero Trust' actually mean?",
-        "answer": "Zero Trust is a security framework requiring all users, whether inside or outside the organization's network, to be continuously authenticated and authorized before being granted or keeping access to applications and data."
+        "question": "¿Qué significa realmente 'Confianza Cero'?",
+        "answer": "Zero Trust es un marco de seguridad que requiere que todos los usuarios, ya sea dentro o fuera de la red de la organización, estén autenticados y autorizados continuamente antes de otorgarles o mantener el acceso a aplicaciones y datos."
       },
       {
-        "question": "Can you help us achieve compliance (SOC 2, HIPAA, GDPR)?",
-        "answer": "Absolutely. We specialize in mapping cloud architectures to strict regulatory frameworks. We can implement the technical controls required to pass your compliance audits with flying colors."
+        "question": "¿Puede ayudarnos a lograr el cumplimiento (SOC 2, HIPAA, GDPR)?",
+        "answer": "Absolutamente. Nos especializamos en mapear arquitecturas de nube a marcos regulatorios estrictos. Podemos implementar los controles técnicos necesarios para pasar sus auditorías de cumplimiento con gran éxito."
       },
       {
-        "question": "What happens if we suffer a cyber attack?",
-        "answer": "We build automated Incident Response (IR) protocols into your infrastructure. If abnormal behavior is detected (like a massive data download attempt), the system can automatically sever connections, revoke user access, and alert your team instantly to stop the attack in its tracks."
+        "question": "¿Qué pasa si sufrimos un ciberataque?",
+        "answer": "Construimos protocolos automatizados de respuesta a incidentes (IR) en su infraestructura. Si se detecta un comportamiento anormal (como un intento de descarga masiva de datos), el sistema puede cortar conexiones automáticamente, revocar el acceso de los usuarios y alertar a su equipo al instante para detener el ataque en seco."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact our security team",
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Contacta con nuestro equipo de seguridad",
       "link_url": "/contact"
     }
   }

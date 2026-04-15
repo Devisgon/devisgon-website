@@ -1,89 +1,89 @@
 {
   "slug": "api_testing",
   "hero_section": {
-    "title": "API Testing Services",
-    "subtitle": "Bulletproof Your Application's Backbone",
-    "description": "Ensure your APIs are secure, highly performant, and functioning flawlessly. We rigorously test your backend architecture to prevent data leaks, eliminate bottlenecks, and guarantee seamless integrations.",
+    "title": "API-Testdienste",
+    "subtitle": "Machen Sie das Rückgrat Ihrer Anwendung kugelsicher",
+    "description": "Stellen Sie sicher, dass Ihre APIs sicher und leistungsstark sind und einwandfrei funktionieren. Wir testen Ihre Backend-Architektur gründlich, um Datenlecks zu verhindern, Engpässe zu beseitigen und nahtlose Integrationen zu gewährleisten.",
     "buttons": [
       {
-        "text": "Test My API",
+        "text": "Testen Sie meine API",
         "link": "/contact"
       },
       {
-        "text": "Speak to a QA Engineer",
+        "text": "Sprechen Sie mit einem QA-Ingenieur",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/api_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " API Testing?",
+    "heading": "Was ist",
+    "span_heading": "API-Tests?",
     "content": [
-      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third-party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
-      "Unlike traditional UI testing, API testing bypasses the graphical interface to interact directly with your software's core logic. At Devisgon, we validate your REST, GraphQL, and SOAP endpoints for functionality, reliability, load capacity, and security. We ensure your system communicates flawlessly and securely under any condition."
+      "APIs (Application Programming Interfaces) sind die unsichtbaren Brücken, die Ihre Frontend-Schnittstelle mit Ihren Backend-Datenbanken und externen Drittanbieterdiensten verbinden. Wenn Ihre API ausfällt, langsam ist oder eine Schwachstelle aufweist, leidet Ihre gesamte Anwendung.",
+      "Im Gegensatz zu herkömmlichen UI-Tests wird beim API-Testen die grafische Benutzeroberfläche umgangen, um direkt mit der Kernlogik Ihrer Software zu interagieren. Bei Devisgon validieren wir Ihre REST-, GraphQL- und SOAP-Endpunkte auf Funktionalität, Zuverlässigkeit, Belastbarkeit und Sicherheit. Wir stellen sicher, dass Ihr System unter allen Bedingungen einwandfrei und sicher kommuniziert."
     ],
-    "highlight_quote": " “Bugs found at the API layer are 10x cheaper to fix than those found in the UI.” ",
-    "side_image": "/all_services/api_testing/introduction.svg"
+    "highlight_quote": "„Fehler, die auf der API-Ebene gefunden werden, sind zehnmal günstiger zu beheben als solche, die in der Benutzeroberfläche gefunden werden.“",
+    "side_image": "/all_services/api_testing/introduction.png"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why testing your API is non-negotiable",
+    "title": "Hauptvorteile",
+    "subtitle": "Warum das Testen Ihrer API nicht verhandelbar ist",
     "cards": [
       {
-        "title": "Early Bug Detection",
-        "description": "Test core business logic long before the graphical user interface (UI) is even built, saving massive development time.",
+        "title": "Frühzeitige Fehlererkennung",
+        "description": "Testen Sie die Kerngeschäftslogik, lange bevor die grafische Benutzeroberfläche (UI) überhaupt erstellt wird, und sparen Sie so enorme Entwicklungszeit.",
         "icon_type": "MdBugReport"
       },
       {
-        "title": "Unbreakable Security",
-        "description": "Ensure sensitive data is properly encrypted and authentication protocols (like OAuth and JWT) are completely secure.",
+        "title": "Unzerbrechliche Sicherheit",
+        "description": "Stellen Sie sicher, dass sensible Daten ordnungsgemäß verschlüsselt werden und Authentifizierungsprotokolle (wie OAuth und JWT) absolut sicher sind.",
         "icon_type": "MdSecurity"
       },
       {
-        "title": "Faster Release Cycles",
-        "description": "API tests execute in milliseconds compared to slow, brittle UI automated tests, vastly speeding up your CI/CD pipeline.",
+        "title": "Schnellere Release-Zyklen",
+        "description": "API-Tests werden im Vergleich zu langsamen, spröden automatisierten UI-Tests in Millisekunden ausgeführt, was Ihre CI/CD-Pipeline erheblich beschleunigt.",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "Seamless Integrations",
-        "description": "Guarantee that your software communicates perfectly with third-party tools like payment gateways or CRMs.",
+        "title": "Nahtlose Integrationen",
+        "description": "Stellen Sie sicher, dass Ihre Software perfekt mit Tools von Drittanbietern wie Zahlungsgateways oder CRMs kommuniziert.",
         "icon_type": "MdSync"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose API Testing",
-    "image": "/all_services/api_testing/wwg.svg",
+    "title": "Was Sie erhalten, wenn Sie sich für API-Tests entscheiden",
+    "image": "/all_services/api_testing/wwg.png",
     "list_items": [
       {
-        "title": "1. Functional Endpoint Validation",
-        "description": "Rigorous testing of request methods (GET, POST, PUT, DELETE) and validation of correct JSON/XML payload responses."
+        "title": "1. Funktionale Endpunktvalidierung",
+        "description": "Strenge Tests der Anforderungsmethoden (GET, POST, PUT, DELETE) und Validierung korrekter JSON/XML-Nutzlastantworten."
       },
       {
-        "title": "2. Load & Performance Testing",
-        "description": "Stress-testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
+        "title": "2. Last- und Leistungstests",
+        "description": "Führen Sie Stresstests für Ihre Endpunkte durch, um zu sehen, wie sie mit massiven Datenverkehrsspitzen und gleichzeitigen Benutzeranfragen umgehen."
       },
       {
-        "title": "3. Security & Auth Audits",
-        "description": "Simulated attacks to check for vulnerabilities like SQL injection, broken authentication, and exposed endpoints."
+        "title": "3. Sicherheits- und Authentifizierungsprüfungen",
+        "description": "Simulierte Angriffe zur Prüfung auf Schwachstellen wie SQL-Injection, fehlerhafte Authentifizierung und exponierte Endpunkte."
       },
       {
-        "title": "4. Automated Test Suites",
-        "description": "A comprehensive suite of automated API scripts that integrate seamlessly into your existing deployment pipelines."
+        "title": "4. Automatisierte Testsuiten",
+        "description": "Eine umfassende Suite automatisierter API-Skripte, die sich nahtlos in Ihre vorhandenen Bereitstellungspipelines integrieren lassen."
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard QA tools",
-    "subtitle": "The best frameworks for accurate and automated API validation",
+    "title": "Wir testen mit branchenüblichen QA-Tools",
+    "subtitle": "Die besten Frameworks für eine genaue und automatisierte API-Validierung",
     "tools": [
       {
-        "name": "Postman",
+        "name": "Briefträger",
         "icon": "SiPostman"
       },
       {
-        "name": "Swagger",
+        "name": "Stolzieren",
         "icon": "SiSwagger"
       },
       {
@@ -91,7 +91,7 @@
         "icon": "SiApachejmeter"
       },
       {
-        "name": "REST Assured",
+        "name": "Seien Sie versichert",
         "icon": "FaJava"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A systematic approach to backend quality assurance",
+    "title": "Unser Prozess",
+    "subtitle": "Ein systematischer Ansatz zur Backend-Qualitätssicherung",
     "steps": [
       {
-        "title": "Analyze Requirements",
-        "description": "We review your API documentation (e.g., Swagger/OpenAPI specs) and define the testing scope.",
+        "title": "Anforderungen analysieren",
+        "description": "Wir überprüfen Ihre API-Dokumentation (z. B. Swagger/OpenAPI-Spezifikationen) und definieren den Testumfang.",
         "icon": "FaSearch"
       },
       {
-        "title": "Design Scenarios",
-        "description": "We write comprehensive test cases covering positive, negative, and edge-case data inputs.",
+        "title": "Design-Szenarien",
+        "description": "Wir schreiben umfassende Testfälle, die positive, negative und Randfall-Dateneingaben abdecken.",
         "icon": "FaFileAlt"
       },
       {
-        "title": "Automate & Execute",
-        "description": "We build automated scripts to hit your endpoints, verifying response codes, times, and data payloads.",
+        "title": "Automatisieren und ausführen",
+        "description": "Wir erstellen automatisierte Skripte, um Ihre Endpunkte zu erreichen und Antwortcodes, Zeiten und Datennutzlasten zu überprüfen.",
         "icon": "FaRobot"
       },
       {
-        "title": "Report & Integrate",
-        "description": "We provide detailed bug reports and integrate the test suite directly into your CI/CD pipeline.",
+        "title": "Melden und integrieren",
+        "description": "Wir stellen detaillierte Fehlerberichte bereit und integrieren die Testsuite direkt in Ihre CI/CD-Pipeline.",
         "icon": "FaChartBar"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Eliminated payment gateway timeouts and increased conversions by 15%",
-    "image": "/all_services/api_testing/case_study.svg",
+    "headline": "Eliminierte Zeitüberschreitungen beim Zahlungs-Gateway und steigerte die Conversions um 15 %",
+    "image": "/all_services/api_testing/cs.jpg",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third-party payment API."
+        "text": "Bei einer Fintech-App kam es zu zufälligen Transaktionsfehlern, weil ihre mobile Benutzeroberfläche die langsamen Antworten einer Zahlungs-API eines Drittanbieters nicht verarbeiten konnte."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We implemented a suite of automated API performance tests, uncovering a severe payload parsing bottleneck that only occurred under heavy server load."
+        "label": "Lösung",
+        "text": "Wir haben eine Reihe automatisierter API-Leistungstests implementiert und dabei einen schwerwiegenden Engpass beim Parsen der Nutzlast aufgedeckt, der nur bei hoher Serverlast auftrat."
       },
       "result": {
-        "label": "Result",
-        "text": "By pinpointing and fixing the backend issue, timeout errors were completely eliminated, resulting in a 15% increase in successful transactions."
+        "label": "Ergebnis",
+        "text": "Durch die Lokalisierung und Behebung des Backend-Problems wurden Timeout-Fehler vollständig eliminiert, was zu einer Steigerung der erfolgreichen Transaktionen um 15 % führte."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
+    "title": "Häufig gestellte Fragen",
     "subtitle": "Get answers about backend quality assurance",
     "questions": [
       {
-        "question": "Why do I need API testing if I am already doing UI testing?",
-        "answer": "UI testing is slow, brittle, and only verifies what the user sees. API testing verifies the actual business logic and data. Because APIs can be tested without a graphical interface, you can find and fix critical bugs much earlier in the development lifecycle."
+        "question": "Warum benötige ich API-Tests, wenn ich bereits UI-Tests durchführe?",
+        "answer": "UI-Tests sind langsam, spröde und überprüfen nur, was der Benutzer sieht. API-Tests überprüfen die tatsächliche Geschäftslogik und Daten. Da APIs ohne grafische Oberfläche getestet werden können, können Sie kritische Fehler viel früher im Entwicklungslebenszyklus finden und beheben."
       },
       {
-        "question": "Do you test both REST and GraphQL APIs?",
-        "answer": "Yes. We have extensive experience testing traditional RESTful architectures, SOAP web services, and modern GraphQL endpoints where queries and mutations require specific data structure validations."
+        "question": "Testen Sie sowohl REST- als auch GraphQL-APIs?",
+        "answer": "Ja. Wir verfügen über umfangreiche Erfahrung beim Testen traditioneller RESTful-Architekturen, SOAP-Webdienste und moderner GraphQL-Endpunkte, bei denen Abfragen und Mutationen spezifische Datenstrukturvalidierungen erfordern."
       },
       {
-        "question": "Can you test APIs that require complex authentication?",
-        "answer": "Absolutely. We routinely write test scripts that handle complex, multi-step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
+        "question": "Können Sie APIs testen, die eine komplexe Authentifizierung erfordern?",
+        "answer": "Absolut. Wir schreiben routinemäßig Testskripte, die komplexe, mehrstufige Authentifizierungsabläufe verarbeiten, einschließlich OAuth 2.0, JWT (JSON Web Tokens), API-Schlüssel und Sitzungscookies."
       },
       {
-        "question": "Will these tests run automatically?",
-        "answer": "Yes! The ultimate goal of our API testing service is automation. We package our test suites using tools like Postman (Newman) or REST Assured so they can be triggered automatically by your CI/CD pipeline every time your developers push new code."
+        "question": "Werden diese Tests automatisch ausgeführt?",
+        "answer": "Ja! Das ultimative Ziel unseres API-Testservices ist die Automatisierung. Wir verpacken unsere Testsuiten mit Tools wie Postman (Newman) oder REST Assured, sodass sie jedes Mal automatisch von Ihrer CI/CD-Pipeline ausgelöst werden können, wenn Ihre Entwickler neuen Code veröffentlichen."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact our QA experts",
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
+      "link_text": "Kontaktieren Sie unsere QS-Experten",
       "link_url": "/contact"
     }
   }

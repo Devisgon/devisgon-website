@@ -1,85 +1,85 @@
 {
   "slug": "devops_consulting",
   "hero_section": {
-    "title": "DevOps Consulting",
-    "subtitle": "Bridge the Gap Between Development and Operations",
-    "description": "We help organizations streamline their software delivery lifecycle. Through cultural transformation, automation, and cloud-native architecture, we accelerate your time-to-market and enhance system reliability.",
+    "title": "Consultoría DevOps",
+    "subtitle": "Cerrar la brecha entre desarrollo y operaciones",
+    "description": "Ayudamos a las organizaciones a optimizar su ciclo de vida de entrega de software. A través de la transformación cultural, la automatización y la arquitectura nativa de la nube, aceleramos su tiempo de comercialización y mejoramos la confiabilidad del sistema.",
     "buttons": [
       {
-        "text": "Book a DevOps Audit",
+        "text": "Reserve una auditoría de DevOps",
         "link": "/contact"
       },
       {
-        "text": "Speak to an Expert",
+        "text": "Habla con un experto",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/devops_consulting.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " DevOps Consulting?",
+    "heading": "Qué es",
+    "span_heading": "¿Consultoría DevOps?",
     "content": [
-      "DevOps is more than just a set of tools; it is a fundamental cultural shift that bridges the gap between software engineering (Dev) and IT operations (Ops). At Devisgon, our DevOps consulting services help you break down organizational silos, automate manual processes, and build a culture of continuous, rapid improvement. ",
-      "Whether you are struggling with frequent deployment failures, slow release cycles, or skyrocketing cloud infrastructure costs, our experts assess your current workflows. We then design and implement a scalable, secure, and automated ecosystem tailored specifically to your business goals."
+      "DevOps es más que un simple conjunto de herramientas; es un cambio cultural fundamental que cierra la brecha entre la ingeniería de software (Dev) y las operaciones de TI (Ops). En Devisgon, nuestros servicios de consultoría DevOps lo ayudan a romper los silos organizacionales, automatizar procesos manuales y construir una cultura de mejora rápida y continua.",
+      "Ya sea que esté luchando con frecuentes fallas de implementación, ciclos de lanzamiento lentos o costos de infraestructura de nube disparados, nuestros expertos evalúan sus flujos de trabajo actuales. Luego diseñamos e implementamos un ecosistema escalable, seguro y automatizado adaptado específicamente a sus objetivos comerciales."
     ],
-    "highlight_quote": " “DevOps is not a goal, but a never-ending process of continual improvement.” ",
-    "side_image": "/all_services/devops_consulting/introduction.svg"
+    "highlight_quote": "\"DevOps no es un objetivo, sino un proceso interminable de mejora continua\".",
+    "side_image": "/all_services/devops_consulting/introduction.avif"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "The ROI of a successful DevOps transformation",
+    "title": "Beneficios clave",
+    "subtitle": "El ROI de una transformación DevOps exitosa",
     "cards": [
       {
-        "title": "Accelerated Delivery",
-        "description": "Shorten your release cycles and push new features to market faster than your competitors.",
+        "title": "Entrega acelerada",
+        "description": "Acorte sus ciclos de lanzamiento e impulse nuevas funciones al mercado más rápido que sus competidores.",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "Enhanced Reliability",
-        "description": "Reduce downtime and deployment failures with automated testing, staging, and rollback strategies.",
+        "title": "Fiabilidad mejorada",
+        "description": "Reduzca el tiempo de inactividad y las fallas de implementación con estrategias de prueba, preparación y reversión automatizadas.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Cost Optimization",
-        "description": "Maximize your budget by right-sizing cloud infrastructure and eliminating idle resource waste.",
+        "title": "Optimización de costos",
+        "description": "Maximice su presupuesto ajustando el tamaño de la infraestructura de la nube y eliminando el desperdicio de recursos inactivos.",
         "icon_type": "MdSavings"
       },
       {
-        "title": "Improved Collaboration",
-        "description": "Foster a culture of shared responsibility between development, QA, and operations teams.",
+        "title": "Colaboración mejorada",
+        "description": "Fomentar una cultura de responsabilidad compartida entre los equipos de desarrollo, control de calidad y operaciones.",
         "icon_type": "MdHandshake"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose DevOps Consulting",
-    "image": "/all_services/devops_consulting/wwg.svg",
+    "title": "Lo que obtendrás cuando elijas DevOps Consulting",
+    "image": "/all_services/devops_consulting/wwg.png",
     "list_items": [
       {
-        "title": "1. Comprehensive Infrastructure Audit",
-        "description": "A deep-dive analysis of your current architecture, code repositories, and deployment bottlenecks."
+        "title": "1. Auditoría Integral de Infraestructura",
+        "description": "Un análisis profundo de su arquitectura actual, repositorios de código y cuellos de botella de implementación."
       },
       {
-        "title": "2. Strategic Transformation Roadmap",
-        "description": "A step-by-step blueprint for migrating to a modern, cloud-native, and automated ecosystem."
+        "title": "2. Hoja de ruta de transformación estratégica",
+        "description": "Un plan paso a paso para migrar a un ecosistema moderno, automatizado y nativo de la nube."
       },
       {
-        "title": "3. Toolchain Modernization",
-        "description": "Expert selection and integration of the best CI/CD, monitoring, and Infrastructure as Code (IaC) tools."
+        "title": "3. Modernización de la cadena de herramientas",
+        "description": "Selección experta e integración de las mejores herramientas de CI/CD, monitoreo e infraestructura como código (IaC)."
       },
       {
-        "title": "4. Team Upskilling & Mentorship",
-        "description": "Hands-on training for your internal teams to ensure they can maintain and scale the new workflows."
+        "title": "4. Mejora de las habilidades y tutoría del equipo",
+        "description": "Capacitación práctica para sus equipos internos para garantizar que puedan mantener y escalar los nuevos flujos de trabajo."
       }
     ]
   },
   "technologies_section": {
-    "title": "We consult on industry-standard platforms",
-    "subtitle": "The best tools for automation, orchestration, and provisioning",
+    "title": "Realizamos consultas sobre plataformas estándar de la industria",
+    "subtitle": "Las mejores herramientas para automatización, orquestación y aprovisionamiento",
     "tools": [
       {
-        "name": "Terraform",
+        "name": "Terraformar",
         "icon": "SiTerraform"
       },
       {
@@ -87,7 +87,7 @@
         "icon": "SiKubernetes"
       },
       {
-        "name": "Docker",
+        "name": "Estibador",
         "icon": "FaDocker"
       },
       {
@@ -95,79 +95,79 @@
         "icon": "FaAws"
       },
       {
-        "name": "Ansible",
+        "name": "ansible",
         "icon": "SiAnsible"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A structured path to DevOps maturity",
+    "title": "Nuestro proceso",
+    "subtitle": "Un camino estructurado hacia la madurez de DevOps",
     "steps": [
       {
-        "title": "Assess",
-        "description": "We evaluate your current workflows, team structure, and infrastructure to identify critical pain points.",
+        "title": "Evaluar",
+        "description": "Evaluamos sus flujos de trabajo actuales, estructura de equipo e infraestructura para identificar puntos críticos.",
         "icon": "FaSearch"
       },
       {
-        "title": "Strategize",
-        "description": "We design the target operating model, architectural blueprints, and select the optimal toolchain.",
+        "title": "Elaborar estrategias",
+        "description": "Diseñamos el modelo operativo objetivo, los planos arquitectónicos y seleccionamos la cadena de herramientas óptima.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Implement",
-        "description": "We build out your Infrastructure as Code (IaC), CI/CD pipelines, and automated testing frameworks.",
+        "title": "Implementar",
+        "description": "Desarrollamos su infraestructura como código (IaC), canales de CI/CD y marcos de pruebas automatizados.",
         "icon": "FaCogs"
       },
       {
-        "title": "Optimize",
-        "description": "We establish 24/7 monitoring, tune performance, reduce cloud costs, and train your staff.",
+        "title": "Optimizar",
+        "description": "Establecemos monitoreo 24 horas al día, 7 días a la semana, ajustamos el rendimiento, reducimos los costos de la nube y capacitamos a su personal.",
         "icon": "FaChartLine"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Deployments increased by 400% while reducing cloud costs by 35%",
-    "image": "/all_services/devops_consulting/case_study.svg",
+    "headline": "Las implementaciones aumentaron un 400 % y redujeron los costos de la nube en un 35 %.",
+    "image": "/all_services/devops_consulting/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A rapidly growing tech startup faced unpredictable, manual deployments and massive cloud bills due to inefficient, unmonitored infrastructure."
+        "label": "Problema",
+        "text": "Una startup tecnológica de rápido crecimiento enfrentó implementaciones manuales impredecibles y facturas masivas en la nube debido a una infraestructura ineficiente y no monitoreada."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We conducted a full DevOps audit, migrated their infrastructure to code (IaC) using Terraform, and established automated CI/CD pipelines."
+        "label": "Solución",
+        "text": "Realizamos una auditoría completa de DevOps, migramos su infraestructura a código (IaC) utilizando Terraform y establecimos canales automatizados de CI/CD."
       },
       "result": {
-        "label": "Result",
-        "text": "Deployment frequency increased by 400%, rollback times dropped to minutes, and right-sizing resources reduced their monthly cloud spend by 35%."
+        "label": "Resultado",
+        "text": "La frecuencia de implementación aumentó un 400 %, los tiempos de reversión se redujeron a minutos y el tamaño adecuado de los recursos redujo su gasto mensual en la nube en un 35 %."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about our consulting services",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre nuestros servicios de consultoría",
     "questions": [
       {
-        "question": "We already use Docker and GitHub. Do we still need DevOps consulting?",
-        "answer": "Tools are only one piece of the puzzle. Often, teams have the right tools but use them inefficiently with broken processes. We focus on the architecture, automation logic, and team culture needed to maximize the ROI of those tools."
+        "question": "Ya usamos Docker y GitHub. ¿Seguimos necesitando consultoría de DevOps?",
+        "answer": "Las herramientas son sólo una pieza del rompecabezas. A menudo, los equipos tienen las herramientas adecuadas pero las utilizan de manera ineficiente con procesos defectuosos. Nos centramos en la arquitectura, la lógica de automatización y la cultura de equipo necesarias para maximizar el retorno de la inversión de esas herramientas."
       },
       {
-        "question": "What is Infrastructure as Code (IaC)?",
-        "answer": "IaC is the practice of managing and provisioning your servers and cloud resources through machine-readable code files (like Terraform), rather than clicking around a dashboard manually. This makes your infrastructure version-controllable, repeatable, and far less prone to human error."
+        "question": "¿Qué es la infraestructura como código (IaC)?",
+        "answer": "IaC es la práctica de administrar y aprovisionar sus servidores y recursos de la nube a través de archivos de código legibles por máquina (como Terraform), en lugar de hacer clic manualmente en un panel. Esto hace que la versión de su infraestructura sea controlable, repetible y mucho menos propensa a errores humanos."
       },
       {
-        "question": "How long does a DevOps transformation take?",
-        "answer": "It varies based on the size of your organization and the complexity of your legacy systems. However, an initial comprehensive audit and the setup of a foundational CI/CD pipeline and MVP infrastructure typically takes 4 to 8 weeks."
+        "question": "¿Cuánto tiempo lleva una transformación DevOps?",
+        "answer": "Varía según el tamaño de su organización y la complejidad de sus sistemas heredados. Sin embargo, una auditoría integral inicial y la configuración de un canal de CI/CD fundamental y una infraestructura MVP normalmente demoran de 4 a 8 semanas."
       },
       {
-        "question": "Do you provide ongoing managed services after the consulting phase?",
-        "answer": "Yes. While our primary goal is to upskill your team so they can own the process, we also offer ongoing Managed DevOps agreements where we monitor, maintain, and continuously improve your infrastructure on a monthly retainer."
+        "question": "¿Ofrecen servicios gestionados continuos después de la fase de consultoría?",
+        "answer": "Sí. Si bien nuestro objetivo principal es mejorar las habilidades de su equipo para que puedan ser dueños del proceso, también ofrecemos acuerdos continuos de Managed DevOps donde monitoreamos, mantenemos y mejoramos continuamente su infraestructura con un anticipo mensual."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a discovery call today",
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Programe una llamada de descubrimiento hoy",
       "link_url": "/contact"
     }
   }

@@ -1,82 +1,82 @@
 {
   "slug": "manual_testing",
   "hero_section": {
-    "title": "Manual Testing Services",
-    "subtitle": "Human Insight for Flawless Software",
-    "description": "Ensure your software doesn't just work in theory, but thrives in the real world. Our expert QA engineers rigorously test your application by hand to uncover hidden bugs, visual glitches, and UX friction that automated scripts miss.",
+    "title": "Services de tests manuels",
+    "subtitle": "Une vision humaine pour un logiciel impeccable",
+    "description": "Assurez-vous que votre logiciel ne fonctionne pas seulement en théorie, mais qu'il prospère dans le monde réel. Nos ingénieurs experts en assurance qualité testent rigoureusement votre application à la main pour découvrir les bugs cachés, les problèmes visuels et les frictions UX qui manquent aux scripts automatisés.",
     "buttons": [
       {
-        "text": "Hire a QA Expert",
+        "text": "Embaucher un expert en assurance qualité",
         "link": "/contact"
       },
       {
-        "text": "Explore QA Services",
+        "text": "Explorer les services d’assurance qualité",
         "link": "/services"
       }
     ],
     "hero_image": "/videos/manual_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Manual Testing?",
+    "heading": "Qu'est-ce que",
+    "span_heading": "Test manuel ?",
     "content": [
-      "While automation is excellent for checking expected outcomes, it takes a human to find the unexpected. Manual testing is the process where QA engineers act as real end-users, actively exploring your application to identify usability issues, visual inconsistencies, and complex edge-case bugs. ",
-      "At Devisgon, our QA team doesn't just follow scripts; we try to break your software. We perform exploratory testing, cross-browser visual checks, and complex scenario validation to ensure your application is intuitive, accessible, and completely bulletproof before it reaches your customers."
+      "Même si l’automatisation est excellente pour vérifier les résultats attendus, il faut un être humain pour découvrir l’inattendu. Les tests manuels sont le processus par lequel les ingénieurs QA agissent en tant que véritables utilisateurs finaux, explorant activement votre application pour identifier les problèmes d'utilisabilité, les incohérences visuelles et les bogues complexes.",
+      "Chez Devisgon, notre équipe d'assurance qualité ne se contente pas de suivre des scripts ; nous essayons de casser votre logiciel. Nous effectuons des tests exploratoires, des contrôles visuels multi-navigateurs et une validation de scénarios complexes pour garantir que votre application est intuitive, accessible et totalement à l'épreuve des balles avant qu'elle n'atteigne vos clients."
     ],
-    "highlight_quote": " “Automation checks the code. Manual testing checks the experience.” ",
-    "side_image": "/all_services/manual_testing/introduction.svg"
+    "highlight_quote": "\"L'automatisation vérifie le code. Les tests manuels vérifient l'expérience.\"",
+    "side_image": "/all_services/manual_testing/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why human intuition is irreplaceable in QA",
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi l'intuition humaine est irremplaçable en assurance qualité",
     "cards": [
       {
-        "title": "Real User Perspective",
-        "description": "We test your app exactly how a real human would use it, catching UX friction and confusing navigation.",
+        "title": "Perspective réelle de l'utilisateur",
+        "description": "Nous testons votre application exactement de la manière dont un véritable humain l'utiliserait, en captant les frictions UX et la navigation confuse.",
         "icon_type": "MdPersonSearch"
       },
       {
-        "title": "Visual & UI Accuracy",
-        "description": "Automated tests can't tell if a button is slightly misaligned or an image is stretched; our human testers can.",
+        "title": "Précision visuelle et de l'interface utilisateur",
+        "description": "Les tests automatisés ne peuvent pas déterminer si un bouton est légèrement mal aligné ou si une image est étirée ; nos testeurs humains le peuvent.",
         "icon_type": "MdVisibility"
       },
       {
-        "title": "Rapid Adaptability",
-        "description": "No need to write expensive code for testing. We can start testing new features the minute they are deployed.",
+        "title": "Adaptabilité rapide",
+        "description": "Pas besoin d'écrire du code coûteux pour les tests. Nous pouvons commencer à tester de nouvelles fonctionnalités dès leur déploiement.",
         "icon_type": "MdAutorenew"
       },
       {
-        "title": "Exploratory Discovery",
-        "description": "We go off-script to find the bizarre edge-cases and critical bugs that developers never anticipated.",
+        "title": "Découverte exploratoire",
+        "description": "Nous sortons du script pour trouver les cas extrêmes bizarres et les bugs critiques que les développeurs n'avaient jamais anticipés.",
         "icon_type": "MdExplore"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Manual Testing",
-    "image": "/all_services/manual_testing/wwg.svg",
+    "title": "Ce que vous obtiendrez en choisissant les tests manuels",
+    "image": "/all_services/manual_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. Comprehensive Test Plans",
-        "description": "Detailed, step-by-step documentation of all test cases ensuring 100% feature coverage."
+        "title": "1. Plans de tests complets",
+        "description": "Documentation détaillée, étape par étape, de tous les cas de test garantissant une couverture à 100 % des fonctionnalités."
       },
       {
-        "title": "2. Exploratory Testing",
-        "description": "Unscripted, creative testing sessions designed to uncover hidden vulnerabilities and logic flaws."
+        "title": "2. Tests exploratoires",
+        "description": "Séances de tests créatives et non scriptées conçues pour découvrir les vulnérabilités cachées et les failles logiques."
       },
       {
-        "title": "3. Cross-Platform Validation",
-        "description": "Rigorous physical testing on real mobile devices (iOS/Android) and multiple web browsers."
+        "title": "3. Validation multiplateforme",
+        "description": "Tests physiques rigoureux sur de vrais appareils mobiles (iOS/Android) et plusieurs navigateurs Web."
       },
       {
-        "title": "4. Detailed Bug Reports",
-        "description": "Crystal-clear bug tickets complete with screenshots, screen recordings, and exact steps to reproduce."
+        "title": "4. Rapports de bogues détaillés",
+        "description": "Des tickets de bug d'une clarté cristalline, accompagnés de captures d'écran, d'enregistrements d'écran et d'étapes exactes à reproduire."
       }
     ]
   },
   "technologies_section": {
-    "title": "We track and test using the best QA tools",
-    "subtitle": "Industry standards for bug tracking and test management",
+    "title": "Nous suivons et testons en utilisant les meilleurs outils d'assurance qualité",
+    "subtitle": "Normes de l'industrie pour le suivi des bogues et la gestion des tests",
     "tools": [
       {
         "name": "Jira",
@@ -87,11 +87,11 @@
         "icon": "FaClipboardCheck"
       },
       {
-        "name": "BrowserStack",
-        "icon": "SiBrowserstack"
+        "name": "Pile de navigateur",
+        "icon": "BsBrowserChrome"
       },
       {
-        "name": "Postman (Manual API)",
+        "name": "Facteur (API manuelle)",
         "icon": "SiPostman"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A meticulous approach to quality assurance",
+    "title": "Notre processus",
+    "subtitle": "Une approche méticuleuse de l’assurance qualité",
     "steps": [
       {
-        "title": "Analyze",
-        "description": "We review your product requirements, user stories, and design files to understand the expected behavior.",
+        "title": "Analyser",
+        "description": "Nous examinons les exigences de votre produit, vos user stories et vos fichiers de conception pour comprendre le comportement attendu.",
         "icon": "FaSearch"
       },
       {
         "title": "Plan",
-        "description": "We author comprehensive test cases, covering positive flows, negative flows, and edge cases.",
+        "description": "Nous créons des cas de test complets, couvrant les flux positifs, les flux négatifs et les cas extrêmes.",
         "icon": "FaEdit"
       },
       {
-        "title": "Execute",
-        "description": "We manually run the test cases, perform exploratory testing, and try to break the system.",
+        "title": "Exécuter",
+        "description": "Nous exécutons manuellement les cas de test, effectuons des tests exploratoires et essayons de casser le système.",
         "icon": "FaPlay"
       },
       {
-        "title": "Report & Verify",
-        "description": "We log detailed bug reports for the developers. Once fixed, we re-test to verify the resolution.",
+        "title": "Signaler et vérifier",
+        "description": "Nous enregistrons des rapports de bogues détaillés pour les développeurs. Une fois corrigé, nous testons à nouveau pour vérifier la résolution.",
         "icon": "FaBug"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Uncovering a critical checkout bug that automation missed",
-    "image": "/all_services/manual_testing/case_study.svg",
+    "headline": "Découverte d'un bug de paiement critique que l'automatisation a manqué",
+    "image": "/all_services/manual_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A SaaS platform passed all automated functional tests, but users were randomly abandoning the premium subscription upgrade page."
+        "label": "Problème",
+        "text": "Une plate-forme SaaS a réussi tous les tests fonctionnels automatisés, mais les utilisateurs abandonnaient de manière aléatoire la page de mise à niveau de l'abonnement premium."
       },
       "solution": {
         "label": "Solution",
-        "text": "Our manual QA team performed exploratory testing on physical mobile devices and discovered that an overlapping cookie banner was completely blocking the 'Pay Now' button on older iPhone screens."
+        "text": "Notre équipe d'assurance qualité manuelle a effectué des tests exploratoires sur des appareils mobiles physiques et a découvert qu'une bannière de cookies superposée bloquait complètement le bouton « Payer maintenant » sur les anciens écrans d'iPhone."
       },
       "result": {
-        "label": "Result",
-        "text": "The bug was visually invisible to the automated scripts. By logging and fixing this UI flaw, the client's subscription conversion rate immediately jumped by 22%."
+        "label": "Résultat",
+        "text": "Le bug était visuellement invisible pour les scripts automatisés. En enregistrant et en corrigeant cette faille de l'interface utilisateur, le taux de conversion des abonnements du client a immédiatement bondi de 22 %."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about manual quality assurance",
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur l’assurance qualité manuelle",
     "questions": [
       {
-        "question": "If we have automated testing, do we still need manual testing?",
-        "answer": "Absolutely. Automation is blind to visual glitches, poor UX design, and completely unexpected user behaviors. A robust QA strategy uses automation to quickly test the core logic, and manual testing to ensure the application actually looks and feels great to a human being."
+        "question": "Si nous disposons de tests automatisés, avons-nous toujours besoin de tests manuels ?",
+        "answer": "Absolument. L'automatisation est aveugle aux problèmes visuels, à la mauvaise conception UX et aux comportements complètement inattendus des utilisateurs. Une stratégie d'assurance qualité robuste utilise l'automatisation pour tester rapidement la logique de base et des tests manuels pour garantir que l'application a réellement une apparence et une sensation agréables pour un être humain."
       },
       {
-        "question": "What is Exploratory Testing?",
-        "answer": "Exploratory testing is a highly creative, unscripted QA approach. Instead of following a strict checklist, our QA engineers use their experience and intuition to wander through your app, intentionally trying weird combinations of actions to find bugs that no one anticipated."
+        "question": "Qu’est-ce que les tests exploratoires ?",
+        "answer": "Les tests exploratoires sont une approche d’assurance qualité hautement créative et non scriptée. Au lieu de suivre une liste de contrôle stricte, nos ingénieurs QA utilisent leur expérience et leur intuition pour parcourir votre application, essayant intentionnellement d'étranges combinaisons d'actions pour trouver des bugs que personne n'avait anticipés."
       },
       {
-        "question": "How do you test on different devices?",
-        "answer": "We use a combination of physical hardware (real iPhones, iPads, and Android phones) and cloud-based device labs like BrowserStack to ensure your application performs flawlessly regardless of the user's screen size or operating system."
+        "question": "Comment tester sur différents appareils ?",
+        "answer": "Nous utilisons une combinaison de matériel physique (vrais iPhones, iPads et téléphones Android) et de laboratoires d'appareils basés sur le cloud comme BrowserStack pour garantir que votre application fonctionne parfaitement, quelle que soit la taille de l'écran ou le système d'exploitation de l'utilisateur."
       },
       {
-        "question": "How do you report bugs to our developers?",
-        "answer": "We integrate seamlessly with your development workflow. When we find a bug, we log a detailed ticket in your project management tool (like Jira, Trello, or Linear). Every ticket includes the environment details, exact steps to reproduce the bug, and visual evidence (screenshots or video recordings)."
+        "question": "Comment signaler les bugs à nos développeurs ?",
+        "answer": "Nous nous intégrons parfaitement à votre flux de développement. Lorsque nous détectons un bug, nous enregistrons un ticket détaillé dans votre outil de gestion de projet (comme Jira, Trello ou Linear). Chaque ticket comprend les détails de l'environnement, les étapes exactes pour reproduire le bug et des preuves visuelles (captures d'écran ou enregistrements vidéo)."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Talk to our QA team",
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Parlez à notre équipe QA",
       "link_url": "/contact"
     }
   }

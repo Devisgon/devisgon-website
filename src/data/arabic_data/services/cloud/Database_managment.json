@@ -1,82 +1,82 @@
 {
   "slug": "database_management",
   "hero_section": {
-    "title": "Database Management",
-    "subtitle": "Secure, Scalable, and Lightning-Fast Data",
-    "description": "We design, optimize, and manage robust database architectures that ensure your critical business data is always available, highly secure, and optimized for peak performance.",
+    "title": "إدارة قواعد البيانات",
+    "subtitle": "بيانات آمنة وقابلة للتطوير وبسرعة البرق",
+    "description": "نحن نقوم بتصميم وتحسين وإدارة بنيات قواعد البيانات القوية التي تضمن أن بيانات عملك المهمة متاحة دائمًا وآمنة للغاية ومُحسّنة لتحقيق أعلى مستوى من الأداء.",
     "buttons": [
       {
-        "text": "Optimize My Database",
+        "text": "تحسين قاعدة البيانات الخاصة بي",
         "link": "/contact"
       },
       {
-        "text": "Consult a Data Expert",
+        "text": "استشر خبير بيانات",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/database_management.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Database Management?",
+    "heading": "ما هو",
+    "span_heading": "إدارة قواعد البيانات؟",
     "content": [
-      "Data is the lifeblood of any modern application. Database Management involves architecting how that data is stored, structured, accessed, and secured. Whether you are dealing with relational data in SQL or massive document stores in NoSQL, a poorly configured database will eventually lead to slow load times, application crashes, and data loss. ",
-      "At Devisgon, we take the complexity out of data infrastructure. We build high-availability database clusters, perform deep query tuning, and set up automated disaster recovery pipelines so your application scales seamlessly from 100 to 1,000,000 users without breaking a sweat."
+      "البيانات هي شريان الحياة لأي تطبيق حديث. تتضمن إدارة قواعد البيانات تصميم كيفية تخزين هذه البيانات وتنظيمها والوصول إليها وتأمينها. سواء كنت تتعامل مع البيانات العلائقية في SQL أو مخازن المستندات الضخمة في NoSQL، فإن قاعدة البيانات التي تم تكوينها بشكل سيئ ستؤدي في النهاية إلى بطء أوقات التحميل، وتعطل التطبيق، وفقدان البيانات.",
+      "في Devisgon، نزيل التعقيد من البنية التحتية للبيانات. نحن نبني مجموعات قواعد بيانات عالية التوفر، ونجري ضبطًا عميقًا للاستعلام، ونقوم بإعداد مسارات تلقائية للتعافي من الكوارث بحيث يتوسع تطبيقك بسلاسة من 100 إلى 1,000,000 مستخدم دون عناء."
     ],
-    "highlight_quote": " “Your application is only as fast as your database.” ",
-    "side_image": "/all_services/database_management/introduction.svg"
+    "highlight_quote": "\"التطبيق الخاص بك هو فقط بنفس سرعة قاعدة البيانات الخاصة بك.\"",
+    "side_image": "/all_services/db_mangment/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why professional database management is essential",
+    "title": "الفوائد الرئيسية",
+    "subtitle": "لماذا تعد إدارة قواعد البيانات الاحترافية أمرًا ضروريًا",
     "cards": [
       {
-        "title": "Blazing Fast Queries",
-        "description": "Proper indexing and query optimization eliminate bottlenecks, making your application feel instantly responsive.",
+        "title": "اشتعلت فيه النيران في الاستعلامات السريعة",
+        "description": "تؤدي الفهرسة الصحيحة وتحسين الاستعلام إلى إزالة الاختناقات، مما يجعل تطبيقك سريع الاستجابة.",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "High Availability (99.99%)",
-        "description": "Clustered setups and read-replicas ensure your database never goes down, even during massive traffic spikes.",
+        "title": "نسبة توافر عالية (99.99%)",
+        "description": "تضمن عمليات الإعداد المجمعة والنسخ المتماثلة للقراءة عدم تعطل قاعدة البيانات الخاصة بك أبدًا، حتى أثناء الارتفاع الكبير في حركة المرور.",
         "icon_type": "MdStorage"
       },
       {
-        "title": "Zero Data Loss",
-        "description": "Automated, encrypted backups and point-in-time recovery mean your data is always safe from corruption or human error.",
+        "title": "فقدان البيانات صفر",
+        "description": "النسخ الاحتياطية الآلية والمشفرة والاسترداد في الوقت المناسب تعني أن بياناتك آمنة دائمًا من الفساد أو الخطأ البشري.",
         "icon_type": "MdOutlineBackup"
       },
       {
-        "title": "Seamless Scalability",
-        "description": "Architectures designed to shard or scale horizontally as your user base and data volume grow.",
+        "title": "قابلية التوسع السلس",
+        "description": "بنيات مصممة للتقسيم أو التوسع أفقيًا مع نمو قاعدة المستخدمين وحجم البيانات.",
         "icon_type": "MdTrendingUp"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Database Management",
-    "image": "/all_services/database_management/wwg.svg",
+    "title": "ما ستحصل عليه عندما تختار إدارة قواعد البيانات",
+    "image": "/all_services/db_mangment/wwg.webp",
     "list_items": [
       {
-        "title": "1. Database Architecture Design",
-        "description": "Selecting the right database engine (SQL vs. NoSQL) and designing an optimal schema for your specific use case."
+        "title": "1. تصميم معمارية قاعدة البيانات",
+        "description": "اختيار محرك قاعدة البيانات الصحيح (SQL مقابل NoSQL) وتصميم المخطط الأمثل لحالة الاستخدام المحددة الخاصة بك."
       },
       {
-        "title": "2. Performance Tuning & Indexing",
-        "description": "Deep analysis of slow queries and application of strategic indexes to speed up data retrieval."
+        "title": "2. ضبط الأداء والفهرسة",
+        "description": "تحليل عميق للاستعلامات البطيئة وتطبيق الفهارس الإستراتيجية لتسريع عملية استرجاع البيانات."
       },
       {
-        "title": "3. Seamless Data Migration",
-        "description": "Moving your data from legacy systems to modern cloud databases with zero downtime and no data loss."
+        "title": "3. الهجرة السلسة للبيانات",
+        "description": "نقل بياناتك من الأنظمة القديمة إلى قواعد البيانات السحابية الحديثة دون توقف أو فقدان للبيانات."
       },
       {
-        "title": "4. Automated Maintenance",
-        "description": "Routine health checks, vacuuming, and patching to ensure continuous, secure operation."
+        "title": "4. الصيانة الآلية",
+        "description": "الفحوصات الصحية الروتينية، والتنظيف بالمكنسة الكهربائية، والترقيع لضمان التشغيل المستمر والآمن."
       }
     ]
   },
   "technologies_section": {
-    "title": "We manage industry-leading databases",
-    "subtitle": "The best engines for relational, document, and caching needs",
+    "title": "نحن ندير قواعد البيانات الرائدة في الصناعة",
+    "subtitle": "أفضل المحركات لاحتياجات العلائقية والمستندات والتخزين المؤقت",
     "tools": [
       {
         "name": "PostgreSQL",
@@ -87,87 +87,87 @@
         "icon": "SiMongodb"
       },
       {
-        "name": "MySQL",
+        "name": "ماي إس كيو إل",
         "icon": "SiMysql"
       },
       {
-        "name": "Redis",
+        "name": "ريديس",
         "icon": "SiRedis"
       },
       {
-        "name": "AWS RDS",
+        "name": "أوس رديز",
         "icon": "FaAws"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we secure and speed up your data",
+    "title": "عمليتنا",
+    "subtitle": "كيف نقوم بتأمين وتسريع البيانات الخاصة بك",
     "steps": [
       {
-        "title": "Audit & Analyze",
-        "description": "We analyze your current schema, query logs, and server loads to identify bottlenecks.",
+        "title": "التدقيق والتحليل",
+        "description": "نقوم بتحليل مخططك الحالي وسجلات الاستعلامات وأحمال الخادم لتحديد الاختناقات.",
         "icon": "FaSearch"
       },
       {
-        "title": "Design & Plan",
-        "description": "We architect a scalable solution, whether it's adding read-replicas, indexing, or migrating engines.",
+        "title": "التصميم والخطة",
+        "description": "نحن نصمم حلاً قابلاً للتطوير، سواء كان ذلك بإضافة نسخ متماثلة للقراءة، أو فهرسة، أو محركات ترحيل.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Implement & Optimize",
-        "description": "We rewrite inefficient queries, build the new architecture, and execute secure migrations.",
+        "title": "التنفيذ والتحسين",
+        "description": "نحن نعيد كتابة الاستعلامات غير الفعالة، ونبني البنية الجديدة، وننفذ عمليات الترحيل الآمنة.",
         "icon": "FaDatabase"
       },
       {
-        "title": "Monitor & Backup",
-        "description": "We deploy 24/7 monitoring tools and establish strict, automated backup schedules.",
+        "title": "المراقبة والنسخ الاحتياطي",
+        "description": "نحن ننشر أدوات مراقبة على مدار الساعة طوال أيام الأسبوع ونضع جداول نسخ احتياطي آلية صارمة.",
         "icon": "FaShieldAlt"
       }
     ]
   },
   "case_study_section": {
-    "headline": "300% faster query speeds for an e-commerce platform",
-    "image": "/all_services/database_management/case_study.svg",
+    "headline": "سرعات استعلام أسرع بنسبة 300% لمنصة التجارة الإلكترونية",
+    "image": "/all_services/db_mangment/cs.png",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A high-traffic e-commerce site experienced severe database lockups and timeout errors during flash sales, costing them thousands in abandoned carts."
+        "label": "مشكلة",
+        "text": "تعرض موقع للتجارة الإلكترونية ذو حركة مرور عالية لعمليات إغلاق خطيرة لقاعدة البيانات وأخطاء انتهاء المهلة أثناء مبيعات الفلاش، مما كلفهم الآلاف في عربات مهجورة."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We optimized their PostgreSQL schema, implemented Redis for product catalog caching, and set up a master-slave read-replica architecture."
+        "label": "حل",
+        "text": "لقد قمنا بتحسين مخطط PostgreSQL الخاص بهم، وقمنا بتنفيذ Redis للتخزين المؤقت لكتالوج المنتجات، وقمنا بإعداد بنية قراءة النسخ المتماثلة للتابع الرئيسي."
       },
       "result": {
-        "label": "Result",
-        "text": "Database CPU load dropped by 70%, average query response time improved by 300%, and the platform handled Black Friday traffic with zero downtime."
+        "label": "نتيجة",
+        "text": "انخفض حمل وحدة المعالجة المركزية لقاعدة البيانات بنسبة 70%، وتحسن متوسط ​​وقت استجابة الاستعلام بنسبة 300%، وتعامل النظام الأساسي مع حركة مرور الجمعة السوداء دون أي توقف عن العمل."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about database architecture",
+    "title": "الأسئلة المتداولة",
+    "subtitle": "احصل على إجابات حول بنية قاعدة البيانات",
     "questions": [
       {
-        "question": "Should I use a SQL or NoSQL database?",
-        "answer": "It depends entirely on your data. SQL (like PostgreSQL or MySQL) is best for highly structured, relational data where data integrity and complex transactions are critical (like finance or e-commerce). NoSQL (like MongoDB) is great for unstructured data, rapid prototyping, and massive horizontal scaling."
+        "question": "هل يجب علي استخدام قاعدة بيانات SQL أو NoSQL؟",
+        "answer": "ذلك يعتمد كليا على البيانات الخاصة بك. يعد SQL (مثل PostgreSQL أو MySQL) هو الأفضل للبيانات العلائقية عالية التنظيم حيث تكون تكامل البيانات والمعاملات المعقدة أمرًا بالغ الأهمية (مثل التمويل أو التجارة الإلكترونية). يعد NoSQL (مثل MongoDB) رائعًا للبيانات غير المنظمة والنماذج الأولية السريعة والقياس الأفقي الضخم."
       },
       {
-        "question": "What happens if our database server crashes?",
-        "answer": "We design high-availability architectures to prevent this. By using clustered setups and read-replicas across multiple server availability zones, if your primary database goes offline, traffic is automatically routed to a synchronized backup server in milliseconds."
+        "question": "ماذا يحدث إذا تعطل خادم قاعدة البيانات لدينا؟",
+        "answer": "نحن نصمم بنيات عالية التوفر لمنع ذلك. باستخدام عمليات الإعداد المجمعة والنسخ المتماثلة للقراءة عبر مناطق توفر خادم متعددة، إذا أصبحت قاعدة البيانات الأساسية الخاصة بك غير متصلة بالإنترنت، فسيتم توجيه حركة المرور تلقائيًا إلى خادم نسخ احتياطي متزامن في أجزاء من الثانية."
       },
       {
-        "question": "Can you migrate our data from an old system?",
-        "answer": "Yes. Data migration is one of our core specialties. We map your old schema to the new one and execute the migration using secure pipelines, often achieving zero-downtime migrations so your business isn't interrupted."
+        "question": "هل يمكنك ترحيل بياناتنا من نظام قديم؟",
+        "answer": "نعم. يعد ترحيل البيانات أحد تخصصاتنا الأساسية. نحن نربط مخططك القديم بالمخطط الجديد وننفذ الترحيل باستخدام مسارات آمنة، وغالبًا ما نحقق عمليات ترحيل بدون توقف حتى لا يتم مقاطعة عملك."
       },
       {
-        "question": "How do you protect our database from hackers?",
-        "answer": "We implement strict network-level security (ensuring the database is never exposed to the public internet), enforce strong Identity and Access Management (IAM), encrypt data both at rest and in transit, and continuously monitor for suspicious query patterns."
+        "question": "كيف تحمي قاعدة بياناتنا من المتسللين؟",
+        "answer": "نحن نطبق أمانًا صارمًا على مستوى الشبكة (نضمن عدم تعرض قاعدة البيانات مطلقًا للإنترنت العام)، ونفرض إدارة قوية للهوية والوصول (IAM)، ونشفر البيانات أثناء الراحة وأثناء النقل، ونراقب باستمرار أنماط الاستعلام المشبوهة."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Talk to our data architects",
+      "text": "لم تجد إجابتك؟",
+      "link_text": "تحدث إلى مهندسي البيانات لدينا",
       "link_url": "/contact"
     }
   }

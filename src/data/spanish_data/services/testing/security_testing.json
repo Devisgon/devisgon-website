@@ -1,97 +1,97 @@
 {
   "slug": "security_testing",
   "hero_section": {
-    "title": "Security Testing & Penetration",
-    "subtitle": "Find the Vulnerabilities Before the Hackers Do",
-    "description": "Protect your application, your user data, and your reputation. We simulate real-world cyber attacks to identify and patch critical security flaws in your software before they can be exploited.",
+    "title": "Pruebas de seguridad y penetración",
+    "subtitle": "Encuentre las vulnerabilidades antes de que lo hagan los piratas informáticos",
+    "description": "Proteja su aplicación, sus datos de usuario y su reputación. Simulamos ataques cibernéticos del mundo real para identificar y reparar fallas de seguridad críticas en su software antes de que puedan ser explotadas.",
     "buttons": [
       {
-        "text": "Secure Your Application",
+        "text": "Asegure su aplicación",
         "link": "/contact"
       },
       {
-        "text": "Speak to an Ethical Hacker",
+        "text": "Habla con un hacker ético",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/security_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Security Testing?",
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas de seguridad?",
     "content": [
-      "Security testing is the rigorous process of evaluating your software to uncover vulnerabilities, threats, and risks. Instead of waiting for a malicious attack to reveal the weak points in your system, our certified ethical hackers take the offensive, attempting to breach your applications using the exact same tools and techniques as real-world cybercriminals. ",
-      "At Devisgon, we go beyond automated scans. We dive deep into your application's logic, APIs, and infrastructure to find hidden loopholes like SQL injections, cross-site scripting (XSS), and broken authentication. We then provide actionable remediation steps to lock down your system completely."
+      "Las pruebas de seguridad son el proceso riguroso de evaluar su software para descubrir vulnerabilidades, amenazas y riesgos. En lugar de esperar a que un ataque malicioso revele los puntos débiles de su sistema, nuestros piratas informáticos éticos certificados toman la ofensiva e intentan violar sus aplicaciones utilizando exactamente las mismas herramientas y técnicas que los ciberdelincuentes del mundo real.",
+      "En Devisgon vamos más allá de los escaneos automatizados. Profundizamos en la lógica, las API y la infraestructura de su aplicación para encontrar lagunas ocultas como inyecciones SQL, secuencias de comandos entre sitios (XSS) y autenticación rota. Luego proporcionamos pasos de solución prácticos para bloquear su sistema por completo."
     ],
-    "highlight_quote": " “If you think compliance is expensive, try a data breach.” ",
-    "side_image": "/all_services/security_testing/introduction.svg"
+    "highlight_quote": "\"Si cree que el cumplimiento es costoso, pruebe con una filtración de datos\".",
+    "side_image": "/all_services/security_testing/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why proactive security testing is a business necessity",
+    "title": "Beneficios clave",
+    "subtitle": "Por qué las pruebas de seguridad proactivas son una necesidad empresarial",
     "cards": [
       {
-        "title": "Prevent Costly Breaches",
-        "description": "Identify and patch zero-day vulnerabilities and critical flaws before they lead to catastrophic data loss or ransom demands.",
+        "title": "Evite costosas infracciones",
+        "description": "Identifique y corrija vulnerabilidades de día cero y fallas críticas antes de que provoquen una pérdida catastrófica de datos o demandas de rescate.",
         "icon_type": "MdLock"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Show your users and enterprise clients that their sensitive data is handled with the highest level of security.",
+        "title": "Proteger la reputación de la marca",
+        "description": "Muestre a sus usuarios y clientes empresariales que sus datos confidenciales se manejan con el más alto nivel de seguridad.",
         "icon_type": "MdVerifiedUser"
       },
       {
-        "title": "Ensure Compliance",
-        "description": "Meet the strict security testing requirements mandated by frameworks like SOC 2, HIPAA, PCI-DSS, and GDPR.",
+        "title": "Garantizar el cumplimiento",
+        "description": "Cumpla con los estrictos requisitos de pruebas de seguridad exigidos por marcos como SOC 2, HIPAA, PCI-DSS y GDPR.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Secure the Supply Chain",
-        "description": "Verify that third-party plugins, APIs, and open-source libraries aren't introducing hidden risks into your application.",
+        "title": "Asegure la cadena de suministro",
+        "description": "Verifique que los complementos, API y bibliotecas de código abierto de terceros no introduzcan riesgos ocultos en su aplicación.",
         "icon_type": "MdSecurity"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Security Testing",
-    "image": "/all_services/security_testing/wwg.svg",
+    "title": "Lo que obtendrás cuando elijas las pruebas de seguridad",
+    "image": "/all_services/security_testing/wwg.jpg",
     "list_items": [
       {
-        "title": "1. Automated Vulnerability Scans",
-        "description": "Rapid, wide-net sweeps of your codebase and infrastructure to catch known Common Vulnerabilities and Exposures (CVEs)."
+        "title": "1. Análisis de vulnerabilidades automatizados",
+        "description": "Barridos rápidos y amplios de su base de código e infraestructura para detectar vulnerabilidades y exposiciones comunes (CVE) conocidas."
       },
       {
-        "title": "2. Manual Penetration Testing",
-        "description": "Deep-dive, human-led ethical hacking targeting complex business logic and sophisticated exploit chains."
+        "title": "2. Pruebas de penetración manuales",
+        "description": "Hacking ético profundo y dirigido por humanos dirigido a lógica empresarial compleja y cadenas de explotación sofisticadas."
       },
       {
-        "title": "3. OWASP Top 10 Audits",
-        "description": "Rigorous validation against the industry standard for the most critical web application security risks."
+        "title": "3. Las 10 principales auditorías de OWASP",
+        "description": "Validación rigurosa según el estándar de la industria para los riesgos de seguridad de aplicaciones web más críticos."
       },
       {
-        "title": "4. Actionable Remediation Reports",
-        "description": "Clear documentation of every vulnerability found, its risk severity, and exact code-level instructions on how to fix it."
+        "title": "4. Informes de remediación procesables",
+        "description": "Documentación clara de cada vulnerabilidad encontrada, la gravedad del riesgo e instrucciones exactas a nivel de código sobre cómo solucionarla."
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard security tools",
-    "subtitle": "The ultimate arsenal for ethical hacking and vulnerability detection",
+    "title": "Probamos utilizando herramientas de seguridad estándar de la industria",
+    "subtitle": "El arsenal definitivo para la piratería ética y la detección de vulnerabilidades",
     "tools": [
       {
-        "name": "Burp Suite",
+        "name": "Suite de eructos",
         "icon": "FaBug"
       },
       {
-        "name": "OWASP ZAP",
+        "name": "ZAP OWASP",
         "icon": "FaShieldAlt"
       },
       {
-        "name": "Nessus",
+        "name": "Neso",
         "icon": "SiNessus"
       },
       {
-        "name": "Metasploit",
+        "name": "metasploit",
         "icon": "FaTerminal"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A structured approach to ethical hacking",
+    "title": "Nuestro proceso",
+    "subtitle": "Un enfoque estructurado para el hacking ético",
     "steps": [
       {
-        "title": "Reconnaissance",
-        "description": "We map your application's attack surface, identifying exposed endpoints, subdomains, and tech stacks.",
+        "title": "Reconocimiento",
+        "description": "Mapeamos la superficie de ataque de su aplicación, identificando puntos finales, subdominios y pilas de tecnología expuestos.",
         "icon": "FaSearch"
       },
       {
-        "title": "Scanning",
-        "description": "We utilize advanced automated tools to identify misconfigurations and known vulnerabilities.",
+        "title": "Exploración",
+        "description": "Utilizamos herramientas automatizadas avanzadas para identificar configuraciones erróneas y vulnerabilidades conocidas.",
         "icon": "FaRadar"
       },
       {
-        "title": "Exploitation (Pentesting)",
-        "description": "Our engineers manually attempt to exploit the discovered vulnerabilities to determine their actual impact.",
+        "title": "Explotación (Pentesting)",
+        "description": "Nuestros ingenieros intentan explotar manualmente las vulnerabilidades descubiertas para determinar su impacto real.",
         "icon": "FaUnlockAlt"
       },
       {
-        "title": "Reporting & Patching",
-        "description": "We deliver a comprehensive risk report and work with your dev team to verify that the patches are effective.",
+        "title": "Informes y parches",
+        "description": "Entregamos un informe de riesgos completo y trabajamos con su equipo de desarrollo para verificar que los parches sean efectivos.",
         "icon": "FaFileContract"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Prevented a massive data leak in a healthcare portal",
-    "image": "/all_services/security_testing/case_study.svg",
+    "headline": "Se evitó una fuga masiva de datos en un portal de atención médica.",
+    "image": "/all_services/security_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A telehealth startup was weeks away from launching their patient portal but needed a final security audit to comply with HIPAA regulations."
+        "label": "Problema",
+        "text": "A una startup de telesalud le faltaban semanas para lanzar su portal para pacientes, pero necesitaba una auditoría de seguridad final para cumplir con las regulaciones HIPAA."
       },
       "solution": {
-        "label": "Solution",
-        "text": "During our manual penetration test, we discovered a severe Insecure Direct Object Reference (IDOR) vulnerability that allowed any user to access other patients' medical records by manipulating the URL."
+        "label": "Solución",
+        "text": "Durante nuestra prueba de penetración manual, descubrimos una grave vulnerabilidad de referencia directa a objetos inseguros (IDOR) que permitía a cualquier usuario acceder a los registros médicos de otros pacientes manipulando la URL."
       },
       "result": {
-        "label": "Result",
-        "text": "We provided immediate remediation code. The vulnerability was patched before launch, avoiding a catastrophic HIPAA violation and preserving the startup's future."
+        "label": "Resultado",
+        "text": "Proporcionamos un código de remediación inmediata. La vulnerabilidad se corrigió antes del lanzamiento, evitando una violación catastrófica de HIPAA y preservando el futuro de la startup."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about cybersecurity and penetration testing",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre ciberseguridad y pruebas de penetración",
     "questions": [
       {
-        "question": "What is the difference between a Vulnerability Scan and a Penetration Test?",
-        "answer": "A Vulnerability Scan is an automated process that checks your systems for known flaws and reports them. A Penetration Test (Pentest) is a manual, human-led process where an ethical hacker actively tries to exploit those flaws to see how deep into the system they can get, simulating a real-world attack."
+        "question": "¿Cuál es la diferencia entre un análisis de vulnerabilidades y una prueba de penetración?",
+        "answer": "Un análisis de vulnerabilidades es un proceso automatizado que verifica sus sistemas en busca de fallas conocidas y las informa. Una prueba de penetración (Pentest) es un proceso manual dirigido por humanos en el que un hacker ético intenta activamente explotar esas fallas para ver qué tan profundo puede llegar al sistema, simulando un ataque del mundo real."
       },
       {
-        "question": "Is it safe to perform security testing on a live, production environment?",
-        "answer": "While we can test production environments carefully, we highly recommend performing intrusive security testing (like Penetration Testing) on a staging or replica environment. This ensures there is absolutely no disruption to your live users or risk of accidental data corruption."
+        "question": "¿Es seguro realizar pruebas de seguridad en un entorno de producción en vivo?",
+        "answer": "Si bien podemos probar los entornos de producción cuidadosamente, recomendamos encarecidamente realizar pruebas de seguridad intrusivas (como pruebas de penetración) en un entorno provisional o de réplica. Esto garantiza que no haya absolutamente ninguna interrupción para sus usuarios activos ni riesgo de corrupción accidental de datos."
       },
       {
-        "question": "How often should we perform security testing?",
-        "answer": "Best practices dictate running automated vulnerability scans continuously (integrated into your CI/CD pipeline). Deep-dive manual penetration tests should be conducted at least annually, or immediately following any major architecture change or significant feature release."
+        "question": "¿Con qué frecuencia debemos realizar pruebas de seguridad?",
+        "answer": "Las mejores prácticas dictan la ejecución continua de análisis de vulnerabilidades automatizados (integrados en su proceso de CI/CD). Las pruebas de penetración manuales profundas deben realizarse al menos una vez al año o inmediatamente después de cualquier cambio importante en la arquitectura o lanzamiento de funciones importantes."
       },
       {
-        "question": "What happens after you find a vulnerability?",
-        "answer": "We don't just hand you a list of problems. We provide a detailed report ranking the vulnerabilities by severity (Critical, High, Medium, Low) alongside step-by-step remediation instructions. Once your developers apply the fix, we perform a 're-test' to guarantee the loophole is permanently closed."
+        "question": "¿Qué sucede después de encontrar una vulnerabilidad?",
+        "answer": "No nos limitamos a entregarle una lista de problemas. Proporcionamos un informe detallado que clasifica las vulnerabilidades por gravedad (crítica, alta, media, baja) junto con instrucciones de solución paso a paso. Una vez que sus desarrolladores aplican la solución, realizamos una \"nueva prueba\" para garantizar que la laguna se cierre permanentemente."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a security consultation",
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Programe una consulta de seguridad",
       "link_url": "/contact"
     }
   }

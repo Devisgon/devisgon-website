@@ -1,82 +1,82 @@
 {
   "slug": "database_management",
   "hero_section": {
-    "title": "Database Management",
-    "subtitle": "Secure, Scalable, and Lightning-Fast Data",
-    "description": "We design, optimize, and manage robust database architectures that ensure your critical business data is always available, highly secure, and optimized for peak performance.",
+    "title": "Gestion de base de données",
+    "subtitle": "Données sécurisées, évolutives et ultra-rapides",
+    "description": "Nous concevons, optimisons et gérons des architectures de bases de données robustes qui garantissent que vos données commerciales critiques sont toujours disponibles, hautement sécurisées et optimisées pour des performances optimales.",
     "buttons": [
       {
-        "text": "Optimize My Database",
+        "text": "Optimiser ma base de données",
         "link": "/contact"
       },
       {
-        "text": "Consult a Data Expert",
+        "text": "Consultez un expert en données",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/database_management.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Database Management?",
+    "heading": "Qu'est-ce que",
+    "span_heading": "Gestion de base de données ?",
     "content": [
-      "Data is the lifeblood of any modern application. Database Management involves architecting how that data is stored, structured, accessed, and secured. Whether you are dealing with relational data in SQL or massive document stores in NoSQL, a poorly configured database will eventually lead to slow load times, application crashes, and data loss. ",
-      "At Devisgon, we take the complexity out of data infrastructure. We build high-availability database clusters, perform deep query tuning, and set up automated disaster recovery pipelines so your application scales seamlessly from 100 to 1,000,000 users without breaking a sweat."
+      "Les données sont l’élément vital de toute application moderne. La gestion de bases de données implique l'architecture de la manière dont ces données sont stockées, structurées, accessibles et sécurisées. Qu'il s'agisse de données relationnelles en SQL ou de magasins de documents volumineux en NoSQL, une base de données mal configurée finira par entraîner des temps de chargement lents, des plantages d'applications et des pertes de données.",
+      "Chez Devisgon, nous simplifions la complexité de l'infrastructure de données. Nous construisons des clusters de bases de données à haute disponibilité, effectuons un réglage approfondi des requêtes et mettons en place des pipelines automatisés de reprise après sinistre afin que votre application évolue de manière transparente de 100 à 1 000 000 d'utilisateurs sans effort."
     ],
-    "highlight_quote": " “Your application is only as fast as your database.” ",
-    "side_image": "/all_services/database_management/introduction.svg"
+    "highlight_quote": "\"Votre application est aussi rapide que votre base de données.\"",
+    "side_image": "/all_services/db_mangment/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why professional database management is essential",
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi une gestion professionnelle de bases de données est essentielle",
     "cards": [
       {
-        "title": "Blazing Fast Queries",
-        "description": "Proper indexing and query optimization eliminate bottlenecks, making your application feel instantly responsive.",
+        "title": "Requêtes ultra rapides",
+        "description": "Une indexation appropriée et une optimisation des requêtes éliminent les goulots d'étranglement, ce qui rend votre application instantanément réactive.",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "High Availability (99.99%)",
-        "description": "Clustered setups and read-replicas ensure your database never goes down, even during massive traffic spikes.",
+        "title": "Haute disponibilité (99,99 %)",
+        "description": "Les configurations en cluster et les réplicas en lecture garantissent que votre base de données ne tombe jamais en panne, même en cas de pics de trafic massifs.",
         "icon_type": "MdStorage"
       },
       {
-        "title": "Zero Data Loss",
-        "description": "Automated, encrypted backups and point-in-time recovery mean your data is always safe from corruption or human error.",
+        "title": "Zéro perte de données",
+        "description": "Les sauvegardes automatisées et cryptées et la récupération à un moment précis garantissent que vos données sont toujours à l'abri de la corruption ou des erreurs humaines.",
         "icon_type": "MdOutlineBackup"
       },
       {
-        "title": "Seamless Scalability",
-        "description": "Architectures designed to shard or scale horizontally as your user base and data volume grow.",
+        "title": "Évolutivité transparente",
+        "description": "Architectures conçues pour être fragmentées ou mises à l'échelle horizontalement à mesure que votre base d'utilisateurs et votre volume de données augmentent.",
         "icon_type": "MdTrendingUp"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Database Management",
-    "image": "/all_services/database_management/wwg.svg",
+    "title": "Ce que vous obtiendrez en choisissant la gestion de base de données",
+    "image": "/all_services/db_mangment/wwg.webp",
     "list_items": [
       {
-        "title": "1. Database Architecture Design",
-        "description": "Selecting the right database engine (SQL vs. NoSQL) and designing an optimal schema for your specific use case."
+        "title": "1. Conception de l'architecture de base de données",
+        "description": "Sélectionner le bon moteur de base de données (SQL ou NoSQL) et concevoir un schéma optimal pour votre cas d'utilisation spécifique."
       },
       {
-        "title": "2. Performance Tuning & Indexing",
-        "description": "Deep analysis of slow queries and application of strategic indexes to speed up data retrieval."
+        "title": "2. Optimisation des performances et indexation",
+        "description": "Analyse approfondie des requêtes lentes et application d'index stratégiques pour accélérer la récupération des données."
       },
       {
-        "title": "3. Seamless Data Migration",
-        "description": "Moving your data from legacy systems to modern cloud databases with zero downtime and no data loss."
+        "title": "3. Migration transparente des données",
+        "description": "Déplacez vos données des systèmes existants vers des bases de données cloud modernes sans temps d'arrêt et sans perte de données."
       },
       {
-        "title": "4. Automated Maintenance",
-        "description": "Routine health checks, vacuuming, and patching to ensure continuous, secure operation."
+        "title": "4. Maintenance automatisée",
+        "description": "Contrôles de santé, aspiration et correctifs de routine pour garantir un fonctionnement continu et sécurisé."
       }
     ]
   },
   "technologies_section": {
-    "title": "We manage industry-leading databases",
-    "subtitle": "The best engines for relational, document, and caching needs",
+    "title": "Nous gérons des bases de données de pointe",
+    "subtitle": "Les meilleurs moteurs pour les besoins relationnels, de documents et de mise en cache",
     "tools": [
       {
         "name": "PostgreSQL",
@@ -91,83 +91,83 @@
         "icon": "SiMysql"
       },
       {
-        "name": "Redis",
+        "name": "Rédis",
         "icon": "SiRedis"
       },
       {
-        "name": "AWS RDS",
+        "name": "AWSRDS",
         "icon": "FaAws"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we secure and speed up your data",
+    "title": "Notre processus",
+    "subtitle": "Comment nous sécurisons et accélérons vos données",
     "steps": [
       {
-        "title": "Audit & Analyze",
-        "description": "We analyze your current schema, query logs, and server loads to identify bottlenecks.",
+        "title": "Auditer et analyser",
+        "description": "Nous analysons votre schéma actuel, les journaux de requêtes et les charges du serveur pour identifier les goulots d'étranglement.",
         "icon": "FaSearch"
       },
       {
-        "title": "Design & Plan",
-        "description": "We architect a scalable solution, whether it's adding read-replicas, indexing, or migrating engines.",
+        "title": "Conception et planification",
+        "description": "Nous concevons une solution évolutive, qu'il s'agisse d'ajouter des réplicas en lecture, d'indexation ou de migration de moteurs.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Implement & Optimize",
-        "description": "We rewrite inefficient queries, build the new architecture, and execute secure migrations.",
+        "title": "Implémenter et optimiser",
+        "description": "Nous réécrivons les requêtes inefficaces, construisons la nouvelle architecture et exécutons des migrations sécurisées.",
         "icon": "FaDatabase"
       },
       {
-        "title": "Monitor & Backup",
-        "description": "We deploy 24/7 monitoring tools and establish strict, automated backup schedules.",
+        "title": "Surveillance et sauvegarde",
+        "description": "Nous déployons des outils de surveillance 24h/24 et 7j/7 et établissons des calendriers de sauvegarde stricts et automatisés.",
         "icon": "FaShieldAlt"
       }
     ]
   },
   "case_study_section": {
-    "headline": "300% faster query speeds for an e-commerce platform",
-    "image": "/all_services/database_management/case_study.svg",
+    "headline": "Des vitesses de requête 300 % plus rapides pour une plateforme de commerce électronique",
+    "image": "/all_services/db_mangment/cs.png",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A high-traffic e-commerce site experienced severe database lockups and timeout errors during flash sales, costing them thousands in abandoned carts."
+        "label": "Problème",
+        "text": "Un site de commerce électronique à fort trafic a connu de graves blocages de base de données et des erreurs de délai d'attente lors des ventes flash, ce qui lui a coûté des milliers de dollars en paniers abandonnés."
       },
       "solution": {
         "label": "Solution",
-        "text": "We optimized their PostgreSQL schema, implemented Redis for product catalog caching, and set up a master-slave read-replica architecture."
+        "text": "Nous avons optimisé leur schéma PostgreSQL, implémenté Redis pour la mise en cache du catalogue de produits et mis en place une architecture maître-esclave en lecture-réplication."
       },
       "result": {
-        "label": "Result",
-        "text": "Database CPU load dropped by 70%, average query response time improved by 300%, and the platform handled Black Friday traffic with zero downtime."
+        "label": "Résultat",
+        "text": "La charge CPU de la base de données a chuté de 70 %, le temps de réponse moyen aux requêtes s'est amélioré de 300 % et la plate-forme a géré le trafic du Black Friday sans aucun temps d'arrêt."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about database architecture",
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur l’architecture des bases de données",
     "questions": [
       {
-        "question": "Should I use a SQL or NoSQL database?",
-        "answer": "It depends entirely on your data. SQL (like PostgreSQL or MySQL) is best for highly structured, relational data where data integrity and complex transactions are critical (like finance or e-commerce). NoSQL (like MongoDB) is great for unstructured data, rapid prototyping, and massive horizontal scaling."
+        "question": "Dois-je utiliser une base de données SQL ou NoSQL ?",
+        "answer": "Cela dépend entièrement de vos données. SQL (comme PostgreSQL ou MySQL) est idéal pour les données relationnelles hautement structurées où l'intégrité des données et les transactions complexes sont essentielles (comme la finance ou le commerce électronique). NoSQL (comme MongoDB) est idéal pour les données non structurées, le prototypage rapide et la mise à l'échelle horizontale massive."
       },
       {
-        "question": "What happens if our database server crashes?",
-        "answer": "We design high-availability architectures to prevent this. By using clustered setups and read-replicas across multiple server availability zones, if your primary database goes offline, traffic is automatically routed to a synchronized backup server in milliseconds."
+        "question": "Que se passe-t-il si notre serveur de base de données tombe en panne ?",
+        "answer": "Nous concevons des architectures à haute disponibilité pour éviter cela. En utilisant des configurations en cluster et des réplicas en lecture sur plusieurs zones de disponibilité de serveur, si votre base de données principale est hors ligne, le trafic est automatiquement acheminé vers un serveur de sauvegarde synchronisé en quelques millisecondes."
       },
       {
-        "question": "Can you migrate our data from an old system?",
-        "answer": "Yes. Data migration is one of our core specialties. We map your old schema to the new one and execute the migration using secure pipelines, often achieving zero-downtime migrations so your business isn't interrupted."
+        "question": "Pouvez-vous migrer nos données depuis un ancien système ?",
+        "answer": "Oui. La migration de données est l'une de nos principales spécialités. Nous mappons votre ancien schéma sur le nouveau et exécutons la migration à l'aide de pipelines sécurisés, réalisant souvent des migrations sans temps d'arrêt afin que votre activité ne soit pas interrompue."
       },
       {
-        "question": "How do you protect our database from hackers?",
-        "answer": "We implement strict network-level security (ensuring the database is never exposed to the public internet), enforce strong Identity and Access Management (IAM), encrypt data both at rest and in transit, and continuously monitor for suspicious query patterns."
+        "question": "Comment protégez-vous notre base de données contre les pirates ?",
+        "answer": "Nous mettons en œuvre une sécurité stricte au niveau du réseau (garantissant que la base de données n'est jamais exposée à l'Internet public), appliquons une gestion rigoureuse des identités et des accès (IAM), chiffrons les données au repos et en transit et surveillons en permanence les modèles de requêtes suspects."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Talk to our data architects",
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Parlez à nos architectes de données",
       "link_url": "/contact"
     }
   }

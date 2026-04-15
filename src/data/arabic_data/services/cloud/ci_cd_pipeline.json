@@ -1,173 +1,173 @@
 {
   "slug": "cicd_pipelines",
   "hero_section": {
-    "title": "CI/CD Pipelines",
-    "subtitle": "Accelerate Your Software Delivery",
-    "description": "Automate your build, test, and deployment processes. We design robust CI/CD pipelines that eliminate manual errors, increase release velocity, and ensure your software is always production-ready.",
+    "title": "خطوط أنابيب CI/CD",
+    "subtitle": "تسريع تسليم البرامج الخاصة بك",
+    "description": "أتمتة عمليات الإنشاء والاختبار والنشر. نحن نصمم خطوط أنابيب CI/CD قوية تعمل على التخلص من الأخطاء اليدوية، وزيادة سرعة الإصدار، والتأكد من أن برنامجك جاهز دائمًا للإنتاج.",
     "buttons": [
       {
-        "text": "Automate My Deployments",
+        "text": "أتمتة عمليات النشر الخاصة بي",
         "link": "/contact"
       },
       {
-        "text": "Talk to a DevOps Expert",
+        "text": "تحدث إلى أحد خبراء DevOps",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/cicd_pipelines.mp4"
   },
   "introduction_section": {
-    "heading": "What are",
-    "span_heading": " CI/CD Pipelines?",
+    "heading": "ما هي",
+    "span_heading": "خطوط أنابيب CI/CD؟",
     "content": [
-      "Continuous Integration (CI) and Continuous Deployment (CD) form the backbone of modern software engineering. CI automatically merges and tests your developers' code changes, while CD automates the release of that validated code to your live servers. ",
-      "At Devisgon, we eliminate the infamous 'it works on my machine' problem. By building custom pipelines tailored to your exact tech stack, we empower your team to push code with absolute confidence, knowing that automated quality gates will catch bugs before they ever reach your users."
+      "يشكل التكامل المستمر (CI) والنشر المستمر (CD) العمود الفقري لهندسة البرمجيات الحديثة. يقوم CI تلقائيًا بدمج واختبار تغييرات التعليمات البرمجية للمطورين لديك، بينما يقوم القرص المضغوط بأتمتة إصدار تلك التعليمات البرمجية التي تم التحقق من صحتها إلى خوادمك المباشرة.",
+      "في Devisgon، قمنا بإزالة المشكلة سيئة السمعة \"إنه يعمل على جهازي\". من خلال إنشاء مسارات مخصصة مصممة خصيصًا لمجموعة التكنولوجيا الخاصة بك، فإننا نمكن فريقك من نشر التعليمات البرمجية بثقة مطلقة، مع العلم أن بوابات الجودة الآلية سوف تكتشف الأخطاء قبل أن تصل إلى المستخدمين لديك."
     ],
-    "highlight_quote": " “Ship code faster. Break things less.” ",
-    "side_image": "/all_services/cicd/introduction.svg"
+    "highlight_quote": "\"رمز الشحن أسرع. وكسر الأشياء بشكل أقل.\"",
+    "side_image": "/all_services/ci_cd_pipeline/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why automation is the future of deployment",
+    "title": "الفوائد الرئيسية",
+    "subtitle": "لماذا الأتمتة هي مستقبل النشر",
     "cards": [
       {
-        "title": "Faster Time-to-Market",
-        "description": "Release new features and bug fixes to your users in minutes instead of weeks.",
+        "title": "أسرع وقت للوصول إلى السوق",
+        "description": "قم بإصدار ميزات جديدة وإصلاحات للأخطاء للمستخدمين في دقائق بدلاً من أسابيع.",
         "icon_type": "MdTimer"
       },
       {
-        "title": "Reduced Human Error",
-        "description": "Eliminate manual server configurations and copy-pasting that lead to catastrophic downtime.",
+        "title": "تقليل الخطأ البشري",
+        "description": "تخلص من تكوينات الخادم اليدوية والنسخ واللصق التي تؤدي إلى فترات توقف كارثية.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Effortless Rollbacks",
-        "description": "If a bad update slips through, our pipelines allow you to instantly revert to the last stable version.",
+        "title": "التراجع عن الجهد",
+        "description": "في حالة مرور تحديث سيئ، تسمح لك مساراتنا بالعودة على الفور إلى آخر إصدار ثابت.",
         "icon_type": "MdRestore"
       },
       {
-        "title": "Developer Productivity",
-        "description": "Free your engineers from tedious deployment tasks so they can focus on writing great code.",
+        "title": "إنتاجية المطور",
+        "description": "حرر مهندسيك من مهام النشر المملة حتى يتمكنوا من التركيز على كتابة تعليمات برمجية رائعة.",
         "icon_type": "MdCode"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose CI/CD Pipelines",
-    "image": "/all_services/cicd/wwg.svg",
+    "title": "ما ستحصل عليه عندما تختار خطوط أنابيب CI/CD",
+    "image": "/all_services/ci_cd_pipeline/wwg.png",
     "list_items": [
       {
-        "title": "1. Automated Build Processes",
-        "description": "Code is automatically compiled, linted, and packaged into secure containers (like Docker) on every commit."
+        "title": "1. عمليات البناء الآلي",
+        "description": "يتم تجميع التعليمات البرمجية تلقائيًا وفحصها وتعبئتها في حاويات آمنة (مثل Docker) عند كل التزام."
       },
       {
-        "title": "2. Integrated Automated Testing",
-        "description": "Unit, integration, and security tests run automatically to block faulty code from being merged."
+        "title": "2. الاختبار الآلي المتكامل",
+        "description": "يتم تشغيل اختبارات الوحدة والتكامل والأمان تلقائيًا لمنع دمج التعليمات البرمجية الخاطئة."
       },
       {
-        "title": "3. Zero-Downtime Deployments",
-        "description": "Advanced deployment strategies (like Blue-Green or Canary) so your app stays live during updates."
+        "title": "3. عمليات النشر بدون توقف",
+        "description": "إستراتيجيات النشر المتقدمة (مثل Blue-Green أو Canary) حتى يظل تطبيقك نشطًا أثناء التحديثات."
       },
       {
-        "title": "4. Performance Monitoring",
-        "description": "Alerts and dashboards that notify your team instantly if a build fails or a deployment stalls."
+        "title": "4. مراقبة الأداء",
+        "description": "التنبيهات ولوحات المعلومات التي تُعلم فريقك على الفور في حالة فشل الإنشاء أو توقف النشر."
       }
     ]
   },
   "technologies_section": {
-    "title": "We automate using industry-leading tools",
-    "subtitle": "The best DevOps platforms for reliable, scalable pipelines",
+    "title": "نحن نقوم بالأتمتة باستخدام الأدوات الرائدة في الصناعة",
+    "subtitle": "أفضل منصات DevOps لخطوط الأنابيب الموثوقة والقابلة للتطوير",
     "tools": [
       {
-        "name": "GitHub Actions",
+        "name": "إجراءات جيثب",
         "icon": "SiGithubactions"
       },
       {
-        "name": "GitLab CI",
+        "name": "جيتلاب سي",
         "icon": "FaGitlab"
       },
       {
-        "name": "Jenkins",
+        "name": "جنكينز",
         "icon": "SiJenkins"
       },
       {
-        "name": "Docker",
+        "name": "عامل ميناء",
         "icon": "FaDocker"
       },
       {
-        "name": "Kubernetes",
+        "name": "كوبيرنيتيس",
         "icon": "SiKubernetes"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we streamline your software delivery",
+    "title": "عمليتنا",
+    "subtitle": "كيف نقوم بتبسيط تسليم البرامج الخاصة بك",
     "steps": [
       {
-        "title": "Infrastructure Audit",
-        "description": "We analyze your current hosting environment, codebase, and deployment bottlenecks.",
+        "title": "تدقيق البنية التحتية",
+        "description": "نقوم بتحليل بيئة الاستضافة الحالية لديك وقاعدة التعليمات البرمجية واختناقات النشر.",
         "icon": "FaSearch"
       },
       {
-        "title": "Pipeline Architecture",
-        "description": "We design the workflow logic, defining staging environments and testing gates.",
+        "title": "هندسة خطوط الأنابيب",
+        "description": "نقوم بتصميم منطق سير العمل، وتحديد بيئات التدريج وبوابات الاختبار.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Scripting & Integration",
-        "description": "We write the configuration files (YAML) and connect your repository to your cloud provider.",
+        "title": "البرمجة النصية والتكامل",
+        "description": "نكتب ملفات التكوين (YAML) ونربط مستودعك بمزود السحابة الخاص بك.",
         "icon": "FaTerminal"
       },
       {
-        "title": "Testing & Handover",
-        "description": "We run test deployments, document the pipeline, and train your dev team on the new workflow.",
+        "title": "الاختبار والتسليم",
+        "description": "نحن نجري عمليات نشر اختبارية، ونوثق المسار، وندرب فريق التطوير لديك على سير العمل الجديد.",
         "icon": "FaCheckDouble"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Reduced deployment time from 4 hours to 15 minutes",
-    "image": "/all_services/cicd/case_study.svg",
+    "headline": "تقليل وقت النشر من 4 ساعات إلى 15 دقيقة",
+    "image": "/all_services/ci_cd_pipeline/cs.webp",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A SaaS company was doing manual deployments that required taking the site offline for hours every weekend, leading to developer burnout."
+        "label": "مشكلة",
+        "text": "كانت إحدى شركات SaaS تقوم بعمليات نشر يدوية تتطلب إيقاف تشغيل الموقع لساعات في نهاية كل أسبوع، مما أدى إلى إرهاق المطورين."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We implemented a fully automated CI/CD pipeline using GitHub Actions, Docker, and AWS Elastic Beanstalk with a rolling deployment strategy."
+        "label": "حل",
+        "text": "قمنا بتنفيذ مسار CI/CD مؤتمت بالكامل باستخدام GitHub Actions وDocker وAWS Elastic Beanstalk مع إستراتيجية نشر متجددة."
       },
       "result": {
-        "label": "Result",
-        "text": "Deployments now happen automatically in 15 minutes with zero downtime, allowing the team to release features multiple times a day."
+        "label": "نتيجة",
+        "text": "تتم الآن عمليات النشر تلقائيًا خلال 15 دقيقة دون أي توقف عن العمل، مما يسمح للفريق بإصدار الميزات عدة مرات في اليوم."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about DevOps and CI/CD",
+    "title": "الأسئلة المتداولة",
+    "subtitle": "احصل على إجابات حول DevOps وCI/CD",
     "questions": [
       {
-        "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
-        "answer": "Continuous Delivery means your code is automatically tested and ready to be deployed, but a human still has to push the final 'publish' button. Continuous Deployment takes it one step further—every code change that passes the automated tests is deployed straight to production without any human intervention."
+        "question": "ما الفرق بين التسليم المستمر والنشر المستمر؟",
+        "answer": "التسليم المستمر يعني أن الكود الخاص بك يتم اختباره تلقائيًا وجاهز للنشر، ولكن لا يزال يتعين على الإنسان الضغط على زر \"النشر\" الأخير. يأخذ النشر المستمر خطوة أخرى إلى الأمام - حيث يتم نشر كل تغيير في التعليمات البرمجية يجتاز الاختبارات الآلية مباشرة إلى الإنتاج دون أي تدخل بشري."
       },
       {
-        "question": "Do I need CI/CD if I have a small development team?",
-        "answer": "Yes! CI/CD is arguably even more important for small teams. It acts as a digital safety net, catching bugs automatically and saving your limited engineering hours from being wasted on repetitive server uploads."
+        "question": "هل أحتاج إلى CI/CD إذا كان لدي فريق تطوير صغير؟",
+        "answer": "نعم! يمكن القول إن CI/CD أكثر أهمية بالنسبة للفرق الصغيرة. إنها بمثابة شبكة أمان رقمية، حيث تكتشف الأخطاء تلقائيًا وتوفر ساعات العمل الهندسية المحدودة من إهدارها في التحميلات المتكررة للخادم."
       },
       {
-        "question": "Will a CI/CD pipeline work with my existing codebase?",
-        "answer": "Absolutely. Whether you have a legacy monolithic application or modern microservices, we can build a pipeline around it. The pipeline scripts just tell the server how to build and move your specific code."
+        "question": "هل سيعمل خط أنابيب CI/CD مع قاعدة التعليمات البرمجية الموجودة لدي؟",
+        "answer": "قطعاً. سواء كان لديك تطبيقًا قديمًا متجانسًا أو خدمات صغيرة حديثة، يمكننا بناء مسار حوله. تخبر البرامج النصية لخط الأنابيب الخادم فقط بكيفية إنشاء التعليمات البرمجية المحددة الخاصة بك ونقلها."
       },
       {
-        "question": "What happens if a deployment fails or breaks the live site?",
-        "answer": "A properly designed CI/CD pipeline prevents this. The 'CI' phase will catch compilation or testing errors and block the deployment. If a bug somehow makes it to the 'CD' phase, we configure instant rollback commands so you can revert to the previous working version in seconds."
+        "question": "ماذا يحدث إذا فشلت عملية النشر أو عطلت الموقع المباشر؟",
+        "answer": "يمنع خط أنابيب CI/CD المصمم بشكل صحيح ذلك. ستقوم مرحلة \"CI\" باكتشاف أخطاء التجميع أو الاختبار وحظر النشر. إذا وصل خطأ بطريقة ما إلى مرحلة \"القرص المضغوط\"، فإننا نقوم بتكوين أوامر التراجع الفورية حتى تتمكن من العودة إلى إصدار العمل السابق في ثوانٍ."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact us for a free DevOps consultation",
+      "text": "لم تجد إجابتك؟",
+      "link_text": "اتصل بنا للحصول على استشارة مجانية حول DevOps",
       "link_url": "/contact"
     }
   }

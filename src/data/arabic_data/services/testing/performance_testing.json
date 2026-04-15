@@ -1,173 +1,173 @@
 {
   "slug": "performance_testing",
   "hero_section": {
-    "title": "Performance & Load Testing",
-    "subtitle": "Ensure Your App Scales Under Pressure",
-    "description": "Don't let traffic spikes crash your business. We rigorously stress-test your software to guarantee lightning-fast load times, flawless stability, and an optimal user experience under massive user loads.",
+    "title": "اختبار الأداء والحمل",
+    "subtitle": "تأكد من أن تطبيقك يتطور تحت الضغط",
+    "description": "لا تدع ارتفاع حركة المرور يعطل عملك. نحن نختبر برامجك بشكل صارم لضمان أوقات تحميل سريعة للغاية، واستقرار لا تشوبه شائبة، وتجربة مستخدم مثالية في ظل أحمال المستخدمين الهائلة.",
     "buttons": [
       {
-        "text": "Stress Test My App",
+        "text": "اختبار الإجهاد تطبيقي",
         "link": "/contact"
       },
       {
-        "text": "Talk to a Performance Expert",
+        "text": "تحدث إلى أحد خبراء الأداء",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/performance_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Performance Testing?",
+    "heading": "ما هو",
+    "span_heading": "اختبار الأداء؟",
     "content": [
-      "Performance testing is the process of putting your application under simulated real-world stress to see exactly how it behaves, where it bottlenecks, and at what point it completely breaks. It answers the critical question: 'Will our servers survive if our marketing campaign goes viral?' [Image of a performance load testing graph showing virtual users scaling up versus application response time and server CPU load]",
-      "At Devisgon, we simulate thousands of concurrent users hitting your APIs, databases, and web servers simultaneously. By identifying memory leaks, slow database queries, and inadequate server resources before your big launch, we ensure your application never leaves your customers staring at a loading screen."
+      "اختبار الأداء هو عملية وضع تطبيقك تحت ضغط محاكاة في العالم الحقيقي لمعرفة كيفية تصرفه بالضبط، وأين يتعطل، وعند أي نقطة يتعطل تمامًا. إنه يجيب على السؤال الحاسم: \"هل ستبقى خوادمنا على قيد الحياة إذا انتشرت حملتنا التسويقية؟\" [صورة رسم بياني لاختبار حمل الأداء يُظهر زيادة حجم المستخدمين الافتراضيين مقابل وقت استجابة التطبيق وتحميل وحدة المعالجة المركزية للخادم]",
+      "في Devisgon، نقوم بمحاكاة الآلاف من المستخدمين المتزامنين الذين يصلون إلى واجهات برمجة التطبيقات وقواعد البيانات وخوادم الويب الخاصة بك في وقت واحد. من خلال تحديد تسرب الذاكرة واستعلامات قاعدة البيانات البطيئة وموارد الخادم غير الكافية قبل الإطلاق الكبير، فإننا نضمن عدم ترك تطبيقك لعملائك مطلقًا يحدقون في شاشة التحميل."
     ],
-    "highlight_quote": " “In the digital world, slow is just another word for broken.” ",
-    "side_image": "/all_services/performance_testing/introduction.svg"
+    "highlight_quote": "\"في العالم الرقمي، البطيء هو مجرد كلمة أخرى تعني المكسور.\"",
+    "side_image": "/all_services/performance_testing/introduction.png"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why speed and stability equal revenue",
+    "title": "الفوائد الرئيسية",
+    "subtitle": "لماذا السرعة والاستقرار تساوي الإيرادات",
     "cards": [
       {
-        "title": "Survive Traffic Spikes",
-        "description": "Ensure your app stays online and functional during Black Friday sales, viral events, or major product launches.",
+        "title": "البقاء على قيد الحياة المسامير المرورية",
+        "description": "تأكد من بقاء تطبيقك متصلاً بالإنترنت وعمليًا أثناء مبيعات الجمعة السوداء، أو الأحداث واسعة الانتشار، أو إطلاق المنتجات الرئيسية.",
         "icon_type": "MdTrendingUp"
       },
       {
-        "title": "Prevent Revenue Loss",
-        "description": "A 1-second delay in page response can result in a 7% reduction in conversions. We keep your app blazing fast.",
+        "title": "منع خسارة الإيرادات",
+        "description": "قد يؤدي تأخير استجابة الصفحة لمدة ثانية واحدة إلى انخفاض التحويلات بنسبة 7%. نحن نحافظ على تطبيقك سريعًا.",
         "icon_type": "MdAttachMoney"
       },
       {
-        "title": "Optimize Server Costs",
-        "description": "Stop blindly upgrading your cloud servers. We pinpoint the exact code bottlenecks so you can scale efficiently.",
+        "title": "تحسين تكاليف الخادم",
+        "description": "توقف عن ترقية خوادمك السحابية بشكل أعمى. نحن نحدد الاختناقات الدقيقة في التعليمات البرمجية حتى تتمكن من التوسع بكفاءة.",
         "icon_type": "MdSavings"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Nothing damages a brand faster than a crashing website. Deliver a consistently premium experience.",
+        "title": "حماية سمعة العلامة التجارية",
+        "description": "لا شيء يضر بالعلامة التجارية بشكل أسرع من تعطل موقع الويب. تقديم تجربة متميزة باستمرار.",
         "icon_type": "MdVerifiedUser"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Performance Testing",
-    "image": "/all_services/performance_testing/wwg.svg",
+    "title": "ما الذي ستحصل عليه عندما تختار اختبار الأداء",
+    "image": "/all_services/performance_testing/wwg.png",
     "list_items": [
       {
-        "title": "1. Load Testing",
-        "description": "Simulating the expected number of concurrent users to verify your system meets your baseline performance criteria."
+        "title": "1. اختبار الحمل",
+        "description": "محاكاة العدد المتوقع من المستخدمين المتزامنين للتحقق من أن النظام الخاص بك يلبي معايير الأداء الأساسية الخاصة بك."
       },
       {
-        "title": "2. Stress & Spike Testing",
-        "description": "Pushing your application far beyond its limits to find its breaking point and test how it recovers from sudden surges."
+        "title": "2. اختبار الإجهاد والارتفاع",
+        "description": "دفع تطبيقك إلى ما هو أبعد من حدوده للعثور على نقطة الانهيار واختبار كيفية تعافيه من الزيادات المفاجئة."
       },
       {
-        "title": "3. Endurance (Soak) Testing",
-        "description": "Running a steady load over a long period (e.g., 24 hours) to identify hidden memory leaks or database connection exhaustion."
+        "title": "3. اختبار التحمل (النقع).",
+        "description": "تشغيل تحميل ثابت على مدى فترة طويلة (على سبيل المثال، 24 ساعة) لتحديد تسرب الذاكرة المخفية أو استنفاد اتصال قاعدة البيانات."
       },
       {
-        "title": "4. Comprehensive Bottleneck Reports",
-        "description": "Detailed metrics on response times, CPU usage, and database locks, along with actionable optimization advice."
+        "title": "4. تقارير شاملة عن الاختناقات",
+        "description": "مقاييس تفصيلية حول أوقات الاستجابة واستخدام وحدة المعالجة المركزية وأقفال قاعدة البيانات، بالإضافة إلى نصائح التحسين القابلة للتنفيذ."
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using enterprise-grade load generation tools",
-    "subtitle": "The best software for simulating massive real-world traffic",
+    "title": "نحن نختبر استخدام أدوات توليد التحميل على مستوى المؤسسات",
+    "subtitle": "أفضل برنامج لمحاكاة حركة المرور الضخمة في العالم الحقيقي",
     "tools": [
       {
-        "name": "Apache JMeter",
+        "name": "أباتشي جي ميتر",
         "icon": "SiApachejmeter"
       },
       {
-        "name": "k6 (Grafana)",
+        "name": "ك6 (جرافانا)",
         "icon": "SiK6"
       },
       {
-        "name": "Gatling",
+        "name": "جاتلينج",
         "icon": "SiGatling"
       },
       {
-        "name": "Datadog (APM)",
+        "name": "داتا دوج (APM)",
         "icon": "SiDatadog"
       },
       {
-        "name": "New Relic",
+        "name": "بقايا جديدة",
         "icon": "SiNewrelic"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A scientific approach to application speed",
+    "title": "عمليتنا",
+    "subtitle": "منهج علمي لسرعة التطبيق",
     "steps": [
       {
-        "title": "Baseline Analysis",
-        "description": "We define your Service Level Agreements (SLAs), target response times, and expected user load.",
+        "title": "تحليل خط الأساس",
+        "description": "نحن نحدد اتفاقيات مستوى الخدمة (SLAs) وأوقات الاستجابة المستهدفة وتحميل المستخدم المتوقع.",
         "icon": "FaChartLine"
       },
       {
-        "title": "Scenario Scripting",
-        "description": "We write custom scripts that mimic realistic user behaviors (e.g., searching, adding to cart, and checking out).",
+        "title": "كتابة السيناريو",
+        "description": "نكتب نصوصًا برمجية مخصصة تحاكي سلوكيات المستخدم الواقعية (مثل البحث والإضافة إلى سلة التسوق والخروج).",
         "icon": "FaCode"
       },
       {
-        "title": "Execution",
-        "description": "We deploy virtual users from multiple geographic locations to bombard your servers with traffic.",
+        "title": "تنفيذ",
+        "description": "نحن ننشر مستخدمين افتراضيين من مواقع جغرافية متعددة لقصف خوادمك بحركة المرور.",
         "icon": "FaPlay"
       },
       {
-        "title": "Analyze & Optimize",
-        "description": "We isolate the exact layer (frontend, API, or database) causing delays and help your team tune the performance.",
+        "title": "التحليل والتحسين",
+        "description": "نقوم بعزل الطبقة الدقيقة (الواجهة الأمامية أو واجهة برمجة التطبيقات أو قاعدة البيانات) التي تسبب التأخير ونساعد فريقك على ضبط الأداء.",
         "icon": "FaWrench"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Ensuring a ticketing platform could handle 100,000 fans in 5 minutes",
-    "image": "/all_services/performance_testing/case_study.svg",
+    "headline": "التأكد من أن منصة التذاكر يمكنها التعامل مع 100000 معجب في 5 دقائق",
+    "image": "/all_services/performance_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "An event ticketing platform was preparing to launch a highly anticipated music festival but had crashed during smaller sales in the past due to database deadlocks."
+        "label": "مشكلة",
+        "text": "كانت إحدى منصات إصدار تذاكر الأحداث تستعد لإطلاق مهرجان موسيقي طال انتظاره، لكنها تعطلت أثناء المبيعات الصغيرة في الماضي بسبب توقف قاعدة البيانات."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We designed a spike test using distributed cloud servers to simulate 100,000 users attempting to buy tickets simultaneously, uncovering critical bottlenecks in their payment gateway API and Redis cache."
+        "label": "حل",
+        "text": "لقد صممنا اختبارًا سريعًا باستخدام خوادم سحابية موزعة لمحاكاة 100000 مستخدم يحاولون شراء التذاكر في وقت واحد، والكشف عن الاختناقات الحرجة في واجهة برمجة التطبيقات لبوابة الدفع وذاكرة التخزين المؤقت لـ Redis."
       },
       "result": {
-        "label": "Result",
-        "text": "After applying our tuning recommendations, the platform successfully processed the entire 100,000-user rush with a 100% uptime and average response times under 2 seconds."
+        "label": "نتيجة",
+        "text": "بعد تطبيق توصيات الضبط الخاصة بنا، نجحت المنصة في معالجة اندفاع 100000 مستخدم بالكامل مع وقت تشغيل بنسبة 100% ومتوسط ​​أوقات استجابة أقل من ثانيتين."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about performance and load testing",
+    "title": "الأسئلة المتداولة",
+    "subtitle": "احصل على إجابات حول اختبار الأداء والحمل",
     "questions": [
       {
-        "question": "What is the difference between Load Testing and Stress Testing?",
-        "answer": "Load testing checks how your system handles the *expected* amount of normal traffic. Stress testing pushes the system far beyond the expected traffic to intentionally break it, helping us understand its absolute maximum capacity and failure behavior."
+        "question": "ما الفرق بين اختبار الحمل واختبار الإجهاد؟",
+        "answer": "يتحقق اختبار التحميل من كيفية تعامل نظامك مع المقدار *المتوقع* من حركة المرور العادية. يدفع اختبار التحمل النظام إلى ما هو أبعد من حركة المرور المتوقعة لكسرها عمدًا، مما يساعدنا على فهم السعة القصوى المطلقة وسلوك الفشل."
       },
       {
-        "question": "Will performance testing crash our live website?",
-        "answer": "It can, which is why we rarely execute heavy load tests on a live production server! We prefer to run these tests on a staging environment that perfectly mirrors your production hardware, ensuring your actual users are never interrupted."
+        "question": "هل سيؤدي اختبار الأداء إلى تعطل موقعنا المباشر؟",
+        "answer": "يمكن ذلك، ولهذا السبب نادرًا ما نقوم بإجراء اختبارات التحميل الثقيل على خادم الإنتاج المباشر! نحن نفضل إجراء هذه الاختبارات في بيئة مرحلية تعكس بشكل مثالي أجهزة الإنتاج الخاصة بك، مما يضمن عدم مقاطعة المستخدمين الفعليين لديك مطلقًا."
       },
       {
-        "question": "What metrics do you track during a test?",
-        "answer": "We track a wide variety of metrics, including Average Response Time, Error Rates (like 500 or 502 gateway errors), Throughput (requests per second), CPU utilization, memory consumption, and network I/O."
+        "question": "ما هي المقاييس التي تتبعها أثناء الاختبار؟",
+        "answer": "نحن نتتبع مجموعة واسعة من المقاييس، بما في ذلك متوسط ​​وقت الاستجابة، ومعدلات الخطأ (مثل أخطاء البوابة 500 أو 502)، والإنتاجية (الطلبات في الثانية)، واستخدام وحدة المعالجة المركزية، واستهلاك الذاكرة، والإدخال/الإخراج للشبكة."
       },
       {
-        "question": "How long does a performance testing engagement take?",
-        "answer": "Setting up the infrastructure, writing the complex user-journey scripts, and executing the initial rounds of testing typically takes between 1 to 3 weeks, depending on the complexity of the application flows we need to simulate."
+        "question": "ما المدة التي تستغرقها مشاركة اختبار الأداء؟",
+        "answer": "يستغرق إعداد البنية التحتية وكتابة البرامج النصية المعقدة لرحلة المستخدم وتنفيذ الجولات الأولية من الاختبار عادةً ما بين 1 إلى 3 أسابيع، اعتمادًا على مدى تعقيد تدفقات التطبيق التي نحتاج إلى محاكاتها."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a performance audit",
+      "text": "لم تجد إجابتك؟",
+      "link_text": "جدولة تدقيق الأداء",
       "link_url": "/contact"
     }
   }

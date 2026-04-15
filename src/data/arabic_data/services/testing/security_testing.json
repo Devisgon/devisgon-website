@@ -1,173 +1,173 @@
 {
   "slug": "security_testing",
   "hero_section": {
-    "title": "Security Testing & Penetration",
-    "subtitle": "Find the Vulnerabilities Before the Hackers Do",
-    "description": "Protect your application, your user data, and your reputation. We simulate real-world cyber attacks to identify and patch critical security flaws in your software before they can be exploited.",
+    "title": "اختبار الأمن والاختراق",
+    "subtitle": "ابحث عن نقاط الضعف قبل أن يفعلها المتسللون",
+    "description": "حماية التطبيق الخاص بك، وبيانات المستخدم الخاصة بك، وسمعتك. نحن نحاكي الهجمات السيبرانية في العالم الحقيقي لتحديد وتصحيح العيوب الأمنية الخطيرة في برامجك قبل أن يتم استغلالها.",
     "buttons": [
       {
-        "text": "Secure Your Application",
+        "text": "تأمين التطبيق الخاص بك",
         "link": "/contact"
       },
       {
-        "text": "Speak to an Ethical Hacker",
+        "text": "تحدث إلى أحد المتسللين الأخلاقيين",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/security_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Security Testing?",
+    "heading": "ما هو",
+    "span_heading": "اختبار الأمن؟",
     "content": [
-      "Security testing is the rigorous process of evaluating your software to uncover vulnerabilities, threats, and risks. Instead of waiting for a malicious attack to reveal the weak points in your system, our certified ethical hackers take the offensive, attempting to breach your applications using the exact same tools and techniques as real-world cybercriminals. ",
-      "At Devisgon, we go beyond automated scans. We dive deep into your application's logic, APIs, and infrastructure to find hidden loopholes like SQL injections, cross-site scripting (XSS), and broken authentication. We then provide actionable remediation steps to lock down your system completely."
+      "اختبار الأمان هو عملية صارمة لتقييم برامجك للكشف عن نقاط الضعف والتهديدات والمخاطر. بدلاً من انتظار هجوم ضار للكشف عن نقاط الضعف في نظامك، يقوم المتسللون الأخلاقيون المعتمدون لدينا بالهجوم، محاولين اختراق تطبيقاتك باستخدام نفس الأدوات والتقنيات التي يستخدمها مجرمون الإنترنت الحقيقيون.",
+      "في Devisgon، نحن نتجاوز عمليات الفحص الآلي. نحن نتعمق في منطق تطبيقك وواجهات برمجة التطبيقات والبنية التحتية للعثور على ثغرات مخفية مثل حقن SQL والبرمجة النصية عبر المواقع (XSS) والمصادقة المعطلة. نقوم بعد ذلك بتوفير خطوات علاجية قابلة للتنفيذ لتأمين نظامك بالكامل."
     ],
-    "highlight_quote": " “If you think compliance is expensive, try a data breach.” ",
-    "side_image": "/all_services/security_testing/introduction.svg"
+    "highlight_quote": "\"إذا كنت تعتقد أن الامتثال مكلف، فحاول اختراق البيانات.\"",
+    "side_image": "/all_services/security_testing/introduction.jpg"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why proactive security testing is a business necessity",
+    "title": "الفوائد الرئيسية",
+    "subtitle": "لماذا يعد اختبار الأمان الاستباقي ضرورة عمل؟",
     "cards": [
       {
-        "title": "Prevent Costly Breaches",
-        "description": "Identify and patch zero-day vulnerabilities and critical flaws before they lead to catastrophic data loss or ransom demands.",
+        "title": "منع الانتهاكات المكلفة",
+        "description": "قم بتحديد وتصحيح الثغرات الأمنية والعيوب الخطيرة قبل أن تؤدي إلى فقدان البيانات بشكل كارثي أو طلبات فدية.",
         "icon_type": "MdLock"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Show your users and enterprise clients that their sensitive data is handled with the highest level of security.",
+        "title": "حماية سمعة العلامة التجارية",
+        "description": "أظهر لمستخدميك وعملاء مؤسستك أن بياناتهم الحساسة يتم التعامل معها بأعلى مستوى من الأمان.",
         "icon_type": "MdVerifiedUser"
       },
       {
-        "title": "Ensure Compliance",
-        "description": "Meet the strict security testing requirements mandated by frameworks like SOC 2, HIPAA, PCI-DSS, and GDPR.",
+        "title": "ضمان الامتثال",
+        "description": "يمكنك تلبية متطلبات اختبار الأمان الصارمة التي تفرضها أطر عمل مثل SOC 2 وHIPAA وPCI-DSS وGDPR.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Secure the Supply Chain",
-        "description": "Verify that third-party plugins, APIs, and open-source libraries aren't introducing hidden risks into your application.",
+        "title": "تأمين سلسلة التوريد",
+        "description": "تأكد من أن المكونات الإضافية وواجهات برمجة التطبيقات والمكتبات مفتوحة المصدر التابعة لجهات خارجية لا تسبب مخاطر مخفية في تطبيقك.",
         "icon_type": "MdSecurity"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Security Testing",
-    "image": "/all_services/security_testing/wwg.svg",
+    "title": "ما ستحصل عليه عندما تختار اختبار الأمان",
+    "image": "/all_services/security_testing/wwg.jpg",
     "list_items": [
       {
-        "title": "1. Automated Vulnerability Scans",
-        "description": "Rapid, wide-net sweeps of your codebase and infrastructure to catch known Common Vulnerabilities and Exposures (CVEs)."
+        "title": "1. عمليات المسح الآلي للثغرات الأمنية",
+        "description": "عمليات مسح سريعة وواسعة النطاق لقاعدة التعليمات البرمجية والبنية الأساسية لديك لاكتشاف نقاط الضعف والتعرضات الشائعة (CVEs)."
       },
       {
-        "title": "2. Manual Penetration Testing",
-        "description": "Deep-dive, human-led ethical hacking targeting complex business logic and sophisticated exploit chains."
+        "title": "2. اختبار الاختراق اليدوي",
+        "description": "قرصنة أخلاقية عميقة يقودها الإنسان تستهدف منطق الأعمال المعقد وسلاسل الاستغلال المتطورة."
       },
       {
         "title": "3. OWASP Top 10 Audits",
-        "description": "Rigorous validation against the industry standard for the most critical web application security risks."
+        "description": "التحقق الصارم من صحة معايير الصناعة فيما يتعلق بمخاطر أمان تطبيقات الويب الأكثر أهمية."
       },
       {
-        "title": "4. Actionable Remediation Reports",
-        "description": "Clear documentation of every vulnerability found, its risk severity, and exact code-level instructions on how to fix it."
+        "title": "4. تقارير المعالجة القابلة للتنفيذ",
+        "description": "توثيق واضح لكل ثغرة أمنية تم العثور عليها، ومدى خطورة خطورتها، وتعليمات دقيقة على مستوى التعليمات البرمجية حول كيفية إصلاحها."
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard security tools",
-    "subtitle": "The ultimate arsenal for ethical hacking and vulnerability detection",
+    "title": "نقوم بالاختبار باستخدام أدوات الأمان المتوافقة مع معايير الصناعة",
+    "subtitle": "الترسانة النهائية للقرصنة الأخلاقية واكتشاف نقاط الضعف",
     "tools": [
       {
-        "name": "Burp Suite",
+        "name": "جناح التجشؤ",
         "icon": "FaBug"
       },
       {
-        "name": "OWASP ZAP",
+        "name": "أواسب زاب",
         "icon": "FaShieldAlt"
       },
       {
-        "name": "Nessus",
+        "name": "نيسوس",
         "icon": "SiNessus"
       },
       {
-        "name": "Metasploit",
+        "name": "ميتاسبلويت",
         "icon": "FaTerminal"
       },
       {
-        "name": "Wireshark",
+        "name": "وايرشارك",
         "icon": "SiWireshark"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A structured approach to ethical hacking",
+    "title": "عمليتنا",
+    "subtitle": "نهج منظم للقرصنة الأخلاقية",
     "steps": [
       {
-        "title": "Reconnaissance",
-        "description": "We map your application's attack surface, identifying exposed endpoints, subdomains, and tech stacks.",
+        "title": "استطلاع",
+        "description": "نحن نرسم خريطة لسطح الهجوم الخاص بتطبيقك، ونحدد نقاط النهاية المكشوفة والنطاقات الفرعية ومجموعات التكنولوجيا.",
         "icon": "FaSearch"
       },
       {
-        "title": "Scanning",
-        "description": "We utilize advanced automated tools to identify misconfigurations and known vulnerabilities.",
+        "title": "مسح",
+        "description": "نحن نستخدم أدوات تلقائية متقدمة لتحديد التكوينات الخاطئة ونقاط الضعف المعروفة.",
         "icon": "FaRadar"
       },
       {
-        "title": "Exploitation (Pentesting)",
-        "description": "Our engineers manually attempt to exploit the discovered vulnerabilities to determine their actual impact.",
+        "title": "الاستغلال (Pentesting)",
+        "description": "يحاول مهندسونا يدويًا استغلال الثغرات الأمنية المكتشفة لتحديد تأثيرها الفعلي.",
         "icon": "FaUnlockAlt"
       },
       {
-        "title": "Reporting & Patching",
-        "description": "We deliver a comprehensive risk report and work with your dev team to verify that the patches are effective.",
+        "title": "الإبلاغ والتصحيح",
+        "description": "نحن نقدم تقريرًا شاملاً عن المخاطر ونعمل مع فريق التطوير الخاص بك للتحقق من فعالية التصحيحات.",
         "icon": "FaFileContract"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Prevented a massive data leak in a healthcare portal",
-    "image": "/all_services/security_testing/case_study.svg",
+    "headline": "منع تسرب هائل للبيانات في بوابة الرعاية الصحية",
+    "image": "/all_services/security_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A telehealth startup was weeks away from launching their patient portal but needed a final security audit to comply with HIPAA regulations."
+        "label": "مشكلة",
+        "text": "كانت إحدى الشركات الناشئة في مجال الرعاية الصحية عن بعد على بعد أسابيع من إطلاق بوابة المرضى الخاصة بها ولكنها كانت بحاجة إلى تدقيق أمني نهائي للامتثال للوائح HIPAA."
       },
       "solution": {
-        "label": "Solution",
-        "text": "During our manual penetration test, we discovered a severe Insecure Direct Object Reference (IDOR) vulnerability that allowed any user to access other patients' medical records by manipulating the URL."
+        "label": "حل",
+        "text": "أثناء اختبار الاختراق اليدوي، اكتشفنا ثغرة أمنية خطيرة في مرجع الكائن المباشر غير الآمن (IDOR) والتي سمحت لأي مستخدم بالوصول إلى السجلات الطبية للمرضى الآخرين عن طريق معالجة عنوان URL."
       },
       "result": {
-        "label": "Result",
-        "text": "We provided immediate remediation code. The vulnerability was patched before launch, avoiding a catastrophic HIPAA violation and preserving the startup's future."
+        "label": "نتيجة",
+        "text": "لقد قدمنا ​​رمز العلاج الفوري. تم تصحيح الثغرة الأمنية قبل الإطلاق، لتجنب انتهاك قانون HIPAA الكارثي والحفاظ على مستقبل الشركة الناشئة."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about cybersecurity and penetration testing",
+    "title": "الأسئلة المتداولة",
+    "subtitle": "احصل على إجابات حول الأمن السيبراني واختبار الاختراق",
     "questions": [
       {
-        "question": "What is the difference between a Vulnerability Scan and a Penetration Test?",
-        "answer": "A Vulnerability Scan is an automated process that checks your systems for known flaws and reports them. A Penetration Test (Pentest) is a manual, human-led process where an ethical hacker actively tries to exploit those flaws to see how deep into the system they can get, simulating a real-world attack."
+        "question": "ما الفرق بين فحص الثغرات الأمنية واختبار الاختراق؟",
+        "answer": "إن فحص الثغرات الأمنية هو عملية تلقائية تقوم بفحص أنظمتك بحثًا عن العيوب المعروفة والإبلاغ عنها. اختبار الاختراق (Pentest) هو عملية يدوية يقودها الإنسان حيث يحاول المتسلل الأخلاقي بنشاط استغلال تلك العيوب لمعرفة مدى عمق النظام الذي يمكنه الوصول إليه، ومحاكاة هجوم حقيقي."
       },
       {
-        "question": "Is it safe to perform security testing on a live, production environment?",
-        "answer": "While we can test production environments carefully, we highly recommend performing intrusive security testing (like Penetration Testing) on a staging or replica environment. This ensures there is absolutely no disruption to your live users or risk of accidental data corruption."
+        "question": "هل من الآمن إجراء اختبار الأمان في بيئة الإنتاج المباشرة؟",
+        "answer": "بينما يمكننا اختبار بيئات الإنتاج بعناية، فإننا نوصي بشدة بإجراء اختبار أمان تدخلي (مثل اختبار الاختراق) على بيئة مرحلية أو نسخة متماثلة. وهذا يضمن عدم وجود أي انقطاع على الإطلاق للمستخدمين المباشرين أو خطر تلف البيانات عن طريق الخطأ."
       },
       {
-        "question": "How often should we perform security testing?",
-        "answer": "Best practices dictate running automated vulnerability scans continuously (integrated into your CI/CD pipeline). Deep-dive manual penetration tests should be conducted at least annually, or immediately following any major architecture change or significant feature release."
+        "question": "كم مرة يجب علينا إجراء اختبار الأمان؟",
+        "answer": "تملي أفضل الممارسات إجراء عمليات فحص تلقائية للثغرات بشكل مستمر (مدمجة في مسار CI/CD الخاص بك). يجب إجراء اختبارات الاختراق اليدوية المتعمقة سنويًا على الأقل، أو مباشرة بعد أي تغيير كبير في البنية أو إصدار ميزة مهمة."
       },
       {
-        "question": "What happens after you find a vulnerability?",
-        "answer": "We don't just hand you a list of problems. We provide a detailed report ranking the vulnerabilities by severity (Critical, High, Medium, Low) alongside step-by-step remediation instructions. Once your developers apply the fix, we perform a 're-test' to guarantee the loophole is permanently closed."
+        "question": "ماذا يحدث بعد اكتشاف الثغرة الأمنية؟",
+        "answer": "نحن لا نسلمك قائمة المشاكل فحسب. نحن نقدم تقريرًا تفصيليًا يصنف نقاط الضعف حسب خطورتها (حرجة، عالية، متوسطة، منخفضة) جنبًا إلى جنب مع تعليمات العلاج خطوة بخطوة. بمجرد قيام المطورين بتطبيق الإصلاح، نقوم بإجراء \"إعادة اختبار\" لضمان إغلاق الثغرة نهائيًا."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a security consultation",
+      "text": "لم تجد إجابتك؟",
+      "link_text": "جدولة استشارة أمنية",
       "link_url": "/contact"
     }
   }

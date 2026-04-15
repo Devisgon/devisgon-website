@@ -1,85 +1,85 @@
 {
   "slug": "performance_testing",
   "hero_section": {
-    "title": "Performance & Load Testing",
-    "subtitle": "Ensure Your App Scales Under Pressure",
-    "description": "Don't let traffic spikes crash your business. We rigorously stress-test your software to guarantee lightning-fast load times, flawless stability, and an optimal user experience under massive user loads.",
+    "title": "Pruebas de rendimiento y carga",
+    "subtitle": "Asegúrese de que su aplicación crezca bajo presión",
+    "description": "Don't let traffic spikes crash your business. Realizamos pruebas rigurosas de su software para garantizar tiempos de carga ultrarrápidos, una estabilidad impecable y una experiencia de usuario óptima bajo cargas de usuario masivas.",
     "buttons": [
       {
-        "text": "Stress Test My App",
+        "text": "Prueba de estrés mi aplicación",
         "link": "/contact"
       },
       {
-        "text": "Talk to a Performance Expert",
+        "text": "Hable con un experto en rendimiento",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/performance_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Performance Testing?",
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas de rendimiento?",
     "content": [
-      "Performance testing is the process of putting your application under simulated real-world stress to see exactly how it behaves, where it bottlenecks, and at what point it completely breaks. It answers the critical question: 'Will our servers survive if our marketing campaign goes viral?' [Image of a performance load testing graph showing virtual users scaling up versus application response time and server CPU load]",
-      "At Devisgon, we simulate thousands of concurrent users hitting your APIs, databases, and web servers simultaneously. By identifying memory leaks, slow database queries, and inadequate server resources before your big launch, we ensure your application never leaves your customers staring at a loading screen."
+      "Las pruebas de rendimiento son el proceso de someter su aplicación a un estrés simulado del mundo real para ver exactamente cómo se comporta, dónde presenta cuellos de botella y en qué punto falla por completo. Responde a la pregunta crítica: \"¿Sobrevivirán nuestros servidores si nuestra campaña de marketing se vuelve viral?\" [Imagen de un gráfico de prueba de carga de rendimiento que muestra el aumento de los usuarios virtuales en comparación con el tiempo de respuesta de la aplicación y la carga de la CPU del servidor]",
+      "En Devisgon, simulamos miles de usuarios simultáneos que acceden a sus API, bases de datos y servidores web simultáneamente. Al identificar pérdidas de memoria, consultas lentas a la base de datos y recursos inadecuados del servidor antes de su gran lanzamiento, nos aseguramos de que su aplicación nunca deje a sus clientes mirando una pantalla de carga."
     ],
-    "highlight_quote": " “In the digital world, slow is just another word for broken.” ",
-    "side_image": "/all_services/performance_testing/introduction.svg"
+    "highlight_quote": "\"En el mundo digital, lento es sólo otra palabra para decir roto\".",
+    "side_image": "/all_services/performance_testing/introduction.png"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why speed and stability equal revenue",
+    "title": "Beneficios clave",
+    "subtitle": "Por qué la velocidad y la estabilidad equivalen a ingresos",
     "cards": [
       {
-        "title": "Survive Traffic Spikes",
-        "description": "Ensure your app stays online and functional during Black Friday sales, viral events, or major product launches.",
+        "title": "Sobrevivir a los picos de tráfico",
+        "description": "Asegúrese de que su aplicación permanezca en línea y funcional durante las rebajas del Black Friday, eventos virales o lanzamientos de productos importantes.",
         "icon_type": "MdTrendingUp"
       },
       {
-        "title": "Prevent Revenue Loss",
-        "description": "A 1-second delay in page response can result in a 7% reduction in conversions. We keep your app blazing fast.",
+        "title": "Prevenir la pérdida de ingresos",
+        "description": "Un retraso de 1 segundo en la respuesta de la página puede resultar en una reducción del 7% en las conversiones. Mantenemos su aplicación increíblemente rápida.",
         "icon_type": "MdAttachMoney"
       },
       {
-        "title": "Optimize Server Costs",
-        "description": "Stop blindly upgrading your cloud servers. We pinpoint the exact code bottlenecks so you can scale efficiently.",
+        "title": "Optimice los costos del servidor",
+        "description": "Deje de actualizar ciegamente sus servidores en la nube. Identificamos los cuellos de botella exactos del código para que pueda escalar de manera eficiente.",
         "icon_type": "MdSavings"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Nothing damages a brand faster than a crashing website. Deliver a consistently premium experience.",
+        "title": "Proteger la reputación de la marca",
+        "description": "Nada daña una marca más rápido que un sitio web que falla. Ofrezca una experiencia premium constante.",
         "icon_type": "MdVerifiedUser"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Performance Testing",
-    "image": "/all_services/performance_testing/wwg.svg",
+    "title": "Lo que obtendrás cuando elijas las pruebas de rendimiento",
+    "image": "/all_services/performance_testing/wwg.png",
     "list_items": [
       {
-        "title": "1. Load Testing",
-        "description": "Simulating the expected number of concurrent users to verify your system meets your baseline performance criteria."
+        "title": "1. Pruebas de carga",
+        "description": "Simular la cantidad esperada de usuarios simultáneos para verificar que su sistema cumpla con sus criterios de rendimiento básicos."
       },
       {
-        "title": "2. Stress & Spike Testing",
-        "description": "Pushing your application far beyond its limits to find its breaking point and test how it recovers from sudden surges."
+        "title": "2. Pruebas de estrés y picos",
+        "description": "Llevar su aplicación mucho más allá de sus límites para encontrar su punto de ruptura y probar cómo se recupera de picos repentinos."
       },
       {
-        "title": "3. Endurance (Soak) Testing",
-        "description": "Running a steady load over a long period (e.g., 24 hours) to identify hidden memory leaks or database connection exhaustion."
+        "title": "3. Pruebas de resistencia (remojo)",
+        "description": "Ejecutar una carga constante durante un período prolongado (por ejemplo, 24 horas) para identificar pérdidas de memoria ocultas o agotamiento de la conexión de la base de datos."
       },
       {
-        "title": "4. Comprehensive Bottleneck Reports",
-        "description": "Detailed metrics on response times, CPU usage, and database locks, along with actionable optimization advice."
+        "title": "4. Informes completos sobre cuellos de botella",
+        "description": "Métricas detalladas sobre tiempos de respuesta, uso de CPU y bloqueos de bases de datos, junto con consejos de optimización prácticos."
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using enterprise-grade load generation tools",
-    "subtitle": "The best software for simulating massive real-world traffic",
+    "title": "Probamos utilizando herramientas de generación de carga de nivel empresarial",
+    "subtitle": "El mejor software para simular tráfico masivo del mundo real",
     "tools": [
       {
-        "name": "Apache JMeter",
+        "name": "Apache JMetro",
         "icon": "SiApachejmeter"
       },
       {
@@ -87,87 +87,87 @@
         "icon": "SiK6"
       },
       {
-        "name": "Gatling",
+        "name": "gatito",
         "icon": "SiGatling"
       },
       {
-        "name": "Datadog (APM)",
+        "name": "Perro de datos (APM)",
         "icon": "SiDatadog"
       },
       {
-        "name": "New Relic",
+        "name": "Nueva reliquia",
         "icon": "SiNewrelic"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A scientific approach to application speed",
+    "title": "Nuestro proceso",
+    "subtitle": "Un enfoque científico para la velocidad de aplicación",
     "steps": [
       {
-        "title": "Baseline Analysis",
-        "description": "We define your Service Level Agreements (SLAs), target response times, and expected user load.",
+        "title": "Análisis de referencia",
+        "description": "Definimos sus acuerdos de nivel de servicio (SLA), tiempos de respuesta objetivo y carga de usuarios esperada.",
         "icon": "FaChartLine"
       },
       {
-        "title": "Scenario Scripting",
-        "description": "We write custom scripts that mimic realistic user behaviors (e.g., searching, adding to cart, and checking out).",
+        "title": "Guión de escenarios",
+        "description": "Escribimos scripts personalizados que imitan comportamientos realistas del usuario (por ejemplo, buscar, agregar al carrito y pagar).",
         "icon": "FaCode"
       },
       {
-        "title": "Execution",
-        "description": "We deploy virtual users from multiple geographic locations to bombard your servers with traffic.",
+        "title": "Ejecución",
+        "description": "Implementamos usuarios virtuales desde múltiples ubicaciones geográficas para bombardear sus servidores con tráfico.",
         "icon": "FaPlay"
       },
       {
-        "title": "Analyze & Optimize",
-        "description": "We isolate the exact layer (frontend, API, or database) causing delays and help your team tune the performance.",
+        "title": "Analizar y optimizar",
+        "description": "Aislamos la capa exacta (frontend, API o base de datos) que causa retrasos y ayudamos a su equipo a ajustar el rendimiento.",
         "icon": "FaWrench"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Ensuring a ticketing platform could handle 100,000 fans in 5 minutes",
-    "image": "/all_services/performance_testing/case_study.svg",
+    "headline": "Garantizar que una plataforma de venta de entradas pueda atender a 100.000 aficionados en 5 minutos",
+    "image": "/all_services/performance_testing/cs.jpg",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "An event ticketing platform was preparing to launch a highly anticipated music festival but had crashed during smaller sales in the past due to database deadlocks."
+        "label": "Problema",
+        "text": "Una plataforma de venta de entradas para eventos se estaba preparando para lanzar un festival de música muy esperado, pero en el pasado había fracasado durante ventas más pequeñas debido a bloqueos en la base de datos."
       },
       "solution": {
-        "label": "Solution",
-        "text": "We designed a spike test using distributed cloud servers to simulate 100,000 users attempting to buy tickets simultaneously, uncovering critical bottlenecks in their payment gateway API and Redis cache."
+        "label": "Solución",
+        "text": "Diseñamos una prueba de pico utilizando servidores en la nube distribuidos para simular que 100.000 usuarios intentaban comprar boletos simultáneamente, descubriendo cuellos de botella críticos en la API de su pasarela de pago y en el caché de Redis."
       },
       "result": {
-        "label": "Result",
-        "text": "After applying our tuning recommendations, the platform successfully processed the entire 100,000-user rush with a 100% uptime and average response times under 2 seconds."
+        "label": "Resultado",
+        "text": "Después de aplicar nuestras recomendaciones de ajuste, la plataforma procesó con éxito la avalancha completa de 100 000 usuarios con un tiempo de actividad del 100 % y tiempos de respuesta promedio de menos de 2 segundos."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about performance and load testing",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre pruebas de carga y rendimiento",
     "questions": [
       {
-        "question": "What is the difference between Load Testing and Stress Testing?",
-        "answer": "Load testing checks how your system handles the *expected* amount of normal traffic. Stress testing pushes the system far beyond the expected traffic to intentionally break it, helping us understand its absolute maximum capacity and failure behavior."
+        "question": "¿Cuál es la diferencia entre pruebas de carga y pruebas de estrés?",
+        "answer": "Las pruebas de carga verifican cómo su sistema maneja la cantidad *esperada* de tráfico normal. Las pruebas de estrés llevan al sistema mucho más allá del tráfico esperado para romperlo intencionalmente, lo que nos ayuda a comprender su capacidad máxima absoluta y su comportamiento de falla."
       },
       {
-        "question": "Will performance testing crash our live website?",
-        "answer": "It can, which is why we rarely execute heavy load tests on a live production server! We prefer to run these tests on a staging environment that perfectly mirrors your production hardware, ensuring your actual users are never interrupted."
+        "question": "¿Las pruebas de rendimiento bloquearán nuestro sitio web en vivo?",
+        "answer": "Puede, por lo que rara vez ejecutamos pruebas de carga pesada en un servidor de producción en vivo. Preferimos ejecutar estas pruebas en un entorno de prueba que refleje perfectamente su hardware de producción, garantizando que sus usuarios reales nunca sean interrumpidos."
       },
       {
-        "question": "What metrics do you track during a test?",
-        "answer": "We track a wide variety of metrics, including Average Response Time, Error Rates (like 500 or 502 gateway errors), Throughput (requests per second), CPU utilization, memory consumption, and network I/O."
+        "question": "¿Qué métricas rastreas durante una prueba?",
+        "answer": "Realizamos un seguimiento de una amplia variedad de métricas, incluido el tiempo de respuesta promedio, tasas de error (como errores de puerta de enlace 500 o 502), rendimiento (solicitudes por segundo), utilización de CPU, consumo de memoria y E/S de red."
       },
       {
-        "question": "How long does a performance testing engagement take?",
-        "answer": "Setting up the infrastructure, writing the complex user-journey scripts, and executing the initial rounds of testing typically takes between 1 to 3 weeks, depending on the complexity of the application flows we need to simulate."
+        "question": "¿Cuánto tiempo lleva un compromiso de prueba de rendimiento?",
+        "answer": "Configurar la infraestructura, escribir los complejos scripts del recorrido del usuario y ejecutar las rondas iniciales de pruebas suele tardar entre 1 y 3 semanas, dependiendo de la complejidad de los flujos de aplicaciones que necesitamos simular."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a performance audit",
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Programe una auditoría de desempeño",
       "link_url": "/contact"
     }
   }
