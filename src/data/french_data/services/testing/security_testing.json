@@ -1,0 +1,174 @@
+{
+  "slug": "security_testing",
+  "hero_section": {
+    "title": "Tests de sécurité et intrusion",
+    "subtitle": "Trouvez les vulnérabilités avant les pirates informatiques",
+    "description": "Protégez votre application, vos données utilisateur et votre réputation. Nous simulons des cyberattaques réelles pour identifier et corriger les failles de sécurité critiques de vos logiciels avant qu'elles ne puissent être exploitées.",
+    "buttons": [
+      {
+        "text": "Sécurisez votre candidature",
+        "link": "/contact"
+      },
+      {
+        "text": "Parlez à un hacker éthique",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/security_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "Tests de sécurité ?",
+    "content": [
+      "Les tests de sécurité sont un processus rigoureux d'évaluation de votre logiciel pour découvrir les vulnérabilités, les menaces et les risques. Au lieu d'attendre qu'une attaque malveillante révèle les points faibles de votre système, nos hackers éthiques certifiés passent à l'offensive et tentent de pirater vos applications en utilisant exactement les mêmes outils et techniques que les cybercriminels du monde réel.",
+      "Chez Devisgon, nous allons au-delà des analyses automatisées. Nous approfondissons la logique, les API et l'infrastructure de votre application pour trouver des failles cachées telles que les injections SQL, les scripts intersites (XSS) et les authentifications défectueuses. Nous proposons ensuite des mesures correctives concrètes pour verrouiller complètement votre système."
+    ],
+    "highlight_quote": "« Si vous pensez que la conformité coûte cher, essayez une violation de données. »",
+    "side_image": "/all_services/security_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi les tests de sécurité proactifs sont une nécessité commerciale",
+    "cards": [
+      {
+        "title": "Prévenir les violations coûteuses",
+        "description": "Identifiez et corrigez les vulnérabilités du jour zéro et les failles critiques avant qu’elles n’entraînent une perte de données catastrophique ou des demandes de rançon.",
+        "icon_type": "MdLock"
+      },
+      {
+        "title": "Protéger la réputation de la marque",
+        "description": "Montrez à vos utilisateurs et entreprises clientes que leurs données sensibles sont traitées avec le plus haut niveau de sécurité.",
+        "icon_type": "MdVerifiedUser"
+      },
+      {
+        "title": "Assurer la conformité",
+        "description": "Répondez aux exigences strictes en matière de tests de sécurité imposées par des cadres tels que SOC 2, HIPAA, PCI-DSS et GDPR.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Sécurisez la chaîne d'approvisionnement",
+        "description": "Vérifiez que les plugins tiers, les API et les bibliothèques open source n'introduisent pas de risques cachés dans votre application.",
+        "icon_type": "MdSecurity"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant les tests de sécurité",
+    "image": "/all_services/security_testing/wwg.jpg",
+    "list_items": [
+      {
+        "title": "1. Analyses automatisées des vulnérabilités",
+        "description": "Des analyses rapides et à grande échelle de votre base de code et de votre infrastructure pour détecter les vulnérabilités et expositions courantes (CVE) connues."
+      },
+      {
+        "title": "2. Tests d'intrusion manuels",
+        "description": "Piratage éthique approfondi et mené par l'homme, ciblant une logique métier complexe et des chaînes d'exploitation sophistiquées."
+      },
+      {
+        "title": "3. Les 10 meilleurs audits de l'OWASP",
+        "description": "Validation rigoureuse par rapport aux normes de l'industrie pour les risques de sécurité des applications Web les plus critiques."
+      },
+      {
+        "title": "4. Rapports de correction exploitables",
+        "description": "Une documentation claire de chaque vulnérabilité trouvée, sa gravité du risque et des instructions précises au niveau du code sur la façon de la corriger."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous testons à l'aide d'outils de sécurité conformes aux normes de l'industrie",
+    "subtitle": "L'arsenal ultime pour le piratage éthique et la détection des vulnérabilités",
+    "tools": [
+      {
+        "name": "Suite Rots",
+        "icon": "FaBug"
+      },
+      {
+        "name": "OWASPZAP",
+        "icon": "FaShieldAlt"
+      },
+      {
+        "name": "Nessos",
+        "icon": "SiNessus"
+      },
+      {
+        "name": "Métasploit",
+        "icon": "FaTerminal"
+      },
+      {
+        "name": "Requin filaire",
+        "icon": "SiWireshark"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Une approche structurée du hacking éthique",
+    "steps": [
+      {
+        "title": "Reconnaissance",
+        "description": "Nous cartographions la surface d'attaque de votre application, en identifiant les points de terminaison, les sous-domaines et les piles technologiques exposés.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Balayage",
+        "description": "Nous utilisons des outils automatisés avancés pour identifier les erreurs de configuration et les vulnérabilités connues.",
+        "icon": "FaRadar"
+      },
+      {
+        "title": "Exploitation (Pentesting)",
+        "description": "Nos ingénieurs tentent manuellement d'exploiter les vulnérabilités découvertes pour déterminer leur impact réel.",
+        "icon": "FaUnlockAlt"
+      },
+      {
+        "title": "Rapports et correctifs",
+        "description": "Nous fournissons un rapport complet sur les risques et travaillons avec votre équipe de développement pour vérifier que les correctifs sont efficaces.",
+        "icon": "FaFileContract"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Prévention d'une fuite massive de données dans un portail de soins de santé",
+    "image": "/all_services/security_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une startup de télésanté était à quelques semaines du lancement de son portail patient, mais avait besoin d'un audit de sécurité final pour se conformer à la réglementation HIPAA."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Au cours de notre test d'intrusion manuel, nous avons découvert une grave vulnérabilité IDOR (Insecure Direct Object Reference) qui permettait à tout utilisateur d'accéder aux dossiers médicaux d'autres patients en manipulant l'URL."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "Nous avons fourni un code de correction immédiat. La vulnérabilité a été corrigée avant le lancement, évitant ainsi une violation catastrophique de la HIPAA et préservant l'avenir de la startup."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur la cybersécurité et les tests d'intrusion",
+    "questions": [
+      {
+        "question": "Quelle est la différence entre une analyse de vulnérabilité et un test d’intrusion ?",
+        "answer": "Une analyse de vulnérabilité est un processus automatisé qui vérifie vos systèmes pour détecter les failles connues et les signale. Un test d'intrusion (Pentest) est un processus manuel dirigé par un humain dans lequel un pirate informatique éthique tente activement d'exploiter ces failles pour voir jusqu'où ils peuvent pénétrer dans le système, simulant une attaque réelle."
+      },
+      {
+        "question": "Est-il sécuritaire d’effectuer des tests de sécurité dans un environnement de production en direct ?",
+        "answer": "Bien que nous puissions tester les environnements de production avec soin, nous vous recommandons fortement d'effectuer des tests de sécurité intrusifs (comme les tests d'intrusion) sur un environnement de test ou de réplique. Cela garantit qu’il n’y a absolument aucune interruption pour vos utilisateurs en direct ni aucun risque de corruption accidentelle des données."
+      },
+      {
+        "question": "À quelle fréquence devons-nous effectuer des tests de sécurité ?",
+        "answer": "Les meilleures pratiques imposent d’exécuter en continu des analyses de vulnérabilité automatisées (intégrées à votre pipeline CI/CD). Des tests d'intrusion manuels approfondis doivent être effectués au moins une fois par an, ou immédiatement après tout changement majeur d'architecture ou publication de fonctionnalités importantes."
+      },
+      {
+        "question": "Que se passe-t-il une fois que vous avez découvert une vulnérabilité ?",
+        "answer": "Nous ne vous remettons pas seulement une liste de problèmes. Nous fournissons un rapport détaillé classant les vulnérabilités par gravité (Critique, Élevé, Moyen, Faible) ainsi que des instructions de remédiation étape par étape. Une fois que vos développeurs ont appliqué le correctif, nous effectuons un « nouveau test » pour garantir que la faille est définitivement comblée."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Planifier une consultation de sécurité",
+      "link_url": "/contact"
+    }
+  }
+}

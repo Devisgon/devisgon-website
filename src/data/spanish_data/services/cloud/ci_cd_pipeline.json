@@ -1,0 +1,174 @@
+{
+  "slug": "cicd_pipelines",
+  "hero_section": {
+    "title": "Canalizaciones de CI/CD",
+    "subtitle": "Acelere la entrega de su software",
+    "description": "Automatice sus procesos de compilación, prueba e implementación. Diseñamos canales de CI/CD robustos que eliminan errores manuales, aumentan la velocidad de lanzamiento y garantizan que su software esté siempre listo para producción.",
+    "buttons": [
+      {
+        "text": "Automatizar mis implementaciones",
+        "link": "/contact"
+      },
+      {
+        "text": "Hable con un experto en DevOps",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cicd_pipelines.mp4"
+  },
+  "introduction_section": {
+    "heading": "Cuáles son",
+    "span_heading": "¿Canalizaciones de CI/CD?",
+    "content": [
+      "La integración continua (CI) y la implementación continua (CD) forman la columna vertebral de la ingeniería de software moderna. CI fusiona y prueba automáticamente los cambios de código de sus desarrolladores, mientras que CD automatiza la publicación de ese código validado en sus servidores en vivo.",
+      "En Devisgon, eliminamos el infame problema \"funciona en mi máquina\". Al crear canales personalizados adaptados a su pila tecnológica exacta, capacitamos a su equipo para impulsar el código con absoluta confianza, sabiendo que las puertas de calidad automatizadas detectarán los errores antes de que lleguen a sus usuarios."
+    ],
+    "highlight_quote": "\"Envíe el código más rápido. Rompa menos cosas\".",
+    "side_image": "/all_services/ci_cd_pipeline/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Por qué la automatización es el futuro de la implementación",
+    "cards": [
+      {
+        "title": "Tiempo de comercialización más rápido",
+        "description": "Lanza nuevas funciones y correcciones de errores para tus usuarios en minutos en lugar de semanas.",
+        "icon_type": "MdTimer"
+      },
+      {
+        "title": "Error humano reducido",
+        "description": "Elimine las configuraciones manuales del servidor y el copiar y pegar que provocan un tiempo de inactividad catastrófico.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Retrocesos sin esfuerzo",
+        "description": "Si se escapa una actualización incorrecta, nuestros canales le permiten volver instantáneamente a la última versión estable.",
+        "icon_type": "MdRestore"
+      },
+      {
+        "title": "Productividad del desarrollador",
+        "description": "Libere a sus ingenieros de las tediosas tareas de implementación para que puedan concentrarse en escribir código excelente.",
+        "icon_type": "MdCode"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrás cuando elijas CI/CD Pipelines",
+    "image": "/all_services/ci_cd_pipeline/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Procesos de construcción automatizados",
+        "description": "El código se compila, se vincula y se empaqueta automáticamente en contenedores seguros (como Docker) en cada confirmación."
+      },
+      {
+        "title": "2. Pruebas automatizadas integradas",
+        "description": "Las pruebas unitarias, de integración y de seguridad se ejecutan automáticamente para impedir que se fusione código defectuoso."
+      },
+      {
+        "title": "3. Implementaciones sin tiempo de inactividad",
+        "description": "Estrategias de implementación avanzadas (como Blue-Green o Canary) para que su aplicación permanezca activa durante las actualizaciones."
+      },
+      {
+        "title": "4. Monitoreo del desempeño",
+        "description": "Alertas y paneles que notifican a su equipo instantáneamente si falla una compilación o se detiene una implementación."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Automatizamos utilizando herramientas líderes en la industria",
+    "subtitle": "Las mejores plataformas DevOps para canalizaciones confiables y escalables",
+    "tools": [
+      {
+        "name": "Acciones de GitHub",
+        "icon": "SiGithubactions"
+      },
+      {
+        "name": "GitLab CI",
+        "icon": "FaGitlab"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "SiJenkins"
+      },
+      {
+        "name": "Estibador",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro proceso",
+    "subtitle": "Cómo optimizamos su entrega de software",
+    "steps": [
+      {
+        "title": "Auditoría de infraestructura",
+        "description": "Analizamos su entorno de hosting actual, su código base y los cuellos de botella de implementación.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Arquitectura de tuberías",
+        "description": "Diseñamos la lógica del flujo de trabajo, definiendo entornos de ensayo y puertas de prueba.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Secuencias de comandos e integración",
+        "description": "Escribimos los archivos de configuración (YAML) y conectamos tu repositorio a tu proveedor de nube.",
+        "icon": "FaTerminal"
+      },
+      {
+        "title": "Pruebas y entrega",
+        "description": "Realizamos implementaciones de prueba, documentamos el proceso y capacitamos a su equipo de desarrollo sobre el nuevo flujo de trabajo.",
+        "icon": "FaCheckDouble"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Tiempo de implementación reducido de 4 horas a 15 minutos.",
+    "image": "/all_services/ci_cd_pipeline/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una empresa de SaaS estaba realizando implementaciones manuales que requerían desconectar el sitio durante horas cada fin de semana, lo que provocaba el agotamiento de los desarrolladores."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Implementamos una canalización de CI/CD totalmente automatizada utilizando GitHub Actions, Docker y AWS Elastic Beanstalk con una estrategia de implementación continua."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Las implementaciones ahora se realizan automáticamente en 15 minutos sin tiempo de inactividad, lo que permite al equipo lanzar funciones varias veces al día."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre DevOps y CI/CD",
+    "questions": [
+      {
+        "question": "¿Cuál es la diferencia entre entrega continua e implementación continua?",
+        "answer": "Entrega continua significa que su código se prueba automáticamente y está listo para ser implementado, pero un humano aún tiene que presionar el botón final de \"publicar\". La implementación continua va un paso más allá: cada cambio de código que pasa las pruebas automatizadas se implementa directamente en producción sin ninguna intervención humana."
+      },
+      {
+        "question": "¿Necesito CI/CD si tengo un equipo de desarrollo pequeño?",
+        "answer": "¡Sí! Podría decirse que CI/CD es aún más importante para equipos pequeños. Actúa como una red de seguridad digital, detecta errores automáticamente y evita que sus limitadas horas de ingeniería se desperdicien en cargas repetitivas del servidor."
+      },
+      {
+        "question": "¿Funcionará una canalización de CI/CD con mi código base existente?",
+        "answer": "Absolutamente. Ya sea que tenga una aplicación monolítica heredada o microservicios modernos, podemos construir un canal a su alrededor. Los scripts de canalización simplemente le dicen al servidor cómo construir y mover su código específico."
+      },
+      {
+        "question": "¿Qué sucede si una implementación falla o daña el sitio activo?",
+        "answer": "Una canalización de CI/CD correctamente diseñada evita esto. La fase 'CI' detectará errores de compilación o prueba y bloqueará la implementación. Si un error de alguna manera llega a la fase 'CD', configuramos comandos de reversión instantánea para que pueda volver a la versión anterior en segundos."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Contáctenos para una consulta gratuita de DevOps",
+      "link_url": "/contact"
+    }
+  }
+}

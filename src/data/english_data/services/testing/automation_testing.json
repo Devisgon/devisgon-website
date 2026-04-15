@@ -1,0 +1,174 @@
+{
+  "slug": "automation_testing",
+  "hero_section": {
+    "title": "Automation Testing Services",
+    "subtitle": "Release Faster with Absolute Confidence",
+    "description": "Replace slow, error-prone manual testing with robust automated test suites. We build scalable QA automation frameworks that catch bugs instantly and accelerate your software delivery pipeline.",
+    "buttons": [
+      {
+        "text": "Automate My QA",
+        "link": "/contact"
+      },
+      {
+        "text": "Speak to a QA Engineer",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/automation_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " Automation Testing?",
+    "content": [
+      "In modern software development, relying solely on manual testing is a massive bottleneck. Automation testing uses specialized software and scripts to automatically execute complex test cases on your application, comparing actual outcomes against expected results. ",
+      "At Devisgon, we design custom automation frameworks for your web, mobile, and API layers. By automating highly repetitive regression tests, we drastically reduce your testing time. This frees up your QA team to focus on exploratory testing and edge cases, ensuring a flawless user experience on every single deployment."
+    ],
+    "highlight_quote": " “Test continuously. Release confidently. Scale infinitely.” ",
+    "side_image": "/all_services/automation_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Why QA automation is the key to scaling your software",
+    "cards": [
+      {
+        "title": "Drastically Faster Releases",
+        "description": "Execute thousands of complex test cases in minutes, reducing your release cycles from weeks to days.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Unmatched Accuracy",
+        "description": "Automated scripts don't experience fatigue. They perform the exact same rigorous checks every single time without human error.",
+        "icon_type": "MdFactCheck"
+      },
+      {
+        "title": "Continuous Integration",
+        "description": "Seamlessly integrate test suites into your CI/CD pipelines so bad code is blocked before it ever reaches production.",
+        "icon_type": "MdSync"
+      },
+      {
+        "title": "High Long-Term ROI",
+        "description": "While automation requires an initial investment, it drastically reduces long-term QA costs as your product grows.",
+        "icon_type": "MdTrendingUp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What you'll get when you choose Automation Testing",
+    "image": "/all_services/automation_testing/wwg.avif",
+    "list_items": [
+      {
+        "title": "1. Custom Automation Framework",
+        "description": "A scalable, maintainable testing architecture built using Page Object Model (POM) or data-driven methodologies."
+      },
+      {
+        "title": "2. End-to-End UI Testing",
+        "description": "Simulated user journeys across multiple browsers (Chrome, Safari, Edge) and devices to ensure cross-platform compatibility."
+      },
+      {
+        "title": "3. Automated Regression Suites",
+        "description": "Comprehensive test bundles that run on every code commit to guarantee new features don't break existing functionality."
+      },
+      {
+        "title": "4. Actionable Reporting",
+        "description": "Automated HTML reports containing detailed logs, videos, and screenshots of failed tests for rapid debugging."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We build frameworks using top-tier tools",
+    "subtitle": "The industry's most reliable automation software",
+    "tools": [
+      {
+        "name": "Cypress",
+        "icon": "SiCypress"
+      },
+      {
+        "name": "Playwright",
+        "icon": "SiPlaywright"
+      },
+      {
+        "name": "Selenium",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "Appium",
+        "icon": "SiAppium"
+      },
+      {
+        "name": "Cucumber (BDD)",
+        "icon": "SiCucumber"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "How we automate your quality assurance",
+    "steps": [
+      {
+        "title": "Evaluate & Plan",
+        "description": "We analyze your application and prioritize the most critical, high-ROI workflows to automate first.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Framework Design",
+        "description": "We architect a custom, robust test automation framework tailored to your specific tech stack.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Scripting",
+        "description": "We write clean, modular automation scripts to execute the defined test scenarios.",
+        "icon": "FaCode"
+      },
+      {
+        "title": "CI/CD Integration",
+        "description": "We plug the test suite directly into your deployment pipeline for continuous, automated execution.",
+        "icon": "FaCogs"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Reduced regression testing time from 3 days to 45 minutes",
+    "image": "/all_services/automation_testing/cs.png",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "An e-commerce platform was struggling with a massive manual testing overhead. Every major update required a team of 5 testers to spend 3 full days clicking through the site."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "We built a comprehensive end-to-end automation framework using Cypress, covering all critical checkout flows, user logins, and catalog searches."
+      },
+      "result": {
+        "label": "Result",
+        "text": "Regression testing now runs automatically in just 45 minutes on every code push, enabling the client to safely deploy updates weekly instead of monthly."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about QA automation",
+    "questions": [
+      {
+        "question": "Can we automate 100% of our testing?",
+        "answer": "No, and you shouldn't try to. Automation is perfect for repetitive tasks, regression testing, and core functional flows. However, human intuition is still required for exploratory testing, usability testing, and assessing visual aesthetics. A healthy QA strategy combines both."
+      },
+      {
+        "question": "When is the right time to start automating tests?",
+        "answer": "You should start automating tests once a feature's user interface and core logic are relatively stable. If you try to automate a feature that is changing design every day, you will spend more time fixing broken test scripts than actually testing."
+      },
+      {
+        "question": "Will automation replace my manual QA team?",
+        "answer": "Absolutely not. Automation is a tool that empowers your QA team. By taking over the tedious, repetitive regression testing, automation frees up your manual testers to focus on finding complex edge cases and improving the overall user experience."
+      },
+      {
+        "question": "What is a Test Automation Framework?",
+        "answer": "A framework is a set of guidelines, coding standards, and tools used to create and execute automated tests. Instead of writing messy, standalone scripts, a framework ensures your tests are modular, easy to maintain, and generate clear reports when they fail."
+      }
+    ],
+    "footer": {
+      "text": "Didn't find your answer?",
+      "link_text": "Schedule a QA consultation",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "database_management",
+  "hero_section": {
+    "title": "Datenbankverwaltung",
+    "subtitle": "Sichere, skalierbare und blitzschnelle Daten",
+    "description": "Wir entwerfen, optimieren und verwalten robuste Datenbankarchitekturen, die sicherstellen, dass Ihre kritischen Geschäftsdaten immer verfügbar, hochsicher und für Spitzenleistung optimiert sind.",
+    "buttons": [
+      {
+        "text": "Optimieren Sie meine Datenbank",
+        "link": "/contact"
+      },
+      {
+        "text": "Konsultieren Sie einen Datenexperten",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/database_management.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist",
+    "span_heading": "Datenbankmanagement?",
+    "content": [
+      "Daten sind das Lebenselixier jeder modernen Anwendung. Beim Datenbankmanagement geht es um die Architektur, wie diese Daten gespeichert, strukturiert, abgerufen und gesichert werden. Unabhängig davon, ob Sie es mit relationalen Daten in SQL oder riesigen Dokumentenspeichern in NoSQL zu tun haben, führt eine schlecht konfigurierte Datenbank letztendlich zu langsamen Ladezeiten, Anwendungsabstürzen und Datenverlust.",
+      "Bei Devisgon entlasten wir die Dateninfrastruktur von ihrer Komplexität. Wir erstellen hochverfügbare Datenbankcluster, führen eine umfassende Abfrageoptimierung durch und richten automatisierte Disaster-Recovery-Pipelines ein, damit Ihre Anwendung nahtlos von 100 auf 1.000.000 Benutzer skaliert, ohne ins Schwitzen zu geraten."
+    ],
+    "highlight_quote": "„Ihre Anwendung ist nur so schnell wie Ihre Datenbank.“",
+    "side_image": "/all_services/db_mangment/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Hauptvorteile",
+    "subtitle": "Warum professionelles Datenbankmanagement unerlässlich ist",
+    "cards": [
+      {
+        "title": "Blitzschnelle Abfragen",
+        "description": "Durch die richtige Indizierung und Abfrageoptimierung werden Engpässe vermieden, sodass Ihre Anwendung sofort reagiert.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Hohe Verfügbarkeit (99,99 %)",
+        "description": "Cluster-Setups und Lesereplikate stellen sicher, dass Ihre Datenbank selbst bei massiven Datenverkehrsspitzen nie ausfällt.",
+        "icon_type": "MdStorage"
+      },
+      {
+        "title": "Kein Datenverlust",
+        "description": "Automatisierte, verschlüsselte Backups und Point-in-Time-Wiederherstellung sorgen dafür, dass Ihre Daten immer vor Beschädigung oder menschlichem Versagen geschützt sind.",
+        "icon_type": "MdOutlineBackup"
+      },
+      {
+        "title": "Nahtlose Skalierbarkeit",
+        "description": "Architekturen, die für die Aufteilung oder horizontale Skalierung konzipiert sind, wenn Ihre Benutzerbasis und Ihr Datenvolumen wachsen.",
+        "icon_type": "MdTrendingUp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie erhalten, wenn Sie sich für Datenbankverwaltung entscheiden",
+    "image": "/all_services/db_mangment/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Design der Datenbankarchitektur",
+        "description": "Auswahl der richtigen Datenbank-Engine (SQL vs. NoSQL) und Entwurf eines optimalen Schemas für Ihren spezifischen Anwendungsfall."
+      },
+      {
+        "title": "2. Leistungsoptimierung und Indizierung",
+        "description": "Umfassende Analyse langsamer Abfragen und Anwendung strategischer Indizes zur Beschleunigung des Datenabrufs."
+      },
+      {
+        "title": "3. Nahtlose Datenmigration",
+        "description": "Verschieben Sie Ihre Daten von Altsystemen in moderne Cloud-Datenbanken ohne Ausfallzeiten und ohne Datenverlust."
+      },
+      {
+        "title": "4. Automatisierte Wartung",
+        "description": "Regelmäßige Gesundheitsprüfungen, Staubsaugen und Flicken sorgen für einen kontinuierlichen und sicheren Betrieb."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir verwalten branchenführende Datenbanken",
+    "subtitle": "Die besten Engines für relationale, Dokument- und Caching-Anforderungen",
+    "tools": [
+      {
+        "name": "PostgreSQL",
+        "icon": "SiPostgresql"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "name": "MySQL",
+        "icon": "SiMysql"
+      },
+      {
+        "name": "Redis",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "AWS RDS",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Wie wir Ihre Daten sichern und beschleunigen",
+    "steps": [
+      {
+        "title": "Auditieren und analysieren",
+        "description": "Wir analysieren Ihr aktuelles Schema, Abfrageprotokolle und Serverlasten, um Engpässe zu identifizieren.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design & Planung",
+        "description": "Wir entwerfen eine skalierbare Lösung, egal ob es um das Hinzufügen von Lesereplikaten, die Indizierung oder die Migration von Engines geht.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Implementieren und optimieren",
+        "description": "Wir schreiben ineffiziente Abfragen neu, bauen die neue Architektur auf und führen sichere Migrationen durch.",
+        "icon": "FaDatabase"
+      },
+      {
+        "title": "Überwachen und sichern",
+        "description": "Wir stellen rund um die Uhr Überwachungstools bereit und erstellen strenge, automatisierte Backup-Zeitpläne.",
+        "icon": "FaShieldAlt"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "300 % schnellere Abfragegeschwindigkeiten für eine E-Commerce-Plattform",
+    "image": "/all_services/db_mangment/cs.png",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "Bei einer stark frequentierten E-Commerce-Website kam es bei Flash-Verkäufen zu schwerwiegenden Datenbankblockaden und Zeitüberschreitungsfehlern, was durch verlassene Warenkörbe Tausende kostete."
+      },
+      "solution": {
+        "label": "Lösung",
+        "text": "Wir haben ihr PostgreSQL-Schema optimiert, Redis für das Zwischenspeichern von Produktkatalogen implementiert und eine Master-Slave-Read-Replica-Architektur eingerichtet."
+      },
+      "result": {
+        "label": "Ergebnis",
+        "text": "Die CPU-Auslastung der Datenbank sank um 70 %, die durchschnittliche Antwortzeit auf Abfragen verbesserte sich um 300 % und die Plattform bewältigte den Black-Friday-Verkehr ohne Ausfallzeiten."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Erhalten Sie Antworten zur Datenbankarchitektur",
+    "questions": [
+      {
+        "question": "Sollte ich eine SQL- oder NoSQL-Datenbank verwenden?",
+        "answer": "Es kommt ganz auf Ihre Daten an. SQL (wie PostgreSQL oder MySQL) eignet sich am besten für stark strukturierte, relationale Daten, bei denen Datenintegrität und komplexe Transaktionen von entscheidender Bedeutung sind (z. B. Finanzen oder E-Commerce). NoSQL (wie MongoDB) eignet sich hervorragend für unstrukturierte Daten, schnelles Prototyping und massive horizontale Skalierung."
+      },
+      {
+        "question": "Was passiert, wenn unser Datenbankserver abstürzt?",
+        "answer": "Um dies zu verhindern, entwerfen wir hochverfügbare Architekturen. Durch die Verwendung von Cluster-Setups und Lesereplikaten über mehrere Serververfügbarkeitszonen hinweg wird der Datenverkehr automatisch innerhalb von Millisekunden an einen synchronisierten Backup-Server weitergeleitet, wenn Ihre Primärdatenbank offline geht."
+      },
+      {
+        "question": "Können Sie unsere Daten von einem alten System migrieren?",
+        "answer": "Ja. Datenmigration ist eine unserer Kernkompetenzen. Wir ordnen Ihr altes Schema dem neuen zu und führen die Migration mithilfe sicherer Pipelines durch. Dabei erreichen wir häufig Migrationen ohne Ausfallzeiten, sodass Ihr Geschäft nicht unterbrochen wird."
+      },
+      {
+        "question": "Wie schützen Sie unsere Datenbank vor Hackern?",
+        "answer": "Wir implementieren strenge Sicherheit auf Netzwerkebene (stellen sicher, dass die Datenbank niemals dem öffentlichen Internet ausgesetzt ist), erzwingen ein starkes Identitäts- und Zugriffsmanagement (IAM), verschlüsseln Daten sowohl im Ruhezustand als auch während der Übertragung und überwachen kontinuierlich auf verdächtige Abfragemuster."
+      }
+    ],
+    "footer": {
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
+      "link_text": "Sprechen Sie mit unseren Datenarchitekten",
+      "link_url": "/contact"
+    }
+  }
+}

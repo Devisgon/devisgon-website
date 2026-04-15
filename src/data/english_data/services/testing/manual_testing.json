@@ -1,0 +1,174 @@
+{
+  "slug": "manual_testing",
+  "hero_section": {
+    "title": "Manual Testing Services",
+    "subtitle": "Human Insight for Flawless Software",
+    "description": "Ensure your software doesn't just work in theory, but thrives in the real world. Our expert QA engineers rigorously test your application by hand to uncover hidden bugs, visual glitches, and UX friction that automated scripts miss.",
+    "buttons": [
+      {
+        "text": "Hire a QA Expert",
+        "link": "/contact"
+      },
+      {
+        "text": "Explore QA Services",
+        "link": "/services"
+      }
+    ],
+    "hero_image": "/videos/manual_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " Manual Testing?",
+    "content": [
+      "While automation is excellent for checking expected outcomes, it takes a human to find the unexpected. Manual testing is the process where QA engineers act as real end-users, actively exploring your application to identify usability issues, visual inconsistencies, and complex edge-case bugs. ",
+      "At Devisgon, our QA team doesn't just follow scripts; we try to break your software. We perform exploratory testing, cross-browser visual checks, and complex scenario validation to ensure your application is intuitive, accessible, and completely bulletproof before it reaches your customers."
+    ],
+    "highlight_quote": " “Automation checks the code. Manual testing checks the experience.” ",
+    "side_image": "/all_services/manual_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Why human intuition is irreplaceable in QA",
+    "cards": [
+      {
+        "title": "Real User Perspective",
+        "description": "We test your app exactly how a real human would use it, catching UX friction and confusing navigation.",
+        "icon_type": "MdPersonSearch"
+      },
+      {
+        "title": "Visual & UI Accuracy",
+        "description": "Automated tests can't tell if a button is slightly misaligned or an image is stretched; our human testers can.",
+        "icon_type": "MdVisibility"
+      },
+      {
+        "title": "Rapid Adaptability",
+        "description": "No need to write expensive code for testing. We can start testing new features the minute they are deployed.",
+        "icon_type": "MdAutorenew"
+      },
+      {
+        "title": "Exploratory Discovery",
+        "description": "We go off-script to find the bizarre edge-cases and critical bugs that developers never anticipated.",
+        "icon_type": "MdExplore"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What you'll get when you choose Manual Testing",
+    "image": "/all_services/manual_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Comprehensive Test Plans",
+        "description": "Detailed, step-by-step documentation of all test cases ensuring 100% feature coverage."
+      },
+      {
+        "title": "2. Exploratory Testing",
+        "description": "Unscripted, creative testing sessions designed to uncover hidden vulnerabilities and logic flaws."
+      },
+      {
+        "title": "3. Cross-Platform Validation",
+        "description": "Rigorous physical testing on real mobile devices (iOS/Android) and multiple web browsers."
+      },
+      {
+        "title": "4. Detailed Bug Reports",
+        "description": "Crystal-clear bug tickets complete with screenshots, screen recordings, and exact steps to reproduce."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We track and test using the best QA tools",
+    "subtitle": "Industry standards for bug tracking and test management",
+    "tools": [
+      {
+        "name": "Jira",
+        "icon": "SiJira"
+      },
+      {
+        "name": "TestRail",
+        "icon": "FaClipboardCheck"
+      },
+      {
+        "name": "BrowserStack",
+        "icon": "BsBrowserChrome"
+      },
+      {
+        "name": "Postman (Manual API)",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Trello",
+        "icon": "SiTrello"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "A meticulous approach to quality assurance",
+    "steps": [
+      {
+        "title": "Analyze",
+        "description": "We review your product requirements, user stories, and design files to understand the expected behavior.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Plan",
+        "description": "We author comprehensive test cases, covering positive flows, negative flows, and edge cases.",
+        "icon": "FaEdit"
+      },
+      {
+        "title": "Execute",
+        "description": "We manually run the test cases, perform exploratory testing, and try to break the system.",
+        "icon": "FaPlay"
+      },
+      {
+        "title": "Report & Verify",
+        "description": "We log detailed bug reports for the developers. Once fixed, we re-test to verify the resolution.",
+        "icon": "FaBug"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Uncovering a critical checkout bug that automation missed",
+    "image": "/all_services/manual_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "A SaaS platform passed all automated functional tests, but users were randomly abandoning the premium subscription upgrade page."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Our manual QA team performed exploratory testing on physical mobile devices and discovered that an overlapping cookie banner was completely blocking the 'Pay Now' button on older iPhone screens."
+      },
+      "result": {
+        "label": "Result",
+        "text": "The bug was visually invisible to the automated scripts. By logging and fixing this UI flaw, the client's subscription conversion rate immediately jumped by 22%."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about manual quality assurance",
+    "questions": [
+      {
+        "question": "If we have automated testing, do we still need manual testing?",
+        "answer": "Absolutely. Automation is blind to visual glitches, poor UX design, and completely unexpected user behaviors. A robust QA strategy uses automation to quickly test the core logic, and manual testing to ensure the application actually looks and feels great to a human being."
+      },
+      {
+        "question": "What is Exploratory Testing?",
+        "answer": "Exploratory testing is a highly creative, unscripted QA approach. Instead of following a strict checklist, our QA engineers use their experience and intuition to wander through your app, intentionally trying weird combinations of actions to find bugs that no one anticipated."
+      },
+      {
+        "question": "How do you test on different devices?",
+        "answer": "We use a combination of physical hardware (real iPhones, iPads, and Android phones) and cloud-based device labs like BrowserStack to ensure your application performs flawlessly regardless of the user's screen size or operating system."
+      },
+      {
+        "question": "How do you report bugs to our developers?",
+        "answer": "We integrate seamlessly with your development workflow. When we find a bug, we log a detailed ticket in your project management tool (like Jira, Trello, or Linear). Every ticket includes the environment details, exact steps to reproduce the bug, and visual evidence (screenshots or video recordings)."
+      }
+    ],
+    "footer": {
+      "text": "Didn't find your answer?",
+      "link_text": "Talk to our QA team",
+      "link_url": "/contact"
+    }
+  }
+}

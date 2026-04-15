@@ -1,0 +1,174 @@
+{
+  "slug": "database_management",
+  "hero_section": {
+    "title": "Gestion de base de données",
+    "subtitle": "Données sécurisées, évolutives et ultra-rapides",
+    "description": "Nous concevons, optimisons et gérons des architectures de bases de données robustes qui garantissent que vos données commerciales critiques sont toujours disponibles, hautement sécurisées et optimisées pour des performances optimales.",
+    "buttons": [
+      {
+        "text": "Optimiser ma base de données",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez un expert en données",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/database_management.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "Gestion de base de données ?",
+    "content": [
+      "Les données sont l’élément vital de toute application moderne. La gestion de bases de données implique l'architecture de la manière dont ces données sont stockées, structurées, accessibles et sécurisées. Qu'il s'agisse de données relationnelles en SQL ou de magasins de documents volumineux en NoSQL, une base de données mal configurée finira par entraîner des temps de chargement lents, des plantages d'applications et des pertes de données.",
+      "Chez Devisgon, nous simplifions la complexité de l'infrastructure de données. Nous construisons des clusters de bases de données à haute disponibilité, effectuons un réglage approfondi des requêtes et mettons en place des pipelines automatisés de reprise après sinistre afin que votre application évolue de manière transparente de 100 à 1 000 000 d'utilisateurs sans effort."
+    ],
+    "highlight_quote": "\"Votre application est aussi rapide que votre base de données.\"",
+    "side_image": "/all_services/db_mangment/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi une gestion professionnelle de bases de données est essentielle",
+    "cards": [
+      {
+        "title": "Requêtes ultra rapides",
+        "description": "Une indexation appropriée et une optimisation des requêtes éliminent les goulots d'étranglement, ce qui rend votre application instantanément réactive.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Haute disponibilité (99,99 %)",
+        "description": "Les configurations en cluster et les réplicas en lecture garantissent que votre base de données ne tombe jamais en panne, même en cas de pics de trafic massifs.",
+        "icon_type": "MdStorage"
+      },
+      {
+        "title": "Zéro perte de données",
+        "description": "Les sauvegardes automatisées et cryptées et la récupération à un moment précis garantissent que vos données sont toujours à l'abri de la corruption ou des erreurs humaines.",
+        "icon_type": "MdOutlineBackup"
+      },
+      {
+        "title": "Évolutivité transparente",
+        "description": "Architectures conçues pour être fragmentées ou mises à l'échelle horizontalement à mesure que votre base d'utilisateurs et votre volume de données augmentent.",
+        "icon_type": "MdTrendingUp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant la gestion de base de données",
+    "image": "/all_services/db_mangment/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Conception de l'architecture de base de données",
+        "description": "Sélectionner le bon moteur de base de données (SQL ou NoSQL) et concevoir un schéma optimal pour votre cas d'utilisation spécifique."
+      },
+      {
+        "title": "2. Optimisation des performances et indexation",
+        "description": "Analyse approfondie des requêtes lentes et application d'index stratégiques pour accélérer la récupération des données."
+      },
+      {
+        "title": "3. Migration transparente des données",
+        "description": "Déplacez vos données des systèmes existants vers des bases de données cloud modernes sans temps d'arrêt et sans perte de données."
+      },
+      {
+        "title": "4. Maintenance automatisée",
+        "description": "Contrôles de santé, aspiration et correctifs de routine pour garantir un fonctionnement continu et sécurisé."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous gérons des bases de données de pointe",
+    "subtitle": "Les meilleurs moteurs pour les besoins relationnels, de documents et de mise en cache",
+    "tools": [
+      {
+        "name": "PostgreSQL",
+        "icon": "SiPostgresql"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "name": "MySQL",
+        "icon": "SiMysql"
+      },
+      {
+        "name": "Rédis",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "AWSRDS",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Comment nous sécurisons et accélérons vos données",
+    "steps": [
+      {
+        "title": "Auditer et analyser",
+        "description": "Nous analysons votre schéma actuel, les journaux de requêtes et les charges du serveur pour identifier les goulots d'étranglement.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Conception et planification",
+        "description": "Nous concevons une solution évolutive, qu'il s'agisse d'ajouter des réplicas en lecture, d'indexation ou de migration de moteurs.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Implémenter et optimiser",
+        "description": "Nous réécrivons les requêtes inefficaces, construisons la nouvelle architecture et exécutons des migrations sécurisées.",
+        "icon": "FaDatabase"
+      },
+      {
+        "title": "Surveillance et sauvegarde",
+        "description": "Nous déployons des outils de surveillance 24h/24 et 7j/7 et établissons des calendriers de sauvegarde stricts et automatisés.",
+        "icon": "FaShieldAlt"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Des vitesses de requête 300 % plus rapides pour une plateforme de commerce électronique",
+    "image": "/all_services/db_mangment/cs.png",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Un site de commerce électronique à fort trafic a connu de graves blocages de base de données et des erreurs de délai d'attente lors des ventes flash, ce qui lui a coûté des milliers de dollars en paniers abandonnés."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons optimisé leur schéma PostgreSQL, implémenté Redis pour la mise en cache du catalogue de produits et mis en place une architecture maître-esclave en lecture-réplication."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "La charge CPU de la base de données a chuté de 70 %, le temps de réponse moyen aux requêtes s'est amélioré de 300 % et la plate-forme a géré le trafic du Black Friday sans aucun temps d'arrêt."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur l’architecture des bases de données",
+    "questions": [
+      {
+        "question": "Dois-je utiliser une base de données SQL ou NoSQL ?",
+        "answer": "Cela dépend entièrement de vos données. SQL (comme PostgreSQL ou MySQL) est idéal pour les données relationnelles hautement structurées où l'intégrité des données et les transactions complexes sont essentielles (comme la finance ou le commerce électronique). NoSQL (comme MongoDB) est idéal pour les données non structurées, le prototypage rapide et la mise à l'échelle horizontale massive."
+      },
+      {
+        "question": "Que se passe-t-il si notre serveur de base de données tombe en panne ?",
+        "answer": "Nous concevons des architectures à haute disponibilité pour éviter cela. En utilisant des configurations en cluster et des réplicas en lecture sur plusieurs zones de disponibilité de serveur, si votre base de données principale est hors ligne, le trafic est automatiquement acheminé vers un serveur de sauvegarde synchronisé en quelques millisecondes."
+      },
+      {
+        "question": "Pouvez-vous migrer nos données depuis un ancien système ?",
+        "answer": "Oui. La migration de données est l'une de nos principales spécialités. Nous mappons votre ancien schéma sur le nouveau et exécutons la migration à l'aide de pipelines sécurisés, réalisant souvent des migrations sans temps d'arrêt afin que votre activité ne soit pas interrompue."
+      },
+      {
+        "question": "Comment protégez-vous notre base de données contre les pirates ?",
+        "answer": "Nous mettons en œuvre une sécurité stricte au niveau du réseau (garantissant que la base de données n'est jamais exposée à l'Internet public), appliquons une gestion rigoureuse des identités et des accès (IAM), chiffrons les données au repos et en transit et surveillons en permanence les modèles de requêtes suspects."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Parlez à nos architectes de données",
+      "link_url": "/contact"
+    }
+  }
+}

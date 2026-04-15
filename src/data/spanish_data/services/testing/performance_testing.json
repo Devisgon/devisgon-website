@@ -1,0 +1,174 @@
+{
+  "slug": "performance_testing",
+  "hero_section": {
+    "title": "Pruebas de rendimiento y carga",
+    "subtitle": "Asegúrese de que su aplicación crezca bajo presión",
+    "description": "Don't let traffic spikes crash your business. Realizamos pruebas rigurosas de su software para garantizar tiempos de carga ultrarrápidos, una estabilidad impecable y una experiencia de usuario óptima bajo cargas de usuario masivas.",
+    "buttons": [
+      {
+        "text": "Prueba de estrés mi aplicación",
+        "link": "/contact"
+      },
+      {
+        "text": "Hable con un experto en rendimiento",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/performance_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas de rendimiento?",
+    "content": [
+      "Las pruebas de rendimiento son el proceso de someter su aplicación a un estrés simulado del mundo real para ver exactamente cómo se comporta, dónde presenta cuellos de botella y en qué punto falla por completo. Responde a la pregunta crítica: \"¿Sobrevivirán nuestros servidores si nuestra campaña de marketing se vuelve viral?\" [Imagen de un gráfico de prueba de carga de rendimiento que muestra el aumento de los usuarios virtuales en comparación con el tiempo de respuesta de la aplicación y la carga de la CPU del servidor]",
+      "En Devisgon, simulamos miles de usuarios simultáneos que acceden a sus API, bases de datos y servidores web simultáneamente. Al identificar pérdidas de memoria, consultas lentas a la base de datos y recursos inadecuados del servidor antes de su gran lanzamiento, nos aseguramos de que su aplicación nunca deje a sus clientes mirando una pantalla de carga."
+    ],
+    "highlight_quote": "\"En el mundo digital, lento es sólo otra palabra para decir roto\".",
+    "side_image": "/all_services/performance_testing/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Por qué la velocidad y la estabilidad equivalen a ingresos",
+    "cards": [
+      {
+        "title": "Sobrevivir a los picos de tráfico",
+        "description": "Asegúrese de que su aplicación permanezca en línea y funcional durante las rebajas del Black Friday, eventos virales o lanzamientos de productos importantes.",
+        "icon_type": "MdTrendingUp"
+      },
+      {
+        "title": "Prevenir la pérdida de ingresos",
+        "description": "Un retraso de 1 segundo en la respuesta de la página puede resultar en una reducción del 7% en las conversiones. Mantenemos su aplicación increíblemente rápida.",
+        "icon_type": "MdAttachMoney"
+      },
+      {
+        "title": "Optimice los costos del servidor",
+        "description": "Deje de actualizar ciegamente sus servidores en la nube. Identificamos los cuellos de botella exactos del código para que pueda escalar de manera eficiente.",
+        "icon_type": "MdSavings"
+      },
+      {
+        "title": "Proteger la reputación de la marca",
+        "description": "Nada daña una marca más rápido que un sitio web que falla. Ofrezca una experiencia premium constante.",
+        "icon_type": "MdVerifiedUser"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrás cuando elijas las pruebas de rendimiento",
+    "image": "/all_services/performance_testing/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Pruebas de carga",
+        "description": "Simular la cantidad esperada de usuarios simultáneos para verificar que su sistema cumpla con sus criterios de rendimiento básicos."
+      },
+      {
+        "title": "2. Pruebas de estrés y picos",
+        "description": "Llevar su aplicación mucho más allá de sus límites para encontrar su punto de ruptura y probar cómo se recupera de picos repentinos."
+      },
+      {
+        "title": "3. Pruebas de resistencia (remojo)",
+        "description": "Ejecutar una carga constante durante un período prolongado (por ejemplo, 24 horas) para identificar pérdidas de memoria ocultas o agotamiento de la conexión de la base de datos."
+      },
+      {
+        "title": "4. Informes completos sobre cuellos de botella",
+        "description": "Métricas detalladas sobre tiempos de respuesta, uso de CPU y bloqueos de bases de datos, junto con consejos de optimización prácticos."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Probamos utilizando herramientas de generación de carga de nivel empresarial",
+    "subtitle": "El mejor software para simular tráfico masivo del mundo real",
+    "tools": [
+      {
+        "name": "Apache JMetro",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "k6 (Grafana)",
+        "icon": "SiK6"
+      },
+      {
+        "name": "gatito",
+        "icon": "SiGatling"
+      },
+      {
+        "name": "Perro de datos (APM)",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Nueva reliquia",
+        "icon": "SiNewrelic"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro proceso",
+    "subtitle": "Un enfoque científico para la velocidad de aplicación",
+    "steps": [
+      {
+        "title": "Análisis de referencia",
+        "description": "Definimos sus acuerdos de nivel de servicio (SLA), tiempos de respuesta objetivo y carga de usuarios esperada.",
+        "icon": "FaChartLine"
+      },
+      {
+        "title": "Guión de escenarios",
+        "description": "Escribimos scripts personalizados que imitan comportamientos realistas del usuario (por ejemplo, buscar, agregar al carrito y pagar).",
+        "icon": "FaCode"
+      },
+      {
+        "title": "Ejecución",
+        "description": "Implementamos usuarios virtuales desde múltiples ubicaciones geográficas para bombardear sus servidores con tráfico.",
+        "icon": "FaPlay"
+      },
+      {
+        "title": "Analizar y optimizar",
+        "description": "Aislamos la capa exacta (frontend, API o base de datos) que causa retrasos y ayudamos a su equipo a ajustar el rendimiento.",
+        "icon": "FaWrench"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Garantizar que una plataforma de venta de entradas pueda atender a 100.000 aficionados en 5 minutos",
+    "image": "/all_services/performance_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una plataforma de venta de entradas para eventos se estaba preparando para lanzar un festival de música muy esperado, pero en el pasado había fracasado durante ventas más pequeñas debido a bloqueos en la base de datos."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Diseñamos una prueba de pico utilizando servidores en la nube distribuidos para simular que 100.000 usuarios intentaban comprar boletos simultáneamente, descubriendo cuellos de botella críticos en la API de su pasarela de pago y en el caché de Redis."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Después de aplicar nuestras recomendaciones de ajuste, la plataforma procesó con éxito la avalancha completa de 100 000 usuarios con un tiempo de actividad del 100 % y tiempos de respuesta promedio de menos de 2 segundos."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre pruebas de carga y rendimiento",
+    "questions": [
+      {
+        "question": "¿Cuál es la diferencia entre pruebas de carga y pruebas de estrés?",
+        "answer": "Las pruebas de carga verifican cómo su sistema maneja la cantidad *esperada* de tráfico normal. Las pruebas de estrés llevan al sistema mucho más allá del tráfico esperado para romperlo intencionalmente, lo que nos ayuda a comprender su capacidad máxima absoluta y su comportamiento de falla."
+      },
+      {
+        "question": "¿Las pruebas de rendimiento bloquearán nuestro sitio web en vivo?",
+        "answer": "Puede, por lo que rara vez ejecutamos pruebas de carga pesada en un servidor de producción en vivo. Preferimos ejecutar estas pruebas en un entorno de prueba que refleje perfectamente su hardware de producción, garantizando que sus usuarios reales nunca sean interrumpidos."
+      },
+      {
+        "question": "¿Qué métricas rastreas durante una prueba?",
+        "answer": "Realizamos un seguimiento de una amplia variedad de métricas, incluido el tiempo de respuesta promedio, tasas de error (como errores de puerta de enlace 500 o 502), rendimiento (solicitudes por segundo), utilización de CPU, consumo de memoria y E/S de red."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva un compromiso de prueba de rendimiento?",
+        "answer": "Configurar la infraestructura, escribir los complejos scripts del recorrido del usuario y ejecutar las rondas iniciales de pruebas suele tardar entre 1 y 3 semanas, dependiendo de la complejidad de los flujos de aplicaciones que necesitamos simular."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Programe una auditoría de desempeño",
+      "link_url": "/contact"
+    }
+  }
+}

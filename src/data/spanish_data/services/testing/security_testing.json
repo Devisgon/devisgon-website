@@ -1,0 +1,174 @@
+{
+  "slug": "security_testing",
+  "hero_section": {
+    "title": "Pruebas de seguridad y penetración",
+    "subtitle": "Encuentre las vulnerabilidades antes de que lo hagan los piratas informáticos",
+    "description": "Proteja su aplicación, sus datos de usuario y su reputación. Simulamos ataques cibernéticos del mundo real para identificar y reparar fallas de seguridad críticas en su software antes de que puedan ser explotadas.",
+    "buttons": [
+      {
+        "text": "Asegure su aplicación",
+        "link": "/contact"
+      },
+      {
+        "text": "Habla con un hacker ético",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/security_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas de seguridad?",
+    "content": [
+      "Las pruebas de seguridad son el proceso riguroso de evaluar su software para descubrir vulnerabilidades, amenazas y riesgos. En lugar de esperar a que un ataque malicioso revele los puntos débiles de su sistema, nuestros piratas informáticos éticos certificados toman la ofensiva e intentan violar sus aplicaciones utilizando exactamente las mismas herramientas y técnicas que los ciberdelincuentes del mundo real.",
+      "En Devisgon vamos más allá de los escaneos automatizados. Profundizamos en la lógica, las API y la infraestructura de su aplicación para encontrar lagunas ocultas como inyecciones SQL, secuencias de comandos entre sitios (XSS) y autenticación rota. Luego proporcionamos pasos de solución prácticos para bloquear su sistema por completo."
+    ],
+    "highlight_quote": "\"Si cree que el cumplimiento es costoso, pruebe con una filtración de datos\".",
+    "side_image": "/all_services/security_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Por qué las pruebas de seguridad proactivas son una necesidad empresarial",
+    "cards": [
+      {
+        "title": "Evite costosas infracciones",
+        "description": "Identifique y corrija vulnerabilidades de día cero y fallas críticas antes de que provoquen una pérdida catastrófica de datos o demandas de rescate.",
+        "icon_type": "MdLock"
+      },
+      {
+        "title": "Proteger la reputación de la marca",
+        "description": "Muestre a sus usuarios y clientes empresariales que sus datos confidenciales se manejan con el más alto nivel de seguridad.",
+        "icon_type": "MdVerifiedUser"
+      },
+      {
+        "title": "Garantizar el cumplimiento",
+        "description": "Cumpla con los estrictos requisitos de pruebas de seguridad exigidos por marcos como SOC 2, HIPAA, PCI-DSS y GDPR.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Asegure la cadena de suministro",
+        "description": "Verifique que los complementos, API y bibliotecas de código abierto de terceros no introduzcan riesgos ocultos en su aplicación.",
+        "icon_type": "MdSecurity"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrás cuando elijas las pruebas de seguridad",
+    "image": "/all_services/security_testing/wwg.jpg",
+    "list_items": [
+      {
+        "title": "1. Análisis de vulnerabilidades automatizados",
+        "description": "Barridos rápidos y amplios de su base de código e infraestructura para detectar vulnerabilidades y exposiciones comunes (CVE) conocidas."
+      },
+      {
+        "title": "2. Pruebas de penetración manuales",
+        "description": "Hacking ético profundo y dirigido por humanos dirigido a lógica empresarial compleja y cadenas de explotación sofisticadas."
+      },
+      {
+        "title": "3. Las 10 principales auditorías de OWASP",
+        "description": "Validación rigurosa según el estándar de la industria para los riesgos de seguridad de aplicaciones web más críticos."
+      },
+      {
+        "title": "4. Informes de remediación procesables",
+        "description": "Documentación clara de cada vulnerabilidad encontrada, la gravedad del riesgo e instrucciones exactas a nivel de código sobre cómo solucionarla."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Probamos utilizando herramientas de seguridad estándar de la industria",
+    "subtitle": "El arsenal definitivo para la piratería ética y la detección de vulnerabilidades",
+    "tools": [
+      {
+        "name": "Suite de eructos",
+        "icon": "FaBug"
+      },
+      {
+        "name": "ZAP OWASP",
+        "icon": "FaShieldAlt"
+      },
+      {
+        "name": "Neso",
+        "icon": "SiNessus"
+      },
+      {
+        "name": "metasploit",
+        "icon": "FaTerminal"
+      },
+      {
+        "name": "Wireshark",
+        "icon": "SiWireshark"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro proceso",
+    "subtitle": "Un enfoque estructurado para el hacking ético",
+    "steps": [
+      {
+        "title": "Reconocimiento",
+        "description": "Mapeamos la superficie de ataque de su aplicación, identificando puntos finales, subdominios y pilas de tecnología expuestos.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Exploración",
+        "description": "Utilizamos herramientas automatizadas avanzadas para identificar configuraciones erróneas y vulnerabilidades conocidas.",
+        "icon": "FaRadar"
+      },
+      {
+        "title": "Explotación (Pentesting)",
+        "description": "Nuestros ingenieros intentan explotar manualmente las vulnerabilidades descubiertas para determinar su impacto real.",
+        "icon": "FaUnlockAlt"
+      },
+      {
+        "title": "Informes y parches",
+        "description": "Entregamos un informe de riesgos completo y trabajamos con su equipo de desarrollo para verificar que los parches sean efectivos.",
+        "icon": "FaFileContract"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Se evitó una fuga masiva de datos en un portal de atención médica.",
+    "image": "/all_services/security_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "A una startup de telesalud le faltaban semanas para lanzar su portal para pacientes, pero necesitaba una auditoría de seguridad final para cumplir con las regulaciones HIPAA."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Durante nuestra prueba de penetración manual, descubrimos una grave vulnerabilidad de referencia directa a objetos inseguros (IDOR) que permitía a cualquier usuario acceder a los registros médicos de otros pacientes manipulando la URL."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Proporcionamos un código de remediación inmediata. La vulnerabilidad se corrigió antes del lanzamiento, evitando una violación catastrófica de HIPAA y preservando el futuro de la startup."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre ciberseguridad y pruebas de penetración",
+    "questions": [
+      {
+        "question": "¿Cuál es la diferencia entre un análisis de vulnerabilidades y una prueba de penetración?",
+        "answer": "Un análisis de vulnerabilidades es un proceso automatizado que verifica sus sistemas en busca de fallas conocidas y las informa. Una prueba de penetración (Pentest) es un proceso manual dirigido por humanos en el que un hacker ético intenta activamente explotar esas fallas para ver qué tan profundo puede llegar al sistema, simulando un ataque del mundo real."
+      },
+      {
+        "question": "¿Es seguro realizar pruebas de seguridad en un entorno de producción en vivo?",
+        "answer": "Si bien podemos probar los entornos de producción cuidadosamente, recomendamos encarecidamente realizar pruebas de seguridad intrusivas (como pruebas de penetración) en un entorno provisional o de réplica. Esto garantiza que no haya absolutamente ninguna interrupción para sus usuarios activos ni riesgo de corrupción accidental de datos."
+      },
+      {
+        "question": "¿Con qué frecuencia debemos realizar pruebas de seguridad?",
+        "answer": "Las mejores prácticas dictan la ejecución continua de análisis de vulnerabilidades automatizados (integrados en su proceso de CI/CD). Las pruebas de penetración manuales profundas deben realizarse al menos una vez al año o inmediatamente después de cualquier cambio importante en la arquitectura o lanzamiento de funciones importantes."
+      },
+      {
+        "question": "¿Qué sucede después de encontrar una vulnerabilidad?",
+        "answer": "No nos limitamos a entregarle una lista de problemas. Proporcionamos un informe detallado que clasifica las vulnerabilidades por gravedad (crítica, alta, media, baja) junto con instrucciones de solución paso a paso. Una vez que sus desarrolladores aplican la solución, realizamos una \"nueva prueba\" para garantizar que la laguna se cierre permanentemente."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Programe una consulta de seguridad",
+      "link_url": "/contact"
+    }
+  }
+}

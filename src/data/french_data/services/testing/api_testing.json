@@ -1,0 +1,174 @@
+{
+  "slug": "api_testing",
+  "hero_section": {
+    "title": "Services de tests d'API",
+    "subtitle": "Protégez l'épine dorsale de votre application",
+    "description": "Assurez-vous que vos API sont sécurisées, hautement performantes et fonctionnent parfaitement. Nous testons rigoureusement votre architecture backend pour éviter les fuites de données, éliminer les goulots d'étranglement et garantir des intégrations transparentes.",
+    "buttons": [
+      {
+        "text": "Tester mon API",
+        "link": "/contact"
+      },
+      {
+        "text": "Parlez à un ingénieur QA",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/api_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "Test d'API ?",
+    "content": [
+      "Les API (Application Programming Interfaces) sont les ponts invisibles reliant votre interface frontend à vos bases de données backend et aux services tiers externes. Si votre API échoue, est lente ou présente une vulnérabilité, l'ensemble de votre application en souffre.",
+      "Contrairement aux tests d'interface utilisateur traditionnels, les tests d'API contournent l'interface graphique pour interagir directement avec la logique principale de votre logiciel. Chez Devisgon, nous validons vos points de terminaison REST, GraphQL et SOAP pour la fonctionnalité, la fiabilité, la capacité de charge et la sécurité. Nous garantissons que votre système communique parfaitement et en toute sécurité dans toutes les conditions."
+    ],
+    "highlight_quote": "\"Les bugs trouvés au niveau de la couche API sont 10 fois moins chers à corriger que ceux trouvés dans l'interface utilisateur.\"",
+    "side_image": "/all_services/api_testing/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi tester votre API n'est pas négociable",
+    "cards": [
+      {
+        "title": "Détection précoce des bogues",
+        "description": "Testez la logique métier de base bien avant même la création de l’interface utilisateur graphique (UI), ce qui permet d’économiser un temps de développement considérable.",
+        "icon_type": "MdBugReport"
+      },
+      {
+        "title": "Sécurité incassable",
+        "description": "Assurez-vous que les données sensibles sont correctement cryptées et que les protocoles d'authentification (comme OAuth et JWT) sont entièrement sécurisés.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Cycles de publication plus rapides",
+        "description": "Les tests d'API s'exécutent en millisecondes par rapport aux tests automatisés d'interface utilisateur lents et fragiles, ce qui accélère considérablement votre pipeline CI/CD.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Intégrations transparentes",
+        "description": "Garantissez que votre logiciel communique parfaitement avec des outils tiers comme les passerelles de paiement ou les CRM.",
+        "icon_type": "MdSync"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant les tests API",
+    "image": "/all_services/api_testing/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Validation du point final fonctionnel",
+        "description": "Tests rigoureux des méthodes de requête (GET, POST, PUT, DELETE) et validation des réponses correctes de la charge utile JSON/XML."
+      },
+      {
+        "title": "2. Tests de charge et de performances",
+        "description": "Testez vos points de terminaison pour voir comment ils gèrent les pics de trafic massifs et les demandes simultanées des utilisateurs."
+      },
+      {
+        "title": "3. Audits de sécurité et d'authentification",
+        "description": "Attaques simulées pour vérifier les vulnérabilités telles que l'injection SQL, l'authentification interrompue et les points de terminaison exposés."
+      },
+      {
+        "title": "4. Suites de tests automatisés",
+        "description": "Une suite complète de scripts API automatisés qui s'intègrent parfaitement à vos pipelines de déploiement existants."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous testons à l'aide d'outils d'assurance qualité conformes aux normes de l'industrie",
+    "subtitle": "Les meilleurs frameworks pour une validation d'API précise et automatisée",
+    "tools": [
+      {
+        "name": "Facteur",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Fanfaronnade",
+        "icon": "SiSwagger"
+      },
+      {
+        "name": "JMètre",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "Rassurez-vous",
+        "icon": "FaJava"
+      },
+      {
+        "name": "SavonUI",
+        "icon": "TbApi"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Une approche systématique de l’assurance qualité backend",
+    "steps": [
+      {
+        "title": "Analyser les exigences",
+        "description": "Nous examinons la documentation de votre API (par exemple, les spécifications Swagger/OpenAPI) et définissons la portée des tests.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Scénarios de conception",
+        "description": "Nous rédigeons des cas de test complets couvrant les entrées de données positives, négatives et extrêmes.",
+        "icon": "FaFileAlt"
+      },
+      {
+        "title": "Automatiser et exécuter",
+        "description": "Nous construisons des scripts automatisés pour atteindre vos points de terminaison, en vérifiant les codes de réponse, les heures et les charges utiles de données.",
+        "icon": "FaRobot"
+      },
+      {
+        "title": "Rapporter et intégrer",
+        "description": "Nous fournissons des rapports de bogues détaillés et intégrons la suite de tests directement dans votre pipeline CI/CD.",
+        "icon": "FaChartBar"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Élimination des délais d'attente des passerelles de paiement et augmentation des conversions de 15 %",
+    "image": "/all_services/api_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une application fintech rencontrait des échecs de transactions aléatoires, car son interface utilisateur mobile ne pouvait pas gérer les réponses lentes d'une API de paiement tierce."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons mis en œuvre une suite de tests automatisés de performances des API, révélant un grave goulot d'étranglement lors de l'analyse de la charge utile qui ne se produisait que sous une forte charge du serveur."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "En identifiant et en résolvant le problème du backend, les erreurs de délai d'attente ont été complètement éliminées, ce qui a entraîné une augmentation de 15 % des transactions réussies."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur l’assurance qualité du back-end",
+    "questions": [
+      {
+        "question": "Pourquoi ai-je besoin de tests d'API si je fais déjà des tests d'interface utilisateur ?",
+        "answer": "Les tests d’interface utilisateur sont lents, fragiles et vérifient uniquement ce que l’utilisateur voit. Les tests API vérifient la logique métier et les données réelles. Étant donné que les API peuvent être testées sans interface graphique, vous pouvez rechercher et corriger les bogues critiques beaucoup plus tôt dans le cycle de vie du développement."
+      },
+      {
+        "question": "Testez-vous les API REST et GraphQL ?",
+        "answer": "Oui. Nous possédons une vaste expérience dans les tests d'architectures RESTful traditionnelles, de services Web SOAP et de points de terminaison GraphQL modernes où les requêtes et les mutations nécessitent des validations de structure de données spécifiques."
+      },
+      {
+        "question": "Pouvez-vous tester des API qui nécessitent une authentification complexe ?",
+        "answer": "Absolument. Nous écrivons régulièrement des scripts de test qui gèrent des flux d'authentification complexes en plusieurs étapes, notamment OAuth 2.0, JWT (JSON Web Tokens), les clés API et les cookies de session."
+      },
+      {
+        "question": "Ces tests s'exécuteront-ils automatiquement ?",
+        "answer": "Oui! L'objectif ultime de notre service de test d'API est l'automatisation. Nous emballons nos suites de tests à l'aide d'outils tels que Postman (Newman) ou REST Assured afin qu'elles puissent être déclenchées automatiquement par votre pipeline CI/CD chaque fois que vos développeurs envoient un nouveau code."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Contactez nos experts QA",
+      "link_url": "/contact"
+    }
+  }
+}

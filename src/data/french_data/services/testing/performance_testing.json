@@ -1,0 +1,174 @@
+{
+  "slug": "performance_testing",
+  "hero_section": {
+    "title": "Tests de performances et de charge",
+    "subtitle": "Assurez-vous que votre application évolue sous pression",
+    "description": "Ne laissez pas les pics de trafic détruire votre entreprise. Nous testons rigoureusement votre logiciel pour garantir des temps de chargement ultra-rapides, une stabilité sans faille et une expérience utilisateur optimale sous des charges d'utilisateurs massives.",
+    "buttons": [
+      {
+        "text": "Test de résistance de mon application",
+        "link": "/contact"
+      },
+      {
+        "text": "Parlez à un expert en performances",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/performance_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "Tests de performances ?",
+    "content": [
+      "Les tests de performances consistent à soumettre votre application à un stress simulé dans le monde réel pour voir exactement comment elle se comporte, où elle présente des goulots d'étranglement et à quel moment elle se brise complètement. Il répond à la question cruciale : « Nos serveurs survivront-ils si notre campagne marketing devient virale ? » [Image d'un graphique de test de charge de performances montrant l'évolution des utilisateurs virtuels par rapport au temps de réponse des applications et à la charge du processeur du serveur]",
+      "Chez Devisgon, nous simulons des milliers d'utilisateurs simultanés accédant simultanément à vos API, bases de données et serveurs Web. En identifiant les fuites de mémoire, les requêtes de base de données lentes et les ressources serveur inadéquates avant votre grand lancement, nous garantissons que votre application ne laisse jamais vos clients regarder un écran de chargement."
+    ],
+    "highlight_quote": "\"Dans le monde numérique, lent n'est qu'un autre mot pour dire cassé.\"",
+    "side_image": "/all_services/performance_testing/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi vitesse et stabilité sont synonymes de revenus",
+    "cards": [
+      {
+        "title": "Survivre aux pics de trafic",
+        "description": "Assurez-vous que votre application reste en ligne et fonctionnelle pendant les ventes du Black Friday, les événements viraux ou les lancements de produits majeurs.",
+        "icon_type": "MdTrendingUp"
+      },
+      {
+        "title": "Prévenir la perte de revenus",
+        "description": "Un délai d'une seconde dans la réponse de la page peut entraîner une réduction de 7 % des conversions. Nous maintenons votre application ultra-rapide.",
+        "icon_type": "MdAttachMoney"
+      },
+      {
+        "title": "Optimiser les coûts du serveur",
+        "description": "Arrêtez de mettre à niveau aveuglément vos serveurs cloud. Nous identifions les goulots d'étranglement exacts du code afin que vous puissiez évoluer efficacement.",
+        "icon_type": "MdSavings"
+      },
+      {
+        "title": "Protéger la réputation de la marque",
+        "description": "Rien n’endommage une marque plus rapidement qu’un site Web en panne. Offrez une expérience toujours premium.",
+        "icon_type": "MdVerifiedUser"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant les tests de performances",
+    "image": "/all_services/performance_testing/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Test de charge",
+        "description": "Simuler le nombre attendu d'utilisateurs simultanés pour vérifier que votre système répond à vos critères de performances de base."
+      },
+      {
+        "title": "2. Tests de stress et de pointes",
+        "description": "Poussez votre application bien au-delà de ses limites pour trouver son point de rupture et tester comment elle récupère après des surtensions soudaines."
+      },
+      {
+        "title": "3. Test d'endurance (trempage)",
+        "description": "Exécuter une charge constante sur une longue période (par exemple, 24 heures) pour identifier les fuites de mémoire cachées ou l'épuisement de la connexion à la base de données."
+      },
+      {
+        "title": "4. Rapports complets sur les goulots d'étranglement",
+        "description": "Des mesures détaillées sur les temps de réponse, l'utilisation du processeur et les verrous de base de données, ainsi que des conseils d'optimisation exploitables."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous testons à l'aide d'outils de génération de charge de niveau entreprise",
+    "subtitle": "Le meilleur logiciel pour simuler un trafic massif dans le monde réel",
+    "tools": [
+      {
+        "name": "Apache JMeter",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "k6 (Grafana)",
+        "icon": "SiK6"
+      },
+      {
+        "name": "Gatling",
+        "icon": "SiGatling"
+      },
+      {
+        "name": "Datadog (APM)",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Nouvelle relique",
+        "icon": "SiNewrelic"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Une approche scientifique de la vitesse d’application",
+    "steps": [
+      {
+        "title": "Analyse de base",
+        "description": "Nous définissons vos accords de niveau de service (SLA), les temps de réponse cibles et la charge utilisateur attendue.",
+        "icon": "FaChartLine"
+      },
+      {
+        "title": "Script de scénario",
+        "description": "Nous écrivons des scripts personnalisés qui imitent des comportements réalistes des utilisateurs (par exemple, recherche, ajout au panier et paiement).",
+        "icon": "FaCode"
+      },
+      {
+        "title": "Exécution",
+        "description": "Nous déployons des utilisateurs virtuels à partir de plusieurs emplacements géographiques pour bombarder vos serveurs de trafic.",
+        "icon": "FaPlay"
+      },
+      {
+        "title": "Analyser et optimiser",
+        "description": "Nous isolons la couche exacte (frontend, API ou base de données) qui provoque des retards et aidons votre équipe à optimiser les performances.",
+        "icon": "FaWrench"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "S'assurer qu'une plateforme de billetterie puisse gérer 100 000 fans en 5 minutes",
+    "image": "/all_services/performance_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une plateforme de billetterie événementielle s'apprêtait à lancer un festival de musique très attendu, mais elle s'est arrêtée par le passé lors de ventes plus modestes en raison de blocages dans la base de données."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons conçu un test de pointe utilisant des serveurs cloud distribués pour simuler 100 000 utilisateurs tentant d'acheter des billets simultanément, révélant ainsi des goulots d'étranglement critiques dans l'API de leur passerelle de paiement et dans le cache Redis."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "Après avoir appliqué nos recommandations de réglage, la plateforme a traité avec succès l'intégralité de la ruée vers les 100 000 utilisateurs avec une disponibilité de 100 % et des temps de réponse moyens inférieurs à 2 secondes."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur les tests de performances et de charge",
+    "questions": [
+      {
+        "question": "Quelle est la différence entre les tests de charge et les tests de contrainte ?",
+        "answer": "Les tests de charge vérifient comment votre système gère la quantité *attendue* de trafic normal. Les tests de résistance poussent le système bien au-delà du trafic attendu pour le briser intentionnellement, nous aidant ainsi à comprendre sa capacité maximale absolue et son comportement en cas de panne."
+      },
+      {
+        "question": "Les tests de performances vont-ils faire planter notre site Web en direct ?",
+        "answer": "C’est possible, c’est pourquoi nous exécutons rarement des tests à forte charge sur un serveur de production en direct ! Nous préférons exécuter ces tests sur un environnement de test qui reflète parfaitement votre matériel de production, garantissant ainsi que vos utilisateurs réels ne sont jamais interrompus."
+      },
+      {
+        "question": "Quelles métriques suivez-vous lors d’un test ?",
+        "answer": "Nous suivons une grande variété de mesures, notamment le temps de réponse moyen, les taux d'erreur (comme les erreurs de passerelle 500 ou 502), le débit (requêtes par seconde), l'utilisation du processeur, la consommation de mémoire et les E/S réseau."
+      },
+      {
+        "question": "Combien de temps dure une mission de test de performances ?",
+        "answer": "La configuration de l'infrastructure, l'écriture des scripts complexes de parcours utilisateur et l'exécution des premières séries de tests prennent généralement entre 1 et 3 semaines, en fonction de la complexité des flux d'applications que nous devons simuler."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Planifier un audit de performance",
+      "link_url": "/contact"
+    }
+  }
+}

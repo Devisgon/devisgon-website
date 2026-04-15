@@ -1,0 +1,174 @@
+{
+  "slug": "devops_consulting",
+  "hero_section": {
+    "title": "Conseil DevOps",
+    "subtitle": "Comblez le fossé entre le développement et les opérations",
+    "description": "Nous aidons les organisations à rationaliser leur cycle de vie de livraison de logiciels. Grâce à la transformation culturelle, à l’automatisation et à l’architecture cloud native, nous accélérons votre mise sur le marché et améliorons la fiabilité du système.",
+    "buttons": [
+      {
+        "text": "Réservez un audit DevOps",
+        "link": "/contact"
+      },
+      {
+        "text": "Parlez à un expert",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/devops_consulting.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "Conseil DevOps ?",
+    "content": [
+      "DevOps est plus qu'un simple ensemble d'outils ; il s'agit d'un changement culturel fondamental qui comble le fossé entre l'ingénierie logicielle (Dev) et les opérations informatiques (Ops). Chez Devisgon, nos services de conseil DevOps vous aident à éliminer les silos organisationnels, à automatiser les processus manuels et à créer une culture d'amélioration continue et rapide.",
+      "Que vous soyez confronté à des échecs de déploiement fréquents, à des cycles de publication lents ou à des coûts d'infrastructure cloud qui montent en flèche, nos experts évaluent vos flux de travail actuels. Nous concevons et mettons ensuite en œuvre un écosystème évolutif, sécurisé et automatisé adapté spécifiquement à vos objectifs commerciaux."
+    ],
+    "highlight_quote": "« Le DevOps n'est pas un objectif, mais un processus sans fin d'amélioration continue. »",
+    "side_image": "/all_services/devops_consulting/introduction.avif"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Le ROI d’une transformation DevOps réussie",
+    "cards": [
+      {
+        "title": "Livraison accélérée",
+        "description": "Raccourcissez vos cycles de publication et commercialisez de nouvelles fonctionnalités plus rapidement que vos concurrents.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Fiabilité améliorée",
+        "description": "Réduisez les temps d’arrêt et les échecs de déploiement grâce à des stratégies automatisées de test, de préparation et de restauration.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Optimisation des coûts",
+        "description": "Maximisez votre budget en dimensionnant correctement l'infrastructure cloud et en éliminant le gaspillage de ressources inutilisées.",
+        "icon_type": "MdSavings"
+      },
+      {
+        "title": "Collaboration améliorée",
+        "description": "Favoriser une culture de responsabilité partagée entre les équipes de développement, d’assurance qualité et d’exploitation.",
+        "icon_type": "MdHandshake"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant DevOps Consulting",
+    "image": "/all_services/devops_consulting/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Audit complet des infrastructures",
+        "description": "Une analyse approfondie de votre architecture actuelle, de vos référentiels de code et des goulots d'étranglement de déploiement."
+      },
+      {
+        "title": "2. Feuille de route de transformation stratégique",
+        "description": "Un plan étape par étape pour migrer vers un écosystème moderne, cloud natif et automatisé."
+      },
+      {
+        "title": "3. Modernisation de la chaîne d'outils",
+        "description": "Sélection par des experts et intégration des meilleurs outils CI/CD, de surveillance et d'Infrastructure as Code (IaC)."
+      },
+      {
+        "title": "4. Perfectionnement des compétences et mentorat des équipes",
+        "description": "Formation pratique pour vos équipes internes afin de garantir qu'elles peuvent maintenir et faire évoluer les nouveaux flux de travail."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous consultons sur des plateformes standards de l’industrie",
+    "subtitle": "Les meilleurs outils d'automatisation, d'orchestration et de provisionnement",
+    "tools": [
+      {
+        "name": "Terraforme",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Ansible",
+        "icon": "SiAnsible"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Un chemin structuré vers la maturité DevOps",
+    "steps": [
+      {
+        "title": "Évaluer",
+        "description": "Nous évaluons vos flux de travail actuels, la structure de votre équipe et votre infrastructure pour identifier les points sensibles critiques.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Élaborer une stratégie",
+        "description": "Nous concevons le modèle opérationnel cible, les plans architecturaux et sélectionnons la chaîne d'outils optimale.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Mettre en œuvre",
+        "description": "Nous construisons votre infrastructure en tant que code (IaC), vos pipelines CI/CD et vos cadres de tests automatisés.",
+        "icon": "FaCogs"
+      },
+      {
+        "title": "Optimiser",
+        "description": "Nous établissons une surveillance 24h/24 et 7j/7, ajustons les performances, réduisons les coûts du cloud et formons votre personnel.",
+        "icon": "FaChartLine"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Les déploiements ont augmenté de 400 % tout en réduisant les coûts du cloud de 35 %",
+    "image": "/all_services/devops_consulting/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une startup technologique en croissance rapide était confrontée à des déploiements manuels imprévisibles et à des factures cloud massives en raison d'une infrastructure inefficace et non surveillée."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons effectué un audit DevOps complet, migré leur infrastructure vers le code (IaC) à l'aide de Terraform et établi des pipelines CI/CD automatisés."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "La fréquence de déploiement a augmenté de 400 %, les temps de restauration ont été réduits à quelques minutes et le dimensionnement adéquat des ressources a réduit leurs dépenses cloud mensuelles de 35 %."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur nos services de conseil",
+    "questions": [
+      {
+        "question": "Nous utilisons déjà Docker et GitHub. Avons-nous encore besoin de conseil DevOps ?",
+        "answer": "Les outils ne sont qu’une pièce du puzzle. Souvent, les équipes disposent des bons outils mais les utilisent de manière inefficace avec des processus défectueux. Nous nous concentrons sur l'architecture, la logique d'automatisation et la culture d'équipe nécessaires pour maximiser le retour sur investissement de ces outils."
+      },
+      {
+        "question": "Qu’est-ce que l’infrastructure en tant que code (IaC) ?",
+        "answer": "IaC consiste à gérer et à provisionner vos serveurs et ressources cloud via des fichiers de code lisibles par machine (comme Terraform), plutôt que de cliquer manuellement sur un tableau de bord. Cela rend votre infrastructure contrôlable par version, reproductible et beaucoup moins sujette aux erreurs humaines."
+      },
+      {
+        "question": "Combien de temps prend une transformation DevOps ?",
+        "answer": "Cela varie en fonction de la taille de votre organisation et de la complexité de vos systèmes existants. Cependant, un audit initial complet et la mise en place d'un pipeline CI/CD de base et d'une infrastructure MVP prennent généralement 4 à 8 semaines."
+      },
+      {
+        "question": "Fournissez-vous des services gérés continus après la phase de conseil ?",
+        "answer": "Oui. Bien que notre objectif principal soit de perfectionner les compétences de votre équipe afin qu'elle puisse s'approprier le processus, nous proposons également des accords Managed DevOps continus dans lesquels nous surveillons, maintenons et améliorons continuellement votre infrastructure moyennant un forfait mensuel."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Planifiez un appel découverte aujourd'hui",
+      "link_url": "/contact"
+    }
+  }
+}

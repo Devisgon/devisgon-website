@@ -1,0 +1,174 @@
+{
+  "slug": "cicd_pipelines",
+  "hero_section": {
+    "title": "CI/CD-Pipelines",
+    "subtitle": "Beschleunigen Sie Ihre Softwarebereitstellung",
+    "description": "Automatisieren Sie Ihre Build-, Test- und Bereitstellungsprozesse. Wir entwerfen robuste CI/CD-Pipelines, die manuelle Fehler beseitigen, die Release-Geschwindigkeit erhöhen und sicherstellen, dass Ihre Software immer produktionsbereit ist.",
+    "buttons": [
+      {
+        "text": "Automatisieren Sie meine Bereitstellungen",
+        "link": "/contact"
+      },
+      {
+        "text": "Sprechen Sie mit einem DevOps-Experten",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cicd_pipelines.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was sind",
+    "span_heading": "CI/CD-Pipelines?",
+    "content": [
+      "Continuous Integration (CI) und Continuous Deployment (CD) bilden das Rückgrat des modernen Software-Engineerings. CI führt die Codeänderungen Ihrer Entwickler automatisch zusammen und testet sie, während CD die Veröffentlichung dieses validierten Codes auf Ihren Live-Servern automatisiert.",
+      "Bei Devisgon beseitigen wir das berüchtigte Problem „Es funktioniert auf meinem Computer“. Indem wir benutzerdefinierte Pipelines erstellen, die genau auf Ihren Tech-Stack zugeschnitten sind, ermöglichen wir Ihrem Team, Code mit absoluter Sicherheit zu pushen, in der Gewissheit, dass automatisierte Qualitätstore Fehler erkennen, bevor sie Ihre Benutzer erreichen."
+    ],
+    "highlight_quote": "„Code schneller versenden. Dinge weniger kaputt machen.“",
+    "side_image": "/all_services/ci_cd_pipeline/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Hauptvorteile",
+    "subtitle": "Warum Automatisierung die Zukunft der Bereitstellung ist",
+    "cards": [
+      {
+        "title": "Schnellere Time-to-Market",
+        "description": "Geben Sie Ihren Benutzern neue Funktionen und Fehlerbehebungen innerhalb von Minuten statt Wochen frei.",
+        "icon_type": "MdTimer"
+      },
+      {
+        "title": "Reduzierte menschliche Fehler",
+        "description": "Eliminieren Sie manuelle Serverkonfigurationen und das Einfügen von Kopien, die zu katastrophalen Ausfallzeiten führen.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Mühelose Rollbacks",
+        "description": "Sollte ein fehlerhaftes Update durchschlüpfen, ermöglichen Ihnen unsere Pipelines, sofort zur letzten stabilen Version zurückzukehren.",
+        "icon_type": "MdRestore"
+      },
+      {
+        "title": "Entwicklerproduktivität",
+        "description": "Befreien Sie Ihre Ingenieure von mühsamen Bereitstellungsaufgaben, damit sie sich auf das Schreiben von großartigem Code konzentrieren können.",
+        "icon_type": "MdCode"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie bekommen, wenn Sie sich für CI/CD Pipelines entscheiden",
+    "image": "/all_services/ci_cd_pipeline/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Automatisierte Build-Prozesse",
+        "description": "Bei jedem Commit wird der Code automatisch kompiliert, gelintet und in sichere Container (wie Docker) gepackt."
+      },
+      {
+        "title": "2. Integrierte automatisierte Tests",
+        "description": "Unit-, Integrations- und Sicherheitstests werden automatisch ausgeführt, um die Zusammenführung fehlerhaften Codes zu verhindern."
+      },
+      {
+        "title": "3. Bereitstellungen ohne Ausfallzeiten",
+        "description": "Erweiterte Bereitstellungsstrategien (wie Blue-Green oder Canary), damit Ihre App während Updates aktiv bleibt."
+      },
+      {
+        "title": "4. Leistungsüberwachung",
+        "description": "Warnungen und Dashboards, die Ihr Team sofort benachrichtigen, wenn ein Build fehlschlägt oder eine Bereitstellung ins Stocken gerät."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir automatisieren mit branchenführenden Tools",
+    "subtitle": "Die besten DevOps-Plattformen für zuverlässige, skalierbare Pipelines",
+    "tools": [
+      {
+        "name": "GitHub-Aktionen",
+        "icon": "SiGithubactions"
+      },
+      {
+        "name": "GitLab CI",
+        "icon": "FaGitlab"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "SiJenkins"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Wie wir Ihre Softwarebereitstellung optimieren",
+    "steps": [
+      {
+        "title": "Infrastrukturaudit",
+        "description": "Wir analysieren Ihre aktuelle Hosting-Umgebung, Codebasis und Bereitstellungsengpässe.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Pipeline-Architektur",
+        "description": "Wir entwerfen die Workflow-Logik, definieren Staging-Umgebungen und Test-Gates.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Skripterstellung und Integration",
+        "description": "Wir schreiben die Konfigurationsdateien (YAML) und verbinden Ihr Repository mit Ihrem Cloud-Anbieter.",
+        "icon": "FaTerminal"
+      },
+      {
+        "title": "Prüfung & Übergabe",
+        "description": "Wir führen Testbereitstellungen durch, dokumentieren die Pipeline und schulen Ihr Entwicklerteam im neuen Workflow.",
+        "icon": "FaCheckDouble"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Reduzierte Bereitstellungszeit von 4 Stunden auf 15 Minuten",
+    "image": "/all_services/ci_cd_pipeline/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "Ein SaaS-Unternehmen führte manuelle Bereitstellungen durch, bei denen die Website jedes Wochenende stundenlang offline geschaltet werden musste, was zu einem Burnout bei den Entwicklern führte."
+      },
+      "solution": {
+        "label": "Lösung",
+        "text": "Wir haben eine vollständig automatisierte CI/CD-Pipeline mithilfe von GitHub Actions, Docker und AWS Elastic Beanstalk mit einer fortlaufenden Bereitstellungsstrategie implementiert."
+      },
+      "result": {
+        "label": "Ergebnis",
+        "text": "Die Bereitstellung erfolgt jetzt automatisch in 15 Minuten ohne Ausfallzeiten, sodass das Team Funktionen mehrmals am Tag veröffentlichen kann."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Erhalten Sie Antworten zu DevOps und CI/CD",
+    "questions": [
+      {
+        "question": "Was ist der Unterschied zwischen Continuous Delivery und Continuous Deployment?",
+        "answer": "Continuous Delivery bedeutet, dass Ihr Code automatisch getestet wird und zur Bereitstellung bereit ist, ein Mensch jedoch noch den letzten „Veröffentlichen“-Knopf drücken muss. Continuous Deployment geht noch einen Schritt weiter: Jede Codeänderung, die die automatisierten Tests besteht, wird ohne menschliches Eingreifen direkt in der Produktion bereitgestellt."
+      },
+      {
+        "question": "Benötige ich CI/CD, wenn ich ein kleines Entwicklungsteam habe?",
+        "answer": "Ja! CI/CD ist für kleine Teams wohl noch wichtiger. Es fungiert als digitales Sicherheitsnetz, das Fehler automatisch erkennt und Ihre begrenzte Entwicklungsarbeit davor bewahrt, durch wiederholte Server-Uploads verschwendet zu werden."
+      },
+      {
+        "question": "Funktioniert eine CI/CD-Pipeline mit meiner vorhandenen Codebasis?",
+        "answer": "Absolut. Unabhängig davon, ob Sie über eine veraltete monolithische Anwendung oder moderne Microservices verfügen, können wir eine Pipeline darauf aufbauen. Die Pipeline-Skripte teilen dem Server lediglich mit, wie er Ihren spezifischen Code erstellen und verschieben soll."
+      },
+      {
+        "question": "Was passiert, wenn eine Bereitstellung fehlschlägt oder die Live-Site unterbrochen wird?",
+        "answer": "Eine ordnungsgemäß konzipierte CI/CD-Pipeline verhindert dies. In der „CI“-Phase werden Kompilierungs- oder Testfehler erkannt und die Bereitstellung blockiert. Wenn ein Fehler irgendwie in die „CD“-Phase gelangt, konfigurieren wir sofortige Rollback-Befehle, sodass Sie in Sekundenschnelle zur vorherigen Arbeitsversion zurückkehren können."
+      }
+    ],
+    "footer": {
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
+      "link_text": "Kontaktieren Sie uns für eine kostenlose DevOps-Beratung",
+      "link_url": "/contact"
+    }
+  }
+}

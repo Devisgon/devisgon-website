@@ -1,0 +1,174 @@
+{
+  "slug": "api_testing",
+  "hero_section": {
+    "title": "API Testing Services",
+    "subtitle": "Bulletproof Your Application's Backbone",
+    "description": "Ensure your APIs are secure, highly performant, and functioning flawlessly. We rigorously test your backend architecture to prevent data leaks, eliminate bottlenecks, and guarantee seamless integrations.",
+    "buttons": [
+      {
+        "text": "Test My API",
+        "link": "/contact"
+      },
+      {
+        "text": "Speak to a QA Engineer",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/api_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is",
+    "span_heading": " API Testing?",
+    "content": [
+      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third-party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
+      "Unlike traditional UI testing, API testing bypasses the graphical interface to interact directly with your software's core logic. At Devisgon, we validate your REST, GraphQL, and SOAP endpoints for functionality, reliability, load capacity, and security. We ensure your system communicates flawlessly and securely under any condition."
+    ],
+    "highlight_quote": " “Bugs found at the API layer are 10x cheaper to fix than those found in the UI.” ",
+    "side_image": "/all_services/api_testing/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Why testing your API is non-negotiable",
+    "cards": [
+      {
+        "title": "Early Bug Detection",
+        "description": "Test core business logic long before the graphical user interface (UI) is even built, saving massive development time.",
+        "icon_type": "MdBugReport"
+      },
+      {
+        "title": "Unbreakable Security",
+        "description": "Ensure sensitive data is properly encrypted and authentication protocols (like OAuth and JWT) are completely secure.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Faster Release Cycles",
+        "description": "API tests execute in milliseconds compared to slow, brittle UI automated tests, vastly speeding up your CI/CD pipeline.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Seamless Integrations",
+        "description": "Guarantee that your software communicates perfectly with third-party tools like payment gateways or CRMs.",
+        "icon_type": "MdSync"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What you'll get when you choose API Testing",
+    "image": "/all_services/api_testing/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Functional Endpoint Validation",
+        "description": "Rigorous testing of request methods (GET, POST, PUT, DELETE) and validation of correct JSON/XML payload responses."
+      },
+      {
+        "title": "2. Load & Performance Testing",
+        "description": "Stress-testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
+      },
+      {
+        "title": "3. Security & Auth Audits",
+        "description": "Simulated attacks to check for vulnerabilities like SQL injection, broken authentication, and exposed endpoints."
+      },
+      {
+        "title": "4. Automated Test Suites",
+        "description": "A comprehensive suite of automated API scripts that integrate seamlessly into your existing deployment pipelines."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We test using industry-standard QA tools",
+    "subtitle": "The best frameworks for accurate and automated API validation",
+    "tools": [
+      {
+        "name": "Postman",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Swagger",
+        "icon": "SiSwagger"
+      },
+      {
+        "name": "JMeter",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "REST Assured",
+        "icon": "FaJava"
+      },
+      {
+        "name": "SoapUI",
+        "icon": "TbApi"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "A systematic approach to backend quality assurance",
+    "steps": [
+      {
+        "title": "Analyze Requirements",
+        "description": "We review your API documentation (e.g., Swagger/OpenAPI specs) and define the testing scope.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design Scenarios",
+        "description": "We write comprehensive test cases covering positive, negative, and edge-case data inputs.",
+        "icon": "FaFileAlt"
+      },
+      {
+        "title": "Automate & Execute",
+        "description": "We build automated scripts to hit your endpoints, verifying response codes, times, and data payloads.",
+        "icon": "FaRobot"
+      },
+      {
+        "title": "Report & Integrate",
+        "description": "We provide detailed bug reports and integrate the test suite directly into your CI/CD pipeline.",
+        "icon": "FaChartBar"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Eliminated payment gateway timeouts and increased conversions by 15%",
+    "image": "/all_services/api_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third-party payment API."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "We implemented a suite of automated API performance tests, uncovering a severe payload parsing bottleneck that only occurred under heavy server load."
+      },
+      "result": {
+        "label": "Result",
+        "text": "By pinpointing and fixing the backend issue, timeout errors were completely eliminated, resulting in a 15% increase in successful transactions."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about backend quality assurance",
+    "questions": [
+      {
+        "question": "Why do I need API testing if I am already doing UI testing?",
+        "answer": "UI testing is slow, brittle, and only verifies what the user sees. API testing verifies the actual business logic and data. Because APIs can be tested without a graphical interface, you can find and fix critical bugs much earlier in the development lifecycle."
+      },
+      {
+        "question": "Do you test both REST and GraphQL APIs?",
+        "answer": "Yes. We have extensive experience testing traditional RESTful architectures, SOAP web services, and modern GraphQL endpoints where queries and mutations require specific data structure validations."
+      },
+      {
+        "question": "Can you test APIs that require complex authentication?",
+        "answer": "Absolutely. We routinely write test scripts that handle complex, multi-step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
+      },
+      {
+        "question": "Will these tests run automatically?",
+        "answer": "Yes! The ultimate goal of our API testing service is automation. We package our test suites using tools like Postman (Newman) or REST Assured so they can be triggered automatically by your CI/CD pipeline every time your developers push new code."
+      }
+    ],
+    "footer": {
+      "text": "Didn't find your answer?",
+      "link_text": "Contact our QA experts",
+      "link_url": "/contact"
+    }
+  }
+}

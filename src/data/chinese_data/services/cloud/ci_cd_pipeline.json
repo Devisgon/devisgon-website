@@ -1,0 +1,174 @@
+{
+  "slug": "cicd_pipelines",
+  "hero_section": {
+    "title": "CI/CD Pipelines",
+    "subtitle": "Accelerate Your Software Delivery",
+    "description": "Automate your build, test, and deployment processes. We design robust CI/CD pipelines that eliminate manual errors, increase release velocity, and ensure your software is always production-ready.",
+    "buttons": [
+      {
+        "text": "Automate My Deployments",
+        "link": "/contact"
+      },
+      {
+        "text": "Talk to a DevOps Expert",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cicd_pipelines.mp4"
+  },
+  "introduction_section": {
+    "heading": "What are",
+    "span_heading": " CI/CD Pipelines?",
+    "content": [
+      "Continuous Integration (CI) and Continuous Deployment (CD) form the backbone of modern software engineering. CI automatically merges and tests your developers' code changes, while CD automates the release of that validated code to your live servers. ",
+      "At Devisgon, we eliminate the infamous 'it works on my machine' problem. By building custom pipelines tailored to your exact tech stack, we empower your team to push code with absolute confidence, knowing that automated quality gates will catch bugs before they ever reach your users."
+    ],
+    "highlight_quote": " “Ship code faster. Break things less.” ",
+    "side_image": "/all_services/ci_cd_pipeline/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Why automation is the future of deployment",
+    "cards": [
+      {
+        "title": "Faster Time-to-Market",
+        "description": "Release new features and bug fixes to your users in minutes instead of weeks.",
+        "icon_type": "MdTimer"
+      },
+      {
+        "title": "Reduced Human Error",
+        "description": "Eliminate manual server configurations and copy-pasting that lead to catastrophic downtime.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Effortless Rollbacks",
+        "description": "If a bad update slips through, our pipelines allow you to instantly revert to the last stable version.",
+        "icon_type": "MdRestore"
+      },
+      {
+        "title": "Developer Productivity",
+        "description": "Free your engineers from tedious deployment tasks so they can focus on writing great code.",
+        "icon_type": "MdCode"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What you'll get when you choose CI/CD Pipelines",
+    "image": "/all_services/ci_cd_pipeline/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Automated Build Processes",
+        "description": "Code is automatically compiled, linted, and packaged into secure containers (like Docker) on every commit."
+      },
+      {
+        "title": "2. Integrated Automated Testing",
+        "description": "Unit, integration, and security tests run automatically to block faulty code from being merged."
+      },
+      {
+        "title": "3. Zero-Downtime Deployments",
+        "description": "Advanced deployment strategies (like Blue-Green or Canary) so your app stays live during updates."
+      },
+      {
+        "title": "4. Performance Monitoring",
+        "description": "Alerts and dashboards that notify your team instantly if a build fails or a deployment stalls."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We automate using industry-leading tools",
+    "subtitle": "The best DevOps platforms for reliable, scalable pipelines",
+    "tools": [
+      {
+        "name": "GitHub Actions",
+        "icon": "SiGithubactions"
+      },
+      {
+        "name": "GitLab CI",
+        "icon": "FaGitlab"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "SiJenkins"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Process",
+    "subtitle": "How we streamline your software delivery",
+    "steps": [
+      {
+        "title": "Infrastructure Audit",
+        "description": "We analyze your current hosting environment, codebase, and deployment bottlenecks.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Pipeline Architecture",
+        "description": "We design the workflow logic, defining staging environments and testing gates.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Scripting & Integration",
+        "description": "We write the configuration files (YAML) and connect your repository to your cloud provider.",
+        "icon": "FaTerminal"
+      },
+      {
+        "title": "Testing & Handover",
+        "description": "We run test deployments, document the pipeline, and train your dev team on the new workflow.",
+        "icon": "FaCheckDouble"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Reduced deployment time from 4 hours to 15 minutes",
+    "image": "/all_services/ci_cd_pipeline/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "A SaaS company was doing manual deployments that required taking the site offline for hours every weekend, leading to developer burnout."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "We implemented a fully automated CI/CD pipeline using GitHub Actions, Docker, and AWS Elastic Beanstalk with a rolling deployment strategy."
+      },
+      "result": {
+        "label": "Result",
+        "text": "Deployments now happen automatically in 15 minutes with zero downtime, allowing the team to release features multiple times a day."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Get answers about DevOps and CI/CD",
+    "questions": [
+      {
+        "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
+        "answer": "Continuous Delivery means your code is automatically tested and ready to be deployed, but a human still has to push the final 'publish' button. Continuous Deployment takes it one step further—every code change that passes the automated tests is deployed straight to production without any human intervention."
+      },
+      {
+        "question": "Do I need CI/CD if I have a small development team?",
+        "answer": "Yes! CI/CD is arguably even more important for small teams. It acts as a digital safety net, catching bugs automatically and saving your limited engineering hours from being wasted on repetitive server uploads."
+      },
+      {
+        "question": "Will a CI/CD pipeline work with my existing codebase?",
+        "answer": "Absolutely. Whether you have a legacy monolithic application or modern microservices, we can build a pipeline around it. The pipeline scripts just tell the server how to build and move your specific code."
+      },
+      {
+        "question": "What happens if a deployment fails or breaks the live site?",
+        "answer": "A properly designed CI/CD pipeline prevents this. The 'CI' phase will catch compilation or testing errors and block the deployment. If a bug somehow makes it to the 'CD' phase, we configure instant rollback commands so you can revert to the previous working version in seconds."
+      }
+    ],
+    "footer": {
+      "text": "Didn't find your answer?",
+      "link_text": "Contact us for a free DevOps consultation",
+      "link_url": "/contact"
+    }
+  }
+}

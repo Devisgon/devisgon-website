@@ -1,0 +1,174 @@
+{
+  "slug": "automation_testing",
+  "hero_section": {
+    "title": "Services de tests d'automatisation",
+    "subtitle": "Libérez plus rapidement en toute confiance",
+    "description": "Remplacez les tests manuels lents et sujets aux erreurs par des suites de tests automatisés robustes. Nous construisons des cadres d'automatisation de l'assurance qualité évolutifs qui détectent instantanément les bogues et accélèrent votre pipeline de livraison de logiciels.",
+    "buttons": [
+      {
+        "text": "Automatisez mon contrôle qualité",
+        "link": "/contact"
+      },
+      {
+        "text": "Parlez à un ingénieur QA",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/automation_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que",
+    "span_heading": "Tests d'automatisation ?",
+    "content": [
+      "Dans le développement de logiciels modernes, s’appuyer uniquement sur des tests manuels constitue un énorme goulot d’étranglement. Les tests d'automatisation utilisent des logiciels et des scripts spécialisés pour exécuter automatiquement des cas de test complexes sur votre application, en comparant les résultats réels aux résultats attendus.",
+      "Chez Devisgon, nous concevons des cadres d'automatisation personnalisés pour vos couches Web, mobiles et API. En automatisant les tests de régression très répétitifs, nous réduisons considérablement votre temps de test. Cela permet à votre équipe d'assurance qualité de se concentrer sur les tests exploratoires et les cas extrêmes, garantissant ainsi une expérience utilisateur sans faille à chaque déploiement."
+    ],
+    "highlight_quote": "\"Testez en continu. Libérez en toute confiance. Évoluez à l'infini.\"",
+    "side_image": "/all_services/automation_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi l'automatisation de l'assurance qualité est la clé pour faire évoluer votre logiciel",
+    "cards": [
+      {
+        "title": "Des versions considérablement plus rapides",
+        "description": "Exécutez des milliers de cas de test complexes en quelques minutes, réduisant ainsi vos cycles de publication de plusieurs semaines à quelques jours.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Précision inégalée",
+        "description": "Les scripts automatisés ne ressentent pas de fatigue. Ils effectuent exactement les mêmes contrôles rigoureux à chaque fois, sans erreur humaine.",
+        "icon_type": "MdFactCheck"
+      },
+      {
+        "title": "Intégration continue",
+        "description": "Intégrez de manière transparente les suites de tests dans vos pipelines CI/CD afin que le code incorrect soit bloqué avant qu'il n'atteigne la production.",
+        "icon_type": "MdSync"
+      },
+      {
+        "title": "ROI élevé à long terme",
+        "description": "Même si l’automatisation nécessite un investissement initial, elle réduit considérablement les coûts d’assurance qualité à long terme à mesure que votre produit se développe.",
+        "icon_type": "MdTrendingUp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant les tests d'automatisation",
+    "image": "/all_services/automation_testing/wwg.avif",
+    "list_items": [
+      {
+        "title": "1. Cadre d'automatisation personnalisé",
+        "description": "Une architecture de test évolutive et maintenable construite à l'aide d'un modèle d'objet de page (POM) ou de méthodologies basées sur les données."
+      },
+      {
+        "title": "2. Tests d'interface utilisateur de bout en bout",
+        "description": "Parcours utilisateur simulés sur plusieurs navigateurs (Chrome, Safari, Edge) et appareils pour garantir la compatibilité multiplateforme."
+      },
+      {
+        "title": "3. Suites de régression automatisées",
+        "description": "Des ensembles de tests complets qui s'exécutent sur chaque validation de code pour garantir que les nouvelles fonctionnalités ne brisent pas les fonctionnalités existantes."
+      },
+      {
+        "title": "4. Rapports exploitables",
+        "description": "Rapports HTML automatisés contenant des journaux détaillés, des vidéos et des captures d'écran des tests ayant échoué pour un débogage rapide."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous construisons des frameworks à l'aide d'outils de premier plan",
+    "subtitle": "Le logiciel d'automatisation le plus fiable du secteur",
+    "tools": [
+      {
+        "name": "Cyprès",
+        "icon": "SiCypress"
+      },
+      {
+        "name": "Dramaturge",
+        "icon": "SiPlaywright"
+      },
+      {
+        "name": "Sélénium",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "Appium",
+        "icon": "SiAppium"
+      },
+      {
+        "name": "Concombre (BDD)",
+        "icon": "SiCucumber"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Comment nous automatisons votre assurance qualité",
+    "steps": [
+      {
+        "title": "Évaluer et planifier",
+        "description": "Nous analysons votre application et priorisons les flux de travail les plus critiques et à fort retour sur investissement à automatiser en premier.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Conception du cadre",
+        "description": "Nous concevons un cadre d'automatisation de tests personnalisé et robuste, adapté à votre pile technologique spécifique.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Script",
+        "description": "Nous écrivons des scripts d'automatisation propres et modulaires pour exécuter les scénarios de test définis.",
+        "icon": "FaCode"
+      },
+      {
+        "title": "Intégration CI/CD",
+        "description": "Nous connectons la suite de tests directement à votre pipeline de déploiement pour une exécution continue et automatisée.",
+        "icon": "FaCogs"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Temps de test de régression réduit de 3 jours à 45 minutes",
+    "image": "/all_services/automation_testing/cs.png",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une plate-forme de commerce électronique était aux prises avec une surcharge massive de tests manuels. Chaque mise à jour majeure nécessitait qu'une équipe de 5 testeurs passe 3 jours complets à cliquer sur le site."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons construit un cadre d'automatisation complet de bout en bout à l'aide de Cypress, couvrant tous les flux de paiement critiques, les connexions des utilisateurs et les recherches de catalogue."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "Les tests de régression s'exécutent désormais automatiquement en seulement 45 minutes à chaque poussée de code, permettant au client de déployer en toute sécurité des mises à jour hebdomadaires plutôt que mensuelles."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur l’automatisation de l’assurance qualité",
+    "questions": [
+      {
+        "question": "Pouvons-nous automatiser 100 % de nos tests ?",
+        "answer": "Non, et tu ne devrais pas essayer. L'automatisation est parfaite pour les tâches répétitives, les tests de régression et les flux fonctionnels de base. Cependant, l’intuition humaine est toujours nécessaire pour les tests exploratoires, les tests d’utilisabilité et l’évaluation de l’esthétique visuelle. Une stratégie d’assurance qualité saine combine les deux."
+      },
+      {
+        "question": "Quel est le bon moment pour commencer à automatiser les tests ?",
+        "answer": "Vous devez commencer à automatiser les tests une fois que l'interface utilisateur et la logique principale d'une fonctionnalité sont relativement stables. Si vous essayez d'automatiser une fonctionnalité dont la conception change chaque jour, vous passerez plus de temps à réparer des scripts de test défectueux qu'à tester réellement."
+      },
+      {
+        "question": "L'automatisation remplacera-t-elle mon équipe d'assurance qualité manuelle ?",
+        "answer": "Absolument pas. L'automatisation est un outil qui responsabilise votre équipe d'assurance qualité. En prenant en charge les tests de régression fastidieux et répétitifs, l'automatisation libère vos testeurs manuels pour qu'ils puissent se concentrer sur la recherche de cas extrêmes complexes et l'amélioration de l'expérience utilisateur globale."
+      },
+      {
+        "question": "Qu’est-ce qu’un framework d’automatisation des tests ?",
+        "answer": "Un framework est un ensemble de directives, de normes de codage et d'outils utilisés pour créer et exécuter des tests automatisés. Au lieu d'écrire des scripts compliqués et autonomes, un framework garantit que vos tests sont modulaires, faciles à maintenir et génèrent des rapports clairs en cas d'échec."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Planifier une consultation d'assurance qualité",
+      "link_url": "/contact"
+    }
+  }
+}

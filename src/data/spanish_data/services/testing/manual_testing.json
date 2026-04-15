@@ -1,0 +1,174 @@
+{
+  "slug": "manual_testing",
+  "hero_section": {
+    "title": "Servicios de pruebas manuales",
+    "subtitle": "Conocimiento humano para un software impecable",
+    "description": "Asegúrese de que su software no sólo funcione en teoría, sino que prospere en el mundo real. Nuestros ingenieros expertos en control de calidad prueban rigurosamente su aplicación a mano para descubrir errores ocultos, fallas visuales y fricciones de UX que los scripts automatizados pasan por alto.",
+    "buttons": [
+      {
+        "text": "Contrate a un experto en control de calidad",
+        "link": "/contact"
+      },
+      {
+        "text": "Explorar los servicios de control de calidad",
+        "link": "/services"
+      }
+    ],
+    "hero_image": "/videos/manual_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas manuales?",
+    "content": [
+      "Si bien la automatización es excelente para comprobar los resultados esperados, se necesita un ser humano para encontrar lo inesperado. Las pruebas manuales son el proceso en el que los ingenieros de control de calidad actúan como usuarios finales reales, explorando activamente su aplicación para identificar problemas de usabilidad, inconsistencias visuales y errores complejos en casos extremos.",
+      "En Devisgon, nuestro equipo de control de calidad no se limita a seguir guiones; Intentamos romper su software. Realizamos pruebas exploratorias, comprobaciones visuales en varios navegadores y validación de escenarios complejos para garantizar que su aplicación sea intuitiva, accesible y completamente segura antes de que llegue a sus clientes."
+    ],
+    "highlight_quote": "\"La automatización verifica el código. Las pruebas manuales verifican la experiencia\".",
+    "side_image": "/all_services/manual_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Por qué la intuición humana es insustituible en la garantía de calidad",
+    "cards": [
+      {
+        "title": "Perspectiva del usuario real",
+        "description": "Probamos su aplicación exactamente como la usaría un humano real, detectando la fricción de UX y la navegación confusa.",
+        "icon_type": "MdPersonSearch"
+      },
+      {
+        "title": "Precisión visual y de interfaz de usuario",
+        "description": "Las pruebas automatizadas no pueden determinar si un botón está ligeramente desalineado o una imagen estirada; nuestros probadores humanos pueden hacerlo.",
+        "icon_type": "MdVisibility"
+      },
+      {
+        "title": "Adaptabilidad rápida",
+        "description": "No es necesario escribir código costoso para realizar pruebas. Podemos comenzar a probar nuevas funciones en el momento en que se implementan.",
+        "icon_type": "MdAutorenew"
+      },
+      {
+        "title": "Descubrimiento exploratorio",
+        "description": "Nos salimos del guión para encontrar casos extremos extraños y errores críticos que los desarrolladores nunca anticiparon.",
+        "icon_type": "MdExplore"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrás cuando elijas la prueba manual",
+    "image": "/all_services/manual_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Planes de prueba integrales",
+        "description": "Documentación detallada paso a paso de todos los casos de prueba que garantizan una cobertura de funciones del 100 %."
+      },
+      {
+        "title": "2. Pruebas exploratorias",
+        "description": "Sesiones de prueba creativas y sin guión diseñadas para descubrir vulnerabilidades ocultas y fallas lógicas."
+      },
+      {
+        "title": "3. Validación multiplataforma",
+        "description": "Rigurosas pruebas físicas en dispositivos móviles reales (iOS/Android) y múltiples navegadores web."
+      },
+      {
+        "title": "4. Informes de errores detallados",
+        "description": "Tickets de error nítidos, completos con capturas de pantalla, grabaciones de pantalla y pasos exactos para reproducir."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Realizamos un seguimiento y probamos utilizando las mejores herramientas de control de calidad.",
+    "subtitle": "Estándares de la industria para seguimiento de errores y gestión de pruebas",
+    "tools": [
+      {
+        "name": "Jira",
+        "icon": "SiJira"
+      },
+      {
+        "name": "carril de prueba",
+        "icon": "FaClipboardCheck"
+      },
+      {
+        "name": "Pila de navegador",
+        "icon": "BsBrowserChrome"
+      },
+      {
+        "name": "Cartero (API manual)",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Trelo",
+        "icon": "SiTrello"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro proceso",
+    "subtitle": "Un enfoque meticuloso para el aseguramiento de la calidad",
+    "steps": [
+      {
+        "title": "Analizar",
+        "description": "Revisamos los requisitos de su producto, historias de usuario y archivos de diseño para comprender el comportamiento esperado.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Plan",
+        "description": "Creamos casos de prueba integrales, que cubren flujos positivos, flujos negativos y casos extremos.",
+        "icon": "FaEdit"
+      },
+      {
+        "title": "Ejecutar",
+        "description": "Ejecutamos manualmente los casos de prueba, realizamos pruebas exploratorias e intentamos romper el sistema.",
+        "icon": "FaPlay"
+      },
+      {
+        "title": "Informar y verificar",
+        "description": "Registramos informes de errores detallados para los desarrolladores. Una vez solucionado, volvemos a probar para verificar la resolución.",
+        "icon": "FaBug"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Descubriendo un error de pago crítico que la automatización pasó por alto",
+    "image": "/all_services/manual_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una plataforma SaaS pasó todas las pruebas funcionales automatizadas, pero los usuarios abandonaban aleatoriamente la página de actualización de la suscripción premium."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Nuestro equipo de control de calidad manual realizó pruebas exploratorias en dispositivos móviles físicos y descubrió que un banner de cookies superpuesto bloqueaba completamente el botón \"Pagar ahora\" en pantallas de iPhone más antiguas."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "El error era visualmente invisible para los scripts automatizados. Al registrar y corregir esta falla de la interfaz de usuario, la tasa de conversión de la suscripción del cliente aumentó inmediatamente en un 22 %."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre el control de calidad manual",
+    "questions": [
+      {
+        "question": "Si tenemos pruebas automatizadas, ¿todavía necesitamos pruebas manuales?",
+        "answer": "Absolutamente. La automatización es ciega a fallos visuales, diseño de UX deficiente y comportamientos de usuario completamente inesperados. Una estrategia sólida de control de calidad utiliza la automatización para probar rápidamente la lógica central y las pruebas manuales para garantizar que la aplicación realmente se vea y se sienta bien para un ser humano."
+      },
+      {
+        "question": "¿Qué son las pruebas exploratorias?",
+        "answer": "Las pruebas exploratorias son un enfoque de control de calidad muy creativo y sin guión. En lugar de seguir una lista de verificación estricta, nuestros ingenieros de control de calidad utilizan su experiencia e intuición para explorar su aplicación, probando intencionalmente combinaciones extrañas de acciones para encontrar errores que nadie anticipó."
+      },
+      {
+        "question": "¿Cómo se prueba en diferentes dispositivos?",
+        "answer": "Utilizamos una combinación de hardware físico (iPhones, iPads y teléfonos Android reales) y laboratorios de dispositivos basados ​​en la nube como BrowserStack para garantizar que su aplicación funcione sin problemas independientemente del tamaño de la pantalla o del sistema operativo del usuario."
+      },
+      {
+        "question": "¿Cómo se informan errores a nuestros desarrolladores?",
+        "answer": "Nos integramos perfectamente con su flujo de trabajo de desarrollo. Cuando encontramos un error, registramos un ticket detallado en su herramienta de gestión de proyectos (como Jira, Trello o Linear). Cada ticket incluye los detalles del entorno, los pasos exactos para reproducir el error y evidencia visual (capturas de pantalla o grabaciones de video)."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Habla con nuestro equipo de control de calidad",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -1,0 +1,174 @@
+{
+  "slug": "cicd_pipelines",
+  "hero_section": {
+    "title": "Pipelines CI/CD",
+    "subtitle": "Accélérez la livraison de vos logiciels",
+    "description": "Automatisez vos processus de création, de test et de déploiement. Nous concevons des pipelines CI/CD robustes qui éliminent les erreurs manuelles, augmentent la vitesse de publication et garantissent que votre logiciel est toujours prêt pour la production.",
+    "buttons": [
+      {
+        "text": "Automatiser mes déploiements",
+        "link": "/contact"
+      },
+      {
+        "text": "Parlez à un expert DevOps",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cicd_pipelines.mp4"
+  },
+  "introduction_section": {
+    "heading": "Que sont",
+    "span_heading": "Pipelines CI/CD ?",
+    "content": [
+      "L'intégration continue (CI) et le déploiement continu (CD) constituent l'épine dorsale de l'ingénierie logicielle moderne. CI fusionne et teste automatiquement les modifications de code de vos développeurs, tandis que CD automatise la publication de ce code validé sur vos serveurs en direct.",
+      "Chez Devisgon, nous éliminons le fameux problème « ça fonctionne sur ma machine ». En créant des pipelines personnalisés adaptés à votre pile technologique exacte, nous permettons à votre équipe de transmettre du code en toute confiance, sachant que les contrôles de qualité automatisés détecteront les bogues avant qu'ils n'atteignent vos utilisateurs."
+    ],
+    "highlight_quote": "\"Expédiez le code plus rapidement. Cassez moins les choses.\"",
+    "side_image": "/all_services/ci_cd_pipeline/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Pourquoi l'automatisation est l'avenir du déploiement",
+    "cards": [
+      {
+        "title": "Une mise sur le marché plus rapide",
+        "description": "Publiez de nouvelles fonctionnalités et des corrections de bugs à vos utilisateurs en quelques minutes au lieu de quelques semaines.",
+        "icon_type": "MdTimer"
+      },
+      {
+        "title": "Erreur humaine réduite",
+        "description": "Éliminez les configurations manuelles du serveur et les copier-coller qui entraînent des temps d'arrêt catastrophiques.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Annulations sans effort",
+        "description": "Si une mauvaise mise à jour passe, nos pipelines vous permettent de revenir instantanément à la dernière version stable.",
+        "icon_type": "MdRestore"
+      },
+      {
+        "title": "Productivité des développeurs",
+        "description": "Libérez vos ingénieurs des tâches de déploiement fastidieuses afin qu'ils puissent se concentrer sur l'écriture d'un code de qualité.",
+        "icon_type": "MdCode"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous obtiendrez en choisissant les pipelines CI/CD",
+    "image": "/all_services/ci_cd_pipeline/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Processus de construction automatisés",
+        "description": "Le code est automatiquement compilé, linté et empaqueté dans des conteneurs sécurisés (comme Docker) à chaque validation."
+      },
+      {
+        "title": "2. Tests automatisés intégrés",
+        "description": "Les tests unitaires, d'intégration et de sécurité s'exécutent automatiquement pour empêcher la fusion du code défectueux."
+      },
+      {
+        "title": "3. Déploiements sans temps d'arrêt",
+        "description": "Stratégies de déploiement avancées (comme Blue-Green ou Canary) pour que votre application reste active pendant les mises à jour."
+      },
+      {
+        "title": "4. Surveillance des performances",
+        "description": "Alertes et tableaux de bord qui informent instantanément votre équipe en cas d'échec d'une build ou d'un déploiement bloqué."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We automate using industry-leading tools",
+    "subtitle": "Les meilleures plateformes DevOps pour des pipelines fiables et évolutifs",
+    "tools": [
+      {
+        "name": "Actions GitHub",
+        "icon": "SiGithubactions"
+      },
+      {
+        "name": "GitLabCI",
+        "icon": "FaGitlab"
+      },
+      {
+        "name": "Jenkins",
+        "icon": "SiJenkins"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre processus",
+    "subtitle": "Comment nous rationalisons la livraison de vos logiciels",
+    "steps": [
+      {
+        "title": "Audit des infrastructures",
+        "description": "Nous analysons votre environnement d'hébergement actuel, votre base de code et les goulots d'étranglement de déploiement.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Architecture des pipelines",
+        "description": "Nous concevons la logique du flux de travail, en définissant les environnements de préparation et les portes de test.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "Script et intégration",
+        "description": "Nous écrivons les fichiers de configuration (YAML) et connectons votre référentiel à votre fournisseur cloud.",
+        "icon": "FaTerminal"
+      },
+      {
+        "title": "Tests et transfert",
+        "description": "Nous effectuons des déploiements de tests, documentons le pipeline et formons votre équipe de développement au nouveau flux de travail.",
+        "icon": "FaCheckDouble"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Temps de déploiement réduit de 4 heures à 15 minutes",
+    "image": "/all_services/ci_cd_pipeline/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Problème",
+        "text": "Une entreprise SaaS effectuait des déploiements manuels qui nécessitaient de mettre le site hors ligne pendant des heures chaque week-end, entraînant l'épuisement des développeurs."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Nous avons mis en œuvre un pipeline CI/CD entièrement automatisé à l'aide de GitHub Actions, Docker et AWS Elastic Beanstalk avec une stratégie de déploiement continu."
+      },
+      "result": {
+        "label": "Résultat",
+        "text": "Les déploiements s'effectuent désormais automatiquement en 15 minutes sans aucun temps d'arrêt, ce qui permet à l'équipe de publier des fonctionnalités plusieurs fois par jour."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Foire aux questions",
+    "subtitle": "Obtenez des réponses sur DevOps et CI/CD",
+    "questions": [
+      {
+        "question": "Quelle est la différence entre la livraison continue et le déploiement continu ?",
+        "answer": "La livraison continue signifie que votre code est automatiquement testé et prêt à être déployé, mais qu'un humain doit encore appuyer sur le bouton final « publier ». Le déploiement continu va encore plus loin : chaque modification de code qui réussit les tests automatisés est déployée directement en production sans aucune intervention humaine."
+      },
+      {
+        "question": "Ai-je besoin de CI/CD si j’ai une petite équipe de développement ?",
+        "answer": "Oui! Le CI/CD est sans doute encore plus important pour les petites équipes. Il agit comme un filet de sécurité numérique, détectant automatiquement les bogues et évitant que vos heures d'ingénierie limitées ne soient gaspillées en téléchargements répétitifs sur le serveur."
+      },
+      {
+        "question": "Un pipeline CI/CD fonctionnera-t-il avec ma base de code existante ?",
+        "answer": "Absolument. Que vous disposiez d’une application monolithique existante ou de microservices modernes, nous pouvons construire un pipeline autour de celle-ci. Les scripts de pipeline indiquent simplement au serveur comment créer et déplacer votre code spécifique."
+      },
+      {
+        "question": "Que se passe-t-il si un déploiement échoue ou interrompt le site en ligne ?",
+        "answer": "Un pipeline CI/CD correctement conçu empêche cela. La phase « CI » détectera les erreurs de compilation ou de test et bloquera le déploiement. Si un bug parvient d'une manière ou d'une autre à la phase « CD », nous configurons des commandes de restauration instantanée afin que vous puissiez revenir à la version de travail précédente en quelques secondes."
+      }
+    ],
+    "footer": {
+      "text": "Vous n'avez pas trouvé votre réponse ?",
+      "link_text": "Contactez-nous pour une consultation DevOps gratuite",
+      "link_url": "/contact"
+    }
+  }
+}

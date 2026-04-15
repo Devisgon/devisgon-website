@@ -14,42 +14,73 @@
       "dropdown": {
         "columns": [
           {
-            "title": "Workflow Automations",
-            "links": [
-              { "name": "AI Powered Automation", "href": "/services/automations/ai_powered_automation" },
-              { "name": "Business Process Automation", "href": "/services/automations/business_process_automation"},
-              { "name": "Robotic Process Automation", "href": "/services/automations/robotic-process-automation" },
-              { "name": "Marketing & Sales Automation", "href": "/services/automations/marketing-sales-automation" },
-              { "name": "Infrastructure Automation", "href": "/services/automations/devops-infrastructure-automation" },
-              { "name": "Financial Automation", "href": "/services/automations/accounting" },
-              { "name": "API & System Integration Automation", "href": "/services/automations/api_integration" },
-              { "name": "Low Code Automation", "href": "/services/automations/low_code_automations" }
-            ]
-          },
-          {
-            "title": "Web and App Applications",
-            "links": [
-              { "name": "Web Application", "href": "/services/web_and_mobile_development/web_applications" },
-              { "name": "Mobile Application", "href": "/services/web_and_mobile_development/app_applications" },
-              { "name": "Custom Bots", "href": "/services/web_and_mobile_development/custom_bots" }
-            ]
-          },
-          {
             "title": "AI and SaaS Development",
             "links": [
               { "name": "AI Powered App", "href": "/services/saas/ai_powered_app" },
-              { "name": "SaaS Platforms", "href": "/services/saas/saas_plateform" },
+              { "name": "Machine Learning Models", "href": "/services/saas/meachine_learning" },
               { "name": "MVPs & POCs", "href": "/services/saas/mvps" },
-              { "name": "Machine Learning Models", "href": "/services/saas/meachine_learning" }
+              { "name": "SaaS Platforms", "href": "/services/saas/saas_plateform" }
+            ]
+          },
+          {
+            "title": "Automations",
+            "links": [
+              { "name": "AI Powered Automation", "href": "/services/automations/ai_powered_automation" },
+              { "name": "API Integration Automation", "href": "/services/automations/api_integration" },
+              { "name": "Business Process Automation", "href": "/services/automations/business_process_automation" },
+              { "name": "Financial Automation", "href": "/services/automations/accounting" },
+              { "name": "Infrastructure Automation", "href": "/services/automations/devops-infrastructure-automation" },
+              { "name": "Low Code Automation", "href": "/services/automations/low_code_automations" },
+              { "name": "Marketing & Sales Automation", "href": "/services/automations/marketing-sales-automation" },
+              { "name": "Robotic Process Automation", "href": "/services/automations/robotic-process-automation" }
+            ]
+          },
+          {
+            "title": "Cloud And DevOps",
+            "links": [
+              { "name": "Ci/Cd pipelines", "href": "/services/cloud/cicd_pipelines" },
+              { "name": "Cloud Security", "href": "/services/cloud/cloud_security" },
+              { "name": "Database Management", "href": "/services/cloud/database_management" },
+              { "name": "DevOps Consulting", "href": "/services/cloud/devops_consulting" }
             ]
           },
           {
             "title": "Data Solutions",
             "links": [
-              { "name": "Data Scraping", "href": "/services/data_solutions/data_scraping" },
-              { "name": "Data Analytics Dashboard", "href": "/services/data_solutions/data_analytics_dashboard" },
+              { "name": "AI Models", "href": "/services/data_solutions/ai_ml_models" },
               { "name": "Business Analytics", "href": "/services/data_solutions/business_analytics" },
-              { "name": "AI/ML Models", "href": "/services/data_solutions/ai_ml_models" }
+              { "name": "Data Analytics Dashboard", "href": "/services/data_solutions/data_analytics_dashboard" },
+              { "name": "Data Scraping", "href": "/services/data_solutions/data_scraping" }
+            ]
+          },
+          {
+            "title": "Digital Design",
+            "links": [
+              { "name": "Graphic and virtual Design", "href": "/services/design/graphic_design" },
+              { "name": "Logo Design", "href": "/services/design/logo_design" },
+              { "name": "Mobile App Design", "href": "/services/design/mobile_app_design" },
+              { "name": "Product Design", "href": "/services/design/product_design" },
+              { "name": "Prototyping and wireframes", "href": "/services/design/prototyping_wireframing" },
+              { "name": "Ui /Ux Design", "href": "/services/design/ui_ux_design" },
+              { "name": "Web Design", "href": "/services/design/web_design" }
+            ]
+          },
+          {
+            "title": "Quality Assurance and Testing",
+            "links": [
+              { "name": "Api Testing", "href": "/services/testing/api_testing" },
+              { "name": "Automation Testing", "href": "/services/testing/automation_testing" },
+              { "name": "Manual Testing", "href": "/services/testing/manual_testing" },
+              { "name": "Performance Testing", "href": "/services/testing/performance_testing" },
+              { "name": "Security Testing", "href": "/services/testing/security_testing" }
+            ]
+          },
+          {
+            "title": "Web and App Applications",
+            "links": [
+              { "name": "Custom Bots", "href": "/services/web_and_mobile_development/custom_bots" },
+              { "name": "Mobile Application", "href": "/services/web_and_mobile_development/app_applications" },
+              { "name": "Web Application", "href": "/services/web_and_mobile_development/web_applications" }
             ]
           }
         ]

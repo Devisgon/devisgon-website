@@ -40,7 +40,7 @@ export default function Home() {
       const timer = window.setTimeout(() => {
         setShowTimedLoader(false);
         sessionStorage.setItem("home_loader_shown", "true");
-      }, 1000);
+      }, 100);
 
       return () => window.clearTimeout(timer);
     }

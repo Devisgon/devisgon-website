@@ -1,0 +1,174 @@
+{
+  "slug": "api_testing",
+  "hero_section": {
+    "title": "Servicios de prueba API",
+    "subtitle": "Proteja la columna vertebral de su aplicación",
+    "description": "Asegúrese de que sus API sean seguras, de alto rendimiento y funcionen sin problemas. Probamos rigurosamente su arquitectura backend para evitar fugas de datos, eliminar cuellos de botella y garantizar integraciones perfectas.",
+    "buttons": [
+      {
+        "text": "Probar mi API",
+        "link": "/contact"
+      },
+      {
+        "text": "Hable con un ingeniero de control de calidad",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/api_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas API?",
+    "content": [
+      "Las API (interfaces de programación de aplicaciones) son puentes invisibles que conectan su interfaz frontend con sus bases de datos backend y servicios externos de terceros. Si su API falla, es lenta o tiene una vulnerabilidad, toda su aplicación se verá afectada.",
+      "A diferencia de las pruebas de UI tradicionales, las pruebas de API omiten la interfaz gráfica para interactuar directamente con la lógica central de su software. En Devisgon, validamos sus puntos finales REST, GraphQL y SOAP en cuanto a funcionalidad, confiabilidad, capacidad de carga y seguridad. Nos aseguramos de que su sistema se comunique de manera impecable y segura bajo cualquier condición."
+    ],
+    "highlight_quote": "\"Los errores encontrados en la capa API son 10 veces más baratos de corregir que los encontrados en la interfaz de usuario\".",
+    "side_image": "/all_services/api_testing/introduction.png"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Por qué probar tu API no es negociable",
+    "cards": [
+      {
+        "title": "Detección temprana de errores",
+        "description": "Pruebe la lógica empresarial central mucho antes de que se cree la interfaz gráfica de usuario (UI), lo que ahorrará mucho tiempo de desarrollo.",
+        "icon_type": "MdBugReport"
+      },
+      {
+        "title": "Seguridad irrompible",
+        "description": "Asegúrese de que los datos confidenciales estén correctamente cifrados y que los protocolos de autenticación (como OAuth y JWT) sean completamente seguros.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Ciclos de lanzamiento más rápidos",
+        "description": "Las pruebas de API se ejecutan en milisegundos en comparación con las pruebas automatizadas de UI lentas y frágiles, lo que acelera enormemente su proceso de CI/CD.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Integraciones perfectas",
+        "description": "Garantice que su software se comunique perfectamente con herramientas de terceros como pasarelas de pago o CRM.",
+        "icon_type": "MdSync"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrás cuando elijas las pruebas API",
+    "image": "/all_services/api_testing/wwg.png",
+    "list_items": [
+      {
+        "title": "1. Validación funcional de puntos finales",
+        "description": "Pruebas rigurosas de los métodos de solicitud (GET, POST, PUT, DELETE) y validación de respuestas correctas de carga útil JSON/XML."
+      },
+      {
+        "title": "2. Pruebas de carga y rendimiento",
+        "description": "Realice pruebas de estrés de sus puntos finales para ver cómo manejan picos masivos de tráfico y solicitudes simultáneas de usuarios."
+      },
+      {
+        "title": "3. Auditorías de seguridad y autenticación",
+        "description": "Ataques simulados para buscar vulnerabilidades como inyección SQL, autenticación rota y puntos finales expuestos."
+      },
+      {
+        "title": "4. Conjuntos de pruebas automatizadas",
+        "description": "Un conjunto completo de scripts API automatizados que se integran perfectamente en sus procesos de implementación existentes."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Realizamos pruebas utilizando herramientas de control de calidad estándar de la industria",
+    "subtitle": "Los mejores marcos para una validación de API precisa y automatizada",
+    "tools": [
+      {
+        "name": "Cartero",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Pavonearse",
+        "icon": "SiSwagger"
+      },
+      {
+        "name": "JMetro",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "Está seguro",
+        "icon": "FaJava"
+      },
+      {
+        "name": "Jabón UI",
+        "icon": "TbApi"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro proceso",
+    "subtitle": "Un enfoque sistemático para el aseguramiento de la calidad del backend",
+    "steps": [
+      {
+        "title": "Analizar requisitos",
+        "description": "Revisamos la documentación de su API (por ejemplo, especificaciones Swagger/OpenAPI) y definimos el alcance de la prueba.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Escenarios de diseño",
+        "description": "Escribimos casos de prueba integrales que cubren entradas de datos positivas, negativas y extremas.",
+        "icon": "FaFileAlt"
+      },
+      {
+        "title": "Automatizar y ejecutar",
+        "description": "Creamos scripts automatizados para llegar a sus puntos finales, verificando códigos de respuesta, tiempos y cargas de datos.",
+        "icon": "FaRobot"
+      },
+      {
+        "title": "Informar e integrar",
+        "description": "Proporcionamos informes de errores detallados e integramos el conjunto de pruebas directamente en su proceso de CI/CD.",
+        "icon": "FaChartBar"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Se eliminaron los tiempos de espera de la pasarela de pago y se aumentaron las conversiones en un 15 %.",
+    "image": "/all_services/api_testing/cs.jpg",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una aplicación de tecnología financiera estaba experimentando fallas en transacciones aleatorias porque su interfaz de usuario móvil no podía manejar respuestas lentas de una API de pago de terceros."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Implementamos un conjunto de pruebas de rendimiento de API automatizadas y descubrimos un cuello de botella grave en el análisis de la carga útil que solo se producía bajo una gran carga del servidor."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Al identificar y solucionar el problema de backend, se eliminaron por completo los errores de tiempo de espera, lo que resultó en un aumento del 15 % en las transacciones exitosas."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre el control de calidad del backend",
+    "questions": [
+      {
+        "question": "¿Por qué necesito pruebas de API si ya estoy realizando pruebas de UI?",
+        "answer": "Las pruebas de UI son lentas, frágiles y solo verifican lo que ve el usuario. Las pruebas de API verifican la lógica y los datos comerciales reales. Dado que las API se pueden probar sin una interfaz gráfica, es posible encontrar y corregir errores críticos mucho antes en el ciclo de vida de desarrollo."
+      },
+      {
+        "question": "¿Pruebas las API REST y GraphQL?",
+        "answer": "Sí. Tenemos amplia experiencia probando arquitecturas RESTful tradicionales, servicios web SOAP y puntos finales GraphQL modernos donde las consultas y mutaciones requieren validaciones de estructuras de datos específicas."
+      },
+      {
+        "question": "¿Puedes probar API que requieren autenticación compleja?",
+        "answer": "Absolutamente. De forma rutinaria escribimos scripts de prueba que manejan flujos de autenticación complejos de varios pasos, incluidos OAuth 2.0, JWT (tokens web JSON), claves API y cookies de sesión."
+      },
+      {
+        "question": "¿Estas pruebas se ejecutarán automáticamente?",
+        "answer": "¡Sí! El objetivo final de nuestro servicio de pruebas de API es la automatización. Empaquetamos nuestros conjuntos de pruebas utilizando herramientas como Postman (Newman) o REST Assured para que su canal de CI/CD pueda activarlos automáticamente cada vez que sus desarrolladores inserten un código nuevo."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Póngase en contacto con nuestros expertos en control de calidad",
+      "link_url": "/contact"
+    }
+  }
+}

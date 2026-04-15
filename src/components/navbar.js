@@ -70,14 +70,14 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -left-[630px] mt-6 text-t-primary w-[900px] bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -right-[310px]  mt-6 text-t-primary w-screen bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0  transition-all duration-200 z-50"
                 >
-                  <div className="grid grid-cols-4 gap-6 p-8">
+                  <div className="grid grid-cols-7  p-6 gap-2">
                     {link.dropdown.columns.map((col) => (
                       <div key={col.title}>
-                        <h3 className="text-xs font-bold uppercase text-t-primary mb-3">
+                        <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
                           {col.title}
                         </h3>
                         <ul className="space-y-2">
@@ -85,7 +85,7 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
                             <li key={sublink.name}>
                               <Link
                                 href={sublink.href}
-                                className="text-sm text-muted-foreground hover:text-primary hover:translate-x-1 transition-all inline-block"
+                                className="text-sm w-xl text-muted-foreground hover:text-primary hover:translate-x-1 transition-all inline-block"
                               >
                                 {sublink.name}
                               </Link>

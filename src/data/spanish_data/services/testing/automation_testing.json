@@ -1,0 +1,174 @@
+{
+  "slug": "automation_testing",
+  "hero_section": {
+    "title": "Servicios de pruebas de automatización",
+    "subtitle": "Libere más rápido con absoluta confianza",
+    "description": "Reemplace las pruebas manuales lentas y propensas a errores con sólidos conjuntos de pruebas automatizadas. Creamos marcos de automatización de control de calidad escalables que detectan errores al instante y aceleran su proceso de entrega de software.",
+    "buttons": [
+      {
+        "text": "Automatizar mi control de calidad",
+        "link": "/contact"
+      },
+      {
+        "text": "Hable con un ingeniero de control de calidad",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/automation_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qué es",
+    "span_heading": "¿Pruebas de automatización?",
+    "content": [
+      "En el desarrollo de software moderno, depender únicamente de pruebas manuales es un gran cuello de botella. Las pruebas de automatización utilizan software y scripts especializados para ejecutar automáticamente casos de prueba complejos en su aplicación, comparando los resultados reales con los esperados.",
+      "En Devisgon, diseñamos marcos de automatización personalizados para sus capas web, móvil y API. Al automatizar pruebas de regresión altamente repetitivas, reducimos drásticamente el tiempo de prueba. Esto libera a su equipo de control de calidad para centrarse en pruebas exploratorias y casos extremos, lo que garantiza una experiencia de usuario impecable en cada implementación."
+    ],
+    "highlight_quote": "\"Pruebe continuamente. Libere con confianza. Escale infinitamente\".",
+    "side_image": "/all_services/automation_testing/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Por qué la automatización del control de calidad es la clave para escalar su software",
+    "cards": [
+      {
+        "title": "Lanzamientos drásticamente más rápidos",
+        "description": "Ejecute miles de casos de prueba complejos en minutos, reduciendo sus ciclos de lanzamiento de semanas a días.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Precisión inigualable",
+        "description": "Los scripts automatizados no experimentan fatiga. Realizan exactamente los mismos controles rigurosos cada vez sin error humano.",
+        "icon_type": "MdFactCheck"
+      },
+      {
+        "title": "Integración Continua",
+        "description": "Integre perfectamente conjuntos de pruebas en sus canales de CI/CD para bloquear el código incorrecto antes de que llegue a producción.",
+        "icon_type": "MdSync"
+      },
+      {
+        "title": "Alto retorno de la inversión a largo plazo",
+        "description": "Si bien la automatización requiere una inversión inicial, reduce drásticamente los costos de control de calidad a largo plazo a medida que crece su producto.",
+        "icon_type": "MdTrendingUp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que obtendrás cuando elijas las pruebas de automatización",
+    "image": "/all_services/automation_testing/wwg.avif",
+    "list_items": [
+      {
+        "title": "1. Marco de automatización personalizado",
+        "description": "Una arquitectura de prueba escalable y mantenible construida utilizando el modelo de objetos de página (POM) o metodologías basadas en datos."
+      },
+      {
+        "title": "2. Pruebas de interfaz de usuario de un extremo a otro",
+        "description": "Viajes de usuario simulados a través de múltiples navegadores (Chrome, Safari, Edge) y dispositivos para garantizar la compatibilidad multiplataforma."
+      },
+      {
+        "title": "3. Suites de regresión automatizadas",
+        "description": "Paquetes de prueba integrales que se ejecutan en cada confirmación de código para garantizar que las nuevas funciones no interrumpan la funcionalidad existente."
+      },
+      {
+        "title": "4. Informes procesables",
+        "description": "Informes HTML automatizados que contienen registros detallados, videos y capturas de pantalla de pruebas fallidas para una depuración rápida."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Construimos frameworks utilizando herramientas de primer nivel.",
+    "subtitle": "El software de automatización más confiable de la industria",
+    "tools": [
+      {
+        "name": "Ciprés",
+        "icon": "SiCypress"
+      },
+      {
+        "name": "Dramaturgo",
+        "icon": "SiPlaywright"
+      },
+      {
+        "name": "Selenio",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "apio",
+        "icon": "SiAppium"
+      },
+      {
+        "name": "Pepino (BDD)",
+        "icon": "SiCucumber"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro proceso",
+    "subtitle": "Cómo automatizamos su control de calidad",
+    "steps": [
+      {
+        "title": "Evaluar y planificar",
+        "description": "Analizamos su aplicación y priorizamos los flujos de trabajo más críticos y de alto retorno de la inversión para automatizarlos primero.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Diseño de marco",
+        "description": "Diseñamos un marco de automatización de pruebas robusto y personalizado adaptado a su pila tecnológica específica.",
+        "icon": "FaProjectDiagram"
+      },
+      {
+        "title": "secuencias de comandos",
+        "description": "Escribimos scripts de automatización modulares y limpios para ejecutar los escenarios de prueba definidos.",
+        "icon": "FaCode"
+      },
+      {
+        "title": "Integración CI/CD",
+        "description": "Conectamos el conjunto de pruebas directamente a su canal de implementación para una ejecución continua y automatizada.",
+        "icon": "FaCogs"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Se redujo el tiempo de prueba de regresión de 3 días a 45 minutos.",
+    "image": "/all_services/automation_testing/cs.png",
+    "content": {
+      "problem": {
+        "label": "Problema",
+        "text": "Una plataforma de comercio electrónico estaba luchando con una enorme sobrecarga de pruebas manuales. Cada actualización importante requirió que un equipo de 5 evaluadores pasaran 3 días completos haciendo clic en el sitio."
+      },
+      "solution": {
+        "label": "Solución",
+        "text": "Creamos un marco de automatización integral de extremo a extremo utilizando Cypress, que cubre todos los flujos de pago críticos, inicios de sesión de usuarios y búsquedas en catálogos."
+      },
+      "result": {
+        "label": "Resultado",
+        "text": "Las pruebas de regresión ahora se ejecutan automáticamente en solo 45 minutos con cada inserción de código, lo que permite al cliente implementar actualizaciones de forma segura semanalmente en lugar de mensualmente."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Preguntas frecuentes",
+    "subtitle": "Obtenga respuestas sobre la automatización del control de calidad",
+    "questions": [
+      {
+        "question": "¿Podemos automatizar el 100% de nuestras pruebas?",
+        "answer": "No, y no deberías intentarlo. La automatización es perfecta para tareas repetitivas, pruebas de regresión y flujos funcionales centrales. Sin embargo, todavía se requiere la intuición humana para las pruebas exploratorias, las pruebas de usabilidad y la evaluación de la estética visual. Una estrategia de control de calidad saludable combina ambos."
+      },
+      {
+        "question": "¿Cuándo es el momento adecuado para empezar a automatizar las pruebas?",
+        "answer": "Debe comenzar a automatizar las pruebas una vez que la interfaz de usuario y la lógica central de una característica sean relativamente estables. Si intenta automatizar una función que cambia de diseño todos los días, dedicará más tiempo a corregir scripts de prueba defectuosos que a realizar pruebas."
+      },
+      {
+        "question": "¿La automatización reemplazará a mi equipo de control de calidad manual?",
+        "answer": "En absoluto. La automatización es una herramienta que potencia a su equipo de control de calidad. Al hacerse cargo de las tediosas y repetitivas pruebas de regresión, la automatización libera a los evaluadores manuales para que se concentren en encontrar casos extremos complejos y mejorar la experiencia general del usuario."
+      },
+      {
+        "question": "¿Qué es un marco de automatización de pruebas?",
+        "answer": "Un marco es un conjunto de pautas, estándares de codificación y herramientas que se utilizan para crear y ejecutar pruebas automatizadas. En lugar de escribir scripts independientes y desordenados, un marco garantiza que sus pruebas sean modulares, fáciles de mantener y generen informes claros cuando fallan."
+      }
+    ],
+    "footer": {
+      "text": "¿No encontraste tu respuesta?",
+      "link_text": "Programe una consulta de control de calidad",
+      "link_url": "/contact"
+    }
+  }
+}

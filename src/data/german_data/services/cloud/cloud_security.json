@@ -1,0 +1,174 @@
+{
+  "slug": "cloud_security",
+  "hero_section": {
+    "title": "Cloud-Sicherheit",
+    "subtitle": "Stärken Sie Ihre digitale Infrastruktur",
+    "description": "Schützen Sie Ihre sensiblen Daten, stellen Sie die Einhaltung gesetzlicher Vorschriften sicher und verteidigen Sie sich gegen moderne Cyber-Bedrohungen mit unseren Cloud-Sicherheitsarchitekturen und kontinuierlichen Überwachungslösungen der Enterprise-Klasse.",
+    "buttons": [
+      {
+        "text": "Sichern Sie meine Cloud",
+        "link": "/contact"
+      },
+      {
+        "text": "Holen Sie sich ein Sicherheitsaudit",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cloud_security.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist",
+    "span_heading": "Cloud-Sicherheit?",
+    "content": [
+      "Cloud-Sicherheit besteht aus den Technologien, Richtlinien und Kontrollen, die zum Schutz von Daten, Anwendungen und Infrastruktur im Zusammenhang mit Cloud Computing implementiert werden. Wenn Unternehmen in die Cloud migrieren, verschwindet der traditionelle Netzwerkperimeter, wodurch eine robuste, mehrschichtige Sicherheitsarchitektur wichtiger denn je wird.",
+      "Bei Devisgon verfolgen wir einen „Zero Trust“-Ansatz – das bedeutet, dass wir niemals vertrauen und immer überprüfen. Wir sichern Ihre AWS-, Azure- oder Google Cloud-Umgebungen von Grund auf, indem wir Identitätsmanagement, Datenverschlüsselung und automatisierte Bedrohungsreaktion implementieren, damit Ihr Unternehmen völlig beruhigt skalieren kann."
+    ],
+    "highlight_quote": "„Sicherheit ist kein Produkt, das man kauft, sondern ein kontinuierlicher Prozess.“",
+    "side_image": "/all_services/cloud_security/introduction.jpg"
+  },
+  "key_benefits_section": {
+    "title": "Hauptvorteile",
+    "subtitle": "Warum proaktive Cloud-Sicherheit nicht verhandelbar ist",
+    "cards": [
+      {
+        "title": "Bedrohungsminderung",
+        "description": "Stoppen Sie Ransomware, DDoS-Angriffe und unbefugte Zugriffe, bevor sie in Ihre Systeme eindringen können.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Einhaltung gesetzlicher Vorschriften",
+        "description": "Stellen Sie sicher, dass Ihre Infrastruktur strenge Industriestandards wie SOC 2, HIPAA, DSGVO und PCI-DSS erfüllt.",
+        "icon_type": "MdGppGood"
+      },
+      {
+        "title": "Datenschutz",
+        "description": "Halten Sie die vertraulichen Informationen Ihrer Kunden verschlüsselt und vor internen und externen Datenlecks geschützt.",
+        "icon_type": "MdLock"
+      },
+      {
+        "title": "Sichtbarkeit rund um die Uhr",
+        "description": "Erhalten Sie den vollständigen Überblick über Ihren Netzwerkverkehr mit automatisierter Überwachung und sofortigen Warnungen.",
+        "icon_type": "MdVisibility"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie erhalten, wenn Sie sich für Cloud Security entscheiden",
+    "image": "/all_services/cloud_security/wwg.jpg",
+    "list_items": [
+      {
+        "title": "1. Schwachstellenbewertungen",
+        "description": "Tiefgreifende Prüfungen Ihres aktuellen Cloud-Setups, um Fehlkonfigurationen und exponierte Endpunkte zu identifizieren."
+      },
+      {
+        "title": "2. Identitäts- und Zugriffsmanagement (IAM)",
+        "description": "Strenge „geringste Privilegien“-Zugriffskontrollen stellen sicher, dass Benutzer und Apps nur auf das zugreifen, was sie unbedingt benötigen."
+      },
+      {
+        "title": "3. Datenverschlüsselung",
+        "description": "Auf Ihre Daten werden sowohl im Ruhezustand (in Datenbanken) als auch während der Übertragung Verschlüsselungsprotokolle nach Militärstandard angewendet."
+      },
+      {
+        "title": "4. Playbooks zur Reaktion auf Vorfälle",
+        "description": "Automatisierte Sicherheitsprotokolle, die im Falle eines Verstoßes gefährdete Vermögenswerte sofort sperren."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir sichern mit branchenführenden Tools",
+    "subtitle": "Unternehmenssoftware für maximalen Schutz",
+    "tools": [
+      {
+        "name": "AWS-Sicherheitshub",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Wolkenflare",
+        "icon": "SiCloudflare"
+      },
+      {
+        "name": "HashiCorp-Tresor",
+        "icon": "SiHashicorp"
+      },
+      {
+        "name": "Datenhund",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Palo Alto Networks",
+        "icon": "SiPaloaltonetworks"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser Prozess",
+    "subtitle": "Sichern Sie Ihre Infrastruktur Schritt für Schritt",
+    "steps": [
+      {
+        "title": "Auditieren und Bewerten",
+        "description": "Wir führen umfassende Scans Ihrer Cloud-Umgebung durch, um kritische Schwachstellen zu identifizieren.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Architekturdesign",
+        "description": "Wir entwerfen ein Zero-Trust-Sicherheitsmodell, das speziell auf Ihren Tech-Stack zugeschnitten ist.",
+        "icon": "FaShieldAlt"
+      },
+      {
+        "title": "Durchführung",
+        "description": "Wir stellen Firewalls, IAM-Richtlinien und Verschlüsselungsschlüssel bereit, ohne Ihre Live-Dienste zu unterbrechen.",
+        "icon": "FaLock"
+      },
+      {
+        "title": "Überwachen und warten",
+        "description": "Wir richten automatisierte Warnsysteme ein und bieten fortlaufendes Patch-Management und Bedrohungssuche.",
+        "icon": "FaChartLine"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Sicherung eines Fintech-Startups für die Einhaltung von SOC 2 Typ II",
+    "image": "/all_services/cloud_security/cs.png",
+    "content": {
+      "problem": {
+        "label": "Problem",
+        "text": "Eine schnell wachsende Finanzanwendung hatte AWS S3-Buckets offengelegt und verfügte nicht über angemessene Zugriffskontrollen, sodass sie Gefahr liefen, bei einem bevorstehenden Compliance-Audit durchzufallen."
+      },
+      "solution": {
+        "label": "Lösung",
+        "text": "Wir führten eine vollständige Sicherheitsüberprüfung durch, sperrten die öffentlich zugängliche Infrastruktur, verschlüsselten alle Datenbanken und implementierten eine strenge IAM-Richtlinie (Identity and Access Management)."
+      },
+      "result": {
+        "label": "Ergebnis",
+        "text": "Der Kunde hat sein SOC 2 Typ II-Audit in weniger als 4 Wochen erfolgreich bestanden und konnte so einen wichtigen Unternehmensvertrag über 5 Millionen US-Dollar abschließen."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Häufig gestellte Fragen",
+    "subtitle": "Erhalten Sie Antworten zum Thema Cloud-Sicherheit",
+    "questions": [
+      {
+        "question": "Ist die Cloud weniger sicher als On-Premise-Server?",
+        "answer": "Nein. Große Cloud-Anbieter (AWS, Azure, Google) verfügen über eine wesentlich bessere physische und grundlegende Sicherheit als die meisten privaten Rechenzentren. Cloud-Sicherheit basiert jedoch auf einem „Shared Responsibility Model“. Der Anbieter sichert die Hardware, Sie sind jedoch dafür verantwortlich, die Konfiguration Ihrer Daten und Apps sicherzustellen. Hier kommen wir ins Spiel."
+      },
+      {
+        "question": "Was bedeutet eigentlich „Zero Trust“?",
+        "answer": "Zero Trust ist ein Sicherheitsrahmenwerk, das erfordert, dass alle Benutzer, ob innerhalb oder außerhalb des Unternehmensnetzwerks, kontinuierlich authentifiziert und autorisiert werden, bevor ihnen Zugriff auf Anwendungen und Daten gewährt wird oder er behalten bleibt."
+      },
+      {
+        "question": "Können Sie uns helfen, Compliance zu erreichen (SOC 2, HIPAA, DSGVO)?",
+        "answer": "Absolut. Wir sind auf die Abbildung von Cloud-Architekturen auf strenge regulatorische Rahmenbedingungen spezialisiert. Wir können die technischen Kontrollen implementieren, die erforderlich sind, um Ihre Compliance-Audits mit Bravour zu bestehen."
+      },
+      {
+        "question": "Was passiert, wenn wir einen Cyberangriff erleiden?",
+        "answer": "Wir integrieren automatisierte Incident Response (IR)-Protokolle in Ihre Infrastruktur. Wenn ungewöhnliches Verhalten erkannt wird (z. B. ein massiver Daten-Download-Versuch), kann das System automatisch Verbindungen trennen, den Benutzerzugriff widerrufen und Ihr Team sofort alarmieren, um den Angriff im Keim zu ersticken."
+      }
+    ],
+    "footer": {
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
+      "link_text": "Kontaktieren Sie unser Sicherheitsteam",
+      "link_url": "/contact"
+    }
+  }
+}
