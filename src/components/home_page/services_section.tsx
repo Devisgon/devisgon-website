@@ -1,4 +1,3 @@
-"use client";
 import styles from "../animations/ServicesSection.module.css";
 import type { ServicesSectionProps } from "@/types/homepage/services";
 import Image from "next/image";

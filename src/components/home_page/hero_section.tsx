@@ -129,7 +129,7 @@ animate={{ opacity: 1 }}
   >
     <Image
       src="/home_page/hero_section/hero_bg.svg"
-      alt=""
+      alt="bg"
       fill
       priority
       sizes="100vw"
