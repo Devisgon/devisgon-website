@@ -27,12 +27,16 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
     href={card.link}
     className={styles.card}
   >
-    <img
-      src={card.image_alt}
-      alt={card.title}
-      
-      className={styles.cardImage}
-    />
+   
+<Image
+   src={card.image_alt}
+   alt={card.title}
+  width={653}
+  height={500}
+  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 653px"
+        className={styles.cardImage}
+
+/>
 
      <div className={styles.overlay}>
       <h3 className={styles.title}>{card.title}</h3>
