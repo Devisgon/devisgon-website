@@ -1,4 +1,3 @@
-"use client"
 import type { BlogSectionProps } from "@/types/homepage/blog";
 const BlogSection = ({ data }: BlogSectionProps) => {
  return (

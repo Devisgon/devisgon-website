@@ -1,53 +1,42 @@
-"use client";
-import React, { useEffect, useState } from "react";
+import { cookies } from 'next/headers';
 import Hero from "@/components/services_page/hero";
 import Service from '@/components/services_page/services';
 import Form from '@/components/sub_services_pages/contact';
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
-import { useTranslation } from 'react-i18next';
 
-import { HeroSectionData } from "@/types/services_page/hero";
-import { ServiceItem } from "@/types/services_page/services";
+import dataEn from '@/data/english_data/services_page.json';
+import dataUr from '@/data/urdu_data/services_page.json';
+import dataAr from '@/data/arabic_data/services_page.json';
+import dataFr from '@/data/french_data/services_page.json';
+import dataZh from '@/data/chinese_data/services_page.json';
+import dataDe from '@/data/german_data/services_page.json';
+import dataEs from '@/data/spanish_data/services_page.json';
 
-export default function Services() {
-  const { t, i18n } = useTranslation('services');
-  const [mounted, setMounted] = useState(false);
+import type { HeroSectionData } from "@/types/services_page/hero";
+import type { ServiceItem } from "@/types/services_page/services";
 
-  useEffect(() => {
-    setMounted(true);
-  }, []);
+/* eslint-disable @typescript-eslint/no-explicit-any */
+const langMap: Record<string, any> = {
+  en: dataEn, ur: dataUr, ar: dataAr,
+  fr: dataFr, zh: dataZh, de: dataDe, es: dataEs,
+};
 
-  const herosection = t("herosection", { returnObjects: true }) as HeroSectionData;
-  const services = t("services", { returnObjects: true }) as ServiceItem[];
+export default async function Services() {
+  const cookieStore = await cookies();
+  const lang = cookieStore.get('lang')?.value || 'en';
+  const data = langMap[lang] ?? langMap['en'];
 
-  const isLoading = !mounted || !i18n.isInitialized;
-  
-  const isDataMissing = !herosection || !services || typeof herosection === 'string';
-
-  if (isLoading) {
-    return (
-      <div className="flex items-center justify-center h-screen bg-bg-primary">
-        <p className="text-t-secondary font-medium">Initializing Services...</p>
-      </div>
-    );
-  }
-
-  if (isDataMissing) {
-    return (
-      <div className="flex items-center justify-center h-screen bg-bg-primary">
-        <p>Translation data missing for {i18n.language}</p>
-      </div>
-    );
-  }
+  const herosection = data.herosection as HeroSectionData;
+  const services = data.services as ServiceItem[];
 
   return (
     <>
-    <Header />
+      <Header />
       <Hero data={herosection} />
       <Service data={services} />
       <Form />
-    <Footer />
+      <Footer />
     </>
   );
 }

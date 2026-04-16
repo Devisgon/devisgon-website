@@ -2,13 +2,8 @@
 import { useState } from "react";
 import type { HeroSectionProps } from "@/types/services_page/hero";
 import { motion } from "framer-motion";
-import { useTranslation } from 'react-i18next';
 
-
-
-
-const HeroSection = ({ data,  }: HeroSectionProps) => {
-    const { t } = useTranslation('services');
+const HeroSection = ({ data }: HeroSectionProps) => {
 
   const [activeBtn, setActiveBtn] = useState<number | null>(null);
 

@@ -1,4 +1,4 @@
-
+"use client";
 import { Typewriter } from "react-simple-typewriter";
 import { Check } from "lucide-react";
 import type { ExpertServicesSectionProps } from "@/types/homepage/expert_services";
