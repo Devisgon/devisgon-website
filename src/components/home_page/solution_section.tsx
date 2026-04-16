@@ -1,5 +1,4 @@
-
-import { Sparkles, Code } from "lucide-react";
+import Image from "next/image";
 import type { SolutionsSectionProps } from "@/types/homepage/solution";
 
 const SolutionsSection = ({ data }: SolutionsSectionProps) => {
@@ -46,11 +45,14 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
           {/* Right Image */}
           <div className="lg:w-1/2 relative">
             <div className="overflow-hidden">
-              <img
-                src={data.side_image}
-                alt="Solutions"
-                className="w-[470px] h-[515px] rounded-3xl"
-              />
+              <Image
+  src="/home_page/solution_section/solution.webp"
+  alt="Solutions"
+  width={470}
+  height={515}
+  sizes="(max-width: 768px) 100vw, 470px"
+  className="w-[470px] h-[515px] rounded-3xl"
+/>
             </div>
 
             <div className="absolute bottom-4 left-[20%] text-[#402060] -ml-[12%] md:ml-0  translate-y-1/3 bg-white rounded-xl shadow-2xl p-6 w-72 z-10">
