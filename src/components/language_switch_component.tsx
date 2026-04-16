@@ -1,4 +1,5 @@
 "use client";
+import { useRouter } from "next/navigation";
 import React, { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 import { FiGlobe } from "react-icons/fi"; 
@@ -7,6 +8,8 @@ import "../context/i18n";
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
+    const router = useRouter();
+
   const [isOpen, setIsOpen] = useState(false);
   const [mounted, setMounted] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -32,17 +35,17 @@ const LanguageSwitcher = () => {
   useEffect(() => {
     setMounted(true);
   }, []);
+const changeLanguage = async (code: string) => {
+  document.cookie = `lang=${code}; path=/; max-age=31536000`;
 
-  const changeLanguage = (code: string) => {
-      document.cookie = `lang=${code}; path=/`;
-    if (i18n?.changeLanguage) {
-      i18n.changeLanguage(code).then(() => {
-        document.documentElement.lang = code;
-      });
-      
-    }
-    setIsOpen(false);
-  };
+  if (i18n?.changeLanguage) {
+    await i18n.changeLanguage(code);
+  }
+
+  document.documentElement.lang = code;
+  setIsOpen(false);
+  router.refresh();
+};
 
   const handleMouseEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
