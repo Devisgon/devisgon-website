@@ -110,6 +110,7 @@ animate={{ opacity: 1 }}
   <div className="absolute  inset-0 -z-10 pointer-events-none select-none">
   <motion.div
     className="relative w-full h-full translate-y-30 md:translate-y-56"
+    
     initial={false}
     animate={{
       scale: [1, 1.05, 1],
@@ -122,6 +123,7 @@ animate={{ opacity: 1 }}
       ease: "easeInOut",
       repeat: Infinity,
       repeatType: "mirror",
+    
     }}
     style={{ transformOrigin: "center" }}
   >

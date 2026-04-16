@@ -78,7 +78,7 @@ const toggleTheme = () => {
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -right-76 mt-6 text-t-primary w-[3000px] max-w-screen  bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -right-96 mt-6 text-t-primary   w-[calc(100vw-2rem)]    bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0  transition-all duration-200 z-50"
                 >
