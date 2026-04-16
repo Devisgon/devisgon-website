@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import { IntroductionSectionProps } from "@/types/sub_services_page/intoduction";
 

@@ -1,4 +1,4 @@
-import Skeleton from 'react-loading-skeleton'
+"use client";
 import { motion } from "framer-motion";
 import { FaArrowRight } from "react-icons/fa";
 import type { HeroSectionProps } from "@/types/homepage/hero";
@@ -7,7 +7,7 @@ import Image from "next/image";
 const HeroSection = ({ data }: HeroSectionProps) => {
   return (
     <section
-      className="relative w-full min-h-[90vh] flex flex-col items-center justify-center overflow-hidden pt-10 pb-32"  >
+      className="relative w-full min-h-[90vh] flex flex-col items-center justify-center overflow-y-visible pt-10 pb-32"  >
 
   <div className="absolute -left-1 top-44 md:left-72 md:top-36 w-12 md:w-24 h-0.5 rounded-full rotate-[48deg]
                   bg-gradient-to-r from-transparent to-[#8E4EC6] " />
@@ -25,9 +25,9 @@ const HeroSection = ({ data }: HeroSectionProps) => {
         {/* Pre Title */}
         <motion.div
         
-            initial={{ opacity: 0, y: -20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
+        initial={{ opacity: 0 }}
+animate={{ opacity: 1 }}
+transition={{ duration: 0.6 }}
              className="inline-block h-8 py-2 px-6 rounded-full
 bg-[linear-gradient(90deg,rgba(251,247,254,0.1)_1.25%,rgba(142,78,198,0.1)_14.66%)]
 dark:bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060_50.16%,rgba(64,32,96,0.4)_97.71%)]
@@ -51,8 +51,8 @@ dark:bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060
 
         {/* Title */}
   <motion.h1
-  initial={{ opacity: 0, scale: 0.8 }}
-  animate={{ opacity: 1, scale: 1 }}
+  initial={{ opacity: 0 }}
+animate={{ opacity: 1 }}
   transition={{ duration: 0.8, delay: 0.3 }}
   className="text-3xl md:text-6xl lg:text-7xl max-w-5xl
              font-extrabold leading-[1.1] tracking-tight mb-8
@@ -76,8 +76,8 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
 
         {/* Description */}
         <motion.p
-          initial={{ opacity: 0, scale: 0.8 }}
-          animate={{ opacity: 1, scale: 1 }}
+         initial={{ opacity: 0 }}
+animate={{ opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.3 }}
           className="text-t-secondary dark:text-[#ECD9FA] text-lg md:text-xl font-medium max-w-2xl mb-12"
         >
@@ -107,33 +107,34 @@ dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)] ">
         </button>
         </motion.div>
 
-        {/* Background Image */}
-      <motion.img
-  src="/home_page/hero_section/hero_bg.svg"
-  alt="background"
-
-  className="-mt-24 -z-10 inset-0  animate-pulse select-none pointer-events-none"
-    fetchPriority="high"
-      loading="eager"
-
-
-  initial={{ scale: 1, x: 0, y: 0 }}
-  animate={{
-    scale: [1, 1.15, 1], 
-    x: [0, 30, -30, 0], 
-    y: [0, -20, 20, 0],  
-    rotate: [0, 2, -2, 0],
-  }}
-  transition={{
-    duration: 20, 
-    ease: "easeInOut",
-    repeat: Infinity,
-    repeatType: "mirror",
-  }}
-  style={{ 
-    transformOrigin: "center" 
-  }}
-/>
+  <div className="absolute  inset-0 -z-10 pointer-events-none select-none">
+  <motion.div
+    className="relative w-full h-full translate-y-30 md:translate-y-56"
+    initial={false}
+    animate={{
+      scale: [1, 1.05, 1],
+      x: [0, 20, -20, 0],
+      y: [0, -10, 10, 0],
+      rotate: [0, 1, -1, 0],
+    }}
+    transition={{
+      duration: 20,
+      ease: "easeInOut",
+      repeat: Infinity,
+      repeatType: "mirror",
+    }}
+    style={{ transformOrigin: "center" }}
+  >
+    <Image
+      src="/home_page/hero_section/hero_bg.svg"
+      alt=""
+      fill
+      priority
+      sizes="100vw"
+      className="object-contain"
+    />
+  </motion.div>
+</div>
       </div>
     </section>
   );

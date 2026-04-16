@@ -3,6 +3,8 @@ import Switcher from "./language_switch_component"
 import data from "@/data/navbar.json";
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
+
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
 import { useTranslation } from 'react-i18next';
 const Navbar = () => {
@@ -48,9 +50,15 @@ const toggleTheme = () => {
     <header className="fixed top-0 w-screen z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b   backdrop-blur-sm">
       <div className="max-w-screen mx-auto px-4 md:px-18 h-16 flex items-center justify-between">
         {/* Logo */}
-         <a href="/"> <img
-src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
-         /></a>
+      <a href="/" className="shrink-0">
+  <Image
+    src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}
+    alt="logo"
+   width={220}
+    height={70}
+    priority
+  />
+</a>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8"> 
@@ -70,7 +78,7 @@ src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}          alt="logo"
               {/* Dropdown (Left-Aligned) */}
               {link.dropdown && (
                 <div
-                  className="absolute top-full -right-[310px]  mt-6 text-t-primary w-screen bg-bg-primary border border-border rounded-xl shadow-xl
+                  className="absolute top-full -right-76 mt-6 text-t-primary w-[3000px] max-w-screen  bg-bg-primary border border-border rounded-xl shadow-xl
                   opacity-0 invisible group-hover:visible group-hover:opacity-100
                   translate-y-2 group-hover:translate-y-0  transition-all duration-200 z-50"
                 >
