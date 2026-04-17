@@ -6,7 +6,21 @@ type SeoConfig = {
   keywords?: string[];
 };
 
-const SITE_NAME = "Devisgon";
+export const SITE_NAME = "Devisgon";
+export const SITE_URL = "https://www.devisgon.com";
+
+const LOCAL_SEO_KEYWORDS = [
+  "software houses in Okara",
+  "software house in Okara",
+  "top software houses",
+  "best software house in Okara",
+  "AI software company ",
+  "custom software development ",
+  "software company Pakistan",
+];
+
+const withLocalKeywords = (keywords: string[] = []) =>
+  Array.from(new Set([...keywords, ...LOCAL_SEO_KEYWORDS]));
 
 const toMetadata = ({ title, description, keywords = [] }: SeoConfig): Metadata => ({
   title,
@@ -29,28 +43,33 @@ export const MAIN_SITE_METADATA = toMetadata({
   title: "Devisgon | AI-Powered Software & Business Automation Agency",
   description:
     "Devisgon is a leading next-gen technology partner specializing in AI development, SaaS platforms, and intelligent business automation. We help global brands and startups in Pakistan scale faster by saving 20-50% of operational time through smarter software solutions.",
-  keywords: [
+  keywords: withLocalKeywords([
     "Devisgon",
     "AI automation",
     "software development",
     "business automation agency",
     "SaaS development",
     "software house Pakistan",
-  ],
+  ]),
 });
 
 export const HOME_PAGE_METADATA = toMetadata({
   title: "Devisgon | AI-Powered Software Development & Automation Agency",
   description:
     "Devisgon helps global businesses save 20-50% of time through AI automation, SaaS development, and scalable software solutions. Partner with Pakistan's leading next-gen tech agency.",
-  keywords: ["AI Automation", "Software House Pakistan", "SaaS Solutions", "Devisgon"],
+  keywords: withLocalKeywords([
+    "AI Automation",
+    "Software House Pakistan",
+    "SaaS Solutions",
+    "Devisgon",
+  ]),
 });
 
 export const SERVICES_PAGE_METADATA = toMetadata({
   title: "All-in-One IT Services & AI Solutions | Devisgon",
   description:
     "Explore Devisgon's full suite of tech services: from Web & App Development to AI Automation, SaaS, and Cloud Deployment. Tailored digital solutions for global growth.",
-  keywords: [
+  keywords: withLocalKeywords([
     "IT services Pakistan",
     "AI software solutions",
     "digital transformation services",
@@ -63,7 +82,7 @@ export const SERVICES_PAGE_METADATA = toMetadata({
     "digital design services",
     "quality assurance and testing services",
     "web and app application development",
-  ],
+  ]),
 });
 
 export const PRIVACY_PAGE_METADATA = toMetadata({
@@ -88,8 +107,81 @@ export const TERMS_PAGE_METADATA = toMetadata({
 export const CONTACT_PAGE_METADATA = toMetadata({
   title: "Contact Devisgon | Start Your AI & Software Journey",
   description:
-    "Ready to scale your business? Contact Devisgon today for a free consultation on AI automation, web development, and cloud solutions.",
-  keywords: ["Contact Software House", "Hire AI Developers", "Devisgon Office Pakistan"],
+    "Ready to scale your business? Contact Devisgon today for a free consultation on AI automation, web development, and cloud solutions from our Okara, Pakistan team.",
+  keywords: withLocalKeywords([
+    "Contact Software House",
+    "Hire AI Developers",
+    "Devisgon Office Pakistan",
+  ]),
+});
+
+export const BLOGS_PAGE_METADATA = toMetadata({
+  title: "Software & AI Blogs | Devisgon Insights",
+  description:
+    "Read Devisgon blogs on AI automation, SaaS engineering, software development, cloud, and business growth from our team in Okara, Pakistan.",
+  keywords: withLocalKeywords([
+    "software development blog",
+    "AI automation blog",
+    "SaaS development insights",
+    "tech blog Pakistan",
+  ]),
+});
+
+type SiteNavigationLink = {
+  name: string;
+  path: string;
+  description: string;
+};
+
+const SITE_NAVIGATION_LINKS: SiteNavigationLink[] = [
+  {
+    name: "Home",
+    path: "/",
+    description: "Devisgon homepage with company overview and core service highlights.",
+  },
+  {
+    name: "Services",
+    path: "/services",
+    description: "Explore AI, SaaS, cloud, data, testing, and software development services.",
+  },
+  {
+    name: "Blogs",
+    path: "/blogs",
+    description: "Read Devisgon insights and updates on software, AI, and automation.",
+  },
+  {
+    name: "Contact Us",
+    path: "/contact",
+    description: "Contact our team for project consultation and software support.",
+  },
+  {
+    name: "Get Started Form",
+    path: "/get-started",
+    description: "Submit your details through our form to start your project or application.",
+  },
+];
+
+export const getWebsiteStructuredData = () => ({
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  name: SITE_NAME,
+  url: SITE_URL,
+  description:
+    "Devisgon provides AI, SaaS, automation, and software development services in Okara, Pakistan and worldwide.",
+  keywords: withLocalKeywords(["Devisgon", "AI software solutions", "software development"]),
+});
+
+export const getSiteNavigationStructuredData = () => ({
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  name: "Devisgon Primary Site Links",
+  itemListElement: SITE_NAVIGATION_LINKS.map((link, index) => ({
+    "@type": "ListItem",
+    position: index + 1,
+    name: link.name,
+    description: link.description,
+    url: `${SITE_URL}${link.path}`,
+  })),
 });
 
 const SERVICE_SLUG_SEO: Record<string, SeoConfig> = {

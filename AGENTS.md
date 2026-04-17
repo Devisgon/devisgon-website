@@ -28,6 +28,7 @@ Required actions after each meaningful code change:
 - Contact and apply forms post to internal API routes, then send email via Resend.
 - Footer is SSR-first; only the newsletter form is a small client island (`src/components/footer_newsletter_form.tsx`).
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
+- Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`.
 
 ## Route Flow
 ### Public Pages
@@ -99,6 +100,7 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 
 ## Navigation and Slug Source of Truth
 - Main nav and service links are in `src/data/navbar.json`.
+- Footer quick links are in `src/components/footer.tsx` and include core crawl targets (`/`, `/services`, `/blogs`, `/contact`, `/get-started`).
 - Service detail loaders must expose keys that match nav slugs.
 - Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and emits language query variants.
 
@@ -132,6 +134,7 @@ If you change this, also check this:
 - Career/form toggle behavior -> `src/globals/FormSettings.ts`, team section CTA visibility, and get-started redirect logic.
 - Language behavior -> cookie-based server pages + query-param service detail pages + `context/i18n.js`.
 - API payload fields -> matching form fields in `contact/page.tsx` or `get-started/page.tsx`.
+- SEO keywords, page metadata, or JSON-LD sitelinks -> `src/lib/seo.ts` + `src/app/(app)/layout.tsx` + relevant page metadata exports.
 
 ## Known Risks and Technical Debt
 - `src/data/loaders/digital_design.ts` has Arabic/German imports swapped for `ar` and `de` language maps.
@@ -151,3 +154,4 @@ If you change this, also check this:
 - 2026-04-17: Converted sub-service hero/process sections from client/framer-heavy implementations to server-rendered components and replaced all-icons import with a targeted icon map.
 - 2026-04-17: Added centralized SEO metadata config (`src/lib/seo.ts`) and applied page-level metadata to home, services, privacy, terms, contact, and all dynamic service slug routes via `generateMetadata`.
 - 2026-04-17: Split contact route into server metadata wrapper (`src/app/(app)/contact/page.tsx`) + client UI component (`src/components/contact_page/contact_page_client.tsx`) to support SEO metadata with no UI change.
+- 2026-04-17: Added local SEO keyword targeting (including Okara intent), JSON-LD primary sitelinks schema for Home/Services/Blogs/Contact/Get Started, blogs page metadata, and updated footer quick links for core indexable pages.
