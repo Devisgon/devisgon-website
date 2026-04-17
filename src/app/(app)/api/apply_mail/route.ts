@@ -45,7 +45,7 @@ export async function POST(req: Request) {
       : undefined;
 
   
-    const response = await resend.emails.send({
+    await resend.emails.send({
       from: process.env.RESEND_DOMAIN!,
       to: [process.env.RESEND_EMAIL_USER!],
       subject: "New Job Apply",

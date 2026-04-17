@@ -1,18 +1,15 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { TestimonialSectionProps } from "@/types/homepage/comments";
-import { motion } from "framer-motion";
 
 const TestimonialSection = ({ data }: TestimonialSectionProps) => {
   const [carouselIndex, setCarouselIndex] = useState<number>(0); 
   const [activeIndexInCarousel, setActiveIndexInCarousel] = useState<number>(1); 
-  const [isPaused, setIsPaused] = useState<boolean>(false);
 
   const cardsPerCarousel = 3;
   const totalCarousels = Math.ceil(data.reviews.length / cardsPerCarousel);
-  const autoPlayInterval = 2000; 
 
   const getCurrentCarouselCards = () => {
     const startIndex = carouselIndex * cardsPerCarousel;
@@ -38,22 +35,8 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
     setActiveIndexInCarousel(indexInCarousel);
   };
 
-  useEffect(() => {
-    if (isPaused) return;
-
-    const interval = setInterval(() => {
-      setCarouselIndex((prev) => (prev === totalCarousels - 1 ? 0 : prev + 1));
-      setActiveIndexInCarousel(1);
-    }, autoPlayInterval);
-
-    return () => clearInterval(interval);
-  }, [isPaused, totalCarousels, autoPlayInterval]); 
   return (
-    <section 
-      className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden bg-white dark:bg-background"
-      onMouseEnter={() => setIsPaused(true)}
-      onMouseLeave={() => setIsPaused(false)}
-    >
+    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden bg-white dark:bg-background">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="relative mb-12">
@@ -67,12 +50,16 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 src="/home_page/comments_section/Vector_1.svg"
                 alt="arrow"
                 className="hidden md:block dark:hidden w-44 ml-90 -mt-35"
+                loading="lazy"
+                decoding="async"
               />
 
               <img
                 src={data.icon}
                 alt="arrow"
                 className="hidden dark:block w-44 ml-90 -mt-35"
+                loading="lazy"
+                decoding="async"
               />
             </div>
 
@@ -125,15 +112,8 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 `}
               >
                 {isActive && (
-                  <motion.div
-                    layoutId="activeGlow"
+                  <div
                     className="absolute -bottom-5 left-0 right-0 h-1/2 -z-20"
-                    initial={false}
-                    transition={{
-                      type: "spring",
-                      stiffness: 500,
-                      damping: 100,
-                    }}
                     style={{
                       background: "#8145B5",
                       filter: "blur(100px)",
@@ -151,6 +131,8 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                       className={`rounded-full object-cover border-2 border-white shadow-md ${
                         isActive ? "w-16 h-16" : "w-14 h-14"
                       }`}
+                      loading="lazy"
+                      decoding="async"
                     />
 
                     <div>

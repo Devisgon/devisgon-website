@@ -36,12 +36,16 @@ const fadeInUpVariants: Variants = {
 
 
 export default function GetStartedPage() {
+  type CareerDoc = {
+    type: "Job" | "Internship";
+    title: string;
+  };
+
   const router = useRouter();
   const formRef = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [file, setFile] = useState<File | null>(null);
-  const [preview, setPreview] = useState<string | null>(null);
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("+92");
   const [emailError, setEmailError] = useState("");
@@ -70,10 +74,10 @@ export default function GetStartedPage() {
         }
 
         if (careersRes.ok) {
-          const data = await careersRes.json();
+          const data = (await careersRes.json()) as { docs: CareerDoc[] };
           const jobs: string[] = [];
           const internships: string[] = [];
-          data.docs.forEach((doc: any) => {
+          data.docs.forEach((doc) => {
             if (doc.type === "Job") jobs.push(doc.title);
             if (doc.type === "Internship") internships.push(doc.title);
           });
@@ -111,12 +115,6 @@ export default function GetStartedPage() {
     if (e.target.files && e.target.files.length > 0) {
       const selectedFile = e.target.files[0];
       setFile(selectedFile);
-
-      if (selectedFile.type.startsWith("image/")) {
-        setPreview(URL.createObjectURL(selectedFile));
-      } else {
-        setPreview(null);
-      }
     }
   };
 
@@ -178,7 +176,6 @@ export default function GetStartedPage() {
     if (result.success && formRef.current) {
       formRef.current.reset();
       setFile(null);
-      setPreview(null);
       setAppType("");
       setPhone("+92");
       setEmail("");
@@ -213,7 +210,7 @@ export default function GetStartedPage() {
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: false, amount: 0.1 }}
+            viewport={{ once: true, amount: 0.1 }}
           >
 
             {/* --- Left Column: Form --- */}
@@ -524,3 +521,4 @@ export default function GetStartedPage() {
     </>
   );
 }
+

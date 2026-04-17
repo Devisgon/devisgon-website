@@ -1,6 +1,8 @@
-import { cookies } from 'next/headers';
+import type { Metadata } from "next";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
+import { getCachedLanguage } from "@/lib/language";
+import { TERMS_PAGE_METADATA } from "@/lib/seo";
 
 import dataEn from '@/data/english_data/terms_condition.json';
 import dataUr from '@/data/urdu_data/terms_condition.json';
@@ -30,9 +32,10 @@ interface Section {
   contact_details?: ContactDetails;
 }
 
+export const metadata: Metadata = TERMS_PAGE_METADATA;
+
 export default async function TermsAndConditions() {
-  const cookieStore = await cookies();
-  const lang = cookieStore.get('lang')?.value || 'en';
+  const lang = await getCachedLanguage();
   const data = langMap[lang] ?? langMap['en'];
 
   const title = data.title as string;

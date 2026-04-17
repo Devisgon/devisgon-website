@@ -1,51 +1,55 @@
 "use client";
+
 import { useRouter } from "next/navigation";
-import React, { useState, useRef, useEffect } from "react";
-import { useTranslation } from "react-i18next";
-import { FiGlobe } from "react-icons/fi"; 
-import { US, PK, SA, CN, ES, DE, FR } from 'country-flag-icons/react/3x2';
-import "../context/i18n";
+import React, { useEffect, useRef, useState } from "react";
+import { FiGlobe } from "react-icons/fi";
+import { CN, DE, ES, FR, PK, SA, US } from "country-flag-icons/react/3x2";
+
+type LanguageOption = {
+  code: string;
+  name: string;
+  flag?: React.ReactNode;
+};
+
+const languages: LanguageOption[] = [
+  { code: "en", name: "English", flag: <US title="United States" className="w-5 h-auto rounded-sm" /> },
+  { code: "ur", name: "Urdu", flag: <PK title="Pakistan" className="w-5 h-auto rounded-sm" /> },
+  { code: "ar", name: "Arabic", flag: <SA title="Saudi Arabia" className="w-5 h-auto rounded-sm" /> },
+  { code: "zh", name: "Chinese", flag: <CN title="China" className="w-5 h-auto rounded-sm" /> },
+  { code: "es", name: "Spanish", flag: <ES title="Spain" className="w-5 h-auto rounded-sm" /> },
+  { code: "de", name: "German", flag: <DE title="Germany" className="w-5 h-auto rounded-sm" /> },
+  { code: "fr", name: "French", flag: <FR title="France" className="w-5 h-auto rounded-sm" /> },
+];
+
+const getCookieValue = (name: string): string | null => {
+  const token = `${name}=`;
+  const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
+  return match ? decodeURIComponent(match.slice(token.length)) : null;
+};
 
 const LanguageSwitcher = () => {
-  const { i18n } = useTranslation();
-    const router = useRouter();
+  const router = useRouter();
+  const dropdownRef = useRef<HTMLDivElement>(null);
+  const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const [isOpen, setIsOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
-  const dropdownRef = useRef<HTMLDivElement>(null);
-  const timeoutRef = useRef<NodeJS.Timeout | null>(null);
-
-  const languages = [
-    { 
-      code: "en", 
-      name: "English", 
-      icon: <FiGlobe className="text-t-primary w-5 h-5" />, 
-      flag: <US title="United States" className="w-5 h-auto rounded-sm" /> 
-    },
-    { code: "ur", name: "اردو", flag: <PK title="Pakistan" className="w-5 h-auto rounded-sm" /> },
-    { code: "ar", name: "العربية", flag: <SA title="Saudi Arabia" className="w-5 h-auto rounded-sm" /> },
-    { code: "zh", name: "中文", flag: <CN title="China" className="w-5 h-auto rounded-sm" /> },
-    { code: "es", name: "Español", flag: <ES title="Spain" className="w-5 h-auto rounded-sm" /> },
-    { code: "de", name: "Deutsch", flag: <DE title="Germany" className="w-5 h-auto rounded-sm" /> },
-    { code: "fr", name: "Français", flag: <FR title="France" className="w-5 h-auto rounded-sm" /> },
-  ];
-
-  const currentLang = languages.find(l => i18n.language?.startsWith(l.code)) || languages[0];
+  const [currentCode, setCurrentCode] = useState("en");
 
   useEffect(() => {
-    setMounted(true);
+    const cookieLang = getCookieValue("lang");
+    if (cookieLang && languages.some((lang) => lang.code === cookieLang)) {
+      setCurrentCode(cookieLang);
+      document.documentElement.lang = cookieLang;
+    }
   }, []);
-const changeLanguage = async (code: string) => {
-  document.cookie = `lang=${code}; path=/; max-age=31536000`;
 
-  if (i18n?.changeLanguage) {
-    await i18n.changeLanguage(code);
-  }
-
-  document.documentElement.lang = code;
-  setIsOpen(false);
-  router.refresh();
-};
+  const changeLanguage = (code: string) => {
+    document.cookie = `lang=${code}; path=/; max-age=31536000; samesite=lax`;
+    document.documentElement.lang = code;
+    setCurrentCode(code);
+    setIsOpen(false);
+    router.refresh();
+  };
 
   const handleMouseEnter = () => {
     if (timeoutRef.current) clearTimeout(timeoutRef.current);
@@ -56,7 +60,7 @@ const changeLanguage = async (code: string) => {
     timeoutRef.current = setTimeout(() => setIsOpen(false), 400);
   };
 
-  if (!mounted) return null;
+  const currentLang = languages.find((lang) => lang.code === currentCode) ?? languages[0];
 
   return (
     <div
@@ -69,17 +73,20 @@ const changeLanguage = async (code: string) => {
         onClick={() => setIsOpen(!isOpen)}
         className="flex items-center gap-3 px-3 py-2 rounded-xl transition-all text-t-primary cursor-pointer group"
       >
-        <span className={`text-[10px] flex items-center justify-center transition-transform duration-300 `}>
-          {currentLang.code === "en" ? currentLang.icon : currentLang.flag}
-
+        <span className="text-[10px] flex items-center justify-center transition-transform duration-300">
+          {currentLang.code === "en" ? (
+            <FiGlobe className="text-t-primary w-5 h-5" />
+          ) : (
+            currentLang.flag
+          )}
         </span>
       </button>
 
       {isOpen && (
-        <div className="absolute   md:-ml-36 mt-3  min-w-[170px] bg-bg-primary border border-white/10 rounded-2xl shadow-2xl z-50 p-2 backdrop-blur-xl">
+        <div className="absolute md:-ml-36 mt-3 min-w-[170px] bg-bg-primary border border-white/10 rounded-2xl shadow-2xl z-50 p-2 backdrop-blur-xl">
           <div className="flex flex-col gap-1">
             {languages.map((lang) => {
-              const isActive = i18n.language?.startsWith(lang.code);
+              const isActive = currentCode === lang.code;
               return (
                 <button
                   key={lang.code}
@@ -89,9 +96,7 @@ const changeLanguage = async (code: string) => {
                   }`}
                 >
                   <div className="flex items-center gap-3">
-                    <div className="w-5 flex items-center justify-center">
-                      {lang.flag}
-                    </div>
+                    <div className="w-5 flex items-center justify-center">{lang.flag}</div>
                     <span className={`font-semibold ${isActive ? "text-t-secondary" : "text-t-primary/70"}`}>
                       {lang.name}
                     </span>

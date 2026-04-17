@@ -27,6 +27,8 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
                     src={feature.icon}
                     alt="icon"
                     className="h-10 w-10"
+                    loading="lazy"
+                    decoding="async"
                     />
                   </div>
 

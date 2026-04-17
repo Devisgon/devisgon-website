@@ -1,14 +1,9 @@
-import { cookies } from 'next/headers';
+import { Suspense } from "react";
+import { getCachedLanguage } from "@/lib/language";
 
 import Hero from "@/components/home_page/hero_section";
 import Services from "@/components/home_page/services_section";
-import ExportServices from "@/components/home_page/expert_services_section";
-import Award from "@/components/home_page/award";
-import Solution from "@/components/home_page/solution_section";
-import Progress from "@/components/home_page/working_progress";
-import Comments from "@/components/home_page/comments_section";
-import Ceo from "@/components/home_page/ceo_section";
-import Team from "@/components/home_page/team_section";
+import DeferredSections from "@/components/home_page/deferred_sections";
 
 import type { HeroSectionData } from "@/types/homepage/hero";
 import type { ServicesSectionData } from "@/types/homepage/services";
@@ -34,8 +29,7 @@ const langMap: Record<string, any> = {
 };
 
 export default async function Home() {
-  const cookieStore = await cookies();
-  const lang = cookieStore.get('lang')?.value || 'en';
+  const lang = await getCachedLanguage();
   const t = langMap[lang] ?? langMap['en'];
 
   const heroSection        = t.hero_section          as HeroSectionData;
@@ -51,13 +45,16 @@ export default async function Home() {
     <main>
       <Hero data={heroSection} />
       <Services data={servicesSection} />
-      <Award />
-      <ExportServices data={expertServicesSection} />
-      <Solution data={solutionsSection} />
-      <Progress data={workingProcess} />
-      <Comments data={testimonialsSection} />
-      <Ceo data={ceoMessageSection} />
-      <Team data={teamMembers} />
+      <Suspense fallback={<div className="py-12" />}>
+        <DeferredSections
+          expertServicesSection={expertServicesSection}
+          solutionsSection={solutionsSection}
+          workingProcess={workingProcess}
+          testimonialsSection={testimonialsSection}
+          ceoMessageSection={ceoMessageSection}
+          teamMembers={teamMembers}
+        />
+      </Suspense>
     </main>
   );
 }

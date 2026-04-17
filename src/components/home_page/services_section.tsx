@@ -1,4 +1,3 @@
-"use client";
 import styles from "../animations/ServicesSection.module.css";
 import type { ServicesSectionProps } from "@/types/homepage/services";
 import Image from "next/image";
@@ -61,6 +60,8 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
       src={card.image_alt}
       alt={card.title}
       className={styles.cardImage}
+      loading="lazy"
+      decoding="async"
     />
 
      <div className={styles.overlay}>

@@ -3,6 +3,10 @@ import Blogs from "@/components/blogs_page/blogs"
 import data from "@/data/english_data/home_page.json"
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
+import { BLOGS_PAGE_METADATA } from "@/lib/seo";
+
+export const metadata = BLOGS_PAGE_METADATA;
+
 export default async function BlogsPage() {
 return (
   <>
