@@ -1,8 +1,8 @@
 import React from 'react';
-import { cookies } from 'next/headers';
 import { Mail, Phone, MapPin } from "lucide-react";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
+import { getCachedLanguage } from "@/lib/language";
 
 import dataEn from '@/data/english_data/privacy_policy.json';
 import dataUr from '@/data/urdu_data/privacy_policy.json';
@@ -42,8 +42,7 @@ interface PolicySection {
 }
 
 export default async function PrivacyPolicy() {
-  const cookieStore = await cookies();
-  const lang = cookieStore.get('lang')?.value || 'en';
+  const lang = await getCachedLanguage();
   const data = langMap[lang] ?? langMap['en'];
 
   const title = data.title as string;

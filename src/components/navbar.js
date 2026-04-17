@@ -6,24 +6,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 import { Moon, Sun, Menu, ChevronDown } from "lucide-react";
-import { useTranslation } from 'react-i18next';
 const Navbar = () => {
-    const { t } = useTranslation();
-
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
-  const [mounted, setMounted] = useState(false);
 const [activeServiceCategory, setActiveServiceCategory] = useState(null);
 const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
   const navLinks = data.navbar;
 
 useEffect(() => {
-  setMounted(true);
-  setIsDark(false);
-  document.documentElement.classList.remove("dark");
-  
-  localStorage.removeItem("theme");
+  const hasDarkClass = document.documentElement.classList.contains("dark");
+  setIsDark(hasDarkClass);
 }, []);
 
 const toggleTheme = () => {
@@ -44,13 +37,11 @@ const toggleTheme = () => {
     };
   }, [mobileOpen]);
 
-  if (!mounted) return null;
-
   return (
     <header className="fixed top-0 w-screen z-50 bg-[#F7EDFE] dark:bg-[#8457AA]  border-b   backdrop-blur-sm">
       <div className="max-w-screen mx-auto px-4 md:px-18 h-16 flex items-center justify-between">
         {/* Logo */}
-      <a href="/" className="shrink-0">
+      <Link href="/" className="shrink-0">
   <Image
     src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}
     alt="logo"
@@ -58,7 +49,7 @@ const toggleTheme = () => {
     height={70}
     priority
   />
-</a>
+</Link>
 
         {/* Desktop Nav */}
         <nav className="hidden md:flex items-center gap-8"> 

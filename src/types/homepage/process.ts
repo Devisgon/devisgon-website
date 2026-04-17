@@ -3,6 +3,10 @@ export interface ProcessSectionData {
   main_heading: string;
   span_heading: string;
   heading: string;
+  stepsData?: Array<{
+    id: number;
+    title: string;
+  }>;
 }
 
 export interface ProcessSectionProps {

@@ -60,6 +60,8 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
       src={card.image_alt}
       alt={card.title}
       className={styles.cardImage}
+      loading="lazy"
+      decoding="async"
     />
 
      <div className={styles.overlay}>

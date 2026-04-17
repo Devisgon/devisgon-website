@@ -6,6 +6,22 @@ import CustomRichText from "@/components/payload_rich_text_styling";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
 
+type CoverImage = {
+  url: string;
+  alt?: string | null;
+};
+
+type BlogDoc = {
+  id: string;
+  slug: string;
+  title: string;
+  author?: string | null;
+  date?: string | null;
+  createdAt: string;
+  coverImage?: CoverImage | null;
+  content?: unknown;
+};
+
 export default async function BlogPostPage({
   params,
 }: {
@@ -22,7 +38,7 @@ export default async function BlogPostPage({
     depth: 1,
   })
 
-  const blog = result.docs[0]
+  const blog = result.docs[0] as BlogDoc | undefined
   if (!blog) return notFound()
 
   // 2. Fetch recent blog posts for the sidebar
@@ -35,7 +51,7 @@ export default async function BlogPostPage({
     depth: 1,
   })
   
-  const recentPosts = recentPostsResult.docs
+  const recentPosts = recentPostsResult.docs as BlogDoc[]
 
   return (
     <>
@@ -122,7 +138,7 @@ export default async function BlogPostPage({
                 Recent Posts
               </h3>
               <div className="flex flex-col gap-8">
-                {recentPosts.map((post: any) => (
+                {recentPosts.map((post) => (
                   <Link href={`/blogs/${post.slug}`} key={post.id} className="flex flex-col group bg-white dark:bg-gray-900 rounded-xl overflow-hidden shadow-sm hover:shadow-lg transition-all duration-300 border border-gray-100 dark:border-gray-800">
                     
                     {/* Card Image */}

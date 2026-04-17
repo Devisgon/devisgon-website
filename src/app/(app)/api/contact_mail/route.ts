@@ -36,7 +36,7 @@ export async function POST(req: Request) {
     }
     const body = await req.json();
     const {
-      name, email, company, projectType, budget, timeline, projectDetail,
+      name, email, projectType, budget, timeline, projectDetail,
       fileBase64, fileName, fileType,
     } = body;
 
@@ -45,7 +45,7 @@ export async function POST(req: Request) {
       : undefined;
 
   
-    const response = await resend.emails.send({
+    await resend.emails.send({
       from: process.env.RESEND_DOMAIN!,
       to: [process.env.RESEND_EMAIL_USER!],
       subject: "New Contact Form Submission",

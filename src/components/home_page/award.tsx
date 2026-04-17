@@ -1,8 +1,3 @@
-"use client";
-
-import { useEffect, useState } from "react";
-import { motion, type Variants } from "framer-motion";
-
 /* ------------------ Types ------------------ */
 
 interface AwardData {
@@ -10,12 +5,6 @@ interface AwardData {
   value: number;
   suffix?: string;
   prefix?: string;
-}
-
-interface CounterProps {
-  value: number;
-  prefix?: string;
-  suffix?: string;
 }
 
 /* ------------------ Data ------------------ */
@@ -27,120 +16,24 @@ const data: AwardData[] = [
   { title: "Projects Spends", value: 3, prefix: "$", suffix: "M" },
 ];
 
-/* ------------------ Animations ------------------ */
-
-const containerVariants: Variants = {
-  hidden: {},
-  visible: {
-    transition: {
-      staggerChildren: 0.2,
-    },
-  },
-};
-
-const itemVariants: Variants = {
-  hidden: {
-    opacity: 0,
-    y: 40,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.6,
-      ease: [0.16, 1, 0.3, 1], 
-    },
-  },
-};
-
-/* ------------------ Counter ------------------ */
-
-const Counter = ({ value, prefix = "", suffix = "" }: CounterProps) => {
-  const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    let start = 0;
-    const duration = 1500;
-    const pauseTime = 1500;
-    const stepTime = 30;
-    const increment = value / (duration / stepTime);
-
-    let interval: ReturnType<typeof setInterval>;
-    let timeout: ReturnType<typeof setTimeout>;
-
-    const startCounting = () => {
-      interval = setInterval(() => {
-        start += increment;
-
-        if (start >= value) {
-          setCount(value);
-          clearInterval(interval);
-
-          timeout = setTimeout(() => {
-            start = 0;
-            setCount(0);
-            startCounting();
-          }, pauseTime);
-        } else {
-          setCount(Math.floor(start));
-        }
-      }, stepTime);
-    };
-
-    startCounting();
-
-    return () => {
-      clearInterval(interval);
-      clearTimeout(timeout);
-    };
-  }, [value]);
-
-  return (
-    <motion.h2
-      className="text-4xl font-bold text-t-primary"
-      initial={{ scale: 0.8, opacity: 0 }}
-      animate={{ scale: 1, opacity: 1 }}
-      transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
-    >
-      {prefix}
-      {count}
-      {suffix}
-    </motion.h2>
-  );
-};
-
-
 const Awards = () => {
   return (
-    <motion.section
-      className=" py-20"
-      initial="hidden"
-      whileInView="visible"
-      viewport={{ once: true, amount: 0.3 }}
-      variants={containerVariants}
-    >
-      <motion.div
-        className="flex flex-wrap justify-center gap-20 text-center"
-        variants={containerVariants}
-      >
+    <section className=" py-20">
+      <div className="flex flex-wrap justify-center gap-20 text-center">
         {data.map((item, index) => (
-          <motion.div
-            key={index}
-            className="flex flex-col items-center gap-4"
-            variants={itemVariants}
-          >
-            <Counter
-              value={item.value}
-              prefix={item.prefix}
-              suffix={item.suffix}
-            />
+          <div key={index} className="flex flex-col items-center gap-4">
+            <h2 className="text-4xl font-bold text-t-primary">
+              {item.prefix}
+              {item.value}
+              {item.suffix}
+            </h2>
             <p className="text-t-secondary text-2xl font-bold">
               {item.title}
             </p>
-          </motion.div>
+          </div>
         ))}
-      </motion.div>
-    </motion.section>
+      </div>
+    </section>
   );
 };
 

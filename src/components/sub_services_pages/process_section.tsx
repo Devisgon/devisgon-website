@@ -1,101 +1,116 @@
-"use client";
-
 import React from "react";
-import ALLIcons from "../icons";
+import {
+  FaBug,
+  FaChartBar,
+  FaChartLine,
+  FaCheckCircle,
+  FaCheckDouble,
+  FaClipboardList,
+  FaCode,
+  FaCogs,
+  FaCompass,
+  FaDatabase,
+  FaEdit,
+  FaFileAlt,
+  FaFileContract,
+  FaFileExport,
+  FaHammer,
+  FaLightbulb,
+  FaLink,
+  FaLock,
+  FaMobileAlt,
+  FaPaintBrush,
+  FaPalette,
+  FaPenNib,
+  FaPencilRuler,
+  FaPlay,
+  FaProjectDiagram,
+  FaRobot,
+  FaRocket,
+  FaSearch,
+  FaShieldAlt,
+  FaSitemap,
+  FaTerminal,
+  FaUnlockAlt,
+  FaVial,
+  FaWrench,
+} from "react-icons/fa";
+import { TbTools } from "react-icons/tb";
+import type { IconType } from "react-icons";
 import { ProcessSectionProps } from "@/types/sub_services_page/process";
-import { motion, Variants } from "framer-motion";
 
-const containerVariants: Variants = {
-  hidden: { opacity: 0 },
-  visible: {
-    opacity: 1,
-    transition: {
-      staggerChildren: 0.5, 
-      delayChildren: 0.3,
-    },
-  },
-};
-
-const stepVariants: Variants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { 
-    opacity: 1, 
-    y: 0, 
-    transition: { duration: 0.6, ease: "easeOut" } 
-  },
-};
-
-const iconVariants: Variants = {
-  rest: { scale: 1 },
-  hover: { 
-    scale: 1.15, 
-    transition: { type: "spring", stiffness: 300, damping: 15 } 
-  },
+const ICONS: Record<string, IconType> = {
+  FaBug,
+  FaChartBar,
+  FaChartLine,
+  FaCheckCircle,
+  FaCheckDouble,
+  FaClipboardList,
+  FaCode,
+  FaCogs,
+  FaCompass,
+  FaDatabase,
+  FaEdit,
+  FaFileAlt,
+  FaFileContract,
+  FaFileExport,
+  FaHammer,
+  FaLightbulb,
+  FaLink,
+  FaLock,
+  FaMobileAlt,
+  FaPaintBrush,
+  FaPalette,
+  FaPenNib,
+  FaPencilRuler,
+  FaPlay,
+  FaProjectDiagram,
+  FaRadar: FaSearch,
+  FaRobot,
+  FaRocket,
+  FaSearch,
+  FaShieldAlt,
+  FaSitemap,
+  FaTerminal,
+  FaUnlockAlt,
+  FaVial,
+  FaWrench,
+  TbTools,
 };
 
 const ProcessSection: React.FC<ProcessSectionProps> = ({ data }) => {
   return (
     <section className="w-screen md:w-full  py-24 px-6">
       <div className="container mx-auto max-w-7xl text-center">
-        
-        <motion.div 
-          className="mb-20"
-          initial={{ opacity: 0, y: -20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.5 }}
-          transition={{ duration: 0.6 }}
-        >
-          <h2 className="text-4xl font-extrabold text-t-primary mb-4">
-            {data.title}
-          </h2>
-          <p className="text-lg text-t-secondary dark:text-t-primary font-medium">
-            {data.subtitle}
-          </p>
-        </motion.div>
+        <div className="mb-20">
+          <h2 className="text-4xl font-extrabold text-t-primary mb-4">{data.title}</h2>
+          <p className="text-lg text-t-secondary dark:text-t-primary font-medium">{data.subtitle}</p>
+        </div>
 
-        <motion.div 
-          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: false, amount: 0.2 }} 
-        >
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
           {data.steps.map((step, index) => {
-            const iconName = step.icon.trim();
-            const IconComponent = ALLIcons[iconName as keyof typeof ALLIcons];
+            const iconName = step.icon.trim() as keyof typeof ICONS;
+            const IconComponent = ICONS[iconName];
 
             return (
-              <motion.div 
-                key={index} 
-                className="flex flex-col items-center"
-                variants={stepVariants}
-                initial="rest"
-                whileHover="hover" 
-              >
-                
-                <motion.div 
-                  variants={iconVariants}
-                  className="w-24 h-24 bg-[#E9D5FF] dark:bg-[#47295C] rounded-full flex items-center justify-center mb-6 shadow-sm"
-                >
+              <div key={index} className="flex flex-col items-center">
+                <div className="w-24 h-24 bg-[#E9D5FF] dark:bg-[#47295C] rounded-full flex items-center justify-center mb-6 shadow-sm">
                   {IconComponent ? (
                     <IconComponent className="text-black dark:text-[#ecd9fa] w-8 h-8" />
                   ) : (
                     <span className="text-xs">No Icon</span>
                   )}
-                </motion.div>
+                </div>
 
-                <h3 className="text-xl font-bold text-t-primary  mb-3">
-                  {step.title}
-                </h3>
+                <h3 className="text-xl font-bold text-t-primary  mb-3">{step.title}</h3>
 
                 <p className="text-t-secondary text-sm font-medium leading-relaxed max-w-[200px]">
                   {step.description}
                 </p>
-
-              </motion.div>
+              </div>
             );
           })}
-        </motion.div>
+        </div>
       </div>
     </section>
   );

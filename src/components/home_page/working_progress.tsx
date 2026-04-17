@@ -1,6 +1,3 @@
-"use client";
-
-import { useState, useEffect } from "react";
 import { Check } from "lucide-react";
 import type { ProcessSectionProps } from "@/types/homepage/process";
 
@@ -13,27 +10,12 @@ const stepsData = [
 ] as const;
 
 export default function ProcessSection({ data }: ProcessSectionProps) {
-  const [currentStep, setCurrentStep] = useState<number>(1);
-  const [isLastGreen, setIsLastGreen] = useState<boolean>(false);
-
-  useEffect(() => {
-    const timer = setInterval(() => {
-    setCurrentStep((prev) => {
-     if (prev === stepsData.length) {
-      setIsLastGreen(true);
-        setTimeout(() => {            setIsLastGreen(false);
-       setCurrentStep(1);
-        }, 1000);
-   return prev;      }
-        return prev + 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(timer);
-  }, []);
-
+  const resolvedSteps = data.stepsData?.length ? data.stepsData : stepsData;
+  const currentStep = resolvedSteps.length;
   const progressPercent =
-    ((currentStep - 1) / (stepsData.length - 1)) * 100;
+    resolvedSteps.length > 1
+      ? ((currentStep - 1) / (resolvedSteps.length - 1)) * 100
+      : 100;
 
   return (
     <section className="bg-background  py-20 px-4">
@@ -71,10 +53,9 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
 
           {/* Steps */}
           <div className="flex md:flex-row flex-col md:justify-between items-center md:items-start gap-12 relative z-10">
-            {stepsData.map((step) => {
+            {resolvedSteps.map((step) => {
                    const isActive = step.id <= currentStep;
-              const isLastStep =
-                       step.id === stepsData.length && isLastGreen;
+              const isLastStep = step.id === resolvedSteps.length;
 
               return (
           <div key={step.id} className="flex flex-col items-center">

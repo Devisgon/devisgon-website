@@ -1,9 +1,9 @@
-import { cookies } from 'next/headers';
 import Hero from "@/components/services_page/hero";
 import Service from '@/components/services_page/services';
 import Form from '@/components/sub_services_pages/contact';
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
+import { getCachedLanguage } from "@/lib/language";
 
 import dataEn from '@/data/english_data/services_page.json';
 import dataUr from '@/data/urdu_data/services_page.json';
@@ -23,8 +23,7 @@ const langMap: Record<string, any> = {
 };
 
 export default async function Services() {
-  const cookieStore = await cookies();
-  const lang = cookieStore.get('lang')?.value || 'en';
+  const lang = await getCachedLanguage();
   const data = langMap[lang] ?? langMap['en'];
 
   const herosection = data.herosection as HeroSectionData;
