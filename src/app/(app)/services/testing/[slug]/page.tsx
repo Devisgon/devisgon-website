@@ -1,6 +1,8 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { workflowData } from "@/data/loaders/testing";
 import { getCachedLanguage } from "@/lib/language";
+import { getServiceSlugMetadata } from "@/lib/seo";
 
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
@@ -18,6 +20,11 @@ type PageProps = {
   params: Promise<{ slug: string }>;
   searchParams: Promise<{ lang?: string | string[] }>;
 };
+
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+  const { slug } = await params;
+  return getServiceSlugMetadata(slug);
+}
 
 export default async function IndustryPage({ params, searchParams }: PageProps) {
   const { slug } = await params;

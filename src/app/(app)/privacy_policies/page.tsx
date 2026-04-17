@@ -1,8 +1,10 @@
 import React from 'react';
+import type { Metadata } from "next";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
 import { getCachedLanguage } from "@/lib/language";
+import { PRIVACY_PAGE_METADATA } from "@/lib/seo";
 
 import dataEn from '@/data/english_data/privacy_policy.json';
 import dataUr from '@/data/urdu_data/privacy_policy.json';
@@ -40,6 +42,8 @@ interface PolicySection {
   disclaimer?: string;
   contact_note?: string;
 }
+
+export const metadata: Metadata = PRIVACY_PAGE_METADATA;
 
 export default async function PrivacyPolicy() {
   const lang = await getCachedLanguage();
