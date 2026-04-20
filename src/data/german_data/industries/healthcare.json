@@ -1,158 +1,158 @@
 {
   "slug": "healthcare",
   "hero_section": {
-    "eyebrow": "Clinical Workflow Intelligence",
-    "title": "Modernizing",
-    "highlight": "Healthcare",
-    "description": "Unify diagnostics, scheduling, and care coordination with AI systems that reduce delay and improve patient outcomes.",
+    "eyebrow": "Klinische Intelligenz, bei der der Mensch im Mittelpunkt steht",
+    "title": "KI für Präzision",
+    "highlight": "Gesundheitspflege",
+    "description": "Vereinheitlichen Sie Patientendaten und klinische Arbeitsabläufe mit KI, die Risiken vorhersagt, die Dokumentation automatisiert und die Pflegekoordination verbessert.",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Pflege verbessern",
       "href": "/get-started"
     },
     "secondary_cta": {
-      "text": "View Architecture",
-      "href": "#industry-architecture"
+      "text": "Klinische Architektur anzeigen",
+      "href": "#healthcare-architecture"
     },
-    "background_image": "/services_page/hero_bg.svg"
+    "background_image": "/services_page/healthcare_hero_bg.svg"
   },
   "friction_section": {
-    "title": "The Friction Point",
-    "subtitle": "Healthcare teams face fragmented records, operational overload, and delayed decision loops.",
+    "title": "Die Pflegereibung",
+    "subtitle": "Gesundheitsdienstleister sind mit Verwaltungsaufwand und unzusammenhängenden Datensilos überfordert.",
     "cards": [
       {
-        "title": "Fragmented Records",
-        "description": "Clinical data scattered across systems limits context and slows diagnosis.",
-        "icon_type": "GiMedicines"
+        "title": "Klinisches Burnout",
+        "description": "Übermäßige manuelle Dokumentation und EHR-Dateneingabe reduzieren den Zeitaufwand für Patienten.",
+        "icon_type": "FaStethoscope"
       },
       {
-        "title": "Administrative Load",
-        "description": "Manual scheduling, follow-up, and reporting consume care-team capacity.",
-        "icon_type": "FaUserNurse"
+        "title": "Dateninteroperabilität",
+        "description": "Fragmentierte Patientenakten in allen Systemen verhindern eine ganzheitliche Betrachtung der Längsschnittgesundheit.",
+        "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Delayed Interventions",
-        "description": "Without predictive alerts, critical patient risk indicators can be missed.",
-        "icon_type": "FaHeartbeat"
+        "title": "Diagnoselatenz",
+        "description": "Verzögerungen bei der Analyse komplexer Bildgebungs- und Laborergebnisse verlangsamen kritische Interventionsfenster.",
+        "icon_type": "FaMicroscope"
       }
     ]
   },
   "architecture_section": {
-    "id": "industry-architecture",
-    "title": "Ethereal Intelligence, Concrete Results.",
-    "description": "Our architecture centralizes patient context, treatment history, and operational flow for fast and informed clinical decisions.",
+    "id": "Gesundheitsarchitektur",
+    "title": "Vernetzte Daten, bessere Ergebnisse.",
+    "description": "Unser Betriebssystem für das Gesundheitswesen erstellt eine Echtzeit-Intelligence-Schleife zwischen Patientenbiometrie, EHR-Aufzeichnungen und klinischer Entscheidungsunterstützung.",
     "bullets": [
-      "Unified Clinical Timeline",
-      "Predictive Triage Signals",
-      "Secure Access Governance"
+      "FHIR-Standard-Datenintegration",
+      "Klinische Umgebungsdokumentation",
+      "Prädiktive Patientenüberwachung"
     ],
     "cards": [
       {
-        "title": "Care Operations Dashboard",
-        "description": "Track occupancy, treatment progress, and service queues across locations in real time.",
-        "icon_type": "MdDashboardCustomize",
+        "title": "Klinisches Kommandozentrum",
+        "description": "Echtzeit-Einblick in den Gesundheitszustand des Patienten, die Bettenverfügbarkeit und den Personalbedarf.",
+        "icon_type": "MdMonitorHeart",
         "featured": true
       },
       {
-        "title": "Automated Follow-Ups",
-        "description": "Deliver reminders and care prompts automatically based on treatment plans.",
-        "icon_type": "FaProjectDiagram"
+        "title": "Ambient Scribe AI",
+        "description": "Erfassen Sie Patienten-Arzt-Gespräche auf natürliche Weise und erstellen Sie automatisch strukturierte klinische Notizen.",
+        "icon_type": "FaUserMd"
       },
       {
-        "title": "Early Risk Detection",
-        "description": "AI flags abnormal trends before escalation, enabling proactive intervention.",
-        "icon_type": "GiHealthNormal"
+        "title": "Prädiktive Risikobewertung",
+        "description": "Identifizieren Sie Hochrisikopatienten für Sepsis, Rückübernahme oder chronische Eskalation, bevor die Symptome ihren Höhepunkt erreichen.",
+        "icon_type": "FaProcedures"
       }
     ]
   },
   "benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Enable safer, faster, and more coordinated care journeys.",
+    "title": "Hauptvorteile",
+    "subtitle": "Steigerung der Effizienz bei gleichzeitiger Wahrung der höchsten Standards für die Privatsphäre der Patienten.",
     "cards": [
       {
-        "title": "Improved Patient Trust",
-        "description": "Clear communication loops keep patients informed and supported.",
-        "icon_type": "FaRegClock"
+        "title": "Reduzierter Verwaltungsaufwand",
+        "description": "Automatisierte Codierung und Diagrammerstellung geben den Ärzten die Stunden des Tages zurück.",
+        "icon_type": "FaRegEdit"
       },
       {
-        "title": "Higher Care Consistency",
-        "description": "Protocols and records stay standardized across departments.",
-        "icon_type": "FaShieldAlt"
+        "title": "Verbesserte Patientensicherheit",
+        "description": "KI-gesteuerter Medikamentenabgleich und Allergiewarnungen reduzieren unerwünschte Ereignisse.",
+        "icon_type": "FaHandHoldingHeart"
       },
       {
-        "title": "Reduced Admin Effort",
-        "description": "Automated logistics free teams to focus on patient care.",
-        "icon_type": "FaBolt"
+        "title": "Einhaltung von HIPAA/DSGVO",
+        "description": "Integrierte Verschlüsselung und Zugriffskontrollen gewährleisten die Datensouveränität und die Einhaltung gesetzlicher Vorschriften.",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Faster Turnaround",
-        "description": "Diagnostic and treatment pathways move with less delay.",
-        "icon_type": "FaChartLine"
+        "title": "Beschleunigte Diagnose",
+        "description": "Die KI-gestützte Bildanalyse priorisiert dringende Fälle für die Überprüfung durch den Radiologen.",
+        "icon_type": "FaRunning"
       },
       {
-        "title": "Unified Data Access",
-        "description": "Clinicians see relevant patient context without cross-system searching.",
-        "icon_type": "FaDatabase"
+        "title": "Einblicke in die Bevölkerungsgesundheit",
+        "description": "Analysieren Sie Trends in Patientenkohorten, um Präventionsstrategien zu verbessern.",
+        "icon_type": "FaUsers"
       },
       {
-        "title": "Streamlined Coordination",
-        "description": "Cross-functional teams align quickly through one source of truth.",
-        "icon_type": "FaCheckSquare"
+        "title": "Verbesserter Zugang zur Pflege",
+        "description": "Virtuelle Assistenten und Triaging-Bots helfen Patienten rund um die Uhr bei der Navigation auf ihrem Pflegeweg.",
+        "icon_type": "FaCommentMedical"
       }
     ]
   },
   "case_studies_section": {
-    "title": "Applied Intelligence",
-    "subtitle": "Reliable healthcare orchestration where timing and precision are critical.",
+    "title": "Gesundheitsversorgung in Aktion",
+    "subtitle": "Skalierung von Informationen über Krankenhausnetzwerke und Privatpraxen hinweg.",
     "cards": [
       {
-        "label": "Case Study 01",
-        "title": "Outpatient Network",
-        "description": "Automated appointment and triage logic reduced no-shows and improved service throughput by 18%.",
+        "label": "Fallstudie 01",
+        "title": "Mehrstaatliches Krankenhaussystem",
+        "description": "Mit Umgebungs-KI wurde der Zeitaufwand für die Dokumentation durch Ärzte um 45 % verkürzt und der Patientendurchsatz erhöht.",
         "href": "/contact",
-        "cta_text": "Learn More"
+        "cta_text": "Fallstudie ansehen"
       },
       {
-        "label": "Case Study 02",
-        "title": "Hospital Coordination",
-        "description": "Unified patient flow dashboards improved bed turnover visibility and accelerated discharge planning.",
+        "label": "Fallstudie 02",
+        "title": "Fernüberwachungsanbieter",
+        "description": "Prädiktive Analysen reduzierten die Wiedereinweisungen in die Notaufnahme bei Patienten mit chronischer Herzinsuffizienz um 20 %.",
         "href": "/contact",
-        "cta_text": "Learn More"
+        "cta_text": "Fallstudie ansehen"
       }
     ]
   },
   "explore_section": {
-    "title": "Explore Other Industries",
-    "subtitle": "Apply adaptive AI operations beyond clinical environments.",
+    "title": "Verwandte Branchen",
+    "subtitle": "Entdecken Sie, wie unsere operative Intelligenz auf angrenzende Sektoren anwendbar ist.",
     "cards": [
       {
-        "title": "Manufacturing",
-        "description": "Increase line intelligence and reduce production waste.",
+        "title": "Versicherung",
+        "description": "Beschleunigen Sie die Bearbeitung gesundheitsbezogener Angaben und die Genauigkeit des Underwritings.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Softwareentwicklung",
+        "description": "Erstellen Sie sichere, konforme Anwendungen und Plattformen für das Gesundheitswesen.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
+        "title": "Herstellung",
+        "description": "Optimieren Sie die Produktion medizinischer Geräte und die Logistik der Lieferkette.",
         "href": "/industries/manufacturing",
         "icon_type": "FaIndustry"
-      },
-      {
-        "title": "Energy",
-        "description": "Balance load, reliability, and field operations with predictive systems.",
-        "href": "/industries/energy",
-        "icon_type": "FaBolt"
-      },
-      {
-        "title": "Finance",
-        "description": "Strengthen transaction intelligence and compliance automation.",
-        "href": "/industries/finance",
-        "icon_type": "FaLandmark"
       }
     ]
   },
   "conversation_section": {
-    "title": "Start the Conversion",
-    "subtitle": "Talk with our healthcare systems specialists about your care operations.",
-    "full_name_label": "Full Name",
-    "business_email_label": "Business Email",
-    "message_label": "Message",
-    "full_name_placeholder": "John Doe",
-    "business_email_placeholder": "john@hospital.com",
-    "message_placeholder": "Tell us about your care workflow...",
-    "button_text": "Send Inquiry"
+    "title": "Starten Sie eine Beratung",
+    "subtitle": "Sprechen Sie mit unseren Gesundheitsspezialisten über die Modernisierung Ihrer klinischen Arbeitsabläufe.",
+    "full_name_label": "Vollständiger Name",
+    "business_email_label": "E-Mail der Organisation",
+    "message_label": "Nachricht",
+    "full_name_placeholder": "Dr. Sarah Chen",
+    "business_email_placeholder": "schen@healthsystem.org",
+    "message_placeholder": "Erzählen Sie uns von Ihren klinischen oder administrativen Herausforderungen ...",
+    "button_text": "Anfrage senden"
   }
 }

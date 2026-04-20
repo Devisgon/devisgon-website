@@ -1,158 +1,158 @@
 {
   "slug": "healthcare",
   "hero_section": {
-    "eyebrow": "Clinical Workflow Intelligence",
-    "title": "Modernizing",
-    "highlight": "Healthcare",
-    "description": "Unify diagnostics, scheduling, and care coordination with AI systems that reduce delay and improve patient outcomes.",
+    "eyebrow": "ہیومن سینٹرک کلینیکل انٹیلی جنس",
+    "title": "صحت سے متعلق AI",
+    "highlight": "صحت کی دیکھ بھال",
+    "description": "مریضوں کے ڈیٹا اور کلینیکل ورک فلو کو AI کے ساتھ یکجا کریں جو خطرات کی پیشین گوئی کرتا ہے، دستاویزات کو خودکار بناتا ہے، اور نگہداشت کوآرڈینیشن کو بڑھاتا ہے۔",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "نگہداشت کو بہتر بنائیں",
       "href": "/get-started"
     },
     "secondary_cta": {
-      "text": "View Architecture",
-      "href": "#industry-architecture"
+      "text": "کلینیکل آرکیٹیکچر دیکھیں",
+      "href": "#healthcare-architecture"
     },
-    "background_image": "/services_page/hero_bg.svg"
+    "background_image": "/services_page/healthcare_hero_bg.svg"
   },
   "friction_section": {
-    "title": "The Friction Point",
-    "subtitle": "Healthcare teams face fragmented records, operational overload, and delayed decision loops.",
+    "title": "کیئر رگڑ",
+    "subtitle": "صحت کی دیکھ بھال فراہم کرنے والے انتظامی بوجھ اور منقطع ڈیٹا سائلو سے مغلوب ہیں۔",
     "cards": [
       {
-        "title": "Fragmented Records",
-        "description": "Clinical data scattered across systems limits context and slows diagnosis.",
-        "icon_type": "GiMedicines"
+        "title": "کلینیکل برن آؤٹ",
+        "description": "ضرورت سے زیادہ دستی دستاویزات اور EHR ڈیٹا انٹری مریضوں کے ساتھ گزارے گئے وقت کو کم کرتی ہے۔",
+        "icon_type": "FaStethoscope"
       },
       {
-        "title": "Administrative Load",
-        "description": "Manual scheduling, follow-up, and reporting consume care-team capacity.",
-        "icon_type": "FaUserNurse"
+        "title": "ڈیٹا انٹرآپریبلٹی",
+        "description": "تمام سسٹمز میں بکھرے ہوئے مریضوں کے ریکارڈ طول بلد صحت کے مجموعی نظارے کو روکتے ہیں۔",
+        "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Delayed Interventions",
-        "description": "Without predictive alerts, critical patient risk indicators can be missed.",
-        "icon_type": "FaHeartbeat"
+        "title": "تشخیصی تاخیر",
+        "description": "پیچیدہ امیجنگ اور لیب کے نتائج کا تجزیہ کرنے میں تاخیر اہم مداخلت کی کھڑکیوں کو سست کرتی ہے۔",
+        "icon_type": "FaMicroscope"
       }
     ]
   },
   "architecture_section": {
-    "id": "industry-architecture",
-    "title": "Ethereal Intelligence, Concrete Results.",
-    "description": "Our architecture centralizes patient context, treatment history, and operational flow for fast and informed clinical decisions.",
+    "id": "صحت کی دیکھ بھال فن تعمیر",
+    "title": "مربوط ڈیٹا، بہتر نتائج۔",
+    "description": "ہمارا ہیلتھ کیئر OS مریضوں کے بایومیٹرکس، EHR ریکارڈز، اور طبی فیصلے کی حمایت کے درمیان ایک حقیقی وقتی انٹیلی جنس لوپ بناتا ہے۔",
     "bullets": [
-      "Unified Clinical Timeline",
-      "Predictive Triage Signals",
-      "Secure Access Governance"
+      "FHIR- معیاری ڈیٹا انٹیگریشن",
+      "محیطی کلینیکل دستاویزات",
+      "پیشن گوئی مریض کی نگرانی"
     ],
     "cards": [
       {
-        "title": "Care Operations Dashboard",
-        "description": "Track occupancy, treatment progress, and service queues across locations in real time.",
-        "icon_type": "MdDashboardCustomize",
+        "title": "کلینیکل کمانڈ سینٹر",
+        "description": "مریض کی تیکشنتا، بستر کی دستیابی، اور عملے کی ضروریات میں حقیقی وقت کی نمائش۔",
+        "icon_type": "MdMonitorHeart",
         "featured": true
       },
       {
-        "title": "Automated Follow-Ups",
-        "description": "Deliver reminders and care prompts automatically based on treatment plans.",
-        "icon_type": "FaProjectDiagram"
+        "title": "ایمبیئنٹ سکرائب AI",
+        "description": "فطری طور پر مریض اور معالج کی گفتگو کو پکڑیں ​​اور خود بخود ساختی طبی نوٹ تیار کریں۔",
+        "icon_type": "FaUserMd"
       },
       {
-        "title": "Early Risk Detection",
-        "description": "AI flags abnormal trends before escalation, enabling proactive intervention.",
-        "icon_type": "GiHealthNormal"
+        "title": "پیشن گوئی رسک اسکورنگ",
+        "description": "علامات کی چوٹی سے پہلے سیپسس، دوبارہ داخل ہونے، یا دائمی اضافے کے لئے زیادہ خطرہ والے مریضوں کی شناخت کریں۔",
+        "icon_type": "FaProcedures"
       }
     ]
   },
   "benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Enable safer, faster, and more coordinated care journeys.",
+    "title": "کلیدی فوائد",
+    "subtitle": "مریض کی رازداری کے اعلیٰ ترین معیارات کو برقرار رکھتے ہوئے ڈرائیونگ کی کارکردگی۔",
     "cards": [
       {
-        "title": "Improved Patient Trust",
-        "description": "Clear communication loops keep patients informed and supported.",
-        "icon_type": "FaRegClock"
+        "title": "کم ایڈمن اوور ہیڈ",
+        "description": "خودکار کوڈنگ اور چارٹنگ دن کے اوقات معالجین کو واپس لوٹتے ہیں۔",
+        "icon_type": "FaRegEdit"
       },
       {
-        "title": "Higher Care Consistency",
-        "description": "Protocols and records stay standardized across departments.",
-        "icon_type": "FaShieldAlt"
+        "title": "مریضوں کی حفاظت میں بہتری",
+        "description": "AI سے چلنے والی دوائیوں کی مفاہمت اور الرجی کے انتباہات منفی واقعات کو کم کرتے ہیں۔",
+        "icon_type": "FaHandHoldingHeart"
       },
       {
-        "title": "Reduced Admin Effort",
-        "description": "Automated logistics free teams to focus on patient care.",
-        "icon_type": "FaBolt"
+        "title": "HIPAA/GDPR تعمیل",
+        "description": "بلٹ ان انکرپشن اور رسائی کنٹرولز ڈیٹا کی خودمختاری اور ریگولیٹری عمل کو یقینی بناتے ہیں۔",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Faster Turnaround",
-        "description": "Diagnostic and treatment pathways move with less delay.",
-        "icon_type": "FaChartLine"
+        "title": "تیز تشخیص",
+        "description": "AI کی مدد سے امیجنگ تجزیہ ریڈیولوجسٹ کے جائزے کے لیے فوری معاملات کو ترجیح دیتا ہے۔",
+        "icon_type": "FaRunning"
       },
       {
-        "title": "Unified Data Access",
-        "description": "Clinicians see relevant patient context without cross-system searching.",
-        "icon_type": "FaDatabase"
+        "title": "آبادی کی صحت کی بصیرتیں۔",
+        "description": "احتیاطی نگہداشت کی حکمت عملیوں کو بہتر بنانے کے لیے مریضوں کے گروہوں کے رجحانات کا تجزیہ کریں۔",
+        "icon_type": "FaUsers"
       },
       {
-        "title": "Streamlined Coordination",
-        "description": "Cross-functional teams align quickly through one source of truth.",
-        "icon_type": "FaCheckSquare"
+        "title": "بہتر نگہداشت تک رسائی",
+        "description": "ورچوئل اسسٹنٹس اور ٹرائیجنگ بوٹس مریضوں کو 24/7 دیکھ بھال کے سفر میں جانے میں مدد کرتے ہیں۔",
+        "icon_type": "FaCommentMedical"
       }
     ]
   },
   "case_studies_section": {
-    "title": "Applied Intelligence",
-    "subtitle": "Reliable healthcare orchestration where timing and precision are critical.",
+    "title": "ایکشن میں صحت کی دیکھ بھال",
+    "subtitle": "ہسپتال کے نیٹ ورکس اور نجی طریقوں میں انٹیلی جنس کی پیمائش کرنا۔",
     "cards": [
       {
-        "label": "Case Study 01",
-        "title": "Outpatient Network",
-        "description": "Automated appointment and triage logic reduced no-shows and improved service throughput by 18%.",
+        "label": "کیس اسٹڈی 01",
+        "title": "ملٹی سٹیٹ ہسپتال سسٹم",
+        "description": "محیطی AI کا استعمال کرتے ہوئے ڈاکٹر کے دستاویزی وقت میں 45 فیصد کمی کی، مریض کے تھرو پٹ میں اضافہ۔",
         "href": "/contact",
-        "cta_text": "Learn More"
+        "cta_text": "کیس اسٹڈی دیکھیں"
       },
       {
-        "label": "Case Study 02",
-        "title": "Hospital Coordination",
-        "description": "Unified patient flow dashboards improved bed turnover visibility and accelerated discharge planning.",
+        "label": "کیس اسٹڈی 02",
+        "title": "ریموٹ مانیٹرنگ فراہم کنندہ",
+        "description": "پیشن گوئی کے تجزیات نے دائمی دل کی ناکامی کے مریضوں کے لئے ER پڑھنے میں 20 فیصد کمی کی۔",
         "href": "/contact",
-        "cta_text": "Learn More"
+        "cta_text": "کیس اسٹڈی دیکھیں"
       }
     ]
   },
   "explore_section": {
-    "title": "Explore Other Industries",
-    "subtitle": "Apply adaptive AI operations beyond clinical environments.",
+    "title": "متعلقہ صنعتیں۔",
+    "subtitle": "دریافت کریں کہ ہماری آپریشنل انٹیلی جنس ملحقہ شعبوں پر کیسے لاگو ہوتی ہے۔",
     "cards": [
       {
-        "title": "Manufacturing",
-        "description": "Increase line intelligence and reduce production waste.",
+        "title": "انشورنس",
+        "description": "صحت کے دعووں کی پروسیسنگ اور انڈر رائٹنگ کی درستگی کو تیز کریں۔",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "سافٹ ویئر ڈویلپمنٹ",
+        "description": "محفوظ، مطابقت پذیر صحت کی دیکھ بھال کی ایپلی کیشنز اور پلیٹ فارمز بنائیں۔",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
+        "title": "مینوفیکچرنگ",
+        "description": "طبی آلات کی پیداوار اور سپلائی چین لاجسٹکس کو بہتر بنائیں۔",
         "href": "/industries/manufacturing",
         "icon_type": "FaIndustry"
-      },
-      {
-        "title": "Energy",
-        "description": "Balance load, reliability, and field operations with predictive systems.",
-        "href": "/industries/energy",
-        "icon_type": "FaBolt"
-      },
-      {
-        "title": "Finance",
-        "description": "Strengthen transaction intelligence and compliance automation.",
-        "href": "/industries/finance",
-        "icon_type": "FaLandmark"
       }
     ]
   },
   "conversation_section": {
-    "title": "Start the Conversion",
-    "subtitle": "Talk with our healthcare systems specialists about your care operations.",
-    "full_name_label": "Full Name",
-    "business_email_label": "Business Email",
-    "message_label": "Message",
-    "full_name_placeholder": "John Doe",
-    "business_email_placeholder": "john@hospital.com",
-    "message_placeholder": "Tell us about your care workflow...",
-    "button_text": "Send Inquiry"
+    "title": "ایک مشاورت شروع کریں۔",
+    "subtitle": "اپنے طبی کام کے بہاؤ کو جدید بنانے کے بارے میں ہمارے ہیلتھ کیئر ماہرین سے بات کریں۔",
+    "full_name_label": "پورا نام",
+    "business_email_label": "تنظیم کا ای میل",
+    "message_label": "پیغام",
+    "full_name_placeholder": "ڈاکٹر سارہ چن",
+    "business_email_placeholder": "schen@healthsystem.org",
+    "message_placeholder": "ہمیں اپنے طبی یا انتظامی چیلنجوں کے بارے میں بتائیں...",
+    "button_text": "انکوائری بھیجیں۔"
   }
 }

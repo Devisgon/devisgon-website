@@ -88,13 +88,16 @@ export const SERVICES_PAGE_METADATA = toMetadata({
 export const INDUSTRIES_PAGE_METADATA = toMetadata({
   title: "Industry Solutions | Devisgon",
   description:
-    "Explore Devisgon industry solutions for manufacturing, healthcare, energy, and finance powered by AI automation and modern software systems.",
+    "Explore Devisgon industry solutions for healthcare, professional services, trades, entertainment, and agriculture powered by AI automation and modern software systems.",
   keywords: withLocalKeywords([
     "industry AI solutions",
-    "manufacturing automation",
+    "healthcare AI operations",
+    "professional services automation",
+    "trades workflow intelligence",
+    "hospitality and entertainment automation",
+    "agriculture operations AI",
     "healthcare workflow AI",
-    "energy operations intelligence",
-    "finance automation platforms",
+    "industry workflow automation",
   ]),
 });
 
@@ -161,7 +164,7 @@ const SITE_NAVIGATION_LINKS: SiteNavigationLink[] = [
     name: "Industries",
     path: "/industries",
     description:
-      "Explore Devisgon industry solutions for manufacturing, healthcare, energy, and finance.",
+      "Explore Devisgon industry solutions for healthcare, professional services, trades, entertainment, and agriculture.",
   },
   {
     name: "Blogs",

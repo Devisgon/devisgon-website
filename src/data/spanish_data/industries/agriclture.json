@@ -1,0 +1,158 @@
+{
+  "slug": "agriculture",
+  "hero_section": {
+    "eyebrow": "Inteligencia de campo autónoma",
+    "title": "IA agente para precisión",
+    "highlight": "Agricultura",
+    "description": "Cerrar la brecha entre los datos y la cosecha con agentes de IA que coordinan de forma autónoma el riego, la fertilización y la defensa contra plagas en ecosistemas gemelos digitales.",
+    "primary_cta": {
+      "text": "Optimizar el rendimiento",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Ver pila de granja inteligente",
+      "href": "#agriculture-architecture"
+    },
+    "background_image": "/services_page/agriculture_hero_bg.svg"
+  },
+  "friction_section": {
+    "title": "La brecha operativa",
+    "subtitle": "Los productores modernos están ahogados en datos de sensores pero hambrientos de acción autónoma.",
+    "cards": [
+      {
+        "title": "Aplicación excesiva de insumos",
+        "description": "Los programas estáticos provocan un desperdicio masivo de agua, fertilizantes y pesticidas, erosionando los márgenes y la salud del suelo.",
+        "icon_type": "FaDropletSlash"
+      },
+      {
+        "title": "El cuello de botella en la decisión",
+        "description": "Los agricultores pasan horas analizando señales dispares del panel en lugar de gestionar el crecimiento estratégico.",
+        "icon_type": "FaClock"
+      },
+      {
+        "title": "Riesgo de rendimiento impredecible",
+        "description": "Los silos de datos fragmentados impiden la detección temprana de brotes de plagas y cambios climáticos hiperlocales.",
+        "icon_type": "FaCloudSunRain"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "agricultura-arquitectura",
+    "title": "Réplicas Virtuales, Resultados Físicos.",
+    "description": "Nuestra arquitectura utiliza gemelos digitales y bucles agentes para sincronizar sensores de suelo del mundo real con maquinaria autónoma.",
+    "bullets": [
+      "Modelado de campo gemelo digital",
+      "Agentes de actuación de circuito cerrado",
+      "Malla de IoT nativa del borde"
+    ],
+    "cards": [
+      {
+        "title": "Centro de Comando de Agronomía",
+        "description": "Una interfaz Digital Twin unificada que visualiza la salud del suelo, la humedad y el estrés de los cultivos en una réplica de campo en 3D.",
+        "icon_type": "MdGrass",
+        "featured": true
+      },
+      {
+        "title": "Agentes de riego autónomos",
+        "description": "Agentes de IA que monitorean la evapotranspiración y ajustan de forma autónoma los horarios de las válvulas sin necesidad de intervención manual.",
+        "icon_type": "FaWind"
+      },
+      {
+        "title": "Lógica de pulverización prescriptiva",
+        "description": "Coordine drones y pulverizadores robóticos para tratar plantas específicas en lugar de campos enteros, reduciendo la carga química.",
+        "icon_type": "FaBug"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Beneficios del cultivo",
+    "subtitle": "Maximice cada acre mientras minimiza el impacto ambiental.",
+    "cards": [
+      {
+        "title": "30% de reducción de insumos",
+        "description": "La precisión de los agentes garantiza que el agua y los productos químicos se apliquen sólo donde y cuando sean necesarios.",
+        "icon_type": "FaHandHoldingWater"
+      },
+      {
+        "title": "Estabilidad de rendimiento maximizada",
+        "description": "Los agentes de alerta temprana identifican patrones de estrés semanas antes de que sean visibles para el ojo humano.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Optimización Laboral",
+        "description": "Automatice el monitoreo y la actuación de rutina, permitiendo al personal concentrarse en el mantenimiento y la logística del equipo.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Preparación para créditos de carbono",
+        "description": "Los informes de sostenibilidad automatizados convierten las prácticas regenerativas en activos de carbono verificables.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Rentabilidad en tiempo real",
+        "description": "Conecte el rendimiento del campo directamente con la demanda del mercado para optimizar el momento de la cosecha y obtener el precio máximo.",
+        "icon_type": "FaDollarSign"
+      },
+      {
+        "title": "Conectividad heredada",
+        "description": "Integre la inteligencia de IA con John Deere, Case IH o hardware de IoT local existente a través de API universales.",
+        "icon_type": "FaLink"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "AgTech aplicada",
+    "subtitle": "Historias de éxito desde la vanguardia de la revolución verde digital.",
+    "cards": [
+      {
+        "label": "Estudio de caso 01",
+        "title": "Productor de nueces a gran escala",
+        "description": "Implementamos agentes de riego autónomos que redujeron el uso de agua en un 25 % y al mismo tiempo aumentaron la consistencia del tamaño de la nuez.",
+        "href": "/contact",
+        "cta_text": "Ver datos de campo"
+      },
+      {
+        "label": "Estudio de caso 02",
+        "title": "Minorista agrícola regional",
+        "description": "Implementó un tejido de datos unificado en 50 000 hectáreas, proporcionando a los agricultores alertas predictivas de plagas con 4 días de anticipación.",
+        "href": "/contact",
+        "cta_text": "Ver datos de campo"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Sinergia entre industrias",
+    "subtitle": "Cómo la inteligencia agrícola se conecta con otros sectores vitales.",
+    "cards": [
+      {
+        "title": "Seguro",
+        "description": "Automatice las reclamaciones de seguros de cultivos con datos satelitales y de sensores verificables.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileContract"
+      },
+      {
+        "title": "Fabricación",
+        "description": "Optimizar las cadenas de suministro para el procesamiento de alimentos y maquinaria industrial.",
+        "href": "/industries/manufacturing",
+        "icon_type": "FaIndustry"
+      },
+      {
+        "title": "Desarrollo de software",
+        "description": "Cree gemelos digitales personalizados y plataformas agrícolas nativas de IA.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Comience su cosecha digital",
+    "subtitle": "Hable con nuestros expertos en automatización agrícola sobre su hoja de ruta del campo a la nube.",
+    "full_name_label": "Gerente de granja/empresa",
+    "business_email_label": "Correo electrónico del trabajo",
+    "message_label": "Desafíos operativos",
+    "full_name_placeholder": "George Washington Carver",
+    "business_email_placeholder": "operaciones@smart-acre.com",
+    "message_placeholder": "Cuéntenos sobre sus tipos de cultivos y su nivel de automatización actual...",
+    "button_text": "Conéctese con un experto"
+  }
+}

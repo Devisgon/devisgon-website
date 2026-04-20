@@ -1,0 +1,158 @@
+{
+  "slug": "travel",
+  "hero_section": {
+    "eyebrow": "Autonomous Journey Management",
+    "title": "Agentic AI for Seamless",
+    "highlight": "Travel",
+    "description": "Bridge the gap between inspiration and arrival with AI agents that handle multi-modal bookings, real-time disruption recovery, and hyper-personalized discovery.",
+    "primary_cta": {
+      "text": "Plan a Journey",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Travel Fabric",
+      "href": "#travel-architecture"
+    },
+    "background_image": "/services_page/travel_hero_bg.svg"
+  },
+  "friction_section": {
+    "title": "The Booking Barrier",
+    "subtitle": "Travelers and managers are trapped in a cycle of manual comparisons and reactive crisis management.",
+    "cards": [
+      {
+        "title": "Search Overload",
+        "description": "Fragmented platforms force users to manually verify price, availability, and sentiment across dozens of tabs.",
+        "icon_type": "FaSearchMinus"
+      },
+      {
+        "title": "Disruption Paralysis",
+        "description": "Flight delays and weather shifts require hours of manual rebooking and communication with support lines.",
+        "icon_type": "FaPlaneDeparture"
+      },
+      {
+        "title": "Policy Fragmentation",
+        "description": "Corporate travel and climate mandates are difficult to enforce during real-time booking and expense cycles.",
+        "icon_type": "FaGavel"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "travel-architecture",
+    "title": "One Loop. Infinite Destinations.",
+    "description": "Our travel architecture uses Model Context Protocols (MCP) to connect AI agents directly to global distribution systems (GDS) and local suppliers.",
+    "bullets": [
+      "Agentic Commerce API",
+      "Climate-Risk Prediction Loop",
+      "Universal Digital Identity (Blockchain)"
+    ],
+    "cards": [
+      {
+        "title": "Agentic Concierge Desk",
+        "description": "AI agents that don't just recommend, but autonomously execute bookings and modifications based on user intent.",
+        "icon_type": "FaConciergeBell",
+        "featured": true
+      },
+      {
+        "title": "Zero-Touch Recovery",
+        "description": "Instant, automated rebooking of flights, hotels, and ground transport the moment a disruption is detected.",
+        "icon_type": "FaSyncAlt"
+      },
+      {
+        "title": "Sustainability Insights",
+        "description": "Real-time carbon tracking and eco-certified routing integrated into the core discovery engine.",
+        "icon_type": "FaLeaf"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Operational Benefits",
+    "subtitle": "Move from manual coordination to high-velocity travel operations.",
+    "cards": [
+      {
+        "title": "90% Faster Rebooking",
+        "description": "AI handles cancellations and alternatives in seconds, bypassing call center wait times.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Hyper-Personalized CX",
+        "description": "Itineraries are built around real-time behavior, loyalty status, and personal climate preferences.",
+        "icon_type": "FaUserCheck"
+      },
+      {
+        "title": "Reduced Leakage",
+        "description": "Direct agentic booking ensures compliance with corporate rates and reduces 'out-of-policy' spend.",
+        "icon_type": "FaFilter"
+      },
+      {
+        "title": "Predictive Demand",
+        "description": "Suppliers can use real-time agent signals to optimize inventory and dynamic pricing models.",
+        "icon_type": "FaChartBar"
+      },
+      {
+        "title": "Contactless Biometrics",
+        "description": "Unified digital IDs streamline airport security and hotel check-ins for a touchless experience.",
+        "icon_type": "FaFingerprint"
+      },
+      {
+        "title": "Global Interoperability",
+        "description": "Seamlessly connect niche local experiences with global flight networks through API-first design.",
+        "icon_type": "FaGlobe"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Applied Travel Tech",
+    "subtitle": "Empowering global travel brands with agentic automation.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Corporate Mobility Leader",
+        "description": "Migrated from static booking to agent-led commerce, reducing travel management costs by 35%.",
+        "href": "/contact",
+        "cta_text": "Read the ROI Report"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "European OTA",
+        "description": "Implemented automated disruption recovery, increasing customer retention by 50% during peak weather events.",
+        "href": "/contact",
+        "cta_text": "Read the ROI Report"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Synergies",
+    "subtitle": "How travel intelligence connects with adjacent industries.",
+    "cards": [
+      {
+        "title": "Insurance",
+        "description": "Automate travel insurance claims and real-time risk assessment.",
+        "href": "/industries/insurance",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Finance",
+        "description": "Secure cross-border payments and automated expense management.",
+        "href": "/industries/finance",
+        "icon_type": "FaCreditCard"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Optimize medical tourism and international care coordination.",
+        "href": "/industries/healthcare",
+        "icon_type": "FaHospital"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Build the Future of Travel",
+    "subtitle": "Talk to our travel tech experts about integrating agentic AI into your platform.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Work Email",
+    "message_label": "Inquiry Details",
+    "full_name_placeholder": "Marco Polo",
+    "business_email_placeholder": "marco@global-travel.com",
+    "message_placeholder": "Tell us about your distribution or booking challenges...",
+    "button_text": "Connect with an Expert"
+  }
+}

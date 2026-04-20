@@ -1,0 +1,158 @@
+{
+  "slug": "education",
+  "hero_section": {
+    "eyebrow": "Interaction-Led Mastery",
+    "title": "Agentic Intelligence for",
+    "highlight": "Education",
+    "description": "Empower learners and educators with AI agents that personalize curricula in real-time, automate administrative toil, and provide 24/7 Socratic tutoring.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View EdTech Stack",
+      "href": "#education-architecture"
+    },
+    "background_image": "/services_page/education_hero_bg.svg"
+  },
+  "friction_section": {
+    "title": "The Learning Barrier",
+    "subtitle": "Institutions are struggling with administrative bloat and a 'one-size-fits-all' model that leaves students behind.",
+    "cards": [
+      {
+        "title": "Administrative Overload",
+        "description": "Educators spend up to 50% of their time on grading and paperwork instead of high-value mentorship.",
+        "icon_type": "FaChalkboardTeacher"
+      },
+      {
+        "title": "The Engagement Gap",
+        "description": "Static content leads to passive consumption and high dropout rates in digital environments.",
+        "icon_type": "FaUserSlash"
+      },
+      {
+        "title": "Intellectual Atrophy",
+        "description": "Generic AI tools often provide direct answers, eroding critical thinking and problem-solving skills.",
+        "icon_type": "FaBrain"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "education-architecture",
+    "title": "Socratic Agents, Transparent Logic.",
+    "description": "Our architecture utilizes 'Struggle-Based Learning' protocols to ensure AI supports growth without replacing the human cognitive process.",
+    "bullets": [
+      "Explainable AI (XAI) Grading",
+      "Knowledge Graph Personalization",
+      "LRS (Learning Record Store) Integration"
+    ],
+    "cards": [
+      {
+        "title": "Teacher Command Center",
+        "description": "A 'God-view' dashboard for educators to monitor AI-student interactions and override automated grading logic.",
+        "icon_type": "MdCastForEducation",
+        "featured": true
+      },
+      {
+        "title": "Socratic Tutor Agents",
+        "description": "AI assistants that guide students through problems using prompts and hints rather than revealing solutions.",
+        "icon_type": "FaQuestionCircle"
+      },
+      {
+        "title": "Institutional Intelligence Loop",
+        "description": "Connect admissions, financial aid, and academic performance data to predict at-risk students early.",
+        "icon_type": "FaProjectDiagram"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Institutional Benefits",
+    "subtitle": "Modernize the learning experience while maintaining academic integrity.",
+    "cards": [
+      {
+        "title": "3x Faculty Efficiency",
+        "description": "Automate routine feedback and administrative tracking to refocus on student outcomes.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Personalized Learning Paths",
+        "description": "Content difficulty and delivery style adapt in real-time based on individual skill acquisition.",
+        "icon_type": "FaRoute"
+      },
+      {
+        "title": "Higher Retention Rates",
+        "description": "Predictive analytics identify disengaged students before they fall behind.",
+        "icon_type": "FaChartBar"
+      },
+      {
+        "title": "Ethical AI Guardrails",
+        "description": "Built-in bias detection ensures fair grading and recommendations across diverse demographics.",
+        "icon_type": "FaBalanceScale"
+      },
+      {
+        "title": "Immersive Virtual Labs",
+        "description": "Integrate AR/VR simulations directly into the curriculum for hands-on technical training.",
+        "icon_type": "FaVrCardboard"
+      },
+      {
+        "title": "Global Accessibility",
+        "description": "Offline-first Edge AI allows high-quality learning even in regions with low connectivity.",
+        "icon_type": "FaGlobe"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Education in Action",
+    "subtitle": "Real-world transformation across K-12 and Higher Ed.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "National University Network",
+        "description": "Implemented automated review flows for admissions, reducing processing time by 60% with zero bias reports.",
+        "href": "/contact",
+        "cta_text": "View Results"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Hybrid Learning Platform",
+        "description": "Deployed Socratic AI tutors that increased student mastery scores in STEM subjects by 40%.",
+        "href": "/contact",
+        "cta_text": "View Results"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Sectors",
+    "subtitle": "See how our core intelligence translates to other professional domains.",
+    "cards": [
+      {
+        "title": "Software Development",
+        "description": "Modernize engineering training and automated code documentation.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Enable clinical training simulations and patient education tools.",
+        "href": "/industries/healthcare",
+        "icon_type": "FaHeartbeat"
+      },
+      {
+        "title": "Insurance",
+        "description": "Scale workforce development and technical certification programs.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Modernize Your Institution",
+    "subtitle": "Talk with our EdTech architects about your AI literacy and automation roadmap.",
+    "full_name_label": "Dean/Administrator Name",
+    "business_email_label": "Institutional Email",
+    "message_label": "Your Challenges",
+    "full_name_placeholder": "Dr. Sarah Adams",
+    "business_email_placeholder": "sadams@university.edu",
+    "message_placeholder": "Tell us about your enrollment or learning experience goals...",
+    "button_text": "Contact Specialist"
+  }
+}

@@ -10,6 +10,7 @@ import data from "@/data/navbar.json";
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeDesktopDropdown, setActiveDesktopDropdown] = useState(null);
   const [activeMobileCategory, setActiveMobileCategory] = useState(null);
   const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
@@ -54,63 +55,89 @@ const Navbar = () => {
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => {
             const columnCount = link.dropdown?.columns?.length ?? 0;
-            const isWideDropdown = columnCount > 3;
+            const normalizedName = link.name.toLowerCase();
+            const isServicesDropdown = normalizedName === "services";
+            const isIndustriesDropdown = normalizedName === "industries";
+            const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown;
+            const isDropdownOpen = activeDesktopDropdown === link.name;
 
+         const dropdownPositionClass = isServicesDropdown
+  ? "fixed right-6 top-16 w-[calc(100vw-2rem)]" 
+  : isIndustriesDropdown
+  ? "fixed left-2 top-16 w-[calc(100vw-2rem)]"
+  : "absolute left-0 top-full w-[320px]";
             return (
-              <div key={link.name} className="group relative">
+              <div
+                key={link.name}
+                className="relative"
+                onMouseEnter={() => setActiveDesktopDropdown(link.dropdown ? link.name : null)}
+                onMouseLeave={() => setActiveDesktopDropdown((prev) => (prev === link.name ? null : prev))}
+              >
                 <Link
                   href={link.href}
                   className="flex items-center gap-1 text-sm font-medium text-[#402060] transition-colors dark:text-[#FEFCFE]"
                 >
                   {link.name}
                   {link.dropdown && (
-                    <ChevronDown className="h-4 w-4 transition-transform group-hover:rotate-180" />
+                    <ChevronDown className={`h-4 w-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`} />
                   )}
                 </Link>
 
-                {link.dropdown && (
-                  <div
-                    className={`absolute top-full z-50 mt-6 rounded-xl border border-border bg-bg-primary text-t-primary opacity-0 shadow-xl invisible translate-y-2 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 ${
-                      isWideDropdown ? "-right-[490px] w-[calc(100vw-2rem)]" : "right-0 w-[320px]"
-                    }`}
-                  >
-                    <div
-                      className="grid gap-3 p-6"
-                      style={{
-                        gridTemplateColumns: `repeat(${Math.max(1, Math.min(columnCount, 7))}, minmax(0, 1fr))`,
-                      }}
+               {link.dropdown && (
+  <div
+    className={`${dropdownPositionClass} z-50 transition-all duration-200 ${
+      isDropdownOpen 
+        ? "visible translate-y-0 opacity-100" 
+        : "pointer-events-none invisible translate-y-2 opacity-0"
+    }`}
+  >
+    {/* This pt-4 (padding-top) is the "invisible bridge" */}
+    <div className="pt-4"> 
+      <div className="rounded-xl border border-[#D8B4FE]/30 bg-[#F7EDFE] p-8 shadow-2xl dark:bg-[#402060]">
+        <div
+          className={`grid gap-8 ${isFullWidthDropdown ? "max-h-[70vh] overflow-y-auto pr-2" : ""}`}
+          style={{
+            gridTemplateColumns: isFullWidthDropdown
+              ? "repeat(auto-fit, minmax(170px, 1fr))"
+              : `repeat(${columnCount}, minmax(0, 1fr))`,
+          }}
+        >
+          {link.dropdown.columns.map((col) => (
+            <div key={col.title}>
+              <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
+                {col.title}
+              </h3>
+              <ul className="space-y-3">
+                {col.links.map((sublink) => (
+                  <li key={sublink.name}>
+                    <Link
+                      href={sublink.href}
+                      className="block text-sm font-medium text-[#402060] transition-all hover:translate-x-1 hover:text-[#8457AA] dark:text-[#FEFCFE] dark:hover:text-[#D8B4FE]"
                     >
-                      {link.dropdown.columns.map((col) => (
-                        <div key={col.title}>
-                          <h3 className="mb-4 text-sm font-bold uppercase text-t-primary">{col.title}</h3>
-                          <ul className="space-y-2">
-                            {col.links.map((sublink) => (
-                              <li key={sublink.name}>
-                                <Link
-                                  href={sublink.href}
-                                  className="inline-block text-sm text-muted-foreground transition-all hover:translate-x-1 hover:text-primary"
-                                >
-                                  {sublink.name}
-                                </Link>
-                              </li>
-                            ))}
-                          </ul>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
+                      {sublink.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+)}
               </div>
             );
           })}
 
           <button
             onClick={toggleTheme}
-            className="rounded-full border-transparent p-2 text-[#402060] transition-colors hover:bg-muted dark:text-[#FEFCFE]"
+            className="rounded-full p-2 text-[#402060] transition-colors hover:bg-white/50 dark:text-[#FEFCFE] dark:hover:bg-white/10"
             aria-label="Toggle theme"
           >
-            {isDark ? <Sun /> : <Moon />}
+            {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
           </button>
+
           <div className="-ml-2">
             <Switcher />
           </div>
@@ -137,7 +164,7 @@ const Navbar = () => {
           <img src="/logo/dark_logo.svg" alt="logo" className="hidden dark:block" />
         </div>
 
-        <div className="h-screen space-y-6 overflow-y-auto bg-[#F7EDFE] px-4 py-12 -mt-8 dark:bg-[#8457AA]">
+        <div className="-mt-8 h-screen space-y-6 overflow-y-auto bg-[#F7EDFE] px-4 py-12 dark:bg-[#8457AA]">
           <div className="-ml-4 -mt-4 h-[1px] w-3xl bg-black" />
 
           {navLinks.map((link) => (

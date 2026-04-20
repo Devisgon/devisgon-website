@@ -24,7 +24,7 @@ Required actions after each meaningful code change:
 - Public site lives in route group `src/app/(app)`.
 - CMS/admin and generated Payload API routes live in `src/app/(payload)`.
 - Most marketing and service content is loaded from JSON in `src/data/*`.
-- Industries content is JSON-driven with language files in each `src/data/*_data/industries` folder.
+- Industries content is JSON-driven with language files in each `src/data/*_data/industries/<category>/<slug>.json` folder.
 - Blog list and blog detail pages are CMS-driven from Payload `blogs` collection.
 - Contact and apply forms post to internal API routes, then send email via Resend.
 - Footer is SSR-first; only the newsletter form is a small client island (`src/components/footer_newsletter_form.tsx`).
@@ -59,12 +59,14 @@ All service detail routes share one rendering pattern:
   - renders shared section components (`hero`, `introduction`, `key_benefits`, `what_we_do`, `technologies`, `process`, `case_study`, `faq`, `contact`).
 
 ### Industry Detail Pages
-- Route:
-  - `/industries/[slug]`
+- Canonical route:
+  - `/industries/[category]/[slug]` (served by `src/app/(app)/industries/[...segments]/page.tsx`).
+- Legacy compatibility route:
+  - `/industries/[slug]` -> server redirect to `/industries/[category]/[slug]` using `src/data/loaders/industries.ts` slug-to-category mapping.
 - Route behavior:
   - server component with metadata from `src/lib/seo.ts`,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
-  - loads slug data from `src/data/loaders/industries.ts`,
+  - loads category + slug data from `src/data/loaders/industries.ts` with English fallback if localized file is missing,
   - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, `case_studies`, `explore`, `conversation`).
 
 ## Data Flow
@@ -73,7 +75,8 @@ All service detail routes share one rendering pattern:
 - Home/services/privacy/terms pages use language-specific JSON maps in route files.
 - Service detail pages use loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`.
 - Industry main page uses `src/data/*_data/industries_page.json`.
-- Industry detail pages use `src/data/*_data/industries/*.json` and `src/data/loaders/industries.ts` for `{lang -> {slug -> json}}` mapping.
+- Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
+- `scripts/translate_services.mjs` recursively translates all English industries JSON files (including nested category folders) into each language folder while preserving image/icon/link fields.
 
 ### CMS Content (Payload)
 Defined in `src/payload.config.ts`:
@@ -115,11 +118,11 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 
 ## Navigation and Slug Source of Truth
 - Main nav and service links are in `src/data/navbar.json`.
-- Industries dropdown links (and slug hrefs) are in `src/data/navbar.json`.
+- Industries dropdown links are grouped in `src/data/navbar.json` into five columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`) with sub-industry links.
 - Footer quick links are in `src/components/footer.tsx` and include core crawl targets (`/`, `/services`, `/blogs`, `/contact`, `/get-started`).
 - Service detail loaders must expose keys that match nav slugs.
-- Industry detail loader keys and JSON `slug` fields must match navbar industries links.
-- Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and English industries JSON files and emits language query variants.
+- Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` must match navbar industries links.
+- Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and nested English industries category JSON files and emits language query variants.
 
 ## Environment Variables
 Required by runtime code:
@@ -146,7 +149,7 @@ Required by runtime code:
 ## Change Impact Guide
 If you change this, also check this:
 - Service slug in JSON -> loader map key + `navbar.json` link + sitemap output.
-- Industry slug in JSON -> `src/data/loaders/industries.ts` key + `navbar.json` industries link + sitemap output.
+- Industry category/slug JSON path -> `src/data/loaders/industries.ts` lookup + `navbar.json` grouped industries links + sitemap output.
 - Service section schema -> shared sub-service components and type files under `src/types/sub_services_page`.
 - Industry section schema -> shared industry components under `src/components/industries` + `src/types/industries_page`.
 - Blog fields -> `src/collections/Blogs.ts` + blog listing/detail components.
@@ -182,3 +185,5 @@ If you change this, also check this:
 - 2026-04-20: Implemented strict white/color alternating non-hero industries sections and added left-to-right hover fill transitions on industry cards/tiles with matching text color changes.
 - 2026-04-20: Replaced hardcoded industries component colors with global theme variable classes and tuned card hover fill animations to smoother duration/easing for consistent themed interaction.
 - 2026-04-20: Reordered post-hero industry section theme flow to start with primary color blocks and set contact form container explicitly to white (`bg-btn-secondary`) while keeping hero image sourced from JSON.
+- 2026-04-20: Added grouped industries dropdown columns, canonical `/industries/[category]/[slug]` routing with legacy slug redirects, nested industries data loader fallback, recursive industries translation script support, and sitemap crawling for category-based industry URLs.
+- 2026-04-20: Corrected desktop navbar mega-dropdown behavior with title-based conditional full-width positioning (separate margins for Services vs Industries) and stable hover-open state management.

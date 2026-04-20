@@ -47,7 +47,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 Client Saying
               </h2>
               <img
-                src="/home_page/comments_section/Vector_1.svg"
+                src="/home_page/comments_section/Vector_1.webp"
                 alt="arrow"
                 className="hidden md:block dark:hidden w-44 ml-90 -mt-35"
                 loading="lazy"
@@ -55,9 +55,9 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
               />
 
               <img
-                src={data.icon}
+                src="/home_page/comments_section/Vector-removebg-preview.png"
                 alt="arrow"
-                className="hidden dark:block w-44 ml-90 -mt-35"
+                className="hidden dark:block w-44 ml-90 bg-transparent -mt-35"
                 loading="lazy"
                 decoding="async"
               />

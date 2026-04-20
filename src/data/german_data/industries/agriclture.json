@@ -1,0 +1,158 @@
+{
+  "slug": "agriculture",
+  "hero_section": {
+    "eyebrow": "Autonome Feldintelligenz",
+    "title": "Agentische KI für Präzision",
+    "highlight": "Landwirtschaft",
+    "description": "Überbrücken Sie die Lücke zwischen Daten und Ernte mit KI-Agenten, die Bewässerung, Düngung und Schädlingsabwehr in digitalen Zwillingsökosystemen autonom koordinieren.",
+    "primary_cta": {
+      "text": "Ertrag optimieren",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Smart Farm Stack anzeigen",
+      "href": "#agriculture-architecture"
+    },
+    "background_image": "/services_page/agriculture_hero_bg.svg"
+  },
+  "friction_section": {
+    "title": "Die operative Lücke",
+    "subtitle": "Moderne Landwirte ertrinken in Sensordaten, hungern aber nach autonomem Handeln.",
+    "cards": [
+      {
+        "title": "Übermäßige Eingabe",
+        "description": "Statische Zeitpläne führen zu einer massiven Verschwendung von Wasser, Düngemitteln und Pestiziden und beeinträchtigen die Margen und die Bodengesundheit.",
+        "icon_type": "FaDropletSlash"
+      },
+      {
+        "title": "Der Entscheidungsengpass",
+        "description": "Landwirte verbringen Stunden damit, unterschiedliche Dashboard-Signale zu analysieren, anstatt strategisches Wachstum zu verwalten.",
+        "icon_type": "FaClock"
+      },
+      {
+        "title": "Unvorhersehbares Renditerisiko",
+        "description": "Fragmentierte Datensilos verhindern die Früherkennung von Schädlingsausbrüchen und hyperlokalen Wetterveränderungen.",
+        "icon_type": "FaCloudSunRain"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "Landwirtschaft-Architektur",
+    "title": "Virtuelle Replikate, physische Ergebnisse.",
+    "description": "Unsere Architektur nutzt digitale Zwillinge und Agentic Loops, um reale Bodensensoren mit autonomen Maschinen zu synchronisieren.",
+    "bullets": [
+      "Digitale Zwillingsfeldmodellierung",
+      "Aktuatoren mit geschlossenem Regelkreis",
+      "Edge-natives IoT-Mesh"
+    ],
+    "cards": [
+      {
+        "title": "Agronomie-Kommandozentrum",
+        "description": "Eine einheitliche Digital-Twin-Schnittstelle, die Bodengesundheit, Feuchtigkeit und Pflanzenstress in einer 3D-Feldreplik visualisiert.",
+        "icon_type": "MdGrass",
+        "featured": true
+      },
+      {
+        "title": "Autonome Bewässerungsagenten",
+        "description": "KI-Agenten, die die Evapotranspiration überwachen und die Ventilpläne autonom anpassen, ohne dass manuelle Eingaben erforderlich sind.",
+        "icon_type": "FaWind"
+      },
+      {
+        "title": "Vorschreibende Sprühlogik",
+        "description": "Koordinieren Sie Drohnen und Robotersprühgeräte, um bestimmte Pflanzen statt ganzer Felder zu behandeln und so die chemische Belastung zu reduzieren.",
+        "icon_type": "FaBug"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Vorteile für den Anbau",
+    "subtitle": "Maximieren Sie jeden Hektar und minimieren Sie gleichzeitig die Auswirkungen auf die Umwelt.",
+    "cards": [
+      {
+        "title": "30 % Input-Reduzierung",
+        "description": "Agentische Präzision stellt sicher, dass Wasser und Chemikalien nur dort und dann eingesetzt werden, wo sie benötigt werden.",
+        "icon_type": "FaHandHoldingWater"
+      },
+      {
+        "title": "Maximale Ertragsstabilität",
+        "description": "Frühwarnmittel erkennen Stressmuster schon Wochen, bevor sie für das menschliche Auge sichtbar werden.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Arbeitsoptimierung",
+        "description": "Automatisieren Sie routinemäßige Überwachung und Betätigung, damit sich das Personal auf die Wartung und Logistik der Geräte konzentrieren kann.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Bereitschaft zur Emissionsgutschrift",
+        "description": "Automatisierte Nachhaltigkeitsberichterstattung verwandelt regenerative Praktiken in überprüfbare CO2-Vermögenswerte.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Rentabilität in Echtzeit",
+        "description": "Verbinden Sie die Feldleistung direkt mit der Marktnachfrage, um den Erntezeitpunkt für Spitzenpreise zu optimieren.",
+        "icon_type": "FaDollarSign"
+      },
+      {
+        "title": "Legacy-Konnektivität",
+        "description": "Integrieren Sie KI-Intelligenz über universelle APIs in vorhandene John Deere-, Case IH- oder lokale IoT-Hardware.",
+        "icon_type": "FaLink"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Angewandte AgTech",
+    "subtitle": "Erfolgsgeschichten von der Spitze der digitalen grünen Revolution.",
+    "cards": [
+      {
+        "label": "Fallstudie 01",
+        "title": "Großer Nussproduzent",
+        "description": "Implementierung autonomer Bewässerungsmittel, die den Wasserverbrauch um 25 % reduzierten und gleichzeitig die Konsistenz der Nussgröße erhöhten.",
+        "href": "/contact",
+        "cta_text": "Felddaten anzeigen"
+      },
+      {
+        "label": "Fallstudie 02",
+        "title": "Regionaler Agrar-Einzelhändler",
+        "description": "Bereitstellung einer einheitlichen Datenstruktur auf 50.000 Hektar, die den Landwirten vier Tage im Voraus vorausschauende Schädlingswarnungen liefert.",
+        "href": "/contact",
+        "cta_text": "Felddaten anzeigen"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Branchenübergreifende Synergie",
+    "subtitle": "Wie landwirtschaftliche Intelligenz mit anderen wichtigen Sektoren verknüpft wird.",
+    "cards": [
+      {
+        "title": "Versicherung",
+        "description": "Automatisieren Sie Ernteversicherungsansprüche mit überprüfbaren Satelliten- und Sensordaten.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileContract"
+      },
+      {
+        "title": "Herstellung",
+        "description": "Optimieren Sie die Lieferketten für Lebensmittelverarbeitung und Industriemaschinen.",
+        "href": "/industries/manufacturing",
+        "icon_type": "FaIndustry"
+      },
+      {
+        "title": "Softwareentwicklung",
+        "description": "Erstellen Sie benutzerdefinierte digitale Zwillinge und KI-native Landwirtschaftsplattformen.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Starten Sie Ihre digitale Ernte",
+    "subtitle": "Sprechen Sie mit unseren Agrarautomatisierungsexperten über Ihre Field-to-Cloud-Roadmap.",
+    "full_name_label": "Betriebs-/Firmenleiter",
+    "business_email_label": "Arbeits-E-Mail",
+    "message_label": "Operative Herausforderungen",
+    "full_name_placeholder": "George Washington Carver",
+    "business_email_placeholder": "Operations@smart-acre.com",
+    "message_placeholder": "Erzählen Sie uns von Ihren Pflanzenarten und dem aktuellen Automatisierungsgrad ...",
+    "button_text": "Kontaktieren Sie einen Experten"
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "slug": "education",
+  "hero_section": {
+    "eyebrow": "Dominio basado en la interacción",
+    "title": "Inteligencia Agentica para",
+    "highlight": "Educación",
+    "description": "Capacite a los estudiantes y educadores con agentes de inteligencia artificial que personalizan los planes de estudio en tiempo real, automatizan el trabajo administrativo y brindan tutoría socrática las 24 horas, los 7 días de la semana.",
+    "primary_cta": {
+      "text": "Empezar",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Ver pila de tecnología educativa",
+      "href": "#education-architecture"
+    },
+    "background_image": "/services_page/education_hero_bg.svg"
+  },
+  "friction_section": {
+    "title": "La barrera del aprendizaje",
+    "subtitle": "Las instituciones están luchando contra la sobrecarga administrativa y un modelo único que deja atrás a los estudiantes.",
+    "cards": [
+      {
+        "title": "Sobrecarga administrativa",
+        "description": "Los educadores dedican hasta el 50% de su tiempo a calificaciones y trámites en lugar de tutorías de alto valor.",
+        "icon_type": "FaChalkboardTeacher"
+      },
+      {
+        "title": "La brecha de compromiso",
+        "description": "El contenido estático conduce a un consumo pasivo y a altas tasas de abandono en entornos digitales.",
+        "icon_type": "FaUserSlash"
+      },
+      {
+        "title": "Atrofia intelectual",
+        "description": "Las herramientas genéricas de IA a menudo brindan respuestas directas, lo que erosiona el pensamiento crítico y las habilidades de resolución de problemas.",
+        "icon_type": "FaBrain"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "educacion-arquitectura",
+    "title": "Agentes socráticos, lógica transparente.",
+    "description": "Nuestra arquitectura utiliza protocolos de 'aprendizaje basado en la lucha' para garantizar que la IA respalde el crecimiento sin reemplazar el proceso cognitivo humano.",
+    "bullets": [
+      "Calificación de IA explicable (XAI)",
+      "Personalización del gráfico de conocimiento",
+      "Integración LRS (Almacén de registros de aprendizaje)"
+    ],
+    "cards": [
+      {
+        "title": "Centro de comando docente",
+        "description": "Un panel de control con vista a Dios para que los educadores supervisen las interacciones entre la IA y los estudiantes y anulen la lógica de calificación automatizada.",
+        "icon_type": "MdCastForEducation",
+        "featured": true
+      },
+      {
+        "title": "Agentes tutores socráticos",
+        "description": "Asistentes de IA que guían a los estudiantes a través de problemas utilizando indicaciones y sugerencias en lugar de revelar soluciones.",
+        "icon_type": "FaQuestionCircle"
+      },
+      {
+        "title": "Bucle de inteligencia institucional",
+        "description": "Conecte datos de admisiones, ayuda financiera y rendimiento académico para predecir tempranamente a los estudiantes en riesgo.",
+        "icon_type": "FaProjectDiagram"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Beneficios institucionales",
+    "subtitle": "Modernice la experiencia de aprendizaje manteniendo la integridad académica.",
+    "cards": [
+      {
+        "title": "Eficiencia docente triple",
+        "description": "Automatice la retroalimentación de rutina y el seguimiento administrativo para volver a centrarse en los resultados de los estudiantes.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Rutas de aprendizaje personalizadas",
+        "description": "La dificultad del contenido y el estilo de entrega se adaptan en tiempo real según la adquisición de habilidades individuales.",
+        "icon_type": "FaRoute"
+      },
+      {
+        "title": "Tasas de retención más altas",
+        "description": "El análisis predictivo identifica a los estudiantes desmotivados antes de que se queden atrás.",
+        "icon_type": "FaChartBar"
+      },
+      {
+        "title": "Barandillas éticas de IA",
+        "description": "La detección de sesgos incorporada garantiza calificaciones y recomendaciones justas para diversos grupos demográficos.",
+        "icon_type": "FaBalanceScale"
+      },
+      {
+        "title": "Laboratorios virtuales inmersivos",
+        "description": "Integre simulaciones AR/VR directamente en el plan de estudios para obtener capacitación técnica práctica.",
+        "icon_type": "FaVrCardboard"
+      },
+      {
+        "title": "Accesibilidad global",
+        "description": "La Edge AI sin conexión permite un aprendizaje de alta calidad incluso en regiones con baja conectividad.",
+        "icon_type": "FaGlobe"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Educación en acción",
+    "subtitle": "Transformación del mundo real en K-12 y educación superior.",
+    "cards": [
+      {
+        "label": "Estudio de caso 01",
+        "title": "Red Universitaria Nacional",
+        "description": "Implementé flujos de revisión automatizados para admisiones, reduciendo el tiempo de procesamiento en un 60% con informes sin sesgos.",
+        "href": "/contact",
+        "cta_text": "Ver resultados"
+      },
+      {
+        "label": "Estudio de caso 02",
+        "title": "Plataforma de aprendizaje híbrida",
+        "description": "Se implementaron tutores de IA socrática que aumentaron los puntajes de dominio de los estudiantes en materias STEM en un 40%.",
+        "href": "/contact",
+        "cta_text": "Ver resultados"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explora otros sectores",
+    "subtitle": "Vea cómo nuestra inteligencia central se traduce en otros dominios profesionales.",
+    "cards": [
+      {
+        "title": "Desarrollo de software",
+        "description": "Modernice la formación en ingeniería y la documentación de código automatizada.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
+        "title": "Cuidado de la salud",
+        "description": "Habilite simulaciones de capacitación clínica y herramientas de educación para pacientes.",
+        "href": "/industries/healthcare",
+        "icon_type": "FaHeartbeat"
+      },
+      {
+        "title": "Seguro",
+        "description": "Escalar los programas de certificación técnica y desarrollo de la fuerza laboral.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Modernice su institución",
+    "subtitle": "Hable con nuestros arquitectos de EdTech sobre su hoja de ruta de automatización y alfabetización en IA.",
+    "full_name_label": "Nombre del decano/administrador",
+    "business_email_label": "Correo Institucional",
+    "message_label": "Tus desafíos",
+    "full_name_placeholder": "Dra. Sara Adams",
+    "business_email_placeholder": "sadams@university.edu",
+    "message_placeholder": "Cuéntenos sobre sus objetivos de inscripción o experiencia de aprendizaje...",
+    "button_text": "Contacte al especialista"
+  }
+}

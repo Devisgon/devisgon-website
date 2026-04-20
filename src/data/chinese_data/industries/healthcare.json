@@ -1,158 +1,158 @@
 {
   "slug": "healthcare",
   "hero_section": {
-    "eyebrow": "Clinical Workflow Intelligence",
-    "title": "Modernizing",
+    "eyebrow": "Human-Centric Clinical Intelligence",
+    "title": "AI for Precision",
     "highlight": "Healthcare",
-    "description": "Unify diagnostics, scheduling, and care coordination with AI systems that reduce delay and improve patient outcomes.",
+    "description": "Unify patient data and clinical workflows with AI that predicts risks, automates documentation, and enhances care coordination.",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Enhance Care",
       "href": "/get-started"
     },
     "secondary_cta": {
-      "text": "View Architecture",
-      "href": "#industry-architecture"
+      "text": "View Clinical Architecture",
+      "href": "#healthcare-architecture"
     },
-    "background_image": "/services_page/hero_bg.svg"
+    "background_image": "/services_page/healthcare_hero_bg.svg"
   },
   "friction_section": {
-    "title": "The Friction Point",
-    "subtitle": "Healthcare teams face fragmented records, operational overload, and delayed decision loops.",
+    "title": "The Care Friction",
+    "subtitle": "Healthcare providers are overwhelmed by administrative load and disconnected data silos.",
     "cards": [
       {
-        "title": "Fragmented Records",
-        "description": "Clinical data scattered across systems limits context and slows diagnosis.",
-        "icon_type": "GiMedicines"
+        "title": "Clinical Burnout",
+        "description": "Excessive manual documentation and EHR data entry reduce time spent with patients.",
+        "icon_type": "FaStethoscope"
       },
       {
-        "title": "Administrative Load",
-        "description": "Manual scheduling, follow-up, and reporting consume care-team capacity.",
-        "icon_type": "FaUserNurse"
+        "title": "Data Interoperability",
+        "description": "Fragmented patient records across systems prevent a holistic view of longitudinal health.",
+        "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Delayed Interventions",
-        "description": "Without predictive alerts, critical patient risk indicators can be missed.",
-        "icon_type": "FaHeartbeat"
+        "title": "Diagnostic Latency",
+        "description": "Delays in analyzing complex imaging and lab results slow down critical intervention windows.",
+        "icon_type": "FaMicroscope"
       }
     ]
   },
   "architecture_section": {
-    "id": "industry-architecture",
-    "title": "Ethereal Intelligence, Concrete Results.",
-    "description": "Our architecture centralizes patient context, treatment history, and operational flow for fast and informed clinical decisions.",
+    "id": "healthcare-architecture",
+    "title": "Connected Data, Better Outcomes.",
+    "description": "Our healthcare OS creates a real-time intelligence loop between patient biometrics, EHR records, and clinical decision support.",
     "bullets": [
-      "Unified Clinical Timeline",
-      "Predictive Triage Signals",
-      "Secure Access Governance"
+      "FHIR-Standard Data Integration",
+      "Ambient Clinical Documentation",
+      "Predictive Patient Monitoring"
     ],
     "cards": [
       {
-        "title": "Care Operations Dashboard",
-        "description": "Track occupancy, treatment progress, and service queues across locations in real time.",
-        "icon_type": "MdDashboardCustomize",
+        "title": "Clinical Command Center",
+        "description": "Real-time visibility into patient acuity, bed availability, and staffing requirements.",
+        "icon_type": "MdMonitorHeart",
         "featured": true
       },
       {
-        "title": "Automated Follow-Ups",
-        "description": "Deliver reminders and care prompts automatically based on treatment plans.",
-        "icon_type": "FaProjectDiagram"
+        "title": "Ambient Scribe AI",
+        "description": "Naturally capture patient-physician conversations and automatically generate structured clinical notes.",
+        "icon_type": "FaUserMd"
       },
       {
-        "title": "Early Risk Detection",
-        "description": "AI flags abnormal trends before escalation, enabling proactive intervention.",
-        "icon_type": "GiHealthNormal"
+        "title": "Predictive Risk Scoring",
+        "description": "Identify high-risk patients for sepsis, readmission, or chronic escalation before symptoms peak.",
+        "icon_type": "FaProcedures"
       }
     ]
   },
   "benefits_section": {
     "title": "Key Benefits",
-    "subtitle": "Enable safer, faster, and more coordinated care journeys.",
+    "subtitle": "Driving efficiency while maintaining the highest standards of patient privacy.",
     "cards": [
       {
-        "title": "Improved Patient Trust",
-        "description": "Clear communication loops keep patients informed and supported.",
-        "icon_type": "FaRegClock"
+        "title": "Reduced Admin Overhead",
+        "description": "Automated coding and charting return hours of the day back to clinicians.",
+        "icon_type": "FaRegEdit"
       },
       {
-        "title": "Higher Care Consistency",
-        "description": "Protocols and records stay standardized across departments.",
-        "icon_type": "FaShieldAlt"
+        "title": "Improved Patient Safety",
+        "description": "AI-driven medication reconciliation and allergy alerts reduce adverse events.",
+        "icon_type": "FaHandHoldingHeart"
       },
       {
-        "title": "Reduced Admin Effort",
-        "description": "Automated logistics free teams to focus on patient care.",
-        "icon_type": "FaBolt"
+        "title": "HIPAA/GDPR Compliance",
+        "description": "Built-in encryption and access controls ensure data sovereignty and regulatory adherence.",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Faster Turnaround",
-        "description": "Diagnostic and treatment pathways move with less delay.",
-        "icon_type": "FaChartLine"
+        "title": "Accelerated Diagnostics",
+        "description": "AI-assisted imaging analysis prioritizes urgent cases for radiologist review.",
+        "icon_type": "FaRunning"
       },
       {
-        "title": "Unified Data Access",
-        "description": "Clinicians see relevant patient context without cross-system searching.",
-        "icon_type": "FaDatabase"
+        "title": "Population Health Insights",
+        "description": "Analyze trends across patient cohorts to improve preventative care strategies.",
+        "icon_type": "FaUsers"
       },
       {
-        "title": "Streamlined Coordination",
-        "description": "Cross-functional teams align quickly through one source of truth.",
-        "icon_type": "FaCheckSquare"
+        "title": "Enhanced Care Access",
+        "description": "Virtual assistants and triaging bots help patients navigate their care journey 24/7.",
+        "icon_type": "FaCommentMedical"
       }
     ]
   },
   "case_studies_section": {
-    "title": "Applied Intelligence",
-    "subtitle": "Reliable healthcare orchestration where timing and precision are critical.",
+    "title": "Healthcare in Action",
+    "subtitle": "Scaling intelligence across hospital networks and private practices.",
     "cards": [
       {
         "label": "Case Study 01",
-        "title": "Outpatient Network",
-        "description": "Automated appointment and triage logic reduced no-shows and improved service throughput by 18%.",
+        "title": "Multi-State Hospital System",
+        "description": "Reduced physician documentation time by 45% using ambient AI, increasing patient throughput.",
         "href": "/contact",
-        "cta_text": "Learn More"
+        "cta_text": "View Case Study"
       },
       {
         "label": "Case Study 02",
-        "title": "Hospital Coordination",
-        "description": "Unified patient flow dashboards improved bed turnover visibility and accelerated discharge planning.",
+        "title": "Remote Monitoring Provider",
+        "description": "Predictive analytics reduced ER readmissions by 20% for patients with chronic heart failure.",
         "href": "/contact",
-        "cta_text": "Learn More"
+        "cta_text": "View Case Study"
       }
     ]
   },
   "explore_section": {
-    "title": "Explore Other Industries",
-    "subtitle": "Apply adaptive AI operations beyond clinical environments.",
+    "title": "Related Industries",
+    "subtitle": "Explore how our operational intelligence applies to adjacent sectors.",
     "cards": [
       {
+        "title": "Insurance",
+        "description": "Accelerate health claims processing and underwriting accuracy.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Software Development",
+        "description": "Build secure, compliant healthcare applications and platforms.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
         "title": "Manufacturing",
-        "description": "Increase line intelligence and reduce production waste.",
+        "description": "Optimize medical device production and supply chain logistics.",
         "href": "/industries/manufacturing",
         "icon_type": "FaIndustry"
-      },
-      {
-        "title": "Energy",
-        "description": "Balance load, reliability, and field operations with predictive systems.",
-        "href": "/industries/energy",
-        "icon_type": "FaBolt"
-      },
-      {
-        "title": "Finance",
-        "description": "Strengthen transaction intelligence and compliance automation.",
-        "href": "/industries/finance",
-        "icon_type": "FaLandmark"
       }
     ]
   },
   "conversation_section": {
-    "title": "Start the Conversion",
-    "subtitle": "Talk with our healthcare systems specialists about your care operations.",
+    "title": "Start a Consultation",
+    "subtitle": "Talk with our healthcare specialists about modernizing your clinical workflows.",
     "full_name_label": "Full Name",
-    "business_email_label": "Business Email",
+    "business_email_label": "Organization Email",
     "message_label": "Message",
-    "full_name_placeholder": "John Doe",
-    "business_email_placeholder": "john@hospital.com",
-    "message_placeholder": "Tell us about your care workflow...",
+    "full_name_placeholder": "Dr. Sarah Chen",
+    "business_email_placeholder": "schen@healthsystem.org",
+    "message_placeholder": "Tell us about your clinical or administrative challenges...",
     "button_text": "Send Inquiry"
   }
 }
