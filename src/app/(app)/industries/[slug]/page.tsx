@@ -1,4 +1,4 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
@@ -53,11 +53,11 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         <IndustryArchitecture data={data.architecture_section} />
         <IndustryKeyBenefits data={data.benefits_section} />
         <IndustryCaseStudies data={data.case_studies_section} />
-        <IndustryExplore data={localizedExploreSection} />
         <IndustryConversation data={data.conversation_section} />
+                <IndustryExplore data={localizedExploreSection} />
+
       </div>
       <Footer />
     </>
   );
 }
-

@@ -10,7 +10,7 @@ export default function IndustryIconBadge({ iconName, size = 18 }: IconBadgeProp
   const IconComponent = AllIcons[safeName];
 
   return (
-    <div className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-[#EAD5F9] text-[#8E4EC6] dark:bg-[#4A2A61] dark:text-[#ECD9FA]">
+    <div className="inline-flex h-9 w-9 items-center justify-center rounded-lg bg-[color:var(--primary)] text-t-primary">
       {IconComponent ? <IconComponent size={size} /> : <span className="text-[10px] font-semibold">?</span>}
     </div>
   );

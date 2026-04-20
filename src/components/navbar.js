@@ -71,7 +71,7 @@ const Navbar = () => {
                 {link.dropdown && (
                   <div
                     className={`absolute top-full z-50 mt-6 rounded-xl border border-border bg-bg-primary text-t-primary opacity-0 shadow-xl invisible translate-y-2 transition-all duration-200 group-hover:visible group-hover:translate-y-0 group-hover:opacity-100 ${
-                      isWideDropdown ? "-right-96 w-[calc(100vw-2rem)]" : "right-0 w-[320px]"
+                      isWideDropdown ? "-right-[490px] w-[calc(100vw-2rem)]" : "right-0 w-[320px]"
                     }`}
                   >
                     <div
