@@ -83,6 +83,23 @@
         ]
       }
     },
+    {
+      "name": "Industries",
+      "href": "/industries",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Industry Solutions",
+            "links": [
+              { "name": "Manufacturing", "href": "/industries/manufacturing" },
+              { "name": "Healthcare", "href": "/industries/healthcare" },
+              { "name": "Energy", "href": "/industries/energy" },
+              { "name": "Finance", "href": "/industries/finance" }
+            ]
+          }
+        ]
+      }
+    },
       {
       "name": "About Us",
       "href": "/#about"

@@ -24,6 +24,7 @@ Required actions after each meaningful code change:
 - Public site lives in route group `src/app/(app)`.
 - CMS/admin and generated Payload API routes live in `src/app/(payload)`.
 - Most marketing and service content is loaded from JSON in `src/data/*`.
+- Industries content is JSON-driven with language files in each `src/data/*_data/industries` folder.
 - Blog list and blog detail pages are CMS-driven from Payload `blogs` collection.
 - Contact and apply forms post to internal API routes, then send email via Resend.
 - Footer is SSR-first; only the newsletter form is a small client island (`src/components/footer_newsletter_form.tsx`).
@@ -34,6 +35,7 @@ Required actions after each meaningful code change:
 ### Public Pages
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
+- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` from language map, and renders card links to industry slug pages.
 - `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` queries Payload `blogs` (published only, locale from cookie).
 - `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug and renders lexical rich text.
 - `/contact` -> `src/app/(app)/contact/page.tsx` client form posts to `/api/contact_mail`.
@@ -56,11 +58,22 @@ All service detail routes share one rendering pattern:
   - pulls content from `src/data/loaders/*.ts` map by slug,
   - renders shared section components (`hero`, `introduction`, `key_benefits`, `what_we_do`, `technologies`, `process`, `case_study`, `faq`, `contact`).
 
+### Industry Detail Pages
+- Route:
+  - `/industries/[slug]`
+- Route behavior:
+  - server component with metadata from `src/lib/seo.ts`,
+  - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
+  - loads slug data from `src/data/loaders/industries.ts`,
+  - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, `case_studies`, `explore`, `conversation`).
+
 ## Data Flow
 ### Static JSON Content
 - Base folders by language in `src/data/*_data`.
 - Home/services/privacy/terms pages use language-specific JSON maps in route files.
 - Service detail pages use loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`.
+- Industry main page uses `src/data/*_data/industries_page.json`.
+- Industry detail pages use `src/data/*_data/industries/*.json` and `src/data/loaders/industries.ts` for `{lang -> {slug -> json}}` mapping.
 
 ### CMS Content (Payload)
 Defined in `src/payload.config.ts`:
@@ -95,14 +108,18 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 ## i18n Behavior
 - Language selector (`src/components/language_switch_component.tsx`) sets `lang` cookie and calls `router.refresh()`.
 - Server pages (home/services/privacy/terms/blog listing) read cookie for language.
+- Industries main page reads cookie for language.
 - Service detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
+- Industry detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
 - Client-side i18next payload loading has been removed from root layout to reduce JS parsing and hydration cost.
 
 ## Navigation and Slug Source of Truth
 - Main nav and service links are in `src/data/navbar.json`.
+- Industries dropdown links (and slug hrefs) are in `src/data/navbar.json`.
 - Footer quick links are in `src/components/footer.tsx` and include core crawl targets (`/`, `/services`, `/blogs`, `/contact`, `/get-started`).
 - Service detail loaders must expose keys that match nav slugs.
-- Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and emits language query variants.
+- Industry detail loader keys and JSON `slug` fields must match navbar industries links.
+- Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and English industries JSON files and emits language query variants.
 
 ## Environment Variables
 Required by runtime code:
@@ -129,7 +146,9 @@ Required by runtime code:
 ## Change Impact Guide
 If you change this, also check this:
 - Service slug in JSON -> loader map key + `navbar.json` link + sitemap output.
+- Industry slug in JSON -> `src/data/loaders/industries.ts` key + `navbar.json` industries link + sitemap output.
 - Service section schema -> shared sub-service components and type files under `src/types/sub_services_page`.
+- Industry section schema -> shared industry components under `src/components/industries` + `src/types/industries_page`.
 - Blog fields -> `src/collections/Blogs.ts` + blog listing/detail components.
 - Career/form toggle behavior -> `src/globals/FormSettings.ts`, team section CTA visibility, and get-started redirect logic.
 - Language behavior -> cookie-based server pages + query-param service detail pages + `context/i18n.js`.
@@ -155,3 +174,7 @@ If you change this, also check this:
 - 2026-04-17: Added centralized SEO metadata config (`src/lib/seo.ts`) and applied page-level metadata to home, services, privacy, terms, contact, and all dynamic service slug routes via `generateMetadata`.
 - 2026-04-17: Split contact route into server metadata wrapper (`src/app/(app)/contact/page.tsx`) + client UI component (`src/components/contact_page/contact_page_client.tsx`) to support SEO metadata with no UI change.
 - 2026-04-17: Added local SEO keyword targeting (including Okara intent), JSON-LD primary sitelinks schema for Home/Services/Blogs/Contact/Get Started, blogs page metadata, and updated footer quick links for core indexable pages.
+- 2026-04-20: Added full industries feature set with reusable components, language-scoped industry JSON data under each `*_data` folder, dynamic `/industries/[slug]` routing, industries main page, navbar industries dropdown links, and sitemap/SEO support.
+- 2026-04-20: Updated industries page visual system to full-width section backgrounds with per-section image backdrops and removed rounded card-shell wrappers for a flatter section-first layout.
+- 2026-04-20: Fixed industries route/component source encoding by converting new industries TSX files to UTF-8 to resolve Next.js `stream did not contain valid UTF-8` compile errors.
+- 2026-04-20: Revised industries styling so only hero sections use image backgrounds while all other sections use solid primary/secondary theme colors with flush section transitions.

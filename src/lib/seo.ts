@@ -85,6 +85,19 @@ export const SERVICES_PAGE_METADATA = toMetadata({
   ]),
 });
 
+export const INDUSTRIES_PAGE_METADATA = toMetadata({
+  title: "Industry Solutions | Devisgon",
+  description:
+    "Explore Devisgon industry solutions for manufacturing, healthcare, energy, and finance powered by AI automation and modern software systems.",
+  keywords: withLocalKeywords([
+    "industry AI solutions",
+    "manufacturing automation",
+    "healthcare workflow AI",
+    "energy operations intelligence",
+    "finance automation platforms",
+  ]),
+});
+
 export const PRIVACY_PAGE_METADATA = toMetadata({
   title: "Privacy Policy | Devisgon Software Solutions",
   description:
@@ -143,6 +156,12 @@ const SITE_NAVIGATION_LINKS: SiteNavigationLink[] = [
     name: "Services",
     path: "/services",
     description: "Explore AI, SaaS, cloud, data, testing, and software development services.",
+  },
+  {
+    name: "Industries",
+    path: "/industries",
+    description:
+      "Explore Devisgon industry solutions for manufacturing, healthcare, energy, and finance.",
   },
   {
     name: "Blogs",
@@ -413,5 +432,45 @@ export const getServiceSlugMetadata = (slug: string): Metadata => {
     description:
       "Custom AI, SaaS, automation, cloud, testing, and software development services by Devisgon.",
     keywords: ["Devisgon services", "custom software development", "AI software solutions"],
+  });
+};
+
+const INDUSTRY_SLUG_SEO: Record<string, SeoConfig> = {
+  manufacturing: {
+    title: "AI Manufacturing Solutions | Devisgon",
+    description:
+      "Modernize manufacturing operations with AI-driven dashboards, predictive maintenance, and production workflow automation.",
+    keywords: ["manufacturing AI", "factory automation", "predictive maintenance", "Devisgon"],
+  },
+  healthcare: {
+    title: "Healthcare Workflow AI Solutions | Devisgon",
+    description:
+      "Improve care delivery with healthcare AI systems for coordination, predictive alerts, and streamlined clinical operations.",
+    keywords: ["healthcare AI", "clinical workflow automation", "care operations", "Devisgon"],
+  },
+  energy: {
+    title: "Energy Operations Intelligence | Devisgon",
+    description:
+      "Optimize grid and energy operations using predictive analytics, live telemetry, and intelligent automation systems.",
+    keywords: ["energy AI", "grid intelligence", "predictive load modeling", "Devisgon"],
+  },
+  finance: {
+    title: "Finance Automation and Risk Intelligence | Devisgon",
+    description:
+      "Strengthen compliance and transaction operations with AI-powered risk analysis, fraud detection, and workflow automation.",
+    keywords: ["finance AI", "fraud detection automation", "risk intelligence", "Devisgon"],
+  },
+};
+
+export const getIndustrySlugMetadata = (slug: string): Metadata => {
+  const seo = INDUSTRY_SLUG_SEO[slug];
+  if (seo) return toMetadata(seo);
+
+  const fallbackTitle = `${slug.replace(/[-_]/g, " ")} Industry Solutions | Devisgon`;
+  return toMetadata({
+    title: fallbackTitle,
+    description:
+      "Industry-specific AI, automation, and software solutions by Devisgon for modern operational excellence.",
+    keywords: ["industry solutions", "AI operations", "Devisgon"],
   });
 };

@@ -2,7 +2,8 @@ import fs from "fs";
 import path from "path";
 
 const LANGUAGES = ["en", "ur", "ar", "es", "de", "zh", "fr"];
-const BASE_DATA_PATH = path.join(process.cwd(), "src/data/english_data/services");
+const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/services");
+const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
 
 const folderToUrlMap = {
   "ai_and_saas_developments": "saas",
@@ -15,10 +16,10 @@ function getServiceUrls() {
   const urls = [];
 
   try {
-    const folders = fs.readdirSync(BASE_DATA_PATH);
+    const folders = fs.readdirSync(BASE_SERVICES_PATH);
 
     folders.forEach((folder) => {
-      const folderPath = path.join(BASE_DATA_PATH, folder);
+      const folderPath = path.join(BASE_SERVICES_PATH, folder);
       
       if (fs.statSync(folderPath).isDirectory()) {
         const urlSegment = folderToUrlMap[folder] || folder;
@@ -44,6 +45,30 @@ function getServiceUrls() {
   return urls;
 }
 
+function getIndustryUrls() {
+  const urls = [];
+
+  try {
+    const files = fs.readdirSync(BASE_INDUSTRIES_PATH);
+
+    files.forEach((file) => {
+      if (!file.endsWith(".json")) return;
+
+      const filePath = path.join(BASE_INDUSTRIES_PATH, file);
+      const fileContent = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+      const slug = fileContent.slug;
+
+      LANGUAGES.forEach((lang) => {
+        urls.push(`/industries/${slug}?lang=${lang}`);
+      });
+    });
+  } catch (error) {
+    console.error("Sitemap generation error:", error);
+  }
+
+  return urls;
+}
+
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: "https://www.devisgon.com",
@@ -51,7 +76,7 @@ const config = {
   sitemapSize: 7000,
   
   async additionalPaths() {
-    const dynamicSlugs = getServiceUrls();
+    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls()];
 
     return dynamicSlugs.map((url) => ({
       loc: url,

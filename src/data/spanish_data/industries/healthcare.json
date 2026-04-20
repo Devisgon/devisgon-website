@@ -1,0 +1,158 @@
+{
+  "slug": "healthcare",
+  "hero_section": {
+    "eyebrow": "Clinical Workflow Intelligence",
+    "title": "Modernizing",
+    "highlight": "Healthcare",
+    "description": "Unify diagnostics, scheduling, and care coordination with AI systems that reduce delay and improve patient outcomes.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/services_page/hero_bg.svg"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Healthcare teams face fragmented records, operational overload, and delayed decision loops.",
+    "cards": [
+      {
+        "title": "Fragmented Records",
+        "description": "Clinical data scattered across systems limits context and slows diagnosis.",
+        "icon_type": "GiMedicines"
+      },
+      {
+        "title": "Administrative Load",
+        "description": "Manual scheduling, follow-up, and reporting consume care-team capacity.",
+        "icon_type": "FaUserNurse"
+      },
+      {
+        "title": "Delayed Interventions",
+        "description": "Without predictive alerts, critical patient risk indicators can be missed.",
+        "icon_type": "FaHeartbeat"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Ethereal Intelligence, Concrete Results.",
+    "description": "Our architecture centralizes patient context, treatment history, and operational flow for fast and informed clinical decisions.",
+    "bullets": [
+      "Unified Clinical Timeline",
+      "Predictive Triage Signals",
+      "Secure Access Governance"
+    ],
+    "cards": [
+      {
+        "title": "Care Operations Dashboard",
+        "description": "Track occupancy, treatment progress, and service queues across locations in real time.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Automated Follow-Ups",
+        "description": "Deliver reminders and care prompts automatically based on treatment plans.",
+        "icon_type": "FaProjectDiagram"
+      },
+      {
+        "title": "Early Risk Detection",
+        "description": "AI flags abnormal trends before escalation, enabling proactive intervention.",
+        "icon_type": "GiHealthNormal"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Enable safer, faster, and more coordinated care journeys.",
+    "cards": [
+      {
+        "title": "Improved Patient Trust",
+        "description": "Clear communication loops keep patients informed and supported.",
+        "icon_type": "FaRegClock"
+      },
+      {
+        "title": "Higher Care Consistency",
+        "description": "Protocols and records stay standardized across departments.",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Reduced Admin Effort",
+        "description": "Automated logistics free teams to focus on patient care.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Faster Turnaround",
+        "description": "Diagnostic and treatment pathways move with less delay.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Unified Data Access",
+        "description": "Clinicians see relevant patient context without cross-system searching.",
+        "icon_type": "FaDatabase"
+      },
+      {
+        "title": "Streamlined Coordination",
+        "description": "Cross-functional teams align quickly through one source of truth.",
+        "icon_type": "FaCheckSquare"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Applied Intelligence",
+    "subtitle": "Reliable healthcare orchestration where timing and precision are critical.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Outpatient Network",
+        "description": "Automated appointment and triage logic reduced no-shows and improved service throughput by 18%.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Hospital Coordination",
+        "description": "Unified patient flow dashboards improved bed turnover visibility and accelerated discharge planning.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Apply adaptive AI operations beyond clinical environments.",
+    "cards": [
+      {
+        "title": "Manufacturing",
+        "description": "Increase line intelligence and reduce production waste.",
+        "href": "/industries/manufacturing",
+        "icon_type": "FaIndustry"
+      },
+      {
+        "title": "Energy",
+        "description": "Balance load, reliability, and field operations with predictive systems.",
+        "href": "/industries/energy",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Finance",
+        "description": "Strengthen transaction intelligence and compliance automation.",
+        "href": "/industries/finance",
+        "icon_type": "FaLandmark"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Start the Conversion",
+    "subtitle": "Talk with our healthcare systems specialists about your care operations.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Message",
+    "full_name_placeholder": "John Doe",
+    "business_email_placeholder": "john@hospital.com",
+    "message_placeholder": "Tell us about your care workflow...",
+    "button_text": "Send Inquiry"
+  }
+}
