@@ -43,6 +43,17 @@ export type IndustryBenefitsSection = {
   cards: IndustryIconCard[];
 };
 
+export type IndustryCarouselCard = {
+  title: string;
+  description: string;
+};
+
+export type IndustryCarouselSection = {
+  title: string;
+  subtitle: string;
+  cards: IndustryCarouselCard[];
+};
+
 export type IndustryCaseStudy = {
   label: string;
   title: string;
@@ -95,9 +106,16 @@ export type IndustryListingCard = {
   icon_type: string;
 };
 
+export type IndustryListingGroup = {
+  title: string;
+  description: string;
+  cards: IndustryListingCard[];
+};
+
 export type IndustryListingData = {
   hero_section: IndustryListingHero;
   industry_cards: IndustryListingCard[];
+  industry_groups?: IndustryListingGroup[];
 };
 
 export type IndustryPageData = {
@@ -106,6 +124,7 @@ export type IndustryPageData = {
   friction_section: IndustryFrictionSection;
   architecture_section: IndustryArchitectureSection;
   benefits_section: IndustryBenefitsSection;
+  carousel_section?: IndustryCarouselSection;
   case_studies_section: IndustryCaseStudiesSection;
   explore_section: IndustryExploreSection;
   conversation_section: IndustryConversationSection;

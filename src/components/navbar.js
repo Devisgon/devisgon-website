@@ -62,9 +62,9 @@ const Navbar = () => {
             const isDropdownOpen = activeDesktopDropdown === link.name;
 
          const dropdownPositionClass = isServicesDropdown
-  ? "fixed right-6 top-16 w-[calc(100vw-2rem)]" 
+  ? "fixed right-6 top-10 w-[calc(100vw-2rem)]" 
   : isIndustriesDropdown
-  ? "fixed left-2 top-16 w-[calc(100vw-2rem)]"
+  ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
   : "absolute left-0 top-full w-[320px]";
             return (
               <div

@@ -35,7 +35,7 @@ Required actions after each meaningful code change:
 ### Public Pages
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
-- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` from language map, and renders card links to industry slug pages.
+- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Industries dropdown columns; each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` queries Payload `blogs` (published only, locale from cookie).
 - `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug and renders lexical rich text.
 - `/contact` -> `src/app/(app)/contact/page.tsx` client form posts to `/api/contact_mail`.
@@ -67,7 +67,8 @@ All service detail routes share one rendering pattern:
   - server component with metadata from `src/lib/seo.ts`,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
   - loads category + slug data from `src/data/loaders/industries.ts` with English fallback if localized file is missing,
-  - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, `case_studies`, `explore`, `conversation`).
+  - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, optional `carousel`, `case_studies`, `explore`, `conversation`),
+  - hero now receives carousel cards and rotates card title/description smoothly via `src/components/industries/hero_rotating_copy.tsx`.
 
 ## Data Flow
 ### Static JSON Content
@@ -75,7 +76,11 @@ All service detail routes share one rendering pattern:
 - Home/services/privacy/terms pages use language-specific JSON maps in route files.
 - Service detail pages use loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`.
 - Industry main page uses `src/data/*_data/industries_page.json`.
+- Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
 - Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
+- Industry detail JSON supports `carousel_section` (title, subtitle, cards[title/description]); these cards are used in two places:
+  - rotating hero copy (title + description transitions),
+  - the post-key-benefits carousel section in `src/components/industries/carousel.tsx`.
 - `scripts/translate_services.mjs` recursively translates all English industries JSON files (including nested category folders) into each language folder while preserving image/icon/link fields.
 
 ### CMS Content (Payload)
@@ -118,7 +123,7 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 
 ## Navigation and Slug Source of Truth
 - Main nav and service links are in `src/data/navbar.json`.
-- Industries dropdown links are grouped in `src/data/navbar.json` into five columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`) with sub-industry links.
+- Industries dropdown links are grouped in `src/data/navbar.json` into six columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`, `Real Estate`) with sub-industry links.
 - Footer quick links are in `src/components/footer.tsx` and include core crawl targets (`/`, `/services`, `/blogs`, `/contact`, `/get-started`).
 - Service detail loaders must expose keys that match nav slugs.
 - Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` must match navbar industries links.
@@ -141,6 +146,7 @@ Required by runtime code:
 
 ## Operational Commands
 - Dev: `npm run dev`
+- Dev (force clean cache once): `npm run dev:clean`
 - Lint: `npm run lint`
 - Build: `npm run build`
 - Start: `npm run start`
@@ -151,7 +157,8 @@ If you change this, also check this:
 - Service slug in JSON -> loader map key + `navbar.json` link + sitemap output.
 - Industry category/slug JSON path -> `src/data/loaders/industries.ts` lookup + `navbar.json` grouped industries links + sitemap output.
 - Service section schema -> shared sub-service components and type files under `src/types/sub_services_page`.
-- Industry section schema -> shared industry components under `src/components/industries` + `src/types/industries_page`.
+- Industry section schema -> shared industry components under `src/components/industries` + `src/types/industries_page` (including optional `carousel_section` content).
+- Changes to `carousel_section.cards` affect both hero rotating copy and the lower carousel cards, so update content with both placements in mind.
 - Blog fields -> `src/collections/Blogs.ts` + blog listing/detail components.
 - Career/form toggle behavior -> `src/globals/FormSettings.ts`, team section CTA visibility, and get-started redirect logic.
 - Language behavior -> cookie-based server pages + query-param service detail pages + `context/i18n.js`.
@@ -187,3 +194,14 @@ If you change this, also check this:
 - 2026-04-20: Reordered post-hero industry section theme flow to start with primary color blocks and set contact form container explicitly to white (`bg-btn-secondary`) while keeping hero image sourced from JSON.
 - 2026-04-20: Added grouped industries dropdown columns, canonical `/industries/[category]/[slug]` routing with legacy slug redirects, nested industries data loader fallback, recursive industries translation script support, and sitemap crawling for category-based industry URLs.
 - 2026-04-20: Corrected desktop navbar mega-dropdown behavior with title-based conditional full-width positioning (separate margins for Services vs Industries) and stable hover-open state management.
+- 2026-04-21: Added optional industry detail carousel section (`carousel_section`) rendered after key benefits via new client component and seeded 5-card carousel content in both `travel_services` and `fields` industry JSON files across all language folders.
+- 2026-04-21: Hardened local dev startup by updating `npm run dev` to clear `.next` before boot, preventing stale vendor chunk resolution errors such as missing `react-icons` chunk modules.
+- 2026-04-21: Seeded `carousel_section` content across all nested industry category JSON files in every language so the industries carousel renders consistently on every industry detail page.
+- 2026-04-21: Updated industries hero to rotate smoothly through `carousel_section.cards` title/description and regenerated all category JSON carousel cards with industry-specific website/AI-agent offerings plus conditional receptionist cards for relevant industries.
+- 2026-04-21: Refined industries hero rotation so the main hero title and the description panel animate in sync from the same active carousel card.
+- 2026-04-21: Added new `real_estate` industry category (`residential`, `commercial`, `property_management`, `architecture_design`) plus new `healthcare/optometry` pages across all language data folders, updated industries listing cards, navbar dropdown links, and industry loader category mapping.
+- 2026-04-21: Reworked `/industries` main page to keep the existing hero and render grouped category subsections (category heading + sub-industry cards) based on Industries dropdown columns in `src/data/navbar.json`, with card content mapped from each sub-industry JSON file.
+- 2026-04-21: Restyled `/industries` main hero to use image-backed sub-industry-style layout and updated grouped sub-industry cards with centered category headings, wider card sizing, richer descriptions, and per-category/per-link icons.
+- 2026-04-21: Fixed `/industries` runtime `undefined.map` failure by hardening listing-card handling, restoring `src/data/english_data/industries_page.json` to expected schema, and sourcing grouped sub-industry cards from `INDUSTRY_GROUPS` + industry detail JSON files.
+- 2026-04-21: Unified public-site typography to one font family by removing the global Inter override/import, enforcing Geist via `font-sans` at root layout, and removing the remaining `font-serif` usage from the homepage CEO section.
+- 2026-04-21: Changed npm dev workflow to prevent `.next/routes-manifest.json` ENOENT crashes by restoring `npm run dev` to plain `next dev` and keeping cache deletion only in `npm run dev:clean`.

@@ -13,11 +13,12 @@ const LANGUAGE_FOLDER_MAP: Record<string, string> = {
 };
 
 export const INDUSTRY_GROUPS: Record<string, string[]> = {
-  healthcare: ["dentist", "psychologist", "massage_therapist", "myotherapist", "chiropractor"],
+  healthcare: ["dentist", "psychologist", "massage_therapist", "myotherapist", "chiropractor", "optometry"],
   professional: ["education", "travel_services", "consulting", "legal_services"],
   trades: ["electrician", "plumbing", "carpentry", "welding"],
   entertainment: ["restaurants", "hotels", "events", "media_production"],
   agriculture: ["farms", "fields", "plants", "irrigation"],
+  real_estate: ["residential", "commercial", "property_management", "architecture_design"],
 };
 
 function resolveLangFolder(lang: string): string {

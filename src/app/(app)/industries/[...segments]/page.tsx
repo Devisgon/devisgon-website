@@ -6,6 +6,7 @@ import IndustryHero from "@/components/industries/hero";
 import IndustryFriction from "@/components/industries/friction";
 import IndustryArchitecture from "@/components/industries/architecture";
 import IndustryKeyBenefits from "@/components/industries/key_benefits";
+import IndustryCarousel from "@/components/industries/carousel";
 import IndustryCaseStudies from "@/components/industries/case_studies";
 import IndustryExplore from "@/components/industries/explore";
 import IndustryConversation from "@/components/industries/conversation";
@@ -78,10 +79,11 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
     <>
       <Header />
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
-        <IndustryHero data={data.hero_section} />
+        <IndustryHero data={data.hero_section} slides={data.carousel_section?.cards} />
         <IndustryFriction data={data.friction_section} />
         <IndustryArchitecture data={data.architecture_section} />
         <IndustryKeyBenefits data={data.benefits_section} />
+        {data.carousel_section ? <IndustryCarousel data={data.carousel_section} /> : null}
         <IndustryCaseStudies data={data.case_studies_section} />
         <IndustryExplore data={localizedExploreSection} />
         <IndustryConversation data={data.conversation_section} />

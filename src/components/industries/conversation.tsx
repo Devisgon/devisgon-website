@@ -18,22 +18,20 @@ export default function IndustryConversation({ data }: IndustryPageProps<Industr
         <form className="mt-8 space-y-5" action="/contact" method="get">
           <div className="grid gap-6 md:grid-cols-2">
             <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
-              {data.full_name_label}
-              <input
+Name           <input
                 type="text"
                 name="fullName"
-                placeholder={data.full_name_placeholder}
+                placeholder="Name"
                 // Input bg changed to bg-bg-primary for an "inset" feel
                 className="h-12 w-full rounded-xl border border-primary bg-bg-primary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/40 focus:ring-2 focus:ring-btn-primary/20 focus:border-btn-primary"
               />
             </label>
 
             <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
-              {data.business_email_label}
-              <input
+email              <input
                 type="email"
-                name="businessEmail"
-                placeholder={data.business_email_placeholder}
+                name="Email"
+                placeholder="name@example.com"
                 className="h-12 w-full rounded-xl border border-primary bg-bg-primary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/40 focus:ring-2 focus:ring-btn-primary/20 focus:border-btn-primary"
               />
             </label>
