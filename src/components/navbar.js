@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className="mx-auto flex h-16 max-w-screen items-center justify-between px-4 md:px-18">
         <Link href="/" className="shrink-0">
           <Image
-            src={isDark ? "/logo/dark_logo.svg" : "/logo/logo.svg"}
+            src={isDark ? "/logo/dark_logo.webp" : "/logo/logo.webp"}
             alt="logo"
             width={220}
             height={70}
@@ -58,12 +58,13 @@ const Navbar = () => {
             const normalizedName = link.name.toLowerCase();
             const isServicesDropdown = normalizedName === "services";
             const isIndustriesDropdown = normalizedName === "industries";
-            const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown;
+            const isTechnologiesDropdown = normalizedName === "technologies";
+            const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown || isTechnologiesDropdown;
             const isDropdownOpen = activeDesktopDropdown === link.name;
 
          const dropdownPositionClass = isServicesDropdown
   ? "fixed right-6 top-10 w-[calc(100vw-2rem)]" 
-  : isIndustriesDropdown
+  : isIndustriesDropdown || isTechnologiesDropdown
   ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
   : "absolute left-0 top-full w-[320px]";
             return (
@@ -160,8 +161,8 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between p-4">
-          <img src="/logo/logo.svg" alt="logo" className="dark:hidden" />
-          <img src="/logo/dark_logo.svg" alt="logo" className="hidden dark:block" />
+          <img src="/logo/logo.webp" alt="logo" className="dark:hidden" />
+          <img src="/logo/dark_logo.webp" alt="logo" className="hidden dark:block" />
         </div>
 
         <div className="-mt-8 h-screen space-y-6 overflow-y-auto bg-[#F7EDFE] px-4 py-12 dark:bg-[#8457AA]">

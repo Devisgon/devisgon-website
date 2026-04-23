@@ -193,98 +193,6 @@
       "dropdown": {
         "columns": [
           {
-            "title": "Healthcare",
-            "links": [
-              {
-                "name": "Dentist",
-                "href": "/industries/healthcare/dentist"
-              },
-              {
-                "name": "Psychologist",
-                "href": "/industries/healthcare/psychologist"
-              },
-              {
-                "name": "Massage Therapist",
-                "href": "/industries/healthcare/massage_therapist"
-              },
-              {
-                "name": "Myotherapist",
-                "href": "/industries/healthcare/myotherapist"
-              },
-              {
-                "name": "Chiropractor",
-                "href": "/industries/healthcare/chiropractor"
-              },
-              {
-                "name": "Optometry",
-                "href": "/industries/healthcare/optometry"
-              }
-            ]
-          },
-          {
-            "title": "Professional",
-            "links": [
-              {
-                "name": "Education",
-                "href": "/industries/professional/education"
-              },
-              {
-                "name": "Travel Services",
-                "href": "/industries/professional/travel_services"
-              },
-              {
-                "name": "Consulting",
-                "href": "/industries/professional/consulting"
-              },
-              {
-                "name": "Legal Services",
-                "href": "/industries/professional/legal_services"
-              }
-            ]
-          },
-          {
-            "title": "Trades",
-            "links": [
-              {
-                "name": "Electrician",
-                "href": "/industries/trades/electrician"
-              },
-              {
-                "name": "Plumbing",
-                "href": "/industries/trades/plumbing"
-              },
-              {
-                "name": "Carpentry",
-                "href": "/industries/trades/carpentry"
-              },
-              {
-                "name": "Welding",
-                "href": "/industries/trades/welding"
-              }
-            ]
-          },
-          {
-            "title": "Entertainment",
-            "links": [
-              {
-                "name": "Restaurants",
-                "href": "/industries/entertainment/restaurants"
-              },
-              {
-                "name": "Hotels",
-                "href": "/industries/entertainment/hotels"
-              },
-              {
-                "name": "Events",
-                "href": "/industries/entertainment/events"
-              },
-              {
-                "name": "Media Production",
-                "href": "/industries/entertainment/media_production"
-              }
-            ]
-          },
-          {
             "title": "Agriculture",
             "links": [
               {
@@ -296,12 +204,83 @@
                 "href": "/industries/agriculture/fields"
               },
               {
-                "name": "Plants",
-                "href": "/industries/agriculture/plants"
-              },
-              {
                 "name": "Irrigation",
                 "href": "/industries/agriculture/irrigation"
+              },
+              {
+                "name": "Plants",
+                "href": "/industries/agriculture/plants"
+              }
+            ]
+          },
+          {
+            "title": "Entertainment",
+            "links": [
+              {
+                "name": "Events",
+                "href": "/industries/entertainment/events"
+              },
+              {
+                "name": "Hotels",
+                "href": "/industries/entertainment/hotels"
+              },
+              {
+                "name": "Media Production",
+                "href": "/industries/entertainment/media_production"
+              },
+              {
+                "name": "Restaurants",
+                "href": "/industries/entertainment/restaurants"
+              }
+            ]
+          },
+          {
+            "title": "Healthcare",
+            "links": [
+              {
+                "name": "Chiropractor",
+                "href": "/industries/healthcare/chiropractor"
+              },
+              {
+                "name": "Dentist",
+                "href": "/industries/healthcare/dentist"
+              },
+              {
+                "name": "Massage Therapist",
+                "href": "/industries/healthcare/massage_therapist"
+              },
+              {
+                "name": "Myotherapist",
+                "href": "/industries/healthcare/myotherapist"
+              },
+              {
+                "name": "Optometry",
+                "href": "/industries/healthcare/optometry"
+              },
+              {
+                "name": "Psychologist",
+                "href": "/industries/healthcare/psychologist"
+              }
+            ]
+          },
+          {
+            "title": "Professional",
+            "links": [
+              {
+                "name": "Consulting",
+                "href": "/industries/professional/consulting"
+              },
+              {
+                "name": "Education",
+                "href": "/industries/professional/education"
+              },
+              {
+                "name": "Legal Services",
+                "href": "/industries/professional/legal_services"
+              },
+              {
+                "name": "Travel Services",
+                "href": "/industries/professional/travel_services"
               }
             ]
           },
@@ -309,8 +288,8 @@
             "title": "Real Estate",
             "links": [
               {
-                "name": "Residential",
-                "href": "/industries/real_estate/residential"
+                "name": "Architecture & Design",
+                "href": "/industries/real_estate/architecture_design"
               },
               {
                 "name": "Commercial",
@@ -321,8 +300,157 @@
                 "href": "/industries/real_estate/property_management"
               },
               {
-                "name": "Architecture & Design",
-                "href": "/industries/real_estate/architecture_design"
+                "name": "Residential",
+                "href": "/industries/real_estate/residential"
+              }
+            ]
+          },
+          {
+            "title": "Trades",
+            "links": [
+              {
+                "name": "Carpentry",
+                "href": "/industries/trades/carpentry"
+              },
+              {
+                "name": "Electrician",
+                "href": "/industries/trades/electrician"
+              },
+              {
+                "name": "Plumbing",
+                "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "Welding",
+                "href": "/industries/trades/welding"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Technologies",
+      "href": "/technologies",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Database",
+            "links": [
+              {
+                "name": "Amazon DynamoDB",
+                "href": "/technologies/amazon_dynamodb"
+              },
+              {
+                "name": "GraphQL",
+                "href": "/technologies/graphql"
+              },
+              {
+                "name": "MongoDB",
+                "href": "/technologies/mongodb"
+              },
+              {
+                "name": "MySQL",
+                "href": "/technologies/mysql"
+              },
+              {
+                "name": "Supabase",
+                "href": "/technologies/supabase"
+              }
+            ]
+          },
+          {
+            "title": "Frameworks",
+            "links": [
+              {
+                "name": "Flutter",
+                "href": "/technologies/flutter"
+              },
+              {
+                "name": "Laravel",
+                "href": "/technologies/laravel"
+              },
+              {
+                "name": "NestJS",
+                "href": "/technologies/nestjs"
+              },
+              {
+                "name": "Next.js",
+                "href": "/technologies/nextjs"
+              },
+              {
+                "name": "Node.js",
+                "href": "/technologies/nodejs"
+              },
+              {
+                "name": "React",
+                "href": "/technologies/react"
+              },
+              {
+                "name": "React Native",
+                "href": "/technologies/react_native"
+              }
+            ]
+          },
+          {
+            "title": "Languages",
+            "links": [
+              {
+                "name": "C",
+                "href": "/technologies/c"
+              },
+              {
+                "name": "C++",
+                "href": "/technologies/cpp"
+              },
+              {
+                "name": "Java",
+                "href": "/technologies/java"
+              },
+              {
+                "name": "JavaScript",
+                "href": "/technologies/javascript"
+              },
+              {
+                "name": "PHP",
+                "href": "/technologies/php"
+              },
+              {
+                "name": "Python",
+                "href": "/technologies/python"
+              },
+              {
+                "name": "TypeScript",
+                "href": "/technologies/typescript"
+              }
+            ]
+          },
+          {
+            "title": "Tools",
+            "links": [
+              {
+                "name": "Amazon",
+                "href": "/technologies/amazon"
+              },
+              {
+                "name": "Make",
+                "href": "/technologies/make"
+              },
+              {
+                "name": "n8n",
+                "href": "/technologies/n8n"
+              },
+              {
+                "name": "Shopify",
+                "href": "/technologies/shopify"
+              },
+              {
+                "name": "WordPress",
+                "href": "/technologies/wordpress"
+              },
+              {
+                "name": "Zapier",
+                "href": "/technologies/zapier"
               }
             ]
           }

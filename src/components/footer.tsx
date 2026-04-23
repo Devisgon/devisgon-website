@@ -42,8 +42,8 @@ const Footer: React.FC = () => {
       <div className="flex flex-col gap-12 w-full">
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 items-start lg:gap-8 lg:mt-8">
           <div className="flex flex-col items-start justify-center lg:items-center gap-6">
-            <img src="/logo/logo.svg" alt="logo" className="w-60 mx-auto dark:hidden" />
-            <img src="/logo/dark_logo.svg" alt="logo" className="w-60 mx-auto hidden dark:block" />
+            <img src="/logo/logo.webp" alt="logo" className="w-60 mx-auto dark:hidden" />
+            <img src="/logo/dark_logo.webp" alt="logo" className="w-60 mx-auto hidden dark:block" />
 
             <div className="flex flex-col gap-6 text-t-primary text-md font-medium opacity-80 text-start">
               <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">

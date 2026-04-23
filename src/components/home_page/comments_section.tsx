@@ -55,7 +55,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
               />
 
               <img
-                src="/home_page/comments_section/Vector-removebg-preview.png"
+                src="/home_page/comments_section/Vector-removebg-preview.webp"
                 alt="arrow"
                 className="hidden dark:block w-44 ml-90 bg-transparent -mt-35"
                 loading="lazy"

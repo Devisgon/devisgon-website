@@ -4,6 +4,7 @@ import path from "path";
 const LANGUAGES = ["en", "ur", "ar", "es", "de", "zh", "fr"];
 const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/services");
 const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
+const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
 
 const folderToUrlMap = {
   ai_and_saas_developments: "saas",
@@ -92,6 +93,42 @@ function getIndustryUrls() {
   return urls;
 }
 
+function getTechnologyUrls() {
+  const urls = [];
+
+  function walk(currentDir) {
+    const entries = fs.readdirSync(currentDir, { withFileTypes: true });
+
+    for (const entry of entries) {
+      const fullPath = path.join(currentDir, entry.name);
+
+      if (entry.isDirectory()) {
+        walk(fullPath);
+        continue;
+      }
+
+      if (!entry.isFile() || !entry.name.endsWith(".json")) {
+        continue;
+      }
+
+      const fileContent = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
+      const slug = fileContent.slug || (entry.name === "index.json" ? path.basename(path.dirname(fullPath)) : path.basename(entry.name, ".json"));
+
+      LANGUAGES.forEach((lang) => {
+        urls.push(`/technologies/${slug}?lang=${lang}`);
+      });
+    }
+  }
+
+  try {
+    walk(BASE_TECHNOLOGIES_PATH);
+  } catch (error) {
+    console.error("Sitemap generation error:", error);
+  }
+
+  return urls;
+}
+
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: "https://www.devisgon.com",
@@ -99,7 +136,7 @@ const config = {
   sitemapSize: 7000,
 
   async additionalPaths() {
-    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls()];
+    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls()];
 
     return dynamicSlugs.map((url) => ({
       loc: url,
