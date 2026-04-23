@@ -37,7 +37,7 @@ export default function IndustryHeroRotatingCopy({
     <div className="flex flex-col items-center justify-center text-center w-full">
     <h1 className="flex flex-row items-center justify-center gap-x-3 text-2xl  font-bold tracking-tight text-white md:text-7xl whitespace-nowrap">
         <span className="opacity-80">{titlePrefix}</span>
-        /
+        
         <div className="relative flex items-center justify-center min-w-[120px] md:min-w-[200px] h-[1.2em]">
           {displaySlides.map((slide, index) => (
             <span
