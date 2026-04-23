@@ -22,9 +22,16 @@ export type TechnologyListingCard = {
   icon_type: string;
 };
 
+export type TechnologyListingGroup = {
+  title: string;
+  description: string;
+  cards: TechnologyListingCard[];
+};
+
 export type TechnologyListingData = {
   hero_section: TechnologyListingHero;
   technology_cards: TechnologyListingCard[];
+  technology_groups?: TechnologyListingGroup[];
 };
 
 export type TechnologyHeroSection = {

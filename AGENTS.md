@@ -37,7 +37,7 @@ Required actions after each meaningful code change:
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
 - `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Industries dropdown columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`, `Real Estate`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links.
-- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json`, and renders the four main technology tracks (languages, frameworks, database, tools) with JSON-driven icon cards and dedicated technology detail links.
+- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` queries Payload `blogs` (published only, locale from cookie).
 - `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug and renders lexical rich text.
 - `/contact` -> `src/app/(app)/contact/page.tsx` client form posts to `/api/contact_mail`.
@@ -91,6 +91,7 @@ All service detail routes share one rendering pattern:
 - Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
 - Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
 - Technologies main page uses `src/data/*_data/technologies_page.json`.
+- Technologies main page hero content uses `src/data/*_data/technologies_page.json`; category sections and sub-technology links are sourced from `src/data/navbar.json` Technologies dropdown columns.
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
 - Technologies data is organized by main category folders:
   - `technologies/languages/index.json` + language subcategory files (for example `java.json`, `python.json`),
@@ -154,6 +155,7 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Industries dropdown links are grouped in `src/data/navbar.json` into six columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`, `Real Estate`) with sub-industry links.
 - Technologies is a separate top-level navbar item in `src/data/navbar.json` with four dropdown columns (`Languages`, `Frameworks`, `Database`, `Tools`) and per-track technology links.
 - Technologies dropdown links in `src/data/navbar.json` point directly to dedicated subcategory routes under `/technologies/[slug]` (for example `java`, `javascript`, `python`, `react`, `nestjs`, `mongodb`, `amazon_dynamodb`, `shopify`, `wordpress`).
+- Technologies dropdown columns in `src/data/navbar.json` also drive the grouped sections and card ordering on `/technologies`.
 - Footer quick links are in `src/components/footer.tsx` and include core crawl targets (`/`, `/services`, `/blogs`, `/contact`, `/get-started`).
 - Service detail loaders must expose keys that match nav slugs.
 - Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` must match navbar industries links.
@@ -249,3 +251,4 @@ If you change this, also check this:
 - 2026-04-23: Completed full public image WEBP rollout (including embedded-SVG and AVIF edge cases), and updated project image references to prefer `.webp` wherever matching assets exist.
 - 2026-04-23: Repaired all remaining broken image references in `src` to valid `public` assets (blogs, team, industries hero backgrounds, SaaS/API integration sections) and verified zero missing image paths.
 - 2026-04-23: Sorted navbar dropdown categories and subcategory links alphabetically in both `src/data/navbar.json` and `src/data/urdu_data/navbar.json`.
+- 2026-04-23: Reworked `/technologies` main page to match `/industries` grouped-category layout by sourcing Technologies dropdown columns from `src/data/navbar.json` and enriching sub-technology cards from detail JSON data.
