@@ -1,0 +1,158 @@
+{
+  "slug": "healthcare",
+  "hero_section": {
+    "eyebrow": "Intelligence clinique centrée sur l’humain",
+    "title": "L'IA pour la précision",
+    "highlight": "Soins de santé",
+    "description": "Unifiez les données des patients et les flux de travail cliniques grâce à l’IA qui prédit les risques, automatise la documentation et améliore la coordination des soins.",
+    "primary_cta": {
+      "text": "Améliorer les soins",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Voir l'architecture clinique",
+      "href": "#healthcare-architecture"
+    },
+    "background_image": "/industries/health_care.webp"
+  },
+  "friction_section": {
+    "title": "La friction des soins",
+    "subtitle": "Les prestataires de soins de santé sont submergés par la charge administrative et les silos de données déconnectés.",
+    "cards": [
+      {
+        "title": "Épuisement clinique",
+        "description": "Une documentation manuelle excessive et la saisie des données du DSE réduisent le temps passé avec les patients.",
+        "icon_type": "FaStethoscope"
+      },
+      {
+        "title": "Interopérabilité des données",
+        "description": "La fragmentation des dossiers des patients dans tous les systèmes empêche une vision globale de la santé longitudinale.",
+        "icon_type": "FaNetworkWired"
+      },
+      {
+        "title": "Latence du diagnostic",
+        "description": "Les retards dans l’analyse des résultats d’imagerie et de laboratoire complexes ralentissent les fenêtres d’intervention critiques.",
+        "icon_type": "FaMicroscope"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "architecture-de-santé",
+    "title": "Données connectées, meilleurs résultats.",
+    "description": "Notre système d'exploitation de soins de santé crée une boucle d'intelligence en temps réel entre la biométrie des patients, les dossiers DSE et l'aide à la décision clinique.",
+    "bullets": [
+      "Intégration de données standard FHIR",
+      "Documentation clinique ambiante",
+      "Surveillance prédictive des patients"
+    ],
+    "cards": [
+      {
+        "title": "Centre de commandement clinique",
+        "description": "Visibilité en temps réel sur l'acuité des patients, la disponibilité des lits et les besoins en personnel.",
+        "icon_type": "MdMonitorHeart",
+        "featured": true
+      },
+      {
+        "title": "IA Scribe ambiante",
+        "description": "Capturez naturellement les conversations patient-médecin et générez automatiquement des notes cliniques structurées.",
+        "icon_type": "FaUserMd"
+      },
+      {
+        "title": "Notation prédictive des risques",
+        "description": "Identifiez les patients à haut risque de sepsis, de réadmission ou d’escalade chronique avant que les symptômes n’atteignent leur apogée.",
+        "icon_type": "FaProcedures"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Améliorer l'efficacité tout en maintenant les normes les plus élevées en matière de confidentialité des patients.",
+    "cards": [
+      {
+        "title": "Frais administratifs réduits",
+        "description": "Le codage et la cartographie automatisés renvoient les heures de la journée aux cliniciens.",
+        "icon_type": "FaRegEdit"
+      },
+      {
+        "title": "Sécurité améliorée des patients",
+        "description": "Le bilan comparatif des médicaments et les alertes d’allergie basées sur l’IA réduisent les événements indésirables.",
+        "icon_type": "FaHandHoldingHeart"
+      },
+      {
+        "title": "Conformité HIPAA/RGPD",
+        "description": "Le cryptage et les contrôles d'accès intégrés garantissent la souveraineté des données et le respect des réglementations.",
+        "icon_type": "FaLock"
+      },
+      {
+        "title": "Diagnostic accéléré",
+        "description": "L’analyse d’imagerie assistée par l’IA donne la priorité aux cas urgents pour examen par le radiologue.",
+        "icon_type": "FaRunning"
+      },
+      {
+        "title": "Perspectives sur la santé de la population",
+        "description": "Analysez les tendances des cohortes de patients pour améliorer les stratégies de soins préventifs.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Accès amélioré aux soins",
+        "description": "Les assistants virtuels et les robots de tri aident les patients à suivre leur parcours de soins 24h/24 et 7j/7.",
+        "icon_type": "FaCommentMedical"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Les soins de santé en action",
+    "subtitle": "Faire évoluer l’intelligence dans les réseaux hospitaliers et les cabinets privés.",
+    "cards": [
+      {
+        "label": "Étude de cas 01",
+        "title": "Système hospitalier multi-États",
+        "description": "Réduction du temps de documentation des médecins de 45 % grâce à l'IA ambiante, augmentant ainsi le débit des patients.",
+        "href": "/contact",
+        "cta_text": "Voir l'étude de cas"
+      },
+      {
+        "label": "Étude de cas 02",
+        "title": "Fournisseur de surveillance à distance",
+        "description": "L'analyse prédictive a réduit les réadmissions aux urgences de 20 % pour les patients souffrant d'insuffisance cardiaque chronique.",
+        "href": "/contact",
+        "cta_text": "Voir l'étude de cas"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Secteurs connexes",
+    "subtitle": "Découvrez comment notre intelligence opérationnelle s’applique aux secteurs adjacents.",
+    "cards": [
+      {
+        "title": "Assurance",
+        "description": "Accélérez le traitement des réclamations santé et l’exactitude de la souscription.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Développement de logiciels",
+        "description": "Créez des applications et des plateformes de soins de santé sécurisées et conformes.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
+        "title": "Fabrication",
+        "description": "Optimisez la production de dispositifs médicaux et la logistique de la chaîne d’approvisionnement.",
+        "href": "/industries/manufacturing",
+        "icon_type": "FaIndustry"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Démarrer une consultation",
+    "subtitle": "Discutez avec nos spécialistes de la santé de la modernisation de vos flux de travail cliniques.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "E-mail de l'organisation",
+    "message_label": "Message",
+    "full_name_placeholder": "Dr Sarah Chen",
+    "business_email_placeholder": "schen@healthsystem.org",
+    "message_placeholder": "Parlez-nous de vos défis cliniques ou administratifs...",
+    "button_text": "Envoyer une demande"
+  }
+}

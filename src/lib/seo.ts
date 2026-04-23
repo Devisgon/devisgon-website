@@ -85,6 +85,36 @@ export const SERVICES_PAGE_METADATA = toMetadata({
   ]),
 });
 
+export const INDUSTRIES_PAGE_METADATA = toMetadata({
+  title: "Industry Solutions | Devisgon",
+  description:
+    "Explore Devisgon industry solutions for healthcare, professional services, trades, entertainment, and agriculture powered by AI automation and modern software systems.",
+  keywords: withLocalKeywords([
+    "industry AI solutions",
+    "healthcare AI operations",
+    "professional services automation",
+    "trades workflow intelligence",
+    "hospitality and entertainment automation",
+    "agriculture operations AI",
+    "healthcare workflow AI",
+    "industry workflow automation",
+  ]),
+});
+
+export const TECHNOLOGIES_PAGE_METADATA = toMetadata({
+  title: "Technologies | Devisgon Engineering Stack",
+  description:
+    "Explore Devisgon's technology stack across languages, frameworks, databases, and automation tools used to ship scalable products.",
+  keywords: withLocalKeywords([
+    "software technologies",
+    "engineering stack",
+    "programming languages",
+    "frameworks",
+    "database technologies",
+    "automation tools",
+  ]),
+});
+
 export const PRIVACY_PAGE_METADATA = toMetadata({
   title: "Privacy Policy | Devisgon Software Solutions",
   description:
@@ -143,6 +173,18 @@ const SITE_NAVIGATION_LINKS: SiteNavigationLink[] = [
     name: "Services",
     path: "/services",
     description: "Explore AI, SaaS, cloud, data, testing, and software development services.",
+  },
+  {
+    name: "Industries",
+    path: "/industries",
+    description:
+      "Explore Devisgon industry solutions for healthcare, professional services, trades, entertainment, and agriculture.",
+  },
+  {
+    name: "Technologies",
+    path: "/technologies",
+    description:
+      "Explore Devisgon technology stack for languages, frameworks, databases, and tools.",
   },
   {
     name: "Blogs",
@@ -413,5 +455,85 @@ export const getServiceSlugMetadata = (slug: string): Metadata => {
     description:
       "Custom AI, SaaS, automation, cloud, testing, and software development services by Devisgon.",
     keywords: ["Devisgon services", "custom software development", "AI software solutions"],
+  });
+};
+
+const INDUSTRY_SLUG_SEO: Record<string, SeoConfig> = {
+  manufacturing: {
+    title: "AI Manufacturing Solutions | Devisgon",
+    description:
+      "Modernize manufacturing operations with AI-driven dashboards, predictive maintenance, and production workflow automation.",
+    keywords: ["manufacturing AI", "factory automation", "predictive maintenance", "Devisgon"],
+  },
+  healthcare: {
+    title: "Healthcare Workflow AI Solutions | Devisgon",
+    description:
+      "Improve care delivery with healthcare AI systems for coordination, predictive alerts, and streamlined clinical operations.",
+    keywords: ["healthcare AI", "clinical workflow automation", "care operations", "Devisgon"],
+  },
+  energy: {
+    title: "Energy Operations Intelligence | Devisgon",
+    description:
+      "Optimize grid and energy operations using predictive analytics, live telemetry, and intelligent automation systems.",
+    keywords: ["energy AI", "grid intelligence", "predictive load modeling", "Devisgon"],
+  },
+  finance: {
+    title: "Finance Automation and Risk Intelligence | Devisgon",
+    description:
+      "Strengthen compliance and transaction operations with AI-powered risk analysis, fraud detection, and workflow automation.",
+    keywords: ["finance AI", "fraud detection automation", "risk intelligence", "Devisgon"],
+  },
+};
+
+export const getIndustrySlugMetadata = (slug: string): Metadata => {
+  const seo = INDUSTRY_SLUG_SEO[slug];
+  if (seo) return toMetadata(seo);
+
+  const fallbackTitle = `${slug.replace(/[-_]/g, " ")} Industry Solutions | Devisgon`;
+  return toMetadata({
+    title: fallbackTitle,
+    description:
+      "Industry-specific AI, automation, and software solutions by Devisgon for modern operational excellence.",
+    keywords: ["industry solutions", "AI operations", "Devisgon"],
+  });
+};
+
+const TECHNOLOGY_SLUG_SEO: Record<string, SeoConfig> = {
+  languages: {
+    title: "Programming Languages Stack | Devisgon",
+    description:
+      "Discover Devisgon's language stack including Java, JavaScript, Python, TypeScript, PHP, C++, and C for scalable engineering.",
+    keywords: ["programming languages", "JavaScript", "Python", "TypeScript", "software architecture"],
+  },
+  frameworks: {
+    title: "Framework Stack | Devisgon",
+    description:
+      "Explore Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter in Devisgon's delivery framework stack.",
+    keywords: ["framework stack", "Node.js", "Next.js", "React", "Flutter", "NestJS"],
+  },
+  database: {
+    title: "Database Stack | Devisgon",
+    description:
+      "Learn how Devisgon builds data systems with Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB.",
+    keywords: ["database stack", "Supabase", "MongoDB", "GraphQL", "MySQL", "DynamoDB"],
+  },
+  tools: {
+    title: "Automation and Product Tools | Devisgon",
+    description:
+      "See the tools Devisgon uses for automation and product operations, including n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
+    keywords: ["automation tools", "n8n", "Make", "Zapier", "Shopify", "WordPress"],
+  },
+};
+
+export const getTechnologySlugMetadata = (slug: string): Metadata => {
+  const seo = TECHNOLOGY_SLUG_SEO[slug];
+  if (seo) return toMetadata(seo);
+
+  const fallbackTitle = `${slug.replace(/[-_]/g, " ")} Technology Stack | Devisgon`;
+  return toMetadata({
+    title: fallbackTitle,
+    description:
+      "Explore Devisgon technology capabilities across programming languages, frameworks, databases, and tools.",
+    keywords: ["technology stack", "software engineering", "Devisgon"],
   });
 };

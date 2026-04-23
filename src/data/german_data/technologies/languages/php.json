@@ -1,0 +1,103 @@
+{
+  "slug": "php",
+  "hero_section": {
+    "eyebrow": "Technology Stack",
+    "title": "Architecting with",
+    "highlight": "PHP",
+    "description": "Build production systems with PHP in our languages delivery ecosystem.",
+    "side_image": "/technologies/php/hero.webp",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Documentation",
+      "href": "/technologies/php#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Use It.",
+    "subtitle": "PHP plays a critical role in our languages strategy for reliable software delivery.",
+    "paragraphs": [
+      "PHP is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
+      "By using PHP with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+    ],
+    "cards": [
+      {
+        "title": "PHP Clarity",
+        "description": "PHP helps teams ship with clearer standards and better developer handoffs.",
+        "icon_type": "FaBookReader"
+      },
+      {
+        "title": "PHP Performance",
+        "description": "PHP supports production-grade performance with robust ecosystem tooling.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "PHP Reliability",
+        "description": "PHP strengthens architecture stability across modern distributed systems.",
+        "icon_type": "FaLayerGroup"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Architectural Scope",
+    "image": "/technologies/php/scope.webp",
+    "items": [
+      {
+        "title": "Cloud-Native Microservices",
+        "description": "Deploy lightweight services with PHP-ready patterns designed for dynamic cloud scaling."
+      },
+      {
+        "title": "Complex Data Pipelines",
+        "description": "PHP integrates into high-throughput processing pipelines with strong reliability controls."
+      },
+      {
+        "title": "Hybrid Distributed Systems",
+        "description": "Use PHP to bridge legacy and modern architecture layers with clear service boundaries."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "Strategic Competitive Edge",
+    "subtitle": "Quantifiable advantages of the PHP stack.",
+    "cards": [
+      {
+        "metric": "40%",
+        "title": "Faster TTM",
+        "description": "Reduction in development-to-deployment timeframes by leveraging PHP effectively."
+      },
+      {
+        "metric": "99.9%",
+        "title": "Stability Index",
+        "description": "Uptime reliability improvements in distributed service environments with PHP."
+      },
+      {
+        "metric": "2M+",
+        "title": "Open Libraries",
+        "description": "Access to a wide ecosystem of pre-tested modules that accelerate PHP delivery."
+      },
+      {
+        "metric": "Zero",
+        "title": "Vendor Lock-in",
+        "description": "Maintain full technology control while using PHP inside open architecture patterns."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "PHP gives teams a practical path to hide complexity behind",
+    "highlight": "elegant architecture"
+  },
+  "conversation_section": {
+    "title": "Architect Your Solution",
+    "subtitle": "Consult with our lead technical specialists to define your PHP roadmap.",
+    "full_name_label": "Lead Name",
+    "business_email_label": "Entity Email",
+    "message_label": "Strategic Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe your PHP architectural challenge...",
+    "button_text": "Get Started"
+  }
+}

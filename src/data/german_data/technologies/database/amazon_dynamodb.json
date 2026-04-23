@@ -1,0 +1,103 @@
+{
+  "slug": "amazon_dynamodb",
+  "hero_section": {
+    "eyebrow": "Technology Stack",
+    "title": "Architecting with",
+    "highlight": "Amazon DynamoDB",
+    "description": "Build production systems with Amazon DynamoDB in our database delivery ecosystem.",
+    "side_image": "/technologies/dynamodb/hero.webp",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Documentation",
+      "href": "/technologies/amazon_dynamodb#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Use It.",
+    "subtitle": "Amazon DynamoDB plays a critical role in our database strategy for reliable software delivery.",
+    "paragraphs": [
+      "Amazon DynamoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
+      "By using Amazon DynamoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+    ],
+    "cards": [
+      {
+        "title": "Amazon DynamoDB Clarity",
+        "description": "Amazon DynamoDB helps teams ship with clearer standards and better developer handoffs.",
+        "icon_type": "FaBookReader"
+      },
+      {
+        "title": "Amazon DynamoDB Performance",
+        "description": "Amazon DynamoDB supports production-grade performance with robust ecosystem tooling.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Amazon DynamoDB Reliability",
+        "description": "Amazon DynamoDB strengthens architecture stability across modern distributed systems.",
+        "icon_type": "FaLayerGroup"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Architectural Scope",
+    "image": "/technologies/dynamodb/scope.webp",
+    "items": [
+      {
+        "title": "Cloud-Native Microservices",
+        "description": "Deploy lightweight services with Amazon DynamoDB-ready patterns designed for dynamic cloud scaling."
+      },
+      {
+        "title": "Complex Data Pipelines",
+        "description": "Amazon DynamoDB integrates into high-throughput processing pipelines with strong reliability controls."
+      },
+      {
+        "title": "Hybrid Distributed Systems",
+        "description": "Use Amazon DynamoDB to bridge legacy and modern architecture layers with clear service boundaries."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "Strategic Competitive Edge",
+    "subtitle": "Quantifiable advantages of the Amazon DynamoDB stack.",
+    "cards": [
+      {
+        "metric": "40%",
+        "title": "Faster TTM",
+        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon DynamoDB effectively."
+      },
+      {
+        "metric": "99.9%",
+        "title": "Stability Index",
+        "description": "Uptime reliability improvements in distributed service environments with Amazon DynamoDB."
+      },
+      {
+        "metric": "2M+",
+        "title": "Open Libraries",
+        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon DynamoDB delivery."
+      },
+      {
+        "metric": "Zero",
+        "title": "Vendor Lock-in",
+        "description": "Maintain full technology control while using Amazon DynamoDB inside open architecture patterns."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "Amazon DynamoDB gives teams a practical path to hide complexity behind",
+    "highlight": "elegant architecture"
+  },
+  "conversation_section": {
+    "title": "Architect Your Solution",
+    "subtitle": "Consult with our lead technical specialists to define your Amazon DynamoDB roadmap.",
+    "full_name_label": "Lead Name",
+    "business_email_label": "Entity Email",
+    "message_label": "Strategic Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe your Amazon DynamoDB architectural challenge...",
+    "button_text": "Get Started"
+  }
+}

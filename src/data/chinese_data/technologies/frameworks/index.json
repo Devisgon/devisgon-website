@@ -1,0 +1,103 @@
+{
+  "slug": "frameworks",
+  "hero_section": {
+    "eyebrow": "Technology Stack",
+    "title": "Architecting with",
+    "highlight": "Frameworks",
+    "description": "Build production systems with Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter.",
+    "side_image": "/services_page/hero_bg.webp",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Documentation",
+      "href": "/technologies/frameworks#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Use It.",
+    "subtitle": "Frameworks forms a high-confidence foundation for scalable modern software delivery.",
+    "paragraphs": [
+      "Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter gives our teams practical flexibility to choose the right implementation path per workload.",
+      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+    ],
+    "cards": [
+      {
+        "title": "Delivery Consistency",
+        "description": "Framework conventions keep product architecture coherent across teams.",
+        "icon_type": "FaCogs"
+      },
+      {
+        "title": "Cross-Platform Reach",
+        "description": "React Native and Flutter accelerate reliable mobile releases.",
+        "icon_type": "FaMobileAlt"
+      },
+      {
+        "title": "Scalable Backend Core",
+        "description": "Node.js, NestJS, and Laravel support maintainable API growth.",
+        "icon_type": "FaServer"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Architectural Scope",
+    "image": "/services_page/hero_bg.webp",
+    "items": [
+      {
+        "title": "Cloud-Native Microservices",
+        "description": "Deploy lightweight services with frameworks choices matched to runtime and scaling goals."
+      },
+      {
+        "title": "Complex Data Pipelines",
+        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+      },
+      {
+        "title": "Hybrid Distributed Systems",
+        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "Strategic Competitive Edge",
+    "subtitle": "Quantifiable advantages of the Frameworks stack.",
+    "cards": [
+      {
+        "metric": "40%",
+        "title": "Faster TTM",
+        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+      },
+      {
+        "metric": "99.9%",
+        "title": "Stability Index",
+        "description": "Uptime reliability within distributed microservice environments."
+      },
+      {
+        "metric": "2M+",
+        "title": "Open Libraries",
+        "description": "Access to a vast global repository of pre-tested technical modules."
+      },
+      {
+        "metric": "Zero",
+        "title": "Vendor Lock-in",
+        "description": "Complete technological sovereignty over your intellectual property."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "Great frameworks make architecture repeatable while keeping delivery",
+    "highlight": "remarkably efficient"
+  },
+  "conversation_section": {
+    "title": "Architect Your Solution",
+    "subtitle": "Consult with our lead technical specialists to define your frameworks roadmap.",
+    "full_name_label": "Lead Name",
+    "business_email_label": "Entity Email",
+    "message_label": "Strategic Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe the architectural challenge...",
+    "button_text": "Get Started"
+  }
+}

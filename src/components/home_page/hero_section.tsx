@@ -66,7 +66,7 @@ dark:bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060
         <div className="absolute  inset-0 -z-10 pointer-events-none select-none">
           <div className="relative w-full h-full translate-y-30 md:translate-y-56" style={{ transformOrigin: "center" }}>
             <Image
-              src="/home_page/hero_section/hero_bg.svg"
+              src="/home_page/hero_section/hero_bg.webp"
               alt="bg"
               fill
               priority

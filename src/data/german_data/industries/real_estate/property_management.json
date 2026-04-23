@@ -1,0 +1,184 @@
+{
+  "slug": "property_management",
+  "hero_section": {
+    "eyebrow": "Real Estate Industry Solutions",
+    "title": "AI for",
+    "highlight": "Property Management",
+    "description": "Modernize property management with automated maintenance requests, rent tracking workflows, and operational AI assistants.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/services_page/hero_bg.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Property management teams face maintenance chaos, delayed communication, and manual rent tracking that slows response times.",
+    "cards": [
+      {
+        "title": "Legacy Bottlenecks",
+        "description": "Outdated tools and manual workflows reduce speed and reliability.",
+        "icon_type": "FaCogs"
+      },
+      {
+        "title": "Data Silos",
+        "description": "Critical information is fragmented across multiple disconnected platforms.",
+        "icon_type": "FaDatabase"
+      },
+      {
+        "title": "Reactive Decisions",
+        "description": "Without predictive intelligence, teams respond late to issues and opportunities.",
+        "icon_type": "FaRegClock"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Ethereal Intelligence, Concrete Results.",
+    "description": "We build a unified intelligence layer for property management operations so teams can streamline requests, track rent status, and improve resident experience.",
+    "bullets": [
+      "Unified Data Fabric",
+      "Workflow Automation Engine",
+      "Security and Compliance Controls"
+    ],
+    "cards": [
+      {
+        "title": "Operational Dashboard",
+        "description": "Track performance, exceptions, and KPIs across teams in one place.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Smart Orchestration",
+        "description": "Automate repetitive tasks and route work with contextual rules.",
+        "icon_type": "FaProjectDiagram"
+      },
+      {
+        "title": "Predictive Insights",
+        "description": "Forecast risks and opportunities before they impact outcomes.",
+        "icon_type": "FaChartLine"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Practical AI outcomes for modern property management teams.",
+    "cards": [
+      {
+        "title": "Higher Efficiency",
+        "description": "Reduce repetitive manual effort and accelerate daily operations.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Better Accuracy",
+        "description": "Minimize human error with standardized, data-driven workflows.",
+        "icon_type": "FaCheckSquare"
+      },
+      {
+        "title": "Faster Decisions",
+        "description": "Use live insights to resolve issues and prioritize actions quickly.",
+        "icon_type": "FaRegClock"
+      },
+      {
+        "title": "Centralized Visibility",
+        "description": "Get one trusted view of activity, performance, and service quality.",
+        "icon_type": "FaEye"
+      },
+      {
+        "title": "Scalable Systems",
+        "description": "Support growth without increasing operational complexity.",
+        "icon_type": "FaExpandArrowsAlt"
+      },
+      {
+        "title": "Improved Experience",
+        "description": "Deliver smoother and more consistent stakeholder interactions.",
+        "icon_type": "FaSmile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Property Management Digital Solutions",
+    "subtitle": "Website, AI agents, and maintenance/rent automation for property managers.",
+    "cards": [
+      {
+        "title": "Website for Property Management",
+        "description": "Create a resident-ready website with maintenance forms, payment guidance, and communication touchpoints."
+      },
+      {
+        "title": "Property Management AI Agent",
+        "description": "Handle resident questions, route requests, and deliver instant support across common service scenarios."
+      },
+      {
+        "title": "Resident Receptionist AI",
+        "description": "Provide front-desk style support for resident inquiries, updates, and appointment scheduling at scale."
+      },
+      {
+        "title": "Maintenance Request Automation",
+        "description": "Automate intake, categorization, assignment, and status updates for maintenance workflows end to end."
+      },
+      {
+        "title": "Rent Tracking Dashboard",
+        "description": "Monitor payment timelines, overdue accounts, and follow-up actions with clear operational visibility."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Applied Intelligence",
+    "subtitle": "How AI transforms real property management operations.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Maintenance Response Automation",
+        "description": "Automated maintenance routing cut response delays and improved completion tracking across properties.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Rent Operations Visibility",
+        "description": "Centralized rent tracking enabled proactive follow-ups and stronger month-end financial control.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "See where the same intelligence framework can deliver impact next.",
+    "cards": [
+      {
+        "title": "Optometry",
+        "description": "AI operations for healthcare teams.",
+        "href": "/industries/healthcare/optometry",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Residential",
+        "description": "AI operations for real estate teams.",
+        "href": "/industries/real_estate/residential",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Commercial",
+        "description": "AI operations for real estate teams.",
+        "href": "/industries/real_estate/commercial",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Start the Conversation",
+    "subtitle": "Talk with our property management solutions team about your goals.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Message",
+    "full_name_placeholder": "John Doe",
+    "business_email_placeholder": "john@enterprise.com",
+    "message_placeholder": "Tell us about your maintenance and rent tracking workflows...",
+    "button_text": "Send Inquiry"
+  }
+}

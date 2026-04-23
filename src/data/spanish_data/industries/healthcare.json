@@ -1,0 +1,158 @@
+{
+  "slug": "healthcare",
+  "hero_section": {
+    "eyebrow": "Inteligencia clínica centrada en el ser humano",
+    "title": "IA para precisión",
+    "highlight": "Cuidado de la salud",
+    "description": "Unifique los datos de los pacientes y los flujos de trabajo clínicos con IA que predice riesgos, automatiza la documentación y mejora la coordinación de la atención.",
+    "primary_cta": {
+      "text": "Mejorar la atención",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Ver Arquitectura Clínica",
+      "href": "#healthcare-architecture"
+    },
+    "background_image": "/industries/health_care.webp"
+  },
+  "friction_section": {
+    "title": "La fricción del cuidado",
+    "subtitle": "Los proveedores de atención médica están abrumados por la carga administrativa y los silos de datos desconectados.",
+    "cards": [
+      {
+        "title": "Agotamiento clínico",
+        "description": "La documentación manual excesiva y la entrada de datos de EHR reducen el tiempo dedicado a los pacientes.",
+        "icon_type": "FaStethoscope"
+      },
+      {
+        "title": "Interoperabilidad de datos",
+        "description": "Los registros de pacientes fragmentados en todos los sistemas impiden una visión holística de la salud longitudinal.",
+        "icon_type": "FaNetworkWired"
+      },
+      {
+        "title": "Latencia diagnóstica",
+        "description": "Los retrasos en el análisis de imágenes complejas y resultados de laboratorio ralentizan las ventanas de intervención críticas.",
+        "icon_type": "FaMicroscope"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "arquitectura-salud",
+    "title": "Datos conectados, mejores resultados.",
+    "description": "Nuestro sistema operativo de atención médica crea un circuito de inteligencia en tiempo real entre la biometría del paciente, los registros de HCE y el apoyo a las decisiones clínicas.",
+    "bullets": [
+      "Integración de datos estándar FHIR",
+      "Documentación clínica ambiental",
+      "Monitoreo predictivo de pacientes"
+    ],
+    "cards": [
+      {
+        "title": "Centro de comando clínico",
+        "description": "Visibilidad en tiempo real de la gravedad del paciente, la disponibilidad de camas y los requisitos de personal.",
+        "icon_type": "MdMonitorHeart",
+        "featured": true
+      },
+      {
+        "title": "IA del escriba ambiental",
+        "description": "Capture de forma natural conversaciones entre pacientes y médicos y genere automáticamente notas clínicas estructuradas.",
+        "icon_type": "FaUserMd"
+      },
+      {
+        "title": "Puntuación de riesgo predictivo",
+        "description": "Identifique a los pacientes de alto riesgo de sepsis, reingreso o escalada crónica antes de que los síntomas alcancen su punto máximo.",
+        "icon_type": "FaProcedures"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Impulsar la eficiencia manteniendo los más altos estándares de privacidad del paciente.",
+    "cards": [
+      {
+        "title": "Reducción de gastos administrativos",
+        "description": "La codificación y los gráficos automatizados devuelven las horas del día a los médicos.",
+        "icon_type": "FaRegEdit"
+      },
+      {
+        "title": "Mayor seguridad del paciente",
+        "description": "La conciliación de medicamentos impulsada por IA y las alertas de alergias reducen los eventos adversos.",
+        "icon_type": "FaHandHoldingHeart"
+      },
+      {
+        "title": "Cumplimiento de HIPAA/RGPD",
+        "description": "Los controles de acceso y cifrado integrados garantizan la soberanía de los datos y el cumplimiento normativo.",
+        "icon_type": "FaLock"
+      },
+      {
+        "title": "Diagnóstico acelerado",
+        "description": "El análisis de imágenes asistido por IA prioriza los casos urgentes para la revisión del radiólogo.",
+        "icon_type": "FaRunning"
+      },
+      {
+        "title": "Perspectivas de salud de la población",
+        "description": "Analizar tendencias en cohortes de pacientes para mejorar las estrategias de atención preventiva.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Acceso mejorado a la atención",
+        "description": "Los asistentes virtuales y los robots de clasificación ayudan a los pacientes a recorrer su proceso de atención las 24 horas del día, los 7 días de la semana.",
+        "icon_type": "FaCommentMedical"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Atención médica en acción",
+    "subtitle": "Ampliación de la inteligencia en redes hospitalarias y consultorios privados.",
+    "cards": [
+      {
+        "label": "Estudio de caso 01",
+        "title": "Sistema hospitalario multiestatal",
+        "description": "Se redujo el tiempo de documentación del médico en un 45 % mediante el uso de IA ambiental, lo que aumentó el rendimiento de los pacientes.",
+        "href": "/contact",
+        "cta_text": "Ver estudio de caso"
+      },
+      {
+        "label": "Estudio de caso 02",
+        "title": "Proveedor de monitoreo remoto",
+        "description": "El análisis predictivo redujo los reingresos a urgencias en un 20 % en pacientes con insuficiencia cardíaca crónica.",
+        "href": "/contact",
+        "cta_text": "Ver estudio de caso"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Industrias relacionadas",
+    "subtitle": "Explore cómo nuestra inteligencia operativa se aplica a sectores adyacentes.",
+    "cards": [
+      {
+        "title": "Seguro",
+        "description": "Acelere el procesamiento de reclamaciones de salud y la precisión de la suscripción.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Desarrollo de software",
+        "description": "Cree aplicaciones y plataformas de atención médica seguras y compatibles.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      },
+      {
+        "title": "Fabricación",
+        "description": "Optimice la producción de dispositivos médicos y la logística de la cadena de suministro.",
+        "href": "/industries/manufacturing",
+        "icon_type": "FaIndustry"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Iniciar una consulta",
+    "subtitle": "Hable con nuestros especialistas en atención médica sobre cómo modernizar sus flujos de trabajo clínicos.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico de la organización",
+    "message_label": "Mensaje",
+    "full_name_placeholder": "Dra. Sara Chen",
+    "business_email_placeholder": "schen@healthsystem.org",
+    "message_placeholder": "Cuéntenos sobre sus desafíos clínicos o administrativos...",
+    "button_text": "Enviar consulta"
+  }
+}

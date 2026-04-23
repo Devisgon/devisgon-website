@@ -9,12 +9,13 @@
     "safari 16.4"
   ],
   "scripts": {
-    "dev": "next dev ",
+    "dev": "next dev",
     "dev:clean": "node -e \"require('fs').rmSync('.next',{recursive:true,force:true})\" && next dev",
     "build": "next build ",
     "start": "next start",
     "postbuild": "next-sitemap",
-    "lint": "eslint"
+    "lint": "eslint",
+    "images:webp": "node ./convert-public-images-to-webp.mjs --dir public"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.992.0",

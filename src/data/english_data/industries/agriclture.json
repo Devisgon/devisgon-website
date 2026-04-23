@@ -1,0 +1,158 @@
+{
+  "slug": "agriculture",
+  "hero_section": {
+    "eyebrow": "Autonomous Field Intelligence",
+    "title": "Agentic AI for Precision",
+    "highlight": "Agriculture",
+    "description": "Bridge the gap between data and harvest with AI agents that autonomously coordinate irrigation, fertilization, and pest defense across digital-twin ecosystems.",
+    "primary_cta": {
+      "text": "Optimize Yield",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Smart Farm Stack",
+      "href": "#agriculture-architecture"
+    },
+    "background_image": "/industries/agriculture.webp"
+  },
+  "friction_section": {
+    "title": "The Operational Gap",
+    "subtitle": "Modern growers are drowning in sensor data but starving for autonomous action.",
+    "cards": [
+      {
+        "title": "Input Over-Application",
+        "description": "Static schedules lead to massive waste of water, fertilizer, and pesticides, eroding margins and soil health.",
+        "icon_type": "FaDropletSlash"
+      },
+      {
+        "title": "The Decision Bottleneck",
+        "description": "Farmers spend hours analyzing disparate dashboard signals instead of managing strategic growth.",
+        "icon_type": "FaClock"
+      },
+      {
+        "title": "Unpredictable Yield Risk",
+        "description": "Fragmented data silos prevent early detection of pest outbreaks and hyper-local weather shifts.",
+        "icon_type": "FaCloudSunRain"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "agriculture-architecture",
+    "title": "Virtual Replicas, Physical Results.",
+    "description": "Our architecture utilizes Digital Twins and Agentic Loops to sync real-world soil sensors with autonomous machinery.",
+    "bullets": [
+      "Digital Twin Field Modeling",
+      "Closed-Loop Actuation Agents",
+      "Edge-Native IoT Mesh"
+    ],
+    "cards": [
+      {
+        "title": "Agronomy Command Center",
+        "description": "A unified Digital Twin interface that visualizes soil health, moisture, and crop stress in a 3D field replica.",
+        "icon_type": "MdGrass",
+        "featured": true
+      },
+      {
+        "title": "Autonomous Irrigation Agents",
+        "description": "AI agents that monitor evapotranspiration and autonomously adjust valve schedules with zero manual input.",
+        "icon_type": "FaWind"
+      },
+      {
+        "title": "Prescriptive Spraying Logic",
+        "description": "Coordinate drones and robotic sprayers to treat specific plants rather than entire fields, reducing chemical load.",
+        "icon_type": "FaBug"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Cultivation Benefits",
+    "subtitle": "Maximize every acre while minimizing environmental impact.",
+    "cards": [
+      {
+        "title": "30% Input Reduction",
+        "description": "Agentic precision ensures that water and chemicals are applied only where and when needed.",
+        "icon_type": "FaHandHoldingWater"
+      },
+      {
+        "title": "Maximized Yield Stability",
+        "description": "Early-warning agents identify stress patterns weeks before they are visible to the human eye.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Labor Optimization",
+        "description": "Automate routine monitoring and actuation, allowing staff to focus on equipment maintenance and logistics.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Carbon Credit Readiness",
+        "description": "Automated sustainability reporting turns regenerative practices into verifiable carbon assets.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Real-time Profitability",
+        "description": "Connect field performance directly to market demand to optimize harvest timing for peak price.",
+        "icon_type": "FaDollarSign"
+      },
+      {
+        "title": "Legacy Connectivity",
+        "description": "Integrate AI intelligence with existing John Deere, Case IH, or local IoT hardware via universal APIs.",
+        "icon_type": "FaLink"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Applied AgTech",
+    "subtitle": "Success stories from the forefront of the digital green revolution.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Large-Scale Nut Producer",
+        "description": "Implemented autonomous irrigation agents that reduced water usage by 25% while increasing nut size consistency.",
+        "href": "/contact",
+        "cta_text": "View Field Data"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Regional Ag-Retailer",
+        "description": "Deployed a unified data fabric across 50,000 hectares, providing farmers with predictive pest alerts 4 days in advance.",
+        "href": "/contact",
+        "cta_text": "View Field Data"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Cross-Industry Synergy",
+    "subtitle": "How agricultural intelligence connects with other vital sectors.",
+    "cards": [
+      {
+        "title": "Insurance",
+        "description": "Automate crop insurance claims with verifiable satellite and sensor data.",
+        "href": "/industries/insurance",
+        "icon_type": "FaFileContract"
+      },
+      {
+        "title": "Manufacturing",
+        "description": "Optimize supply chains for food processing and industrial machinery.",
+        "href": "/industries/manufacturing",
+        "icon_type": "FaIndustry"
+      },
+      {
+        "title": "Software Development",
+        "description": "Build custom digital twins and AI-native farming platforms.",
+        "href": "/industries/software-development",
+        "icon_type": "FaLaptopCode"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Start Your Digital Harvest",
+    "subtitle": "Talk with our ag-automation experts about your field-to-cloud roadmap.",
+    "full_name_label": "Farm/Company Manager",
+    "business_email_label": "Work Email",
+    "message_label": "Operational Challenges",
+    "full_name_placeholder": "George Washington Carver",
+    "business_email_placeholder": "operations@smart-acre.com",
+    "message_placeholder": "Tell us about your crop types and current automation level...",
+    "button_text": "Connect with an Expert"
+  }
+}

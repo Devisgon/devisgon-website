@@ -1,0 +1,158 @@
+{
+  "slug": "travel",
+  "hero_section": {
+    "eyebrow": "Gestion autonome des parcours",
+    "title": "IA agentique pour une fluidité parfaite",
+    "highlight": "Voyage",
+    "description": "Comblez le fossé entre l'inspiration et l'arrivée grâce à des agents IA qui gèrent les réservations multimodales, la récupération après interruption en temps réel et la découverte hyper-personnalisée.",
+    "primary_cta": {
+      "text": "Planifier un voyage",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Voir le tissu de voyage",
+      "href": "#travel-architecture"
+    },
+    "background_image": "/industries/travling.webp"
+  },
+  "friction_section": {
+    "title": "La barrière de réservation",
+    "subtitle": "Les voyageurs et les managers sont piégés dans un cycle de comparaisons manuelles et de gestion réactive des crises.",
+    "cards": [
+      {
+        "title": "Surcharge de recherche",
+        "description": "Les plateformes fragmentées obligent les utilisateurs à vérifier manuellement le prix, la disponibilité et l’opinion sur des dizaines d’onglets.",
+        "icon_type": "FaSearchMinus"
+      },
+      {
+        "title": "Paralysie des perturbations",
+        "description": "Les retards de vol et les changements météorologiques nécessitent des heures de modification manuelle de la réservation et de communication avec les lignes d'assistance.",
+        "icon_type": "FaPlaneDeparture"
+      },
+      {
+        "title": "Fragmentation des politiques",
+        "description": "Les mandats en matière de voyages d'affaires et de climat sont difficiles à appliquer pendant les cycles de réservation et de dépenses en temps réel.",
+        "icon_type": "FaGavel"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "architecture-de-voyage",
+    "title": "Une boucle. Destinations infinies.",
+    "description": "Notre architecture de voyage utilise des protocoles de contexte modèle (MCP) pour connecter les agents IA directement aux systèmes de distribution mondiaux (GDS) et aux fournisseurs locaux.",
+    "bullets": [
+      "API de commerce agent",
+      "Boucle de prévision des risques climatiques",
+      "Identité numérique universelle (Blockchain)"
+    ],
+    "cards": [
+      {
+        "title": "Bureau de conciergerie agentique",
+        "description": "Des agents IA qui ne se contentent pas de recommander, mais exécutent de manière autonome des réservations et des modifications en fonction de l'intention de l'utilisateur.",
+        "icon_type": "FaConciergeBell",
+        "featured": true
+      },
+      {
+        "title": "Récupération sans contact",
+        "description": "Réservation instantanée et automatisée des vols, des hôtels et des transports terrestres dès qu'une perturbation est détectée.",
+        "icon_type": "FaSyncAlt"
+      },
+      {
+        "title": "Informations sur la durabilité",
+        "description": "Suivi carbone en temps réel et routage éco-certifié intégrés au moteur de découverte principal.",
+        "icon_type": "FaLeaf"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Avantages opérationnels",
+    "subtitle": "Passez d’une coordination manuelle à des opérations de déplacement à grande vitesse.",
+    "cards": [
+      {
+        "title": "Modification de réservation 90 % plus rapide",
+        "description": "L'IA gère les annulations et les alternatives en quelques secondes, évitant ainsi les temps d'attente des centres d'appels.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "CX hyper-personnalisé",
+        "description": "Les itinéraires sont construits autour du comportement en temps réel, du statut de fidélité et des préférences climatiques personnelles.",
+        "icon_type": "FaUserCheck"
+      },
+      {
+        "title": "Fuite réduite",
+        "description": "La réservation directe par agent garantit le respect des tarifs d'entreprise et réduit les dépenses « hors politique ».",
+        "icon_type": "FaFilter"
+      },
+      {
+        "title": "Demande prédictive",
+        "description": "Les fournisseurs peuvent utiliser les signaux des agents en temps réel pour optimiser les stocks et les modèles de tarification dynamique.",
+        "icon_type": "FaChartBar"
+      },
+      {
+        "title": "Biométrie sans contact",
+        "description": "Les identifications numériques unifiées rationalisent la sécurité dans les aéroports et les enregistrements à l'hôtel pour une expérience sans contact.",
+        "icon_type": "FaFingerprint"
+      },
+      {
+        "title": "Interopérabilité mondiale",
+        "description": "Connectez en toute transparence des expériences locales de niche aux réseaux de vols mondiaux grâce à une conception basée sur l'API.",
+        "icon_type": "FaGlobe"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Technologie de voyage appliquée",
+    "subtitle": "Donner aux marques de voyage mondiales les moyens d'automatiser les agents.",
+    "cards": [
+      {
+        "label": "Étude de cas 01",
+        "title": "Leader de la mobilité d'entreprise",
+        "description": "Migration de la réservation statique vers le commerce dirigé par des agents, réduisant ainsi les coûts de gestion des voyages de 35 %.",
+        "href": "/contact",
+        "cta_text": "Lire le rapport ROI"
+      },
+      {
+        "label": "Étude de cas 02",
+        "title": "OTA européenne",
+        "description": "Mise en œuvre d'une récupération automatisée en cas de perturbation, augmentant la fidélisation des clients de 50 % lors des événements météorologiques de pointe.",
+        "href": "/contact",
+        "cta_text": "Lire le rapport ROI"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explorer les synergies",
+    "subtitle": "Comment l’intelligence des voyages se connecte aux industries adjacentes.",
+    "cards": [
+      {
+        "title": "Assurance",
+        "description": "Automatisez les réclamations d’assurance voyage et l’évaluation des risques en temps réel.",
+        "href": "/industries/insurance",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Finance",
+        "description": "Paiements transfrontaliers sécurisés et gestion automatisée des dépenses.",
+        "href": "/industries/finance",
+        "icon_type": "FaCreditCard"
+      },
+      {
+        "title": "Soins de santé",
+        "description": "Optimiser le tourisme médical et la coordination internationale des soins.",
+        "href": "/industries/healthcare",
+        "icon_type": "FaHospital"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Construisez l’avenir du voyage",
+    "subtitle": "Discutez avec nos experts en technologies du voyage de l’intégration de l’IA agentique dans votre plateforme.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "E-mail professionnel",
+    "message_label": "Détails de la demande",
+    "full_name_placeholder": "Marco Polo",
+    "business_email_placeholder": "marco@global-travel.com",
+    "message_placeholder": "Parlez-nous de vos difficultés de distribution ou de réservation...",
+    "button_text": "Connectez-vous avec un expert"
+  }
+}

@@ -6,7 +6,7 @@ const HeroSection = ({ data }: HeroSectionProps) => {
       <div
         className="absolute inset-0 w-full h-full"
         style={{
-          backgroundImage: "url('/services_page/hero_bg.svg')",
+          backgroundImage: "url('/services_page/hero_bg.webp')",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
           backgroundSize: "cover",
