@@ -90,6 +90,7 @@ All service detail routes share one rendering pattern:
 - Industry main page uses `src/data/*_data/industries_page.json`.
 - Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
 - Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
+- Industry detail `hero_section.background_image` fields now point to slug/category-specific assets under `public/industries/*.webp`.
 - Technologies main page uses `src/data/*_data/technologies_page.json`.
 - Technologies main page hero content uses `src/data/*_data/technologies_page.json`; category sections and sub-technology links are sourced from `src/data/navbar.json` Technologies dropdown columns.
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
@@ -106,6 +107,7 @@ All service detail routes share one rendering pattern:
   - `quote_section`,
   - `conversation_section`.
 - Technology detail image fields now resolve to technology-scoped static assets under `public/technologies/<tech-folder>/hero.png` and `public/technologies/<tech-folder>/scope.png`.
+- Public marketing/detail imagery is now standardized on `.webp`; legacy `.png`/`.svg` assets are removed when unused (with `/services_page/hero_bg.svg` retained for hero overlay backgrounds still referenced in code).
 - Industry detail JSON supports `carousel_section` (title, subtitle, cards[title/description]); these cards are used in two places:
   - rotating hero copy (title + description transitions),
   - the post-key-benefits carousel section in `src/components/industries/carousel.tsx`.
@@ -252,3 +254,5 @@ If you change this, also check this:
 - 2026-04-23: Repaired all remaining broken image references in `src` to valid `public` assets (blogs, team, industries hero backgrounds, SaaS/API integration sections) and verified zero missing image paths.
 - 2026-04-23: Sorted navbar dropdown categories and subcategory links alphabetically in both `src/data/navbar.json` and `src/data/urdu_data/navbar.json`.
 - 2026-04-23: Reworked `/technologies` main page to match `/industries` grouped-category layout by sourcing Technologies dropdown columns from `src/data/navbar.json` and enriching sub-technology cards from detail JSON data.
+- 2026-04-24: Updated all industry JSON hero background paths to use slug-specific `.webp` assets from `public/industries` across all language folders.
+- 2026-04-24: Removed unused `.png`/`.svg` files from `public` after reference audit, retaining only actively referenced SVG (`/services_page/hero_bg.svg`) and webp-based assets.
