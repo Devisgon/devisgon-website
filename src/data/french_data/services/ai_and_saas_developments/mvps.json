@@ -1,12 +1,12 @@
 {
   "slug": "mvps",
   "hero_section": {
-    "title": "MVPs et POCs",
+    "title": "MVP et POC",
     "subtitle": "Validez votre idée rapidement",
-    "description": "Nous créons des produits minimum viables (MVP) et des preuves de concept (POC) en quelques semaines — vous aidant à tester le potentiel réel, à attirer des investisseurs et à lancer plus rapidement avec un risque réduit.",
+    "description": "Nous construisons des produits minimum viables (MVP) et des preuves de concept (POC) en quelques semaines, ce qui vous aide à tester le potentiel du monde réel, à attirer des investisseurs et à lancer plus rapidement avec un risque réduit.",
     "buttons": [
       {
-        "text": "Lancer mon projet IA",
+        "text": "Démarrer mon projet d'IA",
         "link": "/contact"
       },
       {
@@ -18,12 +18,12 @@
   },
   "introduction_section": {
     "heading": "Qu'est-ce que",
-    "span_heading": " les MVPs et POCs ?",
+    "span_heading": "MVP et POC ?",
     "content": [
-      "Tout grand produit commence par une idée, mais les idées ne garantissent pas de clients ou d'investisseurs. Le moyen le plus rapide de prouver une idée est de la tester en conditions réelles avec un MVP ou un POC.",
-      "Chez Devisgon, nous aidons les startups, les entreprises et les innovateurs à valider rapidement leurs idées de produits. Nos MVP se concentrent uniquement sur la fourniture des fonctionnalités de base. Cette approche permet d'économiser du temps, de l'argent et des efforts, tout en fournissant une feuille de route claire vers l'adéquation produit-marché et l'aptitude à l'investissement."
+      "Tout bon produit commence par une idée, mais les idées ne sécurise pas les clients ou les investisseurs. Le moyen le plus rapide de prouver une idée est de la tester dans le monde réel avec un MVP ou un POC.",
+      "Chez Devisgon, nous aidons les startups, les entreprises et les innovateurs à valider rapidement leurs idées de produits. Nos MVP se concentrent uniquement sur la fourniture des fonctionnalités de base. Cette approche permet d'économiser du temps, de l'argent et des efforts tout en fournissant une feuille de route claire pour l'adéquation produit-marché et la préparation des investisseurs."
     ],
-    "highlight_quote": "« Construire intelligemment, lancer rapidement, valider avec impact. »",
+    "highlight_quote": "« Construisez intelligemment, lancez rapidement, validez avec impact. »",
     "side_image": "/all_services/mvps_and_pocs/introduction.webp"
   },
   "key_benefits_section": {
@@ -31,13 +31,13 @@
     "subtitle": "Transformez vos opérations avec des résultats prouvés",
     "cards": [
       {
-        "title": "Mise sur le marché plus rapide",
-        "description": "Lancement en semaines plutôt qu'en mois.",
+        "title": "Une mise sur le marché plus rapide",
+        "description": "Lancez-vous en quelques semaines au lieu de quelques mois.",
         "icon_type": "FaRocket"
       },
       {
-        "title": "Prêt pour l'investissement",
-        "description": "Utilisez les MVP/POC pour démontrer la traction et lever des fonds.",
+        "title": "Investor-Ready",
+        "description": "Utilisez les MVP/POC pour démontrer votre traction et lever des fonds.",
         "icon_type": "HiCurrencyDollar "
       },
       {
@@ -46,27 +46,27 @@
         "icon_type": "IoShieldCheckmarkSharp "
       },
       {
-        "title": "Retour d'expérience utilisateur",
-        "description": "Recueillez les avis des utilisateurs réels tôt dans le cycle.",
+        "title": "Commentaires des utilisateurs",
+        "description": "Recueillez des informations auprès d’utilisateurs réels au début du cycle.",
         "icon_type": "FaCloud "
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Ce que vous obtenez en choisissant de travailler avec nous sur un MVP ou un POC",
+    "title": "Ce que vous obtiendrez lorsque vous choisirez avec nous un MVP ou un POC",
     "image": "/all_services/mvps_and_pocs/wwg.webp",
     "list_items": [
       {
         "title": "1. Prototype fonctionnel",
-        "description": "Un MVP ou POC fonctionnel avec uniquement les fonctionnalités de base."
+        "description": "Un MVP ou POC fonctionnel avec des fonctionnalités de base uniquement."
       },
       {
         "title": "2. Démos interactives",
-        "description": "Prototypes interactifs pour les démonstrations aux parties prenantes."
+        "description": "Prototypes interactifs pour les démonstrations des parties prenantes."
       },
       {
         "title": "3. Feuille de route de croissance",
-        "description": "Feuille de route pour l'évolution vers un produit complet."
+        "description": "Feuille de route pour passer à un produit complet."
       },
       {
         "title": "4. Actifs techniques",
@@ -76,78 +76,96 @@
   },
   "technologies_section": {
     "title": "Nous travaillons avec des technologies modernes et éprouvées",
-    "subtitle": "Outils de pointe pour une fiabilité et une performance maximales",
+    "subtitle": "Outils de pointe pour une fiabilité et des performances maximales",
     "tools": [
-      { "name": "Python", "icon": "FaPython " },
-      { "name": "Node.js", "icon": "FaNodeJs " },
-      { "name": "React", "icon": "FaReact " },
-      { "name": "Docker", "icon": "FaDocker " },
-      { "name": "AWS", "icon": "FaAws " },
-      { "name": "MongoDB", "icon": "FaDatabase " }
+      {
+        "name": "Python",
+        "icon": "FaPython "
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs "
+      },
+      {
+        "name": "React",
+        "icon": "FaReact "
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      },
+      {
+        "name": "MongoDB",
+        "icon": "FaDatabase "
+      }
     ]
   },
   "process_section": {
-    "title": "Notre Processus",
+    "title": "Notre processus",
     "subtitle": "Du concept au lancement en 6 semaines",
     "steps": [
       {
-        "title": "Découvrir",
-        "description": "Définir l'idée, identifier les fonctionnalités de base et délimiter le MVP/POC.",
+        "title": "Discover",
+        "description": "Définir l'idée, identifier les fonctionnalités principales et définir le MVP/POC.",
         "icon": "FaSearch"
       },
       {
-        "title": "Concevoir",
-        "description": "Créer des wireframes, des prototypes et des flux de travail.",
+        "title": "Design",
+        "description": "Créez des wireframes, des prototypes et des flux de travail.",
         "icon": "TbTools"
       },
       {
-        "title": "Construire",
-        "description": "Développer uniquement les fonctionnalités essentielles, intégrer les API clés.",
+        "title": "Build",
+        "description": "Développez uniquement les fonctionnalités essentielles, intégrez les API clés.",
         "icon": "FaHammer"
       },
       {
-        "title": "Lancer",
-        "description": "Déployer, tester avec des utilisateurs réels et recueillir des commentaires.",
+        "title": "Launch",
+        "description": "Déployez, testez avec de vrais utilisateurs et recueillez des commentaires.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "De l'idée à une levée de 250k$ en quelques semaines",
+    "headline": "Idée pour 250 000 $ de semences en quelques semaines",
     "image": "/all_services/mvps_and_pocs/case_study.webp",
     "content": {
       "problem": {
-        "label": "Problème",
-        "text": "Un fondateur de startup avait une idée de plateforme de matching d'emploi mais devait tester la faisabilité et attirer des financements."
+        "label": "Problem",
+        "text": "Le fondateur d’une startup avait l’idée d’une plateforme de placement en emploi, mais il devait en tester la faisabilité et attirer des financements."
       },
       "solution": {
         "label": "Solution",
-        "text": "Nous avons construit un POC en 3 semaines pour valider l'algorithme de matching, suivi d'un MVP avec les fonctionnalités essentielles uniquement."
+        "text": "Nous avons construit un POC en 3 semaines pour valider l'algorithme de matching, suivi d'un MVP avec juste les fonctionnalités essentielles."
       },
       "result": {
-        "label": "Résultat",
-        "text": "Le fondateur a obtenu 250 000 $ en financement d'amorçage (seed) et a transformé la plateforme en un produit complet."
+        "label": "Result",
+        "text": "Le fondateur a obtenu un financement de démarrage de 250 000 $ et a étendu la plateforme en un produit complet."
       }
     }
   },
   "faq_section": {
-    "title": "Foire Aux Questions",
+    "title": "Foire aux questions",
     "subtitle": "Obtenez des réponses aux questions courantes",
     "questions": [
       {
-        "question": "Combien de temps faut-il pour construire un MVP ?",
-        "answer": "Généralement, un MVP peut être développé en 4 à 6 semaines selon la complexité des fonctionnalités."
+        "question": "Combien de temps faut-il pour créer un MVP ?",
+        "answer": "En règle générale, un MVP peut être développé en 4 à 6 semaines en fonction de la complexité des fonctionnalités."
       },
       {
-        "question": "Fournissez-vous un support après le lancement ?",
-        "answer": "Oui, nous proposons des forfaits de maintenance et de support après-vente pour garantir le bon fonctionnement de votre application."
+        "question": "Fournissez-vous une assistance continue après le lancement ?",
+        "answer": "Oui, nous proposons des packages de maintenance et de support après le lancement pour garantir le bon fonctionnement de votre application."
       },
       {
-        "question": "Pouvez-vous intégrer des fonctionnalités IA à mon SaaS existant ?",
-        "answer": "Absolument. Nous nous spécialisons dans l'intégration de modèles d'IA aux architectures existantes via API."
+        "question": "Pouvez-vous intégrer des fonctionnalités d'IA dans mon SaaS existant ?",
+        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA dans des architectures existantes via API."
       },
       {
-        "question": "Quelle pile technologique utilisez-vous pour le SaaS ?",
+        "question": "Quelle pile technologique utilisez-vous pour le SaaS ?",
         "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
       }
     ],

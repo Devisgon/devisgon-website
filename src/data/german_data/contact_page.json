@@ -1,0 +1,121 @@
+{
+  "hero_title": "Lassen Sie uns über Ihr Projekt sprechen",
+  "hero_description": "Sind Sie bereit, Ihre Vision zum Leben zu erwecken? Wir würden gerne von Ihrem Projekt hören und herausfinden, wie wir Sie beim Erreichen Ihrer Ziele unterstützen können.",
+  "form": {
+    "title": "Senden Sie uns eine Nachricht",
+    "description": "Füllen Sie das untenstehende Formular aus und wir werden uns innerhalb von 24 Stunden bei Ihnen melden.",
+    "labels": {
+      "name": "Name *",
+      "email": "E-Mail *",
+      "company": "Company",
+      "project_type": "Projekttyp *",
+      "budget": "Budgetbereich",
+      "timeline": "Timeline",
+      "project_detail": "Projektdetails *",
+      "privacy_consent": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der DSGVO zu",
+      "privacy_policy": "Datenschutzrichtlinie",
+      "privacy_consent_suffix": "und stimmen zu, Mitteilungen zu dieser Anfrage zu erhalten."
+    },
+    "placeholders": {
+      "name": "Ihr Name",
+      "email": "your@email.com",
+      "company": "Ihr Firmenname",
+      "project_detail": "Erzählen Sie uns von Ihrem Projekt, Ihren Zielen und Ihren spezifischen Anforderungen ..."
+    },
+    "project_type_options": [
+      {
+        "value": "",
+        "label": "Projekttyp auswählen"
+      },
+      {
+        "value": "Web Development",
+        "label": "Webentwicklung"
+      },
+      {
+        "value": "Mobile App",
+        "label": "Mobile App"
+      },
+      {
+        "value": "UI / UX Design",
+        "label": "UI-/UX-Design"
+      },
+      {
+        "value": "AI Solutions",
+        "label": "KI-Lösungen"
+      },
+      {
+        "value": "Automation",
+        "label": "Automation"
+      }
+    ],
+    "budget_options": [
+      {
+        "value": "",
+        "label": "Budgetbereich auswählen"
+      },
+      {
+        "value": "5k-10k",
+        "label": "5.000 $ bis 10.000 $"
+      },
+      {
+        "value": "10k-20k",
+        "label": "10.000 bis 20.000 US-Dollar"
+      },
+      {
+        "value": "20k+",
+        "label": "20.000 $+"
+      }
+    ],
+    "timeline_options": [
+      {
+        "value": "",
+        "label": "Zeitleiste auswählen"
+      },
+      {
+        "value": "ASAP",
+        "label": "ASAP"
+      },
+      {
+        "value": "1-3 Months",
+        "label": "1 - 3 Monate"
+      },
+      {
+        "value": "3-6 Months",
+        "label": "3 - 6 Monate"
+      },
+      {
+        "value": "6-9 Months",
+        "label": "6 - 9 Monate"
+      }
+    ],
+    "upload": {
+      "drop_text": "Legen Sie die Dateien hier ab oder klicken Sie zum Hochladen",
+      "types_text": "PNG, JPG, PDF bis zu 10 MB"
+    },
+    "buttons": {
+      "send": "Nachricht senden",
+      "sending": "Sending..."
+    },
+    "status": {
+      "success": "Vielen Dank für Ihre Kontaktaufnahme!",
+      "error": "Versuchen Sie es erneut",
+      "invalid_email": "Verwenden Sie eine gültige E-Mail-Adresse"
+    }
+  },
+  "schedule": {
+    "title": "Vereinbaren Sie einen Anruf",
+    "description": "Reden Sie lieber? Buchen Sie ein kostenloses 30-minütiges Beratungsgespräch mit unserem Team",
+    "provider": "Calendly",
+    "book_button": "Buchen Sie einen Anruf",
+    "choose_duration": "Wählen Sie die Besprechungsdauer",
+    "durations": {
+      "min_15": "15-minütiges Treffen",
+      "min_30": "30-minütiges Treffen",
+      "min_60": "60-minütiges Treffen"
+    }
+  },
+  "contact_info": {
+    "title": "Nehmen Sie Kontakt auf",
+    "location": "Okara, Pakistan"
+  }
+}

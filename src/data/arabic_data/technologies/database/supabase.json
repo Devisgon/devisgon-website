@@ -1,103 +1,116 @@
 {
   "slug": "supabase",
+  "seo_metadata": {
+    "title": "تطوير Supabase للمؤسسات | PostgreSQL وحلول الواجهة الخلفية في الوقت الفعلي",
+    "description": "خدمات تنفيذ Supabase الاحترافية. أنشئ تطبيقات آمنة وقابلة للتطوير باستخدام واجهات برمجة التطبيقات الآلية واشتراكات قاعدة البيانات في الوقت الفعلي والمصادقة على مستوى المؤسسات.",
+    "keywords": [
+      "تطوير سوبابيس",
+      "هندسة PostgreSQL",
+      "قاعدة بيانات الوقت الحقيقي",
+      "الأمان على مستوى الصف (RLS)",
+      "حلول BaaS",
+      "وظائف الحافة Supabase",
+      "الواجهة الخلفية بدون خادم"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Supabase",
-    "description": "Build production systems with Supabase in our database delivery ecosystem.",
+    "eyebrow": "بديل Firebase مفتوح المصدر",
+    "title": "الابتكار السريع مع",
+    "highlight": "سوباباس",
+    "description": "قم بتسريع تطوير الواجهة الخلفية لديك باستخدام مجموعة قوية مستندة إلى PostgreSQL، بما في ذلك واجهات برمجة التطبيقات الفورية ومزامنة البيانات في الوقت الفعلي والمصادقة المتكاملة.",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "قم ببناء الواجهة الخلفية الخاصة بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض البنية الأساسية",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Supabase plays a critical role in our database strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع Supabase",
+    "subtitle": "تجمع Supabase بين موثوقية PostgreSQL وسرعة الأنظمة الأساسية الحديثة للواجهة الخلفية كخدمة (BaaS).",
     "paragraphs": [
-      "Supabase is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Supabase with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "يتيح لنا Supabase التخلص من شهور من هندسة الواجهة الخلفية النموذجية. من خلال الاستفادة من واجهات برمجة تطبيقات REST وGraphQL التي تم إنشاؤها تلقائيًا، يمكننا الانتقال من تصميم المخطط إلى تكامل الواجهة الأمامية في ساعات بدلاً من أسابيع، كل ذلك مع البقاء ضمن نظام PostgreSQL البيئي القوي.",
+      "تكمن أعظم قوة في النظام الأساسي في نموذج الأمان الخاص به. من خلال استخدام أمان مستوى الصف (RLS) الأصلي لـ PostgreSQL، فإننا نضمن فرض عزل البيانات وأذونات المستخدم على مستوى قاعدة البيانات، مما يؤدي إلى إنشاء بنية \"قاعدة بيانات كثيفة وعميل رفيع\" تكون أكثر أمانًا بطبيعتها."
     ],
     "cards": [
       {
-        "title": "Supabase Clarity",
-        "description": "Supabase helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "قوة بوستجرس",
+        "description": "كل مشروع Supabase عبارة عن قاعدة بيانات PostgreSQL كاملة ومخصصة، ولا توجد طبقات تجريد خاصة.",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Supabase Performance",
-        "description": "Supabase supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "محرك الوقت الحقيقي",
+        "description": "استمع إلى تغييرات قاعدة البيانات في الوقت الفعلي عبر WebSockets لبناء تجارب مستخدم تعاونية ومباشرة.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Supabase Reliability",
-        "description": "Supabase strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "مصادقة مدمجة",
+        "description": "قم بإدارة تسجيلات المستخدم وتسجيلات الدخول من خلال مجموعة شاملة من مقدمي خدمات التواصل الاجتماعي والذين لا يملكون كلمة مرور.",
+        "icon_type": "FaUserShield"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق الفني لـ Supabase",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Supabase-ready patterns designed for dynamic cloud scaling."
+        "title": "نمذجة البيانات العلائقية",
+        "description": "تصميم مخططات PostgreSQL عالية التكامل باستخدام المفاتيح الخارجية وطرق العرض والإجراءات المخزنة لمنطق الأعمال."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Supabase integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "وظائف الحافة بدون خادم",
+        "description": "نشر وظائف TypeScript عالميًا للتعامل مع المنطق الحساس وخطافات الويب وتكاملات الجهات الخارجية."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Supabase to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "التخزين وإدارة الأصول",
+        "description": "إدارة الملفات والوسائط الكبيرة باستخدام طبقة تخزين قابلة للتطوير تتكامل مباشرة مع أذونات قاعدة البيانات."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Supabase stack.",
+    "title": "حافة Supabase",
+    "subtitle": "المزايا الإستراتيجية للتسليم الحديث الكامل.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Supabase effectively."
+        "metric": "3x",
+        "title": "سرعة التطوير",
+        "description": "تقليل وقت تطوير الواجهة الخلفية من خلال إنشاء CRUD API الآلي والمصادقة المتكاملة."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Supabase."
+        "metric": "99.95%",
+        "title": "الجهوزية",
+        "description": "بنية تحتية عالية التوفر تديرها AWS وتم تحسينها لوقت تشغيل المهام الحرجة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Supabase delivery."
+        "metric": "يفتح",
+        "title": "المصدر الأساسي",
+        "description": "مبني على معايير مفتوحة المصدر مثل Postgres وGoTrue وPostgREST، مما يمنع التقييد."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Supabase inside open architecture patterns."
+        "metric": "صفر",
+        "title": "قفل البائع",
+        "description": "قم بتصدير قاعدة البيانات والتكوين بالكامل في أي وقت إلى مثيل PostgreSQL المستضاف ذاتيًا."
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يتيح لنا Supabase البناء بسرعة بدء التشغيل و",
+    "highlight": "استقرار المؤسسة"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Supabase roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم تطبيقك في الوقت الفعلي",
+    "subtitle": "استشر مهندسينا الرئيسيين لتحديد بنية Supabase الخاصة بك أو التخطيط للترحيل من Firebase.",
+    "full_name_label": "اسم المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الفنية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Supabase architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف متطلبات البيانات الخاصة بك أو التحديات في الوقت الفعلي...",
+    "button_text": "أطلق مشروعك"
   }
 }

@@ -1,85 +1,85 @@
 {
   "slug": "security_testing",
   "hero_section": {
-    "title": "Security Testing & Penetration",
-    "subtitle": "Find the Vulnerabilities Before the Hackers Do",
-    "description": "Protect your application, your user data, and your reputation. We simulate real-world cyber attacks to identify and patch critical security flaws in your software before they can be exploited.",
+    "title": "安全测试与渗透",
+    "subtitle": "在黑客发现漏洞之前发现漏洞",
+    "description": "保护您的应用程序、用户数据和声誉。我们模拟现实世界的网络攻击，以在软件中的关键安全缺陷被利用之前识别并修补它们。",
     "buttons": [
       {
-        "text": "Secure Your Application",
+        "text": "保护您的应用程序",
         "link": "/contact"
       },
       {
-        "text": "Speak to an Ethical Hacker",
+        "text": "与道德黑客交谈",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/security_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Security Testing?",
+    "heading": "什么是",
+    "span_heading": "安全测试？",
     "content": [
-      "Security testing is the rigorous process of evaluating your software to uncover vulnerabilities, threats, and risks. Instead of waiting for a malicious attack to reveal the weak points in your system, our certified ethical hackers take the offensive, attempting to breach your applications using the exact same tools and techniques as real-world cybercriminals. ",
-      "At Devisgon, we go beyond automated scans. We dive deep into your application's logic, APIs, and infrastructure to find hidden loopholes like SQL injections, cross-site scripting (XSS), and broken authentication. We then provide actionable remediation steps to lock down your system completely."
+      "安全测试是评估您的软件以发现漏洞、威胁和风险的严格过程。我们经过认证的道德黑客不会等待恶意攻击暴露您系统中的弱点，而是采取进攻，尝试使用与现实世界网络犯罪分子完全相同的工具和技术来破坏您的应用程序。",
+      "在 Devisgon，我们超越了自动扫描。我们深入研究您的应用程序的逻辑、API 和基础设施，以查找隐藏的漏洞，例如 SQL 注入、跨站点脚本 (XSS) 和损坏的身份验证。然后，我们提供可行的补救措施来完全锁定您的系统。"
     ],
-    "highlight_quote": " “If you think compliance is expensive, try a data breach.” ",
+    "highlight_quote": "“如果您认为合规成本高昂，请尝试数据泄露。”",
     "side_image": "/all_services/security_testing/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why proactive security testing is a business necessity",
+    "title": "主要优点",
+    "subtitle": "为什么主动安全测试是业务必需的",
     "cards": [
       {
-        "title": "Prevent Costly Breaches",
-        "description": "Identify and patch zero-day vulnerabilities and critical flaws before they lead to catastrophic data loss or ransom demands.",
+        "title": "防止代价高昂的违规行为",
+        "description": "在零日漏洞和严重缺陷导致灾难性数据丢失或勒索赎金之前识别并修补它们。",
         "icon_type": "MdLock"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Show your users and enterprise clients that their sensitive data is handled with the highest level of security.",
+        "title": "保护品牌声誉",
+        "description": "向您的用户和企业客户表明他们的敏感数据得到了最高级别的安全处理。",
         "icon_type": "MdVerifiedUser"
       },
       {
-        "title": "Ensure Compliance",
-        "description": "Meet the strict security testing requirements mandated by frameworks like SOC 2, HIPAA, PCI-DSS, and GDPR.",
+        "title": "确保合规",
+        "description": "满足 SOC 2、HIPAA、PCI-DSS 和 GDPR 等框架规定的严格安全测试要求。",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Secure the Supply Chain",
-        "description": "Verify that third-party plugins, APIs, and open-source libraries aren't introducing hidden risks into your application.",
+        "title": "确保供应链安全",
+        "description": "验证第三方插件、API 和开源库不会给您的应用程序带来隐藏风险。",
         "icon_type": "MdSecurity"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Security Testing",
+    "title": "选择安全测试后您会得到什么",
     "image": "/all_services/security_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. Automated Vulnerability Scans",
-        "description": "Rapid, wide-net sweeps of your codebase and infrastructure to catch known Common Vulnerabilities and Exposures (CVEs)."
+        "title": "1. 自动化漏洞扫描",
+        "description": "快速、广泛地扫描您的代码库和基础设施，以捕获已知的常见漏洞和暴露 (CVE)。"
       },
       {
-        "title": "2. Manual Penetration Testing",
-        "description": "Deep-dive, human-led ethical hacking targeting complex business logic and sophisticated exploit chains."
+        "title": "2. 手动渗透测试",
+        "description": "针对复杂的业务逻辑和复杂的漏洞利用链的深入、以人为主导的道德黑客攻击。"
       },
       {
-        "title": "3. OWASP Top 10 Audits",
-        "description": "Rigorous validation against the industry standard for the most critical web application security risks."
+        "title": "3. OWASP 十大审核",
+        "description": "针对最关键的 Web 应用程序安全风险，根据行业标准进行严格验证。"
       },
       {
-        "title": "4. Actionable Remediation Reports",
-        "description": "Clear documentation of every vulnerability found, its risk severity, and exact code-level instructions on how to fix it."
+        "title": "4. 可行的补救报告",
+        "description": "清晰记录发现的每个漏洞、其风险严重性以及如何修复该漏洞的准确代码级说明。"
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard security tools",
-    "subtitle": "The ultimate arsenal for ethical hacking and vulnerability detection",
+    "title": "我们使用行业标准安全工具进行测试",
+    "subtitle": "道德黑客攻击和漏洞检测的终极武器库",
     "tools": [
       {
-        "name": "Burp Suite",
+        "name": "打嗝套件",
         "icon": "FaBug"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A structured approach to ethical hacking",
+    "title": "我们的流程",
+    "subtitle": "道德黑客的结构化方法",
     "steps": [
       {
         "title": "Reconnaissance",
-        "description": "We map your application's attack surface, identifying exposed endpoints, subdomains, and tech stacks.",
+        "description": "我们映射您的应用程序的攻击面，识别暴露的端点、子域和技术堆栈。",
         "icon": "FaSearch"
       },
       {
         "title": "Scanning",
-        "description": "We utilize advanced automated tools to identify misconfigurations and known vulnerabilities.",
+        "description": "我们利用先进的自动化工具来识别错误配置和已知漏洞。",
         "icon": "FaRadar"
       },
       {
-        "title": "Exploitation (Pentesting)",
-        "description": "Our engineers manually attempt to exploit the discovered vulnerabilities to determine their actual impact.",
+        "title": "漏洞利用（渗透测试）",
+        "description": "我们的工程师手动尝试利用已发现的漏洞来确定其实际影响。",
         "icon": "FaUnlockAlt"
       },
       {
-        "title": "Reporting & Patching",
-        "description": "We deliver a comprehensive risk report and work with your dev team to verify that the patches are effective.",
+        "title": "报告和修补",
+        "description": "我们提供全面的风险报告，并与您的开发团队合作，验证补丁是否有效。",
         "icon": "FaFileContract"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Prevented a massive data leak in a healthcare portal",
+    "headline": "防止医疗保健门户中的大量数据泄露",
     "image": "/all_services/security_testing/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "A telehealth startup was weeks away from launching their patient portal but needed a final security audit to comply with HIPAA regulations."
+        "text": "一家远程医疗初创公司距离推出其患者门户网站还有几周时间，但需要进行最终安全审核以符合 HIPAA 法规。"
       },
       "solution": {
         "label": "Solution",
-        "text": "During our manual penetration test, we discovered a severe Insecure Direct Object Reference (IDOR) vulnerability that allowed any user to access other patients' medical records by manipulating the URL."
+        "text": "在我们的手动渗透测试中，我们发现了一个严重的不安全直接对象引用 (IDOR) 漏洞，该漏洞允许任何用户通过操纵 URL 来访问其他患者的医疗记录。"
       },
       "result": {
         "label": "Result",
-        "text": "We provided immediate remediation code. The vulnerability was patched before launch, avoiding a catastrophic HIPAA violation and preserving the startup's future."
+        "text": "我们提供了立即修复代码。该漏洞在发布前已得到修补，避免了灾难性的 HIPAA 违规行为并保护了初创公司的未来。"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about cybersecurity and penetration testing",
+    "title": "常见问题解答",
+    "subtitle": "获取有关网络安全和渗透测试的答案",
     "questions": [
       {
-        "question": "What is the difference between a Vulnerability Scan and a Penetration Test?",
-        "answer": "A Vulnerability Scan is an automated process that checks your systems for known flaws and reports them. A Penetration Test (Pentest) is a manual, human-led process where an ethical hacker actively tries to exploit those flaws to see how deep into the system they can get, simulating a real-world attack."
+        "question": "漏洞扫描和渗透测试有什么区别？",
+        "answer": "漏洞扫描是一个自动化过程，用于检查您的系统是否存在已知缺陷并报告它们。渗透测试（Pentest）是一个手动的、以人为主导的过程，道德黑客会积极尝试利用这些缺陷来了解他们可以深入系统，模拟现实世界的攻击。"
       },
       {
-        "question": "Is it safe to perform security testing on a live, production environment?",
-        "answer": "While we can test production environments carefully, we highly recommend performing intrusive security testing (like Penetration Testing) on a staging or replica environment. This ensures there is absolutely no disruption to your live users or risk of accidental data corruption."
+        "question": "在实时生产环境中执行安全测试是否安全？",
+        "answer": "虽然我们可以仔细测试生产环境，但我们强烈建议在临时或副本环境中执行侵入式安全测试（如渗透测试）。这可确保您的实时用户绝对不会受到干扰，也不会出现意外数据损坏的风险。"
       },
       {
-        "question": "How often should we perform security testing?",
-        "answer": "Best practices dictate running automated vulnerability scans continuously (integrated into your CI/CD pipeline). Deep-dive manual penetration tests should be conducted at least annually, or immediately following any major architecture change or significant feature release."
+        "question": "我们应该多久进行一次安全测试？",
+        "answer": "最佳实践要求持续运行自动漏洞扫描（集成到 CI/CD 管道中）。应至少每年进行一次深入的手动渗透测试，或者在任何重大架构更改或重要功能发布后立即进行一次。"
       },
       {
-        "question": "What happens after you find a vulnerability?",
-        "answer": "We don't just hand you a list of problems. We provide a detailed report ranking the vulnerabilities by severity (Critical, High, Medium, Low) alongside step-by-step remediation instructions. Once your developers apply the fix, we perform a 're-test' to guarantee the loophole is permanently closed."
+        "question": "发现漏洞后会发生什么？",
+        "answer": "我们不只是向您提供问题清单。我们提供详细的报告，按严重性（严重、高、中、低）对漏洞进行排名，并提供分步修复说明。一旦您的开发人员应用修复程序，我们就会执行“重新测试”以确保漏洞被永久关闭。"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a security consultation",
+      "text": "没有找到您的答案吗？",
+      "link_text": "安排安全咨询",
       "link_url": "/contact"
     }
   }

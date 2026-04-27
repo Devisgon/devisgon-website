@@ -28,7 +28,7 @@
   },
   "key_benefits_section": {
     "title": "Beneficios clave",
-    "subtitle": "El ROI de una transformación DevOps exitosa",
+    "subtitle": "El retorno de la inversión de una transformación DevOps exitosa",
     "cards": [
       {
         "title": "Entrega acelerada",
@@ -79,7 +79,7 @@
     "subtitle": "Las mejores herramientas para automatización, orquestación y aprovisionamiento",
     "tools": [
       {
-        "name": "Terraformar",
+        "name": "Terraform",
         "icon": "SiTerraform"
       },
       {
@@ -87,7 +87,7 @@
         "icon": "SiKubernetes"
       },
       {
-        "name": "Estibador",
+        "name": "Docker",
         "icon": "FaDocker"
       },
       {
@@ -95,7 +95,7 @@
         "icon": "FaAws"
       },
       {
-        "name": "ansible",
+        "name": "Ansible",
         "icon": "SiAnsible"
       }
     ]
@@ -105,22 +105,22 @@
     "subtitle": "Un camino estructurado hacia la madurez de DevOps",
     "steps": [
       {
-        "title": "Evaluar",
+        "title": "Assess",
         "description": "Evaluamos sus flujos de trabajo actuales, estructura de equipo e infraestructura para identificar puntos críticos.",
         "icon": "FaSearch"
       },
       {
-        "title": "Elaborar estrategias",
+        "title": "Strategize",
         "description": "Diseñamos el modelo operativo objetivo, los planos arquitectónicos y seleccionamos la cadena de herramientas óptima.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Implementar",
+        "title": "Implement",
         "description": "Desarrollamos su infraestructura como código (IaC), canales de CI/CD y marcos de pruebas automatizados.",
         "icon": "FaCogs"
       },
       {
-        "title": "Optimizar",
+        "title": "Optimize",
         "description": "Establecemos monitoreo 24 horas al día, 7 días a la semana, ajustamos el rendimiento, reducimos los costos de la nube y capacitamos a su personal.",
         "icon": "FaChartLine"
       }
@@ -131,15 +131,15 @@
     "image": "/all_services/devops_consulting/cs.webp",
     "content": {
       "problem": {
-        "label": "Problema",
+        "label": "Problem",
         "text": "Una startup tecnológica de rápido crecimiento enfrentó implementaciones manuales impredecibles y facturas masivas en la nube debido a una infraestructura ineficiente y no monitoreada."
       },
       "solution": {
-        "label": "Solución",
+        "label": "Solution",
         "text": "Realizamos una auditoría completa de DevOps, migramos su infraestructura a código (IaC) utilizando Terraform y establecimos canales automatizados de CI/CD."
       },
       "result": {
-        "label": "Resultado",
+        "label": "Result",
         "text": "La frecuencia de implementación aumentó un 400 %, los tiempos de reversión se redujeron a minutos y el tamaño adecuado de los recursos redujo su gasto mensual en la nube en un 35 %."
       }
     }

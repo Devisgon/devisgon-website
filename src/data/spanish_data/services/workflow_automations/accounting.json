@@ -1,93 +1,182 @@
 {
-  "slug": "financial-accounting-automation",
+  "slug": "financial_accounting_automation",
   "hero_section": {
-    "title": "Servicios de Automatización Contable y Financiera",
-    "subtitle": "Automatización de Facturas, Cobros y Reportes Financieros",
-    "description": "Automatice la facturación, conciliación de pagos, gestión de suscripciones y reportes financieros para mejorar el flujo de caja y reducir errores contables.",
+    "title": "Servicios de automatización financiera y contable",
+    "subtitle": "Automatización de facturas, automatización de facturación e informes financieros",
+    "description": "Automatice la facturación, la conciliación de pagos, la gestión de suscripciones y los informes financieros para mejorar la visibilidad del flujo de efectivo y reducir los errores contables.",
     "buttons": [
-      { "text": "Automatizar Operaciones Financieras", "link": "/contact" },
-      { "text": "Contáctenos", "link": "/contact" }
+      {
+        "text": "Automatizar operaciones financieras",
+        "link": "/contact"
+      },
+      {
+        "text": "Contáctenos",
+        "link": "/contact"
+      }
     ],
     "hero_image": "/videos/financial_automation.mp4"
   },
   "introduction_section": {
-    "heading": "¿Qué es la",
-    "span_heading": " Automatización Financiera?",
+    "heading": "Qué es",
+    "span_heading": "¿Automatización financiera?",
     "content": [
-      "La facturación manual, los ciclos de cobro retrasados y los errores de conciliación afectan la rentabilidad y la precisión financiera.",
-      "En Devisgon, implementamos sistemas seguros de automatización financiera que optimizan los flujos de trabajo contables. Nuestras soluciones:",
-      "  •  Automatizan la generación y aprobación de facturas",
-      "  •  Implementan la automatización de cobros recurrentes",
-      "  •  Automatizan la conciliación de pagos",
-      "  •  Generan reportes financieros en tiempo real",
-      "El resultado: operaciones financieras precisas y mejor control del flujo de caja."
+      "La facturación manual, los ciclos de facturación retrasados ​​y los errores de conciliación afectan la rentabilidad y la precisión financiera.",
+      "En Devisgon, implementamos sistemas seguros de automatización financiera que agilizan los flujos de trabajo contables. Nuestras soluciones:",
+      "• Automatizar la generación y aprobaciones de facturas",
+      "• Implementar automatización de facturación recurrente",
+      "• Automatizar la conciliación de pagos",
+      "• Generar informes financieros en tiempo real",
+      "El resultado: operaciones financieras precisas y un mejor control del flujo de efectivo."
     ],
-    "highlight_quote": "“Finanzas precisas. Flujos de trabajo automatizados. Visibilidad en tiempo real.”",
+    "highlight_quote": "\"Finanzas precisas. Flujos de trabajo automatizados. Visibilidad en tiempo real\".",
     "side_image": "/all_services/financial_automation/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Beneficios Clave",
-    "subtitle": "Fortalezca sus operaciones financieras",
+    "title": "Beneficios clave",
+    "subtitle": "Fortalecer las operaciones financieras",
     "cards": [
-      { "title": "Automatización de Facturas", "description": "Creación y enrutamiento automatizado de facturas.", "icon_type": "MdReceipt" },
-      { "title": "Eficiencia en Cobros", "description": "Automatización de cobros recurrentes y suscripciones.", "icon_type": "MdPayments" },
-      { "title": "Reducción de Errores", "description": "Reduzca los errores de conciliación contable.", "icon_type": "MdVerified" },
-      { "title": "Reportes en Tiempo Real", "description": "Tableros instantáneos de rendimiento financiero.", "icon_type": "MdAnalytics" }
+      {
+        "title": "Automatización de facturas",
+        "description": "Creación y enrutamiento automatizado de facturas.",
+        "icon_type": "MdReceipt"
+      },
+      {
+        "title": "Eficiencia de facturación",
+        "description": "Automatización de suscripciones y facturación recurrente.",
+        "icon_type": "MdPayments"
+      },
+      {
+        "title": "Reducción de errores",
+        "description": "Reducir los errores de conciliación.",
+        "icon_type": "MdVerified"
+      },
+      {
+        "title": "Informes en tiempo real",
+        "description": "Paneles de control instantáneos de rendimiento financiero.",
+        "icon_type": "MdAnalytics"
+      }
     ]
   },
   "what_you_get_section": {
-    "title": "Lo que obtendrá al elegir la Automatización Financiera",
+    "title": "Lo que obtendrás cuando elijas la automatización financiera",
     "image": "/all_services/financial_automation/wwg.webp",
     "list_items": [
-      { "title": "1. Automatización de Facturación", "description": "Sistemas automatizados de facturas y cobros recurrentes." },
-      { "title": "2. Conciliación de Pagos", "description": "Automatización precisa del emparejamiento de transacciones." },
-      { "title": "3. Reportes Financieros", "description": "Generación automatizada de estados financieros." },
-      { "title": "4. Integración Segura", "description": "Integración con software contable y sistemas ERP." }
+      {
+        "title": "1. Automatización de facturas y facturación",
+        "description": "Facturación automatizada y sistemas de facturación recurrente."
+      },
+      {
+        "title": "2. Conciliación de pagos",
+        "description": "Automatización precisa del emparejamiento de transacciones."
+      },
+      {
+        "title": "3. Informes financieros",
+        "description": "Generación automatizada de estados financieros."
+      },
+      {
+        "title": "4. Integración segura",
+        "description": "Integración con software de contabilidad y ERP."
+      }
     ]
   },
   "technologies_section": {
-    "title": "Herramientas de Automatización",
+    "title": "Herramientas de automatización financiera",
     "subtitle": "Integraciones contables seguras",
     "tools": [
-      { "name": "QuickBooks", "icon": "SiQuickbooks" },
-      { "name": "Xero", "icon": "SiXero" },
-      { "name": "Stripe", "icon": "SiStripe" },
-      { "name": "Python", "icon": "FaPython" },
-      { "name": "AWS", "icon": "FaAws" }
+      {
+        "name": "QuickBooks",
+        "icon": "SiQuickbooks"
+      },
+      {
+        "name": "Xero",
+        "icon": "SiXero"
+      },
+      {
+        "name": "Stripe",
+        "icon": "SiStripe"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      }
     ]
   },
   "process_section": {
-    "title": "Nuestro Proceso",
-    "subtitle": "Despliegue seguro de automatización financiera",
+    "title": "Nuestro proceso",
+    "subtitle": "Implementación segura de la automatización financiera",
     "steps": [
-      { "title": "Evaluar", "description": "Analizar los flujos de trabajo financieros.", "icon": "FaSearch" },
-      { "title": "Diseñar", "description": "Planificar la lógica de automatización y controles de cumplimiento.", "icon": "TbTools" },
-      { "title": "Implementar", "description": "Desplegar la automatización de facturación y cobros.", "icon": "FaHammer" },
-      { "title": "Monitorear", "description": "Seguimiento continuo del rendimiento financiero.", "icon": "FaRocket" }
+      {
+        "title": "Assess",
+        "description": "Analizar los flujos de trabajo financieros.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Planificar la lógica de automatización y los controles de cumplimiento.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Implement",
+        "description": "Implementar facturación y automatización de facturación.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Monitor",
+        "description": "Realice un seguimiento continuo del desempeño financiero.",
+        "icon": "FaRocket"
+      }
     ]
   },
   "case_study_section": {
-    "headline": "Procesamiento de Facturas 60% más rápido",
+    "headline": "Procesamiento de facturas un 60% más rápido",
     "image": "/all_services/financial_automation/case_study.webp",
     "content": {
-      "problem": { "label": "Problema", "text": "Los ciclos de cobro manuales retrasaban los pagos." },
-      "solution": { "label": "Solución", "text": "Implementación de sistemas automatizados de cobro y conciliación." },
-      "result": { "label": "Resultado", "text": "Procesamiento de facturas mejorado en un 60% con menos errores." }
+      "problem": {
+        "label": "Problem",
+        "text": "Los ciclos de facturación manuales retrasan los pagos."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Implementé sistemas automatizados de facturación y conciliación."
+      },
+      "result": {
+        "label": "Result",
+        "text": "El procesamiento de facturas mejoró en un 60% con menos errores."
+      }
     }
   },
   "faq_section": {
-    "title": "Preguntas Frecuentes",
-    "subtitle": "FAQs de Automatización Financiera",
+    "title": "Preguntas frecuentes",
+    "subtitle": "Preguntas frecuentes sobre automatización financiera",
     "questions": [
-      { "question": "¿Automatizan QuickBooks y Xero?", "answer": "Sí, incluyendo flujos de facturación y conciliación." },
-      { "question": "¿Es segura la automatización financiera?", "answer": "Sí, con cifrado y controles de cumplimiento normativo." },
-      { "question": "¿Pueden automatizar cobros por suscripción?", "answer": "Sí, incluyendo pagos recurrentes y renovaciones." },
-      { "question": "¿Cuánto tiempo toma la configuración?", "answer": "Normalmente de 3 a 5 semanas." },
-      { "question": "¿Atienden a clientes internacionales?", "answer": "Sí, globalmente en mercados desarrollados." }
+      {
+        "question": "¿Automatiza QuickBooks y Xero?",
+        "answer": "Sí, incluidos los flujos de trabajo de facturación y conciliación."
+      },
+      {
+        "question": "¿Es segura la automatización financiera?",
+        "answer": "Sí, con controles de cifrado y cumplimiento."
+      },
+      {
+        "question": "¿Se puede automatizar la facturación de suscripciones?",
+        "answer": "Sí, incluidos pagos recurrentes y renovaciones."
+      },
+      {
+        "question": "¿Cuánto tiempo lleva la configuración?",
+        "answer": "Normalmente de 3 a 5 semanas."
+      },
+      {
+        "question": "¿Atiende a clientes internacionales?",
+        "answer": "Sí, a nivel mundial en los mercados desarrollados."
+      }
     ],
     "footer": {
       "text": "¿Necesita automatización financiera?",
-      "link_text": "Hable con nuestros expertos",
+      "link_text": "Habla con nuestros expertos",
       "link_url": "/contact"
     }
   }

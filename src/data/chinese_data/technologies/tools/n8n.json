@@ -1,103 +1,116 @@
 {
   "slug": "n8n",
+  "seo_metadata": {
+    "title": "Enterprise n8n Automation | Self-Hosted Workflow Orchestration",
+    "description": "Professional n8n implementation services. We architect secure, self-hosted automation workflows and fair-code node-based integrations for enterprise data sovereignty.",
+    "keywords": [
+      "n8n Automation",
+      "Self-hosted Workflow Tool",
+      "Node-based Automation",
+      "Data Sovereignty Solutions",
+      "n8n Custom Nodes",
+      "Enterprise Workflow Orchestration",
+      "Fair-code Automation Platform"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Fair-Code Workflow Automation",
+    "title": "Take Full Control with",
     "highlight": "n8n",
-    "description": "Build production systems with n8n in our tools delivery ecosystem.",
+    "description": "Build highly customizable, node-based automations that can be self-hosted to ensure absolute data privacy and architectural freedom.",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Architect Your Workflow",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "View Source Integration",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "n8n plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Why We Engineer with n8n",
+    "subtitle": "n8n provides the extensible, node-based foundation required for secure and complex backend orchestration.",
     "paragraphs": [
-      "n8n is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using n8n with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "n8n is our primary choice for projects that demand data sovereignty and high levels of customization. Unlike traditional SaaS automation tools, n8n’s fair-code model allows us to host the engine on your own secure infrastructure, ensuring that sensitive data never leaves your perimeter while still benefiting from a powerful visual workflow designer.",
+      "The true power of n8n lies in its extensibility. Its node-based architecture allows our developers to write custom JavaScript logic directly within the workflow, or even build proprietary nodes to interface with internal legacy systems, providing a bridge between standard cloud services and your unique enterprise stack."
     ],
     "cards": [
       {
-        "title": "n8n Clarity",
-        "description": "n8n helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Data Sovereignty",
+        "description": "Self-host on your own servers to maintain 100% control over your data and ensure strict compliance with privacy regulations.",
+        "icon_type": "FaServer"
       },
       {
-        "title": "n8n Performance",
-        "description": "n8n supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Infinite Extensibility",
+        "description": "Add custom JavaScript code or build proprietary nodes to handle unique business logic and complex data parsing.",
+        "icon_type": "FaCode"
       },
       {
-        "title": "n8n Reliability",
-        "description": "n8n strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Transparent Architecture",
+        "description": "Leverage a fair-code model that allows for deep auditing and complete technological independence.",
+        "icon_type": "FaLockOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "title": "Orchestration Scope",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with n8n-ready patterns designed for dynamic cloud scaling."
+        "title": "Self-Hosted Cloud Automations",
+        "description": "Deploying containerized n8n instances on AWS or GCP to manage backend tasks with zero external data exposure."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "n8n integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Custom Node Development",
+        "description": "Engineering specialized nodes to connect internal ERPs, databases, and niche legacy software to the n8n engine."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use n8n to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Advanced Logic Flows",
+        "description": "Utilizing the 'Function Node' to perform complex data transformations and algorithmic sorting directly within a visual scenario."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the n8n stack.",
+    "title": "The n8n Advantage",
+    "subtitle": "Strategic competitive gains for secure and flexible ecosystems.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging n8n effectively."
-      },
-      {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with n8n."
-      },
-      {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate n8n delivery."
+        "metric": "100%",
+        "title": "Data Control",
+        "description": "Total privacy and security by hosting the automation engine entirely within your own firewall."
       },
       {
         "metric": "Zero",
         "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using n8n inside open architecture patterns."
+        "description": "Maintain full sovereignty over your workflows and logic without being tied to a proprietary SaaS cloud."
+      },
+      {
+        "metric": "400+",
+        "title": "Native Nodes",
+        "description": "A massive library of pre-built integrations combined with the ability to build your own effortlessly."
+      },
+      {
+        "metric": "Optimized",
+        "title": "Cost Structure",
+        "description": "Eliminate 'per-task' billing models by running your own instance, providing predictable and lower TCO."
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "n8n gives teams a practical path to bridge the gap between low-code ease and",
+    "highlight": "pro-code flexibility"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your n8n roadmap.",
-    "full_name_label": "Lead Name",
+    "title": "Architect Your Automation",
+    "subtitle": "Consult with our lead technical specialists to define a secure, self-hosted n8n roadmap for your enterprise.",
+    "full_name_label": "Lead Engineer",
     "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "message_label": "Technical Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your n8n architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your data privacy requirements or complex automation challenges...",
+    "button_text": "Request a Technical Audit"
   }
 }

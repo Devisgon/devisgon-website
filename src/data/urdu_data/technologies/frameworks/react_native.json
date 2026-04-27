@@ -1,103 +1,116 @@
 {
-  "slug": "react_native",
+  "slug": "react-native",
+  "seo_metadata": {
+    "title": "پیشہ ورانہ رد عمل مقامی ترقی | کراس پلیٹ فارم مقامی ایپس",
+    "description": "انٹرپرائز ری ایکٹ مقامی نفاذ کی خدمات۔ ہم مقامی رینڈرنگ کے ساتھ واحد JavaScript کوڈ بیس کا استعمال کرتے ہوئے اعلی کارکردگی والے iOS اور Android ایپلیکیشنز بناتے ہیں۔",
+    "keywords": [
+      "مقامی ترقی کا رد عمل",
+      "کراس پلیٹ فارم موبائل ایپس",
+      "جاوا اسکرپٹ کا مقامی پل",
+      "مقامی تانے بانے کے فن تعمیر پر رد عمل ظاہر کریں۔",
+      "موبائل ایپ آپٹیمائزیشن",
+      "ایکسپو ڈویلپمنٹ",
+      "مقامی ماڈیول انٹیگریشن"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "React Native",
-    "description": "Build production systems with React Native in our frameworks delivery ecosystem.",
+    "eyebrow": "مقامی کارکردگی، رد عمل کی کارکردگی",
+    "title": "کے ساتھ متحد تجربہ",
+    "highlight": "مقامی رد عمل کا اظہار کریں۔",
+    "description": "اعلیٰ معیار کی موبائل ایپس کو تیزی سے بھیجنے کے لیے React کے صنعت کے معروف ڈویلپر کے تجربے کے ساتھ مقامی پلیٹ فارم کی صلاحیتوں کی طاقت کو یکجا کریں۔",
     "side_image": "/technologies/react_native/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "موبائل بلڈ شروع کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی دستاویزات",
       "href": "/technologies/react_native#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "React Native plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "ہم ری ایکٹ مقامی کے ساتھ انجینئر کیوں",
+    "subtitle": "React Native ہمیں واحد، مشترکہ کوڈ بیس کو برقرار رکھتے ہوئے حقیقی معنوں میں مقامی UIs فراہم کرنے کی اجازت دیتا ہے۔",
     "paragraphs": [
-      "React Native is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using React Native with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "React Native ان منصوبوں کے لیے ہمارا انتخاب کا فریم ورک ہے جو مقامی سطح پر ردعمل اور پلیٹ فارم کے لیے مخصوص APIs تک رسائی کا مطالبہ کرتے ہیں۔ ہائبرڈ فریم ورک کے برعکس جو WebViews پر انحصار کرتے ہیں، React Native اصل مقامی UI اجزاء کی درخواست کرتا ہے، اس بات کو یقینی بناتا ہے کہ آپ کی ایپلی کیشن iOS اور Android دونوں پر گھر پر ہی محسوس ہو۔",
+      "'نیو آرکیٹیکچر' (فیبرک اور ٹربو موڈیولز) کا استعمال کرتے ہوئے، ہم اعلی ہم آہنگی والے کاموں کے لیے براہ راست C++ انضمام کا فائدہ اٹھاتے ہیں۔ اس کے نتیجے میں ہموار اینیمیشنز، تیز سٹارٹ اپ اوقات، اور آپ کے JavaScript منطق اور بنیادی موبائل ہارڈویئر کے درمیان ایک انتہائی قابل قیاس پل بنتا ہے۔"
     ],
     "cards": [
       {
-        "title": "React Native Clarity",
-        "description": "React Native helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "مقامی رینڈرنگ",
+        "description": "براؤزر کے بجائے حقیقی پلیٹ فارم کے اجزاء کا استعمال کرتا ہے، بغیر کسی ہموار صارف کا تجربہ اور 60FPS فلوڈ موشن فراہم کرتا ہے۔",
+        "icon_type": "FaMobileAlt"
       },
       {
-        "title": "React Native Performance",
-        "description": "React Native supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "کوڈ دوبارہ استعمال کرنے کی صلاحیت",
+        "description": "اپنے کوڈبیس کا 90% تک iOS اور Android کے درمیان شیئر کریں، دیکھ بھال اور فیچر کے وقفے کو کافی حد تک کم کرتے ہیں۔",
+        "icon_type": "FaSync"
       },
       {
-        "title": "React Native Reliability",
-        "description": "React Native strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "فاسٹ ریفریش",
+        "description": "موبائل ڈیولپمنٹ میں تیز ترین تکرار سائیکلوں کو فعال کرتے ہوئے، ایپلیکیشن کی حالت کو کھوئے بغیر فوری طور پر تبدیلیاں دیکھیں۔",
+        "icon_type": "FaZap"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "موبائل آرکیٹیکچرل اسکوپ",
     "image": "/technologies/react_native/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with React Native-ready patterns designed for dynamic cloud scaling."
+        "title": "فیبرک اور ٹربو موڈیولز",
+        "description": "ہم وقت ساز دھاگے کے عمل اور بہتر سٹارٹ اپ کارکردگی کے لیے جدید رد عمل کے مقامی فن تعمیر کو نافذ کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "React Native integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "اپنی مرضی کے مقامی ماڈیولز",
+        "description": "بایومیٹرک سینسرز یا اے آر جیسی مخصوص ہارڈ ویئر کی ضروریات کے لیے جاوا/کوٹلن اور آبجیکٹو-سی/سوفٹ کوڈ کو پورا کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use React Native to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "آف لائن-پہلا ڈیٹا",
+        "description": "مقامی استقامت (WatermelonDB/Realm) اور ریئل ٹائم بیک گراؤنڈ سنکرونائزیشن کے ساتھ لچکدار ایپلی کیشنز کی تعمیر۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the React Native stack.",
+    "title": "ری ایکٹ آبائی کنارے",
+    "subtitle": "غالب موبائل مصنوعات کے لیے اسٹریٹجک فوائد۔",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging React Native effectively."
+        "title": "تیز تر TTM",
+        "description": "بیک وقت دو پلیٹ فارمز کے لیے انجینئرنگ کے ذریعے مارکیٹ کے وقت میں نمایاں کمی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with React Native."
+        "metric": "مقامی",
+        "title": "UI مخلصی۔",
+        "description": "OEM ویجیٹس تک براہ راست رسائی یقینی بناتی ہے کہ ایپ پلیٹ فارم کے لیے مخصوص ڈیزائن کے رہنما خطوط پر پوری طرح عمل کرتی ہے۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate React Native delivery."
+        "metric": "بڑا",
+        "title": "ٹیلنٹ پول",
+        "description": "بڑے پیمانے پر React ایکو سسٹم کا فائدہ اٹھائیں، اپنی انجینئرنگ ٹیم کو اسکیل کرنا آسان بنا دیں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using React Native inside open architecture patterns."
+        "metric": "صفر",
+        "title": "ویب رکاوٹیں",
+        "description": "ڈیوائس کے مقامی UI تھریڈ پر براہ راست عمل کرکے موبائل براؤزرز کی کارکردگی کی رکاوٹوں سے بچیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "React Native gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "React Native ترقی کی رفتار اور کے درمیان کامل توازن فراہم کرتا ہے۔",
+    "highlight": "غیر سمجھوتہ موبائل کارکردگی"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your React Native roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے موبائل کے مستقبل کا معمار",
+    "subtitle": "اپنے کراس پلیٹ فارم روڈ میپ اور کارکردگی کی حکمت عملی کی وضاحت کے لیے ہمارے لیڈ React Native ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ موبائل آرکیٹیکٹ",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "ایپ کی ضروریات",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React Native architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے کراس پلیٹ فارم وژن یا کارکردگی کے چیلنجوں کی وضاحت کریں...",
+    "button_text": "ایک اقتباس کی درخواست کریں۔"
   }
 }

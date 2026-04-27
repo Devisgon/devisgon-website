@@ -135,11 +135,11 @@
         "text": "Ein SaaS-Unternehmen führte manuelle Bereitstellungen durch, bei denen die Website jedes Wochenende stundenlang offline geschaltet werden musste, was zu einem Burnout bei den Entwicklern führte."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Wir haben eine vollständig automatisierte CI/CD-Pipeline mithilfe von GitHub Actions, Docker und AWS Elastic Beanstalk mit einer fortlaufenden Bereitstellungsstrategie implementiert."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Die Bereitstellung erfolgt jetzt automatisch in 15 Minuten ohne Ausfallzeiten, sodass das Team Funktionen mehrmals am Tag veröffentlichen kann."
       }
     }

@@ -1,103 +1,116 @@
 {
   "slug": "mysql",
+  "seo_metadata": {
+    "title": "Développement MySQL d'entreprise et conception de bases de données relationnelles",
+    "description": "Services experts d’implémentation et d’optimisation de MySQL. Nous concevons des bases de données relationnelles de haute intégrité conçues pour la conformité ACID, la sécurité et des performances constantes.",
+    "keywords": [
+      "Développement MySQL",
+      "Conception de bases de données relationnelles",
+      "Optimisation SQL",
+      "Conformité ACIDE",
+      "Clustering de bases de données",
+      "Réglage des performances d'InnoDB",
+      "Services MySQL gérés"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Excellence Relationnelle",
+    "title": "Intégrité évolutive avec",
     "highlight": "MySQL",
-    "description": "Build production systems with MySQL in our database delivery ecosystem.",
-    "side_image": "/technologies/my_sql/hero.webp",
+    "description": "Tirez parti de la base de données open source la plus populaire au monde pour créer des applications transactionnelles sécurisées en mettant l'accent sur la cohérence des données et les performances de haute concurrence.",
+    "side_image": "/technologies/mysql/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimisez votre base de données",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Voir l'architecture",
       "href": "/technologies/mysql#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "MySQL plays a critical role in our database strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec MySQL",
+    "subtitle": "MySQL reste la référence en matière de données relationnelles, offrant une fiabilité inégalée pour les charges de travail structurées.",
     "paragraphs": [
-      "MySQL is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using MySQL with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Pour les applications nécessitant une intégrité stricte des données et des requêtes relationnelles complexes, MySQL est notre premier choix. Sa prise en charge robuste des transactions ACID garantit que chaque opération est traitée de manière fiable, ce qui la rend idéale pour les systèmes financiers et la logique métier de base.",
+      "En utilisant des moteurs de stockage modernes comme InnoDB et en mettant en œuvre des stratégies d'indexation avancées, nous fournissons une couche de données qui équilibre les performances de lecture à grande vitesse avec la sécurité de la gestion des données structurées."
     ],
     "cards": [
       {
-        "title": "MySQL Clarity",
-        "description": "MySQL helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Conformité ACIDE",
+        "description": "Garantissez la validité des données grâce à un traitement des transactions atomique, cohérent, isolé et durable.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "MySQL Performance",
-        "description": "MySQL supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Maturité relationnelle",
+        "description": "Gérez les jointures complexes et les relations multi-tables avec un optimiseur mature et un moteur d'exécution éprouvé.",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "MySQL Reliability",
-        "description": "MySQL strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "La sécurité avant tout",
+        "description": "Bénéficiez d’un modèle de sécurité éprouvé, comprenant un contrôle d’accès granulaire et des connexions cryptées.",
+        "icon_type": "FaLock"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/my_sql/scope.webp",
+    "id": "architecture technologique",
+    "title": "Portée de la conception MySQL",
+    "image": "/technologies/mysql/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with MySQL-ready patterns designed for dynamic cloud scaling."
+        "title": "Modélisation des données normalisées",
+        "description": "Concevoir des schémas 3NF efficaces qui minimisent la redondance tout en maintenant des performances de requête maximales."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "MySQL integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Fractionnement lecture/écriture",
+        "description": "Implémentation d'architectures de réplica principal pour répartir le trafic et garantir une évolutivité horizontale pour les applications gourmandes en lecture."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use MySQL to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Basculement automatisé",
+        "description": "Mise en place de clusters à haute disponibilité avec réplication synchrone ou semi-synchrone pour une continuité d'activité 24h/24 et 7j/7."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the MySQL stack.",
+    "title": "L'avantage MySQL",
+    "subtitle": "Des performances fiables pour le Web moderne.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging MySQL effectively."
+        "metric": "100%",
+        "title": "Intégrité des données",
+        "description": "Assurer la cohérence transactionnelle sur tous les ensembles de données relationnelles grâce à une application stricte des contraintes."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with MySQL."
+        "metric": "Ouvrir",
+        "title": "Écosystème",
+        "description": "Tirer parti d’une communauté massive et d’outils tiers infinis pour la surveillance, la sauvegarde et la migration."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate MySQL delivery."
+        "metric": "Faible",
+        "title": "Coût total de possession",
+        "description": "Obtenez des performances de base de données de niveau entreprise sans les coûts de licence prohibitifs des moteurs SQL propriétaires."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using MySQL inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Verrouillage du fournisseur",
+        "description": "Gardez le contrôle total de votre infrastructure avec un moteur portable et open source compatible avec tous les principaux cloud."
       }
     ]
   },
   "quote_section": {
-    "quote": "MySQL gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "MySQL fournit la base structurée nécessaire pour transformer des données complexes en",
+    "highlight": "logique métier fiable"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your MySQL roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Architectez votre solution SQL",
+    "subtitle": "Consultez nos spécialistes des bases de données pour auditer votre schéma ou optimiser les performances de vos requêtes.",
+    "full_name_label": "Administrateur principal de la base de données",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence technique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your MySQL architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos défis de performances SQL ou vos objectifs architecturaux...",
+    "button_text": "Demander un audit de base de données"
   }
 }

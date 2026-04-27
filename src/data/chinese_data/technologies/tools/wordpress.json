@@ -1,103 +1,116 @@
 {
   "slug": "wordpress",
+  "seo_metadata": {
+    "title": "Enterprise WordPress Development | Headless CMS & Custom Architecture",
+    "description": "Professional WordPress engineering for high-scale content platforms. We architect headless WordPress solutions, custom block themes, and high-performance publishing workflows.",
+    "keywords": [
+      "Enterprise WordPress Development",
+      "Headless WordPress Architecture",
+      "WP REST API & GraphQL",
+      "Custom Gutenberg Blocks",
+      "Scalable CMS Solutions",
+      "WordPress Performance Optimization",
+      "Decoupled WordPress Development"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "The World's Leading CMS",
+    "title": "Content Velocity with",
     "highlight": "WordPress",
-    "description": "Build production systems with WordPress in our tools delivery ecosystem.",
+    "description": "Empower your editorial teams with a high-performance publishing engine designed for global reach, SEO dominance, and seamless API-first integration.",
     "side_image": "/technologies/wordpress/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Build Your Platform",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "View Architecture Patterns",
       "href": "/technologies/wordpress#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "WordPress plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Why We Engineer with WordPress",
+    "subtitle": "WordPress provides the most flexible and extensible foundation for modern, content-driven digital ecosystems.",
     "paragraphs": [
-      "WordPress is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using WordPress with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "We utilize WordPress as more than just a blogging tool; it is a robust content API for the modern web. By leveraging its mature REST API and WPGraphQL, we can decouple the backend management from the frontend, allowing your content to power everything from Next.js web apps to native mobile experiences without duplicate entry.",
+      "The true value of modern WordPress lies in the Gutenberg block editor. We build custom, high-performance blocks that provide your marketing team with a 'no-code' page-building experience while maintaining strict architectural standards and preventing the design drift often found in generic page builders."
     ],
     "cards": [
       {
-        "title": "WordPress Clarity",
-        "description": "WordPress helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "API-First Flexibility",
+        "description": "Deploy WordPress as a Headless CMS to feed structured data into modern JavaScript frameworks via REST or GraphQL.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "WordPress Performance",
-        "description": "WordPress supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Editorial Excellence",
+        "description": "Empower content creators with an intuitive, block-based editor tailored to your specific brand design system.",
+        "icon_type": "FaPencilAlt"
       },
       {
-        "title": "WordPress Reliability",
-        "description": "WordPress strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "SEO Native",
+        "description": "Benefit from a core architecture that search engines love, combined with industry-leading tools for technical SEO.",
+        "icon_type": "FaSearch"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "title": "Technical CMS Scope",
     "image": "/technologies/wordpress/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with WordPress-ready patterns designed for dynamic cloud scaling."
+        "title": "Decoupled & Headless CMS",
+        "description": "Architecting secure, fast backends that serve as a single source of truth for omnichannel content distribution."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "WordPress integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Custom Block Systems",
+        "description": "Developing proprietary Gutenberg blocks using React to ensure a performant and controlled editing experience."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use WordPress to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Enterprise Multisite Networks",
+        "description": "Orchestrating complex multi-domain and multi-language networks from a single, unified WordPress installation."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the WordPress stack.",
+    "title": "The WordPress Edge",
+    "subtitle": "Strategic competitive gains for high-throughput publishing.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging WordPress effectively."
+        "metric": "40%+",
+        "title": "Market Dominance",
+        "description": "Leverage the world's largest ecosystem of developers, plugins, and third-party integrations."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with WordPress."
+        "metric": "Real-time",
+        "title": "Content Sync",
+        "description": "Instantly update content across multiple platforms and devices via integrated webhook triggers."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate WordPress delivery."
+        "metric": "Fast",
+        "title": "TTM",
+        "description": "Accelerate time-to-market using a mature core that handles user management and media out of the box."
       },
       {
         "metric": "Zero",
         "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using WordPress inside open architecture patterns."
+        "description": "Maintain 100% ownership of your data and technical stack with an open-source, portable foundation."
       }
     ]
   },
   "quote_section": {
-    "quote": "WordPress gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Modern WordPress turns the complexity of digital publishing into a",
+    "highlight": "streamlined operational flow"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your WordPress roadmap.",
-    "full_name_label": "Lead Name",
+    "title": "Architect Your Content Hub",
+    "subtitle": "Consult with our lead technical specialists to define your headless WordPress roadmap or multisite strategy.",
+    "full_name_label": "Lead Developer",
     "business_email_label": "Entity Email",
     "message_label": "Strategic Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your WordPress architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your publishing goals or architectural challenges...",
+    "button_text": "Request a Consultation"
   }
 }

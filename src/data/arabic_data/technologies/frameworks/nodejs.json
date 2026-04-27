@@ -1,103 +1,116 @@
 {
   "slug": "nodejs",
+  "seo_metadata": {
+    "title": "تطوير Node.js قابل للتطوير | حلول خلفية عالية الأداء",
+    "description": "تنفيذ Node.js على مستوى المؤسسات للأنظمة عالية التزامن. نحن نستفيد من أداء محركات الإدخال/الإخراج وV8 غير المحظورة لإنشاء واجهات خلفية قابلة للتطوير وفي الوقت الفعلي.",
+    "keywords": [
+      "تطوير Node.js",
+      "أداء محرك V8",
+      "العمارة الموجهة بالحدث",
+      "الإدخال/الإخراج غير المحظور",
+      "جافا سكريبت من جانب الخادم",
+      "تطبيقات في الوقت الحقيقي",
+      "تكامل النظام البيئي npm"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "بيئة تشغيل جافا سكريبت",
+    "title": "الطاقة غير المتزامنة مع",
     "highlight": "Node.js",
-    "description": "Build production systems with Node.js in our frameworks delivery ecosystem.",
+    "description": "قم بتنفيذ JavaScript على جانب الخادم لإنشاء تطبيقات شبكة سريعة وقابلة للتطوير وقادرة على التعامل مع آلاف الاتصالات المتزامنة بسلسلة رسائل واحدة.",
     "side_image": "/technologies/node_js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين الواجهة الخلفية الخاصة بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض خريطة الطريق التقنية",
       "href": "/technologies/nodejs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Node.js plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام Node.js؟",
+    "subtitle": "Node.js هو حجر الزاوية في خدمات الويب الحديثة والمتوفرة بشكل كبير وتدفق البيانات في الوقت الحقيقي.",
     "paragraphs": [
-      "Node.js is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Node.js with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "نختار Node.js لأحمال العمل التي تتطلب إنتاجية عالية وزمن وصول منخفض. إن نموذج الإدخال/الإخراج غير المحظور والمبني على الأحداث يجعله فعالاً بشكل استثنائي لتطبيقات الوقت الفعلي كثيفة البيانات والتي تعمل عبر الأجهزة الموزعة، مما يسمح لنا ببناء واجهات خلفية تظل مستجيبة تحت الحمل الثقيل.",
+      "من خلال توحيد لغات الواجهة الأمامية والخلفية لدينا مع JavaScript أو TypeScript، فإننا نزيل الاحتكاك الناتج عن تبديل السياق. يعمل هذا المكدس ذو اللغة الواحدة على تسريع سرعة التطوير، وتبسيط تعاون الفريق، ويسمح بالمنطق المشترك عبر دورة حياة التطبيق بأكملها."
     ],
     "cards": [
       {
-        "title": "Node.js Clarity",
-        "description": "Node.js helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "سرعة محرك V8",
+        "description": "يعمل Node.js، المدعوم بمحرك V8 من Google، على تجميع JavaScript مباشرة في كود الجهاز من أجل التنفيذ بسرعة البرق.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Node.js Performance",
-        "description": "Node.js supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "نموذج حلقة الحدث",
+        "description": "تعامل مع التزامن الهائل دون تحمل عبء إدارة سلسلة الرسائل، مما يزيد من فائدة موارد الخادم.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Node.js Reliability",
-        "description": "Node.js strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "النظام البيئي npm",
+        "description": "استفد من أكبر سجل في العالم للمكتبات مفتوحة المصدر لتسريع تقديم الميزات والابتكار.",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق الفني",
     "image": "/technologies/node_js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Node.js-ready patterns designed for dynamic cloud scaling."
+        "title": "WebSockets في الوقت الحقيقي",
+        "description": "إنشاء طبقات اتصال ذات زمن وصول منخفض لأنظمة الدردشة ولوحات المعلومات المباشرة والأدوات التعاونية باستخدام Jack.io."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Node.js integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "بوابات API قابلة للتطوير",
+        "description": "تنظيم تفاعلات الخدمات الصغيرة المعقدة مع طبقات وكيل Node.js خفيفة الوزن وعالية الأداء."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Node.js to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "وظائف بدون خادم",
+        "description": "نشر المنطق الناتج عن الحدث عبر AWS Lambda أو Google Cloud Functions للحصول على حوسبة فعالة من حيث التكلفة وقابلة للتوسع تلقائيًا."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Node.js stack.",
+    "title": "حافة Node.js",
+    "subtitle": "أداء قابل للقياس للمؤسسات الحديثة.",
     "cards": [
       {
+        "metric": "2 مليون+",
+        "title": "وحدات التسجيل",
+        "description": "الوصول إلى المجموعة الأكثر شمولاً من الحزم التي تم اختبارها مسبقًا لتقليل النفقات الهندسية المخصصة."
+      },
+      {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Node.js effectively."
+        "title": "الكمون أقل",
+        "description": "تقليل أوقات الاستجابة للتطبيقات المرتبطة بالإدخال/الإخراج مقارنة بالبيئات المتزامنة التقليدية."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Node.js."
+        "metric": "أعزب",
+        "title": "كومة اللغة",
+        "description": "قم بتحسين إنتاجية المطورين باستخدام JavaScript عبر دورة حياة تطوير المنتج بأكملها."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Node.js delivery."
-      },
-      {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Node.js inside open architecture patterns."
+        "metric": "صفر",
+        "title": "قفل",
+        "description": "حافظ على التحكم الكامل في بيئة التشغيل الخاصة بك عبر أي بنية أساسية سحابية أو محلية."
       }
     ]
   },
   "quote_section": {
-    "quote": "Node.js gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يسمح لنا Node.js ببناء تطبيقات الشبكة الأولى التي تتميز بالسرعة التي هي عليها",
+    "highlight": "أنيقة معماريا"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Node.js roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم البنية التحتية الخاصة بك",
+    "subtitle": "استشر مهندسي Node.js الرائدين لدينا لتحديد خارطة طريق لأداء عالي التزامن.",
+    "full_name_label": "مهندس الرصاص",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Node.js architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف تحديات أداء Node.js أو متطلبات التوسع...",
+    "button_text": "طلب استشارة"
   }
 }

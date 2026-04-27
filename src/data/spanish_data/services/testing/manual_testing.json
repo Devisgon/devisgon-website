@@ -58,7 +58,7 @@
     "list_items": [
       {
         "title": "1. Planes de prueba integrales",
-        "description": "Documentación detallada paso a paso de todos los casos de prueba que garantizan una cobertura de funciones del 100 %."
+        "description": "Documentación detallada paso a paso de todos los casos de prueba que garantiza una cobertura de funciones del 100 %."
       },
       {
         "title": "2. Pruebas exploratorias",
@@ -83,11 +83,11 @@
         "icon": "SiJira"
       },
       {
-        "name": "carril de prueba",
+        "name": "TestRail",
         "icon": "FaClipboardCheck"
       },
       {
-        "name": "Pila de navegador",
+        "name": "BrowserStack",
         "icon": "BsBrowserChrome"
       },
       {
@@ -95,7 +95,7 @@
         "icon": "SiPostman"
       },
       {
-        "name": "Trelo",
+        "name": "Trello",
         "icon": "SiTrello"
       }
     ]
@@ -105,7 +105,7 @@
     "subtitle": "Un enfoque meticuloso para el aseguramiento de la calidad",
     "steps": [
       {
-        "title": "Analizar",
+        "title": "Analyze",
         "description": "Revisamos los requisitos de su producto, historias de usuario y archivos de diseño para comprender el comportamiento esperado.",
         "icon": "FaSearch"
       },
@@ -115,7 +115,7 @@
         "icon": "FaEdit"
       },
       {
-        "title": "Ejecutar",
+        "title": "Execute",
         "description": "Ejecutamos manualmente los casos de prueba, realizamos pruebas exploratorias e intentamos romper el sistema.",
         "icon": "FaPlay"
       },
@@ -131,15 +131,15 @@
     "image": "/all_services/manual_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problema",
+        "label": "Problem",
         "text": "Una plataforma SaaS pasó todas las pruebas funcionales automatizadas, pero los usuarios abandonaban aleatoriamente la página de actualización de la suscripción premium."
       },
       "solution": {
-        "label": "Solución",
+        "label": "Solution",
         "text": "Nuestro equipo de control de calidad manual realizó pruebas exploratorias en dispositivos móviles físicos y descubrió que un banner de cookies superpuesto bloqueaba completamente el botón \"Pagar ahora\" en pantallas de iPhone más antiguas."
       },
       "result": {
-        "label": "Resultado",
+        "label": "Result",
         "text": "El error era visualmente invisible para los scripts automatizados. Al registrar y corregir esta falla de la interfaz de usuario, la tasa de conversión de la suscripción del cliente aumentó inmediatamente en un 22 %."
       }
     }

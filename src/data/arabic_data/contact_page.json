@@ -1,0 +1,121 @@
+{
+  "hero_title": "دعونا نتحدث عن مشروعك",
+  "hero_description": "على استعداد لتحقيق رؤيتك في الحياة؟ نود أن نسمع عن مشروعك ونستكشف كيف يمكننا مساعدتك في تحقيق أهدافك.",
+  "form": {
+    "title": "أرسل لنا رسالة",
+    "description": "املأ النموذج أدناه وسنقوم بالرد عليك خلال 24 ساعة.",
+    "labels": {
+      "name": "اسم *",
+      "email": "بريد إلكتروني *",
+      "company": "Company",
+      "project_type": "نوع المشروع *",
+      "budget": "نطاق الميزانية",
+      "timeline": "Timeline",
+      "project_detail": "تفاصيل المشروع *",
+      "privacy_consent": "أوافق على معالجة بياناتي الشخصية وفقًا لـ",
+      "privacy_policy": "سياسة الخصوصية",
+      "privacy_consent_suffix": "والموافقة على تلقي الاتصالات حول هذا الاستفسار."
+    },
+    "placeholders": {
+      "name": "اسمك",
+      "email": "your@email.com",
+      "company": "اسم شركتك",
+      "project_detail": "أخبرنا عن مشروعك وأهدافك وأي متطلبات محددة..."
+    },
+    "project_type_options": [
+      {
+        "value": "",
+        "label": "اختر نوع المشروع"
+      },
+      {
+        "value": "Web Development",
+        "label": "تطوير الويب"
+      },
+      {
+        "value": "Mobile App",
+        "label": "تطبيق الجوال"
+      },
+      {
+        "value": "UI / UX Design",
+        "label": "تصميم واجهة المستخدم/تجربة المستخدم"
+      },
+      {
+        "value": "AI Solutions",
+        "label": "حلول الذكاء الاصطناعي"
+      },
+      {
+        "value": "Automation",
+        "label": "Automation"
+      }
+    ],
+    "budget_options": [
+      {
+        "value": "",
+        "label": "حدد نطاق الميزانية"
+      },
+      {
+        "value": "5k-10k",
+        "label": "5 آلاف دولار - 10 آلاف دولار"
+      },
+      {
+        "value": "10k-20k",
+        "label": "10 آلاف دولار - 20 ألف دولار"
+      },
+      {
+        "value": "20k+",
+        "label": "20 ألف دولار +"
+      }
+    ],
+    "timeline_options": [
+      {
+        "value": "",
+        "label": "حدد الجدول الزمني"
+      },
+      {
+        "value": "ASAP",
+        "label": "ASAP"
+      },
+      {
+        "value": "1-3 Months",
+        "label": "1 - 3 أشهر"
+      },
+      {
+        "value": "3-6 Months",
+        "label": "3 - 6 أشهر"
+      },
+      {
+        "value": "6-9 Months",
+        "label": "6 - 9 أشهر"
+      }
+    ],
+    "upload": {
+      "drop_text": "قم بإسقاط الملفات هنا أو انقر للتحميل",
+      "types_text": "PNG، JPG، PDF بحجم يصل إلى 10 ميجابايت"
+    },
+    "buttons": {
+      "send": "أرسل رسالة",
+      "sending": "Sending..."
+    },
+    "status": {
+      "success": "شكرا لاتصالك بنا!",
+      "error": "حاول ثانية",
+      "invalid_email": "استخدم بريدًا إلكترونيًا صالحًا"
+    }
+  },
+  "schedule": {
+    "title": "جدولة مكالمة",
+    "description": "تفضل التحدث؟ احجز مكالمة استشارية مجانية لمدة 30 دقيقة مع فريقنا",
+    "provider": "Calendly",
+    "book_button": "احجز مكالمة",
+    "choose_duration": "اختر مدة الاجتماع",
+    "durations": {
+      "min_15": "اجتماع 15 دقيقة",
+      "min_30": "اجتماع 30 دقيقة",
+      "min_60": "اجتماع مدته 60 دقيقة"
+    }
+  },
+  "contact_info": {
+    "title": "تواصل معنا",
+    "location": "أوكارا، باكستان"
+  }
+}

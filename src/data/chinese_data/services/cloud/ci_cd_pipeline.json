@@ -1,89 +1,89 @@
 {
   "slug": "cicd_pipelines",
   "hero_section": {
-    "title": "CI/CD Pipelines",
-    "subtitle": "Accelerate Your Software Delivery",
-    "description": "Automate your build, test, and deployment processes. We design robust CI/CD pipelines that eliminate manual errors, increase release velocity, and ensure your software is always production-ready.",
+    "title": "CI/CD 管道",
+    "subtitle": "加速您的软件交付",
+    "description": "自动化您的构建、测试和部署流程。我们设计强大的 CI/CD 管道，消除手动错误，提高发布速度，并确保您的软件始终处于生产就绪状态。",
     "buttons": [
       {
-        "text": "Automate My Deployments",
+        "text": "自动化我的部署",
         "link": "/contact"
       },
       {
-        "text": "Talk to a DevOps Expert",
+        "text": "与 DevOps 专家交谈",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/cicd_pipelines.mp4"
   },
   "introduction_section": {
-    "heading": "What are",
-    "span_heading": " CI/CD Pipelines?",
+    "heading": "什么是",
+    "span_heading": "CI/CD 管道？",
     "content": [
-      "Continuous Integration (CI) and Continuous Deployment (CD) form the backbone of modern software engineering. CI automatically merges and tests your developers' code changes, while CD automates the release of that validated code to your live servers. ",
-      "At Devisgon, we eliminate the infamous 'it works on my machine' problem. By building custom pipelines tailored to your exact tech stack, we empower your team to push code with absolute confidence, knowing that automated quality gates will catch bugs before they ever reach your users."
+      "持续集成（CI）和持续部署（CD）构成了现代软件工程的支柱。 CI 自动合并并测试开发人员的代码更改，而 CD 自动将经过验证的代码发布到实时服务器。",
+      "在 Devisgon，我们消除了臭名昭著的“它可以在我的机器上运行”问题。通过构建适合您的具体技术堆栈的自定义管道，我们使您的团队能够以绝对的信心推送代码，因为我们知道自动化的质量门将在错误到达您的用户之前捕获它们。"
     ],
-    "highlight_quote": " “Ship code faster. Break things less.” ",
+    "highlight_quote": "“更快地交付代码。更少地破坏事物。”",
     "side_image": "/all_services/ci_cd_pipeline/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why automation is the future of deployment",
+    "title": "主要优点",
+    "subtitle": "为什么自动化是部署的未来",
     "cards": [
       {
-        "title": "Faster Time-to-Market",
-        "description": "Release new features and bug fixes to your users in minutes instead of weeks.",
+        "title": "更快的上市时间",
+        "description": "在几分钟而不是几周内向您的用户发布新功能和错误修复。",
         "icon_type": "MdTimer"
       },
       {
-        "title": "Reduced Human Error",
-        "description": "Eliminate manual server configurations and copy-pasting that lead to catastrophic downtime.",
+        "title": "减少人为错误",
+        "description": "消除导致灾难性停机的手动服务器配置和复制粘贴。",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Effortless Rollbacks",
-        "description": "If a bad update slips through, our pipelines allow you to instantly revert to the last stable version.",
+        "title": "轻松回滚",
+        "description": "如果出现错误的更新，我们的管道可以让您立即恢复到上一个​​稳定版本。",
         "icon_type": "MdRestore"
       },
       {
-        "title": "Developer Productivity",
-        "description": "Free your engineers from tedious deployment tasks so they can focus on writing great code.",
+        "title": "开发人员生产力",
+        "description": "将您的工程师从繁琐的部署任务中解放出来，以便他们可以专注于编写出色的代码。",
         "icon_type": "MdCode"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose CI/CD Pipelines",
+    "title": "选择 CI/CD 管道后您会得到什么",
     "image": "/all_services/ci_cd_pipeline/wwg.webp",
     "list_items": [
       {
-        "title": "1. Automated Build Processes",
-        "description": "Code is automatically compiled, linted, and packaged into secure containers (like Docker) on every commit."
+        "title": "1. 自动化构建流程",
+        "description": "每次提交时，代码都会自动编译、检查并打包到安全容器（如 Docker）中。"
       },
       {
-        "title": "2. Integrated Automated Testing",
-        "description": "Unit, integration, and security tests run automatically to block faulty code from being merged."
+        "title": "2. 集成自动化测试",
+        "description": "单元、集成和安全测试自动运行，以阻止错误代码被合并。"
       },
       {
-        "title": "3. Zero-Downtime Deployments",
-        "description": "Advanced deployment strategies (like Blue-Green or Canary) so your app stays live during updates."
+        "title": "3. 零停机部署",
+        "description": "高级部署策略（例如蓝绿或金丝雀），使您的应用程序在更新期间保持活动状态。"
       },
       {
-        "title": "4. Performance Monitoring",
-        "description": "Alerts and dashboards that notify your team instantly if a build fails or a deployment stalls."
+        "title": "4. 性能监控",
+        "description": "如果构建失败或部署停止，警报和仪表板会立即通知您的团队。"
       }
     ]
   },
   "technologies_section": {
-    "title": "We automate using industry-leading tools",
-    "subtitle": "The best DevOps platforms for reliable, scalable pipelines",
+    "title": "我们使用行业领先的工具实现自动化",
+    "subtitle": "用于可靠、可扩展管道的最佳 DevOps 平台",
     "tools": [
       {
-        "name": "GitHub Actions",
+        "name": "GitHub 操作",
         "icon": "SiGithubactions"
       },
       {
-        "name": "GitLab CI",
+        "name": "亚搏体育appGitLab持续集成",
         "icon": "FaGitlab"
       },
       {
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we streamline your software delivery",
+    "title": "我们的流程",
+    "subtitle": "我们如何简化您的软件交付",
     "steps": [
       {
-        "title": "Infrastructure Audit",
-        "description": "We analyze your current hosting environment, codebase, and deployment bottlenecks.",
+        "title": "基础设施审计",
+        "description": "我们分析您当前的托管环境、代码库和部署瓶颈。",
         "icon": "FaSearch"
       },
       {
-        "title": "Pipeline Architecture",
-        "description": "We design the workflow logic, defining staging environments and testing gates.",
+        "title": "管道架构",
+        "description": "我们设计工作流程逻辑，定义暂存环境和测试门。",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Scripting & Integration",
-        "description": "We write the configuration files (YAML) and connect your repository to your cloud provider.",
+        "title": "脚本编写和集成",
+        "description": "我们编写配置文件 (YAML) 并将您的存储库连接到您的云提供商。",
         "icon": "FaTerminal"
       },
       {
-        "title": "Testing & Handover",
-        "description": "We run test deployments, document the pipeline, and train your dev team on the new workflow.",
+        "title": "测试与移交",
+        "description": "我们运行测试部署，记录管道，并就新工作流程对您的开发团队进行培训。",
         "icon": "FaCheckDouble"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Reduced deployment time from 4 hours to 15 minutes",
+    "headline": "部署时间从 4 小时缩短至 15 分钟",
     "image": "/all_services/ci_cd_pipeline/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "A SaaS company was doing manual deployments that required taking the site offline for hours every weekend, leading to developer burnout."
+        "text": "一家 SaaS 公司正在进行手动部署，需要每个周末让站点离线几个小时，导致开发人员精疲力尽。"
       },
       "solution": {
         "label": "Solution",
-        "text": "We implemented a fully automated CI/CD pipeline using GitHub Actions, Docker, and AWS Elastic Beanstalk with a rolling deployment strategy."
+        "text": "我们使用 GitHub Actions、Docker 和 AWS Elastic Beanstalk 以及滚动部署策略实施了完全自动化的 CI/CD 管道。"
       },
       "result": {
         "label": "Result",
-        "text": "Deployments now happen automatically in 15 minutes with zero downtime, allowing the team to release features multiple times a day."
+        "text": "现在，部署可在 15 分钟内自动完成，停机时间为零，使团队能够每天多次发布功能。"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about DevOps and CI/CD",
+    "title": "常见问题解答",
+    "subtitle": "获取有关 DevOps 和 CI/CD 的答案",
     "questions": [
       {
-        "question": "What is the difference between Continuous Delivery and Continuous Deployment?",
-        "answer": "Continuous Delivery means your code is automatically tested and ready to be deployed, but a human still has to push the final 'publish' button. Continuous Deployment takes it one step further—every code change that passes the automated tests is deployed straight to production without any human intervention."
+        "question": "持续交付和持续部署有什么区别？",
+        "answer": "持续交付意味着您的代码会自动测试并准备好部署，但仍然需要人工按下最后的“发布”按钮。持续部署更进一步——通过自动化测试的每一个代码更改都会直接部署到生产环境中，无需任何人工干预。"
       },
       {
-        "question": "Do I need CI/CD if I have a small development team?",
-        "answer": "Yes! CI/CD is arguably even more important for small teams. It acts as a digital safety net, catching bugs automatically and saving your limited engineering hours from being wasted on repetitive server uploads."
+        "question": "如果我有一个小型开发团队，我需要 CI/CD 吗？",
+        "answer": "是的！ CI/CD 对于小型团队来说可以说更为重要。它充当数字安全网，自动捕获错误并节省您有限的工程时间，避免浪费在重复的服务器上传上。"
       },
       {
-        "question": "Will a CI/CD pipeline work with my existing codebase?",
-        "answer": "Absolutely. Whether you have a legacy monolithic application or modern microservices, we can build a pipeline around it. The pipeline scripts just tell the server how to build and move your specific code."
+        "question": "CI/CD 管道可以与我现有的代码库配合使用吗？",
+        "answer": "绝对地。无论您拥有传统的整体应用程序还是现代微服务，我们都可以围绕它构建管道。管道脚本只是告诉服务器如何构建和移动您的特定代码。"
       },
       {
-        "question": "What happens if a deployment fails or breaks the live site?",
-        "answer": "A properly designed CI/CD pipeline prevents this. The 'CI' phase will catch compilation or testing errors and block the deployment. If a bug somehow makes it to the 'CD' phase, we configure instant rollback commands so you can revert to the previous working version in seconds."
+        "question": "如果部署失败或破坏实时站点会发生什么？",
+        "answer": "正确设计的 CI/CD 管道可以防止这种情况发生。 “CI”阶段将捕获编译或测试错误并阻止部署。如果错误以某种方式进入“CD”阶段，我们会配置即时回滚命令，以便您可以在几秒钟内恢复到以前的工作版本。"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact us for a free DevOps consultation",
+      "text": "没有找到您的答案吗？",
+      "link_text": "联系我们获取免费的 DevOps 咨询",
       "link_url": "/contact"
     }
   }

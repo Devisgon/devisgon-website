@@ -1,103 +1,116 @@
 {
   "slug": "tools",
+  "seo_metadata": {
+    "title": "أتمتة سير العمل وأدوات تكامل المؤسسات",
+    "description": "قم بتبسيط عملك من خلال التكامل مع n8n وMake وZapier وShopify. نقوم بتصميم مسارات العمل الآلية وخطوط التجارة لتحقيق أقصى قدر من الكفاءة التشغيلية.",
+    "keywords": [
+      "أتمتة سير العمل",
+      "خدمات التكامل n8n",
+      "أتمتة Make.com",
+      "زابير للمؤسسات",
+      "تطوير شوبيفاي",
+      "حلول ووردبريس بدون رأس",
+      "تنسيق العمليات التجارية"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Tools",
-    "description": "Build production systems with n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "التنسيق والأتمتة",
+    "title": "توحيد سير العمل مع",
+    "highlight": "أدوات متكاملة",
+    "description": "قم بتحويل العمليات المجزأة إلى أنظمة بيئية رقمية سلسة باستخدام منصات الأتمتة الرائدة في الصناعة، ومحركات التجارة، وأطر عمل CMS.",
+    "side_image": "/services_page/tools-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "أتمتة سير العمل الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "خارطة الطريق التقنية",
       "href": "/technologies/tools#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Tools forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام الأدوات.",
+    "subtitle": "تسمح لنا اختيارات الأدوات الإستراتيجية ببناء منطق عمل معقد مع تقليل النفقات العامة بشكل كبير.",
     "paragraphs": [
-      "n8n, Make, Zapier, Amazon, Shopify, and WordPress gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "تتيح لنا مجموعة الأتمتة لدينا - التي تتميز بـ n8n وMake وZapier - توصيل تطبيقات SaaS المتباينة في سير عمل واحد متماسك. من خلال الاستفادة من تنسيق التعليمات البرمجية المنخفضة جنبًا إلى جنب مع تطوير واجهة برمجة التطبيقات المخصصة، فإننا نقدم حلولاً قابلة للنشر بسرعة وقابلة للصيانة بشكل كبير، مما يسمح لفريقك بالتمحور بالسرعة التي يتطلبها السوق.",
+      "من خلال دمج منصات التجارة والمحتوى القوية مثل Shopify وWordPress، فإننا نوفر أساسًا عالي الثقة لواجهة متجرك الرقمية ووجود علامتك التجارية. نحن نركز على البنى \"غير المعتمدة على الأدوات\" التي تضمن تدفق بياناتك بحرية بين الأنظمة، مما يمنع العزلة ويزيد عائد الاستثمار لاستثماراتك البرمجية الحالية."
     ],
     "cards": [
       {
-        "title": "Automation Velocity",
-        "description": "n8n, Make, and Zapier remove repetitive tasks and manual bottlenecks.",
-        "icon_type": "FaBolt"
+        "title": "فرط الأتمتة",
+        "description": "انشر البوابات المنطقية المعقدة والمشغلات عبر أكثر من 1000 تطبيق للتخلص من الإدخال اليدوي للبيانات والأخطاء البشرية.",
+        "icon_type": "FaSyncAlt"
       },
       {
-        "title": "Commerce Enablement",
-        "description": "Amazon and Shopify streamline channel operations and conversion workflows.",
-        "icon_type": "FaShoppingCart"
+        "title": "تجارة قابلة للتطوير",
+        "description": "صمم عمليات سير عمل Shopify وAmazon عالية التحويل والتي تتكيف تلقائيًا مع حجم طلبك.",
+        "icon_type": "FaStore"
       },
       {
-        "title": "Publishing Scale",
-        "description": "WordPress supports consistent, high-throughput content operations.",
-        "icon_type": "FaWordpress"
+        "title": "خفة المحتوى",
+        "description": "استخدم أدوات WordPress وCMS مقطوعة الرأس لتقديم المحتوى عبر منصات متعددة عبر واجهات برمجة التطبيقات الآمنة والسريعة.",
+        "icon_type": "FaPencilRuler"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق التكامل",
+    "image": "/services_page/tools-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with tools choices matched to runtime and scaling goals."
+        "title": "API-التنسيق الأول",
+        "description": "إنشاء موصلات وخطافات ويب مخصصة لمزامنة البيانات بين قواعد البيانات القديمة والأدوات السحابية الحديثة."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "مراكز التسويق الآلي",
+        "description": "ربط إدارة علاقات العملاء (CRM) والبريد الإلكتروني والقنوات الاجتماعية في حلقات مكتفية ذاتيًا تعمل على رعاية العملاء المتوقعين دون تدخل يدوي."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "مزامنة مخزون القناة الشاملة",
+        "description": "تنسيق مزامنة المنتج والمخزون في الوقت الفعلي عبر أنظمة Shopify وAmazon وERP."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Tools stack.",
+    "title": "حافة الأتمتة",
+    "subtitle": "كفاءة قابلة للقياس للتدفق التشغيلي الحديث.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "metric": "60%",
+        "title": "المكاسب التشغيلية",
+        "description": "متوسط ​​التخفيض في الوقت المستغرق في المهام الإدارية اليدوية من خلال تكامل الأدوات الإستراتيجية."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "في الوقت الحالى",
+        "title": "مزامنة البيانات",
+        "description": "تخلص من زمن انتقال البيانات من خلال التحديثات الفورية المستندة إلى خطاف الويب عبر مجموعتك التقنية بأكملها."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "100%",
+        "title": "قابلية التوسع",
+        "description": "الأدوات المستندة إلى السحابة والتي تنمو مع أعمالك، وتتعامل مع أعباء العمل المتزايدة دون توظيف إضافي."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "يؤمن",
+        "title": "اتصالات",
+        "description": "استخدم OAuth 2.0 والتشفير على مستوى المؤسسات لضمان بقاء البيانات آمنة أثناء انتقالها بين الأنظمة الأساسية."
       }
     ]
   },
   "quote_section": {
-    "quote": "Connected tooling transforms fragmented workflows into",
-    "highlight": "operational flow"
+    "quote": "تعمل الأدوات المتصلة على تحويل سير العمل المجزأ إلى",
+    "highlight": "التدفق التشغيلي"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your tools roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الحل الخاص بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق توحد أدواتك المجزأة.",
+    "full_name_label": "اسم المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف اختناقات سير العمل الحالية أو تحديات التكامل...",
+    "button_text": "بدء تدقيق الأتمتة"
   }
 }

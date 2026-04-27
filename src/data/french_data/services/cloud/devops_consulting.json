@@ -79,7 +79,7 @@
     "subtitle": "Les meilleurs outils d'automatisation, d'orchestration et de provisionnement",
     "tools": [
       {
-        "name": "Terraforme",
+        "name": "Terraform",
         "icon": "SiTerraform"
       },
       {
@@ -105,22 +105,22 @@
     "subtitle": "Un chemin structuré vers la maturité DevOps",
     "steps": [
       {
-        "title": "Évaluer",
+        "title": "Assess",
         "description": "Nous évaluons vos flux de travail actuels, la structure de votre équipe et votre infrastructure pour identifier les points sensibles critiques.",
         "icon": "FaSearch"
       },
       {
-        "title": "Élaborer une stratégie",
+        "title": "Strategize",
         "description": "Nous concevons le modèle opérationnel cible, les plans architecturaux et sélectionnons la chaîne d'outils optimale.",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Mettre en œuvre",
+        "title": "Implement",
         "description": "Nous construisons votre infrastructure en tant que code (IaC), vos pipelines CI/CD et vos cadres de tests automatisés.",
         "icon": "FaCogs"
       },
       {
-        "title": "Optimiser",
+        "title": "Optimize",
         "description": "Nous établissons une surveillance 24h/24 et 7j/7, ajustons les performances, réduisons les coûts du cloud et formons votre personnel.",
         "icon": "FaChartLine"
       }
@@ -131,7 +131,7 @@
     "image": "/all_services/devops_consulting/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une startup technologique en croissance rapide était confrontée à des déploiements manuels imprévisibles et à des factures cloud massives en raison d'une infrastructure inefficace et non surveillée."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Nous avons effectué un audit DevOps complet, migré leur infrastructure vers le code (IaC) à l'aide de Terraform et établi des pipelines CI/CD automatisés."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "La fréquence de déploiement a augmenté de 400 %, les temps de restauration ont été réduits à quelques minutes et le dimensionnement adéquat des ressources a réduit leurs dépenses cloud mensuelles de 35 %."
       }
     }

@@ -1,103 +1,116 @@
 {
   "slug": "javascript",
+  "seo_metadata": {
+    "title": "Universelle JavaScript-Entwicklung | Full-Stack-Web- und Node.js-Lösungen",
+    "description": "Experten-JavaScript-Implementierung für dynamische Webanwendungen. Wir nutzen die Leistung der V8-Engine und die ereignisgesteuerte Architektur, um skalierbare Full-Stack-Systeme zu erstellen.",
+    "keywords": [
+      "JavaScript-Entwicklung",
+      "ES6+ Webstandards",
+      "V8-Motoroptimierung",
+      "Asynchrone Programmierung",
+      "Universelles JavaScript",
+      "Ereignisgesteuerte Architektur",
+      "Full-Stack-JS-Lösungen"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Die Sprache des Webs",
+    "title": "Dynamische Agilität mit",
     "highlight": "JavaScript",
-    "description": "Build production systems with JavaScript in our languages delivery ecosystem.",
+    "description": "Unterstützen Sie Ihren gesamten Produktlebenszyklus mit der vielseitigsten Sprache der Welt und sorgen Sie für leistungsstarke Interaktivität vom Browser bis zum Server.",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimieren Sie Ihren Stack",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Technische Roadmap anzeigen",
       "href": "/technologies/javascript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "JavaScript plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Warum wir mit JavaScript entwickeln",
+    "subtitle": "JavaScript ist der Grundstein moderner digitaler Erlebnisse und bietet beispiellose Geschwindigkeit und universelle Reichweite.",
     "paragraphs": [
-      "JavaScript is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using JavaScript with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "JavaScript ist unser wichtigstes Werkzeug zum Erstellen reaktiver, benutzerzentrierter Anwendungen. Durch die Nutzung der nicht blockierenden Ereignisschleife und der Hochgeschwindigkeits-V8-Engine liefern wir Schnittstellen, die sofort auf Benutzereingaben reagieren und gleichzeitig die komplexe Backend-Orchestrierung über ein einheitliches Hochgeschwindigkeits-Sprachökosystem bewältigen.",
+      "Die wahre Stärke von JavaScript liegt in seiner „universellen“ Natur. Durch die gemeinsame Nutzung der Logik zwischen dem Client und dem Server reduzieren unsere Teams architektonische Reibungsverluste, beschleunigen die Bereitstellung von Funktionen und stellen sicher, dass Ihre Geschäftslogik an jedem Berührungspunkt Ihrer digitalen Infrastruktur konsistent bleibt."
     ],
     "cards": [
       {
-        "title": "JavaScript Clarity",
-        "description": "JavaScript helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Universelle Reichweite",
+        "description": "Führen Sie dieselbe Codebasis auf allen Browsern, Servern und Mobilgeräten aus, um eine maximale Wiederverwendung der Logik zu erreichen.",
+        "icon_type": "FaGlobe"
       },
       {
-        "title": "JavaScript Performance",
-        "description": "JavaScript supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Asynchrone Leistung",
+        "description": "Behandeln Sie Tausende gleichzeitiger Vorgänge, ohne den Hauptthread zu blockieren, indem Sie Promises und Async/Await verwenden.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "JavaScript Reliability",
-        "description": "JavaScript strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Lebendiges Ökosystem",
+        "description": "Greifen Sie auf die weltweit größte Paketregistrierung (npm) zu, um kampferprobte Module und eine schnelle Funktionsintegration zu erhalten.",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "Technologie-Architektur",
+    "title": "Technischer Umfang",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with JavaScript-ready patterns designed for dynamic cloud scaling."
+        "title": "Ereignisgesteuerte Backends",
+        "description": "Entwicklung serverseitiger Dienste mit hoher Parallelität, die die Node.js-Ereignisschleife für extremen Durchsatz nutzen."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "JavaScript integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Reaktiver Frontend-Status",
+        "description": "Erstellen Sie komplexe, lebendige Benutzeroberflächen mit modernen Mustern, die sicherstellen, dass die Ansichtsebene perfekt mit den zugrunde liegenden Daten synchronisiert bleibt."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use JavaScript to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Serverloses und Edge-Computing",
+        "description": "Bereitstellung einfacher JavaScript-Funktionen an der Edge für personalisierte, skalierbare Inhaltsbereitstellung mit geringer Latenz."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the JavaScript stack.",
+    "title": "Der JavaScript Edge",
+    "subtitle": "Strategische Leistungsvorteile für eine schnelle digitale Welt.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging JavaScript effectively."
+        "metric": "Schnell",
+        "title": "Ausführung",
+        "description": "Die V8-Engine von Google kompiliert JS in Echtzeit in Maschinencode und kann damit mit der Leistung traditioneller Sprachen mithalten."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with JavaScript."
+        "metric": "100 %",
+        "title": "Full-Stack",
+        "description": "Der einheitliche Sprachstapel reduziert den Kontextwechsel und vereinfacht die Arbeitsabläufe von der Entwicklung bis zur Bereitstellung."
       },
       {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate JavaScript delivery."
+        "title": "Offene Bibliotheken",
+        "description": "Greifen Sie auf ein riesiges globales Repository mit vorab getesteten technischen Modulen zu, um die Bereitstellung zu beschleunigen."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using JavaScript inside open architecture patterns."
+        "metric": "Null",
+        "title": "Barrieren",
+        "description": "Die einzige Sprache, die nativ von allen gängigen Browsern unterstützt wird und 100 % Plattformkompatibilität gewährleistet."
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "JavaScript ermöglicht es uns, die komplexesten Schnittstellen ohne Verluste zu erstellen",
+    "highlight": "architektonische Agilität"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your JavaScript roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Gestalten Sie Ihre Infrastruktur",
+    "subtitle": "Lassen Sie sich von unseren führenden technischen Spezialisten beraten, um eine skalierbare JavaScript-Roadmap für Ihr digitales Produkt zu definieren.",
+    "full_name_label": "Leitender Entwickler",
+    "business_email_label": "Entitäts-E-Mail",
+    "message_label": "Strategische Anforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your JavaScript architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihre JavaScript-Architekturherausforderung oder Ihre Leistungsziele ...",
+    "button_text": "Fordern Sie eine Beratung an"
   }
 }

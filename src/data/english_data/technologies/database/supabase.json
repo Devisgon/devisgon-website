@@ -1,103 +1,116 @@
 {
   "slug": "supabase",
+  "seo_metadata": {
+    "title": "Enterprise Supabase Development | PostgreSQL & Realtime Backend Solutions",
+    "description": "Professional Supabase implementation services. Build scalable, secure applications with automated APIs, real-time database subscriptions, and enterprise-grade Auth.",
+    "keywords": [
+      "Supabase Development",
+      "PostgreSQL Architecture",
+      "Realtime Database",
+      "Row Level Security (RLS)",
+      "BaaS Solutions",
+      "Supabase Edge Functions",
+      "Serverless Backend"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "The Open Source Firebase Alternative",
+    "title": "Rapid Innovation with",
     "highlight": "Supabase",
-    "description": "Build production systems with Supabase in our database delivery ecosystem.",
+    "description": "Accelerate your backend development with a powerful PostgreSQL-based suite including instant APIs, real-time data syncing, and integrated authentication.",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Build Your Backend",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "View Core Architecture",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Supabase plays a critical role in our database strategy for reliable software delivery.",
+    "title": "Why We Engineer with Supabase",
+    "subtitle": "Supabase combines the reliability of PostgreSQL with the speed of modern Backend-as-a-Service (BaaS) platforms.",
     "paragraphs": [
-      "Supabase is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Supabase with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Supabase allows us to eliminate months of boilerplate backend engineering. By leveraging its auto-generated REST and GraphQL APIs, we can transition from schema design to frontend integration in hours rather than weeks, all while staying within the robust PostgreSQL ecosystem.",
+      "The platform’s greatest strength lies in its security model. By utilizing PostgreSQL's native Row Level Security (RLS), we ensure that data isolation and user permissions are enforced at the database level, creating a 'thick database, thin client' architecture that is inherently more secure."
     ],
     "cards": [
       {
-        "title": "Supabase Clarity",
-        "description": "Supabase helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "PostgreSQL Power",
+        "description": "Every Supabase project is a full, dedicated PostgreSQL database—no proprietary abstraction layers.",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Supabase Performance",
-        "description": "Supabase supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Realtime Engine",
+        "description": "Listen to database changes in real-time via WebSockets to build collaborative, live user experiences.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Supabase Reliability",
-        "description": "Supabase strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Built-in Auth",
+        "description": "Manage user signups and logins with a comprehensive suite of social and passwordless providers.",
+        "icon_type": "FaUserShield"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "title": "Supabase Technical Scope",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Supabase-ready patterns designed for dynamic cloud scaling."
+        "title": "Relational Data Modeling",
+        "description": "Designing high-integrity PostgreSQL schemas with foreign keys, views, and stored procedures for business logic."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Supabase integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Serverless Edge Functions",
+        "description": "Deploying TypeScript functions globally to handle sensitive logic, webhooks, and third-party integrations."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Supabase to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Storage & Asset Management",
+        "description": "Managing large files and media with a scalable storage layer that integrates directly with database permissions."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Supabase stack.",
+    "title": "The Supabase Edge",
+    "subtitle": "Strategic advantages for modern full-stack delivery.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Supabase effectively."
+        "metric": "3x",
+        "title": "Development Speed",
+        "description": "Reduction in backend development time through automated CRUD API generation and integrated Auth."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Supabase."
+        "metric": "99.95%",
+        "title": "Uptime",
+        "description": "High-availability infrastructure managed by AWS and optimized for mission-critical uptime."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Supabase delivery."
+        "metric": "Open",
+        "title": "Source Core",
+        "description": "Built on open-source standards like Postgres, GoTrue, and PostgREST, preventing restrictive lock-in."
       },
       {
         "metric": "Zero",
         "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Supabase inside open architecture patterns."
+        "description": "Export your entire database and configuration at any time to your own self-hosted PostgreSQL instance."
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Supabase allows us to build with the speed of a startup and the",
+    "highlight": "stability of an enterprise"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Supabase roadmap.",
-    "full_name_label": "Lead Name",
+    "title": "Architect Your Realtime App",
+    "subtitle": "Consult with our lead engineers to define your Supabase architecture or plan a migration from Firebase.",
+    "full_name_label": "Lead Developer Name",
     "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "message_label": "Technical Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Supabase architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your data requirements or realtime challenges...",
+    "button_text": "Launch Your Project"
   }
 }

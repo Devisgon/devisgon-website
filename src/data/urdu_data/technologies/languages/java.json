@@ -1,103 +1,116 @@
 {
   "slug": "java",
+  "seo_metadata": {
+    "title": "انٹرپرائز جاوا ڈویلپمنٹ | توسیع پذیر JVM آرکیٹیکچر سروسز",
+    "description": "اعلی کنکرنسی انٹرپرائز ایپلی کیشنز کے لیے کسٹم جاوا سافٹ ویئر انجینئرنگ۔ ہم اسپرنگ بوٹ اور جدید JVM آپٹیمائزیشن کا استعمال کرتے ہوئے محفوظ، مستحکم، اور توسیع پذیر نظاموں کی تعمیر کرتے ہیں۔",
+    "keywords": [
+      "انٹرپرائز جاوا ڈویلپمنٹ",
+      "اسپرنگ بوٹ مائیکرو سروسز",
+      "جے وی ایم پرفارمنس ٹیوننگ",
+      "جاوا سافٹ ویئر آرکیٹیکچر",
+      "بیک اینڈ سسٹم انجینئرنگ",
+      "ملٹی تھریڈڈ جاوا ایپلی کیشنز",
+      "جکارتہ ای ای سلوشنز"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Java",
-    "description": "Build production systems with Java in our languages delivery ecosystem.",
+    "eyebrow": "انٹرپرائز-گریڈ کی وشوسنییتا",
+    "title": "کے ساتھ ثابت شدہ استحکام",
+    "highlight": "جاوا پلیٹ فارم",
+    "description": "حفاظت، اعلی ہم آہنگی، اور طویل مدتی برقرار رکھنے کے لیے ڈیزائن کردہ زبان کے ساتھ لچکدار، کراس پلیٹ فارم انٹرپرائز سسٹم بنائیں۔",
     "side_image": "/technologies/java/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے سسٹم کو آرکیٹیکٹ کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ",
       "href": "/technologies/java#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Java plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "ہم جاوا کے ساتھ انجینئر کیوں ہیں؟",
+    "subtitle": "Java مشن کے اہم سافٹ ویئر کے لیے درکار ساختی نظم و ضبط اور ماحولیاتی نظام کی گہرائی فراہم کرتا ہے۔",
     "paragraphs": [
-      "Java is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Java with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "جاوا پیچیدہ، کثیر پرتوں والی انٹرپرائز ایپلی کیشنز کی تعمیر کے لیے ہمارا سنگ بنیاد ہے۔ اس کی سخت قسم کی حفاظت، اعلی درجے کی کوڑا کرکٹ جمع کرنے کے ذریعے مضبوط میموری کا انتظام، اور اعلی کارکردگی والی جاوا ورچوئل مشین (JVM) اس بات کو یقینی بناتی ہے کہ ایپلی کیشنز بڑے لین دین کے بوجھ کے تحت مستحکم رہیں۔",
+      "اسپرنگ بوٹ اور اسپرنگ کلاؤڈ سمیت وسیع اسپرنگ ایکو سسٹم سے فائدہ اٹھاتے ہوئے ہم مائیکرو سروسز فراہم کرتے ہیں جو فطری طور پر قابل مشاہدہ، محفوظ اور کلاؤڈ مقامی تعیناتی کے لیے تیار ہیں۔ یہ پختہ فریم ورک سپورٹ ہمیں پیچیدہ کاروباری منطق کو حل کرنے پر توجہ مرکوز کرنے کی اجازت دیتا ہے جبکہ پلیٹ فارم بنیادی ڈھانچے کو ہینڈل کرتا ہے۔"
     ],
     "cards": [
       {
-        "title": "Java Clarity",
-        "description": "Java helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "JVM کارکردگی",
+        "description": "جسٹ ان ٹائم (جے آئی ٹی) کی تالیف کا فائدہ اٹھائیں اور ہائی تھرو پٹ ایگزیکیوشن کے لیے آپٹمائزڈ میموری مینجمنٹ۔",
+        "icon_type": "FaTachometerAlt"
       },
       {
-        "title": "Java Performance",
-        "description": "Java supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "مضبوط قسم کی حفاظت",
+        "description": "آرکیٹیکچرل حدود کو نافذ کریں اور بڑی ٹیموں میں کوڈ کی سالمیت کو یقینی بنانے کے لیے مرتب وقت پر غلطیوں کو پکڑیں۔",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Java Reliability",
-        "description": "Java strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "انٹرپرائز ماحولیاتی نظام",
+        "description": "سلامتی، استقامت (ہائبرنیٹ) اور پیغام رسانی (کافکا/جے ایم ایس) کے لیے عالمی معیار کی لائبریریوں تک رسائی حاصل کریں۔",
+        "icon_type": "FaServer"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "جاوا تکنیکی دائرہ کار",
     "image": "/technologies/java/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Java-ready patterns designed for dynamic cloud scaling."
+        "title": "کلاؤڈ-آبائی مائیکرو سروسز",
+        "description": "Kubernetes ماحول میں تیزی سے اسکیلنگ کے لیے Spring Boot اور Quarkus کے ساتھ کنٹینرائزڈ خدمات کی تعمیر۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Java integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "اعلی ہم آہنگی پروسیسنگ",
+        "description": "اعلی کارکردگی والے ڈیٹا پروسیسنگ کے لیے جاوا کے جدید ملٹی تھریڈنگ اور ورچوئل تھریڈز (پروجیکٹ لوم) کا استعمال۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Java to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "تقسیم شدہ میراثی انضمام",
+        "description": "محفوظ API گیٹ ویز اور RMI کے ذریعے جدید کلاؤڈ آرکیٹیکچرز کے ساتھ مشن کے لیے اہم میراثی نظاموں کو ملانا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Java stack.",
+    "title": "جاوا مسابقتی ایج",
+    "subtitle": "طویل مدتی مصنوعات کی کامیابی کے لیے قابل قدر فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Java effectively."
+        "metric": "99.99%",
+        "title": "اپ ٹائم قابل اعتماد",
+        "description": "مالیاتی اور ٹیلی کمیونیکیشن کے شعبوں میں کئی دہائیوں کی جنگی آزمائشیں بے مثال استحکام کو یقینی بناتی ہیں۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Java."
+        "metric": "ایک بار لکھیں۔",
+        "title": "کہیں بھی چلائیں۔",
+        "description": "JVM یقینی بناتا ہے کہ آپ کا کوڈ لینکس، ونڈوز اور کلاؤڈ ماحول میں مستقل طور پر برتاؤ کرتا ہے۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Java delivery."
+        "metric": "توسیع پذیر",
+        "title": "ہم آہنگی",
+        "description": "پختہ تھریڈنگ ماڈلز کے ساتھ بیک وقت ہزاروں کنکشنز کو مؤثر طریقے سے ہینڈل کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Java inside open architecture patterns."
+        "metric": "صفر",
+        "title": "دیکھ بھال کا خطرہ",
+        "description": "سخت پسماندہ مطابقت اور طویل مدتی سپورٹ (LTS) ورژن آپ کی تکنیکی سرمایہ کاری کی حفاظت کرتے ہیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Java gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "جاوا ہمیں تقسیم شدہ نظاموں کی پیچیدگی کو پیچھے چھپانے کی اجازت دیتا ہے۔",
+    "highlight": "نظم و ضبط فن تعمیر"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Java roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنی انٹرپرائز پرت کو ڈیزائن کریں۔",
+    "subtitle": "اپنے ڈیجیٹل انفراسٹرکچر کے لیے ایک محفوظ، توسیع پذیر روڈ میپ کی تعمیر کے لیے ہمارے لیڈ جاوا ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ آرکیٹیکٹ کا نام",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "تکنیکی ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Java architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے بیک اینڈ اسکیلنگ کے اہداف یا JVM کارکردگی کے چیلنجوں کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

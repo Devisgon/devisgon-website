@@ -1,103 +1,116 @@
 {
   "slug": "php",
+  "seo_metadata": {
+    "title": "Développement PHP moderne | Ingénierie évolutive côté serveur",
+    "description": "Services experts en développement de logiciels PHP. Nous construisons des applications Web hautes performances, sécurisées et maintenables en utilisant les normes PHP 8+ modernes et des environnements d'exécution optimisés.",
+    "keywords": [
+      "Développement PHP moderne",
+      "Programmation côté serveur",
+      "Compilation PHP 8 JIT",
+      "Solutions PHP complètes",
+      "Architecture Web back-end",
+      "Meilleures pratiques de sécurité PHP",
+      "Services Web évolutifs"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "PHP",
-    "description": "Build production systems with PHP in our languages delivery ecosystem.",
+    "eyebrow": "Le moteur du Web moderne",
+    "title": "Puissance dynamique avec",
+    "highlight": "PHP moderne",
+    "description": "Tirez parti du langage qui alimente plus de 75 % du Web pour créer des applications côté serveur rapides, sécurisées et hautement évolutives avec des fonctionnalités 8.x modernes.",
     "side_image": "/technologies/php/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Consultez un expert",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Feuille de route technique",
       "href": "/technologies/php#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "PHP plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec PHP",
+    "subtitle": "PHP offre un équilibre inégalé entre vitesse de développement, prise en charge massive de l'écosystème et efficacité côté serveur.",
     "paragraphs": [
-      "PHP is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using PHP with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "PHP est notre principal choix pour créer des backends Web robustes et des plates-formes riches en contenu. Avec la sortie de PHP 8.x, le langage a connu des progrès significatifs en termes de performances grâce à la compilation JIT (Just-In-Time) et à une sécurité de type améliorée, ce qui en fait un redoutable concurrent pour les environnements d'entreprise à haute concurrence.",
+      "Au-delà de ses performances, la plus grande force de PHP réside dans sa flexibilité de déploiement. Il s'intègre parfaitement à presque toutes les infrastructures et bases de données cloud modernes, permettant à nos équipes de fournir des logiciels fiables avec une surcharge opérationnelle réduite et des cycles d'itération plus rapides."
     ],
     "cards": [
       {
-        "title": "PHP Clarity",
-        "description": "PHP helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Performances PHP 8",
+        "description": "Utilisez la compilation JIT et les noyaux d'exécution améliorés pour un traitement des requêtes beaucoup plus rapide.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "PHP Performance",
-        "description": "PHP supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Typage strict",
+        "description": "Implémentez des indices de type et des attributs modernes pour garantir la fiabilité du code et détecter les erreurs dès le début du développement.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "PHP Reliability",
-        "description": "PHP strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Écosystème massif",
+        "description": "Accédez à des millions de packages testés au combat via Composer pour tout, de la sécurité au traitement des paiements.",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée technique",
     "image": "/technologies/php/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with PHP-ready patterns designed for dynamic cloud scaling."
+        "title": "Applications Web évolutives",
+        "description": "Concevoir des plates-formes à fort trafic à l'aide de modèles de conception PHP modernes et de configurations FPM optimisées."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "PHP integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "API REST et GraphQL",
+        "description": "Créer des couches d'API puissantes et documentées qui servent d'épine dorsale aux applications mobiles et frontales."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use PHP to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "PHP sans serveur",
+        "description": "Déploiement d'une logique et de nœuds de calcul basés sur les événements à l'aide de Bref et AWS Lambda pour une mise à l'échelle rentable."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the PHP stack.",
+    "title": "L'avantage PHP",
+    "subtitle": "Des gains compétitifs stratégiques pour votre infrastructure Web.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging PHP effectively."
+        "metric": "Rapide",
+        "title": "Déploiement",
+        "description": "Vitesse inégalée du développement à la production grâce à un écosystème de déploiement mature."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with PHP."
+        "metric": "99,9%",
+        "title": "Compatibilité",
+        "description": "Prise en charge native par tous les principaux fournisseurs de cloud et environnements d'hébergement à l'échelle mondiale."
       },
       {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate PHP delivery."
+        "title": "Bibliothèques ouvertes",
+        "description": "Tirez parti d’un vaste océan de modules techniques pré-testés pour accélérer la livraison des produits."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using PHP inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Coût de la licence",
+        "description": "Le noyau open source garantit que votre budget technique est consacré à l'innovation plutôt qu'aux frais."
       }
     ]
   },
   "quote_section": {
-    "quote": "PHP gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Le PHP moderne offre la voie pratique pour transformer des idées commerciales complexes en",
+    "highlight": "réalité Web évolutive"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your PHP roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Architectez votre noyau Web",
+    "subtitle": "Consultez nos principaux spécialistes techniques pour définir une feuille de route PHP évolutive pour votre plateforme numérique.",
+    "full_name_label": "Développeur principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence stratégique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your PHP architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos objectifs de mise à l'échelle PHP ou vos défis architecturaux...",
+    "button_text": "Demander une consultation"
   }
 }

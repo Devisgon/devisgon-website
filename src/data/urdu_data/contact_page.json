@@ -1,0 +1,121 @@
+{
+  "hero_title": "آئیے آپ کے پروجیکٹ کے بارے میں بات کریں۔",
+  "hero_description": "اپنے وژن کو زندہ کرنے کے لیے تیار ہیں؟ ہم آپ کے پراجیکٹ کے بارے میں سن کر اور یہ دریافت کرنا پسند کریں گے کہ ہم آپ کے مقاصد کو حاصل کرنے میں آپ کی کس طرح مدد کر سکتے ہیں۔",
+  "form": {
+    "title": "ہمیں ایک پیغام بھیجیں۔",
+    "description": "نیچے دیئے گئے فارم کو پُر کریں اور ہم 24 گھنٹوں کے اندر آپ سے رابطہ کریں گے۔",
+    "labels": {
+      "name": "نام*",
+      "email": "ای میل*",
+      "company": "Company",
+      "project_type": "پروجیکٹ کی قسم *",
+      "budget": "بجٹ کی حد",
+      "timeline": "Timeline",
+      "project_detail": "پروجیکٹ کی تفصیل*",
+      "privacy_consent": "میں کے مطابق اپنے ذاتی ڈیٹا کی پروسیسنگ سے اتفاق کرتا ہوں۔",
+      "privacy_policy": "رازداری کی پالیسی",
+      "privacy_consent_suffix": "اور اس انکوائری کے بارے میں مواصلت حاصل کرنے کی رضامندی۔"
+    },
+    "placeholders": {
+      "name": "آپ کا نام",
+      "email": "your@email.com",
+      "company": "آپ کی کمپنی کا نام",
+      "project_detail": "ہمیں اپنے پراجیکٹ، اہداف، اور کسی مخصوص ضروریات کے بارے میں بتائیں..."
+    },
+    "project_type_options": [
+      {
+        "value": "",
+        "label": "پروجیکٹ کی قسم منتخب کریں۔"
+      },
+      {
+        "value": "Web Development",
+        "label": "ویب ڈویلپمنٹ"
+      },
+      {
+        "value": "Mobile App",
+        "label": "موبائل ایپ"
+      },
+      {
+        "value": "UI / UX Design",
+        "label": "UI / UX ڈیزائن"
+      },
+      {
+        "value": "AI Solutions",
+        "label": "AI سلوشنز"
+      },
+      {
+        "value": "Automation",
+        "label": "Automation"
+      }
+    ],
+    "budget_options": [
+      {
+        "value": "",
+        "label": "بجٹ کی حد منتخب کریں۔"
+      },
+      {
+        "value": "5k-10k",
+        "label": "$5k - $10k"
+      },
+      {
+        "value": "10k-20k",
+        "label": "$10k - $20k"
+      },
+      {
+        "value": "20k+",
+        "label": "$20k+"
+      }
+    ],
+    "timeline_options": [
+      {
+        "value": "",
+        "label": "ٹائم لائن منتخب کریں۔"
+      },
+      {
+        "value": "ASAP",
+        "label": "ASAP"
+      },
+      {
+        "value": "1-3 Months",
+        "label": "1 - 3 ماہ"
+      },
+      {
+        "value": "3-6 Months",
+        "label": "3 - 6 ماہ"
+      },
+      {
+        "value": "6-9 Months",
+        "label": "6 - 9 ماہ"
+      }
+    ],
+    "upload": {
+      "drop_text": "فائلیں یہاں چھوڑیں یا اپ لوڈ کرنے کے لیے کلک کریں۔",
+      "types_text": "PNG، JPG، PDF 10MB تک"
+    },
+    "buttons": {
+      "send": "پیغام بھیجیں۔",
+      "sending": "Sending..."
+    },
+    "status": {
+      "success": "ہم سے رابطہ کرنے کا شکریہ!",
+      "error": "دوبارہ کوشش کریں۔",
+      "invalid_email": "ایک درست ای میل استعمال کریں۔"
+    }
+  },
+  "schedule": {
+    "title": "کال کا شیڈول بنائیں",
+    "description": "بات کرنے کو ترجیح دیتے ہیں؟ ہماری ٹیم کے ساتھ 30 منٹ کی مفت مشاورتی کال بک کریں۔",
+    "provider": "Calendly",
+    "book_button": "ایک کال بک کرو",
+    "choose_duration": "میٹنگ کا دورانیہ منتخب کریں۔",
+    "durations": {
+      "min_15": "15 منٹ کی ملاقات",
+      "min_30": "30 منٹ کی میٹنگ",
+      "min_60": "60 منٹ میٹنگ"
+    }
+  },
+  "contact_info": {
+    "title": "رابطہ کریں۔",
+    "location": "اوکاڑہ، پاکستان"
+  }
+}

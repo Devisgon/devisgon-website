@@ -1,103 +1,116 @@
 {
   "slug": "make",
+  "seo_metadata": {
+    "title": "أتمتة Make.com الاحترافية | تنسيق سير العمل المرئي",
+    "description": "خدمات التشغيل الآلي على مستوى المؤسسات. نقوم بتصميم مسارات العمل المرئية المعقدة وتكامل البيانات ومنطق الأعمال متعدد الخطوات بدقة جراحية.",
+    "keywords": [
+      "أتمتة Make.com",
+      "التكامل التكاملي",
+      "تصميم سير العمل المرئي",
+      "التنسيق المنطقي بدون رمز",
+      "خدمات تكامل واجهة برمجة التطبيقات",
+      "رسم خرائط البيانات وتحويلها",
+      "سيناريوهات أتمتة المؤسسة"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Make",
-    "description": "Build production systems with Make in our tools delivery ecosystem.",
+    "eyebrow": "أتمتة سير العمل المرئي",
+    "title": "تصميم بلا حدود مع",
+    "highlight": "يصنع",
+    "description": "قم بتصميم عمليات أتمتة معقدة ومتعددة الخطوات باستخدام واجهة مرئية تسمح لك بمراقبة منطق الأعمال وإنشائه وتوسيع نطاقه في الوقت الفعلي.",
     "side_image": "/technologies/make/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "صمم سير العمل الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض أنماط المنطق",
       "href": "/technologies/make#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Make plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع الصنع",
+    "subtitle": "يوفر Make الوضوح البصري والضوابط المنطقية المتقدمة اللازمة لأتمتة الأعمال المتطورة.",
     "paragraphs": [
-      "Make is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Make with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "نختار \"إنشاء\" للمشاريع التي تتطلب تحويلاً معقدًا للبيانات ومنطقًا متفرّعًا. لا تخفي واجهة السحب والإفلات البديهية التعقيد فحسب، بل إنها تحدده أيضًا، مما يسمح للمهندسين المعماريين لدينا ببناء سيناريوهات معقدة باستخدام معالجة الأخطاء المضمنة والمكررات والمجمعات التي تضمن تدفق البيانات تمامًا كما هو مقصود.",
+      "بالإضافة إلى المشغلات والإجراءات البسيطة، يسمح Make بالتحكم الدقيق في كل نقطة بيانات. من خلال الاستفادة من وظائفها القوية ووحدات HTTP، يمكننا ربط أي خدمة تقريبًا بواجهة برمجة التطبيقات (API)، وإنشاء عمليات تكامل مخصصة تعمل على سد الفجوة بين الأدوات القديمة المتخصصة والأنظمة البيئية السحابية الحديثة."
     ],
     "cards": [
       {
-        "title": "Make Clarity",
-        "description": "Make helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "رسم الخرائط المنطقية البصرية",
+        "description": "قم بمراقبة وتصحيح تدفق البيانات الخاصة بك في الوقت الفعلي باستخدام لوحة مرئية تجعل المنطق المعقد سهل الفهم.",
+        "icon_type": "FaEye"
       },
       {
-        "title": "Make Performance",
-        "description": "Make supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "التحكم المتقدم في البيانات",
+        "description": "استخدم الأدوات المدمجة القوية مثل المرشحات وأجهزة التوجيه ومحولات البيانات لتنفيذ تشغيلي دقيق.",
+        "icon_type": "FaRandom"
       },
       {
-        "title": "Make Reliability",
-        "description": "Make strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "الاتصال العالمي",
+        "description": "يمكنك الاتصال بأكثر من 1000 تطبيق تم إنشاؤه مسبقًا أو أي واجهة برمجة تطبيقات مخصصة باستخدام وحدات HTTP/JSON القوية.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق التنسيق الفني",
     "image": "/technologies/make/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Make-ready patterns designed for dynamic cloud scaling."
+        "title": "التفرع المنطقي المعقد",
+        "description": "تنفيذ أجهزة توجيه ومرشحات متقدمة للتعامل مع سير العمل متعدد الشروط وإدارة حالة الحافة."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Make integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "تجميع البيانات بكميات كبيرة",
+        "description": "استخدام التكرارات والمجمعات لمعالجة مجموعات كبيرة من البيانات بين أنظمة إدارة علاقات العملاء (CRM) وتخطيط موارد المؤسسات (ERP) وأنظمة قواعد البيانات."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Make to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "تكامل واجهة برمجة التطبيقات المخصصة",
+        "description": "تطوير وحدات متخصصة وتدفقات المصادقة للخدمات الخاصة أو المتخصصة عبر REST وWebhooks."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Make stack.",
+    "title": "الاستفادة",
+    "subtitle": "مكاسب تنافسية استراتيجية لنظامك البيئي الآلي.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Make effectively."
+        "metric": "في الوقت الحالى",
+        "title": "مراقبة التنفيذ",
+        "description": "تتبع كل حركة بيانات بشكل مرئي، مما يجعل استكشاف الأخطاء وإصلاحها وتحسينها فوريًا."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Make."
+        "metric": "لانهائي",
+        "title": "قابلية التوسع",
+        "description": "يمكنك التوسع من المهام البسيطة إلى ملايين العمليات شهريًا دون إدارة البنية التحتية."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Make delivery."
+        "metric": "1000+",
+        "title": "التكاملات الأصلية",
+        "description": "استفد من مكتبة ضخمة من الموصلات التي تم اختبارها مسبقًا لتسريع وقت طرحك في السوق."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Make inside open architecture patterns."
+        "metric": "صفر",
+        "title": "صيانة",
+        "description": "ركز على منطق الأعمال بينما يتعامل النظام الأساسي مع وقت تشغيل الخادم والأمان وإصدار واجهة برمجة التطبيقات."
       }
     ]
   },
   "quote_section": {
-    "quote": "Make gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يتيح لنا Make تحويل متطلبات العمل عالية المستوى إلى",
+    "highlight": "منطق مرئي قابل للتنفيذ"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Make roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الأتمتة الخاصة بك",
+    "subtitle": "استشر متخصصي الأتمتة الرائدين لدينا لتحديد خارطة الطريق الخاصة بك وتحسين التدفق التشغيلي لديك.",
+    "full_name_label": "المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "متطلبات سير العمل",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Make architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف الاختناقات اليدوية الحالية أو تحديات التكامل...",
+    "button_text": "طلب التدقيق الفني"
   }
 }

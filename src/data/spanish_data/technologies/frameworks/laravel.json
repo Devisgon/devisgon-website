@@ -1,103 +1,116 @@
 {
   "slug": "laravel",
+  "seo_metadata": {
+    "title": "Desarrollo empresarial Laravel | Soluciones elegantes de marco PHP",
+    "description": "Servicios de desarrollo web Laravel personalizados. Diseñamos aplicaciones escalables, seguras y mantenibles utilizando el marco MVC más potente de PHP.",
+    "keywords": [
+      "Desarrollo Laravel",
+      "Marco PHP MVC",
+      "ORM elocuente",
+      "Implementación de Laravel Forge",
+      "Desarrollo de API personalizado",
+      "Laravel Vapor sin servidor",
+      "Soluciones PHP de pila completa"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "El marco PHP para artesanos web",
+    "title": "Ingeniería elegante con",
     "highlight": "Laravel",
-    "description": "Build production systems with Laravel in our frameworks delivery ecosystem.",
+    "description": "Cree aplicaciones web modernas y completas con un marco que priorice el código limpio, la felicidad de los desarrolladores y la solidez a escala empresarial.",
     "side_image": "/technologies/laravel/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Comience su construcción",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Explorar el ecosistema",
       "href": "/technologies/laravel#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Laravel plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Por qué diseñamos con Laravel",
+    "subtitle": "Laravel proporciona el ecosistema más completo para un desarrollo rápido sin sacrificar la integridad arquitectónica.",
     "paragraphs": [
-      "Laravel is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Laravel with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Laravel es nuestra opción preferida para aplicaciones web complejas, ricas en contenido o transaccionales. Su enfoque de 'baterías incluidas' (que incluye autenticación, servicios de correo y gestión de colas integrados) nos permite centrarnos en crear características comerciales únicas en lugar de reinventar la infraestructura central.",
+      "Al utilizar Eloquent ORM y el motor de plantillas Blade, creamos bases de código que no solo son eficientes sino también altamente legibles. Esto garantiza que las aplicaciones que creamos sean fáciles de auditar, mantener y transferir a los equipos internos a medida que crecen."
     ],
     "cards": [
       {
-        "title": "Laravel Clarity",
-        "description": "Laravel helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "ORM elocuente",
+        "description": "Administre registros de bases de datos con una sintaxis hermosa y expresiva que hace que las consultas complejas sean simples y legibles.",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Laravel Performance",
-        "description": "Laravel supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Seguridad sólida",
+        "description": "La protección contra la inyección de SQL, la falsificación de solicitudes entre sitios y las secuencias de comandos entre sitios está integrada en el núcleo.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Laravel Reliability",
-        "description": "Laravel strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Colas escalables",
+        "description": "Descargue tareas que consumen mucho tiempo a los trabajadores en segundo plano para mantener la interfaz de usuario de su aplicación ultrarrápida.",
+        "icon_type": "FaTasks"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance del marco",
     "image": "/technologies/laravel/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Laravel-ready patterns designed for dynamic cloud scaling."
+        "title": "Monolitos modulares",
+        "description": "Estructurar aplicaciones utilizando el patrón MVC tradicional manteniendo la modularidad para facilitar las transiciones a microservicios."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Laravel integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Eventos en tiempo real",
+        "description": "Integrando Laravel Echo y Pusher/Reverb para crear notificaciones en tiempo real y actualizaciones de datos en vivo."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Laravel to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Operaciones sin servidor y en la nube",
+        "description": "Implementación a escala utilizando Laravel Vapor para AWS Lambda o Forge para clústeres de servidores administrados de alto rendimiento."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Laravel stack.",
+    "title": "El borde de Laravel",
+    "subtitle": "Ventajas estratégicas para la entrega empresarial moderna.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Laravel effectively."
+        "metric": "Rápido",
+        "title": "Incorporación",
+        "description": "Las convenciones claras y la documentación extensa reducen la curva de aprendizaje para los nuevos desarrolladores."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Laravel."
+        "metric": "99,9%",
+        "title": "Código de seguridad",
+        "description": "Utilizando funciones de PHP 8+ y el conjunto de pruebas de Laravel para garantizar implementaciones de alta confianza."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Laravel delivery."
+        "metric": "20k+",
+        "title": "Paquetes",
+        "description": "Una comunidad masiva (Packagist) que proporciona módulos para pasarelas de pago, autenticación social y más."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Laravel inside open architecture patterns."
+        "metric": "Cero",
+        "title": "Crecimiento de la deuda",
+        "description": "El estricto cumplimiento de los estándares PSR garantiza que su código base siga siendo moderno y compatible con futuras versiones de PHP."
       }
     ]
   },
   "quote_section": {
-    "quote": "Laravel gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Laravel libera a los desarrolladores para crear mientras el marco maneja el",
+    "highlight": "levantamiento pesado arquitectónico"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Laravel roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su próxima empresa",
+    "subtitle": "Consulte con nuestros expertos en Laravel para crear una solución web escalable y segura adaptada a sus necesidades comerciales.",
+    "full_name_label": "Desarrollador principal",
+    "business_email_label": "Correo electrónico corporativo",
+    "message_label": "Alcance del proyecto",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Laravel architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe tu visión de Laravel o los complejos requisitos de backend...",
+    "button_text": "Solicitar una cotización"
   }
 }

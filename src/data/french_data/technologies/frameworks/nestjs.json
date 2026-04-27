@@ -1,103 +1,116 @@
 {
   "slug": "nestjs",
+  "seo_metadata": {
+    "title": "Développement NestJS pour entreprise | Architecture Node.js évolutive",
+    "description": "Développement NestJS personnalisé pour des backends robustes, modulaires et de niveau entreprise. Nous construisons des API TypeScript hautement testables et maintenables à l'aide de NestJS.",
+    "keywords": [
+      "Développement NestJS",
+      "Cadre back-end TypeScript",
+      "Microservices Node.js",
+      "Architecture des API d'entreprise",
+      "Injection de dépendances NestJS",
+      "Conception back-end modulaire",
+      "TypeScript côté serveur"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Un framework Node.js progressif",
+    "title": "Construisez des systèmes évolutifs avec",
     "highlight": "NestJS",
-    "description": "Build production systems with NestJS in our frameworks delivery ecosystem.",
-    "side_image": "/technologies/nest_js/hero.webp",
+    "description": "Exploitez la puissance de TypeScript et de l'architecture modulaire pour créer des applications côté serveur efficaces, fiables et de niveau entreprise.",
+    "side_image": "/technologies/nestjs/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Architectez votre back-end",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Voir l'architecture",
       "href": "/technologies/nestjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "NestJS plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec NestJS",
+    "subtitle": "NestJS fournit l'architecture structurée et avisée nécessaire aux applications Node.js à grande échelle.",
     "paragraphs": [
-      "NestJS is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using NestJS with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "NestJS est notre framework de choix pour les environnements d'entreprise Node.js. En utilisant TypeScript de manière native et en adoptant une architecture inspirée d'Angular, il résout le problème du « Far West » des projets Node.js standard, en fournissant une structure claire de contrôleurs, de fournisseurs et de modules.",
+      "Cette modularité permet à nos équipes de construire des systèmes hautement testables et faiblement couplés. Que nous construisions un monolithe complexe ou un maillage de microservices distribués, NestJS garantit que le code reste maintenable et que l'injection de dépendances est gérée avec une précision chirurgicale."
     ],
     "cards": [
       {
-        "title": "NestJS Clarity",
-        "description": "NestJS helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "TypeScript natif",
+        "description": "Construit avec et pour TypeScript, offrant une saisie puissante et des fonctionnalités JavaScript modernes pour une livraison sans erreur.",
+        "icon_type": "FaCode"
       },
       {
-        "title": "NestJS Performance",
-        "description": "NestJS supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Architecture modulaire",
+        "description": "Encapsulez la logique dans des modules réutilisables, ce qui facilite la navigation et la mise à l'échelle des bases de code volumineuses.",
+        "icon_type": "FaThLarge"
       },
       {
-        "title": "NestJS Reliability",
-        "description": "NestJS strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Injection de dépendance",
+        "description": "Un conteneur DI puissant qui simplifie les tests et améliore la réutilisabilité du code dans l'ensemble de l'écosystème.",
+        "icon_type": "FaProjectDiagram"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/nest_js/scope.webp",
+    "id": "architecture technologique",
+    "title": "Portée technique NestJS",
+    "image": "/technologies/nestjs/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with NestJS-ready patterns designed for dynamic cloud scaling."
+        "title": "Microservices & Transports",
+        "description": "Architecture de systèmes distribués utilisant la prise en charge intégrée de NATS, RabbitMQ, gRPC et Kafka."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "NestJS integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "API GraphQL et REST",
+        "description": "Créez des couches de données puissantes avec une documentation automatisée Swagger/OpenAPI et des résolveurs GraphQL sécurisés."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use NestJS to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "CQRS et sourcing d'événements",
+        "description": "Implémentation de la séparation des responsabilités des requêtes de commande (CQRS) pour les flux de travail d'entreprise complexes basés sur les données."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the NestJS stack.",
+    "title": "Le bord NestJS",
+    "subtitle": "Performances prévisibles pour les backends de niveau entreprise.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging NestJS effectively."
+        "metric": "Strict",
+        "title": "Sécurité",
+        "description": "Éliminez pratiquement les erreurs de type d'exécution en tirant parti de l'intégration approfondie de NestJS avec TypeScript."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with NestJS."
+        "metric": "100%",
+        "title": "Testable",
+        "description": "Prise en charge intégrée de Jest et d'utilitaires de test spécialisés pour les tests unitaires, d'intégration et e2e."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate NestJS delivery."
+        "metric": "Moderne",
+        "title": "Écosystème",
+        "description": "Intégration transparente avec TypeORM, Prisma, Mongoose et des centaines de bibliothèques testées au combat."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using NestJS inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Frottement de conception",
+        "description": "Les conventions établies réduisent le temps consacré aux débats architecturaux, accélérant ainsi la livraison des fonctionnalités."
       }
     ]
   },
   "quote_section": {
-    "quote": "NestJS gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "NestJS apporte discipline d'entreprise et élégance architecturale au",
+    "highlight": "Écosystème Node.js"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your NestJS roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre API d'entreprise",
+    "subtitle": "Consultez nos architectes NestJS pour concevoir une infrastructure backend évolutive, maintenable et de type sécurisé.",
+    "full_name_label": "Architecte principal",
+    "business_email_label": "Courriel d'entreprise",
+    "message_label": "Vision technique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your NestJS architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos défis de mise à l'échelle du backend ou vos exigences architecturales...",
+    "button_text": "Demander une consultation"
   }
 }

@@ -1,103 +1,116 @@
 {
   "slug": "make",
+  "seo_metadata": {
+    "title": "Professional Make.com Automation | Visual Workflow Orchestration",
+    "description": "Enterprise-grade Make automation services. We architect complex visual workflows, data integrations, and multi-step business logic with surgical precision.",
+    "keywords": [
+      "Make.com Automation",
+      "Integromat Integration",
+      "Visual Workflow Design",
+      "No-code Logic Orchestration",
+      "API Integration Services",
+      "Data Mapping & Transformation",
+      "Enterprise Automation Scenarios"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Visual Workflow Automation",
+    "title": "Design without Limits with",
     "highlight": "Make",
-    "description": "Build production systems with Make in our tools delivery ecosystem.",
+    "description": "Architect complex, multi-step automations with a visual interface that allows you to observe, build, and scale business logic in real-time.",
     "side_image": "/technologies/make/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Design Your Workflow",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "View Logic Patterns",
       "href": "/technologies/make#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Make plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Why We Engineer with Make",
+    "subtitle": "Make provides the visual clarity and advanced logical controls necessary for sophisticated business automation.",
     "paragraphs": [
-      "Make is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Make with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "We choose Make for projects that require complex data transformation and branching logic. Its intuitive drag-and-drop interface doesn't just hide complexity—it maps it, allowing our architects to build intricate scenarios with built-in error handling, iterators, and aggregators that ensure data flows exactly as intended.",
+      "Beyond simple triggers and actions, Make allows for granular control over every data point. By leveraging its powerful functions and HTTP modules, we can connect virtually any service with an API, creating custom integrations that bridge the gap between niche legacy tools and modern cloud ecosystems."
     ],
     "cards": [
       {
-        "title": "Make Clarity",
-        "description": "Make helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Visual Logic Mapping",
+        "description": "Observe and debug your data flow in real-time with a visual canvas that makes complex logic easy to understand.",
+        "icon_type": "FaEye"
       },
       {
-        "title": "Make Performance",
-        "description": "Make supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Advanced Data Control",
+        "description": "Utilize powerful built-in tools like filters, routers, and data transformers for precise operational execution.",
+        "icon_type": "FaRandom"
       },
       {
-        "title": "Make Reliability",
-        "description": "Make strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Universal Connectivity",
+        "description": "Connect to 1,000+ pre-built apps or any custom API using robust HTTP/JSON modules.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "title": "Technical Orchestration Scope",
     "image": "/technologies/make/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Make-ready patterns designed for dynamic cloud scaling."
+        "title": "Complex Logic Branching",
+        "description": "Implementing advanced routers and filters to handle multi-conditional workflows and edge-case management."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Make integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "High-Volume Data Aggregation",
+        "description": "Using iterators and aggregators to process large batches of data between CRM, ERP, and database systems."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Make to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Custom API Integration",
+        "description": "Developing specialized modules and authentication flows for proprietary or niche services via REST and Webhooks."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Make stack.",
+    "title": "The Make Advantage",
+    "subtitle": "Strategic competitive gains for your automated ecosystem.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Make effectively."
+        "metric": "Real-time",
+        "title": "Execution Monitoring",
+        "description": "Track every data movement visually, making troubleshooting and optimization instantaneous."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Make."
+        "metric": "Infinite",
+        "title": "Scalability",
+        "description": "Scale from simple tasks to millions of operations per month without infrastructure management."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Make delivery."
+        "metric": "1000+",
+        "title": "Native Integrations",
+        "description": "Leverage a massive library of pre-tested connectors to accelerate your time-to-market."
       },
       {
         "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Make inside open architecture patterns."
+        "title": "Maintenance",
+        "description": "Focus on business logic while the platform handles server uptime, security, and API versioning."
       }
     ]
   },
   "quote_section": {
-    "quote": "Make gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Make allows us to turn high-level business requirements into",
+    "highlight": "executable visual logic"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Make roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "Architect Your Automation",
+    "subtitle": "Consult with our lead automation specialists to define your Make roadmap and optimize your operational flow.",
+    "full_name_label": "Lead Architect",
+    "business_email_label": "Corporate Email",
+    "message_label": "Workflow Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Make architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your current manual bottlenecks or integration challenges...",
+    "button_text": "Request a Technical Audit"
   }
 }

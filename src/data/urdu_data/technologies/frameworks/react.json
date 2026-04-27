@@ -1,103 +1,116 @@
 {
   "slug": "react",
+  "seo_metadata": {
+    "title": "پیشہ ورانہ رد عمل کی ترقی | انٹرایکٹو اجزاء کا فن تعمیر",
+    "description": "انٹرپرائز گریڈ React.js ترقیاتی خدمات۔ ہم اجزاء پر مبنی ڈیزائن اور جدید ریاستی نظم و نسق کا استعمال کرتے ہوئے اعلیٰ کارکردگی، توسیع پذیر یوزر انٹرفیس بناتے ہیں۔",
+    "keywords": [
+      "React.js ڈویلپمنٹ",
+      "فرنٹ اینڈ آرکیٹیکچر",
+      "سنگل پیج ایپلی کیشنز (SPA)",
+      "ورچوئل DOM کارکردگی",
+      "React ہکس",
+      "اجزاء سے چلنے والا ڈیزائن",
+      "ریاستی انتظامی حل"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "React",
-    "description": "Build production systems with React in our frameworks delivery ecosystem.",
+    "eyebrow": "ویب انٹرفیس کے لیے لائبریری",
+    "title": "انٹرایکٹو پریسجن کے ساتھ",
+    "highlight": "رد عمل",
+    "description": "اجزاء پر مبنی فن تعمیر کے ساتھ اعلی ہم آہنگی والے، انٹرایکٹو یوزر انٹرفیس بنائیں جو قابل پیشن گوئی حالت اور بجلی کی تیز رفتار رینڈرنگ کو یقینی بناتا ہے۔",
     "side_image": "/technologies/react/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے فرنٹ اینڈ کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ دیکھیں",
       "href": "/technologies/react#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "React plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "ہم ری ایکٹ کے ساتھ انجینئر کیوں؟",
+    "subtitle": "React آسانی کے ساتھ پیچیدہ، ڈیٹا سے چلنے والے انٹرفیس بنانے کے لیے ضروری اعلانی طاقت فراہم کرتا ہے۔",
     "paragraphs": [
-      "React is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using React with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "متحرک ویب تجربات بنانے کے لیے رد عمل ہمارا بنیادی انتخاب ہے۔ اعلانیہ پروگرامنگ ماڈل اور ایک ورچوئل DOM کا استعمال کرتے ہوئے، ہم مہنگے براہ راست براؤزر کی ہیرا پھیری کو کم کرتے ہیں، جس کے نتیجے میں انتہائی پرفارمنس ایپلی کیشنز ہوتی ہیں جو UI کی پیچیدگی سے قطع نظر بغیر کسی رکاوٹ کے پیمانے پر ہوتی ہیں۔",
+      "React کی اصل طاقت اس کے اجزاء پر مبنی ماحولیاتی نظام میں مضمر ہے۔ یہ ماڈیولر اپروچ ہماری ٹیموں کو کوڈ کے انکیپسلیٹڈ یونٹس بنانے کی اجازت دیتا ہے جو ان کی اپنی حالت کا نظم کرتے ہیں، بہتر دوبارہ استعمال کے قابل، آسان جانچ، اور ڈیزائنرز اور انجینئرز کے درمیان نمایاں طور پر صاف ستھرا ہینڈ آفس۔"
     ],
     "cards": [
       {
-        "title": "React Clarity",
-        "description": "React helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "ورچوئل DOM کی کارکردگی",
+        "description": "ذہین مختلف الگورتھم اس بات کو یقینی بناتے ہیں کہ UI کے صرف ضروری حصوں کو اپ ڈیٹ کیا جائے، کارکردگی کو زیادہ سے زیادہ۔",
+        "icon_type": "FaZap"
       },
       {
-        "title": "React Performance",
-        "description": "React supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "یک طرفہ ڈیٹا فلو",
+        "description": "یون ڈائریکشنل ڈیٹا بائنڈنگ ڈیبگنگ اور ایپلیکیشن منطق کے لیے ایک قابل قیاس ذہنی ماڈل فراہم کرتی ہے۔",
+        "icon_type": "FaExchangeAlt"
       },
       {
-        "title": "React Reliability",
-        "description": "React strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "امیر ماحولیاتی نظام",
+        "description": "npm کے ذریعے روٹنگ، اسٹیٹ مینجمنٹ، اور UI اجزاء کے لیے ہزاروں پہلے سے جانچی گئی لائبریریوں تک رسائی حاصل کریں۔",
+        "icon_type": "FaBoxes"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "فرنٹ اینڈ آرکیٹیکچرل اسکوپ",
     "image": "/technologies/react/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with React-ready patterns designed for dynamic cloud scaling."
+        "title": "اجزاء سے چلنے والا ڈیزائن",
+        "description": "مستقل اور دوبارہ قابل استعمال UI عناصر کے لیے اٹامک ڈیزائن کے اصولوں کے ساتھ آرکیٹیکٹنگ ڈیزائن سسٹم۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "React integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "جدید ریاستی انتظام",
+        "description": "پیچیدہ ایپلیکیشن اسٹیٹس کے لیے Redux Toolkit، Zustand، یا Context API کا استعمال کرتے ہوئے قابل پیشن گوئی ڈیٹا اسٹورز کو نافذ کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use React to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "کارکردگی کی اصلاح",
+        "description": "کم سے کم بنڈل سائز اور فوری لوڈ کے اوقات کو یقینی بنانے کے لیے یادداشت، کوڈ کی تقسیم، اور سست لوڈنگ کا استعمال۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the React stack.",
+    "title": "ری ایکٹ ایج",
+    "subtitle": "جدید ویب پروڈکٹس کے لیے قابل قدر فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging React effectively."
+        "metric": "85%",
+        "title": "کوڈ دوبارہ استعمال کرنے کی صلاحیت",
+        "description": "متعدد آراء میں مشترکہ اجزاء کا فائدہ اٹھائیں اور یہاں تک کہ موبائل پروجیکٹس کے لیے مقامی رد عمل کا اظہار کریں۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with React."
+        "metric": "60 ایف پی ایس",
+        "title": "انٹرفیس کی روانی",
+        "description": "آپٹمائزڈ رینڈرنگ سائیکل اور ہکس کے ذریعے ہموار اینیمیشنز اور ٹرانزیشن حاصل کریں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate React delivery."
+        "metric": "فعال",
+        "title": "ایل ٹی ایس سپورٹ",
+        "description": "میٹا اور ایک عالمی برادری کے تعاون سے، طویل مدتی استحکام اور سیکیورٹی اپ ڈیٹس کو یقینی بنانا۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using React inside open architecture patterns."
+        "metric": "صفر",
+        "title": "سپتیٹی کوڈ",
+        "description": "JSX اور Hooks جیسے قائم شدہ نمونے بڑی ٹیموں کے لیے صاف ستھرا، زیادہ پڑھنے کے قابل ڈھانچے کو نافذ کرتے ہیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "React gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "رد عمل ہمیں کھوئے بغیر پیچیدہ، زندہ انٹرفیس بنانے کی اجازت دیتا ہے۔",
+    "highlight": "تعمیراتی پیشن گوئی"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your React roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے فرنٹ اینڈ کو آرکیٹیکٹ کریں۔",
+    "subtitle": "قابل توسیع UI حکمت عملی اور کارکردگی کے روڈ میپ کی وضاحت کے لیے ہمارے لیڈ React آرکیٹیکٹس سے مشورہ کریں۔",
+    "full_name_label": "لیڈ انجینئر",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "UI کی ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے ردعمل کی کارکردگی کے اہداف یا ڈیزائن سسٹم کے چیلنجز کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

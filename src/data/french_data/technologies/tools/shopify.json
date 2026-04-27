@@ -1,103 +1,116 @@
 {
   "slug": "shopify",
+  "seo_metadata": {
+    "title": "Développement Shopify d'entreprise | Commerce sans tête et applications personnalisées",
+    "description": "Services de développement Shopify et Shopify Plus personnalisés. Nous concevons des vitrines sans tête à conversion élevée et des pipelines commerciaux automatisés à l’aide d’hydrogène et de liquides.",
+    "keywords": [
+      "Développement Shopify Plus",
+      "Hydrogène de commerce sans tête",
+      "Développement d'applications Shopify personnalisées",
+      "Architecture du commerce électronique",
+      "Optimisation des modèles liquides",
+      "Intégration de l'API Shopify",
+      "Solutions de commerce omnicanal"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "La plateforme commerciale mondiale",
+    "title": "Faites évoluer votre vitrine avec",
     "highlight": "Shopify",
-    "description": "Build production systems with Shopify in our tools delivery ecosystem.",
+    "description": "Offrez des expériences d'achat ultra-rapides et à conversion élevée à l'aide d'une plate-forme conçue pour des transactions sécurisées à l'échelle mondiale et une croissance omnicanale.",
     "side_image": "/technologies/shopify/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Construisez votre vitrine",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Voir la portée technique",
       "href": "/technologies/shopify#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Shopify plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Shopify",
+    "subtitle": "Shopify fournit l'infrastructure la plus robuste et la plus sécurisée pour les opérations de vente au détail modernes et à volume élevé.",
     "paragraphs": [
-      "Shopify is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Shopify with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Shopify est notre principal moteur pour le commerce traditionnel et sans tête. En utilisant son hébergement conforme à la norme PCI et son processus de paiement éprouvé, nous éliminons les risques de sécurité associés aux passerelles de paiement personnalisées. Cela permet à nos équipes de se concentrer sur la création d'expériences utilisateur uniques et d'une logique métier personnalisée plutôt que sur la gestion de la disponibilité du serveur ou des mises à jour des correctifs.",
+      "Avec l'introduction de l'hydrogène et de l'oxygène, nous pouvons désormais créer des vitrines entièrement découplées et sans tête qui offrent la vitesse d'une application basée sur React combinée à la facilité d'administration du backend Shopify. Cette approche hybride garantit que votre site est optimisé pour le référencement et la conversion tout en conservant une flexibilité architecturale à long terme."
     ],
     "cards": [
       {
-        "title": "Shopify Clarity",
-        "description": "Shopify helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Agilité sans tête",
+        "description": "Utilisez Hydrogen (React) pour créer des interfaces sur mesure qui communiquent avec Shopify via la puissante API Storefront.",
+        "icon_type": "FaReact"
       },
       {
-        "title": "Shopify Performance",
-        "description": "Shopify supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Sécurité éprouvée",
+        "description": "Bénéficiez dès le départ de la conformité PCI DSS de niveau 1 et d’une protection contre la fraude de pointe.",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Shopify Reliability",
-        "description": "Shopify strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Omnicanal mondial",
+        "description": "Synchronisez instantanément les stocks, les commandes et les clients sur les réseaux sociaux, les marchés et les points de vente physiques.",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée architecturale du commerce",
     "image": "/technologies/shopify/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Shopify-ready patterns designed for dynamic cloud scaling."
+        "title": "Vitrines sans tête (hydrogène)",
+        "description": "Développer des expériences commerciales hautes performances et de pointe à l'aide de React et de la plateforme d'hébergement Oxygen."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Shopify integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Intégration d'applications et d'API personnalisées",
+        "description": "Création d'applications et de middleware Shopify privés pour connecter votre vitrine aux systèmes ERP, PIM et 3PL."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Shopify to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Ingénierie du thème liquide",
+        "description": "Création de thèmes Shopify hautement optimisés et axés sur le référencement avec une personnalisation approfondie grâce au développement de Liquid et de Schema."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Shopify stack.",
+    "title": "L'avantage Shopify",
+    "subtitle": "Des avantages quantifiables pour les marques de vente au détail dominantes.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Shopify effectively."
+        "metric": "99,99%",
+        "title": "Disponibilité de la plateforme",
+        "description": "Infrastructure sans maintenance conçue pour gérer les pics de trafic massifs lors des pics de vente."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Shopify."
+        "metric": "Rapide",
+        "title": "Conversion de paiement",
+        "description": "Tirez parti de « Shop Pay » pour offrir à vos clients l’expérience de paiement la plus rapide et la plus fiable au monde."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Shopify delivery."
+        "metric": "3000+",
+        "title": "Écosystème d'applications",
+        "description": "Accédez à une vaste bibliothèque d'extensions pré-testées pour ajouter des fonctionnalités complexes en une fraction du temps."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Shopify inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Ballonnement d’entretien",
+        "description": "Concentrez 100 % de votre budget technique sur l'innovation plutôt que sur la gestion des serveurs et les correctifs de sécurité."
       }
     ]
   },
   "quote_section": {
-    "quote": "Shopify gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Shopify transforme la complexité du commerce mondial en un",
+    "highlight": "flux de travail technique fluide"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Shopify roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre solution commerciale",
+    "subtitle": "Consultez nos principaux spécialistes Shopify pour définir votre feuille de route sans tête ou votre stratégie d'application personnalisée.",
+    "full_name_label": "Développeur principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence stratégique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Shopify architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos objectifs commerciaux ou vos défis architecturaux...",
+    "button_text": "Demander un audit technique"
   }
 }

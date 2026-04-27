@@ -1,103 +1,116 @@
 {
-  "slug": "react_native",
+  "slug": "react-native",
+  "seo_metadata": {
+    "title": "التطوير الاحترافي للرد الفعل الأصلي | التطبيقات الأصلية عبر الأنظمة الأساسية",
+    "description": "خدمات التنفيذ Enterprise React Native. نحن نبني تطبيقات iOS وAndroid عالية الأداء باستخدام قاعدة بيانات JavaScript واحدة مع عرض أصلي.",
+    "keywords": [
+      "رد فعل التنمية الأصلية",
+      "تطبيقات الجوال عبر الأنظمة الأساسية",
+      "جافا سكريبت الجسر الأصلي",
+      "رد فعل بنية النسيج الأصلية",
+      "تحسين تطبيقات الهاتف المحمول",
+      "تطوير المعرض",
+      "تكامل الوحدة الأصلية"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "React Native",
-    "description": "Build production systems with React Native in our frameworks delivery ecosystem.",
+    "eyebrow": "الأداء الأصلي، وكفاءة التفاعل",
+    "title": "تجربة موحدة مع",
+    "highlight": "رد الفعل الأصلي",
+    "description": "اجمع بين قوة إمكانات النظام الأساسي الأصلي وتجربة المطورين الرائدة في الصناعة في React لشحن تطبيقات الأجهزة المحمولة عالية الجودة بشكل أسرع.",
     "side_image": "/technologies/react_native/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ابدأ في إنشاء الهاتف المحمول",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "التوثيق الفني",
       "href": "/technologies/react_native#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "React Native plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام React Native",
+    "subtitle": "يسمح لنا React Native بتقديم واجهات مستخدم أصلية مع الحفاظ على قاعدة تعليمات برمجية واحدة ومشتركة.",
     "paragraphs": [
-      "React Native is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using React Native with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "React Native هو إطار العمل المفضل لدينا للمشاريع التي تتطلب استجابة على المستوى الأصلي وإمكانية الوصول إلى واجهات برمجة التطبيقات الخاصة بالنظام الأساسي. على عكس الأطر المختلطة التي تعتمد على WebViews، يستدعي React Native مكونات واجهة المستخدم الأصلية الفعلية، مما يضمن أن تطبيقك يبدو وكأنه في المنزل على كل من iOS وAndroid.",
+      "من خلال الاستفادة من \"البنية الجديدة\" (Fabric وTurboModules)، فإننا نستفيد من التكامل المباشر لـ C++ للمهام عالية التزامن. وينتج عن ذلك رسوم متحركة أكثر سلاسة، وأوقات بدء تشغيل أسرع، وجسر يمكن التنبؤ به بدرجة كبيرة بين منطق JavaScript والأجهزة المحمولة الأساسية."
     ],
     "cards": [
       {
-        "title": "React Native Clarity",
-        "description": "React Native helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "التقديم الأصلي",
+        "description": "يستخدم مكونات منصة حقيقية بدلاً من المتصفح، مما يوفر تجربة مستخدم سلسة وحركة سلسة بمعدل 60 إطارًا في الثانية.",
+        "icon_type": "FaMobileAlt"
       },
       {
-        "title": "React Native Performance",
-        "description": "React Native supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "إمكانية إعادة استخدام الكود",
+        "description": "شارك ما يصل إلى 90% من قاعدة التعليمات البرمجية الخاصة بك بين iOS وAndroid، مما يقلل بشكل كبير من الصيانة وتأخر الميزات.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "React Native Reliability",
-        "description": "React Native strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "تحديث سريع",
+        "description": "شاهد التغييرات على الفور دون فقدان حالة التطبيق، مما يتيح أسرع دورات التكرار في تطوير الأجهزة المحمولة.",
+        "icon_type": "FaZap"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق المعماري المحمول",
     "image": "/technologies/react_native/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with React Native-ready patterns designed for dynamic cloud scaling."
+        "title": "وحدات النسيج والتوربو",
+        "description": "تنفيذ بنية React Native الحديثة لتنفيذ سلسلة المحادثات المتزامنة وتحسين أداء بدء التشغيل."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "React Native integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "الوحدات الأصلية المخصصة",
+        "description": "سد الفجوة بين Java/Kotlin وObjective-C/Swift لمتطلبات الأجهزة المتخصصة مثل أجهزة الاستشعار البيومترية أو الواقع المعزز."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use React Native to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "البيانات الأولى دون اتصال",
+        "description": "تصميم تطبيقات مرنة مع الثبات المحلي (WatermelonDB/Realm) ومزامنة الخلفية في الوقت الفعلي."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the React Native stack.",
+    "title": "رد الفعل الحافة الأصلية",
+    "subtitle": "المزايا الاستراتيجية لمنتجات الهاتف المحمول المهيمنة.",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging React Native effectively."
+        "title": "أسرع TTM",
+        "description": "انخفاض كبير في وقت طرح المنتج في السوق من خلال الهندسة لمنصتين في وقت واحد."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with React Native."
+        "metric": "محلي",
+        "title": "دقة واجهة المستخدم",
+        "description": "يضمن الوصول المباشر إلى أدوات OEM أن التطبيق يتبع إرشادات التصميم الخاصة بالنظام الأساسي بشكل مثالي."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate React Native delivery."
+        "metric": "كبير",
+        "title": "تجمع المواهب",
+        "description": "استفد من نظام React البيئي الضخم، مما يسهل توسيع نطاق فريقك الهندسي."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using React Native inside open architecture patterns."
+        "metric": "صفر",
+        "title": "عقبات الويب",
+        "description": "تجنب اختناقات الأداء لمتصفحات الهاتف المحمول عن طريق التنفيذ مباشرة على مؤشر ترابط واجهة المستخدم الأصلي للجهاز."
       }
     ]
   },
   "quote_section": {
-    "quote": "React Native gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يوفر React Native التوازن المثالي بين سرعة التطوير و",
+    "highlight": "أداء متنقل لا مثيل له"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your React Native roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم مستقبل هاتفك المحمول",
+    "subtitle": "استشر متخصصي React Native الرائدين لدينا لتحديد خارطة الطريق الخاصة بك عبر الأنظمة الأساسية واستراتيجية الأداء.",
+    "full_name_label": "مهندس موبايل رئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "متطلبات التطبيق",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React Native architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف رؤيتك عبر الأنظمة الأساسية أو تحديات الأداء...",
+    "button_text": "طلب عرض أسعار"
   }
 }

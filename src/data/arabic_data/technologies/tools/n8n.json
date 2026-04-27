@@ -1,103 +1,116 @@
 {
   "slug": "n8n",
+  "seo_metadata": {
+    "title": "أتمتة المؤسسة n8n | تنسيق سير العمل المستضاف ذاتيًا",
+    "description": "خدمات تنفيذ n8n الاحترافية. نحن نصمم مسارات عمل أتمتة آمنة ومستضافة ذاتيًا وعمليات تكامل قائمة على العقد ذات الكود العادل لتحقيق سيادة بيانات المؤسسة.",
+    "keywords": [
+      "أتمتة n8n",
+      "أداة سير العمل ذاتية الاستضافة",
+      "الأتمتة القائمة على العقدة",
+      "حلول سيادة البيانات",
+      "n8n العقد المخصصة",
+      "تنسيق سير العمل في المؤسسة",
+      "منصة أتمتة الكود العادل"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "أتمتة سير العمل وفقًا للرمز العادل",
+    "title": "السيطرة الكاملة مع",
     "highlight": "n8n",
-    "description": "Build production systems with n8n in our tools delivery ecosystem.",
+    "description": "أنشئ عمليات تشغيل آلي قائمة على العقد وقابلة للتخصيص بدرجة كبيرة ويمكن استضافتها ذاتيًا لضمان خصوصية البيانات المطلقة والحرية المعمارية.",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "صمم سير العمل الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض تكامل المصدر",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "n8n plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع n8n",
+    "subtitle": "يوفر n8n الأساس القابل للتوسيع القائم على العقدة المطلوب لتنسيق الواجهة الخلفية الآمن والمعقد.",
     "paragraphs": [
-      "n8n is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using n8n with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "n8n هو خيارنا الأساسي للمشاريع التي تتطلب سيادة البيانات ومستويات عالية من التخصيص. على عكس أدوات أتمتة SaaS التقليدية، يسمح لنا نموذج الكود العادل لـ n8n باستضافة المحرك على البنية التحتية الآمنة الخاصة بك، مما يضمن عدم مغادرة البيانات الحساسة محيطك أبدًا مع الاستمرار في الاستفادة من مصمم سير العمل المرئي القوي.",
+      "تكمن القوة الحقيقية لـ n8n في قابليتها للتوسعة. تسمح بنيتها القائمة على العقد لمطورينا بكتابة منطق JavaScript مخصص مباشرةً ضمن سير العمل، أو حتى إنشاء عقد خاصة للتفاعل مع الأنظمة القديمة الداخلية، مما يوفر جسرًا بين الخدمات السحابية القياسية ومجموعة مؤسستك الفريدة."
     ],
     "cards": [
       {
-        "title": "n8n Clarity",
-        "description": "n8n helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "سيادة البيانات",
+        "description": "يمكنك الاستضافة الذاتية على خوادمك الخاصة للحفاظ على التحكم بنسبة 100% في بياناتك وضمان الامتثال الصارم للوائح الخصوصية.",
+        "icon_type": "FaServer"
       },
       {
-        "title": "n8n Performance",
-        "description": "n8n supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "التوسعة اللانهائية",
+        "description": "أضف تعليمات برمجية JavaScript مخصصة أو أنشئ عقدًا خاصة للتعامل مع منطق الأعمال الفريد والتحليل المعقد للبيانات.",
+        "icon_type": "FaCode"
       },
       {
-        "title": "n8n Reliability",
-        "description": "n8n strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "العمارة الشفافة",
+        "description": "استفد من نموذج الكود العادل الذي يسمح بالتدقيق العميق والاستقلال التكنولوجي الكامل.",
+        "icon_type": "FaLockOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق التنظيم",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with n8n-ready patterns designed for dynamic cloud scaling."
+        "title": "أتمتة السحابة ذاتية الاستضافة",
+        "description": "نشر مثيلات n8n المعبأة في حاويات على AWS أو GCP لإدارة مهام الواجهة الخلفية دون التعرض لأي بيانات خارجية."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "n8n integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "تطوير العقدة المخصصة",
+        "description": "عقد هندسية متخصصة لربط أنظمة تخطيط موارد المؤسسات (ERP) الداخلية وقواعد البيانات والبرامج القديمة المتخصصة بمحرك n8n."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use n8n to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "التدفقات المنطقية المتقدمة",
+        "description": "استخدام \"العقدة الوظيفية\" لإجراء تحويلات معقدة للبيانات والفرز الخوارزمي مباشرةً ضمن سيناريو مرئي."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the n8n stack.",
+    "title": "ميزة n8n",
+    "subtitle": "مكاسب تنافسية استراتيجية لنظم بيئية آمنة ومرنة.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging n8n effectively."
+        "metric": "100%",
+        "title": "التحكم في البيانات",
+        "description": "الخصوصية والأمان التام من خلال استضافة محرك الأتمتة بالكامل داخل جدار الحماية الخاص بك."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with n8n."
+        "metric": "صفر",
+        "title": "قفل البائع",
+        "description": "حافظ على السيادة الكاملة على سير العمل والمنطق الخاص بك دون الارتباط بسحابة SaaS الخاصة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate n8n delivery."
+        "metric": "400+",
+        "title": "العقد الأصلية",
+        "description": "مكتبة ضخمة من عمليات التكامل المعدة مسبقًا جنبًا إلى جنب مع القدرة على بناء عمليات التكامل الخاصة بك دون عناء."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using n8n inside open architecture patterns."
+        "metric": "الأمثل",
+        "title": "هيكل التكلفة",
+        "description": "تخلص من نماذج الفوترة \"لكل مهمة\" عن طريق تشغيل المثيل الخاص بك، مما يوفر تكلفة إجمالية للملكية أقل ويمكن التنبؤ بها."
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يوفر n8n للفرق مسارًا عمليًا لسد الفجوة بين سهولة استخدام التعليمات البرمجية المنخفضة و",
+    "highlight": "مرونة الكود المؤيد"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your n8n roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الأتمتة الخاصة بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق n8n آمنة ومستضافة ذاتيًا لمؤسستك.",
+    "full_name_label": "مهندس الرصاص",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الفنية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your n8n architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف متطلبات خصوصية بياناتك أو تحديات الأتمتة المعقدة...",
+    "button_text": "طلب التدقيق الفني"
   }
 }

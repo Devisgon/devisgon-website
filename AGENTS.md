@@ -28,7 +28,8 @@ Required actions after each meaningful code change:
 - Technologies content is JSON-driven with language files in category-scoped folders under `src/data/*_data/technologies/<category>/<slug>.json` (with category `index.json` for main category pages).
 - Blog list and blog detail pages are CMS-driven from Payload `blogs` collection.
 - Contact and apply forms post to internal API routes, then send email via Resend.
-- Footer is SSR-first; only the newsletter form is a small client island (`src/components/footer_newsletter_form.tsx`).
+- Navbar, footer, and contact-page UI copy are language-aware through `src/lib/localized-content.ts` and per-language JSON data files in `src/data/*_data`.
+- Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; newsletter remains handled by `src/components/footer_newsletter_form.tsx`.
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
 - Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`.
 
@@ -37,10 +38,10 @@ Required actions after each meaningful code change:
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
 - `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Industries dropdown columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`, `Real Estate`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links.
-- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
+- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` queries Payload `blogs` (published only, locale from cookie).
 - `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug and renders lexical rich text.
-- `/contact` -> `src/app/(app)/contact/page.tsx` client form posts to `/api/contact_mail`.
+- `/contact` -> `src/app/(app)/contact/page.tsx` resolves `lang` from cookie, injects localized `contact_page.json` content into `src/components/contact_page/contact_page_client.tsx`, and client form posts to `/api/contact_mail`.
 - `/get-started` -> `src/app/(app)/get-started/page.tsx` client form posts to `/api/apply_mail`, pulls careers and form global settings from Payload REST endpoints.
 - `/privacy_policies` and `/terms_condition` -> server components reading language-specific JSON by cookie.
 
@@ -92,8 +93,11 @@ All service detail routes share one rendering pattern:
 - Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
 - Industry detail `hero_section.background_image` fields now point to slug/category-specific assets under `public/industries/*.webp`.
 - Technologies main page uses `src/data/*_data/technologies_page.json`.
-- Technologies main page hero content uses `src/data/*_data/technologies_page.json`; category sections and sub-technology links are sourced from `src/data/navbar.json` Technologies dropdown columns.
+- Technologies main page hero content uses `src/data/*_data/technologies_page.json`; category sections and sub-technology links are sourced from language-specific `src/data/*_data/navbar.json` Technologies dropdown columns.
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
+- Navbar labels/dropdowns are sourced from `src/data/navbar.json` (English) and `src/data/*_data/navbar.json` (localized variants), resolved by `src/lib/localized-content.ts`.
+- Footer copy is sourced from `src/data/*_data/footer.json`.
+- Contact-page UI copy is sourced from `src/data/*_data/contact_page.json`.
 - Technologies data is organized by main category folders:
   - `technologies/languages/index.json` + language subcategory files (for example `java.json`, `python.json`),
   - `technologies/frameworks/index.json` + framework subcategory files (for example `react.json`, `nestjs.json`),
@@ -111,7 +115,7 @@ All service detail routes share one rendering pattern:
 - Industry detail JSON supports `carousel_section` (title, subtitle, cards[title/description]); these cards are used in two places:
   - rotating hero copy (title + description transitions),
   - the post-key-benefits carousel section in `src/components/industries/carousel.tsx`.
-- `scripts/translate_services.mjs` recursively translates all English industries JSON files (including nested category folders) into each language folder while preserving image/icon/link fields.
+- `scripts/translate_services.mjs` recursively translates all JSON files under `src/data/english_data` into each target language folder (including `chinese_data`) while preserving non-translatable fields such as links/slugs/assets.
 
 ### CMS Content (Payload)
 Defined in `src/payload.config.ts`:
@@ -144,15 +148,18 @@ Defined in `src/payload.config.ts`:
 Note: files under `src/app/(payload)` marked generated should not be manually edited.
 
 ## i18n Behavior
-- Language selector (`src/components/language_switch_component.tsx`) sets `lang` cookie and calls `router.refresh()`.
+- Language selector (`src/components/language_switch_component.tsx`) sets `lang` cookie, dispatches `app-language-change`, and calls `router.refresh()`.
 - Server pages (home/services/privacy/terms/blog listing) read cookie for language.
 - Industries main page reads cookie for language.
+- Navbar and footer read localized JSON content using the selected `lang` value.
+- Contact page copy is injected from `src/data/*_data/contact_page.json` based on cookie language.
 - Service detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
 - Industry detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
 - Client-side i18next payload loading has been removed from root layout to reduce JS parsing and hydration cost.
 
 ## Navigation and Slug Source of Truth
 - Main nav and service links are in `src/data/navbar.json`.
+- Localized navbar labels are mirrored in `src/data/*_data/navbar.json`; `src/lib/localized-content.ts` resolves the active language dataset.
 - Dropdown categories (`dropdown.columns`) and subcategory links (`links`) in navbar data are maintained in alphabetical order by display name.
 - Industries dropdown links are grouped in `src/data/navbar.json` into six columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`, `Real Estate`) with sub-industry links.
 - Technologies is a separate top-level navbar item in `src/data/navbar.json` with four dropdown columns (`Languages`, `Frameworks`, `Database`, `Tools`) and per-track technology links.
@@ -200,6 +207,7 @@ If you change this, also check this:
 - Blog fields -> `src/collections/Blogs.ts` + blog listing/detail components.
 - Career/form toggle behavior -> `src/globals/FormSettings.ts`, team section CTA visibility, and get-started redirect logic.
 - Language behavior -> cookie-based server pages + query-param service detail pages + `context/i18n.js`.
+- Navbar/footer/contact localization data -> `src/lib/localized-content.ts` + `src/data/*_data/{navbar,footer,contact_page}.json`.
 - API payload fields -> matching form fields in `contact/page.tsx` or `get-started/page.tsx`.
 - SEO keywords, page metadata, or JSON-LD sitelinks -> `src/lib/seo.ts` + `src/app/(app)/layout.tsx` + relevant page metadata exports.
 
@@ -256,3 +264,5 @@ If you change this, also check this:
 - 2026-04-23: Reworked `/technologies` main page to match `/industries` grouped-category layout by sourcing Technologies dropdown columns from `src/data/navbar.json` and enriching sub-technology cards from detail JSON data.
 - 2026-04-24: Updated all industry JSON hero background paths to use slug-specific `.webp` assets from `public/industries` across all language folders.
 - 2026-04-24: Removed unused `.png`/`.svg` files from `public` after reference audit, retaining only actively referenced SVG (`/services_page/hero_bg.svg`) and webp-based assets.
+- 2026-04-27: Fixed `scripts/translate_services.mjs` to translate the full `english_data/technologies` tree and `technologies_page.json` into all language folders (including Chinese) and regenerated localized technology JSON files.
+- 2026-04-27: Added language-aware navbar/footer/contact localization flow (`src/lib/localized-content.ts`), generated localized `navbar.json`, `footer.json`, and `contact_page.json` datasets for all supported languages, wired `/contact` to cookie-resolved content, and updated `scripts/translate_services.mjs` to full `english_data` website translation scope.

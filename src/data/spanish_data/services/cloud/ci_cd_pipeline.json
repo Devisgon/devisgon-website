@@ -91,7 +91,7 @@
         "icon": "SiJenkins"
       },
       {
-        "name": "Estibador",
+        "name": "Docker",
         "icon": "FaDocker"
       },
       {
@@ -131,15 +131,15 @@
     "image": "/all_services/ci_cd_pipeline/cs.webp",
     "content": {
       "problem": {
-        "label": "Problema",
+        "label": "Problem",
         "text": "Una empresa de SaaS estaba realizando implementaciones manuales que requerían desconectar el sitio durante horas cada fin de semana, lo que provocaba el agotamiento de los desarrolladores."
       },
       "solution": {
-        "label": "Solución",
+        "label": "Solution",
         "text": "Implementamos una canalización de CI/CD totalmente automatizada utilizando GitHub Actions, Docker y AWS Elastic Beanstalk con una estrategia de implementación continua."
       },
       "result": {
-        "label": "Resultado",
+        "label": "Result",
         "text": "Las implementaciones ahora se realizan automáticamente en 15 minutos sin tiempo de inactividad, lo que permite al equipo lanzar funciones varias veces al día."
       }
     }

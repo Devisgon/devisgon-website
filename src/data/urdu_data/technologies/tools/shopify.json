@@ -1,103 +1,116 @@
 {
   "slug": "shopify",
+  "seo_metadata": {
+    "title": "انٹرپرائز شاپائف ڈویلپمنٹ | ہیڈ لیس کامرس اور کسٹم ایپس",
+    "description": "کسٹم Shopify اور Shopify Plus ترقیاتی خدمات۔ ہم ہائیڈروجن اور مائع کا استعمال کرتے ہوئے ہائی کنورژن ہیڈ لیس اسٹور فرنٹ اور خودکار کامرس پائپ لائنوں کی تعمیر کرتے ہیں۔",
+    "keywords": [
+      "Shopify پلس ڈویلپمنٹ",
+      "ہیڈ لیس کامرس ہائیڈروجن",
+      "کسٹم شاپائف ایپ ڈویلپمنٹ",
+      "ای کامرس آرکیٹیکچر",
+      "مائع ٹیمپلیٹ کی اصلاح",
+      "Shopify API انٹیگریشن",
+      "اومنی چینل کامرس سلوشنز"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "دنیا کا کامرس پلیٹ فارم",
+    "title": "اپنے اسٹور فرنٹ کو اس کے ساتھ پیمانہ کریں۔",
     "highlight": "Shopify",
-    "description": "Build production systems with Shopify in our tools delivery ecosystem.",
+    "description": "عالمی سطح پر، محفوظ لین دین، اور اومنی چینل کی ترقی کے لیے بنائے گئے پلیٹ فارم کا استعمال کرتے ہوئے بجلی کی تیز رفتار، اعلی تبادلوں والے خریداری کے تجربات فراہم کریں۔",
     "side_image": "/technologies/shopify/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنا اسٹور فرنٹ بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی دائرہ کار دیکھیں",
       "href": "/technologies/shopify#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Shopify plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "ہم Shopify کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "Shopify جدید، اعلیٰ حجم کے ریٹیل آپریشنز کے لیے انتہائی مضبوط اور محفوظ انفراسٹرکچر فراہم کرتا ہے۔",
     "paragraphs": [
-      "Shopify is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Shopify with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Shopify روایتی اور بغیر سر کے کامرس دونوں کے لیے ہمارا بنیادی انجن ہے۔ اس کی PCI-مطابق میزبانی اور جنگ کی جانچ پڑتال کے عمل کو استعمال کرتے ہوئے، ہم اپنی مرضی کے مطابق ادائیگی کے گیٹ ویز سے وابستہ حفاظتی خطرات کو ختم کرتے ہیں۔ یہ ہماری ٹیموں کو سرور اپ ٹائم یا پیچ اپ ڈیٹس کے انتظام کے بجائے منفرد صارف کے تجربات اور اپنی مرضی کے مطابق کاروباری منطق بنانے پر توجہ مرکوز کرنے کی اجازت دیتا ہے۔",
+      "ہائیڈروجن اور آکسیجن کے تعارف کے ساتھ، ہم اب مکمل طور پر ڈیکپلڈ، ہیڈ لیس اسٹور فرنٹ بنا سکتے ہیں جو Shopify بیک اینڈ کی انتظامی آسانی کے ساتھ مل کر ایک React پر مبنی ایپلی کیشن کی رفتار پیش کرتے ہیں۔ یہ ہائبرڈ نقطہ نظر اس بات کو یقینی بناتا ہے کہ طویل مدتی تعمیراتی لچک کو برقرار رکھتے ہوئے آپ کی سائٹ SEO اور تبادلوں کے لیے موزوں ہے۔"
     ],
     "cards": [
       {
-        "title": "Shopify Clarity",
-        "description": "Shopify helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "بے سر چستی",
+        "description": "طاقتور اسٹور فرنٹ API کے ذریعے Shopify کے ساتھ بات چیت کرنے والے بیسپوک فرنٹ اینڈز بنانے کے لیے ہائیڈروجن (رد عمل) کا استعمال کریں۔",
+        "icon_type": "FaReact"
       },
       {
-        "title": "Shopify Performance",
-        "description": "Shopify supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ثابت شدہ سیکیورٹی",
+        "description": "لیول 1 PCI DSS کی تعمیل اور صنعت کے معروف فراڈ تحفظ سے فائدہ اٹھائیں۔",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Shopify Reliability",
-        "description": "Shopify strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "عالمی اومنی چینل",
+        "description": "انوینٹری، آرڈرز، اور صارفین کو سوشل میڈیا، بازاروں، اور جسمانی ریٹیل مقامات پر فوری طور پر ہم آہنگ کریں۔",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "کامرس آرکیٹیکچرل اسکوپ",
     "image": "/technologies/shopify/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Shopify-ready patterns designed for dynamic cloud scaling."
+        "title": "بغیر ہیڈ سٹور فرنٹ (ہائیڈروجن)",
+        "description": "ری ایکٹ اور آکسیجن ہوسٹنگ پلیٹ فارم کا استعمال کرتے ہوئے اعلیٰ کارکردگی، ایج ڈیلیور کردہ تجارتی تجربات کو تیار کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Shopify integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "کسٹم ایپ اور API انٹیگریشن",
+        "description": "اپنے اسٹور فرنٹ کو ERP، PIM، اور 3PL سسٹمز کے ساتھ مربوط کرنے کے لیے نجی Shopify ایپس اور مڈل ویئر بنانا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Shopify to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "مائع تھیم انجینئرنگ",
+        "description": "مائع اور اسکیما کی ترقی کے ذریعے گہری حسب ضرورت کے ساتھ انتہائی بہتر، SEO-پہلے Shopify تھیمز بنانا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Shopify stack.",
+    "title": "Shopify ایج",
+    "subtitle": "غالب خوردہ برانڈز کے لیے قابل قدر فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Shopify effectively."
+        "metric": "99.99%",
+        "title": "پلیٹ فارم اپ ٹائم",
+        "description": "زیرو مینٹیننس انفراسٹرکچر جس کو سیلز کی چوٹی کے واقعات کے دوران بڑے پیمانے پر ٹریفک کے اضافے کو سنبھالنے کے لیے ڈیزائن کیا گیا ہے۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Shopify."
+        "metric": "تیز",
+        "title": "چیک آؤٹ کنورژن",
+        "description": "اپنے صارفین کو دنیا کا تیز ترین اور قابل اعتماد چیک آؤٹ تجربہ فراہم کرنے کے لیے 'شاپ پے' کا فائدہ اٹھائیں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Shopify delivery."
+        "metric": "3000+",
+        "title": "ایپ ایکو سسٹم",
+        "description": "وقت کے ایک حصے میں پیچیدہ فعالیت کو شامل کرنے کے لیے پہلے سے ٹیسٹ شدہ ایکسٹینشنز کی ایک وسیع لائبریری تک رسائی حاصل کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Shopify inside open architecture patterns."
+        "metric": "صفر",
+        "title": "بحالی بلوٹ",
+        "description": "اپنے تکنیکی بجٹ کا 100% سرور مینجمنٹ اور سیکیورٹی پیچ کی بجائے جدت پر مرکوز کریں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Shopify gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Shopify عالمی تجارت کی پیچیدگی کو a میں بدل دیتا ہے۔",
+    "highlight": "ہموار تکنیکی ورک فلو"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Shopify roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "آرکیٹیکٹ اپنے کامرس حل",
+    "subtitle": "اپنے ہیڈ لیس روڈ میپ یا حسب ضرورت ایپ حکمت عملی کی وضاحت کرنے کے لیے ہمارے لیڈ Shopify ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Shopify architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے تجارتی اہداف یا تعمیراتی چیلنجوں کی وضاحت کریں...",
+    "button_text": "ٹیکنیکل آڈٹ کی درخواست کریں۔"
   }
 }

@@ -1,103 +1,116 @@
 {
   "slug": "typescript",
+  "seo_metadata": {
+    "title": "Enterprise TypeScript Development | Type-Safe JavaScript Architecture",
+    "description": "Professional TypeScript engineering services. We build scalable, bug-resistant, and maintainable applications using static typing and modern ECMAScript standards.",
+    "keywords": [
+      "TypeScript Development",
+      "Static Typing JavaScript",
+      "Type-Safe API Design",
+      "Enterprise Frontend Architecture",
+      "Node.js TypeScript Backend",
+      "TypeScript Refactoring Services",
+      "Scalable Web Infrastructure"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "JavaScript that Scales",
+    "title": "Predictable Code with",
     "highlight": "TypeScript",
-    "description": "Build production systems with TypeScript in our languages delivery ecosystem.",
+    "description": "Build high-confidence production systems with a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
     "side_image": "/technologies/type_script/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Start Type-Safe Build",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "View Technical Roadmap",
       "href": "/technologies/typescript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "TypeScript plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Why We Engineer with TypeScript",
+    "subtitle": "TypeScript provides the structural integrity required to manage massive, multi-team codebases with surgical precision.",
     "paragraphs": [
-      "TypeScript is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using TypeScript with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "TypeScript is our foundational choice for large-scale application development. By introducing a robust static type system to JavaScript, we catch potential errors during development rather than at runtime. This 'fail-fast' approach significantly reduces debugging time and increases the reliability of mission-critical software deployment.",
+      "Beyond error prevention, TypeScript dramatically improves developer productivity. The deep integration with modern IDEs provides intelligent auto-completion and automated refactoring tools, ensuring that as your codebase grows, it remains readable, documented by its own types, and easy for new engineers to navigate."
     ],
     "cards": [
       {
-        "title": "TypeScript Clarity",
-        "description": "TypeScript helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Static Type Safety",
+        "description": "Define clear data structures and interfaces to eliminate entire classes of runtime bugs before they reach production.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "TypeScript Performance",
-        "description": "TypeScript supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Advanced Tooling",
+        "description": "Leverage superior IDE support with instant refactoring, type checking, and intelligent code navigation.",
+        "icon_type": "FaTools"
       },
       {
-        "title": "TypeScript Reliability",
-        "description": "TypeScript strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Future-Proof JS",
+        "description": "Use the latest ECMAScript features today, transpiling down to older versions of JavaScript for maximum compatibility.",
+        "icon_type": "FaForward"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "title": "TypeScript Technical Scope",
     "image": "/technologies/type_script/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with TypeScript-ready patterns designed for dynamic cloud scaling."
+        "title": "Domain-Driven API Design",
+        "description": "Architecting type-safe APIs using shared interfaces to ensure perfect data alignment between frontend and backend."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "TypeScript integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Strict Backend Microservices",
+        "description": "Deploying robust Node.js services with NestJS or Express, utilizing decorators and DTOs for strict validation."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use TypeScript to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Legacy Migration & Type-Casting",
+        "description": "Strategically migrating vanilla JavaScript stacks to TypeScript through incremental typing and high-fidelity interfaces."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the TypeScript stack.",
+    "title": "The TypeScript Edge",
+    "subtitle": "Quantifiable advantages for maintaining enterprise-grade code.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging TypeScript effectively."
+        "metric": "15%",
+        "title": "Bug Reduction",
+        "description": "Industry-standard research shows TypeScript catches a significant portion of public bugs at compile-time."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with TypeScript."
+        "metric": "100%",
+        "title": "Self-Documenting",
+        "description": "Type definitions act as a living contract, reducing the need for stale external documentation."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate TypeScript delivery."
+        "metric": "Fast",
+        "title": "Refactoring",
+        "description": "Rename variables or change data structures with 100% confidence across your entire project."
       },
       {
         "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using TypeScript inside open architecture patterns."
+        "title": "Technical Debt",
+        "description": "Maintain clean, maintainable codebases by enforcing strict standards and clear architectural boundaries."
       }
     ]
   },
   "quote_section": {
-    "quote": "TypeScript gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "TypeScript allows us to build with the speed of JavaScript while maintaining the",
+    "highlight": "integrity of an enterprise language"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your TypeScript roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
+    "title": "Architect Your Infrastructure",
+    "subtitle": "Consult with our lead technical specialists to define a scalable, type-safe roadmap for your organization.",
+    "full_name_label": "Lead Developer",
+    "business_email_label": "Corporate Email",
     "message_label": "Strategic Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your TypeScript architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your TypeScript architectural challenge or migration goals...",
+    "button_text": "Request Consultation"
   }
 }

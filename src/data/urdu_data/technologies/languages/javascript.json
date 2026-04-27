@@ -1,103 +1,116 @@
 {
   "slug": "javascript",
+  "seo_metadata": {
+    "title": "یونیورسل جاوا اسکرپٹ ڈویلپمنٹ | مکمل اسٹیک ویب اور Node.js حل",
+    "description": "متحرک ویب ایپلیکیشنز کے لیے ماہر جاوا اسکرپٹ کا نفاذ۔ ہم اسکیل ایبل فل اسٹیک سسٹم بنانے کے لیے V8 انجن کی کارکردگی اور ایونٹ سے چلنے والے فن تعمیر کا فائدہ اٹھاتے ہیں۔",
+    "keywords": [
+      "جاوا اسکرپٹ کی ترقی",
+      "ES6+ ویب معیارات",
+      "V8 انجن آپٹیمائزیشن",
+      "غیر مطابقت پذیر پروگرامنگ",
+      "یونیورسل جاوا اسکرپٹ",
+      "واقعہ سے چلنے والا فن تعمیر",
+      "فل اسٹیک جے ایس سلوشنز"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "JavaScript",
-    "description": "Build production systems with JavaScript in our languages delivery ecosystem.",
+    "eyebrow": "ویب کی زبان",
+    "title": "کے ساتھ متحرک چپلتا",
+    "highlight": "جاوا اسکرپٹ",
+    "description": "اپنے پورے پروڈکٹ لائف سائیکل کو کرہ ارض کی سب سے زیادہ ورسٹائل زبان کے ساتھ طاقتور بنائیں، براؤزر سے سرور تک اعلیٰ کارکردگی کی تعاملات فراہم کریں۔",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے اسٹیک کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ دیکھیں",
       "href": "/technologies/javascript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "JavaScript plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "ہم جاوا اسکرپٹ کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "JavaScript جدید ڈیجیٹل تجربات کا سنگ بنیاد ہے، جو بے مثال رفتار اور عالمگیر رسائی کی پیشکش کرتا ہے۔",
     "paragraphs": [
-      "JavaScript is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using JavaScript with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "JavaScript رد عمل، صارف پر مبنی ایپلی کیشنز بنانے کے لیے ہمارا بنیادی ٹول ہے۔ اس کے نان بلاکنگ ایونٹ لوپ اور تیز رفتار V8 انجن کو استعمال کرتے ہوئے، ہم ایسے انٹرفیس فراہم کرتے ہیں جو ایک متحد، تیز رفتار لینگویج ایکو سسٹم کے ذریعے پیچیدہ بیک اینڈ آرکیسٹریشن کو سنبھالتے ہوئے صارف کے ان پٹ کا فوری جواب دیتے ہیں۔",
+      "JavaScript کی اصل طاقت اس کی 'عالمگیر' فطرت میں ہے۔ کلائنٹ اور سرور کے درمیان منطق کا اشتراک کرکے، ہماری ٹیمیں آرکیٹیکچرل رگڑ کو کم کرتی ہیں، فیچر ڈیلیوری کو تیز کرتی ہیں، اور اس بات کو یقینی بناتی ہیں کہ آپ کی کاروباری منطق آپ کے ڈیجیٹل انفراسٹرکچر کے ہر ٹچ پوائنٹ پر یکساں رہے۔"
     ],
     "cards": [
       {
-        "title": "JavaScript Clarity",
-        "description": "JavaScript helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "یونیورسل ریچ",
+        "description": "زیادہ سے زیادہ منطق کے دوبارہ استعمال کے لیے براؤزرز، سرورز اور موبائل آلات پر ایک ہی کوڈبیس پر عمل کریں۔",
+        "icon_type": "FaGlobe"
       },
       {
-        "title": "JavaScript Performance",
-        "description": "JavaScript supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "غیر مطابقت پذیر طاقت",
+        "description": "وعدوں اور Async/Await کا استعمال کرتے ہوئے مین تھریڈ کو بلاک کیے بغیر ہزاروں کنکرنٹ آپریشنز کو ہینڈل کریں۔",
+        "icon_type": "FaSync"
       },
       {
-        "title": "JavaScript Reliability",
-        "description": "JavaScript strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "متحرک ماحولیاتی نظام",
+        "description": "جنگ کے ٹیسٹ شدہ ماڈیولز اور تیز رفتار فیچر انضمام کے لیے دنیا کی سب سے بڑی پیکیج رجسٹری (npm) تک رسائی حاصل کریں۔",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "تکنیکی دائرہ کار",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with JavaScript-ready patterns designed for dynamic cloud scaling."
+        "title": "ایونٹ سے چلنے والے بیک اینڈز",
+        "description": "اعلی کنکرنسی سرور سائیڈ سروسز کی تعمیر کرنا جو انتہائی تھرو پٹ کے لیے Node.js ایونٹ لوپ کا فائدہ اٹھاتی ہیں۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "JavaScript integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "ری ایکٹو فرنٹ اینڈ اسٹیٹ",
+        "description": "پیچیدہ، جدید نمونوں کے ساتھ زندہ UIs بنانا جو اس بات کو یقینی بناتے ہیں کہ ویو لیئر بنیادی ڈیٹا کے ساتھ کامل مطابقت پذیر رہے۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use JavaScript to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "سرور لیس اور ایج کمپیوٹ",
+        "description": "ہلکے وزن والے JavaScript فنکشنز کو پرسنلائزڈ، کم تاخیر والے مواد کی پیمانے پر ڈیلیوری کے لیے کنارے پر تعینات کرنا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the JavaScript stack.",
+    "title": "جاوا اسکرپٹ ایج",
+    "subtitle": "تیز رفتار ڈیجیٹل دنیا کے لیے اسٹریٹجک کارکردگی کے فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging JavaScript effectively."
+        "metric": "تیز",
+        "title": "پھانسی",
+        "description": "گوگل کا V8 انجن JS کو مشین کوڈ میں ریئل ٹائم میں مرتب کرتا ہے، جو روایتی زبانوں کی کارکردگی کا مقابلہ کرتا ہے۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with JavaScript."
+        "metric": "100%",
+        "title": "مکمل اسٹیک",
+        "description": "یونیفائیڈ لینگویج اسٹیک سیاق و سباق کی تبدیلی کو کم کرتا ہے اور ڈیولپمنٹ ٹو ڈیپلائمنٹ ورک فلو کو آسان بناتا ہے۔"
       },
       {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate JavaScript delivery."
+        "title": "لائبریریاں کھولیں۔",
+        "description": "ترسیل کو تیز کرنے کے لیے پہلے سے ٹیسٹ شدہ تکنیکی ماڈیولز کے ایک بڑے عالمی ذخیرے تک رسائی حاصل کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using JavaScript inside open architecture patterns."
+        "metric": "صفر",
+        "title": "رکاوٹیں",
+        "description": "واحد زبان جو مقامی طور پر تمام بڑے براؤزرز کے ذریعہ تعاون یافتہ ہے، 100% پلیٹ فارم کی مطابقت کو یقینی بناتی ہے۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "JavaScript ہمیں بغیر کسی نقصان کے انتہائی پیچیدہ انٹرفیس بنانے کی اجازت دیتا ہے۔",
+    "highlight": "تعمیراتی چستی"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your JavaScript roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے انفراسٹرکچر کو تعمیر کریں۔",
+    "subtitle": "اپنے ڈیجیٹل پروڈکٹ کے لیے قابل توسیع جاوا اسکرپٹ روڈ میپ کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your JavaScript architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے JavaScript آرکیٹیکچرل چیلنج یا کارکردگی کے اہداف کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

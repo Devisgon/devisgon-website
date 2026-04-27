@@ -1,103 +1,116 @@
 {
   "slug": "zapier",
+  "seo_metadata": {
+    "title": "تكامل Enterprise Zapier وخدمات أتمتة سير العمل",
+    "description": "حلول أتمتة Zapier المخصصة لتحقيق كفاءة الأعمال. نحن نصمم عمليات Zaps متعددة الخطوات، وخطوط أنابيب التقاط العملاء المحتملين، وعمليات تكامل التطبيقات السلسة للتخلص من العمل اليدوي.",
+    "keywords": [
+      "خدمات زابير للأتمتة",
+      "تكامل سير العمل",
+      "تطوير Zap المخصص",
+      "أتمتة العمليات التجارية",
+      "تكامل واجهة برمجة التطبيقات Zapier",
+      "استراتيجية الأتمتة بدون كود",
+      "اتصال SaaS للمؤسسات"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Zapier",
-    "description": "Build production systems with Zapier in our tools delivery ecosystem.",
+    "eyebrow": "رائدة في أتمتة سير العمل",
+    "title": "قم بتوصيل المكدس الخاص بك مع",
+    "highlight": "زابير",
+    "description": "قم بأتمتة عملك عبر أكثر من 6000 تطبيق حتى تتمكن من التحرك بشكل أسرع والتركيز على الإستراتيجية عالية التأثير بدلاً من إدخال البيانات يدويًا.",
     "side_image": "/technologies/zapier/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "أتمتة عملك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض خريطة طريق التكامل",
       "href": "/technologies/zapier#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Zapier plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع Zapier",
+    "subtitle": "يوفر Zapier نظام الاتصال البيئي الأكثر اتساعًا لأتمتة العمليات التجارية بسرعة.",
     "paragraphs": [
-      "Zapier is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Zapier with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Zapier هو الحل الأمثل لعمليات التكامل عالية السرعة وسير عمل إدارة العملاء المتوقعين. تتيح لنا مكتبتها التي لا مثيل لها والتي تضم أكثر من 6000 عملية تكامل أصلية توصيل أي أداة SaaS تقريبًا في مكدسك على الفور، مما يضمن نقل البيانات بين الأنظمة الأساسية دون الحاجة إلى برامج وسيطة مشفرة مخصصة أو إدارة بنية تحتية واسعة النطاق.",
+      "من خلال الاستفادة من الميزات المتقدمة مثل المسارات، والمنسق، وWebhooks، فإننا نبني \"Zaps\" متطورة ومتعددة الخطوات تتعامل مع المنطق المعقد وتنظيف البيانات. وهذا يضمن أن سير العمل الآلي الخاص بك ليس سريعًا فحسب، بل أيضًا مرنًا وقادرًا على التعامل مع حالات حافة الأعمال في العالم الحقيقي."
     ],
     "cards": [
       {
-        "title": "Zapier Clarity",
-        "description": "Zapier helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "اتصال هائل",
+        "description": "قم بتوصيل أكثر من 6000 تطبيق على الفور، وهو أكبر نظام بيئي للأتمتة في العالم.",
+        "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Zapier Performance",
-        "description": "Zapier supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "المنطق الشرطي",
+        "description": "استخدم المسارات لإنشاء مسارات عمل متفرعة تنفذ إجراءات مختلفة بناءً على معايير بيانات محددة.",
+        "icon_type": "FaSitemap"
       },
       {
-        "title": "Zapier Reliability",
-        "description": "Zapier strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "أدوات البيانات المضمنة",
+        "description": "قم بتنسيق التواريخ والعملة والنص بسرعة لضمان سلامة البيانات عبر الأنظمة الأساسية المختلفة.",
+        "icon_type": "FaWrench"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق المعماري للأتمتة",
     "image": "/technologies/zapier/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Zapier-ready patterns designed for dynamic cloud scaling."
+        "title": "خطوط أنابيب إدارة الرصاص",
+        "description": "أتمتة تدفق العملاء المحتملين من الإعلانات الاجتماعية والصفحات المقصودة مباشرةً إلى قنوات إدارة علاقات العملاء وإشعارات المبيعات."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Zapier integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "مزامنة البيانات عبر الأنظمة الأساسية",
+        "description": "ضمان بقاء بيانات العملاء والطلبات متسقة عبر أدوات إدارة المشروع والدعم والفوترة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Zapier to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "تنسيق Webhook مخصص",
+        "description": "توسيع قوة Zapier من خلال ربط التطبيقات المصممة خصيصًا عبر مستمعي Webhook الآمنين في الوقت الفعلي."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Zapier stack.",
+    "title": "حافة زابير",
+    "subtitle": "مكاسب تنافسية استراتيجية للسرعة التشغيلية الخاصة بك.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Zapier effectively."
+        "metric": "6,000+",
+        "title": "التطبيقات المدعومة",
+        "description": "مكتبة التكامل الأكثر شمولاً في الصناعة، والتي تغطي تقريبًا كل أدوات SaaS الحديثة."
+      },
+      {
+        "metric": "فوري",
+        "title": "النشر",
+        "description": "انتقل من المفهوم المعماري إلى التشغيل الآلي المباشر في ساعات، وليس أسابيع أو أشهر."
       },
       {
         "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Zapier."
+        "title": "موثوقية المهمة",
+        "description": "يضمن وقت التشغيل على مستوى المؤسسات تشغيل مهامك الآلية بشكل صحيح في كل مرة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Zapier delivery."
-      },
-      {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Zapier inside open architecture patterns."
+        "metric": "صفر",
+        "title": "رمز النفقات العامة",
+        "description": "ركز على منطق العمل ونتائجه بينما يتعامل النظام الأساسي مع صيانة واجهة برمجة التطبيقات (API) وتحديثاتها."
       }
     ]
   },
   "quote_section": {
-    "quote": "Zapier gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يقوم Zapier بتحويل احتكاك البرامج المنفصلة إلى ملف",
+    "highlight": "محرك تشغيلي موحد"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Zapier roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الأتمتة الخاصة بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق Zapier قابلة للتطوير لعمليات عملك.",
+    "full_name_label": "المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Zapier architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف الاختناقات اليدوية الحالية أو تحديات التكامل...",
+    "button_text": "طلب التدقيق الفني"
   }
 }

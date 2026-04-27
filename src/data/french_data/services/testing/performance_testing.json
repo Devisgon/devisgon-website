@@ -115,7 +115,7 @@
         "icon": "FaCode"
       },
       {
-        "title": "Exécution",
+        "title": "Execution",
         "description": "Nous déployons des utilisateurs virtuels à partir de plusieurs emplacements géographiques pour bombarder vos serveurs de trafic.",
         "icon": "FaPlay"
       },
@@ -131,7 +131,7 @@
     "image": "/all_services/performance_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une plateforme de billetterie événementielle s'apprêtait à lancer un festival de musique très attendu, mais elle s'est arrêtée par le passé lors de ventes plus modestes en raison de blocages dans la base de données."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Nous avons conçu un test de pointe utilisant des serveurs cloud distribués pour simuler 100 000 utilisateurs tentant d'acheter des billets simultanément, révélant ainsi des goulots d'étranglement critiques dans l'API de leur passerelle de paiement et dans le cache Redis."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "Après avoir appliqué nos recommandations de réglage, la plateforme a traité avec succès l'intégralité de la ruée vers les 100 000 utilisateurs avec une disponibilité de 100 % et des temps de réponse moyens inférieurs à 2 secondes."
       }
     }

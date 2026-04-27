@@ -37,7 +37,7 @@
       },
       {
         "title": "Visuelle und UI-Genauigkeit",
-        "description": "Automatisierte Tests können nicht erkennen, ob eine Schaltfläche leicht falsch ausgerichtet ist oder ein Bild gestreckt ist; Unsere menschlichen Tester können das.",
+        "description": "Automatisierte Tests können nicht erkennen, ob eine Schaltfläche leicht falsch ausgerichtet ist oder ein Bild gestreckt ist. Unsere menschlichen Tester können das.",
         "icon_type": "MdVisibility"
       },
       {
@@ -105,17 +105,17 @@
     "subtitle": "Eine sorgfältige Herangehensweise an die Qualitätssicherung",
     "steps": [
       {
-        "title": "Analysieren",
+        "title": "Analyze",
         "description": "Wir überprüfen Ihre Produktanforderungen, User Stories und Designdateien, um das erwartete Verhalten zu verstehen.",
         "icon": "FaSearch"
       },
       {
-        "title": "Planen",
+        "title": "Plan",
         "description": "Wir verfassen umfassende Testfälle, die positive Flüsse, negative Flüsse und Randfälle abdecken.",
         "icon": "FaEdit"
       },
       {
-        "title": "Ausführen",
+        "title": "Execute",
         "description": "Wir führen die Testfälle manuell durch, führen explorative Tests durch und versuchen, das System zu zerstören.",
         "icon": "FaPlay"
       },
@@ -135,11 +135,11 @@
         "text": "Eine SaaS-Plattform hat alle automatisierten Funktionstests bestanden, aber Benutzer haben die Upgrade-Seite für das Premium-Abonnement willkürlich verlassen."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Unser manuelles QA-Team führte explorative Tests auf physischen Mobilgeräten durch und stellte fest, dass ein überlappendes Cookie-Banner die Schaltfläche „Jetzt bezahlen“ auf älteren iPhone-Bildschirmen vollständig blockierte."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Der Fehler war für die automatisierten Skripte optisch unsichtbar. Durch die Protokollierung und Behebung dieses UI-Fehlers stieg die Abonnement-Conversion-Rate des Kunden sofort um 22 %."
       }
     }

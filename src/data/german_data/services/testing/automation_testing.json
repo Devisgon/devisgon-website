@@ -79,15 +79,15 @@
     "subtitle": "Die zuverlässigste Automatisierungssoftware der Branche",
     "tools": [
       {
-        "name": "Zypresse",
+        "name": "Cypress",
         "icon": "SiCypress"
       },
       {
-        "name": "Dramatiker",
+        "name": "Playwright",
         "icon": "SiPlaywright"
       },
       {
-        "name": "Selen",
+        "name": "Selenium",
         "icon": "SiSelenium"
       },
       {
@@ -115,7 +115,7 @@
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Skripterstellung",
+        "title": "Scripting",
         "description": "Wir schreiben saubere, modulare Automatisierungsskripte, um die definierten Testszenarien auszuführen.",
         "icon": "FaCode"
       },
@@ -135,11 +135,11 @@
         "text": "Eine E-Commerce-Plattform hatte mit einem enormen manuellen Testaufwand zu kämpfen. Für jedes größere Update musste ein Team von fünf Testern drei volle Tage damit verbringen, sich durch die Website zu klicken."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Wir haben mit Cypress ein umfassendes End-to-End-Automatisierungsframework erstellt, das alle wichtigen Checkout-Abläufe, Benutzeranmeldungen und Katalogsuchen abdeckt."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Regressionstests werden jetzt bei jedem Code-Push automatisch in nur 45 Minuten ausgeführt, sodass der Client Updates sicher wöchentlich statt monatlich bereitstellen kann."
       }
     }

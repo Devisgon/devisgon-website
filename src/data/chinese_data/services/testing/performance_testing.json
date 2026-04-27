@@ -1,89 +1,89 @@
 {
   "slug": "performance_testing",
   "hero_section": {
-    "title": "Performance & Load Testing",
-    "subtitle": "Ensure Your App Scales Under Pressure",
-    "description": "Don't let traffic spikes crash your business. We rigorously stress-test your software to guarantee lightning-fast load times, flawless stability, and an optimal user experience under massive user loads.",
+    "title": "性能和负载测试",
+    "subtitle": "确保您的应用程序在压力下扩展",
+    "description": "不要让流量高峰破坏您的业务。我们对您的软件进行严格的压力测试，以保证闪电般的快速加载时间、完美的稳定性以及在大量用户负载下的最佳用户体验。",
     "buttons": [
       {
-        "text": "Stress Test My App",
+        "text": "压力测试我的应用程序",
         "link": "/contact"
       },
       {
-        "text": "Talk to a Performance Expert",
+        "text": "与性能专家交谈",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/performance_testing.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Performance Testing?",
+    "heading": "什么是",
+    "span_heading": "性能测试？",
     "content": [
-      "Performance testing is the process of putting your application under simulated real-world stress to see exactly how it behaves, where it bottlenecks, and at what point it completely breaks. It answers the critical question: 'Will our servers survive if our marketing campaign goes viral?' [Image of a performance load testing graph showing virtual users scaling up versus application response time and server CPU load]",
-      "At Devisgon, we simulate thousands of concurrent users hitting your APIs, databases, and web servers simultaneously. By identifying memory leaks, slow database queries, and inadequate server resources before your big launch, we ensure your application never leaves your customers staring at a loading screen."
+      "性能测试是将您的应用程序置于模拟的现实压力下，以准确了解其行为方式、瓶颈所在以及何时完全崩溃的过程。它回答了一个关键问题：“如果我们的营销活动像病毒一样传播，我们的服务器还能生存吗？” [性能负载测试图的图像显示虚拟用户扩展与应用程序响应时间和服务器 CPU 负载的关系]",
+      "在 Devisgon，我们模拟数千个并发用户同时访问您的 API、数据库和 Web 服务器。通过在大型发布之前识别内存泄漏、缓慢的数据库查询和服务器资源不足，我们确保您的应用程序永远不会让您的客户盯着加载屏幕。"
     ],
-    "highlight_quote": " “In the digital world, slow is just another word for broken.” ",
+    "highlight_quote": "“在数字世界中，缓慢只是破碎的另一种说法。”",
     "side_image": "/all_services/performance_testing/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why speed and stability equal revenue",
+    "title": "主要优点",
+    "subtitle": "为什么速度和稳定性等于收入",
     "cards": [
       {
-        "title": "Survive Traffic Spikes",
-        "description": "Ensure your app stays online and functional during Black Friday sales, viral events, or major product launches.",
+        "title": "应对流量高峰",
+        "description": "确保您的应用在黑色星期五促销、病毒式活动或主要产品发布期间保持在线且正常运行。",
         "icon_type": "MdTrendingUp"
       },
       {
-        "title": "Prevent Revenue Loss",
-        "description": "A 1-second delay in page response can result in a 7% reduction in conversions. We keep your app blazing fast.",
+        "title": "防止收入损失",
+        "description": "页面响应延迟 1 秒可能会导致转化率降低 7%。我们让您的应用程序保持快速运行。",
         "icon_type": "MdAttachMoney"
       },
       {
-        "title": "Optimize Server Costs",
-        "description": "Stop blindly upgrading your cloud servers. We pinpoint the exact code bottlenecks so you can scale efficiently.",
+        "title": "优化服务器成本",
+        "description": "停止盲目升级您的云服务器。我们查明确切的代码瓶颈，以便您可以有效地扩展。",
         "icon_type": "MdSavings"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Nothing damages a brand faster than a crashing website. Deliver a consistently premium experience.",
+        "title": "保护品牌声誉",
+        "description": "没有什么比网站崩溃对品牌的损害更快了。提供始终如一的优质体验。",
         "icon_type": "MdVerifiedUser"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Performance Testing",
+    "title": "选择性能测试后您会得到什么",
     "image": "/all_services/performance_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. Load Testing",
-        "description": "Simulating the expected number of concurrent users to verify your system meets your baseline performance criteria."
+        "title": "1.负载测试",
+        "description": "模拟预期的并发用户数，以验证您的系统是否满足基准性能标准。"
       },
       {
-        "title": "2. Stress & Spike Testing",
-        "description": "Pushing your application far beyond its limits to find its breaking point and test how it recovers from sudden surges."
+        "title": "2. 压力和尖峰测试",
+        "description": "让您的应用程序远远超出其极限，找到其断点并测试它如何从突然的激增中恢复。"
       },
       {
-        "title": "3. Endurance (Soak) Testing",
-        "description": "Running a steady load over a long period (e.g., 24 hours) to identify hidden memory leaks or database connection exhaustion."
+        "title": "3. 耐久性（浸泡）测试",
+        "description": "长时间（例如 24 小时）运行稳定负载以识别隐藏的内存泄漏或数据库连接耗尽。"
       },
       {
-        "title": "4. Comprehensive Bottleneck Reports",
-        "description": "Detailed metrics on response times, CPU usage, and database locks, along with actionable optimization advice."
+        "title": "4. 全面的瓶颈报告",
+        "description": "有关响应时间、CPU 使用率和数据库锁定的详细指标，以及可行的优化建议。"
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using enterprise-grade load generation tools",
-    "subtitle": "The best software for simulating massive real-world traffic",
+    "title": "我们使用企业级负载生成工具进行测试",
+    "subtitle": "模拟海量现实世界流量的最佳软件",
     "tools": [
       {
-        "name": "Apache JMeter",
+        "name": "阿帕奇JMeter",
         "icon": "SiApachejmeter"
       },
       {
-        "name": "k6 (Grafana)",
+        "name": "k6（格拉法纳）",
         "icon": "SiK6"
       },
       {
@@ -91,83 +91,83 @@
         "icon": "SiGatling"
       },
       {
-        "name": "Datadog (APM)",
+        "name": "数据狗（APM）",
         "icon": "SiDatadog"
       },
       {
-        "name": "New Relic",
+        "name": "新遗物",
         "icon": "SiNewrelic"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A scientific approach to application speed",
+    "title": "我们的流程",
+    "subtitle": "确定应用速度的科学方法",
     "steps": [
       {
-        "title": "Baseline Analysis",
-        "description": "We define your Service Level Agreements (SLAs), target response times, and expected user load.",
+        "title": "基线分析",
+        "description": "我们定义您的服务级别协议 (SLA)、目标响应时间和预期用户负载。",
         "icon": "FaChartLine"
       },
       {
-        "title": "Scenario Scripting",
-        "description": "We write custom scripts that mimic realistic user behaviors (e.g., searching, adding to cart, and checking out).",
+        "title": "场景脚本",
+        "description": "我们编写模仿现实用户行为的自定义脚本（例如，搜索、添加到购物车和结帐）。",
         "icon": "FaCode"
       },
       {
         "title": "Execution",
-        "description": "We deploy virtual users from multiple geographic locations to bombard your servers with traffic.",
+        "description": "我们从多个地理位置部署虚拟用户，用流量轰炸您的服务器。",
         "icon": "FaPlay"
       },
       {
-        "title": "Analyze & Optimize",
-        "description": "We isolate the exact layer (frontend, API, or database) causing delays and help your team tune the performance.",
+        "title": "分析与优化",
+        "description": "我们隔离导致延迟的确切层（前端、API 或数据库）并帮助您的团队调整性能。",
         "icon": "FaWrench"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Ensuring a ticketing platform could handle 100,000 fans in 5 minutes",
+    "headline": "确保票务平台能够在5分钟内处理10万粉丝",
     "image": "/all_services/performance_testing/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "An event ticketing platform was preparing to launch a highly anticipated music festival but had crashed during smaller sales in the past due to database deadlocks."
+        "text": "一个活动票务平台正准备推出一场备受期待的音乐节，但由于数据库死锁，在过去销量较小的情况下崩溃了。"
       },
       "solution": {
         "label": "Solution",
-        "text": "We designed a spike test using distributed cloud servers to simulate 100,000 users attempting to buy tickets simultaneously, uncovering critical bottlenecks in their payment gateway API and Redis cache."
+        "text": "我们设计了一个峰值测试，使用分布式云服务器来模拟 100,000 个用户同时尝试购买门票，从而发现其支付网关 API 和 Redis 缓存中的关键瓶颈。"
       },
       "result": {
         "label": "Result",
-        "text": "After applying our tuning recommendations, the platform successfully processed the entire 100,000-user rush with a 100% uptime and average response times under 2 seconds."
+        "text": "应用我们的调整建议后，该平台成功处理了整个 100,000 个用户的高峰，正常运行时间为 100%，平均响应时间低于 2 秒。"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about performance and load testing",
+    "title": "常见问题解答",
+    "subtitle": "获取有关性能和负载测试的答案",
     "questions": [
       {
-        "question": "What is the difference between Load Testing and Stress Testing?",
-        "answer": "Load testing checks how your system handles the *expected* amount of normal traffic. Stress testing pushes the system far beyond the expected traffic to intentionally break it, helping us understand its absolute maximum capacity and failure behavior."
+        "question": "负载测试和压力测试有什么区别？",
+        "answer": "负载测试检查您的系统如何处理“预期”的正常流量。压力测试将系统推向远远超出预期的流量，从而故意破坏它，帮助我们了解其绝对最大容量和故障行为。"
       },
       {
-        "question": "Will performance testing crash our live website?",
-        "answer": "It can, which is why we rarely execute heavy load tests on a live production server! We prefer to run these tests on a staging environment that perfectly mirrors your production hardware, ensuring your actual users are never interrupted."
+        "question": "性能测试会使我们的实时网站崩溃吗？",
+        "answer": "它可以，这就是为什么我们很少在实时生产服务器上执行重负载测试！我们更喜欢在完美反映您的生产硬件的临时环境中运行这些测试，以确保您的实际用户永远不会中断。"
       },
       {
-        "question": "What metrics do you track during a test?",
-        "answer": "We track a wide variety of metrics, including Average Response Time, Error Rates (like 500 or 502 gateway errors), Throughput (requests per second), CPU utilization, memory consumption, and network I/O."
+        "question": "您在测试期间跟踪哪些指标？",
+        "answer": "我们跟踪各种指标，包括平均响应时间、错误率（如 500 或 502 网关错误）、吞吐量（每秒请求数）、CPU 利用率、内存消耗和网络 I/O。"
       },
       {
-        "question": "How long does a performance testing engagement take?",
-        "answer": "Setting up the infrastructure, writing the complex user-journey scripts, and executing the initial rounds of testing typically takes between 1 to 3 weeks, depending on the complexity of the application flows we need to simulate."
+        "question": "性能测试需要多长时间？",
+        "answer": "设置基础设施、编写复杂的用户旅程脚本以及执行第一轮测试通常需要 1 到 3 周的时间，具体取决于我们需要模拟的应用程序流程的复杂性。"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a performance audit",
+      "text": "没有找到您的答案吗？",
+      "link_text": "安排绩效审核",
       "link_url": "/contact"
     }
   }

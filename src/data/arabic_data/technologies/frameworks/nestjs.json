@@ -1,103 +1,116 @@
 {
   "slug": "nestjs",
+  "seo_metadata": {
+    "title": "تطوير المؤسسة NestJS | بنية Node.js القابلة للتطوير",
+    "description": "تطوير NestJS مخصص للواجهات الخلفية القوية والمعيارية وعلى مستوى المؤسسات. نحن نبني واجهات برمجة تطبيقات TypeScript قابلة للاختبار والصيانة بدرجة عالية باستخدام NestJS.",
+    "keywords": [
+      "تطوير NestJS",
+      "إطار عمل الواجهة الخلفية لـ TypeScript",
+      "خدمات Node.js الصغيرة",
+      "بنية واجهة برمجة تطبيقات المؤسسة",
+      "حقن التبعية NestJS",
+      "تصميم الواجهة الخلفية المعيارية",
+      "TypeScript من جانب الخادم"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "إطار عمل Node.js التقدمي",
+    "title": "بناء أنظمة قابلة للتطوير باستخدام",
     "highlight": "NestJS",
-    "description": "Build production systems with NestJS in our frameworks delivery ecosystem.",
-    "side_image": "/technologies/nest_js/hero.webp",
+    "description": "استفد من قوة TypeScript والبنية المعيارية لإنشاء تطبيقات فعالة وموثوقة وعلى مستوى المؤسسات من جانب الخادم.",
+    "side_image": "/technologies/nestjs/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "صمم الواجهة الخلفية الخاصة بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض الهندسة المعمارية",
       "href": "/technologies/nestjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "NestJS plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع NestJS",
+    "subtitle": "يوفر NestJS البنية المنظمة والمحددة اللازمة لتطبيقات Node.js واسعة النطاق.",
     "paragraphs": [
-      "NestJS is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using NestJS with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "NestJS هو إطار العمل المفضل لدينا لبيئات Node.js الخاصة بالمؤسسات. من خلال استخدام TypeScript محليًا واعتماد بنية مستوحاة من Angular، فإنه يحل مشكلة \"الغرب المتوحش\" لمشاريع Node.js القياسية، مما يوفر بنية واضحة لوحدات التحكم والموفرين والوحدات النمطية.",
+      "تسمح هذه النمطية لفرقنا ببناء أنظمة قابلة للاختبار بدرجة عالية ومترابطة بشكل غير محكم. سواء كنا نبني وحدة متراصة معقدة أو شبكة خدمات صغيرة موزعة، تضمن NestJS أن تظل التعليمات البرمجية قابلة للصيانة وأن يتم التعامل مع حقن التبعية بدقة جراحية."
     ],
     "cards": [
       {
-        "title": "NestJS Clarity",
-        "description": "NestJS helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "تايب سكريبت أصلي",
+        "description": "تم تصميمه باستخدام TypeScript ومن أجله، مما يوفر كتابة قوية وميزات JavaScript حديثة لتسليم خالي من الأخطاء.",
+        "icon_type": "FaCode"
       },
       {
-        "title": "NestJS Performance",
-        "description": "NestJS supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "العمارة المعيارية",
+        "description": "قم بتغليف المنطق في وحدات قابلة لإعادة الاستخدام، مما يجعل قواعد التعليمات البرمجية الكبيرة سهلة التنقل والقياس.",
+        "icon_type": "FaThLarge"
       },
       {
-        "title": "NestJS Reliability",
-        "description": "NestJS strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "حقن التبعية",
+        "description": "حاوية DI قوية تعمل على تبسيط الاختبار وتحسين إمكانية إعادة استخدام التعليمات البرمجية عبر النظام البيئي.",
+        "icon_type": "FaProjectDiagram"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/nest_js/scope.webp",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق الفني لـ NestJS",
+    "image": "/technologies/nestjs/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with NestJS-ready patterns designed for dynamic cloud scaling."
+        "title": "الخدمات المصغرة والنقل",
+        "description": "تصميم الأنظمة الموزعة باستخدام الدعم المدمج لـ NATS وRabbitMQ وgRPC وKafka."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "NestJS integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "واجهات برمجة تطبيقات GraphQL وREST",
+        "description": "إنشاء طبقات بيانات قوية باستخدام وثائق Swagger/OpenAPI الآلية وأدوات حل GraphQL الآمنة للنوع."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use NestJS to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "CQRS ومصادر الأحداث",
+        "description": "تنفيذ فصل مسؤولية الاستعلام عن الأوامر (CQRS) لسير عمل المؤسسات المعقدة المستندة إلى البيانات."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the NestJS stack.",
+    "title": "حافة NestJS",
+    "subtitle": "أداء يمكن التنبؤ به للواجهات الخلفية على مستوى المؤسسات.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging NestJS effectively."
+        "metric": "حازم",
+        "title": "اكتب السلامة",
+        "description": "تخلص فعليًا من أخطاء الكتابة في وقت التشغيل من خلال الاستفادة من التكامل العميق لـ NestJS مع TypeScript."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with NestJS."
+        "metric": "100%",
+        "title": "قابل للاختبار",
+        "description": "دعم مدمج لـ Jest وأدوات الاختبار المتخصصة لاختبارات الوحدة والتكامل وe2e."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate NestJS delivery."
+        "metric": "حديث",
+        "title": "النظام البيئي",
+        "description": "تكامل سلس مع TypeORM وPrisma وMongoose ومئات المكتبات التي تم اختبارها في المعارك."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using NestJS inside open architecture patterns."
+        "metric": "صفر",
+        "title": "الاحتكاك التصميمي",
+        "description": "تعمل الاتفاقيات المعمول بها على تقليل الوقت المستغرق في المناقشات المعمارية، مما يؤدي إلى تسريع تسليم الميزات."
       }
     ]
   },
   "quote_section": {
-    "quote": "NestJS gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يجلب NestJS الانضباط المؤسسي والأناقة المعمارية إلى",
+    "highlight": "النظام البيئي Node.js"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your NestJS roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم واجهة برمجة تطبيقات مؤسستك",
+    "subtitle": "استشر مهندسي NestJS لدينا لتصميم بنية أساسية خلفية قابلة للتطوير وقابلة للصيانة وآمنة للنوع.",
+    "full_name_label": "المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "الرؤية الفنية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your NestJS architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف تحديات توسيع الواجهة الخلفية أو المتطلبات المعمارية...",
+    "button_text": "طلب استشارة"
   }
 }

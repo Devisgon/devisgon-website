@@ -1,103 +1,116 @@
 {
   "slug": "frameworks",
+  "seo_metadata": {
+    "title": "الأطر البرمجية الحديثة | التطوير الشامل والمتعدد المنصات",
+    "description": "التطوير على مستوى المؤسسات باستخدام Next.js وNestJS وLaravel وFlutter. نقوم بتصميم واجهات خلفية قابلة للتطوير وواجهات أمامية عالية الأداء باستخدام أطر عمل رائدة في الصناعة.",
+    "keywords": [
+      "الأطر البرمجية الحديثة",
+      "تطوير المكدس الكامل",
+      "الهندسة المعمارية Next.js",
+      "لارافيل لحلول المؤسسات",
+      "خدمات NestJS الصغيرة",
+      "تطوير التطبيقات عبر الأنظمة الأساسية",
+      "بنية تحتية للويب قابلة للتطوير"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Frameworks",
-    "description": "Build production systems with Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "المكدس الحديث",
+    "title": "تسريع الابتكار مع",
+    "highlight": "الأطر المعيارية",
+    "description": "استفد من قوة أطر العمل الرائدة في الصناعة لبناء أنظمة مرنة وعالية التزامن عبر بيئات الويب والهاتف المحمول وسطح المكتب للمؤسسات.",
+    "side_image": "/services_page/frameworks-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "استكشف مجموعتنا",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "خارطة الطريق التقنية",
       "href": "/technologies/frameworks#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Frameworks forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "مصممة للسرعة.",
+    "subtitle": "نحن نختار أطر العمل التي تعطي الأولوية لإنتاجية المطور دون المساس بأداء مستوى الإنتاج.",
     "paragraphs": [
-      "Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "من خلال توحيد المعايير على مجموعة أساسية من أطر العمل التي تم اختبارها في المعركة - بما في ذلك Node.js وNext.js وNestJS وLaravel وReact وFlutter - نضمن أن منتجك مبني على أساس يدعم كلاً من النماذج الأولية السريعة والنطاق العالمي. يعمل نهجنا على تقليل الديون الفنية من خلال الالتزام بأنماط التصميم الراسخة وهياكل التعليمات البرمجية المعيارية.",
+      "سواء أكان الأمر يتعلق بالكفاءة من جانب الخادم لـ NestJS أو الإمكانات التعبيرية عبر الأنظمة الأساسية لـ Flutter، فإننا نقوم بمواءمة خياراتنا التقنية مع نتائج أعمالك المحددة، مما يضمن إمكانية الصيانة على المدى الطويل وسهولة تأهيل المواهب."
     ],
     "cards": [
       {
-        "title": "Delivery Consistency",
-        "description": "Framework conventions keep product architecture coherent across teams.",
-        "icon_type": "FaCogs"
+        "title": "التماسك المعماري",
+        "description": "تضمن الاتفاقيات الموحدة أن تظل قاعدة التعليمات البرمجية الخاصة بك قابلة للقراءة وقابلة للصيانة مع نمو فريقك.",
+        "icon_type": "FaLayerGroup"
       },
       {
-        "title": "Cross-Platform Reach",
-        "description": "React Native and Flutter accelerate reliable mobile releases.",
+        "title": "الوصول إلى القنوات الشاملة",
+        "description": "استفد من React Native وFlutter لتقديم تجارب مستخدم متسقة عبر iOS وAndroid والويب.",
         "icon_type": "FaMobileAlt"
       },
       {
-        "title": "Scalable Backend Core",
-        "description": "Node.js, NestJS, and Laravel support maintainable API growth.",
-        "icon_type": "FaServer"
+        "title": "أداء المؤسسة",
+        "description": "استخدم محركات الواجهة الخلفية القوية مثل Laravel وNestJS للتعامل مع أعباء العمل عالية التزامن بسهولة.",
+        "icon_type": "FaRocket"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق المكدس الكامل",
+    "image": "/services_page/frameworks-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with frameworks choices matched to runtime and scaling goals."
+        "title": "SSR والحوسبة الحافة",
+        "description": "تنفيذ Next.js للعرض من جانب الخادم وإنشاء موقع ثابت لزيادة أداء تحسين محركات البحث وسرعة الصفحة إلى أقصى حد."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "الخدمات الصغيرة الآمنة",
+        "description": "إنشاء واجهات خلفية قابلة للتطوير وقابلة للصيانة باستخدام NestJS وTypeScript لضمان موثوقية وقت التشغيل وعقود API واضحة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "منصة هجينة",
+        "description": "تصميم طبقات منطق الأعمال المشتركة التي تعمل على تشغيل كل من لوحات معلومات الويب وتطبيقات الهاتف المحمول الأصلية في وقت واحد."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Frameworks stack.",
+    "title": "ميزة الإطار",
+    "subtitle": "مقاييس قابلة للقياس تدفع المنتجات الرقمية التنافسية.",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "title": "مكاسب الكفاءة",
+        "description": "متوسط ​​التخفيض في وقت الوصول إلى السوق من خلال استخدام مكونات إطار العمل المعدة مسبقًا وأدوات واجهة سطر الأوامر (CLI)."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "100%",
+        "title": "إمكانية نقل الكود",
+        "description": "تعظيم إعادة استخدام التعليمات البرمجية عبر الأنظمة الأساسية المختلفة لتقليل الجهود الهندسية المكررة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "نشيط",
+        "title": "دعم LTS",
+        "description": "نحن نبني فقط إصدارات الدعم طويل الأمد (LTS)، مما يضمن أمانك واستقرارك لسنوات قادمة."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "عالمي",
+        "title": "تجمع المواهب",
+        "description": "يضمن استخدام الأطر الشائعة أنك لن تكون مقيدًا أبدًا بتكنولوجيا متخصصة ذات دعم محدود."
       }
     ]
   },
   "quote_section": {
-    "quote": "Great frameworks make architecture repeatable while keeping delivery",
-    "highlight": "remarkably efficient"
+    "quote": "لا توفر الأطر الرائعة التعليمات البرمجية فحسب؛ أنها توفر المطبوعات الزرقاء ل",
+    "highlight": "نجاح قابل للتطوير"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your frameworks roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم خارطة الطريق الخاصة بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد حزمة إطار العمل الأمثل لحل الجيل التالي الخاص بك.",
+    "full_name_label": "المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "رؤية المشروع",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "أخبرنا عن أهدافك المتعلقة بقابلية التوسع أو متطلبات إطار العمل المحددة...",
+    "button_text": "ابدأ الاستشارة"
   }
 }

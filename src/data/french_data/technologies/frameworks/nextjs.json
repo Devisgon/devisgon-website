@@ -1,103 +1,116 @@
 {
   "slug": "nextjs",
+  "seo_metadata": {
+    "title": "Développement Entreprise Next.js | Cadre React haute performance",
+    "description": "Implémentation experte de Next.js pour des applications Web optimisées pour le référencement et ultra-rapides. Nous exploitons les composants serveur et SSR pour créer des produits numériques évolutifs.",
+    "keywords": [
+      "Développement Next.js",
+      "Composants du serveur React",
+      "Rendu côté serveur (SSR)",
+      "Génération de sites statiques (SSG)",
+      "Architecture du routeur d'applications",
+      "Régénération statique incrémentielle",
+      "Déploiement Vercel"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Next.js",
-    "description": "Build production systems with Next.js in our frameworks delivery ecosystem.",
+    "eyebrow": "Le framework React pour le Web",
+    "title": "Performance supérieure avec",
+    "highlight": "Suivant.js",
+    "description": "Offrez des expériences utilisateur rapides, optimisées pour le référencement et hautement interactives avec le framework qui simplifie le rendu côté serveur et la génération de sites statiques.",
     "side_image": "/technologies/next_js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimisez vos éléments essentiels Web",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Voir les spécifications techniques",
       "href": "/technologies/nextjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Next.js plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Next.js",
+    "subtitle": "Next.js comble le fossé entre la vitesse statique et la puissance dynamique, fournissant une base inégalée pour les applications Web modernes.",
     "paragraphs": [
-      "Next.js is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Next.js with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Next.js est notre premier choix pour les projets où les performances et la découvrabilité sont primordiales. En utilisant ses capacités de rendu hybride, nous pouvons diffuser du contenu statique pour des temps de chargement quasi instantanés tout en récupérant des données dynamiques sur le serveur, réduisant ainsi considérablement la taille du bundle JavaScript envoyé au client.",
+      "L'introduction des composants App Router et Server nous a permis de concevoir des applications avec un état d'esprit « serveur d'abord ». Cela garantit que votre application reste réactive et accessible même sur des appareils à faible consommation, car le gros du travail est géré par l'infrastructure du serveur."
     ],
     "cards": [
       {
-        "title": "Next.js Clarity",
-        "description": "Next.js helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Rendu hybride",
+        "description": "Choisissez entre SSR, SSG et ISR page par page pour équilibrer les nouvelles données avec une vitesse extrême.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Next.js Performance",
-        "description": "Next.js supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Excellence SEO",
+        "description": "La prise en charge native des métadonnées et du contenu rendu par le serveur garantit à votre site un meilleur classement dans les résultats de recherche.",
+        "icon_type": "FaSearch"
       },
       {
-        "title": "Next.js Reliability",
-        "description": "Next.js strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Vitalités optimisées",
+        "description": "Optimisation automatique des images, hébergement de polices et chargement de scripts pour Core Web Vitals, leader du secteur.",
+        "icon_type": "FaTachometerAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée du cadre",
     "image": "/technologies/next_js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Next.js-ready patterns designed for dynamic cloud scaling."
+        "title": "Architecture du routeur d'applications",
+        "description": "Implémentation de mises en page imbriquées complexes et récupération de données en continu pour une navigation transparente et hautes performances."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Next.js integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Services d'exécution Edge",
+        "description": "Déployer des middlewares et des fonctions à la périphérie du réseau pour fournir un contenu personnalisé sans latence."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Next.js to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Routes API et actions du serveur",
+        "description": "Créez des fonctionnalités complètes avec des fonctions de serveur de type sécurisé qui éliminent le besoin d'une orchestration d'API complexe."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Next.js stack.",
+    "title": "L'avantage Next.js",
+    "subtitle": "Des mesures quantifiables qui définissent l’avenir du Web.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Next.js effectively."
+        "metric": "100/100",
+        "title": "Score phare",
+        "description": "Obtenez des performances et des scores SEO parfaits grâce à des optimisations automatiques au niveau du framework."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Next.js."
+        "metric": "Zéro",
+        "title": "Problèmes CLS",
+        "description": "Éliminez les décalages de mise en page cumulatifs à l’aide des composants image et police optimisés de Next.js."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Next.js delivery."
+        "metric": "En temps réel",
+        "title": "Régénération",
+        "description": "Mettez à jour le contenu statique sans reconstruction complète à l'aide de la régénération statique incrémentielle (ISR)."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Next.js inside open architecture patterns."
+        "metric": "Actif",
+        "title": "Assistance Vercel",
+        "description": "Tirer parti de l'intégration approfondie entre Next.js et le réseau Edge de Vercel pour une évolutivité mondiale."
       }
     ]
   },
   "quote_section": {
-    "quote": "Next.js gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Next.js nous permet de créer les applications React les plus complexes sans compromettre",
+    "highlight": "SEO ou performance"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Next.js roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Architectez votre présence sur le Web",
+    "subtitle": "Consultez nos spécialistes Next.js pour créer un produit numérique performant et évolutif.",
+    "full_name_label": "Ingénieur principal",
+    "business_email_label": "Courriel d'entreprise",
+    "message_label": "Vision technique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Next.js architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos objectifs de performances Web ou vos défis architecturaux...",
+    "button_text": "Lancez votre projet"
   }
 }

@@ -1,103 +1,116 @@
 {
   "slug": "javascript",
+  "seo_metadata": {
+    "title": "تطوير جافا سكريبت العالمي | حلول الويب والNode.js الكاملة",
+    "description": "تنفيذ جافا سكريبت الخبراء لتطبيقات الويب الديناميكية. نحن نستفيد من أداء محرك V8 والبنية المستندة إلى الأحداث لبناء أنظمة متكاملة وقابلة للتطوير.",
+    "keywords": [
+      "تطوير جافا سكريبت",
+      "معايير الويب ES6+",
+      "تحسين محرك V8",
+      "البرمجة غير المتزامنة",
+      "جافا سكريبت العالمية",
+      "العمارة الموجهة بالحدث",
+      "حلول JS الكاملة"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "JavaScript",
-    "description": "Build production systems with JavaScript in our languages delivery ecosystem.",
+    "eyebrow": "لغة الويب",
+    "title": "خفة الحركة الديناميكية مع",
+    "highlight": "جافا سكريبت",
+    "description": "قم بتعزيز دورة حياة منتجك بالكامل باستخدام اللغة الأكثر تنوعًا على هذا الكوكب، مما يوفر تفاعلًا عالي الأداء من المتصفح إلى الخادم.",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين المكدس الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض خريطة الطريق التقنية",
       "href": "/technologies/javascript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "JavaScript plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام جافا سكريبت",
+    "subtitle": "تعد JavaScript حجر الزاوية في التجارب الرقمية الحديثة، حيث توفر سرعة لا مثيل لها ومدى وصول عالمي.",
     "paragraphs": [
-      "JavaScript is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using JavaScript with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "JavaScript هي أداتنا الأساسية لبناء تطبيقات تفاعلية تتمحور حول المستخدم. من خلال الاستفادة من حلقة الأحداث غير المحظورة ومحرك V8 عالي السرعة، نقدم واجهات تستجيب بشكل فوري لإدخال المستخدم أثناء التعامل مع تنسيق الواجهة الخلفية المعقدة من خلال نظام بيئي لغة موحد وعالي السرعة.",
+      "تكمن القوة الحقيقية لجافا سكريبت في طبيعتها \"العالمية\". من خلال مشاركة المنطق بين العميل والخادم، تعمل فرقنا على تقليل الاحتكاك الهيكلي، وتسريع تسليم الميزات، والتأكد من أن منطق عملك يظل متسقًا عبر كل نقطة اتصال في البنية التحتية الرقمية الخاصة بك."
     ],
     "cards": [
       {
-        "title": "JavaScript Clarity",
-        "description": "JavaScript helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "الوصول العالمي",
+        "description": "قم بتنفيذ نفس قاعدة التعليمات البرمجية عبر المتصفحات والخوادم والأجهزة المحمولة لتحقيق أقصى قدر من إعادة استخدام المنطق.",
+        "icon_type": "FaGlobe"
       },
       {
-        "title": "JavaScript Performance",
-        "description": "JavaScript supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "الطاقة غير المتزامنة",
+        "description": "تعامل مع الآلاف من العمليات المتزامنة دون حظر الخيط الرئيسي باستخدام Promises وAsync/Await.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "JavaScript Reliability",
-        "description": "JavaScript strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "النظام البيئي النابض بالحياة",
+        "description": "قم بالوصول إلى أكبر سجل للحزم في العالم (npm) للوحدات التي تم اختبارها في المعركة وتكامل الميزات السريع.",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق الفني",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with JavaScript-ready patterns designed for dynamic cloud scaling."
+        "title": "الواجهات الخلفية المستندة إلى الأحداث",
+        "description": "تصميم خدمات عالية التزامن من جانب الخادم تستفيد من حلقة أحداث Node.js لتحقيق إنتاجية فائقة."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "JavaScript integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "حالة الواجهة الأمامية التفاعلية",
+        "description": "إنشاء واجهات مستخدم حية ومعقدة بأنماط حديثة تضمن بقاء طبقة العرض متزامنة بشكل مثالي مع البيانات الأساسية."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use JavaScript to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "الحوسبة بدون خادم وحوسبة الحافة",
+        "description": "نشر وظائف JavaScript خفيفة الوزن على الحافة لتقديم محتوى مخصص وزمن وصول منخفض على نطاق واسع."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the JavaScript stack.",
+    "title": "حافة جافا سكريبت",
+    "subtitle": "مزايا الأداء الاستراتيجي لعالم رقمي سريع.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging JavaScript effectively."
+        "metric": "سريع",
+        "title": "تنفيذ",
+        "description": "يقوم محرك Google V8 بتجميع JS إلى كود الآلة في الوقت الفعلي، مما ينافس أداء اللغات التقليدية."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with JavaScript."
+        "metric": "100%",
+        "title": "مكدس كامل",
+        "description": "تعمل حزمة اللغة الموحدة على تقليل تبديل السياق وتبسيط سير العمل من التطوير إلى النشر."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate JavaScript delivery."
+        "metric": "2 مليون+",
+        "title": "فتح المكتبات",
+        "description": "يمكنك الوصول إلى مستودع عالمي ضخم للوحدات التقنية التي تم اختبارها مسبقًا لتسريع التسليم."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using JavaScript inside open architecture patterns."
+        "metric": "صفر",
+        "title": "الحواجز",
+        "description": "اللغة الوحيدة المدعومة أصلاً من قبل جميع المتصفحات الرئيسية، مما يضمن التوافق مع النظام الأساسي بنسبة 100%."
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "تتيح لنا JavaScript إنشاء الواجهات الأكثر تعقيدًا دون خسارة",
+    "highlight": "خفة الحركة المعمارية"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your JavaScript roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم البنية التحتية الخاصة بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق JavaScript قابلة للتطوير لمنتجك الرقمي.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your JavaScript architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف التحدي المعماري لجافا سكريبت أو أهداف الأداء...",
+    "button_text": "طلب استشارة"
   }
 }

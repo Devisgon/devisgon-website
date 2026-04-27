@@ -105,12 +105,12 @@
     "subtitle": "Ein strukturierter Ansatz für ethisches Hacking",
     "steps": [
       {
-        "title": "Aufklärung",
+        "title": "Reconnaissance",
         "description": "Wir kartieren die Angriffsfläche Ihrer Anwendung und identifizieren exponierte Endpunkte, Subdomänen und Tech-Stacks.",
         "icon": "FaSearch"
       },
       {
-        "title": "Scannen",
+        "title": "Scanning",
         "description": "Wir nutzen fortschrittliche automatisierte Tools, um Fehlkonfigurationen und bekannte Schwachstellen zu identifizieren.",
         "icon": "FaRadar"
       },
@@ -135,11 +135,11 @@
         "text": "Ein Telemedizin-Startup war noch Wochen von der Einführung seines Patientenportals entfernt, benötigte jedoch eine abschließende Sicherheitsüberprüfung, um die HIPAA-Vorschriften einzuhalten."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Während unseres manuellen Penetrationstests haben wir eine schwerwiegende Schwachstelle in der Insecure Direct Object Reference (IDOR) entdeckt, die es jedem Benutzer ermöglichte, durch Manipulation der URL auf die Krankenakten anderer Patienten zuzugreifen."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Wir haben einen sofortigen Korrekturcode bereitgestellt. Die Schwachstelle wurde vor dem Start behoben, wodurch ein katastrophaler HIPAA-Verstoß vermieden und die Zukunft des Startups gesichert wurde."
       }
     }

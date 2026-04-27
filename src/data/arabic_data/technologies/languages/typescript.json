@@ -1,103 +1,116 @@
 {
   "slug": "typescript",
+  "seo_metadata": {
+    "title": "تطوير TypeScript للمؤسسة | بنية جافا سكريبت الآمنة من النوع",
+    "description": "خدمات هندسية احترافية لـ TypeScript. نحن نبني تطبيقات قابلة للتطوير ومقاومة للأخطاء وقابلة للصيانة باستخدام الكتابة الثابتة ومعايير ECMAScript الحديثة.",
+    "keywords": [
+      "تطوير تايب سكريبت",
+      "الكتابة الثابتة جافا سكريبت",
+      "تصميم واجهة برمجة التطبيقات الآمنة من النوع",
+      "بنية الواجهة الأمامية للمؤسسات",
+      "Node.js TypeScript الخلفية",
+      "خدمات إعادة هيكلة TypeScript",
+      "بنية تحتية للويب قابلة للتطوير"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "TypeScript",
-    "description": "Build production systems with TypeScript in our languages delivery ecosystem.",
+    "eyebrow": "جافا سكريبت الذي يقيس",
+    "title": "كود يمكن التنبؤ به مع",
+    "highlight": "تايب سكريبت",
+    "description": "أنشئ أنظمة إنتاج عالية الثقة باستخدام لغة برمجة مكتوبة بقوة تعتمد على JavaScript، مما يمنحك أدوات أفضل على أي نطاق.",
     "side_image": "/technologies/type_script/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ابدأ إنشاء النوع الآمن",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض خريطة الطريق التقنية",
       "href": "/technologies/typescript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "TypeScript plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام TypeScript",
+    "subtitle": "يوفر TypeScript السلامة الهيكلية المطلوبة لإدارة قواعد التعليمات البرمجية الضخمة ومتعددة الفرق بدقة جراحية.",
     "paragraphs": [
-      "TypeScript is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using TypeScript with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "يعد TypeScript خيارنا الأساسي لتطوير التطبيقات على نطاق واسع. من خلال تقديم نظام كتابة ثابت قوي إلى JavaScript، فإننا نكتشف الأخطاء المحتملة أثناء التطوير وليس في وقت التشغيل. يؤدي هذا النهج \"السريع الفشل\" إلى تقليل وقت تصحيح الأخطاء بشكل كبير وزيادة موثوقية نشر البرامج ذات المهام الحرجة.",
+      "إلى جانب منع الأخطاء، يعمل TypeScript على تحسين إنتاجية المطورين بشكل كبير. يوفر التكامل العميق مع IDEs الحديثة أدوات الإكمال التلقائي وإعادة البناء التلقائية، مما يضمن أنه مع نمو قاعدة التعليمات البرمجية الخاصة بك، فإنها تظل قابلة للقراءة، وموثقة بأنواعها الخاصة، ويسهل على المهندسين الجدد التنقل فيها."
     ],
     "cards": [
       {
-        "title": "TypeScript Clarity",
-        "description": "TypeScript helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "سلامة النوع الثابت",
+        "description": "حدد هياكل وواجهات بيانات واضحة للتخلص من فئات كاملة من أخطاء وقت التشغيل قبل أن تصل إلى مرحلة الإنتاج.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "TypeScript Performance",
-        "description": "TypeScript supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "الأدوات المتقدمة",
+        "description": "استفد من دعم IDE الفائق من خلال إعادة الهيكلة الفورية والتحقق من الكتابة والتنقل الذكي للتعليمات البرمجية.",
+        "icon_type": "FaTools"
       },
       {
-        "title": "TypeScript Reliability",
-        "description": "TypeScript strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "JS مقاوم للمستقبل",
+        "description": "استخدم أحدث ميزات ECMAScript اليوم، وانتقل إلى الإصدارات الأقدم من JavaScript لتحقيق أقصى قدر من التوافق.",
+        "icon_type": "FaForward"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق الفني لـ TypeScript",
     "image": "/technologies/type_script/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with TypeScript-ready patterns designed for dynamic cloud scaling."
+        "title": "تصميم واجهة برمجة التطبيقات المستندة إلى المجال",
+        "description": "تصميم واجهات برمجة التطبيقات الآمنة من النوع باستخدام واجهات مشتركة لضمان محاذاة مثالية للبيانات بين الواجهة الأمامية والخلفية."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "TypeScript integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "خدمات دقيقة خلفية صارمة",
+        "description": "نشر خدمات Node.js القوية مع NestJS أو Express، واستخدام أدوات الديكور وDTOs للتحقق الصارم من الصحة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use TypeScript to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "الهجرة القديمة واختيار النوع",
+        "description": "ترحيل مكدسات JavaScript الفانيليا بشكل استراتيجي إلى TypeScript من خلال الكتابة المتزايدة والواجهات عالية الدقة."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the TypeScript stack.",
+    "title": "حافة الآلة الكاتبة",
+    "subtitle": "مزايا قابلة للقياس للحفاظ على التعليمات البرمجية على مستوى المؤسسة.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging TypeScript effectively."
+        "metric": "15%",
+        "title": "الحد من الأخطاء",
+        "description": "تُظهر الأبحاث المتوافقة مع معايير الصناعة أن TypeScript يلتقط جزءًا كبيرًا من الأخطاء العامة في وقت الترجمة."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with TypeScript."
+        "metric": "100%",
+        "title": "التوثيق الذاتي",
+        "description": "تعمل تعريفات النوع كعقد حي، مما يقلل الحاجة إلى وثائق خارجية قديمة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate TypeScript delivery."
+        "metric": "سريع",
+        "title": "إعادة البناء",
+        "description": "أعد تسمية المتغيرات أو قم بتغيير بنيات البيانات بثقة 100% عبر مشروعك بأكمله."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using TypeScript inside open architecture patterns."
+        "metric": "صفر",
+        "title": "الديون الفنية",
+        "description": "حافظ على قواعد تعليمات برمجية نظيفة وقابلة للصيانة من خلال تطبيق معايير صارمة وحدود معمارية واضحة."
       }
     ]
   },
   "quote_section": {
-    "quote": "TypeScript gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يتيح لنا TypeScript البناء بسرعة JavaScript مع الحفاظ على",
+    "highlight": "سلامة لغة المؤسسة"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your TypeScript roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم البنية التحتية الخاصة بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق قابلة للتطوير وآمنة للنوع لمؤسستك.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your TypeScript architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف التحدي المعماري لـ TypeScript أو أهداف الترحيل...",
+    "button_text": "طلب استشارة"
   }
 }

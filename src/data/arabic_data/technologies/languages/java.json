@@ -1,103 +1,116 @@
 {
   "slug": "java",
+  "seo_metadata": {
+    "title": "تطوير جافا للمؤسسات | خدمات هندسة JVM القابلة للتطوير",
+    "description": "هندسة برمجيات Java مخصصة لتطبيقات المؤسسات عالية التزامن. نحن نصمم أنظمة آمنة ومستقرة وقابلة للتطوير باستخدام Spring Boot وتحسين JVM الحديث.",
+    "keywords": [
+      "تطوير جافا للمؤسسات",
+      "خدمات التمهيد الربيعية الصغيرة",
+      "ضبط أداء JVM",
+      "هندسة برمجيات جافا",
+      "هندسة النظم الخلفية",
+      "تطبيقات جافا متعددة الخيوط",
+      "جاكرتا إي إي سولوشنز"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Java",
-    "description": "Build production systems with Java in our languages delivery ecosystem.",
+    "eyebrow": "موثوقية على مستوى المؤسسة",
+    "title": "ثبت الاستقرار مع",
+    "highlight": "منصة جافا",
+    "description": "أنشئ أنظمة مؤسسية مرنة ومتعددة الأنظمة الأساسية باستخدام لغة مصممة للأمان والتزامن العالي وقابلية الصيانة على المدى الطويل.",
     "side_image": "/technologies/java/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "صمم نظامك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "خارطة الطريق التقنية",
       "href": "/technologies/java#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Java plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام Java",
+    "subtitle": "توفر Java الانضباط الهيكلي وعمق النظام البيئي المطلوب للبرامج ذات المهام الحرجة.",
     "paragraphs": [
-      "Java is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Java with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Java هي حجر الزاوية لدينا لبناء تطبيقات مؤسسية معقدة ومتعددة الطبقات. تضمن سلامة النوع الصارمة وإدارة الذاكرة القوية عبر مجموعة البيانات المهملة المتقدمة وجهاز Java الظاهري عالي الأداء (JVM) بقاء التطبيقات مستقرة في ظل أحمال المعاملات الضخمة.",
+      "من خلال الاستفادة من النظام البيئي الواسع لـ Spring - بما في ذلك Spring Boot وSpring Cloud - فإننا نقدم خدمات صغيرة يمكن ملاحظتها وتأمينها وجاهزة للنشر السحابي الأصلي. يتيح لنا دعم الإطار الناضج هذا التركيز على حل منطق الأعمال المعقد بينما تتعامل المنصة مع البنية التحتية الأساسية."
     ],
     "cards": [
       {
-        "title": "Java Clarity",
-        "description": "Java helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "أداء JVM",
+        "description": "استفد من التجميع في الوقت المناسب (JIT) وإدارة الذاكرة المُحسّنة للتنفيذ عالي الإنتاجية.",
+        "icon_type": "FaTachometerAlt"
       },
       {
-        "title": "Java Performance",
-        "description": "Java supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "سلامة النوع القوي",
+        "description": "قم بفرض الحدود المعمارية واكتشف الأخطاء في وقت الترجمة لضمان تكامل التعليمات البرمجية عبر الفرق الكبيرة.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Java Reliability",
-        "description": "Java strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "النظام البيئي للمؤسسات",
+        "description": "يمكنك الوصول إلى مكتبات ذات مستوى عالمي للأمان والثبات (الإسبات) والمراسلة (Kafka/JMS).",
+        "icon_type": "FaServer"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق جافا الفني",
     "image": "/technologies/java/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Java-ready patterns designed for dynamic cloud scaling."
+        "title": "الخدمات السحابية الأصلية",
+        "description": "تصميم الخدمات المعبأة في حاويات باستخدام Spring Boot وQuarkus للتوسع السريع في بيئات Kubernetes."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Java integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "معالجة عالية التزامن",
+        "description": "الاستفادة من مؤشرات الترابط المتعددة والخيوط الافتراضية المتقدمة في Java (Project Loom) لمعالجة البيانات عالية الأداء."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Java to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "التكامل القديم الموزع",
+        "description": "ربط الأنظمة القديمة ذات المهام الحرجة مع البنى السحابية الحديثة من خلال بوابات API الآمنة وRMI."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Java stack.",
+    "title": "جافا الحافة التنافسية",
+    "subtitle": "مزايا قابلة للقياس لنجاح المنتج على المدى الطويل.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Java effectively."
+        "metric": "99.99%",
+        "title": "موثوقية وقت التشغيل",
+        "description": "إن عقوداً من الاختبارات في قطاعي المال والاتصالات تضمن استقراراً منقطع النظير."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Java."
+        "metric": "اكتب مرة واحدة",
+        "title": "تشغيل في أي مكان",
+        "description": "يضمن JVM أن التعليمات البرمجية الخاصة بك تعمل بشكل متسق عبر بيئات Linux وWindows وCloud."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Java delivery."
+        "metric": "قابلة للتطوير",
+        "title": "التزامن",
+        "description": "تعامل بكفاءة مع الآلاف من الاتصالات المتزامنة باستخدام نماذج الخيوط الناضجة."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Java inside open architecture patterns."
+        "metric": "صفر",
+        "title": "مخاطر الصيانة",
+        "description": "يعمل التوافق الصارم مع الإصدارات السابقة والدعم طويل الأمد (LTS) على حماية استثمارك الفني."
       }
     ]
   },
   "quote_section": {
-    "quote": "Java gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "تسمح لنا Java بإخفاء تعقيد الأنظمة الموزعة خلفنا",
+    "highlight": "الهندسة المعمارية المنضبطة"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Java roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم طبقة مؤسستك",
+    "subtitle": "استشر متخصصي Java الرائدين لدينا لتصميم خارطة طريق آمنة وقابلة للتطوير للبنية التحتية الرقمية الخاصة بك.",
+    "full_name_label": "اسم المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الفنية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Java architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف أهداف توسيع الواجهة الخلفية أو تحديات أداء JVM...",
+    "button_text": "طلب استشارة"
   }
 }

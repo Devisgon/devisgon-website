@@ -1,103 +1,116 @@
 {
   "slug": "react",
+  "seo_metadata": {
+    "title": "Desarrollo profesional de React | Arquitectura de componentes interactivos",
+    "description": "Servicios de desarrollo React.js de nivel empresarial. Construimos interfaces de usuario escalables y de alto rendimiento utilizando un diseño basado en componentes y una gestión de estado moderna.",
+    "keywords": [
+      "Desarrollo de React.js",
+      "Arquitectura frontal",
+      "Aplicaciones de una sola página (SPA)",
+      "Rendimiento DOM virtual",
+      "Ganchos de reacción",
+      "Diseño basado en componentes",
+      "Soluciones de gestión estatal"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "React",
-    "description": "Build production systems with React in our frameworks delivery ecosystem.",
+    "eyebrow": "La biblioteca para interfaces web",
+    "title": "Precisión interactiva con",
+    "highlight": "Reaccionar",
+    "description": "Cree interfaces de usuario interactivas de alta concurrencia con una arquitectura basada en componentes que garantice un estado predecible y una representación ultrarrápida.",
     "side_image": "/technologies/react/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimice su interfaz",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Ver hoja de ruta técnica",
       "href": "/technologies/react#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "React plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Por qué diseñamos con React",
+    "subtitle": "React proporciona el poder declarativo necesario para crear interfaces complejas basadas en datos con facilidad.",
     "paragraphs": [
-      "React is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using React with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "React es nuestra elección fundamental para crear experiencias web dinámicas. Al utilizar un modelo de programación declarativa y un DOM virtual, minimizamos las costosas manipulaciones directas del navegador, lo que da como resultado aplicaciones de alto rendimiento que escalan sin problemas independientemente de la complejidad de la interfaz de usuario.",
+      "La verdadera fuerza de React radica en su ecosistema basado en componentes. Este enfoque modular permite a nuestros equipos crear unidades de código encapsuladas que administran su propio estado, lo que permite una mejor reutilización, pruebas más sencillas y transferencias significativamente más limpias entre diseñadores e ingenieros."
     ],
     "cards": [
       {
-        "title": "React Clarity",
-        "description": "React helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Eficiencia DOM virtual",
+        "description": "Los algoritmos de diferenciación inteligentes garantizan que solo se actualicen las partes necesarias de la interfaz de usuario, maximizando el rendimiento.",
+        "icon_type": "FaZap"
       },
       {
-        "title": "React Performance",
-        "description": "React supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Flujo de datos unidireccional",
+        "description": "El enlace de datos unidireccional proporciona un modelo mental predecible para la depuración y la lógica de la aplicación.",
+        "icon_type": "FaExchangeAlt"
       },
       {
-        "title": "React Reliability",
-        "description": "React strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Ecosistema rico",
+        "description": "Acceda a miles de bibliotecas previamente examinadas para enrutamiento, administración de estado y componentes de interfaz de usuario a través de npm.",
+        "icon_type": "FaBoxes"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance arquitectónico frontend",
     "image": "/technologies/react/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with React-ready patterns designed for dynamic cloud scaling."
+        "title": "Diseño basado en componentes",
+        "description": "Diseño de sistemas de diseño con principios de diseño atómico para elementos de interfaz de usuario consistentes y reutilizables."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "React integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Gestión estatal moderna",
+        "description": "Implementación de almacenes de datos predecibles utilizando Redux Toolkit, Zustand o Context API para estados de aplicaciones complejos."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use React to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Optimización del rendimiento",
+        "description": "Utilizando memorización, división de código y carga diferida para garantizar tamaños de paquete mínimos y tiempos de carga instantáneos."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the React stack.",
+    "title": "La ventaja de reaccionar",
+    "subtitle": "Ventajas cuantificables para productos web modernos.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging React effectively."
+        "metric": "85%",
+        "title": "Reutilización del código",
+        "description": "Aproveche los componentes compartidos en múltiples vistas e incluso React Native para proyectos móviles."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with React."
+        "metric": "60 FPS",
+        "title": "Fluidez de la interfaz",
+        "description": "Logre animaciones y transiciones fluidas a través de ciclos y ganchos de renderizado optimizados."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate React delivery."
+        "metric": "Activo",
+        "title": "Soporte LTS",
+        "description": "Respaldado por Meta y una comunidad global, lo que garantiza estabilidad a largo plazo y actualizaciones de seguridad."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using React inside open architecture patterns."
+        "metric": "Cero",
+        "title": "Código de espagueti",
+        "description": "Los patrones establecidos como JSX y Hooks imponen una estructura más limpia y legible para equipos grandes."
       }
     ]
   },
   "quote_section": {
-    "quote": "React gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "React nos permite construir interfaces vivas y complejas sin perder",
+    "highlight": "previsibilidad arquitectónica"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your React roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su interfaz",
+    "subtitle": "Consulte con nuestros arquitectos líderes de React para definir una estrategia de interfaz de usuario escalable y una hoja de ruta de rendimiento.",
+    "full_name_label": "Ingeniero líder",
+    "business_email_label": "Correo electrónico de la entidad",
+    "message_label": "Requisito de interfaz de usuario",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describa sus objetivos de rendimiento de React o los desafíos del sistema de diseño...",
+    "button_text": "Solicitar una consulta"
   }
 }

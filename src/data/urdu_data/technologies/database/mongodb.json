@@ -1,103 +1,116 @@
 {
   "slug": "mongodb",
+  "seo_metadata": {
+    "title": "توسیع پذیر MongoDB ترقی اور NoSQL سکیما ڈیزائن",
+    "description": "انٹرپرائز MongoDB نفاذ کی خدمات۔ ہم لچکدار، اعلی کارکردگی والے دستاویزی ڈیٹا بیس بناتے ہیں جو افقی پیمانے اور تیز رفتار تکرار کے لیے ڈیزائن کیے گئے ہیں۔",
+    "keywords": [
+      "مونگو ڈی بی ڈویلپمنٹ",
+      "NoSQL ڈیٹا بیس ڈیزائن",
+      "دستاویز ڈیٹا بیس آرکیٹیکچر",
+      "BSON ڈیٹا ماڈلنگ",
+      "مونگو ڈی بی ایگریگیشن فریم ورک",
+      "MERN اسٹیک ڈویلپمنٹ",
+      "ڈیٹا بیس شیئرنگ کے حل"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "MongoDB",
-    "description": "Build production systems with MongoDB in our database delivery ecosystem.",
+    "eyebrow": "سرکردہ دستاویزی ڈیٹا بیس",
+    "title": "کے ساتھ لچکدار اسکیلنگ",
+    "highlight": "مونگو ڈی بی",
+    "description": "ایک دستاویز پر مبنی ڈیٹا ماڈل کے ساتھ ڈویلپر کی پیداواری صلاحیت کو غیر مقفل کرتا ہے جو براہ راست آپ کے کوڈ پر نقشہ بناتا ہے، جس سے تیز رفتار خصوصیت کی ڈیلیوری اور آسانی سے اسکیلنگ ممکن ہوتی ہے۔",
     "side_image": "/technologies/mongodb/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے کلسٹر کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی پیٹرن",
       "href": "/technologies/mongodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "MongoDB plays a critical role in our database strategy for reliable software delivery.",
+    "title": "ہم MongoDB کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "MongoDB جدید ایپلی کیشنز کے لیے درکار آرکیٹیکچرل لچک فراہم کرتا ہے جس میں ڈیٹا کی ضرورت ہوتی ہے۔",
     "paragraphs": [
-      "MongoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using MongoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "MongoDB کا دستاویزی ماڈل (BSON) پیچیدہ SQL جوائنز کے رگڑ کو ختم کرتے ہوئے، نیسٹڈ ڈھانچے اور لچکدار اسکیموں کی اجازت دیتا ہے۔ ہم اسے ان منصوبوں کے لیے منتخب کرتے ہیں جہاں تیزی سے پروٹو ٹائپنگ اور پولیمورفک ڈیٹا کو ذخیرہ کرنے کی صلاحیت کاروباری چستی کے لیے اہم ہے۔",
+      "بلٹ ان ریپلیکیشن اور افقی شارڈنگ کے ساتھ، MongoDB یقینی بناتا ہے کہ آپ کا ڈیٹا ٹیرابائٹ رینج میں اور اس سے آگے بڑھنے کے باوجود آپ کی ایپلیکیشن انتہائی دستیاب اور پرفارمنٹ رہے۔"
     ],
     "cards": [
       {
-        "title": "MongoDB Clarity",
-        "description": "MongoDB helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "متحرک اسکیما",
+        "description": "روایتی نقل مکانی کے وقت کے بغیر تیزی سے اعادہ کریں؛ دستاویزات ایک ہی مجموعہ میں ساخت میں مختلف ہو سکتی ہیں۔",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "MongoDB Performance",
-        "description": "MongoDB supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "طاقتور جمع",
+        "description": "ریئل ٹائم اینالیٹکس کے لیے ایک بھرپور استفسار کی زبان اور ایگریگیشن پائپ لائن کے ساتھ مقامی طور پر ڈیٹا پر کارروائی کریں۔",
+        "icon_type": "FaStream"
       },
       {
-        "title": "MongoDB Reliability",
-        "description": "MongoDB strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "مقامی اعلی دستیابی",
+        "description": "ریپلیکا سیٹ کے ذریعے خودکار فیل اوور اور ڈیٹا فالتو پن آپ کی درخواست کو 24/7 آن لائن رکھتا ہے۔",
+        "icon_type": "FaShieldVirus"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "مونگو ڈی بی ڈیزائن اسکوپ",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with MongoDB-ready patterns designed for dynamic cloud scaling."
+        "title": "دستاویزی ڈیٹا ماڈلنگ",
+        "description": "بھاری کام کے بوجھ کو پڑھنے/لکھنے کے لیے بہتر بنانے اور IOPS کو کم کرنے کے لیے 'ایمبیڈنگ بمقابلہ حوالہ دینے' کی حکمت عملیوں کو ڈیزائن کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "MongoDB integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "اٹلس کلاؤڈ انٹیگریشن",
+        "description": "ملٹی کلاؤڈ رسائی، خودکار اسکیلنگ، اور مربوط تلاش کی صلاحیتوں کے ساتھ مکمل طور پر منظم کلسٹرز کو تعینات کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use MongoDB to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "ٹائم سیریز کے مجموعے۔",
+        "description": "خودکار عمر رسیدگی اور کمپریشن کے ساتھ ہائی تھرو پٹ IoT اور مالیاتی ڈیٹا کے لیے خصوصی مجموعوں کو نافذ کرنا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the MongoDB stack.",
+    "title": "مونگو ڈی بی ایج",
+    "subtitle": "جدید، ڈیٹا سے چلنے والی ایپلی کیشنز کے لیے کارکردگی کے فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging MongoDB effectively."
+        "metric": "3x",
+        "title": "تیز تر کوڈنگ",
+        "description": "ڈیٹا فارمیٹ کا استعمال کرتے ہوئے ترقی کو تیز کریں جو زیادہ تر پروگرامنگ زبانوں میں مقامی اشیاء کی آئینہ دار ہو۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with MongoDB."
+        "metric": "لچکدار",
+        "title": "توسیع پذیری",
+        "description": "صفر ایپلیکیشن ڈاؤن ٹائم کے ساتھ مقامی شارڈنگ کا استعمال کرتے ہوئے کموڈٹی ہارڈویئر میں افقی طور پر اسکیل کریں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate MongoDB delivery."
+        "metric": "99.99%",
+        "title": "اپ ٹائم",
+        "description": "تقسیم شدہ ریپلیکا سیٹس اور خودکار خود شفا بخش پروٹوکول کے ذریعے حاصل کردہ قابل اعتماد۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using MongoDB inside open architecture patterns."
+        "metric": "صفر",
+        "title": "ایس کیو ایل رکاوٹیں۔",
+        "description": "غیر معمولی، خود ساختہ دستاویزات کا استعمال کرتے ہوئے پیچیدہ رشتہ دار جوائن کی کارکردگی سے بچیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "MongoDB gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "MongoDB ڈیٹا بیس کو آپ کی رفتار سے تیار ہونے کی اجازت دیتا ہے۔",
+    "highlight": "درخواست کوڈ"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your MongoDB roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے دستاویزی اسٹور کو اسکیل کریں۔",
+    "subtitle": "اپنے ایگریگیشن پائپ لائنز کو بہتر بنانے کے لیے ہمارے NoSQL ماہرین سے مشورہ کریں یا اپنی اٹلس منتقلی کی منصوبہ بندی کریں۔",
+    "full_name_label": "لیڈ انجینئر کا نام",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "تکنیکی چیلنج",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your MongoDB architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے ڈیٹا ماڈلنگ چیلنج یا اسکیلنگ کی ضروریات کی وضاحت کریں...",
+    "button_text": "شروع کریں"
   }
 }

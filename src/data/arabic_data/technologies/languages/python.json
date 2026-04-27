@@ -1,103 +1,116 @@
 {
   "slug": "python",
+  "seo_metadata": {
+    "title": "تطوير المشاريع بايثون | الذكاء الاصطناعي وعلوم البيانات والحلول الخلفية",
+    "description": "هندسة برمجيات Python المخصصة للذكاء الاصطناعي والتعلم الآلي والواجهات الخلفية القابلة للتطوير. نحن نبني أنظمة عالية السرعة وقابلة للصيانة باستخدام بنيات بايثونيك الحديثة.",
+    "keywords": [
+      "تطوير برمجيات بايثون",
+      "هندسة الذكاء الاصطناعي والتعلم الآلي",
+      "حلول جانغو وFastAPI",
+      "خطوط أنابيب علوم البيانات",
+      "مخطوطات أتمتة بايثون",
+      "بنية خلفية قابلة للتطوير",
+      "الحوسبة العلمية بيثون"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Python",
-    "description": "Build production systems with Python in our languages delivery ecosystem.",
+    "eyebrow": "لغة الابتكار",
+    "title": "التصميم الذكي مع",
+    "highlight": "بايثون",
+    "description": "قم بتسريع مسارك من الفكرة إلى الإنتاج باستخدام لغة محسنة لإنتاجية المطورين والحوسبة العلمية والأتمتة على مستوى المؤسسات.",
     "side_image": "/technologies/python/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "بناء المنطق الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "التوثيق الفني",
       "href": "/technologies/python#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Python plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام بايثون؟",
+    "subtitle": "توفر لغة Python المسار الأنظف لحل التحديات الرياضية والمنطقية المعقدة على نطاق واسع.",
     "paragraphs": [
-      "Python is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Python with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Python هي محركنا الأساسي للتطبيقات كثيفة البيانات والذكاء الاصطناعي. تسمح \"البساطة الجمالية\" للمهندسين المعماريين لدينا بكتابة تعليمات برمجية معبرة وقابلة للصيانة تقلل الفجوة بين البحث العلمي والبرامج الجاهزة للإنتاج. من خلال الاستفادة من نظامها البيئي الواسع من المكتبات المتخصصة، فإننا نحل المشكلات المعقدة في عدد أقل من أسطر التعليمات البرمجية.",
+      "بالإضافة إلى هيمنتها في الذكاء الاصطناعي، فإن تنوع بايثون في هندسة الواجهة الخلفية - من خلال أطر عمل مثل Django وFastAPI - يضمن أنه يمكننا إنشاء واجهات برمجة تطبيقات آمنة للغاية وقابلة للتطوير. تسمح لنا هذه القدرة متعددة المجالات بتوحيد فرق علوم البيانات وهندسة الويب لديك ضمن حزمة لغة واحدة عالية السرعة."
     ],
     "cards": [
       {
-        "title": "Python Clarity",
-        "description": "Python helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "الهيمنة العلمية",
+        "description": "استفد من المكتبات المتوافقة مع معايير الصناعة مثل NumPy وPandas وTensorFlow لمعالجة البيانات المتقدمة.",
+        "icon_type": "FaFlask"
       },
       {
-        "title": "Python Performance",
-        "description": "Python supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "النماذج الأولية السريعة",
+        "description": "قم بتحويل الأفكار المعقدة إلى إثباتات وظيفية للمفهوم بشكل أسرع من أي لغة أخرى عالية المستوى.",
+        "icon_type": "FaRocket"
       },
       {
-        "title": "Python Reliability",
-        "description": "Python strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "سهولة القراءة النظيفة",
+        "description": "قم بفرض معايير عالية باستخدام صيغة تؤكد على الوضوح، مما يقلل من تكاليف الصيانة على المدى الطويل.",
+        "icon_type": "FaEye"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق بايثون الفني",
     "image": "/technologies/python/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Python-ready patterns designed for dynamic cloud scaling."
+        "title": "نماذج الذكاء الاصطناعي والتعلم الآلي",
+        "description": "تصميم ونشر النماذج التنبؤية ومحركات البرمجة اللغوية العصبية وأنظمة رؤية الكمبيوتر في الإنتاج."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Python integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "خطوط أنابيب البيانات عالية الإنتاجية",
+        "description": "تنسيق عمليات ETL القوية التي تحول مجموعات البيانات الضخمة إلى ذكاء تشغيلي قابل للتنفيذ."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Python to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "خدمات واجهة برمجة التطبيقات غير المتزامنة",
+        "description": "إنشاء واجهات خلفية غير متزامنة بسرعة البرق باستخدام FastAPI وTrio للبيئات عالية التزامن."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Python stack.",
+    "title": "حافة بايثون",
+    "subtitle": "المزايا الاستراتيجية للمؤسسات التي تعتمد على البيانات.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Python effectively."
+        "metric": "50%",
+        "title": "أسرع TTM",
+        "description": "متوسط ​​التخفيض في وقت التطوير الأولي للوحدات المنطقية والعلمية المعقدة."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Python."
+        "metric": "100%",
+        "title": "متوافق مع الذكاء الاصطناعي",
+        "description": "التكامل السلس مع أطر التعلم الآلي والأتمتة الأكثر تقدمًا في العالم."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Python delivery."
+        "metric": "2 مليون+",
+        "title": "فتح المكتبات",
+        "description": "الوصول الفوري إلى Python Package Index (PyPI) للوحدات التي تم فحصها مسبقًا في جميع الصناعات."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Python inside open architecture patterns."
+        "metric": "صفر",
+        "title": "سخام التعقيد",
+        "description": "حافظ على قواعد تعليمات برمجية بسيطة وسهلة القراءة حتى مع نمو المنطق الأساسي في التطور."
       }
     ]
   },
   "quote_section": {
-    "quote": "Python gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "بايثون هي تجربة لمدى التعقيد الذي يمكن إخفاؤه وراءه",
+    "highlight": "البساطة الجمالية"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Python roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم ذكائك",
+    "subtitle": "استشر متخصصي Python الرائدين لدينا لتحديد خارطة طريق الذكاء الاصطناعي الخاصة بك أو تحسين البنية التحتية الخلفية لديك.",
+    "full_name_label": "مهندس البيانات الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Python architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف تحديات البيانات الخاصة بك أو رؤيتك للذكاء الاصطناعي/التعلم الآلي...",
+    "button_text": "طلب التدقيق الفني"
   }
 }

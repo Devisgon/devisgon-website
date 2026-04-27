@@ -1,31 +1,31 @@
 {
   "hero_section": {
-    "eyebrow": "Technology Intelligence",
-    "title": "Technologies We Build With",
-    "description": "Explore our core technology tracks: languages, frameworks, database, and tools."
+    "eyebrow": "الذكاء التكنولوجي",
+    "title": "التقنيات التي نبني بها",
+    "description": "استكشف مسارات التكنولوجيا الأساسية لدينا: اللغات والأطر وقواعد البيانات والأدوات."
   },
   "technology_cards": [
     {
-      "title": "Languages",
-      "description": "Java, JavaScript, Python, TypeScript, PHP, C++, and C foundations for robust systems.",
+      "title": "اللغات",
+      "description": "أسس Java وJavaScript وPython وTypeScript وPHP وC++ وC للأنظمة القوية.",
       "href": "/technologies/java",
       "icon_type": "FaCode"
     },
     {
-      "title": "Frameworks",
-      "description": "Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
+      "title": "الأطر",
+      "description": "مجموعات التسليم Node.js وNext.js وNestJS وLaravel وReact وReact Native وFlutter.",
       "href": "/technologies/react",
       "icon_type": "FaLayerGroup"
     },
     {
-      "title": "Database",
-      "description": "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB data architecture.",
+      "title": "قاعدة البيانات",
+      "description": "هندسة البيانات Supabase وMongoDB وGraphQL وMySQL وAmazon DynamoDB.",
       "href": "/technologies/mongodb",
       "icon_type": "FaDatabase"
     },
     {
-      "title": "Tools",
-      "description": "n8n, Make, Zapier, Amazon, Shopify, and WordPress operations tooling.",
+      "title": "أدوات",
+      "description": "أدوات العمليات n8n وMake وZapier وAmazon وShopify وWordPress.",
       "href": "/technologies/n8n",
       "icon_type": "FaTools"
     }

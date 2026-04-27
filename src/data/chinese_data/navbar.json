@@ -1,0 +1,469 @@
+{
+  "navbar": [
+    {
+      "name": "家",
+      "href": "/"
+    },
+    {
+      "name": "服务",
+      "href": "/services",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "人工智能和SaaS开发",
+            "links": [
+              {
+                "name": "人工智能驱动的应用程序",
+                "href": "/services/saas/ai_powered_app"
+              },
+              {
+                "name": "机器学习模型",
+                "href": "/services/saas/meachine_learning"
+              },
+              {
+                "name": "MVP 和 POC",
+                "href": "/services/saas/mvps"
+              },
+              {
+                "name": "软件即服务平台",
+                "href": "/services/saas/saas_plateform"
+              }
+            ]
+          },
+          {
+            "title": "自动化",
+            "links": [
+              {
+                "name": "人工智能驱动的自动化",
+                "href": "/services/automations/ai_powered_automation"
+              },
+              {
+                "name": "API集成自动化",
+                "href": "/services/automations/api_integration"
+              },
+              {
+                "name": "业务流程自动化",
+                "href": "/services/automations/business_process_automation"
+              },
+              {
+                "name": "财务自动化",
+                "href": "/services/automations/accounting"
+              },
+              {
+                "name": "基础设施自动化",
+                "href": "/services/automations/devops-infrastructure-automation"
+              },
+              {
+                "name": "低代码自动化",
+                "href": "/services/automations/low_code_automations"
+              },
+              {
+                "name": "营销和销售自动化",
+                "href": "/services/automations/marketing-sales-automation"
+              },
+              {
+                "name": "机器人过程自动化",
+                "href": "/services/automations/robotic-process-automation"
+              }
+            ]
+          },
+          {
+            "title": "云和 DevOps",
+            "links": [
+              {
+                "name": "Ci/Cd 管道",
+                "href": "/services/cloud/cicd_pipelines"
+              },
+              {
+                "name": "云安全",
+                "href": "/services/cloud/cloud_security"
+              },
+              {
+                "name": "数据库管理",
+                "href": "/services/cloud/database_management"
+              },
+              {
+                "name": "开发运营咨询",
+                "href": "/services/cloud/devops_consulting"
+              }
+            ]
+          },
+          {
+            "title": "数据解决方案",
+            "links": [
+              {
+                "name": "人工智能模型",
+                "href": "/services/data_solutions/ai_ml_models"
+              },
+              {
+                "name": "商业分析",
+                "href": "/services/data_solutions/business_analytics"
+              },
+              {
+                "name": "数据分析仪表板",
+                "href": "/services/data_solutions/data_analytics_dashboard"
+              },
+              {
+                "name": "数据抓取",
+                "href": "/services/data_solutions/data_scraping"
+              }
+            ]
+          },
+          {
+            "title": "数字化设计",
+            "links": [
+              {
+                "name": "图形和虚拟设计",
+                "href": "/services/design/graphic_design"
+              },
+              {
+                "name": "标志设计",
+                "href": "/services/design/logo_design"
+              },
+              {
+                "name": "移动应用程序设计",
+                "href": "/services/design/mobile_app_design"
+              },
+              {
+                "name": "产品设计",
+                "href": "/services/design/product_design"
+              },
+              {
+                "name": "原型设计和线框图",
+                "href": "/services/design/prototyping_wireframing"
+              },
+              {
+                "name": "用户界面/用户体验设计",
+                "href": "/services/design/ui_ux_design"
+              },
+              {
+                "name": "网页设计",
+                "href": "/services/design/web_design"
+              }
+            ]
+          },
+          {
+            "title": "质量保证和测试",
+            "links": [
+              {
+                "name": "API测试",
+                "href": "/services/testing/api_testing"
+              },
+              {
+                "name": "自动化测试",
+                "href": "/services/testing/automation_testing"
+              },
+              {
+                "name": "手动测试",
+                "href": "/services/testing/manual_testing"
+              },
+              {
+                "name": "性能测试",
+                "href": "/services/testing/performance_testing"
+              },
+              {
+                "name": "安全测试",
+                "href": "/services/testing/security_testing"
+              }
+            ]
+          },
+          {
+            "title": "网络和应用程序",
+            "links": [
+              {
+                "name": "定制机器人",
+                "href": "/services/web_and_mobile_development/custom_bots"
+              },
+              {
+                "name": "移动应用程序",
+                "href": "/services/web_and_mobile_development/app_applications"
+              },
+              {
+                "name": "网页应用程序",
+                "href": "/services/web_and_mobile_development/web_applications"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "行业",
+      "href": "/industries",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "农业",
+            "links": [
+              {
+                "name": "农场",
+                "href": "/industries/agriculture/farms"
+              },
+              {
+                "name": "领域",
+                "href": "/industries/agriculture/fields"
+              },
+              {
+                "name": "灌溉",
+                "href": "/industries/agriculture/irrigation"
+              },
+              {
+                "name": "植物",
+                "href": "/industries/agriculture/plants"
+              }
+            ]
+          },
+          {
+            "title": "娱乐",
+            "links": [
+              {
+                "name": "活动",
+                "href": "/industries/entertainment/events"
+              },
+              {
+                "name": "酒店",
+                "href": "/industries/entertainment/hotels"
+              },
+              {
+                "name": "媒体制作",
+                "href": "/industries/entertainment/media_production"
+              },
+              {
+                "name": "餐厅",
+                "href": "/industries/entertainment/restaurants"
+              }
+            ]
+          },
+          {
+            "title": "卫生保健",
+            "links": [
+              {
+                "name": "脊椎按摩师",
+                "href": "/industries/healthcare/chiropractor"
+              },
+              {
+                "name": "牙医",
+                "href": "/industries/healthcare/dentist"
+              },
+              {
+                "name": "按摩治疗师",
+                "href": "/industries/healthcare/massage_therapist"
+              },
+              {
+                "name": "肌肉治疗师",
+                "href": "/industries/healthcare/myotherapist"
+              },
+              {
+                "name": "验光",
+                "href": "/industries/healthcare/optometry"
+              },
+              {
+                "name": "心理学家",
+                "href": "/industries/healthcare/psychologist"
+              }
+            ]
+          },
+          {
+            "title": "专业的",
+            "links": [
+              {
+                "name": "咨询",
+                "href": "/industries/professional/consulting"
+              },
+              {
+                "name": "教育",
+                "href": "/industries/professional/education"
+              },
+              {
+                "name": "法律服务",
+                "href": "/industries/professional/legal_services"
+              },
+              {
+                "name": "旅游服务",
+                "href": "/industries/professional/travel_services"
+              }
+            ]
+          },
+          {
+            "title": "房地产",
+            "links": [
+              {
+                "name": "建筑与设计",
+                "href": "/industries/real_estate/architecture_design"
+              },
+              {
+                "name": "商业的",
+                "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "物业管理",
+                "href": "/industries/real_estate/property_management"
+              },
+              {
+                "name": "住宅",
+                "href": "/industries/real_estate/residential"
+              }
+            ]
+          },
+          {
+            "title": "交易",
+            "links": [
+              {
+                "name": "木工",
+                "href": "/industries/trades/carpentry"
+              },
+              {
+                "name": "电工",
+                "href": "/industries/trades/electrician"
+              },
+              {
+                "name": "水暖",
+                "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "焊接",
+                "href": "/industries/trades/welding"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "技术",
+      "href": "/technologies",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "数据库",
+            "links": [
+              {
+                "name": "亚马逊动态数据库",
+                "href": "/technologies/amazon_dynamodb"
+              },
+              {
+                "name": "GraphQL",
+                "href": "/technologies/graphql"
+              },
+              {
+                "name": "MongoDB",
+                "href": "/technologies/mongodb"
+              },
+              {
+                "name": "MySQL",
+                "href": "/technologies/mysql"
+              },
+              {
+                "name": "苏帕贝斯",
+                "href": "/technologies/supabase"
+              }
+            ]
+          },
+          {
+            "title": "框架",
+            "links": [
+              {
+                "name": "扑",
+                "href": "/technologies/flutter"
+              },
+              {
+                "name": "拉维尔",
+                "href": "/technologies/laravel"
+              },
+              {
+                "name": "NestJS",
+                "href": "/technologies/nestjs"
+              },
+              {
+                "name": "Next.js",
+                "href": "/technologies/nextjs"
+              },
+              {
+                "name": "Node.js",
+                "href": "/technologies/nodejs"
+              },
+              {
+                "name": "反应",
+                "href": "/technologies/react"
+              },
+              {
+                "name": "反应本机",
+                "href": "/technologies/react_native"
+              }
+            ]
+          },
+          {
+            "title": "语言",
+            "links": [
+              {
+                "name": "C",
+                "href": "/technologies/c"
+              },
+              {
+                "name": "C++",
+                "href": "/technologies/cpp"
+              },
+              {
+                "name": "爪哇",
+                "href": "/technologies/java"
+              },
+              {
+                "name": "JavaScript",
+                "href": "/technologies/javascript"
+              },
+              {
+                "name": "PHP",
+                "href": "/technologies/php"
+              },
+              {
+                "name": "Python",
+                "href": "/technologies/python"
+              },
+              {
+                "name": "打字稿",
+                "href": "/technologies/typescript"
+              }
+            ]
+          },
+          {
+            "title": "工具",
+            "links": [
+              {
+                "name": "亚马逊",
+                "href": "/technologies/amazon"
+              },
+              {
+                "name": "制作",
+                "href": "/technologies/make"
+              },
+              {
+                "name": "n8n",
+                "href": "/technologies/n8n"
+              },
+              {
+                "name": "购物",
+                "href": "/technologies/shopify"
+              },
+              {
+                "name": "WordPress",
+                "href": "/technologies/wordpress"
+              },
+              {
+                "name": "扎皮尔",
+                "href": "/technologies/zapier"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "关于我们",
+      "href": "/#about"
+    },
+    {
+      "name": "联系我们",
+      "href": "/contact"
+    }
+  ]
+}

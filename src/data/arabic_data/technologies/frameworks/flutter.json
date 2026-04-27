@@ -1,103 +1,116 @@
 {
   "slug": "flutter",
+  "seo_metadata": {
+    "title": "تطوير تطبيقات Flutter احترافية | حلول متعددة المنصات",
+    "description": "تطوير Flutter مخصص لأنظمة iOS وAndroid والويب. نحن نبني تطبيقات عالية الأداء ومترجمة محليًا باستخدام قاعدة تعليمات برمجية واحدة وواجهات مستخدم معبرة.",
+    "keywords": [
+      "تطوير الرفرفة",
+      "برمجة دارت",
+      "تطبيقات الجوال عبر الأنظمة الأساسية",
+      "الرفرفة للويب",
+      "واجهة تصميم المواد",
+      "تطبيقات سطح المكتب الرفرفة",
+      "تحسين تطبيقات الهاتف المحمول"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Flutter",
-    "description": "Build production systems with Flutter in our frameworks delivery ecosystem.",
+    "eyebrow": "مجموعة أدوات تطوير برمجيات واجهة المستخدم",
+    "title": "صمم لأي شاشة مع",
+    "highlight": "رفرفة",
+    "description": "قم بإنشاء تطبيقات جميلة ومجمعة محليًا للجوال والويب وسطح المكتب والأجهزة المدمجة من قاعدة تعليمات برمجية واحدة عالية الأداء.",
     "side_image": "/technologies/flutter/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ابدأ مشروعك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض نطاق الإطار",
       "href": "/technologies/flutter#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Flutter plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام Flutter",
+    "subtitle": "يوفر Flutter مزيجًا فريدًا من سرعة التطوير والأداء المتسارع للأجهزة.",
     "paragraphs": [
-      "Flutter is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Flutter with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "نحن نستخدم Flutter لسد الفجوة بين الأداء الأصلي والكفاءة عبر الأنظمة الأساسية. من خلال الاستفادة من محركات العرض Skia وImpeller، يتجاوز Flutter الاختناقات التقليدية القائمة على الجسر، مما يسمح لنا بتقديم رسوم متحركة بمعدل 60 إطارًا في الثانية إلى 120 إطارًا في الثانية لا يمكن تمييزها عن الكود الأصلي.",
+      "يضمن استخدام Dart - وهي لغة مُحسّنة للعميل - أمانًا قويًا للنوع وأدوات مطورة حديثة مثل \"Hot Reload\"، والتي تسمح لفريقنا بتكرار الميزات في ثوانٍ، مما يقلل بشكل كبير من دورة حياة التطوير الإجمالية."
     ],
     "cards": [
       {
-        "title": "Flutter Clarity",
-        "description": "Flutter helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "تم تجميعها محليًا",
+        "description": "يتم تجميع كود Flutter إلى رمز جهاز ARM أو Intel بالإضافة إلى JavaScript، مما يضمن أعلى أداء على أي جهاز.",
+        "icon_type": "FaCogs"
       },
       {
-        "title": "Flutter Performance",
-        "description": "Flutter supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "واجهة المستخدم التعبيرية",
+        "description": "تحكم كامل في كل بكسل لإنشاء تصميمات مخصصة تحمل علامة تجارية دون قيود أدوات OEM الأصلية.",
+        "icon_type": "FaPaintBrush"
       },
       {
-        "title": "Flutter Reliability",
-        "description": "Flutter strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "المنطق الموحد",
+        "description": "شارك 100% من منطق عملك ورمز واجهة المستخدم عبر iOS وAndroid، مما يقلل تكاليف الصيانة بشكل كبير.",
+        "icon_type": "FaCopy"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق الإطار",
     "image": "/technologies/flutter/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Flutter-ready patterns designed for dynamic cloud scaling."
+        "title": "التميز في إدارة الدولة",
+        "description": "تنفيذ حلول قوية لإدارة الحالة مثل Bloc أو Provider أو Riverpod لتدفق التطبيقات الذي يمكن التنبؤ به والقابل للتطوير."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Flutter integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "التكامل الخاص بالمنصة",
+        "description": "استخدام قنوات الطريقة للاستفادة من واجهات برمجة التطبيقات الأصلية (GPS، Bluetooth، أجهزة الاستشعار) عند الحاجة إلى وصول محدد على مستوى الأجهزة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Flutter to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "النشر متعدد المنصات",
+        "description": "تصميم تخطيطات سريعة الاستجابة تتكيف بسلاسة من شاشات اللمس المحمولة إلى بيئات سطح المكتب والويب ذات الشاشات العريضة."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Flutter stack.",
+    "title": "حافة الرفرفة",
+    "subtitle": "المزايا التنافسية الاستراتيجية لمنتجك الرقمي.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Flutter effectively."
+        "metric": "50%",
+        "title": "تكلفة أقل",
+        "description": "انخفاض متطلبات الموارد مقارنة بالحفاظ على فرق هندسية أصلية منفصلة لنظامي التشغيل iOS وAndroid."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Flutter."
+        "metric": "120 إطارًا في الثانية",
+        "title": "حركة السوائل",
+        "description": "دعم شاشات العرض ذات معدل التحديث العالي والرسوم المتحركة المعقدة من خلال العرض المسرع للأجهزة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Flutter delivery."
+        "metric": "فخم",
+        "title": "تحديث ساخن",
+        "description": "سرعة تكرار رائدة في الصناعة تسمح للمطورين بإصلاح الأخطاء وإنشاء واجهات المستخدم في الوقت الفعلي دون فقدان الحالة."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Flutter inside open architecture patterns."
+        "metric": "يفتح",
+        "title": "النظام البيئي المصدر",
+        "description": "بدعم من Google ومجتمع ضخم، يوفر الآلاف من الحزم التي تم اختبارها مسبقًا للتكامل السريع."
       }
     ]
   },
   "quote_section": {
-    "quote": "Flutter gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يقوم Flutter بتحويل تعقيد تطوير الأنظمة الأساسية المتعددة إلى ملف",
+    "highlight": "عملية إبداعية سلسة"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Flutter roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم تجربة هاتفك المحمول",
+    "subtitle": "استشر متخصصي Flutter لدينا لتصميم تطبيق عالي الأداء لنظام التشغيل iOS وAndroid والويب.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "متطلبات التطبيق",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Flutter architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف رؤيتك عبر الأنظمة الأساسية أو تحديات الأداء...",
+    "button_text": "طلب عرض أسعار"
   }
 }

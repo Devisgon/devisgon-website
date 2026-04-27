@@ -5,20 +5,32 @@ import Image from "next/image";
 import Link from "next/link";
 import { Menu, Moon, Sun, ChevronDown } from "lucide-react";
 import Switcher from "./language_switch_component";
-import data from "@/data/navbar.json";
+import { getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+
+const getCookieValue = (name) => {
+  const token = `${name}=`;
+  const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
+  return match ? decodeURIComponent(match.slice(token.length)) : null;
+};
 
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [currentLang, setCurrentLang] = useState("en");
   const [activeDesktopDropdown, setActiveDesktopDropdown] = useState(null);
   const [activeMobileCategory, setActiveMobileCategory] = useState(null);
   const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
 
-  const navLinks = data.navbar;
+  const navLinks = getNavbarDataByLang(currentLang).navbar;
 
   useEffect(() => {
     const hasDarkClass = document.documentElement.classList.contains("dark");
     setIsDark(hasDarkClass);
+  }, []);
+
+  useEffect(() => {
+    const cookieLang = getCookieValue("lang");
+    setCurrentLang(normalizeLanguage(cookieLang));
   }, []);
 
   useEffect(() => {
@@ -55,12 +67,12 @@ const Navbar = () => {
         <nav className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => {
             const columnCount = link.dropdown?.columns?.length ?? 0;
-            const normalizedName = link.name.toLowerCase();
-            const isServicesDropdown = normalizedName === "services";
-            const isIndustriesDropdown = normalizedName === "industries";
-            const isTechnologiesDropdown = normalizedName === "technologies";
+            const normalizedHref = link.href.toLowerCase();
+            const isServicesDropdown = normalizedHref === "/services";
+            const isIndustriesDropdown = normalizedHref === "/industries";
+            const isTechnologiesDropdown = normalizedHref === "/technologies";
             const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown || isTechnologiesDropdown;
-            const isDropdownOpen = activeDesktopDropdown === link.name;
+            const isDropdownOpen = activeDesktopDropdown === link.href;
 
          const dropdownPositionClass = isServicesDropdown
   ? "fixed right-6 top-10 w-[calc(100vw-2rem)]" 
@@ -71,8 +83,8 @@ const Navbar = () => {
               <div
                 key={link.name}
                 className="relative"
-                onMouseEnter={() => setActiveDesktopDropdown(link.dropdown ? link.name : null)}
-                onMouseLeave={() => setActiveDesktopDropdown((prev) => (prev === link.name ? null : prev))}
+                onMouseEnter={() => setActiveDesktopDropdown(link.dropdown ? link.href : null)}
+                onMouseLeave={() => setActiveDesktopDropdown((prev) => (prev === link.href ? null : prev))}
               >
                 <Link
                   href={link.href}
@@ -140,7 +152,7 @@ const Navbar = () => {
           </button>
 
           <div className="-ml-2">
-            <Switcher />
+            <Switcher onLanguageChange={(code) => setCurrentLang(normalizeLanguage(code))} />
           </div>
         </nav>
 
@@ -178,14 +190,14 @@ const Navbar = () => {
 
                   <button
                     onClick={() => {
-                      setActiveMobileDropdown(activeMobileDropdown === link.name ? null : link.name);
+                      setActiveMobileDropdown(activeMobileDropdown === link.href ? null : link.href);
                       setActiveMobileCategory(null);
                     }}
                     aria-label={`Toggle ${link.name} dropdown`}
                   >
                     <ChevronDown
                       className={`transition-transform ${
-                        activeMobileDropdown === link.name ? "rotate-180" : ""
+                        activeMobileDropdown === link.href ? "rotate-180" : ""
                       }`}
                     />
                   </button>
@@ -200,7 +212,7 @@ const Navbar = () => {
                 </Link>
               )}
 
-              {link.dropdown && activeMobileDropdown === link.name && (
+              {link.dropdown && activeMobileDropdown === link.href && (
                 <div className="mt-4 space-y-3">
                   {link.dropdown.columns.map((col) => (
                     <div key={col.title}>
@@ -240,7 +252,7 @@ const Navbar = () => {
           ))}
 
           <div className="mr-4">
-            <Switcher />
+            <Switcher onLanguageChange={(code) => setCurrentLang(normalizeLanguage(code))} />
           </div>
         </div>
       </div>

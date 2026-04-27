@@ -1,103 +1,116 @@
 {
   "slug": "typescript",
+  "seo_metadata": {
+    "title": "انٹرپرائز ٹائپ اسکرپٹ ڈویلپمنٹ | ٹائپ سیف جاوا اسکرپٹ آرکیٹیکچر",
+    "description": "پروفیشنل ٹائپ اسکرپٹ انجینئرنگ سروسز۔ ہم مستحکم ٹائپنگ اور جدید ECMAScript معیارات کا استعمال کرتے ہوئے توسیع پذیر، بگ مزاحم، اور برقرار رکھنے کے قابل ایپلی کیشنز بناتے ہیں۔",
+    "keywords": [
+      "ٹائپ اسکرپٹ ڈویلپمنٹ",
+      "جامد ٹائپنگ جاوا اسکرپٹ",
+      "ٹائپ سیف API ڈیزائن",
+      "انٹرپرائز فرنٹ اینڈ آرکیٹیکچر",
+      "Node.js TypeScript بیک اینڈ",
+      "ٹائپ اسکرپٹ ری فیکٹرنگ سروسز",
+      "توسیع پذیر ویب انفراسٹرکچر"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "TypeScript",
-    "description": "Build production systems with TypeScript in our languages delivery ecosystem.",
+    "eyebrow": "جاوا اسکرپٹ جو اسکیل کرتا ہے۔",
+    "title": "پیش قیاسی کوڈ کے ساتھ",
+    "highlight": "ٹائپ اسکرپٹ",
+    "description": "ایک مضبوط ٹائپ شدہ پروگرامنگ لینگویج کے ساتھ اعلی اعتماد کے پروڈکشن سسٹم بنائیں جو JavaScript پر بنتی ہے، آپ کو کسی بھی پیمانے پر بہتر ٹولنگ فراہم کرتی ہے۔",
     "side_image": "/technologies/type_script/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ٹائپ سیف بلڈ شروع کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ دیکھیں",
       "href": "/technologies/typescript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "TypeScript plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "ہم ٹائپ اسکرپٹ کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "TypeScript جراحی کی درستگی کے ساتھ بڑے پیمانے پر، ملٹی ٹیم کوڈ بیس کو منظم کرنے کے لیے درکار ساختی سالمیت فراہم کرتا ہے۔",
     "paragraphs": [
-      "TypeScript is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using TypeScript with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "TypeScript بڑے پیمانے پر ایپلیکیشن ڈویلپمنٹ کے لیے ہمارا بنیادی انتخاب ہے۔ JavaScript میں ایک مضبوط جامد قسم کا نظام متعارف کروا کر، ہم رن ٹائم کے بجائے ترقی کے دوران ممکنہ غلطیوں کو پکڑتے ہیں۔ یہ 'فیل فاسٹ' نقطہ نظر ڈیبگنگ کے وقت کو نمایاں طور پر کم کرتا ہے اور مشن کے لیے اہم سافٹ ویئر کی تعیناتی کی وشوسنییتا کو بڑھاتا ہے۔",
+      "غلطی کی روک تھام کے علاوہ، TypeScript ڈرامائی طور پر ڈویلپر کی پیداواری صلاحیت کو بہتر بناتا ہے۔ جدید IDEs کے ساتھ گہرا انضمام ذہین خودکار تکمیل اور خودکار ری فیکٹرنگ ٹولز فراہم کرتا ہے، اس بات کو یقینی بناتا ہے کہ جیسے جیسے آپ کا کوڈ بیس بڑھتا ہے، یہ پڑھنے کے قابل، اپنی قسم کے مطابق دستاویزی، اور نئے انجینئرز کے لیے آسانی سے تشریف لے جاتا ہے۔"
     ],
     "cards": [
       {
-        "title": "TypeScript Clarity",
-        "description": "TypeScript helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "جامد قسم کی حفاظت",
+        "description": "واضح ڈیٹا ڈھانچے اور انٹرفیس کی وضاحت کریں تاکہ رن ٹائم بگ کی پوری کلاسز کو پروڈکشن تک پہنچنے سے پہلے ختم کیا جا سکے۔",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "TypeScript Performance",
-        "description": "TypeScript supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "اعلی درجے کی ٹولنگ",
+        "description": "فوری ری فیکٹرنگ، ٹائپ چیکنگ، اور ذہین کوڈ نیویگیشن کے ساتھ اعلیٰ IDE سپورٹ حاصل کریں۔",
+        "icon_type": "FaTools"
       },
       {
-        "title": "TypeScript Reliability",
-        "description": "TypeScript strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "مستقبل کا ثبوت جے ایس",
+        "description": "زیادہ سے زیادہ مطابقت کے لیے JavaScript کے پرانے ورژنز پر منتقل ہوتے ہوئے آج ہی ECMAScript کی تازہ ترین خصوصیات کا استعمال کریں۔",
+        "icon_type": "FaForward"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "TypeScript تکنیکی دائرہ کار",
     "image": "/technologies/type_script/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with TypeScript-ready patterns designed for dynamic cloud scaling."
+        "title": "ڈومین سے چلنے والا API ڈیزائن",
+        "description": "فرنٹ اینڈ اور بیک اینڈ کے درمیان کامل ڈیٹا سیدھ کو یقینی بنانے کے لیے مشترکہ انٹرفیس کا استعمال کرتے ہوئے ٹائپ سیف APIs کی تعمیر کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "TypeScript integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "سخت بیک اینڈ مائیکرو سروسز",
+        "description": "NestJS یا Express کے ساتھ مضبوط Node.js سروسز کو تعینات کرنا، سخت توثیق کے لیے ڈیکوریٹرز اور DTOs کا استعمال۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use TypeScript to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "لیگیسی مائیگریشن اور ٹائپ کاسٹنگ",
+        "description": "تزویراتی طور پر ونیلا جاوا اسکرپٹ اسٹیک کو TypeScript پر منتقل کرنا انکریمنٹل ٹائپنگ اور ہائی فیڈیلیٹی انٹرفیس کے ذریعے۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the TypeScript stack.",
+    "title": "ٹائپ اسکرپٹ ایج",
+    "subtitle": "انٹرپرائز گریڈ کوڈ کو برقرار رکھنے کے لیے قابل قدر فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging TypeScript effectively."
+        "metric": "15%",
+        "title": "بگ کی کمی",
+        "description": "انڈسٹری کے معیاری تحقیق سے پتہ چلتا ہے کہ ٹائپ اسکرپٹ کمپائل کے وقت عوامی کیڑے کا ایک اہم حصہ پکڑتا ہے۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with TypeScript."
+        "metric": "100%",
+        "title": "خود دستاویزی",
+        "description": "قسم کی تعریفیں ایک زندہ معاہدے کے طور پر کام کرتی ہیں، جس سے باسی بیرونی دستاویزات کی ضرورت کم ہوتی ہے۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate TypeScript delivery."
+        "metric": "تیز",
+        "title": "ریفیکٹرنگ",
+        "description": "متغیرات کا نام تبدیل کریں یا اپنے پورے پروجیکٹ میں 100% اعتماد کے ساتھ ڈیٹا ڈھانچے کو تبدیل کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using TypeScript inside open architecture patterns."
+        "metric": "صفر",
+        "title": "تکنیکی قرض",
+        "description": "سخت معیارات اور واضح آرکیٹیکچرل حدود کو نافذ کرکے صاف ستھرا، برقرار رکھنے کے قابل کوڈ بیسز کو برقرار رکھیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "TypeScript gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "TypeScript ہمیں برقرار رکھنے کے دوران جاوا اسکرپٹ کی رفتار کے ساتھ تعمیر کرنے کی اجازت دیتا ہے۔",
+    "highlight": "ایک انٹرپرائز زبان کی سالمیت"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your TypeScript roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے انفراسٹرکچر کو تعمیر کریں۔",
+    "subtitle": "اپنی تنظیم کے لیے قابل توسیع، ٹائپ سیف روڈ میپ کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your TypeScript architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے TypeScript آرکیٹیکچرل چیلنج یا ہجرت کے اہداف کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

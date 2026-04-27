@@ -1,130 +1,370 @@
 {
   "hero_section": {
     "pre_title": "您的下一代技术合作伙伴",
-    "main_title": "AI 驱动的软件",
+    "main_title": "人工智能驱动的软件",
     "sub_main_title": "更智能的工作流程",
     "title": "可扩展的增长。",
-    "description": "通过 AI 自动化帮助全球企业节省 20–50% 的时间。",
-    "cta_button": { "text": "开始使用", "link": "#" }
+    "description": "通过 AI 自动化帮助全球企业节省 20-50% 的时间。",
+    "cta_button": {
+      "text": "开始使用",
+      "link": "#"
+    }
   },
   "services_section": {
-    "header_title": "服务项目",
-    "main_title": "我们为每项 IT 服务提供全方位解决方案",
+    "header_title": "SERVICES",
+    "main_title": "我们为每项 IT 服务提供一体化解决方案",
     "services_list": [
-      { "title": "网页开发", "image_alt": "/home_page/services/web_development.webp", "link": "/services/web_and_mobile_development/web_applications" },
-      { "title": "应用开发", "image_alt": "/home_page/services/app_development.webp", "link": "/services/web_and_mobile_development/app_applications" },
-      { "title": "SaaS 开发", "image_alt": "/home_page/services/saas_development.webp", "link": "/services/saas/saas_plateform" },
-      { "title": "数据分析", "image_alt": "/home_page/services/data_analysing.webp", "link": "/services/data_solutions/data_analytics_dashboard" },
-      { "title": "云与部署", "image_alt": "/home_page/services/cloude_and_development.webp", "link": "/services/saas/mvps" },
-      { "title": "设计与策略", "image_alt": "/home_page/services/design_stratagy.webp", "link": "/services/automations/ai_powered_automation" },
-      { "title": "软件咨询", "image_alt": "/home_page/services/software_consulting.webp", "link": "/services/web_and_mobile_development/app_applications" },
-      { "title": "技术写作", "image_alt": "/home_page/services/technical_writing.webp", "link": "/services/data_solutions/data_scraping" }
+      {
+        "title": "网站开发",
+        "image_alt": "/home_page/services/web_development.webp",
+        "link": "/services/web_and_mobile_development/web_applications"
+      },
+      {
+        "title": "应用程序开发",
+        "image_alt": "/home_page/services/app_development.webp",
+        "link": "/services/web_and_mobile_development/app_applications"
+      },
+      {
+        "title": "SaaS开发",
+        "image_alt": "/home_page/services/saas_development.webp",
+        "link": "/services/saas/saas_plateform"
+      },
+      {
+        "title": "数据分析",
+        "image_alt": "/home_page/services/data_analysing.webp",
+        "link": "/services/data_solutions/data_analytics_dashboard"
+      },
+      {
+        "title": "云与部署",
+        "image_alt": "/home_page/services/cloude_and_development.webp",
+        "link": "/services/saas/mvps"
+      },
+      {
+        "title": "设计与策略",
+        "image_alt": "/home_page/services/design_stratagy.webp",
+        "link": "/services/automations/ai_powered_automation"
+      },
+      {
+        "title": "软件咨询",
+        "image_alt": "/home_page/services/software_consulting.webp",
+        "link": "/services/web_and_mobile_development/app_applications"
+      },
+      {
+        "title": "技术写作",
+        "image_alt": "/home_page/services/technical_writing.webp",
+        "link": "/services/data_solutions/data_scraping"
+      }
     ]
   },
   "expert_services_section": {
     "main_heading": "通过我们的专家服务扩展您的业务",
-    "process_checklist_card": { "items": ["分享您的想法", "设计阶段", "卓越的质量保证 (QA)", "扩展性与自动化"] },
+    "process_checklist_card": {
+      "items": [
+        "分享您的想法",
+        "设计阶段",
+        "QA（质量保证）卓越",
+        "可扩展性和自动化"
+      ]
+    },
     "image": "/home_page/expert_services/exper.webp",
     "core_info_cards": [
-      { "title": "我们的价值观", "content": "创新、卓越、敏捷、信任和影响力，是我们构建一切的核心。", "bg": "#8145B5", "main_text": "white", "text": "white" },
-      { "title": "我们的愿景", "content": "成为 AI 驱动软件和自动化解决方案的首选全球合作伙伴，塑造商业技术的未来。", "bg": "#ffffff", "main_text": "#402060", "text": "black" },
-      { "title": "我们的使命", "content": "通过 AI 解决方案赋予企业自动化、优化和增长的能力。", "bg": "#8145B5", "main_text": "white", "text": "white" }
+      {
+        "title": "我们的价值观",
+        "content": "创新、卓越、敏捷、信任和影响力是我们构建的一切的核心。",
+        "bg": "#8145B5",
+        "main_text": "white",
+        "text": "white"
+      },
+      {
+        "title": "我们的愿景",
+        "content": "成为人工智能驱动的软件和自动化解决方案的首选全球合作伙伴，塑造商业技术的未来。",
+        "bg": "#ffffff",
+        "main_text": "#402060",
+        "text": "black"
+      },
+      {
+        "title": "我们的使命",
+        "content": "通过 AI 解决方案帮助企业实现自动化、优化和发展。",
+        "bg": "#8145B5",
+        "main_text": "white",
+        "text": "white"
+      }
     ]
   },
   "solutions_section": {
     "id": "solutions",
-    "title": "我们协助获取正确的解决方案",
-    "description": "我们不仅开发软件，还设计智能、可扩展且由 AI 驱动的解决方案，以简化工作流程、释放增长潜力并适应您的业务需求。",
+    "title": "我们帮助您获得正确的解决方案",
+    "description": "我们不仅仅构建软件，我们还设计智能、可扩展且由人工智能驱动的解决方案，以简化工作流程、释放增长潜力并适应您的业务需求。",
     "features": [
-      { "title": "AI 驱动的创新", "description": "利用 AI、自动化和云技术将挑战转化为机遇。", "icon": "/home_page/solution_section/gear.webp" },
-      { "title": "端到端专业知识", "description": "从战略到部署，我们提供创造真实影响力的解决方案。", "icon": "/home_page/solution_section/code.webp" }
+      {
+        "title": "人工智能驱动的创新",
+        "description": "利用人工智能、自动化和云将挑战转化为机遇。",
+        "icon": "/home_page/solution_section/gear.webp"
+      },
+      {
+        "title": "端到端专业知识",
+        "description": "从战略到部署，我们提供能够产生真正影响的解决方案。",
+        "icon": "/home_page/solution_section/code.webp"
+      }
     ],
     "side_image": "/home_page/solution_section/solution.webp",
-    "side_card": { "pre_text": "需要智能解决方案？", "title": "寻求帮助？", "description": "从 AI 应用到云端方案，我们将挑战转化为机遇。" }
+    "side_card": {
+      "pre_text": "需要智能解决方案？",
+      "title": "寻求帮助？",
+      "description": "从人工智能应用程序到云解决方案，我们将挑战转化为机遇。"
+    }
   },
   "process_section": {
     "id": "process",
     "sub_title": "我们的工作流程",
-    "main_title": "我们的流程展示了我们如何为客户服务",
+    "main_title": "我们的工作流程展示了我们如何为客户服务",
     "steps": [
-      { "step_number": 1, "title": "探索", "status": "active" },
-      { "step_number": 2, "title": "规划", "status": "pending" },
-      { "step_number": 3, "title": "执行", "status": "pending" },
-      { "step_number": 4, "title": "测试", "status": "pending" },
-      { "step_number": 5, "title": "交付", "status": "pending" }
+      {
+        "step_number": 1,
+        "title": "Exploration",
+        "status": "active"
+      },
+      {
+        "step_number": 2,
+        "title": "Planning",
+        "status": "pending"
+      },
+      {
+        "step_number": 3,
+        "title": "Execute",
+        "status": "pending"
+      },
+      {
+        "step_number": 4,
+        "title": "Testing",
+        "status": "pending"
+      },
+      {
+        "step_number": 5,
+        "title": "Deliver",
+        "status": "pending"
+      }
     ]
   },
   "testimonials_section": {
-    "title": "客户评价",
-    "subtitle_note": "不要只听我们的一面之词 —— 看看我们服务的真实用户对他们的体验有何评价。",
+    "title": "我们的客户怎么说",
+    "subtitle_note": "不要只相信我们的话 - 看看我们服务的实际用户对他们的体验有何评价。",
     "icon": "/home_page/comments_section/Vector-removebg-preview.webp",
     "reviews": [
-      { "name": "Jane Cooper", "role": "营销协调员", "review": "询问 CDCR 圣昆廷州立监狱 2008。我们在整个监狱安装了 Purex 分配器以对抗疾病……取得了巨大的成功……", "image": "/home_page/comments_section/comment.webp" },
-      { "name": "Cameron Williamson", "role": "护理助理", "review": "然而，在儿童中观察到的罕见副作用可能是代谢性酸中毒、昏迷、呼吸抑制和低血糖。", "image": "/home_page/comments_section/comment1.webp" },
-      { "name": "Robert Fox", "role": "训犬师", "review": "半小时内 20 次 30 秒的应用远远超过了几乎任何人对消毒剂的使用。", "image": "/home_page/comments_section/comment2.webp" },
-      { "name": "Albert Flores", "role": "营销协调员", "review": "非接触式红外传感器降低了交叉污染风险，并减少了分配器维修的维护时间。", "image": "/home_page/comments_section/comment4.webp" },
-      { "name": "Arlene McCoy", "role": "护理助理", "review": "酒精洗手液的应用使我们主要病房的医疗相关感染减少了 40%。", "image": "/home_page/comments_section/comment5.webp" },
-      { "name": "Bessie Cooper", "role": "营销协调员", "review": "一旦分配器放置在“护理点”位置而不仅仅是在入口处，合规率就会显著提高。", "image": "/home_page/comments_section/comment6.webp" },
-      { "name": "Eleanor Pena", "role": "营销协调员", "review": "新生儿对乙醇的皮肤吸收是一个关键因素；因此，我们建议新生儿护理病房使用非酒精类替代品。", "image": "/home_page/comments_section/comment7.webp" },
-      { "name": "Guy Hawkins", "role": "营销协调员", "review": "壁挂式装置的符合人体工程学的设计使行动不便的患者更容易使用，促进了更好的卫生自主权。", "image": "/home_page/comments_section/comment8.webp" },
-      { "name": "Rakuten Viber", "role": "护理助理", "review": "然而，在儿童中观察到的罕见副作用可能是代谢性酸中毒、昏迷、呼吸抑制和低血糖。", "image": "/home_page/comments_section/comment1.webp" }
+      {
+        "name": "简·库珀",
+        "role": "营销协调员",
+        "review": "询问 2008 年 CDCR 圣昆廷州立监狱。我们在整个监狱安装了 Purex 分配器来对抗疾病……这是一次巨大的成功……",
+        "image": "/home_page/comments_section/comment.webp"
+      },
+      {
+        "name": "卡梅伦·威廉姆森",
+        "role": "护理助理",
+        "review": "然而，在儿童中观察到的罕见副作用可能是代谢性酸中毒、昏迷、呼吸抑制和低血糖。",
+        "image": "/home_page/comments_section/comment1.webp"
+      },
+      {
+        "name": "罗伯特·福克斯",
+        "role": "训狗师",
+        "review": "半小时内使用 20 次 30 秒的消毒剂，远远超过了几乎任何人使用消毒剂的次数。",
+        "image": "/home_page/comments_section/comment2.webp"
+      },
+      {
+        "name": "阿尔伯特·弗洛雷斯",
+        "role": "营销协调员",
+        "review": "非接触式红外传感器降低了交叉污染风险，并减少了分配器维修所需的维护时间。",
+        "image": "/home_page/comments_section/comment4.webp"
+      },
+      {
+        "name": "阿琳·麦考伊",
+        "role": "护理助理",
+        "review": "采用酒精搓手液后，我们的初级病房与医疗保健相关的感染减少了 40%。",
+        "image": "/home_page/comments_section/comment5.webp"
+      },
+      {
+        "name": "贝西·库珀",
+        "role": "营销协调员",
+        "review": "一旦将分配器放置在“护理点”位置而不仅仅是入口处，合规率就会显着提高。",
+        "image": "/home_page/comments_section/comment6.webp"
+      },
+      {
+        "name": "埃莉诺佩纳",
+        "role": "营销协调员",
+        "review": "新生儿对乙醇的皮肤吸收是一个关键因素；因此，我们建议新生儿护理单位使用不含酒精的替代品。",
+        "image": "/home_page/comments_section/comment6.webp"
+      },
+      {
+        "name": "盖伊·霍金斯",
+        "role": "营销协调员",
+        "review": "壁挂式装置的人体工程学设计使行动不便的患者可以更轻松地使用，从而促进更好的卫生自主性。",
+        "image": "/home_page/comments_section/comment8.webp"
+      },
+      {
+        "name": "乐天 Viber",
+        "role": "护理助理",
+        "review": "然而，在儿童中观察到的罕见副作用可能是代谢性酸中毒、昏迷、呼吸抑制和低血糖。",
+        "image": "/home_page/comments_section/comment1.webp"
+      }
     ]
   },
   "working_process": {
     "section_heading": "我们的工作流程",
-    "main_heading": "流程展示了",
-    "span_heading": "我们如何运作",
-    "heading": "为我们的客户",
+    "main_heading": "我们的工作流程展示",
+    "span_heading": "我们的工作方式",
+    "heading": "对于我们的客户",
     "stepsData": [
-      { "id": 1, "title": "探索" },
-      { "id": 2, "title": "规划" },
-      { "id": 3, "title": "执行" },
-      { "id": 4, "title": "测试" },
-      { "id": 5, "title": "交付" }
+      {
+        "id": 1,
+        "title": "Exploration"
+      },
+      {
+        "id": 2,
+        "title": "Planning"
+      },
+      {
+        "id": 3,
+        "title": "Execute"
+      },
+      {
+        "id": 4,
+        "title": "Testing"
+      },
+      {
+        "id": 5,
+        "title": "Deliver"
+      }
     ]
   },
   "ceo_message_section": {
     "id": "ceo_message",
     "image": "/home_page/ceo_section/ceo.webp",
-    "title": "首席执行官致辞",
-    "quote": "我们相信创新驱动未来。我们的使命很简单：让 AI 驱动的技术对每家企业都实用且易于获取。通过 300 多家客户和 20 多家初创公司，我们看到了自动化如何提高效率并重塑客户体验。让我们携手共建更智能、可扩展且安全的明天。",
-    "author": "Zainab Abdullah",
-    "role": "Devisgon Pvt. Ltd. 首席执行官"
+    "title": "我们首席执行官的致辞",
+    "quote": "，我们相信创新驱动未来。我们的使命很简单：让人工智能技术为每个企业提供实用且易于使用的技术。我们拥有 300 多家客户和 20 多家初创公司，我们看到自动化提高了效率并重塑了客户体验。让我们共同为未来构建更智能、可扩展且安全的解决方案。",
+    "author": "扎伊纳布·阿卜杜拉",
+    "role": "首席执行官，Devisgon Pvt。有限公司"
   },
   "teamMembers": {
     "team": [
-      { "id": 1, "image": "/home_page/our_team/team01.webp", "alt": "软件开发工程师" },
-      { "id": 2, "image": "/home_page/our_team/team02.webp", "alt": "UI/UX 设计师" },
-      { "id": 3, "image": "/home_page/our_team/ahmad_sajid.webp", "alt": "AI / ML 工程师" },
-      { "id": 4, "image": "/home_page/our_team/team05.webp", "alt": "内容作者" },
-      { "id": 5, "image": "/home_page/our_team/hamza_zahid.webp", "alt": "软件工程师" },
-      { "id": 6, "image": "/home_page/our_team/abdullah_shafique.webp", "alt": "自动化工程师" },
-      { "id": 7, "image": "/home_page/our_team/mubashir.webp", "alt": "网页开发工程师" },
-      { "id": 8, "image": "/home_page/our_team/mubashir.webp", "alt": "Python 后端开发工程师" }
+      {
+        "id": 1,
+        "image": "/home_page/our_team/team01.webp",
+        "alt": "软件开发商"
+      },
+      {
+        "id": 2,
+        "image": "/home_page/our_team/team02.webp",
+        "alt": "用户界面/用户体验设计师"
+      },
+      {
+        "id": 3,
+        "image": "/home_page/our_team/ahmad_sajid.webp",
+        "alt": "人工智能/机器学习工程师"
+      },
+      {
+        "id": 4,
+        "image": "/home_page/our_team/team05.webp",
+        "alt": "内容作家"
+      },
+      {
+        "id": 5,
+        "image": "/home_page/our_team/hamza_zahid.webp",
+        "alt": "软件工程师"
+      },
+      {
+        "id": 6,
+        "image": "/home_page/our_team/abdullah_shafique.webp",
+        "alt": "自动化工程师"
+      },
+      {
+        "id": 7,
+        "image": "/home_page/our_team/team06.webp",
+        "alt": "网页开发人员"
+      },
+      {
+        "id": 8,
+        "image": "/home_page/our_team/mubashir.webp",
+        "alt": "Python 后端开发人员"
+      }
     ]
   },
   "scale_values_section": {
     "id": "values",
     "title": "通过我们的专家服务扩展您的业务",
-    "checklist": ["分享您的想法", "设计阶段", "卓越的质量保证 (QA)", "扩展性与自动化"],
+    "checklist": [
+      "分享您的想法",
+      "设计阶段",
+      "QA（质量保证）卓越",
+      "可扩展性和自动化"
+    ],
     "cards": [
-      { "title": "我们的价值观", "content": "创新、卓越、敏捷、信任和影响力，是我们构建一切的核心。" },
-      { "title": "我们的愿景", "content": "成为 AI 驱动软件和自动化解决方案的首选全球合作伙伴，塑造商业技术的未来。" },
-      { "title": "我们的使命", "content": "通过 AI 解决方案赋予企业自动化、优化和增长的能力。" }
+      {
+        "title": "我们的价值观",
+        "content": "创新、卓越、敏捷、信任和影响力是我们构建的一切的核心。"
+      },
+      {
+        "title": "我们的愿景",
+        "content": "成为人工智能驱动的软件和自动化解决方案的首选全球合作伙伴，塑造商业技术的未来。"
+      },
+      {
+        "title": "我们的使命",
+        "content": "通过 AI 解决方案帮助企业实现自动化、优化和发展。"
+      }
     ]
   },
   "blog_section": {
     "header_title": "我们的博客",
-    "main_title": "探索 AI 和技术如何塑造商业未来。",
-    "subtitle": "您的 AI 驱动创新和业务演进之源。",
-    "categories": ["全部分类", "技术", "自动化", "生产力", "CRM"],
+    "main_title": "探索人工智能和技术如何塑造商业的未来。",
+    "subtitle": "人工智能驱动的创新和业务发展的来源。",
+    "categories": [
+      "所有类别",
+      "Technology",
+      "Automation",
+      "Productivity",
+      "CRM"
+    ],
     "posts": [
-      { "category": "技术", "date": "18 Jan 2025", "title": "小企业如何通过合适的技术部署实现更快的规模化。", "link_text": "阅读文章", "image": "/home_page/blogs/blog1.webp" },
-      { "category": "CRM", "date": "19 Jan 2025", "title": "通过集成解决方案简化客户管理并提升销售额。", "link_text": "阅读文章", "image": "/home_page/blogs/blog2.webp" },
-      { "category": "生产力", "date": "24 Jan 2025", "title": "简化团队协作与沟通，保持专注。", "link_text": "阅读文章", "image": "/home_page/blogs/blog3.webp" },
-      { "category": "自动化", "date": "30 Jan 2025", "title": "利用 AI 驱动的自动化减少重复性工作，每周节省数小时。", "link_text": "阅读文章", "image": "/home_page/blogs/blog4.webp" },
-      { "category": "创新", "date": "30 Jan 2025", "title": "了解为什么升级对小企业至关重要。", "link_text": "阅读文章", "image": "/home_page/blogs/blog5.webp" },
-      { "category": "增长", "date": "30 Jan 2025", "title": "为什么现代企业需要能够与其共同成长的工具。", "link_text": "阅读文章", "image": "/home_page/blogs/blog6.webp" }
+      {
+        "category": "TECHNOLOGY",
+        "date": "2025 年 1 月 18 日",
+        "title": "小型企业如何利用合适的技术更快地扩展规模。",
+        "link_text": "阅读帖子",
+        "image": "/home_page/blogs/blog1.webp"
+      },
+      {
+        "category": "CRM",
+        "date": "2025 年 1 月 19 日",
+        "title": "通过集成解决方案简化客户管理并促进销售。",
+        "link_text": "阅读帖子",
+        "image": "/home_page/blogs/blog2.webp"
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "date": "2025 年 1 月 24 日",
+        "title": "简化团队合作和沟通以保持专注。",
+        "link_text": "阅读帖子",
+        "image": "/home_page/blogs/blog3.webp"
+      },
+      {
+        "category": "AUTOMATION",
+        "date": "2025 年 1 月 30 日",
+        "title": "通过人工智能驱动的自动化减少重复性工作，每周节省时间。",
+        "link_text": "阅读帖子",
+        "image": "/home_page/blogs/blog4.webp"
+      },
+      {
+        "category": "INNOVATION",
+        "date": "2025 年 1 月 30 日",
+        "title": "了解为什么升级对于小型企业至关重要。",
+        "link_text": "阅读帖子",
+        "image": "/home_page/blogs/blog5.webp"
+      },
+      {
+        "category": "GROWTH",
+        "date": "2025 年 1 月 30 日",
+        "title": "为什么现代企业需要与他们一起成长的工具。",
+        "link_text": "阅读帖子",
+        "image": "/home_page/blogs/blog6.webp"
+      }
     ]
   }
 }

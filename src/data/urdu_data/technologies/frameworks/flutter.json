@@ -1,103 +1,116 @@
 {
   "slug": "flutter",
+  "seo_metadata": {
+    "title": "پروفیشنل فلٹر ایپ ڈویلپمنٹ | ملٹی پلیٹ فارم حل",
+    "description": "iOS، Android اور ویب کے لیے حسب ضرورت پھڑپھڑانے کی ترقی۔ ہم ایک واحد کوڈبیس اور تاثراتی UIs کے ساتھ اعلیٰ کارکردگی، مقامی طور پر مرتب کردہ ایپلیکیشنز بناتے ہیں۔",
+    "keywords": [
+      "پھڑپھڑاہٹ کی ترقی",
+      "ڈارٹ پروگرامنگ",
+      "کراس پلیٹ فارم موبائل ایپس",
+      "ویب کے لیے پھڑپھڑانا",
+      "میٹریل ڈیزائن UI",
+      "فلٹر ڈیسک ٹاپ ایپس",
+      "موبائل ایپ آپٹیمائزیشن"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Flutter",
-    "description": "Build production systems with Flutter in our frameworks delivery ecosystem.",
+    "eyebrow": "UI سافٹ ویئر ڈویلپمنٹ کٹ",
+    "title": "کے ساتھ کسی بھی اسکرین کے لیے بنائیں",
+    "highlight": "پھڑپھڑانا",
+    "description": "موبائل، ویب، ڈیسک ٹاپ، اور ایمبیڈڈ آلات کے لیے ایک ہی اعلیٰ کارکردگی والے کوڈ بیس سے خوبصورت، مقامی طور پر مرتب کردہ ایپلیکیشنز بنائیں۔",
     "side_image": "/technologies/flutter/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنا پروجیکٹ شروع کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "فریم ورک اسکوپ دیکھیں",
       "href": "/technologies/flutter#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Flutter plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "کیوں ہم پھڑپھڑاہٹ کے ساتھ انجینئر",
+    "subtitle": "پھڑپھڑاہٹ ترقی کی رفتار اور ہارڈ ویئر کی تیز رفتار کارکردگی کا ایک انوکھا امتزاج فراہم کرتا ہے۔",
     "paragraphs": [
-      "Flutter is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Flutter with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "ہم مقامی کارکردگی اور کراس پلیٹ فارم کی کارکردگی کے درمیان فرق کو ختم کرنے کے لیے فلٹر کا استعمال کرتے ہیں۔ Skia اور Impeller رینڈرنگ انجنوں کا فائدہ اٹھاتے ہوئے، Flutter پل پر مبنی روایتی رکاوٹوں کو نظرانداز کرتا ہے، جس سے ہمیں 60fps سے 120fps تک اینیمیشن فراہم کرنے کی اجازت ملتی ہے جو مقامی کوڈ سے الگ نہیں ہوتیں۔",
+      "ڈارٹ کا استعمال—ایک ​​کلائنٹ کے لیے موزوں زبان — مضبوط قسم کی حفاظت اور جدید ترین ڈویلپر ٹولز جیسے 'ہاٹ ری لوڈ' کو یقینی بناتا ہے، جو ہماری ٹیم کو سیکنڈوں میں خصوصیات پر اعادہ کرنے کی اجازت دیتا ہے، جس سے مجموعی ترقیاتی لائف سائیکل کو نمایاں طور پر کم کیا جاتا ہے۔"
     ],
     "cards": [
       {
-        "title": "Flutter Clarity",
-        "description": "Flutter helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "مقامی طور پر مرتب کردہ",
+        "description": "فلٹر کوڈ ARM یا Intel مشین کوڈ کے ساتھ ساتھ JavaScript پر مرتب کیا جاتا ہے، جو کسی بھی ڈیوائس پر بہترین کارکردگی کو یقینی بناتا ہے۔",
+        "icon_type": "FaCogs"
       },
       {
-        "title": "Flutter Performance",
-        "description": "Flutter supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "تاثراتی UI",
+        "description": "مقامی OEM ویجیٹس کی حدود کے بغیر اپنی مرضی کے مطابق برانڈڈ ڈیزائن بنانے کے لیے ہر پکسل پر مکمل کنٹرول۔",
+        "icon_type": "FaPaintBrush"
       },
       {
-        "title": "Flutter Reliability",
-        "description": "Flutter strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "متحد منطق",
+        "description": "اپنی کاروباری منطق اور UI کوڈ کا 100% iOS اور Android پر بانٹیں، دیکھ بھال کے اخراجات میں زبردست کمی کریں۔",
+        "icon_type": "FaCopy"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "فریم ورک کا دائرہ کار",
     "image": "/technologies/flutter/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Flutter-ready patterns designed for dynamic cloud scaling."
+        "title": "اسٹیٹ مینجمنٹ ایکسیلنس",
+        "description": "قابل پیشن گوئی اور قابل توسیع ایپلیکیشن کے بہاؤ کے لیے بلاک، پرووائیڈر، یا ریور پوڈ جیسے مضبوط اسٹیٹ مینجمنٹ سلوشنز کو نافذ کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Flutter integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "پلیٹ فارم کے لیے مخصوص انضمام",
+        "description": "جب مخصوص ہارڈ ویئر کی سطح تک رسائی کی ضرورت ہو تو مقامی APIs (GPS، بلوٹوتھ، سینسر) میں ٹیپ کرنے کے لیے طریقہ چینلز کا استعمال۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Flutter to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "ملٹی پلیٹ فارم کی تعیناتی۔",
+        "description": "آرکیٹیکٹنگ ریسپانسیو لے آؤٹس جو موبائل ٹچ اسکرین سے لے کر وسیع اسکرین ڈیسک ٹاپ اور ویب ماحول میں بغیر کسی رکاوٹ کے اپناتے ہیں۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Flutter stack.",
+    "title": "فلٹر ایج",
+    "subtitle": "آپ کے ڈیجیٹل پروڈکٹ کے لیے اسٹریٹجک مسابقتی فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Flutter effectively."
+        "metric": "50%",
+        "title": "کم لاگت",
+        "description": "الگ الگ مقامی iOS اور Android انجینئرنگ ٹیموں کو برقرار رکھنے کے مقابلے میں وسائل کی ضروریات میں کمی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Flutter."
+        "metric": "120 ایف پی ایس",
+        "title": "سیال حرکت",
+        "description": "ہارڈ ویئر کے تیز رفتار رینڈرنگ کے ذریعے ہائی ریفریش ریٹ ڈسپلے اور پیچیدہ اینیمیشنز کے لیے سپورٹ۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Flutter delivery."
+        "metric": "ریاستی",
+        "title": "گرم دوبارہ لوڈ",
+        "description": "صنعت کی معروف تکرار کی رفتار ڈویلپرز کو کیڑے ٹھیک کرنے اور حالت کو کھوئے بغیر حقیقی وقت میں UIs بنانے کی اجازت دیتی ہے۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Flutter inside open architecture patterns."
+        "metric": "کھولیں۔",
+        "title": "ماخذ ماحولیاتی نظام",
+        "description": "تیزی سے انضمام کے لیے ہزاروں پہلے سے ٹیسٹ شدہ پیکجز فراہم کرتے ہوئے، گوگل اور ایک بڑی کمیونٹی کے تعاون سے۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Flutter gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "پھڑپھڑاہٹ ملٹی پلیٹ فارم کی ترقی کی پیچیدگی کو a میں بدل دیتا ہے۔",
+    "highlight": "ہموار تخلیقی عمل"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Flutter roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے موبائل کے تجربے کو ڈیزائن کریں۔",
+    "subtitle": "iOS، Android اور ویب کے لیے ایک اعلیٰ کارکردگی والی ایپ کی تعمیر کے لیے ہمارے فلٹر ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "ایپ کی ضروریات",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Flutter architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے کراس پلیٹ فارم وژن یا کارکردگی کے چیلنجوں کی وضاحت کریں...",
+    "button_text": "ایک اقتباس کی درخواست کریں۔"
   }
 }

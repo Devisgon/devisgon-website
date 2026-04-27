@@ -2,11 +2,11 @@
   "slug": "ai_ml_models",
   "hero_section": {
     "title": "Modèles IA/ML",
-    "subtitle": "La puissance prédictive pour des entreprises plus intelligentes",
+    "subtitle": "Une puissance prédictive pour une entreprise plus intelligente",
     "description": "Nous concevons et déployons des modèles d'intelligence artificielle et d'apprentissage automatique qui transforment vos données en informations exploitables, favorisant l'automatisation, les prévisions et les expériences personnalisées.",
     "buttons": [
       {
-        "text": "Créer mon modèle IA",
+        "text": "Construire mon modèle d'IA",
         "link": "/contact"
       },
       {
@@ -17,136 +17,151 @@
     "hero_image": "/videos/ai_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce qu'un",
-    "span_heading": " modèle IA/ML ?",
+    "heading": "Qu'est-ce que",
+    "span_heading": "Modèle IA/ML ?",
     "content": [
-      "Chez Devisgon, nous construisons des modèles IA/ML personnalisés qui s'adaptent aux besoins uniques de votre entreprise. Contrairement aux outils génériques prêts à l'emploi, nos modèles sont entraînés sur vos données réelles, garantissant précision et pertinence. Nous les déployons également dans des environnements prêts pour la production avec des pipelines de surveillance, afin qu'ils restent fiables dans le temps.",
-      "Nos solutions sont utilisées dans les secteurs de la finance, du commerce de détail, de la santé, de la logistique, du SaaS et du e-commerce — aidant les organisations à gagner en efficacité, en croissance et en innovation."
+      "Chez Devisgon, nous construisons des modèles AI/ML personnalisés qui répondent aux besoins uniques de votre entreprise. Contrairement aux outils plug-and-play génériques, nos modèles sont formés sur vos données réelles, garantissant ainsi leur précision et leur pertinence. Nous les déployons également dans des environnements prêts pour la production avec des pipelines de surveillance, afin qu'ils restent fiables dans le temps.",
+      "Nos solutions sont utilisées dans les domaines de la finance, de la vente au détail, de la santé, de la logistique, du SaaS et du commerce électronique, aidant ainsi les organisations à atteindre l'efficacité, la croissance et l'innovation."
     ],
-    "highlight_quote": " « Des modèles plus intelligents, des analyses plus pointues, une croissance 4 fois plus rapide. » ",
+    "highlight_quote": "« Des modèles plus intelligents, des analyses plus précises, une croissance 4 fois plus rapide. »",
     "side_image": "/all_services/ai_ml_models/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Avantages Clés",
+    "title": "Avantages clés",
     "subtitle": "Transformez vos opérations avec des résultats prouvés",
     "cards": [
       {
-        "title": "Amélioration Continue",
-        "description": "Les modèles apprennent et s'améliorent au fur et à mesure que de nouvelles données arrivent.",
-        "icon_type": "HiMiniSignal"
+        "title": "Amélioration continue",
+        "description": "Les modèles apprennent et s'améliorent à mesure que de nouvelles données arrivent.",
+        "icon_type": "HiMiniSignal   "
       },
       {
-        "title": "Expériences Personnalisées",
-        "description": "Proposez du contenu et des offres adaptés à chaque utilisateur.",
-        "icon_type": "VscGraphLine"
+        "title": "Expériences personnalisées",
+        "description": "Proposez du contenu et des offres adaptées à chaque utilisateur.",
+        "icon_type": "VscGraphLine "
       },
       {
-        "title": "Décisions plus Intelligentes",
+        "title": "Des décisions plus intelligentes",
         "description": "Transformez les données brutes en recommandations automatisées.",
-        "icon_type": "PiCodeFill"
+        "icon_type": "PiCodeFill  "
       },
       {
-        "title": "Prévisions Précises",
-        "description": "Prédisez la demande, les revenus ou les risques avec précision.",
-        "icon_type": "VscGraphLine"
+        "title": "Prévisions précises",
+        "description": "Prévoyez la demande, les revenus ou les risques avec précision.",
+        "icon_type": "VscGraphLine "
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Ce que vous obtenez en choisissant les modèles IA/ML",
+    "title": "Ce que vous obtiendrez en choisissant les modèles AI/ML",
     "image": "/all_services/ai_ml_models/wwg.webp",
     "list_items": [
       {
-        "title": "1. Modèles IA/ML entraînés sur mesure",
-        "description": "Modèles IA/ML entraînés spécifiquement (classification, régression, clustering, NLP, vision)."
+        "title": "1. Modèles AI/ML formés sur mesure",
+        "description": "Modèles IA/ML formés sur mesure (classification, régression, clustering, NLP, vision)"
       },
       {
-        "title": "2. Intégration API fluide ",
-        "description": "Points de terminaison API pour une intégration facile dans les applications ou systèmes."
+        "title": "2. Intégration transparente des API",
+        "description": "Points de terminaison API pour une intégration facile dans les applications ou les systèmes"
       },
       {
-        "title": "3. Pipelines d'entraînement automatisés",
-        "description": "Pipelines automatisés d'entraînement et de réentraînement."
+        "title": "3. Pipelines de formation automatisés",
+        "description": "Pipelines automatisés de formation et de recyclage"
       },
       {
         "title": "4. Tableaux de bord de surveillance des performances",
-        "description": "Tableaux de bord de surveillance pour la précision et la détection de dérive (drift)."
+        "description": "Tableaux de bord de surveillance pour la précision et la détection des dérives"
       }
     ]
   },
   "technologies_section": {
     "title": "Nous travaillons avec des technologies modernes et éprouvées",
-    "subtitle": "Outils de pointe pour une fiabilité et une performance maximales",
+    "subtitle": "Outils de pointe pour une fiabilité et des performances maximales",
     "tools": [
-      { "name": "Python", "icon": "FaPython " },
-      { "name": "TensorFlow", "icon": "SiTensorflow " },
-      { "name": "Kubernetes", "icon": " AiOutlineKubernetes " },
-      { "name": "AWS", "icon": "FaAws " },
-      { "name": "Docker", "icon": "FaDocker " }
+      {
+        "name": "Python",
+        "icon": "FaPython "
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow "
+      },
+      {
+        "name": "Kubernetes",
+        "icon": " AiOutlineKubernetes "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker "
+      }
     ]
   },
   "process_section": {
-    "title": "Notre Processus",
+    "title": "Notre processus",
     "subtitle": "Du concept au lancement en 6 semaines",
     "steps": [
       {
-        "title": "Découvrir",
-        "description": "Définir les cas d'utilisation, collecter les données et identifier les opportunités ML.",
+        "title": "Discover",
+        "description": "Définissez des cas d'utilisation, collectez des données et identifiez les opportunités de ML.",
         "icon": "FaSearch"
       },
       {
-        "title": "Concevoir",
-        "description": "Prétraitement des données, ingénierie des caractéristiques, architecture du modèle.",
+        "title": "Design",
+        "description": "Prétraitement des données, ingénierie des fonctionnalités, architecture des modèles.",
         "icon": "TbTools"
       },
       {
-        "title": "Construire",
-        "description": "Entraîner, valider et affiner les modèles.",
+        "title": "Build",
+        "description": "Former, valider et affiner les modèles.",
         "icon": "FaHammer"
       },
       {
-        "title": "Lancer",
-        "description": "Déployer des modèles avec des pipelines de surveillance et de réentraînement.",
+        "title": "Launch",
+        "description": "Déployez des modèles avec des pipelines de surveillance et de recyclage.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Conversions 18 % plus élevées et paniers 22 % plus grands",
+    "headline": "18 % de conversions en plus et 22 % de paniers plus gros",
     "image": "/all_services/ai_ml_models/case_study.webp",
     "content": {
       "problem": {
-        "label": "Problème",
-        "text": "Un client e-commerce souhaitait améliorer les recommandations de produits mais s'appuyait sur des règles statiques."
+        "label": "Problem",
+        "text": "Un client de commerce électronique souhaitait améliorer ses recommandations de produits, mais s'appuyait sur des règles statiques."
       },
       "solution": {
         "label": "Solution",
         "text": "Nous avons construit un moteur de recommandation utilisant le filtrage collaboratif et l'historique des achats des clients."
       },
       "result": {
-        "label": "Résultat",
-        "text": "Les taux de conversion ont augmenté de 18 %, la valeur moyenne du panier a augmenté de 22 % et l'engagement des utilisateurs a progressé de manière significative."
+        "label": "Result",
+        "text": "Les taux de conversion ont augmenté de 18 %, la valeur moyenne du panier de 22 % et l'engagement des utilisateurs a considérablement augmenté."
       }
     }
   },
   "faq_section": {
-    "title": "Foire Aux Questions",
+    "title": "Foire aux questions",
     "subtitle": "Obtenez des réponses aux questions courantes",
     "questions": [
       {
         "question": "Pouvez-vous créer des applications pour iOS et Android ?",
-        "answer": "Généralement, un MVP peut être développé en 4 à 6 semaines selon la complexité des fonctionnalités."
+        "answer": "En règle générale, un MVP peut être développé en 4 à 6 semaines en fonction de la complexité des fonctionnalités."
       },
       {
-        "question": "Quel est le niveau de sécurité de vos solutions d'entreprise ?",
-        "answer": "Oui, nous proposons des forfaits de maintenance et de support après-vente pour garantir le bon fonctionnement de votre application."
+        "question": "Dans quelle mesure vos solutions d'entreprise sont-elles sécurisées ?",
+        "answer": "Oui, nous proposons des packages de maintenance et de support après le lancement pour garantir le bon fonctionnement de votre application."
       },
       {
-        "question": "Travaillez-vous avec les systèmes ERP/CRM existants ?",
-        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA aux architectures existantes via API."
+        "question": "Travaillez-vous avec des systèmes ERP/CRM existants ?",
+        "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA dans des architectures existantes via API."
       },
       {
-        "question": "Pouvez-vous faire évoluer les applications à mesure que notre entreprise grandit ?",
+        "question": "Pouvez-vous faire évoluer vos applications à mesure que notre activité se développe ?",
         "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
       }
     ],

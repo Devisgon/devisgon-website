@@ -1,103 +1,116 @@
 {
   "slug": "shopify",
+  "seo_metadata": {
+    "title": "Enterprise Shopify Development | Headless Commerce & Custom Apps",
+    "description": "Custom Shopify and Shopify Plus development services. We architect high-conversion headless storefronts and automated commerce pipelines using Hydrogen and Liquid.",
+    "keywords": [
+      "Shopify Plus Development",
+      "Headless Commerce Hydrogen",
+      "Custom Shopify App Development",
+      "E-commerce Architecture",
+      "Liquid Template Optimization",
+      "Shopify API Integration",
+      "Omnichannel Commerce Solutions"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "The World's Commerce Platform",
+    "title": "Scale Your Storefront with",
     "highlight": "Shopify",
-    "description": "Build production systems with Shopify in our tools delivery ecosystem.",
+    "description": "Deliver lightning-fast, high-conversion shopping experiences using a platform built for global scale, secure transactions, and omnichannel growth.",
     "side_image": "/technologies/shopify/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Build Your Storefront",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "View Technical Scope",
       "href": "/technologies/shopify#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Shopify plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Why We Engineer with Shopify",
+    "subtitle": "Shopify provides the most robust and secure infrastructure for modern, high-volume retail operations.",
     "paragraphs": [
-      "Shopify is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Shopify with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Shopify is our primary engine for both traditional and headless commerce. By utilizing its PCI-compliant hosting and battle-tested checkout process, we eliminate the security risks associated with custom payment gateways. This allows our teams to focus on creating unique user experiences and custom business logic rather than managing server uptime or patch updates.",
+      "With the introduction of Hydrogen and Oxygen, we can now build fully decoupled, headless storefronts that offer the speed of a React-based application combined with the administrative ease of the Shopify backend. This hybrid approach ensures your site is optimized for SEO and conversion while maintaining long-term architectural flexibility."
     ],
     "cards": [
       {
-        "title": "Shopify Clarity",
-        "description": "Shopify helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Headless Agility",
+        "description": "Utilize Hydrogen (React) to build bespoke frontends that communicate with Shopify via the powerful Storefront API.",
+        "icon_type": "FaReact"
       },
       {
-        "title": "Shopify Performance",
-        "description": "Shopify supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Proven Security",
+        "description": "Benefit from Level 1 PCI DSS compliance and industry-leading fraud protection out of the box.",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Shopify Reliability",
-        "description": "Shopify strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Global Omnichannel",
+        "description": "Sync inventory, orders, and customers across social media, marketplaces, and physical retail locations instantly.",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "title": "Commerce Architectural Scope",
     "image": "/technologies/shopify/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Shopify-ready patterns designed for dynamic cloud scaling."
+        "title": "Headless Storefronts (Hydrogen)",
+        "description": "Developing high-performance, edge-delivered commerce experiences using React and the Oxygen hosting platform."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Shopify integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Custom App & API Integration",
+        "description": "Building private Shopify apps and middleware to connect your storefront with ERP, PIM, and 3PL systems."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Shopify to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Liquid Theme Engineering",
+        "description": "Creating highly optimized, SEO-first Shopify themes with deep customization through Liquid and Schema development."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Shopify stack.",
+    "title": "The Shopify Edge",
+    "subtitle": "Quantifiable advantages for dominant retail brands.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Shopify effectively."
+        "metric": "99.99%",
+        "title": "Platform Uptime",
+        "description": "Zero-maintenance infrastructure designed to handle massive traffic spikes during peak sales events."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Shopify."
+        "metric": "Fast",
+        "title": "Checkout Conversion",
+        "description": "Leverage 'Shop Pay' to provide the world’s fastest and most reliable checkout experience for your customers."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Shopify delivery."
+        "metric": "3000+",
+        "title": "App Ecosystem",
+        "description": "Access a vast library of pre-tested extensions to add complex functionality in a fraction of the time."
       },
       {
         "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Shopify inside open architecture patterns."
+        "title": "Maintenance Bloat",
+        "description": "Focus 100% of your technical budget on innovation instead of server management and security patches."
       }
     ]
   },
   "quote_section": {
-    "quote": "Shopify gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Shopify turns the complexity of global commerce into a",
+    "highlight": "seamless technical workflow"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Shopify roadmap.",
-    "full_name_label": "Lead Name",
+    "title": "Architect Your Commerce Solution",
+    "subtitle": "Consult with our lead Shopify specialists to define your headless roadmap or custom app strategy.",
+    "full_name_label": "Lead Developer",
     "business_email_label": "Entity Email",
     "message_label": "Strategic Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Shopify architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your commerce goals or architectural challenges...",
+    "button_text": "Request a Technical Audit"
   }
 }

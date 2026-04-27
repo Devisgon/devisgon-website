@@ -79,11 +79,11 @@
     "subtitle": "Die besten Frameworks für eine genaue und automatisierte API-Validierung",
     "tools": [
       {
-        "name": "Briefträger",
+        "name": "Postman",
         "icon": "SiPostman"
       },
       {
-        "name": "Stolzieren",
+        "name": "Swagger",
         "icon": "SiSwagger"
       },
       {
@@ -135,18 +135,18 @@
         "text": "Bei einer Fintech-App kam es zu zufälligen Transaktionsfehlern, weil ihre mobile Benutzeroberfläche die langsamen Antworten einer Zahlungs-API eines Drittanbieters nicht verarbeiten konnte."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Wir haben eine Reihe automatisierter API-Leistungstests implementiert und dabei einen schwerwiegenden Engpass beim Parsen der Nutzlast aufgedeckt, der nur bei hoher Serverlast auftrat."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Durch die Lokalisierung und Behebung des Backend-Problems wurden Timeout-Fehler vollständig eliminiert, was zu einer Steigerung der erfolgreichen Transaktionen um 15 % führte."
       }
     }
   },
   "faq_section": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Get answers about backend quality assurance",
+    "subtitle": "Erhalten Sie Antworten zur Backend-Qualitätssicherung",
     "questions": [
       {
         "question": "Warum benötige ich API-Tests, wenn ich bereits UI-Tests durchführe?",

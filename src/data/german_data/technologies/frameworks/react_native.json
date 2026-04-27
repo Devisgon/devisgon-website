@@ -1,103 +1,116 @@
 {
-  "slug": "react_native",
+  "slug": "react-native",
+  "seo_metadata": {
+    "title": "Professionelle React Native-Entwicklung | Plattformübergreifende native Apps",
+    "description": "Enterprise React Native-Implementierungsdienste. Wir erstellen leistungsstarke iOS- und Android-Anwendungen mit einer einzigen JavaScript-Codebasis mit nativem Rendering.",
+    "keywords": [
+      "Reagieren Sie auf die native Entwicklung",
+      "Plattformübergreifende mobile Apps",
+      "JavaScript Native Bridge",
+      "Reagieren Sie auf die native Fabric-Architektur",
+      "Optimierung mobiler Apps",
+      "Expo-Entwicklung",
+      "Native Modulintegration"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "React Native",
-    "description": "Build production systems with React Native in our frameworks delivery ecosystem.",
+    "eyebrow": "Native Leistung, Reaktionseffizienz",
+    "title": "Einheitliche Erfahrung mit",
+    "highlight": "Native reagieren",
+    "description": "Kombinieren Sie die Leistungsfähigkeit nativer Plattformfunktionen mit der branchenführenden Entwicklererfahrung von React, um hochwertige mobile Apps schneller bereitzustellen.",
     "side_image": "/technologies/react_native/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Starten Sie Mobile Build",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Technische Dokumentation",
       "href": "/technologies/react_native#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "React Native plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Warum wir mit React Native entwickeln",
+    "subtitle": "Mit React Native können wir wirklich native Benutzeroberflächen bereitstellen und gleichzeitig eine einzige, gemeinsame Codebasis beibehalten.",
     "paragraphs": [
-      "React Native is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using React Native with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "React Native ist unser bevorzugtes Framework für Projekte, die Reaktionsfähigkeit auf nativer Ebene und Zugriff auf plattformspezifische APIs erfordern. Im Gegensatz zu Hybrid-Frameworks, die auf WebViews basieren, ruft React Native tatsächliche native UI-Komponenten auf und stellt so sicher, dass sich Ihre Anwendung sowohl auf iOS als auch auf Android wie zu Hause fühlt.",
+      "Durch die Nutzung der „Neuen Architektur“ (Fabric und TurboModules) nutzen wir die direkte C++-Integration für Aufgaben mit hoher Parallelität. Dies führt zu flüssigeren Animationen, schnelleren Startzeiten und einer äußerst vorhersehbaren Brücke zwischen Ihrer JavaScript-Logik und der zugrunde liegenden mobilen Hardware."
     ],
     "cards": [
       {
-        "title": "React Native Clarity",
-        "description": "React Native helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Natives Rendering",
+        "description": "Verwendet echte Plattformkomponenten anstelle eines Browsers und bietet so ein nahtloses Benutzererlebnis und flüssige Bewegungen mit 60 Bildern pro Sekunde.",
+        "icon_type": "FaMobileAlt"
       },
       {
-        "title": "React Native Performance",
-        "description": "React Native supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Wiederverwendbarkeit des Codes",
+        "description": "Teilen Sie bis zu 90 % Ihrer Codebasis zwischen iOS und Android und reduzieren Sie so den Wartungsaufwand und die Funktionsverzögerung drastisch.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "React Native Reliability",
-        "description": "React Native strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Schnelle Aktualisierung",
+        "description": "Sehen Sie Änderungen sofort, ohne den Anwendungsstatus zu verlieren, und ermöglichen Sie so die schnellsten Iterationszyklen in der mobilen Entwicklung.",
+        "icon_type": "FaZap"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "Technologie-Architektur",
+    "title": "Mobiler architektonischer Umfang",
     "image": "/technologies/react_native/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with React Native-ready patterns designed for dynamic cloud scaling."
+        "title": "Fabric & TurboModule",
+        "description": "Implementierung der modernen React Native-Architektur für synchrone Thread-Ausführung und verbesserte Startleistung."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "React Native integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Benutzerdefinierte native Module",
+        "description": "Überbrückung von Java/Kotlin- und Objective-C/Swift-Code für spezielle Hardwareanforderungen wie biometrische Sensoren oder AR."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use React Native to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Offline-First-Daten",
+        "description": "Entwickeln Sie belastbare Anwendungen mit lokaler Persistenz (WatermelonDB/Realm) und Echtzeit-Hintergrundsynchronisierung."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the React Native stack.",
+    "title": "Der React Native Edge",
+    "subtitle": "Strategische Vorteile für marktbeherrschende Mobilfunkprodukte.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging React Native effectively."
+        "metric": "40 %",
+        "title": "Schnelleres TTM",
+        "description": "Deutliche Verkürzung der Markteinführungszeit durch gleichzeitiges Engineering für zwei Plattformen."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with React Native."
+        "metric": "Einheimisch",
+        "title": "UI-Treue",
+        "description": "Durch den direkten Zugriff auf OEM-Widgets wird sichergestellt, dass die App den plattformspezifischen Designrichtlinien perfekt entspricht."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate React Native delivery."
+        "metric": "Groß",
+        "title": "Talentpool",
+        "description": "Nutzen Sie das riesige React-Ökosystem und erleichtern Sie so die Skalierung Ihres Engineering-Teams."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using React Native inside open architecture patterns."
+        "metric": "Null",
+        "title": "Web-Hürden",
+        "description": "Vermeiden Sie Leistungsengpässe mobiler Browser, indem Sie die Ausführung direkt im nativen UI-Thread des Geräts durchführen."
       }
     ]
   },
   "quote_section": {
-    "quote": "React Native gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "React Native bietet die perfekte Balance zwischen Entwicklungsgeschwindigkeit und",
+    "highlight": "kompromisslose mobile Leistung"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your React Native roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Gestalten Sie Ihre mobile Zukunft",
+    "subtitle": "Lassen Sie sich von unseren führenden React Native-Spezialisten beraten, um Ihre plattformübergreifende Roadmap und Leistungsstrategie zu definieren.",
+    "full_name_label": "Leitender Mobile-Architekt",
+    "business_email_label": "Entitäts-E-Mail",
+    "message_label": "App-Anforderungen",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React Native architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihre plattformübergreifende Vision oder Leistungsherausforderungen ...",
+    "button_text": "Fordern Sie ein Angebot an"
   }
 }

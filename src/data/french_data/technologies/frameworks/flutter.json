@@ -1,103 +1,116 @@
 {
   "slug": "flutter",
+  "seo_metadata": {
+    "title": "Développement d'applications Flutter professionnelles | Solutions multiplateformes",
+    "description": "Développement Flutter personnalisé pour iOS, Android et Web. Nous construisons des applications compilées nativement hautes performances avec une base de code unique et des interfaces utilisateur expressives.",
+    "keywords": [
+      "Développement du flottement",
+      "Programmation de fléchettes",
+      "Applications mobiles multiplateformes",
+      "Flutter pour le Web",
+      "Interface utilisateur de conception matérielle",
+      "Applications de bureau Flutter",
+      "Optimisation des applications mobiles"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Flutter",
-    "description": "Build production systems with Flutter in our frameworks delivery ecosystem.",
+    "eyebrow": "Kit de développement de logiciels d'interface utilisateur",
+    "title": "Construisez pour n’importe quel écran avec",
+    "highlight": "Battement",
+    "description": "Créez de superbes applications compilées de manière native pour les appareils mobiles, Web, de bureau et intégrés à partir d'une base de code unique et hautes performances.",
     "side_image": "/technologies/flutter/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Démarrez votre projet",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Afficher la portée du cadre",
       "href": "/technologies/flutter#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Flutter plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Flutter",
+    "subtitle": "Flutter offre une combinaison unique de vitesse de développement et de performances accélérées par le matériel.",
     "paragraphs": [
-      "Flutter is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Flutter with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Nous utilisons Flutter pour combler le fossé entre les performances natives et l'efficacité multiplateforme. En tirant parti des moteurs de rendu Skia et Impeller, Flutter contourne les goulots d'étranglement traditionnels basés sur les ponts, nous permettant de fournir des animations de 60 ips à 120 ips qui semblent impossibles à distinguer du code natif.",
+      "L'utilisation de Dart, un langage optimisé pour le client, garantit une sécurité de type élevée et des outils de développement de pointe tels que « Hot Reload », qui permettent à notre équipe d'itérer sur les fonctionnalités en quelques secondes, réduisant ainsi considérablement le cycle de vie global du développement."
     ],
     "cards": [
       {
-        "title": "Flutter Clarity",
-        "description": "Flutter helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Compilé nativement",
+        "description": "Le code Flutter est compilé en code machine ARM ou Intel ainsi qu'en JavaScript, garantissant des performances optimales sur n'importe quel appareil.",
+        "icon_type": "FaCogs"
       },
       {
-        "title": "Flutter Performance",
-        "description": "Flutter supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Interface utilisateur expressive",
+        "description": "Contrôle total sur chaque pixel pour créer des conceptions personnalisées de marque sans les limitations des widgets OEM natifs.",
+        "icon_type": "FaPaintBrush"
       },
       {
-        "title": "Flutter Reliability",
-        "description": "Flutter strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Logique unifiée",
+        "description": "Partagez 100 % de votre logique métier et du code de votre interface utilisateur sur iOS et Android, réduisant ainsi considérablement les coûts de maintenance.",
+        "icon_type": "FaCopy"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée du cadre",
     "image": "/technologies/flutter/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Flutter-ready patterns designed for dynamic cloud scaling."
+        "title": "Excellence en gestion de l’État",
+        "description": "Mettre en œuvre des solutions de gestion d'état robustes telles que Bloc, Provider ou Riverpod pour un flux d'applications prévisible et évolutif."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Flutter integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Intégration spécifique à la plateforme",
+        "description": "Utilisation de canaux de méthode pour exploiter les API natives (GPS, Bluetooth, capteurs) lorsqu'un accès spécifique au niveau matériel est requis."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Flutter to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Déploiement multiplateforme",
+        "description": "Concevoir des mises en page réactives qui s'adaptent de manière transparente des écrans tactiles mobiles aux environnements de bureau et Web à écran large."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Flutter stack.",
+    "title": "Le bord flottant",
+    "subtitle": "Des avantages concurrentiels stratégiques pour votre produit numérique.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Flutter effectively."
+        "metric": "50%",
+        "title": "Coût inférieur",
+        "description": "Besoins en ressources réduits par rapport au maintien d’équipes d’ingénierie natives iOS et Android distinctes."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Flutter."
+        "metric": "120 images par seconde",
+        "title": "Mouvement fluide",
+        "description": "Prise en charge des affichages à taux de rafraîchissement élevé et des animations complexes grâce au rendu accéléré par le matériel."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Flutter delivery."
+        "metric": "Avec état",
+        "title": "Rechargement à chaud",
+        "description": "Vitesse d'itération de pointe permettant aux développeurs de corriger les bugs et de créer des interfaces utilisateur en temps réel sans perdre d'état."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Flutter inside open architecture patterns."
+        "metric": "Ouvrir",
+        "title": "Écosystème source",
+        "description": "Soutenu par Google et une communauté massive, fournissant des milliers de packages pré-testés pour une intégration rapide."
       }
     ]
   },
   "quote_section": {
-    "quote": "Flutter gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Flutter transforme la complexité du développement multiplateforme en un",
+    "highlight": "processus créatif fluide"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Flutter roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre expérience mobile",
+    "subtitle": "Consultez nos spécialistes Flutter pour concevoir une application hautes performances pour iOS, Android et Web.",
+    "full_name_label": "Développeur principal",
+    "business_email_label": "Courriel d'entreprise",
+    "message_label": "Exigences de l'application",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Flutter architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez votre vision multiplateforme ou vos défis de performance...",
+    "button_text": "Demander un devis"
   }
 }

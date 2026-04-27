@@ -1,103 +1,116 @@
 {
   "slug": "react",
+  "seo_metadata": {
+    "title": "تطوير رد الفعل الاحترافي | بنية المكونات التفاعلية",
+    "description": "خدمات تطوير React.js على مستوى المؤسسات. نحن نبني واجهات مستخدم عالية الأداء وقابلة للتطوير باستخدام التصميم القائم على المكونات وإدارة الحالة الحديثة.",
+    "keywords": [
+      "تطوير React.js",
+      "هندسة الواجهة الأمامية",
+      "تطبيقات الصفحة الواحدة (SPA)",
+      "أداء DOM الافتراضي",
+      "رد فعل السنانير",
+      "تصميم يحركه المكونات",
+      "حلول إدارة الدولة"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "React",
-    "description": "Build production systems with React in our frameworks delivery ecosystem.",
+    "eyebrow": "مكتبة واجهات الويب",
+    "title": "الدقة التفاعلية مع",
+    "highlight": "رد فعل",
+    "description": "أنشئ واجهات مستخدم تفاعلية عالية التزامن باستخدام بنية قائمة على المكونات تضمن حالة يمكن التنبؤ بها وعرضًا سريعًا للغاية.",
     "side_image": "/technologies/react/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين الواجهة الأمامية الخاصة بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض خريطة الطريق التقنية",
       "href": "/technologies/react#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "React plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام React",
+    "subtitle": "توفر React القوة التصريحية اللازمة لبناء واجهات معقدة تعتمد على البيانات بسهولة.",
     "paragraphs": [
-      "React is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using React with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "React هو خيارنا الأساسي لبناء تجارب الويب الديناميكية. من خلال استخدام نموذج برمجة تعريفي وDOM افتراضي، نقوم بتقليل عمليات التلاعب المباشرة باهظة الثمن بالمتصفح، مما يؤدي إلى تطبيقات عالية الأداء قابلة للتوسع بسلاسة بغض النظر عن تعقيد واجهة المستخدم.",
+      "تكمن القوة الحقيقية لـ React في نظامها البيئي القائم على المكونات. يسمح هذا النهج المعياري لفرقنا ببناء وحدات مغلفة من التعليمات البرمجية التي تدير حالتها الخاصة، مما يتيح إمكانية إعادة الاستخدام بشكل أفضل، واختبار أسهل، وعمليات تسليم أكثر وضوحًا بين المصممين والمهندسين."
     ],
     "cards": [
       {
-        "title": "React Clarity",
-        "description": "React helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "كفاءة DOM الافتراضية",
+        "description": "تضمن خوارزميات التفريق الذكية تحديث الأجزاء الضرورية فقط من واجهة المستخدم، مما يزيد من الأداء.",
+        "icon_type": "FaZap"
       },
       {
-        "title": "React Performance",
-        "description": "React supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "تدفق البيانات في اتجاه واحد",
+        "description": "يوفر ربط البيانات أحادي الاتجاه نموذجًا عقليًا يمكن التنبؤ به لتصحيح الأخطاء ومنطق التطبيق.",
+        "icon_type": "FaExchangeAlt"
       },
       {
-        "title": "React Reliability",
-        "description": "React strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "النظام البيئي الغني",
+        "description": "يمكنك الوصول إلى الآلاف من المكتبات التي تم فحصها مسبقًا للتوجيه وإدارة الحالة ومكونات واجهة المستخدم عبر npm.",
+        "icon_type": "FaBoxes"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق المعماري للواجهة الأمامية",
     "image": "/technologies/react/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with React-ready patterns designed for dynamic cloud scaling."
+        "title": "تصميم يحركه المكونات",
+        "description": "هندسة أنظمة التصميم باستخدام مبادئ التصميم الذري لعناصر واجهة المستخدم المتسقة والقابلة لإعادة الاستخدام."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "React integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "إدارة الدولة الحديثة",
+        "description": "تنفيذ مخازن البيانات التي يمكن التنبؤ بها باستخدام Redux Toolkit أو Zustand أو context API لحالات التطبيق المعقدة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use React to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "تحسين الأداء",
+        "description": "الاستفادة من الحفظ وتقسيم التعليمات البرمجية والتحميل البطيء لضمان الحد الأدنى من أحجام الحزم وأوقات التحميل الفورية."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the React stack.",
+    "title": "حافة التفاعل",
+    "subtitle": "المزايا القابلة للقياس لمنتجات الويب الحديثة.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging React effectively."
+        "metric": "85%",
+        "title": "إمكانية إعادة استخدام الكود",
+        "description": "استفد من المكونات المشتركة عبر طرق عرض متعددة وحتى React Native لمشروعات الأجهزة المحمولة."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with React."
+        "metric": "60 إطارًا في الثانية",
+        "title": "سيولة الواجهة",
+        "description": "احصل على رسوم متحركة وانتقالات سلسة من خلال دورات العرض والخطافات المحسنة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate React delivery."
+        "metric": "نشيط",
+        "title": "دعم LTS",
+        "description": "مدعومة من Meta ومجتمع عالمي، مما يضمن الاستقرار على المدى الطويل وتحديثات الأمان."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using React inside open architecture patterns."
+        "metric": "صفر",
+        "title": "كود السباغيتي",
+        "description": "تفرض الأنماط الراسخة مثل JSX وHooks بنية أكثر وضوحًا وقابلية للقراءة للفرق الكبيرة."
       }
     ]
   },
   "quote_section": {
-    "quote": "React gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يتيح لنا React إنشاء واجهات معقدة وحية دون خسارة",
+    "highlight": "القدرة على التنبؤ المعماري"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your React roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الواجهة الأمامية الخاصة بك",
+    "subtitle": "استشر مهندسي React الرائدين لدينا لتحديد إستراتيجية واجهة مستخدم قابلة للتطوير وخريطة طريق للأداء.",
+    "full_name_label": "مهندس الرصاص",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "متطلبات واجهة المستخدم",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف أهداف أداء React أو تحديات نظام التصميم...",
+    "button_text": "طلب استشارة"
   }
 }

@@ -87,7 +87,7 @@
         "icon": "FaClipboardCheck"
       },
       {
-        "name": "Pile de navigateur",
+        "name": "BrowserStack",
         "icon": "BsBrowserChrome"
       },
       {
@@ -105,7 +105,7 @@
     "subtitle": "Une approche méticuleuse de l’assurance qualité",
     "steps": [
       {
-        "title": "Analyser",
+        "title": "Analyze",
         "description": "Nous examinons les exigences de votre produit, vos user stories et vos fichiers de conception pour comprendre le comportement attendu.",
         "icon": "FaSearch"
       },
@@ -115,7 +115,7 @@
         "icon": "FaEdit"
       },
       {
-        "title": "Exécuter",
+        "title": "Execute",
         "description": "Nous exécutons manuellement les cas de test, effectuons des tests exploratoires et essayons de casser le système.",
         "icon": "FaPlay"
       },
@@ -131,7 +131,7 @@
     "image": "/all_services/manual_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une plate-forme SaaS a réussi tous les tests fonctionnels automatisés, mais les utilisateurs abandonnaient de manière aléatoire la page de mise à niveau de l'abonnement premium."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Notre équipe d'assurance qualité manuelle a effectué des tests exploratoires sur des appareils mobiles physiques et a découvert qu'une bannière de cookies superposée bloquait complètement le bouton « Payer maintenant » sur les anciens écrans d'iPhone."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "Le bug était visuellement invisible pour les scripts automatisés. En enregistrant et en corrigeant cette faille de l'interface utilisateur, le taux de conversion des abonnements du client a immédiatement bondi de 22 %."
       }
     }

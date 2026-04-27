@@ -1,87 +1,100 @@
 {
   "slug": "tools",
+  "seo_metadata": {
+    "title": "Workflow Automation & Enterprise Integration Tools",
+    "description": "Streamline your business with n8n, Make, Zapier, and Shopify integration. We architect automated workflows and commerce pipelines for maximum operational efficiency.",
+    "keywords": [
+      "Workflow Automation",
+      "n8n Integration Services",
+      "Make.com Automation",
+      "Zapier for Enterprise",
+      "Shopify Development",
+      "Headless WordPress Solutions",
+      "Business Process Orchestration"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Tools",
-    "description": "Build production systems with n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "Orchestration & Automation",
+    "title": "Unifying Workflows with",
+    "highlight": "Integrated Tools",
+    "description": "Transform fragmented processes into seamless digital ecosystems using industry-leading automation platforms, commerce engines, and CMS frameworks.",
+    "side_image": "/services_page/tools-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Automate Your Workflow",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Technical Roadmap",
       "href": "/technologies/tools#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Tools forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "Why We Engineer with Tools.",
+    "subtitle": "Strategic tooling selections allow us to build complex business logic with significantly reduced overhead.",
     "paragraphs": [
-      "n8n, Make, Zapier, Amazon, Shopify, and WordPress gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "Our automation stack—featuring n8n, Make, and Zapier—enables us to connect your disparate SaaS applications into a single, cohesive workflow. By leveraging low-code orchestration alongside custom API development, we deliver solutions that are both rapidly deployable and highly maintainable, allowing your team to pivot as fast as the market demands.",
+      "By integrating robust commerce and content platforms like Shopify and WordPress, we provide a high-confidence foundation for your digital storefront and brand presence. We focus on 'tool-agnostic' architectures that ensure your data flows freely between systems, preventing silos and maximizing the ROI of your existing software investments."
     ],
     "cards": [
       {
-        "title": "Automation Velocity",
-        "description": "n8n, Make, and Zapier remove repetitive tasks and manual bottlenecks.",
-        "icon_type": "FaBolt"
+        "title": "Hyper-Automation",
+        "description": "Deploy complex logic gates and triggers across 1,000+ apps to eliminate manual data entry and human error.",
+        "icon_type": "FaSyncAlt"
       },
       {
-        "title": "Commerce Enablement",
-        "description": "Amazon and Shopify streamline channel operations and conversion workflows.",
-        "icon_type": "FaShoppingCart"
+        "title": "Scalable Commerce",
+        "description": "Architect high-conversion Shopify and Amazon workflows that scale automatically with your order volume.",
+        "icon_type": "FaStore"
       },
       {
-        "title": "Publishing Scale",
-        "description": "WordPress supports consistent, high-throughput content operations.",
-        "icon_type": "FaWordpress"
+        "title": "Content Agility",
+        "description": "Utilize headless WordPress and CMS tools to deliver content across multiple platforms via secure, fast APIs.",
+        "icon_type": "FaPencilRuler"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "title": "Integration Scope",
+    "image": "/services_page/tools-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with tools choices matched to runtime and scaling goals."
+        "title": "API-First Orchestration",
+        "description": "Building custom connectors and webhooks to sync data between legacy databases and modern cloud tools."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "Automated Marketing Hubs",
+        "description": "Connecting CRM, email, and social channels into self-sustaining loops that nurture leads without manual intervention."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "Omnichannel Inventory Sync",
+        "description": "Orchestrating real-time product and stock synchronization across Shopify, Amazon, and ERP systems."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Tools stack.",
+    "title": "The Automation Edge",
+    "subtitle": "Quantifiable efficiency for modern operational flow.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "metric": "60%",
+        "title": "Operational Gain",
+        "description": "Average reduction in time spent on manual administrative tasks through strategic tool integration."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "Real-time",
+        "title": "Data Sync",
+        "description": "Eliminate data latency with instant webhook-based updates across your entire tech stack."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "100%",
+        "title": "Scalability",
+        "description": "Cloud-based tools that grow with your business, handling increased workloads without additional hiring."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "Secure",
+        "title": "Connections",
+        "description": "Utilize OAuth 2.0 and enterprise-grade encryption to ensure data remains safe as it moves between platforms."
       }
     ]
   },
@@ -91,13 +104,13 @@
   },
   "conversation_section": {
     "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your tools roadmap.",
-    "full_name_label": "Lead Name",
+    "subtitle": "Consult with our lead technical specialists to define a roadmap that unifies your fragmented tools.",
+    "full_name_label": "Lead Architect Name",
     "business_email_label": "Entity Email",
     "message_label": "Strategic Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describe your current workflow bottlenecks or integration challenges...",
+    "button_text": "Start Automation Audit"
   }
 }

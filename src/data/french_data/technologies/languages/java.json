@@ -1,103 +1,116 @@
 {
   "slug": "java",
+  "seo_metadata": {
+    "title": "Développement Java d'entreprise | Services d'architecture JVM évolutifs",
+    "description": "Ingénierie logicielle Java personnalisée pour les applications d'entreprise à haute concurrence. Nous concevons des systèmes sécurisés, stables et évolutifs à l’aide de Spring Boot et de l’optimisation JVM moderne.",
+    "keywords": [
+      "Développement Java d'entreprise",
+      "Microservices Spring Boot",
+      "Optimisation des performances de la JVM",
+      "Architecture logicielle Java",
+      "Ingénierie des systèmes back-end",
+      "Applications Java multithread",
+      "Jakarta EE Solutions"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Java",
-    "description": "Build production systems with Java in our languages delivery ecosystem.",
+    "eyebrow": "Fiabilité de niveau entreprise",
+    "title": "Stabilité prouvée avec",
+    "highlight": "La plateforme Java",
+    "description": "Créez des systèmes d'entreprise multiplateformes résilients avec un langage conçu pour la sécurité, la haute concurrence et la maintenabilité à long terme.",
     "side_image": "/technologies/java/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Architectez votre système",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Feuille de route technique",
       "href": "/technologies/java#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Java plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Java",
+    "subtitle": "Java fournit la discipline structurelle et la profondeur de l'écosystème requises pour les logiciels critiques.",
     "paragraphs": [
-      "Java is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Java with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Java est notre pierre angulaire pour la création d'applications d'entreprise complexes et multicouches. Sa sécurité de type stricte, sa gestion robuste de la mémoire via un Garbage Collection avancé et sa machine virtuelle Java (JVM) hautes performances garantissent la stabilité des applications malgré des charges transactionnelles massives.",
+      "En tirant parti du vaste écosystème Spring, notamment Spring Boot et Spring Cloud, nous fournissons des microservices intrinsèquement observables, sécurisés et prêts pour un déploiement cloud natif. Ce support de framework mature nous permet de nous concentrer sur la résolution de logiques métier complexes pendant que la plateforme gère l'infrastructure sous-jacente."
     ],
     "cards": [
       {
-        "title": "Java Clarity",
-        "description": "Java helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Performances de la JVM",
+        "description": "Tirez parti de la compilation Just-In-Time (JIT) et de la gestion optimisée de la mémoire pour une exécution à haut débit.",
+        "icon_type": "FaTachometerAlt"
       },
       {
-        "title": "Java Performance",
-        "description": "Java supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Sécurité de type forte",
+        "description": "Appliquez les limites architecturales et détectez les erreurs au moment de la compilation pour garantir l’intégrité du code dans les grandes équipes.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Java Reliability",
-        "description": "Java strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Écosystème d'entreprise",
+        "description": "Accédez à des bibliothèques de classe mondiale pour la sécurité, la persistance (Hibernate) et la messagerie (Kafka/JMS).",
+        "icon_type": "FaServer"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée technique Java",
     "image": "/technologies/java/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Java-ready patterns designed for dynamic cloud scaling."
+        "title": "Microservices cloud natifs",
+        "description": "Architecture de services conteneurisés avec Spring Boot et Quarkus pour une mise à l'échelle rapide dans les environnements Kubernetes."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Java integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Traitement à haute concurrence",
+        "description": "Utilisation du multithreading avancé et des threads virtuels de Java (Project Loom) pour un traitement de données haute performance."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Java to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Intégration héritée distribuée",
+        "description": "Relier les systèmes existants critiques à la mission avec des architectures cloud modernes via des passerelles API sécurisées et RMI."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Java stack.",
+    "title": "L'avantage concurrentiel de Java",
+    "subtitle": "Des avantages quantifiables pour le succès du produit à long terme.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Java effectively."
+        "metric": "99,99%",
+        "title": "Fiabilité de la disponibilité",
+        "description": "Des décennies d’épreuves dans les secteurs de la finance et des télécommunications garantissent une stabilité inégalée."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Java."
+        "metric": "Écrire une fois",
+        "title": "Courez n'importe où",
+        "description": "La JVM garantit que votre code se comporte de manière cohérente dans les environnements Linux, Windows et Cloud."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Java delivery."
+        "metric": "Évolutif",
+        "title": "Concurrence",
+        "description": "Gérez efficacement des milliers de connexions simultanées avec des modèles de threads matures."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Java inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Risque de maintenance",
+        "description": "La stricte compatibilité ascendante et les versions LTS (Long-Term Support) protègent votre investissement technique."
       }
     ]
   },
   "quote_section": {
-    "quote": "Java gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Java nous permet de cacher la complexité des systèmes distribués derrière",
+    "highlight": "architecture disciplinée"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Java roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre couche d'entreprise",
+    "subtitle": "Consultez nos principaux spécialistes Java pour concevoir une feuille de route sécurisée et évolutive pour votre infrastructure numérique.",
+    "full_name_label": "Nom de l'architecte principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence technique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Java architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos objectifs de mise à l'échelle du backend ou les défis de performances JVM...",
+    "button_text": "Demander une consultation"
   }
 }

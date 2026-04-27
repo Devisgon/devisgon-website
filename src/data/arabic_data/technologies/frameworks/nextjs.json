@@ -1,103 +1,116 @@
 {
   "slug": "nextjs",
+  "seo_metadata": {
+    "title": "تطوير المؤسسة Next.js | إطار رد فعل عالي الأداء",
+    "description": "تنفيذ Expert Next.js لتطبيقات الويب المُحسّنة لتحسين محركات البحث والسريعة للغاية. نحن نستفيد من مكونات الخادم وSSR لبناء منتجات رقمية قابلة للتطوير.",
+    "keywords": [
+      "تطوير Next.js",
+      "رد فعل مكونات الخادم",
+      "عرض جانب الخادم (SSR)",
+      "إنشاء الموقع الثابت (SSG)",
+      "بنية جهاز توجيه التطبيق",
+      "التجديد الثابت التزايدي",
+      "نشر فيرسيل"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "إطار التفاعل للويب",
+    "title": "أداء متفوق مع",
     "highlight": "Next.js",
-    "description": "Build production systems with Next.js in our frameworks delivery ecosystem.",
+    "description": "قم بتقديم تجارب مستخدم سريعة وصديقة لتحسين محركات البحث وتفاعلية للغاية باستخدام إطار العمل الذي يبسط العرض من جانب الخادم وإنشاء موقع ثابت.",
     "side_image": "/technologies/next_js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "قم بتحسين العناصر الحيوية للويب لديك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض المواصفات الفنية",
       "href": "/technologies/nextjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Next.js plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام Next.js؟",
+    "subtitle": "يقوم Next.js بسد الفجوة بين السرعة الثابتة والقوة الديناميكية، مما يوفر أساسًا لا مثيل له لتطبيقات الويب الحديثة.",
     "paragraphs": [
-      "Next.js is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Next.js with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Next.js هو خيارنا الأساسي للمشاريع التي يكون فيها الأداء وقابلية الاكتشاف أمرًا بالغ الأهمية. من خلال الاستفادة من إمكانات العرض الهجين، يمكننا تقديم محتوى ثابت لأوقات تحميل شبه فورية أثناء جلب البيانات الديناميكية على الخادم، مما يقلل بشكل كبير من حجم حزمة JavaScript المرسلة إلى العميل.",
+      "لقد أتاح لنا تقديم جهاز توجيه التطبيقات ومكونات الخادم إمكانية تصميم التطبيقات باستخدام عقلية \"الخادم أولاً\". وهذا يضمن أن يظل تطبيقك مستجيبًا ويمكن الوصول إليه حتى على الأجهزة منخفضة الطاقة، حيث تتم معالجة الأعباء الثقيلة من خلال البنية التحتية للخادم."
     ],
     "cards": [
       {
-        "title": "Next.js Clarity",
-        "description": "Next.js helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "التقديم الهجين",
+        "description": "اختر بين SSR وSSG وISR على أساس كل صفحة لتحقيق التوازن بين البيانات الجديدة والسرعة القصوى.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Next.js Performance",
-        "description": "Next.js supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "التميز في تحسين محركات البحث",
+        "description": "يضمن الدعم الأصلي للبيانات الوصفية والمحتوى المقدم من الخادم حصول موقعك على مرتبة أعلى في نتائج البحث.",
+        "icon_type": "FaSearch"
       },
       {
-        "title": "Next.js Reliability",
-        "description": "Next.js strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "العناصر الحيوية الأمثل",
+        "description": "التحسين التلقائي للصور واستضافة الخطوط وتحميل البرامج النصية لعناصر الويب الأساسية الرائدة في الصناعة.",
+        "icon_type": "FaTachometerAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق الإطار",
     "image": "/technologies/next_js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Next.js-ready patterns designed for dynamic cloud scaling."
+        "title": "بنية جهاز توجيه التطبيق",
+        "description": "تنفيذ تخطيطات متداخلة معقدة وجلب البيانات المتدفقة للتنقل السلس وعالي الأداء."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Next.js integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "خدمات وقت تشغيل الحافة",
+        "description": "نشر البرامج الوسيطة والوظائف على حافة الشبكة لتوفير محتوى مخصص بدون زمن انتقال."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Next.js to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "مسارات واجهة برمجة التطبيقات وإجراءات الخادم",
+        "description": "بناء ميزات مكدسة كاملة مع وظائف خادم آمنة من النوع الذي يلغي الحاجة إلى تنسيق واجهة برمجة التطبيقات المعقدة."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Next.js stack.",
+    "title": "حافة Next.js",
+    "subtitle": "مقاييس قابلة للقياس تحدد مستقبل الويب.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Next.js effectively."
+        "metric": "100/100",
+        "title": "نقاط المنارة",
+        "description": "حقق الأداء المثالي ونتائج تحسين محركات البحث (SEO) من خلال التحسينات التلقائية على مستوى إطار العمل."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Next.js."
+        "metric": "صفر",
+        "title": "قضايا CLS",
+        "description": "تخلص من التحول التراكمي للتخطيط باستخدام مكونات الصورة والخط المحسنة في Next.js."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Next.js delivery."
+        "metric": "في الوقت الحالى",
+        "title": "تجديد",
+        "description": "قم بتحديث المحتوى الثابت دون إعادة البناء بالكامل باستخدام التجديد الثابت التزايدي (ISR)."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Next.js inside open architecture patterns."
+        "metric": "نشيط",
+        "title": "دعم فيرسل",
+        "description": "الاستفادة من التكامل العميق بين Next.js وشبكة Vercel edge من أجل قابلية التوسع العالمية."
       }
     ]
   },
   "quote_section": {
-    "quote": "Next.js gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يتيح لنا Next.js إنشاء تطبيقات React الأكثر تعقيدًا دون المساس بها",
+    "highlight": "تحسين محركات البحث أو الأداء"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Next.js roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "تصميم وجود الويب الخاص بك",
+    "subtitle": "استشر متخصصي Next.js لدينا لبناء منتج رقمي عالي الأداء ومقاوم للمستقبل.",
+    "full_name_label": "مهندس الرصاص",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "الرؤية الفنية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Next.js architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف أهداف أداء الويب أو التحديات المعمارية...",
+    "button_text": "أطلق مشروعك"
   }
 }

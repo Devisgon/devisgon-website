@@ -1,85 +1,85 @@
 {
   "slug": "cloud_security",
   "hero_section": {
-    "title": "Cloud Security",
-    "subtitle": "Fortify Your Digital Infrastructure",
-    "description": "Protect your sensitive data, ensure regulatory compliance, and defend against modern cyber threats with our enterprise-grade cloud security architectures and continuous monitoring solutions.",
+    "title": "云安全",
+    "subtitle": "强化您的数字基础设施",
+    "description": "借助我们的企业级云安全架构和持续监控解决方案，保护您的敏感数据、确保合规性并防御现代网络威胁。",
     "buttons": [
       {
-        "text": "Secure My Cloud",
+        "text": "保护我的云",
         "link": "/contact"
       },
       {
-        "text": "Get a Security Audit",
+        "text": "进行安全审核",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Cloud Security?",
+    "heading": "什么是",
+    "span_heading": "云安全？",
     "content": [
-      "Cloud security consists of the technologies, policies, and controls implemented to protect data, applications, and infrastructure associated with cloud computing. As businesses migrate to the cloud, the traditional network perimeter disappears, making a robust, multi-layered security architecture more critical than ever. ",
-      "At Devisgon, we adopt a 'Zero Trust' approach—meaning we never trust, and always verify. We secure your AWS, Azure, or Google Cloud environments from the ground up, implementing identity management, data encryption, and automated threat response so your business can scale with absolute peace of mind."
+      "云安全包括为保护与云计算相关的数据、应用程序和基础设施而实施的技术、策略和控制。随着企业迁移到云，传统的网络边界消失，使得强大的多层安全架构比以往任何时候都更加重要。",
+      "在 Devisgon，我们采用“零信任”方法，这意味着我们从不信任，并且始终进行验证。我们从头开始保护您的 AWS、Azure 或 Google Cloud 环境，实施身份管理、数据加密和自动威胁响应，以便您的业务可以绝对放心地扩展。"
     ],
-    "highlight_quote": " “Security is not a product you buy; it's a continuous process.” ",
+    "highlight_quote": "“安全不是你购买的产品；它是一个持续的过程。”",
     "side_image": "/all_services/cloud_security/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why proactive cloud security is non-negotiable",
+    "title": "主要优点",
+    "subtitle": "为什么主动云安全是不容妥协的",
     "cards": [
       {
-        "title": "Threat Mitigation",
-        "description": "Stop ransomware, DDoS attacks, and unauthorized access before they can penetrate your systems.",
+        "title": "威胁缓解",
+        "description": "在勒索软件、DDoS 攻击和未经授权的访问渗透您的系统之前阻止它们。",
         "icon_type": "MdSecurity"
       },
       {
-        "title": "Regulatory Compliance",
-        "description": "Ensure your infrastructure meets strict industry standards like SOC 2, HIPAA, GDPR, and PCI-DSS.",
+        "title": "监管合规性",
+        "description": "确保您的基础设施符合严格的行业标准，例如 SOC 2、HIPAA、GDPR 和 PCI-DSS。",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Data Privacy",
-        "description": "Keep your customers' sensitive information encrypted and protected from internal and external leaks.",
+        "title": "数据隐私",
+        "description": "对客户的敏感信息进行加密并防止内部和外部泄露。",
         "icon_type": "MdLock"
       },
       {
-        "title": "24/7 Visibility",
-        "description": "Gain complete oversight of your network traffic with automated monitoring and instant alerts.",
+        "title": "24/7 可见性",
+        "description": "通过自动监控和即时警报全面监控您的网络流量。",
         "icon_type": "MdVisibility"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Cloud Security",
+    "title": "选择云安全后您将获得什么",
     "image": "/all_services/cloud_security/wwg.webp",
     "list_items": [
       {
-        "title": "1. Vulnerability Assessments",
-        "description": "Deep-dive audits of your current cloud setup to identify misconfigurations and exposed endpoints."
+        "title": "1. 漏洞评估",
+        "description": "深入审核您当前的云设置，以识别错误配置和暴露的端点。"
       },
       {
-        "title": "2. Identity & Access Management (IAM)",
-        "description": "Strict 'least-privilege' access controls ensuring users and apps only access what they absolutely need."
+        "title": "2.身份和访问管理（IAM）",
+        "description": "严格的“最低权限”访问控制确保用户和应用程序仅访问他们绝对需要的内容。"
       },
       {
-        "title": "3. Data Encryption",
-        "description": "Military-grade encryption protocols applied to your data both at rest (in databases) and in transit."
+        "title": "3. 数据加密",
+        "description": "军用级加密协议适用于静态（数据库中）和传输中的数据。"
       },
       {
-        "title": "4. Incident Response Playbooks",
-        "description": "Automated security protocols that immediately lock down compromised assets in the event of a breach."
+        "title": "4. 事件响应手册",
+        "description": "自动化安全协议可在发生漏洞时立即锁定受损资产。"
       }
     ]
   },
   "technologies_section": {
-    "title": "We secure using industry-leading tools",
-    "subtitle": "Enterprise-grade software for maximum protection",
+    "title": "我们使用行业领先的工具来确保安全",
+    "subtitle": "企业级软件提供最大程度的保护",
     "tools": [
       {
-        "name": "AWS Security Hub",
+        "name": "AWS 安全中心",
         "icon": "FaAws"
       },
       {
@@ -87,7 +87,7 @@
         "icon": "SiCloudflare"
       },
       {
-        "name": "HashiCorp Vault",
+        "name": "HashiCorp 金库",
         "icon": "SiHashicorp"
       },
       {
@@ -95,79 +95,79 @@
         "icon": "SiDatadog"
       },
       {
-        "name": "Palo Alto Networks",
+        "name": "帕洛阿尔托网络",
         "icon": "SiPaloaltonetworks"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "Securing your infrastructure step-by-step",
+    "title": "我们的流程",
+    "subtitle": "逐步保护您的基础设施",
     "steps": [
       {
-        "title": "Audit & Assess",
-        "description": "We run comprehensive scans on your cloud environment to identify critical vulnerabilities.",
+        "title": "审核与评估",
+        "description": "我们对您的云环境进行全面扫描，以识别关键漏洞。",
         "icon": "FaSearch"
       },
       {
-        "title": "Architecture Design",
-        "description": "We map out a Zero-Trust security model tailored specifically to your tech stack.",
+        "title": "建筑设计",
+        "description": "我们专门针对您的技术堆栈制定了零信任安全模型。",
         "icon": "FaShieldAlt"
       },
       {
         "title": "Implementation",
-        "description": "We deploy firewalls, IAM policies, and encryption keys without disrupting your live services.",
+        "description": "我们部署防火墙、IAM 策略和加密密钥，而不会中断您的实时服务。",
         "icon": "FaLock"
       },
       {
-        "title": "Monitor & Maintain",
-        "description": "We set up automated alerting systems and provide ongoing patch management and threat hunting.",
+        "title": "监控与维护",
+        "description": "我们建立自动警报系统并提供持续的补丁管理和威胁搜寻。",
         "icon": "FaChartLine"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Securing a fintech startup for SOC 2 Type II compliance",
+    "headline": "确保金融科技初创公司符合 SOC 2 Type II 合规性",
     "image": "/all_services/cloud_security/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "A rapidly growing financial application had exposed AWS S3 buckets and lacked proper access controls, putting them at risk of failing an upcoming compliance audit."
+        "text": "一个快速增长的金融应用程序暴露了 AWS S3 存储桶，并且缺乏适当的访问控制，使其面临无法通过即将到来的合规性审计的风险。"
       },
       "solution": {
         "label": "Solution",
-        "text": "We conducted a full security sweep, locked down public-facing infrastructure, encrypted all databases, and implemented a strict Identity and Access Management (IAM) policy."
+        "text": "我们进行了全面的安全扫描，锁定了面向公众的基础设施，加密了所有数据库，并实施了严格的身份和访问管理（IAM）政策。"
       },
       "result": {
         "label": "Result",
-        "text": "The client successfully passed their SOC 2 Type II audit in under 4 weeks, enabling them to close a critical $5M enterprise contract."
+        "text": "该客户在 4 周内成功通过了 SOC 2 Type II 审核，使他们能够完成一份价值 500 万美元的重要企业合同。"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about cloud security",
+    "title": "常见问题解答",
+    "subtitle": "获取有关云安全的答案",
     "questions": [
       {
-        "question": "Is the cloud less secure than on-premise servers?",
-        "answer": "No. Major cloud providers (AWS, Azure, Google) have infinitely better physical and baseline security than most private data centers. However, cloud security relies on a 'Shared Responsibility Model'. The provider secures the hardware, but you are responsible for securing how your data and apps are configured. That is where we come in."
+        "question": "云是否不如本地服务器安全？",
+        "answer": "不会。主要云提供商（AWS、Azure、Google）的物理和基线安全性比大多数私有数据中心好得多。然而，云安全依赖于“共同责任模型”。提供商保护硬件的安全，但您负责保护数据和应用程序的配置方式。这就是我们进来的地方。"
       },
       {
-        "question": "What does 'Zero Trust' actually mean?",
-        "answer": "Zero Trust is a security framework requiring all users, whether inside or outside the organization's network, to be continuously authenticated and authorized before being granted or keeping access to applications and data."
+        "question": "“零信任”到底意味着什么？",
+        "answer": "零信任是一种安全框架，要求所有用户（无论是组织网络内部还是外部）在被授予或保留对应用程序和数据的访问权限之前不断进行身份验证和授权。"
       },
       {
-        "question": "Can you help us achieve compliance (SOC 2, HIPAA, GDPR)?",
-        "answer": "Absolutely. We specialize in mapping cloud architectures to strict regulatory frameworks. We can implement the technical controls required to pass your compliance audits with flying colors."
+        "question": "您能帮助我们实现合规性（SOC 2、HIPAA、GDPR）吗？",
+        "answer": "绝对地。我们专注于将云架构映射到严格的监管框架。我们可以实施所需的技术控制，以出色地通过合规审核。"
       },
       {
-        "question": "What happens if we suffer a cyber attack?",
-        "answer": "We build automated Incident Response (IR) protocols into your infrastructure. If abnormal behavior is detected (like a massive data download attempt), the system can automatically sever connections, revoke user access, and alert your team instantly to stop the attack in its tracks."
+        "question": "如果我们遭受网络攻击会发生什么？",
+        "answer": "我们将自动化事件响应 (IR) 协议构建到您的基础设施中。如果检测到异常行为（例如尝试下载大量数据），系统可以自动切断连接、撤销用户访问权限，并立即提醒您的团队阻止攻击。"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Contact our security team",
+      "text": "没有找到您的答案吗？",
+      "link_text": "联系我们的安全团队",
       "link_url": "/contact"
     }
   }

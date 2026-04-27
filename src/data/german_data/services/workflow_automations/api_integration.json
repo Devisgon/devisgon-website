@@ -1,90 +1,182 @@
 {
   "slug": "api_integration",
   "hero_section": {
-    "title": "Dienstleistungen für API- & Systemintegrationsautomatisierung",
-    "subtitle": "ERP-Integration, CRM-Integration & plattformübergreifende Workflow-Automatisierung",
-    "description": "Verbinden Sie Ihr ERP, CRM, Buchhaltungssoftware, E-Commerce-Plattformen und SaaS-Tools mit sicheren API-Integrationen und automatisierten Datensynchronisationssystemen.",
+    "title": "API- und Systemintegrationsautomatisierungsdienste",
+    "subtitle": "ERP-Integration, CRM-Integration und plattformübergreifende Workflow-Automatisierung",
+    "description": "Verbinden Sie Ihre ERP-, CRM-, Buchhaltungssoftware, E-Commerce-Plattformen und SaaS-Tools mit sicheren API-Integrationen und automatisierten Datensynchronisierungssystemen.",
     "buttons": [
-      { "text": "Meine Systeme integrieren", "link": "/contact" },
-      { "text": "Kontaktieren Sie uns", "link": "/contact" }
+      {
+        "text": "Integrieren Sie meine Systeme",
+        "link": "/contact"
+      },
+      {
+        "text": "Kontaktieren Sie uns",
+        "link": "/contact"
+      }
     ],
     "hero_image": "/videos/api_integration.mp4"
   },
   "introduction_section": {
     "heading": "Was ist",
-    "span_heading": " API- & Systemintegrationsautomatisierung?",
+    "span_heading": "API- und Systemintegrationsautomatisierung?",
     "content": [
-      "Getrennte Softwaresysteme erzeugen Datensilos, Doppelarbeit und betriebliche Ineffizienzen.",
-      "Bei Devisgon entwerfen wir sichere API-Integrations- und Systemautomatisierungslösungen, die Ihr digitales Ökosystem vereinen. Unsere Integrationsdienste:",
-      "  •  Verbindung von ERP-, CRM- und Buchhaltungssystemen",
-      "  •  Ermöglichung der Datensynchronisation in Echtzeit",
-      "  •  Automatisierung plattformübergreifender Workflows",
-      "  •  Implementierung Webhook-basierter Triggersysteme",
-      "Das Ergebnis: Nahtloser Datenfluss, weniger manuelle Eingaben und einheitliche Abläufe."
+      "Durch getrennte Softwaresysteme entstehen Datensilos, Doppelarbeit und betriebliche Ineffizienzen.",
+      "Bei Devisgon entwickeln wir sichere API-Integrations- und Systemautomatisierungslösungen, die Ihr digitales Ökosystem vereinheitlichen. Unsere Integrationsleistungen:",
+      "• Verbinden Sie ERP-, CRM- und Buchhaltungssysteme",
+      "• Aktivieren Sie die Datensynchronisierung in Echtzeit",
+      "• Automatisieren Sie plattformübergreifende Arbeitsabläufe",
+      "• Implementieren Sie Webhook-basierte Triggersysteme",
+      "Das Ergebnis: nahtloser Datenfluss, weniger manuelle Eingaben und einheitliche Abläufe."
     ],
-    "highlight_quote": "„Verbundene Systeme. Einheitliche Daten. Automatisierte Effizienz.“",
+    "highlight_quote": "„Vernetzte Systeme. Einheitliche Daten. Automatisierte Effizienz.“",
     "side_image": "/all_services/api_integration/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Wichtige Vorteile",
-    "subtitle": "Datensilos und Ineffizienzen eliminieren",
+    "title": "Hauptvorteile",
+    "subtitle": "Beseitigen Sie Datensilos und Ineffizienzen",
     "cards": [
-      { "title": "Echtzeit-Datensync", "description": "Automatische Synchronisation von Daten über alle Plattformen.", "icon_type": "MdSync" },
-      { "title": "ERP & CRM Integration", "description": "Sichere Integration zwischen Kern-Geschäftssystemen.", "icon_type": "MdSettings" },
-      { "title": "Workflow-Automatisierung", "description": "Auslösung automatisierter Prozesse über Anwendungen hinweg.", "icon_type": "MdAutoFixHigh" },
-      { "title": "Skalierbare Architektur", "description": "Integrationssysteme für das Unternehmenswachstum.", "icon_type": "MdTrendingUp" }
+      {
+        "title": "Datensynchronisierung in Echtzeit",
+        "description": "Synchronisieren Sie Daten automatisch plattformübergreifend.",
+        "icon_type": "MdSync"
+      },
+      {
+        "title": "ERP- und CRM-Integration",
+        "description": "Sichere Integration zwischen Kerngeschäftssystemen.",
+        "icon_type": "MdSettings"
+      },
+      {
+        "title": "Workflow-Automatisierung",
+        "description": "Lösen Sie automatisierte Prozesse anwendungsübergreifend aus.",
+        "icon_type": "MdAutoFixHigh"
+      },
+      {
+        "title": "Skalierbare Architektur",
+        "description": "Integrationssysteme für Unternehmenswachstum.",
+        "icon_type": "MdTrendingUp"
+      }
     ]
   },
   "what_you_get_section": {
-    "title": "Was Sie erhalten, wenn Sie API- & Systemintegrationsautomatisierung wählen",
+    "title": "Was Sie erhalten, wenn Sie sich für API & System Integration Automation entscheiden",
     "image": "/all_services/api_integration/wwg.webp",
     "list_items": [
-      { "title": "1. Maßgeschneiderte API-Integrationen", "description": "Sichere Verbindungen zwischen ERP, CRM und SaaS-Tools." },
-      { "title": "2. Automatisierte Daten-Pipelines", "description": "Echtzeit-Synchronisation über alle Systeme." },
-      { "title": "3. Webhook- & Event-Automatisierung", "description": "Trigger-basierte plattformübergreifende Workflows." },
-      { "title": "4. Zentrales Monitoring-Dashboard", "description": "Einblick in den Status und die Leistung der Integration." }
+      {
+        "title": "1. Benutzerdefinierte API-Integrationen",
+        "description": "Sichere Verbindungen zwischen Ihren ERP-, CRM- und SaaS-Tools."
+      },
+      {
+        "title": "2. Automatisierte Datenpipelines",
+        "description": "Systemübergreifende Synchronisierung in Echtzeit."
+      },
+      {
+        "title": "3. Webhook und Event-Automatisierung",
+        "description": "Triggerbasierte plattformübergreifende Workflows."
+      },
+      {
+        "title": "4. Zentralisiertes Überwachungs-Dashboard",
+        "description": "Einblick in die Gesundheit und Leistung der Integration."
+      }
     ]
   },
   "technologies_section": {
     "title": "Integrationstechnologien",
     "subtitle": "Sichere und skalierbare API-Architektur",
     "tools": [
-      { "name": "REST APIs", "icon": "FaExchangeAlt" },
-      { "name": "GraphQL", "icon": "SiGraphql" },
-      { "name": "Node.js", "icon": "FaNodeJs" },
-      { "name": "Python", "icon": "FaPython" },
-      { "name": "AWS", "icon": "FaAws" },
-      { "name": "MongoDB", "icon": "SiMongodb" }
+      {
+        "name": "REST-APIs",
+        "icon": "FaExchangeAlt"
+      },
+      {
+        "name": "GraphQL",
+        "icon": "SiGraphql"
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb"
+      }
     ]
   },
   "process_section": {
     "title": "Unser Prozess",
-    "subtitle": "Sichere Bereitstellung der Integration",
+    "subtitle": "Sichere Integrationsbereitstellung",
     "steps": [
-      { "title": "Analysieren", "description": "Audit bestehender Systeme und Datenflüsse.", "icon": "FaSearch" },
-      { "title": "Architektur", "description": "Entwurf einer sicheren API-Integrationsstrategie.", "icon": "TbTools" },
-      { "title": "Entwickeln", "description": "Bau von Integrationen und Automatisierungs-Triggern.", "icon": "FaHammer" },
-      { "title": "Bereitstellen", "description": "Start und Überwachung der Echtzeit-Synchronisation.", "icon": "FaRocket" }
+      {
+        "title": "Analyze",
+        "description": "Prüfen Sie bestehende Systeme und Datenflüsse.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Architect",
+        "description": "Entwerfen Sie eine sichere API-Integrationsstrategie.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Develop",
+        "description": "Erstellen Sie Integrationen und Automatisierungsauslöser.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Deploy",
+        "description": "Starten und überwachen Sie die Echtzeitsynchronisierung.",
+        "icon": "FaRocket"
+      }
     ]
   },
   "case_study_section": {
-    "headline": "5 Geschäftssysteme vereint",
+    "headline": "Einheitliche 5 Geschäftssysteme",
     "image": "/all_services/api_integration/case_study.webp",
     "content": {
-      "problem": { "label": "Problem", "text": "Ein Einzelhandelsunternehmen nutzte getrennte ERP-, CRM- und Buchhaltungstools, was zu Doppeleinträgen führte." },
-      "solution": { "label": "Lösung", "text": "Implementierung einer API-basierten Integration mit automatisierter Auftrags- und Rechnungssynchronisation." },
-      "result": { "label": "Ergebnis", "text": "Datenfehler um 70 % reduziert und das Reporting wurde vollständig automatisiert." }
+      "problem": {
+        "label": "Problem",
+        "text": "Ein Einzelhandelsunternehmen nutzte getrennte ERP-, CRM- und Buchhaltungstools, was zu doppelten Einträgen führte."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Implementierung einer API-basierten Integration mit automatisierter Auftrags- und Rechnungssynchronisierung."
+      },
+      "result": {
+        "label": "Result",
+        "text": "Datenfehler wurden um 70 % reduziert und die Berichterstellung wurde vollständig automatisiert."
+      }
     }
   },
   "faq_section": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "FAQs zur Integrationsautomatisierung",
+    "subtitle": "Häufig gestellte Fragen zur Integrationsautomatisierung",
     "questions": [
-      { "question": "Können Sie ERP- und CRM-Systeme integrieren?", "answer": "Ja, wir bauen sichere API-Verbindungen zwischen Unternehmensplattformen." },
-      { "question": "Bieten Sie Datensynchronisation in Echtzeit an?", "answer": "Ja, einschließlich Webhook- und ereignisgesteuerter Automatisierung." },
-      { "question": "Ist die API-Integration sicher?", "answer": "Wir implementieren verschlüsselte Verbindungen und strenge Authentifizierungsprotokolle." },
-      { "question": "Können Integrationen skalieren, wenn unser Geschäft wächst?", "answer": "Ja, unsere Architektur ist auf Unternehmensskalierbarkeit ausgelegt." },
-      { "question": "Arbeiten Sie mit internationalen Kunden?", "answer": "Ja, wir betreuen Unternehmen in den USA, Europa, Australien, Kanada, VAE und den GCC-Staaten." }
+      {
+        "question": "Können ERP- und CRM-Systeme integriert werden?",
+        "answer": "Ja, wir bauen sichere API-Verbindungen zwischen Unternehmensplattformen auf."
+      },
+      {
+        "question": "Bieten Sie eine Datensynchronisierung in Echtzeit an?",
+        "answer": "Ja, einschließlich Webhook und ereignisgesteuerter Automatisierung."
+      },
+      {
+        "question": "Ist die API-Integration sicher?",
+        "answer": "Wir implementieren verschlüsselte Verbindungen und strenge Authentifizierungsprotokolle."
+      },
+      {
+        "question": "Können Integrationen mit dem Wachstum unseres Unternehmens skaliert werden?",
+        "answer": "Ja, unsere Architektur ist auf Unternehmensskalierbarkeit ausgelegt."
+      },
+      {
+        "question": "Arbeiten Sie mit internationalen Kunden?",
+        "answer": "Ja, wir bedienen Unternehmen in den USA, Europa, Australien, Kanada, den Vereinigten Arabischen Emiraten und den GCC-Ländern."
+      }
     ],
     "footer": {
       "text": "Benötigen Sie Integrationsunterstützung?",

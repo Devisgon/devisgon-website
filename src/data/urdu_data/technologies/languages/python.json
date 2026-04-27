@@ -1,103 +1,116 @@
 {
   "slug": "python",
+  "seo_metadata": {
+    "title": "انٹرپرائز ازگر کی ترقی | AI، ڈیٹا سائنس اور بیک اینڈ حل",
+    "description": "AI، مشین لرننگ، اور توسیع پذیر بیک اینڈز کے لیے اپنی مرضی کے مطابق Python سافٹ ویئر انجینئرنگ۔ ہم جدید Pythonic فن تعمیر کا استعمال کرتے ہوئے تیز رفتار، برقرار رکھنے کے قابل نظام بناتے ہیں۔",
+    "keywords": [
+      "ازگر سافٹ ویئر ڈویلپمنٹ",
+      "اے آئی اور مشین لرننگ انجینئرنگ",
+      "جینگو اور فاسٹ اے پی آئی سلوشنز",
+      "ڈیٹا سائنس پائپ لائنز",
+      "ازگر آٹومیشن اسکرپٹس",
+      "توسیع پذیر بیک اینڈ آرکیٹیکچر",
+      "سائنسی کمپیوٹنگ ازگر"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Python",
-    "description": "Build production systems with Python in our languages delivery ecosystem.",
+    "eyebrow": "جدت کی زبان",
+    "title": "کے ساتھ ذہین ڈیزائن",
+    "highlight": "ازگر",
+    "description": "ڈویلپر کی پیداواری صلاحیت، سائنسی کمپیوٹنگ، اور انٹرپرائز گریڈ آٹومیشن کے لیے موزوں زبان کے ساتھ آئیڈیا سے پروڈکشن تک اپنے راستے کو تیز کریں۔",
     "side_image": "/technologies/python/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنی منطق بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی دستاویزات",
       "href": "/technologies/python#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Python plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "ہم ازگر کے ساتھ انجینئر کیوں؟",
+    "subtitle": "Python پیمانے پر پیچیدہ ریاضیاتی اور منطقی چیلنجوں کو حل کرنے کا صاف ترین راستہ فراہم کرتا ہے۔",
     "paragraphs": [
-      "Python is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Python with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Python ڈیٹا سے بھرپور ایپلی کیشنز اور مصنوعی ذہانت کے لیے ہمارا بنیادی انجن ہے۔ اس کی 'جمالیاتی سادگی' ہمارے معماروں کو تاثراتی، برقرار رکھنے کے قابل کوڈ لکھنے کی اجازت دیتی ہے جو سائنسی تحقیق اور پیداوار کے لیے تیار سافٹ ویئر کے درمیان فرق کو کم کرتا ہے۔ خصوصی لائبریریوں کے اپنے وسیع ماحولیاتی نظام کو استعمال کرتے ہوئے، ہم پیچیدہ مسائل کو کوڈ کی کم لائنوں میں حل کرتے ہیں۔",
+      "AI میں اپنے غلبہ سے آگے، بیک اینڈ انجینئرنگ میں Python کی استعداد — Django اور FastAPI جیسے فریم ورک کے ذریعے — اس بات کو یقینی بناتی ہے کہ ہم انتہائی محفوظ، قابل توسیع APIs بنا سکتے ہیں۔ یہ ملٹی ڈومین کی صلاحیت ہمیں آپ کی ڈیٹا سائنس اور ویب انجینئرنگ ٹیموں کو ایک واحد، تیز رفتار زبان کے اسٹیک کے تحت متحد کرنے کی اجازت دیتی ہے۔"
     ],
     "cards": [
       {
-        "title": "Python Clarity",
-        "description": "Python helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "سائنسی غلبہ",
+        "description": "اعلی درجے کی ڈیٹا پروسیسنگ کے لیے صنعت کی معیاری لائبریریوں جیسے NumPy، Pandas، اور TensorFlow سے فائدہ اٹھائیں۔",
+        "icon_type": "FaFlask"
       },
       {
-        "title": "Python Performance",
-        "description": "Python supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ریپڈ پروٹو ٹائپنگ",
+        "description": "پیچیدہ خیالات کو کسی بھی دوسری اعلیٰ سطحی زبان سے زیادہ تیزی سے تصور کے عملی ثبوت میں تبدیل کریں۔",
+        "icon_type": "FaRocket"
       },
       {
-        "title": "Python Reliability",
-        "description": "Python strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "صاف پڑھنے کی اہلیت",
+        "description": "ایک نحو کے ساتھ اعلیٰ معیارات کو نافذ کریں جو کہ وضاحت پر زور دیتا ہے، طویل مدتی دیکھ بھال کے اخراجات کو کم کرتا ہے۔",
+        "icon_type": "FaEye"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "ازگر تکنیکی دائرہ کار",
     "image": "/technologies/python/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Python-ready patterns designed for dynamic cloud scaling."
+        "title": "اے آئی اور مشین لرننگ ماڈلز",
+        "description": "پیش گوئی کرنے والے ماڈلز، این ایل پی انجنوں، اور کمپیوٹر وژن سسٹمز کو پروڈکشن میں آرکیٹیکٹنگ اور تعینات کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Python integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "ہائی تھرو پٹ ڈیٹا پائپ لائنز",
+        "description": "مضبوط ETL عملوں کو ترتیب دینا جو بڑے پیمانے پر ڈیٹاسیٹس کو قابل عمل آپریشنل انٹیلی جنس میں تبدیل کرتا ہے۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Python to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Async API مائیکرو سروسز",
+        "description": "اعلی ہم آہنگی والے ماحول کے لیے FastAPI اور Trio کا استعمال کرتے ہوئے بجلی کی تیز رفتار غیر مطابقت پذیر بیک اینڈس بنانا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Python stack.",
+    "title": "پائتھن ایج",
+    "subtitle": "ڈیٹا سے چلنے والی تنظیموں کے لیے اسٹریٹجک فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Python effectively."
+        "metric": "50%",
+        "title": "تیز تر TTM",
+        "description": "پیچیدہ منطقی اور سائنسی ماڈیولز کے لیے ابتدائی ترقی کے وقت میں اوسط کمی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Python."
+        "metric": "100%",
+        "title": "AI ہم آہنگ",
+        "description": "دنیا کے جدید ترین مشین لرننگ اور آٹومیشن فریم ورک کے ساتھ ہموار انضمام۔"
       },
       {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Python delivery."
+        "title": "لائبریریاں کھولیں۔",
+        "description": "تمام صنعتوں میں پہلے سے جانچ شدہ ماڈیولز کے لیے Python Package Index (PyPI) تک فوری رسائی۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Python inside open architecture patterns."
+        "metric": "صفر",
+        "title": "پیچیدگی بلوٹ",
+        "description": "سادہ، پڑھنے کے قابل کوڈ بیسز کو برقرار رکھیں یہاں تک کہ جب بنیادی منطق نفاست میں بڑھتی ہے۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Python gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "ازگر ایک تجربہ ہے کہ اس کے پیچھے کتنی پیچیدگی چھپائی جا سکتی ہے۔",
+    "highlight": "جمالیاتی سادگی"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Python roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنی ذہانت کا معمار",
+    "subtitle": "اپنے AI روڈ میپ کی وضاحت کرنے یا اپنے بیک اینڈ انفراسٹرکچر کو بہتر بنانے کے لیے ہمارے لیڈ Python ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈیٹا آرکیٹیکٹ",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Python architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے ڈیٹا چیلنجز یا اپنے AI/ML وژن کی وضاحت کریں...",
+    "button_text": "ٹیکنیکل آڈٹ کی درخواست کریں۔"
   }
 }

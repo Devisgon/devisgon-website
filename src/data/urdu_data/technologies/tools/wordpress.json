@@ -1,103 +1,116 @@
 {
   "slug": "wordpress",
+  "seo_metadata": {
+    "title": "انٹرپرائز ورڈپریس ڈویلپمنٹ | ہیڈ لیس CMS اور کسٹم آرکیٹیکچر",
+    "description": "اعلی درجے کے مواد کے پلیٹ فارمز کے لیے پروفیشنل ورڈپریس انجینئرنگ۔ ہم ہیڈ لیس ورڈپریس سلوشنز، کسٹم بلاک تھیمز، اور اعلی کارکردگی والے پبلشنگ ورک فلو کو آرکیٹیکٹ کرتے ہیں۔",
+    "keywords": [
+      "انٹرپرائز ورڈپریس ڈویلپمنٹ",
+      "ہیڈ لیس ورڈپریس فن تعمیر",
+      "WP REST API اور GraphQL",
+      "کسٹم گٹنبرگ بلاکس",
+      "توسیع پذیر CMS حل",
+      "ورڈپریس پرفارمنس آپٹیمائزیشن",
+      "ڈیکپلڈ ورڈپریس ڈویلپمنٹ"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "WordPress",
-    "description": "Build production systems with WordPress in our tools delivery ecosystem.",
+    "eyebrow": "دنیا کا معروف CMS",
+    "title": "مواد کی رفتار کے ساتھ",
+    "highlight": "ورڈپریس",
+    "description": "اپنی ادارتی ٹیموں کو ایک اعلی کارکردگی والے پبلشنگ انجن کے ساتھ بااختیار بنائیں جو عالمی رسائی، SEO کے غلبہ، اور بغیر کسی API کے پہلے انضمام کے لیے ڈیزائن کیا گیا ہے۔",
     "side_image": "/technologies/wordpress/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنا پلیٹ فارم بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "آرکیٹیکچر پیٹرن دیکھیں",
       "href": "/technologies/wordpress#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "WordPress plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "ہم ورڈپریس کے ساتھ انجینئر کیوں؟",
+    "subtitle": "ورڈپریس جدید، مواد سے چلنے والے ڈیجیٹل ماحولیاتی نظام کے لیے انتہائی لچکدار اور قابل توسیع بنیاد فراہم کرتا ہے۔",
     "paragraphs": [
-      "WordPress is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using WordPress with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "ہم ورڈپریس کو صرف ایک بلاگنگ ٹول کے طور پر استعمال کرتے ہیں۔ یہ جدید ویب کے لیے ایک مضبوط مواد API ہے۔ اس کے بالغ REST API اور WPGraphQL کا فائدہ اٹھاتے ہوئے، ہم فرنٹ اینڈ سے بیک اینڈ مینجمنٹ کو ڈی جول کر سکتے ہیں، جس سے آپ کے مواد کو Next.js ویب ایپس سے لے کر مقامی موبائل کے تجربات تک بغیر ڈپلیکیٹ اندراج کے ہر چیز کو تقویت ملتی ہے۔",
+      "جدید ورڈپریس کی حقیقی قدر گٹنبرگ بلاک ایڈیٹر میں ہے۔ ہم اپنی مرضی کے مطابق، اعلی کارکردگی والے بلاکس بناتے ہیں جو آپ کی مارکیٹنگ ٹیم کو 'نو کوڈ' صفحہ بنانے کا تجربہ فراہم کرتے ہیں جبکہ سخت تعمیراتی معیارات کو برقرار رکھتے ہوئے اور عام صفحہ بنانے والوں میں اکثر پائے جانے والے ڈیزائن کے بڑھنے کو روکتے ہیں۔"
     ],
     "cards": [
       {
-        "title": "WordPress Clarity",
-        "description": "WordPress helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "API- پہلی لچک",
+        "description": "REST یا GraphQL کے ذریعے جدید JavaScript فریم ورکس میں سٹرکچرڈ ڈیٹا کو فیڈ کرنے کے لیے ورڈپریس کو ہیڈ لیس CMS کے بطور تعینات کریں۔",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "WordPress Performance",
-        "description": "WordPress supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ادارتی فضیلت",
+        "description": "آپ کے مخصوص برانڈ ڈیزائن سسٹم کے مطابق ایک بدیہی، بلاک پر مبنی ایڈیٹر کے ساتھ مواد کے تخلیق کاروں کو بااختیار بنائیں۔",
+        "icon_type": "FaPencilAlt"
       },
       {
-        "title": "WordPress Reliability",
-        "description": "WordPress strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "SEO مقامی",
+        "description": "تکنیکی SEO کے لیے صنعت کے معروف ٹولز کے ساتھ مل کر ایک بنیادی فن تعمیر سے فائدہ اٹھائیں جو سرچ انجنوں کو پسند ہے۔",
+        "icon_type": "FaSearch"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "تکنیکی CMS دائرہ کار",
     "image": "/technologies/wordpress/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with WordPress-ready patterns designed for dynamic cloud scaling."
+        "title": "ڈیکپلڈ اور بغیر ہیڈ لیس CMS",
+        "description": "محفوظ، تیز بیک اینڈس کی تعمیر جو کہ تمام چینل مواد کی تقسیم کے لیے سچائی کے واحد ذریعہ کے طور پر کام کرتی ہے۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "WordPress integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "کسٹم بلاک سسٹمز",
+        "description": "پرفارمنس اور کنٹرول شدہ ایڈیٹنگ کے تجربے کو یقینی بنانے کے لیے React کا استعمال کرتے ہوئے ملکیتی Gutenberg بلاکس تیار کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use WordPress to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "انٹرپرائز ملٹی سائٹ نیٹ ورکس",
+        "description": "ایک واحد، متحد ورڈپریس انسٹالیشن سے پیچیدہ ملٹی ڈومین اور ملٹی لینگویج نیٹ ورکس کی آرکیسٹریٹنگ۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the WordPress stack.",
+    "title": "ورڈپریس ایج",
+    "subtitle": "اعلی تھرو پٹ پبلشنگ کے لیے اسٹریٹجک مسابقتی فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging WordPress effectively."
+        "metric": "40%+",
+        "title": "مارکیٹ کا غلبہ",
+        "description": "ڈویلپرز، پلگ انز، اور فریق ثالث کے انضمام کے دنیا کے سب سے بڑے ماحولیاتی نظام سے فائدہ اٹھائیں۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with WordPress."
+        "metric": "حقیقی وقت",
+        "title": "مواد کی مطابقت پذیری۔",
+        "description": "مربوط ویب ہک ٹرگرز کے ذریعے متعدد پلیٹ فارمز اور آلات پر مواد کو فوری طور پر اپ ڈیٹ کریں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate WordPress delivery."
+        "metric": "تیز",
+        "title": "ٹی ٹی ایم",
+        "description": "ایک بالغ کور کا استعمال کرتے ہوئے وقت سے مارکیٹ کو تیز کریں جو صارف کے انتظام اور میڈیا کو باکس سے باہر ہینڈل کرتا ہے۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using WordPress inside open architecture patterns."
+        "metric": "صفر",
+        "title": "وینڈر لاک ان",
+        "description": "اوپن سورس، پورٹیبل فاؤنڈیشن کے ساتھ اپنے ڈیٹا اور تکنیکی اسٹیک کی 100% ملکیت کو برقرار رکھیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "WordPress gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "جدید ورڈپریس ڈیجیٹل پبلشنگ کی پیچیدگی کو ایک میں بدل دیتا ہے۔",
+    "highlight": "ہموار آپریشنل بہاؤ"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your WordPress roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے مواد کا مرکز تعمیر کریں۔",
+    "subtitle": "اپنے ہیڈ لیس ورڈپریس روڈ میپ یا ملٹی سائٹ حکمت عملی کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your WordPress architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے اشاعتی اہداف یا تعمیراتی چیلنجوں کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

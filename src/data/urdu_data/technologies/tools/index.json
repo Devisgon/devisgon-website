@@ -1,103 +1,116 @@
 {
   "slug": "tools",
+  "seo_metadata": {
+    "title": "ورک فلو آٹومیشن اور انٹرپرائز انٹیگریشن ٹولز",
+    "description": "n8n، Make، Zapier، اور Shopify انضمام کے ساتھ اپنے کاروبار کو ہموار کریں۔ ہم زیادہ سے زیادہ آپریشنل کارکردگی کے لیے خودکار ورک فلو اور کامرس پائپ لائنوں کا معمار بناتے ہیں۔",
+    "keywords": [
+      "ورک فلو آٹومیشن",
+      "n8n انٹیگریشن سروسز",
+      "Make.com آٹومیشن",
+      "انٹرپرائز کے لئے Zapier",
+      "Shopify ترقی",
+      "ہیڈ لیس ورڈپریس حل",
+      "بزنس پروسیس آرکیسٹریشن"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Tools",
-    "description": "Build production systems with n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "آرکیسٹریشن اور آٹومیشن",
+    "title": "کے ساتھ ورک فلوز کو متحد کرنا",
+    "highlight": "انٹیگریٹڈ ٹولز",
+    "description": "صنعت کے معروف آٹومیشن پلیٹ فارمز، کامرس انجنز، اور CMS فریم ورک کا استعمال کرتے ہوئے بکھرے ہوئے عمل کو ہموار ڈیجیٹل ماحولیاتی نظام میں تبدیل کریں۔",
+    "side_image": "/services_page/tools-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے ورک فلو کو خودکار بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ",
       "href": "/technologies/tools#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Tools forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "ہم ٹولز کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "اسٹریٹجک ٹولنگ کے انتخاب ہمیں نمایاں طور پر کم اوور ہیڈ کے ساتھ پیچیدہ کاروباری منطق بنانے کی اجازت دیتے ہیں۔",
     "paragraphs": [
-      "n8n, Make, Zapier, Amazon, Shopify, and WordPress gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "ہمارا آٹومیشن اسٹیک — جس میں n8n، میک، اور Zapier شامل ہیں — ہمیں آپ کی مختلف SaaS ایپلیکیشنز کو ایک واحد، مربوط ورک فلو میں جوڑنے کے قابل بناتا ہے۔ اپنی مرضی کے مطابق API کی ترقی کے ساتھ ساتھ کم کوڈ آرکیسٹریشن کا فائدہ اٹھاتے ہوئے، ہم ایسے حل فراہم کرتے ہیں جو تیزی سے قابل اطلاق اور انتہائی برقرار رکھنے کے قابل ہوتے ہیں، جس سے آپ کی ٹیم مارکیٹ کے تقاضوں کے مطابق تیزی سے کام کر سکتی ہے۔",
+      "Shopify اور WordPress جیسے مضبوط کامرس اور مواد کے پلیٹ فارمز کو یکجا کر کے، ہم آپ کے ڈیجیٹل اسٹور فرنٹ اور برانڈ کی موجودگی کے لیے ایک اعلیٰ اعتماد کی بنیاد فراہم کرتے ہیں۔ ہم 'ٹول-ایگنوسٹک' آرکیٹیکچرز پر توجہ مرکوز کرتے ہیں جو اس بات کو یقینی بناتے ہیں کہ آپ کا ڈیٹا سسٹمز کے درمیان آزادانہ طور پر بہہ جائے، سائلو کو روکا جائے اور آپ کی موجودہ سافٹ ویئر سرمایہ کاری کے ROI کو زیادہ سے زیادہ بنایا جائے۔"
     ],
     "cards": [
       {
-        "title": "Automation Velocity",
-        "description": "n8n, Make, and Zapier remove repetitive tasks and manual bottlenecks.",
-        "icon_type": "FaBolt"
+        "title": "ہائپر آٹومیشن",
+        "description": "دستی ڈیٹا کے اندراج اور انسانی غلطی کو ختم کرنے کے لیے 1,000+ ایپس پر پیچیدہ منطقی دروازے اور ٹرگرز تعینات کریں۔",
+        "icon_type": "FaSyncAlt"
       },
       {
-        "title": "Commerce Enablement",
-        "description": "Amazon and Shopify streamline channel operations and conversion workflows.",
-        "icon_type": "FaShoppingCart"
+        "title": "توسیع پذیر کامرس",
+        "description": "آرکیٹیکٹ ہائی کنورژن Shopify اور Amazon ورک فلو جو آپ کے آرڈر والیوم کے ساتھ خود بخود اسکیل کرتے ہیں۔",
+        "icon_type": "FaStore"
       },
       {
-        "title": "Publishing Scale",
-        "description": "WordPress supports consistent, high-throughput content operations.",
-        "icon_type": "FaWordpress"
+        "title": "مواد کی چستی",
+        "description": "محفوظ، تیز APIs کے ذریعے متعدد پلیٹ فارمز پر مواد فراہم کرنے کے لیے ہیڈ لیس ورڈپریس اور CMS ٹولز کا استعمال کریں۔",
+        "icon_type": "FaPencilRuler"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "انضمام کی گنجائش",
+    "image": "/services_page/tools-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with tools choices matched to runtime and scaling goals."
+        "title": "API- پہلا آرکیسٹریشن",
+        "description": "لیگیسی ڈیٹا بیس اور جدید کلاؤڈ ٹولز کے درمیان ڈیٹا کو ہم آہنگ کرنے کے لیے حسب ضرورت کنیکٹرز اور ویب ہکس بنانا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "خودکار مارکیٹنگ حبس",
+        "description": "سی آر ایم، ای میل، اور سماجی چینلز کو خود کو برقرار رکھنے والے لوپس میں جوڑنا جو دستی مداخلت کے بغیر لیڈز کی پرورش کرتے ہیں۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "اومنی چینل انوینٹری کی مطابقت پذیری۔",
+        "description": "شاپائف، ایمیزون، اور ای آر پی سسٹمز میں ریئل ٹائم پروڈکٹ اور سٹاک سنکرونائزیشن کی آرکیسٹریٹنگ۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Tools stack.",
+    "title": "آٹومیشن ایج",
+    "subtitle": "جدید آپریشنل بہاؤ کے لیے قابل قدر کارکردگی۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "metric": "60%",
+        "title": "آپریشنل فائدہ",
+        "description": "اسٹریٹجک ٹول انضمام کے ذریعے دستی انتظامی کاموں پر خرچ کیے گئے وقت میں اوسط کمی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "حقیقی وقت",
+        "title": "ڈیٹا سنک",
+        "description": "اپنے پورے ٹیک اسٹیک میں فوری ویب ہک پر مبنی اپ ڈیٹس کے ساتھ ڈیٹا میں تاخیر کو ختم کریں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "100%",
+        "title": "توسیع پذیری",
+        "description": "کلاؤڈ پر مبنی ٹولز جو آپ کے کاروبار کے ساتھ بڑھتے ہیں، بغیر کسی اضافی ملازمت کے بڑھتے ہوئے کام کے بوجھ کو سنبھالتے ہیں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "محفوظ",
+        "title": "کنکشنز",
+        "description": "یہ یقینی بنانے کے لیے OAuth 2.0 اور انٹرپرائز گریڈ انکرپشن کا استعمال کریں جب یہ پلیٹ فارمز کے درمیان منتقل ہوتا ہے تو ڈیٹا محفوظ رہے۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Connected tooling transforms fragmented workflows into",
-    "highlight": "operational flow"
+    "quote": "منسلک ٹولنگ بکھرے ہوئے ورک فلو کو میں تبدیل کرتی ہے۔",
+    "highlight": "آپریشنل بہاؤ"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your tools roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے حل کو معمار کریں۔",
+    "subtitle": "ایک روڈ میپ کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں جو آپ کے بکھرے ہوئے ٹولز کو یکجا کرے۔",
+    "full_name_label": "لیڈ آرکیٹیکٹ کا نام",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے موجودہ ورک فلو کی رکاوٹوں یا انضمام کے چیلنجوں کی وضاحت کریں...",
+    "button_text": "آٹومیشن آڈٹ شروع کریں۔"
   }
 }

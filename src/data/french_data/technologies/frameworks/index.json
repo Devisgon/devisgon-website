@@ -1,103 +1,116 @@
 {
   "slug": "frameworks",
+  "seo_metadata": {
+    "title": "Cadres logiciels modernes | Développement Full-Stack et multiplateforme",
+    "description": "Développement de niveau entreprise à l'aide de Next.js, NestJS, Laravel et Flutter. Nous concevons des backends évolutifs et des frontends hautes performances à l’aide de frameworks de pointe.",
+    "keywords": [
+      "Cadres logiciels modernes",
+      "Développement Full Stack",
+      "Architecture Next.js",
+      "Solutions d'entreprise Laravel",
+      "Microservices NestJS",
+      "Développement d'applications multiplateformes",
+      "Infrastructure Web évolutive"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Frameworks",
-    "description": "Build production systems with Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "La pile moderne",
+    "title": "Accélérer l’innovation avec",
+    "highlight": "Cadres modulaires",
+    "description": "Exploitez la puissance des frameworks de pointe pour créer des systèmes résilients et à haute concurrence dans les environnements Web, mobiles et de bureau d'entreprise.",
+    "side_image": "/services_page/frameworks-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Explorez notre pile",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Feuille de route technique",
       "href": "/technologies/frameworks#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Frameworks forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "Conçu pour la vitesse.",
+    "subtitle": "Nous sélectionnons des frameworks qui donnent la priorité à la productivité des développeurs sans compromettre les performances de production.",
     "paragraphs": [
-      "Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "En standardisant un ensemble de frameworks éprouvés, notamment Node.js, Next.js, NestJS, Laravel, React et Flutter, nous garantissons que votre produit repose sur une base qui prend en charge à la fois le prototypage rapide et l'échelle mondiale. Notre approche réduit la dette technique en adhérant aux modèles de conception établis et aux structures de code modulaires.",
+      "Qu'il s'agisse de l'efficacité côté serveur de NestJS ou des capacités multiplateformes expressives de Flutter, nous alignons nos choix technologiques sur vos résultats commerciaux spécifiques, garantissant une maintenabilité à long terme et une intégration plus facile des talents."
     ],
     "cards": [
       {
-        "title": "Delivery Consistency",
-        "description": "Framework conventions keep product architecture coherent across teams.",
-        "icon_type": "FaCogs"
+        "title": "Cohésion architecturale",
+        "description": "Les conventions standardisées garantissent que votre base de code reste lisible et maintenable à mesure que votre équipe se développe.",
+        "icon_type": "FaLayerGroup"
       },
       {
-        "title": "Cross-Platform Reach",
-        "description": "React Native and Flutter accelerate reliable mobile releases.",
+        "title": "Portée omnicanale",
+        "description": "Tirez parti de React Native et Flutter pour offrir des expériences utilisateur cohérentes sur iOS, Android et Web.",
         "icon_type": "FaMobileAlt"
       },
       {
-        "title": "Scalable Backend Core",
-        "description": "Node.js, NestJS, and Laravel support maintainable API growth.",
-        "icon_type": "FaServer"
+        "title": "Performances d'entreprise",
+        "description": "Utilisez des moteurs backend robustes tels que Laravel et NestJS pour gérer facilement les charges de travail à forte concurrence.",
+        "icon_type": "FaRocket"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "architecture technologique",
+    "title": "Portée complète",
+    "image": "/services_page/frameworks-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with frameworks choices matched to runtime and scaling goals."
+        "title": "RSS et informatique de pointe",
+        "description": "Implémentation de Next.js pour le rendu côté serveur et la génération de sites statiques afin de maximiser les performances de référencement et de vitesse des pages."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "Microservices de type sécurisé",
+        "description": "Créez des backends évolutifs et maintenables avec NestJS et TypeScript pour garantir la fiabilité de l'exécution et des contrats d'API clairs."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "Multiplateforme hybride",
+        "description": "Concevoir des couches de logique métier partagées qui alimentent simultanément les tableaux de bord Web et les applications mobiles natives."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Frameworks stack.",
+    "title": "L'avantage du cadre",
+    "subtitle": "Des mesures quantifiables qui stimulent les produits numériques compétitifs.",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "title": "Gain d'efficacité",
+        "description": "Réduction moyenne du délai de mise sur le marché grâce à l'utilisation de composants de cadre prédéfinis et d'outils CLI."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "100%",
+        "title": "Portabilité des codes",
+        "description": "Maximisez la réutilisation du code sur différentes plates-formes pour minimiser les efforts d’ingénierie en double."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "Actif",
+        "title": "Prise en charge LTS",
+        "description": "Nous construisons uniquement avec des versions de support à long terme (LTS), garantissant votre sécurité et votre stabilité pour les années à venir."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "Mondial",
+        "title": "Bassin de talents",
+        "description": "L'utilisation de frameworks populaires garantit que vous n'êtes jamais enfermé dans une technologie de niche avec un support limité."
       }
     ]
   },
   "quote_section": {
-    "quote": "Great frameworks make architecture repeatable while keeping delivery",
-    "highlight": "remarkably efficient"
+    "quote": "Les bons frameworks ne se contentent pas de fournir du code ; ils fournissent les plans pour",
+    "highlight": "succès évolutif"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your frameworks roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre feuille de route",
+    "subtitle": "Consultez nos principaux spécialistes techniques pour définir la pile de framework optimale pour votre solution de nouvelle génération.",
+    "full_name_label": "Architecte principal",
+    "business_email_label": "Courriel d'entreprise",
+    "message_label": "Vision du projet",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Parlez-nous de vos objectifs d’évolutivité ou des exigences spécifiques du framework…",
+    "button_text": "Commencer la consultation"
   }
 }

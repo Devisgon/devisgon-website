@@ -1,103 +1,116 @@
 {
-  "slug": "amazon_dynamodb",
+  "slug": "amazon-dynamodb",
+  "seo_metadata": {
+    "title": "Amazon DynamoDB کنسلٹنگ اینڈ آرکیٹیکچر | اعلی کارکردگی NoSQL",
+    "description": "ماہر Amazon DynamoDB نفاذ کی خدمات۔ کسی بھی پیمانے پر سنگل ڈیجٹ ملی سیکنڈ کی کارکردگی کے ساتھ سرور لیس، انتہائی کم تاخیر والی ایپلی کیشنز بنائیں۔",
+    "keywords": [
+      "ایمیزون ڈائنامو ڈی بی",
+      "NoSQL ڈیٹا بیس ڈیزائن",
+      "سرور لیس فن تعمیر",
+      "AWS ڈیٹا ماڈلنگ",
+      "سنگل ٹیبل ڈیزائن",
+      "DynamoDB اسٹریمز",
+      "عالمی میزیں"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Amazon DynamoDB",
-    "description": "Build production systems with Amazon DynamoDB in our database delivery ecosystem.",
+    "eyebrow": "سرور لیس NoSQL ڈیٹا بیس",
+    "title": "انتہائی پیمانے کے ساتھ",
+    "highlight": "ایمیزون ڈائنامو ڈی بی",
+    "description": "مکمل طور پر منظم، سنگل ڈیجٹ ملی سیکنڈ کی کارکردگی کے ساتھ ہر ماہ چند درخواستوں سے لاکھوں فی سیکنڈ تک بغیر کسی رکاوٹ کے پیمانے کریں۔",
     "side_image": "/technologies/dynamodb/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے کام کے بوجھ کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "آرکیٹیکچر پیٹرن دیکھیں",
       "href": "/technologies/amazon_dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Amazon DynamoDB plays a critical role in our database strategy for reliable software delivery.",
+    "title": "ہم DynamoDB کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "DynamoDB اعلی ہم آہنگی، تقسیم شدہ ایپلیکیشنز کی ریڑھ کی ہڈی ہے جہاں لیٹنسی غیر گفت و شنید ہے۔",
     "paragraphs": [
-      "Amazon DynamoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Amazon DynamoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "روایتی RDBMS کے برعکس، DynamoDB کسی بھی پیمانے پر مستقل کارکردگی فراہم کرتا ہے۔ ہم ڈیٹا بیس ایڈمنسٹریشن کے اوور ہیڈ کو ختم کرنے کے لیے اس کا فائدہ اٹھاتے ہیں، جس سے آپ کی ٹیم کو کلسٹرز کی فراہمی یا شارڈز کا انتظام کرنے کے بجائے کاروباری منطق پر توجہ مرکوز کرنے کی اجازت ملتی ہے۔",
+      "ماہر سنگل ٹیبل ڈیزائن پیٹرن کو نافذ کرکے، ہم یقینی بناتے ہیں کہ آپ کے ڈیٹا تک رسائی موثر، لاگت کے لحاظ سے بہتر، اور دستی مداخلت کے بغیر غیر متوقع ٹریفک اسپائکس کو سنبھالنے کے قابل ہے۔"
     ],
     "cards": [
       {
-        "title": "Amazon DynamoDB Clarity",
-        "description": "Amazon DynamoDB helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "متوقع تاخیر",
+        "description": "ڈیٹا کے حجم سے قطع نظر، پڑھنے/لکھنے کی کارروائیوں کے لیے مسلسل ذیلی 10ms جوابی اوقات حاصل کریں۔",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Amazon DynamoDB Performance",
-        "description": "Amazon DynamoDB supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "سرور لیس آپریشنز",
+        "description": "صفر سرور کا انتظام۔ 'آن ڈیمانڈ' یا 'فراہم شدہ' صلاحیت کے طریقوں کے ساتھ خود بخود پیمانے۔",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "Amazon DynamoDB Reliability",
-        "description": "Amazon DynamoDB strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "عالمی نقل",
+        "description": "99.999% دستیابی کے لیے گلوبل ٹیبلز کے ساتھ ملٹی ریجن، ملٹی ایکٹیو ڈیٹابیس تعینات کریں۔",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "DynamoDB ڈیزائن اسکوپ",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Amazon DynamoDB-ready patterns designed for dynamic cloud scaling."
+        "title": "سنگل ٹیبل ڈیزائن",
+        "description": "API کالز کو کم کرنے کے لیے نفیس پارٹیشن اور Sort Key حکمت عملیوں کا استعمال کرتے ہوئے متعدد اداروں کو ایک ہی ٹیبل میں یکجا کریں۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Amazon DynamoDB integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "ایونٹ سے چلنے والے محرکات",
+        "description": "DynamoDB اسٹریمز اور AWS Lambda کا استعمال ڈاؤن اسٹریم ورک فلو، سرچ انڈیکسنگ، یا ریئل ٹائم اینالیٹکس کو متحرک کرنے کے لیے کریں۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Amazon DynamoDB to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "گلوبل سیکنڈری انڈیکس (GSI)",
+        "description": "ایک ہی ڈیٹاسیٹ کو دیکھنے کے متعدد طریقوں کو فعال کرتے ہوئے، ثانوی اشاریہ جات پر ڈیٹا پیش کر کے لچکدار استفسار کے نمونے بنائیں۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Amazon DynamoDB stack.",
+    "title": "DynamoDB کا فائدہ",
+    "subtitle": "جدید کاروباری اداروں کے لیے قابل قدر کارکردگی۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon DynamoDB effectively."
+        "metric": "<10ms",
+        "title": "لیٹنسی کنٹرول",
+        "description": "کسی بھی پیمانے پر کلیدی قدر اور دستاویز کے ڈیٹا کے لیے مستقل سنگل ہندسہ ملی سیکنڈ کی تاخیر۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Amazon DynamoDB."
+        "metric": "99.999%",
+        "title": "SLA وشوسنییتا",
+        "description": "گلوبل ٹیبلز کے لیے صنعت کا معروف اپ ٹائم، اس بات کو یقینی بناتے ہوئے کہ آپ کی درخواست ہمیشہ قابل رسائی ہے۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon DynamoDB delivery."
+        "metric": "ڈبل",
+        "title": "DAX ایکسلریشن",
+        "description": "DynamoDB ایکسلریٹر (DAX) ان میموری کیچنگ کے ساتھ تھرو پٹ میں مزید 10x اضافہ کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Amazon DynamoDB inside open architecture patterns."
+        "metric": "صفر",
+        "title": "دیکھ بھال",
+        "description": "مکمل طور پر منظم AWS انفراسٹرکچر کے ذریعے پیچنگ، ہارڈ ویئر کی فراہمی، اور سافٹ ویئر اپ ڈیٹس کو ختم کریں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Amazon DynamoDB gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "DynamoDB صرف ایک ڈیٹا بیس نہیں ہے۔ یہ تعمیر کی بنیاد ہے",
+    "highlight": "ہائپر اسکیل سرور لیس ماحولیاتی نظام"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Amazon DynamoDB roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے انفراسٹرکچر کی پیمائش کریں۔",
+    "subtitle": "اپنے DynamoDB ڈیٹا ماڈل کی تعمیر کے لیے ہمارے AWS سرٹیفائیڈ ڈیٹا ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ انجینئر کا نام",
+    "business_email_label": "کمپنی کا ای میل",
+    "message_label": "تکنیکی ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Amazon DynamoDB architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "ہمیں اپنی تھرو پٹ ضروریات یا ڈیٹا ماڈلنگ کے چیلنجوں کے بارے میں بتائیں...",
+    "button_text": "شیڈول آڈٹ"
   }
 }
