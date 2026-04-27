@@ -79,15 +79,15 @@
     "subtitle": "Le logiciel d'automatisation le plus fiable du secteur",
     "tools": [
       {
-        "name": "Cyprès",
+        "name": "Cypress",
         "icon": "SiCypress"
       },
       {
-        "name": "Dramaturge",
+        "name": "Playwright",
         "icon": "SiPlaywright"
       },
       {
-        "name": "Sélénium",
+        "name": "Selenium",
         "icon": "SiSelenium"
       },
       {
@@ -115,7 +115,7 @@
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Script",
+        "title": "Scripting",
         "description": "Nous écrivons des scripts d'automatisation propres et modulaires pour exécuter les scénarios de test définis.",
         "icon": "FaCode"
       },
@@ -131,7 +131,7 @@
     "image": "/all_services/automation_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une plate-forme de commerce électronique était aux prises avec une surcharge massive de tests manuels. Chaque mise à jour majeure nécessitait qu'une équipe de 5 testeurs passe 3 jours complets à cliquer sur le site."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Nous avons construit un cadre d'automatisation complet de bout en bout à l'aide de Cypress, couvrant tous les flux de paiement critiques, les connexions des utilisateurs et les recherches de catalogue."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "Les tests de régression s'exécutent désormais automatiquement en seulement 45 minutes à chaque poussée de code, permettant au client de déployer en toute sécurité des mises à jour hebdomadaires plutôt que mensuelles."
       }
     }

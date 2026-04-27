@@ -11,6 +11,10 @@ type LanguageOption = {
   flag?: React.ReactNode;
 };
 
+interface LanguageSwitcherProps {
+  onLanguageChange?: (code: string) => void;
+}
+
 const languages: LanguageOption[] = [
   { code: "en", name: "English", flag: <US title="United States" className="w-5 h-auto rounded-sm" /> },
   { code: "ur", name: "Urdu", flag: <PK title="Pakistan" className="w-5 h-auto rounded-sm" /> },
@@ -27,7 +31,7 @@ const getCookieValue = (name: string): string | null => {
   return match ? decodeURIComponent(match.slice(token.length)) : null;
 };
 
-const LanguageSwitcher = () => {
+const LanguageSwitcher = ({ onLanguageChange }: LanguageSwitcherProps) => {
   const router = useRouter();
   const dropdownRef = useRef<HTMLDivElement>(null);
   const timeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
@@ -46,7 +50,9 @@ const LanguageSwitcher = () => {
   const changeLanguage = (code: string) => {
     document.cookie = `lang=${code}; path=/; max-age=31536000; samesite=lax`;
     document.documentElement.lang = code;
+    window.dispatchEvent(new Event("app-language-change"));
     setCurrentCode(code);
+    onLanguageChange?.(code);
     setIsOpen(false);
     router.refresh();
   };

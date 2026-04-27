@@ -1,103 +1,116 @@
 {
-  "slug": "amazon_dynamodb",
+  "slug": "amazon-dynamodb",
+  "seo_metadata": {
+    "title": "Amazon DynamoDB-Beratung und -Architektur | Hochleistungs-NoSQL",
+    "description": "Kompetente Amazon DynamoDB-Implementierungsdienste. Erstellen Sie serverlose Anwendungen mit extrem geringer Latenz und einer Leistung im einstelligen Millisekundenbereich in jeder Größenordnung.",
+    "keywords": [
+      "Amazon DynamoDB",
+      "NoSQL-Datenbankdesign",
+      "Serverlose Architektur",
+      "AWS-Datenmodellierung",
+      "Einzeltisch-Design",
+      "DynamoDB-Streams",
+      "Globale Tabellen"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Serverlose NoSQL-Datenbank",
+    "title": "Extreme Skala mit",
     "highlight": "Amazon DynamoDB",
-    "description": "Build production systems with Amazon DynamoDB in our database delivery ecosystem.",
+    "description": "Skalieren Sie nahtlos von wenigen Anfragen pro Monat auf Millionen pro Sekunde mit einer vollständig verwalteten Leistung im einstelligen Millisekundenbereich.",
     "side_image": "/technologies/dynamodb/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimieren Sie Ihre Arbeitsbelastung",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Architekturmuster anzeigen",
       "href": "/technologies/amazon_dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Amazon DynamoDB plays a critical role in our database strategy for reliable software delivery.",
+    "title": "Warum wir mit DynamoDB entwickeln",
+    "subtitle": "DynamoDB ist das Rückgrat verteilter Anwendungen mit hoher Parallelität, bei denen die Latenz nicht verhandelbar ist.",
     "paragraphs": [
-      "Amazon DynamoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Amazon DynamoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Im Gegensatz zu herkömmlichen RDBMS bietet DynamoDB konsistente Leistung in jeder Größenordnung. Wir nutzen es, um den Aufwand für die Datenbankverwaltung zu eliminieren, sodass sich Ihr Team auf die Geschäftslogik konzentrieren kann, anstatt Cluster bereitzustellen oder Shards zu verwalten.",
+      "Durch die Implementierung fachmännischer Single-Table-Design-Muster stellen wir sicher, dass Ihr Datenzugriff effizient und kostenoptimiert ist und unvorhersehbare Verkehrsspitzen ohne manuelles Eingreifen bewältigen kann."
     ],
     "cards": [
       {
-        "title": "Amazon DynamoDB Clarity",
-        "description": "Amazon DynamoDB helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Vorhersehbare Latenz",
+        "description": "Erreichen Sie unabhängig vom Datenvolumen konsistente Reaktionszeiten von unter 10 ms für Lese-/Schreibvorgänge.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Amazon DynamoDB Performance",
-        "description": "Amazon DynamoDB supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Serverlose Operationen",
+        "description": "Keine Serververwaltung. Skaliert automatisch mit den Kapazitätsmodi „On-Demand“ oder „Provisioned“.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "Amazon DynamoDB Reliability",
-        "description": "Amazon DynamoDB strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Globale Replikation",
+        "description": "Stellen Sie multiregionale, multiaktive Datenbanken mit globalen Tabellen für eine Verfügbarkeit von 99,999 % bereit.",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "Technologie-Architektur",
+    "title": "DynamoDB-Designumfang",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Amazon DynamoDB-ready patterns designed for dynamic cloud scaling."
+        "title": "Einzeltisch-Design",
+        "description": "Konsolidieren Sie mehrere Entitäten in einer einzigen Tabelle mithilfe ausgefeilter Partitions- und Sortierschlüsselstrategien, um API-Aufrufe zu reduzieren."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Amazon DynamoDB integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Ereignisgesteuerte Trigger",
+        "description": "Nutzen Sie DynamoDB Streams und AWS Lambda, um nachgelagerte Workflows, Suchindizierung oder Echtzeitanalysen auszulösen."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Amazon DynamoDB to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Globale Sekundärindizes (GSI)",
+        "description": "Erstellen Sie flexible Abfragemuster, indem Sie Daten auf Sekundärindizes projizieren und so mehrere Möglichkeiten zur Anzeige desselben Datensatzes ermöglichen."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Amazon DynamoDB stack.",
+    "title": "Der DynamoDB-Vorteil",
+    "subtitle": "Quantifizierbare Leistung für moderne Unternehmen.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon DynamoDB effectively."
+        "metric": "<10ms",
+        "title": "Latenzkontrolle",
+        "description": "Konsistente Latenz im einstelligen Millisekundenbereich für Schlüsselwert- und Dokumentdaten in jeder Größenordnung."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Amazon DynamoDB."
+        "metric": "99,999 %",
+        "title": "SLA-Zuverlässigkeit",
+        "description": "Branchenführende Verfügbarkeit für Global Tables, um sicherzustellen, dass Ihre Anwendung immer erreichbar ist."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon DynamoDB delivery."
+        "metric": "Doppelt",
+        "title": "DAX-Beschleunigung",
+        "description": "Erhöhen Sie den Durchsatz mit dem In-Memory-Caching von DynamoDB Accelerator (DAX) um das Zehnfache."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Amazon DynamoDB inside open architecture patterns."
+        "metric": "Null",
+        "title": "Wartung",
+        "description": "Eliminieren Sie Patches, Hardware-Bereitstellung und Software-Updates durch eine vollständig verwaltete AWS-Infrastruktur."
       }
     ]
   },
   "quote_section": {
-    "quote": "Amazon DynamoDB gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "DynamoDB ist nicht nur eine Datenbank; Es ist die Grundlage für den Bau",
+    "highlight": "hyperskalierte serverlose Ökosysteme"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Amazon DynamoDB roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Skalieren Sie Ihre Infrastruktur",
+    "subtitle": "Wenden Sie sich an unsere AWS-zertifizierten Datenspezialisten, um Ihr DynamoDB-Datenmodell zu entwerfen.",
+    "full_name_label": "Name des leitenden Ingenieurs",
+    "business_email_label": "Firmen-E-Mail",
+    "message_label": "Technische Anforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Amazon DynamoDB architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Erzählen Sie uns von Ihren Durchsatzanforderungen oder Herausforderungen bei der Datenmodellierung ...",
+    "button_text": "Audit planen"
   }
 }

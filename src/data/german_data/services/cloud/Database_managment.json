@@ -135,11 +135,11 @@
         "text": "Bei einer stark frequentierten E-Commerce-Website kam es bei Flash-Verkäufen zu schwerwiegenden Datenbankblockaden und Zeitüberschreitungsfehlern, was durch verlassene Warenkörbe Tausende kostete."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Wir haben ihr PostgreSQL-Schema optimiert, Redis für das Zwischenspeichern von Produktkatalogen implementiert und eine Master-Slave-Read-Replica-Architektur eingerichtet."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Die CPU-Auslastung der Datenbank sank um 70 %, die durchschnittliche Antwortzeit auf Abfragen verbesserte sich um 300 % und die Plattform bewältigte den Black-Friday-Verkehr ohne Ausfallzeiten."
       }
     }

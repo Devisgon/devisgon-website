@@ -87,15 +87,15 @@
         "icon": "FaGitlab"
       },
       {
-        "name": "جنكينز",
+        "name": "Jenkins",
         "icon": "SiJenkins"
       },
       {
-        "name": "عامل ميناء",
+        "name": "Docker",
         "icon": "FaDocker"
       },
       {
-        "name": "كوبيرنيتيس",
+        "name": "Kubernetes",
         "icon": "SiKubernetes"
       }
     ]
@@ -131,15 +131,15 @@
     "image": "/all_services/ci_cd_pipeline/cs.webp",
     "content": {
       "problem": {
-        "label": "مشكلة",
+        "label": "Problem",
         "text": "كانت إحدى شركات SaaS تقوم بعمليات نشر يدوية تتطلب إيقاف تشغيل الموقع لساعات في نهاية كل أسبوع، مما أدى إلى إرهاق المطورين."
       },
       "solution": {
-        "label": "حل",
+        "label": "Solution",
         "text": "قمنا بتنفيذ مسار CI/CD مؤتمت بالكامل باستخدام GitHub Actions وDocker وAWS Elastic Beanstalk مع إستراتيجية نشر متجددة."
       },
       "result": {
-        "label": "نتيجة",
+        "label": "Result",
         "text": "تتم الآن عمليات النشر تلقائيًا خلال 15 دقيقة دون أي توقف عن العمل، مما يسمح للفريق بإصدار الميزات عدة مرات في اليوم."
       }
     }

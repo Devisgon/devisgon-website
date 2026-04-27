@@ -2,11 +2,11 @@
   "slug": "web-application",
   "hero_section": {
     "title": "Webanwendungen",
-    "subtitle": "Skalierbar, Responsive & Zukunftssicher",
-    "description": "Wir entwerfen und bauen moderne Webanwendungen mit leistungsstarken Backends, intuitiven Benutzeroberflächen und skalierbarer Cloud-Infrastruktur, zugeschnitten auf Ihre geschäftlichen Anforderungen.",
+    "subtitle": "Skalierbar, reaktionsschnell und zukunftssicher",
+    "description": "Wir entwerfen und erstellen moderne Webanwendungen mit leistungsstarken Backends, intuitiven Schnittstellen und skalierbarer Cloud-Infrastruktur, maßgeschneidert auf Ihre Geschäftsanforderungen.",
     "buttons": [
       {
-        "text": "Web-Projekt starten",
+        "text": "Starten Sie das Web-App-Projekt",
         "link": "/contact"
       },
       {
@@ -17,60 +17,60 @@
     "hero_image": "/videos/web_development.mp4"
   },
   "introduction_section": {
-    "heading": "Was sind",
-    "span_heading": " Webanwendungen?",
+    "heading": "Was ist",
+    "span_heading": "Web-Anwendungen?",
     "content": [
-      "Bei Devisgon sind wir auf den Bau maßgeschneiderter Webanwendungen spezialisiert, die ansprechende Frontends, sichere APIs und Hochleistungs-Backends kombinieren. Unsere Apps sind responsive, SEO-freundlich und für Cloud-Skalierbarkeit optimiert.",
-      "Wir bedienen Branchen wie Finanzen, Gesundheitswesen, Logistik, SaaS und E-Commerce und helfen Unternehmen dabei, Plattformen zu starten, die alles von Echtzeit-Analysen bis hin zu großem Nutzer-Engagement bewältigen."
+      "Bei Devisgon sind wir auf die Entwicklung benutzerdefinierter Webanwendungen spezialisiert, die ansprechende Frontends, sichere APIs und leistungsstarke Backends kombinieren. Unsere Apps sind reaktionsschnell, SEO-freundlich und für Cloud-Skalierbarkeit optimiert, sodass sie reibungslos auf allen Geräten funktionieren.",
+      "Wir bedienen Branchen wie Finanzen, Gesundheitswesen, Logistik, SaaS und E-Commerce und unterstützen Unternehmen bei der Einführung von Plattformen, die alles von Echtzeitanalysen bis hin zu groß angelegter Benutzereinbindung abdecken."
     ],
-    "highlight_quote": "„Web-Apps, nahtlose Erlebnisse, 2x schnellere Performance.“",
+    "highlight_quote": "„Web-Apps, nahtlose Erlebnisse, 2x schnellere Leistung.“",
     "side_image": "/all_services/web_development/introduction.webp"
   },
   "key_benefits_section": {
     "title": "Hauptvorteile",
-    "subtitle": "Transformieren Sie Ihre Abläufe mit bewährten Ergebnissen",
+    "subtitle": "Transformieren Sie Ihre Abläufe mit nachgewiesenen Ergebnissen",
     "cards": [
       {
-        "title": "Responsive & Barrierefrei",
-        "description": "Optimiert für Desktop, Mobile und Tablets mit sauberem UI/UX.",
+        "title": "Reaktionsschnell und zugänglich",
+        "description": "Optimiert für Desktops, Mobilgeräte und Tablets mit sauberer Benutzeroberfläche/UX.",
         "icon_type": "FaRocket "
       },
       {
-        "title": "Maßgeschneiderte Funktionen",
-        "description": "Individuelle Module wie Dashboards, CRMs, Buchungssysteme oder Marktplätze.",
+        "title": "Benutzerdefinierte Funktionen",
+        "description": "Maßgeschneiderte Module wie Dashboards, CRMs, Buchungssysteme oder Marktplätze.",
         "icon_type": "RiCodeBoxFill "
       },
       {
-        "title": "Skalierbar",
-        "description": "Entwickelt, um mit Ihrem Unternehmen zu wachsen und bei Bedarf Millionen von Nutzern zu verarbeiten.",
+        "title": "Scalable",
+        "description": "Entwickelt, um mit Ihrem Unternehmen zu wachsen und bei Bedarf Millionen von Benutzern zu bedienen.",
         "icon_type": "LiaExpandArrowsAltSolid "
       },
       {
-        "title": "Sicher & Zuverlässig",
-        "description": "Gebaut mit branchenüblichen Verschlüsselungs- und Compliance-Standards.",
+        "title": "Sicher und zuverlässig",
+        "description": "Gebaut mit branchenüblicher Verschlüsselung und Compliance.",
         "icon_type": "IoShieldCheckmarkSharp "
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Was Sie erhalten, wenn Sie Web-App-Entwicklung wählen",
+    "title": "Was Sie bekommen, wenn Sie sich für Web-App-Entwicklung entscheiden",
     "image": "/all_services/web_development/wwg.webp",
     "list_items": [
       {
-        "title": "1. End-to-End Webanwendung",
-        "description": "Voll funktionsfähige Webanwendung (Frontend + Backend)."
+        "title": "1. End-to-End-Webanwendung",
+        "description": "Voll funktionsfähige Webanwendung (Frontend + Backend)"
       },
       {
-        "title": "2. Kontrolle auf Knopfdruck",
-        "description": "Admin-Panel und Dashboards für die Verwaltung."
+        "title": "2. Kontrolle immer zur Hand",
+        "description": "Admin-Panel und Dashboards für die Verwaltung"
       },
       {
-        "title": "3. Nahtlose Integrationen",
-        "description": "API-Integrationen (Zahlungen, CRMs, Drittanbieter-Dienste)."
+        "title": "3, Nahtlose Integrationen",
+        "description": "API-Integrationen (Zahlungen, CRMs, Dienste von Drittanbietern)"
       },
       {
-        "title": "4. Enterprise-Sicherheit",
-        "description": "Sichere Benutzerauthentifizierung und Rollenverwaltung."
+        "title": "4. Sicherheit auf Unternehmensniveau",
+        "description": "Sichere Benutzerauthentifizierung und Rollenverwaltung"
       }
     ]
   },
@@ -78,21 +78,39 @@
     "title": "Wir arbeiten mit modernen, bewährten Technologien",
     "subtitle": "Branchenführende Tools für maximale Zuverlässigkeit und Leistung",
     "tools": [
-      { "name": "Next.js", "icon": "SiNextdotjs " },
-      { "name": "Django", "icon": "SiDjango " },
-      { "name": "React", "icon": "FaReact " },
-      { "name": "Laravel", "icon": "FaLaravel " },
-      { "name": "AWS", "icon": "FaAws " },
-      { "name": "Kubernetes", "icon": "SiKubernetes " }
+      {
+        "name": "nächste js.",
+        "icon": "SiNextdotjs "
+      },
+      {
+        "name": "Django",
+        "icon": "SiDjango "
+      },
+      {
+        "name": "React",
+        "icon": "FaReact "
+      },
+      {
+        "name": "laravel",
+        "icon": "FaLaravel "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes "
+      }
     ]
   },
   "process_section": {
     "title": "Unser Prozess",
-    "subtitle": "Vom Konzept bis zum Launch in 6 Wochen",
+    "subtitle": "Vom Konzept bis zur Markteinführung in 6 Wochen",
     "steps": [
       {
-        "title": "Entdecken",
-        "description": "Anforderungsanalyse, Wettbewerbsanalyse und Feature-Planung.",
+        "title": "Discover",
+        "description": "Anforderungserfassung, Konkurrenzanalyse und Funktionsplanung.",
         "icon": "FaSearch"
       },
       {
@@ -101,58 +119,58 @@
         "icon": "TbTools"
       },
       {
-        "title": "Bauen",
-        "description": "Entwicklung von Kernfunktionen, Integrationen und Dashboards.",
+        "title": "Build",
+        "description": "Entwickeln Sie Kernfunktionen, Integrationen und Dashboards.",
         "icon": "FaHammer"
       },
       {
         "title": "Launch",
-        "description": "Sichere Bereitstellung in der Cloud und Überwachung der App-Performance.",
+        "description": "Stellen Sie sicher in der Cloud bereit und überwachen Sie die App-Leistung.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "50K Nutzer, 30% Umsatzwachstum durch maßgeschneiderte Web-App",
+    "headline": "50.000 Benutzer, 30 % Umsatzwachstum mit benutzerdefinierter Web-App",
     "image": "/all_services/web_development/case_study.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Ein schnell wachsendes E-Commerce-Unternehmen benötigte eine skalierbare Plattform für tausende tägliche Nutzer und Inventar-Updates in Echtzeit."
+        "text": "Ein schnell wachsendes E-Commerce-Unternehmen benötigte eine skalierbare Plattform, um Tausende von täglichen Benutzern und Bestandsaktualisierungen in Echtzeit zu verwalten."
       },
       "solution": {
-        "label": "Lösung",
-        "text": "Wir haben eine Webanwendung mit React-Frontend und Node.js-Backend sowie integrierten Zahlungs-Gateways entwickelt."
+        "label": "Solution",
+        "text": "Wir haben eine benutzerdefinierte Webanwendung mit React-Frontend, Node.js-Backend und integrierten Zahlungsgateways entwickelt."
       },
       "result": {
-        "label": "Ergebnis",
-        "text": "Die Plattform skalierte auf über 50.000 monatliche Nutzer mit einer Umsatzsteigerung von 30%."
+        "label": "Result",
+        "text": "Die Plattform wurde auf über 50.000 monatliche Nutzer skaliert, was zu einer Umsatzsteigerung von 30 % und einer verbesserten Kundenzufriedenheit führte."
       }
     }
   },
   "faq_section": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Antworten auf gängige Fragen",
+    "subtitle": "Erhalten Sie Antworten auf häufig gestellte Fragen",
     "questions": [
       {
-        "question": "Können Sie Apps sowohl für iOS als auch für Android erstellen?",
-        "answer": "Normalerweise kann ein MVP je nach Komplexität der Funktionen in 4-6 Wochen entwickelt werden."
+        "question": "Können Sie Apps für iOS und Android erstellen?",
+        "answer": "Typischerweise kann ein MVP je nach Komplexität der Funktionen in 4–6 Wochen entwickelt werden."
       },
       {
         "question": "Wie sicher sind Ihre Unternehmenslösungen?",
-        "answer": "Ja, wir bieten Wartungs- und Supportpakete nach dem Launch an, um den reibungslosen Betrieb zu gewährleisten."
+        "answer": "Ja, wir bieten Post-Launch-Wartungs- und Supportpakete an, um sicherzustellen, dass Ihre Anwendung reibungslos läuft."
       },
       {
-        "question": "Arbeiten Sie mit bestehenden ERP/CRM-Systemen zusammen?",
-        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle über APIs in bestehende Architekturen zu integrieren."
+        "question": "Arbeiten Sie mit bestehenden ERP/CRM-Systemen?",
+        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle per API in bestehende Architekturen zu integrieren."
       },
       {
-        "question": "Können Sie Apps skalieren, wenn unser Geschäft wächst?",
-        "answer": "Wir nutzen primär Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
+        "question": "Können Sie Apps skalieren, wenn unser Unternehmen wächst?",
+        "answer": "Wir nutzen hauptsächlich Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
       }
     ],
     "footer": {
-      "text": "Keine passende Antwort gefunden?",
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
       "link_text": "Kontaktieren Sie uns für weitere Informationen",
       "link_url": "/contact"
     }

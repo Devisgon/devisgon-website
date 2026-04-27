@@ -1,103 +1,116 @@
 {
   "slug": "wordpress",
+  "seo_metadata": {
+    "title": "Développement WordPress d'entreprise | CMS sans tête et architecture personnalisée",
+    "description": "Ingénierie WordPress professionnelle pour les plateformes de contenu à grande échelle. Nous concevons des solutions WordPress sans tête, des thèmes de blocs personnalisés et des flux de publication hautes performances.",
+    "keywords": [
+      "Développement WordPress d'entreprise",
+      "Architecture WordPress sans tête",
+      "API REST WP et GraphQL",
+      "Blocs Gutenberg personnalisés",
+      "Solutions CMS évolutives",
+      "Optimisation des performances WordPress",
+      "Développement WordPress découplé"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Le premier CMS au monde",
+    "title": "Vitesse du contenu avec",
     "highlight": "WordPress",
-    "description": "Build production systems with WordPress in our tools delivery ecosystem.",
+    "description": "Offrez à vos équipes éditoriales un moteur de publication hautes performances conçu pour une portée mondiale, une domination du référencement et une intégration transparente basée sur l'API.",
     "side_image": "/technologies/wordpress/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Construisez votre plateforme",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Afficher les modèles d'architecture",
       "href": "/technologies/wordpress#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "WordPress plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec WordPress",
+    "subtitle": "WordPress fournit la base la plus flexible et la plus extensible pour les écosystèmes numériques modernes axés sur le contenu.",
     "paragraphs": [
-      "WordPress is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using WordPress with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Nous utilisons WordPress comme plus qu’un simple outil de blog ; il s'agit d'une API de contenu robuste pour le Web moderne. En tirant parti de son API REST mature et de WPGraphQL, nous pouvons dissocier la gestion backend du frontend, permettant à votre contenu de tout alimenter, des applications Web Next.js aux expériences mobiles natives sans entrée en double.",
+      "La véritable valeur du WordPress moderne réside dans l’éditeur de blocs Gutenberg. Nous construisons des blocs personnalisés et hautes performances qui offrent à votre équipe marketing une expérience de création de pages « sans code » tout en maintenant des normes architecturales strictes et en empêchant la dérive de conception que l'on retrouve souvent dans les constructeurs de pages génériques."
     ],
     "cards": [
       {
-        "title": "WordPress Clarity",
-        "description": "WordPress helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Flexibilité axée sur l'API",
+        "description": "Déployez WordPress en tant que CMS Headless pour alimenter des données structurées dans des frameworks JavaScript modernes via REST ou GraphQL.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "WordPress Performance",
-        "description": "WordPress supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Excellence éditoriale",
+        "description": "Offrez aux créateurs de contenu un éditeur intuitif basé sur des blocs, adapté au système de conception de votre marque spécifique.",
+        "icon_type": "FaPencilAlt"
       },
       {
-        "title": "WordPress Reliability",
-        "description": "WordPress strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Référencement natif",
+        "description": "Bénéficiez d’une architecture de base appréciée des moteurs de recherche, combinée à des outils de référencement technique de pointe.",
+        "icon_type": "FaSearch"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée technique du CMS",
     "image": "/technologies/wordpress/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with WordPress-ready patterns designed for dynamic cloud scaling."
+        "title": "CMS découplé et sans tête",
+        "description": "Concevoir des backends sécurisés et rapides qui servent de source unique de vérité pour la distribution de contenu omnicanal."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "WordPress integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Systèmes de blocs personnalisés",
+        "description": "Développer des blocs Gutenberg propriétaires à l'aide de React pour garantir une expérience d'édition performante et contrôlée."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use WordPress to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Réseaux multisites d'entreprise",
+        "description": "Orchestration de réseaux multidomaines et multilingues complexes à partir d’une installation WordPress unique et unifiée."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the WordPress stack.",
+    "title": "L'avantage de WordPress",
+    "subtitle": "Gains compétitifs stratégiques pour la publication à haut débit.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging WordPress effectively."
+        "metric": "40%+",
+        "title": "Dominance du marché",
+        "description": "Tirez parti du plus grand écosystème de développeurs, de plugins et d'intégrations tierces au monde."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with WordPress."
+        "metric": "En temps réel",
+        "title": "Synchronisation du contenu",
+        "description": "Mettez à jour instantanément le contenu sur plusieurs plates-formes et appareils via des déclencheurs webhook intégrés."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate WordPress delivery."
+        "metric": "Rapide",
+        "title": "TTM",
+        "description": "Accélérez la mise sur le marché en utilisant un noyau mature qui gère la gestion des utilisateurs et des médias de manière prête à l'emploi."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using WordPress inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Verrouillage du fournisseur",
+        "description": "Conservez la propriété à 100 % de vos données et de votre pile technique grâce à une base open source et portable."
       }
     ]
   },
   "quote_section": {
-    "quote": "WordPress gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "WordPress moderne transforme la complexité de la publication numérique en un",
+    "highlight": "flux opérationnel rationalisé"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your WordPress roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre hub de contenu",
+    "subtitle": "Consultez nos principaux spécialistes techniques pour définir votre feuille de route WordPress sans tête ou votre stratégie multisite.",
+    "full_name_label": "Développeur principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence stratégique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your WordPress architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos objectifs de publication ou vos défis architecturaux...",
+    "button_text": "Demander une consultation"
   }
 }

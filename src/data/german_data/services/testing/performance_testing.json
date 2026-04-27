@@ -115,7 +115,7 @@
         "icon": "FaCode"
       },
       {
-        "title": "Ausführung",
+        "title": "Execution",
         "description": "Wir setzen virtuelle Benutzer von mehreren geografischen Standorten aus ein, um Ihre Server mit Datenverkehr zu bombardieren.",
         "icon": "FaPlay"
       },
@@ -135,11 +135,11 @@
         "text": "Eine Event-Ticketing-Plattform bereitete den Start eines mit Spannung erwarteten Musikfestivals vor, war jedoch in der Vergangenheit bei kleineren Verkäufen aufgrund von Datenbankblockaden abgestürzt."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Wir haben einen Spike-Test mit verteilten Cloud-Servern entwickelt, um 100.000 Benutzer zu simulieren, die gleichzeitig versuchen, Tickets zu kaufen, und dabei kritische Engpässe in ihrer Zahlungs-Gateway-API und im Redis-Cache aufgedeckt."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Nachdem wir unsere Optimierungsempfehlungen umgesetzt hatten, konnte die Plattform den gesamten Ansturm von 100.000 Benutzern mit einer Verfügbarkeit von 100 % und durchschnittlichen Antwortzeiten von weniger als 2 Sekunden erfolgreich bewältigen."
       }
     }

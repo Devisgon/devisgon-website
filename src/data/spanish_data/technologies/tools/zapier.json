@@ -1,103 +1,116 @@
 {
   "slug": "zapier",
+  "seo_metadata": {
+    "title": "Servicios de automatización de flujo de trabajo y integración empresarial de Zapier",
+    "description": "Soluciones de automatización Zapier personalizadas para la eficiencia empresarial. Diseñamos Zaps de varios pasos, canales de captura de clientes potenciales e integraciones perfectas de aplicaciones para eliminar el trabajo manual.",
+    "keywords": [
+      "Servicios de automatización Zapier",
+      "Integración del flujo de trabajo",
+      "Desarrollo Zap personalizado",
+      "Automatización de procesos de negocio",
+      "Integración de la API de Zapier",
+      "Estrategia de automatización sin código",
+      "Conectividad SaaS empresarial"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Líder en automatización de flujos de trabajo",
+    "title": "Conecte su pila con",
     "highlight": "Zapier",
-    "description": "Build production systems with Zapier in our tools delivery ecosystem.",
+    "description": "Automatice su trabajo en más de 6000 aplicaciones para que pueda avanzar más rápido y concentrarse en una estrategia de alto impacto en lugar de ingresar datos manualmente.",
     "side_image": "/technologies/zapier/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Automatiza tu trabajo",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Ver hoja de ruta de integración",
       "href": "/technologies/zapier#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Zapier plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Por qué diseñamos con Zapier",
+    "subtitle": "Zapier proporciona el ecosistema de conectividad más amplio para una rápida automatización de procesos comerciales.",
     "paragraphs": [
-      "Zapier is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Zapier with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Zapier es nuestra solución de referencia para integraciones de alta velocidad y flujos de trabajo de gestión de clientes potenciales. Su biblioteca inigualable de más de 6000 integraciones nativas nos permite conectar prácticamente cualquier herramienta SaaS en su pila al instante, lo que garantiza que los datos se muevan entre plataformas sin la necesidad de middleware codificado personalizado o una administración exhaustiva de la infraestructura.",
+      "Al utilizar funciones avanzadas como rutas, formateador y webhooks, creamos 'Zaps' sofisticados de varios pasos que manejan lógica compleja y limpieza de datos. Esto garantiza que sus flujos de trabajo automatizados no solo sean rápidos, sino también resistentes y capaces de manejar casos extremos de negocios del mundo real."
     ],
     "cards": [
       {
-        "title": "Zapier Clarity",
-        "description": "Zapier helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Conectividad masiva",
+        "description": "Conecte instantáneamente más de 6000 aplicaciones: el ecosistema de automatización más grande del mundo.",
+        "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Zapier Performance",
-        "description": "Zapier supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Lógica condicional",
+        "description": "Utilice Rutas para crear flujos de trabajo ramificados que ejecuten diferentes acciones según criterios de datos específicos.",
+        "icon_type": "FaSitemap"
       },
       {
-        "title": "Zapier Reliability",
-        "description": "Zapier strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Herramientas de datos integradas",
+        "description": "Formatee fechas, moneda y texto sobre la marcha para garantizar la integridad de los datos en diferentes plataformas.",
+        "icon_type": "FaWrench"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance arquitectónico de la automatización",
     "image": "/technologies/zapier/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Zapier-ready patterns designed for dynamic cloud scaling."
+        "title": "Canalizaciones de gestión de clientes potenciales",
+        "description": "Automatizar el flujo de clientes potenciales desde anuncios sociales y páginas de destino directamente a CRM y canales de notificación de ventas."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Zapier integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Sincronización de datos multiplataforma",
+        "description": "Garantizar que los datos de los clientes y los pedidos se mantengan coherentes en todas las herramientas de gestión de proyectos, soporte y facturación."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Zapier to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Orquestación de webhook personalizada",
+        "description": "Ampliar el poder de Zapier conectando aplicaciones personalizadas a través de oyentes Webhook seguros y en tiempo real."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Zapier stack.",
+    "title": "El borde Zapier",
+    "subtitle": "Ganancias competitivas estratégicas para su velocidad operativa.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Zapier effectively."
+        "metric": "6.000+",
+        "title": "Aplicaciones compatibles",
+        "description": "La biblioteca de integración más extensa de la industria, que cubre casi todas las herramientas SaaS modernas."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Zapier."
+        "metric": "Instante",
+        "title": "Despliegue",
+        "description": "Pase del concepto arquitectónico a la automatización en vivo en horas, no en semanas o meses."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Zapier delivery."
+        "metric": "99,9%",
+        "title": "Confiabilidad de la tarea",
+        "description": "El tiempo de actividad de nivel empresarial garantiza que sus tareas automatizadas se ejecuten correctamente en todo momento."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Zapier inside open architecture patterns."
+        "metric": "Cero",
+        "title": "Sobrecarga de código",
+        "description": "Concéntrese en la lógica empresarial y los resultados mientras la plataforma se encarga del mantenimiento y las actualizaciones de la API."
       }
     ]
   },
   "quote_section": {
-    "quote": "Zapier gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Zapier convierte la fricción del software desconectado en una",
+    "highlight": "motor operativo unificado"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Zapier roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su automatización",
+    "subtitle": "Consulte con nuestros especialistas técnicos líderes para definir una hoja de ruta de Zapier escalable para sus procesos comerciales.",
+    "full_name_label": "Arquitecto principal",
+    "business_email_label": "Correo electrónico de la entidad",
+    "message_label": "Requisito Estratégico",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Zapier architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describa sus actuales cuellos de botella manuales o desafíos de integración...",
+    "button_text": "Solicitar una Auditoría Técnica"
   }
 }

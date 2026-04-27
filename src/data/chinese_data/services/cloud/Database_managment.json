@@ -1,82 +1,82 @@
 {
   "slug": "database_management",
   "hero_section": {
-    "title": "Database Management",
-    "subtitle": "Secure, Scalable, and Lightning-Fast Data",
-    "description": "We design, optimize, and manage robust database architectures that ensure your critical business data is always available, highly secure, and optimized for peak performance.",
+    "title": "数据库管理",
+    "subtitle": "安全、可扩展且快如闪电的数据",
+    "description": "我们设计、优化和管理强大的数据库架构，确保您的关键业务数据始终可用、高度安全并针对峰值性能进行优化。",
     "buttons": [
       {
-        "text": "Optimize My Database",
+        "text": "优化我的数据库",
         "link": "/contact"
       },
       {
-        "text": "Consult a Data Expert",
+        "text": "咨询数据专家",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/database_management.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
-    "span_heading": " Database Management?",
+    "heading": "什么是",
+    "span_heading": "数据库管理？",
     "content": [
-      "Data is the lifeblood of any modern application. Database Management involves architecting how that data is stored, structured, accessed, and secured. Whether you are dealing with relational data in SQL or massive document stores in NoSQL, a poorly configured database will eventually lead to slow load times, application crashes, and data loss. ",
-      "At Devisgon, we take the complexity out of data infrastructure. We build high-availability database clusters, perform deep query tuning, and set up automated disaster recovery pipelines so your application scales seamlessly from 100 to 1,000,000 users without breaking a sweat."
+      "数据是任何现代应用程序的命脉。数据库管理涉及构建数据的存储、结构化、访问和保护方式。无论您是在 SQL 中处理关系数据，还是在 NoSQL 中处理大量文档存储，配置不当的数据库最终都会导致加载时间缓慢、应用程序崩溃和数据丢失。",
+      "在 Devisgon，我们消除了数据基础设施的复杂性。我们构建高可用性数据库集群，执行深度查询调整，并设置自动灾难恢复管道，以便您的应用程序可以毫不费力地从 100 个用户无缝扩展到 1,000,000 个用户。"
     ],
-    "highlight_quote": " “Your application is only as fast as your database.” ",
+    "highlight_quote": "“您的应用程序的速度与数据库的速度一样快。”",
     "side_image": "/all_services/db_mangment/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why professional database management is essential",
+    "title": "主要优点",
+    "subtitle": "为什么专业的数据库管理至关重要",
     "cards": [
       {
-        "title": "Blazing Fast Queries",
-        "description": "Proper indexing and query optimization eliminate bottlenecks, making your application feel instantly responsive.",
+        "title": "极快的查询",
+        "description": "适当的索引和查询优化可以消除瓶颈，使您的应用程序感觉立即响应。",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "High Availability (99.99%)",
-        "description": "Clustered setups and read-replicas ensure your database never goes down, even during massive traffic spikes.",
+        "title": "高可用性（99.99%）",
+        "description": "集群设置和只读副本可确保您的数据库永远不会宕机，即使在大规模流量高峰期间也是如此。",
         "icon_type": "MdStorage"
       },
       {
-        "title": "Zero Data Loss",
-        "description": "Automated, encrypted backups and point-in-time recovery mean your data is always safe from corruption or human error.",
+        "title": "零数据丢失",
+        "description": "自动加密备份和时间点恢复意味着您的数据始终不会受到损坏或人为错误。",
         "icon_type": "MdOutlineBackup"
       },
       {
-        "title": "Seamless Scalability",
-        "description": "Architectures designed to shard or scale horizontally as your user base and data volume grow.",
+        "title": "无缝可扩展性",
+        "description": "旨在随着用户群和数据量的增长而水平分片或扩展的架构。",
         "icon_type": "MdTrendingUp"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Database Management",
+    "title": "选择数据库管理后您会得到什么",
     "image": "/all_services/db_mangment/wwg.webp",
     "list_items": [
       {
-        "title": "1. Database Architecture Design",
-        "description": "Selecting the right database engine (SQL vs. NoSQL) and designing an optimal schema for your specific use case."
+        "title": "1. 数据库架构设计",
+        "description": "选择正确的数据库引擎（SQL 与 NoSQL）并为您的特定用例设计最佳架构。"
       },
       {
-        "title": "2. Performance Tuning & Indexing",
-        "description": "Deep analysis of slow queries and application of strategic indexes to speed up data retrieval."
+        "title": "2. 性能调优和索引",
+        "description": "深度分析慢查询，应用策略索引加速数据检索。"
       },
       {
-        "title": "3. Seamless Data Migration",
-        "description": "Moving your data from legacy systems to modern cloud databases with zero downtime and no data loss."
+        "title": "3. 无缝数据迁移",
+        "description": "将数据从遗留系统转移到现代云数据库，实现零停机且无数据丢失。"
       },
       {
-        "title": "4. Automated Maintenance",
-        "description": "Routine health checks, vacuuming, and patching to ensure continuous, secure operation."
+        "title": "4. 自动化维护",
+        "description": "定期进行健康检查、吸尘和修补，以确保持续、安全的运行。"
       }
     ]
   },
   "technologies_section": {
-    "title": "We manage industry-leading databases",
-    "subtitle": "The best engines for relational, document, and caching needs",
+    "title": "我们管理行业领先的数据库",
+    "subtitle": "满足关系、文档和缓存需求的最佳引擎",
     "tools": [
       {
         "name": "PostgreSQL",
@@ -101,73 +101,73 @@
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "How we secure and speed up your data",
+    "title": "我们的流程",
+    "subtitle": "我们如何保护和加速您的数据",
     "steps": [
       {
-        "title": "Audit & Analyze",
-        "description": "We analyze your current schema, query logs, and server loads to identify bottlenecks.",
+        "title": "审核与分析",
+        "description": "我们分析您当前的架构、查询日志和服务器负载以识别瓶颈。",
         "icon": "FaSearch"
       },
       {
-        "title": "Design & Plan",
-        "description": "We architect a scalable solution, whether it's adding read-replicas, indexing, or migrating engines.",
+        "title": "设计与规划",
+        "description": "我们构建了一个可扩展的解决方案，无论是添加只读副本、索引还是迁移引擎。",
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "Implement & Optimize",
-        "description": "We rewrite inefficient queries, build the new architecture, and execute secure migrations.",
+        "title": "实施和优化",
+        "description": "我们重写低效的查询，构建新的架构，并执行安全迁移。",
         "icon": "FaDatabase"
       },
       {
-        "title": "Monitor & Backup",
-        "description": "We deploy 24/7 monitoring tools and establish strict, automated backup schedules.",
+        "title": "监控与备份",
+        "description": "我们部署 24/7 监控工具并建立严格的自动备份计划。",
         "icon": "FaShieldAlt"
       }
     ]
   },
   "case_study_section": {
-    "headline": "300% faster query speeds for an e-commerce platform",
+    "headline": "电子商务平台查询速度提高 300%",
     "image": "/all_services/db_mangment/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "A high-traffic e-commerce site experienced severe database lockups and timeout errors during flash sales, costing them thousands in abandoned carts."
+        "text": "一个高流量的电子商务网站在闪购期间遇到了严重的数据库锁定和超时错误，导致数千辆购物车被遗弃。"
       },
       "solution": {
         "label": "Solution",
-        "text": "We optimized their PostgreSQL schema, implemented Redis for product catalog caching, and set up a master-slave read-replica architecture."
+        "text": "我们优化了他们的 PostgreSQL 架构，实现了 Redis 来进行产品目录缓存，并建立了主从只读副本架构。"
       },
       "result": {
         "label": "Result",
-        "text": "Database CPU load dropped by 70%, average query response time improved by 300%, and the platform handled Black Friday traffic with zero downtime."
+        "text": "数据库CPU负载下降了70%，平均查询响应时间提高了300%，平台以零停机时间处理黑色星期五流量。"
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about database architecture",
+    "title": "常见问题解答",
+    "subtitle": "获取有关数据库架构的答案",
     "questions": [
       {
-        "question": "Should I use a SQL or NoSQL database?",
-        "answer": "It depends entirely on your data. SQL (like PostgreSQL or MySQL) is best for highly structured, relational data where data integrity and complex transactions are critical (like finance or e-commerce). NoSQL (like MongoDB) is great for unstructured data, rapid prototyping, and massive horizontal scaling."
+        "question": "我应该使用 SQL 还是 NoSQL 数据库？",
+        "answer": "这完全取决于您的数据。 SQL（如 PostgreSQL 或 MySQL）最适合高度结构化的关系数据，其中数据完整性和复杂事务至关重要（如金融或电子商务）。 NoSQL（如 MongoDB）非常适合非结构化数据、快速原型设计和大规模水平扩展。"
       },
       {
-        "question": "What happens if our database server crashes?",
-        "answer": "We design high-availability architectures to prevent this. By using clustered setups and read-replicas across multiple server availability zones, if your primary database goes offline, traffic is automatically routed to a synchronized backup server in milliseconds."
+        "question": "如果我们的数据库服务器崩溃了会发生什么？",
+        "answer": "我们设计高可用性架构来防止这种情况发生。通过跨多个服务器可用性区域使用集群设置和只读副本，如果您的主数据库脱机，流量会在几毫秒内自动路由到同步备份服务器。"
       },
       {
-        "question": "Can you migrate our data from an old system?",
-        "answer": "Yes. Data migration is one of our core specialties. We map your old schema to the new one and execute the migration using secure pipelines, often achieving zero-downtime migrations so your business isn't interrupted."
+        "question": "你们可以从旧系统迁移我们的数据吗？",
+        "answer": "是的。数据迁移是我们的核心专业之一。我们将您的旧架构映射到新架构，并使用安全管道执行迁移，通常可以实现零停机迁移，这样您的业务就不会中断。"
       },
       {
-        "question": "How do you protect our database from hackers?",
-        "answer": "We implement strict network-level security (ensuring the database is never exposed to the public internet), enforce strong Identity and Access Management (IAM), encrypt data both at rest and in transit, and continuously monitor for suspicious query patterns."
+        "question": "如何保护我们的数据库免受黑客攻击？",
+        "answer": "我们实施严格的网络级安全性（确保数据库永远不会暴露在公共互联网上），实施强大的身份和访问管理（IAM），对静态和传输中的数据进行加密，并持续监控可疑的查询模式。"
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Talk to our data architects",
+      "text": "没有找到您的答案吗？",
+      "link_text": "与我们的数据架构师交谈",
       "link_url": "/contact"
     }
   }

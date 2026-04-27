@@ -1,103 +1,116 @@
 {
   "slug": "make",
+  "seo_metadata": {
+    "title": "Automatisation professionnelle Make.com | Orchestration visuelle du flux de travail",
+    "description": "Services d'automatisation Make de niveau entreprise. Nous concevons des flux de travail visuels complexes, des intégrations de données et une logique métier en plusieurs étapes avec une précision chirurgicale.",
+    "keywords": [
+      "Automatisation Make.com",
+      "Intégration Intégromat",
+      "Conception de flux de travail visuel",
+      "Orchestration logique sans code",
+      "Services d'intégration d'API",
+      "Cartographie et transformation des données",
+      "Scénarios d'automatisation d'entreprise"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Make",
-    "description": "Build production systems with Make in our tools delivery ecosystem.",
+    "eyebrow": "Automatisation visuelle du flux de travail",
+    "title": "Concevoir sans limites avec",
+    "highlight": "Faire",
+    "description": "Concevez des automatisations complexes en plusieurs étapes avec une interface visuelle qui vous permet d'observer, de créer et de faire évoluer la logique métier en temps réel.",
     "side_image": "/technologies/make/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Concevez votre flux de travail",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Afficher les modèles logiques",
       "href": "/technologies/make#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Make plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Make",
+    "subtitle": "Make fournit la clarté visuelle et les contrôles logiques avancés nécessaires à une automatisation commerciale sophistiquée.",
     "paragraphs": [
-      "Make is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Make with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Nous choisissons Make pour les projets qui nécessitent une transformation de données complexe et une logique de branchement. Son interface intuitive par glisser-déposer ne cache pas seulement la complexité : elle la cartographie, permettant à nos architectes de créer des scénarios complexes avec une gestion des erreurs intégrée, des itérateurs et des agrégateurs qui garantissent que les données circulent exactement comme prévu.",
+      "Au-delà des simples déclencheurs et actions, Make permet un contrôle granulaire sur chaque point de données. En tirant parti de ses puissantes fonctions et de ses modules HTTP, nous pouvons connecter pratiquement n'importe quel service avec une API, créant ainsi des intégrations personnalisées qui comblent le fossé entre les outils de niche existants et les écosystèmes cloud modernes."
     ],
     "cards": [
       {
-        "title": "Make Clarity",
-        "description": "Make helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Cartographie logique visuelle",
+        "description": "Observez et déboguez votre flux de données en temps réel avec un canevas visuel qui facilite la compréhension de la logique complexe.",
+        "icon_type": "FaEye"
       },
       {
-        "title": "Make Performance",
-        "description": "Make supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Contrôle avancé des données",
+        "description": "Utilisez de puissants outils intégrés tels que des filtres, des routeurs et des transformateurs de données pour une exécution opérationnelle précise.",
+        "icon_type": "FaRandom"
       },
       {
-        "title": "Make Reliability",
-        "description": "Make strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Connectivité universelle",
+        "description": "Connectez-vous à plus de 1 000 applications prédéfinies ou à n’importe quelle API personnalisée à l’aide de modules HTTP/JSON robustes.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée de l'orchestration technique",
     "image": "/technologies/make/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Make-ready patterns designed for dynamic cloud scaling."
+        "title": "Branchement logique complexe",
+        "description": "Implémentation de routeurs et de filtres avancés pour gérer les flux de travail multiconditionnels et la gestion des cas extrêmes."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Make integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Agrégation de données à grand volume",
+        "description": "Utiliser des itérateurs et des agrégateurs pour traiter de gros lots de données entre les systèmes CRM, ERP et de bases de données."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Make to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Intégration d'API personnalisée",
+        "description": "Développer des modules spécialisés et des flux d'authentification pour des services propriétaires ou de niche via REST et Webhooks."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Make stack.",
+    "title": "L'avantage de la marque",
+    "subtitle": "Des gains compétitifs stratégiques pour votre écosystème automatisé.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Make effectively."
+        "metric": "En temps réel",
+        "title": "Surveillance de l'exécution",
+        "description": "Suivez visuellement chaque mouvement de données, rendant le dépannage et l’optimisation instantanés."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Make."
+        "metric": "Infini",
+        "title": "Évolutivité",
+        "description": "Passez de tâches simples à des millions d’opérations par mois sans gestion d’infrastructure."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Make delivery."
+        "metric": "1000+",
+        "title": "Intégrations natives",
+        "description": "Tirez parti d’une vaste bibliothèque de connecteurs pré-testés pour accélérer votre mise sur le marché."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Make inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Entretien",
+        "description": "Concentrez-vous sur la logique métier pendant que la plateforme gère la disponibilité du serveur, la sécurité et la gestion des versions des API."
       }
     ]
   },
   "quote_section": {
-    "quote": "Make gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Make nous permet de transformer des exigences métier de haut niveau en",
+    "highlight": "logique visuelle exécutable"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Make roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Architectez votre automatisation",
+    "subtitle": "Consultez nos principaux spécialistes en automatisation pour définir votre feuille de route Make et optimiser votre flux opérationnel.",
+    "full_name_label": "Architecte principal",
+    "business_email_label": "Courriel d'entreprise",
+    "message_label": "Exigence de flux de travail",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Make architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos goulots d'étranglement manuels actuels ou vos défis d'intégration...",
+    "button_text": "Demander un audit technique"
   }
 }

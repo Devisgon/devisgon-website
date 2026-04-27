@@ -1,0 +1,469 @@
+{
+  "navbar": [
+    {
+      "name": "Heim",
+      "href": "/"
+    },
+    {
+      "name": "Dienstleistungen",
+      "href": "/services",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "KI- und SaaS-Entwicklung",
+            "links": [
+              {
+                "name": "KI-gestützte App",
+                "href": "/services/saas/ai_powered_app"
+              },
+              {
+                "name": "Modelle für maschinelles Lernen",
+                "href": "/services/saas/meachine_learning"
+              },
+              {
+                "name": "MVPs und POCs",
+                "href": "/services/saas/mvps"
+              },
+              {
+                "name": "SaaS-Plattformen",
+                "href": "/services/saas/saas_plateform"
+              }
+            ]
+          },
+          {
+            "title": "Automatisierungen",
+            "links": [
+              {
+                "name": "KI-gestützte Automatisierung",
+                "href": "/services/automations/ai_powered_automation"
+              },
+              {
+                "name": "Automatisierung der API-Integration",
+                "href": "/services/automations/api_integration"
+              },
+              {
+                "name": "Geschäftsprozessautomatisierung",
+                "href": "/services/automations/business_process_automation"
+              },
+              {
+                "name": "Finanzautomatisierung",
+                "href": "/services/automations/accounting"
+              },
+              {
+                "name": "Infrastrukturautomatisierung",
+                "href": "/services/automations/devops-infrastructure-automation"
+              },
+              {
+                "name": "Low-Code-Automatisierung",
+                "href": "/services/automations/low_code_automations"
+              },
+              {
+                "name": "Marketing- und Vertriebsautomatisierung",
+                "href": "/services/automations/marketing-sales-automation"
+              },
+              {
+                "name": "Robotische Prozessautomatisierung",
+                "href": "/services/automations/robotic-process-automation"
+              }
+            ]
+          },
+          {
+            "title": "Cloud und DevOps",
+            "links": [
+              {
+                "name": "Ci/Cd-Pipelines",
+                "href": "/services/cloud/cicd_pipelines"
+              },
+              {
+                "name": "Cloud-Sicherheit",
+                "href": "/services/cloud/cloud_security"
+              },
+              {
+                "name": "Datenbankverwaltung",
+                "href": "/services/cloud/database_management"
+              },
+              {
+                "name": "DevOps-Beratung",
+                "href": "/services/cloud/devops_consulting"
+              }
+            ]
+          },
+          {
+            "title": "Datenlösungen",
+            "links": [
+              {
+                "name": "KI-Modelle",
+                "href": "/services/data_solutions/ai_ml_models"
+              },
+              {
+                "name": "Geschäftsanalysen",
+                "href": "/services/data_solutions/business_analytics"
+              },
+              {
+                "name": "Datenanalyse-Dashboard",
+                "href": "/services/data_solutions/data_analytics_dashboard"
+              },
+              {
+                "name": "Daten-Scraping",
+                "href": "/services/data_solutions/data_scraping"
+              }
+            ]
+          },
+          {
+            "title": "Digitales Design",
+            "links": [
+              {
+                "name": "Grafisches und virtuelles Design",
+                "href": "/services/design/graphic_design"
+              },
+              {
+                "name": "Logo-Design",
+                "href": "/services/design/logo_design"
+              },
+              {
+                "name": "Mobile App-Design",
+                "href": "/services/design/mobile_app_design"
+              },
+              {
+                "name": "Produktdesign",
+                "href": "/services/design/product_design"
+              },
+              {
+                "name": "Prototyping und Wireframes",
+                "href": "/services/design/prototyping_wireframing"
+              },
+              {
+                "name": "Ui/Ux-Design",
+                "href": "/services/design/ui_ux_design"
+              },
+              {
+                "name": "Webdesign",
+                "href": "/services/design/web_design"
+              }
+            ]
+          },
+          {
+            "title": "Qualitätssicherung und Prüfung",
+            "links": [
+              {
+                "name": "API-Tests",
+                "href": "/services/testing/api_testing"
+              },
+              {
+                "name": "Automatisierungstests",
+                "href": "/services/testing/automation_testing"
+              },
+              {
+                "name": "Manuelles Testen",
+                "href": "/services/testing/manual_testing"
+              },
+              {
+                "name": "Leistungstests",
+                "href": "/services/testing/performance_testing"
+              },
+              {
+                "name": "Sicherheitstests",
+                "href": "/services/testing/security_testing"
+              }
+            ]
+          },
+          {
+            "title": "Web- und App-Anwendungen",
+            "links": [
+              {
+                "name": "Benutzerdefinierte Bots",
+                "href": "/services/web_and_mobile_development/custom_bots"
+              },
+              {
+                "name": "Mobile Anwendung",
+                "href": "/services/web_and_mobile_development/app_applications"
+              },
+              {
+                "name": "Webanwendung",
+                "href": "/services/web_and_mobile_development/web_applications"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Branchen",
+      "href": "/industries",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Landwirtschaft",
+            "links": [
+              {
+                "name": "Bauernhöfe",
+                "href": "/industries/agriculture/farms"
+              },
+              {
+                "name": "Felder",
+                "href": "/industries/agriculture/fields"
+              },
+              {
+                "name": "Bewässerung",
+                "href": "/industries/agriculture/irrigation"
+              },
+              {
+                "name": "Pflanzen",
+                "href": "/industries/agriculture/plants"
+              }
+            ]
+          },
+          {
+            "title": "Unterhaltung",
+            "links": [
+              {
+                "name": "Veranstaltungen",
+                "href": "/industries/entertainment/events"
+              },
+              {
+                "name": "Hotels",
+                "href": "/industries/entertainment/hotels"
+              },
+              {
+                "name": "Medienproduktion",
+                "href": "/industries/entertainment/media_production"
+              },
+              {
+                "name": "Restaurants",
+                "href": "/industries/entertainment/restaurants"
+              }
+            ]
+          },
+          {
+            "title": "Gesundheitspflege",
+            "links": [
+              {
+                "name": "Chiropraktiker",
+                "href": "/industries/healthcare/chiropractor"
+              },
+              {
+                "name": "Zahnarzt",
+                "href": "/industries/healthcare/dentist"
+              },
+              {
+                "name": "Massagetherapeut",
+                "href": "/industries/healthcare/massage_therapist"
+              },
+              {
+                "name": "Myotherapeut",
+                "href": "/industries/healthcare/myotherapist"
+              },
+              {
+                "name": "Optometrie",
+                "href": "/industries/healthcare/optometry"
+              },
+              {
+                "name": "Psychologe",
+                "href": "/industries/healthcare/psychologist"
+              }
+            ]
+          },
+          {
+            "title": "Professional",
+            "links": [
+              {
+                "name": "Beratung",
+                "href": "/industries/professional/consulting"
+              },
+              {
+                "name": "Ausbildung",
+                "href": "/industries/professional/education"
+              },
+              {
+                "name": "Juristische Dienstleistungen",
+                "href": "/industries/professional/legal_services"
+              },
+              {
+                "name": "Reisedienstleistungen",
+                "href": "/industries/professional/travel_services"
+              }
+            ]
+          },
+          {
+            "title": "Immobilie",
+            "links": [
+              {
+                "name": "Architektur & Design",
+                "href": "/industries/real_estate/architecture_design"
+              },
+              {
+                "name": "Kommerziell",
+                "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "Immobilienverwaltung",
+                "href": "/industries/real_estate/property_management"
+              },
+              {
+                "name": "Wohnen",
+                "href": "/industries/real_estate/residential"
+              }
+            ]
+          },
+          {
+            "title": "Gewerbe",
+            "links": [
+              {
+                "name": "Zimmerei",
+                "href": "/industries/trades/carpentry"
+              },
+              {
+                "name": "Elektriker",
+                "href": "/industries/trades/electrician"
+              },
+              {
+                "name": "Sanitär",
+                "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "Schweißen",
+                "href": "/industries/trades/welding"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Technologien",
+      "href": "/technologies",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Datenbank",
+            "links": [
+              {
+                "name": "Amazon DynamoDB",
+                "href": "/technologies/amazon_dynamodb"
+              },
+              {
+                "name": "GraphQL",
+                "href": "/technologies/graphql"
+              },
+              {
+                "name": "MongoDB",
+                "href": "/technologies/mongodb"
+              },
+              {
+                "name": "MySQL",
+                "href": "/technologies/mysql"
+              },
+              {
+                "name": "Supabase",
+                "href": "/technologies/supabase"
+              }
+            ]
+          },
+          {
+            "title": "Rahmenwerke",
+            "links": [
+              {
+                "name": "Flattern",
+                "href": "/technologies/flutter"
+              },
+              {
+                "name": "Laravel",
+                "href": "/technologies/laravel"
+              },
+              {
+                "name": "NestJS",
+                "href": "/technologies/nestjs"
+              },
+              {
+                "name": "Next.js",
+                "href": "/technologies/nextjs"
+              },
+              {
+                "name": "Node.js",
+                "href": "/technologies/nodejs"
+              },
+              {
+                "name": "Reagieren",
+                "href": "/technologies/react"
+              },
+              {
+                "name": "Native reagieren",
+                "href": "/technologies/react_native"
+              }
+            ]
+          },
+          {
+            "title": "Sprachen",
+            "links": [
+              {
+                "name": "C",
+                "href": "/technologies/c"
+              },
+              {
+                "name": "C++",
+                "href": "/technologies/cpp"
+              },
+              {
+                "name": "Java",
+                "href": "/technologies/java"
+              },
+              {
+                "name": "JavaScript",
+                "href": "/technologies/javascript"
+              },
+              {
+                "name": "PHP",
+                "href": "/technologies/php"
+              },
+              {
+                "name": "Python",
+                "href": "/technologies/python"
+              },
+              {
+                "name": "Typoskript",
+                "href": "/technologies/typescript"
+              }
+            ]
+          },
+          {
+            "title": "Werkzeuge",
+            "links": [
+              {
+                "name": "Amazonas",
+                "href": "/technologies/amazon"
+              },
+              {
+                "name": "Machen",
+                "href": "/technologies/make"
+              },
+              {
+                "name": "n8n",
+                "href": "/technologies/n8n"
+              },
+              {
+                "name": "Shopify",
+                "href": "/technologies/shopify"
+              },
+              {
+                "name": "WordPress",
+                "href": "/technologies/wordpress"
+              },
+              {
+                "name": "Zapier",
+                "href": "/technologies/zapier"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Über uns",
+      "href": "/#about"
+    },
+    {
+      "name": "Kontaktieren Sie uns",
+      "href": "/contact"
+    }
+  ]
+}

@@ -1,103 +1,116 @@
 {
-  "slug": "languages",
+  "slug": "programming-languages",
+  "seo_metadata": {
+    "title": "لغات برمجة المؤسسات | هندسة البرمجيات متعددة اللغات",
+    "description": "تطوير برامج مخصصة عبر Java وPython وTypeScript وC++ والمزيد. نحن نصمم أنظمة عالية الأداء وقابلة للتطوير باستخدام اللغة المثالية لأعباء العمل المحددة لديك.",
+    "keywords": [
+      "تطوير برمجيات المؤسسات",
+      "البرمجة متعددة اللغات",
+      "هندسة بايثون للذكاء الاصطناعي",
+      "حلول جافا الخلفية",
+      "هندسة الويب تايب سكريبت",
+      "برمجة الأنظمة C++",
+      "الحوسبة عالية الأداء"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Languages",
-    "description": "Build production systems with Java, JavaScript, Python, TypeScript, PHP, C++, and C.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "المؤسسة الهندسية",
+    "title": "مقياس لانهائي مع",
+    "highlight": "مكدسات متعددة اللغات",
+    "description": "قم بسد الفجوة بين كفاءة الأجهزة وسرعة المطورين من خلال مجموعة إستراتيجية من لغات Java وPython وTypeScript وPHP وC-family.",
+    "side_image": "/services_page/languages-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "استشر مهندسًا معماريًا",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض خريطة الطريق التقنية",
       "href": "/technologies/languages#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Languages forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "لماذا يهم اختيار اللغة.",
+    "subtitle": "يؤدي اختيار الصيغة الصحيحة للمشكلة الصحيحة إلى تقليل العبء الفني وزيادة الأداء في وقت التشغيل.",
     "paragraphs": [
-      "Java, JavaScript, Python, TypeScript, PHP, C++, and C gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "يتيح لنا نهجنا متعدد اللغات - إتقان Java وJavaScript وPython وTypeScript وPHP وC++ وC - من نشر الأداة المناسبة للمهمة المناسبة. سواء أكان الأمر يتعلق بالكتابة الصارمة لـ Java للمعاملات المالية، أو النماذج الأولية السريعة لنماذج Python للذكاء الاصطناعي، أو الدقة الجراحية لـ C++ للمحركات ذات زمن الوصول المنخفض، فإننا نضمن تحسين مجموعتك لمهمتها المحددة.",
+      "من خلال توحيد اللغات الناضجة عالية المجتمع، فإننا نوفر لعملائنا قواعد تعليمات برمجية \"مقاومة للمستقبل\". تضمن هذه الإستراتيجية إمكانية الصيانة على المدى الطويل، واكتساب المواهب بسهولة، والوصول إلى نظام بيئي عالمي من المكتبات التي تم اختبارها في المعركة وتصحيحات الأمان."
     ],
     "cards": [
       {
-        "title": "Unmatched Readability",
-        "description": "Use the right language per workload to keep code clear and handoffs fast.",
-        "icon_type": "FaBookReader"
+        "title": "تحسين عبء العمل",
+        "description": "قم بمحاذاة نماذج تنفيذ اللغة (JIT، أو Interpreted، أو Compiled) مع أهداف الأداء المحددة الخاصة بك.",
+        "icon_type": "FaCogs"
       },
       {
-        "title": "Scientific Dominance",
-        "description": "Python and TypeScript ecosystems accelerate AI and product engineering speed.",
-        "icon_type": "FaFlask"
+        "title": "سرعة المطور",
+        "description": "استفد من اللغات عالية المستوى مثل TypeScript وPython لتسريع وقت طرح المنطق المعقد في السوق.",
+        "icon_type": "FaRocket"
       },
       {
-        "title": "Enterprise Backbone",
-        "description": "Java, C++, and C power performance-critical services with proven stability.",
-        "icon_type": "FaLayerGroup"
+        "title": "استقرار النظام",
+        "description": "استخدم اللغات الآمنة على الذاكرة والمكتوبة بقوة لمنع أخطاء وقت التشغيل في الخدمات ذات المهام الحرجة.",
+        "icon_type": "FaShieldAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق استراتيجية متعدد اللغات",
+    "image": "/services_page/languages-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with languages choices matched to runtime and scaling goals."
+        "title": "أنظمة متعددة المكدس الموزعة",
+        "description": "تنسيق الخدمات الصغيرة حيث تتم كتابة كل خدمة باللغة الأكثر ملاءمة لقيود وقت التشغيل الخاصة بها."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "خطوط أنابيب البيانات عالية الإنتاجية",
+        "description": "بناء سير عمل الذكاء الاصطناعي ومعالجة البيانات باستخدام مكتبات Python العلمية المقترنة بمراكز أداء C++."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "التحديث التراثي",
+        "description": "سد طبقات مؤسسة C/C++ أو Java القائمة مع واجهات TypeScript وPHP الأمامية الحديثة والمتفاعلة."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Languages stack.",
+    "title": "حافة الهندسة الاستراتيجية",
+    "subtitle": "المزايا القابلة للقياس الكمي لمكدس اللغة الأمثل.",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "title": "الكمون أقل",
+        "description": "تم تحقيق مكاسب الأداء من خلال ترحيل الاختناقات الأساسية إلى اللغات المجمعة مثل C++ أو Java."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "عالمي",
+        "title": "قابلية النقل",
+        "description": "مرونة النشر عبر البيئات السحابية وEdge والبيئات المحلية عبر أوقات التشغيل عبر الأنظمة الأساسية."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "عالمي",
+        "title": "مجتمع",
+        "description": "الوصول الفوري إلى الملايين من الوحدات مفتوحة المصدر، مما يقلل تكاليف الهندسة المخصصة بشكل كبير."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "صفر",
+        "title": "قفل",
+        "description": "تحكم كامل في عنوان IP الخاص بك باستخدام لغات ذات معايير مفتوحة دون أي متطلبات ترخيص خاصة."
       }
     ]
   },
   "quote_section": {
-    "quote": "Python is an experiment in how much complexity can be hidden behind",
-    "highlight": "aesthetic simplicity"
+    "quote": "حدود لغتي تعني حدود عالمي؛ نختار",
+    "highlight": "أكوام لا حدود لها"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your languages roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم البنية التحتية الخاصة بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة الطريق اللغوية المثالية لمؤسستك.",
+    "full_name_label": "اسم المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف التحدي المعماري الخاص بك أو أهداف الأداء...",
+    "button_text": "طلب التدقيق الفني"
   }
 }

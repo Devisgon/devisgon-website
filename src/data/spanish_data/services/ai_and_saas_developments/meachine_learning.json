@@ -1,9 +1,9 @@
 {
   "slug": "machine-learning",
   "hero_section": {
-    "title": "Modelos de Machine Learning",
+    "title": "Modelos de aprendizaje automático",
     "subtitle": "Predicciones basadas en datos que escalan",
-    "description": "Construimos modelos de aprendizaje automático personalizados para predicción, recomendación, clasificación y automatización, entrenados con sus datos y desplegados para un rendimiento en el mundo real.",
+    "description": "Creamos modelos de aprendizaje automático personalizados para predicción, recomendación, clasificación y automatización, entrenados en sus datos e implementados para un rendimiento en el mundo real.",
     "buttons": [
       {
         "text": "Iniciar mi proyecto de IA",
@@ -17,142 +17,160 @@
     "hero_image": "/videos/ai_ml_models.mp4"
   },
   "introduction_section": {
-    "heading": "¿Qué son los",
-    "span_heading": "Modelos de Machine Learning?",
+    "heading": "Qué es",
+    "span_heading": "¿Modelos de aprendizaje automático?",
     "content": [
-      "En Devisgon, no solo construimos modelos, construimos pipelines de ML listos para producción. Esto significa que sus modelos no se quedan en cuadernos; se despliegan, monitorean y optimizan para trabajar con datos del mundo real a escala.",
-      "Ayudamos a empresas en sectores como retail, salud, logística, fintech y SaaS a aprovechar el poder del ML para resolver problemas y obtener una ventaja competitiva."
+      "En Devisgon, no solo creamos modelos, sino que creamos canales de aprendizaje automático listos para producción. Esto significa que sus modelos no viven en portátiles; están implementados, monitoreados y optimizados para trabajar con datos del mundo real a escala.",
+      "Ayudamos a empresas de comercio minorista, atención médica, logística, tecnología financiera y SaaS a aprovechar el poder del aprendizaje automático para resolver problemas y obtener una ventaja competitiva."
     ],
-    "highlight_quote": "“Modelos personalizados, predicciones más precisas, 30% más de exactitud.”",
+    "highlight_quote": "\"Modelos personalizados, predicciones más nítidas, un 30% más de precisión\".",
     "side_image": "/all_services/meachine_learning/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Beneficios Clave",
+    "title": "Beneficios clave",
     "subtitle": "Transforme sus operaciones con resultados comprobados",
     "cards": [
       {
-        "title": "Predicciones Precisas",
-        "description": "Prevea la demanda, detecte anomalías y recomiende acciones con precisión.",
+        "title": "Predicciones precisas",
+        "description": "Pronostique la demanda, detecte anomalías y recomiende acciones con precisión.",
         "icon_type": "TbTargetArrow "
       },
       {
-        "title": "Automatización a Escala",
+        "title": "Automatización a escala",
         "description": "Reemplace el análisis manual con la toma de decisiones impulsada por IA.",
         "icon_type": "HiCurrencyDollar "
       },
       {
-        "title": "Modelos a Medida",
-        "description": "Modelos entrenados con los datos específicos de su negocio, no con conjuntos de datos genéricos.",
+        "title": "Modelos personalizados",
+        "description": "Modelos entrenados en sus datos comerciales específicos, no en conjuntos de datos genéricos.",
         "icon_type": "BsCodeSquare "
       },
       {
-        "title": "Despliegue de Extremo a Extremo",
-        "description": "Desde el entrenamiento hasta el monitoreo en producción, manejamos el ciclo de vida completo de ML.",
+        "title": "Implementación de un extremo a otro",
+        "description": "Desde la capacitación hasta el monitoreo de la producción, manejamos el ciclo de vida completo del ML.",
         "icon_type": "FaRocket "
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Lo que obtendrá al elegir nuestros modelos de ML",
+    "title": "Lo que obtendrás cuando elijas con nosotros los modelos ML",
     "image": "/all_services/meachine_learning/wwg.webp",
     "list_items": [
       {
-        "title": "1. Modelos de ML Personalizados",
-        "description": "Modelos de ML entrenados a medida (clasificación, regresión, clustering, NLP, etc.)"
+        "title": "1. Modelos de aprendizaje automático personalizados",
+        "description": "Modelos de ML entrenados a medida (clasificación, regresión, agrupamiento, PNL, etc.)"
       },
       {
         "title": "2. Integración de API",
-        "description": "Puntos de enlace API para la integración de modelos en aplicaciones o software."
+        "description": "Puntos finales API para la integración de modelos en aplicaciones/software."
       },
       {
-        "title": "3. Documentación Clara",
-        "description": "Documentación del modelo e informes de entrenamiento."
+        "title": "3. Documentación clara",
+        "description": "Documentación de modelos e informes de formación."
       },
       {
-        "title": "4. Despliegue Escalable",
-        "description": "Despliegue escalable en infraestructura de nube o local."
+        "title": "4. Implementación escalable",
+        "description": "Implementación escalable en la nube o infraestructura local."
       }
     ]
   },
   "technologies_section": {
-    "title": "Trabajamos con tecnologías modernas y probadas",
+    "title": "Trabajamos con tecnologías modernas y probadas.",
     "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
     "tools": [
-      { "name": "Python", "icon": "FaPython " },
-      { "name": "Node.js", "icon": "FaNodeJs " },
-      { "name": "React", "icon": "FaReact " },
-      { "name": "Docker", "icon": "FaDocker " },
-      { "name": "AWS", "icon": "FaAws " },
-      { "name": "MongoDB", "icon": "FaDatabase " }
+      {
+        "name": "Python",
+        "icon": "FaPython "
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs "
+      },
+      {
+        "name": "React",
+        "icon": "FaReact "
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      },
+      {
+        "name": "MongoDB",
+        "icon": "FaDatabase "
+      }
     ]
   },
   "process_section": {
-    "title": "Nuestro Proceso",
+    "title": "Nuestro proceso",
     "subtitle": "Del concepto al lanzamiento en 6 semanas",
     "steps": [
       {
-        "title": "Descubrir",
-        "description": "Definir objetivos comerciales, identificar fuentes de datos y seleccionar casos de uso de ML.",
+        "title": "Discover",
+        "description": "Defina objetivos comerciales, identifique fuentes de datos y seleccione casos de uso de ML.",
         "icon": "FaSearch"
       },
       {
-        "title": "Diseñar",
-        "description": "Preprocesamiento de datos, ingeniería de características y planificación de la arquitectura del modelo.",
+        "title": "Design",
+        "description": "Preprocesamiento de datos, ingeniería de características y planificación de arquitectura de modelos.",
         "icon": "TbTools"
       },
       {
-        "title": "Construir",
-        "description": "Entrenar y validar modelos de ML, probar con conjuntos de datos históricos.",
+        "title": "Build",
+        "description": "Entrene y valide modelos de ML, pruebe con conjuntos de datos históricos.",
         "icon": "FaHammer"
       },
       {
-        "title": "Lanzar",
-        "description": "Desplegar modelos listos para producción con monitoreo y bucles de retroalimentación.",
+        "title": "Launch",
+        "description": "Implemente modelos listos para producción con ciclos de monitoreo y retroalimentación.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "La IA redujo el exceso de stock en un 18%",
+    "headline": "La IA redujo el exceso de existencias en un 18 %",
     "image": "/all_services/meachine_learning/case_study.webp",
     "content": {
       "problem": {
-        "label": "Problema",
-        "text": "Una empresa de logística luchaba con una demanda impredecible, lo que generaba exceso de stock y retrasos en la cadena de suministro."
+        "label": "Problem",
+        "text": "Una empresa de logística luchaba contra una demanda impredecible, lo que provocó un exceso de existencias y retrasos en la cadena de suministro."
       },
       "solution": {
-        "label": "Solución",
-        "text": "Construimos un modelo de ML de pronóstico de demanda entrenado con 5 años de datos de ventas y estacionales."
+        "label": "Solution",
+        "text": "Construimos un modelo de ML de pronóstico de la demanda entrenado en 5 años de ventas y datos estacionales."
       },
       "result": {
-        "label": "Resultado",
-        "text": "La precisión del pronóstico mejoró en un 30%, reduciendo los costos de exceso de stock en un 18% y optimizando la eficiencia de la cadena de suministro."
+        "label": "Result",
+        "text": "La precisión de las previsiones mejoró en un 30 %, lo que redujo los costos de exceso de existencias en un 18 % y optimizó la eficiencia de la cadena de suministro."
       }
     }
   },
   "faq_section": {
-    "title": "Preguntas Frecuentes",
+    "title": "Preguntas frecuentes",
     "subtitle": "Obtenga respuestas a preguntas comunes",
     "questions": [
       {
-        "question": "¿Cuánto tiempo toma construir un MVP?",
-        "answer": "Normalmente, un MVP se puede desarrollar en 4-6 semanas dependiendo de la complejidad de las funciones."
+        "question": "¿Cuánto tiempo lleva construir un MVP?",
+        "answer": "Normalmente, un MVP se puede desarrollar en 4 a 6 semanas, dependiendo de la complejidad de las funciones."
       },
       {
-        "question": "¿Ofrecen soporte continuo después del lanzamiento?",
-        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione correctamente."
+        "question": "¿Brindan soporte continuo después del lanzamiento?",
+        "answer": "Sí, ofrecemos paquetes de soporte y mantenimiento posteriores al lanzamiento para garantizar que su aplicación funcione sin problemas."
       },
       {
         "question": "¿Pueden integrar funciones de IA en mi SaaS existente?",
         "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
       },
       {
-        "question": "¿Qué stack tecnológico utilizan para SaaS?",
-        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+        "question": "¿Qué pila tecnológica utilizas para SaaS?",
+        "answer": "Utilizamos principalmente Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
       }
     ],
     "footer": {
-      "text": "¿No encontró su respuesta?",
+      "text": "¿No encontraste tu respuesta?",
       "link_text": "Contáctenos para más información",
       "link_url": "/contact"
     }

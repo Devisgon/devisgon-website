@@ -1,103 +1,116 @@
 {
   "slug": "mongodb",
+  "seo_metadata": {
+    "title": "Développement MongoDB évolutif et conception de schémas NoSQL",
+    "description": "Services de mise en œuvre d'entreprise MongoDB. Nous construisons des bases de données documentaires flexibles et performantes, conçues pour une échelle horizontale et une itération rapide.",
+    "keywords": [
+      "Développement MongoDB",
+      "Conception de base de données NoSQL",
+      "Architecture de la base de données documentaire",
+      "Modélisation des données BSON",
+      "Cadre d'agrégation MongoDB",
+      "Développement de la pile MERN",
+      "Solutions de partage de bases de données"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Base de données de documents de premier plan",
+    "title": "Mise à l'échelle flexible avec",
     "highlight": "MongoDB",
-    "description": "Build production systems with MongoDB in our database delivery ecosystem.",
+    "description": "Libérez la productivité des développeurs avec un modèle de données basé sur des documents qui correspond directement à votre code, permettant une livraison de fonctionnalités à grande vitesse et une mise à l'échelle sans effort.",
     "side_image": "/technologies/mongodb/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimisez votre cluster",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Modèles techniques",
       "href": "/technologies/mongodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "MongoDB plays a critical role in our database strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec MongoDB",
+    "subtitle": "MongoDB offre la flexibilité architecturale nécessaire aux applications modernes dont les exigences en matière de données évoluent.",
     "paragraphs": [
-      "MongoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using MongoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Le modèle de document de MongoDB (BSON) permet des structures imbriquées et des schémas flexibles, éliminant ainsi les frictions liées aux jointures SQL complexes. Nous le choisissons pour les projets où le prototypage rapide et la capacité de stocker des données polymorphes sont essentiels à l'agilité de l'entreprise.",
+      "Grâce à la réplication intégrée et au partitionnement horizontal, MongoDB garantit que votre application reste hautement disponible et performante même si vos données atteignent la plage des téraoctets et au-delà."
     ],
     "cards": [
       {
-        "title": "MongoDB Clarity",
-        "description": "MongoDB helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Schéma dynamique",
+        "description": "Itérez plus rapidement sans les temps d'arrêt des migrations traditionnelles ; la structure des documents peut varier au sein d’une même collection.",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "MongoDB Performance",
-        "description": "MongoDB supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Agrégation puissante",
+        "description": "Traitez les données de manière native avec un langage de requête riche et un pipeline d'agrégation pour des analyses en temps réel.",
+        "icon_type": "FaStream"
       },
       {
-        "title": "MongoDB Reliability",
-        "description": "MongoDB strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Haute disponibilité native",
+        "description": "Le basculement automatique et la redondance des données via des jeux de réplicas maintiennent votre application en ligne 24h/24 et 7j/7.",
+        "icon_type": "FaShieldVirus"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée de la conception MongoDB",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with MongoDB-ready patterns designed for dynamic cloud scaling."
+        "title": "Modélisation des données documentaires",
+        "description": "Concevoir des stratégies « d'intégration ou de référencement » pour optimiser les charges de travail lourdes en lecture/écriture et minimiser les IOPS."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "MongoDB integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Intégration du cloud Atlas",
+        "description": "Déploiement de clusters entièrement gérés avec une portée multi-cloud, une mise à l'échelle automatisée et des capacités de recherche intégrées."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use MongoDB to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Collections de séries chronologiques",
+        "description": "Implémentation de collections spécialisées pour les données IoT et financières à haut débit avec vieillissement et compression automatiques."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the MongoDB stack.",
+    "title": "Le bord de MongoDB",
+    "subtitle": "Avantages en termes de performances pour les applications modernes basées sur les données.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging MongoDB effectively."
+        "metric": "3x",
+        "title": "Codage plus rapide",
+        "description": "Accélérez le développement en utilisant un format de données qui reflète les objets natifs dans la plupart des langages de programmation."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with MongoDB."
+        "metric": "Élastique",
+        "title": "Évolutivité",
+        "description": "Évoluez horizontalement sur du matériel standard à l’aide du partitionnement natif sans aucun temps d’arrêt des applications."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate MongoDB delivery."
+        "metric": "99,99%",
+        "title": "Temps de disponibilité",
+        "description": "Fiabilité obtenue grâce à des jeux de répliques distribués et à des protocoles d'auto-réparation automatisés."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using MongoDB inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Goulots d'étranglement SQL",
+        "description": "Évitez les problèmes de performances liés aux jointures relationnelles complexes en utilisant des documents dénormalisés et autonomes."
       }
     ]
   },
   "quote_section": {
-    "quote": "MongoDB gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "MongoDB permet à la base de données d'évoluer à la vitesse de votre",
+    "highlight": "code d'application"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your MongoDB roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Faites évoluer votre magasin de documents",
+    "subtitle": "Consultez nos experts NoSQL pour optimiser vos pipelines d’agrégation ou planifier votre migration vers Atlas.",
+    "full_name_label": "Nom de l'ingénieur principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Défi technique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your MongoDB architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez votre défi de modélisation de données ou vos exigences de mise à l'échelle...",
+    "button_text": "Commencer"
   }
 }

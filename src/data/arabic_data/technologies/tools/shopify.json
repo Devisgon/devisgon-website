@@ -1,103 +1,116 @@
 {
   "slug": "shopify",
+  "seo_metadata": {
+    "title": "تطوير المشاريع Shopify | التجارة بلا رأس والتطبيقات المخصصة",
+    "description": "خدمات التطوير المخصصة لـ Shopify و Shopify Plus. نقوم بتصميم واجهات متاجر مقطوعة الرأس عالية التحويل وخطوط أنابيب التجارة الآلية باستخدام الهيدروجين والسائل.",
+    "keywords": [
+      "شوبيفاي بلس للتطوير",
+      "تجارة الهيدروجين مقطوعة الرأس",
+      "تطوير تطبيق Shopify مخصص",
+      "معمارية التجارة الإلكترونية",
+      "تحسين القالب السائل",
+      "Shopify API التكامل",
+      "حلول التجارة الشاملة"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Shopify",
-    "description": "Build production systems with Shopify in our tools delivery ecosystem.",
+    "eyebrow": "منصة التجارة العالمية",
+    "title": "قم بتوسيع واجهة متجرك باستخدام",
+    "highlight": "شوبيفي",
+    "description": "يمكنك تقديم تجارب تسوق سريعة للغاية وعالية التحويل باستخدام منصة مصممة للنطاق العالمي والمعاملات الآمنة والنمو متعدد القنوات.",
     "side_image": "/technologies/shopify/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "قم ببناء واجهة متجرك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض النطاق الفني",
       "href": "/technologies/shopify#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Shopify plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع Shopify",
+    "subtitle": "يوفر Shopify البنية التحتية الأكثر قوة وأمانًا لعمليات البيع بالتجزئة الحديثة ذات الحجم الكبير.",
     "paragraphs": [
-      "Shopify is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Shopify with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Shopify هو محركنا الأساسي لكل من التجارة التقليدية والتجارة بلا رأس. من خلال الاستفادة من الاستضافة المتوافقة مع PCI وعملية الدفع التي تم اختبارها في المعركة، فإننا نتخلص من المخاطر الأمنية المرتبطة ببوابات الدفع المخصصة. يتيح ذلك لفرقنا التركيز على إنشاء تجارب مستخدم فريدة ومنطق عمل مخصص بدلاً من إدارة وقت تشغيل الخادم أو تحديثات التصحيح.",
+      "مع تقديم الهيدروجين والأكسجين، يمكننا الآن إنشاء واجهات متاجر منفصلة تمامًا ومقطعة الرأس توفر سرعة التطبيق المستند إلى React بالإضافة إلى السهولة الإدارية لواجهة Shopify الخلفية. يضمن هذا النهج المختلط تحسين موقعك لتحسين محركات البحث والتحويل مع الحفاظ على المرونة المعمارية على المدى الطويل."
     ],
     "cards": [
       {
-        "title": "Shopify Clarity",
-        "description": "Shopify helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "خفة الحركة بلا رأس",
+        "description": "استخدم الهيدروجين (React) لإنشاء واجهات أمامية مخصصة تتواصل مع Shopify عبر واجهة برمجة تطبيقات Storefront القوية.",
+        "icon_type": "FaReact"
       },
       {
-        "title": "Shopify Performance",
-        "description": "Shopify supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ثبت الأمن",
+        "description": "استفد من الامتثال للمستوى 1 PCI DSS والحماية من الاحتيال الرائدة في الصناعة بمجرد إخراجها من الصندوق.",
+        "icon_type": "FaLock"
       },
       {
-        "title": "Shopify Reliability",
-        "description": "Shopify strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "القناة الشاملة العالمية",
+        "description": "مزامنة المخزون والطلبات والعملاء عبر وسائل التواصل الاجتماعي والأسواق ومواقع البيع بالتجزئة الفعلية على الفور.",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق المعماري التجاري",
     "image": "/technologies/shopify/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Shopify-ready patterns designed for dynamic cloud scaling."
+        "title": "واجهات المحلات مقطوعة الرأس (الهيدروجين)",
+        "description": "تطوير تجارب تجارية عالية الأداء ومميزة باستخدام React ومنصة استضافة Oxygen."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Shopify integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "التطبيق المخصص وتكامل واجهة برمجة التطبيقات",
+        "description": "إنشاء تطبيقات وبرامج وسيطة خاصة بـ Shopify لربط واجهة متجرك بأنظمة ERP وPIM و3PL."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Shopify to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "هندسة الموضوع السائل",
+        "description": "إنشاء سمات Shopify مُحسّنة للغاية ومُحسنة لمحركات البحث أولاً مع تخصيص عميق من خلال تطوير Liquid وSchema."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Shopify stack.",
+    "title": "حافة شوبيفاي",
+    "subtitle": "مزايا قابلة للقياس للعلامات التجارية المهيمنة للبيع بالتجزئة.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Shopify effectively."
+        "metric": "99.99%",
+        "title": "وقت تشغيل النظام الأساسي",
+        "description": "بنية تحتية لا تحتاج إلى صيانة، مصممة للتعامل مع الزيادات الهائلة في حركة المرور خلال ذروة أحداث المبيعات."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Shopify."
+        "metric": "سريع",
+        "title": "تحويل الخروج",
+        "description": "استفد من ميزة \"Shop Pay\" لتوفير تجربة الدفع الأسرع والأكثر موثوقية في العالم لعملائك."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Shopify delivery."
+        "metric": "3000+",
+        "title": "النظام البيئي للتطبيق",
+        "description": "يمكنك الوصول إلى مكتبة واسعة من الإضافات التي تم اختبارها مسبقًا لإضافة وظائف معقدة في جزء صغير من الوقت."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Shopify inside open architecture patterns."
+        "metric": "صفر",
+        "title": "انتفاخ الصيانة",
+        "description": "ركز 100% من ميزانيتك الفنية على الابتكار بدلاً من إدارة الخادم وتصحيحات الأمان."
       }
     ]
   },
   "quote_section": {
-    "quote": "Shopify gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Shopify يحول تعقيد التجارة العالمية إلى",
+    "highlight": "سير العمل الفني السلس"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Shopify roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم حل التجارة الخاص بك",
+    "subtitle": "استشر متخصصينا الرئيسيين في Shopify لتحديد خارطة الطريق الخاصة بك أو استراتيجية التطبيق المخصصة.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Shopify architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف أهدافك التجارية أو التحديات المعمارية...",
+    "button_text": "طلب التدقيق الفني"
   }
 }

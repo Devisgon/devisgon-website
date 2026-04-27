@@ -1,103 +1,116 @@
 {
   "slug": "mongodb",
+  "seo_metadata": {
+    "title": "تطوير MongoDB قابل للتطوير وتصميم مخطط NoSQL",
+    "description": "خدمات تنفيذ المؤسسات MongoDB. نحن نبني قواعد بيانات مستندات مرنة وعالية الأداء مصممة للنطاق الأفقي والتكرار السريع.",
+    "keywords": [
+      "تطوير مونغو دي بي",
+      "تصميم قاعدة بيانات NoSQL",
+      "بنية قاعدة بيانات الوثيقة",
+      "نمذجة البيانات BSON",
+      "إطار تجميع MongoDB",
+      "تطوير مكدس MERN",
+      "حلول تقاسم قواعد البيانات"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "قاعدة بيانات المستندات الرائدة",
+    "title": "تحجيم مرن مع",
     "highlight": "MongoDB",
-    "description": "Build production systems with MongoDB in our database delivery ecosystem.",
+    "description": "أطلق العنان لإنتاجية المطورين باستخدام نموذج بيانات مستند إلى مستند يتم تعيينه مباشرة إلى التعليمات البرمجية الخاصة بك، مما يتيح تسليم الميزات بسرعة عالية والقياس دون عناء.",
     "side_image": "/technologies/mongodb/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين مجموعتك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "الأنماط الفنية",
       "href": "/technologies/mongodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "MongoDB plays a critical role in our database strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع MongoDB",
+    "subtitle": "يوفر MongoDB المرونة المعمارية اللازمة للتطبيقات الحديثة مع متطلبات البيانات المتطورة.",
     "paragraphs": [
-      "MongoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using MongoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "يسمح نموذج مستند MongoDB (BSON) بالهياكل المتداخلة والمخططات المرنة، مما يزيل الاحتكاك بين وصلات SQL المعقدة. نختاره للمشاريع التي يكون فيها إنشاء النماذج الأولية السريعة والقدرة على تخزين البيانات متعددة الأشكال أمرًا بالغ الأهمية لسرعة الأعمال.",
+      "من خلال النسخ المتماثل المدمج والتقطيع الأفقي، يضمن MongoDB أن يظل تطبيقك متاحًا وعالي الأداء حتى مع نمو بياناتك إلى نطاق تيرابايت وما بعده."
     ],
     "cards": [
       {
-        "title": "MongoDB Clarity",
-        "description": "MongoDB helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "المخطط الديناميكي",
+        "description": "التكرار بشكل أسرع دون التوقف عن عمليات الترحيل التقليدية؛ يمكن أن تختلف المستندات في البنية عبر نفس المجموعة.",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "MongoDB Performance",
-        "description": "MongoDB supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "تجميع قوي",
+        "description": "قم بمعالجة البيانات محليًا باستخدام لغة استعلام غنية وخط أنابيب تجميع للتحليلات في الوقت الفعلي.",
+        "icon_type": "FaStream"
       },
       {
-        "title": "MongoDB Reliability",
-        "description": "MongoDB strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "التوفر العالي الأصلي",
+        "description": "يعمل تجاوز الفشل التلقائي وتكرار البيانات عبر مجموعات النسخ المتماثلة على إبقاء تطبيقك متصلاً بالإنترنت على مدار الساعة طوال أيام الأسبوع.",
+        "icon_type": "FaShieldVirus"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق تصميم MongoDB",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with MongoDB-ready patterns designed for dynamic cloud scaling."
+        "title": "نمذجة بيانات الوثيقة",
+        "description": "تصميم إستراتيجيات \"التضمين مقابل المرجع\" لتحسين أعباء العمل الثقيلة للقراءة/الكتابة وتقليل عمليات IOPS."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "MongoDB integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "التكامل السحابي أطلس",
+        "description": "نشر مجموعات مُدارة بالكامل مع إمكانية الوصول إلى السحابة المتعددة والتوسع الآلي وإمكانيات البحث المتكاملة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use MongoDB to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "مجموعات السلاسل الزمنية",
+        "description": "تنفيذ مجموعات متخصصة لإنترنت الأشياء والبيانات المالية عالية الإنتاجية مع التقادم والضغط التلقائي."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the MongoDB stack.",
+    "title": "حافة MongoDB",
+    "subtitle": "مزايا الأداء للتطبيقات الحديثة المعتمدة على البيانات.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging MongoDB effectively."
+        "metric": "3x",
+        "title": "ترميز أسرع",
+        "description": "تسريع عملية التطوير باستخدام تنسيق بيانات يعكس الكائنات الأصلية في معظم لغات البرمجة."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with MongoDB."
+        "metric": "مرن",
+        "title": "قابلية التوسع",
+        "description": "يمكنك التوسع أفقيًا عبر أجهزة السلع الأساسية باستخدام التقسيم الأصلي مع عدم توقف التطبيق عن العمل."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate MongoDB delivery."
+        "metric": "99.99%",
+        "title": "الجهوزية",
+        "description": "تم تحقيق الموثوقية من خلال مجموعات النسخ المتماثلة الموزعة وبروتوكولات الإصلاح الذاتي الآلية."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using MongoDB inside open architecture patterns."
+        "metric": "صفر",
+        "title": "اختناقات SQL",
+        "description": "تجنب نتائج الأداء للصلات العلائقية المعقدة من خلال استخدام المستندات غير الطبيعية والمكتفية ذاتيًا."
       }
     ]
   },
   "quote_section": {
-    "quote": "MongoDB gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يسمح MongoDB لقاعدة البيانات بالتطور بسرعة",
+    "highlight": "رمز التطبيق"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your MongoDB roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "قم بتوسيع نطاق متجر المستندات الخاص بك",
+    "subtitle": "استشر خبراء NoSQL لدينا لتحسين خطوط التجميع لديك أو التخطيط لترحيل Atlas الخاص بك.",
+    "full_name_label": "اسم المهندس الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "التحدي الفني",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your MongoDB architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف التحدي الذي تواجهه في نمذجة البيانات أو متطلبات القياس...",
+    "button_text": "ابدأ"
   }
 }

@@ -3,7 +3,7 @@
   "hero_section": {
     "title": "Pruebas de rendimiento y carga",
     "subtitle": "Asegúrese de que su aplicación crezca bajo presión",
-    "description": "Don't let traffic spikes crash your business. Realizamos pruebas rigurosas de su software para garantizar tiempos de carga ultrarrápidos, una estabilidad impecable y una experiencia de usuario óptima bajo cargas de usuario masivas.",
+    "description": "No permita que los picos de tráfico afecten su negocio. Realizamos pruebas rigurosas de su software para garantizar tiempos de carga ultrarrápidos, una estabilidad impecable y una experiencia de usuario óptima bajo cargas de usuario masivas.",
     "buttons": [
       {
         "text": "Prueba de estrés mi aplicación",
@@ -87,7 +87,7 @@
         "icon": "SiK6"
       },
       {
-        "name": "gatito",
+        "name": "Gatling",
         "icon": "SiGatling"
       },
       {
@@ -115,7 +115,7 @@
         "icon": "FaCode"
       },
       {
-        "title": "Ejecución",
+        "title": "Execution",
         "description": "Implementamos usuarios virtuales desde múltiples ubicaciones geográficas para bombardear sus servidores con tráfico.",
         "icon": "FaPlay"
       },
@@ -131,15 +131,15 @@
     "image": "/all_services/performance_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problema",
+        "label": "Problem",
         "text": "Una plataforma de venta de entradas para eventos se estaba preparando para lanzar un festival de música muy esperado, pero en el pasado había fracasado durante ventas más pequeñas debido a bloqueos en la base de datos."
       },
       "solution": {
-        "label": "Solución",
+        "label": "Solution",
         "text": "Diseñamos una prueba de pico utilizando servidores en la nube distribuidos para simular que 100.000 usuarios intentaban comprar boletos simultáneamente, descubriendo cuellos de botella críticos en la API de su pasarela de pago y en el caché de Redis."
       },
       "result": {
-        "label": "Resultado",
+        "label": "Result",
         "text": "Después de aplicar nuestras recomendaciones de ajuste, la plataforma procesó con éxito la avalancha completa de 100 000 usuarios con un tiempo de actividad del 100 % y tiempos de respuesta promedio de menos de 2 segundos."
       }
     }

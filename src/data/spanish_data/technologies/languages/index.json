@@ -1,103 +1,116 @@
 {
-  "slug": "languages",
+  "slug": "programming-languages",
+  "seo_metadata": {
+    "title": "Lenguajes de programación empresarial | Ingeniería de software políglota",
+    "description": "Desarrollo de software personalizado en Java, Python, TypeScript, C++ y más. Diseñamos sistemas escalables y de alto rendimiento utilizando el lenguaje óptimo para su carga de trabajo específica.",
+    "keywords": [
+      "Desarrollo de software empresarial",
+      "Programación políglota",
+      "Ingeniería de IA con Python",
+      "Soluciones de backend de Java",
+      "Arquitectura web mecanografiada",
+      "Programación de sistemas C++",
+      "Computación de alto rendimiento"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Languages",
-    "description": "Build production systems with Java, JavaScript, Python, TypeScript, PHP, C++, and C.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "La Fundación de Ingeniería",
+    "title": "Escala infinita con",
+    "highlight": "Pilas en varios idiomas",
+    "description": "Cierre la brecha entre la eficiencia del hardware y la velocidad del desarrollador con una selección estratégica de lenguajes Java, Python, TypeScript, PHP y de la familia C.",
+    "side_image": "/services_page/languages-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Consulta a un Arquitecto",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Ver hoja de ruta técnica",
       "href": "/technologies/languages#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Languages forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "Por qué es importante la elección del idioma.",
+    "subtitle": "Elegir la sintaxis adecuada para el problema correcto reduce la deuda técnica y maximiza el rendimiento en tiempo de ejecución.",
     "paragraphs": [
-      "Java, JavaScript, Python, TypeScript, PHP, C++, and C gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "Nuestro enfoque políglota (dominio de Java, JavaScript, Python, TypeScript, PHP, C++ y C) nos permite implementar la herramienta adecuada para el trabajo adecuado. Ya sea la tipificación estricta de Java para transacciones financieras, la creación rápida de prototipos de Python para modelos de IA o la precisión quirúrgica de C++ para motores de baja latencia, nos aseguramos de que su pila esté optimizada para su misión específica.",
+      "Al estandarizarnos en lenguajes maduros y de alta comunidad, brindamos a nuestros clientes bases de código \"preparadas para el futuro\". Esta estrategia garantiza la mantenibilidad a largo plazo, la fácil adquisición de talentos y el acceso a un ecosistema global de bibliotecas y parches de seguridad probados en batalla."
     ],
     "cards": [
       {
-        "title": "Unmatched Readability",
-        "description": "Use the right language per workload to keep code clear and handoffs fast.",
-        "icon_type": "FaBookReader"
+        "title": "Optimización de la carga de trabajo",
+        "description": "Alinee los modelos de ejecución de lenguaje (JIT, interpretado o compilado) con sus objetivos de rendimiento específicos.",
+        "icon_type": "FaCogs"
       },
       {
-        "title": "Scientific Dominance",
-        "description": "Python and TypeScript ecosystems accelerate AI and product engineering speed.",
-        "icon_type": "FaFlask"
+        "title": "Velocidad del desarrollador",
+        "description": "Aproveche lenguajes de alto nivel como TypeScript y Python para acelerar el tiempo de comercialización de lógica compleja.",
+        "icon_type": "FaRocket"
       },
       {
-        "title": "Enterprise Backbone",
-        "description": "Java, C++, and C power performance-critical services with proven stability.",
-        "icon_type": "FaLayerGroup"
+        "title": "Estabilidad del sistema",
+        "description": "Utilice lenguajes fuertemente tipados y seguros para la memoria para evitar errores de tiempo de ejecución en servicios de misión crítica.",
+        "icon_type": "FaShieldAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance de la estrategia políglota",
+    "image": "/services_page/languages-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with languages choices matched to runtime and scaling goals."
+        "title": "Sistemas distribuidos de múltiples pilas",
+        "description": "Orquestar microservicios donde cada servicio está escrito en el lenguaje que mejor se adapta a sus limitaciones de tiempo de ejecución."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "Canalizaciones de datos de alto rendimiento",
+        "description": "Creación de flujos de trabajo de procesamiento de datos e inteligencia artificial utilizando las bibliotecas científicas de Python combinadas con núcleos de rendimiento de C++."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "Modernización heredada",
+        "description": "Uniendo capas empresariales establecidas de C/C++ o Java con interfaces modernas y reactivas de TypeScript y PHP."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Languages stack.",
+    "title": "La ventaja estratégica de la ingeniería",
+    "subtitle": "Ventajas cuantificables de una pila de idiomas optimizada.",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "title": "Menor latencia",
+        "description": "Mejoras de rendimiento logradas al migrar los cuellos de botella centrales a lenguajes compilados como C++ o Java."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "Universal",
+        "title": "Portabilidad",
+        "description": "Flexibilidad de implementación en entornos de nube, perimetrales y locales a través de tiempos de ejecución multiplataforma."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "Global",
+        "title": "Comunidad",
+        "description": "Acceso inmediato a millones de módulos de código abierto, lo que reduce significativamente los costos de ingeniería personalizada."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "Cero",
+        "title": "Bloqueo",
+        "description": "Control total sobre su IP utilizando lenguajes de estándar abierto sin requisitos de licencia de propiedad."
       }
     ]
   },
   "quote_section": {
-    "quote": "Python is an experiment in how much complexity can be hidden behind",
-    "highlight": "aesthetic simplicity"
+    "quote": "Los límites de mi lengua significan los límites de mi mundo; nosotros elegimos",
+    "highlight": "pilas ilimitadas"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your languages roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su infraestructura",
+    "subtitle": "Consulte con nuestros principales especialistas técnicos para definir la hoja de ruta lingüística óptima para su empresa.",
+    "full_name_label": "Nombre del arquitecto principal",
+    "business_email_label": "Correo electrónico de la entidad",
+    "message_label": "Requisito Estratégico",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describa su desafío arquitectónico o sus objetivos de rendimiento...",
+    "button_text": "Solicitar una Auditoría Técnica"
   }
 }

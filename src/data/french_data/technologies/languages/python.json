@@ -1,103 +1,116 @@
 {
   "slug": "python",
+  "seo_metadata": {
+    "title": "Développement Python d'entreprise | IA, science des données et solutions backend",
+    "description": "Ingénierie logicielle Python personnalisée pour l'IA, l'apprentissage automatique et les backends évolutifs. Nous construisons des systèmes maintenables à grande vitesse en utilisant des architectures Pythoniques modernes.",
+    "keywords": [
+      "Développement de logiciels Python",
+      "Ingénierie de l’IA et de l’apprentissage automatique",
+      "Solutions Django et FastAPI",
+      "Pipelines de science des données",
+      "Scripts d'automatisation Python",
+      "Architecture back-end évolutive",
+      "Python de calcul scientifique"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Le langage de l'innovation",
+    "title": "Conception intelligente avec",
     "highlight": "Python",
-    "description": "Build production systems with Python in our languages delivery ecosystem.",
+    "description": "Accélérez votre passage de l'idée à la production grâce à un langage optimisé pour la productivité des développeurs, le calcul scientifique et l'automatisation de niveau entreprise.",
     "side_image": "/technologies/python/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Construisez votre logique",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Documentation technique",
       "href": "/technologies/python#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Python plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Python",
+    "subtitle": "Python offre la voie la plus simple pour résoudre des défis mathématiques et logiques complexes à grande échelle.",
     "paragraphs": [
-      "Python is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Python with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Python est notre principal moteur pour les applications gourmandes en données et l'intelligence artificielle. Sa « simplicité esthétique » permet à nos architectes d'écrire un code expressif et maintenable qui réduit l'écart entre la recherche scientifique et les logiciels prêts pour la production. En utilisant son vaste écosystème de bibliothèques spécialisées, nous résolvons des problèmes complexes en moins de lignes de code.",
+      "Au-delà de sa domination dans l'IA, la polyvalence de Python en matière d'ingénierie backend, grâce à des frameworks comme Django et FastAPI, garantit que nous pouvons créer des API hautement sécurisées et évolutives. Cette capacité multidomaine nous permet d'unifier vos équipes de science des données et d'ingénierie Web sous une pile linguistique unique à haute vitesse."
     ],
     "cards": [
       {
-        "title": "Python Clarity",
-        "description": "Python helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Dominance scientifique",
+        "description": "Tirez parti des bibliothèques standard de l'industrie telles que NumPy, Pandas et TensorFlow pour un traitement avancé des données.",
+        "icon_type": "FaFlask"
       },
       {
-        "title": "Python Performance",
-        "description": "Python supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Prototypage rapide",
+        "description": "Transformez des idées complexes en preuves de concept fonctionnelles plus rapidement que tout autre langage de haut niveau.",
+        "icon_type": "FaRocket"
       },
       {
-        "title": "Python Reliability",
-        "description": "Python strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Lisibilité nette",
+        "description": "Appliquez des normes élevées avec une syntaxe qui met l’accent sur la clarté, réduisant ainsi les coûts de maintenance à long terme.",
+        "icon_type": "FaEye"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée technique Python",
     "image": "/technologies/python/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Python-ready patterns designed for dynamic cloud scaling."
+        "title": "Modèles d'IA et d'apprentissage automatique",
+        "description": "Concevoir et déployer des modèles prédictifs, des moteurs PNL et des systèmes de vision par ordinateur en production."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Python integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Pipelines de données à haut débit",
+        "description": "Orchestration de processus ETL robustes qui transforment des ensembles de données massifs en intelligence opérationnelle exploitable."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Python to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Microservices API asynchrones",
+        "description": "Créez des backends asynchrones ultra-rapides à l'aide de FastAPI et Trio pour les environnements à haute concurrence."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Python stack.",
+    "title": "L'avantage Python",
+    "subtitle": "Avantages stratégiques pour les organisations basées sur les données.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Python effectively."
+        "metric": "50%",
+        "title": "TTM plus rapide",
+        "description": "Réduction moyenne du temps de développement initial pour des modules logiques et scientifiques complexes."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Python."
+        "metric": "100%",
+        "title": "Compatible IA",
+        "description": "Intégration transparente avec les frameworks d'apprentissage automatique et d'automatisation les plus avancés au monde."
       },
       {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Python delivery."
+        "title": "Bibliothèques ouvertes",
+        "description": "Accès immédiat au Python Package Index (PyPI) pour les modules pré-approuvés dans tous les secteurs."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Python inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Ballonnement de complexité",
+        "description": "Maintenez des bases de code simples et lisibles même si la logique sous-jacente gagne en sophistication."
       }
     ]
   },
   "quote_section": {
-    "quote": "Python gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Python est une expérience sur la complexité qui peut se cacher derrière",
+    "highlight": "simplicité esthétique"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Python roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Architectez votre intelligence",
+    "subtitle": "Consultez nos principaux spécialistes Python pour définir votre feuille de route IA ou optimiser votre infrastructure backend.",
+    "full_name_label": "Architecte de données principal",
+    "business_email_label": "Courriel d'entreprise",
+    "message_label": "Exigence stratégique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Python architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos enjeux data ou votre vision AI/ML...",
+    "button_text": "Demander un audit technique"
   }
 }

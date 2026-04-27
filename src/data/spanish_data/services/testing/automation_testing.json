@@ -79,19 +79,19 @@
     "subtitle": "El software de automatización más confiable de la industria",
     "tools": [
       {
-        "name": "Ciprés",
+        "name": "Cypress",
         "icon": "SiCypress"
       },
       {
-        "name": "Dramaturgo",
+        "name": "Playwright",
         "icon": "SiPlaywright"
       },
       {
-        "name": "Selenio",
+        "name": "Selenium",
         "icon": "SiSelenium"
       },
       {
-        "name": "apio",
+        "name": "Appium",
         "icon": "SiAppium"
       },
       {
@@ -115,7 +115,7 @@
         "icon": "FaProjectDiagram"
       },
       {
-        "title": "secuencias de comandos",
+        "title": "Scripting",
         "description": "Escribimos scripts de automatización modulares y limpios para ejecutar los escenarios de prueba definidos.",
         "icon": "FaCode"
       },
@@ -131,15 +131,15 @@
     "image": "/all_services/automation_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problema",
+        "label": "Problem",
         "text": "Una plataforma de comercio electrónico estaba luchando con una enorme sobrecarga de pruebas manuales. Cada actualización importante requirió que un equipo de 5 evaluadores pasaran 3 días completos haciendo clic en el sitio."
       },
       "solution": {
-        "label": "Solución",
+        "label": "Solution",
         "text": "Creamos un marco de automatización integral de extremo a extremo utilizando Cypress, que cubre todos los flujos de pago críticos, inicios de sesión de usuarios y búsquedas en catálogos."
       },
       "result": {
-        "label": "Resultado",
+        "label": "Result",
         "text": "Las pruebas de regresión ahora se ejecutan automáticamente en solo 45 minutos con cada inserción de código, lo que permite al cliente implementar actualizaciones de forma segura semanalmente en lugar de mensualmente."
       }
     }
@@ -154,7 +154,7 @@
       },
       {
         "question": "¿Cuándo es el momento adecuado para empezar a automatizar las pruebas?",
-        "answer": "Debe comenzar a automatizar las pruebas una vez que la interfaz de usuario y la lógica central de una característica sean relativamente estables. Si intenta automatizar una función que cambia de diseño todos los días, dedicará más tiempo a corregir scripts de prueba defectuosos que a realizar pruebas."
+        "answer": "Debe comenzar a automatizar las pruebas una vez que la interfaz de usuario y la lógica central de una función sean relativamente estables. Si intenta automatizar una función que cambia de diseño todos los días, dedicará más tiempo a corregir scripts de prueba defectuosos que a realizar pruebas."
       },
       {
         "question": "¿La automatización reemplazará a mi equipo de control de calidad manual?",

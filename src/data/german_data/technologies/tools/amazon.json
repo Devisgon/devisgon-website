@@ -1,103 +1,116 @@
 {
   "slug": "amazon",
+  "seo_metadata": {
+    "title": "Enterprise AWS Cloud-Architektur und Beratungsservices",
+    "description": "Professionelle AWS-Implementierungs- und Migrationsdienste. Wir entwickeln skalierbare, sichere und kostenoptimierte Cloud-Lösungen mit AWS Lambda, EC2 und S3.",
+    "keywords": [
+      "AWS Cloud-Beratung",
+      "Amazon Web Services-Architektur",
+      "Serverloses Computing",
+      "AWS Cloud-Migration",
+      "Infrastruktur als Code",
+      "Best Practices für die AWS-Sicherheit",
+      "Cloud-Kostenoptimierung"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Amazon",
-    "description": "Build production systems with Amazon in our tools delivery ecosystem.",
-    "side_image": "/technologies/amazon/hero.webp",
+    "eyebrow": "Globale Cloud-Infrastruktur",
+    "title": "Skalieren Sie ohne Grenzen mit",
+    "highlight": "AWS",
+    "description": "Erstellen, implementieren und verwalten Sie produktionstaugliche Anwendungen auf der weltweit umfassendsten und am weitesten verbreiteten Cloud-Plattform.",
+    "side_image": "/technologies/aws/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimieren Sie Ihre Cloud",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Architekturmuster anzeigen",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Amazon plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Warum wir auf AWS entwickeln",
+    "subtitle": "AWS bietet die ausgereifteste und sicherste Grundlage für moderne verteilte Systeme.",
     "paragraphs": [
-      "Amazon is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Amazon with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "AWS ist unsere erste Wahl für Cloud-Hosting und Automatisierung auf Unternehmensniveau. Durch die Nutzung des umfangreichen Angebots von über 200 voll ausgestatteten Diensten – von der Datenverarbeitung und Speicherung bis hin zu fortschrittlicher KI/ML – beseitigen wir die Einschränkungen physischer Hardware und ermöglichen Ihrem Unternehmen eine sofortige Skalierung als Reaktion auf die Marktnachfrage.",
+      "Unser Architekturansatz konzentriert sich auf das AWS Well-Architected Framework. Wir stellen sicher, dass Ihre Infrastruktur auf fünf Säulen aufbaut: betriebliche Exzellenz, Sicherheit, Zuverlässigkeit, Leistungseffizienz und Kostenoptimierung, wodurch langfristige technische Schulden und Betriebsrisiken reduziert werden."
     ],
     "cards": [
       {
-        "title": "Amazon Clarity",
-        "description": "Amazon helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Unübertroffene Skalierbarkeit",
+        "description": "Nutzen Sie Auto Scaling und Elastic Load Balancing, um Verkehrsspitzen ohne manuelles Eingreifen zu bewältigen.",
+        "icon_type": "FaExpandArrowsAlt"
       },
       {
-        "title": "Amazon Performance",
-        "description": "Amazon supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Unternehmenssicherheit",
+        "description": "Implementieren Sie Verschlüsselung auf Militärniveau und Identity and Access Management (IAM), um sensible Daten zu schützen.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Amazon Reliability",
-        "description": "Amazon strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Kosteneffizienz",
+        "description": "Zahlen Sie nur für das, was Sie nutzen, mit On-Demand-Preisen und Spot-Instanzen für unkritische Arbeitslasten.",
+        "icon_type": "FaWallet"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/amazon/scope.webp",
+    "id": "Technologie-Architektur",
+    "title": "AWS-Architekturumfang",
+    "image": "/technologies/aws/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Amazon-ready patterns designed for dynamic cloud scaling."
+        "title": "Serverlose Architekturen",
+        "description": "Bereitstellung ereignisgesteuerter Logik mit AWS Lambda und API Gateway für Zero-Server-Management und hohe Verfügbarkeit."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Amazon integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Verwaltete Data Lakes",
+        "description": "Aufbau robuster Datenspeicher- und Analysepipelines mit Amazon S3, Glue und Redshift für Big-Data-Einblicke."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Amazon to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Hybrid-Cloud-Integration",
+        "description": "Überbrückung von Rechenzentren vor Ort mit der Cloud mithilfe von AWS Direct Connect und VPC-Peering für sichere Konnektivität mit geringer Latenz."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Amazon stack.",
+    "title": "Der AWS-Vorteil",
+    "subtitle": "Quantifizierbare Effizienz für eine globale digitale Präsenz.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon effectively."
+        "metric": "99,99 %",
+        "title": "Verfügbarkeits-SLA",
+        "description": "Branchenführende Zuverlässigkeit über mehrere Verfügbarkeitszonen und globale Regionen hinweg."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Amazon."
+        "metric": "200+",
+        "title": "Voll ausgestattete Dienste",
+        "description": "Sofortiger Zugriff auf die umfangreichsten Cloud-Tools, einschließlich KI, IoT und Hochleistungsrechnen."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon delivery."
+        "metric": "315+",
+        "title": "Präsenzpunkte",
+        "description": "Stellen Sie Inhalte mit extrem geringer Latenz über das globale Edge-Netzwerk Amazon CloudFront bereit."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Amazon inside open architecture patterns."
+        "metric": "Null",
+        "title": "Hardware-Overhead",
+        "description": "Eliminieren Sie den Bedarf an physischer Wartung, sodass sich die Teams zu 100 % auf Produktinnovationen konzentrieren können."
       }
     ]
   },
   "quote_section": {
-    "quote": "Amazon gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "AWS verwandelt die Infrastruktur in einen programmierbaren Vermögenswert, mit dem wir bauen können",
+    "highlight": "unendliche Flexibilität"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Amazon roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Gestalten Sie Ihre Cloud-Lösung",
+    "subtitle": "Wenden Sie sich an unsere AWS Certified Solutions Architects, um Ihre Migrations-Roadmap oder Kostenoptimierungsstrategie zu definieren.",
+    "full_name_label": "Leitender Architekt",
+    "business_email_label": "Unternehmens-E-Mail",
+    "message_label": "Cloud-Anforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Amazon architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihre AWS-Skalierungsherausforderungen oder Migrationsziele ...",
+    "button_text": "Fordern Sie ein Cloud-Audit an"
   }
 }

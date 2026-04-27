@@ -6,7 +6,7 @@ import TechnologiesMainPage from "@/components/technologies/main_page";
 import { getCachedLanguage } from "@/lib/language";
 import { TECHNOLOGIES_PAGE_METADATA } from "@/lib/seo";
 import { getTechnologiesListingData, getTechnologyData } from "@/data/loaders/technologies";
-import navbarData from "@/data/navbar.json";
+import { getNavbarDataByLang } from "@/lib/localized-content";
 
 export const metadata: Metadata = TECHNOLOGIES_PAGE_METADATA;
 
@@ -22,8 +22,9 @@ export default async function TechnologiesPage() {
   const withLang = (href: string) => (lang === "en" ? href : `${href}${href.includes("?") ? "&" : "?"}lang=${lang}`);
   const listingCards = Array.isArray(data.technology_cards) ? data.technology_cards : [];
   const categoryDescriptionMap = new Map(listingCards.map((card) => [card.title.toLowerCase(), card.description]));
+  const navbarData = getNavbarDataByLang(lang);
 
-  const technologiesDropdown = navbarData.navbar.find((item) => item.name.toLowerCase() === "technologies")?.dropdown;
+  const technologiesDropdown = navbarData.navbar.find((item) => item.href === "/technologies")?.dropdown;
   const technologyGroups =
     technologiesDropdown?.columns
       ?.map((column) => {

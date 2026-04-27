@@ -1,103 +1,116 @@
 {
   "slug": "nextjs",
+  "seo_metadata": {
+    "title": "انٹرپرائز Next.js ڈویلپمنٹ | ہائی پرفارمنس ری ایکٹ فریم ورک",
+    "description": "SEO کے لیے آپٹمائزڈ، تیز رفتار ویب ایپلیکیشنز کے لیے ماہر Next.js کا نفاذ۔ ہم توسیع پذیر ڈیجیٹل مصنوعات بنانے کے لیے سرور کے اجزاء اور SSR کا فائدہ اٹھاتے ہیں۔",
+    "keywords": [
+      "Next.js ڈویلپمنٹ",
+      "ری ایکٹ سرور کے اجزاء",
+      "سرور سائیڈ رینڈرنگ (SSR)",
+      "جامد سائٹ جنریشن (SSG)",
+      "ایپ راؤٹر آرکیٹیکچر",
+      "اضافی جامد تخلیق نو",
+      "ورسل تعیناتی"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "ویب کے لیے رد عمل کا فریم ورک",
+    "title": "کے ساتھ اعلیٰ کارکردگی",
     "highlight": "Next.js",
-    "description": "Build production systems with Next.js in our frameworks delivery ecosystem.",
+    "description": "اس فریم ورک کے ساتھ تیز رفتار، SEO دوستانہ، اور انتہائی انٹرایکٹو صارف کے تجربات فراہم کریں جو سرور کی طرف پیش کش اور جامد سائٹ کی تخلیق کو آسان بناتا ہے۔",
     "side_image": "/technologies/next_js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے ویب وائٹلز کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی تفصیلات دیکھیں",
       "href": "/technologies/nextjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Next.js plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "ہم Next.js کے ساتھ انجینئر کیوں؟",
+    "subtitle": "Next.js جامد رفتار اور متحرک طاقت کے درمیان فرق کو ختم کرتا ہے، جدید ویب ایپس کے لیے ایک بے مثال بنیاد فراہم کرتا ہے۔",
     "paragraphs": [
-      "Next.js is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Next.js with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Next.js ان پروجیکٹس کے لیے ہمارا بنیادی انتخاب ہے جہاں کارکردگی اور دریافت قابل قدر ہیں۔ اس کی ہائبرڈ رینڈرنگ کی صلاحیتوں کو بروئے کار لا کر، ہم سرور پر متحرک ڈیٹا حاصل کرتے ہوئے، کلائنٹ کو بھیجے گئے JavaScript بنڈل کے سائز کو نمایاں طور پر کم کرتے ہوئے، تقریباً فوری لوڈ اوقات کے لیے جامد مواد فراہم کر سکتے ہیں۔",
+      "ایپ راؤٹر اور سرور کے اجزاء کے تعارف نے ہمیں 'سرور-فرسٹ' ذہنیت کے ساتھ ایپلیکیشنز کو آرکیٹیکٹ کرنے کی اجازت دی ہے۔ یہ اس بات کو یقینی بناتا ہے کہ آپ کی ایپلیکیشن کم طاقت والے آلات پر بھی جوابدہ اور قابل رسائی رہے، کیونکہ ہیوی لفٹنگ سرور کے انفراسٹرکچر کے ذریعے ہینڈل کی جاتی ہے۔"
     ],
     "cards": [
       {
-        "title": "Next.js Clarity",
-        "description": "Next.js helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "ہائبرڈ رینڈرنگ",
+        "description": "انتہائی رفتار کے ساتھ تازہ ڈیٹا کو متوازن کرنے کے لیے فی صفحہ کی بنیاد پر SSR، SSG، اور ISR کے درمیان انتخاب کریں۔",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Next.js Performance",
-        "description": "Next.js supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "SEO ایکسی لینس",
+        "description": "میٹا ڈیٹا اور سرور کے ذریعے فراہم کردہ مواد کے لیے مقامی تعاون یقینی بناتا ہے کہ آپ کی سائٹ تلاش کے نتائج میں اونچے درجے پر ہے۔",
+        "icon_type": "FaSearch"
       },
       {
-        "title": "Next.js Reliability",
-        "description": "Next.js strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "آپٹمائزڈ وائٹلز",
+        "description": "صنعت کے معروف کور ویب وائٹلز کے لیے خودکار امیج آپٹیمائزیشن، فونٹ ہوسٹنگ اور اسکرپٹ لوڈنگ۔",
+        "icon_type": "FaTachometerAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "فریم ورک کا دائرہ کار",
     "image": "/technologies/next_js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Next.js-ready patterns designed for dynamic cloud scaling."
+        "title": "ایپ راؤٹر آرکیٹیکچر",
+        "description": "ہموار، اعلی کارکردگی والے نیویگیشن کے لیے پیچیدہ نیسٹڈ لے آؤٹس اور اسٹریمنگ ڈیٹا فیچنگ کو نافذ کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Next.js integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "ایج رن ٹائم سروسز",
+        "description": "صفر لیٹنسی کے ساتھ ذاتی نوعیت کا مواد فراہم کرنے کے لیے نیٹ ورک کے کنارے پر مڈل ویئر اور فنکشنز کو تعینات کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Next.js to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "API روٹس اور سرور ایکشنز",
+        "description": "ٹائپ سیف سرور فنکشنز کے ساتھ فل اسٹیک خصوصیات کی تعمیر جو پیچیدہ API آرکیسٹریشن کی ضرورت کو ختم کرتی ہے۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Next.js stack.",
+    "title": "The Next.js Edge",
+    "subtitle": "قابل مقداری میٹرکس جو ویب کے مستقبل کی وضاحت کرتی ہیں۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Next.js effectively."
+        "metric": "100/100",
+        "title": "لائٹ ہاؤس سکور",
+        "description": "خودکار فریم ورک کی سطح کی اصلاح کے ذریعے کامل کارکردگی اور SEO سکور حاصل کریں۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Next.js."
+        "metric": "صفر",
+        "title": "سی ایل ایس کے مسائل",
+        "description": "Next.js کے آپٹمائزڈ امیج اور فونٹ کے اجزاء کا استعمال کرتے ہوئے مجموعی لے آؤٹ شفٹ کو ختم کریں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Next.js delivery."
+        "metric": "حقیقی وقت",
+        "title": "تخلیق نو",
+        "description": "Incremental Static Regeneration (ISR) کا استعمال کرتے ہوئے مکمل تعمیر نو کے بغیر جامد مواد کو اپ ڈیٹ کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Next.js inside open architecture patterns."
+        "metric": "فعال",
+        "title": "ورسل سپورٹ",
+        "description": "گلوبل اسکیل ایبلٹی کے لیے Next.js اور Vercel edge نیٹ ورک کے درمیان گہرے انضمام کا فائدہ اٹھانا۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Next.js gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Next.js ہمیں بغیر کسی سمجھوتہ کے انتہائی پیچیدہ React ایپلی کیشنز بنانے کی اجازت دیتا ہے۔",
+    "highlight": "SEO یا کارکردگی"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Next.js roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنی ویب کی موجودگی کو معمار بنائیں",
+    "subtitle": "ہمارے Next.js ماہرین سے مشورہ کریں کہ ایک اعلیٰ کارکردگی، مستقبل کے لیے پروف ڈیجیٹل پروڈکٹ تیار کریں۔",
+    "full_name_label": "لیڈ انجینئر",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "تکنیکی وژن",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Next.js architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے ویب کی کارکردگی کے اہداف یا تعمیراتی چیلنجوں کی وضاحت کریں...",
+    "button_text": "اپنا پروجیکٹ شروع کریں۔"
   }
 }

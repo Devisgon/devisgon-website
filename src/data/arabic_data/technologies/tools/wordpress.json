@@ -1,103 +1,116 @@
 {
   "slug": "wordpress",
+  "seo_metadata": {
+    "title": "تطوير ووردبريس للمؤسسات | نظام إدارة المحتوى بدون رأس والهندسة المعمارية المخصصة",
+    "description": "هندسة WordPress احترافية لمنصات المحتوى واسعة النطاق. نحن نصمم حلول WordPress بدون رأس، وموضوعات الكتل المخصصة، وسير عمل النشر عالي الأداء.",
+    "keywords": [
+      "تطوير ووردبريس للمؤسسات",
+      "هندسة ووردبريس بدون رأس",
+      "واجهة برمجة تطبيقات WP REST وGraphQL",
+      "كتل جوتنبرج المخصصة",
+      "حلول CMS قابلة للتطوير",
+      "تحسين أداء ووردبريس",
+      "تطوير ووردبريس المنفصل"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "WordPress",
-    "description": "Build production systems with WordPress in our tools delivery ecosystem.",
+    "eyebrow": "نظام إدارة المحتوى (CMS) الرائد في العالم",
+    "title": "سرعة المحتوى مع",
+    "highlight": "ووردبريس",
+    "description": "قم بتمكين فرق التحرير الخاصة بك باستخدام محرك نشر عالي الأداء مصمم للوصول العالمي والسيطرة على تحسين محركات البحث والتكامل السلس لواجهة برمجة التطبيقات أولاً.",
     "side_image": "/technologies/wordpress/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "قم ببناء النظام الأساسي الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض أنماط الهندسة المعمارية",
       "href": "/technologies/wordpress#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "WordPress plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام WordPress",
+    "subtitle": "يوفر WordPress الأساس الأكثر مرونة وقابلية للتوسعة للأنظمة البيئية الرقمية الحديثة التي تعتمد على المحتوى.",
     "paragraphs": [
-      "WordPress is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using WordPress with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "نحن نستخدم WordPress باعتباره أكثر من مجرد أداة للتدوين؛ إنها واجهة برمجة تطبيقات محتوى قوية للويب الحديث. من خلال الاستفادة من REST API وWPGraphQL الناضجين، يمكننا فصل إدارة الواجهة الخلفية عن الواجهة الأمامية، مما يسمح للمحتوى الخاص بك بتشغيل كل شيء بدءًا من تطبيقات الويب Next.js إلى تجارب الهاتف المحمول الأصلية دون إدخال مكرر.",
+      "تكمن القيمة الحقيقية لـ WordPress الحديث في محرر الكتلة Gutenberg. نحن نبني كتلًا مخصصة وعالية الأداء توفر لفريق التسويق الخاص بك تجربة بناء صفحة \"بدون تعليمات برمجية\" مع الحفاظ على معايير معمارية صارمة ومنع انحراف التصميم الذي غالبًا ما يوجد في منشئي الصفحات العامة."
     ],
     "cards": [
       {
-        "title": "WordPress Clarity",
-        "description": "WordPress helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "API-المرونة الأولى",
+        "description": "انشر WordPress باعتباره نظام إدارة محتوى بدون رأس لتغذية البيانات المنظمة في أطر عمل JavaScript الحديثة عبر REST أو GraphQL.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "WordPress Performance",
-        "description": "WordPress supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "التميز التحريري",
+        "description": "قم بتمكين منشئي المحتوى باستخدام محرر بديهي قائم على الكتل ومصمم خصيصًا لنظام تصميم علامتك التجارية المحددة.",
+        "icon_type": "FaPencilAlt"
       },
       {
-        "title": "WordPress Reliability",
-        "description": "WordPress strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "تحسين محركات البحث الأصلية",
+        "description": "استفد من البنية الأساسية التي تحبها محركات البحث، جنبًا إلى جنب مع الأدوات الرائدة في الصناعة لتحسين محركات البحث التقنية.",
+        "icon_type": "FaSearch"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق نظام إدارة المحتوى الفني",
     "image": "/technologies/wordpress/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with WordPress-ready patterns designed for dynamic cloud scaling."
+        "title": "نظام إدارة المحتوى المنفصل والمقطع الرأس",
+        "description": "تصميم واجهات خلفية آمنة وسريعة تعمل كمصدر وحيد للحقيقة لتوزيع المحتوى متعدد القنوات."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "WordPress integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "أنظمة الكتل المخصصة",
+        "description": "تطوير كتل Gutenberg الخاصة باستخدام React لضمان تجربة تحرير فعالة ومضبوطة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use WordPress to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "شبكات المؤسسات المتعددة المواقع",
+        "description": "تنظيم شبكات معقدة متعددة المجالات ومتعددة اللغات من خلال تثبيت WordPress واحد وموحد."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the WordPress stack.",
+    "title": "حافة ووردبريس",
+    "subtitle": "مكاسب تنافسية استراتيجية للنشر عالي الإنتاجية.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging WordPress effectively."
+        "metric": "40%+",
+        "title": "هيمنة السوق",
+        "description": "استفد من أكبر نظام بيئي في العالم للمطورين والمكونات الإضافية وتكاملات الجهات الخارجية."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with WordPress."
+        "metric": "في الوقت الحالى",
+        "title": "مزامنة المحتوى",
+        "description": "قم بتحديث المحتوى على الفور عبر منصات وأجهزة متعددة عبر مشغلات خطاف الويب المدمجة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate WordPress delivery."
+        "metric": "سريع",
+        "title": "تم",
+        "description": "قم بتسريع وقت طرح المنتج في السوق باستخدام مجموعة أساسية ناضجة تتعامل مع إدارة المستخدم والوسائط خارج الصندوق."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using WordPress inside open architecture patterns."
+        "metric": "صفر",
+        "title": "قفل البائع",
+        "description": "حافظ على ملكية بياناتك ومكدسك الفني بنسبة 100% من خلال أساس محمول مفتوح المصدر."
       }
     ]
   },
   "quote_section": {
-    "quote": "WordPress gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يحول WordPress الحديث تعقيد النشر الرقمي إلى",
+    "highlight": "تبسيط التدفق التشغيلي"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your WordPress roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم مركز المحتوى الخاص بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق WordPress بدون رأس أو إستراتيجية متعددة المواقع.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your WordPress architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف أهداف النشر أو التحديات المعمارية...",
+    "button_text": "طلب استشارة"
   }
 }

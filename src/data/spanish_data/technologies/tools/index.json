@@ -1,103 +1,116 @@
 {
   "slug": "tools",
+  "seo_metadata": {
+    "title": "Herramientas de integración empresarial y automatización del flujo de trabajo",
+    "description": "Optimice su negocio con la integración de n8n, Make, Zapier y Shopify. Diseñamos flujos de trabajo automatizados y canales comerciales para lograr la máxima eficiencia operativa.",
+    "keywords": [
+      "Automatización del flujo de trabajo",
+      "Servicios de integración n8n",
+      "Automatización de Make.com",
+      "Zapier para empresas",
+      "Desarrollo de Shopify",
+      "Soluciones de WordPress sin cabeza",
+      "Orquestación de procesos de negocio"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Tools",
-    "description": "Build production systems with n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "Orquestación y automatización",
+    "title": "Unificando flujos de trabajo con",
+    "highlight": "Herramientas integradas",
+    "description": "Transforme procesos fragmentados en ecosistemas digitales fluidos utilizando plataformas de automatización, motores comerciales y marcos CMS líderes en la industria.",
+    "side_image": "/services_page/tools-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Automatice su flujo de trabajo",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Hoja de ruta técnica",
       "href": "/technologies/tools#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Tools forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "Por qué diseñamos con herramientas.",
+    "subtitle": "Las selecciones de herramientas estratégicas nos permiten crear una lógica empresarial compleja con gastos generales significativamente reducidos.",
     "paragraphs": [
-      "n8n, Make, Zapier, Amazon, Shopify, and WordPress gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "Nuestra pila de automatización, que incluye n8n, Make y Zapier, nos permite conectar sus distintas aplicaciones SaaS en un flujo de trabajo único y coherente. Al aprovechar la orquestación de código bajo junto con el desarrollo de API personalizado, ofrecemos soluciones que se implementan rápidamente y tienen un alto mantenimiento, lo que permite que su equipo gire tan rápido como lo exige el mercado.",
+      "Al integrar sólidas plataformas comerciales y de contenido como Shopify y WordPress, brindamos una base de alta confianza para su tienda digital y presencia de marca. Nos centramos en arquitecturas \"independientes de las herramientas\" que garantizan que sus datos fluyan libremente entre sistemas, evitando silos y maximizando el retorno de la inversión de sus inversiones en software existentes."
     ],
     "cards": [
       {
-        "title": "Automation Velocity",
-        "description": "n8n, Make, and Zapier remove repetitive tasks and manual bottlenecks.",
-        "icon_type": "FaBolt"
+        "title": "Hiperautomatización",
+        "description": "Implemente puertas lógicas complejas y activadores en más de 1000 aplicaciones para eliminar la entrada manual de datos y los errores humanos.",
+        "icon_type": "FaSyncAlt"
       },
       {
-        "title": "Commerce Enablement",
-        "description": "Amazon and Shopify streamline channel operations and conversion workflows.",
-        "icon_type": "FaShoppingCart"
+        "title": "Comercio escalable",
+        "description": "Diseñe flujos de trabajo de Shopify y Amazon de alta conversión que se escalen automáticamente con el volumen de su pedido.",
+        "icon_type": "FaStore"
       },
       {
-        "title": "Publishing Scale",
-        "description": "WordPress supports consistent, high-throughput content operations.",
-        "icon_type": "FaWordpress"
+        "title": "Agilidad del contenido",
+        "description": "Utilice herramientas CMS y WordPress sin cabeza para entregar contenido en múltiples plataformas a través de API rápidas y seguras.",
+        "icon_type": "FaPencilRuler"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance de la integración",
+    "image": "/services_page/tools-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with tools choices matched to runtime and scaling goals."
+        "title": "Orquestación API-First",
+        "description": "Creación de conectores y webhooks personalizados para sincronizar datos entre bases de datos heredadas y herramientas modernas en la nube."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "Centros de marketing automatizados",
+        "description": "Conectar CRM, correo electrónico y canales sociales en bucles autosostenibles que nutren a los clientes potenciales sin intervención manual."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "Sincronización de inventario omnicanal",
+        "description": "Orquestar la sincronización de existencias y productos en tiempo real en los sistemas Shopify, Amazon y ERP."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Tools stack.",
+    "title": "La ventaja de la automatización",
+    "subtitle": "Eficiencia cuantificable para un flujo operativo moderno.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "metric": "60%",
+        "title": "Ganancia operativa",
+        "description": "Reducción promedio del tiempo dedicado a tareas administrativas manuales mediante la integración de herramientas estratégicas."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "en tiempo real",
+        "title": "Sincronización de datos",
+        "description": "Elimine la latencia de datos con actualizaciones instantáneas basadas en webhooks en toda su pila tecnológica."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "100%",
+        "title": "Escalabilidad",
+        "description": "Herramientas basadas en la nube que crecen con su negocio y manejan mayores cargas de trabajo sin contratación adicional."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "Seguro",
+        "title": "Conexiones",
+        "description": "Utilice OAuth 2.0 y cifrado de nivel empresarial para garantizar que los datos permanezcan seguros mientras se mueven entre plataformas."
       }
     ]
   },
   "quote_section": {
-    "quote": "Connected tooling transforms fragmented workflows into",
-    "highlight": "operational flow"
+    "quote": "Las herramientas conectadas transforman los flujos de trabajo fragmentados en",
+    "highlight": "flujo operativo"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your tools roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su solución",
+    "subtitle": "Consulte con nuestros especialistas técnicos líderes para definir una hoja de ruta que unifique sus herramientas fragmentadas.",
+    "full_name_label": "Nombre del arquitecto principal",
+    "business_email_label": "Correo electrónico de la entidad",
+    "message_label": "Requisito Estratégico",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describa los obstáculos actuales en su flujo de trabajo o los desafíos de integración...",
+    "button_text": "Iniciar auditoría de automatización"
   }
 }

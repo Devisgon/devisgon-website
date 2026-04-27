@@ -1,91 +1,186 @@
 {
   "navbar": [
     {
-      "name": "Home",
+      "name": "گھر",
       "href": "/"
     },
     {
-      "name": "About Us",
-      "href": "/#about"
-    },
-    {
-      "name": "Services",
+      "name": "خدمات",
       "href": "/services",
       "dropdown": {
         "columns": [
           {
-            "title": "AI and SaaS Development",
+            "title": "اے آئی اور ساس ڈویلپمنٹ",
             "links": [
               {
-                "name": "AI powered App",
+                "name": "اے آئی سے چلنے والی ایپ",
                 "href": "/services/saas/ai_powered_app"
               },
               {
-                "name": "Meachine Learning Models",
+                "name": "مشین لرننگ ماڈلز",
                 "href": "/services/saas/meachine_learning"
               },
               {
-                "name": "MVPs & POCs",
+                "name": "MVPs اور POCs",
                 "href": "/services/saas/mvps"
               },
               {
-                "name": "SaaS Platfroms",
+                "name": "ساس پلیٹ فارمز",
                 "href": "/services/saas/saas_plateform"
               }
             ]
           },
           {
-            "title": "Data Solutions",
+            "title": "آٹومیشنز",
             "links": [
               {
-                "name": "AI/Ml Models",
+                "name": "AI سے چلنے والی آٹومیشن",
+                "href": "/services/automations/ai_powered_automation"
+              },
+              {
+                "name": "API انٹیگریشن آٹومیشن",
+                "href": "/services/automations/api_integration"
+              },
+              {
+                "name": "بزنس پروسیس آٹومیشن",
+                "href": "/services/automations/business_process_automation"
+              },
+              {
+                "name": "فنانشل آٹومیشن",
+                "href": "/services/automations/accounting"
+              },
+              {
+                "name": "انفراسٹرکچر آٹومیشن",
+                "href": "/services/automations/devops-infrastructure-automation"
+              },
+              {
+                "name": "کم کوڈ آٹومیشن",
+                "href": "/services/automations/low_code_automations"
+              },
+              {
+                "name": "مارکیٹنگ اور سیلز آٹومیشن",
+                "href": "/services/automations/marketing-sales-automation"
+              },
+              {
+                "name": "روبوٹک پروسیس آٹومیشن",
+                "href": "/services/automations/robotic-process-automation"
+              }
+            ]
+          },
+          {
+            "title": "کلاؤڈ اور ڈی او اوپس",
+            "links": [
+              {
+                "name": "سی/سی ڈی پائپ لائنز",
+                "href": "/services/cloud/cicd_pipelines"
+              },
+              {
+                "name": "کلاؤڈ سیکیورٹی",
+                "href": "/services/cloud/cloud_security"
+              },
+              {
+                "name": "ڈیٹا بیس مینجمنٹ",
+                "href": "/services/cloud/database_management"
+              },
+              {
+                "name": "ڈی او اوپس کنسلٹنگ",
+                "href": "/services/cloud/devops_consulting"
+              }
+            ]
+          },
+          {
+            "title": "ڈیٹا سلوشنز",
+            "links": [
+              {
+                "name": "اے آئی ماڈلز",
                 "href": "/services/data_solutions/ai_ml_models"
               },
               {
-                "name": "Business Analytics",
+                "name": "کاروباری تجزیات",
                 "href": "/services/data_solutions/business_analytics"
               },
               {
-                "name": "Data Analytics Dashboard",
+                "name": "ڈیٹا اینالیٹکس ڈیش بورڈ",
                 "href": "/services/data_solutions/data_analytics_dashboard"
               },
               {
-                "name": "Data Scraping",
+                "name": "ڈیٹا سکریپنگ",
                 "href": "/services/data_solutions/data_scraping"
               }
             ]
           },
           {
-            "title": "web and app applications",
+            "title": "ڈیجیٹل ڈیزائن",
             "links": [
               {
-                "name": "Custom BOts",
-                "href": "/services/web_and_mobile_development/custom_bots"
+                "name": "گرافک اور ورچوئل ڈیزائن",
+                "href": "/services/design/graphic_design"
               },
               {
-                "name": "Mobile Application",
-                "href": "/services/web_and_mobile_development/app_applications"
+                "name": "لوگو ڈیزائن",
+                "href": "/services/design/logo_design"
               },
               {
-                "name": "Web Application",
-                "href": "/services/web_and_mobile_development/web_applications"
+                "name": "موبائل ایپ ڈیزائن",
+                "href": "/services/design/mobile_app_design"
+              },
+              {
+                "name": "پروڈکٹ ڈیزائن",
+                "href": "/services/design/product_design"
+              },
+              {
+                "name": "پروٹو ٹائپنگ اور وائر فریم",
+                "href": "/services/design/prototyping_wireframing"
+              },
+              {
+                "name": "Ui / Ux ڈیزائن",
+                "href": "/services/design/ui_ux_design"
+              },
+              {
+                "name": "ویب ڈیزائن",
+                "href": "/services/design/web_design"
               }
             ]
           },
           {
-            "title": "Workflow Automations",
+            "title": "کوالٹی اشورینس اور ٹیسٹنگ",
             "links": [
               {
-                "name": "AI Powerd Automation",
-                "href": "/services/automations/ai_powered_automation"
+                "name": "اے پی آئی ٹیسٹنگ",
+                "href": "/services/testing/api_testing"
               },
               {
-                "name": "Low Code Automation",
-                "href": "/services/automations/low_code_automations"
+                "name": "آٹومیشن ٹیسٹنگ",
+                "href": "/services/testing/automation_testing"
               },
               {
-                "name": "No Code Automation",
-                "href": "/services/automations/no_code_automations"
+                "name": "دستی ٹیسٹنگ",
+                "href": "/services/testing/manual_testing"
+              },
+              {
+                "name": "کارکردگی کی جانچ",
+                "href": "/services/testing/performance_testing"
+              },
+              {
+                "name": "سیکیورٹی ٹیسٹنگ",
+                "href": "/services/testing/security_testing"
+              }
+            ]
+          },
+          {
+            "title": "ویب اور ایپ ایپلی کیشنز",
+            "links": [
+              {
+                "name": "حسب ضرورت بوٹس",
+                "href": "/services/web_and_mobile_development/custom_bots"
+              },
+              {
+                "name": "موبائل ایپلیکیشن",
+                "href": "/services/web_and_mobile_development/app_applications"
+              },
+              {
+                "name": "ویب ایپلیکیشن",
+                "href": "/services/web_and_mobile_development/web_applications"
               }
             ]
           }
@@ -93,7 +188,281 @@
       }
     },
     {
-      "name": "Contact Us",
+      "name": "صنعتیں",
+      "href": "/industries",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "زراعت",
+            "links": [
+              {
+                "name": "فارمز",
+                "href": "/industries/agriculture/farms"
+              },
+              {
+                "name": "فیلڈز",
+                "href": "/industries/agriculture/fields"
+              },
+              {
+                "name": "آبپاشی",
+                "href": "/industries/agriculture/irrigation"
+              },
+              {
+                "name": "پودے",
+                "href": "/industries/agriculture/plants"
+              }
+            ]
+          },
+          {
+            "title": "تفریح",
+            "links": [
+              {
+                "name": "واقعات",
+                "href": "/industries/entertainment/events"
+              },
+              {
+                "name": "ہوٹل",
+                "href": "/industries/entertainment/hotels"
+              },
+              {
+                "name": "میڈیا پروڈکشن",
+                "href": "/industries/entertainment/media_production"
+              },
+              {
+                "name": "ریستوراں",
+                "href": "/industries/entertainment/restaurants"
+              }
+            ]
+          },
+          {
+            "title": "صحت کی دیکھ بھال",
+            "links": [
+              {
+                "name": "Chiropractor",
+                "href": "/industries/healthcare/chiropractor"
+              },
+              {
+                "name": "دندان ساز",
+                "href": "/industries/healthcare/dentist"
+              },
+              {
+                "name": "مساج تھراپسٹ",
+                "href": "/industries/healthcare/massage_therapist"
+              },
+              {
+                "name": "مایوتھراپسٹ",
+                "href": "/industries/healthcare/myotherapist"
+              },
+              {
+                "name": "آپٹومیٹری",
+                "href": "/industries/healthcare/optometry"
+              },
+              {
+                "name": "ماہر نفسیات",
+                "href": "/industries/healthcare/psychologist"
+              }
+            ]
+          },
+          {
+            "title": "پیشہ ورانہ",
+            "links": [
+              {
+                "name": "مشاورت",
+                "href": "/industries/professional/consulting"
+              },
+              {
+                "name": "تعلیم",
+                "href": "/industries/professional/education"
+              },
+              {
+                "name": "قانونی خدمات",
+                "href": "/industries/professional/legal_services"
+              },
+              {
+                "name": "سفری خدمات",
+                "href": "/industries/professional/travel_services"
+              }
+            ]
+          },
+          {
+            "title": "رئیل اسٹیٹ",
+            "links": [
+              {
+                "name": "فن تعمیر اور ڈیزائن",
+                "href": "/industries/real_estate/architecture_design"
+              },
+              {
+                "name": "کمرشل",
+                "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "پراپرٹی مینجمنٹ",
+                "href": "/industries/real_estate/property_management"
+              },
+              {
+                "name": "رہائشی",
+                "href": "/industries/real_estate/residential"
+              }
+            ]
+          },
+          {
+            "title": "تجارت",
+            "links": [
+              {
+                "name": "کارپینٹری",
+                "href": "/industries/trades/carpentry"
+              },
+              {
+                "name": "الیکٹریشن",
+                "href": "/industries/trades/electrician"
+              },
+              {
+                "name": "پلمبنگ",
+                "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "ویلڈنگ",
+                "href": "/industries/trades/welding"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ٹیکنالوجیز",
+      "href": "/technologies",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "ڈیٹا بیس",
+            "links": [
+              {
+                "name": "ایمیزون ڈائنامو ڈی بی",
+                "href": "/technologies/amazon_dynamodb"
+              },
+              {
+                "name": "گراف کیو ایل",
+                "href": "/technologies/graphql"
+              },
+              {
+                "name": "مونگو ڈی بی",
+                "href": "/technologies/mongodb"
+              },
+              {
+                "name": "مائی ایس کیو ایل",
+                "href": "/technologies/mysql"
+              },
+              {
+                "name": "سوپا بیس",
+                "href": "/technologies/supabase"
+              }
+            ]
+          },
+          {
+            "title": "فریم ورکس",
+            "links": [
+              {
+                "name": "پھڑپھڑانا",
+                "href": "/technologies/flutter"
+              },
+              {
+                "name": "لارویل",
+                "href": "/technologies/laravel"
+              },
+              {
+                "name": "NestJS",
+                "href": "/technologies/nestjs"
+              },
+              {
+                "name": "Next.js",
+                "href": "/technologies/nextjs"
+              },
+              {
+                "name": "Node.js",
+                "href": "/technologies/nodejs"
+              },
+              {
+                "name": "رد عمل",
+                "href": "/technologies/react"
+              },
+              {
+                "name": "مقامی رد عمل کا اظہار کریں۔",
+                "href": "/technologies/react_native"
+              }
+            ]
+          },
+          {
+            "title": "زبانیں",
+            "links": [
+              {
+                "name": "سی",
+                "href": "/technologies/c"
+              },
+              {
+                "name": "C++",
+                "href": "/technologies/cpp"
+              },
+              {
+                "name": "جاوا",
+                "href": "/technologies/java"
+              },
+              {
+                "name": "جاوا اسکرپٹ",
+                "href": "/technologies/javascript"
+              },
+              {
+                "name": "پی ایچ پی",
+                "href": "/technologies/php"
+              },
+              {
+                "name": "ازگر",
+                "href": "/technologies/python"
+              },
+              {
+                "name": "ٹائپ اسکرپٹ",
+                "href": "/technologies/typescript"
+              }
+            ]
+          },
+          {
+            "title": "اوزار",
+            "links": [
+              {
+                "name": "ایمیزون",
+                "href": "/technologies/amazon"
+              },
+              {
+                "name": "بنائیں",
+                "href": "/technologies/make"
+              },
+              {
+                "name": "n8n",
+                "href": "/technologies/n8n"
+              },
+              {
+                "name": "Shopify",
+                "href": "/technologies/shopify"
+              },
+              {
+                "name": "ورڈپریس",
+                "href": "/technologies/wordpress"
+              },
+              {
+                "name": "زپیئر",
+                "href": "/technologies/zapier"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "ہمارے بارے میں",
+      "href": "/#about"
+    },
+    {
+      "name": "ہم سے رابطہ کریں۔",
       "href": "/contact"
     }
   ]

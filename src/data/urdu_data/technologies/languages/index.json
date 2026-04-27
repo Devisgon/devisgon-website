@@ -1,103 +1,116 @@
 {
-  "slug": "languages",
+  "slug": "programming-languages",
+  "seo_metadata": {
+    "title": "انٹرپرائز پروگرامنگ زبانیں | پولی گلوٹ سافٹ ویئر انجینئرنگ",
+    "description": "Java، Python، TypeScript، C++، اور بہت کچھ میں حسب ضرورت سافٹ ویئر ڈویلپمنٹ۔ ہم آپ کے مخصوص کام کے بوجھ کے لیے بہترین زبان کا استعمال کرتے ہوئے اعلیٰ کارکردگی والے، توسیع پذیر نظاموں کی تعمیر کرتے ہیں۔",
+    "keywords": [
+      "انٹرپرائز سافٹ ویئر ڈویلپمنٹ",
+      "پولی گلوٹ پروگرامنگ",
+      "Python AI انجینئرنگ",
+      "جاوا بیک اینڈ حل",
+      "ٹائپ اسکرپٹ ویب آرکیٹیکچر",
+      "سسٹمز پروگرامنگ C++",
+      "ہائی پرفارمنس کمپیوٹنگ"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Languages",
-    "description": "Build production systems with Java, JavaScript, Python, TypeScript, PHP, C++, and C.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "انجینئرنگ فاؤنڈیشن",
+    "title": "لامحدود پیمانے کے ساتھ",
+    "highlight": "کثیر زبان کے ڈھیر",
+    "description": "Java، Python، TypeScript، PHP، اور C-فیملی زبانوں کے اسٹریٹجک انتخاب کے ساتھ ہارڈویئر کی کارکردگی اور ڈویلپر کی رفتار کے درمیان فرق کو پُر کریں۔",
+    "side_image": "/services_page/languages-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ایک معمار سے مشورہ کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ دیکھیں",
       "href": "/technologies/languages#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Languages forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "زبان کا انتخاب کیوں اہمیت رکھتا ہے۔",
+    "subtitle": "صحیح مسئلے کے لیے صحیح نحو کا انتخاب تکنیکی قرض کو کم کرتا ہے اور رن ٹائم کارکردگی کو زیادہ سے زیادہ کرتا ہے۔",
     "paragraphs": [
-      "Java, JavaScript, Python, TypeScript, PHP, C++, and C gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "ہمارا پولی گلوٹ اپروچ — جاوا، جاوا اسکرپٹ، ازگر، ٹائپ اسکرپٹ، پی ایچ پی، سی++، اور سی میں مہارت حاصل کرنا — ہمیں صحیح کام کے لیے صحیح ٹول تعینات کرنے کے قابل بناتا ہے۔ چاہے وہ مالیاتی لین دین کے لیے Java کی سخت ٹائپنگ ہو، AI ماڈلز کے لیے Python کی تیز رفتار پروٹو ٹائپنگ ہو، یا کم لیٹنسی والے انجنوں کے لیے C++ کی جراحی کی درستگی ہو، ہم یقینی بناتے ہیں کہ آپ کا اسٹیک اس کے مخصوص مشن کے لیے موزوں ہے۔",
+      "بالغ، اعلیٰ کمیونٹی کی زبانوں کو معیاری بنا کر، ہم اپنے کلائنٹس کو 'فیوچر پروف' کوڈ بیس فراہم کرتے ہیں۔ یہ حکمت عملی طویل مدتی برقرار رکھنے، آسانی سے ٹیلنٹ کے حصول، اور جنگ کی آزمائشی لائبریریوں اور حفاظتی پیچ کے عالمی ماحولیاتی نظام تک رسائی کو یقینی بناتی ہے۔"
     ],
     "cards": [
       {
-        "title": "Unmatched Readability",
-        "description": "Use the right language per workload to keep code clear and handoffs fast.",
-        "icon_type": "FaBookReader"
+        "title": "کام کے بوجھ کی اصلاح",
+        "description": "اپنے مخصوص کارکردگی کے اہداف کے ساتھ لینگویج ایگزیکیوشن ماڈلز (JIT، تشریح شدہ، یا مرتب شدہ) کو سیدھ میں رکھیں۔",
+        "icon_type": "FaCogs"
       },
       {
-        "title": "Scientific Dominance",
-        "description": "Python and TypeScript ecosystems accelerate AI and product engineering speed.",
-        "icon_type": "FaFlask"
+        "title": "ڈویلپر کی رفتار",
+        "description": "پیچیدہ منطق کے لیے ٹائم ٹو مارکیٹ کو تیز کرنے کے لیے TypeScript اور Python جیسی اعلیٰ سطحی زبانوں کا فائدہ اٹھائیں۔",
+        "icon_type": "FaRocket"
       },
       {
-        "title": "Enterprise Backbone",
-        "description": "Java, C++, and C power performance-critical services with proven stability.",
-        "icon_type": "FaLayerGroup"
+        "title": "سسٹم کا استحکام",
+        "description": "مشن کی اہم خدمات میں رن ٹائم غلطیوں کو روکنے کے لیے میموری سے محفوظ اور مضبوطی سے ٹائپ شدہ زبانوں کا استعمال کریں۔",
+        "icon_type": "FaShieldAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "پولی گلوٹ حکمت عملی کا دائرہ کار",
+    "image": "/services_page/languages-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with languages choices matched to runtime and scaling goals."
+        "title": "تقسیم شدہ ملٹی اسٹیک سسٹم",
+        "description": "آرکیسٹریٹنگ مائیکرو سروسز جہاں ہر سروس اس زبان میں لکھی جاتی ہے جو اس کے رن ٹائم کی رکاوٹوں کے لیے موزوں ہوتی ہے۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "ہائی تھرو پٹ ڈیٹا پائپ لائنز",
+        "description": "Python کی سائنسی لائبریریوں کا استعمال کرتے ہوئے AI اور ڈیٹا پروسیسنگ ورک فلو کو C++ پرفارمنس کور کے ساتھ جوڑنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "میراثی جدید کاری",
+        "description": "برجنگ نے C/C++ یا جاوا انٹرپرائز پرتوں کو جدید، رد عمل والے TypeScript اور PHP فرنٹ اینڈز کے ساتھ قائم کیا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Languages stack.",
+    "title": "اسٹریٹجک انجینئرنگ ایج",
+    "subtitle": "ایک بہتر لینگویج اسٹیک کے قابل قدر فوائد۔",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "title": "کم لیٹنسی",
+        "description": "C++ یا جاوا جیسی مرتب شدہ زبانوں میں بنیادی رکاوٹوں کو منتقل کرنے سے حاصل کردہ کارکردگی کے فوائد۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "یونیورسل",
+        "title": "پورٹیبلٹی",
+        "description": "کراس پلیٹ فارم رن ٹائمز کے ذریعے کلاؤڈ، ایج، اور آن پریمیس ماحول میں تعیناتی کی لچک۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "عالمی",
+        "title": "برادری",
+        "description": "لاکھوں اوپن سورس ماڈیولز تک فوری رسائی، اپنی مرضی کے مطابق انجینئرنگ کے اخراجات کو نمایاں طور پر کم کرتا ہے۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "صفر",
+        "title": "لاک ان",
+        "description": "بغیر کسی ملکیتی لائسنسنگ کی ضروریات کے کھلے معیاری زبانوں کا استعمال کرتے ہوئے آپ کے IP پر مکمل کنٹرول۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Python is an experiment in how much complexity can be hidden behind",
-    "highlight": "aesthetic simplicity"
+    "quote": "میری زبان کی حدود کا مطلب میری دنیا کی حدود ہے۔ ہم منتخب کرتے ہیں",
+    "highlight": "لامحدود اسٹیک"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your languages roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے انفراسٹرکچر کو تعمیر کریں۔",
+    "subtitle": "اپنے انٹرپرائز کے لیے بہترین زبان کے روڈ میپ کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ آرکیٹیکٹ کا نام",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے تعمیراتی چیلنج یا کارکردگی کے اہداف کی وضاحت کریں...",
+    "button_text": "ٹیکنیکل آڈٹ کی درخواست کریں۔"
   }
 }

@@ -87,15 +87,15 @@
         "icon": "FaGitlab"
       },
       {
-        "name": "جینکنز",
+        "name": "Jenkins",
         "icon": "SiJenkins"
       },
       {
-        "name": "ڈوکر",
+        "name": "Docker",
         "icon": "FaDocker"
       },
       {
-        "name": "کوبرنیٹس",
+        "name": "Kubernetes",
         "icon": "SiKubernetes"
       }
     ]
@@ -120,7 +120,7 @@
         "icon": "FaTerminal"
       },
       {
-        "title": "ٹیسٹنگ اور ہینڈ اوور",
+        "title": "ٹیسٹنگ اور حوالے",
         "description": "ہم ٹیسٹ ڈیپلائمنٹ چلاتے ہیں، پائپ لائن کو دستاویز کرتے ہیں، اور آپ کی ڈیو ٹیم کو نئے ورک فلو پر تربیت دیتے ہیں۔",
         "icon": "FaCheckDouble"
       }
@@ -131,15 +131,15 @@
     "image": "/all_services/ci_cd_pipeline/cs.webp",
     "content": {
       "problem": {
-        "label": "مسئلہ",
+        "label": "Problem",
         "text": "ایک SaaS کمپنی دستی تعیناتیاں کر رہی تھی جس کے لیے ہر ہفتے کے آخر میں سائٹ کو گھنٹوں آف لائن رکھنا پڑتا تھا، جس سے ڈویلپر برن آؤٹ ہو جاتا تھا۔"
       },
       "solution": {
-        "label": "حل",
+        "label": "Solution",
         "text": "ہم نے GitHub ایکشنز، Docker، اور AWS Elastic Beanstalk کا استعمال کرتے ہوئے ایک مکمل خودکار CI/CD پائپ لائن کو رولنگ تعیناتی کی حکمت عملی کے ساتھ نافذ کیا۔"
       },
       "result": {
-        "label": "نتیجہ",
+        "label": "Result",
         "text": "تعیناتیاں اب صفر ڈاون ٹائم کے ساتھ 15 منٹ میں خود بخود ہو جاتی ہیں، جس سے ٹیم دن میں کئی بار فیچرز جاری کر سکتی ہے۔"
       }
     }

@@ -31,7 +31,7 @@
     "subtitle": "Pourquoi tester votre API n'est pas négociable",
     "cards": [
       {
-        "title": "Détection précoce des bogues",
+        "title": "Détection précoce des bugs",
         "description": "Testez la logique métier de base bien avant même la création de l’interface utilisateur graphique (UI), ce qui permet d’économiser un temps de développement considérable.",
         "icon_type": "MdBugReport"
       },
@@ -79,15 +79,15 @@
     "subtitle": "Les meilleurs frameworks pour une validation d'API précise et automatisée",
     "tools": [
       {
-        "name": "Facteur",
+        "name": "Postman",
         "icon": "SiPostman"
       },
       {
-        "name": "Fanfaronnade",
+        "name": "Swagger",
         "icon": "SiSwagger"
       },
       {
-        "name": "JMètre",
+        "name": "JMeter",
         "icon": "SiApachejmeter"
       },
       {
@@ -95,7 +95,7 @@
         "icon": "FaJava"
       },
       {
-        "name": "SavonUI",
+        "name": "SoapUI",
         "icon": "TbApi"
       }
     ]
@@ -131,7 +131,7 @@
     "image": "/all_services/api_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une application fintech rencontrait des échecs de transactions aléatoires, car son interface utilisateur mobile ne pouvait pas gérer les réponses lentes d'une API de paiement tierce."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Nous avons mis en œuvre une suite de tests automatisés de performances des API, révélant un grave goulot d'étranglement lors de l'analyse de la charge utile qui ne se produisait que sous une forte charge du serveur."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "En identifiant et en résolvant le problème du backend, les erreurs de délai d'attente ont été complètement éliminées, ce qui a entraîné une augmentation de 15 % des transactions réussies."
       }
     }

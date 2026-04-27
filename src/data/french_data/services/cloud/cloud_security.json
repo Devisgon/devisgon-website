@@ -83,7 +83,7 @@
         "icon": "FaAws"
       },
       {
-        "name": "Flare nuageuse",
+        "name": "Cloudflare",
         "icon": "SiCloudflare"
       },
       {
@@ -91,7 +91,7 @@
         "icon": "SiHashicorp"
       },
       {
-        "name": "Chien de données",
+        "name": "Datadog",
         "icon": "SiDatadog"
       },
       {
@@ -115,7 +115,7 @@
         "icon": "FaShieldAlt"
       },
       {
-        "title": "Mise en œuvre",
+        "title": "Implementation",
         "description": "Nous déployons des pare-feu, des politiques IAM et des clés de chiffrement sans perturber vos services en direct.",
         "icon": "FaLock"
       },
@@ -131,7 +131,7 @@
     "image": "/all_services/cloud_security/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une application financière en croissance rapide avait exposé les compartiments AWS S3 et manquait de contrôles d'accès appropriés, les exposant au risque d'échouer lors d'un prochain audit de conformité."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Nous avons mené une analyse de sécurité complète, verrouillé l'infrastructure publique, chiffré toutes les bases de données et mis en œuvre une politique stricte de gestion des identités et des accès (IAM)."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "Le client a réussi son audit SOC 2 Type II en moins de 4 semaines, ce qui lui a permis de conclure un contrat d'entreprise critique de 5 millions de dollars."
       }
     }

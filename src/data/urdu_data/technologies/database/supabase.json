@@ -1,103 +1,116 @@
 {
   "slug": "supabase",
+  "seo_metadata": {
+    "title": "انٹرپرائز سوپا بیس ڈویلپمنٹ | پوسٹگری ایس کیو ایل اور ریئل ٹائم بیک اینڈ سلوشنز",
+    "description": "پیشہ ورانہ سوپا بیس کے نفاذ کی خدمات۔ خودکار APIs، ریئل ٹائم ڈیٹا بیس سبسکرپشنز، اور انٹرپرائز گریڈ Auth کے ساتھ توسیع پذیر، محفوظ ایپلیکیشنز بنائیں۔",
+    "keywords": [
+      "سوپا بیس ڈویلپمنٹ",
+      "پوسٹگری ایس کیو ایل آرکیٹیکچر",
+      "ریئل ٹائم ڈیٹا بیس",
+      "قطار کی سطح کی سیکورٹی (RLS)",
+      "BaaS حل",
+      "سوپا بیس ایج فنکشنز",
+      "سرور لیس بیک اینڈ"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Supabase",
-    "description": "Build production systems with Supabase in our database delivery ecosystem.",
+    "eyebrow": "اوپن سورس فائر بیس متبادل",
+    "title": "کے ساتھ ریپڈ انوویشن",
+    "highlight": "سوپا بیس",
+    "description": "ایک طاقتور PostgreSQL پر مبنی سوٹ کے ساتھ اپنی بیک اینڈ کی ترقی کو تیز کریں جس میں فوری APIs، ریئل ٹائم ڈیٹا کی مطابقت پذیری، اور مربوط تصدیق شامل ہے۔",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنا بیک اینڈ بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "کور آرکیٹیکچر دیکھیں",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Supabase plays a critical role in our database strategy for reliable software delivery.",
+    "title": "کیوں ہم Supabase کے ساتھ انجینئر",
+    "subtitle": "Supabase PostgreSQL کی وشوسنییتا کو جدید Backend-as-a-Service (BaaS) پلیٹ فارم کی رفتار کے ساتھ جوڑتا ہے۔",
     "paragraphs": [
-      "Supabase is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Supabase with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Supabase ہمیں بوائلر پلیٹ بیک اینڈ انجینئرنگ کے مہینوں کو ختم کرنے کی اجازت دیتا ہے۔ اس کے خود کار طریقے سے تیار کردہ REST اور GraphQL APIs کا فائدہ اٹھاتے ہوئے، ہم مضبوط PostgreSQL ماحولیاتی نظام کے اندر رہتے ہوئے، ہفتوں کے بجائے گھنٹوں میں اسکیما ڈیزائن سے فرنٹ اینڈ انضمام میں منتقل ہو سکتے ہیں۔",
+      "پلیٹ فارم کی سب سے بڑی طاقت اس کے سیکیورٹی ماڈل میں ہے۔ PostgreSQL کی مقامی Row Level Security (RLS) کو استعمال کرتے ہوئے، ہم اس بات کو یقینی بناتے ہیں کہ ڈیٹا بیس کی سطح پر ڈیٹا آئسولیشن اور صارف کی اجازتوں کو نافذ کیا جائے، جس سے ایک 'موٹا ڈیٹا بیس، پتلا کلائنٹ' فن تعمیر ہوتا ہے جو فطری طور پر زیادہ محفوظ ہے۔"
     ],
     "cards": [
       {
-        "title": "Supabase Clarity",
-        "description": "Supabase helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "PostgreSQL پاور",
+        "description": "ہر Supabase پروجیکٹ ایک مکمل، وقف شدہ PostgreSQL ڈیٹا بیس ہوتا ہے—کوئی ملکیتی تجریدی پرت نہیں۔",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Supabase Performance",
-        "description": "Supabase supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ریئل ٹائم انجن",
+        "description": "باہمی تعاون پر مبنی، براہ راست صارف کے تجربات کی تعمیر کے لیے WebSockets کے ذریعے ریئل ٹائم میں ڈیٹا بیس کی تبدیلیوں کو سنیں۔",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Supabase Reliability",
-        "description": "Supabase strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "بلٹ ان Auth",
+        "description": "سماجی اور پاس ورڈ کے بغیر فراہم کنندگان کے ایک جامع سوٹ کے ساتھ صارف کے سائن اپ اور لاگ ان کا نظم کریں۔",
+        "icon_type": "FaUserShield"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "سوپا بیس تکنیکی دائرہ کار",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Supabase-ready patterns designed for dynamic cloud scaling."
+        "title": "رشتہ دار ڈیٹا ماڈلنگ",
+        "description": "کاروباری منطق کے لیے غیر ملکی کلیدوں، خیالات، اور ذخیرہ شدہ طریقہ کار کے ساتھ اعلی سالمیت والے PostgreSQL اسکیموں کو ڈیزائن کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Supabase integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "سرور لیس ایج فنکشنز",
+        "description": "حساس منطق، ویب ہکس، اور فریق ثالث کے انضمام کو سنبھالنے کے لیے عالمی سطح پر TypeScript فنکشنز کو تعینات کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Supabase to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "اسٹوریج اور اثاثہ جات کا انتظام",
+        "description": "ایک توسیع پذیر سٹوریج پرت کے ساتھ بڑی فائلوں اور میڈیا کا نظم کرنا جو ڈیٹا بیس کی اجازت کے ساتھ براہ راست ضم ہوتا ہے۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Supabase stack.",
+    "title": "سوپا بیس ایج",
+    "subtitle": "جدید فل اسٹیک ڈیلیوری کے لیے اسٹریٹجک فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Supabase effectively."
+        "metric": "3x",
+        "title": "ترقی کی رفتار",
+        "description": "خودکار CRUD API جنریشن اور مربوط Auth کے ذریعے بیک اینڈ ڈیولپمنٹ ٹائم میں کمی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Supabase."
+        "metric": "99.95%",
+        "title": "اپ ٹائم",
+        "description": "اعلی دستیابی کا بنیادی ڈھانچہ AWS کے زیر انتظام ہے اور مشن کے لیے اہم اپ ٹائم کے لیے موزوں ہے۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Supabase delivery."
+        "metric": "کھولیں۔",
+        "title": "ماخذ کور",
+        "description": "پوسٹگریس، GoTrue، اور PostgREST جیسے اوپن سورس معیارات پر بنایا گیا ہے، جو کہ پابندی والے لاک ان کو روکتا ہے۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Supabase inside open architecture patterns."
+        "metric": "صفر",
+        "title": "وینڈر لاک ان",
+        "description": "اپنا پورا ڈیٹا بیس اور کنفیگریشن کسی بھی وقت اپنی خود کی میزبانی شدہ PostgreSQL مثال میں برآمد کریں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Supabase ہمیں ایک سٹارٹ اپ کی رفتار کے ساتھ تعمیر کرنے کی اجازت دیتا ہے۔",
+    "highlight": "ایک انٹرپرائز کی استحکام"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Supabase roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "آرکیٹیکٹ اپنی ریئل ٹائم ایپ",
+    "subtitle": "اپنے Supabase فن تعمیر کی وضاحت کرنے یا Firebase سے ہجرت کا منصوبہ بنانے کے لیے ہمارے لیڈ انجینئرز سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر کا نام",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "تکنیکی ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Supabase architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے ڈیٹا کی ضروریات یا حقیقی وقت کے چیلنجوں کی وضاحت کریں...",
+    "button_text": "اپنا پروجیکٹ شروع کریں۔"
   }
 }

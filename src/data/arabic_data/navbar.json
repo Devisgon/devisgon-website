@@ -1,0 +1,469 @@
+{
+  "navbar": [
+    {
+      "name": "بيت",
+      "href": "/"
+    },
+    {
+      "name": "خدمات",
+      "href": "/services",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "تطوير الذكاء الاصطناعي وSaaS",
+            "links": [
+              {
+                "name": "تطبيق مدعوم بالذكاء الاصطناعي",
+                "href": "/services/saas/ai_powered_app"
+              },
+              {
+                "name": "نماذج التعلم الآلي",
+                "href": "/services/saas/meachine_learning"
+              },
+              {
+                "name": "أفضل اللاعبين و POCs",
+                "href": "/services/saas/mvps"
+              },
+              {
+                "name": "منصات SaaS",
+                "href": "/services/saas/saas_plateform"
+              }
+            ]
+          },
+          {
+            "title": "الأتمتة",
+            "links": [
+              {
+                "name": "أتمتة مدعومة بالذكاء الاصطناعي",
+                "href": "/services/automations/ai_powered_automation"
+              },
+              {
+                "name": "أتمتة التكامل API",
+                "href": "/services/automations/api_integration"
+              },
+              {
+                "name": "أتمتة العمليات التجارية",
+                "href": "/services/automations/business_process_automation"
+              },
+              {
+                "name": "الأتمتة المالية",
+                "href": "/services/automations/accounting"
+              },
+              {
+                "name": "أتمتة البنية التحتية",
+                "href": "/services/automations/devops-infrastructure-automation"
+              },
+              {
+                "name": "أتمتة الكود المنخفض",
+                "href": "/services/automations/low_code_automations"
+              },
+              {
+                "name": "أتمتة التسويق والمبيعات",
+                "href": "/services/automations/marketing-sales-automation"
+              },
+              {
+                "name": "أتمتة العمليات الروبوتية",
+                "href": "/services/automations/robotic-process-automation"
+              }
+            ]
+          },
+          {
+            "title": "السحابة و DevOps",
+            "links": [
+              {
+                "name": "خطوط أنابيب Ci/Cd",
+                "href": "/services/cloud/cicd_pipelines"
+              },
+              {
+                "name": "الأمن السحابي",
+                "href": "/services/cloud/cloud_security"
+              },
+              {
+                "name": "إدارة قواعد البيانات",
+                "href": "/services/cloud/database_management"
+              },
+              {
+                "name": "استشارات تطوير العمليات",
+                "href": "/services/cloud/devops_consulting"
+              }
+            ]
+          },
+          {
+            "title": "حلول البيانات",
+            "links": [
+              {
+                "name": "نماذج الذكاء الاصطناعي",
+                "href": "/services/data_solutions/ai_ml_models"
+              },
+              {
+                "name": "تحليلات الأعمال",
+                "href": "/services/data_solutions/business_analytics"
+              },
+              {
+                "name": "لوحة تحكم تحليلات البيانات",
+                "href": "/services/data_solutions/data_analytics_dashboard"
+              },
+              {
+                "name": "تجريف البيانات",
+                "href": "/services/data_solutions/data_scraping"
+              }
+            ]
+          },
+          {
+            "title": "التصميم الرقمي",
+            "links": [
+              {
+                "name": "التصميم الجرافيكي والافتراضي",
+                "href": "/services/design/graphic_design"
+              },
+              {
+                "name": "تصميم الشعار",
+                "href": "/services/design/logo_design"
+              },
+              {
+                "name": "تصميم تطبيقات الجوال",
+                "href": "/services/design/mobile_app_design"
+              },
+              {
+                "name": "تصميم المنتج",
+                "href": "/services/design/product_design"
+              },
+              {
+                "name": "النماذج الأولية والإطارات السلكية",
+                "href": "/services/design/prototyping_wireframing"
+              },
+              {
+                "name": "تصميم واجهة المستخدم /Ux",
+                "href": "/services/design/ui_ux_design"
+              },
+              {
+                "name": "تصميم الويب",
+                "href": "/services/design/web_design"
+              }
+            ]
+          },
+          {
+            "title": "ضمان الجودة والاختبار",
+            "links": [
+              {
+                "name": "اختبار واجهة برمجة التطبيقات",
+                "href": "/services/testing/api_testing"
+              },
+              {
+                "name": "اختبار الأتمتة",
+                "href": "/services/testing/automation_testing"
+              },
+              {
+                "name": "الاختبار اليدوي",
+                "href": "/services/testing/manual_testing"
+              },
+              {
+                "name": "اختبار الأداء",
+                "href": "/services/testing/performance_testing"
+              },
+              {
+                "name": "اختبار الأمان",
+                "href": "/services/testing/security_testing"
+              }
+            ]
+          },
+          {
+            "title": "تطبيقات الويب والتطبيقات",
+            "links": [
+              {
+                "name": "الروبوتات المخصصة",
+                "href": "/services/web_and_mobile_development/custom_bots"
+              },
+              {
+                "name": "تطبيق الهاتف المحمول",
+                "href": "/services/web_and_mobile_development/app_applications"
+              },
+              {
+                "name": "تطبيق الويب",
+                "href": "/services/web_and_mobile_development/web_applications"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "الصناعات",
+      "href": "/industries",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "زراعة",
+            "links": [
+              {
+                "name": "مزارع",
+                "href": "/industries/agriculture/farms"
+              },
+              {
+                "name": "الحقول",
+                "href": "/industries/agriculture/fields"
+              },
+              {
+                "name": "الري",
+                "href": "/industries/agriculture/irrigation"
+              },
+              {
+                "name": "النباتات",
+                "href": "/industries/agriculture/plants"
+              }
+            ]
+          },
+          {
+            "title": "ترفيه",
+            "links": [
+              {
+                "name": "الأحداث",
+                "href": "/industries/entertainment/events"
+              },
+              {
+                "name": "الفنادق",
+                "href": "/industries/entertainment/hotels"
+              },
+              {
+                "name": "الإنتاج الإعلامي",
+                "href": "/industries/entertainment/media_production"
+              },
+              {
+                "name": "مطاعم",
+                "href": "/industries/entertainment/restaurants"
+              }
+            ]
+          },
+          {
+            "title": "الرعاية الصحية",
+            "links": [
+              {
+                "name": "مقوم العظام",
+                "href": "/industries/healthcare/chiropractor"
+              },
+              {
+                "name": "طبيب أسنان",
+                "href": "/industries/healthcare/dentist"
+              },
+              {
+                "name": "معالج تدليك",
+                "href": "/industries/healthcare/massage_therapist"
+              },
+              {
+                "name": "معالج عضلي",
+                "href": "/industries/healthcare/myotherapist"
+              },
+              {
+                "name": "قياس البصر",
+                "href": "/industries/healthcare/optometry"
+              },
+              {
+                "name": "عالم نفسي",
+                "href": "/industries/healthcare/psychologist"
+              }
+            ]
+          },
+          {
+            "title": "احترافي",
+            "links": [
+              {
+                "name": "استشارات",
+                "href": "/industries/professional/consulting"
+              },
+              {
+                "name": "تعليم",
+                "href": "/industries/professional/education"
+              },
+              {
+                "name": "الخدمات القانونية",
+                "href": "/industries/professional/legal_services"
+              },
+              {
+                "name": "خدمات السفر",
+                "href": "/industries/professional/travel_services"
+              }
+            ]
+          },
+          {
+            "title": "العقارات",
+            "links": [
+              {
+                "name": "الهندسة المعمارية والتصميم",
+                "href": "/industries/real_estate/architecture_design"
+              },
+              {
+                "name": "تجاري",
+                "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "إدارة الممتلكات",
+                "href": "/industries/real_estate/property_management"
+              },
+              {
+                "name": "سكني",
+                "href": "/industries/real_estate/residential"
+              }
+            ]
+          },
+          {
+            "title": "الصفقات",
+            "links": [
+              {
+                "name": "نجارة",
+                "href": "/industries/trades/carpentry"
+              },
+              {
+                "name": "كهربائي",
+                "href": "/industries/trades/electrician"
+              },
+              {
+                "name": "السباكة",
+                "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "لحام",
+                "href": "/industries/trades/welding"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "التقنيات",
+      "href": "/technologies",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "قاعدة البيانات",
+            "links": [
+              {
+                "name": "أمازون دينامو دي بي",
+                "href": "/technologies/amazon_dynamodb"
+              },
+              {
+                "name": "GraphQL",
+                "href": "/technologies/graphql"
+              },
+              {
+                "name": "MongoDB",
+                "href": "/technologies/mongodb"
+              },
+              {
+                "name": "ماي إس كيو إل",
+                "href": "/technologies/mysql"
+              },
+              {
+                "name": "سوباباس",
+                "href": "/technologies/supabase"
+              }
+            ]
+          },
+          {
+            "title": "الأطر",
+            "links": [
+              {
+                "name": "رفرفة",
+                "href": "/technologies/flutter"
+              },
+              {
+                "name": "لارافيل",
+                "href": "/technologies/laravel"
+              },
+              {
+                "name": "NestJS",
+                "href": "/technologies/nestjs"
+              },
+              {
+                "name": "Next.js",
+                "href": "/technologies/nextjs"
+              },
+              {
+                "name": "Node.js",
+                "href": "/technologies/nodejs"
+              },
+              {
+                "name": "رد فعل",
+                "href": "/technologies/react"
+              },
+              {
+                "name": "رد الفعل الأصلي",
+                "href": "/technologies/react_native"
+              }
+            ]
+          },
+          {
+            "title": "اللغات",
+            "links": [
+              {
+                "name": "ج",
+                "href": "/technologies/c"
+              },
+              {
+                "name": "سي ++",
+                "href": "/technologies/cpp"
+              },
+              {
+                "name": "جافا",
+                "href": "/technologies/java"
+              },
+              {
+                "name": "جافا سكريبت",
+                "href": "/technologies/javascript"
+              },
+              {
+                "name": "PHP",
+                "href": "/technologies/php"
+              },
+              {
+                "name": "بايثون",
+                "href": "/technologies/python"
+              },
+              {
+                "name": "تايب سكريبت",
+                "href": "/technologies/typescript"
+              }
+            ]
+          },
+          {
+            "title": "أدوات",
+            "links": [
+              {
+                "name": "أمازون",
+                "href": "/technologies/amazon"
+              },
+              {
+                "name": "يصنع",
+                "href": "/technologies/make"
+              },
+              {
+                "name": "n8n",
+                "href": "/technologies/n8n"
+              },
+              {
+                "name": "شوبيفي",
+                "href": "/technologies/shopify"
+              },
+              {
+                "name": "ووردبريس",
+                "href": "/technologies/wordpress"
+              },
+              {
+                "name": "زابير",
+                "href": "/technologies/zapier"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "معلومات عنا",
+      "href": "/#about"
+    },
+    {
+      "name": "اتصل بنا",
+      "href": "/contact"
+    }
+  ]
+}

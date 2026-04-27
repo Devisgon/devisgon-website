@@ -2,8 +2,8 @@
   "slug": "saas-plateform",
   "hero_section": {
     "title": "Plataformas SaaS",
-    "subtitle": "Construya, escale y monetice su software",
-    "description": "Diseñamos y desarrollamos plataformas SaaS con arquitectura multi-inquilino, facturación segura, paneles de administración e infraestructura en la nube escalable; todo lo que necesita para lanzar y hacer crecer un negocio basado en suscripciones.",
+    "subtitle": "Cree, escale y monetice su software",
+    "description": "Diseñamos y desarrollamos plataformas SaaS con arquitectura multiinquilino, facturación segura, paneles de administración e infraestructura de nube escalable, todo lo que necesita para lanzar y hacer crecer un negocio basado en suscripción.",
     "buttons": [
       {
         "text": "Iniciar mi proyecto de IA",
@@ -17,142 +17,160 @@
     "hero_image": "/videos/saas_developmen.mp4"
   },
   "introduction_section": {
-    "heading": "¿Qué es el ",
-    "span_heading": "Desarrollo de Plataformas SaaS?",
+    "heading": "Qué es",
+    "span_heading": "¿Desarrollo de plataforma SaaS?",
     "content": [
-      "En Devisgon, construimos plataformas SaaS que están listas para el lanzamiento y preparadas para el futuro. Desde productos SaaS MVP para startups hasta plataformas de grado empresarial para negocios globales.",
-      "Nos especializamos en sistemas multi-inquilino, integraciones de suscripción/facturación y paneles de administración que le brindan visibilidad completa de su producto."
+      "En Devisgon, construimos plataformas SaaS que están listas para su lanzamiento y preparadas para el futuro. Desde productos MVP SaaS para nuevas empresas hasta plataformas de nivel empresarial para empresas globales.",
+      "Nos especializamos en sistemas multiinquilino, integraciones de suscripción/facturación y paneles de administración que le brindan visibilidad completa de su producto."
     ],
-    "highlight_quote": "“SaaS listo para el lanzamiento, salida al mercado más rápida, escalabilidad 3x.”",
+    "highlight_quote": "\"SaaS listo para el lanzamiento, comercialización más rápida, escalabilidad 3 veces mayor\".",
     "side_image": "/all_services/mvps_and_pocs/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Beneficios Clave",
+    "title": "Beneficios clave",
     "subtitle": "Transforme sus operaciones con resultados comprobados",
     "cards": [
       {
         "title": "Lanzamiento más rápido",
-        "description": "Construimos productos SaaS totalmente funcionales en semanas, reduciendo su tiempo de salida al mercado.",
+        "description": "Creamos productos SaaS completamente funcionales en semanas, reduciendo su tiempo de comercialización.",
         "icon_type": "FaRocket"
       },
       {
-        "title": "Listo para generar ingresos",
-        "description": "Los sistemas integrados de facturación por suscripción como Stripe, PayPal o Razorpay aseguran la monetización desde el primer día.",
+        "title": "Listo para ingresos",
+        "description": "Los sistemas integrados de facturación de suscripciones como Stripe, PayPal o Razorpay garantizan la monetización desde el primer día.",
         "icon_type": "HiCurrencyDollar "
       },
       {
-        "title": "Seguridad Empresarial",
-        "description": "Acceso basado en roles integrado, almacenamiento de datos cifrados y cumplimiento de GDPR.",
+        "title": "Seguridad empresarial",
+        "description": "Acceso integrado basado en roles, almacenamiento de datos cifrados y cumplimiento del RGPD.",
         "icon_type": "IoShieldCheckmarkSharp "
       },
       {
-        "title": "Escalabilidad en la Nube",
-        "description": "Diseñado para miles de usuarios con cero tiempo de inactividad.",
+        "title": "Escalabilidad de la nube",
+        "description": "Diseñado para miles de usuarios sin tiempo de inactividad.",
         "icon_type": "FaCloud "
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Lo que obtendrá al elegir el Desarrollo de Plataformas SaaS",
+    "title": "Lo que obtendrás cuando elijas el desarrollo de plataforma SaaS",
     "image": "/all_services/mvps_and_pocs/wwg.webp",
     "list_items": [
       {
-        "title": "1. Aplicaciones Inteligentes",
-        "description": "Aplicación SaaS completa con arquitectura multi-inquilino (multi-tenant)."
+        "title": "1. Aplicaciones inteligentes",
+        "description": "Aplicación SaaS completa con arquitectura multiinquilino."
       },
       {
-        "title": "2. Analítica en el Panel",
-        "description": "Paneles de administración con analíticas e informes detallados."
+        "title": "2. Análisis del panel",
+        "description": "Paneles de administración con análisis e informes."
       },
       {
-        "title": "3. Puntos de Conexión API",
-        "description": "Integraciones de API con herramientas de terceros (CRM, correo electrónico, almacenamiento en la nube, etc.)."
+        "title": "3. Puntos finales API",
+        "description": "Integraciones API con herramientas de terceros (CRM, correo electrónico, almacenamiento en la nube, etc.)."
       },
       {
-        "title": "4. Documentación y Capacitación",
-        "description": "Documentación técnica y soporte posterior al lanzamiento."
+        "title": "4. Documentación y formación",
+        "description": "Documentación y soporte post-lanzamiento."
       }
     ]
   },
   "technologies_section": {
-    "title": "Trabajamos con tecnologías modernas y probadas",
+    "title": "Trabajamos con tecnologías modernas y probadas.",
     "subtitle": "Herramientas líderes en la industria para máxima confiabilidad y rendimiento",
     "tools": [
-      { "name": "Python", "icon": "FaPython " },
-      { "name": "Node.js", "icon": "FaNodeJs " },
-      { "name": "React", "icon": "FaReact " },
-      { "name": "Docker", "icon": "FaDocker " },
-      { "name": "AWS", "icon": "FaAws " },
-      { "name": "MongoDB", "icon": "FaDatabase " }
+      {
+        "name": "Python",
+        "icon": "FaPython "
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs "
+      },
+      {
+        "name": "React",
+        "icon": "FaReact "
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      },
+      {
+        "name": "MongoDB",
+        "icon": "FaDatabase "
+      }
     ]
   },
   "process_section": {
-    "title": "Nuestro Proceso",
+    "title": "Nuestro proceso",
     "subtitle": "Del concepto al lanzamiento en 6 semanas",
     "steps": [
       {
-        "title": "Descubrir",
-        "description": "Investigación de mercado, definición de funciones y estrategia SaaS.",
+        "title": "Discover",
+        "description": "Investigación de mercado, alcance de características, estrategia SaaS.",
         "icon": "FaSearch"
       },
       {
-        "title": "Diseñar",
-        "description": "Wireframes, flujos de usuario, UI/UX del panel de control.",
+        "title": "Design",
+        "description": "Wireframes, flujos de usuarios, panel UI/UX.",
         "icon": "TbTools"
       },
       {
-        "title": "Construir",
-        "description": "Módulos centrales de SaaS, integración de facturación, panel de administración.",
+        "title": "Build",
+        "description": "Módulos Core SaaS, integración de facturación, panel de administración.",
         "icon": "FaHammer"
       },
       {
-        "title": "Lanzar",
-        "description": "Despliegue en la nube, configuración de monitoreo y escalado.",
+        "title": "Launch",
+        "description": "Implemente en la nube, configure el monitoreo y el escalado.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Crecimiento de SaaS: 1,200 en 3 meses",
+    "headline": "Crecimiento de SaaS 1200 en 3 meses",
     "image": "/all_services/mvps_and_pocs/case_study.webp",
     "content": {
       "problem": {
-        "label": "Problema",
-        "text": "Una startup quería lanzar una plataforma SaaS de analítica pero carecía de recursos para la facturación y la configuración de escalabilidad."
+        "label": "Problem",
+        "text": "Una startup quería lanzar una plataforma SaaS de análisis, pero carecía de los recursos para la facturación y la configuración de escalabilidad."
       },
       "solution": {
-        "label": "Solución",
-        "text": "Construimos una plataforma SaaS lista para suscripciones con multi-inquilino, paneles e integración con Stripe en solo 8 semanas."
+        "label": "Solution",
+        "text": "Creamos una plataforma SaaS lista para suscripción con multiinquilino, paneles e integración de Stripe en solo 8 semanas."
       },
       "result": {
-        "label": "Resultado",
-        "text": "Incorporaron a 1,200 usuarios en 3 meses y aseguraron financiación de Serie A."
+        "label": "Result",
+        "text": "Incorporaron 1200 usuarios en 3 meses y obtuvieron financiación Serie A."
       }
     }
   },
   "faq_section": {
-    "title": "Preguntas Frecuentes",
+    "title": "Preguntas frecuentes",
     "subtitle": "Obtenga respuestas a preguntas comunes",
     "questions": [
       {
-        "question": "¿Cuánto tiempo toma construir un MVP?",
-        "answer": "Normalmente, un MVP se puede desarrollar en 4-6 semanas dependiendo de la complejidad de las funciones."
+        "question": "¿Cuánto tiempo lleva construir un MVP?",
+        "answer": "Normalmente, un MVP se puede desarrollar en 4 a 6 semanas, dependiendo de la complejidad de las funciones."
       },
       {
         "question": "¿Brindan soporte continuo después del lanzamiento?",
-        "answer": "Sí, ofrecemos paquetes de mantenimiento y soporte post-lanzamiento para asegurar que su aplicación funcione correctamente."
+        "answer": "Sí, ofrecemos paquetes de soporte y mantenimiento posteriores al lanzamiento para garantizar que su aplicación funcione sin problemas."
       },
       {
         "question": "¿Pueden integrar funciones de IA en mi SaaS existente?",
         "answer": "Absolutamente. Nos especializamos en integrar modelos de IA en arquitecturas existentes a través de API."
       },
       {
-        "question": "¿Qué stack tecnológico utilizan para SaaS?",
-        "answer": "Principalmente usamos Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
+        "question": "¿Qué pila tecnológica utilizas para SaaS?",
+        "answer": "Utilizamos principalmente Next.js, React, Node.js, Python y servicios en la nube como AWS o Vercel."
       }
     ],
     "footer": {
-      "text": "¿No encontró su respuesta?",
+      "text": "¿No encontraste tu respuesta?",
       "link_text": "Contáctenos para más información",
       "link_url": "/contact"
     }

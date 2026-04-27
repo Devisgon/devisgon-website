@@ -87,7 +87,7 @@
         "icon": "SiMongodb"
       },
       {
-        "name": "mysql",
+        "name": "MySQL",
         "icon": "SiMysql"
       },
       {
@@ -131,15 +131,15 @@
     "image": "/all_services/db_mangment/cs.webp",
     "content": {
       "problem": {
-        "label": "Problema",
+        "label": "Problem",
         "text": "Un sitio de comercio electrónico con mucho tráfico experimentó graves bloqueos de la base de datos y errores de tiempo de espera durante las ventas flash, lo que le costó miles de dólares en carritos abandonados."
       },
       "solution": {
-        "label": "Solución",
+        "label": "Solution",
         "text": "Optimizamos su esquema PostgreSQL, implementamos Redis para el almacenamiento en caché del catálogo de productos y configuramos una arquitectura de réplica de lectura maestro-esclavo."
       },
       "result": {
-        "label": "Resultado",
+        "label": "Result",
         "text": "La carga de CPU de la base de datos se redujo en un 70 %, el tiempo promedio de respuesta a las consultas mejoró en un 300 % y la plataforma manejó el tráfico del Black Friday sin tiempo de inactividad."
       }
     }
@@ -162,7 +162,7 @@
       },
       {
         "question": "¿Cómo se protege nuestra base de datos de los piratas informáticos?",
-        "answer": "Implementamos una estricta seguridad a nivel de red (garantizando que la base de datos nunca quede expuesta a la Internet pública), aplicamos una sólida administración de identidad y acceso (IAM), ciframos datos tanto en reposo como en tránsito, y monitoreamos continuamente patrones de consultas sospechosos."
+        "answer": "Implementamos una estricta seguridad a nivel de red (garantizando que la base de datos nunca esté expuesta a la Internet pública), aplicamos una sólida administración de identidad y acceso (IAM), ciframos datos tanto en reposo como en tránsito, y monitoreamos continuamente patrones de consultas sospechosos."
       }
     ],
     "footer": {

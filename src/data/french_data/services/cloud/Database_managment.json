@@ -91,7 +91,7 @@
         "icon": "SiMysql"
       },
       {
-        "name": "Rédis",
+        "name": "Redis",
         "icon": "SiRedis"
       },
       {
@@ -131,7 +131,7 @@
     "image": "/all_services/db_mangment/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Un site de commerce électronique à fort trafic a connu de graves blocages de base de données et des erreurs de délai d'attente lors des ventes flash, ce qui lui a coûté des milliers de dollars en paniers abandonnés."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Nous avons optimisé leur schéma PostgreSQL, implémenté Redis pour la mise en cache du catalogue de produits et mis en place une architecture maître-esclave en lecture-réplication."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "La charge CPU de la base de données a chuté de 70 %, le temps de réponse moyen aux requêtes s'est amélioré de 300 % et la plate-forme a géré le trafic du Black Friday sans aucun temps d'arrêt."
       }
     }

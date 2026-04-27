@@ -1,103 +1,116 @@
 {
-  "slug": "c",
+  "slug": "c-programming",
+  "seo_metadata": {
+    "title": "Low-Level-C-Programmierung und Systemarchitekturdienste",
+    "description": "Enterprise C-Entwicklung für Hochleistungssysteme. Wir entwerfen Firmware, eingebettete Lösungen und leistungskritische Kernel mit chirurgischer Speicherpräzision.",
+    "keywords": [
+      "Programmiersprache C",
+      "Systemprogrammierung",
+      "Embedded C-Entwicklung",
+      "Low-Level-Hardware-Abstraktion",
+      "Optimierung der Speicherverwaltung",
+      "Kernel-Entwicklung",
+      "Hochleistungsrechnen"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "C",
-    "description": "Build production systems with C in our languages delivery ecosystem.",
+    "eyebrow": "Die Grundlage des modernen Computing",
+    "title": "Rohe Leistung mit",
+    "highlight": "Die C-Sprache",
+    "description": "Erzielen Sie maximale Hardware-Effizienz mit prozeduraler Programmierung, die eine dünne Abstraktionsschicht über dem Prozessor für ultimative Ausführungsgeschwindigkeit bereitstellt.",
     "side_image": "/technologies/c/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Konsultieren Sie einen Ingenieur",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Technische Dokumentation",
       "href": "/technologies/c#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "C plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Warum wir mit C entwickeln",
+    "subtitle": "C bleibt die endgültige Wahl für Umgebungen mit eingeschränkten Ressourcen und leistungskritischen Kernen.",
     "paragraphs": [
-      "C is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using C with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Wenn jedes Byte Speicher und jeder CPU-Zyklus zählt, ist C unser wichtigstes Werkzeug. Seine Fähigkeit, über Zeiger und Strukturen direkten Zugriff auf Speicher und Hardware zu ermöglichen, macht es unverzichtbar für die Entwicklung von Betriebssystemen, Treibern und Hochfrequenz-Handelsplattformen, bei denen der Overhead nicht akzeptabel ist.",
+      "Durch die Einhaltung strenger MISRA-Standards und den Einsatz moderner statischer Analysetools mindern wir die inhärenten Risiken der manuellen Speicherverwaltung und liefern Codebasen, die ebenso zuverlässig wie schnell sind."
     ],
     "cards": [
       {
-        "title": "C Clarity",
-        "description": "C helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Hardware-Nähe",
+        "description": "Manipulieren Sie Register und Speicheradressen direkt, um Hardware-Peripheriegeräte präzise zu steuern.",
+        "icon_type": "FaMicrochip"
       },
       {
-        "title": "C Performance",
-        "description": "C supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Minimaler Overhead",
+        "description": "Keine Garbage Collection zur Laufzeit oder starke Abstraktionen, wodurch deterministische Ausführungszeiten gewährleistet werden.",
+        "icon_type": "FaTachometerAlt"
       },
       {
-        "title": "C Reliability",
-        "description": "C strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Universelle Portabilität",
+        "description": "Schreiben Sie Code, der für nahezu jede Prozessorarchitektur kompiliert werden kann, von winzigen MCUs bis hin zu riesigen Supercomputern.",
+        "icon_type": "FaExpandArrowsAlt"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "Technologie-Architektur",
+    "title": "Systemarchitektonischer Umfang",
     "image": "/technologies/c/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with C-ready patterns designed for dynamic cloud scaling."
+        "title": "Eingebettete Systeme und Firmware",
+        "description": "Entwicklung robuster Firmware für IoT-Geräte, Automobil-Steuergeräte und industrielle Automatisierungshardware."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "C integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Hochleistungskerne",
+        "description": "Entwerfen Sie die leistungskritischen „Hot Paths“ größerer Systeme, um Engpässe zu beseitigen und die Latenz zu reduzieren."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use C to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Sprachübergreifende Brücken",
+        "description": "Erstellen gemeinsam genutzter Bibliotheken (.so/.dll), die es Hochsprachen wie Python oder Node.js ermöglichen, über FFI auf die Geschwindigkeit von C zuzugreifen."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the C stack.",
+    "title": "Der C-Wettbewerbsvorteil",
+    "subtitle": "Unübertroffene Effizienz für den Kern Ihrer digitalen Infrastruktur.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging C effectively."
+        "metric": "Nahe Null",
+        "title": "Abstraktionskosten",
+        "description": "Führen Sie Code mit der höchstmöglichen Befehls-pro-Takt-Effizienz aus."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with C."
+        "metric": "Deterministisch",
+        "title": "Latenz",
+        "description": "Eliminieren Sie unvorhersehbare Pausen, die durch Garbage Collectors in High-Level-Laufzeiten verursacht werden."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate C delivery."
+        "metric": "ISO",
+        "title": "Standardisiert",
+        "description": "Die Einhaltung der C11/C17/C23-Standards stellt sicher, dass Ihre Kernlogik über Jahrzehnte hinweg funktionsfähig bleibt."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using C inside open architecture patterns."
+        "metric": "Null",
+        "title": "Laufzeitaufblähung",
+        "description": "Behalten Sie den kleinstmöglichen binären Footprint bei, ideal für Edge-Computing und Legacy-Integration."
       }
     ]
   },
   "quote_section": {
-    "quote": "C gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "C bietet die chirurgische Präzision, die zur Umwandlung von Silizium erforderlich ist",
+    "highlight": "reine Rechenleistung"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your C roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Gestalten Sie Ihren Kern",
+    "subtitle": "Lassen Sie sich von unseren Systemspezialisten beraten, um Ihre leistungskritische Infrastruktur zu optimieren.",
+    "full_name_label": "Leitender Systemingenieur",
+    "business_email_label": "Entitäts-E-Mail",
+    "message_label": "Technische Anforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your C architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihre Hardwareeinschränkungen oder Leistungsengpässe ...",
+    "button_text": "Fordern Sie ein Systemaudit an"
   }
 }

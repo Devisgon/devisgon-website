@@ -1,103 +1,116 @@
 {
   "slug": "nodejs",
+  "seo_metadata": {
+    "title": "توسیع پذیر Node.js ترقی | اعلی کارکردگی کے پس منظر کے حل",
+    "description": "اعلی ہم آہنگی والے نظاموں کے لیے انٹرپرائز گریڈ Node.js کا نفاذ۔ ہم قابل توسیع، ریئل ٹائم بیک اینڈس بنانے کے لیے نان بلاکنگ I/O اور V8 انجن کی کارکردگی کا فائدہ اٹھاتے ہیں۔",
+    "keywords": [
+      "Node.js ڈویلپمنٹ",
+      "V8 انجن کی کارکردگی",
+      "واقعہ سے چلنے والا فن تعمیر",
+      "غیر مسدود I/O",
+      "سرور سائیڈ جاوا اسکرپٹ",
+      "ریئل ٹائم ایپلی کیشنز",
+      "این پی ایم ایکو سسٹم انٹیگریشن"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "جاوا اسکرپٹ رن ٹائم ماحولیات",
+    "title": "غیر مطابقت پذیر طاقت کے ساتھ",
     "highlight": "Node.js",
-    "description": "Build production systems with Node.js in our frameworks delivery ecosystem.",
+    "description": "تیز رفتار، توسیع پذیر نیٹ ورک ایپلی کیشنز بنانے کے لیے سرور سائیڈ پر JavaScript کو ایک ہی تھریڈ کے ساتھ ہزاروں کنکرنٹ کنکشنز کو ہینڈل کرنے کے قابل بنائیں۔",
     "side_image": "/technologies/node_js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے بیک اینڈ کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ دیکھیں",
       "href": "/technologies/nodejs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Node.js plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "ہم Node.js کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "Node.js جدید، انتہائی دستیاب ویب سروسز اور ریئل ٹائم ڈیٹا اسٹریمنگ کا سنگ بنیاد ہے۔",
     "paragraphs": [
-      "Node.js is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Node.js with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "ہم کام کے بوجھ کے لیے Node.js کو منتخب کرتے ہیں جن میں زیادہ تھرو پٹ اور کم تاخیر کی ضرورت ہوتی ہے۔ اس کا نان بلاکنگ، ایونٹ سے چلنے والا I/O ماڈل اسے ڈیٹا انٹینسیو ریئل ٹائم ایپلی کیشنز کے لیے غیر معمولی طور پر کارآمد بناتا ہے جو تقسیم شدہ ڈیوائسز پر چلتی ہیں، جس سے ہمیں ایسے بیک اینڈز بنانے کی اجازت ملتی ہے جو بھاری بوجھ میں جوابدہ رہتے ہیں۔",
+      "اپنی فرنٹ اینڈ اور بیک اینڈ کی زبانوں کو JavaScript یا TypeScript کے ساتھ یکجا کرکے، ہم سیاق و سباق کی تبدیلی کے رگڑ کو ختم کرتے ہیں۔ یہ واحد زبان کا اسٹیک ترقی کی رفتار کو تیز کرتا ہے، ٹیم کے تعاون کو آسان بناتا ہے، اور پورے ایپلیکیشن لائف سائیکل میں مشترکہ منطق کی اجازت دیتا ہے۔"
     ],
     "cards": [
       {
-        "title": "Node.js Clarity",
-        "description": "Node.js helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "V8 انجن کی رفتار",
+        "description": "گوگل کے V8 انجن کے ذریعے تقویت یافتہ، Node.js جاوا اسکرپٹ کو براہ راست مشین کوڈ میں مرتب کرتا ہے تاکہ بجلی کی تیز رفتاری سے عمل درآمد کیا جا سکے۔",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Node.js Performance",
-        "description": "Node.js supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ایونٹ لوپ ماڈل",
+        "description": "سرور کے وسائل کی افادیت کو زیادہ سے زیادہ کرتے ہوئے، تھریڈ مینجمنٹ کے اوور ہیڈ کے بغیر بڑے پیمانے پر ہم آہنگی کو ہینڈل کریں۔",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Node.js Reliability",
-        "description": "Node.js strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "این پی ایم ایکو سسٹم",
+        "description": "خصوصیت کی فراہمی اور اختراع کو تیز کرنے کے لیے اوپن سورس لائبریریوں کی دنیا کی سب سے بڑی رجسٹری کا فائدہ اٹھائیں۔",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "تکنیکی دائرہ کار",
     "image": "/technologies/node_js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Node.js-ready patterns designed for dynamic cloud scaling."
+        "title": "ریئل ٹائم ویب ساکٹس",
+        "description": "Socket.io کا استعمال کرتے ہوئے چیٹ سسٹمز، لائیو ڈیش بورڈز، اور اشتراکی ٹولز کے لیے کم لیٹنسی کمیونیکیشن لیئرز بنانا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Node.js integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "توسیع پذیر API گیٹ ویز",
+        "description": "ہلکی پھلکی، اعلی کارکردگی والی Node.js پراکسی تہوں کے ساتھ پیچیدہ مائیکرو سرویس تعاملات کو ترتیب دینا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Node.js to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "سرور کے بغیر افعال",
+        "description": "لاگت سے موثر، آٹو اسکیلنگ کمپیوٹ کے لیے AWS Lambda یا Google Cloud Functions کے ذریعے ایونٹ سے چلنے والی منطق کو تعینات کرنا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Node.js stack.",
+    "title": "نوڈ جے ایس ایج",
+    "subtitle": "جدید انٹرپرائز کے لیے قابل قدر کارکردگی۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Node.js effectively."
-      },
-      {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Node.js."
-      },
-      {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Node.js delivery."
+        "title": "رجسٹری ماڈیولز",
+        "description": "حسب ضرورت انجینئرنگ اوور ہیڈ کو کم کرنے کے لیے پہلے سے ٹیسٹ شدہ پیکجوں کے سب سے وسیع مجموعہ تک رسائی۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Node.js inside open architecture patterns."
+        "metric": "40%",
+        "title": "کم لیٹنسی",
+        "description": "روایتی مطابقت پذیر ماحول کے مقابلے I/O پابند ایپلی کیشنز کے جوابی اوقات میں کمی۔"
+      },
+      {
+        "metric": "سنگل",
+        "title": "زبان کا اسٹیک",
+        "description": "پورے پروڈکٹ ڈویلپمنٹ لائف سائیکل میں JavaScript استعمال کرکے ڈویلپر کی پیداواری صلاحیت کو بہتر بنائیں۔"
+      },
+      {
+        "metric": "صفر",
+        "title": "لاک ان",
+        "description": "کسی بھی کلاؤڈ یا آن پریمیس انفراسٹرکچر پر اپنے رن ٹائم ماحول پر مکمل کنٹرول برقرار رکھیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Node.js gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Node.js ہمیں نیٹ ورک فرسٹ ایپلی کیشنز بنانے کی اجازت دیتا ہے جو اتنی ہی تیز ہوں جتنی وہ ہیں۔",
+    "highlight": "آرکیٹیکچرل طور پر خوبصورت"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Node.js roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے انفراسٹرکچر کو تعمیر کریں۔",
+    "subtitle": "اعلی ہم آہنگی کی کارکردگی کے لیے روڈ میپ کی وضاحت کرنے کے لیے ہمارے لیڈ Node.js انجینئرز سے مشورہ کریں۔",
+    "full_name_label": "لیڈ انجینئر",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "اسٹریٹجک ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Node.js architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے Node.js کارکردگی کے چیلنجز یا اسکیلنگ کی ضروریات کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

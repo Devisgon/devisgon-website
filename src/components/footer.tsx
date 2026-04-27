@@ -1,5 +1,8 @@
-import React from "react";
+"use client";
+
+import React, { useEffect, useMemo, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
+import { getFooterDataByLang, normalizeLanguage } from "@/lib/localized-content";
 
 interface FooterLink {
   name: string;
@@ -11,32 +14,28 @@ interface FooterColumn {
   links: FooterLink[];
 }
 
-const footerColumns: FooterColumn[] = [
-  {
-    title: "Company",
-    links: [
-      { name: "Home", href: "/" },
-      { name: "About Us", href: "#about" },
-      { name: "Services", href: "/services" },
-      { name: "Technologies", href: "/services" },
-      { name: "Contact Us", href: "/contact" },
-    ],
-  },
-  {
-    title: "Help",
-    links: [
-      { name: "Customer Support", href: "/contact" },
-      { name: "Terms & Conditions", href: "/terms_condition" },
-      { name: "Privacy Policy", href: "/privacy_policies" },
-    ],
-  },
-  {
-    title: "Newsletter",
-    links: [],
-  },
-];
+const getCookieValue = (name: string): string | null => {
+  const token = `${name}=`;
+  const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
+  return match ? decodeURIComponent(match.slice(token.length)) : null;
+};
 
-const Footer: React.FC = () => {
+const Footer = () => {
+  const [currentLang, setCurrentLang] = useState("en");
+
+  useEffect(() => {
+    const syncLanguageFromCookie = () => {
+      setCurrentLang(normalizeLanguage(getCookieValue("lang")));
+    };
+
+    syncLanguageFromCookie();
+    window.addEventListener("app-language-change", syncLanguageFromCookie);
+    return () => window.removeEventListener("app-language-change", syncLanguageFromCookie);
+  }, []);
+
+  const footerData = useMemo(() => getFooterDataByLang(currentLang), [currentLang]);
+  const footerColumns = footerData.columns as FooterColumn[];
+
   return (
     <footer className="bg-bg-primary pt-16 pb-4 px-6 md:px-12 lg:px-20 text-primary">
       <div className="flex flex-col gap-12 w-full">
@@ -56,13 +55,13 @@ const Footer: React.FC = () => {
           </div>
 
           {footerColumns.map((col, index) => (
-            <div key={index} className="flex flex-col items-start md:items-center">
+            <div key={`${col.title}-${index}`} className="flex flex-col items-start md:items-center">
               <h3 className="font-bold text-t-primary text-2xl mb-6">{col.title}</h3>
 
               {col.links.length > 0 && (
                 <ul className="flex flex-col gap-4 text-t-secondary text-sm md:text-[20px]">
                   {col.links.map((link, i) => (
-                    <li key={i}>
+                    <li key={`${link.name}-${i}`}>
                       <a href={link.href} className="hover:border-b-2 transition-opacity">
                         {link.name}
                       </a>
@@ -71,15 +70,13 @@ const Footer: React.FC = () => {
                 </ul>
               )}
 
-              {col.title === "Newsletter" && <FooterNewsletterForm />}
+              {index === footerColumns.length - 1 && <FooterNewsletterForm />}
             </div>
           ))}
         </div>
 
         <div className="border-t text-center border-t-[#D1AFEC] dark:border-[#664282] p-2">
-          <p className="text-t-primary text-sm">
-            Copyright 2025-27, All Rights Reserved by Devisgon
-          </p>
+          <p className="text-t-primary text-sm">{footerData.copyright}</p>
         </div>
       </div>
     </footer>

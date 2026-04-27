@@ -1,103 +1,116 @@
 {
   "slug": "cpp",
+  "seo_metadata": {
+    "title": "Desarrollo C++ de alto rendimiento | Ingeniería de sistemas y juegos",
+    "description": "Servicios expertos de ingeniería de software C++. Construimos sistemas de alto rendimiento y uso eficiente de los recursos utilizando estándares modernos C++ 20/23 para aplicaciones de baja latencia.",
+    "keywords": [
+      "Desarrollo de software en C++",
+      "C++20 moderno",
+      "Sistemas de baja latencia",
+      "Abstracciones de costo cero",
+      "Gestión de memoria RAII",
+      "Optimización del rendimiento de C++",
+      "Integración STL y Boost"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "C++",
-    "description": "Build production systems with C++ in our languages delivery ecosystem.",
-    "side_image": "/technologies/c++/hero.webp",
+    "eyebrow": "Lenguaje de sistemas de alto rendimiento",
+    "title": "Potencia inigualable con",
+    "highlight": "C++ moderno",
+    "description": "Diseñe aplicaciones de alto rendimiento que exigen computación intensiva, control de hardware de bajo nivel y gestión de recursos sofisticada con estándares C++ modernos.",
+    "side_image": "/technologies/cpp/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimice su núcleo",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Documentación técnica",
       "href": "/technologies/cpp#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "C++ plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "Por qué diseñamos con C++",
+    "subtitle": "C++ proporciona la capacidad única de crear abstracciones complejas sin sacrificar el rendimiento del tiempo de ejecución.",
     "paragraphs": [
-      "C++ is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using C++ with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Elegimos C++ para motores de rendimiento crítico e infraestructura a nivel de sistemas. Al aprovechar las 'Abstracciones de Costo Cero', podemos utilizar patrones de programación genéricos y orientados a objetos de alto nivel que se compilan en código de máquina altamente eficiente, asegurando que la intención del desarrollador nunca se convierta en un cuello de botella para el procesador.",
+      "Con la implementación de patrones RAII (La adquisición de recursos es inicialización) modernos y punteros inteligentes, eliminamos las pérdidas de memoria comunes y los problemas de subprocesamiento. Esto permite a nuestros equipos ofrecer software excepcionalmente estable para industrias como fintech, juegos y simulaciones en tiempo real donde la confiabilidad es la principal métrica de éxito."
     ],
     "cards": [
       {
-        "title": "C++ Clarity",
-        "description": "C++ helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Abstracciones de costo cero",
+        "description": "Cree lógica de alto nivel sin las penalizaciones de rendimiento típicas de otros lenguajes administrados.",
+        "icon_type": "FaZap"
       },
       {
-        "title": "C++ Performance",
-        "description": "C++ supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Ciclo de vida determinista",
+        "description": "La gestión de memoria predecible a través de RAII garantiza una utilización óptima de los recursos sin pausas en la recolección de basura.",
+        "icon_type": "FaClock"
       },
       {
-        "title": "C++ Reliability",
-        "description": "C++ strengthens architecture stability across modern distributed systems.",
+        "title": "Poder multiparadigma",
+        "description": "Combine a la perfección estilos procedimentales, funcionales y orientados a objetos para satisfacer necesidades arquitectónicas específicas.",
         "icon_type": "FaLayerGroup"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/c++/scope.webp",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance arquitectónico de C++",
+    "image": "/technologies/cpp/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with C++-ready patterns designed for dynamic cloud scaling."
+        "title": "Diseño de motor de baja latencia",
+        "description": "Desarrollar plataformas comerciales de alta frecuencia y motores de procesamiento en tiempo real con precisión de nivel de microsegundos."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "C++ integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Aplicaciones de escritorio que consumen muchos recursos",
+        "description": "Creación de potentes herramientas gráficas, software CAD y suites multimedia que requieren optimización directa de GPU y CPU."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use C++ to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Núcleos integrados y de IoT",
+        "description": "Diseño de una lógica sólida para objetivos de hardware multiplataforma donde las huellas de memoria deben controlarse estrictamente."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the C++ stack.",
+    "title": "La ventaja de C++",
+    "subtitle": "Ventajas de rendimiento estratégico para los núcleos empresariales.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging C++ effectively."
+        "metric": "máx.",
+        "title": "Rendimiento",
+        "description": "Logre las velocidades de procesamiento de datos más altas posibles mediante el control manual de la memoria y la optimización de la caché."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with C++."
+        "metric": "100%",
+        "title": "Control de hardware",
+        "description": "Acceso directo a los recursos del sistema y registros de hardware para una eficiencia de ejecución incomparable."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate C++ delivery."
+        "metric": "Legado",
+        "title": "Interoperabilidad",
+        "description": "Integre perfectamente con bibliotecas C y sistemas existentes mientras moderniza la capa lógica de alto nivel."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using C++ inside open architecture patterns."
+        "metric": "Cero",
+        "title": "Inflación en tiempo de ejecución",
+        "description": "Mantenga un espacio mínimo al incluir únicamente las bibliotecas y funciones específicas que requiere su aplicación."
       }
     ]
   },
   "quote_section": {
-    "quote": "C++ gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "C++ sigue siendo el lenguaje elegido por aquellos que se niegan a hacer concesiones entre",
+    "highlight": "elegancia y velocidad"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your C++ roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su capa de rendimiento",
+    "subtitle": "Consulte con nuestros especialistas líderes en C++ para diseñar su hoja de ruta y estrategia de sistemas de baja latencia.",
+    "full_name_label": "Arquitecto líder de sistemas",
+    "business_email_label": "Correo electrónico de la entidad",
+    "message_label": "Requisito técnico",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your C++ architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describa sus requisitos de latencia o desafíos críticos para el rendimiento...",
+    "button_text": "Solicitar una Auditoría Técnica"
   }
 }

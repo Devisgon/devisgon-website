@@ -1,103 +1,116 @@
 {
   "slug": "supabase",
+  "seo_metadata": {
+    "title": "Développement de Supabase d'entreprise | PostgreSQL et solutions back-end en temps réel",
+    "description": "Services professionnels de mise en œuvre de Supabase. Créez des applications évolutives et sécurisées avec des API automatisées, des abonnements à des bases de données en temps réel et une authentification de niveau entreprise.",
+    "keywords": [
+      "Développement de la Supabase",
+      "Architecture PostgreSQL",
+      "Base de données en temps réel",
+      "Sécurité au niveau des lignes (RLS)",
+      "Solutions BaaS",
+      "Fonctions Edge de la Supabase",
+      "Back-end sans serveur"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "L'alternative open source à Firebase",
+    "title": "Innovation rapide avec",
     "highlight": "Supabase",
-    "description": "Build production systems with Supabase in our database delivery ecosystem.",
+    "description": "Accélérez votre développement backend avec une puissante suite basée sur PostgreSQL comprenant des API instantanées, une synchronisation des données en temps réel et une authentification intégrée.",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Construisez votre back-end",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Voir l'architecture de base",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Supabase plays a critical role in our database strategy for reliable software delivery.",
+    "title": "Pourquoi nous concevons avec Supabase",
+    "subtitle": "Supabase combine la fiabilité de PostgreSQL avec la vitesse des plates-formes Backend-as-a-Service (BaaS) modernes.",
     "paragraphs": [
-      "Supabase is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Supabase with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Supabase nous permet d'éliminer des mois d'ingénierie back-end standard. En tirant parti de ses API REST et GraphQL générées automatiquement, nous pouvons passer de la conception de schémas à l'intégration frontale en quelques heures plutôt qu'en quelques semaines, tout en restant dans le robuste écosystème PostgreSQL.",
+      "La plus grande force de la plateforme réside dans son modèle de sécurité. En utilisant la sécurité au niveau des lignes (RLS) native de PostgreSQL, nous garantissons que l'isolation des données et les autorisations des utilisateurs sont appliquées au niveau de la base de données, créant ainsi une architecture « base de données épaisse, client léger » qui est intrinsèquement plus sécurisée."
     ],
     "cards": [
       {
-        "title": "Supabase Clarity",
-        "description": "Supabase helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "La puissance de PostgreSQL",
+        "description": "Chaque projet Supabase est une base de données PostgreSQL complète et dédiée, sans couches d'abstraction propriétaires.",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Supabase Performance",
-        "description": "Supabase supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Moteur temps réel",
+        "description": "Écoutez les modifications de la base de données en temps réel via WebSockets pour créer des expériences utilisateur collaboratives en direct.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Supabase Reliability",
-        "description": "Supabase strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Authentification intégrée",
+        "description": "Gérez les inscriptions et les connexions des utilisateurs avec une suite complète de fournisseurs sociaux et sans mot de passe.",
+        "icon_type": "FaUserShield"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "architecture technologique",
+    "title": "Portée technique de Supabase",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Supabase-ready patterns designed for dynamic cloud scaling."
+        "title": "Modélisation des données relationnelles",
+        "description": "Conception de schémas PostgreSQL de haute intégrité avec des clés étrangères, des vues et des procédures stockées pour la logique métier."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Supabase integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Fonctions Edge sans serveur",
+        "description": "Déployer des fonctions TypeScript à l'échelle mondiale pour gérer la logique sensible, les webhooks et les intégrations tierces."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Supabase to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Stockage et gestion des actifs",
+        "description": "Gérez des fichiers et des médias volumineux avec une couche de stockage évolutive qui s'intègre directement aux autorisations de base de données."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Supabase stack.",
+    "title": "Le bord de la Supabase",
+    "subtitle": "Avantages stratégiques pour une livraison full-stack moderne.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Supabase effectively."
+        "metric": "3x",
+        "title": "Vitesse de développement",
+        "description": "Réduction du temps de développement backend grâce à la génération automatisée d'API CRUD et à l'authentification intégrée."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Supabase."
+        "metric": "99,95%",
+        "title": "Temps de disponibilité",
+        "description": "Infrastructure haute disponibilité gérée par AWS et optimisée pour une disponibilité critique."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Supabase delivery."
+        "metric": "Ouvrir",
+        "title": "Noyau source",
+        "description": "Construit sur des normes open source telles que Postgres, GoTrue et PostgREST, empêchant un verrouillage restrictif."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Supabase inside open architecture patterns."
+        "metric": "Zéro",
+        "title": "Verrouillage du fournisseur",
+        "description": "Exportez l'intégralité de votre base de données et de votre configuration à tout moment vers votre propre instance PostgreSQL auto-hébergée."
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Supabase nous permet de construire avec la vitesse d'une startup et le",
+    "highlight": "stabilité d'une entreprise"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Supabase roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Concevez votre application en temps réel",
+    "subtitle": "Consultez nos ingénieurs principaux pour définir votre architecture Supabase ou planifier une migration depuis Firebase.",
+    "full_name_label": "Nom du développeur principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence technique",
+    "full_name_placeholder": "Dr Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Supabase architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Décrivez vos besoins en données ou vos défis en temps réel...",
+    "button_text": "Lancez votre projet"
   }
 }

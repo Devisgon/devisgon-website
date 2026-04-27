@@ -83,7 +83,7 @@
         "icon": "FaAws"
       },
       {
-        "name": "Wolkenflare",
+        "name": "Cloudflare",
         "icon": "SiCloudflare"
       },
       {
@@ -91,7 +91,7 @@
         "icon": "SiHashicorp"
       },
       {
-        "name": "Datenhund",
+        "name": "Datadog",
         "icon": "SiDatadog"
       },
       {
@@ -115,7 +115,7 @@
         "icon": "FaShieldAlt"
       },
       {
-        "title": "Durchführung",
+        "title": "Implementation",
         "description": "Wir stellen Firewalls, IAM-Richtlinien und Verschlüsselungsschlüssel bereit, ohne Ihre Live-Dienste zu unterbrechen.",
         "icon": "FaLock"
       },
@@ -135,11 +135,11 @@
         "text": "Eine schnell wachsende Finanzanwendung hatte AWS S3-Buckets offengelegt und verfügte nicht über angemessene Zugriffskontrollen, sodass sie Gefahr liefen, bei einem bevorstehenden Compliance-Audit durchzufallen."
       },
       "solution": {
-        "label": "Lösung",
+        "label": "Solution",
         "text": "Wir führten eine vollständige Sicherheitsüberprüfung durch, sperrten die öffentlich zugängliche Infrastruktur, verschlüsselten alle Datenbanken und implementierten eine strenge IAM-Richtlinie (Identity and Access Management)."
       },
       "result": {
-        "label": "Ergebnis",
+        "label": "Result",
         "text": "Der Kunde hat sein SOC 2 Typ II-Audit in weniger als 4 Wochen erfolgreich bestanden und konnte so einen wichtigen Unternehmensvertrag über 5 Millionen US-Dollar abschließen."
       }
     }

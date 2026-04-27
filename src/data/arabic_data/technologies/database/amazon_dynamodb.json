@@ -1,103 +1,116 @@
 {
-  "slug": "amazon_dynamodb",
+  "slug": "amazon-dynamodb",
+  "seo_metadata": {
+    "title": "أمازون دينامو دي بي للاستشارات والهندسة المعمارية | NoSQL عالي الأداء",
+    "description": "خدمات تنفيذ Amazon DynamoDB المتخصصة. أنشئ تطبيقات بدون خادم وزمن استجابة منخفض للغاية مع أداء مكون من رقم واحد بالمللي ثانية على أي نطاق.",
+    "keywords": [
+      "أمازون دينامو دي بي",
+      "تصميم قاعدة بيانات NoSQL",
+      "بنية بدون خادم",
+      "نمذجة بيانات AWS",
+      "تصميم طاولة واحدة",
+      "تدفقات DynamoDB",
+      "الجداول العالمية"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Amazon DynamoDB",
-    "description": "Build production systems with Amazon DynamoDB in our database delivery ecosystem.",
+    "eyebrow": "قاعدة بيانات NoSQL بدون خادم",
+    "title": "مقياس المدقع مع",
+    "highlight": "أمازون دينامو دي بي",
+    "description": "يمكنك التوسع بسلاسة من عدد قليل من الطلبات شهريًا إلى ملايين الطلبات في الثانية مع أداء مُدار بالكامل برقم واحد بالمللي ثانية.",
     "side_image": "/technologies/dynamodb/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين عبء العمل الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض أنماط الهندسة المعمارية",
       "href": "/technologies/amazon_dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Amazon DynamoDB plays a critical role in our database strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام DynamoDB",
+    "subtitle": "DynamoDB هو العمود الفقري للتطبيقات الموزعة عالية التزامن حيث يكون زمن الوصول غير قابل للتفاوض.",
     "paragraphs": [
-      "Amazon DynamoDB is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Amazon DynamoDB with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "على عكس نظام RDBMS التقليدي، يوفر DynamoDB أداءً متسقًا على أي نطاق. نحن نستفيد منها للتخلص من الأعباء الإضافية لإدارة قاعدة البيانات، مما يسمح لفريقك بالتركيز على منطق الأعمال بدلاً من توفير المجموعات أو إدارة الأجزاء.",
+      "من خلال تنفيذ أنماط تصميم الطاولة الواحدة المتخصصة، نضمن أن وصولك إلى البيانات يتسم بالكفاءة، وبتكلفة مناسبة، وقادر على التعامل مع الارتفاعات غير المتوقعة في حركة المرور دون تدخل يدوي."
     ],
     "cards": [
       {
-        "title": "Amazon DynamoDB Clarity",
-        "description": "Amazon DynamoDB helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "زمن الوصول المتوقع",
+        "description": "حقق أوقات استجابة ثابتة أقل من 10 مللي ثانية لعمليات القراءة/الكتابة، بغض النظر عن حجم البيانات.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Amazon DynamoDB Performance",
-        "description": "Amazon DynamoDB supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "عمليات بدون خادم",
+        "description": "إدارة الخادم صفر. يتم القياس تلقائيًا باستخدام أوضاع السعة \"حسب الطلب\" أو \"الموفرة\".",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "Amazon DynamoDB Reliability",
-        "description": "Amazon DynamoDB strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "النسخ العالمي",
+        "description": "انشر قواعد بيانات متعددة المناطق ومتعددة النشاط باستخدام الجداول العامة لتوفير نسبة 99.999%.",
+        "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق تصميم DynamoDB",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Amazon DynamoDB-ready patterns designed for dynamic cloud scaling."
+        "title": "تصميم طاولة واحدة",
+        "description": "قم بدمج كيانات متعددة في جدول واحد باستخدام إستراتيجيات التقسيم والفرز المتطورة لتقليل استدعاءات واجهة برمجة التطبيقات (API)."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Amazon DynamoDB integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "مشغلات يحركها الحدث",
+        "description": "استخدم DynamoDB Streams وAWS Lambda لتشغيل مسارات العمل النهائية أو فهرسة البحث أو التحليلات في الوقت الفعلي."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Amazon DynamoDB to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "المؤشرات الثانوية العالمية (GSI)",
+        "description": "قم بإنشاء أنماط استعلام مرنة عن طريق عرض البيانات على الفهارس الثانوية، مما يتيح طرقًا متعددة لعرض نفس مجموعة البيانات."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Amazon DynamoDB stack.",
+    "title": "ميزة DynamoDB",
+    "subtitle": "الأداء الكمي للمؤسسات الحديثة.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon DynamoDB effectively."
+        "metric": "<10 مللي ثانية",
+        "title": "التحكم في الكمون",
+        "description": "زمن استجابة ثابت مكون من رقم واحد بالمللي ثانية لقيمة المفتاح وبيانات المستند على أي نطاق."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Amazon DynamoDB."
+        "metric": "99.999%",
+        "title": "موثوقية جيش تحرير السودان",
+        "description": "وقت تشغيل رائد في الصناعة للجداول العالمية، مما يضمن إمكانية الوصول إلى تطبيقك دائمًا."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon DynamoDB delivery."
+        "metric": "مزدوج",
+        "title": "تسريع داكس",
+        "description": "قم بزيادة الإنتاجية بمعدل 10 مرات باستخدام التخزين المؤقت في الذاكرة DynamoDB Accelerator (DAX)."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Amazon DynamoDB inside open architecture patterns."
+        "metric": "صفر",
+        "title": "صيانة",
+        "description": "تخلص من عمليات التصحيح وتوفير الأجهزة وتحديثات البرامج من خلال بنية AWS الأساسية المُدارة بالكامل."
       }
     ]
   },
   "quote_section": {
-    "quote": "Amazon DynamoDB gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "DynamoDB ليست مجرد قاعدة بيانات؛ إنه أساس البناء",
+    "highlight": "النظم البيئية واسعة النطاق بدون خادم"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Amazon DynamoDB roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "توسيع نطاق البنية التحتية الخاصة بك",
+    "subtitle": "استشر متخصصي البيانات المعتمدين لدى AWS لدينا لتصميم نموذج بيانات DynamoDB الخاص بك.",
+    "full_name_label": "اسم المهندس الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركة",
+    "message_label": "المتطلبات الفنية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Amazon DynamoDB architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "أخبرنا عن متطلبات الإنتاجية أو تحديات نمذجة البيانات...",
+    "button_text": "جدولة التدقيق"
   }
 }

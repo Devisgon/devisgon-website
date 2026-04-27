@@ -1,6 +1,59 @@
+"use client";
 import { Check } from "lucide-react";
+import { motion, useInView } from "framer-motion";
+import { useRef } from "react";
 import type { ExpertServicesSectionProps } from "@/types/homepage/expert_services";
 
+/* ------------------ Looping Typewriter Sub-Component ------------------ */
+const TypewriterTitle = ({ text, color }: { text: string; color: string }) => {
+  const ref = useRef(null);
+  // Removed "once: true" so it can restart/stop based on visibility
+  const isInView = useInView(ref, { amount: 0.5 });
+
+  const sentence = {
+    hidden: { opacity: 1 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.08, // Speed of typing
+        delayChildren: 0.5,    // Pause before starting the loop
+      },
+    },
+  };
+
+  const letter = {
+    hidden: { opacity: 0, display: "none" },
+    visible: { 
+      opacity: 1, 
+      display: "inline",
+      transition: {
+        repeat: Infinity,      // Infinite loop
+        repeatType: "reverse" as const, // Deletes the text after typing
+        repeatDelay: 1.5,      // How long the full word stays visible
+        duration: 0.01         // Instant appearance of each character
+      }
+    },
+  };
+
+  return (
+    <motion.span
+      ref={ref}
+      variants={sentence}
+      initial="hidden"
+      animate={isInView ? "visible" : "hidden"}
+      className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide inline-block"
+      style={{ color: color }}
+    >
+      {text.split("").map((char, index) => (
+        <motion.span key={index} variants={letter}>
+          {char}
+        </motion.span>
+      ))}
+    </motion.span>
+  );
+};
+
+/* ------------------ Main Section ------------------ */
 const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
   return (
     <section className="w-full bg-bg-secondary py-16">
@@ -18,17 +71,19 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
             decoding="async"
           />
 
-          <div className="absolute right-0  md:top-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#402060] rounded-lg shadow-2xl p-4 sm:p-6 w-64 sm:w-72 z-20">
+          {/* Checklist Card */}
+          <div className="absolute right-0 md:top-1/2 -translate-y-1/2 bg-[#FFFFFF] dark:bg-[#402060] rounded-lg shadow-2xl p-4 sm:p-6 w-64 sm:w-72 z-20">
             <ul className="space-y-3 sm:space-y-4">
               {data.process_checklist_card.items.map((item, index) => (
                 <li key={index} className="flex text-t-primary items-center gap-2">
                   <Check className="w-4 h-4 text-t-secondary flex-shrink-0" />
-                  <span className="text-xs sm:text-sm font-medium ">{item}</span>
+                  <span className="text-xs sm:text-sm font-medium">{item}</span>
                 </li>
               ))}
             </ul>
           </div>
 
+          {/* Bottom Info Cards */}
           <div
             className="
               flex flex-col p-2 mt-10 
@@ -42,12 +97,7 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
                 className="flex-1 p-4 sm:p-6 rounded-sm"
                 style={{ backgroundColor: card.bg }}
               >
-                <span
-                  className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide"
-                  style={{ color: card.main_text }}
-                >
-                  {card.title}
-                </span>
+                <TypewriterTitle text={card.title} color={card.main_text} />
 
                 <p
                   className="text-[10px] sm:text-xs leading-relaxed opacity-90"

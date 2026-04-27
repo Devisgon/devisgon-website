@@ -1,103 +1,116 @@
 {
-  "slug": "database",
+  "slug": "database-architecture",
+  "seo_metadata": {
+    "title": "Skalierbare Datenbankarchitektur und polyglotte Persistenzlösungen",
+    "description": "Datenbankdesign für Unternehmen mit MySQL, MongoDB, DynamoDB und Supabase. Wir entwerfen hochverfügbare Datenschichten für moderne verteilte Systeme.",
+    "keywords": [
+      "Datenbankarchitektur",
+      "Polyglotte Beharrlichkeit",
+      "SQL vs. NoSQL-Design",
+      "Hochverfügbarkeitsdatenbanken",
+      "Datenmodellierungsdienste",
+      "Skalierbarkeit der Datenbank",
+      "Verteilte Datensysteme"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Database",
-    "description": "Build production systems with Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "Dateninfrastruktur",
+    "title": "Zukunftssicher mit",
+    "highlight": "Skalierbare Datenbanken",
+    "description": "Stellen Sie geschäftskritische Datenschichten mithilfe einer strategischen Mischung aus relationalen, Dokumenten- und Schlüsselwertspeichern bereit, die auf Ihre individuellen Skalierungsanforderungen zugeschnitten sind.",
+    "side_image": "/services_page/database-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Konsultieren Sie einen Architekten",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Technische Muster",
       "href": "/technologies/database#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Database forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "Entwickelt für Beständigkeit.",
+    "subtitle": "Wir glauben nicht an Einheitslösungen. Wir wählen Datenbank-Engines basierend auf den Anforderungen des CAP-Theorems und der Geschäftslogik aus.",
     "paragraphs": [
-      "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "Dank unserer Multi-Stack-Expertise – die Supabase (PostgreSQL), MongoDB, MySQL und DynamoDB umfasst – können wir Leistungsengpässe beseitigen. Wir passen die Struktur, das Volumen und die Geschwindigkeit Ihrer Daten an die Engine an, die die niedrigste Latenz und höchste Integrität garantiert.",
+      "Durch die Entkopplung der Datenschicht und die Implementierung effizienter Caching- und Indexierungsstrategien stellen wir sicher, dass Ihre Infrastruktur auch dann kosteneffizient bleibt, wenn Ihre Benutzerbasis von Hunderten auf Millionen wächst."
     ],
     "cards": [
       {
-        "title": "Data Integrity",
-        "description": "Reliable storage design preserves consistency across operational workflows.",
-        "icon_type": "FaCheckCircle"
+        "title": "ACID-Konformität",
+        "description": "Stellen Sie die Transaktionsintegrität für die Finanz- und Kerngeschäftslogik mithilfe robuster relationaler Strukturen sicher.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Query Flexibility",
-        "description": "SQL and NoSQL layering supports both product speed and analytical depth.",
-        "icon_type": "FaSearch"
+        "title": "Horizontale Elastizität",
+        "description": "Dynamisches Skalieren mit NoSQL-Clustern, die für den Umgang mit enormem Durchsatz und unstrukturierten Daten ausgelegt sind.",
+        "icon_type": "FaExpandAlt"
       },
       {
-        "title": "Scalable Reliability",
-        "description": "Cloud-native persistence patterns keep systems stable under heavy load.",
-        "icon_type": "FaDatabase"
+        "title": "Operative Intelligenz",
+        "description": "Integrieren Sie Echtzeitanalyse- und Suchfunktionen direkt in Ihre Primärdaten-Workflows.",
+        "icon_type": "FaChartBar"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "Technologie-Architektur",
+    "title": "Umfang der Datenstrategie",
+    "image": "/services_page/database-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with database choices matched to runtime and scaling goals."
+        "title": "Polyglotte Beharrlichkeit",
+        "description": "Verwendung spezialisierter Datenbanken (z. B. Redis für Cache, PostgreSQL für Beziehungen) innerhalb eines einzigen Microservices-Netzes."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "ETL- und Synchronisierungspipelines",
+        "description": "Entwurf einer automatisierten Datenbewegung zwischen operativen Filialen und analytischen Lagern ohne Datenverlust."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "Notfallwiederherstellung",
+        "description": "Implementierung multiregionaler Replikation, automatisierter Failover und Point-in-Time-Wiederherstellung für Geschäftskontinuität."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Database stack.",
+    "title": "Der strategische Datenvorsprung",
+    "subtitle": "Leistungsmetriken, die branchenführende Datenschichten definieren.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "metric": "Sub-ms",
+        "title": "Abfragelatenz",
+        "description": "Optimierte Indexierungs- und Caching-Strategien, um einen blitzschnellen Datenabruf zu gewährleisten."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "99,99 %",
+        "title": "Verfügbarkeit",
+        "description": "Architektonische Redundanz stellt sicher, dass Ihre Daten auch bei regionalen Cloud-Ausfällen zugänglich bleiben."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "Null",
+        "title": "Datensilos",
+        "description": "Einheitliche Datenzugriffsmuster, die fragmentierte Informationen in Ihrem Unternehmen verhindern."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "100 %",
+        "title": "Datensouveränität",
+        "description": "Volle Kontrolle über Ihr Schema und Ihre Datenmigrationspfade, wodurch eine restriktive proprietäre Bindung vermieden wird."
       }
     ]
   },
   "quote_section": {
-    "quote": "A resilient data model turns raw information into",
-    "highlight": "confident decisions"
+    "quote": "Eine wirklich belastbare Datenbank ist unsichtbar; Es skaliert lautlos, während es Rohdaten in umwandelt",
+    "highlight": "Wettbewerbsintelligenz"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your database roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Optimieren Sie Ihre Datenschicht",
+    "subtitle": "Treffen Sie sich mit unseren Datenbankingenieuren, um Ihr aktuelles Schema zu prüfen oder eine groß angelegte Migration zu planen.",
+    "full_name_label": "Leitender Dateningenieur",
+    "business_email_label": "Entitäts-E-Mail",
+    "message_label": "Operative Herausforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihr Datenvolumen, Ihre Parallelitätsanforderungen oder Migrationshürden ...",
+    "button_text": "Starten Sie die Datenprüfung"
   }
 }

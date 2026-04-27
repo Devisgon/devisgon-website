@@ -1,103 +1,116 @@
 {
   "slug": "laravel",
+  "seo_metadata": {
+    "title": "تطوير المشاريع لارافيل | حلول إطار عمل PHP الأنيقة",
+    "description": "خدمات تطوير الويب Laravel المخصصة. نحن نصمم تطبيقات قابلة للتطوير وآمنة وقابلة للصيانة باستخدام أقوى إطار عمل MVC في PHP.",
+    "keywords": [
+      "تطوير لارافيل",
+      "إطار PHP MVC",
+      "بليغة ORM",
+      "نشر لارافيل فورج",
+      "تطوير واجهة برمجة التطبيقات المخصصة",
+      "لارافيل بخار بدون خادم",
+      "حلول PHP كاملة المكدس"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Laravel",
-    "description": "Build production systems with Laravel in our frameworks delivery ecosystem.",
+    "eyebrow": "إطار عمل PHP لحرفيي الويب",
+    "title": "هندسة أنيقة مع",
+    "highlight": "لارافيل",
+    "description": "أنشئ تطبيقات ويب حديثة ومتكاملة باستخدام إطار عمل يعطي الأولوية للتعليمات البرمجية النظيفة وسعادة المطورين والقوة على مستوى المؤسسة.",
     "side_image": "/technologies/laravel/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ابدأ البناء الخاص بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "استكشاف النظام البيئي",
       "href": "/technologies/laravel#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Laravel plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة مع Laravel",
+    "subtitle": "يوفر Laravel النظام البيئي الأكثر شمولاً للتطوير السريع دون التضحية بالسلامة المعمارية.",
     "paragraphs": [
-      "Laravel is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Laravel with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Laravel هو خيارنا المفضل لتطبيقات الويب المعقدة أو الغنية بالمحتوى أو الخاصة بالمعاملات. يتيح لنا أسلوبها \"المتضمن البطاريات\" — الذي يتميز بالمصادقة المضمنة وخدمات البريد وإدارة قوائم الانتظار — التركيز على إنشاء ميزات عمل فريدة بدلاً من إعادة اختراع البنية الأساسية الأساسية.",
+      "من خلال استخدام Eloquent ORM ومحرك النماذج Blade، نقوم بإنشاء قواعد تعليمات برمجية ليست فقط ذات أداء عالي ولكنها أيضًا قابلة للقراءة بشكل كبير. وهذا يضمن سهولة تدقيق التطبيقات التي نبنيها وصيانتها وتسليمها إلى الفرق الداخلية أثناء نموها."
     ],
     "cards": [
       {
-        "title": "Laravel Clarity",
-        "description": "Laravel helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "بليغة ORM",
+        "description": "قم بإدارة سجلات قاعدة البيانات باستخدام بناء جملة معبر وجميل يجعل الاستعلامات المعقدة بسيطة وسهلة القراءة.",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Laravel Performance",
-        "description": "Laravel supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "أمان قوي",
+        "description": "تم تضمين الحماية ضد حقن SQL وتزوير الطلبات عبر المواقع والبرمجة النصية عبر المواقع في قلب البرنامج.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Laravel Reliability",
-        "description": "Laravel strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "طوابير قابلة للتطوير",
+        "description": "قم بإلغاء تحميل المهام التي تستغرق وقتًا طويلاً إلى العاملين في الخلفية للحفاظ على سرعة واجهة مستخدم التطبيق الخاص بك.",
+        "icon_type": "FaTasks"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق الإطار",
     "image": "/technologies/laravel/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Laravel-ready patterns designed for dynamic cloud scaling."
+        "title": "وحدات متراصة",
+        "description": "هيكلة التطبيقات باستخدام نمط MVC التقليدي مع الحفاظ على النمطية لتسهيل الانتقال إلى الخدمات الصغيرة."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Laravel integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "الأحداث في الوقت الحقيقي",
+        "description": "دمج Laravel Echo وPusher/Reverb لإنشاء إشعارات في الوقت الفعلي وتحديثات البيانات المباشرة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Laravel to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "العمليات بدون خادم والسحابة",
+        "description": "النشر على نطاق واسع باستخدام Laravel Vapor لـ AWS Lambda أو Forge لمجموعات الخوادم المُدارة عالية الأداء."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Laravel stack.",
+    "title": "حافة لارافيل",
+    "subtitle": "المزايا الاستراتيجية لتسليم الأعمال الحديثة.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Laravel effectively."
+        "metric": "سريع",
+        "title": "الإعداد",
+        "description": "تعمل الاتفاقيات الواضحة والوثائق الشاملة على تقليل منحنى التعلم للمطورين الجدد."
       },
       {
         "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Laravel."
+        "title": "سلامة الكود",
+        "description": "الاستفادة من ميزات PHP 8+ ومجموعة اختبار Laravel لضمان عمليات نشر عالية الثقة."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Laravel delivery."
+        "metric": "20 ألف+",
+        "title": "الحزم",
+        "description": "مجتمع ضخم (Packagist) يوفر وحدات لبوابات الدفع والمصادقة الاجتماعية والمزيد."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Laravel inside open architecture patterns."
+        "metric": "صفر",
+        "title": "نمو الديون",
+        "description": "يضمن الالتزام الصارم بمعايير PSR أن تظل قاعدة التعليمات البرمجية الخاصة بك حديثة ومتوافقة مع إصدارات PHP المستقبلية."
       }
     ]
   },
   "quote_section": {
-    "quote": "Laravel gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يحرر Laravel المطورين ليتمكنوا من الإنشاء بينما يتعامل إطار العمل مع ملف",
+    "highlight": "رفع الأثقال المعمارية"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Laravel roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم مشروعك القادم",
+    "subtitle": "استشر خبراء Laravel لدينا لبناء حل ويب آمن وقابل للتطوير ومصمم خصيصًا لتلبية احتياجات عملك.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "نطاق المشروع",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Laravel architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف رؤية Laravel أو متطلبات الواجهة الخلفية المعقدة...",
+    "button_text": "طلب عرض أسعار"
   }
 }

@@ -1,0 +1,121 @@
+{
+  "hero_title": "Hablemos de tu proyecto",
+  "hero_description": "¿Listo para hacer realidad tu visión? Nos encantaría conocer su proyecto y explorar cómo podemos ayudarle a alcanzar sus objetivos.",
+  "form": {
+    "title": "Envíanos un mensaje",
+    "description": "Complete el siguiente formulario y nos comunicaremos con usted dentro de las 24 horas.",
+    "labels": {
+      "name": "Nombre *",
+      "email": "Correo electrónico *",
+      "company": "Company",
+      "project_type": "Tipo de proyecto *",
+      "budget": "Rango de presupuesto",
+      "timeline": "Timeline",
+      "project_detail": "Detalle del proyecto *",
+      "privacy_consent": "Acepto el tratamiento de mis datos personales de conformidad con las",
+      "privacy_policy": "política de privacidad",
+      "privacy_consent_suffix": "y consentimiento para recibir comunicaciones sobre esta consulta."
+    },
+    "placeholders": {
+      "name": "Su nombre",
+      "email": "tu@correo electrónico.com",
+      "company": "El nombre de tu empresa",
+      "project_detail": "Cuéntenos sobre su proyecto, objetivos y cualquier requisito específico..."
+    },
+    "project_type_options": [
+      {
+        "value": "",
+        "label": "Seleccione el tipo de proyecto"
+      },
+      {
+        "value": "Web Development",
+        "label": "Desarrollo Web"
+      },
+      {
+        "value": "Mobile App",
+        "label": "Aplicación móvil"
+      },
+      {
+        "value": "UI / UX Design",
+        "label": "Diseño UI/UX"
+      },
+      {
+        "value": "AI Solutions",
+        "label": "Soluciones de IA"
+      },
+      {
+        "value": "Automation",
+        "label": "Automation"
+      }
+    ],
+    "budget_options": [
+      {
+        "value": "",
+        "label": "Seleccionar rango de presupuesto"
+      },
+      {
+        "value": "5k-10k",
+        "label": "$ 5 mil - $ 10 mil"
+      },
+      {
+        "value": "10k-20k",
+        "label": "$ 10 mil - $ 20 mil"
+      },
+      {
+        "value": "20k+",
+        "label": "$20k+"
+      }
+    ],
+    "timeline_options": [
+      {
+        "value": "",
+        "label": "Seleccionar línea de tiempo"
+      },
+      {
+        "value": "ASAP",
+        "label": "ASAP"
+      },
+      {
+        "value": "1-3 Months",
+        "label": "1 - 3 meses"
+      },
+      {
+        "value": "3-6 Months",
+        "label": "3 - 6 meses"
+      },
+      {
+        "value": "6-9 Months",
+        "label": "6 - 9 meses"
+      }
+    ],
+    "upload": {
+      "drop_text": "Suelte los archivos aquí o haga clic para cargarlos",
+      "types_text": "PNG, JPG, PDF hasta 10MB"
+    },
+    "buttons": {
+      "send": "Enviar mensaje",
+      "sending": "Sending..."
+    },
+    "status": {
+      "success": "¡Gracias por contactarnos!",
+      "error": "Intentar otra vez",
+      "invalid_email": "Utilice un correo electrónico válido"
+    }
+  },
+  "schedule": {
+    "title": "Programe una llamada",
+    "description": "¿Prefieres hablar? Reserve una llamada de consulta gratuita de 30 minutos con nuestro equipo",
+    "provider": "Calendly",
+    "book_button": "Reservar una llamada",
+    "choose_duration": "Elija la duración de la reunión",
+    "durations": {
+      "min_15": "reunión de 15 minutos",
+      "min_30": "reunión de 30 minutos",
+      "min_60": "reunión de 60 minutos"
+    }
+  },
+  "contact_info": {
+    "title": "Ponte en contacto",
+    "location": "Okara, Pakistán"
+  }
+}

@@ -1,130 +1,370 @@
 {
   "hero_section": {
-    "pre_title": "Su Socio en Tecnología de Próxima Generación",
-    "main_title": "Software Impulsado por IA",
-    "sub_main_title": "Flujos de Trabajo Inteligentes",
-    "title": "Crecimiento Escalable.",
-    "description": "Ayudamos a las empresas globales a ahorrar entre un 20 y un 50% de tiempo mediante la automatización con IA.",
-    "cta_button": { "text": "Comenzar", "link": "#" }
+    "pre_title": "Su socio en tecnología de próxima generación",
+    "main_title": "Software impulsado por IA",
+    "sub_main_title": "Flujos de trabajo más inteligentes",
+    "title": "Crecimiento escalable.",
+    "description": "Ayudar a las empresas globales a ahorrar entre un 20 % y un 50 % de tiempo mediante la automatización de la IA.",
+    "cta_button": {
+      "text": "Empezar",
+      "link": "#"
+    }
   },
   "services_section": {
-    "header_title": "SERVICIOS",
-    "main_title": "Ofrecemos una solución integral para cada servicio de TI",
+    "header_title": "SERVICES",
+    "main_title": "Proporcionamos una solución todo en uno para cada servicio de TI",
     "services_list": [
-      { "title": "DESARROLLO WEB", "image_alt": "/home_page/services/web_development.webp", "link": "/services/web_and_mobile_development/web_applications" },
-      { "title": "DESARROLLO DE APPS", "image_alt": "/home_page/services/app_development.webp", "link": "/services/web_and_mobile_development/app_applications" },
-      { "title": "Desarrollo SaaS", "image_alt": "/home_page/services/saas_development.webp", "link": "/services/saas/saas_plateform" },
-      { "title": "Análisis de DATOS", "image_alt": "/home_page/services/data_analysing.webp", "link": "/services/data_solutions/data_analytics_dashboard" },
-      { "title": "Nube y Despliegue", "image_alt": "/home_page/services/cloude_and_development.webp", "link": "/services/saas/mvps" },
-      { "title": "Diseño y Estrategia", "image_alt": "/home_page/services/design_stratagy.webp", "link": "/services/automations/ai_powered_automation" },
-      { "title": "Consultoría de Software", "image_alt": "/home_page/services/software_consulting.webp", "link": "/services/web_and_mobile_development/app_applications" },
-      { "title": "Redacción Técnica", "image_alt": "/home_page/services/technical_writing.webp", "link": "/services/data_solutions/data_scraping" }
+      {
+        "title": "DESARROLLO WEB",
+        "image_alt": "/home_page/services/web_development.webp",
+        "link": "/services/web_and_mobile_development/web_applications"
+      },
+      {
+        "title": "DESARROLLO DE APLICACIONES",
+        "image_alt": "/home_page/services/app_development.webp",
+        "link": "/services/web_and_mobile_development/app_applications"
+      },
+      {
+        "title": "Desarrollo SaaS",
+        "image_alt": "/home_page/services/saas_development.webp",
+        "link": "/services/saas/saas_plateform"
+      },
+      {
+        "title": "Análisis de DATOS",
+        "image_alt": "/home_page/services/data_analysing.webp",
+        "link": "/services/data_solutions/data_analytics_dashboard"
+      },
+      {
+        "title": "Nube e implementación",
+        "image_alt": "/home_page/services/cloude_and_development.webp",
+        "link": "/services/saas/mvps"
+      },
+      {
+        "title": "Diseño y estrategia",
+        "image_alt": "/home_page/services/design_stratagy.webp",
+        "link": "/services/automations/ai_powered_automation"
+      },
+      {
+        "title": "Consultoría de software",
+        "image_alt": "/home_page/services/software_consulting.webp",
+        "link": "/services/web_and_mobile_development/app_applications"
+      },
+      {
+        "title": "Redacción técnica",
+        "image_alt": "/home_page/services/technical_writing.webp",
+        "link": "/services/data_solutions/data_scraping"
+      }
     ]
   },
   "expert_services_section": {
-    "main_heading": "Escale su Negocio con nuestros Servicios Expertos",
-    "process_checklist_card": { "items": ["Comparta su Idea", "Fase de Diseño", "Excelencia en QA (Garantía de Calidad)", "Escalabilidad y Automatización"] },
+    "main_heading": "Escale su negocio con nuestros servicios expertos",
+    "process_checklist_card": {
+      "items": [
+        "Comparte tu idea",
+        "Fase de diseño",
+        "Excelencia en control de calidad (control de calidad)",
+        "Escalabilidad y automatización"
+      ]
+    },
     "image": "/home_page/expert_services/exper.webp",
     "core_info_cards": [
-      { "title": "NUESTROS VALORES", "content": "Innovación, Excelencia, Agilidad, Confianza e Impacto, el núcleo de todo lo que construimos.", "bg": "#8145B5", "main_text": "white", "text": "white" },
-      { "title": "NUESTRA VISIÓN", "content": "Ser el socio global de referencia para soluciones de software y automatización impulsadas por IA.", "bg": "#ffffff", "main_text": "#402060", "text": "black" },
-      { "title": "NUESTRA MISIÓN", "content": "Empoderar a las empresas con soluciones de IA para automatizar, optimizar y crecer.", "bg": "#8145B5", "main_text": "white", "text": "white" }
+      {
+        "title": "NUESTROS VALORES",
+        "content": "Innovación, Excelencia, Agilidad, Confianza e Impacto, el núcleo de todo lo que construimos.",
+        "bg": "#8145B5",
+        "main_text": "white",
+        "text": "white"
+      },
+      {
+        "title": "NUESTRA VISIÓN",
+        "content": "Ser el socio global de referencia para soluciones de automatización y software impulsado por IA, dando forma al futuro de la tecnología empresarial.",
+        "bg": "#ffffff",
+        "main_text": "#402060",
+        "text": "black"
+      },
+      {
+        "title": "NUESTRA MISIÓN",
+        "content": "Dotar a las empresas de soluciones de IA para automatizar, optimizar y crecer.",
+        "bg": "#8145B5",
+        "main_text": "white",
+        "text": "white"
+      }
     ]
   },
   "solutions_section": {
     "id": "solutions",
-    "title": "Ayudamos a Obtener las Soluciones Correctas",
-    "description": "Vamos más allá de crear software; diseñamos soluciones inteligentes, escalables e impulsadas por IA que agilizan flujos de trabajo.",
+    "title": "Ayudamos a obtener las soluciones adecuadas",
+    "description": "Vamos más allá de la creación de software: diseñamos soluciones inteligentes, escalables y basadas en IA que agilizan los flujos de trabajo, desbloquean el crecimiento y se adaptan a las necesidades de su negocio.",
     "features": [
-      { "title": "Innovación con IA", "description": "Aproveche la IA y la nube para convertir desafíos en oportunidades.", "icon": "/home_page/solution_section/gear.webp" },
-      { "title": "Experiencia de Extremo a Extremo", "description": "Desde la estrategia hasta el despliegue, entregamos soluciones con impacto real.", "icon": "/home_page/solution_section/code.webp" }
+      {
+        "title": "Innovación impulsada por la IA",
+        "description": "Aproveche la IA, la automatización y la nube para convertir los desafíos en oportunidades.",
+        "icon": "/home_page/solution_section/gear.webp"
+      },
+      {
+        "title": "Experiencia de extremo a extremo",
+        "description": "Desde la estrategia hasta la implementación, ofrecemos soluciones que crean un impacto real.",
+        "icon": "/home_page/solution_section/code.webp"
+      }
     ],
     "side_image": "/home_page/solution_section/solution.webp",
-    "side_card": { "pre_text": "¿Necesita soluciones inteligentes?", "title": "¿Busca ayuda?", "description": "Desde apps de IA hasta soluciones en la nube, convertimos desafíos en oportunidades." }
+    "side_card": {
+      "pre_text": "¿Necesita soluciones inteligentes?",
+      "title": "¿Busca ayuda?",
+      "description": "Desde aplicaciones de IA hasta soluciones en la nube, convertimos los desafíos en oportunidades."
+    }
   },
   "process_section": {
     "id": "process",
-    "sub_title": "Nuestro Proceso de Trabajo",
-    "main_title": "Nuestro Proceso muestra cómo trabajamos para nuestros clientes",
+    "sub_title": "Nuestro proceso de trabajo",
+    "main_title": "Nuestro proceso de trabajo muestra cómo trabajamos para nuestros clientes",
     "steps": [
-      { "step_number": 1, "title": "Exploración", "status": "active" },
-      { "step_number": 2, "title": "Planificación", "status": "pending" },
-      { "step_number": 3, "title": "Ejecución", "status": "pending" },
-      { "step_number": 4, "title": "Pruebas", "status": "pending" },
-      { "step_number": 5, "title": "Entrega", "status": "pending" }
+      {
+        "step_number": 1,
+        "title": "Exploration",
+        "status": "active"
+      },
+      {
+        "step_number": 2,
+        "title": "Planning",
+        "status": "pending"
+      },
+      {
+        "step_number": 3,
+        "title": "Execute",
+        "status": "pending"
+      },
+      {
+        "step_number": 4,
+        "title": "Testing",
+        "status": "pending"
+      },
+      {
+        "step_number": 5,
+        "title": "Deliver",
+        "status": "pending"
+      }
     ]
   },
   "testimonials_section": {
-    "title": "Lo que dicen nuestros clientes",
-    "subtitle_note": "No se limite a creer en nuestra palabra: vea lo que dicen los usuarios reales sobre su experiencia.",
+    "title": "Lo que dice nuestro cliente",
+    "subtitle_note": "No confíe sólo en nuestra palabra: vea lo que los usuarios reales de nuestro servicio tienen que decir sobre su experiencia.",
     "icon": "/home_page/comments_section/Vector-removebg-preview.webp",
     "reviews": [
-      { "name": "Jane Cooper", "role": "Coordinadora de Marketing", "review": "Instalamos dispensadores Purex en toda la prisión para combatir enfermedades... y fue un éxito rotundo...", "image": "/home_page/comments_section/comment.webp" },
-      { "name": "Cameron Williamson", "role": "Asistente de Enfermería", "review": "Sin embargo, los efectos secundarios raros observados en niños pueden ser acidosis metabólica y coma.", "image": "/home_page/comments_section/comment1.webp" },
-      { "name": "Robert Fox", "role": "Entrenador de Perros", "review": "Veinte aplicaciones de 30 segundos en media hora exceden el uso de cualquier desinfectante.", "image": "/home_page/comments_section/comment2.webp" },
-      { "name": "Albert Flores", "role": "Coordinador de Marketing", "review": "Los sensores infrarrojos sin contacto han reducido los riesgos de contaminación cruzada.", "image": "/home_page/comments_section/comment4.webp" },
-      { "name": "Arlene McCoy", "role": "Asistente de Enfermería", "review": "La implementación de geles a base de alcohol ha mostrado una reducción del 40% en infecciones.", "image": "/home_page/comments_section/comment5.webp" },
-      { "name": "Bessie Cooper", "role": "Coordinadora de Marketing", "review": "Las tasas de cumplimiento aumentaron significativamente al colocar dispensadores en el punto de atención.", "image": "/home_page/comments_section/comment6.webp" },
-      { "name": "Eleanor Pena", "role": "Coordinadora de Marketing", "review": "Recomendamos alternativas sin alcohol para las unidades de cuidado de recién nacidos.", "image": "/home_page/comments_section/comment7.webp" },
-      { "name": "Guy Hawkins", "role": "Coordinadora de Marketing", "review": "El diseño ergonómico de las unidades de pared permite un acceso más fácil para pacientes con movilidad limitada.", "image": "/home_page/comments_section/comment8.webp" },
-      { "name": "Rakuten Viber", "role": "Asistente de Enfermería", "review": "Sin embargo, los efectos secundarios raros pueden ser acidosis metabólica y depresión respiratoria.", "image": "/home_page/comments_section/comment1.webp" }
+      {
+        "name": "Jane Cooper",
+        "role": "Coordinador de Mercadeo",
+        "review": "Pregúntele al CDCR Prisión Estatal de San Quintín 2008. Instalamos dispensadores Purex en toda la prisión para combatir enfermedades... y fue un gran éxito...",
+        "image": "/home_page/comments_section/comment.webp"
+      },
+      {
+        "name": "Cameron Williamson",
+        "role": "Asistente de Enfermería",
+        "review": "Sin embargo, los efectos secundarios raros observados entre los niños pueden ser acidosis metabólica, coma, depresión respiratoria e hipoglucemia.",
+        "image": "/home_page/comments_section/comment1.webp"
+      },
+      {
+        "name": "Roberto Fox",
+        "role": "Entrenador de perros",
+        "review": "Veinte aplicaciones de 30 segundos en media hora superan con creces el uso de un desinfectante por parte de casi cualquier persona.",
+        "image": "/home_page/comments_section/comment2.webp"
+      },
+      {
+        "name": "Alberto Flores",
+        "role": "Coordinador de Mercadeo",
+        "review": "Los sensores infrarrojos sin contacto han reducido los riesgos de contaminación cruzada y han disminuido las horas de mantenimiento dedicadas a la reparación del dispensador.",
+        "image": "/home_page/comments_section/comment4.webp"
+      },
+      {
+        "name": "Arlene McCoy",
+        "role": "Asistente de Enfermería",
+        "review": "La implementación de desinfectantes para manos a base de alcohol ha mostrado una reducción del 40% en las infecciones asociadas a la atención médica en nuestras salas de primaria.",
+        "image": "/home_page/comments_section/comment5.webp"
+      },
+      {
+        "name": "Bessie Cooper",
+        "role": "Coordinador de Mercadeo",
+        "review": "Las tasas de cumplimiento aumentaron significativamente una vez que los dispensadores se colocaron en lugares de \"puntos de atención\" en lugar de solo en la entrada.",
+        "image": "/home_page/comments_section/comment6.webp"
+      },
+      {
+        "name": "Leonor Peña",
+        "role": "Coordinador de Mercadeo",
+        "review": "La absorción dérmica de etanol en recién nacidos es un factor crítico; por lo tanto, recomendamos alternativas no basadas en alcohol para las unidades de atención neonatal.",
+        "image": "/home_page/comments_section/comment6.webp"
+      },
+      {
+        "name": "chico hawkins",
+        "role": "Coordinador de Mercadeo",
+        "review": "El diseño ergonómico de las unidades murales permite un acceso más fácil a los pacientes con movilidad reducida, favoreciendo una mayor autonomía higiénica.",
+        "image": "/home_page/comments_section/comment8.webp"
+      },
+      {
+        "name": "Viber Rakuten",
+        "role": "Asistente de Enfermería",
+        "review": "Sin embargo, los efectos secundarios raros observados entre los niños pueden ser acidosis metabólica, coma, depresión respiratoria e hipoglucemia.",
+        "image": "/home_page/comments_section/comment1.webp"
+      }
     ]
   },
   "working_process": {
-    "section_heading": "Nuestro Proceso de Trabajo",
-    "main_heading": "Nuestro Proceso muestra ",
+    "section_heading": "Nuestro proceso de trabajo",
+    "main_heading": "Nuestro proceso de trabajo lo demuestra",
     "span_heading": "Cómo trabajamos",
     "heading": "Para nuestros clientes",
     "stepsData": [
-      { "id": 1, "title": "Exploración" },
-      { "id": 2, "title": "Planificación" },
-      { "id": 3, "title": "Ejecución" },
-      { "id": 4, "title": "Pruebas" },
-      { "id": 5, "title": "Entrega" }
+      {
+        "id": 1,
+        "title": "Exploration"
+      },
+      {
+        "id": 2,
+        "title": "Planning"
+      },
+      {
+        "id": 3,
+        "title": "Execute"
+      },
+      {
+        "id": 4,
+        "title": "Testing"
+      },
+      {
+        "id": 5,
+        "title": "Deliver"
+      }
     ]
   },
   "ceo_message_section": {
     "id": "ceo_message",
     "image": "/home_page/ceo_section/ceo.webp",
-    "title": "Mensaje de nuestra CEO",
-    "quote": "Creemos que la innovación impulsa el futuro. Nuestra misión es simple: hacer que la tecnología de IA sea práctica para cada negocio. Con más de 300 clientes, hemos visto cómo la automatización mejora la eficiencia. Juntos, construyamos soluciones más inteligentes.",
+    "title": "Un mensaje de nuestro director ejecutivo",
+    "quote": ", creemos que la innovación impulsa el futuro. Nuestra misión es simple: hacer que la tecnología impulsada por IA sea práctica y accesible para todas las empresas. Con más de 300 clientes y más de 20 nuevas empresas, hemos visto que la automatización mejora la eficiencia y remodela las experiencias de los clientes. Juntos, creemos soluciones más inteligentes, escalables y seguras para el mañana.",
     "author": "Zainab Abdullah",
-    "role": "CEO, Devisgon Pvt. Ltd."
+    "role": "Director ejecutivo, Devisgon Pvt. Limitado. Limitado."
   },
   "teamMembers": {
     "team": [
-      { "id": 1, "image": "/home_page/our_team/team01.webp", "alt": "Desarrolladores de Software" },
-      { "id": 2, "image": "/home_page/our_team/team02.webp", "alt": "Diseñador UI/UX" },
-      { "id": 3, "image": "/home_page/our_team/ahmad_sajid.webp", "alt": "Ingeniero de IA / ML" },
-      { "id": 4, "image": "/home_page/our_team/team05.webp", "alt": "Redactor de Contenido" },
-      { "id": 5, "image": "/home_page/our_team/hamza_zahid.webp", "alt": "Ingeniero de Software" },
-      { "id": 6, "image": "/home_page/our_team/abdullah_shafique.webp", "alt": "Ingeniero de Automatización" },
-      { "id": 7, "image": "/home_page/our_team/mubashir.webp", "alt": "Desarrolladores Web" },
-      { "id": 8, "image": "/home_page/our_team/mubashir.webp", "alt": "Desarrollador Backend Python" }
+      {
+        "id": 1,
+        "image": "/home_page/our_team/team01.webp",
+        "alt": "Desarrolladores de software"
+      },
+      {
+        "id": 2,
+        "image": "/home_page/our_team/team02.webp",
+        "alt": "Diseñador UI/UX"
+      },
+      {
+        "id": 3,
+        "image": "/home_page/our_team/ahmad_sajid.webp",
+        "alt": "Ingeniero de IA/ML"
+      },
+      {
+        "id": 4,
+        "image": "/home_page/our_team/team05.webp",
+        "alt": "Redactor de contenidos"
+      },
+      {
+        "id": 5,
+        "image": "/home_page/our_team/hamza_zahid.webp",
+        "alt": "Ingeniero de software"
+      },
+      {
+        "id": 6,
+        "image": "/home_page/our_team/abdullah_shafique.webp",
+        "alt": "Ingeniero de automatización"
+      },
+      {
+        "id": 7,
+        "image": "/home_page/our_team/team06.webp",
+        "alt": "Desarrolladores web"
+      },
+      {
+        "id": 8,
+        "image": "/home_page/our_team/mubashir.webp",
+        "alt": "Desarrollador back-end de Python"
+      }
     ]
   },
   "scale_values_section": {
     "id": "values",
-    "title": "Escale su Negocio con nuestros Servicios Expertos",
-    "checklist": ["Comparta su Idea", "Fase de Diseño", "Excelencia en QA", "Escalabilidad y Automatización"],
+    "title": "Escale su negocio con nuestros servicios expertos",
+    "checklist": [
+      "Comparte tu idea",
+      "Fase de diseño",
+      "Excelencia en control de calidad (control de calidad)",
+      "Escalabilidad y automatización"
+    ],
     "cards": [
-      { "title": "NUESTROS VALORES", "content": "Innovación, Excelencia, Agilidad, Confianza e Impacto." },
-      { "title": "NUESTRA VISIÓN", "content": "Ser el socio global para software de IA y soluciones de automatización." },
-      { "title": "NUESTRA MISIÓN", "content": "Empoderar empresas con soluciones de IA para automatizar y crecer." }
+      {
+        "title": "NUESTROS VALORES",
+        "content": "Innovación, Excelencia, Agilidad, Confianza e Impacto, el núcleo de todo lo que construimos."
+      },
+      {
+        "title": "NUESTRA VISIÓN",
+        "content": "Ser el socio global de referencia para soluciones de automatización y software impulsado por IA, dando forma al futuro de la tecnología empresarial."
+      },
+      {
+        "title": "NUESTRA MISIÓN",
+        "content": "Dotar a las empresas de soluciones de IA para automatizar, optimizar y crecer."
+      }
     ]
   },
   "blog_section": {
-    "header_title": "Nuestros Blogs",
-    "main_title": "Explore cómo la IA está moldeando el futuro de los negocios.",
-    "subtitle": "Su fuente de innovación impulsada por IA.",
-    "categories": ["Todas las categorías", "Tecnología", "Automatización", "Productividad", "CRM"],
+    "header_title": "Nuestros blogs",
+    "main_title": "Explore cómo la IA y la tecnología están dando forma al futuro de los negocios.",
+    "subtitle": "Su fuente de innovación y evolución empresarial impulsadas por la IA.",
+    "categories": [
+      "Todas las categorías",
+      "Technology",
+      "Automation",
+      "Productivity",
+      "CRM"
+    ],
     "posts": [
-      { "category": "TECNOLOGÍA", "date": "18 Ene 2025", "title": "Cómo las pequeñas empresas pueden escalar más rápido con tecnología.", "link_text": "Leer Post", "image": "/home_page/blogs/blog1.webp" },
-      { "category": "CRM", "date": "19 Ene 2025", "title": "Simplifique la gestión de clientes y aumente las ventas.", "link_text": "Leer Post", "image": "/home_page/blogs/blog2.webp" },
-      { "category": "PRODUCTIVIDAD", "date": "24 Ene 2025", "title": "Optimice el trabajo en equipo para mantenerse enfocado.", "link_text": "Leer Post", "image": "/home_page/blogs/blog3.webp" },
-      { "category": "AUTOMATIZACIÓN", "date": "30 Ene 2025", "title": "Reduzca el trabajo repetitivo con automatización de IA.", "link_text": "Leer Post", "image": "/home_page/blogs/blog4.webp" },
-      { "category": "INNOVACIÓN", "date": "30 Ene 2025", "title": "Por qué actualizarse es esencial para pequeñas empresas.", "link_text": "Leer Post", "image": "/home_page/blogs/blog5.webp" },
-      { "category": "CRECIMIENTO", "date": "30 Ene 2025", "title": "Por qué los negocios modernos necesitan herramientas escalables.", "link_text": "Leer Post", "image": "/home_page/blogs/blog6.webp" }
+      {
+        "category": "TECHNOLOGY",
+        "date": "18 de enero de 2025",
+        "title": "Cómo las pequeñas empresas pueden escalar más rápido con la tecnología adecuada.",
+        "link_text": "Leer publicación",
+        "image": "/home_page/blogs/blog1.webp"
+      },
+      {
+        "category": "CRM",
+        "date": "19 de enero de 2025",
+        "title": "Simplifique la gestión de clientes e impulse las ventas con soluciones integradas.",
+        "link_text": "Leer publicación",
+        "image": "/home_page/blogs/blog2.webp"
+      },
+      {
+        "category": "PRODUCTIVITY",
+        "date": "24 de enero de 2025",
+        "title": "Optimice el trabajo en equipo y la comunicación para mantenerse enfocado.",
+        "link_text": "Leer publicación",
+        "image": "/home_page/blogs/blog3.webp"
+      },
+      {
+        "category": "AUTOMATION",
+        "date": "30 de enero de 2025",
+        "title": "Reduzca el trabajo repetitivo con la automatización impulsada por IA y ahorre horas semanales.",
+        "link_text": "Leer publicación",
+        "image": "/home_page/blogs/blog4.webp"
+      },
+      {
+        "category": "INNOVATION",
+        "date": "30 de enero de 2025",
+        "title": "Descubra por qué la actualización es esencial para las pequeñas empresas.",
+        "link_text": "Leer publicación",
+        "image": "/home_page/blogs/blog5.webp"
+      },
+      {
+        "category": "GROWTH",
+        "date": "30 de enero de 2025",
+        "title": "Por qué las empresas modernas necesitan herramientas que crezcan con ellas.",
+        "link_text": "Leer publicación",
+        "image": "/home_page/blogs/blog6.webp"
+      }
     ]
   }
 }

@@ -1,103 +1,116 @@
 {
   "slug": "php",
+  "seo_metadata": {
+    "title": "تطوير PHP الحديث | هندسة قابلة للتطوير من جانب الخادم",
+    "description": "خدمات تطوير برمجيات PHP المتخصصة. نحن نبني تطبيقات ويب عالية الأداء وآمنة وقابلة للصيانة باستخدام معايير PHP 8+ الحديثة وبيئات التشغيل المحسنة.",
+    "keywords": [
+      "تطوير لغة PHP الحديثة",
+      "البرمجة من جانب الخادم",
+      "تجميع PHP 8 JIT",
+      "حلول PHP متكاملة",
+      "هندسة الويب الخلفية",
+      "أفضل ممارسات أمان PHP",
+      "خدمات ويب قابلة للتطوير"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "PHP",
-    "description": "Build production systems with PHP in our languages delivery ecosystem.",
+    "eyebrow": "محرك الويب الحديث",
+    "title": "القوة الديناميكية مع",
+    "highlight": "لغة PHP الحديثة",
+    "description": "استفد من اللغة التي تدعم أكثر من 75% من الويب لإنشاء تطبيقات سريعة وآمنة وقابلة للتطوير على جانب الخادم مع ميزات 8.x الحديثة.",
     "side_image": "/technologies/php/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "استشارة خبير",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "خارطة الطريق التقنية",
       "href": "/technologies/php#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "PHP plays a critical role in our languages strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة باستخدام PHP",
+    "subtitle": "توفر PHP توازنًا لا مثيل له بين سرعة التطوير والدعم الهائل للنظام البيئي والكفاءة من جانب الخادم.",
     "paragraphs": [
-      "PHP is part of our core stack: Java, JavaScript, Python, TypeScript, PHP, C++, and C. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using PHP with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "PHP هو خيارنا الأساسي لبناء واجهات خلفية قوية للويب ومنصات ثقيلة المحتوى. مع إصدار PHP 8.x، شهدت اللغة قفزات كبيرة في الأداء من خلال تجميع JIT (Just-In-Time) وتحسين أمان النوع، مما يجعلها منافسًا هائلاً لبيئات المؤسسات عالية التزامن.",
+      "بالإضافة إلى أدائها، فإن أعظم قوة PHP هي مرونة النشر. فهو يتكامل بسلاسة مع جميع البنى التحتية وقواعد البيانات السحابية الحديثة تقريبًا، مما يسمح لفرقنا بتقديم برامج موثوقة مع تكاليف تشغيل أقل ودورات تكرار أسرع."
     ],
     "cards": [
       {
-        "title": "PHP Clarity",
-        "description": "PHP helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "أداء PHP 8",
+        "description": "استخدم تجميع JIT ونواة التنفيذ المحسنة لمعالجة الطلبات بشكل أسرع بشكل ملحوظ.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "PHP Performance",
-        "description": "PHP supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "الكتابة الصارمة",
+        "description": "قم بتنفيذ تلميحات النوع والسمات الحديثة لضمان موثوقية التعليمات البرمجية واكتشاف الأخطاء في وقت مبكر من التطوير.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "PHP Reliability",
-        "description": "PHP strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "النظام البيئي الضخم",
+        "description": "يمكنك الوصول إلى الملايين من الحزم التي تم اختبارها في المعركة عبر Composer لكل شيء بدءًا من الأمان وحتى معالجة الدفع.",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق الفني",
     "image": "/technologies/php/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with PHP-ready patterns designed for dynamic cloud scaling."
+        "title": "تطبيقات الويب القابلة للتطوير",
+        "description": "تصميم الأنظمة الأساسية عالية الحركة باستخدام أنماط تصميم PHP الحديثة وتكوينات FPM المحسنة."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "PHP integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "واجهات برمجة تطبيقات REST وGraphQL",
+        "description": "بناء طبقات API قوية وموثقة تعمل بمثابة العمود الفقري لتطبيقات الهاتف المحمول والواجهة الأمامية."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use PHP to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "PHP بدون خادم",
+        "description": "نشر المنطق القائم على الأحداث والعاملين باستخدام Bref وAWS Lambda لتوسيع نطاق فعال من حيث التكلفة."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the PHP stack.",
+    "title": "ميزة PHP",
+    "subtitle": "مكاسب تنافسية استراتيجية للبنية التحتية للويب الخاص بك.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging PHP effectively."
+        "metric": "سريع",
+        "title": "النشر",
+        "description": "سرعة لا مثيل لها من التطوير إلى الإنتاج بفضل نظام النشر الناضج."
       },
       {
         "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with PHP."
+        "title": "التوافق",
+        "description": "الدعم الأصلي عبر كل مزود سحابي وبيئة استضافة رئيسية على مستوى العالم."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate PHP delivery."
+        "metric": "2 مليون+",
+        "title": "فتح المكتبات",
+        "description": "استفد من كم هائل من الوحدات التقنية التي تم اختبارها مسبقًا لتسريع عملية تسليم المنتج."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using PHP inside open architecture patterns."
+        "metric": "صفر",
+        "title": "تكلفة الترخيص",
+        "description": "يضمن المصدر المفتوح الأساسي أن ميزانيتك الفنية تذهب نحو الابتكار بدلاً من الرسوم."
       }
     ]
   },
   "quote_section": {
-    "quote": "PHP gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يوفر PHP الحديث المسار العملي لتحويل أفكار الأعمال المعقدة إلى",
+    "highlight": "واقع الويب القابل للتطوير"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your PHP roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم جوهر الويب الخاص بك",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق PHP قابلة للتطوير لمنصتك الرقمية.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your PHP architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف أهداف التوسع في PHP أو التحديات المعمارية...",
+    "button_text": "طلب استشارة"
   }
 }

@@ -1,0 +1,469 @@
+{
+  "navbar": [
+    {
+      "name": "Maison",
+      "href": "/"
+    },
+    {
+      "name": "Services",
+      "href": "/services",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Développement IA et SaaS",
+            "links": [
+              {
+                "name": "Application alimentée par l'IA",
+                "href": "/services/saas/ai_powered_app"
+              },
+              {
+                "name": "Modèles d'apprentissage automatique",
+                "href": "/services/saas/meachine_learning"
+              },
+              {
+                "name": "MVP et POC",
+                "href": "/services/saas/mvps"
+              },
+              {
+                "name": "Plateformes SaaS",
+                "href": "/services/saas/saas_plateform"
+              }
+            ]
+          },
+          {
+            "title": "Automatisations",
+            "links": [
+              {
+                "name": "Automatisation basée sur l'IA",
+                "href": "/services/automations/ai_powered_automation"
+              },
+              {
+                "name": "Automatisation de l'intégration des API",
+                "href": "/services/automations/api_integration"
+              },
+              {
+                "name": "Automatisation des processus métier",
+                "href": "/services/automations/business_process_automation"
+              },
+              {
+                "name": "Automatisation financière",
+                "href": "/services/automations/accounting"
+              },
+              {
+                "name": "Automatisation des infrastructures",
+                "href": "/services/automations/devops-infrastructure-automation"
+              },
+              {
+                "name": "Automatisation du Low Code",
+                "href": "/services/automations/low_code_automations"
+              },
+              {
+                "name": "Automatisation du marketing et des ventes",
+                "href": "/services/automations/marketing-sales-automation"
+              },
+              {
+                "name": "Automatisation des processus robotisés",
+                "href": "/services/automations/robotic-process-automation"
+              }
+            ]
+          },
+          {
+            "title": "Cloud et DevOps",
+            "links": [
+              {
+                "name": "Pipelines Ci/Cd",
+                "href": "/services/cloud/cicd_pipelines"
+              },
+              {
+                "name": "Sécurité du cloud",
+                "href": "/services/cloud/cloud_security"
+              },
+              {
+                "name": "Gestion de base de données",
+                "href": "/services/cloud/database_management"
+              },
+              {
+                "name": "Conseil DevOps",
+                "href": "/services/cloud/devops_consulting"
+              }
+            ]
+          },
+          {
+            "title": "Solutions de données",
+            "links": [
+              {
+                "name": "Modèles d'IA",
+                "href": "/services/data_solutions/ai_ml_models"
+              },
+              {
+                "name": "Analyse commerciale",
+                "href": "/services/data_solutions/business_analytics"
+              },
+              {
+                "name": "Tableau de bord d'analyse de données",
+                "href": "/services/data_solutions/data_analytics_dashboard"
+              },
+              {
+                "name": "Grattage de données",
+                "href": "/services/data_solutions/data_scraping"
+              }
+            ]
+          },
+          {
+            "title": "Conception numérique",
+            "links": [
+              {
+                "name": "Conception graphique et virtuelle",
+                "href": "/services/design/graphic_design"
+              },
+              {
+                "name": "Création de logo",
+                "href": "/services/design/logo_design"
+              },
+              {
+                "name": "Conception d'applications mobiles",
+                "href": "/services/design/mobile_app_design"
+              },
+              {
+                "name": "Conception de produits",
+                "href": "/services/design/product_design"
+              },
+              {
+                "name": "Prototypage et wireframes",
+                "href": "/services/design/prototyping_wireframing"
+              },
+              {
+                "name": "Conception Ui/Ux",
+                "href": "/services/design/ui_ux_design"
+              },
+              {
+                "name": "Conception de sites Web",
+                "href": "/services/design/web_design"
+              }
+            ]
+          },
+          {
+            "title": "Assurance qualité et tests",
+            "links": [
+              {
+                "name": "Tests d'API",
+                "href": "/services/testing/api_testing"
+              },
+              {
+                "name": "Tests d'automatisation",
+                "href": "/services/testing/automation_testing"
+              },
+              {
+                "name": "Tests manuels",
+                "href": "/services/testing/manual_testing"
+              },
+              {
+                "name": "Tests de performances",
+                "href": "/services/testing/performance_testing"
+              },
+              {
+                "name": "Tests de sécurité",
+                "href": "/services/testing/security_testing"
+              }
+            ]
+          },
+          {
+            "title": "Applications Web et applications",
+            "links": [
+              {
+                "name": "Bots personnalisés",
+                "href": "/services/web_and_mobile_development/custom_bots"
+              },
+              {
+                "name": "Application mobile",
+                "href": "/services/web_and_mobile_development/app_applications"
+              },
+              {
+                "name": "Application Web",
+                "href": "/services/web_and_mobile_development/web_applications"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Secteurs",
+      "href": "/industries",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Agriculture",
+            "links": [
+              {
+                "name": "Fermes",
+                "href": "/industries/agriculture/farms"
+              },
+              {
+                "name": "Champs",
+                "href": "/industries/agriculture/fields"
+              },
+              {
+                "name": "Irrigation",
+                "href": "/industries/agriculture/irrigation"
+              },
+              {
+                "name": "Plantes",
+                "href": "/industries/agriculture/plants"
+              }
+            ]
+          },
+          {
+            "title": "Divertissement",
+            "links": [
+              {
+                "name": "Événements",
+                "href": "/industries/entertainment/events"
+              },
+              {
+                "name": "Hôtels",
+                "href": "/industries/entertainment/hotels"
+              },
+              {
+                "name": "Production médiatique",
+                "href": "/industries/entertainment/media_production"
+              },
+              {
+                "name": "Restaurants",
+                "href": "/industries/entertainment/restaurants"
+              }
+            ]
+          },
+          {
+            "title": "Soins de santé",
+            "links": [
+              {
+                "name": "Chiropracteur",
+                "href": "/industries/healthcare/chiropractor"
+              },
+              {
+                "name": "Dentiste",
+                "href": "/industries/healthcare/dentist"
+              },
+              {
+                "name": "Massothérapeute",
+                "href": "/industries/healthcare/massage_therapist"
+              },
+              {
+                "name": "Myothérapeute",
+                "href": "/industries/healthcare/myotherapist"
+              },
+              {
+                "name": "Optométrie",
+                "href": "/industries/healthcare/optometry"
+              },
+              {
+                "name": "Psychologue",
+                "href": "/industries/healthcare/psychologist"
+              }
+            ]
+          },
+          {
+            "title": "Professionnel",
+            "links": [
+              {
+                "name": "Consultant",
+                "href": "/industries/professional/consulting"
+              },
+              {
+                "name": "Éducation",
+                "href": "/industries/professional/education"
+              },
+              {
+                "name": "Services juridiques",
+                "href": "/industries/professional/legal_services"
+              },
+              {
+                "name": "Services de voyage",
+                "href": "/industries/professional/travel_services"
+              }
+            ]
+          },
+          {
+            "title": "Immobilier",
+            "links": [
+              {
+                "name": "Architecture et conception",
+                "href": "/industries/real_estate/architecture_design"
+              },
+              {
+                "name": "Commercial",
+                "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "Gestion immobilière",
+                "href": "/industries/real_estate/property_management"
+              },
+              {
+                "name": "Résidentiel",
+                "href": "/industries/real_estate/residential"
+              }
+            ]
+          },
+          {
+            "title": "Métiers",
+            "links": [
+              {
+                "name": "Charpenterie",
+                "href": "/industries/trades/carpentry"
+              },
+              {
+                "name": "Électricien",
+                "href": "/industries/trades/electrician"
+              },
+              {
+                "name": "Plomberie",
+                "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "Soudage",
+                "href": "/industries/trades/welding"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "Technologies",
+      "href": "/technologies",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Base de données",
+            "links": [
+              {
+                "name": "Amazon DynamoDB",
+                "href": "/technologies/amazon_dynamodb"
+              },
+              {
+                "name": "GraphQL",
+                "href": "/technologies/graphql"
+              },
+              {
+                "name": "MongoDB",
+                "href": "/technologies/mongodb"
+              },
+              {
+                "name": "MySQL",
+                "href": "/technologies/mysql"
+              },
+              {
+                "name": "Supabase",
+                "href": "/technologies/supabase"
+              }
+            ]
+          },
+          {
+            "title": "Cadres",
+            "links": [
+              {
+                "name": "Battement",
+                "href": "/technologies/flutter"
+              },
+              {
+                "name": "Laravel",
+                "href": "/technologies/laravel"
+              },
+              {
+                "name": "NestJS",
+                "href": "/technologies/nestjs"
+              },
+              {
+                "name": "Suivant.js",
+                "href": "/technologies/nextjs"
+              },
+              {
+                "name": "Noeud.js",
+                "href": "/technologies/nodejs"
+              },
+              {
+                "name": "Réagir",
+                "href": "/technologies/react"
+              },
+              {
+                "name": "Réagir natif",
+                "href": "/technologies/react_native"
+              }
+            ]
+          },
+          {
+            "title": "Langues",
+            "links": [
+              {
+                "name": "C",
+                "href": "/technologies/c"
+              },
+              {
+                "name": "C++",
+                "href": "/technologies/cpp"
+              },
+              {
+                "name": "Java",
+                "href": "/technologies/java"
+              },
+              {
+                "name": "Javascript",
+                "href": "/technologies/javascript"
+              },
+              {
+                "name": "PHP",
+                "href": "/technologies/php"
+              },
+              {
+                "name": "Python",
+                "href": "/technologies/python"
+              },
+              {
+                "name": "Manuscrit",
+                "href": "/technologies/typescript"
+              }
+            ]
+          },
+          {
+            "title": "Outils",
+            "links": [
+              {
+                "name": "Amazone",
+                "href": "/technologies/amazon"
+              },
+              {
+                "name": "Faire",
+                "href": "/technologies/make"
+              },
+              {
+                "name": "n8n",
+                "href": "/technologies/n8n"
+              },
+              {
+                "name": "Shopify",
+                "href": "/technologies/shopify"
+              },
+              {
+                "name": "WordPress",
+                "href": "/technologies/wordpress"
+              },
+              {
+                "name": "Zapier",
+                "href": "/technologies/zapier"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "À propos de nous",
+      "href": "/#about"
+    },
+    {
+      "name": "Contactez-nous",
+      "href": "/contact"
+    }
+  ]
+}

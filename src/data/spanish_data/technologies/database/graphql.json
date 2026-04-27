@@ -1,103 +1,116 @@
 {
   "slug": "graphql",
+  "seo_metadata": {
+    "title": "Servicios profesionales de integración y desarrollo de API GraphQL",
+    "description": "Optimice la entrega de datos con GraphQL. Creamos API de alto rendimiento y con seguridad de tipos que eliminan la recuperación excesiva y agilizan la comunicación entre el frontend y el backend.",
+    "keywords": [
+      "Desarrollo de API GraphQL",
+      "Integración de Apollo GraphQL",
+      "Arquitectura federada",
+      "Obtención de datos declarativos",
+      "Diseño de esquema GraphQL",
+      "API de tipo seguro",
+      "Optimización del rendimiento de API"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "GraphQL",
-    "description": "Build production systems with GraphQL in our database delivery ecosystem.",
-    "side_image": "/technologies/grapgsql/hero.webp",
+    "eyebrow": "Estándar API moderno",
+    "title": "Datos unificados con",
+    "highlight": "GrafoQL",
+    "description": "Potencie sus interfaces con un lenguaje de consulta flexible y fuertemente tipado que proporcione exactamente los datos que sus componentes necesitan, ni más ni menos.",
+    "side_image": "/technologies/graphql/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimice su API",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Explorar la arquitectura",
       "href": "/technologies/graphql#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "GraphQL plays a critical role in our database strategy for reliable software delivery.",
+    "title": "Por qué construimos con GraphQL",
+    "subtitle": "GraphQL proporciona una experiencia de desarrollador superior y eficiencia de red para la entrega de aplicaciones modernas.",
     "paragraphs": [
-      "GraphQL is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using GraphQL with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Las API REST tradicionales a menudo conducen a problemas de consulta 'n+1' y a una recuperación masiva de datos. GraphQL resuelve esto permitiendo a los clientes definir la estructura de la respuesta, reduciendo el tamaño de la carga útil y aumentando el rendimiento de las aplicaciones móviles.",
+      "Al implementar una capa GraphQL sólida, proporcionamos un punto de entrada único para todo su ecosistema de datos, lo que facilita la integración de sistemas heredados con microservicios modernos a través de un esquema unificado."
     ],
     "cards": [
       {
-        "title": "GraphQL Clarity",
-        "description": "GraphQL helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Esquema de autodocumentación",
+        "description": "Introspectivos por diseño, los esquemas GraphQL sirven como un contrato vivo entre los equipos de frontend y backend.",
+        "icon_type": "FaBookOpen"
       },
       {
-        "title": "GraphQL Performance",
-        "description": "GraphQL supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Obtención de precisión",
+        "description": "Elimine la recuperación excesiva o insuficiente solicitando campos específicos, lo que reduce los costos de datos y la latencia.",
+        "icon_type": "FaCheckDouble"
       },
       {
-        "title": "GraphQL Reliability",
-        "description": "GraphQL strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Iteración rápida",
+        "description": "Agregue nuevos campos y tipos a su API sin alterar las implementaciones ni el control de versiones del cliente existente.",
+        "icon_type": "FaRocket"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/grapgsql/scope.webp",
+    "id": "arquitectura-tecnológica",
+    "title": "Alcance Arquitectónico",
+    "image": "/technologies/graphql/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with GraphQL-ready patterns designed for dynamic cloud scaling."
+        "title": "Microservicios federados",
+        "description": "Implemente Apollo Federation para fusionar varios subgrafos en un único Supergraph cohesivo para sistemas a escala empresarial."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "GraphQL integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Suscripciones en tiempo real",
+        "description": "Aproveche las suscripciones a WebSockets y GraphQL para enviar actualizaciones de datos en vivo a sus usuarios al instante."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use GraphQL to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Capa de puerta de enlace unificada",
+        "description": "Conecte fuentes de datos dispares (SQL, NoSQL y REST) ​​en un único punto final consultable con relaciones resueltas."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the GraphQL stack.",
+    "title": "La ventaja de GraphQL",
+    "subtitle": "Ganancias de eficiencia cuantificables para su ciclo de vida de desarrollo.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging GraphQL effectively."
+        "metric": "50%",
+        "title": "Menos carga útil",
+        "description": "Reducción promedio en el tamaño de la carga útil JSON en comparación con los puntos finales REST estándar."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with GraphQL."
+        "metric": "Tipo seguro",
+        "title": "Integridad del código",
+        "description": "Seguridad de tipos de extremo a extremo cuando se combina con TypeScript, lo que reduce significativamente los errores de tiempo de ejecución."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate GraphQL delivery."
+        "metric": "100%",
+        "title": "Introspectivo",
+        "description": "Documentación instantánea y pruebas en el campo de juego a través de herramientas integradas de introspección de esquemas."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using GraphQL inside open architecture patterns."
+        "metric": "Cero",
+        "title": "Versionado",
+        "description": "Desarrolla tu API dejando obsoletos los campos en lugar de administrar puntos finales de URL complejos v1/v2."
       }
     ]
   },
   "quote_section": {
-    "quote": "GraphQL gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "GraphQL transforma la API de una serie de puntos finales estáticos en una",
+    "highlight": "gráfico de datos dinámicos"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your GraphQL roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Diseñe su gráfico de datos",
+    "subtitle": "Consulte con nuestros arquitectos de API para crear una hoja de ruta GraphQL escalable para su organización.",
+    "full_name_label": "Nombre del arquitecto principal",
+    "business_email_label": "Correo electrónico de la entidad",
+    "message_label": "Requisito Estratégico",
+    "full_name_placeholder": "Dr. Julián Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your GraphQL architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Describa su desafío de implementación o migración de GraphQL...",
+    "button_text": "Solicitar consulta"
   }
 }

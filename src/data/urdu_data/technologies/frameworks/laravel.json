@@ -1,103 +1,116 @@
 {
   "slug": "laravel",
+  "seo_metadata": {
+    "title": "انٹرپرائز لاریول ڈویلپمنٹ | خوبصورت پی ایچ پی فریم ورک حل",
+    "description": "کسٹم لاریول ویب ڈویلپمنٹ سروسز۔ ہم پی ایچ پی کے سب سے طاقتور MVC فریم ورک کا استعمال کرتے ہوئے قابل توسیع، محفوظ، اور برقرار رکھنے کے قابل ایپلی کیشنز کو تعمیر کرتے ہیں۔",
+    "keywords": [
+      "لاریول ڈویلپمنٹ",
+      "پی ایچ پی ایم وی سی فریم ورک",
+      "فصیح ORM",
+      "لاریول فورج کی تعیناتی۔",
+      "کسٹم API ڈویلپمنٹ",
+      "Laravel Vapor Serverless",
+      "فل اسٹیک پی ایچ پی حل"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Laravel",
-    "description": "Build production systems with Laravel in our frameworks delivery ecosystem.",
+    "eyebrow": "پی ایچ پی فریم ورک برائے ویب کاریگر",
+    "title": "کے ساتھ خوبصورت انجینئرنگ",
+    "highlight": "لارویل",
+    "description": "ایک ایسے فریم ورک کے ساتھ جدید، مکمل اسٹیک ویب ایپلیکیشنز بنائیں جو کلین کوڈ، ڈویلپر کی خوشی، اور انٹرپرائز پیمانے پر مضبوطی کو ترجیح دے۔",
     "side_image": "/technologies/laravel/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنی تعمیر شروع کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "ماحولیاتی نظام کو دریافت کریں۔",
       "href": "/technologies/laravel#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Laravel plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "کیوں ہم لاراول کے ساتھ انجینئر",
+    "subtitle": "Laravel تعمیراتی سالمیت کی قربانی کے بغیر تیز رفتار ترقی کے لیے سب سے زیادہ جامع ماحولیاتی نظام فراہم کرتا ہے۔",
     "paragraphs": [
-      "Laravel is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Laravel with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Laravel پیچیدہ، مواد سے بھرپور، یا ٹرانزیکشنل ویب ایپلیکیشنز کے لیے ہمارا انتخاب ہے۔ اس کی 'بیٹریوں میں شامل' نقطہ نظر — بلٹ ان تصدیق، میل سروسز، اور قطار کے انتظام کی خصوصیات — ہمیں بنیادی انفراسٹرکچر کو دوبارہ ایجاد کرنے کے بجائے منفرد کاروباری خصوصیات کی تعمیر پر توجہ مرکوز کرنے کی اجازت دیتا ہے۔",
+      "Eloquent ORM اور بلیڈ ٹیمپلیٹنگ انجن کا استعمال کرتے ہوئے، ہم ایسے کوڈ بیس بناتے ہیں جو نہ صرف پرفارمنس ہوتے ہیں بلکہ انتہائی پڑھنے کے قابل بھی ہوتے ہیں۔ یہ اس بات کو یقینی بناتا ہے کہ ہم جو ایپلیکیشنز بناتے ہیں وہ بڑھتے ہی اندرونی ٹیموں کو آڈٹ کرنے، برقرار رکھنے اور ان کے حوالے کرنے میں آسان ہیں۔"
     ],
     "cards": [
       {
-        "title": "Laravel Clarity",
-        "description": "Laravel helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "فصیح ORM",
+        "description": "ڈیٹابیس کے ریکارڈز کو ایک تاثراتی، خوبصورت نحو کے ساتھ منظم کریں جو پیچیدہ سوالات کو آسان اور پڑھنے کے قابل بناتا ہے۔",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Laravel Performance",
-        "description": "Laravel supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "مضبوط سیکیورٹی",
+        "description": "ایس کیو ایل انجیکشن، کراس سائٹ درخواست جعل سازی، اور کراس سائٹ اسکرپٹنگ کے خلاف تحفظ کور میں بنایا گیا ہے۔",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Laravel Reliability",
-        "description": "Laravel strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "توسیع پذیر قطاریں۔",
+        "description": "اپنی ایپلیکیشن کے یوزر انٹرفیس کو تیز رفتار رکھنے کے لیے بیک گراؤنڈ ورکرز کو وقت ضائع کرنے والے کاموں کو آف لوڈ کریں۔",
+        "icon_type": "FaTasks"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "فریم ورک کا دائرہ کار",
     "image": "/technologies/laravel/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Laravel-ready patterns designed for dynamic cloud scaling."
+        "title": "ماڈیولر Monoliths",
+        "description": "مائیکرو سروسز میں آسانی سے منتقلی کے لیے ماڈیولریٹی کو برقرار رکھتے ہوئے روایتی MVC پیٹرن کا استعمال کرتے ہوئے ایپلی کیشنز کی ساخت۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Laravel integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "ریئل ٹائم ایونٹس",
+        "description": "ریئل ٹائم اطلاعات اور لائیو ڈیٹا اپ ڈیٹس بنانے کے لیے Laravel Echo اور Pusher/Reverb کو یکجا کرنا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Laravel to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "سرور لیس اور کلاؤڈ آپریشنز",
+        "description": "AWS Lambda یا Forge کے لیے Laravel Vapor کا استعمال کرتے ہوئے بڑے پیمانے پر تعیناتی اعلی کارکردگی والے مینیجڈ سرور کلسٹرز کے لیے۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Laravel stack.",
+    "title": "لاریول ایج",
+    "subtitle": "جدید کاروباری ترسیل کے لیے اسٹریٹجک فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Laravel effectively."
+        "metric": "تیز",
+        "title": "آن بورڈنگ",
+        "description": "واضح کنونشنز اور وسیع دستاویزات نئے ڈویلپرز کے لیے سیکھنے کے منحنی خطوط کو کم کرتی ہیں۔"
       },
       {
         "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Laravel."
+        "title": "کوڈ سیفٹی",
+        "description": "اعلیٰ اعتماد کی تعیناتیوں کو یقینی بنانے کے لیے PHP 8+ خصوصیات اور Laravel کے ٹیسٹنگ سوٹ کا استعمال۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Laravel delivery."
+        "metric": "20k+",
+        "title": "پیکجز",
+        "description": "ایک بڑی کمیونٹی (پیکیجسٹ) ادائیگی کے گیٹ ویز، سماجی تصدیق، اور مزید کے لیے ماڈیول فراہم کرتی ہے۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Laravel inside open architecture patterns."
+        "metric": "صفر",
+        "title": "قرض میں اضافہ",
+        "description": "PSR معیارات پر سختی سے عمل کرنا یقینی بناتا ہے کہ آپ کا کوڈ بیس جدید اور مستقبل کے PHP ورژن کے ساتھ مطابقت رکھتا ہے۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Laravel gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Laravel ڈویلپرز کو تخلیق کرنے کے لیے آزاد کرتا ہے جب کہ فریم ورک ہینڈل کرتا ہے۔",
+    "highlight": "آرکیٹیکچرل ہیوی لفٹنگ"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Laravel roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے اگلے وینچر کو تعمیر کریں۔",
+    "subtitle": "آپ کی کاروباری ضروریات کے مطابق ایک قابل توسیع، محفوظ ویب حل تیار کرنے کے لیے ہمارے Laravel ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ ڈویلپر",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "پروجیکٹ کا دائرہ کار",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Laravel architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے Laravel وژن یا پیچیدہ پسدید کی ضروریات کی وضاحت کریں...",
+    "button_text": "ایک اقتباس کی درخواست کریں۔"
   }
 }

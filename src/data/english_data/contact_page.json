@@ -1,0 +1,76 @@
+{
+  "hero_title": "Let's Talk About Your Project",
+  "hero_description": "Ready to bring your vision to life? We'd love to hear about your project and explore how we can help you achieve your goals.",
+  "form": {
+    "title": "Send us a message",
+    "description": "Fill out the form below and we'll get back to you within 24 hours.",
+    "labels": {
+      "name": "Name *",
+      "email": "Email *",
+      "company": "Company",
+      "project_type": "Project Type *",
+      "budget": "Budget Range",
+      "timeline": "Timeline",
+      "project_detail": "Project Detail *",
+      "privacy_consent": "I agree to the processing of my personal data in accordance with the",
+      "privacy_policy": "Privacy Policy",
+      "privacy_consent_suffix": "and consent to receive communications about this inquiry."
+    },
+    "placeholders": {
+      "name": "Your name",
+      "email": "your@email.com",
+      "company": "Your company name",
+      "project_detail": "Tell us about your project, goals, and any specific requirements..."
+    },
+    "project_type_options": [
+      { "value": "", "label": "Select project type" },
+      { "value": "Web Development", "label": "Web Development" },
+      { "value": "Mobile App", "label": "Mobile App" },
+      { "value": "UI / UX Design", "label": "UI / UX Design" },
+      { "value": "AI Solutions", "label": "AI Solutions" },
+      { "value": "Automation", "label": "Automation" }
+    ],
+    "budget_options": [
+      { "value": "", "label": "Select budget range" },
+      { "value": "5k-10k", "label": "$5k - $10k" },
+      { "value": "10k-20k", "label": "$10k - $20k" },
+      { "value": "20k+", "label": "$20k+" }
+    ],
+    "timeline_options": [
+      { "value": "", "label": "Select timeline" },
+      { "value": "ASAP", "label": "ASAP" },
+      { "value": "1-3 Months", "label": "1 - 3 Months" },
+      { "value": "3-6 Months", "label": "3 - 6 Months" },
+      { "value": "6-9 Months", "label": "6 - 9 Months" }
+    ],
+    "upload": {
+      "drop_text": "Drop files here or click to upload",
+      "types_text": "PNG, JPG, PDF up to 10MB"
+    },
+    "buttons": {
+      "send": "Send Message",
+      "sending": "Sending..."
+    },
+    "status": {
+      "success": "Thanks for contacting us!",
+      "error": "Try again",
+      "invalid_email": "Use a valid email"
+    }
+  },
+  "schedule": {
+    "title": "Schedule a call",
+    "description": "Prefer to talk? Book a free 30-minute consultation call with our team",
+    "provider": "Calendly",
+    "book_button": "Book a Call",
+    "choose_duration": "Choose meeting duration",
+    "durations": {
+      "min_15": "15 min meeting",
+      "min_30": "30 min meeting",
+      "min_60": "60 min meeting"
+    }
+  },
+  "contact_info": {
+    "title": "Get in touch",
+    "location": "Okara, Pakistan"
+  }
+}

@@ -1,103 +1,116 @@
 {
   "slug": "graphql",
+  "seo_metadata": {
+    "title": "خدمات تطوير وتكامل واجهة برمجة تطبيقات GraphQL الاحترافية",
+    "description": "تحسين تسليم البيانات الخاصة بك مع GraphQL. نحن نبني واجهات برمجة تطبيقات عالية الأداء وآمنة من حيث النوع، تعمل على التخلص من الجلب الزائد وتبسيط الاتصال من الواجهة الأمامية إلى الخلفية.",
+    "keywords": [
+      "تطوير واجهة برمجة تطبيقات GraphQL",
+      "تكامل أبولو GraphQL",
+      "العمارة الاتحادية",
+      "جلب البيانات التعريفية",
+      "تصميم مخطط GraphQL",
+      "واجهات برمجة التطبيقات الآمنة من النوع",
+      "تحسين أداء واجهة برمجة التطبيقات"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "معيار API الحديث",
+    "title": "البيانات الموحدة مع",
     "highlight": "GraphQL",
-    "description": "Build production systems with GraphQL in our database delivery ecosystem.",
-    "side_image": "/technologies/grapgsql/hero.webp",
+    "description": "قم بتمكين واجهاتك الأمامية باستخدام لغة استعلام مرنة ومكتوبة بقوة توفر البيانات التي تحتاجها مكوناتك بالضبط - لا أكثر ولا أقل.",
+    "side_image": "/technologies/graphql/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين واجهة برمجة التطبيقات الخاصة بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "استكشاف الهندسة المعمارية",
       "href": "/technologies/graphql#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "GraphQL plays a critical role in our database strategy for reliable software delivery.",
+    "title": "لماذا نبني باستخدام GraphQL",
+    "subtitle": "يوفر GraphQL تجربة مطورين فائقة وكفاءة شبكية لتسليم التطبيقات الحديثة.",
     "paragraphs": [
-      "GraphQL is part of our core stack: Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using GraphQL with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "غالبًا ما تؤدي واجهات برمجة تطبيقات REST التقليدية إلى مشكلات استعلام \"n+1\" وإفراط كبير في جلب البيانات. يحل GraphQL هذه المشكلة من خلال السماح للعملاء بتحديد بنية الاستجابة وتقليل أحجام الحمولة وزيادة أداء تطبيقات الهاتف المحمول.",
+      "من خلال تنفيذ طبقة GraphQL القوية، فإننا نوفر نقطة دخول واحدة للنظام البيئي للبيانات بالكامل، مما يسهل دمج الأنظمة القديمة مع الخدمات الصغيرة الحديثة من خلال مخطط موحد."
     ],
     "cards": [
       {
-        "title": "GraphQL Clarity",
-        "description": "GraphQL helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "مخطط التوثيق الذاتي",
+        "description": "تعتبر مخططات GraphQL، التي تتسم بالتصميم الاستبطاني، بمثابة عقد حي بين فرق الواجهة الأمامية والخلفية.",
+        "icon_type": "FaBookOpen"
       },
       {
-        "title": "GraphQL Performance",
-        "description": "GraphQL supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "جلب الدقة",
+        "description": "تخلص من الجلب الزائد والناقص عن طريق طلب حقول محددة، مما يقلل من تكاليف البيانات ووقت الاستجابة.",
+        "icon_type": "FaCheckDouble"
       },
       {
-        "title": "GraphQL Reliability",
-        "description": "GraphQL strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "التكرار السريع",
+        "description": "أضف حقول وأنواع جديدة إلى واجهة برمجة التطبيقات (API) الخاصة بك دون كسر تطبيقات العميل الحالية أو إصدار الإصدارات.",
+        "icon_type": "FaRocket"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/grapgsql/scope.webp",
+    "id": "هندسة التكنولوجيا",
+    "title": "النطاق المعماري",
+    "image": "/technologies/graphql/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with GraphQL-ready patterns designed for dynamic cloud scaling."
+        "title": "الخدمات المصغرة الموحدة",
+        "description": "قم بتنفيذ اتحاد Apollo لدمج عدة رسوم بيانية فرعية في رسم بياني فائق واحد متماسك للأنظمة على مستوى المؤسسة."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "GraphQL integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "الاشتراكات في الوقت الحقيقي",
+        "description": "استفد من اشتراكات WebSockets وGraphQL لدفع تحديثات البيانات المباشرة إلى المستخدمين على الفور."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use GraphQL to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "طبقة البوابة الموحدة",
+        "description": "قم بتوصيل مصادر البيانات المتباينة - SQL وNoSQL وREST - إلى نقطة نهاية واحدة قابلة للاستعلام مع علاقات تم حلها."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the GraphQL stack.",
+    "title": "حافة GraphQL",
+    "subtitle": "مكاسب كفاءة قابلة للقياس لدورة حياة التطوير الخاصة بك.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging GraphQL effectively."
+        "metric": "50%",
+        "title": "حمولة أقل",
+        "description": "متوسط ​​التخفيض في حجم حمولة JSON مقارنة بنقاط نهاية REST القياسية."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with GraphQL."
+        "metric": "النوع الآمن",
+        "title": "سلامة الكود",
+        "description": "أمان الكتابة من طرف إلى طرف عند إقرانها مع TypeScript، مما يقلل من أخطاء وقت التشغيل بشكل كبير."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate GraphQL delivery."
+        "metric": "100%",
+        "title": "الاستبطان",
+        "description": "التوثيق الفوري واختبار الملعب من خلال أدوات تحليل المخطط المضمنة."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using GraphQL inside open architecture patterns."
+        "metric": "صفر",
+        "title": "الإصدار",
+        "description": "قم بتطوير واجهة برمجة التطبيقات الخاصة بك عن طريق إيقاف الحقول بدلاً من إدارة نقاط نهاية URL المعقدة v1/v2."
       }
     ]
   },
   "quote_section": {
-    "quote": "GraphQL gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "يقوم GraphQL بتحويل واجهة برمجة التطبيقات (API) من سلسلة من نقاط النهاية الثابتة إلى",
+    "highlight": "الرسم البياني للبيانات الديناميكية"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your GraphQL roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الرسم البياني لبياناتك",
+    "subtitle": "استشر مهندسي واجهة برمجة التطبيقات لدينا لإنشاء خارطة طريق GraphQL قابلة للتطوير لمؤسستك.",
+    "full_name_label": "اسم المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your GraphQL architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف تنفيذ GraphQL أو تحدي الترحيل...",
+    "button_text": "طلب استشارة"
   }
 }

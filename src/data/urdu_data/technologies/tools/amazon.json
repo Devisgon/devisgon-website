@@ -1,103 +1,116 @@
 {
   "slug": "amazon",
+  "seo_metadata": {
+    "title": "انٹرپرائز AWS کلاؤڈ آرکیٹیکچر اور مشاورتی خدمات",
+    "description": "پیشہ ورانہ AWS نفاذ اور نقل مکانی کی خدمات۔ ہم AWS Lambda، EC2، اور S3 کا استعمال کرتے ہوئے توسیع پذیر، محفوظ، اور لاگت کے لحاظ سے بہتر کلاؤڈ حل تیار کرتے ہیں۔",
+    "keywords": [
+      "AWS کلاؤڈ کنسلٹنگ",
+      "ایمیزون ویب سروسز آرکیٹیکچر",
+      "سرور لیس کمپیوٹنگ",
+      "AWS کلاؤڈ مائیگریشن",
+      "بنیادی ڈھانچہ بطور ضابطہ",
+      "AWS سیکیورٹی کے بہترین طریقے",
+      "کلاؤڈ لاگت کی اصلاح"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Amazon",
-    "description": "Build production systems with Amazon in our tools delivery ecosystem.",
-    "side_image": "/technologies/amazon/hero.webp",
+    "eyebrow": "عالمی کلاؤڈ انفراسٹرکچر",
+    "title": "کے ساتھ حد کے بغیر پیمانہ",
+    "highlight": "AWS",
+    "description": "دنیا کے سب سے زیادہ جامع اور وسیع پیمانے پر اپنائے گئے کلاؤڈ پلیٹ فارم پر پروڈکشن گریڈ ایپلی کیشنز کی تعمیر، تعیناتی اور ان کا نظم کریں۔",
+    "side_image": "/technologies/aws/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے کلاؤڈ کو بہتر بنائیں",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "آرکیٹیکچر پیٹرن دیکھیں",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Amazon plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "ہم AWS پر انجینئر کیوں؟",
+    "subtitle": "AWS جدید تقسیم شدہ نظاموں کے لیے انتہائی پختہ اور محفوظ بنیاد فراہم کرتا ہے۔",
     "paragraphs": [
-      "Amazon is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Amazon with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "AWS انٹرپرائز گریڈ کلاؤڈ ہوسٹنگ اور آٹومیشن کے لیے ہمارا بنیادی انتخاب ہے۔ کمپیوٹ اور سٹوریج سے لے کر ایڈوانسڈ AI/ML تک 200 سے زیادہ مکمل خصوصیات والی خدمات کی اپنی وسیع صف کا فائدہ اٹھاتے ہوئے، ہم فزیکل ہارڈویئر کی رکاوٹوں کو ختم کرتے ہیں، جس سے آپ کے کاروبار کو مارکیٹ کی طلب کے جواب میں فوری طور پر پیمانہ حاصل ہوتا ہے۔",
+      "ہمارا تعمیراتی نقطہ نظر AWS Well-architected Framework پر مرکوز ہے۔ ہم اس بات کو یقینی بناتے ہیں کہ آپ کا بنیادی ڈھانچہ پانچ ستونوں پر بنایا گیا ہے: آپریشنل ایکسیلنس، سیکیورٹی، قابل اعتماد، کارکردگی کی کارکردگی، اور لاگت کی اصلاح، طویل مدتی تکنیکی قرض اور آپریشنل رسک کو کم کرنا۔"
     ],
     "cards": [
       {
-        "title": "Amazon Clarity",
-        "description": "Amazon helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "بے مثال اسکیل ایبلٹی",
+        "description": "دستی مداخلت کے بغیر ٹریفک اسپائکس کو سنبھالنے کے لیے آٹو اسکیلنگ اور لچکدار لوڈ بیلنسنگ کا استعمال کریں۔",
+        "icon_type": "FaExpandArrowsAlt"
       },
       {
-        "title": "Amazon Performance",
-        "description": "Amazon supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "انٹرپرائز سیکیورٹی",
+        "description": "حساس ڈیٹا کی حفاظت کے لیے ملٹری گریڈ انکرپشن اور شناخت اور رسائی کے انتظام (IAM) کو لاگو کریں۔",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Amazon Reliability",
-        "description": "Amazon strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "لاگت کی کارکردگی",
+        "description": "صرف اس چیز کی ادائیگی کریں جو آپ آن ڈیمانڈ قیمتوں کے ساتھ استعمال کرتے ہیں اور غیر اہم کام کے بوجھ کے لیے اسپاٹ مثال کے طور پر استعمال کرتے ہیں۔",
+        "icon_type": "FaWallet"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/amazon/scope.webp",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "AWS آرکیٹیکچرل اسکوپ",
+    "image": "/technologies/aws/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Amazon-ready patterns designed for dynamic cloud scaling."
+        "title": "سرور لیس فن تعمیرات",
+        "description": "صفر سرور کے انتظام اور اعلی دستیابی کے لیے AWS Lambda اور API گیٹ وے کے ساتھ ایونٹ سے چلنے والی منطق کو تعینات کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Amazon integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "منظم ڈیٹا لیکس",
+        "description": "بڑی ڈیٹا بصیرت کے لیے Amazon S3، Glue، اور Redshift کا استعمال کرتے ہوئے مضبوط ڈیٹا سٹوریج اور اینالیٹکس پائپ لائنز کی تعمیر۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Amazon to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "ہائبرڈ کلاؤڈ انٹیگریشن",
+        "description": "محفوظ، کم لیٹنسی کنیکٹیویٹی کے لیے AWS Direct Connect اور VPC پیئرنگ کا استعمال کرتے ہوئے آن پریمیس ڈیٹا سینٹرز کو کلاؤڈ کے ساتھ ملانا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Amazon stack.",
+    "title": "AWS کا فائدہ",
+    "subtitle": "عالمی ڈیجیٹل موجودگی کے لیے قابل قدر کارکردگی۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon effectively."
+        "metric": "99.99%",
+        "title": "اپ ٹائم SLA",
+        "description": "متعدد دستیابی زونز اور عالمی خطوں میں صنعت کی معروف قابل اعتماد۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Amazon."
+        "metric": "200+",
+        "title": "مکمل طور پر نمایاں خدمات",
+        "description": "AI، IoT، اور اعلی کارکردگی والے کمپیوٹ سمیت کلاؤڈ ٹولز کے سب سے وسیع سیٹ تک فوری رسائی۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon delivery."
+        "metric": "315+",
+        "title": "موجودگی کے پوائنٹس",
+        "description": "Amazon CloudFront گلوبل ایج نیٹ ورک کا استعمال کرتے ہوئے انتہائی کم تاخیر کے ساتھ مواد فراہم کریں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Amazon inside open architecture patterns."
+        "metric": "صفر",
+        "title": "ہارڈ ویئر اوور ہیڈ",
+        "description": "ٹیموں کو مصنوعات کی جدت پر 100% توجہ مرکوز کرنے کی اجازت دیتے ہوئے، جسمانی دیکھ بھال کی ضرورت کو ختم کریں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Amazon gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "AWS بنیادی ڈھانچے کو قابل پروگرام اثاثہ میں بدل دیتا ہے، جس سے ہمیں تعمیر کرنے کی اجازت ملتی ہے۔",
+    "highlight": "لامحدود لچک"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Amazon roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے کلاؤڈ حل کو آرکیٹیکٹ کریں۔",
+    "subtitle": "اپنے مائیگریشن روڈ میپ یا لاگت کو بہتر بنانے کی حکمت عملی کی وضاحت کرنے کے لیے ہمارے AWS سرٹیفائیڈ سولیوشنز آرکیٹیکٹس سے مشورہ کریں۔",
+    "full_name_label": "لیڈ آرکیٹیکٹ",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "کلاؤڈ کی ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Amazon architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے AWS اسکیلنگ کے چیلنجز یا ہجرت کے اہداف کی وضاحت کریں...",
+    "button_text": "کلاؤڈ آڈٹ کی درخواست کریں۔"
   }
 }

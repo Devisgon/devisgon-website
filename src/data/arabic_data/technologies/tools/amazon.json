@@ -1,103 +1,116 @@
 {
   "slug": "amazon",
+  "seo_metadata": {
+    "title": "خدمات الهندسة المعمارية والاستشارات السحابية للمؤسسات AWS",
+    "description": "خدمات تنفيذ وترحيل AWS احترافية. نقوم بتصميم حلول سحابية قابلة للتطوير وآمنة ومُحسّنة من حيث التكلفة باستخدام AWS Lambda وEC2 وS3.",
+    "keywords": [
+      "استشارات سحابة AWS",
+      "هندسة خدمات الويب من أمازون",
+      "الحوسبة بدون خادم",
+      "الهجرة السحابية من AWS",
+      "البنية التحتية كرمز",
+      "أفضل ممارسات أمان AWS",
+      "تحسين التكلفة السحابية"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Amazon",
-    "description": "Build production systems with Amazon in our tools delivery ecosystem.",
-    "side_image": "/technologies/amazon/hero.webp",
+    "eyebrow": "البنية التحتية السحابية العالمية",
+    "title": "مقياس بلا حدود مع",
+    "highlight": "أوس",
+    "description": "يمكنك إنشاء تطبيقات على مستوى الإنتاج ونشرها وإدارتها على النظام الأساسي السحابي الأكثر شمولاً والأوسع انتشارًا في العالم.",
+    "side_image": "/technologies/aws/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "تحسين السحابة الخاصة بك",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "عرض أنماط الهندسة المعمارية",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Amazon plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "لماذا نقوم بالهندسة على AWS؟",
+    "subtitle": "توفر AWS الأساس الأكثر نضجًا وأمانًا للأنظمة الموزعة الحديثة.",
     "paragraphs": [
-      "Amazon is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Amazon with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "AWS هي خيارنا الأساسي للاستضافة والأتمتة السحابية على مستوى المؤسسات. من خلال الاستفادة من مجموعتها الواسعة التي تضم أكثر من 200 خدمة كاملة الميزات - بدءًا من الحوسبة والتخزين وحتى الذكاء الاصطناعي/التعلم الآلي المتقدم - فإننا نزيل قيود الأجهزة المادية، مما يسمح لشركتك بالتوسع على الفور استجابة لطلب السوق.",
+      "يركز نهجنا المعماري على إطار عمل AWS Well-Architected. نحن نضمن أن البنية التحتية الخاصة بك مبنية على خمس ركائز: التميز التشغيلي، والأمن، والموثوقية، وكفاءة الأداء، وتحسين التكلفة، مما يقلل من الديون الفنية والمخاطر التشغيلية على المدى الطويل."
     ],
     "cards": [
       {
-        "title": "Amazon Clarity",
-        "description": "Amazon helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "قابلية التوسع لا مثيل لها",
+        "description": "استخدم القياس التلقائي وموازنة التحميل المرنة للتعامل مع ارتفاع حركة المرور دون تدخل يدوي.",
+        "icon_type": "FaExpandArrowsAlt"
       },
       {
-        "title": "Amazon Performance",
-        "description": "Amazon supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "أمن المؤسسات",
+        "description": "تنفيذ التشفير العسكري وإدارة الهوية والوصول (IAM) لحماية البيانات الحساسة.",
+        "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Amazon Reliability",
-        "description": "Amazon strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "كفاءة التكلفة",
+        "description": "ادفع فقط مقابل ما تستخدمه مع التسعير عند الطلب والمثيلات الفورية لأحمال العمل غير الحرجة.",
+        "icon_type": "FaWallet"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/amazon/scope.webp",
+    "id": "هندسة التكنولوجيا",
+    "title": "نطاق AWS المعماري",
+    "image": "/technologies/aws/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Amazon-ready patterns designed for dynamic cloud scaling."
+        "title": "بنيات بدون خادم",
+        "description": "نشر المنطق المستند إلى الأحداث باستخدام AWS Lambda وAPI Gateway لإدارة بدون خادم والتوفر العالي."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Amazon integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "بحيرات البيانات المُدارة",
+        "description": "تصميم خطوط أنابيب قوية لتخزين البيانات والتحليلات باستخدام Amazon S3 وGlue وRedshift للحصول على رؤى البيانات الضخمة."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Amazon to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "التكامل السحابي الهجين",
+        "description": "ربط مراكز البيانات المحلية بالسحابة باستخدام AWS Direct Connect وVPC Peering للحصول على اتصال آمن منخفض زمن الاستجابة."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Amazon stack.",
+    "title": "ميزة AWS",
+    "subtitle": "كفاءة قابلة للقياس للتواجد الرقمي العالمي.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Amazon effectively."
+        "metric": "99.99%",
+        "title": "وقت التشغيل لاتفاقية مستوى الخدمة",
+        "description": "موثوقية رائدة في الصناعة عبر مناطق توافر الخدمات المتعددة والمناطق العالمية."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Amazon."
+        "metric": "200+",
+        "title": "خدمات مميزة بالكامل",
+        "description": "الوصول الفوري إلى المجموعة الأكثر شمولاً من الأدوات السحابية بما في ذلك الذكاء الاصطناعي وإنترنت الأشياء والحوسبة عالية الأداء."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Amazon delivery."
+        "metric": "315+",
+        "title": "نقاط التواجد",
+        "description": "قم بتوصيل المحتوى بزمن انتقال منخفض للغاية باستخدام شبكة Amazon CloudFront العالمية."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Amazon inside open architecture patterns."
+        "metric": "صفر",
+        "title": "النفقات العامة للأجهزة",
+        "description": "تخلص من الحاجة إلى الصيانة المادية، مما يسمح للفرق بالتركيز بنسبة 100% على ابتكار المنتجات."
       }
     ]
   },
   "quote_section": {
-    "quote": "Amazon gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "تعمل AWS على تحويل البنية التحتية إلى أصول قابلة للبرمجة، مما يسمح لنا بالبناء باستخدامها",
+    "highlight": "مرونة لا نهائية"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Amazon roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "صمم الحل السحابي الخاص بك",
+    "subtitle": "استشر مهندسي الحلول المعتمدين لدينا من AWS لتحديد خارطة طريق الترحيل أو استراتيجية تحسين التكلفة.",
+    "full_name_label": "المهندس المعماري الرئيسي",
+    "business_email_label": "البريد الإلكتروني للشركات",
+    "message_label": "متطلبات السحابة",
+    "full_name_placeholder": "دكتور جوليان ثورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Amazon architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "قم بوصف تحديات التوسع في AWS أو أهداف الترحيل...",
+    "button_text": "طلب التدقيق السحابي"
   }
 }

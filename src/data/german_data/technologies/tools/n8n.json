@@ -1,103 +1,116 @@
 {
   "slug": "n8n",
+  "seo_metadata": {
+    "title": "N8N-Automatisierung für Unternehmen | Selbstgehostete Workflow-Orchestrierung",
+    "description": "Professionelle n8n-Implementierungsdienste. Wir entwerfen sichere, selbst gehostete Automatisierungsworkflows und knotenbasierte Fair-Code-Integrationen für die Souveränität der Unternehmensdaten.",
+    "keywords": [
+      "n8n-Automatisierung",
+      "Selbstgehostetes Workflow-Tool",
+      "Knotenbasierte Automatisierung",
+      "Datensouveränitätslösungen",
+      "n8n benutzerdefinierte Knoten",
+      "Enterprise-Workflow-Orchestrierung",
+      "Fair-Code-Automatisierungsplattform"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "Fair-Code-Workflow-Automatisierung",
+    "title": "Übernehmen Sie die volle Kontrolle mit",
     "highlight": "n8n",
-    "description": "Build production systems with n8n in our tools delivery ecosystem.",
+    "description": "Erstellen Sie hochgradig anpassbare, knotenbasierte Automatisierungen, die selbst gehostet werden können, um absoluten Datenschutz und architektonische Freiheit zu gewährleisten.",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Gestalten Sie Ihren Workflow",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Quellintegration anzeigen",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "n8n plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "Warum wir mit n8n entwickeln",
+    "subtitle": "n8n bietet die erweiterbare, knotenbasierte Grundlage, die für eine sichere und komplexe Backend-Orchestrierung erforderlich ist.",
     "paragraphs": [
-      "n8n is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using n8n with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "n8n ist unsere erste Wahl für Projekte, die Datensouveränität und ein hohes Maß an Individualisierung erfordern. Im Gegensatz zu herkömmlichen SaaS-Automatisierungstools ermöglicht uns das Fair-Code-Modell von n8n, die Engine in Ihrer eigenen sicheren Infrastruktur zu hosten. So stellen wir sicher, dass sensible Daten niemals Ihre Umgebung verlassen und profitieren gleichzeitig von einem leistungsstarken visuellen Workflow-Designer.",
+      "Die wahre Stärke von n8n liegt in seiner Erweiterbarkeit. Seine knotenbasierte Architektur ermöglicht es unseren Entwicklern, benutzerdefinierte JavaScript-Logik direkt im Workflow zu schreiben oder sogar proprietäre Knoten zu erstellen, um mit internen Legacy-Systemen zu kommunizieren und so eine Brücke zwischen Standard-Cloud-Diensten und Ihrem einzigartigen Unternehmens-Stack zu schlagen."
     ],
     "cards": [
       {
-        "title": "n8n Clarity",
-        "description": "n8n helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "Datensouveränität",
+        "description": "Hosten Sie Ihre Daten selbst auf Ihren eigenen Servern, um die 100-prozentige Kontrolle über Ihre Daten zu behalten und die strikte Einhaltung der Datenschutzbestimmungen sicherzustellen.",
+        "icon_type": "FaServer"
       },
       {
-        "title": "n8n Performance",
-        "description": "n8n supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Unendliche Erweiterbarkeit",
+        "description": "Fügen Sie benutzerdefinierten JavaScript-Code hinzu oder erstellen Sie proprietäre Knoten, um einzigartige Geschäftslogik und komplexe Datenanalyse zu bewältigen.",
+        "icon_type": "FaCode"
       },
       {
-        "title": "n8n Reliability",
-        "description": "n8n strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "Transparente Architektur",
+        "description": "Nutzen Sie ein Fair-Code-Modell, das eine umfassende Prüfung und vollständige technologische Unabhängigkeit ermöglicht.",
+        "icon_type": "FaLockOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "Technologie-Architektur",
+    "title": "Orchestrierungsumfang",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with n8n-ready patterns designed for dynamic cloud scaling."
+        "title": "Selbstgehostete Cloud-Automatisierungen",
+        "description": "Bereitstellung von containerisierten n8n-Instanzen auf AWS oder GCP, um Backend-Aufgaben ohne externe Datenexposition zu verwalten."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "n8n integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Benutzerdefinierte Knotenentwicklung",
+        "description": "Entwicklung spezialisierter Knoten, um interne ERPs, Datenbanken und Nischen-Legacy-Software mit der n8n-Engine zu verbinden."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use n8n to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Erweiterte Logikflüsse",
+        "description": "Verwendung des „Funktionsknotens“, um komplexe Datentransformationen und algorithmische Sortierung direkt in einem visuellen Szenario durchzuführen."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the n8n stack.",
+    "title": "Der n8n-Vorteil",
+    "subtitle": "Strategische Wettbewerbsvorteile für sichere und flexible Ökosysteme.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging n8n effectively."
+        "metric": "100 %",
+        "title": "Datenkontrolle",
+        "description": "Absolute Privatsphäre und Sicherheit durch das vollständige Hosten der Automatisierungs-Engine innerhalb Ihrer eigenen Firewall."
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with n8n."
+        "metric": "Null",
+        "title": "Lieferantenbindung",
+        "description": "Behalten Sie die volle Kontrolle über Ihre Arbeitsabläufe und Logik, ohne an eine proprietäre SaaS-Cloud gebunden zu sein."
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate n8n delivery."
+        "metric": "400+",
+        "title": "Native Knoten",
+        "description": "Eine riesige Bibliothek vorgefertigter Integrationen kombiniert mit der Möglichkeit, mühelos eigene zu erstellen."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using n8n inside open architecture patterns."
+        "metric": "Optimiert",
+        "title": "Kostenstruktur",
+        "description": "Eliminieren Sie Abrechnungsmodelle pro Aufgabe, indem Sie Ihre eigene Instanz betreiben und so vorhersehbare und niedrigere Gesamtbetriebskosten erzielen."
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "n8n bietet Teams einen praktischen Weg, um die Lücke zwischen Low-Code-Einfachheit und zu schließen",
+    "highlight": "Pro-Code-Flexibilität"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your n8n roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Gestalten Sie Ihre Automatisierung",
+    "subtitle": "Wenden Sie sich an unsere führenden technischen Spezialisten, um eine sichere, selbst gehostete N8N-Roadmap für Ihr Unternehmen zu definieren.",
+    "full_name_label": "Leitender Ingenieur",
+    "business_email_label": "Entitäts-E-Mail",
+    "message_label": "Technische Anforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your n8n architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihre Datenschutzanforderungen oder komplexen Automatisierungsherausforderungen ...",
+    "button_text": "Fordern Sie ein technisches Audit an"
   }
 }

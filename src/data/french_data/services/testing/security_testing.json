@@ -87,15 +87,15 @@
         "icon": "FaShieldAlt"
       },
       {
-        "name": "Nessos",
+        "name": "Nessus",
         "icon": "SiNessus"
       },
       {
-        "name": "Métasploit",
+        "name": "Metasploit",
         "icon": "FaTerminal"
       },
       {
-        "name": "Requin filaire",
+        "name": "Wireshark",
         "icon": "SiWireshark"
       }
     ]
@@ -110,7 +110,7 @@
         "icon": "FaSearch"
       },
       {
-        "title": "Balayage",
+        "title": "Scanning",
         "description": "Nous utilisons des outils automatisés avancés pour identifier les erreurs de configuration et les vulnérabilités connues.",
         "icon": "FaRadar"
       },
@@ -131,7 +131,7 @@
     "image": "/all_services/security_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problème",
+        "label": "Problem",
         "text": "Une startup de télésanté était à quelques semaines du lancement de son portail patient, mais avait besoin d'un audit de sécurité final pour se conformer à la réglementation HIPAA."
       },
       "solution": {
@@ -139,7 +139,7 @@
         "text": "Au cours de notre test d'intrusion manuel, nous avons découvert une grave vulnérabilité IDOR (Insecure Direct Object Reference) qui permettait à tout utilisateur d'accéder aux dossiers médicaux d'autres patients en manipulant l'URL."
       },
       "result": {
-        "label": "Résultat",
+        "label": "Result",
         "text": "Nous avons fourni un code de correction immédiat. La vulnérabilité a été corrigée avant le lancement, évitant ainsi une violation catastrophique de la HIPAA et préservant l'avenir de la startup."
       }
     }

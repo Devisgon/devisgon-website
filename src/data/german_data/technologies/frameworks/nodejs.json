@@ -1,103 +1,116 @@
 {
   "slug": "nodejs",
+  "seo_metadata": {
+    "title": "Skalierbare Node.js-Entwicklung | Leistungsstarke Backend-Lösungen",
+    "description": "Node.js-Implementierung der Enterprise-Klasse für Systeme mit hoher Parallelität. Wir nutzen nicht blockierende I/O- und V8-Engine-Leistung, um skalierbare Echtzeit-Backends zu erstellen.",
+    "keywords": [
+      "Node.js-Entwicklung",
+      "V8-Motorleistung",
+      "Ereignisgesteuerte Architektur",
+      "Nicht blockierende E/A",
+      "Serverseitiges JavaScript",
+      "Echtzeitanwendungen",
+      "npm-Ökosystemintegration"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "JavaScript-Laufzeitumgebung",
+    "title": "Asynchrone Leistung mit",
     "highlight": "Node.js",
-    "description": "Build production systems with Node.js in our frameworks delivery ecosystem.",
+    "description": "Führen Sie JavaScript auf der Serverseite aus, um schnelle, skalierbare Netzwerkanwendungen zu erstellen, die Tausende gleichzeitiger Verbindungen mit einem einzigen Thread verarbeiten können.",
     "side_image": "/technologies/node_js/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "Optimieren Sie Ihr Backend",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "Technische Roadmap anzeigen",
       "href": "/technologies/nodejs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Node.js plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "Warum wir mit Node.js entwickeln",
+    "subtitle": "Node.js ist der Grundstein für moderne, hochverfügbare Webdienste und Echtzeit-Datenstreaming.",
     "paragraphs": [
-      "Node.js is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using Node.js with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "Wir wählen Node.js für Workloads, die einen hohen Durchsatz und eine geringe Latenz erfordern. Sein nicht blockierendes, ereignisgesteuertes I/O-Modell macht es außergewöhnlich effizient für datenintensive Echtzeitanwendungen, die auf verteilten Geräten laufen, und ermöglicht uns den Aufbau von Backends, die auch unter hoher Last reaktionsfähig bleiben.",
+      "Durch die Vereinheitlichung unserer Frontend- und Backend-Sprachen mit JavaScript oder TypeScript beseitigen wir die Reibung beim Kontextwechsel. Dieser einsprachige Stack beschleunigt die Entwicklungsgeschwindigkeit, vereinfacht die Zusammenarbeit im Team und ermöglicht eine gemeinsame Logik über den gesamten Anwendungslebenszyklus hinweg."
     ],
     "cards": [
       {
-        "title": "Node.js Clarity",
-        "description": "Node.js helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "V8-Motordrehzahl",
+        "description": "Node.js basiert auf der V8-Engine von Google und kompiliert JavaScript direkt in Maschinencode für eine blitzschnelle Ausführung.",
+        "icon_type": "FaBolt"
       },
       {
-        "title": "Node.js Performance",
-        "description": "Node.js supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "Ereignisschleifenmodell",
+        "description": "Bewältigen Sie massive Parallelität ohne den Overhead der Thread-Verwaltung und maximieren Sie so den Nutzen der Serverressourcen.",
+        "icon_type": "FaSync"
       },
       {
-        "title": "Node.js Reliability",
-        "description": "Node.js strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "npm-Ökosystem",
+        "description": "Nutzen Sie das weltweit größte Register von Open-Source-Bibliotheken, um die Bereitstellung und Innovation von Funktionen zu beschleunigen.",
+        "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "Technologie-Architektur",
+    "title": "Technischer Umfang",
     "image": "/technologies/node_js/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with Node.js-ready patterns designed for dynamic cloud scaling."
+        "title": "Echtzeit-WebSockets",
+        "description": "Erstellen Sie Kommunikationsebenen mit geringer Latenz für Chat-Systeme, Live-Dashboards und Tools für die Zusammenarbeit mit Socket.io."
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Node.js integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "Skalierbare API-Gateways",
+        "description": "Orchestrierung komplexer Microservice-Interaktionen mit schlanken, leistungsstarken Node.js-Proxy-Layern."
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use Node.js to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "Serverlose Funktionen",
+        "description": "Bereitstellung ereignisgesteuerter Logik über AWS Lambda oder Google Cloud Functions für kostengünstige, automatisch skalierende Datenverarbeitung."
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Node.js stack.",
+    "title": "Der Node.js-Edge",
+    "subtitle": "Quantifizierbare Leistung für das moderne Unternehmen.",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging Node.js effectively."
-      },
-      {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with Node.js."
-      },
-      {
         "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate Node.js delivery."
+        "title": "Registrierungsmodule",
+        "description": "Zugriff auf die umfangreichste Sammlung vorab getesteter Pakete zur Reduzierung des kundenspezifischen Engineering-Aufwands."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using Node.js inside open architecture patterns."
+        "metric": "40 %",
+        "title": "Geringere Latenz",
+        "description": "Verkürzung der Antwortzeiten für E/A-gebundene Anwendungen im Vergleich zu herkömmlichen synchronen Umgebungen."
+      },
+      {
+        "metric": "Einzel",
+        "title": "Sprachstapel",
+        "description": "Verbessern Sie die Entwicklerproduktivität, indem Sie JavaScript im gesamten Produktentwicklungslebenszyklus verwenden."
+      },
+      {
+        "metric": "Null",
+        "title": "Einsperren",
+        "description": "Behalten Sie die vollständige Kontrolle über Ihre Laufzeitumgebung in jeder Cloud- oder On-Premise-Infrastruktur."
       }
     ]
   },
   "quote_section": {
-    "quote": "Node.js gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "Mit Node.js können wir netzwerkorientierte Anwendungen erstellen, die genauso schnell sind wie sie",
+    "highlight": "architektonisch elegant"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your Node.js roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "Gestalten Sie Ihre Infrastruktur",
+    "subtitle": "Wenden Sie sich an unsere leitenden Node.js-Ingenieure, um eine Roadmap für die Leistung bei hoher Parallelität zu definieren.",
+    "full_name_label": "Leitender Ingenieur",
+    "business_email_label": "Entitäts-E-Mail",
+    "message_label": "Strategische Anforderung",
+    "full_name_placeholder": "Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Node.js architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "Beschreiben Sie Ihre Node.js-Leistungsherausforderungen oder Skalierungsanforderungen ...",
+    "button_text": "Fordern Sie eine Beratung an"
   }
 }

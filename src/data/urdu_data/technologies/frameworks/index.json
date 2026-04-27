@@ -1,103 +1,116 @@
 {
   "slug": "frameworks",
+  "seo_metadata": {
+    "title": "جدید سافٹ ویئر فریم ورک | مکمل اسٹیک اور کراس پلیٹ فارم کی ترقی",
+    "description": "Next.js، NestJS، Laravel، اور Flutter کا استعمال کرتے ہوئے انٹرپرائز گریڈ کی ترقی۔ ہم صنعت کے معروف فریم ورک کا استعمال کرتے ہوئے توسیع پذیر بیک اینڈز اور اعلی کارکردگی والے فرنٹ اینڈس کو آرکیٹیکٹ کرتے ہیں۔",
+    "keywords": [
+      "جدید سافٹ ویئر فریم ورک",
+      "مکمل اسٹیک ڈویلپمنٹ",
+      "Next.js فن تعمیر",
+      "لاریول انٹرپرائز سلوشنز",
+      "NestJS مائیکرو سروسز",
+      "کراس پلیٹ فارم ایپ ڈویلپمنٹ",
+      "توسیع پذیر ویب انفراسٹرکچر"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
-    "highlight": "Frameworks",
-    "description": "Build production systems with Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter.",
-    "side_image": "/services_page/hero_bg.webp",
+    "eyebrow": "جدید اسٹیک",
+    "title": "کے ساتھ انوویشن کو تیز کرنا",
+    "highlight": "ماڈیولر فریم ورک",
+    "description": "ویب، موبائل، اور انٹرپرائز ڈیسک ٹاپ ماحول میں لچکدار، اعلی ہم آہنگی والے نظام بنانے کے لیے صنعت کے معروف فریم ورک کی طاقت کا استعمال کریں۔",
+    "side_image": "/services_page/frameworks-hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "ہمارے اسٹیک کو دریافت کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "تکنیکی روڈ میپ",
       "href": "/technologies/frameworks#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "Frameworks forms a high-confidence foundation for scalable modern software delivery.",
+    "title": "رفتار کے لیے انجینئرڈ۔",
+    "subtitle": "ہم ایسے فریم ورک کا انتخاب کرتے ہیں جو پروڈکشن گریڈ کی کارکردگی پر سمجھوتہ کیے بغیر ڈویلپر کی پیداواری صلاحیت کو ترجیح دیتے ہیں۔",
     "paragraphs": [
-      "Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter gives our teams practical flexibility to choose the right implementation path per workload.",
-      "By removing unnecessary complexity, we improve readability, reduce delivery risk, and make long-term maintenance easier."
+      "جنگ کے آزمائشی فریم ورک کے بنیادی سیٹ پر معیاری بنا کر—بشمول Node.js, Next.js, NestJS, Laravel, React اور Flutter — ہم اس بات کو یقینی بناتے ہیں کہ آپ کی پروڈکٹ ایسی بنیاد پر بنائی گئی ہے جو تیز رفتار پروٹو ٹائپنگ اور عالمی سطح دونوں کو سپورٹ کرتی ہے۔ ہمارا نقطہ نظر قائم کردہ ڈیزائن کے نمونوں اور ماڈیولر کوڈ ڈھانچے پر عمل کرتے ہوئے تکنیکی قرض کو کم کرتا ہے۔",
+      "چاہے یہ NestJS کی سرور سائیڈ کارکردگی ہو یا Flutter کی کراس پلیٹ فارم کی قابلیت، ہم آپ کے مخصوص کاروباری نتائج کے ساتھ اپنی ٹیکنالوجی کے انتخاب کو ہم آہنگ کرتے ہیں، طویل مدتی برقرار رکھنے اور آسان ٹیلنٹ آن بورڈنگ کو یقینی بناتے ہوئے"
     ],
     "cards": [
       {
-        "title": "Delivery Consistency",
-        "description": "Framework conventions keep product architecture coherent across teams.",
-        "icon_type": "FaCogs"
+        "title": "آرکیٹیکچرل ہم آہنگی۔",
+        "description": "معیاری کنونشنز اس بات کو یقینی بناتے ہیں کہ آپ کی ٹیم کے بڑھنے کے ساتھ ساتھ آپ کا کوڈ بیس پڑھنے کے قابل اور برقرار رہے۔",
+        "icon_type": "FaLayerGroup"
       },
       {
-        "title": "Cross-Platform Reach",
-        "description": "React Native and Flutter accelerate reliable mobile releases.",
+        "title": "اومنی چینل ریچ",
+        "description": "iOS، Android اور ویب پر مسلسل صارف کے تجربات فراہم کرنے کے لیے مقامی ردعمل اور پھڑپھڑانے کا فائدہ اٹھائیں۔",
         "icon_type": "FaMobileAlt"
       },
       {
-        "title": "Scalable Backend Core",
-        "description": "Node.js, NestJS, and Laravel support maintainable API growth.",
-        "icon_type": "FaServer"
+        "title": "انٹرپرائز کی کارکردگی",
+        "description": "اعلی ہم آہنگی والے کام کے بوجھ کو آسانی کے ساتھ سنبھالنے کے لیے Laravel اور NestJS جیسے مضبوط بیک اینڈ انجن کا استعمال کریں۔",
+        "icon_type": "FaRocket"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/services_page/hero_bg.webp",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "مکمل اسٹیک اسکوپ",
+    "image": "/services_page/frameworks-scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with frameworks choices matched to runtime and scaling goals."
+        "title": "ایس ایس آر اور ایج کمپیوٹنگ",
+        "description": "SEO اور صفحہ کی رفتار کی کارکردگی کو زیادہ سے زیادہ کرنے کے لیے سرور سائیڈ رینڈرنگ اور جامد سائٹ جنریشن کے لیے Next.js کا نفاذ۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "Orchestrate robust workflows that transform raw inputs into reliable operational intelligence."
+        "title": "ٹائپ سیف مائیکرو سروسز",
+        "description": "NestJS اور TypeScript کے ساتھ توسیع پذیر، برقرار رکھنے کے قابل بیک اینڈز بنانا تاکہ رن ٹائم کی قابل اعتمادی اور واضح API معاہدوں کو یقینی بنایا جا سکے۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Bridge legacy and modern stacks with stable integration patterns and clear service boundaries."
+        "title": "ہائبرڈ کراس پلیٹ فارم",
+        "description": "مشترکہ کاروباری منطق کی تہوں کی تعمیر جو ویب ڈیش بورڈز اور مقامی موبائل ایپلیکیشنز دونوں کو بیک وقت طاقت دیتی ہے۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the Frameworks stack.",
+    "title": "فریم ورک کا فائدہ",
+    "subtitle": "قابل مقداری میٹرکس جو مسابقتی ڈیجیٹل مصنوعات کو چلاتے ہیں۔",
     "cards": [
       {
         "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timelines through streamlined implementation."
+        "title": "کارکردگی حاصل کرنا",
+        "description": "پہلے سے تعمیر شدہ فریم ورک کے اجزاء اور CLI ٹولز کا استعمال کرتے ہوئے وقت سے مارکیٹ میں اوسط کمی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability within distributed microservice environments."
+        "metric": "100%",
+        "title": "کوڈ پورٹیبلٹی",
+        "description": "ڈپلیکیٹ انجینئرنگ کی کوششوں کو کم سے کم کرنے کے لیے مختلف پلیٹ فارمز پر کوڈ کے دوبارہ استعمال کو زیادہ سے زیادہ کریں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a vast global repository of pre-tested technical modules."
+        "metric": "فعال",
+        "title": "ایل ٹی ایس سپورٹ",
+        "description": "ہم صرف لانگ ٹرم سپورٹ (LTS) ورژن کے ساتھ بناتے ہیں، جو آنے والے سالوں کے لیے آپ کی سیکیورٹی اور استحکام کو یقینی بناتے ہیں۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Complete technological sovereignty over your intellectual property."
+        "metric": "عالمی",
+        "title": "ٹیلنٹ پول",
+        "description": "مقبول فریم ورک کا استعمال یقینی بناتا ہے کہ آپ محدود سپورٹ کے ساتھ کبھی بھی مخصوص ٹیکنالوجی میں بند نہیں ہوں گے۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "Great frameworks make architecture repeatable while keeping delivery",
-    "highlight": "remarkably efficient"
+    "quote": "عظیم فریم ورک صرف کوڈ فراہم نہیں کرتے؛ وہ بلیو پرنٹس فراہم کرتے ہیں۔",
+    "highlight": "توسیع پذیر کامیابی"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your frameworks roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنے روڈ میپ کو معمار کریں۔",
+    "subtitle": "اپنی اگلی نسل کے حل کے لیے بہترین فریم ورک اسٹیک کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ آرکیٹیکٹ",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "پروجیکٹ ویژن",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe the architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "ہمیں اپنے اسکیل ایبلٹی اہداف یا مخصوص فریم ورک کی ضروریات کے بارے میں بتائیں...",
+    "button_text": "مشاورت شروع کریں۔"
   }
 }

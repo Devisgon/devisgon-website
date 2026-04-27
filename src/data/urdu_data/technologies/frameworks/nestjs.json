@@ -1,103 +1,116 @@
 {
   "slug": "nestjs",
+  "seo_metadata": {
+    "title": "انٹرپرائز نیسٹ جے ایس ڈویلپمنٹ | توسیع پذیر Node.js فن تعمیر",
+    "description": "مضبوط، ماڈیولر، اور انٹرپرائز گریڈ بیک اینڈز کے لیے حسب ضرورت NestJS ڈیولپمنٹ۔ ہم NestJS کا استعمال کرتے ہوئے انتہائی قابل جانچ اور برقرار رکھنے کے قابل TypeScript APIs بناتے ہیں۔",
+    "keywords": [
+      "نیسٹ جے ایس ڈویلپمنٹ",
+      "ٹائپ اسکرپٹ بیک اینڈ فریم ورک",
+      "Node.js مائیکرو سروسز",
+      "انٹرپرائز API آرکیٹیکچر",
+      "NestJS انحصار انجیکشن",
+      "ماڈیولر بیک اینڈ ڈیزائن",
+      "سرور سائیڈ ٹائپ اسکرپٹ"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "ایک پروگریسو Node.js فریم ورک",
+    "title": "کے ساتھ توسیع پذیر نظام بنائیں",
     "highlight": "NestJS",
-    "description": "Build production systems with NestJS in our frameworks delivery ecosystem.",
-    "side_image": "/technologies/nest_js/hero.webp",
+    "description": "TypeScript اور ماڈیولر فن تعمیر کی طاقت کو موثر، قابل بھروسہ، اور انٹرپرائز گریڈ سرور سائڈ ایپلی کیشنز بنانے کے لیے استعمال کریں۔",
+    "side_image": "/technologies/nestjs/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے بیک اینڈ کو آرکیٹیکٹ کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "فن تعمیر دیکھیں",
       "href": "/technologies/nestjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "NestJS plays a critical role in our frameworks strategy for reliable software delivery.",
+    "title": "ہم NestJS کے ساتھ انجینئر کیوں کرتے ہیں۔",
+    "subtitle": "NestJS بڑے پیمانے پر Node.js ایپلی کیشنز کے لیے درکار ڈھانچہ، آراکیٹیکچر فراہم کرتا ہے۔",
     "paragraphs": [
-      "NestJS is part of our core stack: Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using NestJS with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "NestJS انٹرپرائز Node.js ماحول کے لیے ہمارا انتخاب کا فریم ورک ہے۔ TypeScript کو مقامی طور پر استعمال کرکے اور Angular سے متاثر فن تعمیر کو اپنانے سے، یہ معیاری Node.js پروجیکٹس کے 'وائلڈ ویسٹ' کے مسئلے کو حل کرتا ہے، جو کنٹرولرز، فراہم کنندگان اور ماڈیولز کا واضح ڈھانچہ فراہم کرتا ہے۔",
+      "یہ ماڈیولریٹی ہماری ٹیموں کو انتہائی قابل آزمائش اور ڈھیلے طریقے سے جوڑے جانے والے نظام بنانے کی اجازت دیتی ہے۔ چاہے ہم ایک پیچیدہ یک سنگی تعمیر کر رہے ہوں یا تقسیم شدہ مائیکرو سروس میش، NestJS اس بات کو یقینی بناتا ہے کہ کوڈ برقرار رہے اور انحصار کے انجکشن کو جراحی کی درستگی کے ساتھ سنبھالا جائے۔"
     ],
     "cards": [
       {
-        "title": "NestJS Clarity",
-        "description": "NestJS helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "ٹائپ اسکرپٹ مقامی",
+        "description": "TypeScript کے ساتھ اور اس کے لیے بنایا گیا، مضبوط ٹائپنگ اور جدید JavaScript کی خصوصیات فراہم کرتا ہے تاکہ غلطی سے پاک ڈیلیوری ہو۔",
+        "icon_type": "FaCode"
       },
       {
-        "title": "NestJS Performance",
-        "description": "NestJS supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "ماڈیولر فن تعمیر",
+        "description": "منطق کو دوبارہ قابل استعمال ماڈیولز میں سمیٹیں، جس سے بڑے کوڈ بیسز کو نیویگیٹ کرنا اور اسکیل کرنا آسان ہو جاتا ہے۔",
+        "icon_type": "FaThLarge"
       },
       {
-        "title": "NestJS Reliability",
-        "description": "NestJS strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "انحصار انجکشن",
+        "description": "ایک طاقتور DI کنٹینر جو ٹیسٹنگ کو آسان بناتا ہے اور پورے ماحولیاتی نظام میں کوڈ کو دوبارہ استعمال کرنے کی صلاحیت کو بڑھاتا ہے۔",
+        "icon_type": "FaProjectDiagram"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
-    "image": "/technologies/nest_js/scope.webp",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "NestJS تکنیکی دائرہ کار",
+    "image": "/technologies/nestjs/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with NestJS-ready patterns designed for dynamic cloud scaling."
+        "title": "مائیکرو سروسز اور ٹرانسپورٹ",
+        "description": "NATS، RabbitMQ، gRPC، اور کافکا کے لیے بلٹ ان سپورٹ کا استعمال کرتے ہوئے تقسیم شدہ نظاموں کی تعمیر۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "NestJS integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "GraphQL اور REST APIs",
+        "description": "خودکار سویگر/اوپن اے پی آئی دستاویزات اور ٹائپ سیف گراف کیو ایل ریزولورز کے ساتھ طاقتور ڈیٹا لیئرز بنانا۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use NestJS to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "CQRS اور ایونٹ سورسنگ",
+        "description": "پیچیدہ ڈیٹا سے چلنے والے انٹرپرائز ورک فلو کے لیے کمانڈ سوال کی ذمہ داری سیگریگیشن (CQRS) کو نافذ کرنا۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the NestJS stack.",
+    "title": "نیسٹ جے ایس ایج",
+    "subtitle": "انٹرپرائز گریڈ بیک اینڈز کے لیے قابل پیشن گوئی کارکردگی۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging NestJS effectively."
+        "metric": "سخت",
+        "title": "سیفٹی ٹائپ کریں۔",
+        "description": "TypeScript کے ساتھ NestJS کے گہرے انضمام کا فائدہ اٹھا کر رن ٹائم ٹائپ کی غلطیوں کو عملی طور پر ختم کریں۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with NestJS."
+        "metric": "100%",
+        "title": "قابل امتحان",
+        "description": "یونٹ، انضمام، اور e2e ٹیسٹ کے لیے Jest اور خصوصی ٹیسٹنگ یوٹیلیٹیز کے لیے بلٹ ان سپورٹ۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate NestJS delivery."
+        "metric": "جدید",
+        "title": "ماحولیاتی نظام",
+        "description": "TypeORM، Prisma، Mongoose، اور سیکڑوں جنگی آزمائشی لائبریریوں کے ساتھ ہموار انضمام۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using NestJS inside open architecture patterns."
+        "metric": "صفر",
+        "title": "ڈیزائن رگڑ",
+        "description": "قائم کنونشنز آرکیٹیکچرل مباحثوں پر خرچ ہونے والے وقت کو کم کرتے ہیں، خصوصیت کی فراہمی کو تیز کرتے ہیں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "NestJS gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "NestJS انٹرپرائز ڈسپلن اور آرکیٹیکچرل خوبصورتی لاتا ہے۔",
+    "highlight": "Node.js ماحولیاتی نظام"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your NestJS roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "آرکیٹیکٹ یور انٹرپرائز API",
+    "subtitle": "ایک قابل توسیع، برقرار رکھنے کے قابل، اور ٹائپ سیف بیک اینڈ انفراسٹرکچر ڈیزائن کرنے کے لیے ہمارے NestJS آرکیٹیکٹس سے مشورہ کریں۔",
+    "full_name_label": "لیڈ آرکیٹیکٹ",
+    "business_email_label": "کارپوریٹ ای میل",
+    "message_label": "تکنیکی وژن",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your NestJS architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے بیک اینڈ اسکیلنگ کے چیلنجز یا تعمیراتی تقاضوں کی وضاحت کریں...",
+    "button_text": "مشاورت کی درخواست کریں۔"
   }
 }

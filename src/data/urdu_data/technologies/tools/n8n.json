@@ -1,103 +1,116 @@
 {
   "slug": "n8n",
+  "seo_metadata": {
+    "title": "انٹرپرائز n8n آٹومیشن | خود میزبان ورک فلو آرکیسٹریشن",
+    "description": "پیشہ ورانہ n8n نفاذ کی خدمات۔ ہم انٹرپرائز ڈیٹا کی خودمختاری کے لیے محفوظ، خود میزبان آٹومیشن ورک فلوز اور فیئر کوڈ نوڈ پر مبنی انضمام کا معمار بناتے ہیں۔",
+    "keywords": [
+      "n8n آٹومیشن",
+      "خود میزبان ورک فلو ٹول",
+      "نوڈ پر مبنی آٹومیشن",
+      "ڈیٹا خودمختاری کے حل",
+      "n8n کسٹم نوڈس",
+      "انٹرپرائز ورک فلو آرکیسٹریشن",
+      "فیئر کوڈ آٹومیشن پلیٹ فارم"
+    ]
+  },
   "hero_section": {
-    "eyebrow": "Technology Stack",
-    "title": "Architecting with",
+    "eyebrow": "فیئر کوڈ ورک فلو آٹومیشن",
+    "title": "کے ساتھ مکمل کنٹرول حاصل کریں۔",
     "highlight": "n8n",
-    "description": "Build production systems with n8n in our tools delivery ecosystem.",
+    "description": "انتہائی حسب ضرورت، نوڈ پر مبنی آٹومیشنز بنائیں جو ڈیٹا کی مکمل رازداری اور تعمیراتی آزادی کو یقینی بنانے کے لیے خود میزبان ہوسکیں۔",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Get Started",
+      "text": "اپنے ورک فلو کو آرکیٹیکٹ کریں۔",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Documentation",
+      "text": "ماخذ انٹیگریشن دیکھیں",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Use It.",
-    "subtitle": "n8n plays a critical role in our tools strategy for reliable software delivery.",
+    "title": "کیوں ہم n8n کے ساتھ انجینئر ہیں۔",
+    "subtitle": "n8n محفوظ اور پیچیدہ بیک اینڈ آرکیسٹریشن کے لیے ضروری قابل توسیع، نوڈ پر مبنی فاؤنڈیشن فراہم کرتا ہے۔",
     "paragraphs": [
-      "n8n is part of our core stack: n8n, Make, Zapier, Amazon, Shopify, and WordPress. We select it where it delivers the strongest engineering outcomes for performance, maintainability, and speed.",
-      "By using n8n with the right architecture decisions, we reduce delivery risk, improve code quality, and keep long-term scaling practical."
+      "n8n ان منصوبوں کے لیے ہمارا بنیادی انتخاب ہے جو ڈیٹا کی خودمختاری اور اعلیٰ سطح کی حسب ضرورت کا مطالبہ کرتے ہیں۔ روایتی SaaS آٹومیشن ٹولز کے برعکس، n8n کا فیئر کوڈ ماڈل ہمیں آپ کے اپنے محفوظ انفراسٹرکچر پر انجن کی میزبانی کرنے کی اجازت دیتا ہے، اس بات کو یقینی بناتا ہے کہ حساس ڈیٹا کبھی بھی آپ کے دائرہ سے باہر نہیں نکلتا ہے جبکہ ایک طاقتور بصری ورک فلو ڈیزائنر سے فائدہ اٹھاتا ہے۔",
+      "n8n کی اصل طاقت اس کی توسیع پذیری میں مضمر ہے۔ اس کا نوڈ پر مبنی فن تعمیر ہمارے ڈویلپرز کو اپنی مرضی کے مطابق JavaScript منطق کو براہ راست ورک فلو کے اندر لکھنے کی اجازت دیتا ہے، یا یہاں تک کہ اندرونی میراثی نظاموں کے ساتھ انٹرفیس کرنے کے لیے ملکیتی نوڈس بنانے، معیاری کلاؤڈ سروسز اور آپ کے منفرد انٹرپرائز اسٹیک کے درمیان ایک پل فراہم کرتا ہے۔"
     ],
     "cards": [
       {
-        "title": "n8n Clarity",
-        "description": "n8n helps teams ship with clearer standards and better developer handoffs.",
-        "icon_type": "FaBookReader"
+        "title": "ڈیٹا کی خودمختاری",
+        "description": "اپنے ڈیٹا پر 100% کنٹرول برقرار رکھنے اور رازداری کے ضوابط کی سخت تعمیل کو یقینی بنانے کے لیے اپنے سرورز پر خود میزبانی کریں۔",
+        "icon_type": "FaServer"
       },
       {
-        "title": "n8n Performance",
-        "description": "n8n supports production-grade performance with robust ecosystem tooling.",
-        "icon_type": "FaChartLine"
+        "title": "لامحدود توسیع پذیری۔",
+        "description": "منفرد کاروباری منطق اور پیچیدہ ڈیٹا پارس کو سنبھالنے کے لیے حسب ضرورت JavaScript کوڈ شامل کریں یا ملکیتی نوڈس بنائیں۔",
+        "icon_type": "FaCode"
       },
       {
-        "title": "n8n Reliability",
-        "description": "n8n strengthens architecture stability across modern distributed systems.",
-        "icon_type": "FaLayerGroup"
+        "title": "شفاف فن تعمیر",
+        "description": "ایک منصفانہ کوڈ ماڈل کا فائدہ اٹھائیں جو گہری آڈیٹنگ اور مکمل تکنیکی آزادی کی اجازت دیتا ہے۔",
+        "icon_type": "FaLockOpen"
       }
     ]
   },
   "architecture_section": {
-    "id": "technology-architecture",
-    "title": "Architectural Scope",
+    "id": "ٹیکنالوجی فن تعمیر",
+    "title": "آرکیسٹریشن کا دائرہ کار",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Deploy lightweight services with n8n-ready patterns designed for dynamic cloud scaling."
+        "title": "خود میزبان کلاؤڈ آٹومیشنز",
+        "description": "AWS یا GCP پر کنٹینرائزڈ n8n مثالوں کی تعیناتی صفر بیرونی ڈیٹا کی نمائش کے ساتھ بیک اینڈ کاموں کو منظم کرنا۔"
       },
       {
-        "title": "Complex Data Pipelines",
-        "description": "n8n integrates into high-throughput processing pipelines with strong reliability controls."
+        "title": "کسٹم نوڈ ڈویلپمنٹ",
+        "description": "اندرونی ERPs، ڈیٹا بیس، اور مخصوص میراثی سافٹ ویئر کو n8n انجن سے مربوط کرنے کے لیے انجینئرنگ کے خصوصی نوڈس۔"
       },
       {
-        "title": "Hybrid Distributed Systems",
-        "description": "Use n8n to bridge legacy and modern architecture layers with clear service boundaries."
+        "title": "اعلی درجے کی منطق کا بہاؤ",
+        "description": "'فنکشن نوڈ' کا استعمال پیچیدہ ڈیٹا ٹرانسفارمیشن اور الگورتھمک ترتیب کو براہ راست بصری منظر نامے میں انجام دینے کے لیے۔"
       }
     ]
   },
   "edge_section": {
-    "title": "Strategic Competitive Edge",
-    "subtitle": "Quantifiable advantages of the n8n stack.",
+    "title": "n8n فائدہ",
+    "subtitle": "محفوظ اور لچکدار ماحولیاتی نظام کے لیے اسٹریٹجک مسابقتی فوائد۔",
     "cards": [
       {
-        "metric": "40%",
-        "title": "Faster TTM",
-        "description": "Reduction in development-to-deployment timeframes by leveraging n8n effectively."
+        "metric": "100%",
+        "title": "ڈیٹا کنٹرول",
+        "description": "آٹومیشن انجن کو مکمل طور پر آپ کے اپنے فائر وال میں ہوسٹ کرکے مکمل رازداری اور سیکیورٹی۔"
       },
       {
-        "metric": "99.9%",
-        "title": "Stability Index",
-        "description": "Uptime reliability improvements in distributed service environments with n8n."
+        "metric": "صفر",
+        "title": "وینڈر لاک ان",
+        "description": "کسی ملکیتی SaaS کلاؤڈ سے جڑے بغیر اپنے ورک فلو اور منطق پر مکمل خودمختاری برقرار رکھیں۔"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access to a wide ecosystem of pre-tested modules that accelerate n8n delivery."
+        "metric": "400+",
+        "title": "مقامی نوڈس",
+        "description": "پہلے سے تیار کردہ انضمام کی ایک بڑی لائبریری جو آپ کو آسانی سے خود بنانے کی صلاحیت کے ساتھ مل کر ہے۔"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full technology control while using n8n inside open architecture patterns."
+        "metric": "آپٹمائزڈ",
+        "title": "لاگت کا ڈھانچہ",
+        "description": "اپنی مثال چلا کر 'فی ٹاسک' بلنگ ماڈلز کو ختم کریں، پیشین گوئی کے قابل اور کم TCO فراہم کریں۔"
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n gives teams a practical path to hide complexity behind",
-    "highlight": "elegant architecture"
+    "quote": "n8n ٹیموں کو کم کوڈ کی آسانی اور کے درمیان فرق کو ختم کرنے کے لیے ایک عملی راستہ فراہم کرتا ہے۔",
+    "highlight": "پرو کوڈ لچک"
   },
   "conversation_section": {
-    "title": "Architect Your Solution",
-    "subtitle": "Consult with our lead technical specialists to define your n8n roadmap.",
-    "full_name_label": "Lead Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "اپنی آٹومیشن کو آرکیٹیکٹ کریں۔",
+    "subtitle": "اپنے انٹرپرائز کے لیے ایک محفوظ، خود میزبان n8n روڈ میپ کی وضاحت کرنے کے لیے ہمارے اہم تکنیکی ماہرین سے مشورہ کریں۔",
+    "full_name_label": "لیڈ انجینئر",
+    "business_email_label": "ہستی کا ای میل",
+    "message_label": "تکنیکی ضرورت",
+    "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your n8n architectural challenge...",
-    "button_text": "Get Started"
+    "message_placeholder": "اپنے ڈیٹا کی رازداری کی ضروریات یا پیچیدہ آٹومیشن چیلنجز کی وضاحت کریں...",
+    "button_text": "ٹیکنیکل آڈٹ کی درخواست کریں۔"
   }
 }
