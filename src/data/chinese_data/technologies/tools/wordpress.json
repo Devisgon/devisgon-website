@@ -1,116 +1,116 @@
 {
   "slug": "wordpress",
   "seo_metadata": {
-    "title": "Enterprise WordPress Development | Headless CMS & Custom Architecture",
-    "description": "Professional WordPress engineering for high-scale content platforms. We architect headless WordPress solutions, custom block themes, and high-performance publishing workflows.",
+    "title": "企业级 WordPress 开发 | 无头 CMS 与自定义架构",
+    "description": "针对大规模内容平台的专业 WordPress 工程服务。我们构建无头 WordPress 解决方案、自定义区块主题以及高性能发布工作流。",
     "keywords": [
-      "Enterprise WordPress Development",
-      "Headless WordPress Architecture",
-      "WP REST API & GraphQL",
-      "Custom Gutenberg Blocks",
-      "Scalable CMS Solutions",
-      "WordPress Performance Optimization",
-      "Decoupled WordPress Development"
+      "企业级 WordPress 开发",
+      "无头 WordPress 架构",
+      "WP REST API 与 GraphQL",
+      "自定义 Gutenberg 区块",
+      "可扩展 CMS 解决方案",
+      "WordPress 性能优化",
+      "解耦 WordPress 开发"
     ]
   },
   "hero_section": {
-    "eyebrow": "The World's Leading CMS",
-    "title": "Content Velocity with",
+    "eyebrow": "全球领先的 CMS",
+    "title": "通过以下方式提升内容速度",
     "highlight": "WordPress",
-    "description": "Empower your editorial teams with a high-performance publishing engine designed for global reach, SEO dominance, and seamless API-first integration.",
+    "description": "为您的编辑团队配备高性能发布引擎，专为全球覆盖、SEO 优势以及无缝的 API 优先集成而设计。",
     "side_image": "/technologies/wordpress/hero.webp",
     "primary_cta": {
-      "text": "Build Your Platform",
+      "text": "构建您的平台",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Architecture Patterns",
+      "text": "查看架构模式",
       "href": "/technologies/wordpress#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with WordPress",
-    "subtitle": "WordPress provides the most flexible and extensible foundation for modern, content-driven digital ecosystems.",
+    "title": "为什么我们使用 WordPress 进行工程设计",
+    "subtitle": "WordPress 为现代内容驱动型数字生态系统提供了最灵活且可扩展的基础。",
     "paragraphs": [
-      "We utilize WordPress as more than just a blogging tool; it is a robust content API for the modern web. By leveraging its mature REST API and WPGraphQL, we can decouple the backend management from the frontend, allowing your content to power everything from Next.js web apps to native mobile experiences without duplicate entry.",
-      "The true value of modern WordPress lies in the Gutenberg block editor. We build custom, high-performance blocks that provide your marketing team with a 'no-code' page-building experience while maintaining strict architectural standards and preventing the design drift often found in generic page builders."
+      "我们对 WordPress 的定位不仅是博客工具，更是现代 Web 的强大内容 API。通过利用其成熟的 REST API 和 WPGraphQL，我们可以将后端管理与前端解耦，让您的内容能够驱动从 Next.js Web 应用到原生移动体验的所有终端，无需重复录入。",
+      "现代 WordPress 的核心价值在于 Gutenberg 区块编辑器。我们构建高性能的自定义区块，在保持严格架构标准、防止设计偏离的同时，为您的营销团队提供“零代码”的页面构建体验。"
     ],
     "cards": [
       {
-        "title": "API-First Flexibility",
-        "description": "Deploy WordPress as a Headless CMS to feed structured data into modern JavaScript frameworks via REST or GraphQL.",
+        "title": "API 优先的灵活性",
+        "description": "将 WordPress 部署为无头 CMS，通过 REST 或 GraphQL 将结构化数据输送到现代 JavaScript 框架中。",
         "icon_type": "FaCloud"
       },
       {
-        "title": "Editorial Excellence",
-        "description": "Empower content creators with an intuitive, block-based editor tailored to your specific brand design system.",
+        "title": "卓越的编辑体验",
+        "description": "为内容创作者提供直观的、基于区块的编辑器，并根据您特定的品牌设计系统进行量身定制。",
         "icon_type": "FaPencilAlt"
       },
       {
-        "title": "SEO Native",
-        "description": "Benefit from a core architecture that search engines love, combined with industry-leading tools for technical SEO.",
+        "title": "原生 SEO 支持",
+        "description": "受益于深受搜索引擎喜爱的核心架构，并结合业界领先的技术 SEO 工具。",
         "icon_type": "FaSearch"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Technical CMS Scope",
+    "title": "技术 CMS 范围",
     "image": "/technologies/wordpress/scope.webp",
     "items": [
       {
-        "title": "Decoupled & Headless CMS",
-        "description": "Architecting secure, fast backends that serve as a single source of truth for omnichannel content distribution."
+        "title": "解耦与无头 CMS",
+        "description": "构建安全、快速的后端，作为全渠道内容分发的唯一事实来源。"
       },
       {
-        "title": "Custom Block Systems",
-        "description": "Developing proprietary Gutenberg blocks using React to ensure a performant and controlled editing experience."
+        "title": "自定义区块系统",
+        "description": "使用 React 开发专有的 Gutenberg 区块，确保高效且受控的编辑体验。"
       },
       {
-        "title": "Enterprise Multisite Networks",
-        "description": "Orchestrating complex multi-domain and multi-language networks from a single, unified WordPress installation."
+        "title": "企业级多站点网络",
+        "description": "通过单一且统一的 WordPress 安装，编排复杂的跨域和多语言网络。"
       }
     ]
   },
   "edge_section": {
-    "title": "The WordPress Edge",
-    "subtitle": "Strategic competitive gains for high-throughput publishing.",
+    "title": "WordPress 的领先优势",
+    "subtitle": "为高吞吐量出版业务提供的战略性竞争优势。",
     "cards": [
       {
         "metric": "40%+",
-        "title": "Market Dominance",
-        "description": "Leverage the world's largest ecosystem of developers, plugins, and third-party integrations."
+        "title": "市场占有率",
+        "description": "利用全球最大的开发者、插件和第三方集成生态系统。"
       },
       {
-        "metric": "Real-time",
-        "title": "Content Sync",
-        "description": "Instantly update content across multiple platforms and devices via integrated webhook triggers."
+        "metric": "实时",
+        "title": "内容同步",
+        "description": "通过集成的 Webhook 触发器，在多个平台和设备上瞬时更新内容。"
       },
       {
-        "metric": "Fast",
-        "title": "TTM",
-        "description": "Accelerate time-to-market using a mature core that handles user management and media out of the box."
+        "metric": "快速",
+        "title": "上线时间",
+        "description": "利用成熟的核心功能（如开箱即用的用户管理和媒体处理）加速产品上市。"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain 100% ownership of your data and technical stack with an open-source, portable foundation."
+        "metric": "零",
+        "title": "供应商锁定",
+        "description": "通过开源且可移植的基础，保持对数据和技术栈的 100% 所有权。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Modern WordPress turns the complexity of digital publishing into a",
-    "highlight": "streamlined operational flow"
+    "quote": "现代 WordPress 将数字出版的复杂性转化为",
+    "highlight": "精简的运营流"
   },
   "conversation_section": {
-    "title": "Architect Your Content Hub",
-    "subtitle": "Consult with our lead technical specialists to define your headless WordPress roadmap or multisite strategy.",
-    "full_name_label": "Lead Developer",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "构建您的内容中心",
+    "subtitle": "咨询我们的首席技术专家，定义您的无头 WordPress 路线图或多站点策略。",
+    "full_name_label": "首席开发人员",
+    "business_email_label": "企业邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your publishing goals or architectural challenges...",
-    "button_text": "Request a Consultation"
+    "message_placeholder": "描述您的出版目标或架构挑战...",
+    "button_text": "申请咨询"
   }
 }

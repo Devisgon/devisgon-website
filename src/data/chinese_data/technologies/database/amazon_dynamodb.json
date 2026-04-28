@@ -1,116 +1,116 @@
 {
   "slug": "amazon-dynamodb",
   "seo_metadata": {
-    "title": "Amazon DynamoDB Consulting & Architecture | High-Performance NoSQL",
-    "description": "Expert Amazon DynamoDB implementation services. Build serverless, ultra-low latency applications with single-digit millisecond performance at any scale.",
+    "title": "Amazon DynamoDB 咨询与架构服务 | 高性能 NoSQL",
+    "description": "专业的 Amazon DynamoDB 实施服务。构建无服务器、极低延迟的应用程序，在任何规模下均能实现个位数毫秒级的性能。",
     "keywords": [
       "Amazon DynamoDB",
-      "NoSQL Database Design",
-      "Serverless Architecture",
-      "AWS Data Modeling",
-      "Single-Table Design",
+      "NoSQL 数据库设计",
+      "无服务器架构",
+      "AWS 数据建模",
+      "单表设计 (Single-Table Design)",
       "DynamoDB Streams",
-      "Global Tables"
+      "全局表 (Global Tables)"
     ]
   },
   "hero_section": {
-    "eyebrow": "Serverless NoSQL Database",
-    "title": "Extreme Scale with",
+    "eyebrow": "无服务器 NoSQL 数据库",
+    "title": "凭借以下技术实现极致扩展",
     "highlight": "Amazon DynamoDB",
-    "description": "Seamlessly scale from a few requests per month to millions per second with fully managed, single-digit millisecond performance.",
+    "description": "从每月少量请求无缝扩展至每秒数百万次请求，享受完全托管的个位数毫秒级性能。",
     "side_image": "/technologies/dynamodb/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Workload",
+      "text": "优化您的工作负载",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Architecture Patterns",
+      "text": "查看架构模式",
       "href": "/technologies/amazon_dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with DynamoDB",
-    "subtitle": "DynamoDB is the backbone of high-concurrency, distributed applications where latency is non-negotiable.",
+    "title": "为什么我们选择使用 DynamoDB 进行工程设计",
+    "subtitle": "DynamoDB 是高并发、分布式应用程序的核心支柱，在这类应用中，延迟是绝不妥协的关键。",
     "paragraphs": [
-      "Unlike traditional RDBMS, DynamoDB provides consistent performance at any scale. We leverage it to eliminate the overhead of database administration, allowing your team to focus on business logic rather than provisioning clusters or managing shards.",
-      "By implementing expert Single-Table Design patterns, we ensure your data access is efficient, cost-optimized, and capable of handling unpredictable traffic spikes without manual intervention."
+      "与传统的 RDBMS 不同，DynamoDB 在任何规模下都能提供一致的性能。我们利用它来消除数据库管理的开销，让您的团队专注于业务逻辑，而不是配置集群或管理分片。",
+      "通过实施专业的单表设计 (Single-Table Design) 模式，我们确保您的数据访问既高效又优化成本，且无需人工干预即可应对不可预测的流量激增。"
     ],
     "cards": [
       {
-        "title": "Predictable Latency",
-        "description": "Achieve consistent sub-10ms response times for read/write operations, regardless of data volume.",
+        "title": "可预测的延迟",
+        "description": "无论数据量大小，读写操作均可实现一致的 10 毫秒以下响应时间。",
         "icon_type": "FaBolt"
       },
       {
-        "title": "Serverless Operations",
-        "description": "Zero server management. Scales automatically with 'On-Demand' or 'Provisioned' capacity modes.",
+        "title": "无服务器操作",
+        "description": "零服务器管理。通过“按需”或“预置”容量模式自动扩展。",
         "icon_type": "FaCloud"
       },
       {
-        "title": "Global Replication",
-        "description": "Deploy multi-region, multi-active databases with Global Tables for 99.999% availability.",
+        "title": "全球复制",
+        "description": "使用全局表部署多区域、多活动数据库，确保 99.999% 的可用性。",
         "icon_type": "FaGlobe"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "DynamoDB Design Scope",
+    "title": "DynamoDB 设计范畴",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
       {
-        "title": "Single-Table Design",
-        "description": "Consolidate multiple entities into a single table using sophisticated Partition and Sort Key strategies to reduce API calls."
+        "title": "单表设计 (Single-Table Design)",
+        "description": "使用复杂的区分键 (Partition Key) 和排序键 (Sort Key) 策略将多个实体整合到单个表中，以减少 API 调用。"
       },
       {
-        "title": "Event-Driven Triggers",
-        "description": "Utilize DynamoDB Streams and AWS Lambda to trigger downstream workflows, search indexing, or real-time analytics."
+        "title": "事件驱动触发器",
+        "description": "利用 DynamoDB Streams 和 AWS Lambda 触发下游工作流、搜索索引或实时分析。"
       },
       {
-        "title": "Global Secondary Indexes (GSI)",
-        "description": "Create flexible query patterns by projecting data onto secondary indexes, enabling multiple ways to view the same dataset."
+        "title": "全局二级索引 (GSI)",
+        "description": "通过将数据投影到二级索引来创建灵活的查询模式，从而实现查看同一数据集的多种方式。"
       }
     ]
   },
   "edge_section": {
-    "title": "The DynamoDB Advantage",
-    "subtitle": "Quantifiable performance for modern enterprises.",
+    "title": "DynamoDB 优势",
+    "subtitle": "为现代企业提供可量化的性能。",
     "cards": [
       {
         "metric": "<10ms",
-        "title": "Latency Control",
-        "description": "Consistent single-digit millisecond latency for key-value and document data at any scale."
+        "title": "延迟控制",
+        "description": "在任何规模下，键值和文档数据均保持一致的个位数毫秒延迟。"
       },
       {
         "metric": "99.999%",
-        "title": "SLA Reliability",
-        "description": "Industry-leading uptime for Global Tables, ensuring your application is always reachable."
+        "title": "SLA 可靠性",
+        "description": "全局表拥有行业领先的运行时间保证，确保您的应用程序始终可用。"
       },
       {
-        "metric": "Double",
-        "title": "DAX Acceleration",
-        "description": "Further increase throughput by 10x with DynamoDB Accelerator (DAX) in-memory caching."
+        "metric": "10倍",
+        "title": "DAX 加速",
+        "description": "通过 DynamoDB Accelerator (DAX) 内存缓存，将吞吐量进一步提升 10 倍。"
       },
       {
-        "metric": "Zero",
-        "title": "Maintenance",
-        "description": "Eliminate patching, hardware provisioning, and software updates through fully managed AWS infrastructure."
+        "metric": "零",
+        "title": "维护成本",
+        "description": "通过完全托管的 AWS 基础设施，消除补丁安装、硬件配置和软件更新。"
       }
     ]
   },
   "quote_section": {
-    "quote": "DynamoDB isn't just a database; it's the foundation for building",
-    "highlight": "hyperscale serverless ecosystems"
+    "quote": "DynamoDB 不仅仅是一个数据库；它是构建以下系统的基石",
+    "highlight": "超大规模无服务器生态系统"
   },
   "conversation_section": {
-    "title": "Scale Your Infrastructure",
-    "subtitle": "Consult with our AWS Certified Data Specialists to architect your DynamoDB data model.",
-    "full_name_label": "Lead Engineer Name",
-    "business_email_label": "Company Email",
-    "message_label": "Technical Requirement",
+    "title": "扩展您的基础设施",
+    "subtitle": "咨询我们的 AWS 认证数据专家，为您构建 DynamoDB 数据模型。",
+    "full_name_label": "首席工程师姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "技术需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Tell us about your throughput requirements or data modeling challenges...",
-    "button_text": "Schedule Audit"
+    "message_placeholder": "请告诉我们您的吞吐量需求或数据建模挑战...",
+    "button_text": "预约审计"
   }
 }

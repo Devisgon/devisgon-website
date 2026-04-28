@@ -1,116 +1,116 @@
 {
   "slug": "zapier",
   "seo_metadata": {
-    "title": "Enterprise Zapier Integration & Workflow Automation Services",
-    "description": "Custom Zapier automation solutions for business efficiency. We architect multi-step Zaps, lead-capture pipelines, and seamless app integrations to eliminate manual work.",
+    "title": "企业级 Zapier 集成与工作流自动化服务",
+    "description": "为企业效率提供定制化 Zapier 自动化解决方案。我们构建多步 Zaps、线索获取流水线以及无缝的应用集成，旨在消除手动工作。",
     "keywords": [
-      "Zapier Automation Services",
-      "Workflow Integration",
-      "Custom Zap Development",
-      "Business Process Automation",
-      "Zapier API Integration",
-      "No-code Automation Strategy",
-      "Enterprise SaaS Connectivity"
+      "Zapier 自动化服务",
+      "工作流集成",
+      "自定义 Zap 开发",
+      "业务流程自动化",
+      "Zapier API 集成",
+      "零代码自动化策略",
+      "企业级 SaaS 互联"
     ]
   },
   "hero_section": {
-    "eyebrow": "Leader in Workflow Automation",
-    "title": "Connect Your Stack with",
+    "eyebrow": "工作流自动化领域的领导者",
+    "title": "通过以下方式连接您的技术栈",
     "highlight": "Zapier",
-    "description": "Automate your work across 6,000+ apps so you can move faster and focus on high-impact strategy instead of manual data entry.",
+    "description": "在 6,000 多个应用之间实现工作自动化，助您提升运行速度，专注于高影响力的战略而非手动数据录入。",
     "side_image": "/technologies/zapier/hero.webp",
     "primary_cta": {
-      "text": "Automate Your Work",
+      "text": "实现工作自动化",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Integration Roadmap",
+      "text": "查看集成路线图",
       "href": "/technologies/zapier#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Zapier",
-    "subtitle": "Zapier provides the most expansive connectivity ecosystem for rapid business process automation.",
+    "title": "为什么我们使用 Zapier 进行工程设计",
+    "subtitle": "Zapier 为快速业务流程自动化提供了最广泛的连接生态系统。",
     "paragraphs": [
-      "Zapier is our go-to solution for high-velocity integrations and lead-management workflows. Its unmatched library of 6,000+ native integrations allows us to connect virtually any SaaS tool in your stack instantly, ensuring that data moves between platforms without the need for custom-coded middleware or extensive infrastructure management.",
-      "By utilizing advanced features like Paths, Formatter, and Webhooks, we build sophisticated, multi-step 'Zaps' that handle complex logic and data cleanup. This ensures that your automated workflows are not just fast, but also resilient and capable of handling real-world business edge cases."
+      "Zapier 是我们处理高速度集成和线索管理工作流的首选解决方案。其拥有超过 6,000 个原生集成的无敌库，使我们能够瞬时连接您技术栈中的几乎任何 SaaS 工具，确保数据在平台间流动，而无需开发自定义代码中间件或进行大规模的基础设施管理。",
+      "通过利用 Paths（路径）、Formatter（格式化工具）和 Webhooks（网络钩子）等高级功能，我们构建了精密的多步“Zaps”，以处理复杂的逻辑和数据清洗。这确保了您的自动化工作流不仅高效，而且具备弹性，能够处理现实业务中的各种极端情况。"
     ],
     "cards": [
       {
-        "title": "Massive Connectivity",
-        "description": "Instantly connect 6,000+ apps—the largest automation ecosystem in the world.",
+        "title": "海量连接能力",
+        "description": "即刻连接 6,000 多个应用——这是全球最大的自动化生态系统。",
         "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Conditional Logic",
-        "description": "Use Paths to create branching workflows that execute different actions based on specific data criteria.",
+        "title": "条件逻辑",
+        "description": "使用 Paths 创建分支工作流，根据特定的数据标准执行不同的操作。",
         "icon_type": "FaSitemap"
       },
       {
-        "title": "Built-in Data Tools",
-        "description": "Format dates, currency, and text on the fly to ensure data integrity across different platforms.",
+        "title": "内置数据工具",
+        "description": "实时格式化日期、货币和文本，确保不同平台间的数据完整性。",
         "icon_type": "FaWrench"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Automation Architectural Scope",
+    "title": "自动化架构范围",
     "image": "/technologies/zapier/scope.webp",
     "items": [
       {
-        "title": "Lead Management Pipelines",
-        "description": "Automating the flow of leads from social ads and landing pages directly into CRM and sales notification channels."
+        "title": "线索管理流水线",
+        "description": "自动将来自社交广告和落地页的线索直接导入 CRM 和销售通知渠道。"
       },
       {
-        "title": "Cross-Platform Data Sync",
-        "description": "Ensuring customer and order data remains consistent across project management, support, and billing tools."
+        "title": "跨平台数据同步",
+        "description": "确保客户和订单数据在项目管理、技术支持和计费工具之间保持一致。"
       },
       {
-        "title": "Custom Webhook Orchestration",
-        "description": "Extending Zapier’s power by connecting custom-built applications via secure, real-time Webhook listeners."
+        "title": "自定义 Webhook 编排",
+        "description": "通过安全的实时 Webhook 监听器连接自定义应用程序，扩展 Zapier 的功能。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Zapier Edge",
-    "subtitle": "Strategic competitive gains for your operational velocity.",
+    "title": "Zapier 的领先优势",
+    "subtitle": "为您提升运营速度带来的战略性竞争优势。",
     "cards": [
       {
         "metric": "6,000+",
-        "title": "Supported Apps",
-        "description": "The industry's most extensive integration library, covering nearly every modern SaaS tool."
+        "title": "支持的应用",
+        "description": "业界最广泛的集成库，涵盖了几乎所有现代 SaaS 工具。"
       },
       {
-        "metric": "Instant",
-        "title": "Deployment",
-        "description": "Go from architectural concept to live automation in hours, not weeks or months."
+        "metric": "即时",
+        "title": "部署速度",
+        "description": "从架构概念到自动化上线仅需数小时，而非数周或数月。"
       },
       {
         "metric": "99.9%",
-        "title": "Task Reliability",
-        "description": "Enterprise-grade uptime ensures your automated tasks run correctly every single time."
+        "title": "任务可靠性",
+        "description": "企业级运行时间确保您的自动化任务每次都能正确执行。"
       },
       {
-        "metric": "Zero",
-        "title": "Code Overhead",
-        "description": "Focus on the business logic and outcomes while the platform handles API maintenance and updates."
+        "metric": "零",
+        "title": "代码开销",
+        "description": "专注于业务逻辑和成果，平台将负责处理 API 的维护与更新。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Zapier turns the friction of disconnected software into a",
-    "highlight": "unified operational engine"
+    "quote": "Zapier 将断连软件带来的摩擦转化为",
+    "highlight": "统一的运营引擎"
   },
   "conversation_section": {
-    "title": "Architect Your Automation",
-    "subtitle": "Consult with our lead technical specialists to define a scalable Zapier roadmap for your business processes.",
-    "full_name_label": "Lead Architect",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "构建您的自动化架构",
+    "subtitle": "咨询我们的首席技术专家，为您企业的业务流程定义可扩展的 Zapier 路线图。",
+    "full_name_label": "首席架构师",
+    "business_email_label": "企业邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your current manual bottlenecks or integration challenges...",
-    "button_text": "Request a Technical Audit"
+    "message_placeholder": "描述您当前的手动工作瓶颈或集成挑战...",
+    "button_text": "申请技术审计"
   }
 }

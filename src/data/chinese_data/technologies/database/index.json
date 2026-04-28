@@ -1,116 +1,116 @@
 {
   "slug": "database-architecture",
   "seo_metadata": {
-    "title": "Scalable Database Architecture & Polyglot Persistence Solutions",
-    "description": "Enterprise-grade database design using MySQL, MongoDB, DynamoDB, and Supabase. We architect high-availability data layers for modern distributed systems.",
+    "title": "可扩展数据库架构与多语言持久化解决方案",
+    "description": "使用 MySQL、MongoDB、DynamoDB 和 Supabase 的企业级数据库设计。我们为现代分布式系统构建高可用数据层。",
     "keywords": [
-      "Database Architecture",
-      "Polyglot Persistence",
-      "SQL vs NoSQL Design",
-      "High Availability Databases",
-      "Data Modeling Services",
-      "Database Scalability",
-      "Distributed Data Systems"
+      "数据库架构",
+      "多语言持久化 (Polyglot Persistence)",
+      "SQL 与 NoSQL 设计",
+      "高可用数据库",
+      "数据建模服务",
+      "数据库可扩展性",
+      "分布式数据系统"
     ]
   },
   "hero_section": {
-    "eyebrow": "Data Infrastructure",
-    "title": "Future-Proofing with",
-    "highlight": "Scalable Databases",
-    "description": "Deploy mission-critical data layers using a strategic mix of Relational, Document, and Key-Value stores tailored to your unique scaling requirements.",
+    "eyebrow": "数据基础设施",
+    "title": "通过以下技术面向未来",
+    "highlight": "可扩展数据库",
+    "description": "根据您独特的扩展需求，通过战略性结合关系型、文档型和键值型存储，部署关键业务数据层。",
     "side_image": "/services_page/database-hero.webp",
     "primary_cta": {
-      "text": "Consult an Architect",
+      "text": "咨询架构师",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Technical Patterns",
+      "text": "技术模式",
       "href": "/technologies/database#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Engineered for Persistence.",
-    "subtitle": "We don't believe in one-size-fits-all. We select database engines based on CAP theorem requirements and business logic.",
+    "title": "为持久化而生",
+    "subtitle": "我们不相信“一劳永逸”。我们根据 CAP 定理要求和业务逻辑来选择数据库引擎。",
     "paragraphs": [
-      "Our multi-stack expertise—spanning Supabase (PostgreSQL), MongoDB, MySQL, and DynamoDB—allows us to eliminate performance bottlenecks. We match your data's structure, volume, and velocity to the engine that guarantees the lowest latency and highest integrity.",
-      "By decoupling the data layer and implementing efficient caching and indexing strategies, we ensure your infrastructure remains cost-effective as your user base grows from hundreds to millions."
+      "我们在 Supabase (PostgreSQL)、MongoDB、MySQL 和 DynamoDB 等多栈技术方面的专长使我们能够消除性能瓶颈。我们将您数据的结构、容量和速度与能够保证最低延迟和最高完整性的引擎相匹配。",
+      "通过解耦数据层并实施高效的缓存和索引策略，我们确保随着您的用户群从数百增长到数百万，您的基础设施始终保持成本效益。"
     ],
     "cards": [
       {
-        "title": "ACID Compliance",
-        "description": "Ensure transactional integrity for financial and core business logic using robust relational structures.",
+        "title": "ACID 合规性",
+        "description": "使用稳健的关系结构，确保金融和核心业务逻辑的事务完整性。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Horizontal Elasticity",
-        "description": "Scale out dynamically with NoSQL clusters designed to handle massive throughput and unstructured data.",
+        "title": "水平弹性",
+        "description": "通过专为处理海量吞吐量和非结构化数据而设计的 NoSQL 集群实现动态横向扩展。",
         "icon_type": "FaExpandAlt"
       },
       {
-        "title": "Operational Intelligence",
-        "description": "Integrate real-time analytics and search capabilities directly into your primary data workflows.",
+        "title": "运营智能",
+        "description": "将实时分析和搜索功能直接集成到您的主要数据工作流中。",
         "icon_type": "FaChartBar"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Data Strategy Scope",
+    "title": "数据战略范畴",
     "image": "/services_page/database-scope.webp",
     "items": [
       {
-        "title": "Polyglot Persistence",
-        "description": "Utilizing specialized databases (e.g., Redis for cache, PostgreSQL for relations) within a single microservices mesh."
+        "title": "多语言持久化 (Polyglot Persistence)",
+        "description": "在单一微服务网格中利用专门的数据库（例如：用 Redis 做缓存，用 PostgreSQL 处理关系）。"
       },
       {
-        "title": "ETL & Sync Pipelines",
-        "description": "Architecting automated data movement between operational stores and analytical warehouses with zero data loss."
+        "title": "ETL 与同步流水线",
+        "description": "构建在业务库与分析型数据仓库之间的自动化数据迁移架构，确保零数据丢失。"
       },
       {
-        "title": "Disaster Recovery",
-        "description": "Implementing multi-region replication, automated failover, and point-in-time recovery for business continuity."
+        "title": "灾难恢复",
+        "description": "实施多区域复制、自动故障转移和点对点恢复，确保业务连续性。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Strategic Data Edge",
-    "subtitle": "Performance metrics that define industry-leading data layers.",
+    "title": "战略性数据优势",
+    "subtitle": "定义行业领先数据层的性能指标。",
     "cards": [
       {
-        "metric": "Sub-ms",
-        "title": "Query Latency",
-        "description": "Optimized indexing and caching strategies to ensure lightning-fast data retrieval."
+        "metric": "亚毫秒级",
+        "title": "查询延迟",
+        "description": "通过优化的索引和缓存策略，确保闪电般的数据检索速度。"
       },
       {
         "metric": "99.99%",
-        "title": "Availability",
-        "description": "Architectural redundancy ensuring your data remains accessible even during regional cloud outages."
+        "title": "可用性",
+        "description": "架构冗余确保即使在区域性云停机期间，您的数据仍可访问。"
       },
       {
-        "metric": "Zero",
-        "title": "Data Silos",
-        "description": "Unified data access patterns that prevent fragmented information across your organization."
+        "metric": "零",
+        "title": "数据孤岛",
+        "description": "统一的数据访问模式，防止整个组织内的信息碎片化。"
       },
       {
         "metric": "100%",
-        "title": "Data Sovereignty",
-        "description": "Full ownership of your schema and data migration paths, avoiding restrictive proprietary lock-in."
+        "title": "数据主权",
+        "description": "完全拥有您的 Schema 和数据迁移路径，避免受制于专有技术的供应商锁定。"
       }
     ]
   },
   "quote_section": {
-    "quote": "A truly resilient database is invisible; it scales silently while turning raw data into",
-    "highlight": "competitive intelligence"
+    "quote": "真正具有韧性的数据库是无形的；它在静默扩展的同时，将原始数据转化为",
+    "highlight": "竞争情报"
   },
   "conversation_section": {
-    "title": "Optimize Your Data Layer",
-    "subtitle": "Meet with our database engineers to audit your current schema or plan a high-scale migration.",
-    "full_name_label": "Lead Data Engineer",
-    "business_email_label": "Entity Email",
-    "message_label": "Operational Challenge",
+    "title": "优化您的数据层",
+    "subtitle": "会见我们的数据库工程师，审计您当前的 Schema 或规划大规模迁移。",
+    "full_name_label": "首席数据工程师姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "运营挑战",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your data volume, concurrency needs, or migration hurdles...",
-    "button_text": "Start Data Audit"
+    "message_placeholder": "请描述您的高数据量、并发需求或迁移障碍...",
+    "button_text": "开始数据审计"
   }
 }

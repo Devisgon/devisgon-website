@@ -1,93 +1,182 @@
 {
   "slug": "devops-infrastructure-automation",
   "hero_section": {
-    "title": "DevOps & Infrastruktur-Automatisierung",
-    "subtitle": "CI/CD-Automatisierung, Cloud-Bereitstellung und Skalierung",
-    "description": "Automatisieren Sie Deployments, Cloud-Provisionierung und Überwachung mit erstklassigen DevOps-Lösungen für SaaS- und Unternehmenssysteme.",
+    "title": "DevOps- und Infrastrukturautomatisierungsdienste",
+    "subtitle": "CI/CD-Automatisierung, Cloud-Bereitstellung und Infrastrukturskalierung",
+    "description": "Automatisieren Sie Bereitstellungen, Cloud-Bereitstellung, Überwachung und Skalierung durch DevOps-Automatisierungslösungen der Enterprise-Klasse, die für globale SaaS- und Unternehmenssysteme entwickelt wurden.",
     "buttons": [
-      { "text": "Infrastruktur automatisieren", "link": "/contact" },
-      { "text": "Kontakt", "link": "/contact" }
+      {
+        "text": "Automatisieren Sie meine Infrastruktur",
+        "link": "/contact"
+      },
+      {
+        "text": "Kontaktieren Sie uns",
+        "link": "/contact"
+      }
     ],
     "hero_image": "/videos/Infrastructure_automation_services.mp4"
   },
   "introduction_section": {
     "heading": "Was ist",
-    "span_heading": " DevOps & Infrastruktur-Automatisierung?",
+    "span_heading": "DevOps und Infrastrukturautomatisierung?",
     "content": [
-      "Manuelle Bereitstellungen, inkonsistente Umgebungen und reaktive Überwachung verlangsamen die Softwareentwicklung.",
-      "Bei Devisgon implementieren wir CI/CD-Automatisierung und IaC-Lösungen, die Releases rationalisieren. Unsere Dienstleistungen umfassen:",
-      "  • Automatisierung von Build- und Deployment-Pipelines",
-      "  • Automatisierte Cloud-Infrastruktur-Bereitstellung",
-      "  • Konfiguration von Auto-Scaling-Systemen",
-      "  • Einsatz automatisierter Überwachungs- und Alarmsysteme",
+      "Manuelle Bereitstellungen, inkonsistente Umgebungen und reaktive Überwachung verlangsamen die moderne Softwareentwicklung.",
+      "Bei Devisgon implementieren wir CI/CD-Automatisierung und Infrastructure as Code (IaC)-Lösungen, die Software-Releases und Cloud-Management optimieren. Zu unseren Dienstleistungen gehören:",
+      "• Automatisierung von Build- und Bereitstellungspipelines",
+      "• Automatisierte Bereitstellung der Cloud-Infrastruktur",
+      "• Konfigurieren von Autoskalierungssystemen",
+      "• Bereitstellung automatisierter Überwachungs- und Warnsysteme",
       "Das Ergebnis: Schnellere Releases, verbesserte Zuverlässigkeit und skalierbare Cloud-Systeme."
     ],
-    "highlight_quote": "„Zuverlässige Deployments. Skalierbare Cloud-Infrastruktur.“",
+    "highlight_quote": "„Zuverlässige Bereitstellungen. Skalierbare Cloud-Infrastruktur.“",
     "side_image": "/all_services/infrastructure/introduction.webp"
   },
   "key_benefits_section": {
     "title": "Hauptvorteile",
-    "subtitle": "Entwicklungszyklen beschleunigen",
+    "subtitle": "Beschleunigen Sie Entwicklungszyklen",
     "cards": [
-      { "title": "Schnellere Releases", "description": "Automatisierung durch CI/CD-Pipelines.", "icon_type": "MdSpeed" },
-      { "title": "Weniger Ausfallzeiten", "description": "Automatisierte Überwachungs- und Wiederherstellungssysteme.", "icon_type": "MdSecurity" },
-      { "title": "Cloud-Skalierbarkeit", "description": "Infrastruktur, die sich automatisch anpasst.", "icon_type": "MdCloud" },
-      { "title": "Stabilität", "description": "Konsistente Umgebungen durch Infrastructure as Code.", "icon_type": "MdSettings" }
+      {
+        "title": "Schnellere Veröffentlichungen",
+        "description": "Automatisieren Sie die Erstellung und Bereitstellung mithilfe von CI/CD-Pipelines.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Reduzierte Ausfallzeiten",
+        "description": "Automatisierte Überwachungs- und Wiederherstellungssysteme.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Cloud-Skalierbarkeit",
+        "description": "Infrastruktur, die je nach Bedarf automatisch skaliert.",
+        "icon_type": "MdCloud"
+      },
+      {
+        "title": "Verbesserte Stabilität",
+        "description": "Konsistente Umgebungen mit Infrastructure as Code.",
+        "icon_type": "MdSettings"
+      }
     ]
   },
   "what_you_get_section": {
     "title": "Was Sie mit DevOps-Automatisierung erhalten",
     "image": "/all_services/infrastructure/wwg.webp",
     "list_items": [
-      { "title": "1. CI/CD Pipeline Setup", "description": "Automatisierter Workflow für Build, Test und Deployment." },
-      { "title": "2. Infrastructure as Code (IaC)", "description": "Automatisierte Cloud-Provisionierung." },
-      { "title": "3. Monitoring-Systeme", "description": "Echtzeit-Überwachung von Leistung und Zustand." },
-      { "title": "4. Backup & Recovery", "description": "Automatisierte Failover-Lösungen und Backups." }
+      {
+        "title": "1. CI/CD-Pipeline-Setup",
+        "description": "Automatisierter Workflow für Erstellung, Test und Bereitstellung."
+      },
+      {
+        "title": "2. Infrastruktur als Code (IaC)",
+        "description": "Automatisierte Cloud-Bereitstellung und -Konfiguration."
+      },
+      {
+        "title": "3. Überwachungs- und Warnsysteme",
+        "description": "Echtzeit-Leistungs- und Gesundheitsüberwachung."
+      },
+      {
+        "title": "4. Sicherung und Wiederherstellung",
+        "description": "Automatisierte Failover-Lösungen und sichere Backups."
+      }
     ]
   },
   "technologies_section": {
-    "title": "DevOps Technologien",
-    "subtitle": "Moderner Cloud-Automatisierungs-Stack",
+    "title": "DevOps-Technologien",
+    "subtitle": "Modernes Cloud-Automatisierungs-Toolkit",
     "tools": [
-      { "name": "Docker", "icon": "FaDocker" },
-      { "name": "Kubernetes", "icon": "SiKubernetes" },
-      { "name": "AWS", "icon": "FaAws" },
-      { "name": "Terraform", "icon": "SiTerraform" },
-      { "name": "GitHub Actions", "icon": "SiGithubactions" }
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Terraform",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "GitHub-Aktionen",
+        "icon": "SiGithubactions"
+      }
     ]
   },
   "process_section": {
     "title": "Unser Prozess",
-    "subtitle": "Automatisierung in wenigen Wochen",
+    "subtitle": "Stellen Sie die Automatisierung in wenigen Wochen bereit",
     "steps": [
-      { "title": "Audit", "description": "Analyse der Infrastruktur und Pipelines.", "icon": "FaSearch" },
-      { "title": "Design", "description": "Erstellung von Automatisierungs-Blueprints.", "icon": "TbTools" },
-      { "title": "Implementierung", "description": "Deployment von CI/CD und Cloud-Automatisierung.", "icon": "FaHammer" },
-      { "title": "Optimierung", "description": "Leistungsüberwachung und Verbesserung.", "icon": "FaRocket" }
+      {
+        "title": "Audit",
+        "description": "Analysieren Sie Infrastruktur- und Bereitstellungspipelines.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Erstellen Sie Automatisierungspläne.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Implement",
+        "description": "Stellen Sie CI/CD und Cloud-Automatisierung bereit.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Optimize",
+        "description": "Überwachen und verbessern Sie die Leistung.",
+        "icon": "FaRocket"
+      }
     ]
   },
   "case_study_section": {
-    "headline": "75% schnelleres Deployment",
+    "headline": "75 % schnellere Bereitstellung",
     "image": "/all_services/infrastructure/ase_study_1.webp",
     "content": {
-      "problem": { "label": "Problem", "text": "Manuelle Bereitstellung verursachte Verzögerungen." },
-      "solution": { "label": "Lösung", "text": "CI/CD-Pipelines und Infrastructure as Code implementiert." },
-      "result": { "label": "Ergebnis", "text": "Bereitstellungszeit um 75% reduziert bei höherer Zuverlässigkeit." }
+      "problem": {
+        "label": "Problem",
+        "text": "Die manuelle Bereitstellung verursachte Verzögerungen und Ausfallzeiten."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Implementierte CI/CD-Pipelines und Infrastructure as Code."
+      },
+      "result": {
+        "label": "Result",
+        "text": "Um 75 % verkürzte Bereitstellungszeit bei verbesserter Zuverlässigkeit."
+      }
     }
   },
   "faq_section": {
     "title": "FAQ",
-    "subtitle": "Häufige Fragen zu DevOps",
+    "subtitle": "Häufige Fragen zur DevOps-Automatisierung",
     "questions": [
-      { "question": "Automatisieren Sie AWS und Azure?", "answer": "Ja, inklusive Multi-Cloud-Deployments." },
-      { "question": "Kann bestehende Infrastruktur automatisiert werden?", "answer": "Ja, ohne den Betrieb zu stören." },
-      { "question": "Ist DevOps sicher?", "answer": "Ja, mit strengen Sicherheitskonfigurationen." },
-      { "question": "Wie lange dauert die Umsetzung?", "answer": "In der Regel 2 bis 4 Wochen." },
-      { "question": "Bieten Sie Support an?", "answer": "Ja, inklusive Überwachung und Wartung." }
+      {
+        "question": "Automatisieren Sie AWS und Azure?",
+        "answer": "Ja, einschließlich Multi-Cloud-Bereitstellungen."
+      },
+      {
+        "question": "Können Sie die bestehende Infrastruktur automatisieren?",
+        "answer": "Ja, ohne den Betrieb zu stören."
+      },
+      {
+        "question": "Ist die DevOps-Automatisierung sicher?",
+        "answer": "Ja, mit strengen Sicherheitskonfigurationen."
+      },
+      {
+        "question": "Wie lange dauert die Umsetzung?",
+        "answer": "Normalerweise 2 bis 4 Wochen."
+      },
+      {
+        "question": "Bieten Sie fortlaufende Unterstützung?",
+        "answer": "Ja, inklusive Überwachung und Wartung."
+      }
     ],
     "footer": {
-      "text": "Brauchen Sie Hilfe?",
-      "link_text": "Sprechen Sie mit unseren Experten",
+      "text": "Benötigen Sie Hilfe bei der Infrastruktur?",
+      "link_text": "Sprechen Sie mit unseren DevOps-Experten",
       "link_url": "/contact"
     }
   }

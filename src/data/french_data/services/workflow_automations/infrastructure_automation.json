@@ -1,92 +1,181 @@
 {
   "slug": "devops-infrastructure-automation",
   "hero_section": {
-    "title": "Services d'automatisation DevOps et d'infrastructure",
-    "subtitle": "Automatisation CI/CD, Déploiement Cloud et Mise à l'échelle",
-    "description": "Automatisez les déploiements, le provisionnement cloud et la surveillance grâce à des solutions DevOps conçues pour les SaaS mondiaux.",
+    "title": "Services DevOps et d'automatisation des infrastructures",
+    "subtitle": "Automatisation CI/CD, déploiement cloud et mise à l'échelle de l'infrastructure",
+    "description": "Automatisez les déploiements, le provisionnement du cloud, la surveillance et la mise à l'échelle grâce à des solutions d'automatisation DevOps de niveau entreprise conçues pour les systèmes SaaS et d'entreprise mondiaux.",
     "buttons": [
-      { "text": "Automatiser mon infrastructure", "link": "/contact" },
-      { "text": "Contactez-nous", "link": "/contact" }
+      {
+        "text": "Automatiser mon infrastructure",
+        "link": "/contact"
+      },
+      {
+        "text": "Contactez-nous",
+        "link": "/contact"
+      }
     ],
     "hero_image": "/videos/Infrastructure_automation_services.mp4"
   },
   "introduction_section": {
     "heading": "Qu'est-ce que",
-    "span_heading": " l'automatisation DevOps et d'infrastructure ?",
+    "span_heading": "DevOps et automatisation des infrastructures ?",
     "content": [
-      "Les déploiements manuels et les environnements incohérents ralentissent le développement logiciel moderne.",
-      "Chez Devisgon, nous implémentons l'automatisation CI/CD et l'Infrastructure as Code (IaC) pour rationaliser vos sorties logicielles. Nos services incluent :",
-      "  • Automatisation des pipelines de build et déploiement",
-      "  • Provisionnement automatisé de l'infrastructure cloud",
-      "  • Configuration de systèmes d'auto-scaling",
-      "  • Déploiement de systèmes de surveillance et d'alerte",
-      "Résultat : des sorties plus rapides, une fiabilité accrue et des systèmes cloud évolutifs."
+      "Les déploiements manuels, les environnements incohérents et la surveillance réactive ralentissent le développement de logiciels modernes.",
+      "Chez Devisgon, nous mettons en œuvre des solutions d'automatisation CI/CD et d'infrastructure en tant que code (IaC) qui rationalisent les versions logicielles et la gestion du cloud. Nos services comprennent :",
+      "• Automatisation des pipelines de création et de déploiement",
+      "• Provisionnement automatisé de l'infrastructure cloud",
+      "• Configuration des systèmes de mise à l'échelle automatique",
+      "• Déploiement de systèmes automatisés de surveillance et d'alerte",
+      "Le résultat : des versions plus rapides, une fiabilité améliorée et des systèmes cloud évolutifs."
     ],
-    "highlight_quote": "« Déploiements fiables. Infrastructure cloud évolutive. »",
+    "highlight_quote": "\"Déploiements fiables. Infrastructure cloud évolutive.\"",
     "side_image": "/all_services/infrastructure/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Avantages Clés",
-    "subtitle": "Accélérez vos cycles de développement",
+    "title": "Avantages clés",
+    "subtitle": "Accélérer les cycles de développement",
     "cards": [
-      { "title": "Sorties Rapides", "description": "Automatisez via des pipelines CI/CD.", "icon_type": "MdSpeed" },
-      { "title": "Temps d'arrêt réduit", "description": "Systèmes de surveillance et récupération automatique.", "icon_type": "MdSecurity" },
-      { "title": "Évolutivité Cloud", "description": "Infrastructure qui s'adapte automatiquement à la demande.", "icon_type": "MdCloud" },
-      { "title": "Stabilité accrue", "description": "Environnements cohérents via l'Infrastructure as Code.", "icon_type": "MdSettings" }
+      {
+        "title": "Sorties plus rapides",
+        "description": "Automatisez la création et le déploiement à l’aide de pipelines CI/CD.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Temps d'arrêt réduits",
+        "description": "Systèmes automatisés de surveillance et de récupération.",
+        "icon_type": "MdSecurity"
+      },
+      {
+        "title": "Évolutivité du cloud",
+        "description": "Infrastructure qui évolue automatiquement en fonction de la demande.",
+        "icon_type": "MdCloud"
+      },
+      {
+        "title": "Stabilité améliorée",
+        "description": "Environnements cohérents utilisant Infrastructure as Code.",
+        "icon_type": "MdSettings"
+      }
     ]
   },
   "what_you_get_section": {
-    "title": "Ce que vous obtenez avec DevOps",
+    "title": "Ce que vous obtenez avec l'automatisation DevOps",
     "image": "/all_services/infrastructure/wwg.webp",
     "list_items": [
-      { "title": "1. Setup Pipeline CI/CD", "description": "Flux automatisé pour build, test et déploiement." },
-      { "title": "2. Infrastructure as Code (IaC)", "description": "Provisionnement cloud automatisé." },
-      { "title": "3. Systèmes de surveillance", "description": "Suivi en temps réel de la performance." },
-      { "title": "4. Sauvegarde et Récupération", "description": "Solutions de basculement et sauvegardes sécurisées." }
+      {
+        "title": "1. Configuration du pipeline CI/CD",
+        "description": "Flux de travail automatisé pour la création, les tests et le déploiement."
+      },
+      {
+        "title": "2. Infrastructure en tant que code (IaC)",
+        "description": "Approvisionnement et configuration automatisés du cloud."
+      },
+      {
+        "title": "3. Systèmes de surveillance et d'alerte",
+        "description": "Surveillance des performances et de la santé en temps réel."
+      },
+      {
+        "title": "4. Sauvegarde et récupération",
+        "description": "Solutions de basculement automatisées et sauvegardes sécurisées."
+      }
     ]
   },
   "technologies_section": {
     "title": "Technologies DevOps",
-    "subtitle": "Toolkit moderne d'automatisation cloud",
+    "subtitle": "Boîte à outils d'automatisation du cloud moderne",
     "tools": [
-      { "name": "Docker", "icon": "FaDocker" },
-      { "name": "Kubernetes", "icon": "SiKubernetes" },
-      { "name": "AWS", "icon": "FaAws" },
-      { "name": "Terraform", "icon": "SiTerraform" },
-      { "name": "GitHub Actions", "icon": "SiGithubactions" }
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "SiKubernetes"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Terraform",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Actions GitHub",
+        "icon": "SiGithubactions"
+      }
     ]
   },
   "process_section": {
-    "title": "Notre Processus",
-    "subtitle": "Déploiement en quelques semaines",
+    "title": "Notre processus",
+    "subtitle": "Déployer l'automatisation en quelques semaines",
     "steps": [
-      { "title": "Audit", "description": "Analyse de l'infrastructure et des pipelines.", "icon": "FaSearch" },
-      { "title": "Design", "description": "Création de plans d'automatisation.", "icon": "TbTools" },
-      { "title": "Implémentation", "description": "Déploiement CI/CD et cloud.", "icon": "FaHammer" },
-      { "title": "Optimisation", "description": "Surveillance et amélioration continue.", "icon": "FaRocket" }
+      {
+        "title": "Audit",
+        "description": "Analyser l’infrastructure et les pipelines de déploiement.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Créez des plans d’automatisation.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Implement",
+        "description": "Déployez l’automatisation CI/CD et cloud.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Optimize",
+        "description": "Surveiller et améliorer les performances.",
+        "icon": "FaRocket"
+      }
     ]
   },
   "case_study_section": {
-    "headline": "Déploiement 75% plus rapide",
+    "headline": "Déploiement 75 % plus rapide",
     "image": "/all_services/infrastructure/ase_study_1.webp",
     "content": {
-      "problem": { "label": "Problème", "text": "Le déploiement manuel causait des retards." },
-      "solution": { "label": "Solution", "text": "Mise en place de pipelines CI/CD et IaC." },
-      "result": { "label": "Résultat", "text": "Temps de déploiement réduit de 75% avec fiabilité accrue." }
+      "problem": {
+        "label": "Problem",
+        "text": "Le déploiement manuel a entraîné des retards et des temps d'arrêt."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Implémentation de pipelines CI/CD et d'Infrastructure as Code."
+      },
+      "result": {
+        "label": "Result",
+        "text": "Temps de déploiement réduit de 75 % avec une fiabilité améliorée."
+      }
     }
   },
   "faq_section": {
     "title": "FAQ",
-    "subtitle": "Questions courantes sur DevOps",
+    "subtitle": "Questions courantes sur l'automatisation DevOps",
     "questions": [
-      { "question": "Automatisez-vous AWS et Azure ?", "answer": "Oui, y compris le multi-cloud." },
-      { "question": "Peut-on automatiser l'existant ?", "answer": "Oui, sans interruption de service." },
-      { "question": "Est-ce sécurisé ?", "answer": "Oui, avec des configurations de sécurité strictes." },
-      { "question": "Combien de temps ?", "answer": "Généralement de 2 à 4 semaines." },
-      { "question": "Offrez-vous du support ?", "answer": "Oui, surveillance et maintenance incluses." }
+      {
+        "question": "Automatisez-vous AWS et Azure ?",
+        "answer": "Oui, y compris les déploiements multi-cloud."
+      },
+      {
+        "question": "Pouvez-vous automatiser l’infrastructure existante ?",
+        "answer": "Oui, sans perturber les opérations."
+      },
+      {
+        "question": "L’automatisation DevOps est-elle sécurisée ?",
+        "answer": "Oui, avec des configurations de sécurité strictes."
+      },
+      {
+        "question": "Combien de temps prend la mise en œuvre ?",
+        "answer": "Généralement 2 à 4 semaines."
+      },
+      {
+        "question": "Fournissez-vous un soutien continu ?",
+        "answer": "Oui, y compris la surveillance et la maintenance."
+      }
     ],
     "footer": {
-      "text": "Besoin d'aide ?",
+      "text": "Besoin d'aide pour les infrastructures ?",
       "link_text": "Parlez à nos experts DevOps",
       "link_url": "/contact"
     }

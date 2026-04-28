@@ -1,116 +1,116 @@
 {
   "slug": "react",
   "seo_metadata": {
-    "title": "Professional React Development | Interactive Component Architecture",
-    "description": "Enterprise-grade React.js development services. We build high-performance, scalable user interfaces using component-driven design and modern state management.",
+    "title": "专业 React 开发 | 交互式组件架构",
+    "description": "企业级 React.js 开发服务。我们利用组件驱动设计和现代状态管理，构建高性能、可扩展的用户界面。",
     "keywords": [
-      "React.js Development",
-      "Frontend Architecture",
-      "Single Page Applications (SPA)",
-      "Virtual DOM Performance",
+      "React.js 开发",
+      "前端架构",
+      "单页面应用 (SPA)",
+      "虚拟 DOM 性能",
       "React Hooks",
-      "Component-Driven Design",
-      "State Management Solutions"
+      "组件驱动设计",
+      "状态管理解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Library for Web Interfaces",
-    "title": "Interactive Precision with",
+    "eyebrow": "专为 Web 界面打造的库",
+    "title": "凭借以下技术实现交互精度",
     "highlight": "React",
-    "description": "Build high-concurrency, interactive user interfaces with a component-based architecture that ensures predictable state and lightning-fast rendering.",
+    "description": "通过基于组件的架构构建高并发、交互式的用户界面，确保状态的可预测性和闪电般的渲染速度。",
     "side_image": "/technologies/react/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Frontend",
+      "text": "优化您的前端",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Technical Roadmap",
+      "text": "查看技术路线图",
       "href": "/technologies/react#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with React",
-    "subtitle": "React provides the declarative power needed to build complex, data-driven interfaces with ease.",
+    "title": "为什么我们选择使用 React 进行工程设计",
+    "subtitle": "React 提供了构建复杂、数据驱动界面所需的声明式能力。",
     "paragraphs": [
-      "React is our foundational choice for building dynamic web experiences. By utilizing a declarative programming model and a Virtual DOM, we minimize expensive direct browser manipulations, resulting in highly performant applications that scale seamlessly regardless of UI complexity.",
-      "The true strength of React lies in its component-based ecosystem. This modular approach allows our teams to build encapsulated units of code that manage their own state, enabling better reusability, easier testing, and significantly cleaner handoffs between designers and engineers."
+      "React 是我们构建动态 Web 体验的基础选择。通过利用声明式编程模型和虚拟 DOM，我们最大限度地减少了昂贵的浏览器直接操作，从而实现了无论 UI 复杂度如何都能无缝扩展的高性能应用。",
+      "React 的真正优势在于其基于组件的生态系统。这种模块化方法允许我们的团队构建管理自身状态的封装代码单元，从而实现更好的重用性、更简单的测试，以及设计师与工程师之间更清晰的交接。"
     ],
     "cards": [
       {
-        "title": "Virtual DOM Efficiency",
-        "description": "Intelligent diffing algorithms ensure only the necessary parts of the UI are updated, maximizing performance.",
+        "title": "虚拟 DOM 效率",
+        "description": "智能 Diff 算法确保仅更新必要的 UI 部分，从而最大限度地提高性能。",
         "icon_type": "FaZap"
       },
       {
-        "title": "One-Way Data Flow",
-        "description": "Unidirectional data binding provides a predictable mental model for debugging and application logic.",
+        "title": "单向数据流",
+        "description": "单向数据绑定为调试和应用逻辑提供了一个可预测的思维模型。",
         "icon_type": "FaExchangeAlt"
       },
       {
-        "title": "Rich Ecosystem",
-        "description": "Access thousands of pre-vetted libraries for routing, state management, and UI components via npm.",
+        "title": "丰富的生态系统",
+        "description": "通过 npm 获取数千个经过预审的库，涵盖路由、状态管理和 UI 组件。",
         "icon_type": "FaBoxes"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Frontend Architectural Scope",
+    "title": "前端架构范畴",
     "image": "/technologies/react/scope.webp",
     "items": [
       {
-        "title": "Component-Driven Design",
-        "description": "Architecting design systems with Atomic Design principles for consistent and reusable UI elements."
+        "title": "组件驱动设计",
+        "description": "遵循原子设计 (Atomic Design) 原则构建设计系统，确保 UI 元素的一致性和可重用性。"
       },
       {
-        "title": "Modern State Management",
-        "description": "Implementing predictable data stores using Redux Toolkit, Zustand, or Context API for complex application states."
+        "title": "现代状态管理",
+        "description": "针对复杂的应用状态，使用 Redux Toolkit、Zustand 或 Context API 实施可预测的数据存储。"
       },
       {
-        "title": "Performance Optimization",
-        "description": "Utilizing memoization, code-splitting, and lazy loading to ensure minimal bundle sizes and instant load times."
+        "title": "性能优化",
+        "description": "利用记忆化 (Memoization)、代码拆分和懒加载技术，确保最小的包体积和瞬时加载速度。"
       }
     ]
   },
   "edge_section": {
-    "title": "The React Edge",
-    "subtitle": "Quantifiable advantages for modern web products.",
+    "title": "React 优势",
+    "subtitle": "为现代 Web 产品提供可量化的优势。",
     "cards": [
       {
         "metric": "85%",
-        "title": "Code Reusability",
-        "description": "Leverage shared components across multiple views and even React Native for mobile projects."
+        "title": "代码复用率",
+        "description": "在多个视图之间利用共享组件，甚至可以在移动项目中复用于 React Native。"
       },
       {
         "metric": "60 FPS",
-        "title": "Interface Fluidity",
-        "description": "Achieve smooth animations and transitions through optimized rendering cycles and hooks."
+        "title": "界面流畅度",
+        "description": "通过优化的渲染周期和 Hooks 实现丝滑的动画和过渡效果。"
       },
       {
-        "metric": "Active",
-        "title": "LTS Support",
-        "description": "Backed by Meta and a global community, ensuring long-term stability and security updates."
+        "metric": "长期",
+        "title": "LTS 支持",
+        "description": "由 Meta 和全球社区提供支持，确保长期的稳定性和安全更新。"
       },
       {
-        "metric": "Zero",
-        "title": "Spaghetti Code",
-        "description": "Established patterns like JSX and Hooks enforce a cleaner, more readable structure for large teams."
+        "metric": "零",
+        "title": "面条代码",
+        "description": "JSX 和 Hooks 等既定模式为大型团队强制执行了更清晰、更具可读性的结构。"
       }
     ]
   },
   "quote_section": {
-    "quote": "React allows us to build complex, living interfaces without losing",
-    "highlight": "architectural predictability"
+    "quote": "React 让我们能够构建复杂的、有生命力的界面，而不会丢失",
+    "highlight": "架构的可预测性"
   },
   "conversation_section": {
-    "title": "Architect Your Frontend",
-    "subtitle": "Consult with our lead React architects to define a scalable UI strategy and performance roadmap.",
-    "full_name_label": "Lead Engineer",
-    "business_email_label": "Entity Email",
-    "message_label": "UI Requirement",
+    "title": "规划您的前端架构",
+    "subtitle": "咨询我们的首席 React 架构师，定义可扩展的 UI 策略和性能路线图。",
+    "full_name_label": "首席工程师姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "UI 需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your React performance goals or design system challenges...",
-    "button_text": "Request a Consultation"
+    "message_placeholder": "请描述您的 React 性能目标或设计系统挑战...",
+    "button_text": "申请咨询"
   }
 }

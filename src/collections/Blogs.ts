@@ -1,11 +1,45 @@
 import type { CollectionConfig } from 'payload'
 import { lexicalEditor } from '@payloadcms/richtext-lexical'
+import { sendNewsletterCampaign } from '@/lib/newsletter'
 
 const Blogs: CollectionConfig = {
   slug: 'blogs',
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'category', 'date', 'status'],
+  },
+  hooks: {
+    afterChange: [
+      async ({ doc, previousDoc, operation, req }) => {
+        const currentStatus = doc?.status
+        const previousStatus = previousDoc?.status
+
+        const becamePublished =
+          currentStatus === 'published' && previousStatus !== 'published'
+        const updatedPublished =
+          operation === 'update' && currentStatus === 'published'
+
+        if (!becamePublished && !updatedPublished) return
+
+        const isNew = operation === 'create' || becamePublished
+
+        const title = isNew
+          ? `New Blog Published: ${doc?.title}`
+          : `Blog Updated: ${doc?.title}`
+
+        const message = isNew
+          ? `A new blog post is now live: "${doc?.title}".`
+          : `A published blog post was updated: "${doc?.title}".`
+
+        await sendNewsletterCampaign(req.payload, {
+          subject: title,
+          title,
+          message,
+          ctaText: 'Read Blog',
+          ctaUrl: `https://www.devisgon.com/blogs/${doc?.slug}`,
+        })
+      },
+    ],
   },
   access: {
   create: () => true,

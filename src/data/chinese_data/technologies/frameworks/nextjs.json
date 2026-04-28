@@ -1,116 +1,116 @@
 {
   "slug": "nextjs",
   "seo_metadata": {
-    "title": "Enterprise Next.js Development | High-Performance React Framework",
-    "description": "Expert Next.js implementation for SEO-optimized, lightning-fast web applications. We leverage Server Components and SSR to build scalable digital products.",
+    "title": "企业级 Next.js 开发 | 高性能 React 框架",
+    "description": "专业的 Next.js 实施方案，打造 SEO 优化、极速响应的 Web 应用程序。我们利用服务器组件和 SSR 构建可扩展的数字产品。",
     "keywords": [
-      "Next.js Development",
-      "React Server Components",
-      "Server Side Rendering (SSR)",
-      "Static Site Generation (SSG)",
-      "App Router Architecture",
-      "Incremental Static Regeneration",
-      "Vercel Deployment"
+      "Next.js 开发",
+      "React 服务器组件",
+      "服务端渲染 (SSR)",
+      "静态站点生成 (SSG)",
+      "App Router 架构",
+      "增量静态再生 (ISR)",
+      "Vercel 部署"
     ]
   },
   "hero_section": {
-    "eyebrow": "The React Framework for the Web",
-    "title": "Superior Performance with",
+    "eyebrow": "专为 Web 打造的 React 框架",
+    "title": "凭借以下技术实现卓越性能",
     "highlight": "Next.js",
-    "description": "Deliver fast, SEO-friendly, and highly interactive user experiences with the framework that simplifies server-side rendering and static site generation.",
+    "description": "利用简化了服务端渲染和静态站点生成的框架，交付快速、SEO 友好且高度交互的用户体验。",
     "side_image": "/technologies/next_js/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Web Vitals",
+      "text": "优化您的 Web Vitals",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Technical Specs",
+      "text": "查看技术规格",
       "href": "/technologies/nextjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Next.js",
-    "subtitle": "Next.js bridges the gap between static speed and dynamic power, providing an unmatched foundation for modern web apps.",
+    "title": "为什么我们选择使用 Next.js 进行工程设计",
+    "subtitle": "Next.js 弥补了静态速度与动态功能之间的鸿沟，为现代 Web 应用提供了无与伦比的基础。",
     "paragraphs": [
-      "Next.js is our primary choice for projects where performance and discoverability are paramount. By utilizing its hybrid rendering capabilities, we can serve static content for near-instant load times while fetching dynamic data on the server, significantly reducing the JavaScript bundle size sent to the client.",
-      "The introduction of the App Router and Server Components has allowed us to architect applications with a 'server-first' mindset. This ensures that your application remains responsive and accessible even on low-powered devices, as the heavy lifting is handled by the server infrastructure."
+      "对于性能和可发现性至关重要的项目，Next.js 是我们的首选。通过利用其混合渲染能力，我们可以提供近乎即时加载的静态内容，同时在服务器上获取动态数据，从而显著减少发送到客户端的 JavaScript 包体积。",
+      "App Router 和服务器组件的引入使我们能够以“服务器优先”的思维来构建应用。这确保了即使在低性能设备上，您的应用程序也能保持响应和可访问，因为繁重的计算任务都由服务器基础设施处理。"
     ],
     "cards": [
       {
-        "title": "Hybrid Rendering",
-        "description": "Choose between SSR, SSG, and ISR on a per-page basis to balance fresh data with extreme speed.",
+        "title": "混合渲染",
+        "description": "根据每个页面的需求在 SSR、SSG 和 ISR 之间灵活选择，在最新数据与极致速度之间取得平衡。",
         "icon_type": "FaBolt"
       },
       {
-        "title": "SEO Excellence",
-        "description": "Native support for metadata and server-rendered content ensures your site ranks higher in search results.",
+        "title": "卓越的 SEO",
+        "description": "原生支持元数据和服务器渲染内容，确保您的网站在搜索结果中排名更高。",
         "icon_type": "FaSearch"
       },
       {
-        "title": "Optimized Vitals",
-        "description": "Automatic image optimization, font hosting, and script loading for industry-leading Core Web Vitals.",
+        "title": "优化的 Vitals 指标",
+        "description": "自动图像优化、字体托管和脚本加载，实现行业领先的核心 Web 指标性能。",
         "icon_type": "FaTachometerAlt"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Framework Scope",
+    "title": "框架范畴",
     "image": "/technologies/next_js/scope.webp",
     "items": [
       {
-        "title": "App Router Architecture",
-        "description": "Implementing complex nested layouts and streaming data fetching for seamless, high-performance navigation."
+        "title": "App Router 架构",
+        "description": "实施复杂的嵌套布局和流式数据获取，实现无缝、高性能的导航体验。"
       },
       {
-        "title": "Edge Runtime Services",
-        "description": "Deploying middleware and functions at the network edge to provide personalized content with zero latency."
+        "title": "边缘运行时服务",
+        "description": "在网络边缘部署中间件和函数，以零延迟提供个性化内容。"
       },
       {
-        "title": "API Routes & Server Actions",
-        "description": "Building full-stack features with type-safe server functions that eliminate the need for complex API orchestration."
+        "title": "API 路由与服务器操作",
+        "description": "通过类型安全的服务器函数构建全栈功能，消除对复杂 API 编排的需求。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Next.js Edge",
-    "subtitle": "Quantifiable metrics that define the future of the web.",
+    "title": "Next.js 优势",
+    "subtitle": "定义 Web 未来的可量化指标。",
     "cards": [
       {
         "metric": "100/100",
-        "title": "Lighthouse Score",
-        "description": "Achieve perfect performance and SEO scores through automatic framework-level optimizations."
+        "title": "Lighthouse 评分",
+        "description": "通过自动化的框架级优化，实现完美的性能和 SEO 评分。"
       },
       {
-        "metric": "Zero",
-        "title": "CLS Issues",
-        "description": "Eliminate Cumulative Layout Shift using Next.js's optimized Image and Font components."
+        "metric": "零",
+        "title": "CLS 问题",
+        "description": "利用 Next.js 优化的图像和字体组件，消除累积布局偏移 (CLS)。"
       },
       {
-        "metric": "Real-time",
-        "title": "Regeneration",
-        "description": "Update static content without a full rebuild using Incremental Static Regeneration (ISR)."
+        "metric": "实时",
+        "title": "内容再生",
+        "description": "使用增量静态再生 (ISR) 技术，无需完整重新构建即可更新静态内容。"
       },
       {
-        "metric": "Active",
-        "title": "Vercel Support",
-        "description": "Leveraging the deep integration between Next.js and the Vercel edge network for global scalability."
+        "metric": "深度",
+        "title": "Vercel 支持",
+        "description": "利用 Next.js 与 Vercel 边缘网络的深度集成，实现全球范围的可扩展性。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Next.js allows us to build the most complex React applications without compromising on",
-    "highlight": "SEO or performance"
+    "quote": "Next.js 让我们能够构建最复杂的 React 应用程序，且无需在以下方面妥协",
+    "highlight": "SEO 或性能"
   },
   "conversation_section": {
-    "title": "Architect Your Web Presence",
-    "subtitle": "Consult with our Next.js specialists to build a high-performance, future-proof digital product.",
-    "full_name_label": "Lead Engineer",
-    "business_email_label": "Corporate Email",
-    "message_label": "Technical Vision",
+    "title": "规划您的 Web 蓝图",
+    "subtitle": "咨询我们的 Next.js 专家，构建高性能、面向未来的数字产品。",
+    "full_name_label": "首席工程师姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "技术愿景",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your web performance goals or architectural challenges...",
-    "button_text": "Launch Your Project"
+    "message_placeholder": "请描述您的网页性能目标或架构挑战...",
+    "button_text": "启动您的项目"
   }
 }

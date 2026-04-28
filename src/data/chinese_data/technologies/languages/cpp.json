@@ -1,116 +1,116 @@
 {
   "slug": "cpp",
   "seo_metadata": {
-    "title": "High-Performance C++ Development | Systems & Game Engineering",
-    "description": "Expert C++ software engineering services. We build high-performance, resource-efficient systems using modern C++20/23 standards for low-latency applications.",
+    "title": "高性能 C++ 开发 | 系统与游戏工程",
+    "description": "专业的 C++ 软件工程服务。我们使用现代 C++20/23 标准为低延迟应用构建高性能、资源利用率高的系统。",
     "keywords": [
-      "C++ Software Development",
-      "Modern C++20",
-      "Low Latency Systems",
-      "Zero-Cost Abstractions",
-      "RAII Memory Management",
-      "C++ Performance Optimization",
-      "STL & Boost Integration"
+      "C++ 软件开发",
+      "现代 C++20",
+      "低延迟系统",
+      "零成本抽象",
+      "RAII 内存管理",
+      "C++ 性能优化",
+      "STL 与 Boost 集成"
     ]
   },
   "hero_section": {
-    "eyebrow": "High-Performance Systems Language",
-    "title": "Unrivaled Power with",
-    "highlight": "Modern C++",
-    "description": "Architect high-performance applications that demand intensive computation, low-level hardware control, and sophisticated resource management with modern C++ standards.",
+    "eyebrow": "高性能系统级语言",
+    "title": "凭借以下技术实现无与伦比的力量",
+    "highlight": "现代 C++",
+    "description": "使用现代 C++ 标准构建需要密集计算、底层硬件控制和复杂资源管理的高性能应用程序。",
     "side_image": "/technologies/cpp/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Core",
+      "text": "优化您的核心层",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Technical Documentation",
+      "text": "技术文档",
       "href": "/technologies/cpp#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with C++",
-    "subtitle": "C++ provides the unique ability to build complex abstractions without sacrificing runtime performance.",
+    "title": "为什么我们选择使用 C++ 进行工程设计",
+    "subtitle": "C++ 提供了在不牺牲运行时性能的前提下构建复杂抽象的独特能力。",
     "paragraphs": [
-      "We choose C++ for performance-critical engines and systems-level infrastructure. By leveraging 'Zero-Cost Abstractions,' we can utilize high-level object-oriented and generic programming patterns that compile down to highly efficient machine code, ensuring that the developer's intent never becomes a bottleneck for the processor.",
-      "With the implementation of modern RAII (Resource Acquisition Is Initialization) patterns and smart pointers, we eliminate common memory leaks and threading issues. This allows our teams to deliver exceptionally stable software for industries like fintech, gaming, and real-time simulations where reliability is the primary metric of success."
+      "我们为性能至上的引擎和系统级基础设施选择 C++。通过利用“零成本抽象”，我们可以使用高级面向对象和泛型编程模式，这些模式能够编译成极其高效的机器代码，确保开发者的意图永远不会成为处理器的瓶颈。",
+      "通过实施现代 RAII（资源获取即初始化）模式和智能指针，我们消除了常见的内存泄漏和线程问题。这使我们的团队能够为金融科技、游戏和实时模拟等行业交付极其稳定的软件，在这些领域，可靠性是成功的首要衡量标准。"
     ],
     "cards": [
       {
-        "title": "Zero-Cost Abstractions",
-        "description": "Build high-level logic without the performance penalties typical of other managed languages.",
+        "title": "零成本抽象",
+        "description": "构建高级逻辑，且不会产生其他托管语言中常见的性能损失。",
         "icon_type": "FaZap"
       },
       {
-        "title": "Deterministic Lifecycle",
-        "description": "Predictable memory management through RAII ensures optimal resource utilization without garbage collection pauses.",
+        "title": "确定性生命周期",
+        "description": "通过 RAII 实现可预测的内存管理，确保最佳资源利用，且无垃圾回收停顿。",
         "icon_type": "FaClock"
       },
       {
-        "title": "Multi-Paradigm Power",
-        "description": "Seamlessly blend Procedural, Functional, and Object-Oriented styles to suit specific architectural needs.",
+        "title": "多范式动力",
+        "description": "无缝融合过程式、函数式和面向对象风格，以适应特定的架构需求。",
         "icon_type": "FaLayerGroup"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "C++ Architectural Scope",
+    "title": "C++ 架构范畴",
     "image": "/technologies/cpp/scope.webp",
     "items": [
       {
-        "title": "Low-Latency Engine Design",
-        "description": "Developing high-frequency trading platforms and real-time processing engines with microsecond-level precision."
+        "title": "低延迟引擎设计",
+        "description": "以微秒级精度开发高频交易平台和实时处理引擎。"
       },
       {
-        "title": "Resource-Intensive Desktop Apps",
-        "description": "Building powerful graphics tools, CAD software, and multimedia suites that require direct GPU and CPU optimization."
+        "title": "资源密集型桌面应用",
+        "description": "构建需要直接 GPU 和 CPU 优化的强大图形工具、CAD 软件和多媒体套件。"
       },
       {
-        "title": "Embedded & IoT Cores",
-        "description": "Architecting robust logic for cross-platform hardware targets where memory footprints must be strictly controlled."
+        "title": "嵌入式与物联网核心",
+        "description": "为必须严格控制内存占用的跨平台硬件目标构建稳健的逻辑架构。"
       }
     ]
   },
   "edge_section": {
-    "title": "The C++ Edge",
-    "subtitle": "Strategic performance advantages for enterprise cores.",
+    "title": "C++ 优势",
+    "subtitle": "为企业核心模块提供的战略性能优势。",
     "cards": [
       {
-        "metric": "Max",
-        "title": "Throughput",
-        "description": "Achieve the highest possible data processing speeds through manual memory control and cache optimization."
+        "metric": "最大化",
+        "title": "吞吐量",
+        "description": "通过手动内存控制和缓存优化，实现尽可能高的数据处理速度。"
       },
       {
         "metric": "100%",
-        "title": "Hardware Control",
-        "description": "Direct access to system resources and hardware registers for unparalleled execution efficiency."
+        "title": "硬件控制",
+        "description": "直接访问系统资源和硬件寄存器，实现无与伦比的执行效率。"
       },
       {
-        "metric": "Legacy",
-        "title": "Interoperability",
-        "description": "Seamlessly integrate with C libraries and existing systems while modernizing the high-level logic layer."
+        "metric": "遗留系统",
+        "title": "互操作性",
+        "description": "在对高级逻辑层进行现代化的同时，与 C 语言库和现有系统无缝集成。"
       },
       {
-        "metric": "Zero",
-        "title": "Runtime Bloat",
-        "description": "Maintain a minimal footprint by only including the specific libraries and features your application requires."
+        "metric": "零",
+        "title": "运行时臃肿",
+        "description": "仅包含应用程序所需的特定库和功能，保持极小的体积占用。"
       }
     ]
   },
   "quote_section": {
-    "quote": "C++ remains the language of choice for those who refuse to compromise between",
-    "highlight": "elegance and speed"
+    "quote": "对于那些拒绝在优雅与速度之间妥协的人来说，C++ 仍然是",
+    "highlight": "首选语言"
   },
   "conversation_section": {
-    "title": "Design Your Performance Layer",
-    "subtitle": "Consult with our lead C++ specialists to architect your low-latency roadmap and systems strategy.",
-    "full_name_label": "Lead Systems Architect",
-    "business_email_label": "Entity Email",
-    "message_label": "Technical Requirement",
+    "title": "设计您的性能层",
+    "subtitle": "咨询我们的首席 C++ 专家，规划您的低延迟路线图和系统战略。",
+    "full_name_label": "首席系统架构师姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "技术需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your latency requirements or performance-critical challenges...",
-    "button_text": "Request a Technical Audit"
+    "message_placeholder": "请描述您的延迟要求或性能关键型挑战...",
+    "button_text": "申请技术审计"
   }
 }

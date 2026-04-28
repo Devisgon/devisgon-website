@@ -1,116 +1,116 @@
 {
   "slug": "javascript",
   "seo_metadata": {
-    "title": "Universal JavaScript Development | Full-Stack Web & Node.js Solutions",
-    "description": "Expert JavaScript implementation for dynamic web applications. We leverage V8 engine performance and event-driven architecture to build scalable full-stack systems.",
+    "title": "通用 JavaScript 开发 | 全栈 Web 与 Node.js 解决方案",
+    "description": "针对动态 Web 应用的专业 JavaScript 实施。我们利用 V8 引擎性能和事件驱动架构构建可扩展的全栈系统。",
     "keywords": [
-      "JavaScript Development",
-      "ES6+ Web Standards",
-      "V8 Engine Optimization",
-      "Asynchronous Programming",
-      "Universal JavaScript",
-      "Event-Driven Architecture",
-      "Full-Stack JS Solutions"
+      "JavaScript 开发",
+      "ES6+ Web 标准",
+      "V8 引擎优化",
+      "异步编程",
+      "通用 JavaScript (Universal JS)",
+      "事件驱动架构",
+      "全栈 JS 解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Language of the Web",
-    "title": "Dynamic Agility with",
+    "eyebrow": "Web 的核心语言",
+    "title": "凭借以下技术实现动态敏捷",
     "highlight": "JavaScript",
-    "description": "Power your entire product lifecycle with the most versatile language on the planet, delivering high-performance interactivity from the browser to the server.",
+    "description": "使用全球最通用的语言驱动您的整个产品生命周期，提供从浏览器到服务器的高性能交互体验。",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Stack",
+      "text": "优化您的技术栈",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Technical Roadmap",
+      "text": "查看技术路线图",
       "href": "/technologies/javascript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with JavaScript",
-    "subtitle": "JavaScript is the cornerstone of modern digital experiences, offering unparalleled speed and universal reach.",
+    "title": "为什么我们选择使用 JavaScript 进行工程设计",
+    "subtitle": "JavaScript 是现代数字体验的基石，提供无与伦比的速度和全球覆盖能力。",
     "paragraphs": [
-      "JavaScript is our primary tool for building reactive, user-centric applications. By utilizing its non-blocking event loop and the high-speed V8 engine, we deliver interfaces that respond instantly to user input while handling complex backend orchestration through a unified, high-velocity language ecosystem.",
-      "The true power of JavaScript lies in its 'Universal' nature. By sharing logic between the client and the server, our teams reduce architectural friction, accelerate feature delivery, and ensure that your business logic remains consistent across every touchpoint of your digital infrastructure."
+      "JavaScript 是我们构建响应式、以用户为中心的应用的首选工具。通过利用其非阻塞事件循环和高速 V8 引擎，我们交付的界面能即时响应用户输入，同时通过统一且高效的语言生态系统处理复杂的后端编排。",
+      "JavaScript 的真正力量在于其“通用性 (Universal)”。通过在客户端和服务器之间共享逻辑，我们的团队减少了架构摩擦，加速了功能交付，并确保您的业务逻辑在数字基础设施的每个触点上都保持一致。"
     ],
     "cards": [
       {
-        "title": "Universal Reach",
-        "description": "Execute the same codebase across browsers, servers, and mobile devices for maximum logic reuse.",
+        "title": "全球覆盖",
+        "description": "在浏览器、服务器和移动设备上执行相同的代码库，实现最大程度的逻辑重用。",
         "icon_type": "FaGlobe"
       },
       {
-        "title": "Asynchronous Power",
-        "description": "Handle thousands of concurrent operations without blocking the main thread using Promises and Async/Await.",
+        "title": "异步动力",
+        "description": "使用 Promise 和 Async/Await 处理数千个并发操作，且不会阻塞主线程。",
         "icon_type": "FaSync"
       },
       {
-        "title": "Vibrant Ecosystem",
-        "description": "Access the world’s largest package registry (npm) for battle-tested modules and rapid feature integration.",
+        "title": "充满活力的生态系统",
+        "description": "获取全球最大的软件包注册表 (npm)，利用经受过实战检验的模块实现快速功能集成。",
         "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Technical Scope",
+    "title": "技术范畴",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "Event-Driven Backends",
-        "description": "Architecting high-concurrency server-side services that leverage the Node.js event loop for extreme throughput."
+        "title": "事件驱动型后端",
+        "description": "利用 Node.js 事件循环构建高并发服务端服务，实现极致的吞吐量。"
       },
       {
-        "title": "Reactive Frontend State",
-        "description": "Building complex, living UIs with modern patterns that ensure the view layer stays in perfect sync with underlying data."
+        "title": "响应式前端状态",
+        "description": "使用现代模式构建复杂的动态 UI，确保视图层与底层数据保持完美同步。"
       },
       {
-        "title": "Serverless & Edge Compute",
-        "description": "Deploying lightweight JavaScript functions to the edge for personalized, low-latency content delivery at scale."
+        "title": "无服务器与边缘计算",
+        "description": "在边缘部署轻量级 JavaScript 函数，实现大规模个性化、低延迟的内容交付。"
       }
     ]
   },
   "edge_section": {
-    "title": "The JavaScript Edge",
-    "subtitle": "Strategic performance advantages for a rapid digital world.",
+    "title": "JavaScript 优势",
+    "subtitle": "为快速发展的数字世界提供的战略性能优势。",
     "cards": [
       {
-        "metric": "Fast",
-        "title": "Execution",
-        "description": "Google's V8 engine compiles JS to machine code in real-time, rivaling the performance of traditional languages."
+        "metric": "极速",
+        "title": "执行性能",
+        "description": "Google 的 V8 引擎将 JS 实时编译为机器代码，性能足以媲美传统编程语言。"
       },
       {
         "metric": "100%",
-        "title": "Full-Stack",
-        "description": "Unified language stack reduces context switching and simplifies development-to-deployment workflows."
+        "title": "全栈能力",
+        "description": "统一的语言栈减少了上下文切换，并简化了从开发到部署的工作流。"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Access a massive global repository of pre-tested technical modules to accelerate delivery."
+        "metric": "200万+",
+        "title": "开源库",
+        "description": "获取海量的全球预测试技术模块，大幅缩短交付周期。"
       },
       {
-        "metric": "Zero",
-        "title": "Barriers",
-        "description": "The only language natively supported by all major browsers, ensuring 100% platform compatibility."
+        "metric": "零",
+        "title": "平台障碍",
+        "description": "唯一被所有主流浏览器原生支持的语言，确保 100% 的平台兼容性。"
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript allows us to build the most complex interfaces without losing",
-    "highlight": "architectural agility"
+    "quote": "JavaScript 让我们能够在不丧失以下优势的情况下，构建最复杂的界面",
+    "highlight": "架构的敏捷性"
   },
   "conversation_section": {
-    "title": "Architect Your Infrastructure",
-    "subtitle": "Consult with our lead technical specialists to define a scalable JavaScript roadmap for your digital product.",
-    "full_name_label": "Lead Developer",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "规划您的基础设施",
+    "subtitle": "咨询我们的首席技术专家，为您的数字产品定义可扩展的 JavaScript 路线图。",
+    "full_name_label": "首席开发人员姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your JavaScript architectural challenge or performance goals...",
-    "button_text": "Request Consultation"
+    "message_placeholder": "请描述您的 JavaScript 架构挑战或性能目标...",
+    "button_text": "申请咨询"
   }
 }

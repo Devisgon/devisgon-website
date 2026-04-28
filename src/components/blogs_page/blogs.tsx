@@ -3,16 +3,19 @@ import config from "@payload-config";
 import { CategoryNav } from "./blogs_ui";
 import { unstable_cache } from "next/cache";
 import { getCachedLanguage } from "@/lib/language";
+import { translateTextForLanguage } from "@/lib/blog-language";
 
 export type Blog = {
+  id?: string | number;
   title: string;
   slug: string;
   category: string;
+  author?: string;
   content: unknown;
   coverImage?: { url: string; alt?: string };
   date: string;
   status: string;
-  locale?: string;
+  language?: string;
 };
 
 interface BlogListPageProps {
@@ -20,20 +23,20 @@ interface BlogListPageProps {
 }
 
 const getPublishedBlogs = unstable_cache(
-  async (lang: string, limit?: number) => {
+  async (_lang: string, limit?: number) => {
     const payload = await getPayload({ config });
-
     /* eslint-disable @typescript-eslint/no-explicit-any */
-    const { docs: blogs } = (await (payload as any).find({
+    const result = (await (payload as any).find({
       collection: "blogs",
       depth: 1,
       limit,
       sort: "-date",
-      locale: lang,
-      where: { status: { equals: "published" } },
+      where: {
+        status: { equals: "published" },
+      },
     })) as { docs: Blog[] };
 
-    return blogs;
+    return result.docs;
   },
   ["published-blogs"],
   { revalidate: 300 },
@@ -42,11 +45,19 @@ const getPublishedBlogs = unstable_cache(
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
   const blogs = await getPublishedBlogs(lang, limit);
+  const translatedBlogs = await Promise.all(
+    blogs.map(async (blog) => ({
+      ...blog,
+      title: await translateTextForLanguage(blog.title, lang),
+      category: await translateTextForLanguage(blog.category, lang),
+      author: await translateTextForLanguage(blog.author || "", lang),
+    })),
+  );
 
   const categories = [
     "All",
-    ...Array.from(new Set(blogs.map((b: Blog) => b.category))),
+    ...Array.from(new Set(translatedBlogs.map((b: Blog) => b.category))),
   ];
 
-  return <CategoryNav blogs={blogs} categories={categories} lang={lang} />;
+  return <CategoryNav key={lang} blogs={translatedBlogs} categories={categories} lang={lang} />;
 }

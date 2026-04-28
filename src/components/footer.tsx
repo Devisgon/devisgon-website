@@ -1,5 +1,5 @@
 "use client";
-
+import { Mail, Phone } from 'lucide-react';
 import React, { useEffect, useMemo, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
 import { getFooterDataByLang, normalizeLanguage } from "@/lib/localized-content";
@@ -45,13 +45,28 @@ const Footer = () => {
             <img src="/logo/dark_logo.webp" alt="logo" className="w-60 mx-auto hidden dark:block" />
 
             <div className="flex flex-col gap-6 text-t-primary text-md font-medium opacity-80 text-start">
-              <a href="mailto:info@devisgon.com" className="hover:text-[#8B3DFF] hover:border-b-2">
-                info@devisgon.com
-              </a>
-              <a href="tel:03316944411" className="hover:text-[#8B3DFF] hover:border-b-2">
-                0331 6944411
-              </a>
-            </div>
+  {/* Email Section */}
+  <a 
+    href="mailto:info@devisgon.com" 
+    className="flex items-center gap-3 hover:text-[#8B3DFF] transition-all duration-300 group"
+  >
+    <Mail size={20} className="group-hover:scale-110 transition-transform" />
+    <span className="group-hover:border-b-2 border-[#8B3DFF]">
+      info@devisgon.com
+    </span>
+  </a>
+
+  {/* Call Section */}
+  <a 
+    href="tel:03316944411" 
+    className="flex items-center gap-3 hover:text-[#8B3DFF] transition-all duration-300 group"
+  >
+    <Phone size={20} className="group-hover:scale-110 transition-transform" />
+    <span className="group-hover:border-b-2 border-[#8B3DFF]">
+      0331 6944411
+    </span>
+  </a>
+</div>
           </div>
 
           {footerColumns.map((col, index) => (
@@ -70,7 +85,7 @@ const Footer = () => {
                 </ul>
               )}
 
-              {index === footerColumns.length - 1 && <FooterNewsletterForm />}
+              {index === footerColumns.length - 1 && <FooterNewsletterForm lang={currentLang} />}
             </div>
           ))}
         </div>

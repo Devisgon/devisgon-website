@@ -1,116 +1,117 @@
 {
   "slug": "python",
   "seo_metadata": {
-    "title": "Enterprise Python Development | AI, Data Science & Backend Solutions",
-    "description": "Custom Python software engineering for AI, Machine Learning, and scalable backends. We build high-velocity, maintainable systems using modern Pythonic architectures.",
+    "title": "企业级 Python 开发 | 人工智能、数据科学与后端解决方案",
+    "description": "针对人工智能、机器学习和可扩展后端的定制化 Python 软件工程。我们利用现代 Pythonic 架构构建高速、易维护的系统。",
     "keywords": [
-      "Python Software Development",
-      "AI & Machine Learning Engineering",
-      "Django & FastAPI Solutions",
-      "Data Science Pipelines",
-      "Python Automation Scripts",
-      "Scalable Backend Architecture",
-      "Scientific Computing Python"
+      "Python 软件开发",
+      "人工智能与机器学习工程",
+      "Django 与 FastAPI 解决方案",
+      "数据科学流水线",
+      "Python 自动化脚本",
+      "可扩展后端架构",
+      "Python 科学计算"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Language of Innovation",
-    "title": "Intelligent Design with",
+    "eyebrow": "创新的语言",
+    "title": "凭借以下技术实现智能设计",
     "highlight": "Python",
-    "description": "Accelerate your path from idea to production with a language optimized for developer productivity, scientific computing, and enterprise-grade automation.",
+    "description": "利用专为开发效率、科学计算和企业级自动化优化的语言，加速从构思到投产的进程。",
     "side_image": "/technologies/python/hero.webp",
     "primary_cta": {
-      "text": "Build Your Logic",
+      "text": "构建您的逻辑",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Technical Documentation",
+      "text": "技术文档",
       "href": "/technologies/python#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Python",
-    "subtitle": "Python provides the cleanest path to solving complex mathematical and logical challenges at scale.",
+    "title": "为什么我们选择使用 Python 进行工程设计",
+    "subtitle": "Python 为大规模解决复杂的数学和逻辑挑战提供了最清晰的路径。",
     "paragraphs": [
-      "Python is our primary engine for data-intensive applications and artificial intelligence. Its 'aesthetic simplicity' allows our architects to write expressive, maintainable code that reduces the gap between scientific research and production-ready software. By utilizing its vast ecosystem of specialized libraries, we solve complex problems in fewer lines of code.",
-      "Beyond its dominance in AI, Python's versatility in backend engineering—through frameworks like Django and FastAPI—ensures that we can build highly secure, scalable APIs. This multi-domain capability allows us to unify your data science and web engineering teams under a single, high-velocity language stack."
+      "Python 是我们处理数据密集型应用和人工智能的主要引擎。其“极简美学”允许我们的架构师编写富有表现力且易于维护的代码，缩短了科学研究与生产级软件之间的距离。通过利用其庞大的专业库生态系统，我们可以用更少的代码行解决复杂问题。",
+      "除了在人工智能领域的统治地位外，Python 在后端工程中的多功能性（通过 Django 和 FastAPI 等框架）确保了我们能够构建高度安全、可扩展的 API。这种多领域的处理能力使我们能够在单一的高速语言栈下，统一您的数据科学和 Web 工程团队。"
     ],
     "cards": [
       {
-        "title": "Scientific Dominance",
-        "description": "Leverage industry-standard libraries like NumPy, Pandas, and TensorFlow for advanced data processing.",
+        "title": "科学计算的主导地位",
+        "description": "利用 NumPy、Pandas 和 TensorFlow 等行业标准库进行高级数据处理。",
         "icon_type": "FaFlask"
       },
       {
-        "title": "Rapid Prototyping",
-        "description": "Turn complex ideas into functional proofs-of-concept faster than any other high-level language.",
+        "title": "快速原型设计",
+        "description": "比任何其他高级语言都能更快地将复杂的想法转化为功能性的原型验证。",
         "icon_type": "FaRocket"
       },
       {
-        "title": "Clean Readability",
-        "description": "Enforce high standards with a syntax that emphasizes clarity, reducing long-term maintenance costs.",
+        "title": "清晰的可读性",
+        "description": "通过强调清晰度的语法执行高标准，降低长期维护成本。",
         "icon_type": "FaEye"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Python Technical Scope",
+    "title": "Python 技术范畴",
     "image": "/technologies/python/scope.webp",
     "items": [
       {
-        "title": "AI & Machine Learning Models",
-        "description": "Architecting and deploying predictive models, NLP engines, and computer vision systems into production."
+        "title": "人工智能与机器学习模型",
+        "description": "架构并部署预测模型、自然语言处理 (NLP) 引擎和计算机视觉系统至生产环境。"
       },
       {
-        "title": "High-Throughput Data Pipelines",
-        "description": "Orchestrating robust ETL processes that transform massive datasets into actionable operational intelligence."
+        "title": "高吞吐量数据流水线",
+        "description": "编排健壮的 ETL 流程，将海量数据集转化为可操作的业务情报。",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Async API Microservices",
-        "description": "Building lightning-fast asynchronous backends using FastAPI and Trio for high-concurrency environments."
+        "title": "异步 API 微服务",
+        "description": "在高速并发环境下，使用 FastAPI 和 Trio 构建极速异步后端。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Python Edge",
-    "subtitle": "Strategic advantages for data-driven organizations.",
+    "title": "Python 优势",
+    "subtitle": "为数据驱动型组织提供的战略优势。",
     "cards": [
       {
         "metric": "50%",
-        "title": "Faster TTM",
-        "description": "Average reduction in initial development time for complex logical and scientific modules."
+        "title": "更快的上市速度",
+        "description": "针对复杂逻辑和科学计算模块，平均缩短 50% 的初始开发时间。"
       },
       {
         "metric": "100%",
-        "title": "AI Compatible",
-        "description": "Seamless integration with the world's most advanced machine learning and automation frameworks."
+        "title": "AI 兼容性",
+        "description": "与全球最先进的机器学习和自动化框架无缝集成。"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Immediate access to the Python Package Index (PyPI) for pre-vetted modules across all industries."
+        "metric": "200万+",
+        "title": "开源库",
+        "description": "即时获取 Python 软件包索引 (PyPI)，涵盖各行各业经过预审的模块。"
       },
       {
-        "metric": "Zero",
-        "title": "Complexity Bloat",
-        "description": "Maintain simple, readable codebases even as the underlying logic grows in sophistication."
+        "metric": "零",
+        "title": "复杂度冗余",
+        "description": "即使底层逻辑日益复杂，依然能保持简洁、易读的代码库。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Python is an experiment in how much complexity can be hidden behind",
-    "highlight": "aesthetic simplicity"
+    "quote": "Python 是一场实验，旨在探索在以下特性背后能隐藏多少复杂度",
+    "highlight": "极简美学"
   },
   "conversation_section": {
-    "title": "Architect Your Intelligence",
-    "subtitle": "Consult with our lead Python specialists to define your AI roadmap or optimize your backend infrastructure.",
-    "full_name_label": "Lead Data Architect",
-    "business_email_label": "Corporate Email",
-    "message_label": "Strategic Requirement",
+    "title": "构建您的智能架构",
+    "subtitle": "咨询我们的首席 Python 专家，定义您的人工智能路线图或优化您的后端基础设施。",
+    "full_name_label": "首席数据架构师姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your data challenges or your AI/ML vision...",
-    "button_text": "Request Technical Audit"
+    "message_placeholder": "请描述您的数据挑战或人工智能/机器学习愿景...",
+    "button_text": "申请技术审计"
   }
 }

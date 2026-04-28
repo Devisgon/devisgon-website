@@ -10,6 +10,7 @@ import { Users } from "./collections/Users";
 import { Media } from "./collections/Media";
 import Blogs from "./collections/Blogs";
 import Careers from "./collections/Careers";
+import NewsletterSubscribers from "./collections/NewsletterSubscribers";
 import FormSettings from "./globals/FormSettings";
 
 const filename = fileURLToPath(import.meta.url);
@@ -32,7 +33,7 @@ export default buildConfig({
     },
   },
 
-  collections: [Users, Media, Blogs, Careers],
+  collections: [Users, Media, Blogs, Careers, NewsletterSubscribers],
   globals: [FormSettings],
   editor: lexicalEditor(),
   secret: process.env.PAYLOAD_SECRET || "default_secret_for_dev_only",
