@@ -1,116 +1,116 @@
 {
   "slug": "nestjs",
   "seo_metadata": {
-    "title": "Enterprise NestJS Development | Scalable Node.js Architecture",
-    "description": "Custom NestJS development for robust, modular, and enterprise-grade backends. We build highly testable and maintainable TypeScript APIs using NestJS.",
+    "title": "企业级 NestJS 开发 | 可扩展 Node.js 架构",
+    "description": "针对健壮、模块化及企业级后端的定制化 NestJS 开发。我们使用 NestJS 构建高度可测试且易于维护的 TypeScript API。",
     "keywords": [
-      "NestJS Development",
-      "TypeScript Backend Framework",
-      "Node.js Microservices",
-      "Enterprise API Architecture",
-      "NestJS Dependency Injection",
-      "Modular Backend Design",
-      "Server-side TypeScript"
+      "NestJS 开发",
+      "TypeScript 后端框架",
+      "Node.js 微服务",
+      "企业级 API 架构",
+      "NestJS 依赖注入",
+      "模块化后端设计",
+      "服务端 TypeScript"
     ]
   },
   "hero_section": {
-    "eyebrow": "A Progressive Node.js Framework",
-    "title": "Build Scalable Systems with",
+    "eyebrow": "渐进式 Node.js 框架",
+    "title": "凭借以下技术构建可扩展系统",
     "highlight": "NestJS",
-    "description": "Harness the power of TypeScript and modular architecture to build efficient, reliable, and enterprise-grade server-side applications.",
+    "description": "利用 TypeScript 和模块化架构的力量，构建高效、可靠且企业级的服务端应用程序。",
     "side_image": "/technologies/nestjs/hero.webp",
     "primary_cta": {
-      "text": "Architect Your Backend",
+      "text": "规划您的后端架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Architecture",
+      "text": "查看架构方案",
       "href": "/technologies/nestjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with NestJS",
-    "subtitle": "NestJS provides the structured, opinionated architecture needed for large-scale Node.js applications.",
+    "title": "为什么我们选择使用 NestJS 进行工程设计",
+    "subtitle": "NestJS 为大规模 Node.js 应用程序提供了所需的结构化、规范化架构。",
     "paragraphs": [
-      "NestJS is our framework of choice for enterprise Node.js environments. By utilizing TypeScript natively and adopting an architecture inspired by Angular, it solves the 'wild west' problem of standard Node.js projects, providing a clear structure of Controllers, Providers, and Modules.",
-      "This modularity allows our teams to build highly testable and loosely coupled systems. Whether we are building a complex monolith or a distributed microservice mesh, NestJS ensures that the code remains maintainable and that dependency injection is handled with surgical precision."
+      "NestJS 是我们在企业级 Node.js 环境中的首选框架。通过原生利用 TypeScript 并采用受 Angular 启发的架构，它解决了标准 Node.js 项目中常见的“混乱”问题，提供了控制器 (Controllers)、提供者 (Providers) 和模块 (Modules) 的清晰结构。",
+      "这种模块化特性使我们的团队能够构建高度可测试且松耦合的系统。无论我们是在构建复杂的单体应用还是分布式的微服务网格，NestJS 都能确保代码保持可维护性，并以极高的精度处理依赖注入。"
     ],
     "cards": [
       {
-        "title": "TypeScript Native",
-        "description": "Built with and for TypeScript, providing strong typing and modern JavaScript features for error-free delivery.",
+        "title": "原生 TypeScript",
+        "description": "专为 TypeScript 打造，提供强类型支持和现代 JavaScript 特性，确保交付过程零错误。",
         "icon_type": "FaCode"
       },
       {
-        "title": "Modular Architecture",
-        "description": "Encapsulate logic into reusable modules, making large codebases easy to navigate and scale.",
+        "title": "模块化架构",
+        "description": "将逻辑封装到可重用的模块中，使大型代码库易于导航和扩展。",
         "icon_type": "FaThLarge"
       },
       {
-        "title": "Dependency Injection",
-        "description": "A powerful DI container that simplifies testing and enhances code reusability across the ecosystem.",
+        "title": "依赖注入",
+        "description": "强大的 DI 容器，简化了测试过程并增强了整个生态系统的代码重用性。",
         "icon_type": "FaProjectDiagram"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "NestJS Technical Scope",
+    "title": "NestJS 技术范畴",
     "image": "/technologies/nestjs/scope.webp",
     "items": [
       {
-        "title": "Microservices & Transport",
-        "description": "Architecting distributed systems using built-in support for NATS, RabbitMQ, gRPC, and Kafka."
+        "title": "微服务与传输层",
+        "description": "利用内置对 NATS、RabbitMQ、gRPC 和 Kafka 的支持，构建分布式系统架构。"
       },
       {
-        "title": "GraphQL & REST APIs",
-        "description": "Building powerful data layers with automated Swagger/OpenAPI documentation and type-safe GraphQL resolvers."
+        "title": "GraphQL 与 REST API",
+        "description": "通过自动化的 Swagger/OpenAPI 文档和类型安全的 GraphQL 解析器构建强大的数据层。"
       },
       {
-        "title": "CQRS & Event Sourcing",
-        "description": "Implementing Command Query Responsibility Segregation (CQRS) for complex data-driven enterprise workflows."
+        "title": "CQRS 与事件溯源",
+        "description": "为复杂的企业级数据驱动工作流实施命令查询职责分离 (CQRS)。"
       }
     ]
   },
   "edge_section": {
-    "title": "The NestJS Edge",
-    "subtitle": "Predictable performance for enterprise-grade backends.",
+    "title": "NestJS 优势",
+    "subtitle": "为企业级后端提供可预测的性能。",
     "cards": [
       {
-        "metric": "Strict",
-        "title": "Type Safety",
-        "description": "Virtually eliminate runtime type errors by leveraging NestJS’s deep integration with TypeScript."
+        "metric": "严格",
+        "title": "类型安全",
+        "description": "利用 NestJS 与 TypeScript 的深度集成，几乎完全消除运行时类型错误。"
       },
       {
         "metric": "100%",
-        "title": "Testable",
-        "description": "Built-in support for Jest and specialized testing utilities for unit, integration, and e2e tests."
+        "title": "可测试性",
+        "description": "内置对 Jest 的支持，并提供专门用于单元、集成和端到端测试的测试工具。"
       },
       {
-        "metric": "Modern",
-        "title": "Ecosystem",
-        "description": "Seamless integration with TypeORM, Prisma, Mongoose, and hundreds of battle-tested libraries."
+        "metric": "现代",
+        "title": "生态系统",
+        "description": "与 TypeORM、Prisma、Mongoose 以及数百个经过实战检验的库无缝集成。"
       },
       {
-        "metric": "Zero",
-        "title": "Design Friction",
-        "description": "Established conventions reduce time spent on architectural debates, accelerating feature delivery."
+        "metric": "零",
+        "title": "设计摩擦",
+        "description": "既定的开发约定减少了在架构辩论上花费的时间，从而加速功能交付。"
       }
     ]
   },
   "quote_section": {
-    "quote": "NestJS brings enterprise discipline and architectural elegance to the",
-    "highlight": "Node.js ecosystem"
+    "quote": "NestJS 为 Node.js 生态系统带来了",
+    "highlight": "企业级纪律与架构优雅"
   },
   "conversation_section": {
-    "title": "Architect Your Enterprise API",
-    "subtitle": "Consult with our NestJS architects to design a scalable, maintainable, and type-safe backend infrastructure.",
-    "full_name_label": "Lead Architect",
-    "business_email_label": "Corporate Email",
-    "message_label": "Technical Vision",
+    "title": "构建您的企业级 API",
+    "subtitle": "咨询我们的 NestJS 架构师，设计一个可扩展、易维护且类型安全的后端基础设施。",
+    "full_name_label": "首席架构师姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "技术愿景",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your backend scaling challenges or architectural requirements...",
-    "button_text": "Request a Consultation"
+    "message_placeholder": "请描述您的后端扩展挑战或架构需求...",
+    "button_text": "申请咨询"
   }
 }

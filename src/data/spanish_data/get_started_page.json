@@ -1,0 +1,93 @@
+{
+  "hero_title": "Unete a Nuestro Equipo",
+  "hero_description": "Buscas un trabajo o una pasantia? Cuentanos sobre ti, sube tu CV y comienza tu camino con DEVISGON.",
+  "form_inactive": {
+    "title": "Las postulaciones estan cerradas",
+    "description": "Las postulaciones estan cerradas por ahora. Vuelve en el proximo ciclo de contratacion o suscribete a nuestro boletin para recibir novedades."
+  },
+  "no_openings": {
+    "title": "No hay vacantes disponibles ahora",
+    "description": "Actualmente no hay empleos ni pasantias activas. Vuelve a revisar pronto."
+  },
+  "form": {
+    "title": "Postular Ahora",
+    "description": "Completa el formulario de postulacion a continuacion.",
+    "labels": {
+      "full_name": "Nombre completo *",
+      "email": "Correo electronico *",
+      "phone": "Numero de telefono *",
+      "education": "Educacion *",
+      "experience": "Experiencia",
+      "portfolio": "Portafolio / LinkedIn",
+      "application_type": "Tipo de postulacion *",
+      "available_programs": "Programas disponibles *",
+      "upload_cv": "Subir CV",
+      "privacy_prefix": "Acepto el procesamiento de mis datos personales de acuerdo con la",
+      "privacy_policy": "Politica de privacidad"
+    },
+    "placeholders": {
+      "full_name": "Tu nombre completo",
+      "email": "your@email.com",
+      "phone": "+92 300 1234567",
+      "education": "ej. Licenciatura en Ciencias de la Computacion",
+      "portfolio": "https://linkedin.com"
+    },
+    "experience_options": [
+      { "value": "", "label": "Seleccionar experiencia" },
+      { "value": "None / Fresher", "label": "Sin experiencia / Principiante" },
+      { "value": "0-1 Years", "label": "0-1 anos" },
+      { "value": "1-3 Years", "label": "1-3 anos" },
+      { "value": "3+ Years", "label": "3+ anos" }
+    ],
+    "application_type_options": {
+      "placeholder": "Selecciona tipo...",
+      "job": "Trabajo",
+      "internship": "Pasantia"
+    },
+    "program_options": {
+      "placeholder": "Selecciona un programa...",
+      "pick_type_first": "Primero selecciona el tipo de postulacion",
+      "none_available": "No hay programas disponibles para este tipo"
+    },
+    "upload": {
+      "drop_text": "Suelta tu CV aqui.",
+      "types_text": "PDF, DOC, DOCX hasta 5MB"
+    },
+    "buttons": {
+      "submit": "Enviar postulacion",
+      "submitting": "Enviando..."
+    },
+    "status": {
+      "success": "Postulacion enviada correctamente!",
+      "error": "No se pudo enviar la postulacion. Intentalo de nuevo.",
+      "invalid_email": "Usa un correo valido",
+      "invalid_phone": "Debe comenzar con +92 y tener 10 digitos"
+    }
+  },
+  "side_card": {
+    "title": "Por que unirte a DEVISGON?",
+    "description": "Somos un equipo apasionado de desarrolladores, disenadores e innovadores. Construye el futuro con nosotros y lleva tu carrera al siguiente nivel.",
+    "benefits": [
+      {
+        "title": "Proyectos innovadores",
+        "description": "Trabaja en soluciones de vanguardia que desafian lo establecido."
+      },
+      {
+        "title": "Crecimiento profesional",
+        "description": "Rutas claras para avanzar y desarrollarte profesionalmente."
+      },
+      {
+        "title": "Ambiente colaborativo",
+        "description": "Colabora con talentos en una cultura inclusiva y de apoyo."
+      },
+      {
+        "title": "Oportunidades de aprendizaje",
+        "description": "Aprendizaje continuo mediante experiencia practica y mentoria."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactanos",
+    "location": "Okara, Pakistan"
+  }
+}

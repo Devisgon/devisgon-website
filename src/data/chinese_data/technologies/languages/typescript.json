@@ -1,116 +1,116 @@
 {
   "slug": "typescript",
   "seo_metadata": {
-    "title": "Enterprise TypeScript Development | Type-Safe JavaScript Architecture",
-    "description": "Professional TypeScript engineering services. We build scalable, bug-resistant, and maintainable applications using static typing and modern ECMAScript standards.",
+    "title": "企业级 TypeScript 开发 | 类型安全 JavaScript 架构",
+    "description": "专业的 TypeScript 工程服务。我们利用静态类型和现代 ECMAScript 标准，构建可扩展、抗错误且易于维护的应用程序。",
     "keywords": [
-      "TypeScript Development",
-      "Static Typing JavaScript",
-      "Type-Safe API Design",
-      "Enterprise Frontend Architecture",
-      "Node.js TypeScript Backend",
-      "TypeScript Refactoring Services",
-      "Scalable Web Infrastructure"
+      "TypeScript 开发",
+      "JavaScript 静态类型",
+      "类型安全 API 设计",
+      "企业级前端架构",
+      "Node.js TypeScript 后端",
+      "TypeScript 重构服务",
+      "可扩展 Web 基础设施"
     ]
   },
   "hero_section": {
-    "eyebrow": "JavaScript that Scales",
-    "title": "Predictable Code with",
+    "eyebrow": "可扩展的 JavaScript",
+    "title": "凭借以下技术实现可预测的代码",
     "highlight": "TypeScript",
-    "description": "Build high-confidence production systems with a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    "description": "使用构建在 JavaScript 之上的强类型编程语言，打造高可信度的生产系统，无论何种规模都能为您提供更出色的工具支持。",
     "side_image": "/technologies/type_script/hero.webp",
     "primary_cta": {
-      "text": "Start Type-Safe Build",
+      "text": "开始类型安全构建",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Technical Roadmap",
+      "text": "查看技术路线图",
       "href": "/technologies/typescript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with TypeScript",
-    "subtitle": "TypeScript provides the structural integrity required to manage massive, multi-team codebases with surgical precision.",
+    "title": "为什么我们选择使用 TypeScript 进行工程设计",
+    "subtitle": "TypeScript 提供了所需的结构完整性，能够以极高的精度管理大规模、跨团队的代码库。",
     "paragraphs": [
-      "TypeScript is our foundational choice for large-scale application development. By introducing a robust static type system to JavaScript, we catch potential errors during development rather than at runtime. This 'fail-fast' approach significantly reduces debugging time and increases the reliability of mission-critical software deployment.",
-      "Beyond error prevention, TypeScript dramatically improves developer productivity. The deep integration with modern IDEs provides intelligent auto-completion and automated refactoring tools, ensuring that as your codebase grows, it remains readable, documented by its own types, and easy for new engineers to navigate."
+      "TypeScript 是我们进行大规模应用开发的基础选择。通过为 JavaScript 引入稳健的静态类型系统，我们可以在开发阶段而非运行时捕获潜在错误。这种“快速失败”的方法显著减少了调试时间，并提升了关键任务软件部署的可靠性。",
+      "除了预防错误外，TypeScript 还大幅提升了开发者的生产力。它与现代 IDE 的深度集成提供了智能自动补全和自动化重构工具，确保随着代码库的增长，它依然保持可读性，并能够通过其自身的类型定义实现自文档化，让新工程师能够轻松上手。"
     ],
     "cards": [
       {
-        "title": "Static Type Safety",
-        "description": "Define clear data structures and interfaces to eliminate entire classes of runtime bugs before they reach production.",
+        "title": "静态类型安全性",
+        "description": "定义清晰的数据结构和接口，在运行时错误进入生产环境前消除多种类型的 Bug。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Advanced Tooling",
-        "description": "Leverage superior IDE support with instant refactoring, type checking, and intelligent code navigation.",
+        "title": "先进的工具支持",
+        "description": "利用卓越的 IDE 支持，实现即时重构、类型检查和智能代码导航。",
         "icon_type": "FaTools"
       },
       {
-        "title": "Future-Proof JS",
-        "description": "Use the latest ECMAScript features today, transpiling down to older versions of JavaScript for maximum compatibility.",
+        "title": "面向未来的 JS",
+        "description": "现在即可使用最新的 ECMAScript 特性，并转译为旧版本的 JavaScript 以实现最大的兼容性。",
         "icon_type": "FaForward"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "TypeScript Technical Scope",
+    "title": "TypeScript 技术范畴",
     "image": "/technologies/type_script/scope.webp",
     "items": [
       {
-        "title": "Domain-Driven API Design",
-        "description": "Architecting type-safe APIs using shared interfaces to ensure perfect data alignment between frontend and backend."
+        "title": "领域驱动的 API 设计",
+        "description": "使用共享接口构建类型安全的 API，确保前后端之间完美的数据对齐。"
       },
       {
-        "title": "Strict Backend Microservices",
-        "description": "Deploying robust Node.js services with NestJS or Express, utilizing decorators and DTOs for strict validation."
+        "title": "严格的后端微服务",
+        "description": "使用 NestJS 或 Express 部署稳健的 Node.js 服务，利用装饰器和 DTO 进行严格验证。"
       },
       {
-        "title": "Legacy Migration & Type-Casting",
-        "description": "Strategically migrating vanilla JavaScript stacks to TypeScript through incremental typing and high-fidelity interfaces."
+        "title": "旧系统迁移与类型转换",
+        "description": "通过增量类型化和高保真接口，有战略性地将原生 JavaScript 技术栈迁移至 TypeScript。"
       }
     ]
   },
   "edge_section": {
-    "title": "The TypeScript Edge",
-    "subtitle": "Quantifiable advantages for maintaining enterprise-grade code.",
+    "title": "TypeScript 优势",
+    "subtitle": "维护企业级代码的可量化优势。",
     "cards": [
       {
         "metric": "15%",
-        "title": "Bug Reduction",
-        "description": "Industry-standard research shows TypeScript catches a significant portion of public bugs at compile-time."
+        "title": "Bug 减少率",
+        "description": "行业标准研究显示，TypeScript 在编译阶段就能捕获很大一部分公开 Bug。"
       },
       {
         "metric": "100%",
-        "title": "Self-Documenting",
-        "description": "Type definitions act as a living contract, reducing the need for stale external documentation."
+        "title": "自文档化",
+        "description": "类型定义充当了动态契约，减少了对过时外部文档的需求。"
       },
       {
-        "metric": "Fast",
-        "title": "Refactoring",
-        "description": "Rename variables or change data structures with 100% confidence across your entire project."
+        "metric": "快速",
+        "title": "重构效率",
+        "description": "在整个项目中以 100% 的信心重命名变量或更改数据结构。"
       },
       {
-        "metric": "Zero",
-        "title": "Technical Debt",
-        "description": "Maintain clean, maintainable codebases by enforcing strict standards and clear architectural boundaries."
+        "metric": "零",
+        "title": "技术债务",
+        "description": "通过执行严格标准和清晰的架构边界，保持代码库的整洁和可维护性。"
       }
     ]
   },
   "quote_section": {
-    "quote": "TypeScript allows us to build with the speed of JavaScript while maintaining the",
-    "highlight": "integrity of an enterprise language"
+    "quote": "TypeScript 让我们在拥有 JavaScript 开发速度的同时，能够保持",
+    "highlight": "企业级语言的完整性"
   },
   "conversation_section": {
-    "title": "Architect Your Infrastructure",
-    "subtitle": "Consult with our lead technical specialists to define a scalable, type-safe roadmap for your organization.",
-    "full_name_label": "Lead Developer",
-    "business_email_label": "Corporate Email",
-    "message_label": "Strategic Requirement",
+    "title": "规划您的基础设施",
+    "subtitle": "咨询我们的首席技术专家，为您组织定义可扩展、类型安全的路线图。",
+    "full_name_label": "首席开发人员姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your TypeScript architectural challenge or migration goals...",
-    "button_text": "Request Consultation"
+    "message_placeholder": "请描述您的 TypeScript 架构挑战或迁移目标...",
+    "button_text": "申请咨询"
   }
 }

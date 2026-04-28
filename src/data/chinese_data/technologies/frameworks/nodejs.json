@@ -1,116 +1,116 @@
 {
   "slug": "nodejs",
   "seo_metadata": {
-    "title": "Scalable Node.js Development | High-Performance Backend Solutions",
-    "description": "Enterprise-grade Node.js implementation for high-concurrency systems. We leverage non-blocking I/O and V8 engine performance to build scalable, real-time backends.",
+    "title": "可扩展 Node.js 开发 | 高性能后端解决方案",
+    "description": "针对高并发系统的企业级 Node.js 实施。我们利用非阻塞 I/O 和 V8 引擎性能构建可扩展的实时后端。",
     "keywords": [
-      "Node.js Development",
-      "V8 Engine Performance",
-      "Event-Driven Architecture",
-      "Non-blocking I/O",
-      "Server-side JavaScript",
-      "Real-time Applications",
-      "npm Ecosystem Integration"
+      "Node.js 开发",
+      "V8 引擎性能",
+      "事件驱动架构",
+      "非阻塞 I/O",
+      "服务端 JavaScript",
+      "实时应用程序",
+      "npm 生态集成"
     ]
   },
   "hero_section": {
-    "eyebrow": "JavaScript Runtime Environment",
-    "title": "Asynchronous Power with",
+    "eyebrow": "JavaScript 运行时环境",
+    "title": "凭借以下技术实现异步动力",
     "highlight": "Node.js",
-    "description": "Execute JavaScript on the server side to build fast, scalable network applications capable of handling thousands of concurrent connections with a single thread.",
+    "description": "在服务端执行 JavaScript，构建能够通过单线程处理数千个并发连接的快速、可扩展网络应用。",
     "side_image": "/technologies/node_js/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Backend",
+      "text": "优化您的后端",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Technical Roadmap",
+      "text": "查看技术路线图",
       "href": "/technologies/nodejs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Node.js",
-    "subtitle": "Node.js is the cornerstone of modern, highly-available web services and real-time data streaming.",
+    "title": "为什么我们选择使用 Node.js 进行工程设计",
+    "subtitle": "Node.js 是现代高可用 Web 服务和实时数据流的基石。",
     "paragraphs": [
-      "We select Node.js for workloads requiring high throughput and low latency. Its non-blocking, event-driven I/O model makes it exceptionally efficient for data-intensive real-time applications that run across distributed devices, allowing us to build backends that remain responsive under heavy load.",
-      "By unifying our frontend and backend languages with JavaScript or TypeScript, we eliminate the friction of context switching. This single-language stack accelerates development velocity, simplifies team collaboration, and allows for shared logic across the entire application lifecycle."
+      "对于需要高吞吐量和低延迟的工作负载，我们会选择 Node.js。其非阻塞、事件驱动的 I/O 模型使其在处理跨分布式运行的数据密集型实时应用时效率极高，让我们能够构建在重负载下依然保持响应的后端。",
+      "通过使用 JavaScript 或 TypeScript 统一前后端语言，我们消除了上下文切换带来的摩擦。这种单语言技术栈加速了开发速度，简化了团队协作，并允许在整个应用生命周期中共享逻辑。"
     ],
     "cards": [
       {
-        "title": "V8 Engine Speed",
-        "description": "Powered by Google's V8 engine, Node.js compiles JavaScript directly into machine code for lightning-fast execution.",
+        "title": "V8 引擎速度",
+        "description": "依托于 Google 的 V8 引擎，Node.js 将 JavaScript 直接编译为机器代码，实现闪电般的执行速度。",
         "icon_type": "FaBolt"
       },
       {
-        "title": "Event-Loop Model",
-        "description": "Handle massive concurrency without the overhead of thread management, maximizing server resource utility.",
+        "title": "事件循环模型",
+        "description": "无需线程管理的开销即可处理海量并发，最大限度地提高服务器资源利用率。",
         "icon_type": "FaSync"
       },
       {
-        "title": "npm Ecosystem",
-        "description": "Leverage the world's largest registry of open-source libraries to accelerate feature delivery and innovation.",
+        "title": "npm 生态系统",
+        "description": "利用全球最大的开源库注册表，加速功能交付与创新。",
         "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Technical Scope",
+    "title": "技术范畴",
     "image": "/technologies/node_js/scope.webp",
     "items": [
       {
-        "title": "Real-time WebSockets",
-        "description": "Building low-latency communication layers for chat systems, live dashboards, and collaborative tools using Socket.io."
+        "title": "实时 WebSockets",
+        "description": "使用 Socket.io 为聊天系统、实时控制面板和协作工具构建低延迟通信层。"
       },
       {
-        "title": "Scalable API Gateways",
-        "description": "Orchestrating complex microservice interactions with lightweight, high-performance Node.js proxy layers."
+        "title": "可扩展 API 网关",
+        "description": "通过轻量级、高性能的 Node.js 代理层，编排复杂的微服务交互。"
       },
       {
-        "title": "Serverless Functions",
-        "description": "Deploying event-triggered logic via AWS Lambda or Google Cloud Functions for cost-effective, auto-scaling compute."
+        "title": "无服务器函数",
+        "description": "通过 AWS Lambda 或 Google Cloud Functions 部署事件触发逻辑，实现高性价比、自动扩展的计算。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Node.js Edge",
-    "subtitle": "Quantifiable performance for the modern enterprise.",
+    "title": "Node.js 优势",
+    "subtitle": "为现代企业提供可量化的性能。",
     "cards": [
       {
-        "metric": "2M+",
-        "title": "Registry Modules",
-        "description": "Access to the most extensive collection of pre-tested packages to reduce custom engineering overhead."
+        "metric": "200万+",
+        "title": "注册模块",
+        "description": "获取极其丰富的经过测试的软件包，减少自定义工程的开销。"
       },
       {
         "metric": "40%",
-        "title": "Lower Latency",
-        "description": "Reduction in response times for I/O bound applications compared to traditional synchronous environments."
+        "title": "更低延迟",
+        "description": "与传统的同步环境相比，I/O 密集型应用的响应时间缩短了 40%。"
       },
       {
-        "metric": "Single",
-        "title": "Language Stack",
-        "description": "Improve developer productivity by using JavaScript across the entire product development lifecycle."
+        "metric": "单一",
+        "title": "语言栈",
+        "description": "在整个产品开发生命周期中使用 JavaScript，提高开发人员的生产力。"
       },
       {
-        "metric": "Zero",
-        "title": "Lock-in",
-        "description": "Maintain complete control over your runtime environment across any cloud or on-premise infrastructure."
+        "metric": "零",
+        "title": "供应商锁定",
+        "description": "在任何云端或本地基础设施上保持对运行时环境的完全控制。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Node.js allows us to build network-first applications that are as fast as they are",
-    "highlight": "architecturally elegant"
+    "quote": "Node.js 让我们能够构建既快速又具有",
+    "highlight": "优雅架构的网络优先应用"
   },
   "conversation_section": {
-    "title": "Architect Your Infrastructure",
-    "subtitle": "Consult with our lead Node.js engineers to define a roadmap for high-concurrency performance.",
-    "full_name_label": "Lead Engineer",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "规划您的基础设施",
+    "subtitle": "咨询我们的首席 Node.js 工程师，为高并发性能制定路线图。",
+    "full_name_label": "首席工程师姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Node.js performance challenges or scaling requirements...",
-    "button_text": "Request Consultation"
+    "message_placeholder": "请描述您的 Node.js 性能挑战或扩展需求...",
+    "button_text": "申请咨询"
   }
 }

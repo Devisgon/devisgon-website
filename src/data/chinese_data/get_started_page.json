@@ -1,0 +1,93 @@
+{
+  "hero_title": "加入我们的团队",
+  "hero_description": "正在寻找工作或实习机会？告诉我们你的情况，上传简历，开启你在 DEVISGON 的职业旅程。",
+  "form_inactive": {
+    "title": "申请暂时关闭",
+    "description": "目前申请通道已关闭。请在下一轮招聘时再试，或订阅我们的新闻以获取更新。"
+  },
+  "no_openings": {
+    "title": "当前暂无开放岗位",
+    "description": "目前没有可申请的职位或实习项目。请稍后再查看。"
+  },
+  "form": {
+    "title": "立即申请",
+    "description": "请填写以下申请表。",
+    "labels": {
+      "full_name": "姓名 *",
+      "email": "邮箱 *",
+      "phone": "手机号 *",
+      "education": "学历 *",
+      "experience": "工作经验",
+      "portfolio": "作品集 / LinkedIn",
+      "application_type": "申请类型 *",
+      "available_programs": "可选项目 *",
+      "upload_cv": "上传简历",
+      "privacy_prefix": "我同意根据以下内容处理我的个人数据：",
+      "privacy_policy": "隐私政策"
+    },
+    "placeholders": {
+      "full_name": "请输入你的姓名",
+      "email": "your@email.com",
+      "phone": "+92 300 1234567",
+      "education": "例如：计算机科学学士",
+      "portfolio": "https://linkedin.com"
+    },
+    "experience_options": [
+      { "value": "", "label": "选择经验" },
+      { "value": "None / Fresher", "label": "无经验 / 应届生" },
+      { "value": "0-1 Years", "label": "0-1 年" },
+      { "value": "1-3 Years", "label": "1-3 年" },
+      { "value": "3+ Years", "label": "3 年以上" }
+    ],
+    "application_type_options": {
+      "placeholder": "选择类型...",
+      "job": "工作",
+      "internship": "实习"
+    },
+    "program_options": {
+      "placeholder": "选择项目...",
+      "pick_type_first": "请先选择申请类型",
+      "none_available": "该类型暂无可选项目"
+    },
+    "upload": {
+      "drop_text": "将你的简历拖拽到这里。",
+      "types_text": "PDF、DOC、DOCX，最大 5MB"
+    },
+    "buttons": {
+      "submit": "提交申请",
+      "submitting": "提交中..."
+    },
+    "status": {
+      "success": "申请提交成功！",
+      "error": "申请提交失败，请重试。",
+      "invalid_email": "请输入有效邮箱",
+      "invalid_phone": "必须以 +92 开头并包含 10 位数字"
+    }
+  },
+  "side_card": {
+    "title": "为什么加入 DEVISGON？",
+    "description": "我们是一支充满热情的开发者、设计师与创新者团队。与我们一起构建未来，让你的职业更进一步。",
+    "benefits": [
+      {
+        "title": "创新项目",
+        "description": "参与前沿项目，打造突破性的解决方案。"
+      },
+      {
+        "title": "职业成长",
+        "description": "清晰的晋升路径与专业发展机会。"
+      },
+      {
+        "title": "协作环境",
+        "description": "与优秀伙伴在支持性、包容性的环境中协作。"
+      },
+      {
+        "title": "学习机会",
+        "description": "通过实战与导师指导持续提升。"
+      }
+    ]
+  },
+  "contact": {
+    "title": "联系我们",
+    "location": "巴基斯坦，奥卡拉"
+  }
+}

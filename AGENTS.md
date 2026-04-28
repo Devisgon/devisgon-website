@@ -26,23 +26,26 @@ Required actions after each meaningful code change:
 - Most marketing and service content is loaded from JSON in `src/data/*`.
 - Industries content is JSON-driven with language files in each `src/data/*_data/industries/<category>/<slug>.json` folder.
 - Technologies content is JSON-driven with language files in category-scoped folders under `src/data/*_data/technologies/<category>/<slug>.json` (with category `index.json` for main category pages).
-- Blog list and blog detail pages are CMS-driven from Payload `blogs` collection.
+- Blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
+- Newsletter subscribers are stored in Payload `newsletter-subscribers` (PostgreSQL/Supabase table) and used for update broadcasts.
 - Contact and apply forms post to internal API routes, then send email via Resend.
-- Navbar, footer, and contact-page UI copy are language-aware through `src/lib/localized-content.ts` and per-language JSON data files in `src/data/*_data`.
-- Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; newsletter remains handled by `src/components/footer_newsletter_form.tsx`.
+- Footer newsletter form posts to internal `/api/newsletter_subscribe`, stores subscribers, and sends confirmation emails.
+- Navbar, footer, contact-page, and get-started-page UI copy are language-aware through `src/lib/localized-content.ts` and per-language JSON data files in `src/data/*_data`.
+- Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; newsletter form copy/errors/buttons are language-aware in `src/components/footer_newsletter_form.tsx`.
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
 - Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`.
 
 ## Route Flow
 ### Public Pages
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
+- Home blogs preview route segment (`src/components/home_page/blogs.tsx`) resolves `lang` from cookie and injects localized `home_page.blog_section` heading/subheading before rendering shared blog list.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
 - `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Industries dropdown columns (`Healthcare`, `Professional`, `Trades`, `Entertainment`, `Agriculture`, `Real Estate`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
-- `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` queries Payload `blogs` (published only, locale from cookie).
-- `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug and renders lexical rich text.
+- `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` query all published Payload `blogs` and auto-translate blog title/category to the selected language before rendering; blog hero copy and list UI labels resolve by selected language.
+- `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug (published only), auto-translates title + lexical rich text + recent-post titles to selected language, and renders translated lexical rich text.
 - `/contact` -> `src/app/(app)/contact/page.tsx` resolves `lang` from cookie, injects localized `contact_page.json` content into `src/components/contact_page/contact_page_client.tsx`, and client form posts to `/api/contact_mail`.
-- `/get-started` -> `src/app/(app)/get-started/page.tsx` client form posts to `/api/apply_mail`, pulls careers and form global settings from Payload REST endpoints.
+- `/get-started` -> `src/app/(app)/get-started/page.tsx` server wrapper (`dynamic = "force-dynamic"`) renders `src/components/get_started/get_started_client.tsx`; client form posts to `/api/apply_mail`, pulls careers and form global settings from Payload REST endpoints, localizes UI copy from `get_started_page.json` by cookie language, and only shows `Job`/`Internship` application types that currently have active programs.
 - `/privacy_policies` and `/terms_condition` -> server components reading language-specific JSON by cookie.
 
 ### Service Detail Pages
@@ -97,7 +100,9 @@ All service detail routes share one rendering pattern:
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
 - Navbar labels/dropdowns are sourced from `src/data/navbar.json` (English) and `src/data/*_data/navbar.json` (localized variants), resolved by `src/lib/localized-content.ts`.
 - Footer copy is sourced from `src/data/*_data/footer.json`.
+- Footer column titles and link labels are language-specific in `src/data/*_data/footer.json`; newsletter placeholder/button/validation/success copy is localized in component state maps.
 - Contact-page UI copy is sourced from `src/data/*_data/contact_page.json`.
+- Get-started page UI copy is sourced from `src/data/*_data/get_started_page.json`.
 - Technologies data is organized by main category folders:
   - `technologies/languages/index.json` + language subcategory files (for example `java.json`, `python.json`),
   - `technologies/frameworks/index.json` + framework subcategory files (for example `react.json`, `nestjs.json`),
@@ -122,10 +127,11 @@ Defined in `src/payload.config.ts`:
 - Collections:
   - `users` (auth enabled)
   - `media` (uploads + alt text)
-  - `blogs` (title, slug hook, cover image, author, date, rich text content, status)
+  - `blogs` (title, slug hook, cover image, author, date, rich text content, status, after-change newsletter notifications on published/create-update)
   - `careers` (title, type, isActive)
+  - `newsletter-subscribers` (email, isActive; stores newsletter recipients in DB table)
 - Global:
-  - `form-settings` (`isGetStartedFormActive`)
+  - `form-settings` (`isGetStartedFormActive`; after-change newsletter notifications when application form opens/closes)
 - DB: PostgreSQL adapter with `DATABASE_URL`.
 - Upload storage: S3-compatible storage via Payload S3 plugin.
 
@@ -138,6 +144,10 @@ Defined in `src/payload.config.ts`:
 - `POST /api/apply_mail`:
   - similar flow for application form,
   - includes applicant details and CV attachment.
+- `POST /api/newsletter_subscribe`:
+  - validates and normalizes email,
+  - upserts active subscriber into Payload `newsletter-subscribers`,
+  - sends subscription confirmation email via Resend.
 
 ### Payload-Generated Routes
 - REST: `src/app/(payload)/api/[...slug]/route.ts`
@@ -149,10 +159,12 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 
 ## i18n Behavior
 - Language selector (`src/components/language_switch_component.tsx`) sets `lang` cookie, dispatches `app-language-change`, and calls `router.refresh()`.
+- Language normalization includes locale aliases (for example `zh-CN`, `zh-Hans`, `cn` -> `zh`) in both `src/lib/language.ts` and `src/lib/localized-content.ts`.
 - Server pages (home/services/privacy/terms/blog listing) read cookie for language.
 - Industries main page reads cookie for language.
 - Navbar and footer read localized JSON content using the selected `lang` value.
 - Contact page copy is injected from `src/data/*_data/contact_page.json` based on cookie language.
+- Get-started page copy is injected from `src/data/*_data/get_started_page.json` based on cookie language.
 - Service detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
 - Industry detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
 - Client-side i18next payload loading has been removed from root layout to reduce JS parsing and hydration cost.
@@ -185,6 +197,11 @@ Required by runtime code:
 - `NEXT_PUBLIC_CALENDLY_30_MIN_MEETING`
 - `NEXT_PUBLIC_CALENDLY_60_MIN_MEETING`
 
+Optional for blog auto-translation tuning:
+- `BLOG_TRANSLATE_ENGINE` (e.g. `google`, `deepl`, `libre`)
+- `BLOG_TRANSLATE_KEY` (required for engines that need an API key)
+- `BLOG_TRANSLATE_URL` (custom endpoint for self-hosted translation engines)
+
 ## Operational Commands
 - Dev: `npm run dev`
 - Dev (force clean cache once): `npm run dev:clean`
@@ -205,9 +222,12 @@ If you change this, also check this:
 - Technology section schema -> dedicated technology components under `src/components/technologies` + `src/types/technologies_page`.
 - Theme variable updates in `src/app/(app)/globals.css` also affect `src/components/technologies/*` since technology sections now use global color utility classes end-to-end.
 - Blog fields -> `src/collections/Blogs.ts` + blog listing/detail components.
-- Career/form toggle behavior -> `src/globals/FormSettings.ts`, team section CTA visibility, and get-started redirect logic.
+- Newsletter subscriber schema or email flow -> `src/collections/NewsletterSubscribers.ts` + `src/app/(app)/api/newsletter_subscribe/route.ts` + `src/lib/newsletter.ts` + `src/components/footer_newsletter_form.tsx`.
+- Blog language behavior -> single-source published queries in `src/components/blogs_page/blogs.tsx` and `src/app/(app)/blogs/[slug]/page.tsx` + server auto-translation helpers in `src/lib/blog-language.ts` + localized blogs-page UI copy/labels in `src/app/(app)/blogs/page.jsx` and `src/components/blogs_page/blogs_ui.tsx`.
+- Career/form toggle behavior -> `src/globals/FormSettings.ts`, team section CTA visibility, get-started redirect logic, and dynamic `Job`/`Internship` option visibility driven by active careers.
+- Campaign notifications -> hooks in `src/collections/Blogs.ts`, `src/collections/Careers.ts`, and `src/globals/FormSettings.ts` that trigger subscriber broadcasts via Resend.
 - Language behavior -> cookie-based server pages + query-param service detail pages + `context/i18n.js`.
-- Navbar/footer/contact localization data -> `src/lib/localized-content.ts` + `src/data/*_data/{navbar,footer,contact_page}.json`.
+- Navbar/footer/contact/get-started localization data -> `src/lib/localized-content.ts` + `src/data/*_data/{navbar,footer,contact_page,get_started_page}.json`.
 - API payload fields -> matching form fields in `contact/page.tsx` or `get-started/page.tsx`.
 - SEO keywords, page metadata, or JSON-LD sitelinks -> `src/lib/seo.ts` + `src/app/(app)/layout.tsx` + relevant page metadata exports.
 
@@ -266,3 +286,13 @@ If you change this, also check this:
 - 2026-04-24: Removed unused `.png`/`.svg` files from `public` after reference audit, retaining only actively referenced SVG (`/services_page/hero_bg.svg`) and webp-based assets.
 - 2026-04-27: Fixed `scripts/translate_services.mjs` to translate the full `english_data/technologies` tree and `technologies_page.json` into all language folders (including Chinese) and regenerated localized technology JSON files.
 - 2026-04-27: Added language-aware navbar/footer/contact localization flow (`src/lib/localized-content.ts`), generated localized `navbar.json`, `footer.json`, and `contact_page.json` datasets for all supported languages, wired `/contact` to cookie-resolved content, and updated `scripts/translate_services.mjs` to full `english_data` website translation scope.
+- 2026-04-28: Localized `/get-started` page copy via new per-language `get_started_page.json` datasets and updated form logic to only show application types (`Job`/`Internship`) when active programs exist for that type.
+- 2026-04-28: Split `/get-started` into a server route wrapper plus `get_started_client` component and set the route to `force-dynamic` to avoid prerender-time runtime errors.
+- 2026-04-28: Rolled back schema-level Payload blog localization changes to restore admin/blog stability, while keeping language-aware UI labels on blogs pages.
+- 2026-04-28: Added document-level `language` field to Payload blogs and updated blog list/detail queries to serve selected-language posts with English/legacy fallback.
+- 2026-04-28: Added blog UI category reset on language change and switched blog slug uniqueness to per-language validation so one translated post per language can share the same slug.
+- 2026-04-28: Switched blogs to single-entry publishing with server-side auto-translation by selected language (title/category/rich text/recent titles), removed language-dependent blog filtering, and restored global unique slugs.
+- 2026-04-28: Hardened language normalization for locale variants (`zh-CN`, `zh-Hans`, `cn`) and added Chinese translation target fallbacks (`zh-CN` -> `zh` -> `zh-Hans`) to ensure blogs render correctly in Chinese.
+- 2026-04-28: Added strict non-English post-processing for blogs in `ur`/`ar`/`zh` to strip leftover Latin-word tokens when translation providers fail, and translated author/byline text on blog list/detail/recent cards to avoid visible English leftovers.
+- 2026-04-28: Localized home-page blog hero heading/subheading by cookie language and fully localized footer labels/newsletter form copy (titles, links, placeholders, button, and validation/success messages) across supported languages.
+- 2026-04-28: Implemented functional newsletter subscriptions with `/api/newsletter_subscribe`, added `newsletter-subscribers` collection for DB-backed subscriber storage, wired footer form submission, and added Resend broadcast hooks for blog publish/update, career open/update, and get-started form open/close updates.

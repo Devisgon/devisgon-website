@@ -22,6 +22,14 @@ import contactDe from "@/data/german_data/contact_page.json";
 import contactEs from "@/data/spanish_data/contact_page.json";
 import contactUr from "@/data/urdu_data/contact_page.json";
 
+import getStartedEn from "@/data/english_data/get_started_page.json";
+import getStartedAr from "@/data/arabic_data/get_started_page.json";
+import getStartedZh from "@/data/chinese_data/get_started_page.json";
+import getStartedFr from "@/data/french_data/get_started_page.json";
+import getStartedDe from "@/data/german_data/get_started_page.json";
+import getStartedEs from "@/data/spanish_data/get_started_page.json";
+import getStartedUr from "@/data/urdu_data/get_started_page.json";
+
 export const SUPPORTED_LANGUAGES = ["en", "ur", "ar", "zh", "es", "de", "fr"] as const;
 export type SupportedLanguage = (typeof SUPPORTED_LANGUAGES)[number];
 
@@ -55,13 +63,41 @@ const contactByLang = {
   ur: contactUr,
 } as const;
 
+const getStartedByLang = {
+  en: getStartedEn,
+  ar: getStartedAr,
+  zh: getStartedZh,
+  fr: getStartedFr,
+  de: getStartedDe,
+  es: getStartedEs,
+  ur: getStartedUr,
+} as const;
+
 export type NavbarContent = typeof navbarEn;
 export type FooterContent = typeof footerEn;
 export type ContactPageContent = typeof contactEn;
+export type GetStartedPageContent = typeof getStartedEn;
 
 export function normalizeLanguage(language: string | null | undefined): SupportedLanguage {
-  if (language && SUPPORTED_LANGUAGES.includes(language as SupportedLanguage)) {
-    return language as SupportedLanguage;
+  if (!language) return "en";
+
+  const raw = language.toLowerCase().trim();
+  const aliases: Record<string, SupportedLanguage> = {
+    "zh-cn": "zh",
+    "zh-hans": "zh",
+    "zh-hant": "zh",
+    cn: "zh",
+  };
+
+  if (aliases[raw]) return aliases[raw];
+
+  if (SUPPORTED_LANGUAGES.includes(raw as SupportedLanguage)) {
+    return raw as SupportedLanguage;
+  }
+
+  const base = raw.split("-")[0];
+  if (SUPPORTED_LANGUAGES.includes(base as SupportedLanguage)) {
+    return base as SupportedLanguage;
   }
 
   return "en";
@@ -77,4 +113,8 @@ export function getFooterDataByLang(language: string | null | undefined): Footer
 
 export function getContactPageDataByLang(language: string | null | undefined): ContactPageContent {
   return contactByLang[normalizeLanguage(language)] ?? contactByLang.en;
+}
+
+export function getGetStartedPageDataByLang(language: string | null | undefined): GetStartedPageContent {
+  return getStartedByLang[normalizeLanguage(language)] ?? getStartedByLang.en;
 }

@@ -1,116 +1,116 @@
 {
   "slug": "java",
   "seo_metadata": {
-    "title": "Enterprise Java Development | Scalable JVM Architecture Services",
-    "description": "Custom Java software engineering for high-concurrency enterprise applications. We architect secure, stable, and scalable systems using Spring Boot and modern JVM optimization.",
+    "title": "企业级 Java 开发 | 可扩展 JVM 架构服务",
+    "description": "针对高并发企业应用的定制化 Java 软件工程。我们利用 Spring Boot 和现代 JVM 优化技术，构建安全、稳定且可扩展的系统。",
     "keywords": [
-      "Enterprise Java Development",
-      "Spring Boot Microservices",
-      "JVM Performance Tuning",
-      "Java Software Architecture",
-      "Backend Systems Engineering",
-      "Multi-threaded Java Applications",
-      "Jakarta EE Solutions"
+      "企业级 Java 开发",
+      "Spring Boot 微服务",
+      "JVM 性能调优",
+      "Java 软件架构",
+      "后端系统工程",
+      "多线程 Java 应用程序",
+      "Jakarta EE 解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "Enterprise-Grade Reliability",
-    "title": "Proven Stability with",
-    "highlight": "The Java Platform",
-    "description": "Build resilient, cross-platform enterprise systems with a language designed for security, high-concurrency, and long-term maintainability.",
+    "eyebrow": "企业级可靠性",
+    "title": "凭借以下技术实现经受验证的稳定性",
+    "highlight": "Java 平台",
+    "description": "使用专为安全、高并发和长期可维护性设计的语言，构建具有韧性的跨平台企业系统。",
     "side_image": "/technologies/java/hero.webp",
     "primary_cta": {
-      "text": "Architect Your System",
+      "text": "规划您的系统架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Technical Roadmap",
+      "text": "技术路线图",
       "href": "/technologies/java#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Java",
-    "subtitle": "Java provides the structural discipline and ecosystem depth required for mission-critical software.",
+    "title": "为什么我们选择使用 Java 进行工程设计",
+    "subtitle": "Java 为关键任务软件提供了所需的结构化规范和生态深度。",
     "paragraphs": [
-      "Java is our cornerstone for building complex, multi-layered enterprise applications. Its strict type-safety, robust memory management via advanced Garbage Collection, and the high-performance Java Virtual Machine (JVM) ensure that applications remain stable under massive transactional loads.",
-      "By leveraging the vast Spring ecosystem—including Spring Boot and Spring Cloud—we deliver microservices that are inherently observable, securable, and ready for cloud-native deployment. This mature framework support allows us to focus on solving complex business logic while the platform handles the underlying infrastructure."
+      "Java 是我们构建复杂、多层企业级应用的基石。其严格的类型安全性、通过高级垃圾回收实现的稳健内存管理，以及高性能的 Java 虚拟机 (JVM)，确保了应用程序在海量事务负载下依然保持稳定。",
+      "通过利用庞大的 Spring 生态系统（包括 Spring Boot 和 Spring Cloud），我们交付的微服务天生具备可观测性、安全性和云原生部署能力。这种成熟的框架支持让我们能够专注于解决复杂的业务逻辑，而基础设施底层的处理则交给平台完成。"
     ],
     "cards": [
       {
-        "title": "JVM Performance",
-        "description": "Leverage Just-In-Time (JIT) compilation and optimized memory management for high-throughput execution.",
+        "title": "JVM 性能",
+        "description": "利用即时 (JIT) 编译和优化的内存管理，实现高吞吐量的执行效率。",
         "icon_type": "FaTachometerAlt"
       },
       {
-        "title": "Strong Type Safety",
-        "description": "Enforce architectural boundaries and catch errors at compile-time to ensure code integrity across large teams.",
+        "title": "强类型安全性",
+        "description": "强制执行架构边界并在编译时捕获错误，确保大型团队间的代码完整性。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Enterprise Ecosystem",
-        "description": "Access world-class libraries for security, persistence (Hibernate), and messaging (Kafka/JMS).",
+        "title": "企业级生态系统",
+        "description": "获取用于安全、持久化 (Hibernate) 和消息传递 (Kafka/JMS) 的世界级库支持。",
         "icon_type": "FaServer"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Java Technical Scope",
+    "title": "Java 技术范畴",
     "image": "/technologies/java/scope.webp",
     "items": [
       {
-        "title": "Cloud-Native Microservices",
-        "description": "Architecting containerized services with Spring Boot and Quarkus for rapid scaling in Kubernetes environments."
+        "title": "云原生微服务",
+        "description": "使用 Spring Boot 和 Quarkus 构建容器化服务，以便在 Kubernetes 环境中快速扩展。"
       },
       {
-        "title": "High-Concurrency Processing",
-        "description": "Utilizing Java’s advanced multi-threading and Virtual Threads (Project Loom) for high-performance data processing."
+        "title": "高并发处理",
+        "description": "利用 Java 先进的多线程技术和虚拟线程 (Project Loom) 进行高性能数据处理。"
       },
       {
-        "title": "Distributed Legacy Integration",
-        "description": "Bridging mission-critical legacy systems with modern cloud architectures through secure API gateways and RMI."
+        "title": "分布式遗留系统集成",
+        "description": "通过安全的 API 网关和 RMI，将关键任务遗留系统与现代云架构连接起来。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Java Competitive Edge",
-    "subtitle": "Quantifiable advantages for long-term product success.",
+    "title": "Java 竞争优势",
+    "subtitle": "为产品长期成功提供的可量化优势。",
     "cards": [
       {
         "metric": "99.99%",
-        "title": "Uptime Reliability",
-        "description": "Decades of battle-testing in financial and telecommunications sectors ensure unrivaled stability."
+        "title": "运行可靠性",
+        "description": "在金融和电信领域数千次的实战检验，确保了无可比拟的稳定性。"
       },
       {
-        "metric": "Write Once",
-        "title": "Run Anywhere",
-        "description": "The JVM ensures your code behaves consistently across Linux, Windows, and Cloud environments."
+        "metric": "一次编写",
+        "title": "到处运行",
+        "description": "JVM 确保您的代码在 Linux、Windows 和云环境中的表现保持高度一致。"
       },
       {
-        "metric": "Scalable",
-        "title": "Concurrency",
-        "description": "Efficiently handle thousands of simultaneous connections with mature threading models."
+        "metric": "可扩展",
+        "title": "并发能力",
+        "description": "通过成熟的线程模型，高效处理成千上万个并发连接。"
       },
       {
-        "metric": "Zero",
-        "title": "Maintenance Risk",
-        "description": "Strict backward compatibility and Long-Term Support (LTS) versions protect your technical investment."
+        "metric": "零",
+        "title": "维护风险",
+        "description": "严格的向下兼容性和长期支持 (LTS) 版本保护了您的技术投资。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Java allows us to hide the complexity of distributed systems behind",
-    "highlight": "disciplined architecture"
+    "quote": "Java 让我们能够将分布式系统的复杂性隐藏在",
+    "highlight": "严谨的架构之后"
   },
   "conversation_section": {
-    "title": "Design Your Enterprise Layer",
-    "subtitle": "Consult with our lead Java specialists to architect a secure, scalable roadmap for your digital infrastructure.",
-    "full_name_label": "Lead Architect Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Technical Requirement",
+    "title": "构建您的企业级架构层",
+    "subtitle": "咨询我们的首席 Java 专家，为您数字基础设施规划安全、可扩展的路线图。",
+    "full_name_label": "首席架构师姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "技术需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your backend scaling goals or JVM performance challenges...",
-    "button_text": "Request a Consultation"
+    "message_placeholder": "请描述您的后端扩展目标或 JVM 性能挑战...",
+    "button_text": "申请咨询"
   }
 }

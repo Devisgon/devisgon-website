@@ -1,116 +1,116 @@
 {
   "slug": "laravel",
   "seo_metadata": {
-    "title": "Enterprise Laravel Development | Elegant PHP Framework Solutions",
-    "description": "Custom Laravel web development services. We architect scalable, secure, and maintainable applications using PHP's most powerful MVC framework.",
+    "title": "企业级 Laravel 开发 | 优雅的 PHP 框架解决方案",
+    "description": "定制化 Laravel Web 开发服务。我们使用 PHP 最强大的 MVC 框架构建可扩展、安全且易于维护的应用程序。",
     "keywords": [
-      "Laravel Development",
-      "PHP MVC Framework",
+      "Laravel 开发",
+      "PHP MVC 框架",
       "Eloquent ORM",
-      "Laravel Forge Deployment",
-      "Custom API Development",
-      "Laravel Vapor Serverless",
-      "Full-Stack PHP Solutions"
+      "Laravel Forge 部署",
+      "定制 API 开发",
+      "Laravel Vapor 无服务器",
+      "全栈 PHP 解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "The PHP Framework for Web Artisans",
-    "title": "Elegant Engineering with",
+    "eyebrow": "为 Web 工匠打造的 PHP 框架",
+    "title": "凭借以下技术实现优雅工程",
     "highlight": "Laravel",
-    "description": "Build modern, full-stack web applications with a framework that prioritizes clean code, developer happiness, and enterprise-scale robustness.",
+    "description": "使用优先考虑代码简洁、开发者幸福感和企业级健壮性的框架，构建现代全栈 Web 应用程序。",
     "side_image": "/technologies/laravel/hero.webp",
     "primary_cta": {
-      "text": "Start Your Build",
+      "text": "开始构建",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Explore Ecosystem",
+      "text": "探索生态系统",
       "href": "/technologies/laravel#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Laravel",
-    "subtitle": "Laravel provides the most comprehensive ecosystem for rapid development without sacrificing architectural integrity.",
+    "title": "为什么我们选择使用 Laravel 进行工程设计",
+    "subtitle": "Laravel 提供了最全面的生态系统，可在不牺牲架构完整性的情况下实现快速开发。",
     "paragraphs": [
-      "Laravel is our go-to choice for complex, content-rich, or transactional web applications. Its 'batteries-included' approach—featuring built-in authentication, mail services, and queue management—allows us to focus on building unique business features rather than reinventing core infrastructure.",
-      "By utilizing Eloquent ORM and the Blade templating engine, we create codebases that are not only performant but also highly readable. This ensures that the applications we build are easy to audit, maintain, and hand off to internal teams as they grow."
+      "Laravel 是我们处理复杂、内容丰富或事务性 Web 应用程序的首选。其“开箱即用”的方法——涵盖了内置身份验证、邮件服务和队列管理——使我们能够专注于构建独特的业务功能，而不是重复开发核心基础设施。",
+      "通过利用 Eloquent ORM 和 Blade 模板引擎，我们创建的代码库不仅性能卓越，而且具有极高的可读性。这确保了我们构建的应用程序易于审计、维护，并能随着内部团队的壮大轻松完成交接。"
     ],
     "cards": [
       {
         "title": "Eloquent ORM",
-        "description": "Manage database records with an expressive, beautiful syntax that makes complex queries simple and readable.",
+        "description": "使用富有表现力且美观的语法管理数据库记录，使复杂的查询变得简单易读。",
         "icon_type": "FaDatabase"
       },
       {
-        "title": "Robust Security",
-        "description": "Protection against SQL injection, cross-site request forgery, and cross-site scripting is built into the core.",
+        "title": "稳健的安全性",
+        "description": "核心内置了针对 SQL 注入、跨站请求伪造 (CSRF) 和跨站脚本攻击 (XSS) 的防护功能。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Scalable Queues",
-        "description": "Offload time-consuming tasks to background workers to keep your application's user interface lightning-fast.",
+        "title": "可扩展队列",
+        "description": "将耗时的任务卸载到后台工作进程中，确保您的应用程序用户界面始终保持闪电般的响应速度。",
         "icon_type": "FaTasks"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Framework Scope",
+    "title": "框架范畴",
     "image": "/technologies/laravel/scope.webp",
     "items": [
       {
-        "title": "Modular Monoliths",
-        "description": "Structuring applications using the traditional MVC pattern while maintaining modularity for easier transitions to microservices."
+        "title": "模块化单体架构",
+        "description": "使用传统的 MVC 模式构建应用程序，同时保持模块化，以便将来能够更轻松地过渡到微服务。"
       },
       {
-        "title": "Real-time Events",
-        "description": "Integrating Laravel Echo and Pusher/Reverb to build real-time notifications and live data updates."
+        "title": "实时事件",
+        "description": "集成 Laravel Echo 和 Pusher/Reverb 以构建实时通知和实时数据更新功能。"
       },
       {
-        "title": "Serverless & Cloud Ops",
-        "description": "Deploying at scale using Laravel Vapor for AWS Lambda or Forge for high-performance managed server clusters."
+        "title": "无服务器与云运营",
+        "description": "使用适用于 AWS Lambda 的 Laravel Vapor 或用于高性能托管服务器集群的 Forge 实现大规模部署。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Laravel Edge",
-    "subtitle": "Strategic advantages for modern business delivery.",
+    "title": "Laravel 优势",
+    "subtitle": "现代业务交付的战略优势。",
     "cards": [
       {
-        "metric": "Fast",
-        "title": "Onboarding",
-        "description": "Clear conventions and extensive documentation reduce the learning curve for new developers."
+        "metric": "快速",
+        "title": "人才上手",
+        "description": "清晰的约定和详尽的文档降低了新开发人员的学习曲线。"
       },
       {
         "metric": "99.9%",
-        "title": "Code Safety",
-        "description": "Utilizing PHP 8+ features and Laravel's testing suite to ensure high-confidence deployments."
+        "title": "代码安全",
+        "description": "利用 PHP 8+ 特性和 Laravel 的测试套件，确保高可信度的部署。"
       },
       {
-        "metric": "20k+",
-        "title": "Packages",
-        "description": "A massive community (Packagist) providing modules for payment gateways, social auth, and more."
+        "metric": "2万+",
+        "title": "扩展包",
+        "description": "庞大的社区 (Packagist) 提供了用于支付网关、社交登录等的各种模块。"
       },
       {
-        "metric": "Zero",
-        "title": "Debt Growth",
-        "description": "Strict adherence to PSR standards ensures your codebase remains modern and compatible with future PHP versions."
+        "metric": "零",
+        "title": "技术债务增长",
+        "description": "严格遵循 PSR 标准，确保您的代码库保持现代性并兼容未来的 PHP 版本。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Laravel frees developers to create while the framework handles the",
-    "highlight": "architectural heavy lifting"
+    "quote": "Laravel 让开发人员得以自由创作，而框架则处理了所有的",
+    "highlight": "底层架构重任"
   },
   "conversation_section": {
-    "title": "Architect Your Next Venture",
-    "subtitle": "Consult with our Laravel experts to build a scalable, secure web solution tailored to your business needs.",
-    "full_name_label": "Lead Developer",
-    "business_email_label": "Corporate Email",
-    "message_label": "Project Scope",
+    "title": "规划您的下一个项目",
+    "subtitle": "咨询我们的 Laravel 专家，根据您的业务需求构建可扩展、安全的 Web 解决方案。",
+    "full_name_label": "首席开发人员姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "项目范畴",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your Laravel vision or complex backend requirements...",
-    "button_text": "Request a Quote"
+    "message_placeholder": "请描述您的 Laravel 构想或复杂的后端需求...",
+    "button_text": "索取报价"
   }
 }

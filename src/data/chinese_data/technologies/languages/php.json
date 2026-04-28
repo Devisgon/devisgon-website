@@ -1,116 +1,116 @@
 {
   "slug": "php",
   "seo_metadata": {
-    "title": "Modern PHP Development | Scalable Server-Side Engineering",
-    "description": "Expert PHP software development services. We build high-performance, secure, and maintainable web applications using modern PHP 8+ standards and optimized runtime environments.",
+    "title": "现代 PHP 开发 | 可扩展服务端工程服务",
+    "description": "专业的 PHP 软件开发服务。我们利用现代 PHP 8+ 标准和优化的运行时环境，构建高性能、安全且易于维护的 Web 应用程序。",
     "keywords": [
-      "Modern PHP Development",
-      "Server-side Programming",
-      "PHP 8 JIT Compilation",
-      "Full-stack PHP Solutions",
-      "Backend Web Architecture",
-      "PHP Security Best Practices",
-      "Scalable Web Services"
+      "现代 PHP 开发",
+      "服务端编程",
+      "PHP 8 JIT 编译",
+      "全栈 PHP 解决方案",
+      "后端 Web 架构",
+      "PHP 安全最佳实践",
+      "可扩展 Web 服务"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Engine of the Modern Web",
-    "title": "Dynamic Power with",
-    "highlight": "Modern PHP",
-    "description": "Leverage the language that powers over 75% of the web to build fast, secure, and highly scalable server-side applications with modern 8.x features.",
+    "eyebrow": "现代 Web 的引擎",
+    "title": "凭借以下技术实现动态动力",
+    "highlight": "现代 PHP",
+    "description": "利用驱动全球超过 75% 网站的语言，结合现代 8.x 特性，构建快速、安全且高度可扩展的服务端应用。",
     "side_image": "/technologies/php/hero.webp",
     "primary_cta": {
-      "text": "Consult an Expert",
+      "text": "咨询专家",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Technical Roadmap",
+      "text": "技术路线图",
       "href": "/technologies/php#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with PHP",
-    "subtitle": "PHP offers an unrivaled balance of development speed, massive ecosystem support, and server-side efficiency.",
+    "title": "为什么我们选择使用 PHP 进行工程设计",
+    "subtitle": "PHP 在开发速度、海量生态支持和服务端效率之间取得了无可比拟的平衡。",
     "paragraphs": [
-      "PHP is our primary choice for building robust web backends and content-heavy platforms. With the release of PHP 8.x, the language has seen significant performance leaps through JIT (Just-In-Time) compilation and enhanced type safety, making it a formidable competitor for high-concurrency enterprise environments.",
-      "Beyond its performance, PHP’s greatest strength is its deployment flexibility. It integrates seamlessly with almost all modern cloud infrastructures and databases, allowing our teams to deliver reliable software with lower operational overhead and faster iteration cycles."
+      "PHP 是我们构建健壮 Web 后端和内容密集型平台的全能选择。随着 PHP 8.x 的发布，该语言通过 JIT（即时）编译和增强的类型安全性实现了性能飞跃，使其成为高并发企业环境中的强力竞争者。",
+      "除了性能之外，PHP 最大的优势在于其部署的灵活性。它能与几乎所有现代云基础设施和数据库无缝集成，使我们的团队能够以更低的运营开销和更快的迭代周期交付可靠的软件。"
     ],
     "cards": [
       {
-        "title": "PHP 8 Performance",
-        "description": "Utilize JIT compilation and improved execution kernels for significantly faster request processing.",
+        "title": "PHP 8 性能",
+        "description": "利用 JIT 编译和改进的执行内核，显著提升请求处理速度。",
         "icon_type": "FaBolt"
       },
       {
-        "title": "Strict Typing",
-        "description": "Implement modern type-hinting and attributes to ensure code reliability and catch errors early in development.",
+        "title": "严格类型",
+        "description": "实施现代类型提示和属性 (Attributes)，确保代码可靠性并在开发早期捕获错误。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Massive Ecosystem",
-        "description": "Access millions of battle-tested packages via Composer for everything from security to payment processing.",
+        "title": "海量生态系统",
+        "description": "通过 Composer 获取数百万个经过实战检验的扩展包，涵盖从安全到支付处理的各个领域。",
         "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Technical Scope",
+    "title": "技术范畴",
     "image": "/technologies/php/scope.webp",
     "items": [
       {
-        "title": "Scalable Web Applications",
-        "description": "Architecting high-traffic platforms using modern PHP design patterns and optimized FPM configurations."
+        "title": "可扩展 Web 应用",
+        "description": "使用现代 PHP 设计模式和优化的 FPM 配置，构建高流量平台架构。"
       },
       {
-        "title": "REST & GraphQL APIs",
-        "description": "Building powerful, documented API layers that serve as the backbone for mobile and frontend applications."
+        "title": "REST 与 GraphQL API",
+        "description": "构建强大且文档齐全的 API 层，作为移动端和前端应用的骨干支撑。"
       },
       {
-        "title": "Serverless PHP",
-        "description": "Deploying event-driven logic and workers using Bref and AWS Lambda for cost-effective scaling."
+        "title": "无服务器 PHP",
+        "description": "使用 Bref 和 AWS Lambda 部署事件驱动逻辑和工作进程，实现高性价比的扩展。"
       }
     ]
   },
   "edge_section": {
-    "title": "The PHP Advantage",
-    "subtitle": "Strategic competitive gains for your web infrastructure.",
+    "title": "PHP 优势",
+    "subtitle": "为您 Web 基础设施提供的战略竞争优势。",
     "cards": [
       {
-        "metric": "Fast",
-        "title": "Deployment",
-        "description": "Unmatched speed from development to production thanks to a mature deployment ecosystem."
+        "metric": "快速",
+        "title": "部署能力",
+        "description": "得益于成熟的部署生态系统，实现从开发到生产的无缝快速切换。"
       },
       {
         "metric": "99.9%",
-        "title": "Compatibility",
-        "description": "Native support across every major cloud provider and hosting environment globally."
+        "title": "兼容性",
+        "description": "原生支持全球每一家主流云服务商和托管环境。"
       },
       {
-        "metric": "2M+",
-        "title": "Open Libraries",
-        "description": "Leverage a vast ocean of pre-tested technical modules to accelerate product delivery."
+        "metric": "200万+",
+        "title": "开源库",
+        "description": "利用海量的预测试技术模块，加速产品交付周期。"
       },
       {
-        "metric": "Zero",
-        "title": "Licensing Cost",
-        "description": "Open-source core ensures your technical budget goes toward innovation rather than fees."
+        "metric": "零",
+        "title": "授权成本",
+        "description": "开源核心确保您的技术预算用于创新而非支付许可费用。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Modern PHP provides the practical path to turn complex business ideas into",
-    "highlight": "scalable web reality"
+    "quote": "现代 PHP 为将复杂的业务构想转化为以下目标提供了务实路径",
+    "highlight": "可扩展的 Web 现实"
   },
   "conversation_section": {
-    "title": "Architect Your Web Core",
-    "subtitle": "Consult with our lead technical specialists to define a scalable PHP roadmap for your digital platform.",
-    "full_name_label": "Lead Developer",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "构建您的 Web 核心",
+    "subtitle": "咨询我们的首席技术专家，为您数字平台定义可扩展的 PHP 路线图。",
+    "full_name_label": "首席开发人员姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your PHP scaling goals or architectural challenges...",
-    "button_text": "Request Consultation"
+    "message_placeholder": "请描述您的 PHP 扩展目标或架构挑战...",
+    "button_text": "申请咨询"
   }
 }

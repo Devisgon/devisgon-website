@@ -1,116 +1,116 @@
 {
   "slug": "supabase",
   "seo_metadata": {
-    "title": "Enterprise Supabase Development | PostgreSQL & Realtime Backend Solutions",
-    "description": "Professional Supabase implementation services. Build scalable, secure applications with automated APIs, real-time database subscriptions, and enterprise-grade Auth.",
+    "title": "企业级 Supabase 开发 | PostgreSQL 与实时后端解决方案",
+    "description": "专业的 Supabase 实施服务。构建具有自动化 API、实时数据库订阅和企业级身份验证 (Auth) 的可扩展、安全应用程序。",
     "keywords": [
-      "Supabase Development",
-      "PostgreSQL Architecture",
-      "Realtime Database",
-      "Row Level Security (RLS)",
-      "BaaS Solutions",
+      "Supabase 开发",
+      "PostgreSQL 架构",
+      "实时数据库",
+      "行级安全性 (RLS)",
+      "BaaS 解决方案",
       "Supabase Edge Functions",
-      "Serverless Backend"
+      "无服务器后端"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Open Source Firebase Alternative",
-    "title": "Rapid Innovation with",
+    "eyebrow": "开源的 Firebase 替代方案",
+    "title": "凭借以下技术实现快速创新",
     "highlight": "Supabase",
-    "description": "Accelerate your backend development with a powerful PostgreSQL-based suite including instant APIs, real-time data syncing, and integrated authentication.",
+    "description": "通过强大的基于 PostgreSQL 的套件加速您的后端开发，包括即时生成的 API、实时数据同步和集成式身份验证。",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Build Your Backend",
+      "text": "构建您的后端",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Core Architecture",
+      "text": "查看核心架构",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Supabase",
-    "subtitle": "Supabase combines the reliability of PostgreSQL with the speed of modern Backend-as-a-Service (BaaS) platforms.",
+    "title": "为什么我们选择使用 Supabase 进行工程设计",
+    "subtitle": "Supabase 将 PostgreSQL 的可靠性与现代后端即服务 (BaaS) 平台的快速性完美结合。",
     "paragraphs": [
-      "Supabase allows us to eliminate months of boilerplate backend engineering. By leveraging its auto-generated REST and GraphQL APIs, we can transition from schema design to frontend integration in hours rather than weeks, all while staying within the robust PostgreSQL ecosystem.",
-      "The platform’s greatest strength lies in its security model. By utilizing PostgreSQL's native Row Level Security (RLS), we ensure that data isolation and user permissions are enforced at the database level, creating a 'thick database, thin client' architecture that is inherently more secure."
+      "Supabase 让我们能够消除数月乏味的后端工程样板代码。通过利用其自动生成的 REST 和 GraphQL API，我们可以在几小时内（而非数周）完成从模式设计到前端集成的转变，同时始终保持在健壮的 PostgreSQL 生态系统中。",
+      "该平台最大的优势在于其安全模型。通过利用 PostgreSQL 原生的行级安全性 (RLS)，我们确保数据隔离和用户权限在数据库层面得到强制执行，从而创建出一种本质上更安全的“胖数据库，薄客户端”架构。"
     ],
     "cards": [
       {
-        "title": "PostgreSQL Power",
-        "description": "Every Supabase project is a full, dedicated PostgreSQL database—no proprietary abstraction layers.",
+        "title": "PostgreSQL 动力",
+        "description": "每个 Supabase 项目都是一个完整的、专用的 PostgreSQL 数据库——没有专有的抽象层。",
         "icon_type": "FaDatabase"
       },
       {
-        "title": "Realtime Engine",
-        "description": "Listen to database changes in real-time via WebSockets to build collaborative, live user experiences.",
+        "title": "实时引擎",
+        "description": "通过 WebSockets 实时监听数据库变更，构建协作式的实时用户体验。",
         "icon_type": "FaSync"
       },
       {
-        "title": "Built-in Auth",
-        "description": "Manage user signups and logins with a comprehensive suite of social and passwordless providers.",
+        "title": "内置身份验证",
+        "description": "通过全面的社交平台和无密码提供商套件管理用户注册与登录。",
         "icon_type": "FaUserShield"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Supabase Technical Scope",
+    "title": "Supabase 技术范畴",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Relational Data Modeling",
-        "description": "Designing high-integrity PostgreSQL schemas with foreign keys, views, and stored procedures for business logic."
+        "title": "关系型数据建模",
+        "description": "设计具有外键、视图和用于业务逻辑的存储过程的高完整性 PostgreSQL 模式。"
       },
       {
-        "title": "Serverless Edge Functions",
-        "description": "Deploying TypeScript functions globally to handle sensitive logic, webhooks, and third-party integrations."
+        "title": "无服务器边缘函数",
+        "description": "在全球范围内部署 TypeScript 函数，处理敏感逻辑、Webhooks 和第三方集成。"
       },
       {
-        "title": "Storage & Asset Management",
-        "description": "Managing large files and media with a scalable storage layer that integrates directly with database permissions."
+        "title": "存储与资产管理",
+        "description": "通过与数据库权限直接集成的可扩展存储层，管理大型文件和媒体资源。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Supabase Edge",
-    "subtitle": "Strategic advantages for modern full-stack delivery.",
+    "title": "Supabase 优势",
+    "subtitle": "现代全栈交付的战略优势。",
     "cards": [
       {
-        "metric": "3x",
-        "title": "Development Speed",
-        "description": "Reduction in backend development time through automated CRUD API generation and integrated Auth."
+        "metric": "3倍",
+        "title": "开发速度",
+        "description": "通过自动化 CRUD API 生成和集成式 Auth，缩短后端开发时间。"
       },
       {
         "metric": "99.95%",
-        "title": "Uptime",
-        "description": "High-availability infrastructure managed by AWS and optimized for mission-critical uptime."
+        "title": "运行时间",
+        "description": "由 AWS 管理的高可用基础设施，针对关键业务的运行时间进行了优化。"
       },
       {
-        "metric": "Open",
-        "title": "Source Core",
-        "description": "Built on open-source standards like Postgres, GoTrue, and PostgREST, preventing restrictive lock-in."
+        "metric": "开源",
+        "title": "核心代码",
+        "description": "构建在 Postgres、GoTrue 和 PostgREST 等开源标准之上，防止限制性的供应商锁定。"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Export your entire database and configuration at any time to your own self-hosted PostgreSQL instance."
+        "metric": "零",
+        "title": "供应商锁定",
+        "description": "随时将您的整个数据库和配置导出到您自己的自托管 PostgreSQL 实例中。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase allows us to build with the speed of a startup and the",
-    "highlight": "stability of an enterprise"
+    "quote": "Supabase 让我们能够以初创公司的速度和",
+    "highlight": "企业的稳定性进行构建"
   },
   "conversation_section": {
-    "title": "Architect Your Realtime App",
-    "subtitle": "Consult with our lead engineers to define your Supabase architecture or plan a migration from Firebase.",
-    "full_name_label": "Lead Developer Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Technical Requirement",
+    "title": "构建您的实时应用",
+    "subtitle": "咨询我们的首席工程师，定义您的 Supabase 架构或规划从 Firebase 的迁移。",
+    "full_name_label": "首席开发人员姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "技术需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your data requirements or realtime challenges...",
-    "button_text": "Launch Your Project"
+    "message_placeholder": "请描述您的数据需求或实时挑战...",
+    "button_text": "启动您的项目"
   }
 }

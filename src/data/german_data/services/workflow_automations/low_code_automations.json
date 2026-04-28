@@ -1,12 +1,12 @@
 {
   "slug": "low-code-automation",
   "hero_section": {
-    "title": "Low-Code Entwicklung",
-    "subtitle": "Geschwindigkeit trifft Flexibilität",
-    "description": "Wir nutzen Low-Code-Plattformen, um leistungsstarke Geschäftsanwendungen und Automatisierungen schneller zu entwerfen und zu starten – eine Kombination aus Drag-and-Drop-Effizienz und individuellem Code für komplexe Anforderungen.",
+    "title": "Low-Code-Entwicklung",
+    "subtitle": "Geschwindigkeit trifft auf Flexibilität",
+    "description": "Wir nutzen Low-Code-Plattformen, um leistungsstarke Geschäftsanwendungen und Automatisierungen schneller zu entwerfen und zu starten, und kombinieren dabei Drag-and-Drop-Effizienz mit individueller Programmierung für komplexe Anforderungen.",
     "buttons": [
       {
-        "text": "Mein Low-Code Projekt starten",
+        "text": "Starten Sie mein Low-Code-Projekt",
         "link": "/contact"
       },
       {
@@ -18,59 +18,59 @@
   },
   "introduction_section": {
     "heading": "Was ist",
-    "span_heading": " Low-Code Entwicklung?",
+    "span_heading": "Low-Code-Entwicklung?",
     "content": [
-      "Bei Devisgon nutzen wir Low-Code-Plattformen wie OutSystems, Mendix, PowerApps und Retool zusammen mit maßgeschneiderten Skripten, um Anwendungen zu erstellen, die schneller einsatzbereit, skalierbar und zukunftssicher sind. Im Gegensatz zu No-Code erlaubt Low-Code das Einfügen von eigenem Code, wo er benötigt wird.",
-      "Dieser Ansatz senkt die Entwicklungskosten, beschleunigt die Markteinführung und ermöglicht es Unternehmen, Anwendungen schnell zu testen, zu iterieren und weiterzuentwickeln."
+      "Bei Devisgon nutzen wir Low-Code-Plattformen wie OutSystems, Mendix, PowerApps und Retool sowie benutzerdefinierte Skripte, um Apps zu erstellen, die schneller bereitzustellen, skalierbar und zukunftssicher sind. Im Gegensatz zu No-Code können wir bei Low-Code Code dort einfügen, wo er benötigt wird, und so sicherstellen, dass komplexe Arbeitsabläufe und Integrationen möglich sind.",
+      "Dieser Ansatz senkt die Entwicklungskosten, beschleunigt die Einführungszeiten und ermöglicht es Unternehmen, Anwendungen schnell zu testen, zu iterieren und weiterzuentwickeln."
     ],
-    "highlight_quote": "„Low-Code-Apps, 3x schnellere Starts, null Komplexität.“",
+    "highlight_quote": "„Low-Code-Apps, dreimal schnellere Starts, keine Komplexität.“",
     "side_image": "/all_services/low_code_automation/introduction.webp"
   },
   "key_benefits_section": {
     "title": "Hauptvorteile",
-    "subtitle": "Transformieren Sie Ihre Abläufe mit bewährten Ergebnissen",
+    "subtitle": "Transformieren Sie Ihre Abläufe mit nachgewiesenen Ergebnissen",
     "cards": [
       {
         "title": "Schnelle Entwicklung",
-        "description": "Starten Sie Business-Apps in Wochen, nicht in Monaten.",
+        "description": "Starten Sie Geschäftsanwendungen in Wochen, nicht in Monaten.",
         "icon_type": "FaRocket "
       },
       {
-        "title": "Kosteneffizient",
-        "description": "Reduzieren Sie Entwicklungszeit und Budgets um bis zu 50%.",
+        "title": "Cost-Effective",
+        "description": "Reduzieren Sie Entwicklungszeit und Budgets um bis zu 50 %.",
         "icon_type": "HiCurrencyDollar "
       },
       {
-        "title": "Anpassbar",
-        "description": "Kombinieren Sie Drag-and-Drop-Design mit eigenem Code für maximale Flexibilität.",
+        "title": "Customizable",
+        "description": "Kombinieren Sie Drag-and-Drop-Design mit benutzerdefiniertem Code für mehr Flexibilität.",
         "icon_type": "PiShareNetworkThin "
       },
       {
-        "title": "Skalierbar & Sicher",
-        "description": "Low-Code-Apps laufen auf unternehmensfähigen Plattformen.",
+        "title": "Skalierbar und sicher",
+        "description": "Low-Code-Apps laufen auf unternehmenstauglichen Plattformen.",
         "icon_type": "IoShieldCheckmarkSharp "
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Was Sie erhalten, wenn Sie unseren Low-Code Automatisierungsservice wählen",
+    "title": "Was Sie erhalten, wenn Sie sich für den No-Code Automation Service entscheiden",
     "image": "/all_services/low_code_automation/wwg.webp",
     "list_items": [
       {
         "title": "1. Funktionale Low-Code-Apps",
-        "description": "Voll funktionsfähige Low-Code-App oder Automatisierung."
+        "description": "Voll funktionsfähige Low-Code-App oder Automatisierung"
       },
       {
         "title": "2. Nahtlose Integrationen",
-        "description": "Integration mit APIs, CRMs, ERPs oder Datenbanken."
+        "description": "Integration mit APIs, CRMs, ERPs oder Datenbanken"
       },
       {
-        "title": "3. Fortgeschrittene Anpassung",
-        "description": "Eigene Skripte/Code für erweiterte Funktionen."
+        "title": "3. Erweiterte Anpassung",
+        "description": "Benutzerdefinierte Skripte/Code für erweiterte Funktionen"
       },
       {
         "title": "4. Skalierbare Bereitstellung",
-        "description": "Cloud-Bereitstellung & fortlaufender Support."
+        "description": "Cloud-Bereitstellung und fortlaufender Support"
       }
     ]
   },
@@ -78,81 +78,99 @@
     "title": "Wir arbeiten mit modernen, bewährten Technologien",
     "subtitle": "Branchenführende Tools für maximale Zuverlässigkeit und Leistung",
     "tools": [
-      { "name": "OutSystems", "icon": "RiRecordCircleFill " },
-      { "name": "Mendix", "icon": "GrCheckbox " },
-      { "name": "Retool", "icon": "SiRetool " },
-      { "name": "Bubble", "icon": "FaB " },
-      { "name": "Python", "icon": "FaPython " },
-      { "name": "AWS", "icon": "FaAws " }
+      {
+        "name": "OutSystems",
+        "icon": "RiRecordCircleFill "
+      },
+      {
+        "name": "Mendix",
+        "icon": "GrCheckbox "
+      },
+      {
+        "name": "Retool",
+        "icon": "SiRetool "
+      },
+      {
+        "name": "Bubble",
+        "icon": "FaB "
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      }
     ]
   },
   "process_section": {
     "title": "Unser Prozess",
-    "subtitle": "Vom Konzept bis zum Launch in 6 Wochen",
+    "subtitle": "Vom Konzept bis zur Markteinführung in 6 Wochen",
     "steps": [
       {
-        "title": "Entdecken",
-        "description": "Anforderungen identifizieren und die richtige Low-Code-Plattform auswählen.",
+        "title": "Discover",
+        "description": "Identifizieren Sie Anforderungen und wählen Sie die richtige Low-Code-Plattform.",
         "icon": "FaSearch"
       },
       {
         "title": "Design",
-        "description": "App-Workflows, UI-Mockups und Integrationspläne erstellen.",
+        "description": "Erstellen Sie App-Workflows, UI-Mockups und Integrationspläne.",
         "icon": "TbTools"
       },
       {
-        "title": "Bauen",
-        "description": "Entwicklung mit Drag-and-Drop-Tools + eigenem Code für komplexe Anforderungen.",
+        "title": "Build",
+        "description": "Entwickeln Sie mit Drag-and-Drop-Tools und benutzerdefiniertem Code für erweiterte Anforderungen.",
         "icon": "FaHammer"
       },
       {
         "title": "Launch",
-        "description": "App bereitstellen, Schulungen einrichten und für Skalierbarkeit optimieren.",
+        "description": "Stellen Sie die App bereit, richten Sie Schulungen ein und optimieren Sie sie für die Skalierbarkeit.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Automatisierter Onboarding-Flow sparte über 20 Stunden pro Woche",
+    "headline": "Durch den automatisierten Onboarding-Ablauf wurden mehr als 20 Stunden pro Woche eingespart",
     "image": "/all_services/low_code_automation/case_study.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Ein Gesundheitsunternehmen benötigte ein Patientenmanagementsystem bei begrenzter Zeit und knappem Budget."
+        "text": "Ein Gesundheitsunternehmen benötigte ein Patientenmanagementsystem, hatte aber nur begrenzte Zeit und Budget."
       },
       "solution": {
-        "label": "Lösung",
-        "text": "Wir bauten das System mit Microsoft PowerApps + individuellen APIs, inklusive Terminplanung und Analysen."
+        "label": "Solution",
+        "text": "Wir haben das System mithilfe von Microsoft PowerApps und benutzerdefinierten APIs erstellt und dabei Planung, Berichterstellung und Analyse integriert."
       },
       "result": {
-        "label": "Ergebnis",
-        "text": "Die App startete in nur 6 Wochen und reduzierte die manuelle Berichtszeit um 40%."
+        "label": "Result",
+        "text": "Die App wurde in nur 6 Wochen eingeführt, wodurch die manuelle Berichtszeit um 40 % reduziert und die Patienteneinbindung verbessert wurde."
       }
     }
   },
   "faq_section": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Antworten auf gängige Fragen",
+    "subtitle": "Erhalten Sie Antworten auf häufig gestellte Fragen",
     "questions": [
       {
         "question": "Welche Tools können Sie automatisieren?",
-        "answer": "In der Regel kann ein MVP je nach Komplexität der Funktionen in 4-6 Wochen entwickelt werden."
+        "answer": "Typischerweise kann ein MVP je nach Komplexität der Funktionen in 4–6 Wochen entwickelt werden."
       },
       {
         "question": "Wird die Automatisierung mein Team ersetzen?",
-        "answer": "Ja, wir bieten Wartungs- und Supportpakete nach dem Launch an, um den reibungslosen Betrieb zu gewährleisten."
+        "answer": "Ja, wir bieten Post-Launch-Wartungs- und Supportpakete an, um sicherzustellen, dass Ihre Anwendung reibungslos läuft."
       },
       {
         "question": "Wie viel Zeit kann Automatisierung sparen?",
-        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle über APIs in bestehende Architekturen zu integrieren."
+        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle per API in bestehende Architekturen zu integrieren."
       },
       {
         "question": "Erstellen Sie KI-Agenten?",
-        "answer": "Wir nutzen primär Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
+        "answer": "Wir nutzen hauptsächlich Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
       }
     ],
     "footer": {
-      "text": "Antwort nicht gefunden?",
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
       "link_text": "Kontaktieren Sie uns für weitere Informationen",
       "link_url": "/contact"
     }

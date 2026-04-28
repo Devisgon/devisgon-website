@@ -1,116 +1,116 @@
 {
   "slug": "amazon",
   "seo_metadata": {
-    "title": "Enterprise AWS Cloud Architecture & Consulting Services",
-    "description": "Professional AWS implementation and migration services. We architect scalable, secure, and cost-optimized cloud solutions using AWS Lambda, EC2, and S3.",
+    "title": "企业级 AWS 云架构与咨询服务",
+    "description": "专业的 AWS 实施与迁移服务。我们利用 AWS Lambda、EC2 和 S3 构建可扩展、安全且经过成本优化的云解决方案。",
     "keywords": [
-      "AWS Cloud Consulting",
-      "Amazon Web Services Architecture",
-      "Serverless Computing",
-      "AWS Cloud Migration",
-      "Infrastructure as Code",
-      "AWS Security Best Practices",
-      "Cloud Cost Optimization"
+      "AWS 云咨询",
+      "亚马逊云科技架构",
+      "无服务器计算",
+      "AWS 云迁移",
+      "基础设施即代码 (IaC)",
+      "AWS 安全最佳实践",
+      "云成本优化"
     ]
   },
   "hero_section": {
-    "eyebrow": "Global Cloud Infrastructure",
-    "title": "Scale Without Limits with",
+    "eyebrow": "全球云基础设施",
+    "title": "凭借以下技术实现无限扩展",
     "highlight": "AWS",
-    "description": "Build, deploy, and manage production-grade applications on the world’s most comprehensive and broadly adopted cloud platform.",
+    "description": "在全球功能最全面、应用最广泛的云平台上构建、部署和管理生产级应用程序。",
     "side_image": "/technologies/aws/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Cloud",
+      "text": "优化您的云环境",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Architecture Patterns",
+      "text": "查看架构模式",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer on AWS",
-    "subtitle": "AWS provides the most mature and secure foundation for modern distributed systems.",
+    "title": "为什么我们选择在 AWS 上进行工程设计",
+    "subtitle": "AWS 为现代分布式系统提供了最成熟、最安全的基石。",
     "paragraphs": [
-      "AWS is our primary choice for enterprise-grade cloud hosting and automation. By leveraging its vast array of over 200 fully featured services—from compute and storage to advanced AI/ML—we eliminate the constraints of physical hardware, allowing your business to scale instantly in response to market demand.",
-      "Our architectural approach focuses on the AWS Well-Architected Framework. We ensure your infrastructure is built on five pillars: operational excellence, security, reliability, performance efficiency, and cost optimization, reducing long-term technical debt and operational risk."
+      "AWS 是我们进行企业级云托管和自动化的首选。通过利用其超过 200 项功能齐全的服务（从计算、存储到高级 AI/ML），我们消除了物理硬件的限制，使您的业务能够根据市场需求实现即时扩展。",
+      "我们的架构方法专注于 AWS 良好架构框架 (Well-Architected Framework)。我们确保您的基础设施构建在五大支柱之上：卓越运维、安全性、可靠性、性能效率和成本优化，从而减少长期的技术债务和运营风险。"
     ],
     "cards": [
       {
-        "title": "Unmatched Scalability",
-        "description": "Utilize Auto Scaling and Elastic Load Balancing to handle traffic spikes without manual intervention.",
+        "title": "卓越的可扩展性",
+        "description": "利用 Auto Scaling 和弹性负载均衡 (ELB) 处理流量高峰，无需人工干预。",
         "icon_type": "FaExpandArrowsAlt"
       },
       {
-        "title": "Enterprise Security",
-        "description": "Implement military-grade encryption and Identity and Access Management (IAM) to protect sensitive data.",
+        "title": "企业级安全",
+        "description": "实施军用级加密以及身份和访问管理 (IAM) 以保护敏感数据。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Cost Efficiency",
-        "description": "Pay only for what you use with on-demand pricing and spot instances for non-critical workloads.",
+        "title": "成本效益",
+        "description": "通过按需定价模式以及针对非关键工作负载的竞价实例，实现仅为实际使用付费。",
         "icon_type": "FaWallet"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "AWS Architectural Scope",
+    "title": "AWS 架构范畴",
     "image": "/technologies/aws/scope.webp",
     "items": [
       {
-        "title": "Serverless Architectures",
-        "description": "Deploying event-driven logic with AWS Lambda and API Gateway for zero-server management and high availability."
+        "title": "无服务器架构",
+        "description": "利用 AWS Lambda 和 API Gateway 部署事件驱动逻辑，实现零服务器管理和高可用性。"
       },
       {
-        "title": "Managed Data Lakes",
-        "description": "Architecting robust data storage and analytics pipelines using Amazon S3, Glue, and Redshift for big data insights."
+        "title": "托管数据湖",
+        "description": "使用 Amazon S3、Glue 和 Redshift 构建稳健的数据存储和分析流水线，以获取大数据洞察。"
       },
       {
-        "title": "Hybrid Cloud Integration",
-        "description": "Bridging on-premise data centers with the cloud using AWS Direct Connect and VPC peering for secure, low-latency connectivity."
+        "title": "混合云集成",
+        "description": "使用 AWS Direct Connect 和 VPC 对等连接将本地数据中心与云端桥接，实现安全、低延迟的互联。"
       }
     ]
   },
   "edge_section": {
-    "title": "The AWS Advantage",
-    "subtitle": "Quantifiable efficiency for a global digital presence.",
+    "title": "AWS 优势",
+    "subtitle": "为您全球化数字业务提供可量化的效率提升。",
     "cards": [
       {
         "metric": "99.99%",
-        "title": "Uptime SLA",
-        "description": "Industry-leading reliability across multiple availability zones and global regions."
+        "title": "运行时间 SLA",
+        "description": "在多个可用区和全球区域提供行业领先的可靠性保障。"
       },
       {
         "metric": "200+",
-        "title": "Fully Featured Services",
-        "description": "Immediate access to the most extensive set of cloud tools including AI, IoT, and high-performance compute."
+        "title": "功能齐全的服务",
+        "description": "即时获取最广泛的云工具集，包括人工智能、物联网和高性能计算。"
       },
       {
         "metric": "315+",
-        "title": "Points of Presence",
-        "description": "Deliver content with ultra-low latency using the Amazon CloudFront global edge network."
+        "title": "边缘节点",
+        "description": "利用 Amazon CloudFront 全球边缘网络，以极低延迟交付内容。"
       },
       {
-        "metric": "Zero",
-        "title": "Hardware Overhead",
-        "description": "Eliminate the need for physical maintenance, allowing teams to focus 100% on product innovation."
+        "metric": "零",
+        "title": "硬件开销",
+        "description": "无需物理维护，让团队能够 100% 专注于产品创新。"
       }
     ]
   },
   "quote_section": {
-    "quote": "AWS turns infrastructure into a programmable asset, allowing us to build with",
-    "highlight": "infinite flexibility"
+    "quote": "AWS 将基础设施转化为可编程资产，让我们能够以",
+    "highlight": "无限的灵活性进行构建"
   },
   "conversation_section": {
-    "title": "Architect Your Cloud Solution",
-    "subtitle": "Consult with our AWS Certified Solutions Architects to define your migration roadmap or cost-optimization strategy.",
-    "full_name_label": "Lead Architect",
-    "business_email_label": "Corporate Email",
-    "message_label": "Cloud Requirement",
+    "title": "规划您的云解决方案",
+    "subtitle": "咨询我们的 AWS 认证解决方案架构师，定义您的迁移路线图或成本优化策略。",
+    "full_name_label": "首席架构师姓名",
+    "business_email_label": "公司邮箱",
+    "message_label": "云需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your AWS scaling challenges or migration goals...",
-    "button_text": "Request a Cloud Audit"
+    "message_placeholder": "请描述您的 AWS 扩展挑战或迁移目标...",
+    "button_text": "申请云环境审计"
   }
 }

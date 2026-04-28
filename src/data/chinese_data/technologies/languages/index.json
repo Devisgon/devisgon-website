@@ -1,116 +1,116 @@
 {
   "slug": "programming-languages",
   "seo_metadata": {
-    "title": "Enterprise Programming Languages | Polyglot Software Engineering",
-    "description": "Custom software development across Java, Python, TypeScript, C++, and more. We architect high-performance, scalable systems using the optimal language for your specific workload.",
+    "title": "企业级编程语言 | 多语言软件工程服务",
+    "description": "涵盖 Java、Python、TypeScript、C++ 等多种语言的定制化软件开发。我们根据您的具体工作负载，使用最优语言构建高性能、可扩展的系统。",
     "keywords": [
-      "Enterprise Software Development",
-      "Polyglot Programming",
-      "Python AI Engineering",
-      "Java Backend Solutions",
-      "TypeScript Web Architecture",
-      "Systems Programming C++",
-      "High-Performance Computing"
+      "企业级软件开发",
+      "多语言编程 (Polyglot Programming)",
+      "Python AI 工程",
+      "Java 后端解决方案",
+      "TypeScript Web 架构",
+      "C++ 系统编程",
+      "高性能计算"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Engineering Foundation",
-    "title": "Infinite Scale with",
-    "highlight": "Multi-Language Stacks",
-    "description": "Bridge the gap between hardware efficiency and developer velocity with a strategic selection of Java, Python, TypeScript, PHP, and C-family languages.",
+    "eyebrow": "工程基石",
+    "title": "凭借以下技术实现无限扩展",
+    "highlight": "多语言技术栈",
+    "description": "通过战略性选择 Java、Python、TypeScript、PHP 和 C 系列语言，弥合硬件效率与开发速度之间的鸿沟。",
     "side_image": "/services_page/languages-hero.webp",
     "primary_cta": {
-      "text": "Consult an Architect",
+      "text": "咨询架构师",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Technical Roadmap",
+      "text": "查看技术路线图",
       "href": "/technologies/languages#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why Language Choice Matters.",
-    "subtitle": "Choosing the right syntax for the right problem reduces technical debt and maximizes runtime performance.",
+    "title": "为什么语言选择至关重要",
+    "subtitle": "针对特定问题选择正确的语法，可以减少技术债务并最大化运行时性能。",
     "paragraphs": [
-      "Our polyglot approach—mastering Java, JavaScript, Python, TypeScript, PHP, C++, and C—enables us to deploy the right tool for the right job. Whether it's the strict typing of Java for financial transactions, the rapid prototyping of Python for AI models, or the surgical precision of C++ for low-latency engines, we ensure your stack is optimized for its specific mission.",
-      "By standardizing on mature, high-community languages, we provide our clients with 'future-proof' codebases. This strategy ensures long-term maintainability, easy talent acquisition, and access to a global ecosystem of battle-tested libraries and security patches."
+      "我们的多语言方法——精通 Java、JavaScript、Python、TypeScript、PHP、C++ 和 C——使我们能够为不同的任务部署最合适的工具。无论是用于金融交易的 Java 严格类型，用于 AI 模型的 Python 快速原型设计，还是用于低延迟引擎的 C++ 精准控制，我们都能确保您的技术栈针对其特定使命进行优化。",
+      "通过在成熟且社区活跃的语言上进行标准化，我们为客户提供“面向未来”的代码库。这一战略确保了长期的可维护性、便捷的人才获取，以及获取经过实战检验的全球库生态系统和安全补丁。"
     ],
     "cards": [
       {
-        "title": "Workload Optimization",
-        "description": "Align language execution models (JIT, Interpreted, or Compiled) with your specific performance targets.",
+        "title": "工作负载优化",
+        "description": "将语言执行模型（JIT、解释型或编译型）与您的特定性能目标对齐。",
         "icon_type": "FaCogs"
       },
       {
-        "title": "Developer Velocity",
-        "description": "Leverage high-level languages like TypeScript and Python to accelerate time-to-market for complex logic.",
+        "title": "开发速度",
+        "description": "利用 TypeScript 和 Python 等高级语言，加速复杂逻辑的上市时间。",
         "icon_type": "FaRocket"
       },
       {
-        "title": "System Stability",
-        "description": "Utilize memory-safe and strongly-typed languages to prevent runtime errors in mission-critical services.",
+        "title": "系统稳定性",
+        "description": "利用内存安全和强类型语言，防止关键任务服务中的运行时错误。",
         "icon_type": "FaShieldAlt"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Polyglot Strategy Scope",
+    "title": "多语言战略范畴",
     "image": "/services_page/languages-scope.webp",
     "items": [
       {
-        "title": "Distributed Multi-Stack Systems",
-        "description": "Orchestrating microservices where each service is written in the language best suited for its runtime constraints."
+        "title": "分布式多栈系统",
+        "description": "编排微服务架构，使每个服务都使用最适合其运行时约束的语言编写。"
       },
       {
-        "title": "High-Throughput Data Pipelines",
-        "description": "Building AI and data processing workflows using Python's scientific libraries paired with C++ performance cores."
+        "title": "高吞吐量数据管道",
+        "description": "利用 Python 的科学计算库配合 C++ 性能核心，构建 AI 和数据处理工作流。"
       },
       {
-        "title": "Legacy Modernization",
-        "description": "Bridging established C/C++ or Java enterprise layers with modern, reactive TypeScript and PHP frontends."
+        "title": "遗留系统现代化",
+        "description": "将成熟的 C/C++ 或 Java 企业层与现代、响应式的 TypeScript 和 PHP 前端连接起来。"
       }
     ]
   },
   "edge_section": {
-    "title": "The Strategic Engineering Edge",
-    "subtitle": "Quantifiable advantages of an optimized language stack.",
+    "title": "战略工程优势",
+    "subtitle": "优化语言栈的可量化优势。",
     "cards": [
       {
         "metric": "40%",
-        "title": "Lower Latency",
-        "description": "Performance gains achieved by migrating core bottlenecks to compiled languages like C++ or Java."
+        "title": "更低延迟",
+        "description": "通过将核心瓶颈迁移至 C++ 或 Java 等编译型语言所实现的性能提升。"
       },
       {
-        "metric": "Universal",
-        "title": "Portability",
-        "description": "Deployment flexibility across Cloud, Edge, and On-premise environments via cross-platform runtimes."
+        "metric": "通用",
+        "title": "可移植性",
+        "description": "通过跨平台运行时，在云端、边缘和本地环境中实现部署灵活性。"
       },
       {
-        "metric": "Global",
-        "title": "Community",
-        "description": "Immediate access to millions of open-source modules, reducing custom engineering costs significantly."
+        "metric": "全球",
+        "title": "社区支持",
+        "description": "即时获取数百万个开源模块，显著降低自定义工程成本。"
       },
       {
-        "metric": "Zero",
-        "title": "Lock-in",
-        "description": "Total control over your IP using open-standard languages with no proprietary licensing requirements."
+        "metric": "零",
+        "title": "供应商锁定",
+        "description": "使用无专有许可要求的开放标准语言，完全掌控您的知识产权。"
       }
     ]
   },
   "quote_section": {
-    "quote": "The limits of my language mean the limits of my world; we choose",
-    "highlight": "limitless stacks"
+    "quote": "语言的界限意味着世界的界限；我们选择",
+    "highlight": "无界的技术栈"
   },
   "conversation_section": {
-    "title": "Architect Your Infrastructure",
-    "subtitle": "Consult with our lead technical specialists to define the optimal language roadmap for your enterprise.",
-    "full_name_label": "Lead Architect Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Strategic Requirement",
+    "title": "规划您的基础设施",
+    "subtitle": "咨询我们的首席技术专家，为您企业定义最优的语言路线图。",
+    "full_name_label": "首席架构师姓名",
+    "business_email_label": "单位邮箱",
+    "message_label": "战略需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your architectural challenge or performance goals...",
-    "button_text": "Request a Technical Audit"
+    "message_placeholder": "请描述您的架构挑战或性能目标...",
+    "button_text": "申请技术审计"
   }
 }

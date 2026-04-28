@@ -1,116 +1,116 @@
 {
   "slug": "n8n",
   "seo_metadata": {
-    "title": "Enterprise n8n Automation | Self-Hosted Workflow Orchestration",
-    "description": "Professional n8n implementation services. We architect secure, self-hosted automation workflows and fair-code node-based integrations for enterprise data sovereignty.",
+    "title": "企业级 n8n 自动化 | 自托管工作流编排",
+    "description": "专业的 n8n 实施服务。我们构建安全的自托管自动化工作流和基于节点的公平代码集成，以确保企业数据主权。",
     "keywords": [
-      "n8n Automation",
-      "Self-hosted Workflow Tool",
-      "Node-based Automation",
-      "Data Sovereignty Solutions",
-      "n8n Custom Nodes",
-      "Enterprise Workflow Orchestration",
-      "Fair-code Automation Platform"
+      "n8n 自动化",
+      "自托管工作流工具",
+      "基于节点的自动化",
+      "数据主权解决方案",
+      "n8n 自定义节点",
+      "企业级工作流编排",
+      "公平代码自动化平台"
     ]
   },
   "hero_section": {
-    "eyebrow": "Fair-Code Workflow Automation",
-    "title": "Take Full Control with",
+    "eyebrow": "公平代码工作流自动化",
+    "title": "通过以下方式掌握全权控制",
     "highlight": "n8n",
-    "description": "Build highly customizable, node-based automations that can be self-hosted to ensure absolute data privacy and architectural freedom.",
+    "description": "构建高度可定制的、基于节点的自动化流程，支持自托管以确保绝对的数据隐私和架构自由。",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Architect Your Workflow",
+      "text": "规划您的工作流",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Source Integration",
+      "text": "查看源码集成",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with n8n",
-    "subtitle": "n8n provides the extensible, node-based foundation required for secure and complex backend orchestration.",
+    "title": "为什么我们使用 n8n 进行工程设计",
+    "subtitle": "n8n 为安全且复杂的后端编排提供了可扩展的、基于节点的基石。",
     "paragraphs": [
-      "n8n is our primary choice for projects that demand data sovereignty and high levels of customization. Unlike traditional SaaS automation tools, n8n’s fair-code model allows us to host the engine on your own secure infrastructure, ensuring that sensitive data never leaves your perimeter while still benefiting from a powerful visual workflow designer.",
-      "The true power of n8n lies in its extensibility. Its node-based architecture allows our developers to write custom JavaScript logic directly within the workflow, or even build proprietary nodes to interface with internal legacy systems, providing a bridge between standard cloud services and your unique enterprise stack."
+      "n8n 是我们处理需要数据主权和高度定制化项目的首选。与传统的 SaaS 自动化工具不同，n8n 的公平代码（Fair-code）模型允许我们将引擎部署在您自有的安全基础设施中，确保敏感数据永远不会离开您的安全边界，同时仍能享受强大的可视化工作流设计器带来的便利。",
+      "n8n 的真正实力在于其可扩展性。其基于节点的架构允许我们的开发人员直接在工作流中编写自定义 JavaScript 逻辑，甚至可以构建专有节点来对接内部遗留系统，在标准云服务与您独特的企业技术栈之间架起桥梁。"
     ],
     "cards": [
       {
-        "title": "Data Sovereignty",
-        "description": "Self-host on your own servers to maintain 100% control over your data and ensure strict compliance with privacy regulations.",
+        "title": "数据主权",
+        "description": "在您自己的服务器上进行自托管，保持对数据的 100% 控制，并确保严格遵守隐私法规。",
         "icon_type": "FaServer"
       },
       {
-        "title": "Infinite Extensibility",
-        "description": "Add custom JavaScript code or build proprietary nodes to handle unique business logic and complex data parsing.",
+        "title": "无限扩展性",
+        "description": "添加自定义 JavaScript 代码或构建专有节点，以处理独特的业务逻辑和复杂的数据解析。",
         "icon_type": "FaCode"
       },
       {
-        "title": "Transparent Architecture",
-        "description": "Leverage a fair-code model that allows for deep auditing and complete technological independence.",
+        "title": "透明架构",
+        "description": "利用公平代码模型进行深度审计，实现完全的技术独立性。",
         "icon_type": "FaLockOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Orchestration Scope",
+    "title": "编排范围",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Self-Hosted Cloud Automations",
-        "description": "Deploying containerized n8n instances on AWS or GCP to manage backend tasks with zero external data exposure."
+        "title": "自托管云自动化",
+        "description": "在 AWS 或 GCP 上部署容器化的 n8n 实例，以管理后端任务，实现零外部数据暴露。"
       },
       {
-        "title": "Custom Node Development",
-        "description": "Engineering specialized nodes to connect internal ERPs, databases, and niche legacy software to the n8n engine."
+        "title": "自定义节点开发",
+        "description": "工程化开发专用节点，将内部 ERP、数据库和特定遗留软件连接到 n8n 引擎。"
       },
       {
-        "title": "Advanced Logic Flows",
-        "description": "Utilizing the 'Function Node' to perform complex data transformations and algorithmic sorting directly within a visual scenario."
+        "title": "高级逻辑流",
+        "description": "利用“函数节点”在可视化场景中直接执行复杂的数据转换和算法排序。"
       }
     ]
   },
   "edge_section": {
-    "title": "The n8n Advantage",
-    "subtitle": "Strategic competitive gains for secure and flexible ecosystems.",
+    "title": "n8n 的领先优势",
+    "subtitle": "为安全且灵活的生态系统提供战略性竞争优势。",
     "cards": [
       {
         "metric": "100%",
-        "title": "Data Control",
-        "description": "Total privacy and security by hosting the automation engine entirely within your own firewall."
+        "title": "数据控制",
+        "description": "通过将自动化引擎完全托管在您自己的防火墙内，实现全面的隐私和安全。"
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full sovereignty over your workflows and logic without being tied to a proprietary SaaS cloud."
+        "metric": "零",
+        "title": "供应商锁定",
+        "description": "保持对工作流和逻辑的完全主权，无需受困于专有的 SaaS 云平台。"
       },
       {
         "metric": "400+",
-        "title": "Native Nodes",
-        "description": "A massive library of pre-built integrations combined with the ability to build your own effortlessly."
+        "title": "原生节点",
+        "description": "庞大的预构建集成库，结合轻松构建自定义节点的能力。"
       },
       {
-        "metric": "Optimized",
-        "title": "Cost Structure",
-        "description": "Eliminate 'per-task' billing models by running your own instance, providing predictable and lower TCO."
+        "metric": "优化后的",
+        "title": "成本结构",
+        "description": "通过运行自有实例消除“按任务计费”模式，提供可预测且更低的总体拥有成本（TCO）。"
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n gives teams a practical path to bridge the gap between low-code ease and",
-    "highlight": "pro-code flexibility"
+    "quote": "n8n 为团队提供了一条切实的路径，弥补了低代码的便捷与",
+    "highlight": "专业代码灵活性之间的鸿沟"
   },
   "conversation_section": {
-    "title": "Architect Your Automation",
-    "subtitle": "Consult with our lead technical specialists to define a secure, self-hosted n8n roadmap for your enterprise.",
-    "full_name_label": "Lead Engineer",
-    "business_email_label": "Entity Email",
-    "message_label": "Technical Requirement",
+    "title": "构建您的自动化架构",
+    "subtitle": "咨询我们的首席技术专家，为您企业定义安全、自托管的 n8n 路线图。",
+    "full_name_label": "首席工程师",
+    "business_email_label": "企业邮箱",
+    "message_label": "技术需求",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your data privacy requirements or complex automation challenges...",
-    "button_text": "Request a Technical Audit"
+    "message_placeholder": "描述您的数据隐私要求或复杂的自动化挑战...",
+    "button_text": "申请技术审计"
   }
 }

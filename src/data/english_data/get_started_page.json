@@ -1,0 +1,93 @@
+{
+  "hero_title": "Join Our Team",
+  "hero_description": "Looking for a job or an internship? Tell us about yourself, upload your CV, and start your journey with DEVISGON.",
+  "form_inactive": {
+    "title": "Applications Are Closed",
+    "description": "Applications are currently closed. Please check back in the next hiring cycle or subscribe to our newsletter for updates."
+  },
+  "no_openings": {
+    "title": "No Openings Available Right Now",
+    "description": "There are currently no active jobs or internships. Please check again soon."
+  },
+  "form": {
+    "title": "Apply Now",
+    "description": "Fill out the application form below.",
+    "labels": {
+      "full_name": "Full Name *",
+      "email": "Email *",
+      "phone": "Phone Number *",
+      "education": "Education *",
+      "experience": "Experience",
+      "portfolio": "Portfolio / LinkedIn ID",
+      "application_type": "Application Type *",
+      "available_programs": "Available Programs *",
+      "upload_cv": "Upload CV",
+      "privacy_prefix": "I agree to the processing of my personal data in accordance with the",
+      "privacy_policy": "Privacy Policy"
+    },
+    "placeholders": {
+      "full_name": "Your full name",
+      "email": "your@email.com",
+      "phone": "+92 300 1234567",
+      "education": "e.g. BS Computer Science",
+      "portfolio": "https://linkedin.com"
+    },
+    "experience_options": [
+      { "value": "", "label": "Select experience" },
+      { "value": "None / Fresher", "label": "None / Fresher" },
+      { "value": "0-1 Years", "label": "0-1 Years" },
+      { "value": "1-3 Years", "label": "1-3 Years" },
+      { "value": "3+ Years", "label": "3+ Years" }
+    ],
+    "application_type_options": {
+      "placeholder": "Select type...",
+      "job": "Job",
+      "internship": "Internship"
+    },
+    "program_options": {
+      "placeholder": "Select a program...",
+      "pick_type_first": "Select application type first",
+      "none_available": "No programs available for this type"
+    },
+    "upload": {
+      "drop_text": "Drop your CV here.",
+      "types_text": "PDF, DOC, DOCX up to 5MB"
+    },
+    "buttons": {
+      "submit": "Submit Application",
+      "submitting": "Submitting..."
+    },
+    "status": {
+      "success": "Application submitted successfully!",
+      "error": "Failed to submit application. Please try again.",
+      "invalid_email": "Use a valid email",
+      "invalid_phone": "Must start with +92 and have 10 digits"
+    }
+  },
+  "side_card": {
+    "title": "Why Join DEVISGON?",
+    "description": "We are a team of passionate developers, designers, and innovators. Come build the future with us and take your career to the next level.",
+    "benefits": [
+      {
+        "title": "Innovative Projects",
+        "description": "Work on cutting-edge solutions that challenge the status quo."
+      },
+      {
+        "title": "Career Growth",
+        "description": "Clear pathways for advancement and professional development."
+      },
+      {
+        "title": "Collaborative Environment",
+        "description": "Partner with talented peers in a supportive and inclusive culture."
+      },
+      {
+        "title": "Learning Opportunities",
+        "description": "Continuous education through hands-on experience and mentorship."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Us",
+    "location": "Okara, Pakistan"
+  }
+}
