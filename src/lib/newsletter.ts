@@ -16,7 +16,19 @@ type SubscriberDoc = {
 
 const resendApiKey = process.env.RESEND_API_KEY;
 const fromAddress = process.env.RESEND_DOMAIN;
+const adminInbox = process.env.RESEND_EMAIL_USER;
 const resend = resendApiKey ? new Resend(resendApiKey) : null;
+const isLocalDev = process.env.NODE_ENV !== "production";
+const devRedirectToAdmin =
+  process.env.NEWSLETTER_DEV_REDIRECT_TO_ADMIN === "true";
+
+function resolveCampaignRecipients(recipients: string[]) {
+  if (isLocalDev && devRedirectToAdmin && adminInbox) {
+    return [adminInbox];
+  }
+
+  return recipients;
+}
 
 async function getActiveSubscriberEmails(payload: Payload) {
   /* eslint-disable @typescript-eslint/no-explicit-any */
@@ -87,24 +99,52 @@ export async function sendNewsletterCampaign(
   }
 
   const recipients = await getActiveSubscriberEmails(payload);
-  if (recipients.length === 0) {
+  const effectiveRecipients = resolveCampaignRecipients(recipients);
+  console.info(
+    `[newsletter] Campaign "${campaign.subject}" recipients: ${recipients.length}, effective: ${effectiveRecipients.length}, localDev=${isLocalDev}`,
+  );
+  if (effectiveRecipients.length === 0) {
     return { sent: 0, skipped: false };
   }
 
   const html = campaignHtml(campaign);
   let sent = 0;
 
-  for (const email of recipients) {
+  for (const email of effectiveRecipients) {
     try {
-      await resend.emails.send({
+      const response = await resend.emails.send({
         from: fromAddress,
         to: [email],
         subject: campaign.subject,
         html,
       });
+      if (response?.error) {
+        console.error(
+          `[newsletter] Resend rejected ${email}:`,
+          response.error,
+        );
+        continue;
+      }
       sent += 1;
     } catch (error) {
       console.error(`[newsletter] Failed to send to ${email}`, error);
+    }
+  }
+
+  // Always notify admin inbox with campaign summary for visibility/debugging.
+  if (adminInbox && fromAddress) {
+    try {
+      await resend.emails.send({
+        from: fromAddress,
+        to: [adminInbox],
+        subject: `[Newsletter Summary] ${campaign.subject}`,
+        html: `<p><strong>Campaign:</strong> ${campaign.subject}</p>
+<p><strong>Subscribers targeted:</strong> ${recipients.length}</p>
+<p><strong>Effective recipients:</strong> ${effectiveRecipients.length}</p>
+<p><strong>Sent successfully:</strong> ${sent}</p>`,
+      });
+    } catch (error) {
+      console.error("[newsletter] Failed to send summary email", error);
     }
   }
 
