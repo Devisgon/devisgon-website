@@ -1,0 +1,116 @@
+{
+  "slug": "doctor-hosting-zh",
+  "seo_metadata": {
+    "title": "安全医疗云架构与托管服务",
+    "description": "专业的医疗级云实施与迁移服务。我们使用高度安全和成本优化的解决方案构建可扩展的临床系统。",
+    "keywords": [
+      "医疗云咨询",
+      "HIPAA合规架构",
+      "无服务器医疗计算",
+      "医疗云迁移",
+      "基础设施即代码",
+      "医疗安全最佳实践",
+      "云成本优化"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "全球医疗基础设施",
+    "title": "以无限扩展能力构建",
+    "highlight": "现代医疗托管",
+    "description": "在世界上最全面、应用最广泛的云平台上构建、部署和管理生产级医疗应用程序。",
+    "side_image": "/technologies/healthcare/hero.webp",
+    "primary_cta": {
+      "text": "优化您的医疗云",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "查看架构模式",
+      "href": "/technologies/doctor-hosting#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "为什么我们选择医疗专用工程",
+    "subtitle": "我们为现代分布式医疗系统提供最成熟、最安全的基础。",
+    "paragraphs": [
+      "我们的托管服务是企业级医疗云托管和自动化的首选。通过利用 200 多项功能齐全的服务，我们消除了物理硬件的限制，使您的医疗业务能够根据需求即时扩展。",
+      "我们的架构方法侧重于医疗良好架构框架。我们确保您的基础设施建立在五大支柱之上：卓越运营、安全性、可靠性、性能效率和成本优化。"
+    ],
+    "cards": [
+      {
+        "title": "卓越的可扩展性",
+        "description": "利用自动扩展和弹性负载均衡来处理医疗流量高峰，无需人工干预。",
+        "icon_type": "FaExpandArrowsAlt"
+      },
+      {
+        "title": "企业级安全",
+        "description": "实施军用级加密和身份访问管理 (IAM) 以保护敏感的患者数据。",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "成本效益",
+        "description": "按需付费，并为非关键医疗工作负载使用竞价实例，优化预算。",
+        "icon_type": "FaWallet"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "医疗架构范围",
+    "image": "/technologies/healthcare/scope.webp",
+    "items": [
+      {
+        "title": "无服务器架构",
+        "description": "部署事件驱动逻辑，实现零服务器管理和医疗数据的高可用性。"
+      },
+      {
+        "title": "托管数据湖",
+        "description": "使用 S3、Glue 和 Redshift 构建强大的医疗数据存储和分析管道。"
+      },
+      {
+        "title": "混合云集成",
+        "description": "使用安全、低延迟的连接将本地医疗数据中心与云端桥接。"
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "医疗托管优势",
+    "subtitle": "为全球数字医疗提供可量化的效率。",
+    "cards": [
+      {
+        "metric": "99.99%",
+        "title": "运行时间 SLA",
+        "description": "在多个可用区和全球区域提供行业领先的可靠性。"
+      },
+      {
+        "metric": "200+",
+        "title": "功能齐全的服务",
+        "description": "立即访问最广泛的云工具，包括医疗 AI 和物联网。"
+      },
+      {
+        "metric": "315+",
+        "title": "接入点",
+        "description": "通过全球边缘网络以超低延迟交付医疗内容。"
+      },
+      {
+        "metric": "零",
+        "title": "硬件开销",
+        "description": "消除物理维护需求，让团队专注于医疗产品创新。"
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "托管将基础设施转变为可编程资产，让我们能够以",
+    "highlight": "无限的灵活性"
+  },
+  "conversation_section": {
+    "title": "架构您的医疗云方案",
+    "subtitle": "咨询我们的认证架构师，确定您的迁移路线图或成本优化策略。",
+    "full_name_label": "首席架构师",
+    "business_email_label": "企业邮箱",
+    "message_label": "云需求",
+    "full_name_placeholder": "朱利安·索恩博士",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "描述您的医疗扩展挑战或迁移目标...",
+    "buttons_text": "请求云审计"
+  }
+}

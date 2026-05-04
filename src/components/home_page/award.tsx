@@ -18,7 +18,7 @@ const data: AwardData[] = [
 
 const Counter = ({ value, prefix, suffix }: { value: number; prefix?: string; suffix?: string }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.5 });
+  const isInView = useInView(ref, { once: false, amount: 0.5 });
   
   // 1. Motion value starts at 0
   const count = useMotionValue(0);

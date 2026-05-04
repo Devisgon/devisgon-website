@@ -40,7 +40,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
           
           return nextStep;
         });
-      }, 2000); // Slower interval to appreciate the fill effect
+      }, 1000); // Slower interval to appreciate the fill effect
     }
 
     return () => {
@@ -68,13 +68,14 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
         <div className="relative w-full max-w-5xl">
           
           {/* Progress Line (Desktop) */}
-          <div className="hidden md:block absolute top-[2.5rem] left-4 right-4 h-1 rounded-full bg-[#EAD5F9] dark:bg-[#47295C]">
-            <motion.div
-              className="h-full bg-t-secondary"
-              animate={{ width: `${progressPercent}%` }}
-              transition={{ duration: 0.8 }}
-            />
-          </div>
+        <div className="absolute top-[2.5rem] left-4 right-4 h-1 rounded-full bg-[#EAD5F9] dark:bg-[#47295C] overflow-hidden">
+  <motion.div
+    className="h-full bg-t-secondary origin-left" // Added origin-left for smoother growth
+    initial={{ width: 0 }}
+    animate={{ width: `${progressPercent}%` }}
+    transition={{ duration: 0.8, ease: "easeOut" }}
+  />
+</div>
 
           {/* Steps */}
           <div className="flex md:flex-row flex-col md:justify-between items-center relative z-10">

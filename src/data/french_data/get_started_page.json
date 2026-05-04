@@ -1,88 +1,103 @@
 {
-  "hero_title": "Rejoignez Notre Equipe",
-  "hero_description": "Vous cherchez un emploi ou un stage ? Parlez-nous de vous, envoyez votre CV et commencez votre parcours avec DEVISGON.",
+  "hero_title": "Rejoignez notre équipe",
+  "hero_description": "A la recherche d'un emploi ou d'un stage ? Parlez-nous de vous, téléchargez votre CV et commencez votre voyage avec DEVISGON.",
   "form_inactive": {
-    "title": "Les candidatures sont fermees",
-    "description": "Les candidatures sont actuellement fermees. Revenez au prochain cycle de recrutement ou abonnez-vous a notre newsletter pour les mises a jour."
+    "title": "Les candidatures sont closes",
+    "description": "Les candidatures sont actuellement fermées. Veuillez revenir lors du prochain cycle d'embauche ou vous abonner à notre newsletter pour les mises à jour."
   },
   "no_openings": {
-    "title": "Aucune offre disponible pour le moment",
-    "description": "Il n'y a actuellement aucun poste ou stage actif. Revenez bientot."
+    "title": "Aucune ouverture disponible pour le moment",
+    "description": "Il n'y a actuellement aucun emploi ni stage actif. Veuillez vérifier à nouveau bientôt."
   },
   "form": {
-    "title": "Postuler Maintenant",
-    "description": "Remplissez le formulaire ci-dessous.",
+    "title": "Postulez maintenant",
+    "description": "Remplissez le formulaire de candidature ci-dessous.",
     "labels": {
-      "full_name": "Nom complet *",
-      "email": "Email *",
-      "phone": "Numero de telephone *",
-      "education": "Formation *",
+      "full_name": "Nom et prénom *",
+      "email": "E-mail *",
+      "phone": "Numéro de téléphone *",
+      "education": "Éducation *",
       "experience": "Experience",
-      "portfolio": "Portfolio / LinkedIn",
-      "application_type": "Type de candidature *",
+      "portfolio": "Portefeuille / Identifiant LinkedIn",
+      "application_type": "Type de demande *",
       "available_programs": "Programmes disponibles *",
-      "upload_cv": "Telecharger le CV",
-      "privacy_prefix": "J'accepte le traitement de mes donnees personnelles conformement a la",
-      "privacy_policy": "Politique de confidentialite"
+      "upload_cv": "Télécharger un CV",
+      "privacy_prefix": "J'accepte le traitement de mes données personnelles conformément aux",
+      "privacy_policy": "politique de confidentialité"
     },
     "placeholders": {
       "full_name": "Votre nom complet",
-      "email": "your@email.com",
+      "email": "votre@email.com",
       "phone": "+92 300 1234567",
-      "education": "ex. Licence en informatique",
+      "education": "par ex. BS Informatique",
       "portfolio": "https://linkedin.com"
     },
     "experience_options": [
-      { "value": "", "label": "Selectionnez l'experience" },
-      { "value": "None / Fresher", "label": "Aucune / Debutant" },
-      { "value": "0-1 Years", "label": "0-1 an" },
-      { "value": "1-3 Years", "label": "1-3 ans" },
-      { "value": "3+ Years", "label": "3+ ans" }
+      {
+        "value": "",
+        "label": "Sélectionnez l'expérience"
+      },
+      {
+        "value": "None / Fresher",
+        "label": "Aucun / Plus frais"
+      },
+      {
+        "value": "0-1 Years",
+        "label": "0-1 ans"
+      },
+      {
+        "value": "1-3 Years",
+        "label": "1-3 ans"
+      },
+      {
+        "value": "3+ Years",
+        "label": "3+ ans"
+      }
     ],
     "application_type_options": {
-      "placeholder": "Selectionnez le type...",
-      "job": "Emploi",
-      "internship": "Stage"
+      "placeholder": "Sélectionnez le type...",
+      "job": "Job",
+      "internship": "Internship"
     },
     "program_options": {
-      "placeholder": "Selectionnez un programme...",
-      "pick_type_first": "Selectionnez d'abord le type de candidature",
+      "placeholder": "Sélectionnez un programme...",
+      "pick_type_first": "Sélectionnez d'abord le type de demande",
       "none_available": "Aucun programme disponible pour ce type"
     },
     "upload": {
-      "drop_text": "Deposez votre CV ici.",
-      "types_text": "PDF, DOC, DOCX jusqu'a 5MB"
+      "drop_text": "Déposez votre CV ici.",
+      "types_text": "PDF, DOC, DOCX jusqu'à 5 Mo"
     },
     "buttons": {
-      "submit": "Envoyer la candidature",
-      "submitting": "Envoi en cours..."
+      "submit": "Soumettre la candidature",
+      "submitting": "Submitting..."
     },
     "status": {
-      "success": "Candidature envoyee avec succes !",
-      "error": "Echec de l'envoi. Veuillez reessayer.",
+      "success": "Candidature soumise avec succès !",
+      "error": "Échec de la soumission de la candidature. Veuillez réessayer.",
       "invalid_email": "Utilisez un email valide",
-      "invalid_phone": "Doit commencer par +92 et contenir 10 chiffres"
+      "invalid_phone": "Doit commencer par +92 et comporter 10 chiffres"
     }
   },
   "side_card": {
     "title": "Pourquoi rejoindre DEVISGON ?",
-    "description": "Nous sommes une equipe passionnee de developpeurs, designers et innovateurs. Construisez l'avenir avec nous et faites progresser votre carriere.",
+    "description": "Nous sommes une équipe de développeurs, designers et innovateurs passionnés. Venez construire l'avenir avec nous et faites passer votre carrière au niveau supérieur.",
     "benefits": [
       {
         "title": "Projets innovants",
-        "description": "Travaillez sur des solutions de pointe qui remettent en cause le statu quo."
+        "description": "Travaillez sur des solutions de pointe qui remettent en question le statu quo."
       },
       {
-        "title": "Evolution de carriere",
-        "description": "Des parcours clairs pour progresser et se developper professionnellement."
+        "title": "Croissance de carrière",
+        "description": "Des voies claires d’avancement et de développement professionnel."
       },
       {
         "title": "Environnement collaboratif",
-        "description": "Collaborez avec des talents dans une culture inclusive et bienveillante."
+        "description": "Collaborez avec des pairs talentueux dans une culture solidaire et inclusive."
       },
       {
-        "title": "Opportunites d'apprentissage",
-        "description": "Apprentissage continu grace a l'experience pratique et au mentorat."
+        "title": "Opportunités d'apprentissage",
+        "description": "Formation continue grâce à une expérience pratique et au mentorat."
       }
     ]
   },
