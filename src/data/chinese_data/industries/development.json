@@ -1,158 +1,158 @@
 {
   "slug": "software-development",
   "hero_section": {
-    "eyebrow": "Autonomous Engineering Ecosystems",
-    "title": "Agentic Workflows for",
-    "highlight": "Software Engineering",
-    "description": "Shift from manual coding to strategic orchestration. Deploy AI agents that autonomously refactor legacy debt, generate self-healing tests, and maintain 2026-standard security guardrails.",
+    "eyebrow": "自主工程生态系统",
+    "title": "代理工作流程",
+    "highlight": "软件工程",
+    "description": "从手动编码转向战略编排。部署 AI 代理，自动重构遗留债务、生成自我修复测试并维护 2026 年标准的安全护栏。",
     "primary_cta": {
-      "text": "Build the Future",
+      "text": "建设未来",
       "href": "/get-started"
     },
     "secondary_cta": {
-      "text": "View Agentic Architecture",
+      "text": "查看代理架构",
       "href": "#engineering-architecture"
     },
     "background_image": "/industries/software_development.webp"
   },
   "friction_section": {
-    "title": "The Velocity Barrier",
-    "subtitle": "In 2026, the primary blocker isn't writing code—it's maintaining the complexity AI left behind.",
+    "title": "速度障碍",
+    "subtitle": "到 2026 年，主要的障碍不是编写代码，而是维持人工智能留下的复杂性。",
     "cards": [
       {
-        "title": "Compound Technical Debt",
-        "description": "AI-generated code often leads to 'vibe coding' debt where lack of explicit logic creates brittle, unmaintainable systems.",
+        "title": "复合技术债务",
+        "description": "人工智能生成的代码通常会导致“氛围编码”债务，其中缺乏明确的逻辑会导致系统脆弱且难以维护。",
         "icon_type": "FaCodeBranch"
       },
       {
-        "title": "Compatibility Churn",
-        "description": "Rapid shifts in AI models and framework APIs create constant integration friction and 'compatibility debt.'",
+        "title": "兼容性流失",
+        "description": "人工智能模型和框架 API 的快速变化会造成持续的集成摩擦和“兼容性债务”。",
         "icon_type": "FaRandom"
       },
       {
-        "title": "The Oversight Gap",
-        "description": "Engineers are overwhelmed by the volume of code to review, leading to hidden security vulnerabilities and logic flaws.",
+        "title": "监督差距",
+        "description": "工程师们因需要审查的代码量而不知所措，从而导致隐藏的安全漏洞和逻辑缺陷。",
         "icon_type": "FaBug"
       }
     ]
   },
   "architecture_section": {
     "id": "engineering-architecture",
-    "title": "Autonomous Pipelines, Human Oversight.",
-    "description": "Our engineering architecture integrates Agentic AI directly into your Git providers and IDEs to create a self-healing codebase.",
+    "title": "自主管道，人工监督。",
+    "description": "我们的工程架构将 Agentic AI 直接集成到您的 Git 提供程序和 IDE 中，以创建自我修复的代码库。",
     "bullets": [
-      "Agentic Multi-Agent Coordination",
-      "Autonomous Unit & Edge-Case Testing",
-      "Real-time Logic Mapping & XAI"
+      "代理多代理协调",
+      "自主单元和边缘案例测试",
+      "实时逻辑映射和 XAI"
     ],
     "cards": [
       {
-        "title": "Engineering Health Console",
-        "description": "Monitor DORA metrics and AI contribution impact while visualizing technical debt hotspots in real-time.",
+        "title": "工程健康控制台",
+        "description": "监控 DORA 指标和 AI 贡献影响，同时实时可视化技术债务热点。",
         "icon_type": "MdOutlineDeveloperBoard",
         "featured": true
       },
       {
-        "title": "Automated Refactor Agents",
-        "description": "Continuous agents that modernize patterns, de-duplicate logic, and update APIs across entire repositories autonomously.",
+        "title": "自动重构代理",
+        "description": "连续代理可以实现模式现代化、重复逻辑删除以及跨整个存储库自主更新 API。",
         "icon_type": "FaMagic"
       },
       {
-        "title": "Secure-by-Design Guardrails",
-        "description": "Agentic static analysis that doesn't just flag vulnerabilities but autonomously proposes and tests verified fixes.",
+        "title": "安全设计护栏",
+        "description": "代理静态分析不仅会标记漏洞，还会自动提出并测试经过验证的修复程序。",
         "icon_type": "FaShieldAlt"
       }
     ]
   },
   "benefits_section": {
-    "title": "Engineering Benefits",
-    "subtitle": "Empower your team to focus on high-level system design and strategic problem decomposition.",
+    "title": "工程效益",
+    "subtitle": "使您的团队能够专注于高层系统设计和战略问题分解。",
     "cards": [
       {
-        "title": "Hours, Not Days",
-        "description": "Agent coordination allows complex feature implementations that used to take days to be finished in a single working session.",
+        "title": "几小时，而不是几天",
+        "description": "代理协调允许复杂的功能实现，而这些功能过去需要数天才能在单个工作会话中完成。",
         "icon_type": "FaRocket"
       },
       {
-        "title": "Self-Healing Repositories",
-        "description": "AI agents automatically discover and fix performance bottlenecks or logical errors before they reach staging.",
+        "title": "自我修复存储库",
+        "description": "AI 代理会在达到登台之前自动发现并修复性能瓶颈或逻辑错误。",
         "icon_type": "FaCheckCircle"
       },
       {
-        "title": "Collapse Onboarding Time",
-        "description": "AI-driven contextual understanding helps new engineers contribute to complex codebases in hours, not weeks.",
+        "title": "折叠入职时间",
+        "description": "人工智能驱动的上下文理解可以帮助新工程师在数小时而不是数周内为复杂的代码库做出贡献。",
         "icon_type": "FaUserPlus"
       },
       {
-        "title": "Denser Engineering Teams",
-        "description": "Accomplish more with smaller, high-leverage teams where one human supervises multiple specialized agents.",
+        "title": "更密集的工程团队",
+        "description": "通过由一名人员监督多名专业代理的小型高杠杆团队实现更多目标。",
         "icon_type": "FaUsersCog"
       },
       {
-        "title": "Living Documentation",
-        "description": "Documentation that interprets code intent and updates itself as agents evolve the system architecture.",
+        "title": "生活文档",
+        "description": "解释代码意图并随着代理发展系统架构而更新自身的文档。",
         "icon_type": "FaBook"
       },
       {
-        "title": "Reduced Burnout",
-        "description": "Delegate 'toil'—like dependency updates and ticket boilerplate—to agents while humans own the creative vision.",
+        "title": "减少倦怠",
+        "description": "将“辛苦工作”（例如依赖项更新和票证样板）委托给代理，而人类拥有创造性的愿景。",
         "icon_type": "FaLeaf"
       }
     ]
   },
   "case_studies_section": {
-    "title": "Engineering in Practice",
-    "subtitle": "Real-world impact on high-scale distributed systems in 2026.",
+    "title": "工程实践",
+    "subtitle": "2026 年对大规模分布式系统的现实影响。",
     "cards": [
       {
-        "label": "Case Study 01",
-        "title": "FinTech Legacy Migration",
-        "description": "Refactor agents migrated a 15-year-old monolith to serverless microservices with 90% autonomous execution and zero downtime.",
+        "label": "案例研究01",
+        "title": "金融科技遗留迁移",
+        "description": "重构代理将已有 15 年历史的整体架构迁移到无服务器微服务，实现 90% 的自主执行和零停机时间。",
         "href": "/contact",
-        "cta_text": "View Technical Specs"
+        "cta_text": "查看技术规格"
       },
       {
-        "label": "Case Study 02",
-        "title": "SaaS Rapid Scaling",
-        "description": "Agentic pipelines reduced feature lead time from idea to production by 75% for a Tier-1 logistics platform.",
+        "label": "案例研究02",
+        "title": "SaaS 快速扩展",
+        "description": "Agentic 管道将一级物流平台从创意到生产的功能交付周期缩短了 75%。",
         "href": "/contact",
-        "cta_text": "View Technical Specs"
+        "cta_text": "查看技术规格"
       }
     ]
   },
   "explore_section": {
-    "title": "Cross-Industry Synergy",
-    "subtitle": "Our software intelligence powers the digital foundations of these core sectors.",
+    "title": "跨行业协同",
+    "subtitle": "我们的软件智能为这些核心部门的数字基础提供动力。",
     "cards": [
       {
         "title": "Finance",
-        "description": "Secure transaction processing and high-frequency trading systems.",
+        "description": "安全交易处理和高频交易系统。",
         "href": "/industries/finance",
         "icon_type": "FaRegMoneyBillAlt"
       },
       {
         "title": "Healthcare",
-        "description": "Build secure, HIPAA-compliant patient platforms and diagnostic tools.",
+        "description": "构建安全、符合 HIPAA 的患者平台和诊断工具。",
         "href": "/industries/healthcare",
         "icon_type": "FaStethoscope"
       },
       {
         "title": "E-commerce",
-        "description": "High-velocity headless storefronts and agentic commerce engines.",
+        "description": "高速无头店面和代理商务引擎。",
         "href": "/industries/ecommerce",
         "icon_type": "FaShoppingCart"
       }
     ]
   },
   "conversation_section": {
-    "title": "Talk to a System Architect",
-    "subtitle": "Ready to move from hands-on keyboard to high-level orchestration? Let's discuss your tech roadmap.",
-    "full_name_label": "Engineering Leader Name",
-    "business_email_label": "Work Email",
-    "message_label": "Technical Vision",
-    "full_name_placeholder": "Grace Hopper",
+    "title": "与系统架构师交谈",
+    "subtitle": "准备好从手动键盘转向高级编排了吗？让我们讨论一下您的技术路线图。",
+    "full_name_label": "工程负责人姓名",
+    "business_email_label": "工作邮箱",
+    "message_label": "技术愿景",
+    "full_name_placeholder": "格蕾丝·霍珀",
     "business_email_placeholder": "cto@engineering-next.io",
-    "message_placeholder": "Tell us about your stack (e.g., K8s, Rust, Next.js) and technical debt challenges...",
-    "button_text": "Request Consult"
+    "message_placeholder": "告诉我们您的堆栈（例如 K8s、Rust、Next.js）和技术债务挑战...",
+    "button_text": "请求咨询"
   }
 }

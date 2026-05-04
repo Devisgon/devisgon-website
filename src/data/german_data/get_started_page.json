@@ -1,88 +1,103 @@
 {
-  "hero_title": "Werde Teil Unseres Teams",
-  "hero_description": "Suchst du einen Job oder ein Praktikum? Erzaehl uns etwas ueber dich, lade deinen Lebenslauf hoch und starte deine Reise mit DEVISGON.",
+  "hero_title": "Treten Sie unserem Team bei",
+  "hero_description": "Auf der Suche nach einem Job oder einem Praktikum? Erzählen Sie uns etwas über sich, laden Sie Ihren Lebenslauf hoch und beginnen Sie Ihre Reise mit DEVISGON.",
   "form_inactive": {
-    "title": "Bewerbungen sind derzeit geschlossen",
-    "description": "Bewerbungen sind aktuell geschlossen. Bitte versuche es im naechsten Einstellungszyklus erneut oder abonniere unseren Newsletter fuer Updates."
+    "title": "Bewerbungen sind geschlossen",
+    "description": "Bewerbungen sind derzeit geschlossen. Bitte schauen Sie im nächsten Einstellungszyklus noch einmal vorbei oder abonnieren Sie unseren Newsletter für Updates."
   },
   "no_openings": {
-    "title": "Derzeit keine offenen Stellen",
-    "description": "Aktuell gibt es keine aktiven Jobs oder Praktika. Bitte schaue bald wieder vorbei."
+    "title": "Derzeit sind keine offenen Stellen verfügbar",
+    "description": "Derzeit gibt es keine aktiven Jobs oder Praktika. Bitte schauen Sie bald noch einmal vorbei."
   },
   "form": {
-    "title": "Jetzt Bewerben",
-    "description": "Fuellen Sie das Bewerbungsformular unten aus.",
+    "title": "Bewerben Sie sich jetzt",
+    "description": "Füllen Sie das untenstehende Bewerbungsformular aus.",
     "labels": {
-      "full_name": "Vollstaendiger Name *",
+      "full_name": "Vollständiger Name *",
       "email": "E-Mail *",
       "phone": "Telefonnummer *",
       "education": "Ausbildung *",
-      "experience": "Erfahrung",
-      "portfolio": "Portfolio / LinkedIn",
-      "application_type": "Bewerbungsart *",
-      "available_programs": "Verfuegbare Programme *",
+      "experience": "Experience",
+      "portfolio": "Portfolio / LinkedIn-ID",
+      "application_type": "Bewerbungstyp *",
+      "available_programs": "Verfügbare Programme *",
       "upload_cv": "Lebenslauf hochladen",
-      "privacy_prefix": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemaess der",
-      "privacy_policy": "Datenschutzerklaerung"
+      "privacy_prefix": "Ich stimme der Verarbeitung meiner personenbezogenen Daten gemäß der DSGVO zu",
+      "privacy_policy": "Datenschutzrichtlinie"
     },
     "placeholders": {
-      "full_name": "Dein vollstaendiger Name",
+      "full_name": "Ihr vollständiger Name",
       "email": "your@email.com",
       "phone": "+92 300 1234567",
-      "education": "z. B. Bachelor Informatik",
+      "education": "z.B. BS Informatik",
       "portfolio": "https://linkedin.com"
     },
     "experience_options": [
-      { "value": "", "label": "Erfahrung waehlen" },
-      { "value": "None / Fresher", "label": "Keine / Einsteiger" },
-      { "value": "0-1 Years", "label": "0-1 Jahre" },
-      { "value": "1-3 Years", "label": "1-3 Jahre" },
-      { "value": "3+ Years", "label": "3+ Jahre" }
+      {
+        "value": "",
+        "label": "Erlebnis auswählen"
+      },
+      {
+        "value": "None / Fresher",
+        "label": "Keine/frischer"
+      },
+      {
+        "value": "0-1 Years",
+        "label": "0-1 Jahre"
+      },
+      {
+        "value": "1-3 Years",
+        "label": "1-3 Jahre"
+      },
+      {
+        "value": "3+ Years",
+        "label": "3+ Jahre"
+      }
     ],
     "application_type_options": {
-      "placeholder": "Typ auswaehlen...",
+      "placeholder": "Typ auswählen...",
       "job": "Job",
-      "internship": "Praktikum"
+      "internship": "Internship"
     },
     "program_options": {
-      "placeholder": "Programm auswaehlen...",
-      "pick_type_first": "Bitte zuerst Bewerbungsart auswaehlen",
-      "none_available": "Keine Programme fuer diesen Typ verfuegbar"
+      "placeholder": "Wählen Sie ein Programm...",
+      "pick_type_first": "Wählen Sie zunächst den Anwendungstyp aus",
+      "none_available": "Für diesen Typ sind keine Programme verfügbar"
     },
     "upload": {
-      "drop_text": "Lebenslauf hier ablegen.",
-      "types_text": "PDF, DOC, DOCX bis 5MB"
+      "drop_text": "Hinterlassen Sie hier Ihren Lebenslauf.",
+      "types_text": "PDF, DOC, DOCX bis zu 5 MB"
     },
     "buttons": {
-      "submit": "Bewerbung absenden",
-      "submitting": "Wird gesendet..."
+      "submit": "Bewerbung einreichen",
+      "submitting": "Submitting..."
     },
     "status": {
-      "success": "Bewerbung erfolgreich gesendet!",
-      "error": "Bewerbung konnte nicht gesendet werden. Bitte erneut versuchen.",
-      "invalid_email": "Bitte eine gueltige E-Mail verwenden",
-      "invalid_phone": "Muss mit +92 beginnen und 10 Ziffern enthalten"
+      "success": "Bewerbung erfolgreich eingereicht!",
+      "error": "Antrag konnte nicht eingereicht werden. Bitte versuchen Sie es erneut.",
+      "invalid_email": "Verwenden Sie eine gültige E-Mail-Adresse",
+      "invalid_phone": "Muss mit +92 beginnen und 10 Ziffern haben"
     }
   },
   "side_card": {
-    "title": "Warum DEVISGON?",
-    "description": "Wir sind ein Team aus leidenschaftlichen Entwicklern, Designern und Innovatoren. Gestalte mit uns die Zukunft und bringe deine Karriere auf das naechste Level.",
+    "title": "Warum DEVISGON beitreten?",
+    "description": "Wir sind ein Team aus leidenschaftlichen Entwicklern, Designern und Innovatoren. Gestalten Sie mit uns die Zukunft und bringen Sie Ihre Karriere auf die nächste Stufe.",
     "benefits": [
       {
         "title": "Innovative Projekte",
-        "description": "Arbeite an modernen Loesungen, die den Status quo herausfordern."
+        "description": "Arbeiten Sie an innovativen Lösungen, die den Status Quo in Frage stellen."
       },
       {
         "title": "Karrierewachstum",
-        "description": "Klare Entwicklungswege fuer beruflichen Aufstieg."
+        "description": "Klare Wege für Aufstieg und berufliche Weiterentwicklung."
       },
       {
         "title": "Kollaboratives Umfeld",
-        "description": "Arbeite mit talentierten Kolleginnen und Kollegen in einer inklusiven Kultur."
+        "description": "Arbeiten Sie mit talentierten Kollegen in einer unterstützenden und integrativen Kultur zusammen."
       },
       {
-        "title": "Lernmoeglichkeiten",
-        "description": "Kontinuierliches Lernen durch Praxis und Mentoring."
+        "title": "Lernmöglichkeiten",
+        "description": "Kontinuierliche Weiterbildung durch praktische Erfahrung und Mentoring."
       }
     ]
   },

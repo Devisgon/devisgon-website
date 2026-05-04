@@ -1,93 +1,108 @@
 {
-  "hero_title": "Unete a Nuestro Equipo",
-  "hero_description": "Buscas un trabajo o una pasantia? Cuentanos sobre ti, sube tu CV y comienza tu camino con DEVISGON.",
+  "hero_title": "Únase a nuestro equipo",
+  "hero_description": "¿Buscas trabajo o prácticas? Cuéntanos sobre ti, sube tu CV y ​​comienza tu viaje con DEVISGON.",
   "form_inactive": {
-    "title": "Las postulaciones estan cerradas",
-    "description": "Las postulaciones estan cerradas por ahora. Vuelve en el proximo ciclo de contratacion o suscribete a nuestro boletin para recibir novedades."
+    "title": "Las solicitudes están cerradas",
+    "description": "Las solicitudes están actualmente cerradas. Vuelva a consultar en el próximo ciclo de contratación o suscríbase a nuestro boletín para recibir actualizaciones."
   },
   "no_openings": {
-    "title": "No hay vacantes disponibles ahora",
-    "description": "Actualmente no hay empleos ni pasantias activas. Vuelve a revisar pronto."
+    "title": "No hay vacantes disponibles en este momento",
+    "description": "Actualmente no hay trabajos activos ni prácticas. Por favor, vuelve a comprobarlo pronto."
   },
   "form": {
-    "title": "Postular Ahora",
-    "description": "Completa el formulario de postulacion a continuacion.",
+    "title": "Aplicar ahora",
+    "description": "Complete el formulario de solicitud a continuación.",
     "labels": {
       "full_name": "Nombre completo *",
-      "email": "Correo electronico *",
-      "phone": "Numero de telefono *",
-      "education": "Educacion *",
-      "experience": "Experiencia",
-      "portfolio": "Portafolio / LinkedIn",
-      "application_type": "Tipo de postulacion *",
+      "email": "Correo electrónico *",
+      "phone": "Número de teléfono *",
+      "education": "Educación *",
+      "experience": "Experience",
+      "portfolio": "Portafolio / ID de LinkedIn",
+      "application_type": "Tipo de aplicación *",
       "available_programs": "Programas disponibles *",
       "upload_cv": "Subir CV",
-      "privacy_prefix": "Acepto el procesamiento de mis datos personales de acuerdo con la",
-      "privacy_policy": "Politica de privacidad"
+      "privacy_prefix": "Acepto el tratamiento de mis datos personales de conformidad con las",
+      "privacy_policy": "política de privacidad"
     },
     "placeholders": {
       "full_name": "Tu nombre completo",
-      "email": "your@email.com",
+      "email": "tu@correo electrónico.com",
       "phone": "+92 300 1234567",
-      "education": "ej. Licenciatura en Ciencias de la Computacion",
+      "education": "p.ej. Licenciatura en Ciencias de la Computación",
       "portfolio": "https://linkedin.com"
     },
     "experience_options": [
-      { "value": "", "label": "Seleccionar experiencia" },
-      { "value": "None / Fresher", "label": "Sin experiencia / Principiante" },
-      { "value": "0-1 Years", "label": "0-1 anos" },
-      { "value": "1-3 Years", "label": "1-3 anos" },
-      { "value": "3+ Years", "label": "3+ anos" }
+      {
+        "value": "",
+        "label": "Seleccionar experiencia"
+      },
+      {
+        "value": "None / Fresher",
+        "label": "Ninguno / Más fresco"
+      },
+      {
+        "value": "0-1 Years",
+        "label": "0-1 años"
+      },
+      {
+        "value": "1-3 Years",
+        "label": "1-3 años"
+      },
+      {
+        "value": "3+ Years",
+        "label": "3+ años"
+      }
     ],
     "application_type_options": {
-      "placeholder": "Selecciona tipo...",
-      "job": "Trabajo",
-      "internship": "Pasantia"
+      "placeholder": "Seleccione tipo...",
+      "job": "Job",
+      "internship": "Internship"
     },
     "program_options": {
-      "placeholder": "Selecciona un programa...",
-      "pick_type_first": "Primero selecciona el tipo de postulacion",
+      "placeholder": "Seleccione un programa...",
+      "pick_type_first": "Seleccione primero el tipo de aplicación",
       "none_available": "No hay programas disponibles para este tipo"
     },
     "upload": {
-      "drop_text": "Suelta tu CV aqui.",
+      "drop_text": "Deja tu CV aquí.",
       "types_text": "PDF, DOC, DOCX hasta 5MB"
     },
     "buttons": {
-      "submit": "Enviar postulacion",
-      "submitting": "Enviando..."
+      "submit": "Enviar solicitud",
+      "submitting": "Submitting..."
     },
     "status": {
-      "success": "Postulacion enviada correctamente!",
-      "error": "No se pudo enviar la postulacion. Intentalo de nuevo.",
-      "invalid_email": "Usa un correo valido",
-      "invalid_phone": "Debe comenzar con +92 y tener 10 digitos"
+      "success": "¡Solicitud enviada exitosamente!",
+      "error": "No se pudo enviar la solicitud. Por favor inténtalo de nuevo.",
+      "invalid_email": "Utilice un correo electrónico válido",
+      "invalid_phone": "Debe comenzar con +92 y tener 10 dígitos"
     }
   },
   "side_card": {
-    "title": "Por que unirte a DEVISGON?",
-    "description": "Somos un equipo apasionado de desarrolladores, disenadores e innovadores. Construye el futuro con nosotros y lleva tu carrera al siguiente nivel.",
+    "title": "¿Por qué unirse a DEVISGON?",
+    "description": "Somos un equipo de desarrolladores, diseñadores e innovadores apasionados. Ven a construir el futuro con nosotros y lleva tu carrera al siguiente nivel.",
     "benefits": [
       {
         "title": "Proyectos innovadores",
-        "description": "Trabaja en soluciones de vanguardia que desafian lo establecido."
+        "description": "Trabajar en soluciones de vanguardia que desafíen el status quo."
       },
       {
         "title": "Crecimiento profesional",
-        "description": "Rutas claras para avanzar y desarrollarte profesionalmente."
+        "description": "Caminos claros para el avance y el desarrollo profesional."
       },
       {
-        "title": "Ambiente colaborativo",
-        "description": "Colabora con talentos en una cultura inclusiva y de apoyo."
+        "title": "Entorno colaborativo",
+        "description": "Asóciese con compañeros talentosos en una cultura inclusiva y de apoyo."
       },
       {
         "title": "Oportunidades de aprendizaje",
-        "description": "Aprendizaje continuo mediante experiencia practica y mentoria."
+        "description": "Educación continua a través de experiencia práctica y tutoría."
       }
     ]
   },
   "contact": {
-    "title": "Contactanos",
-    "location": "Okara, Pakistan"
+    "title": "Contáctenos",
+    "location": "Okara, Pakistán"
   }
 }

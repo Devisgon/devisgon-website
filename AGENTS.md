@@ -202,6 +202,9 @@ Optional for blog auto-translation tuning:
 - `BLOG_TRANSLATE_KEY` (required for engines that need an API key)
 - `BLOG_TRANSLATE_URL` (custom endpoint for self-hosted translation engines)
 
+Optional for local newsletter testing:
+- `NEWSLETTER_DEV_REDIRECT_TO_ADMIN` (`false` by default). When explicitly set to `true` in local/dev, newsletter sends are redirected to `RESEND_EMAIL_USER`; otherwise welcome emails go to the subscribing email and campaigns go to all subscribers.
+
 ## Operational Commands
 - Dev: `npm run dev`
 - Dev (force clean cache once): `npm run dev:clean`
@@ -296,3 +299,6 @@ If you change this, also check this:
 - 2026-04-28: Added strict non-English post-processing for blogs in `ur`/`ar`/`zh` to strip leftover Latin-word tokens when translation providers fail, and translated author/byline text on blog list/detail/recent cards to avoid visible English leftovers.
 - 2026-04-28: Localized home-page blog hero heading/subheading by cookie language and fully localized footer labels/newsletter form copy (titles, links, placeholders, button, and validation/success messages) across supported languages.
 - 2026-04-28: Implemented functional newsletter subscriptions with `/api/newsletter_subscribe`, added `newsletter-subscribers` collection for DB-backed subscriber storage, wired footer form submission, and added Resend broadcast hooks for blog publish/update, career open/update, and get-started form open/close updates.
+- 2026-04-28: Added newsletter campaign diagnostics (recipient counts, per-recipient resend rejection logs, and admin summary email to `RESEND_EMAIL_USER`) to make blog/career/form broadcast delivery issues observable in production logs and inbox.
+- 2026-04-28: Added localhost-safe newsletter delivery mode that redirects dev sends to `RESEND_EMAIL_USER` (toggle via `NEWSLETTER_DEV_REDIRECT_TO_ADMIN`) for both subscribe welcome emails and campaign broadcasts.
+- 2026-04-28: Changed newsletter delivery default to direct-send mode (welcome -> subscriber email, campaigns -> all subscriber emails), with admin redirect available only when `NEWSLETTER_DEV_REDIRECT_TO_ADMIN=true`.

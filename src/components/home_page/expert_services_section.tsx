@@ -1,13 +1,13 @@
 "use client";
 import { Check } from "lucide-react";
-import { motion, useInView } from "framer-motion";
+import { motion, useInView, Variants } from "framer-motion"; // Add Variants to your import
 import { useRef } from "react";
 import type { ExpertServicesSectionProps } from "@/types/homepage/expert_services";
+import { cursorTo } from "readline";
 
 /* ------------------ Looping Typewriter Sub-Component ------------------ */
 const TypewriterTitle = ({ text, color }: { text: string; color: string }) => {
   const ref = useRef(null);
-  // Removed "once: true" so it can restart/stop based on visibility
   const isInView = useInView(ref, { amount: 0.5 });
 
   const sentence = {
@@ -15,8 +15,8 @@ const TypewriterTitle = ({ text, color }: { text: string; color: string }) => {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.08, // Speed of typing
-        delayChildren: 0.5,    // Pause before starting the loop
+        staggerChildren: 0.08,
+        delayChildren: 0.5,
       },
     },
   };
@@ -27,32 +27,55 @@ const TypewriterTitle = ({ text, color }: { text: string; color: string }) => {
       opacity: 1, 
       display: "inline",
       transition: {
-        repeat: Infinity,      // Infinite loop
-        repeatType: "reverse" as const, // Deletes the text after typing
-        repeatDelay: 1.5,      // How long the full word stays visible
-        duration: 0.01         // Instant appearance of each character
+        repeat: Infinity,
+        repeatType: "reverse" as const,
+        repeatDelay: 1.5,
+        duration: 0.01 
       }
     },
   };
 
-  return (
-    <motion.span
-      ref={ref}
-      variants={sentence}
-      initial="hidden"
-      animate={isInView ? "visible" : "hidden"}
-      className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide inline-block"
-      style={{ color: color }}
-    >
-      {text.split("").map((char, index) => (
-        <motion.span key={index} variants={letter}>
-          {char}
-        </motion.span>
-      ))}
-    </motion.span>
-  );
+  // 1. Define the cursor blinking animation
+const cursorVariants: Variants = {
+  blinking: {
+    opacity: [0, 0, 1, 1],
+    transition: {
+      duration: 0.8,
+      repeat: Infinity,
+      ease: "linear",
+      times: [0, 0.5, 0.5, 1],
+    },
+  },
 };
 
+  return (
+  <motion.span
+  ref={ref}
+  variants={sentence}
+  initial="hidden"
+  animate={isInView ? "visible" : "hidden"}
+  className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide inline-flex items-center flex-wrap"
+  style={{ color: color }}
+>
+  {text.split("").map((char, index) => (
+    <motion.span 
+      key={index} 
+      variants={letter}
+      className={char === " " ? "inline-block w-[0.3em]" : "inline"}
+    >
+      {char === " " ? "\u00A0" : char}
+    </motion.span>
+  ))}
+  
+  <motion.span
+    variants={cursorVariants}
+    animate="blinking"
+    className="w-[2px] h-[1em] ml-0.5 flex-shrink-0"
+    style={{ backgroundColor: color }}
+  />
+</motion.span>
+  );
+};
 /* ------------------ Main Section ------------------ */
 const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
   return (

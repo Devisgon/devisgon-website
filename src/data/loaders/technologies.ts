@@ -42,6 +42,8 @@ export const TECHNOLOGY_SLUGS = [
   "amazon",
   "shopify",
   "wordpress",
+    "dctr_hoastingg",
+
 ] as const;
 
 const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "languages" | "frameworks" | "database" | "tools"> = {
@@ -74,6 +76,8 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
   amazon: "tools",
   shopify: "tools",
   wordpress: "tools",
+    dctr_hoastingg: "tools",
+
 };
 
 function resolveTechnologyPath(langFolder: string, slug: string): string | null {
