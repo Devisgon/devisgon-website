@@ -196,6 +196,10 @@
             "title": "Agriculture",
             "links": [
               {
+                "name": "Dairy Farm",
+                "href": "/industries/agriculture/dairy_farm"
+              },
+              {
                 "name": "Farms",
                 "href": "/industries/agriculture/farms"
               },
@@ -208,14 +212,26 @@
                 "href": "/industries/agriculture/irrigation"
               },
               {
+                "name": "Landscaping",
+                "href": "/industries/agriculture/landscraping"
+              },
+              {
                 "name": "Plants",
                 "href": "/industries/agriculture/plants"
+              },
+              {
+                "name": "Poultry Farm",
+                "href": "/industries/agriculture/poetry_farm"
               }
             ]
           },
           {
             "title": "Entertainment",
             "links": [
+              {
+                "name": "Clothing",
+                "href": "/industries/entertainment/clothing"
+              },
               {
                 "name": "Events",
                 "href": "/industries/entertainment/events"
@@ -231,6 +247,19 @@
               {
                 "name": "Restaurants",
                 "href": "/industries/entertainment/restaurants"
+              },
+              {
+                "name": "Supermarket",
+                "href": "/industries/entertainment/supermarket"
+              }
+            ]
+          },
+          {
+            "title": "Food",
+            "links": [
+              {
+                "name": "Bakery",
+                "href": "/industries/food/bakery"
               }
             ]
           },
@@ -275,12 +304,24 @@
                 "href": "/industries/professional/education"
               },
               {
+                "name": "Fuel Station",
+                "href": "/industries/professional/fuel_station"
+              },
+              {
+                "name": "Gym & Fitness",
+                "href": "/industries/professional/gym"
+              },
+              {
                 "name": "Legal Services",
                 "href": "/industries/professional/legal_services"
               },
               {
                 "name": "Travel Services",
                 "href": "/industries/professional/travel_services"
+              },
+              {
+                "name": "Tutor",
+                "href": "/industries/professional/tutoer"
               }
             ]
           },
@@ -294,6 +335,14 @@
               {
                 "name": "Commercial",
                 "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "Insurance",
+                "href": "/industries/real_estate/insurance"
+              },
+              {
+                "name": "Micro Finance",
+                "href": "/industries/real_estate/micro_finance"
               },
               {
                 "name": "Property Management",
@@ -313,12 +362,24 @@
                 "href": "/industries/trades/carpentry"
               },
               {
+                "name": "Cleaning",
+                "href": "/industries/trades/cleaning"
+              },
+              {
                 "name": "Electrician",
                 "href": "/industries/trades/electrician"
               },
               {
+                "name": "Electronics",
+                "href": "/industries/trades/elctronics"
+              },
+              {
                 "name": "Plumbing",
                 "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "Roofing",
+                "href": "/industries/trades/roofing"
               },
               {
                 "name": "Welding",
@@ -428,7 +489,7 @@
           {
             "title": "Tools",
             "links": [
-                {
+              {
                 "name": "Doctor Hosting",
                 "href": "/technologies/dctr_hoasting"
               },
@@ -462,8 +523,46 @@
       }
     },
     {
+      "name": "Other",
+      "href": "/others/dctr_hosting",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Other",
+            "links": [
+              {
+                "name": "Doctor Hosting",
+                "href": "/others/dctr_hosting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "About Us",
-      "href": "/#about"
+      "href": "/#about",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Company",
+            "links": [
+              {
+                "name": "CEO",
+                "href": "/#about"
+              },
+              {
+                "name": "Team",
+                "href": "/#team"
+              },
+              {
+                "name": "Careers",
+                "href": "/get-started"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "Contact Us",

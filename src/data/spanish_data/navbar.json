@@ -196,6 +196,10 @@
             "title": "Agricultura",
             "links": [
               {
+                "name": "Granja lechera",
+                "href": "/industries/agriculture/dairy_farm"
+              },
+              {
                 "name": "Granjas",
                 "href": "/industries/agriculture/farms"
               },
@@ -208,14 +212,26 @@
                 "href": "/industries/agriculture/irrigation"
               },
               {
+                "name": "Paisajismo",
+                "href": "/industries/agriculture/landscraping"
+              },
+              {
                 "name": "Plantas",
                 "href": "/industries/agriculture/plants"
+              },
+              {
+                "name": "Granja av?cola",
+                "href": "/industries/agriculture/poetry_farm"
               }
             ]
           },
           {
             "title": "Entretenimiento",
             "links": [
+              {
+                "name": "Ropa",
+                "href": "/industries/entertainment/clothing"
+              },
               {
                 "name": "Eventos",
                 "href": "/industries/entertainment/events"
@@ -231,6 +247,19 @@
               {
                 "name": "Restaurantes",
                 "href": "/industries/entertainment/restaurants"
+              },
+              {
+                "name": "Supermercado",
+                "href": "/industries/entertainment/supermarket"
+              }
+            ]
+          },
+          {
+            "title": "Alimentos",
+            "links": [
+              {
+                "name": "Panader?a",
+                "href": "/industries/food/bakery"
               }
             ]
           },
@@ -275,17 +304,29 @@
                 "href": "/industries/professional/education"
               },
               {
+                "name": "Gasolinera",
+                "href": "/industries/professional/fuel_station"
+              },
+              {
+                "name": "Gimnasio y fitness",
+                "href": "/industries/professional/gym"
+              },
+              {
                 "name": "Servicios Legales",
                 "href": "/industries/professional/legal_services"
               },
               {
                 "name": "Servicios de viaje",
                 "href": "/industries/professional/travel_services"
+              },
+              {
+                "name": "Tutor",
+                "href": "/industries/professional/tutoer"
               }
             ]
           },
           {
-            "title": "Bienes raíces",
+            "title": "Bienes Ra?ces",
             "links": [
               {
                 "name": "Arquitectura y Diseño",
@@ -294,6 +335,14 @@
               {
                 "name": "Comercial",
                 "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "Seguros",
+                "href": "/industries/real_estate/insurance"
+              },
+              {
+                "name": "Microfinanzas",
+                "href": "/industries/real_estate/micro_finance"
               },
               {
                 "name": "Gestión de propiedades",
@@ -306,19 +355,31 @@
             ]
           },
           {
-            "title": "Vientos alisios",
+            "title": "Oficios",
             "links": [
               {
                 "name": "Carpintería",
                 "href": "/industries/trades/carpentry"
               },
               {
+                "name": "Limpieza",
+                "href": "/industries/trades/cleaning"
+              },
+              {
                 "name": "Electricista",
                 "href": "/industries/trades/electrician"
               },
               {
+                "name": "Electr?nica",
+                "href": "/industries/trades/elctronics"
+              },
+              {
                 "name": "Plomería",
                 "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "Techado",
+                "href": "/industries/trades/roofing"
               },
               {
                 "name": "Soldadura",
@@ -458,8 +519,46 @@
       }
     },
     {
+      "name": "Otros",
+      "href": "/others/dctr_hosting",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Otros",
+            "links": [
+              {
+                "name": "Doctor Hosting",
+                "href": "/others/dctr_hosting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "Sobre nosotros",
-      "href": "/#about"
+      "href": "/#about",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Empresa",
+            "links": [
+              {
+                "name": "CEO",
+                "href": "/#about"
+              },
+              {
+                "name": "Equipo",
+                "href": "/#team"
+              },
+              {
+                "name": "Carreras",
+                "href": "/get-started"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "Contáctenos",

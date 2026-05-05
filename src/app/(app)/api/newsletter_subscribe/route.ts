@@ -96,8 +96,6 @@ export async function POST(req: Request) {
       You will now receive our latest newsletter about our website updates.
     </p>
 
-   
-
     ${recipient !== intendedRecipient ? `
       <p style="margin-top: 25px; font-size: 12px; color: #a1a1aa; font-style: italic;">
         Dev redirect: ${intendedRecipient}

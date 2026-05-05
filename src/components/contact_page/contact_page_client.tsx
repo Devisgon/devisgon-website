@@ -58,11 +58,18 @@ export default function ContactPageClient({ content }: ContactPageProps) {
   const [preview, setPreview] = useState<string | null>(null);
   const [showOptions, setShowOptions] = useState(false);
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
+  const [phoneError, setPhoneError] = useState("");
 
   const validateEmail = (value: string): boolean => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(value);
+  };
+
+  const validatePhone = (value: string): boolean => {
+    const regex = /^\+?[0-9\s().-]{7,20}$/;
+    return regex.test(value.trim());
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -82,12 +89,24 @@ export default function ContactPageClient({ content }: ContactPageProps) {
     e.preventDefault();
     if (!formRef.current) return;
 
+    let hasError = false;
+
     if (!validateEmail(email)) {
       setError(content.form.status.invalid_email);
-      return;
+      hasError = true;
+    } else {
+      setError("");
     }
 
-    setError("");
+    if (!validatePhone(phone)) {
+      setPhoneError("Use a valid phone number");
+      hasError = true;
+    } else {
+      setPhoneError("");
+    }
+
+    if (hasError) return;
+
     setIsSubmitting(true);
     setStatus("");
 
@@ -187,6 +206,32 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                       className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
                     />
                     {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <label htmlFor="phone" className="text-t-primary ml-2">
+                      Phone Number *
+                    </label>
+                    <input
+                      id="phone"
+                      type="tel"
+                      name="phone"
+                      value={phone}
+                      onChange={(e) => {
+                        const value = e.target.value;
+                        setPhone(value);
+
+                        if (value && !validatePhone(value)) {
+                          setPhoneError("Use a valid phone number");
+                        } else {
+                          setPhoneError("");
+                        }
+                      }}
+                      placeholder="+92 300 1234567"
+                      required
+                      className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
+                    />
+                    {phoneError && <p className="text-red-500 text-sm mt-1">{phoneError}</p>}
                   </div>
                 </div>
 
@@ -322,7 +367,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
 
                 <motion.button
                   type="submit"
-                  disabled={isSubmitting}
+                  disabled={isSubmitting || !!error || !!phoneError}
                   whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full text-white bg-t-secondary py-3 rounded-md transition disabled:opacity-50"

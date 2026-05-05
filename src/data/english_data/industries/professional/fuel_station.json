@@ -1,0 +1,184 @@
+{
+  "slug": "fuel-station",
+  "hero_section": {
+    "eyebrow": "Energy & Logistics Solutions",
+    "title": "AI for",
+    "highlight": "Fuel Stations",
+    "description": "Optimize fuel inventory, automate convenience store replenishment, and secure forecourt operations with intelligent monitoring.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/fuel-station.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Fuel retailers manage hazardous materials, high-volume transactions, and fluctuating market prices daily.",
+    "cards": [
+      {
+        "title": "Fuel Shrinkage",
+        "description": "Difficulty tracking losses due to evaporation, leaks, or delivery discrepancies.",
+        "icon_type": "FaOilCan"
+      },
+      {
+        "title": "Inconsistent Pricing",
+        "description": "Delayed response to global oil market shifts or local competitor price changes.",
+        "icon_type": "FaGasPump"
+      },
+      {
+        "title": "Forecourt Safety",
+        "description": "Managing security risks and ensuring safety compliance across pumps and shops.",
+        "icon_type": "FaExclamationShield"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Smart Pumping, Real-Time Revenue.",
+    "description": "We build a connected ecosystem that links underground tank sensors, pump controllers, and retail POS systems.",
+    "bullets": [
+      "Automatic Tank Gauging (ATG) Sync",
+      "Dynamic Pricing Algorithms",
+      "Smart Surveillance Integration"
+    ],
+    "cards": [
+      {
+        "title": "Station Dashboard",
+        "description": "Real-time visibility into fuel levels, sales volume, and shop performance across sites.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Leak Detection AI",
+        "description": "Predictive alerts for underground storage tank issues before they become environmental hazards.",
+        "icon_type": "FaSearchLocation"
+      },
+      {
+        "title": "Fleet Management",
+        "description": "Automated billing and limit controls for corporate fuel card accounts.",
+        "icon_type": "FaTruck"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Efficiency and safety for the modern energy retailer.",
+    "cards": [
+      {
+        "title": "Precision Inventory",
+        "description": "Automate fuel orders to ensure you never run dry or overfill tanks.",
+        "icon_type": "FaThermometerHalf"
+      },
+      {
+        "title": "Optimized Margins",
+        "description": "Adjust fuel prices instantly based on real-time market data and local demand.",
+        "icon_type": "FaMoneyBillTrendUp"
+      },
+      {
+        "title": "Enhanced Security",
+        "description": "AI-powered camera systems to detect drive-offs and suspicious activity on the forecourt.",
+        "icon_type": "FaVideo"
+      },
+      {
+        "title": "Retail Synergy",
+        "description": "Increase convenience store sales with targeted pump-to-store promotions.",
+        "icon_type": "FaStore"
+      },
+      {
+        "title": "Compliance Logging",
+        "description": "Automated reporting for environmental and safety regulatory requirements.",
+        "icon_type": "FaFileContract"
+      },
+      {
+        "title": "Remote Management",
+        "description": "Control pump status and monitor operations from any mobile device.",
+        "icon_type": "FaMobile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Fuel Station Digital Solutions",
+    "subtitle": "Integrated technology for fluid business operations.",
+    "cards": [
+      {
+        "title": "Centralized POS System",
+        "description": "A unified system handling both fuel dispensing and convenience store retail transactions."
+      },
+      {
+        "title": "AI Tank Monitor",
+        "description": "An intelligent agent that monitors fuel quality and quantity 24/7 with automated alerting."
+      },
+      {
+        "title": "AI Loyalty Bot",
+        "description": "Engage customers via mobile apps with points, digital receipts, and fuel discounts."
+      },
+      {
+        "title": "Supply Chain Automation",
+        "description": "Direct integration with fuel tankers for automated dispatching when levels are low."
+      },
+      {
+        "title": "Environmental Dashboard",
+        "description": "Track and visualize emissions, spills, and safety drills for regulatory audits."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Fueling Progress",
+    "subtitle": "Real-world impact on the forecourt.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Margin Optimization",
+        "description": "An independent station increased fuel margins by 12% using AI-driven dynamic pricing.",
+        "href": "/contact",
+        "cta_text": "Read More"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Security Transformation",
+        "description": "Reduced fuel theft by 45% through AI-powered license plate recognition and pump interlocks.",
+        "href": "/contact",
+        "cta_text": "Read More"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover more ways we apply intelligent automation.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "AI operations for grocery teams.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Electronics",
+        "description": "AI operations for consumer tech.",
+        "href": "/industries/retail/electronics",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Ready to Automate?",
+    "subtitle": "Talk to our energy-tech specialists about your station's digital future.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Message",
+    "full_name_placeholder": "John Petrol",
+    "business_email_placeholder": "john@fuelops.com",
+    "message_placeholder": "Tell us about your station count and current inventory challenges...",
+    "button_text": "Get Started"
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "slug": "insurance",
+  "hero_section": {
+    "eyebrow": "Soluciones de gestión de riesgos y InsurTech",
+    "title": "IA para",
+    "highlight": "Insurance",
+    "description": "Acelere el procesamiento de reclamaciones, automatice la suscripción y mejore la evaluación de riesgos con flujos de trabajo inteligentes basados en datos.",
+    "primary_cta": {
+      "text": "Empezar",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Ver Arquitectura",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/insurance.webp"
+  },
+  "friction_section": {
+    "title": "El punto de fricción",
+    "subtitle": "Los proveedores de seguros luchan con ciclos de reclamos lentos, verificación manual de documentos y detección de fraude compleja.",
+    "cards": [
+      {
+        "title": "Cuellos de botella en las reclamaciones",
+        "description": "Revisión manual de pruebas e informes que provocan semanas de retraso para los asegurados.",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Vulnerabilidad al fraude",
+        "description": "Dificultad para identificar patrones fraudulentos sofisticados en miles de aplicaciones.",
+        "icon_type": "FaUserSecret"
+      },
+      {
+        "title": "Suscripción compleja",
+        "description": "Procesos onerosos de evaluación de riesgos que ralentizan la emisión de nuevas políticas.",
+        "icon_type": "FaStethoscope"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Lógica Segura, Cobertura Instantánea.",
+    "description": "Construimos una capa de seguro cognitivo que automatiza la extracción de documentos y aplica modelos predictivos de riesgo en tiempo real.",
+    "bullets": [
+      "Procesamiento automatizado de documentos OCR",
+      "Motor de detección de fraude predictivo",
+      "Modelado actuarial dinámico"
+    ],
+    "cards": [
+      {
+        "title": "Panel de reclamaciones",
+        "description": "Vista unificada de reclamaciones pendientes, índices de liquidación y cargas de trabajo de los auditores.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Asegurador inteligente",
+        "description": "Sistema de puntuación impulsado por IA para aprobar políticas de bajo riesgo al instante en función de datos históricos.",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "Bot del ciclo de vida de la política",
+        "description": "Automatice renovaciones, endosos y cancelaciones según los términos de la póliza.",
+        "icon_type": "FaHistory"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Impulsar la eficiencia y la confianza en la era de los seguros digitales.",
+    "cards": [
+      {
+        "title": "Asentamientos rápidos",
+        "description": "Reduzca el tiempo de respuesta de reclamos de días a horas con la revisión automatizada de evidencia.",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "Fraude reducido",
+        "description": "Identifique anomalías y análisis de enlaces sospechosos antes de que se produzcan los pagos.",
+        "icon_type": "FaUserLock"
+      },
+      {
+        "title": "Delgadez operativa",
+        "description": "Automatice tareas de gran volumen y baja complejidad para centrar a los expertos en casos de gran valor.",
+        "icon_type": "FaBriefcase"
+      },
+      {
+        "title": "Precios personalizados",
+        "description": "Ofrezca primas dinámicas basadas en comportamientos y perfiles de riesgo en tiempo real.",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "Cumplimiento normativo",
+        "description": "Mantenga pistas de auditoría perfectas para KYC, AML y las regulaciones de seguros locales.",
+        "icon_type": "FaGavel"
+      },
+      {
+        "title": "Satisfacción de los miembros",
+        "description": "Ofrezca una experiencia digital sin fricciones para la gestión de pólizas y reclamaciones.",
+        "icon_type": "FaSmile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Soluciones digitales InsurTech",
+    "subtitle": "Herramientas integrales para la compañía de seguros moderna.",
+    "cards": [
+      {
+        "title": "Portal web para asegurados",
+        "description": "Un portal de alto rendimiento para gestionar coberturas, pagar primas y presentar reclamaciones."
+      },
+      {
+        "title": "Asistente de Reclamaciones de IA",
+        "description": "Un agente que guía a los clientes a través del proceso de envío de pruebas a través del chat móvil."
+      },
+      {
+        "title": "IA de evaluación de daños",
+        "description": "Analice fotografías de daños a propiedades o vehículos para proporcionar estimaciones de reparación instantáneas."
+      },
+      {
+        "title": "Automatización del flujo de trabajo",
+        "description": "Sincronice datos de políticas entre sistemas centrales heredados y aplicaciones modernas orientadas al cliente."
+      },
+      {
+        "title": "Portal de análisis de riesgos",
+        "description": "Visualice los índices de siniestralidad y el rendimiento en diferentes grupos demográficos y regiones."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Rendimiento probado",
+    "subtitle": "Ganancias cuantificables para los líderes de seguros.",
+    "cards": [
+      {
+        "label": "Estudio de caso 01",
+        "title": "Automatización de reclamos",
+        "description": "Una aseguradora nacional redujo los costos de procesamiento de reclamos en un 30 % mediante la verificación automatizada de documentos.",
+        "href": "/contact",
+        "cta_text": "Ver estudio de caso"
+      },
+      {
+        "label": "Estudio de caso 02",
+        "title": "Mitigación del fraude",
+        "description": "Se evitó 2 millones de dólares en pagos fraudulentos dentro de los seis meses posteriores a la implementación de modelos de riesgo predictivos.",
+        "href": "/contact",
+        "cta_text": "Ver estudio de caso"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explora otras industrias",
+    "subtitle": "Vea cómo aplicamos la inteligencia a otros sectores financieros.",
+    "cards": [
+      {
+        "title": "Microfinanzas",
+        "description": "Operaciones de IA para la inclusión financiera.",
+        "href": "/industries/finance/micro-finance",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Bienes Raíces",
+        "description": "Operaciones de IA para equipos inmobiliarios.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Operaciones de IA para equipos médicos.",
+        "href": "/industries/healthcare/dentist",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Asegure su futuro",
+    "subtitle": "Hable con nuestros expertos en tecnología de seguros sobre cómo digitalizar su gestión de riesgos.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico de la empresa",
+    "message_label": "Message",
+    "full_name_placeholder": "Sara Miller",
+    "business_email_placeholder": "sarah@insurancegroup.com",
+    "message_placeholder": "Cuéntenos sobre el volumen de su póliza y sus objetivos de automatización de reclamos...",
+    "button_text": "Empezar"
+  }
+}

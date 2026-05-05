@@ -3,6 +3,14 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY!);
 
+function isValidEmail(value: unknown) {
+  return typeof value === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function isValidPhone(value: unknown) {
+  return typeof value === "string" && /^\+92\d{10}$/.test(value.replace(/\s+/g, ""));
+}
+
 export async function POST(req: Request) {
   try {
    
@@ -39,6 +47,18 @@ export async function POST(req: Request) {
       name, email, phone, education, experience, applicationType, program, portfolioLink,
       fileBase64, fileName, fileType,
     } = body;
+
+    if (
+      typeof name !== "string" ||
+      !name.trim() ||
+      !isValidEmail(email) ||
+      !isValidPhone(phone)
+    ) {
+      return NextResponse.json(
+        { success: false, message: "Name, email, and phone number are required." },
+        { status: 400 },
+      );
+    }
 
     const attachments = fileBase64
       ? [{ filename: fileName || "resume.pdf", content: fileBase64, type: fileType, disposition: "attachment" }]

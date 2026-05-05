@@ -193,8 +193,12 @@
       "dropdown": {
         "columns": [
           {
-            "title": "زراعة",
+            "title": "???????",
             "links": [
+              {
+                "name": "????? ?????",
+                "href": "/industries/agriculture/dairy_farm"
+              },
               {
                 "name": "مزارع",
                 "href": "/industries/agriculture/farms"
@@ -208,14 +212,26 @@
                 "href": "/industries/agriculture/irrigation"
               },
               {
+                "name": "????? ???????",
+                "href": "/industries/agriculture/landscraping"
+              },
+              {
                 "name": "النباتات",
                 "href": "/industries/agriculture/plants"
+              },
+              {
+                "name": "????? ?????",
+                "href": "/industries/agriculture/poetry_farm"
               }
             ]
           },
           {
-            "title": "ترفيه",
+            "title": "???????",
             "links": [
+              {
+                "name": "???????",
+                "href": "/industries/entertainment/clothing"
+              },
               {
                 "name": "الأحداث",
                 "href": "/industries/entertainment/events"
@@ -231,6 +247,19 @@
               {
                 "name": "مطاعم",
                 "href": "/industries/entertainment/restaurants"
+              },
+              {
+                "name": "???? ?????",
+                "href": "/industries/entertainment/supermarket"
+              }
+            ]
+          },
+          {
+            "title": "???????",
+            "links": [
+              {
+                "name": "????",
+                "href": "/industries/food/bakery"
               }
             ]
           },
@@ -264,7 +293,7 @@
             ]
           },
           {
-            "title": "احترافي",
+            "title": "???????",
             "links": [
               {
                 "name": "استشارات",
@@ -275,17 +304,29 @@
                 "href": "/industries/professional/education"
               },
               {
+                "name": "???? ????",
+                "href": "/industries/professional/fuel_station"
+              },
+              {
+                "name": "?????? ????????",
+                "href": "/industries/professional/gym"
+              },
+              {
                 "name": "الخدمات القانونية",
                 "href": "/industries/professional/legal_services"
               },
               {
                 "name": "خدمات السفر",
                 "href": "/industries/professional/travel_services"
+              },
+              {
+                "name": "???? ???",
+                "href": "/industries/professional/tutoer"
               }
             ]
           },
           {
-            "title": "العقارات",
+            "title": "????????",
             "links": [
               {
                 "name": "الهندسة المعمارية والتصميم",
@@ -294,6 +335,14 @@
               {
                 "name": "تجاري",
                 "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "???????",
+                "href": "/industries/real_estate/insurance"
+              },
+              {
+                "name": "??????? ??????",
+                "href": "/industries/real_estate/micro_finance"
               },
               {
                 "name": "إدارة الممتلكات",
@@ -306,19 +355,31 @@
             ]
           },
           {
-            "title": "الصفقات",
+            "title": "?????",
             "links": [
               {
                 "name": "نجارة",
                 "href": "/industries/trades/carpentry"
               },
               {
+                "name": "???????",
+                "href": "/industries/trades/cleaning"
+              },
+              {
                 "name": "كهربائي",
                 "href": "/industries/trades/electrician"
               },
               {
+                "name": "????????????",
+                "href": "/industries/trades/elctronics"
+              },
+              {
                 "name": "السباكة",
                 "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "??????",
+                "href": "/industries/trades/roofing"
               },
               {
                 "name": "لحام",
@@ -458,8 +519,46 @@
       }
     },
     {
+      "name": "????",
+      "href": "/others/dctr_hosting",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "????",
+            "links": [
+              {
+                "name": "Doctor Hosting",
+                "href": "/others/dctr_hosting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "معلومات عنا",
-      "href": "/#about"
+      "href": "/#about",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "الشركة",
+            "links": [
+              {
+                "name": "الرئيس التنفيذي",
+                "href": "/#about"
+              },
+              {
+                "name": "الفريق",
+                "href": "/#team"
+              },
+              {
+                "name": "الوظائف",
+                "href": "/get-started"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "اتصل بنا",

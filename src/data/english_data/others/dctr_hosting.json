@@ -1,0 +1,317 @@
+[
+  {
+    "section_id": "hero_slider_1",
+    "section_title": "Why Choose Us",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "WHY CHOOSE US?",
+          "secondary": "We Never Over Sell. Still We Are Most Affordable"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting.webp",
+      
+        "primary_button": {
+          "text": "COMPARE PLANS",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "hero_slider_2",
+    "section_title": "5X Faster Hosting",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "5X FASTER",
+          "secondary": "Is Your Old Host Slow Try Our 5x Fast Services?"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting_1.webp",
+     
+        "primary_button": {
+          "text": "GET STARTED",
+          "link_url": "#compare_plans"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "domain_search",
+    "section_title": "Domain Search",
+    "title": "Search Your Domain Here",
+    "sub_title": "You can find .com, .org, .net and all other top level domain from here.",
+    "placeholder_text": "Enter your Domain Name here...",
+    "tlds": [
+      {
+        "tld_name": ".com",
+        "price": "Rs.3,499 / 1 year",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".net",
+        "price": "Rs.4,399 / 1 year",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".org",
+        "price": "Rs.3,799 / 1 year",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".pk",
+        "price": "Rs.3,399 / 2 year",
+        "primary_color": "#e74c3c"
+      }
+    ]
+  },
+  {
+    "section_id": "hosting_plans",
+    "section_title": "Different Hosting Platforms",
+    "main_title": "DIFFERENT HOSTING PLATFORMS",
+    "main_sub_title": "Each type of hosting service we provide is further optimized",
+    "plans_per_row": 3,
+    "plans": [
+      {
+        "plan_id": 1,
+        "title": "SHARED HOSTING",
+        "badge": "FREE DOMAIN",
+        "price": "Rs.700 - Rs.4,500",
+        "duration": "3 Months",
+        "color_theme": "cyan",
+        "features": [
+          "1GB - Unlimited SSD Storage",
+          "10GB - Unlimited Bandwidth",
+          "Free SSL Certificate",
+          "1 - Unlimited Websites",
+          "1 - Unlimited Databases"
+        ],
+        "primary_button": {
+          "text": "View Plans",
+          "link_url": "/shared-hosting"
+        }
+      },
+      {
+        "plan_id": 2,
+        "title": "BUSINESS HOSTING",
+        "badge": null,
+        "price": "Rs.7,000 - Rs.50,000",
+        "duration": "Per Year",
+        "color_theme": "green",
+        "features": [
+          "5GB - 100GB Storage",
+          "Unlimited Bandwidth",
+          "Domain(s) 1-2",
+          "Dedicated IP Address",
+          "Unlimited Email Accounts"
+        ],
+        "primary_button": {
+          "text": "View Plans",
+          "link_url": "/business-hosting"
+        }
+      },
+      {
+        "plan_id": 3,
+        "title": "RESELLER HOSTING",
+        "badge": null,
+        "price": "Rs.9,999 - Rs.44,999",
+        "duration": "Per Month",
+        "color_theme": "cyan",
+        "features": [
+          "5GB - 50GB Storage",
+          "100GB - 1TB Bandwidth",
+          "Domain(s) Unlimited",
+          "CPanel/WHM",
+          "Free SSL"
+        ],
+        "primary_button": {
+          "text": "View Plans",
+          "link_url": "/reseller-hosting"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "extra_hosting_plans",
+    "section_title": "VPS and Dedicated Servers",
+    "plans_per_row": 2,
+    "plans": [
+      {
+        "plan_id": 4,
+        "title": "VPS SERVERS",
+        "badge": null,
+        "price": "Rs.2,750 - Rs.6,150",
+        "duration": "Per Month",
+        "color_theme": "green",
+        "features": [
+          "CPU Cores 4-8",
+          "RAM 8GB - 30GB",
+          "SSD Storage",
+          "200GB - 800GB SSD Storage",
+          "1 Dedicated IP"
+        ],
+        "primary_button": {
+          "text": "View Plans",
+          "link_url": "/vps-servers"
+        }
+      },
+      {
+        "plan_id": 5,
+        "title": "DEDICATED AUCTION SERVERS",
+        "badge": null,
+        "color_theme": "cyan",
+        "features": [
+          "4-6 CPU Cores",
+          "8-12 Threads",
+          "RAM 16GB - 128GB",
+          "Capacity 4TB - 8TB",
+          "Connectivity 1 Gbit/S-Port"
+        ],
+        "primary_button": {
+          "text": "View Plans",
+          "link_url": "/dedicated-servers"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "what_we_do",
+    "section_title": "INCLUDE ALL WHAT WE DO",
+    "main_sub_title": "INCLUDE ALL",
+    "main_title": "WHAT WE DO",
+    "services": [
+      {
+        "id": 1,
+        "title": "Data Protection",
+        "description": "We take weekly backups for safeguarding important information from corruption, compromise or loss.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/database-restore.png"
+      },
+      {
+        "id": 2,
+        "title": "Optimization",
+        "description": "We optimize our servers to increase the efficiency of data processing, application distribution, and the overall performance.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/settings.png"
+      },
+      {
+        "id": 3,
+        "title": "Data Analysis",
+        "description": "Our regular anlysis of data gives us the ability to make important secure decisions.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/file.png"
+      },
+      {
+        "id": 4,
+        "title": "Data Encryption",
+        "description": "We encoding a data or information in such a way that only authorized user can access it.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/cloud-storage.png"
+      }
+    ]
+  },
+  {
+    "section_id": "our_services",
+    "section_title": "Our Services",
+    "main_title": "OUR SERVICES",
+    "main_sub_title": "DoctorHoster Web Hosting Services.",
+    "services_list": [
+      {
+        "id": 1,
+        "title": "Live Chat Support",
+        "description": "We provide live chat support for our customers to provide the answer to all their questions.",
+        "icon_url": "https://img.icons8.com/ios-filled/100/333333/speech-bubble.png"
+      },
+      {
+        "id": 2,
+        "title": "Domain Transfer",
+        "description": "We provide one click easy domain transfer solution for our customers.",
+        "icon_url": "https://img.icons8.com/color/100/e74c3c/cloud-download.png"
+      },
+      {
+        "id": 3,
+        "title": "Secured Server",
+        "description": "We manage and integrate our security 24/7 to protect our customers data.",
+        "icon_url": "https://img.icons8.com/ios/100/333333/server.png"
+      },
+      {
+        "id": 4,
+        "title": "Domain Panel",
+        "description": "We provide domain control panel which is easy to use for our customers.",
+        "icon_url": "https://img.icons8.com/ios/100/333333/www.png"
+      }
+    ]
+  },
+  {
+    "section_id": "call_to_action",
+    "section_title": "CTA Section",
+    "background_color": "#e74c3c",
+    "title": "Get Your Desired Hosting From Us",
+    "description": {
+      "line1": "DoctorHoster - Reliable Web Hosting With Unmatched Prices. 24/7/365 Technical Support, 99.99% Up-Time, 30-Days",
+      "line2": "Money-Back Guarantee And, Unmetered Disk Space & Bandwidth"
+    },
+    "button": {
+      "text": "Purchase Now",
+      "link_url": "#purchase"
+    }
+  },
+  {
+    "section_id": "faqs",
+    "section_title": "FAQs",
+    "main_title": "FAQs",
+    "questions": [
+      {
+        "q_id": 1,
+        "question": "What is Webhosting and why I need it?",
+        "answer": "Each website uses up space on a real server somewhere. Webhosting saves those files and delivers your website's content available to online users."
+      },
+      {
+        "q_id": 2,
+        "question": "What kind of Webhosting do I need?",
+        "answer": "It depends on the requirements of your website. For newcomers and smaller websitse, shared Webhosting is probably the right hosting. For those users who require more administration then VPS hosting or a dedicated server is the better choice."
+      },
+      {
+        "q_id": 3,
+        "question": "What is the main difference between a website builder and web hosting?",
+        "answer": "A website builder is a tool that helps you to create your websites easily and effectively. While Webhosting is giving and managing servers and gives you space and other resources to host your website."
+      },
+      {
+        "q_id": 4,
+        "question": "What is the WordPress?",
+        "answer": "It is the most famous web tool to build websites, it is a CMS (Content Management System) that develops several kinds of websites."
+      },
+      {
+        "q_id": 5,
+        "question": "Why purchase a domain name from DoctorHoster?",
+        "answer": "DoctorHoster providing your domain name at a very cheap price and aim to deliver exceptional client experiences. When you purchase a domain name from DoctorHoster, we assure you it will be delivered over to you with higher standards of service and assistance. Our main goal is to make a customer-focused environment filled with the most satisfied customers in the universe. The DoctorHoster guarantee is our brand of excellence."
+      },
+      {
+        "q_id": 6,
+        "question": "What is PHP Hosting?",
+        "answer": "PHP Webhosting is web hosting that can understand and perform the PHP programming language. PHP is a famous server-side scripting language, in which the server can process the source code. That means that the front-end client would not have a way to the source code. DoctorHoster provides the cheapest hosting in the market with very low and affordable prices. We provide cheap shared hosting packages which are much cheaper and 2x faster than GoDaddy and HostGator. We offer low-budget hosting with high-quality services and unlimited storage. Fastest Shared Hosting with high-quality services."
+      },
+      {
+        "q_id": 7,
+        "question": "What is Budget Hosting?",
+        "answer": "Budget Webhosting is performing to be set up on a shared Webhosting plan. That means you will have a tiny part of a server to host your website on it. Even the best budget Webhosting plans don't allow everything that you would take with a higher-priced, but still comparatively affordable. DoctorHoster provides 2x faster PHP hosting with MySQL Databases and Cpanel. We offer the best PHP hosting plans for individual and business use. Our company provides a web host with PHP and MySQL support 24/7/365days. We include all versions of PHP hosting, which include PHP 7 hosting."
+      },
+      {
+        "q_id": 8,
+        "question": "What is the WordPress Hosting?",
+        "answer": "WordPress Webhosting can also use shared web servers to host many websites at once though, unlike Webhosting, every site on a shared web server will be a WordPress site. A WordPress Webhost provides especially to WordPress installs and allows customized solutions, services, and support to enhance WordPress efficiency. If you want the best and fastest web hosting for WordPress try our fast WordPress hosting plan with 30 days money-back guarantee. DoctorHoster has super-fast web servers to provide super fast hosting. Our fastest web server makes us the fastest hosting company in the current market. Our fastest hosting services make our clients enjoy WordPress fast hosting, fast PHP hosting and, fastest shared hosting all over the world."
+      },
+      {
+        "q_id": 9,
+        "question": "What is Managed WordPress Hosting?",
+        "answer": "We offer managed web hosting services and managed server solutions for our clients. Managed WordPress hosting is a bit like having your tech team. Our Managed Hosting offers the expertise and experience to support your hosting operations. DoctorHoster provides cheap managed WordPress hosting in the current market only at $24.99. With our dedicated team, we can provide the fastest managed WordPress hosting to save the precious time of our customers. Fully managed WordPress hosting lets you sleep well and relax at night. DoctorHoster provides affordable and professional WordPress managed services to make your site faster and secure. We also provide basic managed WordPress websites package only at $24.99 with Lifetime Free Domain, Lifetime Free SSL, Unlimited Bandwidth, and Unlimited Disk Space."
+      },
+      {
+        "q_id": 10,
+        "question": "What is Business Hosting?",
+        "answer": "Business Webhosting is available in Linux Webhosting with cPanel and Windows Webhosting with Plesk, with the resources and power of a private server without requiring a server administrator. If your website is expanding, business hosting gives stronger performance than shared hosting while staying affordable and simple to manage."
+      }
+      ]
+    }
+]

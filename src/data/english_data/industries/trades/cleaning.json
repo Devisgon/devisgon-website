@@ -1,0 +1,184 @@
+{
+  "slug": "cleaning-services",
+  "hero_section": {
+    "eyebrow": "Facility & Residential Maintenance",
+    "title": "AI for",
+    "highlight": "Cleaning Services",
+    "description": "Optimize crew dispatching, automate quality inspections, and streamline client bookings with intelligent service management.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/cleaning.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Cleaning companies struggle with manual scheduling, fluctuating staff availability, and inconsistent quality control.",
+    "cards": [
+      {
+        "title": "Scheduling Conflicts",
+        "description": "Managing complex timetables for multiple teams across different locations manually.",
+        "icon_type": "FaCalendarTimes"
+      },
+      {
+        "title": "Quality Inconsistency",
+        "description": "Difficulty ensuring standardized service quality without constant on-site supervision.",
+        "icon_type": "FaCheckCircle"
+      },
+      {
+        "title": "Inventory Leakage",
+        "description": "Poor tracking of cleaning chemicals and equipment leading to unexpected shortages.",
+        "icon_type": "FaFlask"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Spotless Operations, Data-Driven Results.",
+    "description": "We build a digital backbone that connects field workers, client requests, and inventory logistics.",
+    "bullets": [
+      "Dynamic Route Optimization",
+      "AI Quality Verification",
+      "Automated Supply Management"
+    ],
+    "cards": [
+      {
+        "title": "Operations Dashboard",
+        "description": "Real-time tracking of active jobs, crew locations, and customer satisfaction scores.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Smart Dispatch",
+        "description": "Automatically assign the nearest qualified team based on service type and traffic.",
+        "icon_type": "FaRoute"
+      },
+      {
+        "title": "Predictive Supply Bot",
+        "description": "AI alerts to restock cleaning agents based on the number and type of completed jobs.",
+        "icon_type": "FaBoxOpen"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Elevate your service standards with precision automation.",
+    "cards": [
+      {
+        "title": "Improved Logistics",
+        "description": "Reduce travel time and fuel costs by optimizing crew routes and schedules.",
+        "icon_type": "FaGasPump"
+      },
+      {
+        "title": "Visual Proof of Work",
+        "description": "Enable 'Before & After' photo verification within the automated workflow.",
+        "icon_type": "FaCamera"
+      },
+      {
+        "title": "Instant Quotations",
+        "description": "Let clients get accurate price estimates based on square footage and service depth.",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "Higher Staff Trust",
+        "description": "Transparent clock-in/out and checklist tracking for every job site.",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "Reduced Churn",
+        "description": "Automated follow-ups and feedback loops to ensure long-term client loyalty.",
+        "icon_type": "FaHeart"
+      },
+      {
+        "title": "Paperless Admin",
+        "description": "Digitize invoices, safety data sheets, and employment contracts.",
+        "icon_type": "FaFileInvoice"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Cleaning Digital Solutions",
+    "subtitle": "Smart tools for a sparkling business model.",
+    "cards": [
+      {
+        "title": "Client Booking Portal",
+        "description": "A seamless web interface for recurring subscriptions, one-time deep cleans, and secure payments."
+      },
+      {
+        "title": "AI Quality Auditor",
+        "description": "An agent that reviews submitted job photos and checklists to flag potential misses."
+      },
+      {
+        "title": "AI Receptionist for Services",
+        "description": "Handle inbound inquiries, quote requests, and rescheduling via chat or phone."
+      },
+      {
+        "title": "Workflow Automation",
+        "description": "Sync completed job data with payroll and supply chain ordering systems automatically."
+      },
+      {
+        "title": "Safety & Compliance AI",
+        "description": "Track chemical usage and ensure all safety protocols are logged for insurance purposes."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Cleansed with AI",
+    "subtitle": "Impactful results for professional maintenance teams.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Efficiency Gain",
+        "description": "A commercial cleaning firm increased daily job capacity by 20% through smart route optimization.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Quality Assurance",
+        "description": "Reduced client complaints by 35% after implementing AI-driven photo verification checklists.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "See where else our automation framework creates impact.",
+    "cards": [
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Gym",
+        "description": "AI operations for fitness centers.",
+        "href": "/industries/health/gym",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Supermarket",
+        "description": "AI operations for grocery teams.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Scale Your Service",
+    "subtitle": "Talk to our service-tech specialists about automating your cleaning business.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Work Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Robert Clean",
+    "business_email_placeholder": "robert@sparkleops.com",
+    "message_placeholder": "Tell us about your crew size and service areas...",
+    "button_text": "Start Now"
+  }
+}

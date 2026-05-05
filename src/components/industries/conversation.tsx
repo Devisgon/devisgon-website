@@ -16,22 +16,36 @@ export default function IndustryConversation({ data }: IndustryPageProps<Industr
         </p>
 
         <form className="mt-8 space-y-5" action="/contact" method="get">
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
             <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
-Name           <input
+              Name
+              <input
                 type="text"
-                name="fullName"
+                name="name"
                 placeholder="Name"
-                // Input bg changed to bg-bg-primary for an "inset" feel
+                required
                 className="h-12 w-full rounded-xl border border-primary bg-bg-primary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/40 focus:ring-2 focus:ring-btn-primary/20 focus:border-btn-primary"
               />
             </label>
 
             <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
-email              <input
+              Email
+              <input
                 type="email"
-                name="Email"
+                name="email"
                 placeholder="name@example.com"
+                required
+                className="h-12 w-full rounded-xl border border-primary bg-bg-primary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/40 focus:ring-2 focus:ring-btn-primary/20 focus:border-btn-primary"
+              />
+            </label>
+
+            <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
+              Phone Number
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+92 300 1234567"
+                required
                 className="h-12 w-full rounded-xl border border-primary bg-bg-primary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/40 focus:ring-2 focus:ring-btn-primary/20 focus:border-btn-primary"
               />
             </label>
@@ -43,6 +57,7 @@ email              <input
               name="message"
               rows={4}
               placeholder={data.message_placeholder}
+              required
               className="w-full rounded-xl border border-primary bg-bg-primary px-4 py-3 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/40 focus:ring-2 focus:ring-btn-primary/20 focus:border-btn-primary"
             />
           </label>

@@ -3,6 +3,14 @@ import { Resend } from "resend";
 
 const resend = new Resend(process.env.RESEND_API_KEY!);
 
+function isValidEmail(value: unknown) {
+  return typeof value === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
+}
+
+function isValidPhone(value: unknown) {
+  return typeof value === "string" && /^\+?[0-9\s().-]{7,20}$/.test(value.trim());
+}
+
 export async function POST(req: Request) {
   try {
    
@@ -36,9 +44,21 @@ export async function POST(req: Request) {
     }
     const body = await req.json();
     const {
-      name, email, projectType, budget, timeline, projectDetail,
+      name, email, phone, projectType, budget, timeline, projectDetail,
       fileBase64, fileName, fileType,
     } = body;
+
+    if (
+      typeof name !== "string" ||
+      !name.trim() ||
+      !isValidEmail(email) ||
+      !isValidPhone(phone)
+    ) {
+      return NextResponse.json(
+        { success: false, message: "Name, email, and phone number are required." },
+        { status: 400 },
+      );
+    }
 
     const attachments = fileBase64
       ? [{ filename: fileName || "attachment", content: fileBase64, type: fileType, disposition: "attachment" }]
@@ -83,6 +103,10 @@ export async function POST(req: Request) {
             <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">
               <a href="mailto:${email}" style="color: #8145B5; text-decoration: none; font-weight: 600;">${email}</a>
             </td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Phone Number</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${phone}</td>
           </tr>
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Service</td>

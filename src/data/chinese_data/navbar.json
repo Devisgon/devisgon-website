@@ -193,8 +193,12 @@
       "dropdown": {
         "columns": [
           {
-            "title": "农业",
+            "title": "??",
             "links": [
+              {
+                "name": "???",
+                "href": "/industries/agriculture/dairy_farm"
+              },
               {
                 "name": "农场",
                 "href": "/industries/agriculture/farms"
@@ -208,14 +212,26 @@
                 "href": "/industries/agriculture/irrigation"
               },
               {
+                "name": "????",
+                "href": "/industries/agriculture/landscraping"
+              },
+              {
                 "name": "植物",
                 "href": "/industries/agriculture/plants"
+              },
+              {
+                "name": "????",
+                "href": "/industries/agriculture/poetry_farm"
               }
             ]
           },
           {
-            "title": "娱乐",
+            "title": "??",
             "links": [
+              {
+                "name": "??",
+                "href": "/industries/entertainment/clothing"
+              },
               {
                 "name": "活动",
                 "href": "/industries/entertainment/events"
@@ -231,6 +247,19 @@
               {
                 "name": "餐厅",
                 "href": "/industries/entertainment/restaurants"
+              },
+              {
+                "name": "??",
+                "href": "/industries/entertainment/supermarket"
+              }
+            ]
+          },
+          {
+            "title": "??",
+            "links": [
+              {
+                "name": "???",
+                "href": "/industries/food/bakery"
               }
             ]
           },
@@ -264,7 +293,7 @@
             ]
           },
           {
-            "title": "专业的",
+            "title": "????",
             "links": [
               {
                 "name": "咨询",
@@ -275,17 +304,29 @@
                 "href": "/industries/professional/education"
               },
               {
+                "name": "???",
+                "href": "/industries/professional/fuel_station"
+              },
+              {
+                "name": "??????",
+                "href": "/industries/professional/gym"
+              },
+              {
                 "name": "法律服务",
                 "href": "/industries/professional/legal_services"
               },
               {
                 "name": "旅游服务",
                 "href": "/industries/professional/travel_services"
+              },
+              {
+                "name": "??",
+                "href": "/industries/professional/tutoer"
               }
             ]
           },
           {
-            "title": "房地产",
+            "title": "???",
             "links": [
               {
                 "name": "建筑与设计",
@@ -294,6 +335,14 @@
               {
                 "name": "商业的",
                 "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "??",
+                "href": "/industries/real_estate/insurance"
+              },
+              {
+                "name": "????",
+                "href": "/industries/real_estate/micro_finance"
               },
               {
                 "name": "物业管理",
@@ -306,19 +355,31 @@
             ]
           },
           {
-            "title": "交易",
+            "title": "????",
             "links": [
               {
                 "name": "木工",
                 "href": "/industries/trades/carpentry"
               },
               {
+                "name": "??",
+                "href": "/industries/trades/cleaning"
+              },
+              {
                 "name": "电工",
                 "href": "/industries/trades/electrician"
               },
               {
+                "name": "????",
+                "href": "/industries/trades/elctronics"
+              },
+              {
                 "name": "水暖",
                 "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "??",
+                "href": "/industries/trades/roofing"
               },
               {
                 "name": "焊接",
@@ -458,8 +519,46 @@
       }
     },
     {
+      "name": "??",
+      "href": "/others/dctr_hosting",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "??",
+            "links": [
+              {
+                "name": "Doctor Hosting",
+                "href": "/others/dctr_hosting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "关于我们",
-      "href": "/#about"
+      "href": "/#about",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "公司",
+            "links": [
+              {
+                "name": "CEO",
+                "href": "/#about"
+              },
+              {
+                "name": "团队",
+                "href": "/#team"
+              },
+              {
+                "name": "职业机会",
+                "href": "/get-started"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "联系我们",

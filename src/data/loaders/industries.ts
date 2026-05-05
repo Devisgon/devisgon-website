@@ -14,11 +14,12 @@ const LANGUAGE_FOLDER_MAP: Record<string, string> = {
 
 export const INDUSTRY_GROUPS: Record<string, string[]> = {
   healthcare: ["dentist", "psychologist", "massage_therapist", "myotherapist", "chiropractor", "optometry"],
-  professional: ["education", "travel_services", "consulting", "legal_services"],
-  trades: ["electrician", "plumbing", "carpentry", "welding"],
-  entertainment: ["restaurants", "hotels", "events", "media_production"],
-  agriculture: ["farms", "fields", "plants", "irrigation"],
-  real_estate: ["residential", "commercial", "property_management", "architecture_design"],
+  professional: ["education", "travel_services", "consulting", "legal_services", "fuel_station", "gym", "tutoer"],
+  trades: ["electrician", "plumbing", "carpentry", "welding", "cleaning", "elctronics", "roofing"],
+  entertainment: ["restaurants", "hotels", "events", "media_production", "clothing", "supermarket"],
+  agriculture: ["farms", "fields", "plants", "irrigation", "dairy_farm", "landscraping", "poetry_farm"],
+  food: ["bakery"],
+  real_estate: ["residential", "commercial", "property_management", "architecture_design", "insurance", "micro_finance"],
 };
 
 function resolveLangFolder(lang: string): string {

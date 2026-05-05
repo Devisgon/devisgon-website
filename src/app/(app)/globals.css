@@ -59,4 +59,28 @@ body {
   font-family: var(--font-sans), sans-serif;
   transition: background 0.3s ease, color 0.3s ease;
 }
+
+@keyframes service-tech-marquee {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-25%);
+  }
+}
+
+.service-tech-marquee {
+  animation: service-tech-marquee 22s linear infinite;
+}
+
+.service-tech-marquee:hover {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .service-tech-marquee {
+    animation: none;
+  }
+}
 @custom-variant dark (&:where(.dark, .dark *));

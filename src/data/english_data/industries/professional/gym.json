@@ -1,0 +1,184 @@
+{
+  "slug": "gym-fitness",
+  "hero_section": {
+    "eyebrow": "Health & Fitness Solutions",
+    "title": "AI for",
+    "highlight": "Gyms",
+    "description": "Transform your fitness center with automated member management, AI-driven workout personalization, and smart equipment maintenance tracking.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/gym.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Gym owners face high member churn, underutilized equipment, and manual staff scheduling.",
+    "cards": [
+      {
+        "title": "Member Churn",
+        "description": "Lack of engagement leads to members losing motivation and cancelling subscriptions.",
+        "icon_type": "FaUserMinus"
+      },
+      {
+        "title": "Manual Attendance",
+        "description": "Old-school check-ins and paper-based workout logs slow down gym floor operations.",
+        "icon_type": "FaClipboardCheck"
+      },
+      {
+        "title": "Operational Blindspots",
+        "description": "Difficulty tracking peak hours and equipment wear-and-tear until something breaks.",
+        "icon_type": "FaExclamationTriangle"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Stronger Data, Better Results.",
+    "description": "We build a unified intelligence layer that connects wearable data, member profiles, and facility operations.",
+    "bullets": [
+      "Real-time Facility Analytics",
+      "AI Personal Trainer Engine",
+      "Automated Subscription Management"
+    ],
+    "cards": [
+      {
+        "title": "Fitness Dashboard",
+        "description": "Track active members, revenue growth, and peak occupancy trends in one place.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Smart Scheduling",
+        "description": "Automate class bookings and personal trainer availability with real-time sync.",
+        "icon_type": "FaCalendarCheck"
+      },
+      {
+        "title": "Predictive Maintenance",
+        "description": "AI alerts for gym equipment servicing based on usage frequency and duration.",
+        "icon_type": "FaTools"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Drive performance for your business and your members.",
+    "cards": [
+      {
+        "title": "Higher Retention",
+        "description": "Automated re-engagement campaigns for members who haven't visited in a while.",
+        "icon_type": "FaUserCheck"
+      },
+      {
+        "title": "Personalized Plans",
+        "description": "Deliver AI-generated diet and workout routines tailored to each member's goals.",
+        "icon_type": "FaDumbbell"
+      },
+      {
+        "title": "Reduced Overhead",
+        "description": "Automate routine billing, renewals, and front-desk inquiries with AI.",
+        "icon_type": "FaMoneyBillWave"
+      },
+      {
+        "title": "Space Optimization",
+        "description": "Understand floor usage to optimize equipment layout and class timing.",
+        "icon_type": "FaVectorSquare"
+      },
+      {
+        "title": "Secure Access",
+        "description": "Integrate biometric or QR-based entry systems with automated membership verification.",
+        "icon_type": "FaLock"
+      },
+      {
+        "title": "Member Community",
+        "description": "Automate leaderboard updates and fitness challenges to boost engagement.",
+        "icon_type": "FaUsers"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Gym Digital Solutions",
+    "subtitle": "Comprehensive tech for modern fitness facilities.",
+    "cards": [
+      {
+        "title": "Gym Management Portal",
+        "description": "A robust platform for member sign-ups, digital waivers, and payment processing."
+      },
+      {
+        "title": "AI Fitness Coach",
+        "description": "A conversational agent that answers member questions about form, nutrition, and recovery."
+      },
+      {
+        "title": "AI Receptionist for Gyms",
+        "description": "Handle membership inquiries, tour bookings, and class cancellations automatically."
+      },
+      {
+        "title": "Workout Automation",
+        "description": "Sync gym floor activity directly to member apps for seamless progress tracking."
+      },
+      {
+        "title": "Retention Analytics",
+        "description": "Identify 'at-risk' members before they cancel and trigger personalized win-back offers."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Fit for Growth",
+    "subtitle": "How smart gyms are outperforming the competition.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Retention Boost",
+        "description": "A boutique fitness studio reduced churn by 18% through automated AI engagement paths.",
+        "href": "/contact",
+        "cta_text": "Read Study"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Operational Speed",
+        "description": "Integrated AI billing and scheduling, reducing front-desk workload by 40%.",
+        "href": "/contact",
+        "cta_text": "Read Study"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover more ways our automation framework can help.",
+    "cards": [
+      {
+        "title": "Home Tutor",
+        "description": "AI operations for personalized learning.",
+        "href": "/industries/education/tutor",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Healthcare",
+        "description": "AI operations for medical teams.",
+        "href": "/industries/healthcare/dentist",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Events",
+        "description": "AI operations for entertainment teams.",
+        "href": "/industries/entertainment/events",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Get Your Gym in Shape",
+    "subtitle": "Talk to our fitness tech team about automating your gym operations.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Mike Irons",
+    "business_email_placeholder": "mike@powergym.com",
+    "message_placeholder": "Tell us about your facility size and member goals...",
+    "button_text": "Start Transformation"
+  }
+}

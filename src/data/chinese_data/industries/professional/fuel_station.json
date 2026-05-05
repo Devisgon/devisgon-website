@@ -1,0 +1,184 @@
+{
+  "slug": "fuel-station",
+  "hero_section": {
+    "eyebrow": "能源与物流解决方案",
+    "title": "人工智能用于",
+    "highlight": "加油站",
+    "description": "通过智能监控优化燃料库存、自动便利店补货并确保前场运营安全。",
+    "primary_cta": {
+      "text": "开始使用",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "查看架构",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/fuel-station.webp"
+  },
+  "friction_section": {
+    "title": "摩擦点",
+    "subtitle": "燃料零售商每天都要管理危险材料、大量交易和波动的市场价格。",
+    "cards": [
+      {
+        "title": "燃油收缩",
+        "description": "难以跟踪由于蒸发、泄漏或交付差异而造成的损失。",
+        "icon_type": "FaOilCan"
+      },
+      {
+        "title": "定价不一致",
+        "description": "对全球石油市场变化或当地竞争对手价格变化的反应延迟。",
+        "icon_type": "FaGasPump"
+      },
+      {
+        "title": "前院安全",
+        "description": "管理安全风险并确保泵和商店的安全合规性。",
+        "icon_type": "FaExclamationShield"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "智能泵送，实时收入。",
+    "description": "我们构建了一个连接地下储罐传感器、泵控制器和零售 POS 系统的互联生态系统。",
+    "bullets": [
+      "自动储罐计量 (ATG) 同步",
+      "动态定价算法",
+      "智能监控集成"
+    ],
+    "cards": [
+      {
+        "title": "车站仪表板",
+        "description": "实时了解各个站点的燃油水平、销量和商店绩效。",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "人工智能泄漏检测",
+        "description": "在地下储罐问题成为环境危害之前发出预测警报。",
+        "icon_type": "FaSearchLocation"
+      },
+      {
+        "title": "车队管理",
+        "description": "公司加油卡帐户的自动计费和限额控制。",
+        "icon_type": "FaTruck"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "主要优点",
+    "subtitle": "现代能源零售商的效率和安全。",
+    "cards": [
+      {
+        "title": "精准库存",
+        "description": "自动执行燃油订单，确保您的油箱不会干涸或过满。",
+        "icon_type": "FaThermometerHalf"
+      },
+      {
+        "title": "优化利润",
+        "description": "根据实时市场数据和当地需求即时调整燃油价格。",
+        "icon_type": "FaMoneyBillTrendUp"
+      },
+      {
+        "title": "增强安全性",
+        "description": "人工智能摄像头系统可检测前院的停车和可疑活动。",
+        "icon_type": "FaVideo"
+      },
+      {
+        "title": "零售协同效应",
+        "description": "通过有针对性的到店促销来增加便利店销售额。",
+        "icon_type": "FaStore"
+      },
+      {
+        "title": "合规性日志记录",
+        "description": "自动报告环境和安全监管要求。",
+        "icon_type": "FaFileContract"
+      },
+      {
+        "title": "远程管理",
+        "description": "通过任何移动设备控制泵状态并监控操作。",
+        "icon_type": "FaMobile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "加油站数字解决方案",
+    "subtitle": "用于流畅业务运营的集成技术。",
+    "cards": [
+      {
+        "title": "集中POS系统",
+        "description": "处理燃油分配和便利店零售交易的统一系统。"
+      },
+      {
+        "title": "人工智能坦克监控器",
+        "description": "智能代理可以 24/7 全天候监控燃油质量和数量，并发出自动警报。"
+      },
+      {
+        "title": "人工智能忠诚度机器人",
+        "description": "通过移动应用程序利用积分、数字收据和燃油折扣吸引客户。"
+      },
+      {
+        "title": "供应链自动化",
+        "description": "与油罐车直接集成，以便在液位较低时进行自动调度。"
+      },
+      {
+        "title": "环境仪表板",
+        "description": "跟踪并可视化排放、泄漏和安全演习，以供监管审计。"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "推动进步",
+    "subtitle": "对前院的现实影响。",
+    "cards": [
+      {
+        "label": "案例研究01",
+        "title": "保证金优化",
+        "description": "一家独立加油站利用人工智能驱动的动态定价将燃油利润提高了 12%。",
+        "href": "/contact",
+        "cta_text": "了解更多"
+      },
+      {
+        "label": "案例研究02",
+        "title": "安全转型",
+        "description": "通过人工智能驱动的车牌识别和泵联锁，将燃油盗窃减少了 45%。",
+        "href": "/contact",
+        "cta_text": "了解更多"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "探索其他行业",
+    "subtitle": "了解我们应用智能自动化的更多方式。",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "杂货团队的人工智能运营。",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Electronics",
+        "description": "消费技术的人工智能运营。",
+        "href": "/industries/retail/electronics",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "房地产",
+        "description": "物业团队的人工智能运营。",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "准备好自动化了吗？",
+    "subtitle": "与我们的能源技术专家讨论您车站的数字化未来。",
+    "full_name_label": "全名",
+    "business_email_label": "企业邮箱",
+    "message_label": "Message",
+    "full_name_placeholder": "约翰·佩特罗尔",
+    "business_email_placeholder": "约翰@fuelops.com",
+    "message_placeholder": "告诉我们您的电台数量和当前的库存挑战......",
+    "button_text": "开始使用"
+  }
+}

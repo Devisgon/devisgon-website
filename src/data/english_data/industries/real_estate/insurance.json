@@ -1,0 +1,184 @@
+{
+  "slug": "insurance",
+  "hero_section": {
+    "eyebrow": "Risk Management & InsurTech Solutions",
+    "title": "AI for",
+    "highlight": "Insurance",
+    "description": "Accelerate claims processing, automate underwriting, and enhance risk assessment with intelligent data-driven workflows.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/insurance.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Insurance providers struggle with slow claims cycles, manual document verification, and complex fraud detection.",
+    "cards": [
+      {
+        "title": "Claims Bottlenecks",
+        "description": "Manual review of evidence and reports leading to weeks of delay for policyholders.",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Fraud Vulnerability",
+        "description": "Difficulty identifying sophisticated fraudulent patterns across thousands of applications.",
+        "icon_type": "FaUserSecret"
+      },
+      {
+        "title": "Complex Underwriting",
+        "description": "Onerous risk assessment processes that slow down the issuance of new policies.",
+        "icon_type": "FaStethoscope"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Secure Logic, Instant Coverage.",
+    "description": "We build a cognitive insurance layer that automates document extraction and applies predictive risk models in real-time.",
+    "bullets": [
+      "Automated OCR Document Processing",
+      "Predictive Fraud Detection Engine",
+      "Dynamic Actuarial Modeling"
+    ],
+    "cards": [
+      {
+        "title": "Claims Dashboard",
+        "description": "Unified view of pending claims, settlement ratios, and auditor workloads.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Smart Underwriter",
+        "description": "AI-driven scoring system to approve low-risk policies instantly based on historical data.",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "Policy Lifecycle Bot",
+        "description": "Automate renewals, endorsements, and cancellations based on policy terms.",
+        "icon_type": "FaHistory"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Driving efficiency and trust in the digital insurance era.",
+    "cards": [
+      {
+        "title": "Rapid Settlements",
+        "description": "Reduce claim turnaround time from days to hours with automated evidence review.",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "Reduced Fraud",
+        "description": "Identify anomalies and suspicious link analysis before payouts occur.",
+        "icon_type": "FaUserLock"
+      },
+      {
+        "title": "Operational Leanness",
+        "description": "Automate high-volume, low-complexity tasks to focus experts on high-value cases.",
+        "icon_type": "FaBriefcase"
+      },
+      {
+        "title": "Personalized Pricing",
+        "description": "Offer dynamic premiums based on real-time behavior and risk profiles.",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "Regulatory Compliance",
+        "description": "Maintain perfect audit trails for KYC, AML, and local insurance regulations.",
+        "icon_type": "FaGavel"
+      },
+      {
+        "title": "Member Satisfaction",
+        "description": "Deliver a frictionless digital experience for policy management and claims.",
+        "icon_type": "FaSmile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "InsurTech Digital Solutions",
+    "subtitle": "Comprehensive tools for the modern insurance carrier.",
+    "cards": [
+      {
+        "title": "Policyholder Web Portal",
+        "description": "A high-performance portal for managing coverage, paying premiums, and filing claims."
+      },
+      {
+        "title": "AI Claims Assistant",
+        "description": "An agent that walks customers through the evidence submission process via mobile chat."
+      },
+      {
+        "title": "Damage Assessment AI",
+        "description": "Analyze photos of property or vehicle damage to provide instant repair estimates."
+      },
+      {
+        "title": "Workflow Automation",
+        "description": "Sync policy data between legacy core systems and modern customer-facing apps."
+      },
+      {
+        "title": "Risk Analytics Portal",
+        "description": "Visualize loss ratios and performance across different demographics and regions."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Proven Performance",
+    "subtitle": "Quantifiable gains for insurance leaders.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Claims Automation",
+        "description": "A national insurer reduced claim processing costs by 30% using automated document verification.",
+        "href": "/contact",
+        "cta_text": "View Case Study"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Fraud Mitigation",
+        "description": "Prevented $2M in fraudulent payouts within six months of deploying predictive risk models.",
+        "href": "/contact",
+        "cta_text": "View Case Study"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "See how we apply intelligence to other financial sectors.",
+    "cards": [
+      {
+        "title": "Micro Finance",
+        "description": "AI operations for financial inclusion.",
+        "href": "/industries/finance/micro-finance",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Healthcare",
+        "description": "AI operations for medical teams.",
+        "href": "/industries/healthcare/dentist",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Secure Your Future",
+    "subtitle": "Talk to our insurance-tech experts about digitizing your risk management.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Company Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Sarah Miller",
+    "business_email_placeholder": "sarah@insurancegroup.com",
+    "message_placeholder": "Tell us about your policy volume and claim automation goals...",
+    "button_text": "Get Started"
+  }
+}

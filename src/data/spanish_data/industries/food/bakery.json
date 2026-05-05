@@ -1,0 +1,184 @@
+{
+  "slug": "bakery",
+  "hero_section": {
+    "eyebrow": "Soluciones artesanales de alimentos y bebidas",
+    "title": "IA para",
+    "highlight": "Bakeries",
+    "description": "Optimice la producción de productos frescos, automatice las reservas de pasteles personalizados y gestione la logística de ingredientes para su panadería artesanal.",
+    "primary_cta": {
+      "text": "Empezar",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Ver Arquitectura",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/bakery.webp"
+  },
+  "friction_section": {
+    "title": "El punto de fricción",
+    "subtitle": "Las panaderías se ocupan de productos con vidas útiles cortas, pedidos personalizados complejos y logística matutina.",
+    "cards": [
+      {
+        "title": "Gestión de residuos",
+        "description": "Alto porcentaje de productos perecederos diarios no vendidos que generan pérdida de ingresos.",
+        "icon_type": "FaTrashAlt"
+      },
+      {
+        "title": "Caos de pedidos personalizados",
+        "description": "Gestión manual de especificaciones de tartas de boda y cumpleaños mediante notas fragmentadas.",
+        "icon_type": "FaBirthdayCake"
+      },
+      {
+        "title": "Brechas en la cadena de suministro",
+        "description": "Seguimiento inconsistente de ingredientes especiales como harina orgánica o frutas de temporada.",
+        "icon_type": "FaLeaf"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Masa fresca, datos más inteligentes.",
+    "description": "Cerramos la brecha entre la cocina y el escaparate con seguimiento de producción en tiempo real y pedidos automatizados.",
+    "bullets": [
+      "IA de planificación de producción",
+      "Configurador de pedidos personalizados",
+      "Alertas de inventario e ingredientes"
+    ],
+    "cards": [
+      {
+        "title": "Panel de producción",
+        "description": "Vista en tiempo real de los horarios de horneado, la utilización del horno y las cantidades de lotes.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Ordenamiento dinámico",
+        "description": "Automatice los ajustes diarios de inventario basados en el tráfico peatonal histórico y los días festivos.",
+        "icon_type": "FaShoppingCart"
+      },
+      {
+        "title": "Análisis de residuos",
+        "description": "Identifique qué artículos se producen en exceso para optimizar su menú diario de repostería.",
+        "icon_type": "FaChartBar"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Equilibre la calidad artesanal con la eficiencia operativa moderna.",
+    "cards": [
+      {
+        "title": "Reducir el desperdicio de alimentos",
+        "description": "La IA predictiva le ayuda a preparar exactamente lo que se venderá, reduciendo las sobras al final del día.",
+        "icon_type": "FaRecycle"
+      },
+      {
+        "title": "Pedidos anticipados más rápidos",
+        "description": "Los clientes pueden diseñar y reservar pasteles personalizados las 24 horas del día, los 7 días de la semana, sin necesidad de un miembro del personal.",
+        "icon_type": "FaClock"
+      },
+      {
+        "title": "Trazabilidad de ingredientes",
+        "description": "Mantenga un registro digital de los números de lote y las fechas de vencimiento de todas las materias primas.",
+        "icon_type": "FaSearch"
+      },
+      {
+        "title": "Mejor dotación de personal",
+        "description": "Automatice las listas de preparación matutina para que su equipo pueda comenzar a hornear de inmediato.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Integración de lealtad",
+        "description": "Recompense automáticamente a los clientes frecuentes con ofertas personalizadas sobre sus favoritos.",
+        "icon_type": "FaStar"
+      },
+      {
+        "title": "Expansión escalable",
+        "description": "Centralice la gestión de múltiples sucursales o franquicias.",
+        "icon_type": "FaNetworkWired"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Soluciones digitales de panadería",
+    "subtitle": "Endulzando sus operaciones con automatización inteligente.",
+    "cards": [
+      {
+        "title": "Portal de comercio electrónico de panadería",
+        "description": "Tienda online para suscripciones de pan del día, cajas de repostería y depósitos de tartas personalizados."
+      },
+      {
+        "title": "Agente de pastel personalizado AI",
+        "description": "Un asistente inteligente que ayuda a los clientes a elegir sabores, tamaños y decoraciones para eventos."
+      },
+      {
+        "title": "Administrador de recetas inteligente",
+        "description": "Sistema automatizado que escala las listas de ingredientes en función de los objetivos de producción diarios."
+      },
+      {
+        "title": "Automatizaciones de flujo de trabajo",
+        "description": "Sincronice los pedidos en línea directamente con el sistema de visualización de su cocina y el software de contabilidad."
+      },
+      {
+        "title": "IA de comentarios de clientes",
+        "description": "Analice reseñas para determinar qué nuevos artículos de temporada deben permanecer en el menú permanente."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Horneado a la perfección",
+    "subtitle": "Resultados reales del horno digital.",
+    "cards": [
+      {
+        "label": "Estudio de caso 01",
+        "title": "Reducción de residuos",
+        "description": "Una cadena local redujo el desperdicio diario de pastelería en un 20 % mediante el pronóstico predictivo de la demanda mediante IA.",
+        "href": "/contact",
+        "cta_text": "Ver detalles"
+      },
+      {
+        "label": "Estudio de caso 02",
+        "title": "Eficiencia de reservas",
+        "description": "El manejo automatizado de consultas sobre pasteles redujo el tiempo de teléfono del personal en 15 horas por semana.",
+        "href": "/contact",
+        "cta_text": "Ver detalles"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explora otras industrias",
+    "subtitle": "Descubra más formas en las que aplicamos la automatización inteligente.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "Operaciones de IA para equipos de comestibles.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Electronics",
+        "description": "Operaciones de IA para tecnología de consumo.",
+        "href": "/industries/retail/electronics",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Tienda de ropa",
+        "description": "Operaciones de IA para prendas de moda.",
+        "href": "/industries/retail/clothing",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "¿Listo para levantarse?",
+    "subtitle": "Hable con nuestros especialistas en tecnología alimentaria sobre la automatización de su panadería.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico de panadería",
+    "message_label": "Message",
+    "full_name_placeholder": "Emma Baker",
+    "business_email_placeholder": "emma@freshbakes.com",
+    "message_placeholder": "Cuéntanos sobre tu volumen de producción diario o necesidades de pasteles personalizados...",
+    "button_text": "Enviar consulta"
+  }
+}
