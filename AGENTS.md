@@ -32,7 +32,8 @@ Required actions after each meaningful code change:
 - Contact and apply forms require name, email, and phone, post to internal API routes, then send email via Resend; inquiry forms also pass country and source context when available.
 - Footer newsletter form is email-only, posts to internal `/api/newsletter_subscribe`, stores subscribers, and sends confirmation emails.
 - Navbar, footer, contact-page, and get-started-page UI copy are language-aware through `src/lib/localized-content.ts` and per-language JSON data files in `src/data/*_data`.
-- Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; newsletter form copy/errors/buttons are language-aware in `src/components/footer_newsletter_form.tsx`.
+- Theme mode is stored in `localStorage.theme` while an open-tab marker in `sessionStorage.theme-session` clears that local value on fresh sessions; `src/app/(app)/layout.tsx` initializes the class before hydration and `src/components/navbar.js` toggles it, so refresh preserves the theme while reopened tabs default to light.
+- Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; it renders a two-row, four-column layout with logo/contact, Company, About, Newsletter, expandable Services, expandable Industries, expandable Technologies, and Help sections. Newsletter form copy/errors/buttons are language-aware in `src/components/footer_newsletter_form.tsx`.
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
 - Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`.
 
@@ -41,6 +42,7 @@ Required actions after each meaningful code change:
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - Home blogs preview route segment (`src/components/home_page/blogs.tsx`) resolves `lang` from cookie and injects localized `home_page.blog_section` heading/subheading before rendering shared blog list.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
+- Services, Industries, and Technologies main-page hero primary CTAs render as `Book a Meeting` and use `NEXT_PUBLIC_CALENDLY_30_MIN_MEETING` with fallback to `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING`; secondary/other buttons keep their existing links.
 - `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/loaders/industries.ts` `INDUSTRY_GROUPS` (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links, and navbar Food links mirror those slugs.
 - `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/others/[slug]` -> `src/app/(app)/others/[slug]/page.tsx` reads `lang` cookie/query, loads landing-page JSON from `src/data/*_data/others/<slug>.json` with English fallback, and renders Doctor Hosting-style rotating hero (`src/components/others/hosting_hero_slider.tsx`), domain search, compact equal-height five-across pricing cards, services, CTA, and FAQ sections with global theme utility classes.
@@ -106,7 +108,7 @@ All service detail routes share one rendering pattern:
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
 - Other landing pages use `src/data/*_data/others/<slug>.json` and `src/data/loaders/others.ts`; `/others/dctr_hosting` currently uses `src/data/english_data/others/dctr_hosting.json`, JSON-defined remote hero backgrounds, and local fallback/service images under `public/doctr_hosting`.
 - Navbar labels/dropdowns are sourced from `src/data/navbar.json` (English) and `src/data/*_data/navbar.json` (localized variants), resolved by `src/lib/localized-content.ts`; the About dropdown links to the CEO section (`/#about`), Team section (`/#team`), and Careers/application flow (`/get-started`).
-- Footer copy is sourced from `src/data/*_data/footer.json`.
+- Footer copy is sourced from `src/data/*_data/footer.json`, while expandable Services/Industries/Technologies category labels and sublinks are sourced from the localized navbar data.
 - Footer column titles and link labels are language-specific in `src/data/*_data/footer.json`; newsletter placeholder/button/validation/success copy is localized in component state maps.
 - Contact-page UI copy is sourced from `src/data/*_data/contact_page.json`.
 - Get-started page UI copy is sourced from `src/data/*_data/get_started_page.json`.
@@ -183,13 +185,13 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Main nav and service links are in `src/data/navbar.json`.
 - Localized navbar labels are mirrored in `src/data/*_data/navbar.json`; `src/lib/localized-content.ts` resolves the active language dataset.
 - Dropdown categories (`dropdown.columns`) and subcategory links (`links`) in navbar data are maintained in alphabetical order by display name.
-- About uses a one-column dropdown in each navbar JSON file with `CEO`, `Team`, and `Careers` links; keep the Team anchor aligned with `src/components/home_page/team_section.tsx`.
+- About uses a one-column dropdown in each navbar JSON file with `CEO`, `Team`, and `Careers` links; the dropdown column title is intentionally empty so no main category heading appears above those links.
 - Industries dropdown links are grouped in `src/data/navbar.json` into seven columns (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`) with sub-industry links.
 - Technologies is a separate top-level navbar item in `src/data/navbar.json` with four dropdown columns (`Languages`, `Frameworks`, `Database`, `Tools`) and per-track technology links.
 - Technologies dropdown links in `src/data/navbar.json` point directly to dedicated subcategory routes under `/technologies/[slug]` (for example `java`, `javascript`, `python`, `react`, `nestjs`, `mongodb`, `amazon_dynamodb`, `shopify`, `wordpress`).
 - Technologies dropdown columns in `src/data/navbar.json` also drive the grouped sections and card ordering on `/technologies`.
-- Other is a separate top-level navbar item with a dropdown link to `/others/dctr_hosting`.
-- Footer quick links are in `src/components/footer.tsx` and include core crawl targets (`/`, `/services`, `/blogs`, `/contact`, `/get-started`).
+- Other uses a one-column dropdown link to `/others/dctr_hosting`; the dropdown column title is intentionally empty so no main category heading appears above the link.
+- Footer quick links and expandable Services/Industries/Technologies category lists are rendered in `src/components/footer.tsx`; expandable lists use `src/data/*_data/navbar.json` dropdown categories and reveal subcategory links after clicking a main category.
 - Service detail loaders must expose keys that match nav slugs.
 - Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` must match navbar industries links.
 - Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and nested English industries category JSON files and emits language query variants.
@@ -329,3 +331,10 @@ If you change this, also check this:
 - 2026-05-06: Converted service and industry inquiry areas into direct Resend-backed forms, added service/industry/source/country context to contact emails, expanded the contact service dropdown from navbar data, and added `$50k+` budget options.
 - 2026-05-06: Adjusted the shared service/industry direct inquiry form layout so name/email render on the first row and phone/country render on the second row.
 - 2026-05-06: Verified meeting links use Calendly env variables and added fallback behavior so 30/60-minute meeting buttons use `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING` when their specific env keys are absent.
+- 2026-05-06: Reworked footer into a two-row, four-column layout with logo/contact, Company, About, and Newsletter on the top row, and Services, Industries, Technologies, and Help on the bottom row.
+- 2026-05-06: Adjusted mobile footer ordering so the newsletter section renders at the bottom while desktop keeps the four-column top-row newsletter placement.
+- 2026-05-06: Changed Services, Industries, and Technologies main-page hero primary CTAs to `Book a Meeting` using the 30-minute Calendly env link with 15-minute fallback.
+- 2026-05-06: Restored About and Other dropdown links while removing only their dropdown column headings, and updated navbar rendering to skip empty dropdown titles.
+- 2026-05-06: Added temporary local theme persistence so dark/light mode is stored in `localStorage` during the open tab, survives refresh, and resets to light on a fresh tab/session.
+- 2026-05-06: Replaced the home award counter animation `any` type with typed Framer Motion animation controls so lint validation passes.
+- 2026-05-06: Switched the temporary theme store from `sessionStorage.theme` to `localStorage.theme` with a session marker that clears the saved value on fresh site sessions.

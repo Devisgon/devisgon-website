@@ -1,5 +1,8 @@
 import type { HeroSectionProps } from "@/types/services_page/hero";
 
+const bookMeetingLink =
+  process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING || "/contact";
+
 const HeroSection = ({ data }: HeroSectionProps) => {
   return (
     <section className="relative w-full py-24 px-6 md:px-12 lg:px-20 bg-bg-secondary overflow-hidden flex items-center justify-center">
@@ -33,13 +36,19 @@ const HeroSection = ({ data }: HeroSectionProps) => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          {data.buttons.map((btn, index) => (
-            <a href={btn.link} key={index}>
+          {data.buttons.map((btn, index) => {
+            const isPrimaryButton = index === 0;
+            const href = isPrimaryButton ? bookMeetingLink : btn.link;
+            const text = isPrimaryButton ? "Book a Meeting" : btn.text;
+
+            return (
+            <a href={href} key={index}>
               <button className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 dark:border-[#664282] bg-transparent text-t-secondary hover:bg-btn-primary hover:text-white">
-                {btn.text}
+                {text}
               </button>
             </a>
-          ))}
+            );
+          })}
         </div>
       </div>
     </section>

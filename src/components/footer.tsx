@@ -1,8 +1,9 @@
 "use client";
-import { Mail, Phone } from 'lucide-react';
-import React, { useEffect, useMemo, useState } from "react";
+
+import { ChevronLeft, Mail, Phone } from "lucide-react";
+import { useEffect, useMemo, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
-import { getFooterDataByLang, normalizeLanguage } from "@/lib/localized-content";
+import { getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
 
 interface FooterLink {
   name: string;
@@ -14,10 +15,79 @@ interface FooterColumn {
   links: FooterLink[];
 }
 
+interface FooterCategory {
+  title: string;
+  links: FooterLink[];
+}
+
 const getCookieValue = (name: string): string | null => {
   const token = `${name}=`;
   const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
   return match ? decodeURIComponent(match.slice(token.length)) : null;
+};
+
+const linkClass = "text-sm font-medium text-t-secondary transition-colors hover:text-btn-primary md:text-base";
+
+const FooterStaticColumn = ({ title, links }: FooterColumn) => (
+  <div className="flex flex-col items-start">
+    <h3 className="mb-5 text-xl font-bold text-t-primary">{title}</h3>
+    <ul className="flex flex-col gap-3">
+      {links.map((link) => (
+        <li key={`${title}-${link.href}-${link.name}`}>
+          <a href={link.href} className={linkClass}>
+            {link.name}
+          </a>
+        </li>
+      ))}
+    </ul>
+  </div>
+);
+
+const FooterCategoryColumn = ({ title, categories }: { title: string; categories: FooterCategory[] }) => {
+  const [activeCategory, setActiveCategory] = useState<FooterCategory | null>(null);
+
+  return (
+    <div className="flex flex-col items-start">
+      <h3 className="mb-5 text-xl font-bold text-t-primary">{activeCategory ? activeCategory.title : title}</h3>
+
+      {activeCategory ? (
+        <>
+          <button
+            type="button"
+            onClick={() => setActiveCategory(null)}
+            className="mb-4 inline-flex items-center gap-1 text-sm font-semibold text-btn-primary transition-opacity hover:opacity-80"
+          >
+            <ChevronLeft className="h-4 w-4" />
+            {title}
+          </button>
+
+          <ul className="flex flex-col gap-3">
+            {activeCategory.links.map((link) => (
+              <li key={`${title}-${activeCategory.title}-${link.href}`}>
+                <a href={link.href} className={linkClass}>
+                  {link.name}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </>
+      ) : (
+        <ul className="flex flex-col gap-3">
+          {categories.map((category) => (
+            <li key={`${title}-${category.title}`}>
+              <button
+                type="button"
+                onClick={() => setActiveCategory(category)}
+                className="text-left text-sm font-medium text-t-secondary transition-colors hover:text-btn-primary md:text-base"
+              >
+                {category.title}
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
 };
 
 const Footer = () => {
@@ -34,64 +104,74 @@ const Footer = () => {
   }, []);
 
   const footerData = useMemo(() => getFooterDataByLang(currentLang), [currentLang]);
+  const navbarData = useMemo(() => getNavbarDataByLang(currentLang), [currentLang]);
   const footerColumns = footerData.columns as FooterColumn[];
+  const companyColumn = footerColumns.find((column) => column.title.toLowerCase().includes("company")) ?? footerColumns[0];
+  const helpColumn = footerColumns.find((column) => column.title.toLowerCase().includes("help")) ?? footerColumns[1];
+  const newsletterColumn =
+    footerColumns.find((column) => column.title.toLowerCase().includes("newsletter")) ?? footerColumns[2];
+  const servicesNav = navbarData.navbar.find((item) => item.href === "/services");
+  const industriesNav = navbarData.navbar.find((item) => item.href === "/industries");
+  const technologiesNav = navbarData.navbar.find((item) => item.href === "/technologies");
+  const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
+  const servicesCategories = servicesNav?.dropdown?.columns ?? [];
+  const industriesCategories = industriesNav?.dropdown?.columns ?? [];
+  const technologiesCategories = technologiesNav?.dropdown?.columns ?? [];
+  const aboutLinks = aboutNav?.dropdown?.columns.flatMap((column) => column.links) ?? [];
 
   return (
-    <footer className="bg-bg-primary pt-16 pb-4 px-6 md:px-12 lg:px-20 text-primary">
-      <div className="flex flex-col gap-12 w-full">
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-10 items-start lg:gap-8 lg:mt-8">
-          <div className="flex flex-col items-start justify-center lg:items-center gap-6">
-            <img src="/logo/logo.webp" alt="logo" className="w-60 mx-auto dark:hidden" />
-            <img src="/logo/dark_logo.webp" alt="logo" className="w-60 mx-auto hidden dark:block" />
+    <footer className="bg-bg-primary px-6 pb-4 pt-14 text-primary md:px-12 lg:px-20">
+      <div className="flex w-full flex-col gap-10">
+        <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-4">
+          <div className="flex flex-col items-start gap-7">
+            <div>
+              <img src="/logo/logo.webp" alt="logo" className="w-60 dark:hidden" />
+              <img src="/logo/dark_logo.webp" alt="logo" className="hidden w-60 dark:block" />
+            </div>
 
-            <div className="flex flex-col gap-6 text-t-primary text-md font-medium opacity-80 text-start">
-  {/* Email Section */}
-  <a 
-    href="mailto:info@devisgon.com" 
-    className="flex items-center gap-3 hover:text-[#8B3DFF] transition-all duration-300 group"
-  >
-    <Mail size={20} className="group-hover:scale-110 transition-transform" />
-    <span className="group-hover:border-b-2 border-[#8B3DFF]">
-      info@devisgon.com
-    </span>
-  </a>
+            <div className="flex flex-col gap-4 text-start text-md font-medium text-t-primary opacity-80">
+              <a
+                href="mailto:info@devisgon.com"
+                className="group flex items-center gap-3 transition-all duration-300 hover:text-[#8B3DFF]"
+              >
+                <Mail size={20} className="transition-transform group-hover:scale-110" />
+                <span className="border-[#8B3DFF] group-hover:border-b-2">info@devisgon.com</span>
+              </a>
 
-  {/* Call Section */}
-  <a 
-    href="tel:03316944411" 
-    className="flex items-center gap-3 hover:text-[#8B3DFF] transition-all duration-300 group"
-  >
-    <Phone size={20} className="group-hover:scale-110 transition-transform" />
-    <span className="group-hover:border-b-2 border-[#8B3DFF]">
-      0331 6944411
-    </span>
-  </a>
-</div>
+              <a
+                href="tel:03316944411"
+                className="group flex items-center gap-3 transition-all duration-300 hover:text-[#8B3DFF]"
+              >
+                <Phone size={20} className="transition-transform group-hover:scale-110" />
+                <span className="border-[#8B3DFF] group-hover:border-b-2">0331 6944411</span>
+              </a>
+            </div>
+
           </div>
 
-          {footerColumns.map((col, index) => (
-            <div key={`${col.title}-${index}`} className="flex flex-col items-start md:items-center">
-              <h3 className="font-bold text-t-primary text-2xl mb-6">{col.title}</h3>
+          <FooterStaticColumn title={companyColumn.title} links={companyColumn.links} />
+          {aboutLinks.length > 0 && <FooterStaticColumn title={aboutNav?.name ?? "About"} links={aboutLinks} />}
 
-              {col.links.length > 0 && (
-                <ul className="flex flex-col gap-4 text-t-secondary text-sm md:text-[20px]">
-                  {col.links.map((link, i) => (
-                    <li key={`${link.name}-${i}`}>
-                      <a href={link.href} className="hover:border-b-2 transition-opacity">
-                        {link.name}
-                      </a>
-                    </li>
-                  ))}
-                </ul>
-              )}
-
-              {index === footerColumns.length - 1 && <FooterNewsletterForm lang={currentLang} />}
-            </div>
-          ))}
+          <div className="hidden flex-col items-start lg:flex">
+            <h3 className="mb-5 text-xl font-bold text-t-primary">{newsletterColumn.title}</h3>
+            <FooterNewsletterForm lang={currentLang} />
+          </div>
         </div>
 
-        <div className="border-t text-center border-t-[#D1AFEC] dark:border-[#664282] p-2">
-          <p className="text-t-primary text-sm">{footerData.copyright}</p>
+        <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-4">
+          <FooterCategoryColumn title={servicesNav?.name ?? "Services"} categories={servicesCategories} />
+          <FooterCategoryColumn title={industriesNav?.name ?? "Industries"} categories={industriesCategories} />
+          <FooterCategoryColumn title={technologiesNav?.name ?? "Technologies"} categories={technologiesCategories} />
+          <FooterStaticColumn title={helpColumn.title} links={helpColumn.links} />
+        </div>
+
+        <div className="flex flex-col items-start lg:hidden">
+          <h3 className="mb-5 text-xl font-bold text-t-primary">{newsletterColumn.title}</h3>
+          <FooterNewsletterForm lang={currentLang} />
+        </div>
+
+        <div className="border-t border-t-[#D1AFEC] p-2 text-center dark:border-[#664282]">
+          <p className="text-sm text-t-primary">{footerData.copyright}</p>
         </div>
       </div>
     </footer>

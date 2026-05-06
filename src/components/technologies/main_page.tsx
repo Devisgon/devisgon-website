@@ -3,6 +3,9 @@ import type { TechnologyListingData } from "@/types/technologies_page";
 import TechnologyIconBadge from "@/components/technologies/icon_badge";
 import TechnologiesCategorySections from "@/components/technologies/category_sections";
 
+const bookMeetingLink =
+  process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING || "/contact";
+
 type TechnologiesMainPageProps = {
   data: TechnologyListingData;
 };
@@ -29,6 +32,14 @@ export default function TechnologiesMainPage({ data }: TechnologiesMainPageProps
           </h1>
           <div className="mt-4 max-w-3xl rounded-xl border border-white/10 bg-white/5 p-5 shadow-2xl backdrop-blur-lg">
             <p className="text-sm leading-relaxed text-white/80 md:text-base">{data.hero_section.description}</p>
+          </div>
+          <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+            <a
+              href={bookMeetingLink}
+              className="inline-flex h-12 items-center justify-center rounded-lg border-2 border-white/25 bg-white/10 px-8 text-sm font-semibold text-white shadow-xl transition-colors hover:bg-btn-primary"
+            >
+              Book a Meeting
+            </a>
           </div>
         </div>
       </section>

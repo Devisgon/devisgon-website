@@ -1,12 +1,13 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { TestimonialSectionProps } from "@/types/homepage/comments";
 
 const TestimonialSection = ({ data }: TestimonialSectionProps) => {
-  const [carouselIndex, setCarouselIndex] = useState<number>(0); 
-  const [activeIndexInCarousel, setActiveIndexInCarousel] = useState<number>(1); 
+  const [carouselIndex, setCarouselIndex] = useState<number>(0);
+  const [activeIndexInCarousel, setActiveIndexInCarousel] = useState<number>(1);
+  const [isPaused, setIsPaused] = useState<boolean>(false);
 
   const cardsPerCarousel = 3;
   const totalCarousels = Math.ceil(data.reviews.length / cardsPerCarousel);
@@ -19,24 +20,38 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
 
   const currentCards = getCurrentCarouselCards();
 
-  const handlePrev = () => {
-    const newCarouselIndex = carouselIndex === 0 ? totalCarousels - 1 : carouselIndex - 1;
-    setCarouselIndex(newCarouselIndex);
-    setActiveIndexInCarousel(1); 
-  };
+  // Memoized navigation logic to use inside useEffect
+  const handleNext = useCallback(() => {
+    setCarouselIndex((prev) => (prev === totalCarousels - 1 ? 0 : prev + 1));
+    setActiveIndexInCarousel(1);
+  }, [totalCarousels]);
 
-  const handleNext = () => {
-    const newCarouselIndex = carouselIndex === totalCarousels - 1 ? 0 : carouselIndex + 1;
-    setCarouselIndex(newCarouselIndex);
-    setActiveIndexInCarousel(1); 
-  };
+  const handlePrev = useCallback(() => {
+    setCarouselIndex((prev) => (prev === 0 ? totalCarousels - 1 : prev - 1));
+    setActiveIndexInCarousel(1);
+  }, [totalCarousels]);
+
+  // Autoplay Effect
+  useEffect(() => {
+    if (isPaused) return;
+
+    const timer = setInterval(() => {
+      handleNext();
+    }, 5000); // Change carousel every 5 seconds
+
+    return () => clearInterval(timer);
+  }, [handleNext, isPaused]);
 
   const handleCardClick = (indexInCarousel: number) => {
     setActiveIndexInCarousel(indexInCarousel);
   };
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden bg-white dark:bg-background">
+    <section 
+      className="py-16 px-4 md:px-8 lg:px-16 overflow-hidden bg-white dark:bg-background"
+      onMouseEnter={() => setIsPaused(true)}
+      onMouseLeave={() => setIsPaused(false)}
+    >
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="relative mb-12">
@@ -46,24 +61,22 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 What Our <br />
                 Client Saying
               </h2>
+              {/* Arrow Vectors */}
               <img
                 src="/home_page/comments_section/Vector_1.webp"
                 alt="arrow"
                 className="hidden md:block dark:hidden w-44 ml-90 -mt-35"
                 loading="lazy"
-                decoding="async"
               />
-
               <img
                 src="/home_page/comments_section/Vector-removebg-preview.webp"
                 alt="arrow"
                 className="hidden dark:block w-44 ml-90 bg-transparent -mt-35"
                 loading="lazy"
-                decoding="async"
               />
             </div>
 
-            <div className="flex flex-col w-full -mt-12  md:mt-0">
+            <div className="flex flex-col w-full -mt-12 md:mt-0">
               <p className="lg:hidden text-t-secondary text-sm mb-4">
                 {data.subtitle_note}
               </p>
@@ -71,6 +84,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 {data.subtitle_note}
               </p>
 
+              {/* Navigation Buttons */}
               <div className="flex ml-auto items-center gap-3">
                 <button
                   onClick={handlePrev}
@@ -92,6 +106,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
           </div>
         </div>
 
+        {/* Cards Container */}
         <div className="flex gap-4 md:gap-6 md:mt-30 pt-18 pb-12 justify-center items-center">
           {currentCards.map((review, indexInCarousel) => {
             const isActive = indexInCarousel === activeIndexInCarousel;
@@ -132,38 +147,19 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                         isActive ? "w-16 h-16" : "w-14 h-14"
                       }`}
                       loading="lazy"
-                      decoding="async"
                     />
 
                     <div>
-                      <h4
-                        className={`font-bold ${
-                          isActive
-                            ? "text-lg text-t-primary dark:text-t-secondary md:text-xl"
-                            : "text-t-primary md:text-lg dark:text-t-secondary"
-                        }`}
-                      >
+                      <h4 className={`font-bold ${isActive ? "text-lg text-t-primary dark:text-t-secondary md:text-xl" : "text-t-primary md:text-lg dark:text-t-secondary"}`}>
                         {review.name}
                       </h4>
-                      <p
-                        className={`font-medium ${
-                          isActive
-                            ? "text-sm text-t-primary dark:text-t-primary"
-                            : "text-t-primary dark:text-t-primary"
-                        }`}
-                      >
+                      <p className="font-medium text-t-primary dark:text-t-primary">
                         {review.role}
                       </p>
                     </div>
                   </div>
 
-                  <p
-                    className={`leading-relaxed font-medium ${
-                      isActive
-                        ? "text-t-secondary dark:text-t-primary md:text-lg"
-                        : "text-t-secondary text-sm md:text-base dark:text-t-primary"
-                    }`}
-                  >
+                  <p className={`leading-relaxed font-medium ${isActive ? "text-t-secondary dark:text-t-primary md:text-lg" : "text-t-secondary text-sm md:text-base dark:text-t-primary"}`}>
                     &quot;{review.review}&quot;
                   </p>
                 </div>
@@ -172,6 +168,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
           })}
         </div>
 
+        {/* Pagination Dots */}
         <div className="flex justify-center gap-2 mt-8">
           {Array.from({ length: totalCarousels }).map((_, index) => (
             <button
@@ -181,9 +178,7 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 setActiveIndexInCarousel(1);
               }}
               className={`h-2 rounded-full transition-all ${
-                index === carouselIndex
-                  ? "bg-[#8145B5] w-8"
-                  : "bg-gray-300 dark:bg-gray-600 w-2"
+                index === carouselIndex ? "bg-[#8145B5] w-8" : "bg-gray-300 dark:bg-gray-600 w-2"
               }`}
               aria-label={`Go to carousel ${index + 1}`}
             />
