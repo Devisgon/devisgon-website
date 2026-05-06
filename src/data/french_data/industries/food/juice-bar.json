@@ -1,0 +1,174 @@
+{
+  "slug": "juice-bar",
+  "hero_section": {
+    "eyebrow": "Automatisation de la vente au détail de produits nutritionnels",
+    "title": "IA pour",
+    "highlight": "Cafés santé",
+    "description": "Optimisez l’approvisionnement en produits frais, automatisez la transparence nutritionnelle et rationalisez la production de boissons à grande vitesse grâce à des flux de travail intelligents.",
+    "primary_cta": {
+      "text": "Commencer",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Voir l'architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/bars.webp"
+  },
+  "friction_section": {
+    "title": "Le point de friction",
+    "subtitle": "Les points de vente axés sur la santé sont confrontés à des marges extrêmement sensibles et au défi logistique lié à la gestion de la durée de conservation des fruits et légumes frais.",
+    "cards": [
+      {
+        "title": "Produire des dommages",
+        "description": "Pourcentages de déchets élevés en raison de la courte durée de vie des légumes verts biologiques et des fruits exotiques.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Complexité de l'étiquetage",
+        "description": "Calcul manuel des calories et des macronutriments pour les bols et jus sur mesure.",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "Latence du temps de préparation",
+        "description": "Les processus manuels lents de hachage et d’extraction de jus provoquent des goulots d’étranglement pendant la pointe du matin.",
+        "icon_type": "FaClock"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Fraîcheur alimentée par les données.",
+    "description": "Nous synchronisons votre inventaire avec votre menu pour garantir que vous servez toujours les ingrédients les plus frais sans gaspillage.",
+    "bullets": [
+      "Prédicteur de détérioration en temps réel",
+      "Générateur de nutrition dynamique",
+      "Synchronisation intelligente de la station de préparation"
+    ],
+    "cards": [
+      {
+        "title": "Traqueur de produits",
+        "description": "Inventaire automatisé qui vous avertit d'utiliser des lots spécifiques avant qu'ils ne perdent leur valeur nutritionnelle.",
+        "icon_type": "FaCarrot",
+        "featured": true
+      },
+      {
+        "title": "API Nutri-Scan",
+        "description": "Met à jour instantanément les menus numériques avec des données précises sur les calories et les allergènes pour chaque commande personnalisée.",
+        "icon_type": "FaAppleAlt"
+      },
+      {
+        "title": "Agrégateur de commandes",
+        "description": "Combine de manière transparente les visites sans rendez-vous avec les commandes mobiles pour donner la priorité à la file d'attente des jus.",
+        "icon_type": "FaThList"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Le bien-être rendu efficace",
+    "subtitle": "Équilibrez les normes de santé haut de gamme avec une production opérationnelle à grande vitesse.",
+    "cards": [
+      {
+        "title": "Approvisionnement optimisé",
+        "description": "L'IA prédit les besoins en produits en fonction des tendances saisonnières afin de réduire les commandes excessives.",
+        "icon_type": "FaShoppingBasket"
+      },
+      {
+        "title": "Conformité vérifiée",
+        "description": "Journaux automatisés pour les inspections sanitaires et la traçabilité des certifications biologiques.",
+        "icon_type": "FaFileShield"
+      },
+      {
+        "title": "Bien-être personnalisé",
+        "description": "Applications de fidélité qui suggèrent des boissons en fonction des objectifs de remise en forme du client.",
+        "icon_type": "FaHeartbeat"
+      },
+      {
+        "title": "Débit plus rapide",
+        "description": "L'IA de pré-traitement indique à votre équipe exactement ce qu'elle doit préparer avant le début du rush matinal.",
+        "icon_type": "FaRunning"
+      },
+      {
+        "title": "Revenus d'abonnement",
+        "description": "Gérez facilement les « kits de nettoyage » hebdomadaires ou les abonnements quotidiens à la livraison de jus.",
+        "icon_type": "FaCalendarCheck"
+      },
+      {
+        "title": "Gestion unifiée",
+        "description": "Contrôlez instantanément les menus et les étiquettes nutritionnelles dans toutes les succursales régionales.",
+        "icon_type": "FaGlobe"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Suite Santé-Tech",
+    "subtitle": "Des outils intelligents pour l’industrie du bien-être.",
+    "cards": [
+      {
+        "title": "Moteur d'abonnement aux jus",
+        "description": "Facturation récurrente automatisée et acheminement des livraisons pour des services de préparation de repas sains."
+      },
+      {
+        "title": "Menu nutritionnel interactif",
+        "description": "Un outil Web permettant aux clients de visualiser les macros dans leur bol de smoothie personnalisé."
+      },
+      {
+        "title": "IA du gaspillage au profit",
+        "description": "Algorithme qui suggère des « promotions quotidiennes » basées sur le stock de produits arrivant à expiration."
+      },
+      {
+        "title": "Automatisateur de liste de préparation",
+        "description": "Système d'affichage de cuisine qui regroupe les commandes similaires pour maximiser l'efficacité du presse-agrumes."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Des rendements sains",
+    "subtitle": "Impact concret sur le commerce de détail axé sur la santé.",
+    "cards": [
+      {
+        "label": "Étude de cas 01",
+        "title": "Réduction des déchets",
+        "description": "Une chaîne de bars à jus a réduit ses déchets organiques de 18 % grâce à la rotation des stocks basée sur l'IA.",
+        "href": "/contact",
+        "cta_text": "Afficher les détails"
+      },
+      {
+        "label": "Étude de cas 02",
+        "title": "Croissance de la fidélité",
+        "description": "Les notifications mobiles personnalisées « post-entraînement » ont augmenté les visites répétées de 40 %.",
+        "href": "/contact",
+        "cta_text": "Afficher les détails"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explorer d’autres secteurs",
+    "subtitle": "Découvrez d’autres façons dont nous appliquons l’automatisation intelligente.",
+    "cards": [
+      {
+        "title": "Salon de crème glacée",
+        "description": "L'IA pour la logistique de la chaîne du froid.",
+        "href": "/industries/food/ice-cream-parlor",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Torréfaction de café",
+        "description": "Systèmes pour boissons spéciales.",
+        "href": "/industries/food/coffee-roastery",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Prêt à grandir ?",
+    "subtitle": "Discutez avec nos spécialistes en technologies de la santé de l’automatisation de votre bar à jus.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Message",
+    "full_name_placeholder": "Jordan Vert",
+    "business_email_placeholder": "jordan@freshpress.com",
+    "message_placeholder": "Parlez-nous de votre menu ou du nombre d'établissements que vous gérez...",
+    "button_text": "Envoyer une demande"
+  }
+}

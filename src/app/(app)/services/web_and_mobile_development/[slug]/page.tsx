@@ -51,7 +51,7 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         <Progress data={data.process_section} />
         <Casestudy data={data.case_study_section} />
         <Faqs data={data.faq_section} />
-        <Contact />
+        <Contact serviceName={data.hero_section.title} sourcePage={`/services/web_and_mobile_development/${slug}`} />
       </div>
       <Footer />
     </>

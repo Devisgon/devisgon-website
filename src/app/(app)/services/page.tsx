@@ -38,7 +38,7 @@ export default async function Services() {
       <Header />
       <Hero data={herosection} />
       <Service data={services} />
-      <Form />
+      <Form serviceName="Services" sourcePage="/services" />
       <Footer />
     </>
   );

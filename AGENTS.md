@@ -29,7 +29,7 @@ Required actions after each meaningful code change:
 - Other landing-page content is JSON-driven from `src/data/*_data/others/<slug>.json`, with English fallback via `src/data/loaders/others.ts`.
 - Blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
 - Newsletter subscribers are stored in Payload `newsletter-subscribers` (PostgreSQL/Supabase table) with email-only subscriber records and used for update broadcasts.
-- Contact and apply forms require name, email, and phone, post to internal API routes, then send email via Resend.
+- Contact and apply forms require name, email, and phone, post to internal API routes, then send email via Resend; inquiry forms also pass country and source context when available.
 - Footer newsletter form is email-only, posts to internal `/api/newsletter_subscribe`, stores subscribers, and sends confirmation emails.
 - Navbar, footer, contact-page, and get-started-page UI copy are language-aware through `src/lib/localized-content.ts` and per-language JSON data files in `src/data/*_data`.
 - Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; newsletter form copy/errors/buttons are language-aware in `src/components/footer_newsletter_form.tsx`.
@@ -41,12 +41,12 @@ Required actions after each meaningful code change:
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - Home blogs preview route segment (`src/components/home_page/blogs.tsx`) resolves `lang` from cookie and injects localized `home_page.blog_section` heading/subheading before rendering shared blog list.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
-- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/navbar.json` Industries dropdown columns (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links.
+- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/loaders/industries.ts` `INDUSTRY_GROUPS` (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links, and navbar Food links mirror those slugs.
 - `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/others/[slug]` -> `src/app/(app)/others/[slug]/page.tsx` reads `lang` cookie/query, loads landing-page JSON from `src/data/*_data/others/<slug>.json` with English fallback, and renders Doctor Hosting-style rotating hero (`src/components/others/hosting_hero_slider.tsx`), domain search, compact equal-height five-across pricing cards, services, CTA, and FAQ sections with global theme utility classes.
 - `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` query all published Payload `blogs` and auto-translate blog title/category to the selected language before rendering; blog hero copy and list UI labels resolve by selected language.
 - `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug (published only), auto-translates title + lexical rich text + recent-post titles to selected language, and renders translated lexical rich text.
-- `/contact` -> `src/app/(app)/contact/page.tsx` resolves `lang` from cookie, injects localized `contact_page.json` content into `src/components/contact_page/contact_page_client.tsx`, and client form posts to `/api/contact_mail`.
+- `/contact` -> `src/app/(app)/contact/page.tsx` resolves `lang` from cookie, injects localized `contact_page.json` content into `src/components/contact_page/contact_page_client.tsx`, and client form posts to `/api/contact_mail`; the service dropdown is generated from the localized Services navbar links, includes every service, and the country dropdown uses `src/lib/inquiry-options.ts`.
 - `/get-started` -> `src/app/(app)/get-started/page.tsx` server wrapper (`dynamic = "force-dynamic"`) renders `src/components/get_started/get_started_client.tsx`; client form posts to `/api/apply_mail`, pulls careers and form global settings from Payload REST endpoints, localizes UI copy from `get_started_page.json` by cookie language, and only shows `Job`/`Internship` application types that currently have active programs.
 - `/privacy_policies` and `/terms_condition` -> server components reading language-specific JSON by cookie.
 
@@ -66,6 +66,7 @@ All service detail routes share one rendering pattern:
   - pulls content from `src/data/loaders/*.ts` map by slug,
   - renders shared section components (`hero`, `introduction`, `key_benefits`, `what_we_do`, `technologies`, `process`, `case_study`, `faq`, `contact`).
   - the shared `technologies` section renders cards as a continuously moving marquee, pauses on hover, and resolves card links from the top-level Technologies navbar dropdown with safe fallback to `/technologies`.
+  - the shared `contact` section now renders a direct inquiry form that posts to `/api/contact_mail` with the current service name and source page instead of linking users to `/contact`.
 
 ### Industry Detail Pages
 - Canonical route:
@@ -77,7 +78,8 @@ All service detail routes share one rendering pattern:
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
   - loads category + slug data from `src/data/loaders/industries.ts` with English fallback if localized file is missing,
   - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, optional `carousel`, `case_studies`, `explore`, `conversation`),
-  - hero now receives carousel cards and rotates card title/description smoothly via `src/components/industries/hero_rotating_copy.tsx`.
+  - hero now receives carousel cards and rotates card title/description smoothly via `src/components/industries/hero_rotating_copy.tsx`,
+  - conversation forms submit directly to `/api/contact_mail` with `industryName`, `serviceName`, source page, country, and message fields for Resend inquiry emails.
 
 ### Technology Detail Pages
 - Canonical route:
@@ -97,6 +99,7 @@ All service detail routes share one rendering pattern:
 - Industry main page uses `src/data/*_data/industries_page.json`.
 - Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
 - Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
+- Food industry detail pages currently include `bakery`, `juice-bar`, `catering`, `fine-dining`, and `ice-cream-parlor` across all language folders, with matching Food navbar links in `src/data/navbar.json` and localized `src/data/*_data/navbar.json` files.
 - Industry detail `hero_section.background_image` fields now point to slug/category-specific assets under `public/industries/*.webp`; new uploaded industry raster images should be converted to WEBP and the original PNG/JPG files removed after references are updated.
 - Technologies main page uses `src/data/*_data/technologies_page.json`.
 - Technologies main page hero content uses `src/data/*_data/technologies_page.json`; category sections and sub-technology links are sourced from language-specific `src/data/*_data/navbar.json` Technologies dropdown columns.
@@ -144,6 +147,7 @@ Defined in `src/payload.config.ts`:
 - `POST /api/contact_mail`:
   - receives JSON from contact form,
   - validates required name, email, and phone fields,
+  - accepts optional company, country, service name, industry name, source page/type, budget, timeline, and attachment fields,
   - enriches request with IP and geo lookup (`api64.ipify.org`, `ipwho.is`),
   - sends HTML email via Resend, optional attachment.
 - `POST /api/apply_mail`:
@@ -242,6 +246,7 @@ If you change this, also check this:
 - Language behavior -> cookie-based server pages + query-param service detail pages + `context/i18n.js`.
 - Navbar/footer/contact/get-started localization data -> `src/lib/localized-content.ts` + `src/data/*_data/{navbar,footer,contact_page,get_started_page}.json`.
 - API payload fields -> matching form fields in `contact/page.tsx` or `get-started/page.tsx`.
+- Contact/inquiry payload fields -> `src/app/(app)/api/contact_mail/route.ts`, `src/components/contact_page/contact_page_client.tsx`, `src/components/direct_inquiry_form.tsx`, and `src/lib/inquiry-options.ts`.
 - SEO keywords, page metadata, or JSON-LD sitelinks -> `src/lib/seo.ts` + `src/app/(app)/layout.tsx` + relevant page metadata exports.
 
 ## Known Risks and Technical Debt
@@ -320,3 +325,7 @@ If you change this, also check this:
 - 2026-05-05: Restored newsletter subscriptions to email-only UI/API/Payload records while keeping name/email/phone required on non-newsletter public forms.
 - 2026-05-05: Converted the shared service-detail technologies section into a seamless multi-copy hover-paused marquee with card links resolved from the Technologies navbar dropdown.
 - 2026-05-05: Converted newly added Doctor Hosting and industry raster assets to WEBP, removed their PNG/JPG originals, added the expanded industry category links to localized navbars, and generated localized JSON for the new industry detail pages.
+- 2026-05-06: Added localized Food industry detail JSON and navbar links for juice bars, catering, fine dining, and frozen desserts, and expanded `INDUSTRY_GROUPS.food` so listing and legacy industry routing recognize the new slugs.
+- 2026-05-06: Converted service and industry inquiry areas into direct Resend-backed forms, added service/industry/source/country context to contact emails, expanded the contact service dropdown from navbar data, and added `$50k+` budget options.
+- 2026-05-06: Adjusted the shared service/industry direct inquiry form layout so name/email render on the first row and phone/country render on the second row.
+- 2026-05-06: Verified meeting links use Calendly env variables and added fallback behavior so 30/60-minute meeting buttons use `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING` when their specific env keys are absent.

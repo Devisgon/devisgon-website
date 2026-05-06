@@ -18,7 +18,7 @@ export const INDUSTRY_GROUPS: Record<string, string[]> = {
   trades: ["electrician", "plumbing", "carpentry", "welding", "cleaning", "elctronics", "roofing"],
   entertainment: ["restaurants", "hotels", "events", "media_production", "clothing", "supermarket"],
   agriculture: ["farms", "fields", "plants", "irrigation", "dairy_farm", "landscraping", "poetry_farm"],
-  food: ["bakery"],
+  food: ["bakery", "juice-bar", "catering", "fine-dining", "ice-cream-parlor"],
   real_estate: ["residential", "commercial", "property_management", "architecture_design", "insurance", "micro_finance"],
 };
 

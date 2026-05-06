@@ -11,6 +11,19 @@ function isValidPhone(value: unknown) {
   return typeof value === "string" && /^\+?[0-9\s().-]{7,20}$/.test(value.trim());
 }
 
+function escapeHtml(value: unknown) {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function cleanValue(value: unknown, fallback = "Not provided") {
+  return typeof value === "string" && value.trim() ? value.trim() : fallback;
+}
+
 export async function POST(req: Request) {
   try {
    
@@ -44,7 +57,8 @@ export async function POST(req: Request) {
     }
     const body = await req.json();
     const {
-      name, email, phone, projectType, budget, timeline, projectDetail,
+      name, email, phone, company, country, projectType, budget, timeline, projectDetail, message,
+      sourceType, industryName, serviceName, sourcePage,
       fileBase64, fileName, fileType,
     } = body;
 
@@ -64,11 +78,35 @@ export async function POST(req: Request) {
       ? [{ filename: fileName || "attachment", content: fileBase64, type: fileType, disposition: "attachment" }]
       : undefined;
 
+    const inquiryMessage = cleanValue(projectDetail || message);
+    const selectedService = cleanValue(serviceName || projectType);
+    const selectedIndustry = cleanValue(industryName);
+    const sourceLabel = cleanValue(sourceType, "contact");
+    const safeName = escapeHtml(name);
+    const safeEmail = escapeHtml(email);
+    const safePhone = escapeHtml(phone);
+    const safeCompany = escapeHtml(cleanValue(company));
+    const safeCountry = escapeHtml(cleanValue(country));
+    const safeService = escapeHtml(selectedService);
+    const safeIndustry = escapeHtml(selectedIndustry);
+    const safeSourceType = escapeHtml(sourceLabel);
+    const safeSourcePage = escapeHtml(cleanValue(sourcePage));
+    const safeBudget = escapeHtml(cleanValue(budget));
+    const safeTimeline = escapeHtml(cleanValue(timeline));
+    const safeMessage = escapeHtml(inquiryMessage);
+    const safeIp = escapeHtml(ip);
+    const safeLocation = escapeHtml(locationString);
+    const subjectContext =
+      sourceLabel === "industry" && selectedIndustry !== "Not provided"
+        ? `Industry Inquiry: ${selectedIndustry}`
+        : selectedService !== "Not provided"
+          ? `Service Inquiry: ${selectedService}`
+          : "New Contact Form Submission";
   
     await resend.emails.send({
       from: process.env.RESEND_DOMAIN!,
       to: [process.env.RESEND_EMAIL_USER!],
-      subject: "New Contact Form Submission",
+      subject: subjectContext,
       replyTo: email,
       html: `
 <!DOCTYPE html>
@@ -96,34 +134,54 @@ export async function POST(req: Request) {
         <table style="width: 100%; border-collapse: collapse;">
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase;">Client Name</td>
-            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; font-weight: 500;">${name}</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; font-weight: 500;">${safeName}</td>
           </tr>
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Email</td>
             <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">
-              <a href="mailto:${email}" style="color: #8145B5; text-decoration: none; font-weight: 600;">${email}</a>
+              <a href="mailto:${safeEmail}" style="color: #8145B5; text-decoration: none; font-weight: 600;">${safeEmail}</a>
             </td>
           </tr>
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Phone Number</td>
-            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${phone}</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safePhone}</td>
           </tr>
           <tr>
-            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Service</td>
-            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${projectType}</td>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Company</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeCompany}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Country</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeCountry}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Inquiry Source</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeSourceType}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Service Name</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeService}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Industry Name</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeIndustry}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Source Page</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeSourcePage}</td>
           </tr>
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Budget / Timeline</td>
-            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${budget} / ${timeline}</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeBudget} / ${safeTimeline}</td>
           </tr>
           
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">IP Address</td>
-            <td style="padding: 10px 0; font-size: 15px; color: #666; text-align: right; border-top: 1px solid #ede7f3;">${ip}</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #666; text-align: right; border-top: 1px solid #ede7f3;">${safeIp}</td>
           </tr>
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Location</td>
-            <td style="padding: 10px 0; font-size: 15px; color: #666; text-align: right; border-top: 1px solid #ede7f3;">${locationString}</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #666; text-align: right; border-top: 1px solid #ede7f3;">${safeLocation}</td>
           </tr>
         </table>
       </div>
@@ -131,7 +189,7 @@ export async function POST(req: Request) {
       <div style="margin-top: 30px;">
         <p style="color: #1a1a1a; font-weight: 700; font-size: 14px; margin-bottom: 12px; text-transform: uppercase;">Message:</p>
         <div style="background-color: #ffffff; border: 1.5px dashed #d1c4e9; padding: 20px; border-radius: 8px; color: #444444; line-height: 1.7; font-size: 15px; font-style: italic;">
-          "${projectDetail}"
+          "${safeMessage}"
         </div>
       </div>
       

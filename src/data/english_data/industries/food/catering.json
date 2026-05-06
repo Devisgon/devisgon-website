@@ -1,0 +1,174 @@
+{
+  "slug": "catering",
+  "hero_section": {
+    "eyebrow": "Large-Scale Culinary Logistics",
+    "title": "AI for",
+    "highlight": "Catering",
+    "description": "Automate bulk ingredient procurement, manage complex event timelines, and streamline custom menu proposals for events of any scale.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/cattering.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Caterers manage volatile guest counts, diverse dietary restrictions, and intense off-site logistics.",
+    "cards": [
+      {
+        "title": "Headcount Volatility",
+        "description": "Last-minute guest changes leading to food shortages or massive overproduction.",
+        "icon_type": "FaUsersSlash"
+      },
+      {
+        "title": "Dietary Complexity",
+        "description": "Manual tracking of dozens of unique allergies and preferences across hundreds of plates.",
+        "icon_type": "FaExclamationCircle"
+      },
+      {
+        "title": "Logistics Gaps",
+        "description": "Difficulty coordinating equipment, staff, and fresh food across multiple remote locations.",
+        "icon_type": "FaTruck"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Precision at Scale.",
+    "description": "We bridge the gap between event planning and kitchen execution with automated workflows.",
+    "bullets": [
+      "Dynamic Prep-List Generator",
+      "Allergy Safety Validator",
+      "Event Resource Scheduler"
+    ],
+    "cards": [
+      {
+        "title": "Yield Calculator",
+        "description": "Automatically scales recipes and ingredient orders based on final RSVPs.",
+        "icon_type": "FaCalculator",
+        "featured": true
+      },
+      {
+        "title": "Proposal Automator",
+        "description": "Generate professional, cost-optimized menu bids in minutes instead of hours.",
+        "icon_type": "FaFileInvoiceDollar"
+      },
+      {
+        "title": "Fleet & Staff Sync",
+        "description": "Real-time tracking of delivery vehicles and temporary event staff shifts.",
+        "icon_type": "FaClock"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Seamless Service",
+    "subtitle": "Deliver high-quality culinary experiences without the logistical headaches.",
+    "cards": [
+      {
+        "title": "Reduced Food Costs",
+        "description": "Precision ordering based on exact guest counts prevents ingredient waste.",
+        "icon_type": "FaHandHoldingDollar"
+      },
+      {
+        "title": "Error-Free Service",
+        "description": "Digital allergen tracking ensures every guest receives a safe, correct meal.",
+        "icon_type": "FaShieldCheck"
+      },
+      {
+        "title": "Faster Proposals",
+        "description": "Close more deals with AI-generated quotes that reflect real-time market prices.",
+        "icon_type": "FaLightning"
+      },
+      {
+        "title": "Streamlined Prep",
+        "description": "Automated prep-lists grouped by station to maximize kitchen efficiency.",
+        "icon_type": "FaUtensils"
+      },
+      {
+        "title": "Resource Tracking",
+        "description": "Maintain a digital inventory of linens, cutlery, and specialized equipment.",
+        "icon_type": "FaBox"
+      },
+      {
+        "title": "Client Self-Service",
+        "description": "Online portals where clients can update guest counts and select menu options.",
+        "icon_type": "FaUserEdit"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Catering Solutions",
+    "subtitle": "Tools for the modern mobile kitchen.",
+    "cards": [
+      {
+        "title": "Smart Menu Builder",
+        "description": "Drag-and-drop tool that calculates margins as you build an event menu."
+      },
+      {
+        "title": "Guest RSVP Portal",
+        "description": "Direct link for event guests to submit dietary needs directly to the kitchen."
+      },
+      {
+        "title": "Bulk Prep AI",
+        "description": "System that organizes multi-day prep cycles for large-scale events."
+      },
+      {
+        "title": "Equipment Manager",
+        "description": "QR-based tracking system for off-site catering assets and rentals."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Event Success",
+    "subtitle": "High-volume results in the field.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Margin Improvement",
+        "description": "A wedding caterer increased profit margins by 15% using AI ingredient scaling.",
+        "href": "/contact",
+        "cta_text": "View Details"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Speed of Bid",
+        "description": "Automated proposals reduced client response time from 3 days to 2 hours.",
+        "href": "/contact",
+        "cta_text": "View Details"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Innovation across the food ecosystem.",
+    "cards": [
+      {
+        "title": "Fine Dining",
+        "description": "Tech for high-end hospitality.",
+        "href": "/industries/food/fine-dining",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Ghost Kitchen",
+        "description": "Delivery-first automation.",
+        "href": "/industries/food/ghost-kitchen",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Scale Your Service",
+    "subtitle": "Talk to our catering tech experts about automating your event workflow.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Work Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Sarah Event",
+    "business_email_placeholder": "sarah@primecatering.com",
+    "message_placeholder": "Tell us about your average event size or menu complexity...",
+    "button_text": "Send Inquiry"
+  }
+}
