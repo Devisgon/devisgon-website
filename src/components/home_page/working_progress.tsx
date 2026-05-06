@@ -19,6 +19,7 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
   
   const [activeStep, setActiveStep] = useState(0);
   const [isSuccessState, setIsSuccessState] = useState(false);
+  const [lineReachedStep, setLineReachedStep] = useState(0);
 
   useEffect(() => {
     let interval: NodeJS.Timeout;
@@ -28,24 +29,25 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
         setActiveStep((prev) => {
           if (prev >= resolvedSteps.length) {
             setIsSuccessState(false);
+            setLineReachedStep(0);
             return 0;
           }
-          
           const nextStep = prev + 1;
-          
-          // If it's the last step, trigger the "Green" shift after a small delay
-          if (nextStep === resolvedSteps.length) {
-            setTimeout(() => setIsSuccessState(true), 800);
-          }
-          
+          setTimeout(() => {
+            setLineReachedStep(nextStep);
+            if (nextStep === resolvedSteps.length) {
+              setTimeout(() => setIsSuccessState(true), 400);
+            }
+          }, 800);
           return nextStep;
         });
-      }, 1000); // Slower interval to appreciate the fill effect
+      }, 2000);
     }
 
     return () => {
       clearInterval(interval);
       setIsSuccessState(false);
+      setLineReachedStep(0);
     };
   }, [isInView, resolvedSteps.length]);
 
@@ -55,72 +57,92 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
       : 100;
 
   return (
-    <section ref={sectionRef} className="bg-background py-20 px-4 overflow-hidden">
-      {/* Headings... (Same as before) */}
-      <div className="flex flex-col items-center text-center mb-20">
+    <section ref={sectionRef} className="bg-background py-20 px-4 overflow-visible">
+      <div className="flex flex-col items-center text-center mb-24">
         <p className="text-t-secondary font-bold text-3xl mb-4">{data.section_heading}</p>
         <h1 className="text-t-primary font-bold md:text-5xl text-2xl">
           {data.main_heading} <span className="text-t-secondary">{data.span_heading}</span>
         </h1>
       </div>
 
-      <div className="flex justify-center">
-        <div className="relative w-full max-w-5xl">
+      <div className="flex justify-center overflow-visible">
+        <div className="relative w-full max-w-5xl overflow-visible">
           
           {/* Progress Line (Desktop) */}
-        <div className="absolute top-[2.5rem] left-4 right-4 h-1 rounded-full bg-[#EAD5F9] dark:bg-[#47295C] overflow-hidden">
-  <motion.div
-    className="h-full bg-t-secondary origin-left" // Added origin-left for smoother growth
-    initial={{ width: 0 }}
-    animate={{ width: `${progressPercent}%` }}
-    transition={{ duration: 0.8, ease: "easeOut" }}
-  />
-</div>
+          <div className="hidden md:block absolute top-[2.5rem] left-4 right-4 h-1 rounded-full bg-[#EAD5F9] dark:bg-[#47295C] overflow-hidden">
+            <motion.div
+              className="h-full bg-t-secondary origin-left"
+              animate={{ width: `${progressPercent}%` }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+            />
+          </div>
 
-          {/* Steps */}
-          <div className="flex md:flex-row flex-col md:justify-between items-center relative z-10">
+          {/* Progress Line (Mobile) */}
+          <div className="md:hidden absolute left-1/2 top-10 bottom-10 w-1 -translate-x-1/2 rounded-full bg-[#EAD5F9] dark:bg-[#47295C] overflow-hidden">
+            <motion.div
+              className="w-full bg-t-secondary origin-top"
+              animate={{ height: `${progressPercent}%` }}
+              transition={{ duration: 0.8, ease: "easeInOut" }}
+            />
+          </div>
+
+          <div className="flex md:flex-row flex-col md:justify-between items-center relative z-10 gap-20 md:gap-0 overflow-visible">
             {resolvedSteps.map((step, index) => {
               const stepNumber = index + 1;
-              const isFilled = stepNumber <= activeStep;
-              const isLast = stepNumber === resolvedSteps.length;
-              const turnGreen = isLast && isSuccessState;
+              const hasLineReached = stepNumber <= lineReachedStep;
+              const isCurrentlyGlowing = stepNumber === lineReachedStep;
+              const turnGreen = stepNumber === resolvedSteps.length && isSuccessState;
 
               return (
-                <div key={step.id} className="flex flex-col items-center">
-                  <div className="relative w-20 h-20">
-                    {/* The Background/Border Circle */}
-                    <div className={`absolute inset-0 rounded-full border-4 border-[#EAD5F9] dark:border-[#47295C] bg-background`} />
-                    
-                    {/* The Animated Fill Layer */}
+                <div key={step.id} className="relative flex flex-col items-center justify-center w-full md:w-auto overflow-visible">
+                  
+                  {/* MAIN CIRCLE WRAPPER */}
+                  <motion.div 
+                    className="relative w-20 h-20 shrink-0 z-20 rounded-full flex items-center justify-center bg-background" // bg-background hides the line behind it
+                    animate={{
+                      scale: isCurrentlyGlowing ? 1.2 : 1,
+                      // The border color matches the line color until reached
+                      borderColor: hasLineReached 
+                        ? (turnGreen ? "#138b33" : "var(--t-secondary, #9333ea)") 
+                        : "#EAD5F9",
+                     
+                    }}
+                    style={{ borderWidth: "4px" }}
+                    transition={{ duration: 0.4 }}
+                  >
+                    {/* FILL LAYER (Inside the border) */}
                     <motion.div
-                      initial={{ scale: 0 }}
+                      initial={{ opacity: 0 }}
                       animate={{ 
-                        scale: isFilled ? 1 : 0,
+                        opacity: hasLineReached ? 1 : 0,
                         backgroundColor: turnGreen ? "#138b33" : "var(--t-secondary, #9333ea)" 
                       }}
-                      transition={{ duration: 0.5, ease: "backOut" }}
                       className="absolute inset-0 rounded-full flex items-center justify-center"
                     >
                       <AnimatePresence>
-                        {isFilled && (
+                        {hasLineReached && (
                           <motion.div
-                            initial={{ opacity: 0, scale: 0.5 }}
+                            initial={{ opacity: 0, scale: 0 }}
                             animate={{ opacity: 1, scale: 1 }}
                             exit={{ opacity: 0 }}
                           >
-                            <Check className="w-8 h-8 text-white" />
+                            <Check className="w-10 h-10 text-white" />
                           </motion.div>
                         )}
                       </AnimatePresence>
                     </motion.div>
-                  </div>
+                  </motion.div>
 
+                  {/* Text Container */}
                   <motion.p
                     animate={{ 
-                      color: turnGreen ? "#138b33" : isFilled ? "var(--t-secondary, #9333ea)" : "#6F6F6F",
-                      scale: isFilled ? 1.1 : 1 
+                      color: turnGreen ? "#138b33" : hasLineReached ? "var(--t-secondary, #9333ea)" : "#6F6F6F",
                     }}
-                    className="mt-6 text-lg font-semibold text-center transition-all"
+                    className={`
+                      absolute left-[calc(50%+4rem)] w-[140px] text-left 
+                      md:static md:w-auto md:mt-8 md:text-center 
+                      text-lg font-bold transition-all duration-300
+                    `}
                   >
                     {step.title}
                   </motion.p>

@@ -24,8 +24,19 @@ const Navbar = () => {
   const navLinks = getNavbarDataByLang(currentLang).navbar;
 
   useEffect(() => {
-    const hasDarkClass = document.documentElement.classList.contains("dark");
-    setIsDark(hasDarkClass);
+    const hasOpenSession = window.sessionStorage.getItem("theme-session") === "active";
+
+    if (!hasOpenSession) {
+      window.localStorage.removeItem("theme");
+      window.sessionStorage.setItem("theme-session", "active");
+    }
+
+    window.sessionStorage.removeItem("theme");
+
+    const nextIsDark = window.localStorage.getItem("theme") === "dark";
+
+    document.documentElement.classList.toggle("dark", nextIsDark);
+    setIsDark(nextIsDark);
   }, []);
 
   useEffect(() => {
@@ -46,8 +57,10 @@ const Navbar = () => {
 
     if (newTheme) {
       document.documentElement.classList.add("dark");
+      window.localStorage.setItem("theme", "dark");
     } else {
       document.documentElement.classList.remove("dark");
+      window.localStorage.setItem("theme", "light");
     }
   };
 
@@ -115,11 +128,13 @@ const Navbar = () => {
               : `repeat(${columnCount}, minmax(0, 1fr))`,
           }}
         >
-          {link.dropdown.columns.map((col) => (
-            <div key={col.title}>
-              <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
-                {col.title}
-              </h3>
+          {link.dropdown.columns.map((col, colIndex) => (
+            <div key={col.title || `${link.name}-${colIndex}`}>
+              {col.title && (
+                <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
+                  {col.title}
+                </h3>
+              )}
               <ul className="space-y-3">
                 {col.links.map((sublink) => (
                   <li key={sublink.name}>
@@ -214,24 +229,26 @@ const Navbar = () => {
 
               {link.dropdown && activeMobileDropdown === link.href && (
                 <div className="mt-4 space-y-3">
-                  {link.dropdown.columns.map((col) => (
-                    <div key={col.title}>
-                      <button
-                        className="flex w-full justify-between text-base font-normal"
-                        onClick={() =>
-                          setActiveMobileCategory(activeMobileCategory === col.title ? null : col.title)
-                        }
-                      >
-                        {col.title}
-                        <ChevronDown
-                          className={`transition-transform ${
-                            activeMobileCategory === col.title ? "rotate-180" : ""
-                          }`}
-                        />
-                      </button>
+                  {link.dropdown.columns.map((col, colIndex) => (
+                    <div key={col.title || `${link.name}-${colIndex}`}>
+                      {col.title ? (
+                        <button
+                          className="flex w-full justify-between text-base font-normal"
+                          onClick={() =>
+                            setActiveMobileCategory(activeMobileCategory === col.title ? null : col.title)
+                          }
+                        >
+                          {col.title}
+                          <ChevronDown
+                            className={`transition-transform ${
+                              activeMobileCategory === col.title ? "rotate-180" : ""
+                            }`}
+                          />
+                        </button>
+                      ) : null}
 
-                      {activeMobileCategory === col.title && (
-                        <div className="mt-2 space-y-2 pl-4">
+                      {(!col.title || activeMobileCategory === col.title) && (
+                        <div className={col.title ? "mt-2 space-y-2 pl-4" : "space-y-2 pl-4"}>
                           {col.links.map((sublink) => (
                             <Link
                               key={sublink.name}

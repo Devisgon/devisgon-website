@@ -141,7 +141,7 @@ const FooterNewsletterForm = ({ lang = "en" }: { lang?: string }) => {
   return (
     <form
       onSubmit={handleSubmit}
-      className="flex flex-col gap-6 mt-2 w-full max-w-xs mx-auto"
+      className="flex mt-2 w-full max-w-sm flex-col gap-6"
     >
       <input
         type="email"
