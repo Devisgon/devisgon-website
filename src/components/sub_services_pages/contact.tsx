@@ -1,30 +1,27 @@
-import React from "react";
+import DirectInquiryForm from "@/components/direct_inquiry_form";
 
-const data = [{ text: "Book a Consultation" }, { text: "Contact Us" }];
+type CallToActionProps = {
+  serviceName?: string;
+  sourcePage?: string;
+};
 
-const CallToAction: React.FC = () => {
+const CallToAction = ({ serviceName = "Services", sourcePage = "/services" }: CallToActionProps) => {
   return (
-    <section className="relative w-screen md:w-full overflow-hidden bg-gradient-to-r from-[#c191e6] via-[#be8ee6] to-[#c9a0e8] dark:from-[#321a47] dark:via-[#402061] dark:to-[#2f1a42] px-8 py-16 md:px-16 text-center shadow-lg">
-      <div className="w-full">
-        <div>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-t-primary">
-            Let&quot;s Build Smarter, Together
-          </h2>
+    <section className="relative w-screen overflow-hidden bg-gradient-to-r from-[#c191e6] via-[#be8ee6] to-[#c9a0e8] px-8 py-16 text-center shadow-lg dark:from-[#321a47] dark:via-[#402061] dark:to-[#2f1a42] md:w-full md:px-16">
+      <div className="mx-auto w-full max-w-5xl">
+        <h2 className="text-3xl font-bold text-t-primary md:text-4xl lg:text-5xl">Let&apos;s Build Smarter, Together</h2>
 
-          <p className="mt-4 max-w-2xl mx-auto text-base md:text-lg text-white leading-relaxed">
-            Talk to our experts and see how Devisgon can accelerate your
-            business growth with cutting-edge technology solutions.
-          </p>
-        </div>
-        <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-          {data.map((btn, index) => (
-            <a href="/contact" key={index}>
-              <button className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary bg-transparent text-t-secondary hover:bg-btn-primary hover:text-white">
-                {btn.text}
-              </button>
-            </a>
-          ))}
-        </div>
+        <p className="mx-auto mt-4 max-w-2xl text-base leading-relaxed text-white md:text-lg">
+          Talk to our experts and see how Devisgon can accelerate your business growth with cutting-edge technology
+          solutions.
+        </p>
+
+        <DirectInquiryForm
+          buttonText="Send Inquiry"
+          serviceName={serviceName}
+          sourcePage={sourcePage}
+          sourceType="service"
+        />
       </div>
     </section>
   );

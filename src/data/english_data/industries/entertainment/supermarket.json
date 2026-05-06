@@ -1,0 +1,184 @@
+{
+  "slug": "supermarket",
+  "hero_section": {
+    "eyebrow": "Retail & Grocery Solutions",
+    "title": "AI for",
+    "highlight": "Supermarkets",
+    "description": "Optimize inventory, automate restock cycles, and deliver personalized shopping experiences for daily household essentials.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/supermarket.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Retailers manage thousands of SKUs and high-frequency transactions that demand precision.",
+    "cards": [
+      {
+        "title": "Stock Inaccuracy",
+        "description": "Mismatches between shelf availability and digital records leading to lost sales.",
+        "icon_type": "FaBoxes"
+      },
+      {
+        "title": "Supply Chain Delays",
+        "description": "Manual ordering processes that fail to account for sudden demand spikes in daily goods.",
+        "icon_type": "FaTruckLoading"
+      },
+      {
+        "title": "Generic Marketing",
+        "description": "Sending the same offers to everyone instead of targeting individual household needs.",
+        "icon_type": "FaBullhorn"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Predictive Shelves, Seamless Checkouts.",
+    "description": "We build a real-time intelligence layer that connects point-of-sale data with warehouse logistics.",
+    "bullets": [
+      "Real-time Inventory Sync",
+      "Automated Procurement Engine",
+      "Loss Prevention Analytics"
+    ],
+    "cards": [
+      {
+        "title": "Inventory Dashboard",
+        "description": "Monitor stock levels of household essentials across multiple aisles and branches.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Auto-Replenishment",
+        "description": "Smart triggers that order products from suppliers before they run out of stock.",
+        "icon_type": "FaSync"
+      },
+      {
+        "title": "Demand Forecasting",
+        "description": "Predict seasonal trends and daily household consumption patterns using AI.",
+        "icon_type": "FaChartLine"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Efficiency at scale for high-volume retail environments.",
+    "cards": [
+      {
+        "title": "Reduced Waste",
+        "description": "Optimize stock for perishables and daily goods to minimize expiration losses.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Higher Loyalty",
+        "description": "Keep customers coming back with consistent availability of their daily needs.",
+        "icon_type": "FaUserHeart"
+      },
+      {
+        "title": "Labor Optimization",
+        "description": "Automate routine data entry so staff can focus on customer service and floor management.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Omnichannel Ready",
+        "description": "Sync physical store stock with online delivery apps instantly.",
+        "icon_type": "FaMobileAlt"
+      },
+      {
+        "title": "Margin Protection",
+        "description": "Dynamic pricing and promotion tools to stay competitive in the local market.",
+        "icon_type": "FaPercentage"
+      },
+      {
+        "title": "Secure Logistics",
+        "description": "Track every product movement from the loading dock to the final bag.",
+        "icon_type": "FaLock"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Supermarket Digital Solutions",
+    "subtitle": "Smart tools for managing daily household product lifecycles.",
+    "cards": [
+      {
+        "title": "Household E-commerce",
+        "description": "A robust online storefront for groceries, cleaning supplies, and personal care products."
+      },
+      {
+        "title": "AI Personal Shopper",
+        "description": "An agent that suggests grocery lists based on a user's previous household purchases."
+      },
+      {
+        "title": "AI Stock Assistant",
+        "description": "Automated bot that alerts managers about low-stock household items in real-time."
+      },
+      {
+        "title": "Workflow Automation",
+        "description": "Connect POS systems to accounting software to automate daily financial reporting."
+      },
+      {
+        "title": "Customer Insights Portal",
+        "description": "Analyze which household brands are performing best and optimize shelf space."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Retail Intelligence",
+    "subtitle": "How AI transforms modern grocery operations.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Inventory Precision",
+        "description": "Implemented automated restock alerts that reduced 'out-of-stock' events by 25%.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Customer Retention",
+        "description": "AI-driven loyalty program increased repeat visits for daily essentials by 18%.",
+        "href": "/contact",
+        "cta_text": "Learn More"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "See how we apply intelligence to other service sectors.",
+    "cards": [
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Education",
+        "description": "AI operations for professional teams.",
+        "href": "/industries/professional/education",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Events",
+        "description": "AI operations for entertainment teams.",
+        "href": "/industries/entertainment/events",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Modernize Your Store",
+    "subtitle": "Talk with our retail specialists about automating your supermarket.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Sarah Jenkins",
+    "business_email_placeholder": "manager@supermarket.com",
+    "message_placeholder": "Tell us about your inventory challenges...",
+    "button_text": "Send Inquiry"
+  }
+}

@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import type { FormEvent } from "react";
 
 type NewsletterCopy = {
   invalidEmail: string;
@@ -23,31 +24,31 @@ const copyByLang: Record<string, NewsletterCopy> = {
     alreadySubscribed: "You are already subscribed.",
   },
   ur: {
-    invalidEmail: "براہ کرم درست ای میل درج کریں",
-    success: "سبسکرائب کرنے کا شکریہ!",
-    placeholder: "اپنا ای میل پتہ درج کریں",
-    button: "ابھی سبسکرائب کریں",
-    buttonLoading: "سبسکرائب ہو رہا ہے...",
-    genericError: "سبسکرپشن ناکام ہوئی۔ دوبارہ کوشش کریں۔",
-    alreadySubscribed: "آپ پہلے سے سبسکرائب کر چکے ہیں۔",
+    invalidEmail: "\u0628\u0631\u0627\u06c1 \u06a9\u0631\u0645 \u062f\u0631\u0633\u062a \u0627\u06cc \u0645\u06cc\u0644 \u062f\u0631\u062c \u06a9\u0631\u06cc\u06ba",
+    success: "\u0633\u0628\u0633\u06a9\u0631\u0627\u0626\u0628 \u06a9\u0631\u0646\u06d2 \u06a9\u0627 \u0634\u06a9\u0631\u06cc\u06c1!",
+    placeholder: "\u0627\u067e\u0646\u0627 \u0627\u06cc \u0645\u06cc\u0644 \u067e\u062a\u06c1 \u062f\u0631\u062c \u06a9\u0631\u06cc\u06ba",
+    button: "\u0627\u0628\u06be\u06cc \u0633\u0628\u0633\u06a9\u0631\u0627\u0626\u0628 \u06a9\u0631\u06cc\u06ba",
+    buttonLoading: "\u0633\u0628\u0633\u06a9\u0631\u0627\u0626\u0628 \u06c1\u0648 \u0631\u06c1\u0627 \u06c1\u06d2...",
+    genericError: "\u0633\u0628\u0633\u06a9\u0631\u067e\u0634\u0646 \u0646\u0627\u06a9\u0627\u0645 \u06c1\u0648\u0626\u06cc\u06d4 \u062f\u0648\u0628\u0627\u0631\u06c1 \u06a9\u0648\u0634\u0634 \u06a9\u0631\u06cc\u06ba\u06d4",
+    alreadySubscribed: "\u0622\u067e \u067e\u06c1\u0644\u06d2 \u0633\u06d2 \u0633\u0628\u0633\u06a9\u0631\u0627\u0626\u0628 \u06a9\u0631 \u0686\u06a9\u06d2 \u06c1\u06cc\u06ba\u06d4",
   },
   ar: {
-    invalidEmail: "يرجى إدخال بريد إلكتروني صحيح",
-    success: "شكرا لاشتراكك!",
-    placeholder: "أدخل عنوان بريدك الإلكتروني",
-    button: "اشترك الآن",
-    buttonLoading: "جارٍ الاشتراك...",
-    genericError: "فشل الاشتراك. يرجى المحاولة مرة أخرى.",
-    alreadySubscribed: "أنت مشترك بالفعل.",
+    invalidEmail: "\u064a\u0631\u062c\u0649 \u0625\u062f\u062e\u0627\u0644 \u0628\u0631\u064a\u062f \u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a \u0635\u062d\u064a\u062d",
+    success: "\u0634\u0643\u0631\u0627 \u0644\u0627\u0634\u062a\u0631\u0627\u0643\u0643!",
+    placeholder: "\u0623\u062f\u062e\u0644 \u0639\u0646\u0648\u0627\u0646 \u0628\u0631\u064a\u062f\u0643 \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a",
+    button: "\u0627\u0634\u062a\u0631\u0643 \u0627\u0644\u0622\u0646",
+    buttonLoading: "\u062c\u0627\u0631 \u0627\u0644\u0627\u0634\u062a\u0631\u0627\u0643...",
+    genericError: "\u0641\u0634\u0644 \u0627\u0644\u0627\u0634\u062a\u0631\u0627\u0643. \u064a\u0631\u062c\u0649 \u0627\u0644\u0645\u062d\u0627\u0648\u0644\u0629 \u0645\u0631\u0629 \u0623\u062e\u0631\u0649.",
+    alreadySubscribed: "\u0623\u0646\u062a \u0645\u0634\u062a\u0631\u0643 \u0628\u0627\u0644\u0641\u0639\u0644.",
   },
   zh: {
-    invalidEmail: "请输入有效的电子邮箱",
-    success: "感谢订阅！",
-    placeholder: "请输入您的电子邮箱地址",
-    button: "立即订阅",
-    buttonLoading: "正在订阅...",
-    genericError: "订阅失败，请重试。",
-    alreadySubscribed: "您已经订阅了。",
+    invalidEmail: "\u8bf7\u8f93\u5165\u6709\u6548\u7684\u7535\u5b50\u90ae\u7bb1",
+    success: "\u611f\u8c22\u8ba2\u9605\uff01",
+    placeholder: "\u8bf7\u8f93\u5165\u60a8\u7684\u7535\u5b50\u90ae\u7bb1",
+    button: "\u7acb\u5373\u8ba2\u9605",
+    buttonLoading: "\u6b63\u5728\u8ba2\u9605...",
+    genericError: "\u8ba2\u9605\u5931\u8d25\uff0c\u8bf7\u91cd\u8bd5\u3002",
+    alreadySubscribed: "\u60a8\u5df2\u7ecf\u8ba2\u9605\u4e86\u3002",
   },
   es: {
     invalidEmail: "Por favor ingresa un correo valido",
@@ -90,7 +91,7 @@ const FooterNewsletterForm = ({ lang = "en" }: { lang?: string }) => {
     return regex.test(value);
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault();
 
     if (!validateEmail(email)) {
@@ -156,6 +157,7 @@ const FooterNewsletterForm = ({ lang = "en" }: { lang?: string }) => {
           }
         }}
         placeholder={copy.placeholder}
+        required
         className="w-full px-4 py-3 rounded-lg border text-black border-[#E0D4F5] bg-white text-sm focus:outline-none focus:border-secondary"
       />
 

@@ -5,6 +5,7 @@ const LANGUAGES = ["en", "ur", "ar", "es", "de", "zh", "fr"];
 const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/services");
 const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
 const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
+const BASE_OTHERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
 
 const folderToUrlMap = {
   ai_and_saas_developments: "saas",
@@ -129,6 +130,29 @@ function getTechnologyUrls() {
   return urls;
 }
 
+function getOtherUrls() {
+  const urls = [];
+
+  try {
+    const files = fs.readdirSync(BASE_OTHERS_PATH);
+
+    files.forEach((file) => {
+      if (!file.endsWith(".json")) {
+        return;
+      }
+
+      const slug = path.basename(file, ".json");
+      LANGUAGES.forEach((lang) => {
+        urls.push(`/others/${slug}?lang=${lang}`);
+      });
+    });
+  } catch (error) {
+    console.error("Sitemap generation error:", error);
+  }
+
+  return urls;
+}
+
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: "https://www.devisgon.com",
@@ -136,7 +160,7 @@ const config = {
   sitemapSize: 7000,
 
   async additionalPaths() {
-    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls()];
+    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls(), ...getOtherUrls()];
 
     return dynamicSlugs.map((url) => ({
       loc: url,

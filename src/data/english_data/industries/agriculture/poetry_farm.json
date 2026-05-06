@@ -1,0 +1,184 @@
+{
+  "slug": "poultry-farm",
+  "hero_section": {
+    "eyebrow": "Agri-Tech & Livestock Solutions",
+    "title": "AI for",
+    "highlight": "Poultry Farms",
+    "description": "Optimize bird health, automate feed management, and maximize yield with intelligent climate control and predictive analytics.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/poultry.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Poultry operations face high mortality risks, fluctuating feed costs, and sensitive environmental variables.",
+    "cards": [
+      {
+        "title": "Climate Sensitivity",
+        "description": "Sudden temperature or humidity changes causing stress and reducing growth rates.",
+        "icon_type": "FaThermometerHalf"
+      },
+      {
+        "title": "Feed Inefficiency",
+        "description": "Inaccurate feeding schedules leading to waste or undernourished livestock.",
+        "icon_type": "FaSeedling"
+      },
+      {
+        "title": "Disease Outbreaks",
+        "description": "Delayed detection of illness resulting in rapid spread across the flock.",
+        "icon_type": "FaBiohazard"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Connected Coops, Data-Driven Growth.",
+    "description": "We build an IoT-driven intelligence layer that monitors every bird and environmental sensor in real-time.",
+    "bullets": [
+      "IoT Sensor Integration",
+      "Automated Feeding Systems",
+      "Biosecurity Monitoring"
+    ],
+    "cards": [
+      {
+        "title": "Farm Ops Dashboard",
+        "description": "Monitor bird weight, water intake, and environmental metrics across multiple sheds.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Yield Predictor",
+        "description": "AI models that forecast egg production and meat yield based on current growth data.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Smart Ventilation",
+        "description": "Automated fan and heater controls that react instantly to sensor triggers.",
+        "icon_type": "FaWind"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Precision agriculture for sustainable and profitable farming.",
+    "cards": [
+      {
+        "title": "Lower Mortality",
+        "description": "Early warning systems detect behavioral changes to prevent mass health issues.",
+        "icon_type": "FaHeartbeat"
+      },
+      {
+        "title": "Optimized Feed Ratio",
+        "description": "AI adjusts feed mix and timing to ensure maximum conversion rates.",
+        "icon_type": "FaBalanceScale"
+      },
+      {
+        "title": "Automated Tracking",
+        "description": "Digital logs for vaccinations, batch cycles, and harvest dates.",
+        "icon_type": "FaClipboardList"
+      },
+      {
+        "title": "Resource Efficiency",
+        "description": "Reduce water and electricity waste with sensor-based utility management.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Supply Chain Ready",
+        "description": "Predict harvest dates accurately to sync with distributors and buyers.",
+        "icon_type": "FaTruck"
+      },
+      {
+        "title": "Enhanced Security",
+        "description": "AI surveillance to monitor unauthorized access and predator activity.",
+        "icon_type": "FaShieldAlt"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Poultry Digital Solutions",
+    "subtitle": "Intelligent tech for modern livestock management.",
+    "cards": [
+      {
+        "title": "Farm Management Portal",
+        "description": "A centralized app for tracking batch life cycles, expenses, and profitability."
+      },
+      {
+        "title": "AI Livestock Agent",
+        "description": "An agent that analyzes sensor data to provide daily health and nutrition advice."
+      },
+      {
+        "title": "AI Inventory Manager",
+        "description": "Automatically order feed and vaccines before they run out based on consumption rates."
+      },
+      {
+        "title": "Workflow Automation",
+        "description": "Sync farm data with accounting software for real-time financial transparency."
+      },
+      {
+        "title": "Environmental Auditor",
+        "description": "Track and report on ammonia levels and air quality for compliance and bird welfare."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Precision Poultry",
+    "subtitle": "Real-world transformation of agricultural output.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Feed Optimization",
+        "description": "A commercial farm reduced feed costs by 15% using AI-driven precision feeding schedules.",
+        "href": "/contact",
+        "cta_text": "View Case Study"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Health Monitoring",
+        "description": "Reduced flock mortality rates by 10% through early-warning behavioral analysis systems.",
+        "href": "/contact",
+        "cta_text": "View Case Study"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover more ways we apply intelligent automation.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "AI operations for grocery teams.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Fuel Station",
+        "description": "AI operations for energy logistics.",
+        "href": "/industries/energy/fuel-station",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Grow Your Farm",
+    "subtitle": "Talk to our agri-tech experts about automating your poultry operations.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Work Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Zaid Malik",
+    "business_email_placeholder": "zaid@agrifarm.com",
+    "message_placeholder": "Tell us about your flock size and current facility setup...",
+    "button_text": "Connect with Experts"
+  }
+}

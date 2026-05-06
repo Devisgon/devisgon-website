@@ -1,0 +1,184 @@
+{
+  "slug": "poultry-farm",
+  "hero_section": {
+    "eyebrow": "Soluciones agrotecnológicas y ganaderas",
+    "title": "IA para",
+    "highlight": "Granjas avícolas",
+    "description": "Optimice la salud de las aves, automatice la gestión de alimentos y maximice el rendimiento con control climático inteligente y análisis predictivos.",
+    "primary_cta": {
+      "text": "Empezar",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Ver Arquitectura",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/poultry.webp"
+  },
+  "friction_section": {
+    "title": "El punto de fricción",
+    "subtitle": "Las operaciones avícolas enfrentan altos riesgos de mortalidad, costos de alimentación fluctuantes y variables ambientales sensibles.",
+    "cards": [
+      {
+        "title": "Sensibilidad climática",
+        "description": "Los cambios bruscos de temperatura o humedad provocan estrés y reducen las tasas de crecimiento.",
+        "icon_type": "FaThermometerHalf"
+      },
+      {
+        "title": "Ineficiencia alimentaria",
+        "description": "Horarios de alimentación inexactos que conducen al desperdicio o al ganado desnutrido.",
+        "icon_type": "FaSeedling"
+      },
+      {
+        "title": "Brotes de enfermedades",
+        "description": "Retraso en la detección de la enfermedad, lo que resulta en una rápida propagación por toda la parvada.",
+        "icon_type": "FaBiohazard"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Cooperativas conectadas, crecimiento impulsado por datos.",
+    "description": "Construimos una capa de inteligencia impulsada por IoT que monitorea cada ave y sensor ambiental en tiempo real.",
+    "bullets": [
+      "Integración de sensores de IoT",
+      "Sistemas de alimentación automatizados",
+      "Monitoreo de bioseguridad"
+    ],
+    "cards": [
+      {
+        "title": "Panel de operaciones agrícolas",
+        "description": "Supervise el peso de las aves, el consumo de agua y las métricas ambientales en varios galpones.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Predictor de rendimiento",
+        "description": "Modelos de IA que pronostican la producción de huevos y el rendimiento de carne en función de los datos de crecimiento actuales.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Ventilación inteligente",
+        "description": "Controles automatizados de ventiladores y calentadores que reaccionan instantáneamente a los activadores de sensores.",
+        "icon_type": "FaWind"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Beneficios clave",
+    "subtitle": "Agricultura de precisión para una agricultura sostenible y rentable.",
+    "cards": [
+      {
+        "title": "Menor Mortalidad",
+        "description": "Los sistemas de alerta temprana detectan cambios de comportamiento para prevenir problemas de salud masivos.",
+        "icon_type": "FaHeartbeat"
+      },
+      {
+        "title": "Relación de alimentación optimizada",
+        "description": "La IA ajusta la combinación de alimentos y el tiempo para garantizar tasas de conversión máximas.",
+        "icon_type": "FaBalanceScale"
+      },
+      {
+        "title": "Seguimiento automatizado",
+        "description": "Registros digitales de vacunaciones, ciclos de lotes y fechas de cosecha.",
+        "icon_type": "FaClipboardList"
+      },
+      {
+        "title": "Eficiencia de recursos",
+        "description": "Reduzca el desperdicio de agua y electricidad con la gestión de servicios públicos basada en sensores.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Listo para la cadena de suministro",
+        "description": "Prediga las fechas de cosecha con precisión para sincronizarlas con distribuidores y compradores.",
+        "icon_type": "FaTruck"
+      },
+      {
+        "title": "Seguridad mejorada",
+        "description": "Vigilancia mediante IA para monitorear el acceso no autorizado y la actividad depredadora.",
+        "icon_type": "FaShieldAlt"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Soluciones digitales avícolas",
+    "subtitle": "Tecnología inteligente para la gestión ganadera moderna.",
+    "cards": [
+      {
+        "title": "Portal de gestión agrícola",
+        "description": "Una aplicación centralizada para realizar un seguimiento de los ciclos de vida, los gastos y la rentabilidad de los lotes."
+      },
+      {
+        "title": "Agente de ganadería AI",
+        "description": "Un agente que analiza los datos de los sensores para brindar consejos diarios sobre salud y nutrición."
+      },
+      {
+        "title": "Gerente de inventario de IA",
+        "description": "Solicite automáticamente piensos y vacunas antes de que se agoten en función de las tasas de consumo."
+      },
+      {
+        "title": "Automatización del flujo de trabajo",
+        "description": "Sincronice los datos agrícolas con el software de contabilidad para lograr transparencia financiera en tiempo real."
+      },
+      {
+        "title": "Auditor Ambiental",
+        "description": "Realice un seguimiento e informe sobre los niveles de amoníaco y la calidad del aire para el cumplimiento y el bienestar de las aves."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Aves de corral de precisión",
+    "subtitle": "Transformación de la producción agrícola en el mundo real.",
+    "cards": [
+      {
+        "label": "Estudio de caso 01",
+        "title": "Optimización de feeds",
+        "description": "Una granja comercial redujo los costos de alimentación en un 15 % utilizando programas de alimentación de precisión impulsados ​​por IA.",
+        "href": "/contact",
+        "cta_text": "Ver estudio de caso"
+      },
+      {
+        "label": "Estudio de caso 02",
+        "title": "Monitoreo de salud",
+        "description": "Reducción de las tasas de mortalidad de las parvadas en un 10 % mediante sistemas de análisis de comportamiento de alerta temprana.",
+        "href": "/contact",
+        "cta_text": "Ver estudio de caso"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explora otras industrias",
+    "subtitle": "Descubra más formas en las que aplicamos la automatización inteligente.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "Operaciones de IA para equipos de comestibles.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Estación de combustible",
+        "description": "Operaciones de IA para la logística energética.",
+        "href": "/industries/energy/fuel-station",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Bienes raíces",
+        "description": "Operaciones de IA para equipos inmobiliarios.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Haga crecer su granja",
+    "subtitle": "Hable con nuestros expertos en tecnología agrícola sobre la automatización de sus operaciones avícolas.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico del trabajo",
+    "message_label": "Message",
+    "full_name_placeholder": "Zaid Malik",
+    "business_email_placeholder": "zaid@agrifarm.com",
+    "message_placeholder": "Cuéntenos sobre el tamaño de su parvada y la configuración actual de sus instalaciones...",
+    "button_text": "Conéctese con expertos"
+  }
+}

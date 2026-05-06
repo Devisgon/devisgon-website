@@ -16,6 +16,9 @@ const nextConfig: NextConfig = {
       // Supabase storage
       { protocol: "https", hostname: "**.supabase.co", pathname: "/**" },
 
+      // JSON-driven Doctor Hosting hero backgrounds
+      { protocol: "https", hostname: "images.unsplash.com", pathname: "/**" },
+
       // Current S3 bucket used by Payload
       { protocol: "https", hostname: "test-omega-coral-10.vercel.apps3_bucket", pathname: "/**" },
     ],

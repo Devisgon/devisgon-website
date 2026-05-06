@@ -1,0 +1,174 @@
+{
+  "slug": "juice-bar",
+  "hero_section": {
+    "eyebrow": "Nutritional Retail Automation",
+    "title": "AI for",
+    "highlight": "Health Cafés",
+    "description": "Optimize fresh produce procurement, automate nutritional transparency, and streamline high-velocity beverage production with intelligent workflows.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/bars.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Health-focused outlets deal with extremely sensitive margins and the logistical challenge of managing fresh fruit and vegetable shelf-life.",
+    "cards": [
+      {
+        "title": "Produce Spoilage",
+        "description": "High waste percentages due to the short lifespan of organic greens and exotic fruits.",
+        "icon_type": "FaLeaf"
+      },
+      {
+        "title": "Labeling Complexity",
+        "description": "Manual calculation of calories and macronutrients for custom-built bowls and juices.",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "Prep-Time Latency",
+        "description": "Slow manual chopping and juicing processes causing bottlenecks during the morning rush.",
+        "icon_type": "FaClock"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Freshness Powered by Data.",
+    "description": "We sync your inventory with your menu to ensure you're always serving the freshest ingredients without the waste.",
+    "bullets": [
+      "Real-time Spoilage Predictor",
+      "Dynamic Nutrition Generator",
+      "Smart Prep-Station Sync"
+    ],
+    "cards": [
+      {
+        "title": "Produce Tracker",
+        "description": "Automated inventory that alerts you to use specific batches before they lose nutritional value.",
+        "icon_type": "FaCarrot",
+        "featured": true
+      },
+      {
+        "title": "Nutri-Scan API",
+        "description": "Instantly updates digital menus with accurate calorie and allergen data for every custom order.",
+        "icon_type": "FaAppleAlt"
+      },
+      {
+        "title": "Order Aggregator",
+        "description": "Seamlessly combines walk-ins with mobile orders to prioritize the juicing queue.",
+        "icon_type": "FaThList"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Wellness Made Efficient",
+    "subtitle": "Balance premium health standards with high-speed operational output.",
+    "cards": [
+      {
+        "title": "Optimized Sourcing",
+        "description": "AI predicts produce needs based on seasonal trends to reduce over-ordering.",
+        "icon_type": "FaShoppingBasket"
+      },
+      {
+        "title": "Verified Compliance",
+        "description": "Automated logs for health inspections and organic certification traceability.",
+        "icon_type": "FaFileShield"
+      },
+      {
+        "title": "Personalized Wellness",
+        "description": "Loyalty apps that suggest drinks based on the customer's fitness goals.",
+        "icon_type": "FaHeartbeat"
+      },
+      {
+        "title": "Faster Throughput",
+        "description": "Pre-batching AI tells your team exactly what to prep before the morning rush begins.",
+        "icon_type": "FaRunning"
+      },
+      {
+        "title": "Subscription Revenue",
+        "description": "Easily manage weekly 'Cleanse Kits' or daily juice delivery subscriptions.",
+        "icon_type": "FaCalendarCheck"
+      },
+      {
+        "title": "Unified Management",
+        "description": "Control menus and nutrition labels across all regional branches instantly.",
+        "icon_type": "FaGlobe"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Health-Tech Suite",
+    "subtitle": "Intelligent tools for the wellness industry.",
+    "cards": [
+      {
+        "title": "Juice Subscription Engine",
+        "description": "Automated recurring billing and delivery routing for healthy meal-prep services."
+      },
+      {
+        "title": "Interactive Nutrition Menu",
+        "description": "A web-based tool for customers to visualize the macros in their custom smoothie bowl."
+      },
+      {
+        "title": "Waste-to-Profit AI",
+        "description": "Algorithm that suggests 'Daily Specials' based on expiring produce stock."
+      },
+      {
+        "title": "Prep-List Automator",
+        "description": "Kitchen display system that groups similar orders to maximize juicer efficiency."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Healthy Returns",
+    "subtitle": "Real-world impact on health-focused retail.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Waste Reduction",
+        "description": "A juice bar chain cut organic waste by 18% using AI-driven inventory rotation.",
+        "href": "/contact",
+        "cta_text": "View Details"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Loyalty Growth",
+        "description": "Personalized 'Post-Workout' mobile notifications increased repeat visits by 40%.",
+        "href": "/contact",
+        "cta_text": "View Details"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover more ways we apply intelligent automation.",
+    "cards": [
+      {
+        "title": "Ice Cream Parlor",
+        "description": "AI for cold-chain logistics.",
+        "href": "/industries/food/ice-cream-parlor",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Coffee Roastery",
+        "description": "Systems for specialty beverages.",
+        "href": "/industries/food/coffee-roastery",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Ready to Grow?",
+    "subtitle": "Talk to our health-tech specialists about automating your juice bar.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Jordan Green",
+    "business_email_placeholder": "jordan@freshpress.com",
+    "message_placeholder": "Tell us about your menu or how many locations you manage...",
+    "button_text": "Send Inquiry"
+  }
+}

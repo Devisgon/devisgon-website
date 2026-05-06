@@ -2,7 +2,7 @@
 
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
-import React, { useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import { IoMdCloudUpload } from "react-icons/io";
 import { FaSquareFacebook } from "react-icons/fa6";
 import { IoLogoLinkedin } from "react-icons/io5";
@@ -11,11 +11,12 @@ import { MdCalendarToday } from "react-icons/md";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
 import { motion, Variants } from "framer-motion";
-import type { ContactPageContent } from "@/lib/localized-content";
+import { normalizeLanguage, type ContactPageContent } from "@/lib/localized-content";
+import { COUNTRY_OPTIONS, getServiceInquiryOptions } from "@/lib/inquiry-options";
 
 const calendly15 = process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING!;
-const calendly30 = process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING!;
-const calendly60 = process.env.NEXT_PUBLIC_CALENDLY_60_MIN_MEETING!;
+const calendly30 = process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || calendly15;
+const calendly60 = process.env.NEXT_PUBLIC_CALENDLY_60_MIN_MEETING || calendly15;
 
 interface ContactPageProps {
   content: ContactPageContent;
@@ -58,11 +59,37 @@ export default function ContactPageClient({ content }: ContactPageProps) {
   const [preview, setPreview] = useState<string | null>(null);
   const [showOptions, setShowOptions] = useState(false);
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [error, setError] = useState("");
+  const [phoneError, setPhoneError] = useState("");
+  const [currentLang, setCurrentLang] = useState("en");
+
+  useEffect(() => {
+    const langCookie = document.cookie
+      .split("; ")
+      .find((cookie) => cookie.startsWith("lang="))
+      ?.split("=")[1];
+
+    setCurrentLang(normalizeLanguage(langCookie ? decodeURIComponent(langCookie) : null));
+  }, []);
+
+  const projectTypeOptions = useMemo(() => {
+    const defaultOption = content.form.project_type_options[0] ?? { value: "", label: "Select service" };
+
+    return [
+      { value: "", label: defaultOption.label },
+      ...getServiceInquiryOptions(currentLang),
+    ];
+  }, [content.form.project_type_options, currentLang]);
 
   const validateEmail = (value: string): boolean => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(value);
+  };
+
+  const validatePhone = (value: string): boolean => {
+    const regex = /^\+?[0-9\s().-]{7,20}$/;
+    return regex.test(value.trim());
   };
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -82,12 +109,24 @@ export default function ContactPageClient({ content }: ContactPageProps) {
     e.preventDefault();
     if (!formRef.current) return;
 
+    let hasError = false;
+
     if (!validateEmail(email)) {
       setError(content.form.status.invalid_email);
-      return;
+      hasError = true;
+    } else {
+      setError("");
     }
 
-    setError("");
+    if (!validatePhone(phone)) {
+      setPhoneError("Use a valid phone number");
+      hasError = true;
+    } else {
+      setPhoneError("");
+    }
+
+    if (hasError) return;
+
     setIsSubmitting(true);
     setStatus("");
 
@@ -148,6 +187,9 @@ export default function ContactPageClient({ content }: ContactPageProps) {
               <p className="text-t-secondary mb-6">{content.form.description}</p>
 
               <form className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
+                <input type="hidden" name="sourceType" value="contact" />
+                <input type="hidden" name="sourcePage" value="/contact" />
+
                 <div className="grid md:grid-cols-2 gap-4">
                   <div className="flex flex-col gap-1">
                     <label htmlFor="name" className="text-t-primary ml-2">
@@ -188,6 +230,51 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                     />
                     {error && <p className="text-red-500 text-sm mt-1">{error}</p>}
                   </div>
+
+                  <div className="flex flex-col gap-1">
+                    <label htmlFor="phone" className="text-t-primary ml-2">
+                      Phone Number *
+                    </label>
+                    <input
+                      id="phone"
+                      type="tel"
+                      name="phone"
+                      value={phone}
+                      onChange={(e) => {
+                        const value = e.target.value;
+                        setPhone(value);
+
+                        if (value && !validatePhone(value)) {
+                          setPhoneError("Use a valid phone number");
+                        } else {
+                          setPhoneError("");
+                        }
+                      }}
+                      placeholder="+92 300 1234567"
+                      required
+                      className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
+                    />
+                    {phoneError && <p className="text-red-500 text-sm mt-1">{phoneError}</p>}
+                  </div>
+
+                  <div className="flex flex-col gap-1">
+                    <label htmlFor="country" className="text-t-primary ml-2">
+                      {content.form.labels.country}
+                    </label>
+                    <select
+                      id="country"
+                      name="country"
+                      required
+                      className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
+                    >
+                      <option value="">{content.form.placeholders.country}</option>
+                      {COUNTRY_OPTIONS.map((country) => (
+                        <option key={country.value} value={country.value}>
+                          {country.label}
+                        </option>
+                      ))}
+                    </select>
+                  </div>
                 </div>
 
                 <div className="flex flex-col gap-1">
@@ -213,7 +300,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                     required
                     className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
                   >
-                    {content.form.project_type_options.map((option) => (
+                    {projectTypeOptions.map((option) => (
                       <option key={`project-type-${option.value || "default"}`} value={option.value}>
                         {option.label}
                       </option>
@@ -322,7 +409,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
 
                 <motion.button
                   type="submit"
-                  disabled={isSubmitting}
+                  disabled={isSubmitting || !!error || !!phoneError}
                   whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full text-white bg-t-secondary py-3 rounded-md transition disabled:opacity-50"

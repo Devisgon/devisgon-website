@@ -1,0 +1,184 @@
+{
+  "slug": "bakery",
+  "hero_section": {
+    "eyebrow": "Artisanal Food & Beverage Solutions",
+    "title": "AI for",
+    "highlight": "Bakeries",
+    "description": "Streamline fresh production, automate custom cake bookings, and manage ingredient logistics for your artisanal bakery.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/bakery.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Bakeries deal with short product shelf-lives, complex custom orders, and early-morning logistics.",
+    "cards": [
+      {
+        "title": "Waste Management",
+        "description": "High percentage of unsold daily perishables leading to lost revenue.",
+        "icon_type": "FaTrashAlt"
+      },
+      {
+        "title": "Custom Order Chaos",
+        "description": "Manual management of wedding and birthday cake specifications through fragmented notes.",
+        "icon_type": "FaBirthdayCake"
+      },
+      {
+        "title": "Supply Chain Gaps",
+        "description": "Inconsistent tracking of specialty ingredients like organic flour or seasonal fruits.",
+        "icon_type": "FaLeaf"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Fresh Dough, Smarter Data.",
+    "description": "We bridge the gap between the kitchen and the storefront with real-time production tracking and automated ordering.",
+    "bullets": [
+      "Production Planning AI",
+      "Custom Order Configurator",
+      "Inventory & Ingredient Alerts"
+    ],
+    "cards": [
+      {
+        "title": "Production Dashboard",
+        "description": "Real-time view of baking schedules, oven utilization, and batch quantities.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Dynamic Ordering",
+        "description": "Automate daily inventory adjustments based on historical foot traffic and holidays.",
+        "icon_type": "FaShoppingCart"
+      },
+      {
+        "title": "Waste Analytics",
+        "description": "Identify which items are over-produced to optimize your daily baking menu.",
+        "icon_type": "FaChartBar"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Balance artisanal quality with modern operational efficiency.",
+    "cards": [
+      {
+        "title": "Lower Food Waste",
+        "description": "Predictive AI helps you bake exactly what will sell, reducing end-of-day leftovers.",
+        "icon_type": "FaRecycle"
+      },
+      {
+        "title": "Faster Pre-Orders",
+        "description": "Customers can design and book custom cakes 24/7 without needing a staff member.",
+        "icon_type": "FaClock"
+      },
+      {
+        "title": "Ingredient Traceability",
+        "description": "Maintain a digital log of batch numbers and expiry dates for all raw materials.",
+        "icon_type": "FaSearch"
+      },
+      {
+        "title": "Better Staffing",
+        "description": "Automate morning prep lists so your team can start baking immediately.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Loyalty Integration",
+        "description": "Automatically reward frequent customers with personalized offers on their favorites.",
+        "icon_type": "FaStar"
+      },
+      {
+        "title": "Scalable Expansion",
+        "description": "Centralize management for multiple branches or franchise locations.",
+        "icon_type": "FaNetworkWired"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Bakery Digital Solutions",
+    "subtitle": "Sweetening your operations with intelligent automation.",
+    "cards": [
+      {
+        "title": "Bakery E-commerce Portal",
+        "description": "Online storefront for daily bread subscriptions, pastry boxes, and custom cake deposits."
+      },
+      {
+        "title": "AI Custom Cake Agent",
+        "description": "A smart assistant that helps customers choose flavors, sizes, and decorations for events."
+      },
+      {
+        "title": "Smart Recipe Manager",
+        "description": "Automated system that scales ingredient lists based on daily production targets."
+      },
+      {
+        "title": "Workflow Automations",
+        "description": "Sync online orders directly with your kitchen display system and accounting software."
+      },
+      {
+        "title": "Customer Feedback AI",
+        "description": "Analyze reviews to determine which new seasonal items should stay on the permanent menu."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Baked to Perfection",
+    "subtitle": "Real results from the digital oven.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Waste Reduction",
+        "description": "A local chain reduced daily pastry waste by 20% using predictive AI demand forecasting.",
+        "href": "/contact",
+        "cta_text": "View Details"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Booking Efficiency",
+        "description": "Automated cake inquiry handling reduced staff phone time by 15 hours per week.",
+        "href": "/contact",
+        "cta_text": "View Details"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover more ways we apply intelligent automation.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "AI operations for grocery teams.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Electronics",
+        "description": "AI operations for consumer tech.",
+        "href": "/industries/retail/electronics",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Clothing Shop",
+        "description": "AI operations for fashion apparel.",
+        "href": "/industries/retail/clothing",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Ready to Rise?",
+    "subtitle": "Talk to our food-tech specialists about automating your bakery.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Bakery Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Emma Baker",
+    "business_email_placeholder": "emma@freshbakes.com",
+    "message_placeholder": "Tell us about your daily production volume or custom cake needs...",
+    "button_text": "Send Inquiry"
+  }
+}

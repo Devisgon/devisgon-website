@@ -1,0 +1,184 @@
+{
+  "slug": "bakery",
+  "hero_section": {
+    "eyebrow": "Solutions alimentaires et boissons artisanales",
+    "title": "IA pour",
+    "highlight": "Bakeries",
+    "description": "Rationalisez la production de produits frais, automatisez les réservations de gâteaux personnalisés et gérez la logistique des ingrédients pour votre boulangerie artisanale.",
+    "primary_cta": {
+      "text": "Commencer",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Voir l'architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/bakery.webp"
+  },
+  "friction_section": {
+    "title": "Le point de friction",
+    "subtitle": "Les boulangeries doivent composer avec des durées de conservation courtes, des commandes personnalisées complexes et une logistique matinale.",
+    "cards": [
+      {
+        "title": "Gestion des déchets",
+        "description": "Pourcentage élevé de denrées périssables quotidiennes invendues entraînant une perte de revenus.",
+        "icon_type": "FaTrashAlt"
+      },
+      {
+        "title": "Chaos des commandes personnalisées",
+        "description": "Gestion manuelle des spécifications des gâteaux de mariage et d'anniversaire au travers de notes fragmentées.",
+        "icon_type": "FaBirthdayCake"
+      },
+      {
+        "title": "Lacunes de la chaîne d’approvisionnement",
+        "description": "Suivi incohérent des ingrédients de spécialité comme la farine biologique ou les fruits de saison.",
+        "icon_type": "FaLeaf"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Pâte fraîche, données plus intelligentes.",
+    "description": "Nous comblons le fossé entre la cuisine et la vitrine grâce au suivi de la production en temps réel et aux commandes automatisées.",
+    "bullets": [
+      "IA de planification de la production",
+      "Configurateur de commande personnalisée",
+      "Alertes d'inventaire et d'ingrédients"
+    ],
+    "cards": [
+      {
+        "title": "Tableau de bord de production",
+        "description": "Vue en temps réel des programmes de cuisson, de l'utilisation du four et des quantités des lots.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Commande dynamique",
+        "description": "Automatisez les ajustements quotidiens des stocks en fonction de l’historique du trafic piétonnier et des jours fériés.",
+        "icon_type": "FaShoppingCart"
+      },
+      {
+        "title": "Analyse des déchets",
+        "description": "Identifiez les articles qui sont surproduits pour optimiser votre menu de pâtisseries quotidien.",
+        "icon_type": "FaChartBar"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Équilibrez la qualité artisanale avec l’efficacité opérationnelle moderne.",
+    "cards": [
+      {
+        "title": "Réduire le gaspillage alimentaire",
+        "description": "L'IA prédictive vous aide à préparer exactement ce qui se vendra, réduisant ainsi les restes en fin de journée.",
+        "icon_type": "FaRecycle"
+      },
+      {
+        "title": "Précommandes plus rapides",
+        "description": "Les clients peuvent concevoir et réserver des gâteaux personnalisés 24h/24 et 7j/7 sans avoir besoin d'un membre du personnel.",
+        "icon_type": "FaClock"
+      },
+      {
+        "title": "Traçabilité des ingrédients",
+        "description": "Tenir un journal numérique des numéros de lots et des dates de péremption de toutes les matières premières.",
+        "icon_type": "FaSearch"
+      },
+      {
+        "title": "Meilleur personnel",
+        "description": "Automatisez les listes de préparation du matin afin que votre équipe puisse commencer à cuisiner immédiatement.",
+        "icon_type": "FaUsers"
+      },
+      {
+        "title": "Intégration de fidélité",
+        "description": "Récompensez automatiquement les clients fréquents avec des offres personnalisées sur leurs favoris.",
+        "icon_type": "FaStar"
+      },
+      {
+        "title": "Extension évolutive",
+        "description": "Centralisez la gestion de plusieurs succursales ou franchises.",
+        "icon_type": "FaNetworkWired"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Solutions numériques pour boulangerie",
+    "subtitle": "Adoucissez vos opérations grâce à une automatisation intelligente.",
+    "cards": [
+      {
+        "title": "Portail de commerce électronique de boulangerie",
+        "description": "Vitrine en ligne d'abonnements pain quotidien, coffrets viennoiseries et dépôts de gâteaux personnalisés."
+      },
+      {
+        "title": "Agent de gâteau personnalisé IA",
+        "description": "Un assistant intelligent qui aide les clients à choisir les saveurs, les tailles et les décorations pour les événements."
+      },
+      {
+        "title": "Gestionnaire de recettes intelligent",
+        "description": "Système automatisé qui met à l'échelle les listes d'ingrédients en fonction des objectifs de production quotidiens."
+      },
+      {
+        "title": "Automatisations du flux de travail",
+        "description": "Synchronisez les commandes en ligne directement avec votre système d'affichage de cuisine et votre logiciel de comptabilité."
+      },
+      {
+        "title": "IA pour les commentaires des clients",
+        "description": "Analysez les avis pour déterminer quels nouveaux articles saisonniers devraient rester sur le menu permanent."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Cuit à la perfection",
+    "subtitle": "De vrais résultats du four numérique.",
+    "cards": [
+      {
+        "label": "Étude de cas 01",
+        "title": "Réduction des déchets",
+        "description": "Une chaîne locale a réduit ses déchets quotidiens en pâtisserie de 20 % grâce à la prévision prédictive de la demande par l'IA.",
+        "href": "/contact",
+        "cta_text": "Afficher les détails"
+      },
+      {
+        "label": "Étude de cas 02",
+        "title": "Efficacité des réservations",
+        "description": "Le traitement automatisé des demandes de renseignements sur les gâteaux a réduit le temps de téléphone du personnel de 15 heures par semaine.",
+        "href": "/contact",
+        "cta_text": "Afficher les détails"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explorer d’autres secteurs",
+    "subtitle": "Découvrez d’autres façons dont nous appliquons l’automatisation intelligente.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "Opérations d'IA pour les équipes d'épicerie.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Electronics",
+        "description": "Opérations d’IA pour la technologie grand public.",
+        "href": "/industries/retail/electronics",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Boutique de vêtements",
+        "description": "Opérations d'IA pour les vêtements de mode.",
+        "href": "/industries/retail/clothing",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Prêt à vous lever ?",
+    "subtitle": "Discutez avec nos spécialistes en technologie alimentaire de l’automatisation de votre boulangerie.",
+    "full_name_label": "Nom complet",
+    "business_email_label": "E-mail de boulangerie",
+    "message_label": "Message",
+    "full_name_placeholder": "Emma Boulanger",
+    "business_email_placeholder": "emma@freshbakes.com",
+    "message_placeholder": "Parlez-nous de votre volume de production quotidien ou de vos besoins en gâteaux personnalisés...",
+    "button_text": "Envoyer une demande"
+  }
+}

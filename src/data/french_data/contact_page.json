@@ -14,18 +14,20 @@
       "project_detail": "Détail du projet *",
       "privacy_consent": "J'accepte le traitement de mes données personnelles conformément aux",
       "privacy_policy": "politique de confidentialité",
-      "privacy_consent_suffix": "et consentez à recevoir des communications concernant cette demande."
+      "privacy_consent_suffix": "et consentez à recevoir des communications concernant cette demande.",
+      "country": "Pays *"
     },
     "placeholders": {
       "name": "Votre nom",
       "email": "votre@email.com",
       "company": "Le nom de votre entreprise",
-      "project_detail": "Parlez-nous de votre projet, de vos objectifs et de vos éventuelles exigences spécifiques..."
+      "project_detail": "Parlez-nous de votre projet, de vos objectifs et de vos éventuelles exigences spécifiques...",
+      "country": "S?lectionnez un pays"
     },
     "project_type_options": [
       {
         "value": "",
-        "label": "Sélectionnez le type de projet"
+        "label": "S?lectionnez un service"
       },
       {
         "value": "Web Development",
@@ -64,6 +66,10 @@
       {
         "value": "20k+",
         "label": "20 000 $+"
+      },
+      {
+        "value": "50k+",
+        "label": "$50k+"
       }
     ],
     "timeline_options": [

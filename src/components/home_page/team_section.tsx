@@ -3,7 +3,7 @@ import Link from "next/link";
 
 const TeamSection = ({ data }: TeamSectionProps) => {
   return (
-    <section className="py-20 px-4 md:h-screen lg:h-auto bg-bg-primary">
+    <section id="team" className="py-20 px-4 md:h-screen lg:h-auto bg-bg-primary">
       <div className="mx-auto">
         <h2 className="text-3xl font-bold text-t-primary text-center mb-16">
           Meet Our Team

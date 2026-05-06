@@ -1,0 +1,184 @@
+{
+  "slug": "micro-finance",
+  "hero_section": {
+    "eyebrow": "Financial Inclusion Solutions",
+    "title": "AI for",
+    "highlight": "Micro Finance",
+    "description": "Empower underserved communities with AI-driven credit scoring, automated loan disbursements, and intelligent risk management.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/micro-finance.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Micro-finance institutions face high operational costs and difficulty assessing creditworthiness without traditional collateral.",
+    "cards": [
+      {
+        "title": "High Manual Overhead",
+        "description": "Paper-heavy loan applications and field visits drive up administrative costs per dollar lent.",
+        "icon_type": "FaFileInvoiceDollar"
+      },
+      {
+        "title": "Inaccurate Risk Profile",
+        "description": "Lack of formal credit history makes it difficult to distinguish reliable borrowers.",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "Collection Latency",
+        "description": "Fragmented repayment tracking leading to delayed follow-ups and higher default rates.",
+        "icon_type": "FaMoneyBillWave"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Lean Capital, Smart Distribution.",
+    "description": "We build a digital financial layer that uses alternative data points to automate the entire lending lifecycle.",
+    "bullets": [
+      "Alternative Data Credit Scoring",
+      "Automated KYC & Onboarding",
+      "Smart Collection Workflows"
+    ],
+    "cards": [
+      {
+        "title": "Portfolio Dashboard",
+        "description": "Real-time visibility into PAR (Portfolio at Risk), disbursement rates, and repayment trends.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "E-Verification Engine",
+        "description": "Automated document verification and biometrics to onboard borrowers in minutes.",
+        "icon_type": "FaIdCard"
+      },
+      {
+        "title": "Risk Analytics",
+        "description": "AI models that predict potential defaults by analyzing behavioral and transaction patterns.",
+        "icon_type": "FaChartPie"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Scalable financial services for a more inclusive economy.",
+    "cards": [
+      {
+        "title": "Faster Disbursements",
+        "description": "Reduce loan approval times from weeks to minutes with automated underwriting.",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "Lower Default Rates",
+        "description": "Use machine learning to identify high-risk applicants before the loan is issued.",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Reduced Admin Costs",
+        "description": "Automate routine data entry and communication, allowing for smaller, profitable loans.",
+        "icon_type": "FaHandHoldingUsd"
+      },
+      {
+        "title": "Omnichannel Access",
+        "description": "Reach borrowers via mobile apps, SMS, or web portals for seamless interaction.",
+        "icon_type": "FaMobileAlt"
+      },
+      {
+        "title": "Automated Compliance",
+        "description": "Real-time reporting for regulatory audits and anti-money laundering (AML) checks.",
+        "icon_type": "FaGavel"
+      },
+      {
+        "title": "Smart Reminders",
+        "description": "AI-triggered nudges via WhatsApp or SMS to ensure timely repayments.",
+        "icon_type": "FaBell"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Micro-Finance Digital Solutions",
+    "subtitle": "Powerful tools for high-impact financial lending.",
+    "cards": [
+      {
+        "title": "Borrower Mobile Portal",
+        "description": "A user-friendly app for loan applications, repayment tracking, and digital statements."
+      },
+      {
+        "title": "AI Loan Officer",
+        "description": "An intelligent agent that guides borrowers through the application process and answers FAQ."
+      },
+      {
+        "title": "Alternative Credit Scorer",
+        "description": "An engine that uses utility bills, mobile usage, and psychometric data to build scores."
+      },
+      {
+        "title": "Workflow Automation",
+        "description": "Sync loan data directly with core banking systems and mobile money gateways."
+      },
+      {
+        "title": "Impact Dashboard",
+        "description": "Track the social impact of loans, including business growth and community development metrics."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Financial Inclusion in Action",
+    "subtitle": "Quantifiable success for micro-lending institutions.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Lending Scale",
+        "description": "A rural lender increased its loan portfolio by 40% while reducing manual paperwork by 60%.",
+        "href": "/contact",
+        "cta_text": "Read More"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Risk Mitigation",
+        "description": "Integrated AI credit scoring reduced non-performing loans (NPLs) by 15% within the first year.",
+        "href": "/contact",
+        "cta_text": "Read More"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "Discover more ways we apply intelligent automation.",
+    "cards": [
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Supermarket",
+        "description": "AI operations for grocery teams.",
+        "href": "/industries/retail/supermarket",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Education",
+        "description": "AI operations for professional teams.",
+        "href": "/industries/professional/education",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Scale Your Impact",
+    "subtitle": "Talk to our fintech specialists about automating your micro-finance operations.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Work Email",
+    "message_label": "Message",
+    "full_name_placeholder": "Omar Farooq",
+    "business_email_placeholder": "omar@fintechsolutions.com",
+    "message_placeholder": "Tell us about your borrower base and current disbursement challenges...",
+    "button_text": "Start Transformation"
+  }
+}

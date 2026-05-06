@@ -1,0 +1,184 @@
+{
+  "slug": "insurance",
+  "hero_section": {
+    "eyebrow": "Solutions de gestion des risques et d'assurance",
+    "title": "IA pour",
+    "highlight": "Insurance",
+    "description": "Accélérez le traitement des sinistres, automatisez la souscription et améliorez l'évaluation des risques grâce à des flux de travail intelligents basés sur les données.",
+    "primary_cta": {
+      "text": "Commencer",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Voir l'architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/insurance.webp"
+  },
+  "friction_section": {
+    "title": "Le point de friction",
+    "subtitle": "Les assureurs sont confrontés à des cycles de réclamation lents, à une vérification manuelle des documents et à une détection complexe des fraudes.",
+    "cards": [
+      {
+        "title": "Goulots d’étranglement liés aux réclamations",
+        "description": "Examen manuel des preuves et des rapports entraînant des semaines de retard pour les assurés.",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "Vulnérabilité à la fraude",
+        "description": "Difficulté à identifier des modèles frauduleux sophistiqués sur des milliers d’applications.",
+        "icon_type": "FaUserSecret"
+      },
+      {
+        "title": "Souscription complexe",
+        "description": "Des processus d’évaluation des risques onéreux qui ralentissent l’émission de nouvelles polices.",
+        "icon_type": "FaStethoscope"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Logique sécurisée, couverture instantanée.",
+    "description": "Nous construisons une couche d'assurance cognitive qui automatise l'extraction de documents et applique des modèles de risque prédictifs en temps réel.",
+    "bullets": [
+      "Traitement automatisé des documents OCR",
+      "Moteur de détection prédictive de la fraude",
+      "Modélisation actuarielle dynamique"
+    ],
+    "cards": [
+      {
+        "title": "Tableau de bord des réclamations",
+        "description": "Vue unifiée des réclamations en attente, des ratios de règlement et des charges de travail des auditeurs.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Souscripteur intelligent",
+        "description": "Système de notation basé sur l'IA pour approuver instantanément les politiques à faible risque sur la base des données historiques.",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "Bot de cycle de vie des politiques",
+        "description": "Automatisez les renouvellements, les avenants et les annulations en fonction des conditions générales.",
+        "icon_type": "FaHistory"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "Favoriser l’efficacité et la confiance à l’ère de l’assurance numérique.",
+    "cards": [
+      {
+        "title": "Règlements rapides",
+        "description": "Réduisez le délai de traitement des réclamations de quelques jours à quelques heures grâce à l'examen automatisé des preuves.",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "Fraude réduite",
+        "description": "Identifiez les anomalies et l’analyse des liens suspects avant que les paiements n’aient lieu.",
+        "icon_type": "FaUserLock"
+      },
+      {
+        "title": "Leanness opérationnelle",
+        "description": "Automatisez les tâches volumineuses et peu complexes pour concentrer les experts sur les cas à forte valeur ajoutée.",
+        "icon_type": "FaBriefcase"
+      },
+      {
+        "title": "Tarification personnalisée",
+        "description": "Proposez des primes dynamiques basées sur le comportement et les profils de risque en temps réel.",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "Conformité réglementaire",
+        "description": "Maintenez des pistes d’audit parfaites pour les réglementations KYC, AML et locales en matière d’assurance.",
+        "icon_type": "FaGavel"
+      },
+      {
+        "title": "Satisfaction des membres",
+        "description": "Offrez une expérience numérique fluide pour la gestion des polices d’assurance et des sinistres.",
+        "icon_type": "FaSmile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Solutions numériques AssurTech",
+    "subtitle": "Des outils complets pour les compagnies d’assurance modernes.",
+    "cards": [
+      {
+        "title": "Portail Web pour les assurés",
+        "description": "Un portail performant pour gérer les couvertures, payer les primes et déposer les réclamations."
+      },
+      {
+        "title": "Assistant de réclamations IA",
+        "description": "Un agent qui guide les clients tout au long du processus de soumission des preuves via le chat mobile."
+      },
+      {
+        "title": "IA d’évaluation des dommages",
+        "description": "Analysez des photos de dommages matériels ou automobiles pour fournir des estimations de réparation instantanées."
+      },
+      {
+        "title": "Automatisation du flux de travail",
+        "description": "Synchronisez les données de stratégie entre les systèmes centraux existants et les applications modernes destinées aux clients."
+      },
+      {
+        "title": "Portail d'analyse des risques",
+        "description": "Visualisez les taux de sinistres et les performances dans différentes données démographiques et régions."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Performances éprouvées",
+    "subtitle": "Des gains quantifiables pour les leaders de l’assurance.",
+    "cards": [
+      {
+        "label": "Étude de cas 01",
+        "title": "Automatisation des réclamations",
+        "description": "Un assureur national a réduit ses coûts de traitement des réclamations de 30 % grâce à la vérification automatisée des documents.",
+        "href": "/contact",
+        "cta_text": "Voir l'étude de cas"
+      },
+      {
+        "label": "Étude de cas 02",
+        "title": "Atténuation de la fraude",
+        "description": "Nous avons évité 2 millions de dollars de paiements frauduleux dans les six mois suivant le déploiement de modèles de risque prédictifs.",
+        "href": "/contact",
+        "cta_text": "Voir l'étude de cas"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explorer d’autres secteurs",
+    "subtitle": "Découvrez comment nous appliquons l’intelligence à d’autres secteurs financiers.",
+    "cards": [
+      {
+        "title": "Microfinance",
+        "description": "Opérations d’IA pour l’inclusion financière.",
+        "href": "/industries/finance/micro-finance",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Immobilier",
+        "description": "Opérations d’IA pour les équipes immobilières.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Healthcare",
+        "description": "Opérations d’IA pour les équipes médicales.",
+        "href": "/industries/healthcare/dentist",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Sécurisez votre avenir",
+    "subtitle": "Discutez avec nos experts en technologie d’assurance de la numérisation de votre gestion des risques.",
+    "full_name_label": "Nom complet",
+    "business_email_label": "E-mail de l'entreprise",
+    "message_label": "Message",
+    "full_name_placeholder": "Sarah Miller",
+    "business_email_placeholder": "sarah@insurancegroup.com",
+    "message_placeholder": "Parlez-nous du volume de votre police et de vos objectifs d’automatisation des réclamations…",
+    "button_text": "Commencer"
+  }
+}

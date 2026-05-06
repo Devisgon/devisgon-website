@@ -1,0 +1,184 @@
+{
+  "slug": "home-tutor",
+  "hero_section": {
+    "eyebrow": "Personalized Education Solutions",
+    "title": "AI for",
+    "highlight": "Home Tutors",
+    "description": "Empower your tutoring practice with automated lesson planning, intelligent student progress tracking, and seamless parent communication.",
+    "primary_cta": {
+      "text": "Get Started",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "View Architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/tutor.webp"
+  },
+  "friction_section": {
+    "title": "The Friction Point",
+    "subtitle": "Private educators often struggle with administrative overhead and maintaining consistent engagement across different subjects.",
+    "cards": [
+      {
+        "title": "Manual Scheduling",
+        "description": "Time lost coordinating sessions, handling cancellations, and managing travel routes.",
+        "icon_type": "FaCalendarAlt"
+      },
+      {
+        "title": "Resource Prep",
+        "description": "Spending hours creating custom worksheets and practice tests for every student.",
+        "icon_type": "FaFileSignature"
+      },
+      {
+        "title": "Progress Gaps",
+        "description": "Difficulty in providing real-time data to parents about a student's learning curve.",
+        "icon_type": "FaChartBar"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Personalized Learning, Automated Growth.",
+    "description": "We build a digital teaching assistant that handles the logistics while you focus on the education.",
+    "bullets": [
+      "AI-Driven Lesson Curator",
+      "Automated Assessment Engine",
+      "Unified Parent Portal"
+    ],
+    "cards": [
+      {
+        "title": "Tutor Dashboard",
+        "description": "One view of all students, their grades, upcoming sessions, and pending payments.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Smart Resource Bank",
+        "description": "Automatically generate practice questions based on specific syllabus requirements.",
+        "icon_type": "FaBookOpen"
+      },
+      {
+        "title": "Goal Tracker",
+        "description": "Define academic milestones and track completion through visual progress maps.",
+        "icon_type": "FaBullseye"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Key Benefits",
+    "subtitle": "Modern tools for the future of 1-on-1 education.",
+    "cards": [
+      {
+        "title": "Automated Feedback",
+        "description": "Generate professional student progress reports in seconds instead of hours.",
+        "icon_type": "FaFileAlt"
+      },
+      {
+        "title": "Higher Retention",
+        "description": "Keep students engaged with interactive AI-driven quizzes and challenges.",
+        "icon_type": "FaBrain"
+      },
+      {
+        "title": "Simplified Billing",
+        "description": "Automate invoices and session tracking to ensure you get paid on time.",
+        "icon_type": "FaCreditCard"
+      },
+      {
+        "title": "Adaptive Learning",
+        "description": "AI identifies a student's weak points and suggests targeted review materials.",
+        "icon_type": "FaLightbulb"
+      },
+      {
+        "title": "Parental Trust",
+        "description": "Provide transparency through a dedicated portal for session summaries and results.",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "Flexible Scaling",
+        "description": "Manage more students efficiently without sacrificing the quality of your teaching.",
+        "icon_type": "FaExpand"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Tutoring Digital Solutions",
+    "subtitle": "Intelligent features designed to elevate the home learning experience.",
+    "cards": [
+      {
+        "title": "Tutor Website & Portfolio",
+        "description": "Professional landing page to showcase your experience, subjects, and student testimonials."
+      },
+      {
+        "title": "AI Quiz Generator",
+        "description": "Instantly create customized tests from any PDF or textbook chapter for your students."
+      },
+      {
+        "title": "AI Homework Assistant",
+        "description": "A 24/7 support bot for your students to get hints and guidance between your sessions."
+      },
+      {
+        "title": "Workflow Automation",
+        "description": "Sync your calendar with automated SMS/Email reminders for students and parents."
+      },
+      {
+        "title": "Performance Analytics",
+        "description": "Visualize student improvement over time with clear, data-driven charts and metrics."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Education Impact",
+    "subtitle": "Real results from smarter tutoring operations.",
+    "cards": [
+      {
+        "label": "Case Study 01",
+        "title": "Exam Prep Success",
+        "description": "A private tutor increased student grade averages by 15% using automated gap-analysis tools.",
+        "href": "/contact",
+        "cta_text": "View Outcome"
+      },
+      {
+        "label": "Case Study 02",
+        "title": "Admin Efficiency",
+        "description": "Reduced time spent on lesson planning and billing by 10 hours per week using AI automation.",
+        "href": "/contact",
+        "cta_text": "View Outcome"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explore Other Industries",
+    "subtitle": "See how we apply intelligence to other service sectors.",
+    "cards": [
+      {
+        "title": "Education (Institutional)",
+        "description": "AI operations for professional school teams.",
+        "href": "/industries/professional/education",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Bakery",
+        "description": "AI operations for fresh food teams.",
+        "href": "/industries/food/bakery",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Real Estate",
+        "description": "AI operations for property teams.",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Upgrade Your Teaching",
+    "subtitle": "Talk to our education tech experts about scaling your tutoring practice.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Email Address",
+    "message_label": "Message",
+    "full_name_placeholder": "Professor Ahmed",
+    "business_email_placeholder": "tutor@education.com",
+    "message_placeholder": "Tell us about the subjects you teach and your student goals...",
+    "button_text": "Get Started"
+  }
+}

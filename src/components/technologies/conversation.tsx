@@ -12,13 +12,14 @@ export default function TechnologyConversation({ data }: TechnologyConversationP
         <p className="mx-auto mt-2 max-w-xl text-center text-sm font-semibold text-t-secondary md:text-base">{data.subtitle}</p>
 
         <form className="mt-8 space-y-5" action="/contact" method="get">
-          <div className="grid gap-6 md:grid-cols-2">
+          <div className="grid gap-6 md:grid-cols-3">
             <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
               {data.full_name_label}
               <input
                 type="text"
-                name="fullName"
+                name="name"
                 placeholder="Name"
+                required
                 className="h-12 w-full rounded-xl border border-[color:var(--primry)] bg-bg-secondary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/60 focus:border-btn-primary focus:ring-2 focus:ring-btn-primary/20"
               />
             </label>
@@ -27,8 +28,20 @@ export default function TechnologyConversation({ data }: TechnologyConversationP
               {data.business_email_label}
               <input
                 type="email"
-                name="businessEmail"
+                name="email"
                 placeholder="example@company.com"
+                required
+                className="h-12 w-full rounded-xl border border-[color:var(--primry)] bg-bg-secondary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/60 focus:border-btn-primary focus:ring-2 focus:ring-btn-primary/20"
+              />
+            </label>
+
+            <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
+              Phone Number
+              <input
+                type="tel"
+                name="phone"
+                placeholder="+92 300 1234567"
+                required
                 className="h-12 w-full rounded-xl border border-[color:var(--primry)] bg-bg-secondary px-4 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/60 focus:border-btn-primary focus:ring-2 focus:ring-btn-primary/20"
               />
             </label>
@@ -40,6 +53,7 @@ export default function TechnologyConversation({ data }: TechnologyConversationP
               name="message"
               rows={4}
               placeholder={data.message_placeholder}
+              required
               className="w-full rounded-xl border border-[color:var(--primry)] bg-bg-secondary px-4 py-3 text-sm text-t-primary outline-none transition-all placeholder:text-t-secondary/60 focus:border-btn-primary focus:ring-2 focus:ring-btn-primary/20"
             />
           </label>

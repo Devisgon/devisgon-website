@@ -86,7 +86,11 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         {data.carousel_section ? <IndustryCarousel data={data.carousel_section} /> : null}
         <IndustryCaseStudies data={data.case_studies_section} />
         <IndustryExplore data={localizedExploreSection} />
-        <IndustryConversation data={data.conversation_section} />
+        <IndustryConversation
+          data={data.conversation_section}
+          industryName={data.hero_section.highlight}
+          sourcePage={`/industries/${category}/${slug}`}
+        />
       </div>
       <Footer />
     </>

@@ -196,6 +196,10 @@
             "title": "Agriculture",
             "links": [
               {
+                "name": "Ferme laiti?re",
+                "href": "/industries/agriculture/dairy_farm"
+              },
+              {
                 "name": "Fermes",
                 "href": "/industries/agriculture/farms"
               },
@@ -208,14 +212,26 @@
                 "href": "/industries/agriculture/irrigation"
               },
               {
+                "name": "Paysagisme",
+                "href": "/industries/agriculture/landscraping"
+              },
+              {
                 "name": "Plantes",
                 "href": "/industries/agriculture/plants"
+              },
+              {
+                "name": "Ferme avicole",
+                "href": "/industries/agriculture/poetry_farm"
               }
             ]
           },
           {
             "title": "Divertissement",
             "links": [
+              {
+                "name": "V?tements",
+                "href": "/industries/entertainment/clothing"
+              },
               {
                 "name": "Événements",
                 "href": "/industries/entertainment/events"
@@ -231,6 +247,35 @@
               {
                 "name": "Restaurants",
                 "href": "/industries/entertainment/restaurants"
+              },
+              {
+                "name": "Supermarch?",
+                "href": "/industries/entertainment/supermarket"
+              }
+            ]
+          },
+          {
+            "title": "Alimentation",
+            "links": [
+              {
+                "name": "Boulangerie",
+                "href": "/industries/food/bakery"
+              },
+              {
+                "name": "Cafés et bars",
+                "href": "/industries/food/juice-bar"
+              },
+              {
+                "name": "Desserts glacés",
+                "href": "/industries/food/ice-cream-parlor"
+              },
+              {
+                "name": "Gastronomie",
+                "href": "/industries/food/fine-dining"
+              },
+              {
+                "name": "Restauration",
+                "href": "/industries/food/catering"
               }
             ]
           },
@@ -275,12 +320,24 @@
                 "href": "/industries/professional/education"
               },
               {
+                "name": "Station-service",
+                "href": "/industries/professional/fuel_station"
+              },
+              {
+                "name": "Salle de sport et fitness",
+                "href": "/industries/professional/gym"
+              },
+              {
                 "name": "Services juridiques",
                 "href": "/industries/professional/legal_services"
               },
               {
                 "name": "Services de voyage",
                 "href": "/industries/professional/travel_services"
+              },
+              {
+                "name": "Tuteur",
+                "href": "/industries/professional/tutoer"
               }
             ]
           },
@@ -296,6 +353,14 @@
                 "href": "/industries/real_estate/commercial"
               },
               {
+                "name": "Assurance",
+                "href": "/industries/real_estate/insurance"
+              },
+              {
+                "name": "Microfinance",
+                "href": "/industries/real_estate/micro_finance"
+              },
+              {
                 "name": "Gestion immobilière",
                 "href": "/industries/real_estate/property_management"
               },
@@ -306,19 +371,31 @@
             ]
           },
           {
-            "title": "Métiers",
+            "title": "M?tiers",
             "links": [
               {
                 "name": "Charpenterie",
                 "href": "/industries/trades/carpentry"
               },
               {
+                "name": "Nettoyage",
+                "href": "/industries/trades/cleaning"
+              },
+              {
                 "name": "Électricien",
                 "href": "/industries/trades/electrician"
               },
               {
+                "name": "?lectronique",
+                "href": "/industries/trades/elctronics"
+              },
+              {
                 "name": "Plomberie",
                 "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "Toiture",
+                "href": "/industries/trades/roofing"
               },
               {
                 "name": "Soudage",
@@ -458,8 +535,46 @@
       }
     },
     {
+      "name": "Autre",
+      "href": "/others/dctr_hosting",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Autre",
+            "links": [
+              {
+                "name": "Doctor Hosting",
+                "href": "/others/dctr_hosting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "À propos de nous",
-      "href": "/#about"
+      "href": "/#about",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "Entreprise",
+            "links": [
+              {
+                "name": "CEO",
+                "href": "/#about"
+              },
+              {
+                "name": "Équipe",
+                "href": "/#team"
+              },
+              {
+                "name": "Carrières",
+                "href": "/get-started"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "Contactez-nous",

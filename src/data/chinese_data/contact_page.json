@@ -14,18 +14,20 @@
       "project_detail": "项目详情 *",
       "privacy_consent": "我同意按照以下规定处理我的个人数据",
       "privacy_policy": "隐私政策",
-      "privacy_consent_suffix": "并同意接收有关此调查的通讯。"
+      "privacy_consent_suffix": "并同意接收有关此调查的通讯。",
+      "country": "??/?? *"
     },
     "placeholders": {
       "name": "你的名字",
       "email": "你的@email.com",
       "company": "您的公司名称",
-      "project_detail": "告诉我们您的项目、目标和任何具体要求......"
+      "project_detail": "告诉我们您的项目、目标和任何具体要求......",
+      "country": "????/??"
     },
     "project_type_options": [
       {
         "value": "",
-        "label": "选择项目类型"
+        "label": "????"
       },
       {
         "value": "Web Development",
@@ -64,6 +66,10 @@
       {
         "value": "20k+",
         "label": "2万美元以上"
+      },
+      {
+        "value": "50k+",
+        "label": "$50k+"
       }
     ],
     "timeline_options": [

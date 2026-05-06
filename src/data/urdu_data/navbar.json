@@ -193,8 +193,12 @@
       "dropdown": {
         "columns": [
           {
-            "title": "زراعت",
+            "title": "?????",
             "links": [
+              {
+                "name": "???? ????",
+                "href": "/industries/agriculture/dairy_farm"
+              },
               {
                 "name": "فارمز",
                 "href": "/industries/agriculture/farms"
@@ -208,14 +212,26 @@
                 "href": "/industries/agriculture/irrigation"
               },
               {
+                "name": "???? ???????",
+                "href": "/industries/agriculture/landscraping"
+              },
+              {
                 "name": "پودے",
                 "href": "/industries/agriculture/plants"
+              },
+              {
+                "name": "?????? ????",
+                "href": "/industries/agriculture/poetry_farm"
               }
             ]
           },
           {
-            "title": "تفریح",
+            "title": "?????",
             "links": [
+              {
+                "name": "????",
+                "href": "/industries/entertainment/clothing"
+              },
               {
                 "name": "واقعات",
                 "href": "/industries/entertainment/events"
@@ -231,6 +247,35 @@
               {
                 "name": "ریستوراں",
                 "href": "/industries/entertainment/restaurants"
+              },
+              {
+                "name": "??? ??????",
+                "href": "/industries/entertainment/supermarket"
+              }
+            ]
+          },
+          {
+            "title": "?????",
+            "links": [
+              {
+                "name": "?????",
+                "href": "/industries/food/bakery"
+              },
+              {
+                "name": "فائن ڈائننگ",
+                "href": "/industries/food/fine-dining"
+              },
+              {
+                "name": "کیٹرنگ",
+                "href": "/industries/food/catering"
+              },
+              {
+                "name": "کیفے اور بارز",
+                "href": "/industries/food/juice-bar"
+              },
+              {
+                "name": "منجمد ڈیسرٹ",
+                "href": "/industries/food/ice-cream-parlor"
               }
             ]
           },
@@ -264,7 +309,7 @@
             ]
           },
           {
-            "title": "پیشہ ورانہ",
+            "title": "???? ?????",
             "links": [
               {
                 "name": "مشاورت",
@@ -275,17 +320,29 @@
                 "href": "/industries/professional/education"
               },
               {
+                "name": "???? ??????",
+                "href": "/industries/professional/fuel_station"
+              },
+              {
+                "name": "?? ??? ????",
+                "href": "/industries/professional/gym"
+              },
+              {
                 "name": "قانونی خدمات",
                 "href": "/industries/professional/legal_services"
               },
               {
                 "name": "سفری خدمات",
                 "href": "/industries/professional/travel_services"
+              },
+              {
+                "name": "?????",
+                "href": "/industries/professional/tutoer"
               }
             ]
           },
           {
-            "title": "رئیل اسٹیٹ",
+            "title": "???? ?????",
             "links": [
               {
                 "name": "فن تعمیر اور ڈیزائن",
@@ -294,6 +351,14 @@
               {
                 "name": "کمرشل",
                 "href": "/industries/real_estate/commercial"
+              },
+              {
+                "name": "???????",
+                "href": "/industries/real_estate/insurance"
+              },
+              {
+                "name": "??????? ?????",
+                "href": "/industries/real_estate/micro_finance"
               },
               {
                 "name": "پراپرٹی مینجمنٹ",
@@ -306,19 +371,31 @@
             ]
           },
           {
-            "title": "تجارت",
+            "title": "??? ??? ???",
             "links": [
               {
                 "name": "کارپینٹری",
                 "href": "/industries/trades/carpentry"
               },
               {
+                "name": "?????",
+                "href": "/industries/trades/cleaning"
+              },
+              {
                 "name": "الیکٹریشن",
                 "href": "/industries/trades/electrician"
               },
               {
+                "name": "??????????",
+                "href": "/industries/trades/elctronics"
+              },
+              {
                 "name": "پلمبنگ",
                 "href": "/industries/trades/plumbing"
+              },
+              {
+                "name": "??? ????",
+                "href": "/industries/trades/roofing"
               },
               {
                 "name": "ویلڈنگ",
@@ -458,8 +535,46 @@
       }
     },
     {
+      "name": "????",
+      "href": "/others/dctr_hosting",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "????",
+            "links": [
+              {
+                "name": "Doctor Hosting",
+                "href": "/others/dctr_hosting"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
       "name": "ہمارے بارے میں",
-      "href": "/#about"
+      "href": "/#about",
+      "dropdown": {
+        "columns": [
+          {
+            "title": "کمپنی",
+            "links": [
+              {
+                "name": "سی ای او",
+                "href": "/#about"
+              },
+              {
+                "name": "ٹیم",
+                "href": "/#team"
+              },
+              {
+                "name": "کیریئر",
+                "href": "/get-started"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "name": "ہم سے رابطہ کریں۔",

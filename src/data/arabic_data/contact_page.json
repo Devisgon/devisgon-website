@@ -14,18 +14,20 @@
       "project_detail": "تفاصيل المشروع *",
       "privacy_consent": "أوافق على معالجة بياناتي الشخصية وفقًا لـ",
       "privacy_policy": "سياسة الخصوصية",
-      "privacy_consent_suffix": "والموافقة على تلقي الاتصالات حول هذا الاستفسار."
+      "privacy_consent_suffix": "والموافقة على تلقي الاتصالات حول هذا الاستفسار.",
+      "country": "????? *"
     },
     "placeholders": {
       "name": "اسمك",
       "email": "your@email.com",
       "company": "اسم شركتك",
-      "project_detail": "أخبرنا عن مشروعك وأهدافك وأي متطلبات محددة..."
+      "project_detail": "أخبرنا عن مشروعك وأهدافك وأي متطلبات محددة...",
+      "country": "???? ?????"
     },
     "project_type_options": [
       {
         "value": "",
-        "label": "اختر نوع المشروع"
+        "label": "???? ??????"
       },
       {
         "value": "Web Development",
@@ -64,6 +66,10 @@
       {
         "value": "20k+",
         "label": "20 ألف دولار +"
+      },
+      {
+        "value": "50k+",
+        "label": "$50k+"
       }
     ],
     "timeline_options": [

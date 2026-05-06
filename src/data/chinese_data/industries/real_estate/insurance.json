@@ -1,0 +1,184 @@
+{
+  "slug": "insurance",
+  "hero_section": {
+    "eyebrow": "风险管理和保险科技解决方案",
+    "title": "人工智能用于",
+    "highlight": "Insurance",
+    "description": "通过智能数据驱动的工作流程加速索赔处理、自动化承保并增强风险评估。",
+    "primary_cta": {
+      "text": "开始使用",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "查看架构",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/insurance.webp"
+  },
+  "friction_section": {
+    "title": "摩擦点",
+    "subtitle": "保险公司面临缓慢的索赔周期、手动文件验证和复杂的欺诈检测等问题。",
+    "cards": [
+      {
+        "title": "索赔瓶颈",
+        "description": "手动审查证据和报告导致保单持有人延迟数周。",
+        "icon_type": "FaFileInvoice"
+      },
+      {
+        "title": "欺诈漏洞",
+        "description": "难以识别数千个应用程序中复杂的欺诈模式。",
+        "icon_type": "FaUserSecret"
+      },
+      {
+        "title": "复杂承保",
+        "description": "繁琐的风险评估流程减缓了新政策的发布。",
+        "icon_type": "FaStethoscope"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "安全逻辑，即时覆盖。",
+    "description": "我们构建了一个认知保险层，可以自动提取文档并实时应用预测风险模型。",
+    "bullets": [
+      "自动 OCR 文档处理",
+      "预测性欺诈检测引擎",
+      "动态精算模型"
+    ],
+    "cards": [
+      {
+        "title": "索赔仪表板",
+        "description": "未决索赔、和解比率和审计师工作量的统一视图。",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "智能核保",
+        "description": "人工智能驱动的评分系统可根据历史数据立即批准低风险政策。",
+        "icon_type": "FaUserShield"
+      },
+      {
+        "title": "保单生命周期机器人",
+        "description": "根据保单条款自动续订、认可和取消。",
+        "icon_type": "FaHistory"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "主要优点",
+    "subtitle": "提高数字保险时代的效率和信任。",
+    "cards": [
+      {
+        "title": "快速结算",
+        "description": "通过自动证据审查，将索赔周转时间从几天缩短到几小时。",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "减少欺诈",
+        "description": "在付款发生之前识别异常和可疑链接分析。",
+        "icon_type": "FaUserLock"
+      },
+      {
+        "title": "运营精益化",
+        "description": "自动执行大批量、低复杂性的任务，让专家专注于高价值案例。",
+        "icon_type": "FaBriefcase"
+      },
+      {
+        "title": "个性化定价",
+        "description": "根据实时行为和风险状况提供动态保费。",
+        "icon_type": "FaCalculator"
+      },
+      {
+        "title": "监管合规性",
+        "description": "维护 KYC、AML 和当地保险法规的完美审计跟踪。",
+        "icon_type": "FaGavel"
+      },
+      {
+        "title": "会员满意度",
+        "description": "为保单管理和理赔提供顺畅的数字体验。",
+        "icon_type": "FaSmile"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "保险科技数字解决方案",
+    "subtitle": "现代保险公司的综合工具。",
+    "cards": [
+      {
+        "title": "保单持有人门户网站",
+        "description": "用于管理保险范围、支付保费和提交索赔的高性能门户。"
+      },
+      {
+        "title": "人工智能理赔助理",
+        "description": "通过移动聊天引导客户完成证据提交流程的代理。"
+      },
+      {
+        "title": "损害评估人工智能",
+        "description": "分析财产或车辆损坏的照片以提供即时维修估算。"
+      },
+      {
+        "title": "工作流程自动化",
+        "description": "在旧版核心系统和现代面向客户的应用程序之间同步策略数据。"
+      },
+      {
+        "title": "风险分析门户",
+        "description": "可视化不同人群和地区的损失率和绩效。"
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "久经考验的性能",
+    "subtitle": "保险领导者的可量化收益。",
+    "cards": [
+      {
+        "label": "案例研究01",
+        "title": "理赔自动化",
+        "description": "一家国家保险公司利用自动文件验证将索赔处理成本降低了 30%。",
+        "href": "/contact",
+        "cta_text": "查看案例研究"
+      },
+      {
+        "label": "案例研究02",
+        "title": "减少欺诈",
+        "description": "在部署预测风险模型后的六个月内，防止了 200 万美元的欺诈性支付。",
+        "href": "/contact",
+        "cta_text": "查看案例研究"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "探索其他行业",
+    "subtitle": "了解我们如何将情报应用到其他金融领域。",
+    "cards": [
+      {
+        "title": "小额信贷",
+        "description": "普惠金融的人工智能运营。",
+        "href": "/industries/finance/micro-finance",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "房地产",
+        "description": "物业团队的人工智能运营。",
+        "href": "/industries/property/real-estate",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Healthcare",
+        "description": "医疗团队的人工智能操作。",
+        "href": "/industries/healthcare/dentist",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "确保您的未来",
+    "subtitle": "与我们的保险技术专家讨论风险管理的数字化。",
+    "full_name_label": "全名",
+    "business_email_label": "公司邮箱",
+    "message_label": "Message",
+    "full_name_placeholder": "莎拉·米勒",
+    "business_email_placeholder": "sarah@insurancegroup.com",
+    "message_placeholder": "告诉我们您的保单数量和理赔自动化目标......",
+    "button_text": "开始使用"
+  }
+}
