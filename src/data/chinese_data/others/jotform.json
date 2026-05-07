@@ -1,0 +1,257 @@
+{
+  "landing_page": {
+    "brand_config": {
+      "partner_name": "Devisgon",
+      "primary_color": "#2e69ff",
+      "accent_color": "#ff6100",
+      "font_family": "Inter, sans-serif"
+    },
+    "hero_section": {
+      "headline": "下一代团队的现代数据收集",
+      "subheadline": "使用 Jotform 收集潜在客户、注册、付款、签名和批准，并通过您的团队可以快速管理的干净的无代码工作流程。",
+      "cta_text": "开始免费构建",
+      "cta_link": "https://www.jotform.com/login/?ref=devisgon",
+      "image": {
+        "url": "https://cdn.jotfor.ms/assets/img/v4/main/hero_v4_illustration.png",
+        "alt": "Jotform Form Builder Interface Illustration",
+        "style": "glassmorphism"
+      }
+    },
+    "page_copy": {
+      "compare_plans": "比较计划",
+      "workspace_label": "实时表单工作区",
+      "hero_chips": [
+        "无代码表格",
+        "Payment-ready",
+        "公司推荐"
+      ],
+      "features_eyebrow": "像 Jotform 一样构建",
+      "features_title": "采用 Devisgon 表面处理的快速成型",
+      "features_subtitle": "使用熟悉的 Jotform 流程处理表单、支付、自动化和互联业务数据。",
+      "pricing_eyebrow": "Plans",
+      "pricing_title": "从简单开始，当表格繁忙时进行扩展",
+      "pricing_subtitle": "计划卡使用提供的 Jotform 数据并保留 Devisgon 的深色和浅色模式主题颜色。",
+      "starter_access": "入门访问",
+      "billed_yearly": "每月，按年计费",
+      "popular_label": "Popular",
+      "pricing_cta": "免费开始",
+      "stats_eyebrow": "为什么团队选择它",
+      "stats_title": "专为规模化打造的表单平台",
+      "products_eyebrow": "产品套件",
+      "products_title": "不仅仅是一个表单生成器",
+      "products_subtitle": "从一个工作区收集数据、将其转化为文档、传送审批并管理响应。",
+      "templates_eyebrow": "Templates",
+      "templates_title": "从现成的起点启动",
+      "templates_subtitle": "选择类别、自定义字段并发布，无需从头开始重建常见工作流程。",
+      "workflow_eyebrow": "Workflow",
+      "workflow_title": "从摄入到行动",
+      "workflow_subtitle": "使用表单作为前门，然后将响应路由到付款、审批、表格和连接的应用程序。",
+      "security_eyebrow": "Security",
+      "security_title": "敏感数据收集的控制",
+      "security_subtitle": "Jotform 提供用于加密收集、隐私控制和受监管工作流程的表单安全功能。",
+      "faq_eyebrow": "FAQ",
+      "faq_title": "Jotform 登陆页面问题",
+      "faq_subtitle": "打开 Jotform 工作区之前快速回答。"
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "轻松拖放",
+        "description": "无需编码。使用简单的可视化界面在几分钟内创建复杂的表单。"
+      },
+      {
+        "id": 2,
+        "title": "智能条件逻辑",
+        "description": "根据用户答案显示或隐藏字段以提供个性化体验。"
+      },
+      {
+        "id": 3,
+        "title": "安全支付",
+        "description": "与 PayPal、Stripe 和 Square 集成，直接通过您的表单收款。"
+      },
+      {
+        "id": 4,
+        "title": "AI辅助创作",
+        "description": "使用 AI 生成起始表单，然后根据您的具体工作流程调整字段、规则和副本。"
+      },
+      {
+        "id": 5,
+        "title": "电子签名就绪",
+        "description": "收集签名并将表单数据转换为批准、豁免、协议和入职的文档。"
+      },
+      {
+        "id": 6,
+        "title": "响应管理",
+        "description": "在组织好的表格中审查提交的内容、共享结果并将数据传送到连接的工具中。"
+      }
+    ],
+    "pricing": [
+      {
+        "plan": "Starter",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "5 种表格",
+          "100 份意见书",
+          "100MB空间"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Bronze",
+        "price_monthly": 39,
+        "price_yearly": 34,
+        "features": [
+          "25 份表格",
+          "1,000 份提交",
+          "1GB空间",
+          "无品牌"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Silver",
+        "price_monthly": 49,
+        "price_yearly": 39,
+        "features": [
+          "50 份表格",
+          "2,500 份意见书",
+          "10GB空间",
+          "HIPAA 可用"
+        ],
+        "is_popular": true
+      },
+      {
+        "plan": "Gold",
+        "price_monthly": 129,
+        "price_yearly": 99,
+        "features": [
+          "100 份表格",
+          "10,000 份提交",
+          "100GB空间",
+          "包含 HIPAA"
+        ],
+        "is_popular": false
+      }
+    ],
+    "stats": [
+      {
+        "value": "35M+",
+        "label": "全球用户",
+        "description": "广泛的用户群使 Jotform 为需要表单、付款和工作流程的团队所熟悉。"
+      },
+      {
+        "value": "20K+",
+        "label": "表单模板",
+        "description": "从用于注册、订单、申请、预订、调查等的现成模板开始。"
+      },
+      {
+        "value": "150+",
+        "label": "Integrations",
+        "description": "将响应连接到您的团队已用于电子表格、存储、消息传递、CRM 和自动化的应用程序。"
+      }
+    ],
+    "product_suite": [
+      {
+        "title": "表格生成器",
+        "description": "创建具有拖放字段、条件逻辑、文件上传、付款和嵌入式共享的在线表单。"
+      },
+      {
+        "title": "Jotform 应用程序",
+        "description": "将表单打包成简单的品牌应用程序体验，供客户、员工、活动或内部团队使用。"
+      },
+      {
+        "title": "Jotform 表格",
+        "description": "在电子表格样式视图中管理回复，以便团队可以过滤、审查提交内容并采取行动。"
+      },
+      {
+        "title": "乔特形式标志",
+        "description": "发送电子签名文档，并将签名记录与您的接收流程相关联。"
+      },
+      {
+        "title": "PDF编辑器",
+        "description": "将提交的表单转换为精美的 PDF，例如发票、合同、证书和报告。"
+      },
+      {
+        "title": "人工智能代理",
+        "description": "使用会话代理来引导访客、限定请求、回答问题并收集结构化数据。"
+      }
+    ],
+    "template_categories": [
+      {
+        "title": "登记表",
+        "description": "使用干净的字段和确认流程收集活动、课程、会员资格或计划注册信息。"
+      },
+      {
+        "title": "付款方式",
+        "description": "通过连接的支付网关接受订单、捐赠、存款和服务付款。"
+      },
+      {
+        "title": "申请表",
+        "description": "在一个结构化的受理流程中收集工作、志愿者、奖学金、供应商或客户申请。"
+      },
+      {
+        "title": "调查模板",
+        "description": "通过任何设备衡量反馈、满意度、表现和偏好。"
+      },
+      {
+        "title": "预订表格",
+        "description": "记录预约、预订、咨询和服务请求以及您所需的详细信息。"
+      },
+      {
+        "title": "订单表格",
+        "description": "创建包含变体、数量、文件和付款选项的产品或服务订单流。"
+      }
+    ],
+    "workflow_steps": [
+      {
+        "title": "构建或选择模板",
+        "description": "从头开始，使用模板，或使用 AI 生成草稿，然后调整字段和品牌。"
+      },
+      {
+        "title": "连接逻辑和工具",
+        "description": "添加条件逻辑、支付网关、通知、批准和集成以匹配您的流程。"
+      },
+      {
+        "title": "收集和管理回复",
+        "description": "共享表单、将其嵌入您的网站、审核提交的内容、创建 PDF，并将工作交给合适的团队。"
+      }
+    ],
+    "security_items": [
+      {
+        "title": "256 位 SSL",
+        "description": "表单通过受保护的 SSL 连接提供服务，以实现安全的数据传输。"
+      },
+      {
+        "title": "加密表格",
+        "description": "可选的表单加密有助于保护敏感工作流程的提交数据。"
+      },
+      {
+        "title": "PCI 1 级",
+        "description": "Jotform 支持安全收款，符合 PCI DSS 服务提供商 1 级合规性。"
+      },
+      {
+        "title": "隐私控制",
+        "description": "GDPR、CCPA、HIPAA 友好选项、2FA 和隐私设置支持受监管的数据收集。"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "这个按钮是创建帐户还是打开登录？",
+        "answer": "主要按钮在新选项卡中打开 Jotform 登录页面，并附有公司推荐参数。"
+      },
+      {
+        "question": "我可以先使用免费计划吗？",
+        "answer": "是的。 Jotform 为小型团队和个人提供入门计划，并在需要增加限制时提供付费计划。"
+      },
+      {
+        "question": "表格可以收取款项吗？",
+        "answer": "是的。 Jotform 支持 PayPal、Stripe 和 Square 等支付集成，通过表单进行收款。"
+      },
+      {
+        "question": "回复可以进入其他工具吗？",
+        "answer": "是的。 Jotform 支持电子表格、存储、消息传递、CRM、日历和自动化平台的许多集成。"
+      }
+    ]
+  }
+}

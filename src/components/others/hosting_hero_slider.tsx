@@ -9,8 +9,19 @@ type HostingHeroSliderProps = {
   slides: HostingHeroSlide[];
 };
 
+const bookMeetingLink =
+  process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING || "/contact";
+
 function normalizeHeroHref(href: string) {
+  if (href === "book_meeting") {
+    return bookMeetingLink;
+  }
+
   return href === "#compare_plans" ? "#pricing" : href;
+}
+
+function isExternalHref(href: string) {
+  return href.startsWith("http");
 }
 
 export default function HostingHeroSlider({ slides }: HostingHeroSliderProps) {
@@ -68,17 +79,28 @@ export default function HostingHeroSlider({ slides }: HostingHeroSliderProps) {
               {slide.description}
             </p>
           ) : null}
-          {slide.primary_button ? (
-            <Link
-              href={normalizeHeroHref(slide.primary_button.link_url)}
-              className="mt-8 inline-flex items-center gap-2 rounded-lg bg-btn-primary px-6 py-3 text-sm font-black uppercase text-btn-secondary transition hover:opacity-90"
-            >
-              {slide.primary_button.text}
-              <ArrowRight className="h-4 w-4" />
-            </Link>
-          ) : null}
-
-         
+          <div className="mt-8 flex flex-wrap gap-4">
+            {slide.primary_button ? (
+              <Link
+                href={normalizeHeroHref(slide.primary_button.link_url)}
+                className="inline-flex items-center gap-2 rounded-lg bg-btn-primary px-6 py-3 text-sm font-black uppercase text-btn-secondary transition hover:opacity-90"
+              >
+                {slide.primary_button.text}
+                <ArrowRight className="h-4 w-4" />
+              </Link>
+            ) : null}
+            {slide.secondary_button ? (
+              <a
+                href={normalizeHeroHref(slide.secondary_button.link_url)}
+                target={isExternalHref(slide.secondary_button.link_url) ? "_blank" : undefined}
+                rel={isExternalHref(slide.secondary_button.link_url) ? "noopener noreferrer" : undefined}
+                className="inline-flex items-center gap-2 rounded-lg border border-btn-secondary/50 bg-btn-secondary/10 px-6 py-3 text-sm font-black uppercase text-btn-secondary transition hover:bg-btn-secondary hover:text-t-primary"
+              >
+                {slide.secondary_button.text}
+                <ArrowRight className="h-4 w-4" />
+              </a>
+            ) : null}
+          </div>
         </div>
 
       </div>

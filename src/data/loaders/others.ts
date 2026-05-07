@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import type { OtherHostingPageData } from "@/types/others_page";
+import type { JotformLandingPageData, OtherHostingPageData, OtherPageData } from "@/types/others_page";
 
 const LANGUAGE_FOLDER_MAP: Record<string, string> = {
   en: "english_data",
@@ -24,15 +24,27 @@ function readJsonFile<T>(filePath: string): T | null {
   }
 }
 
-export function getOtherHostingData(lang: string, slug: string): OtherHostingPageData | null {
+export function getOtherData(lang: string, slug: string): OtherPageData | null {
   const langFolder = LANGUAGE_FOLDER_MAP[lang] ?? LANGUAGE_FOLDER_MAP.en;
   const localizedPath = path.join(process.cwd(), "src", "data", langFolder, "others", `${slug}.json`);
-  const localizedData = readJsonFile<OtherHostingPageData>(localizedPath);
+  const localizedData = readJsonFile<OtherPageData>(localizedPath);
 
   if (localizedData) {
     return localizedData;
   }
 
   const fallbackPath = path.join(process.cwd(), "src", "data", LANGUAGE_FOLDER_MAP.en, "others", `${slug}.json`);
-  return readJsonFile<OtherHostingPageData>(fallbackPath);
+  return readJsonFile<OtherPageData>(fallbackPath);
+}
+
+export const getOtherHostingData = getOtherData;
+
+export function getDoctorHostingData(lang: string): OtherHostingPageData | null {
+  const data = getOtherData(lang, "dctr_hosting");
+  return Array.isArray(data) ? data : null;
+}
+
+export function getJotformLandingData(lang: string): JotformLandingPageData | null {
+  const data = getOtherData(lang, "jotform");
+  return data && !Array.isArray(data) && "landing_page" in data ? data : null;
 }

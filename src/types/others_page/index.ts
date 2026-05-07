@@ -16,6 +16,7 @@ export type HostingHeroSlide = {
     image_url: string;
   }>;
   primary_button?: HostingAction;
+  secondary_button?: HostingAction;
 };
 
 export type HostingHeroSection = {
@@ -113,3 +114,96 @@ export type OtherHostingSection =
   | HostingFaqSection;
 
 export type OtherHostingPageData = OtherHostingSection[];
+
+export type JotformLandingPageData = {
+  landing_page: {
+    brand_config: {
+      partner_name: string;
+      primary_color?: string;
+      accent_color?: string;
+      font_family?: string;
+    };
+    hero_section: {
+      headline: string;
+      subheadline: string;
+      cta_text: string;
+      cta_link: string;
+      image?: {
+        url: string;
+        alt: string;
+        style?: string;
+      };
+    };
+    page_copy?: {
+      compare_plans: string;
+      workspace_label: string;
+      hero_chips: string[];
+      features_eyebrow: string;
+      features_title: string;
+      features_subtitle: string;
+      pricing_eyebrow: string;
+      pricing_title: string;
+      pricing_subtitle: string;
+      starter_access: string;
+      billed_yearly: string;
+      popular_label: string;
+      pricing_cta: string;
+      stats_eyebrow: string;
+      stats_title: string;
+      products_eyebrow: string;
+      products_title: string;
+      products_subtitle: string;
+      templates_eyebrow: string;
+      templates_title: string;
+      templates_subtitle: string;
+      workflow_eyebrow: string;
+      workflow_title: string;
+      workflow_subtitle: string;
+      security_eyebrow: string;
+      security_title: string;
+      security_subtitle: string;
+      faq_eyebrow: string;
+      faq_title: string;
+      faq_subtitle: string;
+    };
+    stats?: Array<{
+      value: string;
+      label: string;
+      description: string;
+    }>;
+    features: Array<{
+      id: number;
+      title: string;
+      description: string;
+    }>;
+    product_suite?: Array<{
+      title: string;
+      description: string;
+    }>;
+    template_categories?: Array<{
+      title: string;
+      description: string;
+    }>;
+    workflow_steps?: Array<{
+      title: string;
+      description: string;
+    }>;
+    security_items?: Array<{
+      title: string;
+      description: string;
+    }>;
+    pricing: Array<{
+      plan: string;
+      price_monthly: number;
+      price_yearly: number;
+      features: string[];
+      is_popular?: boolean;
+    }>;
+    faqs?: Array<{
+      question: string;
+      answer: string;
+    }>;
+  };
+};
+
+export type OtherPageData = OtherHostingPageData | JotformLandingPageData;

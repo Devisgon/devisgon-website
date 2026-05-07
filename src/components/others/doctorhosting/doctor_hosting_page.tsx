@@ -1,6 +1,4 @@
-import type { Metadata } from "next";
 import Link from "next/link";
-import { notFound } from "next/navigation";
 import {
   ArrowRight,
   BarChart3,
@@ -16,11 +14,7 @@ import {
   ServerCog,
   ShieldCheck,
 } from "lucide-react";
-import Footer from "@/components/footer";
-import Header from "@/components/navbar";
 import HostingHeroSlider from "@/components/others/hosting_hero_slider";
-import { getOtherHostingData } from "@/data/loaders/others";
-import { getCachedLanguage } from "@/lib/language";
 import type {
   DomainSearchSection,
   HostingCtaSection,
@@ -32,17 +26,6 @@ import type {
   OurServicesSection,
   WhatWeDoSection,
 } from "@/types/others_page";
-
-type PageProps = {
-  params: Promise<{ slug: string }>;
-  searchParams: Promise<{ lang?: string | string[] }>;
-};
-
-export const metadata: Metadata = {
-  title: "Doctor Hosting Plans | Devisgon",
-  description:
-    "Explore Doctor Hosting domain search, hosting platforms, managed services, pricing cards, and support options.",
-};
 
 function getSection<T extends { section_id: string }>(
   data: OtherHostingPageData,
@@ -171,6 +154,32 @@ function PricingCards({ sections }: { sections: HostingPlansSection[] }) {
   );
 }
 
+function ServiceCard({
+  card,
+  iconIndex,
+  dark = false,
+}: {
+  card: HostingServiceCard;
+  iconIndex: number;
+  dark?: boolean;
+}) {
+  const Icon = serviceIcons[iconIndex % serviceIcons.length] ?? HardDrive;
+
+  return (
+    <article
+      className={`rounded-2xl border border-[color:var(--primry)] p-6 text-center shadow-lg ${
+        dark ? "bg-bg-primary/90" : "bg-bg-secondary"
+      }`}
+    >
+      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-btn-primary text-btn-secondary">
+        <Icon className="h-8 w-8" />
+      </div>
+      <h3 className="mt-5 text-xl font-black text-t-primary">{card.title}</h3>
+      <p className="mt-3 text-sm font-medium leading-relaxed text-t-secondary">{card.description}</p>
+    </article>
+  );
+}
+
 function ServiceGrid({
   whatWeDo,
   ourServices,
@@ -212,32 +221,6 @@ function ServiceGrid({
         </div>
       </section>
     </>
-  );
-}
-
-function ServiceCard({
-  card,
-  iconIndex,
-  dark = false,
-}: {
-  card: HostingServiceCard;
-  iconIndex: number;
-  dark?: boolean;
-}) {
-  const Icon = serviceIcons[iconIndex % serviceIcons.length] ?? HardDrive;
-
-  return (
-    <article
-      className={`rounded-2xl border border-[color:var(--primry)] p-6 text-center shadow-lg ${
-        dark ? "bg-bg-primary/90" : "bg-bg-secondary"
-      }`}
-    >
-      <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-2xl bg-btn-primary text-btn-secondary">
-        <Icon className="h-8 w-8" />
-      </div>
-      <h3 className="mt-5 text-xl font-black text-t-primary">{card.title}</h3>
-      <p className="mt-3 text-sm font-medium leading-relaxed text-t-secondary">{card.description}</p>
-    </article>
   );
 }
 
@@ -288,16 +271,7 @@ function FaqSection({ data }: { data: HostingFaqSection }) {
   );
 }
 
-export default async function OtherLandingPage({ params, searchParams }: PageProps) {
-  const { slug } = await params;
-  const query = await searchParams;
-  const activeLang = await getCachedLanguage(query.lang);
-  const data = getOtherHostingData(activeLang, slug);
-
-  if (!data) {
-    notFound();
-  }
-
+export default function DoctorHostingPage({ data }: { data: OtherHostingPageData }) {
   const hero = getSection<HostingHeroSection>(data, "hero_slider_1");
   const heroSecond = getSection<HostingHeroSection>(data, "hero_slider_2");
   const domain = getSection<DomainSearchSection>(data, "domain_search");
@@ -310,16 +284,12 @@ export default async function OtherLandingPage({ params, searchParams }: PagePro
 
   return (
     <>
-      <Header />
-      <main className="overflow-x-hidden bg-background">
-        {hero ? <HostingHeroSlider slides={[...hero.slides, ...(heroSecond?.slides ?? [])]} /> : null}
-        {domain ? <DomainSearch data={domain} /> : null}
-        {hostingPlans || extraPlans ? <PricingCards sections={[hostingPlans, extraPlans].filter(Boolean) as HostingPlansSection[]} /> : null}
-        {whatWeDo || ourServices ? <ServiceGrid whatWeDo={whatWeDo} ourServices={ourServices} /> : null}
-        {cta ? <CtaBand data={cta} /> : null}
-        {faqs ? <FaqSection data={faqs} /> : null}
-      </main>
-      <Footer />
+      {hero ? <HostingHeroSlider slides={[...hero.slides, ...(heroSecond?.slides ?? [])]} /> : null}
+      {domain ? <DomainSearch data={domain} /> : null}
+      {hostingPlans || extraPlans ? <PricingCards sections={[hostingPlans, extraPlans].filter(Boolean) as HostingPlansSection[]} /> : null}
+      {whatWeDo || ourServices ? <ServiceGrid whatWeDo={whatWeDo} ourServices={ourServices} /> : null}
+      {cta ? <CtaBand data={cta} /> : null}
+      {faqs ? <FaqSection data={faqs} /> : null}
     </>
   );
 }
