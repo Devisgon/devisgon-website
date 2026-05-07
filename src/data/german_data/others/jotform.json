@@ -1,0 +1,257 @@
+{
+  "landing_page": {
+    "brand_config": {
+      "partner_name": "Devisgon",
+      "primary_color": "#2e69ff",
+      "accent_color": "#ff6100",
+      "font_family": "Inter, sans-serif"
+    },
+    "hero_section": {
+      "headline": "Moderne Datenerfassung für Teams der nächsten Generation",
+      "subheadline": "Verwenden Sie Jotform, um Leads, Registrierungen, Zahlungen, Unterschriften und Genehmigungen mit einem sauberen No-Code-Workflow zu sammeln, den Ihr Team schnell verwalten kann.",
+      "cta_text": "Beginnen Sie mit dem kostenlosen Bauen",
+      "cta_link": "https://www.jotform.com/login/?ref=devisgon",
+      "image": {
+        "url": "https://cdn.jotfor.ms/assets/img/v4/main/hero_v4_illustration.png",
+        "alt": "Jotform Form Builder Interface Illustration",
+        "style": "glassmorphism"
+      }
+    },
+    "page_copy": {
+      "compare_plans": "Tarife vergleichen",
+      "workspace_label": "Live-Formular-Arbeitsbereich",
+      "hero_chips": [
+        "No-Code-Formulare",
+        "Payment-ready",
+        "Firmenempfehlung"
+      ],
+      "features_eyebrow": "Erstellen Sie wie Jotform",
+      "features_title": "Schnelle Formen mit Devisgon-Finish",
+      "features_subtitle": "Nutzen Sie den bekannten Jotform-Ablauf für Formulare, Zahlungen, Automatisierungen und verbundene Geschäftsdaten.",
+      "pricing_eyebrow": "Plans",
+      "pricing_title": "Beginnen Sie einfach und skalieren Sie, wenn die Formulare ausgelastet sind",
+      "pricing_subtitle": "Plankarten verwenden die bereitgestellten Jotform-Daten und behalten die Themenfarben von Devisgon für den Dunkel- und Hellmodus bei.",
+      "starter_access": "Starterzugang",
+      "billed_yearly": "pro Monat, jährliche Abrechnung",
+      "popular_label": "Popular",
+      "pricing_cta": "Kostenlos starten",
+      "stats_eyebrow": "Warum Teams es wählen",
+      "stats_title": "Eine skalierbare Formularplattform",
+      "products_eyebrow": "Produktsuite",
+      "products_title": "Mehr als ein Formularersteller",
+      "products_subtitle": "Sammeln Sie Daten, wandeln Sie sie in Dokumente um, leiten Sie Genehmigungen weiter und verwalten Sie Antworten von einem Arbeitsbereich aus.",
+      "templates_eyebrow": "Templates",
+      "templates_title": "Starten Sie von einem vorgefertigten Ausgangspunkt aus",
+      "templates_subtitle": "Wählen Sie eine Kategorie aus, passen Sie die Felder an und veröffentlichen Sie, ohne gängige Arbeitsabläufe von Grund auf neu erstellen zu müssen.",
+      "workflow_eyebrow": "Workflow",
+      "workflow_title": "Von der Einnahme bis zur Wirkung",
+      "workflow_subtitle": "Nutzen Sie Formulare als Eingangstür und leiten Sie Antworten dann an Zahlungen, Genehmigungen, Tabellen und verbundene Apps weiter.",
+      "security_eyebrow": "Security",
+      "security_title": "Kontrollen für die Erfassung sensibler Daten",
+      "security_subtitle": "Jotform bietet Formularsicherheitsfunktionen für verschlüsselte Sammlung, Datenschutzkontrollen und regulierte Arbeitsabläufe.",
+      "faq_eyebrow": "FAQ",
+      "faq_title": "Fragen zur Jotform-Landingpage",
+      "faq_subtitle": "Schnelle Antworten vor dem Öffnen des Jotform-Arbeitsbereichs."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Einfaches Drag-and-Drop",
+        "description": "Keine Codierung erforderlich. Erstellen Sie in wenigen Minuten komplexe Formulare mit einer einfachen visuellen Benutzeroberfläche."
+      },
+      {
+        "id": 2,
+        "title": "Intelligente bedingte Logik",
+        "description": "Blenden Sie Felder basierend auf Benutzerantworten ein oder aus, um ein personalisiertes Erlebnis zu bieten."
+      },
+      {
+        "id": 3,
+        "title": "Sichere Zahlungen",
+        "description": "Integrieren Sie PayPal, Stripe und Square, um Zahlungen direkt über Ihre Formulare einzuziehen."
+      },
+      {
+        "id": 4,
+        "title": "KI-unterstützte Kreation",
+        "description": "Generieren Sie ein Startformular mit KI und passen Sie dann Felder, Regeln und Kopien genau an Ihren Arbeitsablauf an."
+      },
+      {
+        "id": 5,
+        "title": "E-Signatur-fähig",
+        "description": "Sammeln Sie Unterschriften und wandeln Sie Formulardaten in Dokumente für Genehmigungen, Verzichtserklärungen, Vereinbarungen und Onboarding um."
+      },
+      {
+        "id": 6,
+        "title": "Reaktionsmanagement",
+        "description": "Überprüfen Sie Einreichungen in organisierten Tabellen, teilen Sie Ergebnisse und leiten Sie Daten an verbundene Tools weiter."
+      }
+    ],
+    "pricing": [
+      {
+        "plan": "Starter",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "5 Formen",
+          "100 Einsendungen",
+          "100 MB Speicherplatz"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Bronze",
+        "price_monthly": 39,
+        "price_yearly": 34,
+        "features": [
+          "25 Formulare",
+          "1.000 Einsendungen",
+          "1 GB Speicherplatz",
+          "Kein Branding"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Silver",
+        "price_monthly": 49,
+        "price_yearly": 39,
+        "features": [
+          "50 Formulare",
+          "2.500 Einsendungen",
+          "10 GB Speicherplatz",
+          "HIPAA verfügbar"
+        ],
+        "is_popular": true
+      },
+      {
+        "plan": "Gold",
+        "price_monthly": 129,
+        "price_yearly": 99,
+        "features": [
+          "100 Formulare",
+          "10.000 Einsendungen",
+          "100 GB Speicherplatz",
+          "HIPAA inklusive"
+        ],
+        "is_popular": false
+      }
+    ],
+    "stats": [
+      {
+        "value": "35M+",
+        "label": "Benutzer weltweit",
+        "description": "Eine breite Benutzerbasis macht Jotform für Teams bekannt, die Formulare, Zahlungen und Workflow-Aufnahmen benötigen."
+      },
+      {
+        "value": "20K+",
+        "label": "Formularvorlagen",
+        "description": "Beginnen Sie mit vorgefertigten Vorlagen für Registrierungen, Bestellungen, Bewerbungen, Buchungen, Umfragen und mehr."
+      },
+      {
+        "value": "150+",
+        "label": "Integrations",
+        "description": "Verbinden Sie Antworten mit den Apps, die Ihr Team bereits für Tabellenkalkulationen, Speicherung, Messaging, CRM und Automatisierung verwendet."
+      }
+    ],
+    "product_suite": [
+      {
+        "title": "Formularersteller",
+        "description": "Erstellen Sie Online-Formulare mit Drag-and-Drop-Feldern, bedingter Logik, Datei-Uploads, Zahlungen und eingebetteter Freigabe."
+      },
+      {
+        "title": "Jotform-Apps",
+        "description": "Verpacken Sie Formulare in einer einfachen, markenbezogenen App-Erfahrung für Kunden, Mitarbeiter, Veranstaltungen oder interne Teams."
+      },
+      {
+        "title": "Jotform-Tabellen",
+        "description": "Verwalten Sie Antworten in Ansichten im Tabellenkalkulationsstil, damit Teams Einreichungen filtern, überprüfen und darauf reagieren können."
+      },
+      {
+        "title": "Jotform-Zeichen",
+        "description": "Senden Sie Dokumente zur elektronischen Signatur und halten Sie signierte Aufzeichnungen im Zusammenhang mit Ihrem Aufnahmeprozess."
+      },
+      {
+        "title": "PDF-Editor",
+        "description": "Verwandeln Sie Formulareinsendungen in ausgefeilte PDFs wie Rechnungen, Verträge, Zertifikate und Berichte."
+      },
+      {
+        "title": "KI-Agenten",
+        "description": "Nutzen Sie Gesprächsagenten, um Besucher anzuleiten, Anfragen zu qualifizieren, Fragen zu beantworten und strukturierte Daten zu sammeln."
+      }
+    ],
+    "template_categories": [
+      {
+        "title": "Anmeldeformulare",
+        "description": "Sammeln Sie Veranstaltungs-, Kurs-, Mitgliedschafts- oder Programmanmeldungen mit sauberen Feldern und Bestätigungsabläufen."
+      },
+      {
+        "title": "Zahlungsformulare",
+        "description": "Akzeptieren Sie Bestellungen, Spenden, Anzahlungen und Servicezahlungen über verbundene Zahlungsgateways."
+      },
+      {
+        "title": "Antragsformulare",
+        "description": "Sammeln Sie Bewerbungen für Stellen, Freiwillige, Stipendien, Lieferanten oder Kunden in einem strukturierten Aufnahmeprozess."
+      },
+      {
+        "title": "Umfragevorlagen",
+        "description": "Messen Sie Feedback, Zufriedenheit, Leistung und Vorlieben von jedem Gerät aus."
+      },
+      {
+        "title": "Buchungsformulare",
+        "description": "Erfassen Sie Termine, Reservierungen, Beratungen und Serviceanfragen mit den Details, die Sie benötigen."
+      },
+      {
+        "title": "Bestellformulare",
+        "description": "Erstellen Sie Bestellabläufe für Produkte oder Dienstleistungen mit Varianten, Mengen, Dateien und Zahlungsoptionen."
+      }
+    ],
+    "workflow_steps": [
+      {
+        "title": "Erstellen Sie eine Vorlage oder wählen Sie eine aus",
+        "description": "Beginnen Sie bei Null, verwenden Sie eine Vorlage oder erstellen Sie einen Entwurf mit KI und passen Sie dann Felder und Branding an."
+      },
+      {
+        "title": "Verbinden Sie Logik und Tools",
+        "description": "Fügen Sie bedingte Logik, Zahlungsgateways, Benachrichtigungen, Genehmigungen und Integrationen hinzu, die zu Ihrem Prozess passen."
+      },
+      {
+        "title": "Sammeln und verwalten Sie Antworten",
+        "description": "Teilen Sie das Formular, betten Sie es auf Ihrer Website ein, überprüfen Sie die Einsendungen, erstellen Sie PDFs und übergeben Sie die Arbeit per Hand an das richtige Team."
+      }
+    ],
+    "security_items": [
+      {
+        "title": "256-Bit-SSL",
+        "description": "Formulare werden zur sicheren Datenübertragung über geschützte SSL-Verbindungen bereitgestellt."
+      },
+      {
+        "title": "Verschlüsselte Formulare",
+        "description": "Die optionale Formularverschlüsselung trägt zum Schutz der Übermittlungsdaten für sensible Arbeitsabläufe bei."
+      },
+      {
+        "title": "PCI Level 1",
+        "description": "Jotform unterstützt den sicheren Zahlungseinzug mit PCI DSS Service Provider Level 1-Konformität."
+      },
+      {
+        "title": "Datenschutzkontrollen",
+        "description": "DSGVO-, CCPA-, HIPAA-freundliche Optionen, 2FA und Datenschutzeinstellungen unterstützen die regulierte Datenerfassung."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Erstellt diese Schaltfläche ein Konto oder öffnet sich ein Login?",
+        "answer": "Die primären Schaltflächen öffnen die Jotform-Anmeldeseite in einem neuen Tab mit dem angehängten Unternehmensempfehlungsparameter."
+      },
+      {
+        "question": "Kann ich zuerst den kostenlosen Plan nutzen?",
+        "answer": "Ja. Jotform bietet einen Starter-Plan für kleine Teams und Einzelpersonen, wobei kostenpflichtige Pläne verfügbar sind, wenn die Limits erhöht werden müssen."
+      },
+      {
+        "question": "Können Formulare Zahlungen einziehen?",
+        "answer": "Ja. Jotform unterstützt Zahlungsintegrationen wie PayPal, Stripe und Square für den Zahlungseinzug über Formulare."
+      },
+      {
+        "question": "Können Antworten in andere Tools einfließen?",
+        "answer": "Ja. Jotform unterstützt viele Integrationen für Tabellenkalkulationen, Speicher, Messaging, CRM, Kalender und Automatisierungsplattformen."
+      }
+    ]
+  }
+}

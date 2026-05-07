@@ -19,6 +19,9 @@ const nextConfig: NextConfig = {
       // JSON-driven Doctor Hosting hero backgrounds
       { protocol: "https", hostname: "images.unsplash.com", pathname: "/**" },
 
+      // JSON-driven Jotform landing page artwork and integration logos
+      { protocol: "https", hostname: "cdn.jotfor.ms", pathname: "/**" },
+
       // Current S3 bucket used by Payload
       { protocol: "https", hostname: "test-omega-coral-10.vercel.apps3_bucket", pathname: "/**" },
     ],

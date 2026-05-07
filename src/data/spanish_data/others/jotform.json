@@ -1,0 +1,257 @@
+{
+  "landing_page": {
+    "brand_config": {
+      "partner_name": "Devisgon",
+      "primary_color": "#2e69ff",
+      "accent_color": "#ff6100",
+      "font_family": "Inter, sans-serif"
+    },
+    "hero_section": {
+      "headline": "Recopilación de datos moderna para equipos de próxima generación",
+      "subheadline": "Utilice Jotform para recopilar clientes potenciales, registros, pagos, firmas y aprobaciones con un flujo de trabajo limpio y sin código que su equipo puede administrar rápidamente.",
+      "cta_text": "Comience a construir gratis",
+      "cta_link": "https://www.jotform.com/login/?ref=devisgon",
+      "image": {
+        "url": "https://cdn.jotfor.ms/assets/img/v4/main/hero_v4_illustration.png",
+        "alt": "Jotform Form Builder Interface Illustration",
+        "style": "glassmorphism"
+      }
+    },
+    "page_copy": {
+      "compare_plans": "Comparar planes",
+      "workspace_label": "Espacio de trabajo en vivo",
+      "hero_chips": [
+        "Formularios sin código",
+        "Payment-ready",
+        "Referencia de empresa"
+      ],
+      "features_eyebrow": "Construya como Jotform",
+      "features_title": "Formas rápidas con acabado Devisgon",
+      "features_subtitle": "Utilice el flujo familiar de Jotform para formularios, pagos, automatizaciones y datos comerciales conectados.",
+      "pricing_eyebrow": "Plans",
+      "pricing_title": "Comience de manera simple y escale cuando los formularios estén ocupados",
+      "pricing_subtitle": "Las tarjetas de plan utilizan los datos de Jotform suministrados y mantienen los colores temáticos de Devisgon para el modo oscuro y claro.",
+      "starter_access": "Acceso inicial",
+      "billed_yearly": "por mes, facturado anualmente",
+      "popular_label": "Popular",
+      "pricing_cta": "Comience gratis",
+      "stats_eyebrow": "Por qué los equipos lo eligen",
+      "stats_title": "Una plataforma de formularios diseñada para escalar",
+      "products_eyebrow": "Conjunto de productos",
+      "products_title": "Más que un creador de formularios",
+      "products_subtitle": "Recopile datos, conviértalos en documentos, enrute aprobaciones y gestione respuestas desde un solo espacio de trabajo.",
+      "templates_eyebrow": "Templates",
+      "templates_title": "Lanzamiento desde un punto de partida ya preparado",
+      "templates_subtitle": "Elija una categoría, personalice los campos y publique sin reconstruir los flujos de trabajo comunes desde cero.",
+      "workflow_eyebrow": "Workflow",
+      "workflow_title": "De la ingesta a la acción",
+      "workflow_subtitle": "Utilice formularios como puerta de entrada y luego dirija las respuestas a pagos, aprobaciones, tablas y aplicaciones conectadas.",
+      "security_eyebrow": "Security",
+      "security_title": "Controles para la recopilación de datos confidenciales",
+      "security_subtitle": "Jotform proporciona funciones de seguridad de formularios para recopilación cifrada, controles de privacidad y flujos de trabajo regulados.",
+      "faq_eyebrow": "FAQ",
+      "faq_title": "Preguntas sobre la página de inicio de Jotform",
+      "faq_subtitle": "Respuestas rápidas antes de abrir el espacio de trabajo de Jotform."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Facilidad de arrastrar y soltar",
+        "description": "No se requiere codificación. Cree formularios complejos en minutos con una interfaz visual sencilla."
+      },
+      {
+        "id": 2,
+        "title": "Lógica condicional inteligente",
+        "description": "Muestre u oculte campos según las respuestas de los usuarios para brindar una experiencia personalizada."
+      },
+      {
+        "id": 3,
+        "title": "Pagos seguros",
+        "description": "Integre con PayPal, Stripe y Square para cobrar pagos directamente a través de sus formularios."
+      },
+      {
+        "id": 4,
+        "title": "Creación asistida por IA",
+        "description": "Genere un formulario inicial con IA, luego ajuste campos, reglas y cópielos para su flujo de trabajo exacto."
+      },
+      {
+        "id": 5,
+        "title": "Listo para firma electrónica",
+        "description": "Recopile firmas y convierta los datos de los formularios en documentos para aprobaciones, exenciones, acuerdos e incorporación."
+      },
+      {
+        "id": 6,
+        "title": "Gestión de respuesta",
+        "description": "Revise los envíos en tablas organizadas, comparta resultados y dirija datos a herramientas conectadas."
+      }
+    ],
+    "pricing": [
+      {
+        "plan": "Starter",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "5 formas",
+          "100 presentaciones",
+          "100 MB de espacio"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Bronze",
+        "price_monthly": 39,
+        "price_yearly": 34,
+        "features": [
+          "25 formularios",
+          "1.000 presentaciones",
+          "1 GB de espacio",
+          "Sin marca"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Silver",
+        "price_monthly": 49,
+        "price_yearly": 39,
+        "features": [
+          "50 formularios",
+          "2.500 presentaciones",
+          "10 GB de espacio",
+          "HIPAA disponible"
+        ],
+        "is_popular": true
+      },
+      {
+        "plan": "Gold",
+        "price_monthly": 129,
+        "price_yearly": 99,
+        "features": [
+          "100 formularios",
+          "10.000 presentaciones",
+          "100 GB de espacio",
+          "HIPAA incluido"
+        ],
+        "is_popular": false
+      }
+    ],
+    "stats": [
+      {
+        "value": "35M+",
+        "label": "Usuarios en todo el mundo",
+        "description": "Una amplia base de usuarios hace que Jotform sea familiar para los equipos que necesitan formularios, pagos y flujo de trabajo."
+      },
+      {
+        "value": "20K+",
+        "label": "Plantillas de formulario",
+        "description": "Comience con plantillas listas para usar para registros, pedidos, solicitudes, reservas, encuestas y más."
+      },
+      {
+        "value": "150+",
+        "label": "Integrations",
+        "description": "Conecte las respuestas a las aplicaciones que su equipo ya usa para hojas de cálculo, almacenamiento, mensajería, CRM y automatización."
+      }
+    ],
+    "product_suite": [
+      {
+        "title": "Creador de formularios",
+        "description": "Cree formularios en línea con campos de arrastrar y soltar, lógica condicional, carga de archivos, pagos y uso compartido integrado."
+      },
+      {
+        "title": "Aplicaciones Jotform",
+        "description": "Empaquete formularios en una experiencia de aplicación de marca sencilla para clientes, personal, eventos o equipos internos."
+      },
+      {
+        "title": "Tablas Jotform",
+        "description": "Administre las respuestas en vistas estilo hoja de cálculo para que los equipos puedan filtrar, revisar y actuar sobre los envíos."
+      },
+      {
+        "title": "Signo Jotform",
+        "description": "Envíe documentos para firma electrónica y mantenga registros firmados conectados a su flujo de admisión."
+      },
+      {
+        "title": "Editor de PDF",
+        "description": "Convierta los envíos de formularios en archivos PDF pulidos, como facturas, contratos, certificados e informes."
+      },
+      {
+        "title": "Agentes de IA",
+        "description": "Utilice agentes conversacionales para guiar a los visitantes, calificar solicitudes, responder preguntas y recopilar datos estructurados."
+      }
+    ],
+    "template_categories": [
+      {
+        "title": "Formularios de registro",
+        "description": "Recopile inscripciones a eventos, clases, membresías o programas con campos limpios y flujos de confirmación."
+      },
+      {
+        "title": "Formas de pago",
+        "description": "Acepte pedidos, donaciones, depósitos y pagos de servicios a través de pasarelas de pago conectadas."
+      },
+      {
+        "title": "Formularios de solicitud",
+        "description": "Reúna solicitudes de trabajo, voluntariado, becas, proveedores o clientes en un proceso de admisión estructurado."
+      },
+      {
+        "title": "Plantillas de encuestas",
+        "description": "Mida los comentarios, la satisfacción, el rendimiento y las preferencias desde cualquier dispositivo."
+      },
+      {
+        "title": "Formularios de reserva",
+        "description": "Capture citas, reservaciones, consultas y solicitudes de servicios con los detalles que necesita."
+      },
+      {
+        "title": "Formularios de pedido",
+        "description": "Cree flujos de pedidos de productos o servicios con variantes, cantidades, archivos y opciones de pago."
+      }
+    ],
+    "workflow_steps": [
+      {
+        "title": "Construye o elige una plantilla",
+        "description": "Comience desde cero, use una plantilla o genere un borrador con IA, luego ajuste los campos y la marca."
+      },
+      {
+        "title": "Conecte lógica y herramientas",
+        "description": "Agregue lógica condicional, pasarelas de pago, notificaciones, aprobaciones e integraciones que coincidan con su proceso."
+      },
+      {
+        "title": "Recopilar y gestionar respuestas",
+        "description": "Comparta el formulario, incrústelo en su sitio, revise los envíos, cree archivos PDF y entregue el trabajo al equipo adecuado."
+      }
+    ],
+    "security_items": [
+      {
+        "title": "SSL de 256 bits",
+        "description": "Los formularios se entregan a través de conexiones SSL protegidas para una transferencia de datos segura."
+      },
+      {
+        "title": "Formularios cifrados",
+        "description": "El cifrado de formulario opcional ayuda a proteger los datos de envío para flujos de trabajo confidenciales."
+      },
+      {
+        "title": "PCI Nivel 1",
+        "description": "Jotform admite el cobro seguro de pagos con cumplimiento de nivel 1 de proveedor de servicios PCI DSS."
+      },
+      {
+        "title": "Controles de privacidad",
+        "description": "GDPR, CCPA, opciones compatibles con HIPAA, 2FA y configuraciones de privacidad respaldan la recopilación de datos regulada."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "¿Este botón crea una cuenta o abre el inicio de sesión?",
+        "answer": "Los botones principales abren la página de inicio de sesión de Jotform en una nueva pestaña con el parámetro de referencia de la empresa adjunto."
+      },
+      {
+        "question": "¿Puedo usar el plan gratuito primero?",
+        "answer": "Sí. Jotform ofrece un plan inicial para equipos pequeños e individuos, con planes pagos disponibles cuando es necesario aumentar los límites."
+      },
+      {
+        "question": "¿Pueden los formularios cobrar pagos?",
+        "answer": "Sí. Jotform admite integraciones de pagos como PayPal, Stripe y Square para el cobro de pagos a través de formularios."
+      },
+      {
+        "question": "¿Pueden las respuestas ir a otras herramientas?",
+        "answer": "Sí. Jotform admite muchas integraciones para hojas de cálculo, almacenamiento, mensajería, CRM, calendarios y plataformas de automatización."
+      }
+    ]
+  }
+}

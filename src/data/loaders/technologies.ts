@@ -42,7 +42,9 @@ export const TECHNOLOGY_SLUGS = [
   "amazon",
   "shopify",
   "wordpress",
-    "dctr_hoastingg",
+  "dctr_hoasting",
+  "dctr_hoastingg",
+  "jotform",
 
 ] as const;
 
@@ -76,7 +78,9 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
   amazon: "tools",
   shopify: "tools",
   wordpress: "tools",
-    dctr_hoastingg: "tools",
+  dctr_hoasting: "tools",
+  dctr_hoastingg: "tools",
+  jotform: "tools",
 
 };
 
@@ -88,7 +92,8 @@ function resolveTechnologyPath(langFolder: string, slug: string): string | null 
     return null;
   }
 
-  const fileName = slug === category ? "index.json" : `${slug}.json`;
+  const fileSlug = slug === "dctr_hoasting" ? "dctr_hoastingg" : slug;
+  const fileName = slug === category ? "index.json" : `${fileSlug}.json`;
   return path.join(process.cwd(), "src", "data", langFolder, "technologies", category, fileName);
 }
 

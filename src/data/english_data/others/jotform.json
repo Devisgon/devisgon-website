@@ -1,0 +1,257 @@
+{
+  "landing_page": {
+    "brand_config": {
+      "partner_name": "Devisgon",
+      "primary_color": "#2e69ff",
+      "accent_color": "#ff6100",
+      "font_family": "Inter, sans-serif"
+    },
+    "hero_section": {
+      "headline": "Modern Data Collection for Next-Gen Teams",
+      "subheadline": "Use Jotform to collect leads, registrations, payments, signatures, and approvals with a clean no-code workflow your team can manage quickly.",
+      "cta_text": "Start Building Free",
+      "cta_link": "https://www.jotform.com/login/?ref=devisgon",
+      "image": {
+        "url": "/technologies/jootform/jootform.webp",
+        "alt": "Jotform Form Builder Interface Illustration",
+        "style": "glassmorphism"
+      }
+    },
+    "page_copy": {
+      "compare_plans": "Compare Plans",
+      "workspace_label": "Live form workspace",
+      "hero_chips": [
+        "No-code forms",
+        "Payment-ready",
+        "Company referral"
+      ],
+      "features_eyebrow": "Build like Jotform",
+      "features_title": "Fast forms with a Devisgon finish",
+      "features_subtitle": "Use the familiar Jotform flow for forms, payments, automations, and connected business data.",
+      "pricing_eyebrow": "Plans",
+      "pricing_title": "Start simple, scale when the forms get busy",
+      "pricing_subtitle": "Plan cards use the supplied Jotform data and keep Devisgon's theme colors for dark and light mode.",
+      "starter_access": "Starter access",
+      "billed_yearly": "per month, billed yearly",
+      "popular_label": "Popular",
+      "pricing_cta": "Start Free",
+      "stats_eyebrow": "Why teams choose it",
+      "stats_title": "A form platform built for scale",
+      "products_eyebrow": "Product suite",
+      "products_title": "More than a form builder",
+      "products_subtitle": "Collect data, turn it into documents, route approvals, and manage responses from one workspace.",
+      "templates_eyebrow": "Templates",
+      "templates_title": "Launch from a ready-made starting point",
+      "templates_subtitle": "Pick a category, customize the fields, and publish without rebuilding common workflows from scratch.",
+      "workflow_eyebrow": "Workflow",
+      "workflow_title": "From intake to action",
+      "workflow_subtitle": "Use forms as the front door, then route responses to payments, approvals, tables, and connected apps.",
+      "security_eyebrow": "Security",
+      "security_title": "Controls for sensitive data collection",
+      "security_subtitle": "Jotform provides form security features for encrypted collection, privacy controls, and regulated workflows.",
+      "faq_eyebrow": "FAQ",
+      "faq_title": "Jotform landing page questions",
+      "faq_subtitle": "Quick answers before opening the Jotform workspace."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Drag-and-Drop Ease",
+        "description": "No coding required. Create complex forms in minutes with a simple visual interface."
+      },
+      {
+        "id": 2,
+        "title": "Smart Conditional Logic",
+        "description": "Show or hide fields based on user answers to provide a personalized experience."
+      },
+      {
+        "id": 3,
+        "title": "Secure Payments",
+        "description": "Integrate with PayPal, Stripe, and Square to collect payments directly through your forms."
+      },
+      {
+        "id": 4,
+        "title": "AI-Assisted Creation",
+        "description": "Generate a starting form with AI, then tune fields, rules, and copy for your exact workflow."
+      },
+      {
+        "id": 5,
+        "title": "E-Signature Ready",
+        "description": "Collect signatures and turn form data into documents for approvals, waivers, agreements, and onboarding."
+      },
+      {
+        "id": 6,
+        "title": "Response Management",
+        "description": "Review submissions in organized tables, share results, and route data into connected tools."
+      }
+    ],
+    "pricing": [
+      {
+        "plan": "Starter",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "5 Forms",
+          "100 Submissions",
+          "100MB Space"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Bronze",
+        "price_monthly": 39,
+        "price_yearly": 34,
+        "features": [
+          "25 Forms",
+          "1,000 Submissions",
+          "1GB Space",
+          "No Branding"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Silver",
+        "price_monthly": 49,
+        "price_yearly": 39,
+        "features": [
+          "50 Forms",
+          "2,500 Submissions",
+          "10GB Space",
+          "HIPAA Available"
+        ],
+        "is_popular": true
+      },
+      {
+        "plan": "Gold",
+        "price_monthly": 129,
+        "price_yearly": 99,
+        "features": [
+          "100 Forms",
+          "10,000 Submissions",
+          "100GB Space",
+          "HIPAA Included"
+        ],
+        "is_popular": false
+      }
+    ],
+    "stats": [
+      {
+        "value": "35M+",
+        "label": "Users worldwide",
+        "description": "A broad user base makes Jotform familiar for teams that need forms, payments, and workflow intake."
+      },
+      {
+        "value": "20K+",
+        "label": "Form templates",
+        "description": "Start from ready-made templates for registrations, orders, applications, bookings, surveys, and more."
+      },
+      {
+        "value": "150+",
+        "label": "Integrations",
+        "description": "Connect responses to the apps your team already uses for spreadsheets, storage, messaging, CRM, and automation."
+      }
+    ],
+    "product_suite": [
+      {
+        "title": "Form Builder",
+        "description": "Create online forms with drag-and-drop fields, conditional logic, file uploads, payments, and embedded sharing."
+      },
+      {
+        "title": "Jotform Apps",
+        "description": "Package forms into a simple branded app experience for clients, staff, events, or internal teams."
+      },
+      {
+        "title": "Jotform Tables",
+        "description": "Manage responses in spreadsheet-style views so teams can filter, review, and act on submissions."
+      },
+      {
+        "title": "Jotform Sign",
+        "description": "Send documents for e-signature and keep signed records connected to your intake flow."
+      },
+      {
+        "title": "PDF Editor",
+        "description": "Turn form submissions into polished PDFs such as invoices, contracts, certificates, and reports."
+      },
+      {
+        "title": "AI Agents",
+        "description": "Use conversational agents to guide visitors, qualify requests, answer questions, and collect structured data."
+      }
+    ],
+    "template_categories": [
+      {
+        "title": "Registration Forms",
+        "description": "Collect event, class, membership, or program signups with clean fields and confirmation flows."
+      },
+      {
+        "title": "Payment Forms",
+        "description": "Accept orders, donations, deposits, and service payments through connected payment gateways."
+      },
+      {
+        "title": "Application Forms",
+        "description": "Gather job, volunteer, scholarship, vendor, or client applications in one structured intake process."
+      },
+      {
+        "title": "Survey Templates",
+        "description": "Measure feedback, satisfaction, performance, and preferences from any device."
+      },
+      {
+        "title": "Booking Forms",
+        "description": "Capture appointments, reservations, consultations, and service requests with the details you need."
+      },
+      {
+        "title": "Order Forms",
+        "description": "Create product or service order flows with variants, quantities, files, and payment options."
+      }
+    ],
+    "workflow_steps": [
+      {
+        "title": "Build or choose a template",
+        "description": "Start from scratch, use a template, or generate a draft with AI, then adjust fields and branding."
+      },
+      {
+        "title": "Connect logic and tools",
+        "description": "Add conditional logic, payment gateways, notifications, approvals, and integrations to match your process."
+      },
+      {
+        "title": "Collect and manage responses",
+        "description": "Share the form, embed it on your site, review submissions, create PDFs, and hand work to the right team."
+      }
+    ],
+    "security_items": [
+      {
+        "title": "256-bit SSL",
+        "description": "Forms are served over protected SSL connections for secure data transfer."
+      },
+      {
+        "title": "Encrypted Forms",
+        "description": "Optional form encryption helps protect submission data for sensitive workflows."
+      },
+      {
+        "title": "PCI Level 1",
+        "description": "Jotform supports secure payment collection with PCI DSS Service Provider Level 1 compliance."
+      },
+      {
+        "title": "Privacy Controls",
+        "description": "GDPR, CCPA, HIPAA-friendly options, 2FA, and privacy settings support regulated data collection."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Does this button create an account or open login?",
+        "answer": "The primary buttons open the Jotform login page in a new tab with the company referral parameter attached."
+      },
+      {
+        "question": "Can I use the free plan first?",
+        "answer": "Yes. Jotform offers a Starter plan for small teams and individuals, with paid plans available when limits need to increase."
+      },
+      {
+        "question": "Can forms collect payments?",
+        "answer": "Yes. Jotform supports payment integrations such as PayPal, Stripe, and Square for payment collection through forms."
+      },
+      {
+        "question": "Can responses go into other tools?",
+        "answer": "Yes. Jotform supports many integrations for spreadsheets, storage, messaging, CRM, calendars, and automation platforms."
+      }
+    ]
+  }
+}

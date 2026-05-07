@@ -1,0 +1,257 @@
+{
+  "landing_page": {
+    "brand_config": {
+      "partner_name": "Devisgon",
+      "primary_color": "#2e69ff",
+      "accent_color": "#ff6100",
+      "font_family": "Inter, sans-serif"
+    },
+    "hero_section": {
+      "headline": "Collecte de données moderne pour les équipes de nouvelle génération",
+      "subheadline": "Utilisez JotForm pour collecter des prospects, des inscriptions, des paiements, des signatures et des approbations avec un flux de travail propre et sans code que votre équipe peut gérer rapidement.",
+      "cta_text": "Commencez à construire gratuitement",
+      "cta_link": "https://www.jotform.com/login/?ref=devisgon",
+      "image": {
+        "url": "https://cdn.jotfor.ms/assets/img/v4/main/hero_v4_illustration.png",
+        "alt": "Jotform Form Builder Interface Illustration",
+        "style": "glassmorphism"
+      }
+    },
+    "page_copy": {
+      "compare_plans": "Comparez les forfaits",
+      "workspace_label": "Espace de travail de formulaire en direct",
+      "hero_chips": [
+        "Formulaires sans code",
+        "Payment-ready",
+        "Référence d'entreprise"
+      ],
+      "features_eyebrow": "Construire comme JotForm",
+      "features_title": "Formes rapides avec une finition Devisgon",
+      "features_subtitle": "Utilisez le flux JotForm familier pour les formulaires, les paiements, les automatisations et les données commerciales connectées.",
+      "pricing_eyebrow": "Plans",
+      "pricing_title": "Commencez simplement, évoluez lorsque les formulaires sont occupés",
+      "pricing_subtitle": "Les cartes Plan utilisent les données JotForm fournies et conservent les couleurs du thème de Devisgon pour les modes sombre et clair.",
+      "starter_access": "Accès débutant",
+      "billed_yearly": "par mois, facturé annuellement",
+      "popular_label": "Popular",
+      "pricing_cta": "Commencez gratuitement",
+      "stats_eyebrow": "Pourquoi les équipes le choisissent",
+      "stats_title": "Une plateforme de formulaire conçue pour évoluer",
+      "products_eyebrow": "Suite de produits",
+      "products_title": "Plus qu'un générateur de formulaires",
+      "products_subtitle": "Collectez des données, transformez-les en documents, acheminez les approbations et gérez les réponses à partir d'un seul espace de travail.",
+      "templates_eyebrow": "Templates",
+      "templates_title": "Lancer à partir d'un point de départ tout fait",
+      "templates_subtitle": "Choisissez une catégorie, personnalisez les champs et publiez sans reconstruire les flux de travail courants à partir de zéro.",
+      "workflow_eyebrow": "Workflow",
+      "workflow_title": "De la prise en charge à l'action",
+      "workflow_subtitle": "Utilisez les formulaires comme porte d'entrée, puis acheminez les réponses vers les paiements, les approbations, les tableaux et les applications connectées.",
+      "security_eyebrow": "Security",
+      "security_title": "Contrôles pour la collecte de données sensibles",
+      "security_subtitle": "JotForm fournit des fonctionnalités de sécurité de formulaire pour la collecte cryptée, les contrôles de confidentialité et les flux de travail réglementés.",
+      "faq_eyebrow": "FAQ",
+      "faq_title": "Questions sur la page de destination JotForm",
+      "faq_subtitle": "Réponses rapides avant d'ouvrir l'espace de travail JotForm."
+    },
+    "features": [
+      {
+        "id": 1,
+        "title": "Facilité du glisser-déposer",
+        "description": "Aucun codage requis. Créez des formulaires complexes en quelques minutes avec une interface visuelle simple."
+      },
+      {
+        "id": 2,
+        "title": "Logique conditionnelle intelligente",
+        "description": "Affichez ou masquez les champs en fonction des réponses des utilisateurs pour offrir une expérience personnalisée."
+      },
+      {
+        "id": 3,
+        "title": "Paiements sécurisés",
+        "description": "Intégrez PayPal, Stripe et Square pour collecter les paiements directement via vos formulaires."
+      },
+      {
+        "id": 4,
+        "title": "Création assistée par l'IA",
+        "description": "Générez un formulaire de départ avec l'IA, puis ajustez les champs, les règles et copiez-les en fonction de votre flux de travail exact."
+      },
+      {
+        "id": 5,
+        "title": "Prêt pour la signature électronique",
+        "description": "Collectez des signatures et transformez les données des formulaires en documents pour les approbations, les renonciations, les accords et l'intégration."
+      },
+      {
+        "id": 6,
+        "title": "Gestion des réponses",
+        "description": "Examinez les soumissions dans des tableaux organisés, partagez les résultats et acheminez les données vers des outils connectés."
+      }
+    ],
+    "pricing": [
+      {
+        "plan": "Starter",
+        "price_monthly": 0,
+        "price_yearly": 0,
+        "features": [
+          "5 formulaires",
+          "100 soumissions",
+          "100 Mo d'espace"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Bronze",
+        "price_monthly": 39,
+        "price_yearly": 34,
+        "features": [
+          "25 formulaires",
+          "1 000 soumissions",
+          "1 Go d'espace",
+          "Pas de marque"
+        ],
+        "is_popular": false
+      },
+      {
+        "plan": "Silver",
+        "price_monthly": 49,
+        "price_yearly": 39,
+        "features": [
+          "50 formulaires",
+          "2 500 soumissions",
+          "10 Go d'espace",
+          "HIPAA disponible"
+        ],
+        "is_popular": true
+      },
+      {
+        "plan": "Gold",
+        "price_monthly": 129,
+        "price_yearly": 99,
+        "features": [
+          "100 formulaires",
+          "10 000 soumissions",
+          "100 Go d'espace",
+          "HIPAA inclus"
+        ],
+        "is_popular": false
+      }
+    ],
+    "stats": [
+      {
+        "value": "35M+",
+        "label": "Utilisateurs dans le monde entier",
+        "description": "Une large base d'utilisateurs rend JotForm familier aux équipes qui ont besoin de formulaires, de paiements et de flux de travail."
+      },
+      {
+        "value": "20K+",
+        "label": "Modèles de formulaire",
+        "description": "Partez de modèles prêts à l'emploi pour les inscriptions, les commandes, les candidatures, les réservations, les enquêtes, etc."
+      },
+      {
+        "value": "150+",
+        "label": "Integrations",
+        "description": "Connectez les réponses aux applications que votre équipe utilise déjà pour les feuilles de calcul, le stockage, la messagerie, le CRM et l'automatisation."
+      }
+    ],
+    "product_suite": [
+      {
+        "title": "Générateur de formulaires",
+        "description": "Créez des formulaires en ligne avec des champs glisser-déposer, une logique conditionnelle, des téléchargements de fichiers, des paiements et un partage intégré."
+      },
+      {
+        "title": "Applications Jotform",
+        "description": "Regroupez les formulaires dans une expérience d'application de marque simple pour les clients, le personnel, les événements ou les équipes internes."
+      },
+      {
+        "title": "Tableaux Jotform",
+        "description": "Gérez les réponses dans des vues de type feuille de calcul afin que les équipes puissent filtrer, examiner et agir sur les soumissions."
+      },
+      {
+        "title": "Signe Jotform",
+        "description": "Envoyez des documents pour signature électronique et conservez les enregistrements signés liés à votre flux d'admission."
+      },
+      {
+        "title": "Éditeur PDF",
+        "description": "Transformez les formulaires soumis en PDF soignés tels que des factures, des contrats, des certificats et des rapports."
+      },
+      {
+        "title": "Agents IA",
+        "description": "Utilisez des agents conversationnels pour guider les visiteurs, qualifier les demandes, répondre aux questions et collecter des données structurées."
+      }
+    ],
+    "template_categories": [
+      {
+        "title": "Formulaires d'inscription",
+        "description": "Collectez les inscriptions à des événements, des cours, des adhésions ou des programmes avec des champs et des flux de confirmation propres."
+      },
+      {
+        "title": "Formulaires de paiement",
+        "description": "Acceptez les commandes, les dons, les dépôts et les paiements de services via des passerelles de paiement connectées."
+      },
+      {
+        "title": "Formulaires de candidature",
+        "description": "Rassemblez les candidatures d'emploi, de bénévole, de bourse, de fournisseur ou de client dans un seul processus d'admission structuré."
+      },
+      {
+        "title": "Modèles d'enquête",
+        "description": "Mesurez les commentaires, la satisfaction, les performances et les préférences depuis n’importe quel appareil."
+      },
+      {
+        "title": "Formulaires de réservation",
+        "description": "Capturez les rendez-vous, les réservations, les consultations et les demandes de service avec les détails dont vous avez besoin."
+      },
+      {
+        "title": "Formulaires de commande",
+        "description": "Créez des flux de commandes de produits ou de services avec des variantes, des quantités, des fichiers et des options de paiement."
+      }
+    ],
+    "workflow_steps": [
+      {
+        "title": "Créez ou choisissez un modèle",
+        "description": "Partez de zéro, utilisez un modèle ou générez un brouillon avec l'IA, puis ajustez les champs et la marque."
+      },
+      {
+        "title": "Connectez la logique et les outils",
+        "description": "Ajoutez une logique conditionnelle, des passerelles de paiement, des notifications, des approbations et des intégrations en fonction de votre processus."
+      },
+      {
+        "title": "Recueillir et gérer les réponses",
+        "description": "Partagez le formulaire, intégrez-le sur votre site, examinez les soumissions, créez des PDF et confiez le travail à la bonne équipe."
+      }
+    ],
+    "security_items": [
+      {
+        "title": "SSL 256 bits",
+        "description": "Les formulaires sont servis via des connexions SSL protégées pour un transfert de données sécurisé."
+      },
+      {
+        "title": "Formulaires cryptés",
+        "description": "Le cryptage facultatif des formulaires permet de protéger les données de soumission pour les flux de travail sensibles."
+      },
+      {
+        "title": "PCI niveau 1",
+        "description": "JotForm prend en charge la collecte sécurisée des paiements avec la conformité PCI DSS Service Provider Niveau 1."
+      },
+      {
+        "title": "Contrôles de confidentialité",
+        "description": "Les options RGPD, CCPA, HIPAA, 2FA et les paramètres de confidentialité prennent en charge la collecte de données réglementée."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Ce bouton crée-t-il un compte ou ouvre-t-il une connexion ?",
+        "answer": "Les boutons principaux ouvrent la page de connexion JotForm dans un nouvel onglet avec le paramètre de référence de l'entreprise attaché."
+      },
+      {
+        "question": "Puis-je utiliser le forfait gratuit en premier ?",
+        "answer": "Oui. JotForm propose un forfait Starter pour les petites équipes et les individus, avec des forfaits payants disponibles lorsque les limites doivent augmenter."
+      },
+      {
+        "question": "Les formulaires peuvent-ils collecter des paiements ?",
+        "answer": "Oui. JotForm prend en charge les intégrations de paiement telles que PayPal, Stripe et Square pour la collecte des paiements via des formulaires."
+      },
+      {
+        "question": "Les réponses peuvent-elles être transférées dans d’autres outils ?",
+        "answer": "Oui. JotForm prend en charge de nombreuses intégrations pour les feuilles de calcul, le stockage, la messagerie, le CRM, les calendriers et les plateformes d'automatisation."
+      }
+    ]
+  }
+}

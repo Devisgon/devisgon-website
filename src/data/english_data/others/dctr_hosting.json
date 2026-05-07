@@ -12,9 +12,12 @@
         },
         "description": "",
         "background_image_url": "/doctr_hosting/doctor_hosting.webp",
-      
         "primary_button": {
-          "text": "COMPARE PLANS",
+          "text": "Book a Meeting",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "View Hosting Plans",
           "link_url": "#pricing"
         }
       }
@@ -33,10 +36,13 @@
         },
         "description": "",
         "background_image_url": "/doctr_hosting/doctor_hosting_1.webp",
-     
         "primary_button": {
-          "text": "GET STARTED",
-          "link_url": "#compare_plans"
+          "text": "Book a Meeting",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "View Hosting Plans",
+          "link_url": "#pricing"
         }
       }
     ]
@@ -312,6 +318,6 @@
         "question": "What is Business Hosting?",
         "answer": "Business Webhosting is available in Linux Webhosting with cPanel and Windows Webhosting with Plesk, with the resources and power of a private server without requiring a server administrator. If your website is expanding, business hosting gives stronger performance than shared hosting while staying affordable and simple to manage."
       }
-      ]
-    }
+    ]
+  }
 ]

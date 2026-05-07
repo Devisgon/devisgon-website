@@ -523,6 +523,18 @@ const TECHNOLOGY_SLUG_SEO: Record<string, SeoConfig> = {
       "See the tools Devisgon uses for automation and product operations, including n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
     keywords: ["automation tools", "n8n", "Make", "Zapier", "Shopify", "WordPress"],
   },
+  dctr_hoasting: {
+    title: "DoctorHoster Hosting Platform | Devisgon",
+    description:
+      "Explore DoctorHoster hosting and domain capabilities with Devisgon meeting support and a dedicated landing page.",
+    keywords: ["DoctorHoster", "web hosting", "domain hosting", "Devisgon"],
+  },
+  jotform: {
+    title: "Jotform Form Automation | Devisgon",
+    description:
+      "Explore Jotform for forms, payments, approvals, signatures, and connected no-code intake workflows with Devisgon.",
+    keywords: ["Jotform", "form automation", "online forms", "workflow intake", "Devisgon"],
+  },
 };
 
 export const getTechnologySlugMetadata = (slug: string): Metadata => {
