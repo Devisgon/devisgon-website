@@ -1,0 +1,323 @@
+[
+  {
+    "section_id": "hero_slider_1",
+    "section_title": "Pourquoi nous choisir",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "POURQUOI NOUS CHOISIR ?",
+          "secondary": "Nous ne vendons jamais trop. Nous sommes toujours les plus abordables"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting.webp",
+        "primary_button": {
+          "text": "Réserver une réunion",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "Voir les plans d'hébergement",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "hero_slider_2",
+    "section_title": "Hébergement 5 fois plus rapide",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "5X PLUS RAPIDE",
+          "secondary": "Votre ancien hôte est-il lent ? Essayez nos services 5x rapides ?"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting_1.webp",
+        "primary_button": {
+          "text": "Réserver une réunion",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "Voir les plans d'hébergement",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "domain_search",
+    "section_title": "Recherche de domaine",
+    "title": "Recherchez votre domaine ici",
+    "sub_title": "Vous pouvez trouver .com, .org, .net et tous les autres domaines de premier niveau à partir d'ici.",
+    "placeholder_text": "Entrez votre nom de domaine ici...",
+    "tlds": [
+      {
+        "tld_name": ".com",
+        "price": "Rs.3 499 / 1 an",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".net",
+        "price": "Rs.4 399 / 1 an",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".org",
+        "price": "Rs.3 799 / 1 an",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".pk",
+        "price": "Rs.3 399 / 2 ans",
+        "primary_color": "#e74c3c"
+      }
+    ]
+  },
+  {
+    "section_id": "hosting_plans",
+    "section_title": "Différentes plateformes d'hébergement",
+    "main_title": "DIFFÉRENTES PLATEFORMES D'HÉBERGEMENT",
+    "main_sub_title": "Chaque type de service d'hébergement que nous proposons est optimisé",
+    "plans_per_row": 3,
+    "plans": [
+      {
+        "plan_id": 1,
+        "title": "HÉBERGEMENT PARTAGÉ",
+        "badge": "DOMAINE GRATUIT",
+        "price": "700 Rs - 4 500 Rs",
+        "duration": "3 mois",
+        "color_theme": "cyan",
+        "features": [
+          "1 Go - Stockage SSD illimité",
+          "10 Go - Bande passante illimitée",
+          "Certificat SSL gratuit",
+          "1 - Sites Web illimités",
+          "1 - Bases de données illimitées"
+        ],
+        "primary_button": {
+          "text": "Voir les forfaits",
+          "link_url": "/shared-hosting"
+        }
+      },
+      {
+        "plan_id": 2,
+        "title": "HÉBERGEMENT D'AFFAIRES",
+        "badge": null,
+        "price": "7 000 Rs - 50 000 Rs",
+        "duration": "Par année",
+        "color_theme": "green",
+        "features": [
+          "5 Go à 100 Go de stockage",
+          "Bande passante illimitée",
+          "Domaine(s) 1-2",
+          "Adresse IP dédiée",
+          "Comptes de messagerie illimités"
+        ],
+        "primary_button": {
+          "text": "Voir les forfaits",
+          "link_url": "/business-hosting"
+        }
+      },
+      {
+        "plan_id": 3,
+        "title": "HÉBERGEMENT REVENDEUR",
+        "badge": null,
+        "price": "9 999 Rs - 44 999 Rs",
+        "duration": "Par mois",
+        "color_theme": "cyan",
+        "features": [
+          "5 Go - 50 Go de stockage",
+          "100 Go - 1 To de bande passante",
+          "Domaine(s) illimité",
+          "CPanel/WHM",
+          "SSL gratuit"
+        ],
+        "primary_button": {
+          "text": "Voir les forfaits",
+          "link_url": "/reseller-hosting"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "extra_hosting_plans",
+    "section_title": "VPS et serveurs dédiés",
+    "plans_per_row": 2,
+    "plans": [
+      {
+        "plan_id": 4,
+        "title": "SERVEURS VPS",
+        "badge": null,
+        "price": "2 750 Rs - 6 150 Rs",
+        "duration": "Par mois",
+        "color_theme": "green",
+        "features": [
+          "Cœurs de processeur 4 à 8",
+          "RAM 8 Go - 30 Go",
+          "Stockage SSD",
+          "Stockage SSD de 200 Go à 800 Go",
+          "1 IP dédiée"
+        ],
+        "primary_button": {
+          "text": "Voir les forfaits",
+          "link_url": "/vps-servers"
+        }
+      },
+      {
+        "plan_id": 5,
+        "title": "SERVEURS D'ENCHÈRES DÉDIÉS",
+        "badge": null,
+        "color_theme": "cyan",
+        "features": [
+          "4 à 6 cœurs de processeur",
+          "8-12 fils",
+          "RAM 16 Go - 128 Go",
+          "Capacité 4 To - 8 To",
+          "Connectivité 1 Gbit/S-Port"
+        ],
+        "primary_button": {
+          "text": "Voir les forfaits",
+          "link_url": "/dedicated-servers"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "what_we_do",
+    "section_title": "INCLURE TOUT CE QUE NOUS FAISONS",
+    "main_sub_title": "INCLURE TOUT",
+    "main_title": "CE QUE NOUS FAISONS",
+    "services": [
+      {
+        "id": 1,
+        "title": "Protection des données",
+        "description": "Nous effectuons des sauvegardes hebdomadaires pour protéger les informations importantes contre la corruption, la compromission ou la perte.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/database-restore.png"
+      },
+      {
+        "id": 2,
+        "title": "Optimization",
+        "description": "Nous optimisons nos serveurs pour augmenter l'efficacité du traitement des données, la distribution des applications et les performances globales.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/settings.png"
+      },
+      {
+        "id": 3,
+        "title": "Analyse des données",
+        "description": "Notre analyse régulière des données nous permet de prendre des décisions importantes et sécurisées.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/file.png"
+      },
+      {
+        "id": 4,
+        "title": "Cryptage des données",
+        "description": "Nous codons des données ou des informations de telle manière que seul un utilisateur autorisé puisse y accéder.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/cloud-storage.png"
+      }
+    ]
+  },
+  {
+    "section_id": "our_services",
+    "section_title": "Nos prestations",
+    "main_title": "NOS PRESTATIONS",
+    "main_sub_title": "Services d'hébergement Web DoctorHoster.",
+    "services_list": [
+      {
+        "id": 1,
+        "title": "Assistance par chat en direct",
+        "description": "Nous fournissons une assistance par chat en direct à nos clients pour fournir la réponse à toutes leurs questions.",
+        "icon_url": "https://img.icons8.com/ios-filled/100/333333/speech-bubble.png"
+      },
+      {
+        "id": 2,
+        "title": "Transfert de domaine",
+        "description": "Nous fournissons une solution de transfert de domaine facile en un clic à nos clients.",
+        "icon_url": "https://img.icons8.com/color/100/e74c3c/cloud-download.png"
+      },
+      {
+        "id": 3,
+        "title": "Serveur sécurisé",
+        "description": "Nous gérons et intégrons notre sécurité 24h/24 et 7j/7 pour protéger les données de nos clients.",
+        "icon_url": "https://img.icons8.com/ios/100/333333/server.png"
+      },
+      {
+        "id": 4,
+        "title": "Panneau de domaine",
+        "description": "Nous fournissons un panneau de contrôle de domaine facile à utiliser pour nos clients.",
+        "icon_url": "https://img.icons8.com/ios/100/333333/www.png"
+      }
+    ]
+  },
+  {
+    "section_id": "call_to_action",
+    "section_title": "Section CTA",
+    "background_color": "#e74c3c",
+    "title": "Obtenez votre hébergement souhaité chez nous",
+    "description": {
+      "line1": "DoctorHoster - Hébergement Web fiable avec des prix inégalés. Assistance technique 24 heures sur 24, 7 jours sur 7, 365 jours par an, disponibilité à 99,99 %, 30 jours",
+      "line2": "Garantie de remboursement, espace disque et bande passante illimités"
+    },
+    "button": {
+      "text": "Achetez maintenant",
+      "link_url": "#purchase"
+    }
+  },
+  {
+    "section_id": "faqs",
+    "section_title": "FAQs",
+    "main_title": "FAQs",
+    "questions": [
+      {
+        "q_id": 1,
+        "question": "Qu'est-ce que l'hébergement Web et pourquoi en ai-je besoin ?",
+        "answer": "Chaque site Web utilise de l'espace sur un serveur réel quelque part. L'hébergement Web enregistre ces fichiers et met le contenu de votre site Web à la disposition des utilisateurs en ligne."
+      },
+      {
+        "q_id": 2,
+        "question": "De quel type d'hébergement Web ai-je besoin ?",
+        "answer": "Cela dépend des exigences de votre site Web. Pour les nouveaux arrivants et les petits sites Web, l’hébergement Web partagé est probablement le bon hébergement. Pour les utilisateurs qui ont besoin de plus d'administration, l'hébergement VPS ou un serveur dédié est le meilleur choix."
+      },
+      {
+        "q_id": 3,
+        "question": "Quelle est la principale différence entre un créateur de site Web et un hébergement Web ?",
+        "answer": "Un créateur de site Web est un outil qui vous aide à créer vos sites Web facilement et efficacement. Tandis que l'hébergement Web fournit et gère des serveurs et vous donne de l'espace et d'autres ressources pour héberger votre site Web."
+      },
+      {
+        "q_id": 4,
+        "question": "Qu'est-ce que WordPress ?",
+        "answer": "C’est l’outil web le plus connu pour créer des sites web, c’est un CMS (Content Management System) qui développe plusieurs types de sites web."
+      },
+      {
+        "q_id": 5,
+        "question": "Pourquoi acheter un nom de domaine chez DoctorHoster ?",
+        "answer": "DoctorHoster fournit votre nom de domaine à un prix très bas et vise à offrir des expériences client exceptionnelles. Lorsque vous achetez un nom de domaine auprès de DoctorHoster, nous vous assurons qu'il vous sera livré avec des normes de service et d'assistance plus élevées. Notre objectif principal est de créer un environnement axé sur le client et rempli des clients les plus satisfaits de l'univers. La garantie DoctorHoster est notre marque d'excellence."
+      },
+      {
+        "q_id": 6,
+        "question": "Qu’est-ce que l’hébergement PHP ?",
+        "answer": "PHP Webhosting est un hébergement Web capable de comprendre et d'exécuter le langage de programmation PHP. PHP est un célèbre langage de script côté serveur, dans lequel le serveur peut traiter le code source. Cela signifie que le client frontal n’aurait aucun moyen d’accéder au code source. DoctorHoster propose l'hébergement le moins cher du marché avec des prix très bas et abordables. Nous proposons des forfaits d'hébergement partagé bon marché, beaucoup moins chers et 2 fois plus rapides que GoDaddy et HostGator. Nous proposons un hébergement à petit budget avec des services de haute qualité et un stockage illimité. Hébergement partagé le plus rapide avec des services de haute qualité."
+      },
+      {
+        "q_id": 7,
+        "question": "Qu’est-ce que l’hébergement économique ?",
+        "answer": "Budget Webhosting doit être installé sur un plan d'hébergement Web partagé. Cela signifie que vous disposerez d’une infime partie d’un serveur pour y héberger votre site Web. Même les plans d'hébergement Web les plus économiques ne permettent pas tout ce que vous prendriez avec un prix plus élevé, mais qui reste relativement abordable. DoctorHoster fournit un hébergement PHP 2 fois plus rapide avec les bases de données MySQL et Cpanel. Nous proposons les meilleurs plans d'hébergement PHP pour un usage individuel et professionnel. Notre société fournit un hébergeur avec support PHP et MySQL 24/7/365 jours. Nous incluons toutes les versions d'hébergement PHP, qui incluent l'hébergement PHP 7."
+      },
+      {
+        "q_id": 8,
+        "question": "Qu'est-ce que l'hébergement WordPress ?",
+        "answer": "L'hébergement Web WordPress peut également utiliser des serveurs Web partagés pour héberger plusieurs sites Web à la fois. Cependant, contrairement à l'hébergement Web, chaque site sur un serveur Web partagé sera un site WordPress. Un hébergeur WordPress fournit spécifiquement des installations WordPress et permet des solutions, des services et une assistance personnalisés pour améliorer l'efficacité de WordPress. Si vous souhaitez l'hébergement Web le meilleur et le plus rapide pour WordPress, essayez notre plan d'hébergement WordPress rapide avec une garantie de remboursement de 30 jours. DoctorHoster dispose de serveurs Web ultra-rapides pour fournir un hébergement ultra-rapide. Notre serveur Web le plus rapide fait de nous la société d'hébergement la plus rapide du marché actuel. Nos services d'hébergement les plus rapides permettent à nos clients de profiter d'un hébergement rapide WordPress, d'un hébergement PHP rapide et d'un hébergement partagé le plus rapide dans le monde entier."
+      },
+      {
+        "q_id": 9,
+        "question": "Qu’est-ce que l’hébergement WordPress géré ?",
+        "answer": "Nous proposons des services d'hébergement Web gérés et des solutions de serveurs gérés à nos clients. L'hébergement WordPress géré, c'est un peu comme avoir votre équipe technique. Notre hébergement géré offre l’expertise et l’expérience nécessaires pour prendre en charge vos opérations d’hébergement. DoctorHoster propose un hébergement WordPress géré bon marché sur le marché actuel à seulement 24,99 $. Avec notre équipe dédiée, nous pouvons fournir l’hébergement WordPress géré le plus rapide pour faire gagner un temps précieux à nos clients. L'hébergement WordPress entièrement géré vous permet de bien dormir et de vous détendre la nuit. DoctorHoster fournit des services gérés WordPress abordables et professionnels pour rendre votre site plus rapide et sécurisé. Nous proposons également un package de base de sites Web WordPress gérés à seulement 24,99 $ avec un domaine gratuit à vie, un SSL gratuit à vie, une bande passante illimitée et un espace disque illimité."
+      },
+      {
+        "q_id": 10,
+        "question": "Qu’est-ce que l’hébergement professionnel ?",
+        "answer": "L'hébergement Web professionnel est disponible dans l'hébergement Web Linux avec cPanel et l'hébergement Web Windows avec Plesk, avec les ressources et la puissance d'un serveur privé sans nécessiter un administrateur de serveur. Si votre site Web se développe, l'hébergement professionnel offre de meilleures performances que l'hébergement partagé tout en restant abordable et simple à gérer."
+      }
+    ]
+  }
+]

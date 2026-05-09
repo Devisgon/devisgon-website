@@ -1,158 +1,158 @@
 {
   "slug": "healthcare",
   "hero_section": {
-    "eyebrow": "Human-Centric Clinical Intelligence",
-    "title": "AI for Precision",
+    "eyebrow": "以人为本的临床智能",
+    "title": "人工智能带来精准",
     "highlight": "Healthcare",
-    "description": "Unify patient data and clinical workflows with AI that predicts risks, automates documentation, and enhances care coordination.",
+    "description": "通过 AI 统一患者数据和临床工作流程，预测风险、自动化记录并增强护理协调。",
     "primary_cta": {
-      "text": "Enhance Care",
+      "text": "加强护理",
       "href": "/get-started"
     },
     "secondary_cta": {
-      "text": "View Clinical Architecture",
+      "text": "查看临床架构",
       "href": "#healthcare-architecture"
     },
     "background_image": "/industries/health_care.webp"
   },
   "friction_section": {
-    "title": "The Care Friction",
-    "subtitle": "Healthcare providers are overwhelmed by administrative load and disconnected data silos.",
+    "title": "护理摩擦",
+    "subtitle": "医疗保健提供商因管理负担和断开的数据孤岛而不堪重负。",
     "cards": [
       {
-        "title": "Clinical Burnout",
-        "description": "Excessive manual documentation and EHR data entry reduce time spent with patients.",
+        "title": "临床倦怠",
+        "description": "过多的手动记录和 EHR 数据输入会减少与患者相处的时间。",
         "icon_type": "FaStethoscope"
       },
       {
-        "title": "Data Interoperability",
-        "description": "Fragmented patient records across systems prevent a holistic view of longitudinal health.",
+        "title": "数据互操作性",
+        "description": "跨系统的碎片化患者记录阻碍了对纵向健康状况的整体了解。",
         "icon_type": "FaNetworkWired"
       },
       {
-        "title": "Diagnostic Latency",
-        "description": "Delays in analyzing complex imaging and lab results slow down critical intervention windows.",
+        "title": "诊断延迟",
+        "description": "分析复杂成像和实验室结果的延迟会减慢关键干预窗口的速度。",
         "icon_type": "FaMicroscope"
       }
     ]
   },
   "architecture_section": {
     "id": "healthcare-architecture",
-    "title": "Connected Data, Better Outcomes.",
-    "description": "Our healthcare OS creates a real-time intelligence loop between patient biometrics, EHR records, and clinical decision support.",
+    "title": "连接数据，更好的结果。",
+    "description": "我们的医疗保健操作系统在患者生物识别、EHR 记录和临床决策支持之间创建实时智能循环。",
     "bullets": [
-      "FHIR-Standard Data Integration",
-      "Ambient Clinical Documentation",
-      "Predictive Patient Monitoring"
+      "FHIR-标准数据集成",
+      "环境临床文件",
+      "预测性患者监测"
     ],
     "cards": [
       {
-        "title": "Clinical Command Center",
-        "description": "Real-time visibility into patient acuity, bed availability, and staffing requirements.",
+        "title": "临床指挥中心",
+        "description": "实时了解患者的病情严重程度、床位可用性和人员配备要求。",
         "icon_type": "MdMonitorHeart",
         "featured": true
       },
       {
-        "title": "Ambient Scribe AI",
-        "description": "Naturally capture patient-physician conversations and automatically generate structured clinical notes.",
+        "title": "环境抄写员 AI",
+        "description": "自然地捕获患者与医生的对话并自动生成结构化的临床记录。",
         "icon_type": "FaUserMd"
       },
       {
-        "title": "Predictive Risk Scoring",
-        "description": "Identify high-risk patients for sepsis, readmission, or chronic escalation before symptoms peak.",
+        "title": "预测风险评分",
+        "description": "在症状达到顶峰之前识别败血症、再入院或慢性升级的高风险患者。",
         "icon_type": "FaProcedures"
       }
     ]
   },
   "benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Driving efficiency while maintaining the highest standards of patient privacy.",
+    "title": "主要优点",
+    "subtitle": "提高效率的同时保持患者隐私的最高标准。",
     "cards": [
       {
-        "title": "Reduced Admin Overhead",
-        "description": "Automated coding and charting return hours of the day back to clinicians.",
+        "title": "减少管理开销",
+        "description": "自动编码和图表将一天中的时间返回给临床医生。",
         "icon_type": "FaRegEdit"
       },
       {
-        "title": "Improved Patient Safety",
-        "description": "AI-driven medication reconciliation and allergy alerts reduce adverse events.",
+        "title": "提高患者安全",
+        "description": "人工智能驱动的药物协调和过敏警报可减少不良事件。",
         "icon_type": "FaHandHoldingHeart"
       },
       {
-        "title": "HIPAA/GDPR Compliance",
-        "description": "Built-in encryption and access controls ensure data sovereignty and regulatory adherence.",
+        "title": "HIPAA/GDPR 合规性",
+        "description": "内置加密和访问控制可确保数据主权和法规遵守。",
         "icon_type": "FaLock"
       },
       {
-        "title": "Accelerated Diagnostics",
-        "description": "AI-assisted imaging analysis prioritizes urgent cases for radiologist review.",
+        "title": "加速诊断",
+        "description": "人工智能辅助成像分析优先考虑紧急病例供放射科医生审查。",
         "icon_type": "FaRunning"
       },
       {
-        "title": "Population Health Insights",
-        "description": "Analyze trends across patient cohorts to improve preventative care strategies.",
+        "title": "人口健康洞察",
+        "description": "分析患者群体的趋势，以改进预防性护理策略。",
         "icon_type": "FaUsers"
       },
       {
-        "title": "Enhanced Care Access",
-        "description": "Virtual assistants and triaging bots help patients navigate their care journey 24/7.",
+        "title": "加强护理服务",
+        "description": "虚拟助理和分诊机器人可帮助患者 24/7 掌控他们的护理旅程。",
         "icon_type": "FaCommentMedical"
       }
     ]
   },
   "case_studies_section": {
-    "title": "Healthcare in Action",
-    "subtitle": "Scaling intelligence across hospital networks and private practices.",
+    "title": "医疗保健在行动",
+    "subtitle": "跨医院网络和私人诊所扩展智能。",
     "cards": [
       {
-        "label": "Case Study 01",
-        "title": "Multi-State Hospital System",
-        "description": "Reduced physician documentation time by 45% using ambient AI, increasing patient throughput.",
+        "label": "案例研究01",
+        "title": "多州医院系统",
+        "description": "使用环境 AI 将医生记录时间减少 45%，从而提高患者吞吐量。",
         "href": "/contact",
-        "cta_text": "View Case Study"
+        "cta_text": "查看案例研究"
       },
       {
-        "label": "Case Study 02",
-        "title": "Remote Monitoring Provider",
-        "description": "Predictive analytics reduced ER readmissions by 20% for patients with chronic heart failure.",
+        "label": "案例研究02",
+        "title": "远程监控提供商",
+        "description": "预测分析可将慢性心力衰竭患者的急诊室再入院率降低 20%。",
         "href": "/contact",
-        "cta_text": "View Case Study"
+        "cta_text": "查看案例研究"
       }
     ]
   },
   "explore_section": {
-    "title": "Related Industries",
-    "subtitle": "Explore how our operational intelligence applies to adjacent sectors.",
+    "title": "相关产业",
+    "subtitle": "探索我们的运营情报如何应用于邻近部门。",
     "cards": [
       {
         "title": "Insurance",
-        "description": "Accelerate health claims processing and underwriting accuracy.",
+        "description": "加快健康索赔处理和承保准确性。",
         "href": "/industries/insurance",
         "icon_type": "FaFileInvoice"
       },
       {
-        "title": "Software Development",
-        "description": "Build secure, compliant healthcare applications and platforms.",
+        "title": "软件开发",
+        "description": "构建安全、合规的医疗保健应用程序和平台。",
         "href": "/industries/software-development",
         "icon_type": "FaLaptopCode"
       },
       {
         "title": "Manufacturing",
-        "description": "Optimize medical device production and supply chain logistics.",
+        "description": "优化医疗器械生产和供应链物流。",
         "href": "/industries/manufacturing",
         "icon_type": "FaIndustry"
       }
     ]
   },
   "conversation_section": {
-    "title": "Start a Consultation",
-    "subtitle": "Talk with our healthcare specialists about modernizing your clinical workflows.",
-    "full_name_label": "Full Name",
-    "business_email_label": "Organization Email",
+    "title": "开始咨询",
+    "subtitle": "与我们的医疗保健专家讨论现代化您的临床工作流程。",
+    "full_name_label": "姓名",
+    "business_email_label": "组织邮箱",
     "message_label": "Message",
-    "full_name_placeholder": "Dr. Sarah Chen",
+    "full_name_placeholder": "陈莎拉博士",
     "business_email_placeholder": "schen@healthsystem.org",
-    "message_placeholder": "Tell us about your clinical or administrative challenges...",
-    "button_text": "Send Inquiry"
+    "message_placeholder": "告诉我们您的临床或管理挑战......",
+    "button_text": "发送询问"
   }
 }

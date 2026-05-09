@@ -36,6 +36,88 @@ function getSection<T extends { section_id: string }>(
 
 const serviceIcons = [ShieldCheck, Gauge, BarChart3, LockKeyhole, MessageCircle, CloudUpload, ServerCog, Globe2];
 
+const domainSearchScript = `
+(() => {
+  const form = document.getElementById("doctorhoster-domain-search-form");
+  const input = document.getElementById("doctorhoster-domain-input");
+  const resultBox = document.getElementById("doctorhoster-domain-result");
+  const button = document.getElementById("doctorhoster-domain-button");
+
+  if (!form || !input || !resultBox || !button) return;
+
+  const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
+    "&": "&amp;",
+    "<": "&lt;",
+    ">": "&gt;",
+    '"': "&quot;",
+    "'": "&#039;"
+  })[char]);
+
+  const showMessage = (html) => {
+    resultBox.innerHTML = html;
+    resultBox.classList.remove("hidden");
+  };
+
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const domain = input.value.trim();
+
+    if (!domain) {
+      showMessage('<p class="text-sm font-bold text-red-500">Enter a domain name.</p>');
+      return;
+    }
+
+    button.setAttribute("disabled", "disabled");
+    button.textContent = "Checking...";
+    showMessage('<p class="text-sm font-bold text-t-secondary">Checking domain availability...</p>');
+
+    try {
+      const response = await fetch("/api/doctorhoster_domain_search", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ domain }),
+      });
+      const payload = await response.json();
+
+      if (!response.ok || !payload.success) {
+        showMessage('<p class="text-sm font-bold text-red-500">' + escapeHtml(payload.error || "Domain search failed.") + '</p>');
+        return;
+      }
+
+      const rows = Array.isArray(payload.results) ? payload.results : [];
+
+      if (!rows.length) {
+        showMessage('<p class="text-sm font-bold text-red-500">No domain results were returned.</p>');
+        return;
+      }
+
+      const list = rows.map((result) => {
+        const canRegister = result.isValidDomain && result.isAvailable;
+        const status = canRegister ? "Available" : result.isValidDomain ? "Not available" : "Invalid";
+        const statusClasses = canRegister ? "bg-green-100 text-green-700" : "bg-red-100 text-red-700";
+        const price = result.shortestPeriod?.register || "-";
+        const period = result.shortestPeriod?.period ? result.shortestPeriod.period + " year" : "";
+
+        return '<li class="grid gap-3 rounded-xl bg-bg-primary p-4 sm:grid-cols-[1fr_auto_auto] sm:items-center">' +
+          '<div><p class="text-base font-black text-t-primary">' + escapeHtml(result.domainName) + '</p>' +
+          '<p class="text-xs font-semibold text-t-secondary">' + escapeHtml(result.errorMessage || result.status || "Checked") + '</p></div>' +
+          '<span class="inline-flex w-fit items-center rounded-full px-3 py-1 text-xs font-black ' + statusClasses + '">' + status + '</span>' +
+          '<div class="text-left sm:text-right"><p class="text-sm font-black text-btn-primary">' + escapeHtml(price) + '</p>' +
+          '<p class="text-xs font-semibold text-t-secondary">' + escapeHtml(period) + '</p></div>' +
+        '</li>';
+      }).join("");
+
+      showMessage('<div><p class="text-lg font-black text-t-primary">Domain availability</p><ul class="mt-4 space-y-3">' + list + '</ul></div>');
+    } catch {
+      showMessage('<p class="text-sm font-bold text-red-500">Domain search failed. Please try again.</p>');
+    } finally {
+      button.removeAttribute("disabled");
+      button.textContent = "Search Domain";
+    }
+  });
+})();
+`;
+
 function SectionHeading({
   eyebrow,
   title,
@@ -61,18 +143,35 @@ function DomainSearch({ data }: { data: DomainSearchSection }) {
     <section className="bg-bg-primary px-6 py-16 md:px-12 md:py-20">
       <div className="mx-auto max-w-6xl">
         <SectionHeading title={data.title} subtitle={data.sub_title} />
-        <div className="mx-auto mt-8 flex max-w-3xl flex-col gap-3 rounded-2xl border border-[color:var(--primry)] bg-bg-secondary p-3 shadow-lg md:flex-row">
+        <form
+          id="doctorhoster-domain-search-form"
+          className="mx-auto mt-8 flex max-w-3xl flex-col gap-3 rounded-2xl border border-[color:var(--primry)] bg-bg-secondary p-3 shadow-lg md:flex-row"
+        >
           <div className="flex min-h-12 flex-1 items-center gap-3 rounded-xl bg-bg-primary px-4 text-t-secondary">
-            <Search className="h-5 w-5" />
-            <span className="text-sm font-semibold">{data.placeholder_text}</span>
+            <Search className="h-5 w-5 shrink-0" />
+            <input
+              aria-label={data.placeholder_text}
+              className="min-h-12 w-full bg-transparent text-sm font-semibold text-t-primary outline-none placeholder:text-t-secondary"
+              id="doctorhoster-domain-input"
+              name="domain"
+              placeholder={data.placeholder_text}
+              required
+              type="text"
+            />
           </div>
-          <Link
-            href="/contact"
-            className="inline-flex items-center justify-center rounded-xl bg-btn-primary px-6 py-3 text-sm font-black text-btn-secondary transition hover:opacity-90"
+          <button
+            id="doctorhoster-domain-button"
+            type="submit"
+            className="inline-flex min-h-12 items-center justify-center rounded-xl bg-btn-primary px-6 py-3 text-sm font-black text-btn-secondary transition hover:opacity-90 disabled:cursor-not-allowed disabled:opacity-70"
           >
             Search Domain
-          </Link>
-        </div>
+          </button>
+        </form>
+
+        <div
+          id="doctorhoster-domain-result"
+          className="hidden mx-auto mt-5 max-w-3xl rounded-2xl border border-[color:var(--primry)] bg-bg-secondary p-5 shadow-sm"
+        />
 
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
           {data.tlds.map((tld) => (
@@ -86,6 +185,7 @@ function DomainSearch({ data }: { data: DomainSearchSection }) {
           ))}
         </div>
       </div>
+      <script dangerouslySetInnerHTML={{ __html: domainSearchScript }} />
     </section>
   );
 }

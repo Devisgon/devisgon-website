@@ -1,16 +1,16 @@
 {
   "slug": "api_testing",
   "hero_section": {
-    "title": "خدمات اختبار واجهة برمجة التطبيقات",
-    "subtitle": "العمود الفقري لتطبيقك مضاد للرصاص",
-    "description": "تأكد من أن واجهات برمجة التطبيقات الخاصة بك آمنة وعالية الأداء وتعمل بشكل لا تشوبه شائبة. نحن نختبر بنية الواجهة الخلفية لديك بدقة لمنع تسرب البيانات، والقضاء على الاختناقات، وضمان التكامل السلس.",
+    "title": "API Testing Services",
+    "subtitle": "Bulletproof Your Application's Backbone",
+    "description": "Ensure your APIs are secure, highly performant, and functioning flawlessly. We rigorously test your backend architecture to prevent data leaks, eliminate bottlenecks, and guarantee seamless integrations.",
     "buttons": [
       {
-        "text": "اختبار واجهة برمجة التطبيقات الخاصة بي",
+        "text": "Test My API",
         "link": "/contact"
       },
       {
-        "text": "التحدث إلى مهندس ضمان الجودة",
+        "text": "Speak to a QA Engineer",
         "link": "/contact"
       }
     ],
@@ -18,65 +18,65 @@
   },
   "introduction_section": {
     "heading": "ما هو",
-    "span_heading": "اختبار واجهة برمجة التطبيقات؟",
+    "span_heading": " API Testing?",
     "content": [
-      "واجهات برمجة التطبيقات (واجهات برمجة التطبيقات) هي الجسور غير المرئية التي تربط واجهة الواجهة الأمامية الخاصة بك بقواعد بيانات الواجهة الخلفية وخدمات الطرف الثالث الخارجية. إذا فشلت واجهة برمجة التطبيقات (API) الخاصة بك، أو كانت بطيئة، أو بها ثغرة أمنية، فسيعاني تطبيقك بالكامل.",
-      "على عكس اختبار واجهة المستخدم التقليدية، يتجاوز اختبار واجهة برمجة التطبيقات (API) الواجهة الرسومية للتفاعل مباشرة مع المنطق الأساسي لبرنامجك. في Devisgon، نقوم بالتحقق من صحة نقاط نهاية REST وGraphQL وSOAP الخاصة بك فيما يتعلق بالوظائف والموثوقية وسعة التحميل والأمان. نحن نضمن أن نظامك يتواصل بشكل لا تشوبه شائبة وآمن تحت أي ظرف من الظروف."
+      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third-party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
+      "Unlike traditional UI testing, API testing bypasses the graphical interface to interact directly with your software's core logic. At Devisgon, we validate your REST, GraphQL, and SOAP endpoints for functionality, reliability, load capacity, and security. We ensure your system communicates flawlessly and securely under any condition."
     ],
-    "highlight_quote": "\"الأخطاء الموجودة في طبقة واجهة برمجة التطبيقات (API) أرخص بـ 10 مرات في الإصلاح من تلك الموجودة في واجهة المستخدم.\"",
+    "highlight_quote": " “Bugs found at the API layer are 10x cheaper to fix than those found in the UI.” ",
     "side_image": "/all_services/api_testing/introduction.webp"
   },
   "key_benefits_section": {
     "title": "الفوائد الرئيسية",
-    "subtitle": "لماذا يعد اختبار واجهة برمجة التطبيقات (API) الخاصة بك أمرًا غير قابل للتفاوض",
+    "subtitle": "Why testing your API is non-negotiable",
     "cards": [
       {
-        "title": "الكشف المبكر عن الأخطاء",
-        "description": "اختبر منطق الأعمال الأساسي قبل فترة طويلة من إنشاء واجهة المستخدم الرسومية (UI)، مما يوفر وقت تطوير هائل.",
+        "title": "Early Bug Detection",
+        "description": "Test core business logic long before the graphical user interface (UI) is even built, saving massive development time.",
         "icon_type": "MdBugReport"
       },
       {
-        "title": "الأمن غير القابل للكسر",
-        "description": "تأكد من تشفير البيانات الحساسة بشكل صحيح وأن بروتوكولات المصادقة (مثل OAuth وJWT) آمنة تمامًا.",
+        "title": "Unbreakable Security",
+        "description": "Ensure sensitive data is properly encrypted and authentication protocols (like OAuth and JWT) are completely secure.",
         "icon_type": "MdSecurity"
       },
       {
-        "title": "دورات إصدار أسرع",
-        "description": "يتم تنفيذ اختبارات واجهة برمجة التطبيقات (API) في أجزاء من الثانية مقارنة بالاختبارات الآلية لواجهة المستخدم البطيئة والهشة، مما يؤدي إلى تسريع مسار CI/CD الخاص بك بشكل كبير.",
+        "title": "Faster Release Cycles",
+        "description": "API tests execute in milliseconds compared to slow, brittle UI automated tests, vastly speeding up your CI/CD pipeline.",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "التكامل السلس",
-        "description": "تأكد من أن برنامجك يتواصل بشكل مثالي مع أدوات الطرف الثالث مثل بوابات الدفع أو إدارة علاقات العملاء.",
+        "title": "Seamless Integrations",
+        "description": "Guarantee that your software communicates perfectly with third-party tools like payment gateways or CRMs.",
         "icon_type": "MdSync"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "ما ستحصل عليه عندما تختار اختبار واجهة برمجة التطبيقات (API Testing).",
+    "title": "What you'll get when you choose API Testing",
     "image": "/all_services/api_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. التحقق من صحة نقطة النهاية الوظيفية",
-        "description": "اختبار صارم لطرق الطلب (GET، POST، PUT، DELETE) والتحقق من صحة استجابات حمولة JSON/XML الصحيحة."
+        "title": "1. Functional Endpoint Validation",
+        "description": "Rigorous testing of request methods (GET, POST, PUT, DELETE) and validation of correct JSON/XML payload responses."
       },
       {
-        "title": "2. اختبار الحمل والأداء",
-        "description": "قم باختبار نقاط النهاية الخاصة بك لمعرفة كيفية تعاملها مع الارتفاعات الهائلة في حركة المرور وطلبات المستخدم المتزامنة."
+        "title": "2. Load & Performance Testing",
+        "description": "Stress-testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
       },
       {
-        "title": "3. عمليات تدقيق الأمن والمصادقة",
-        "description": "محاكاة الهجمات للتحقق من الثغرات الأمنية مثل حقن SQL والمصادقة المعطلة ونقاط النهاية المكشوفة."
+        "title": "3. Security & Auth Audits",
+        "description": "Simulated attacks to check for vulnerabilities like SQL injection, broken authentication, and exposed endpoints."
       },
       {
-        "title": "4. أجنحة الاختبار الآلي",
-        "description": "مجموعة شاملة من البرامج النصية التلقائية لواجهة برمجة التطبيقات (API) التي تتكامل بسلاسة مع مسارات النشر الحالية لديك."
+        "title": "4. Automated Test Suites",
+        "description": "A comprehensive suite of automated API scripts that integrate seamlessly into your existing deployment pipelines."
       }
     ]
   },
   "technologies_section": {
-    "title": "نحن نختبر استخدام أدوات ضمان الجودة المتوافقة مع معايير الصناعة",
-    "subtitle": "أفضل الأطر للتحقق الدقيق والآلي من واجهة برمجة التطبيقات (API).",
+    "title": "We test using industry-standard QA tools",
+    "subtitle": "The best frameworks for accurate and automated API validation",
     "tools": [
       {
         "name": "Postman",
@@ -91,7 +91,7 @@
         "icon": "SiApachejmeter"
       },
       {
-        "name": "اطمئن، لا تشغل بالك",
+        "name": "REST Assured",
         "icon": "FaJava"
       },
       {
@@ -102,72 +102,72 @@
   },
   "process_section": {
     "title": "عمليتنا",
-    "subtitle": "نهج منهجي لضمان الجودة الخلفية",
+    "subtitle": "A systematic approach to backend quality assurance",
     "steps": [
       {
-        "title": "تحليل المتطلبات",
-        "description": "نقوم بمراجعة وثائق واجهة برمجة التطبيقات (API) الخاصة بك (على سبيل المثال، مواصفات Swagger/OpenAPI) ونحدد نطاق الاختبار.",
+        "title": "Analyze Requirements",
+        "description": "We review your API documentation (e.g., Swagger/OpenAPI specs) and define the testing scope.",
         "icon": "FaSearch"
       },
       {
-        "title": "سيناريوهات التصميم",
-        "description": "نكتب حالات اختبار شاملة تغطي مدخلات البيانات الإيجابية والسلبية وحالة الحافة.",
+        "title": "Design Scenarios",
+        "description": "We write comprehensive test cases covering positive, negative, and edge-case data inputs.",
         "icon": "FaFileAlt"
       },
       {
-        "title": "أتمتة وتنفيذ",
-        "description": "نحن نبني نصوصًا برمجية آلية للوصول إلى نقاط النهاية لديك، والتحقق من رموز الاستجابة والأوقات وحمولات البيانات.",
+        "title": "Automate & Execute",
+        "description": "We build automated scripts to hit your endpoints, verifying response codes, times, and data payloads.",
         "icon": "FaRobot"
       },
       {
-        "title": "تقرير ودمج",
-        "description": "نحن نقدم تقارير مفصلة عن الأخطاء وندمج مجموعة الاختبار مباشرة في مسار CI/CD الخاص بك.",
+        "title": "Report & Integrate",
+        "description": "We provide detailed bug reports and integrate the test suite directly into your CI/CD pipeline.",
         "icon": "FaChartBar"
       }
     ]
   },
   "case_study_section": {
-    "headline": "القضاء على مهلة بوابة الدفع وزيادة التحويلات بنسبة 15%",
+    "headline": "Eliminated payment gateway timeouts and increased conversions by 15%",
     "image": "/all_services/api_testing/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "كان أحد تطبيقات التكنولوجيا المالية يواجه حالات فشل عشوائية في المعاملات لأن واجهة مستخدم الهاتف المحمول الخاصة به لم تتمكن من التعامل مع الاستجابات البطيئة من واجهة برمجة تطبيقات الدفع التابعة لجهة خارجية."
+        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third-party payment API."
       },
       "solution": {
         "label": "Solution",
-        "text": "لقد قمنا بتنفيذ مجموعة من اختبارات أداء واجهة برمجة التطبيقات (API) الآلية، مما كشف عن اختناق شديد في تحليل الحمولة النافعة والذي حدث فقط في ظل التحميل الثقيل على الخادم."
+        "text": "We implemented a suite of automated API performance tests, uncovering a severe payload parsing bottleneck that only occurred under heavy server load."
       },
       "result": {
         "label": "Result",
-        "text": "ومن خلال تحديد مشكلة الواجهة الخلفية وإصلاحها، تم القضاء على أخطاء المهلة بالكامل، مما أدى إلى زيادة بنسبة 15% في المعاملات الناجحة."
+        "text": "By pinpointing and fixing the backend issue, timeout errors were completely eliminated, resulting in a 15% increase in successful transactions."
       }
     }
   },
   "faq_section": {
     "title": "الأسئلة المتداولة",
-    "subtitle": "احصل على إجابات حول ضمان جودة الواجهة الخلفية",
+    "subtitle": "Get answers about backend quality assurance",
     "questions": [
       {
-        "question": "لماذا أحتاج إلى اختبار واجهة برمجة التطبيقات (API) إذا كنت أقوم بالفعل باختبار واجهة المستخدم؟",
-        "answer": "اختبار واجهة المستخدم بطيء وهش ويتحقق فقط مما يراه المستخدم. يتحقق اختبار واجهة برمجة التطبيقات (API) من منطق العمل الفعلي والبيانات. نظرًا لأنه يمكن اختبار واجهات برمجة التطبيقات بدون واجهة رسومية، يمكنك العثور على الأخطاء الهامة وإصلاحها في وقت مبكر جدًا من دورة حياة التطوير."
+        "question": "Why do I need API testing if I am already doing UI testing?",
+        "answer": "UI testing is slow, brittle, and only verifies what the user sees. API testing verifies the actual business logic and data. Because APIs can be tested without a graphical interface, you can find and fix critical bugs much earlier in the development lifecycle."
       },
       {
-        "question": "هل تختبر كلاً من REST وGraphQL APIs؟",
-        "answer": "نعم. لدينا خبرة واسعة في اختبار بنيات RESTful التقليدية وخدمات الويب SOAP ونقاط نهاية GraphQL الحديثة حيث تتطلب الاستعلامات والطفرات عمليات تحقق محددة من صحة بنية البيانات."
+        "question": "Do you test both REST and GraphQL APIs?",
+        "answer": "Yes. We have extensive experience testing traditional RESTful architectures, SOAP web services, and modern GraphQL endpoints where queries and mutations require specific data structure validations."
       },
       {
-        "question": "هل يمكنك اختبار واجهات برمجة التطبيقات التي تتطلب مصادقة معقدة؟",
-        "answer": "قطعاً. نحن نكتب بشكل روتيني برامج نصية للاختبار تتعامل مع تدفقات المصادقة المعقدة ومتعددة الخطوات، بما في ذلك OAuth 2.0 وJWT (JSON Web Tokens) ومفاتيح API وملفات تعريف الارتباط الخاصة بالجلسة."
+        "question": "Can you test APIs that require complex authentication?",
+        "answer": "Absolutely. We routinely write test scripts that handle complex, multi-step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
       },
       {
-        "question": "هل سيتم تشغيل هذه الاختبارات تلقائيًا؟",
-        "answer": "نعم! الهدف النهائي لخدمة اختبار API لدينا هو الأتمتة. نقوم بتجميع مجموعات الاختبار الخاصة بنا باستخدام أدوات مثل Postman (Newman) أو REST Assured بحيث يمكن تشغيلها تلقائيًا بواسطة مسار CI/CD الخاص بك في كل مرة يدفع فيها المطورون تعليمات برمجية جديدة."
+        "question": "Will these tests run automatically?",
+        "answer": "Yes! The ultimate goal of our API testing service is automation. We package our test suites using tools like Postman (Newman) or REST Assured so they can be triggered automatically by your CI/CD pipeline every time your developers push new code."
       }
     ],
     "footer": {
       "text": "لم تجد إجابتك؟",
-      "link_text": "اتصل بخبراء ضمان الجودة لدينا",
+      "link_text": "Contact our QA experts",
       "link_url": "/contact"
     }
   }
