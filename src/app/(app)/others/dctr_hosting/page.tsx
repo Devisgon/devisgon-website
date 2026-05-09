@@ -15,6 +15,7 @@ export const metadata: Metadata = {
   description:
     "Explore Doctor Hosting domain search, hosting platforms, managed services, pricing cards, and support options.",
 };
+export const dynamic = "force-dynamic";
 
 export default async function DoctorHostingRoute({ searchParams }: PageProps) {
   const query = await searchParams;

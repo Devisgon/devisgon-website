@@ -1,16 +1,16 @@
 {
   "slug": "api_testing",
   "hero_section": {
-    "title": "API测试服务",
-    "subtitle": "保护您的应用程序的主干",
-    "description": "确保您的 API 安全、高性能且完美运行。我们严格测试您的后端架构，以防止数据泄漏、消除瓶颈并保证无缝集成。",
+    "title": "API Testing Services",
+    "subtitle": "Bulletproof Your Application's Backbone",
+    "description": "Ensure your APIs are secure, highly performant, and functioning flawlessly. We rigorously test your backend architecture to prevent data leaks, eliminate bottlenecks, and guarantee seamless integrations.",
     "buttons": [
       {
-        "text": "测试我的API",
+        "text": "Test My API",
         "link": "/contact"
       },
       {
-        "text": "与 QA 工程师交谈",
+        "text": "Speak to a QA Engineer",
         "link": "/contact"
       }
     ],
@@ -18,65 +18,65 @@
   },
   "introduction_section": {
     "heading": "什么是",
-    "span_heading": "API 测试？",
+    "span_heading": " API Testing?",
     "content": [
-      "API（应用程序编程接口）是将前端接口连接到后端数据库和外部第三方服务的隐形桥梁。如果您的 API 失败、速度缓慢或存在漏洞，您的整个应用程序都会受到影响。",
-      "与传统的 UI 测试不同，API 测试绕过图形界面，直接与软件的核心逻辑交互。在 Devisgon，我们验证您的 REST、GraphQL 和 SOAP 端点的功能、可靠性、负载能力和安全性。我们确保您的系统在任何条件下都能完美、安全地通信。"
+      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third-party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
+      "Unlike traditional UI testing, API testing bypasses the graphical interface to interact directly with your software's core logic. At Devisgon, we validate your REST, GraphQL, and SOAP endpoints for functionality, reliability, load capacity, and security. We ensure your system communicates flawlessly and securely under any condition."
     ],
-    "highlight_quote": "“在 API 层发现的错误的修复成本比在 UI 层发现的错误便宜 10 倍。”",
+    "highlight_quote": " “Bugs found at the API layer are 10x cheaper to fix than those found in the UI.” ",
     "side_image": "/all_services/api_testing/introduction.webp"
   },
   "key_benefits_section": {
     "title": "主要优点",
-    "subtitle": "为什么测试你的 API 是不可协商的",
+    "subtitle": "Why testing your API is non-negotiable",
     "cards": [
       {
-        "title": "早期错误检测",
-        "description": "在构建图形用户界面 (UI) 之前就测试核心业务逻辑，从而节省大量开发时间。",
+        "title": "Early Bug Detection",
+        "description": "Test core business logic long before the graphical user interface (UI) is even built, saving massive development time.",
         "icon_type": "MdBugReport"
       },
       {
-        "title": "牢不可破的安全性",
-        "description": "确保敏感数据得到正确加密，并且身份验证协议（例如 OAuth 和 JWT）完全安全。",
+        "title": "Unbreakable Security",
+        "description": "Ensure sensitive data is properly encrypted and authentication protocols (like OAuth and JWT) are completely secure.",
         "icon_type": "MdSecurity"
       },
       {
-        "title": "更快的发布周期",
-        "description": "与缓慢、脆弱的 UI 自动化测试相比，API 测试只需几毫秒即可执行，从而大大加快了 CI/CD 管道的速度。",
+        "title": "Faster Release Cycles",
+        "description": "API tests execute in milliseconds compared to slow, brittle UI automated tests, vastly speeding up your CI/CD pipeline.",
         "icon_type": "MdSpeed"
       },
       {
-        "title": "无缝集成",
-        "description": "确保您的软件与支付网关或 CRM 等第三方工具完美通信。",
+        "title": "Seamless Integrations",
+        "description": "Guarantee that your software communicates perfectly with third-party tools like payment gateways or CRMs.",
         "icon_type": "MdSync"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "选择 API 测试后您会得到什么",
+    "title": "What you'll get when you choose API Testing",
     "image": "/all_services/api_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. 功能端点验证",
-        "description": "严格测试请求方法（GET、POST、PUT、DELETE）并验证正确的 JSON/XML 有效负载响应。"
+        "title": "1. Functional Endpoint Validation",
+        "description": "Rigorous testing of request methods (GET, POST, PUT, DELETE) and validation of correct JSON/XML payload responses."
       },
       {
-        "title": "2. 负载和性能测试",
-        "description": "对您的端点进行压力测试，看看它们如何处理大量流量峰值和并发用户请求。"
+        "title": "2. Load & Performance Testing",
+        "description": "Stress-testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
       },
       {
-        "title": "3. 安全和授权审核",
-        "description": "模拟攻击以检查 SQL 注入、破坏的身份验证和暴露的端点等漏洞。"
+        "title": "3. Security & Auth Audits",
+        "description": "Simulated attacks to check for vulnerabilities like SQL injection, broken authentication, and exposed endpoints."
       },
       {
-        "title": "4. 自动化测试套件",
-        "description": "一套全面的自动化 API 脚本，可无缝集成到您现有的部署管道中。"
+        "title": "4. Automated Test Suites",
+        "description": "A comprehensive suite of automated API scripts that integrate seamlessly into your existing deployment pipelines."
       }
     ]
   },
   "technologies_section": {
-    "title": "我们使用行业标准的 QA 工具进行测试",
-    "subtitle": "准确、自动化 API 验证的最佳框架",
+    "title": "We test using industry-standard QA tools",
+    "subtitle": "The best frameworks for accurate and automated API validation",
     "tools": [
       {
         "name": "Postman",
@@ -91,7 +91,7 @@
         "icon": "SiApachejmeter"
       },
       {
-        "name": "放心",
+        "name": "REST Assured",
         "icon": "FaJava"
       },
       {
@@ -102,72 +102,72 @@
   },
   "process_section": {
     "title": "我们的流程",
-    "subtitle": "后端质量保证的系统方法",
+    "subtitle": "A systematic approach to backend quality assurance",
     "steps": [
       {
-        "title": "分析需求",
-        "description": "我们审查您的 API 文档（例如 Swagger/OpenAPI 规范）并定义测试范围。",
+        "title": "Analyze Requirements",
+        "description": "We review your API documentation (e.g., Swagger/OpenAPI specs) and define the testing scope.",
         "icon": "FaSearch"
       },
       {
-        "title": "设计场景",
-        "description": "我们编写涵盖正、负和边缘情况数据输入的综合测试用例。",
+        "title": "Design Scenarios",
+        "description": "We write comprehensive test cases covering positive, negative, and edge-case data inputs.",
         "icon": "FaFileAlt"
       },
       {
-        "title": "自动化和执行",
-        "description": "我们构建自动化脚本来命中您的端点，验证响应代码、时间和数据负载。",
+        "title": "Automate & Execute",
+        "description": "We build automated scripts to hit your endpoints, verifying response codes, times, and data payloads.",
         "icon": "FaRobot"
       },
       {
-        "title": "报告与整合",
-        "description": "我们提供详细的错误报告并将测试套件直接集成到您的 CI/CD 管道中。",
+        "title": "Report & Integrate",
+        "description": "We provide detailed bug reports and integrate the test suite directly into your CI/CD pipeline.",
         "icon": "FaChartBar"
       }
     ]
   },
   "case_study_section": {
-    "headline": "消除了支付网关超时并将转化率提高了 15%",
+    "headline": "Eliminated payment gateway timeouts and increased conversions by 15%",
     "image": "/all_services/api_testing/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "某金融科技应用程序遇到随机交易失败的情况，因为其移动 UI 无法处理第三方支付 API 的缓慢响应。"
+        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third-party payment API."
       },
       "solution": {
         "label": "Solution",
-        "text": "我们实施了一套自动化 API 性能测试，发现了仅在服务器负载过重时才会出现的严重负载解析瓶颈。"
+        "text": "We implemented a suite of automated API performance tests, uncovering a severe payload parsing bottleneck that only occurred under heavy server load."
       },
       "result": {
         "label": "Result",
-        "text": "通过查明并修复后端问题，完全消除了超时错误，成功交易量增加了 15%。"
+        "text": "By pinpointing and fixing the backend issue, timeout errors were completely eliminated, resulting in a 15% increase in successful transactions."
       }
     }
   },
   "faq_section": {
     "title": "常见问题解答",
-    "subtitle": "获取有关后端质量保证的答案",
+    "subtitle": "Get answers about backend quality assurance",
     "questions": [
       {
-        "question": "如果我已经在进行 UI 测试，为什么还需要 API 测试？",
-        "answer": "UI 测试缓慢、脆弱，并且仅验证用户所看到的内容。 API测试验证实际的业务逻辑和数据。由于可以在没有图形界面的情况下测试 API，因此您可以在开发生命周期的早期发现并修复关键错误。"
+        "question": "Why do I need API testing if I am already doing UI testing?",
+        "answer": "UI testing is slow, brittle, and only verifies what the user sees. API testing verifies the actual business logic and data. Because APIs can be tested without a graphical interface, you can find and fix critical bugs much earlier in the development lifecycle."
       },
       {
-        "question": "您是否同时测试 REST 和 GraphQL API？",
-        "answer": "是的。我们在测试传统 RESTful 架构、SOAP Web 服务和现代 GraphQL 端点方面拥有丰富的经验，其中查询和变更需要特定的数据结构验证。"
+        "question": "Do you test both REST and GraphQL APIs?",
+        "answer": "Yes. We have extensive experience testing traditional RESTful architectures, SOAP web services, and modern GraphQL endpoints where queries and mutations require specific data structure validations."
       },
       {
-        "question": "您可以测试需要复杂身份验证的 API 吗？",
-        "answer": "绝对地。我们通常会编写处理复杂的多步骤身份验证流程的测试脚本，包括 OAuth 2.0、JWT（JSON Web 令牌）、API 密钥和会话 cookie。"
+        "question": "Can you test APIs that require complex authentication?",
+        "answer": "Absolutely. We routinely write test scripts that handle complex, multi-step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
       },
       {
-        "question": "这些测试会自动运行吗？",
-        "answer": "是的！我们API测试服务的最终目标是自动化。我们使用 Postman (Newman) 或 REST Assured 等工具打包测试套件，以便每次开发人员推送新代码时，您的 CI/CD 管道都可以自动触发它们。"
+        "question": "Will these tests run automatically?",
+        "answer": "Yes! The ultimate goal of our API testing service is automation. We package our test suites using tools like Postman (Newman) or REST Assured so they can be triggered automatically by your CI/CD pipeline every time your developers push new code."
       }
     ],
     "footer": {
       "text": "没有找到您的答案吗？",
-      "link_text": "联系我们的质量检查专家",
+      "link_text": "Contact our QA experts",
       "link_url": "/contact"
     }
   }

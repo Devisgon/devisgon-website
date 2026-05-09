@@ -42,8 +42,7 @@ export const TECHNOLOGY_SLUGS = [
   "amazon",
   "shopify",
   "wordpress",
-  "dctr_hoasting",
-  "dctr_hoastingg",
+  "doctorhosters",
   "jotform",
 
 ] as const;
@@ -78,8 +77,7 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
   amazon: "tools",
   shopify: "tools",
   wordpress: "tools",
-  dctr_hoasting: "tools",
-  dctr_hoastingg: "tools",
+  doctorhosters: "tools",
   jotform: "tools",
 
 };
@@ -92,8 +90,7 @@ function resolveTechnologyPath(langFolder: string, slug: string): string | null 
     return null;
   }
 
-  const fileSlug = slug === "dctr_hoasting" ? "dctr_hoastingg" : slug;
-  const fileName = slug === category ? "index.json" : `${fileSlug}.json`;
+  const fileName = slug === category ? "index.json" : `${slug}.json`;
   return path.join(process.cwd(), "src", "data", langFolder, "technologies", category, fileName);
 }
 
@@ -107,7 +104,7 @@ function readJsonFile<T>(filePath: string): T | null {
       return null;
     }
 
-    const fileContent = fs.readFileSync(filePath, "utf-8");
+    const fileContent = fs.readFileSync(filePath, "utf-8").replace(/^\uFEFF/, "");
     return JSON.parse(fileContent) as T;
   } catch {
     return null;

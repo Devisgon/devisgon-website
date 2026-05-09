@@ -96,6 +96,40 @@ function getJsonFilesRecursively(rootDir, relativePrefix = "") {
   return files;
 }
 
+function normalizeRequestedFile(filePath) {
+  const normalizedPath = path.normalize(filePath);
+  const englishPrefix = `${path.normalize(path.join("src", "data", "english_data"))}${path.sep}`;
+
+  if (normalizedPath.startsWith(englishPrefix)) {
+    return normalizedPath.slice(englishPrefix.length);
+  }
+
+  return normalizedPath;
+}
+
+function getRequestedJsonFiles() {
+  const requestedFiles = process.argv.slice(2);
+
+  if (requestedFiles.length === 0) {
+    return getJsonFilesRecursively(englishDataDir);
+  }
+
+  return requestedFiles.map((requestedFile) => {
+    const relativeFile = normalizeRequestedFile(requestedFile);
+    const sourceFilePath = path.join(englishDataDir, relativeFile);
+
+    if (!relativeFile.endsWith(".json")) {
+      throw new Error(`Only JSON files can be translated: ${requestedFile}`);
+    }
+
+    if (!fs.existsSync(sourceFilePath)) {
+      throw new Error(`Source file not found: ${sourceFilePath}`);
+    }
+
+    return relativeFile;
+  });
+}
+
 async function translateString(value, targetLang) {
   if (isStaticAssetOrUrl(value) || isLikelyIdentifier(value)) {
     return value;
@@ -174,7 +208,7 @@ async function translateWholeWebsiteData() {
     throw new Error(`Source directory not found: ${englishDataDir}`);
   }
 
-  const englishJsonFiles = getJsonFilesRecursively(englishDataDir);
+  const englishJsonFiles = getRequestedJsonFiles();
   let writtenFiles = 0;
 
   for (const relativeFile of englishJsonFiles) {

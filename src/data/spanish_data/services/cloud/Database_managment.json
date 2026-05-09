@@ -37,7 +37,7 @@
       },
       {
         "title": "Alta disponibilidad (99,99%)",
-        "description": "Las configuraciones en clúster y las réplicas de lectura garantizan que su base de datos nunca deje de funcionar, incluso durante picos de tráfico masivos.",
+        "description": "Las configuraciones en clúster y las réplicas de lectura garantizan que su base de datos nunca deje de funcionar, incluso durante picos masivos de tráfico.",
         "icon_type": "MdStorage"
       },
       {
@@ -132,7 +132,7 @@
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Un sitio de comercio electrónico con mucho tráfico experimentó graves bloqueos de la base de datos y errores de tiempo de espera durante las ventas flash, lo que le costó miles de dólares en carritos abandonados."
+        "text": "Un sitio de comercio electrónico con mucho tráfico experimentó bloqueos graves de la base de datos y errores de tiempo de espera durante las ventas flash, lo que le costó miles de dólares en carritos abandonados."
       },
       "solution": {
         "label": "Solution",
@@ -162,7 +162,7 @@
       },
       {
         "question": "¿Cómo se protege nuestra base de datos de los piratas informáticos?",
-        "answer": "Implementamos una estricta seguridad a nivel de red (garantizando que la base de datos nunca esté expuesta a la Internet pública), aplicamos una sólida administración de identidad y acceso (IAM), ciframos datos tanto en reposo como en tránsito, y monitoreamos continuamente patrones de consultas sospechosos."
+        "answer": "Implementamos una estricta seguridad a nivel de red (garantizando que la base de datos nunca quede expuesta a la Internet pública), aplicamos una sólida administración de identidad y acceso (IAM), ciframos datos tanto en reposo como en tránsito, y monitoreamos continuamente patrones de consultas sospechosos."
       }
     ],
     "footer": {

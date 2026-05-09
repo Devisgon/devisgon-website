@@ -1,0 +1,323 @@
+[
+  {
+    "section_id": "hero_slider_1",
+    "section_title": "¿Por qué elegirnos?",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "¿POR QUÉ ELEGIRNOS?",
+          "secondary": "Nunca vendemos demasiado. Aún así somos más asequibles"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting.webp",
+        "primary_button": {
+          "text": "Reserve una reunión",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "Ver planes de alojamiento",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "hero_slider_2",
+    "section_title": "Alojamiento 5 veces más rápido",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "5X MÁS RÁPIDO",
+          "secondary": "¿Su antiguo host es lento? Pruebe nuestros servicios 5x Fast?"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting_1.webp",
+        "primary_button": {
+          "text": "Reserve una reunión",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "Ver planes de alojamiento",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "domain_search",
+    "section_title": "Búsqueda de Dominio",
+    "title": "Busque su dominio aquí",
+    "sub_title": "Puede encontrar .com, .org, .net y todos los demás dominios de nivel superior desde aquí.",
+    "placeholder_text": "Ingrese su nombre de dominio aquí...",
+    "tlds": [
+      {
+        "tld_name": ".com",
+        "price": "3.499 rupias / 1 año",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".net",
+        "price": "4.399 rupias / 1 año",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".org",
+        "price": "3.799 rupias / 1 año",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".pk",
+        "price": "3.399 rupias / 2 años",
+        "primary_color": "#e74c3c"
+      }
+    ]
+  },
+  {
+    "section_id": "hosting_plans",
+    "section_title": "Diferentes plataformas de alojamiento",
+    "main_title": "DIFERENTES PLATAFORMAS DE ALOJAMIENTO",
+    "main_sub_title": "Cada tipo de servicio de hosting que brindamos está aún más optimizado.",
+    "plans_per_row": 3,
+    "plans": [
+      {
+        "plan_id": 1,
+        "title": "ALOJAMIENTO COMPARTIDO",
+        "badge": "DOMINIO LIBRE",
+        "price": "700 rupias - 4.500 rupias",
+        "duration": "3 meses",
+        "color_theme": "cyan",
+        "features": [
+          "1 GB: almacenamiento SSD ilimitado",
+          "10 GB - Ancho de banda ilimitado",
+          "Certificado SSL gratuito",
+          "1 - Sitios web ilimitados",
+          "1 - Bases de datos ilimitadas"
+        ],
+        "primary_button": {
+          "text": "Ver planos",
+          "link_url": "/shared-hosting"
+        }
+      },
+      {
+        "plan_id": 2,
+        "title": "ALOJAMIENTO DE NEGOCIOS",
+        "badge": null,
+        "price": "7.000 rupias - 50.000 rupias",
+        "duration": "Por año",
+        "color_theme": "green",
+        "features": [
+          "5 GB - 100 GB de almacenamiento",
+          "Ancho de banda ilimitado",
+          "Dominio(s) 1-2",
+          "Dirección IP dedicada",
+          "Cuentas de correo electrónico ilimitadas"
+        ],
+        "primary_button": {
+          "text": "Ver planos",
+          "link_url": "/business-hosting"
+        }
+      },
+      {
+        "plan_id": 3,
+        "title": "ALOJAMIENTO PARA REVENDEDORES",
+        "badge": null,
+        "price": "9.999 rupias - 44.999 rupias",
+        "duration": "Por mes",
+        "color_theme": "cyan",
+        "features": [
+          "5 GB - 50 GB de almacenamiento",
+          "100 GB - 1 TB de ancho de banda",
+          "Dominio(s) Ilimitado",
+          "CPanel/WHM",
+          "SSL gratuito"
+        ],
+        "primary_button": {
+          "text": "Ver planos",
+          "link_url": "/reseller-hosting"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "extra_hosting_plans",
+    "section_title": "VPS y servidores dedicados",
+    "plans_per_row": 2,
+    "plans": [
+      {
+        "plan_id": 4,
+        "title": "SERVIDORES VPS",
+        "badge": null,
+        "price": "2.750 rupias - 6.150 rupias",
+        "duration": "Por mes",
+        "color_theme": "green",
+        "features": [
+          "Núcleos de CPU 4-8",
+          "RAM 8GB - 30GB",
+          "Almacenamiento SSD",
+          "Almacenamiento SSD de 200 GB a 800 GB",
+          "1 IP dedicada"
+        ],
+        "primary_button": {
+          "text": "Ver planos",
+          "link_url": "/vps-servers"
+        }
+      },
+      {
+        "plan_id": 5,
+        "title": "SERVIDORES DE SUBASTAS DEDICADOS",
+        "badge": null,
+        "color_theme": "cyan",
+        "features": [
+          "4-6 núcleos de CPU",
+          "8-12 hilos",
+          "Memoria RAM de 16GB a 128GB",
+          "Capacidad 4TB - 8TB",
+          "Conectividad 1 Gbit/puerto S"
+        ],
+        "primary_button": {
+          "text": "Ver planos",
+          "link_url": "/dedicated-servers"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "what_we_do",
+    "section_title": "INCLUYE TODO LO QUE HACEMOS",
+    "main_sub_title": "INCLUIR TODO",
+    "main_title": "QUE HACEMOS",
+    "services": [
+      {
+        "id": 1,
+        "title": "Protección de datos",
+        "description": "Realizamos copias de seguridad semanales para proteger la información importante de la corrupción, el compromiso o la pérdida.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/database-restore.png"
+      },
+      {
+        "id": 2,
+        "title": "Optimization",
+        "description": "Optimizamos nuestros servidores para aumentar la eficiencia del procesamiento de datos, la distribución de aplicaciones y el rendimiento general.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/settings.png"
+      },
+      {
+        "id": 3,
+        "title": "Análisis de datos",
+        "description": "Nuestro análisis regular de datos nos brinda la capacidad de tomar decisiones importantes y seguras.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/file.png"
+      },
+      {
+        "id": 4,
+        "title": "Cifrado de datos",
+        "description": "Codificamos datos o información de tal manera que solo el usuario autorizado pueda acceder a ellos.",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/cloud-storage.png"
+      }
+    ]
+  },
+  {
+    "section_id": "our_services",
+    "section_title": "Nuestros Servicios",
+    "main_title": "NUESTROS SERVICIOS",
+    "main_sub_title": "Servicios de alojamiento web DoctorHoster.",
+    "services_list": [
+      {
+        "id": 1,
+        "title": "Soporte de chat en vivo",
+        "description": "Brindamos soporte por chat en vivo a nuestros clientes para brindar la respuesta a todas sus preguntas.",
+        "icon_url": "https://img.icons8.com/ios-filled/100/333333/speech-bubble.png"
+      },
+      {
+        "id": 2,
+        "title": "Transferencia de Dominio",
+        "description": "Proporcionamos una solución de transferencia de dominio sencilla con un solo clic para nuestros clientes.",
+        "icon_url": "https://img.icons8.com/color/100/e74c3c/cloud-download.png"
+      },
+      {
+        "id": 3,
+        "title": "Servidor seguro",
+        "description": "Gestionamos e integramos nuestra seguridad 24 horas al día, 7 días a la semana para proteger los datos de nuestros clientes.",
+        "icon_url": "https://img.icons8.com/ios/100/333333/server.png"
+      },
+      {
+        "id": 4,
+        "title": "Panel de dominio",
+        "description": "Proporcionamos un panel de control de dominio que es fácil de usar para nuestros clientes.",
+        "icon_url": "https://img.icons8.com/ios/100/333333/www.png"
+      }
+    ]
+  },
+  {
+    "section_id": "call_to_action",
+    "section_title": "Sección CTA",
+    "background_color": "#e74c3c",
+    "title": "Obtenga el hosting que desee con nosotros",
+    "description": {
+      "line1": "DoctorHoster: alojamiento web confiable con precios inigualables. Soporte técnico 24 horas al día, 7 días a la semana, 365 días al año, 99,99% de tiempo de actividad, 30 días",
+      "line2": "Garantía de devolución de dinero y espacio en disco y ancho de banda ilimitados"
+    },
+    "button": {
+      "text": "Compra ahora",
+      "link_url": "#purchase"
+    }
+  },
+  {
+    "section_id": "faqs",
+    "section_title": "FAQs",
+    "main_title": "FAQs",
+    "questions": [
+      {
+        "q_id": 1,
+        "question": "¿Qué es Webhosting y por qué lo necesito?",
+        "answer": "Cada sitio web utiliza espacio en un servidor real en algún lugar. Webhosting guarda esos archivos y ofrece el contenido de su sitio web a disposición de los usuarios en línea."
+      },
+      {
+        "q_id": 2,
+        "question": "¿Qué tipo de Webhosting necesito?",
+        "answer": "Depende de los requisitos de su sitio web. Para los recién llegados y los sitios web más pequeños, el alojamiento web compartido es probablemente el alojamiento adecuado. Para aquellos usuarios que requieren más administración, el hosting VPS o un servidor dedicado es la mejor opción."
+      },
+      {
+        "q_id": 3,
+        "question": "¿Cuál es la principal diferencia entre un creador de sitios web y un alojamiento web?",
+        "answer": "Un creador de sitios web es una herramienta que le ayuda a crear sus sitios web de forma fácil y eficaz. Mientras que Webhosting proporciona y administra servidores y le brinda espacio y otros recursos para alojar su sitio web."
+      },
+      {
+        "q_id": 4,
+        "question": "¿Qué es WordPress?",
+        "answer": "Es la herramienta web más famosa para crear sitios web, es un CMS (Sistema de gestión de contenidos) que desarrolla varios tipos de sitios web."
+      },
+      {
+        "q_id": 5,
+        "question": "¿Por qué comprar un nombre de dominio de DoctorHoster?",
+        "answer": "DoctorHoster proporciona su nombre de dominio a un precio muy económico y tiene como objetivo brindar experiencias excepcionales a los clientes. Cuando compra un nombre de dominio de DoctorHoster, le aseguramos que se lo entregaremos con mayores estándares de servicio y asistencia. Nuestro principal objetivo es crear un entorno centrado en el cliente lleno de los clientes más satisfechos del universo. La garantía DoctorHoster es nuestra marca de excelencia."
+      },
+      {
+        "q_id": 6,
+        "question": "¿Qué es el alojamiento PHP?",
+        "answer": "PHP Webhosting es un alojamiento web que puede comprender y ejecutar el lenguaje de programación PHP. PHP es un famoso lenguaje de programación del lado del servidor, en el que el servidor puede procesar el código fuente. Eso significa que el cliente front-end no tendría acceso al código fuente. DoctorHoster ofrece el hosting más barato del mercado con precios muy bajos y asequibles. Ofrecemos paquetes de alojamiento compartido económicos que son mucho más económicos y 2 veces más rápidos que GoDaddy y HostGator. Ofrecemos hosting de bajo presupuesto con servicios de alta calidad y almacenamiento ilimitado. El hosting compartido más rápido con servicios de alta calidad."
+      },
+      {
+        "q_id": 7,
+        "question": "¿Qué es el hosting económico?",
+        "answer": "Budget Webhosting funciona para configurarse en un plan de Webhosting compartido. Eso significa que tendrá una pequeña parte de un servidor para alojar su sitio web en él. Incluso los mejores planes de alojamiento web económicos no permiten todo lo que se puede conseguir con un plan más caro, pero aún así comparativamente asequible. DoctorHoster proporciona alojamiento PHP 2 veces más rápido con bases de datos MySQL y Cpanel. Ofrecemos los mejores planes de hosting PHP para uso individual y empresarial. Nuestra empresa proporciona un alojamiento web con soporte PHP y MySQL las 24 horas del día, los 7 días de la semana, los 365 días del año. Incluimos todas las versiones de alojamiento PHP, que incluyen alojamiento PHP 7."
+      },
+      {
+        "q_id": 8,
+        "question": "¿Qué es el Alojamiento WordPress?",
+        "answer": "El alojamiento web de WordPress también puede utilizar servidores web compartidos para alojar muchos sitios web a la vez; sin embargo, a diferencia del alojamiento web, cada sitio en un servidor web compartido será un sitio de WordPress. Un Webhost de WordPress proporciona especialmente instalaciones de WordPress y permite soluciones, servicios y soporte personalizados para mejorar la eficiencia de WordPress. Si desea el mejor y más rápido alojamiento web para WordPress, pruebe nuestro rápido plan de alojamiento de WordPress con garantía de devolución de dinero de 30 días. DoctorHoster tiene servidores web súper rápidos para brindar alojamiento súper rápido. Nuestro servidor web más rápido nos convierte en la empresa de hosting más rápida del mercado actual. Nuestros servicios de alojamiento más rápidos hacen que nuestros clientes disfruten del alojamiento rápido de WordPress, del alojamiento PHP rápido y del alojamiento compartido más rápido del mundo."
+      },
+      {
+        "q_id": 9,
+        "question": "¿Qué es el alojamiento administrado de WordPress?",
+        "answer": "Ofrecemos servicios de alojamiento web administrado y soluciones de servidor administrado para nuestros clientes. El alojamiento de WordPress administrado es un poco como tener su equipo técnico. Nuestro hosting administrado ofrece los conocimientos y la experiencia para respaldar sus operaciones de hosting. DoctorHoster ofrece alojamiento de WordPress administrado y económico en el mercado actual por solo $ 24,99. Con nuestro equipo dedicado, podemos proporcionar el alojamiento de WordPress administrado más rápido para ahorrar el valioso tiempo de nuestros clientes. El alojamiento de WordPress totalmente administrado le permite dormir bien y relajarse por la noche. DoctorHoster proporciona servicios administrados de WordPress asequibles y profesionales para hacer que su sitio sea más rápido y seguro. También ofrecemos un paquete básico de sitios web administrados de WordPress por sólo $24,99 con dominio gratuito de por vida, SSL gratuito de por vida, ancho de banda ilimitado y espacio en disco ilimitado."
+      },
+      {
+        "q_id": 10,
+        "question": "¿Qué es el hosting empresarial?",
+        "answer": "Business Webhosting está disponible en Linux Webhosting con cPanel y Windows Webhosting con Plesk, con los recursos y potencia de un servidor privado sin necesidad de un administrador de servidor. Si su sitio web se está expandiendo, el alojamiento empresarial ofrece un mayor rendimiento que el alojamiento compartido y, al mismo tiempo, es asequible y fácil de administrar."
+      }
+    ]
+  }
+]

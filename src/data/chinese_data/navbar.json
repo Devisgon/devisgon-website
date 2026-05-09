@@ -1,185 +1,185 @@
 {
   "navbar": [
     {
-      "name": "家",
+      "name": "å®¶",
       "href": "/"
     },
     {
-      "name": "服务",
+      "name": "æœåŠ¡",
       "href": "/services",
       "dropdown": {
         "columns": [
           {
-            "title": "人工智能和SaaS开发",
+            "title": "äººå·¥æ™ºèƒ½å’ŒSaaSå¼€å‘",
             "links": [
               {
-                "name": "人工智能驱动的应用程序",
+                "name": "äººå·¥æ™ºèƒ½é©±åŠ¨çš„åº”ç”¨ç¨‹åº",
                 "href": "/services/saas/ai_powered_app"
               },
               {
-                "name": "机器学习模型",
+                "name": "æœºå™¨å­¦ä¹ æ¨¡åž‹",
                 "href": "/services/saas/meachine_learning"
               },
               {
-                "name": "MVP 和 POC",
+                "name": "MVP å’Œ POC",
                 "href": "/services/saas/mvps"
               },
               {
-                "name": "软件即服务平台",
+                "name": "è½¯ä»¶å³æœåŠ¡å¹³å°",
                 "href": "/services/saas/saas_plateform"
               }
             ]
           },
           {
-            "title": "自动化",
+            "title": "è‡ªåŠ¨åŒ–",
             "links": [
               {
-                "name": "人工智能驱动的自动化",
+                "name": "äººå·¥æ™ºèƒ½é©±åŠ¨çš„è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/ai_powered_automation"
               },
               {
-                "name": "API集成自动化",
+                "name": "APIé›†æˆè‡ªåŠ¨åŒ–",
                 "href": "/services/automations/api_integration"
               },
               {
-                "name": "业务流程自动化",
+                "name": "ä¸šåŠ¡æµç¨‹è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/business_process_automation"
               },
               {
-                "name": "财务自动化",
+                "name": "è´¢åŠ¡è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/accounting"
               },
               {
-                "name": "基础设施自动化",
+                "name": "åŸºç¡€è®¾æ–½è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/devops-infrastructure-automation"
               },
               {
-                "name": "低代码自动化",
+                "name": "ä½Žä»£ç è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/low_code_automations"
               },
               {
-                "name": "营销和销售自动化",
+                "name": "è¥é”€å’Œé”€å”®è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/marketing-sales-automation"
               },
               {
-                "name": "机器人过程自动化",
+                "name": "æœºå™¨äººè¿‡ç¨‹è‡ªåŠ¨åŒ–",
                 "href": "/services/automations/robotic-process-automation"
               }
             ]
           },
           {
-            "title": "云和 DevOps",
+            "title": "äº‘å’Œ DevOps",
             "links": [
               {
-                "name": "Ci/Cd 管道",
+                "name": "Ci/Cd ç®¡é“",
                 "href": "/services/cloud/cicd_pipelines"
               },
               {
-                "name": "云安全",
+                "name": "äº‘å®‰å…¨",
                 "href": "/services/cloud/cloud_security"
               },
               {
-                "name": "数据库管理",
+                "name": "æ•°æ®åº“ç®¡ç†",
                 "href": "/services/cloud/database_management"
               },
               {
-                "name": "开发运营咨询",
+                "name": "å¼€å‘è¿è¥å’¨è¯¢",
                 "href": "/services/cloud/devops_consulting"
               }
             ]
           },
           {
-            "title": "数据解决方案",
+            "title": "æ•°æ®è§£å†³æ–¹æ¡ˆ",
             "links": [
               {
-                "name": "人工智能模型",
+                "name": "äººå·¥æ™ºèƒ½æ¨¡åž‹",
                 "href": "/services/data_solutions/ai_ml_models"
               },
               {
-                "name": "商业分析",
+                "name": "å•†ä¸šåˆ†æž",
                 "href": "/services/data_solutions/business_analytics"
               },
               {
-                "name": "数据分析仪表板",
+                "name": "æ•°æ®åˆ†æžä»ªè¡¨æ¿",
                 "href": "/services/data_solutions/data_analytics_dashboard"
               },
               {
-                "name": "数据抓取",
+                "name": "æ•°æ®æŠ“å–",
                 "href": "/services/data_solutions/data_scraping"
               }
             ]
           },
           {
-            "title": "数字化设计",
+            "title": "æ•°å­—åŒ–è®¾è®¡",
             "links": [
               {
-                "name": "图形和虚拟设计",
+                "name": "å›¾å½¢å’Œè™šæ‹Ÿè®¾è®¡",
                 "href": "/services/design/graphic_design"
               },
               {
-                "name": "标志设计",
+                "name": "æ ‡å¿—è®¾è®¡",
                 "href": "/services/design/logo_design"
               },
               {
-                "name": "移动应用程序设计",
+                "name": "ç§»åŠ¨åº”ç”¨ç¨‹åºè®¾è®¡",
                 "href": "/services/design/mobile_app_design"
               },
               {
-                "name": "产品设计",
+                "name": "äº§å“è®¾è®¡",
                 "href": "/services/design/product_design"
               },
               {
-                "name": "原型设计和线框图",
+                "name": "åŽŸåž‹è®¾è®¡å’Œçº¿æ¡†å›¾",
                 "href": "/services/design/prototyping_wireframing"
               },
               {
-                "name": "用户界面/用户体验设计",
+                "name": "ç”¨æˆ·ç•Œé¢/ç”¨æˆ·ä½“éªŒè®¾è®¡",
                 "href": "/services/design/ui_ux_design"
               },
               {
-                "name": "网页设计",
+                "name": "ç½‘é¡µè®¾è®¡",
                 "href": "/services/design/web_design"
               }
             ]
           },
           {
-            "title": "质量保证和测试",
+            "title": "è´¨é‡ä¿è¯å’Œæµ‹è¯•",
             "links": [
               {
-                "name": "API测试",
+                "name": "APIæµ‹è¯•",
                 "href": "/services/testing/api_testing"
               },
               {
-                "name": "自动化测试",
+                "name": "è‡ªåŠ¨åŒ–æµ‹è¯•",
                 "href": "/services/testing/automation_testing"
               },
               {
-                "name": "手动测试",
+                "name": "æ‰‹åŠ¨æµ‹è¯•",
                 "href": "/services/testing/manual_testing"
               },
               {
-                "name": "性能测试",
+                "name": "æ€§èƒ½æµ‹è¯•",
                 "href": "/services/testing/performance_testing"
               },
               {
-                "name": "安全测试",
+                "name": "å®‰å…¨æµ‹è¯•",
                 "href": "/services/testing/security_testing"
               }
             ]
           },
           {
-            "title": "网络和应用程序",
+            "title": "ç½‘ç»œå’Œåº”ç”¨ç¨‹åº",
             "links": [
               {
-                "name": "定制机器人",
+                "name": "å®šåˆ¶æœºå™¨äºº",
                 "href": "/services/web_and_mobile_development/custom_bots"
               },
               {
-                "name": "移动应用程序",
+                "name": "ç§»åŠ¨åº”ç”¨ç¨‹åº",
                 "href": "/services/web_and_mobile_development/app_applications"
               },
               {
-                "name": "网页应用程序",
+                "name": "ç½‘é¡µåº”ç”¨ç¨‹åº",
                 "href": "/services/web_and_mobile_development/web_applications"
               }
             ]
@@ -188,7 +188,7 @@
       }
     },
     {
-      "name": "行业",
+      "name": "è¡Œä¸š",
       "href": "/industries",
       "dropdown": {
         "columns": [
@@ -200,27 +200,27 @@
                 "href": "/industries/agriculture/dairy_farm"
               },
               {
-                "name": "农场",
+                "name": "å†œåœº",
                 "href": "/industries/agriculture/farms"
               },
               {
-                "name": "领域",
+                "name": "é¢†åŸŸ",
                 "href": "/industries/agriculture/fields"
               },
               {
-                "name": "灌溉",
+                "name": "çŒæº‰",
                 "href": "/industries/agriculture/irrigation"
               },
               {
-                "name": "????",
+                "name": "Landscaping",
                 "href": "/industries/agriculture/landscraping"
               },
               {
-                "name": "植物",
+                "name": "æ¤ç‰©",
                 "href": "/industries/agriculture/plants"
               },
               {
-                "name": "????",
+                "name": "Poultry Farm",
                 "href": "/industries/agriculture/poetry_farm"
               }
             ]
@@ -229,27 +229,27 @@
             "title": "??",
             "links": [
               {
-                "name": "??",
+                "name": "Clothing",
                 "href": "/industries/entertainment/clothing"
               },
               {
-                "name": "活动",
+                "name": "æ´»åŠ¨",
                 "href": "/industries/entertainment/events"
               },
               {
-                "name": "酒店",
+                "name": "é…’åº—",
                 "href": "/industries/entertainment/hotels"
               },
               {
-                "name": "媒体制作",
+                "name": "åª’ä½“åˆ¶ä½œ",
                 "href": "/industries/entertainment/media_production"
               },
               {
-                "name": "餐厅",
+                "name": "é¤åŽ…",
                 "href": "/industries/entertainment/restaurants"
               },
               {
-                "name": "??",
+                "name": "Supermarket",
                 "href": "/industries/entertainment/supermarket"
               }
             ]
@@ -262,48 +262,48 @@
                 "href": "/industries/food/bakery"
               },
               {
-                "name": "冷冻甜点",
+                "name": "å†·å†»ç”œç‚¹",
                 "href": "/industries/food/ice-cream-parlor"
               },
               {
-                "name": "咖啡馆和酒吧",
+                "name": "å’–å•¡é¦†å’Œé…’å§",
                 "href": "/industries/food/juice-bar"
               },
               {
-                "name": "精致餐饮",
+                "name": "ç²¾è‡´é¤é¥®",
                 "href": "/industries/food/fine-dining"
               },
               {
-                "name": "餐饮",
+                "name": "é¤é¥®",
                 "href": "/industries/food/catering"
               }
             ]
           },
           {
-            "title": "卫生保健",
+            "title": "å«ç”Ÿä¿å¥",
             "links": [
               {
-                "name": "脊椎按摩师",
+                "name": "è„Šæ¤ŽæŒ‰æ‘©å¸ˆ",
                 "href": "/industries/healthcare/chiropractor"
               },
               {
-                "name": "牙医",
+                "name": "ç‰™åŒ»",
                 "href": "/industries/healthcare/dentist"
               },
               {
-                "name": "按摩治疗师",
+                "name": "æŒ‰æ‘©æ²»ç–—å¸ˆ",
                 "href": "/industries/healthcare/massage_therapist"
               },
               {
-                "name": "肌肉治疗师",
+                "name": "è‚Œè‚‰æ²»ç–—å¸ˆ",
                 "href": "/industries/healthcare/myotherapist"
               },
               {
-                "name": "验光",
+                "name": "éªŒå…‰",
                 "href": "/industries/healthcare/optometry"
               },
               {
-                "name": "心理学家",
+                "name": "å¿ƒç†å­¦å®¶",
                 "href": "/industries/healthcare/psychologist"
               }
             ]
@@ -312,11 +312,11 @@
             "title": "????",
             "links": [
               {
-                "name": "咨询",
+                "name": "å’¨è¯¢",
                 "href": "/industries/professional/consulting"
               },
               {
-                "name": "教育",
+                "name": "æ•™è‚²",
                 "href": "/industries/professional/education"
               },
               {
@@ -328,15 +328,15 @@
                 "href": "/industries/professional/gym"
               },
               {
-                "name": "法律服务",
+                "name": "æ³•å¾‹æœåŠ¡",
                 "href": "/industries/professional/legal_services"
               },
               {
-                "name": "旅游服务",
+                "name": "æ—…æ¸¸æœåŠ¡",
                 "href": "/industries/professional/travel_services"
               },
               {
-                "name": "??",
+                "name": "Tutor",
                 "href": "/industries/professional/tutoer"
               }
             ]
@@ -345,27 +345,27 @@
             "title": "???",
             "links": [
               {
-                "name": "建筑与设计",
+                "name": "å»ºç­‘ä¸Žè®¾è®¡",
                 "href": "/industries/real_estate/architecture_design"
               },
               {
-                "name": "商业的",
+                "name": "å•†ä¸šçš„",
                 "href": "/industries/real_estate/commercial"
               },
               {
-                "name": "??",
+                "name": "Insurance",
                 "href": "/industries/real_estate/insurance"
               },
               {
-                "name": "????",
+                "name": "Micro Finance",
                 "href": "/industries/real_estate/micro_finance"
               },
               {
-                "name": "物业管理",
+                "name": "ç‰©ä¸šç®¡ç†",
                 "href": "/industries/real_estate/property_management"
               },
               {
-                "name": "住宅",
+                "name": "ä½å®…",
                 "href": "/industries/real_estate/residential"
               }
             ]
@@ -374,31 +374,31 @@
             "title": "????",
             "links": [
               {
-                "name": "木工",
+                "name": "æœ¨å·¥",
                 "href": "/industries/trades/carpentry"
               },
               {
-                "name": "??",
+                "name": "Cleaning",
                 "href": "/industries/trades/cleaning"
               },
               {
-                "name": "电工",
+                "name": "ç”µå·¥",
                 "href": "/industries/trades/electrician"
               },
               {
-                "name": "????",
+                "name": "Electronics",
                 "href": "/industries/trades/elctronics"
               },
               {
-                "name": "水暖",
+                "name": "æ°´æš–",
                 "href": "/industries/trades/plumbing"
               },
               {
-                "name": "??",
+                "name": "Roofing",
                 "href": "/industries/trades/roofing"
               },
               {
-                "name": "焊接",
+                "name": "ç„ŠæŽ¥",
                 "href": "/industries/trades/welding"
               }
             ]
@@ -407,15 +407,15 @@
       }
     },
     {
-      "name": "技术",
+      "name": "æŠ€æœ¯",
       "href": "/technologies",
       "dropdown": {
         "columns": [
           {
-            "title": "数据库",
+            "title": "æ•°æ®åº“",
             "links": [
               {
-                "name": "亚马逊动态数据库",
+                "name": "äºšé©¬é€ŠåŠ¨æ€æ•°æ®åº“",
                 "href": "/technologies/amazon_dynamodb"
               },
               {
@@ -431,20 +431,20 @@
                 "href": "/technologies/mysql"
               },
               {
-                "name": "苏帕贝斯",
+                "name": "è‹å¸•è´æ–¯",
                 "href": "/technologies/supabase"
               }
             ]
           },
           {
-            "title": "框架",
+            "title": "æ¡†æž¶",
             "links": [
               {
-                "name": "扑",
+                "name": "æ‰‘",
                 "href": "/technologies/flutter"
               },
               {
-                "name": "拉维尔",
+                "name": "æ‹‰ç»´å°”",
                 "href": "/technologies/laravel"
               },
               {
@@ -460,17 +460,17 @@
                 "href": "/technologies/nodejs"
               },
               {
-                "name": "反应",
+                "name": "ååº”",
                 "href": "/technologies/react"
               },
               {
-                "name": "反应本机",
+                "name": "ååº”æœ¬æœº",
                 "href": "/technologies/react_native"
               }
             ]
           },
           {
-            "title": "语言",
+            "title": "è¯­è¨€",
             "links": [
               {
                 "name": "C",
@@ -481,7 +481,7 @@
                 "href": "/technologies/cpp"
               },
               {
-                "name": "爪哇",
+                "name": "çˆªå“‡",
                 "href": "/technologies/java"
               },
               {
@@ -497,17 +497,17 @@
                 "href": "/technologies/python"
               },
               {
-                "name": "打字稿",
+                "name": "æ‰“å­—ç¨¿",
                 "href": "/technologies/typescript"
               }
             ]
           },
           {
-            "title": "工具",
+            "title": "å·¥å…·",
             "links": [
               {
-                "name": "Doctorhoster",
-                "href": "/technologies/dctr_hoasting"
+                "name": "DoctorHosters",
+                "href": "/technologies/doctorhosters"
               },
               {
                 "name": "Jotform",
@@ -522,19 +522,19 @@
                 "href": "/technologies/wordpress"
               },
               {
-                "name": "亚马逊",
+                "name": "äºšé©¬é€Š",
                 "href": "/technologies/amazon"
               },
               {
-                "name": "制作",
+                "name": "åˆ¶ä½œ",
                 "href": "/technologies/make"
               },
               {
-                "name": "扎皮尔",
+                "name": "æ‰Žçš®å°”",
                 "href": "/technologies/zapier"
               },
               {
-                "name": "购物",
+                "name": "è´­ç‰©",
                 "href": "/technologies/shopify"
               }
             ]
@@ -543,7 +543,7 @@
       }
     },
     {
-      "name": "??",
+      "name": "Partners",
       "href": "/others/dctr_hosting",
       "dropdown": {
         "columns": [
@@ -564,7 +564,7 @@
       }
     },
     {
-      "name": "关于我们",
+      "name": "å…³äºŽæˆ‘ä»¬",
       "href": "/#about",
       "dropdown": {
         "columns": [
@@ -576,11 +576,11 @@
                 "href": "/#about"
               },
               {
-                "name": "团队",
+                "name": "å›¢é˜Ÿ",
                 "href": "/#team"
               },
               {
-                "name": "职业机会",
+                "name": "èŒä¸šæœºä¼š",
                 "href": "/get-started"
               }
             ]
@@ -589,7 +589,7 @@
       }
     },
     {
-      "name": "联系我们",
+      "name": "è”ç³»æˆ‘ä»¬",
       "href": "/contact"
     }
   ]

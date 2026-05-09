@@ -113,10 +113,12 @@ const Footer = () => {
   const servicesNav = navbarData.navbar.find((item) => item.href === "/services");
   const industriesNav = navbarData.navbar.find((item) => item.href === "/industries");
   const technologiesNav = navbarData.navbar.find((item) => item.href === "/technologies");
+  const partnersNav = navbarData.navbar.find((item) => item.href === "/others/dctr_hosting");
   const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
   const servicesCategories = servicesNav?.dropdown?.columns ?? [];
   const industriesCategories = industriesNav?.dropdown?.columns ?? [];
   const technologiesCategories = technologiesNav?.dropdown?.columns ?? [];
+  const partnersCategories = partnersNav?.dropdown?.columns ?? [];
   const aboutLinks = aboutNav?.dropdown?.columns.flatMap((column) => column.links) ?? [];
 
   return (
@@ -158,10 +160,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-5">
           <FooterCategoryColumn title={servicesNav?.name ?? "Services"} categories={servicesCategories} />
           <FooterCategoryColumn title={industriesNav?.name ?? "Industries"} categories={industriesCategories} />
           <FooterCategoryColumn title={technologiesNav?.name ?? "Technologies"} categories={technologiesCategories} />
+          <FooterCategoryColumn title={partnersNav?.name ?? "Partners"} categories={partnersCategories} />
           <FooterStaticColumn title={helpColumn.title} links={helpColumn.links} />
         </div>
 

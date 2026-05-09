@@ -1,0 +1,323 @@
+[
+  {
+    "section_id": "hero_slider_1",
+    "section_title": "为什么选择我们",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "为什么选择我们？",
+          "secondary": "我们从不过度销售。我们仍然是最实惠的"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting.webp",
+        "primary_button": {
+          "text": "预订会议",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "查看托管计划",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "hero_slider_2",
+    "section_title": "托管速度提高 5 倍",
+    "is_slider": true,
+    "slides": [
+      {
+        "slide_id": 1,
+        "title": {
+          "primary": "速度提高 5 倍",
+          "secondary": "您的旧主机速度慢吗？试试我们 5 倍快的服务？"
+        },
+        "description": "",
+        "background_image_url": "/doctr_hosting/doctor_hosting_1.webp",
+        "primary_button": {
+          "text": "预订会议",
+          "link_url": "book_meeting"
+        },
+        "secondary_button": {
+          "text": "查看托管计划",
+          "link_url": "#pricing"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "domain_search",
+    "section_title": "域名搜索",
+    "title": "在这里搜索您的域名",
+    "sub_title": "您可以从这里找到 .com、.org、.net 和所有其他顶级域名。",
+    "placeholder_text": "在此输入您的域名...",
+    "tlds": [
+      {
+        "tld_name": ".com",
+        "price": "3,499 卢比/1 年",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".net",
+        "price": "4,399 卢比/1 年",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".org",
+        "price": "3,799 卢比/1 年",
+        "primary_color": "#e74c3c"
+      },
+      {
+        "tld_name": ".pk",
+        "price": "3,399 卢比/2 年",
+        "primary_color": "#e74c3c"
+      }
+    ]
+  },
+  {
+    "section_id": "hosting_plans",
+    "section_title": "不同的托管平台",
+    "main_title": "不同的托管平台",
+    "main_sub_title": "我们提供的每种类型的托管服务都经过进一步优化",
+    "plans_per_row": 3,
+    "plans": [
+      {
+        "plan_id": 1,
+        "title": "共享主机",
+        "badge": "免费域名",
+        "price": "700 卢比 - 4,500 卢比",
+        "duration": "3个月",
+        "color_theme": "cyan",
+        "features": [
+          "1GB - 无限 SSD 存储",
+          "10GB - 无限带宽",
+          "免费 SSL 证书",
+          "1 - 无限网站",
+          "1 - 无限数据库"
+        ],
+        "primary_button": {
+          "text": "查看计划",
+          "link_url": "/shared-hosting"
+        }
+      },
+      {
+        "plan_id": 2,
+        "title": "商务接待",
+        "badge": null,
+        "price": "7,000 卢比 - 50,000 卢比",
+        "duration": "每年",
+        "color_theme": "green",
+        "features": [
+          "5GB - 100GB 存储空间",
+          "无限带宽",
+          "域 1-2",
+          "专用IP地址",
+          "无限的电子邮件帐户"
+        ],
+        "primary_button": {
+          "text": "查看计划",
+          "link_url": "/business-hosting"
+        }
+      },
+      {
+        "plan_id": 3,
+        "title": "经销商托管",
+        "badge": null,
+        "price": "9,999 卢比 - 44,999 卢比",
+        "duration": "每月",
+        "color_theme": "cyan",
+        "features": [
+          "5GB - 50GB 存储空间",
+          "100GB - 1TB 带宽",
+          "域名 无限",
+          "CPanel/WHM",
+          "免费SSL"
+        ],
+        "primary_button": {
+          "text": "查看计划",
+          "link_url": "/reseller-hosting"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "extra_hosting_plans",
+    "section_title": "VPS 和专用服务器",
+    "plans_per_row": 2,
+    "plans": [
+      {
+        "plan_id": 4,
+        "title": "VPS 服务器",
+        "badge": null,
+        "price": "2,750 卢比 - 6,150 卢比",
+        "duration": "每月",
+        "color_theme": "green",
+        "features": [
+          "CPU 核心 4-8",
+          "内存 8GB - 30GB",
+          "固态硬盘存储",
+          "200GB - 800GB SSD 存储",
+          "1个专用IP"
+        ],
+        "primary_button": {
+          "text": "查看计划",
+          "link_url": "/vps-servers"
+        }
+      },
+      {
+        "plan_id": 5,
+        "title": "专用拍卖服务器",
+        "badge": null,
+        "color_theme": "cyan",
+        "features": [
+          "4-6个CPU核心",
+          "8-12 线程",
+          "内存 16GB - 128GB",
+          "容量 4TB - 8TB",
+          "连接性 1 Gbit/S 端口"
+        ],
+        "primary_button": {
+          "text": "查看计划",
+          "link_url": "/dedicated-servers"
+        }
+      }
+    ]
+  },
+  {
+    "section_id": "what_we_do",
+    "section_title": "包括我们所做的一切",
+    "main_sub_title": "包括全部",
+    "main_title": "我们做什么",
+    "services": [
+      {
+        "id": 1,
+        "title": "数据保护",
+        "description": "我们每周进行备份，以保护重要信息免遭损坏、泄露或丢失。",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/database-restore.png"
+      },
+      {
+        "id": 2,
+        "title": "Optimization",
+        "description": "我们优化服务器以提高数据处理、应用程序分发和整体性能的效率。",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/settings.png"
+      },
+      {
+        "id": 3,
+        "title": "数据分析",
+        "description": "我们对数据的定期分析使我们能够做出重要的安全决策。",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/file.png"
+      },
+      {
+        "id": 4,
+        "title": "数据加密",
+        "description": "我们以只有授权用户才能访问的方式对数据或信息进行编码。",
+        "icon_url": "https://img.icons8.com/wired/64/FFFFFF/cloud-storage.png"
+      }
+    ]
+  },
+  {
+    "section_id": "our_services",
+    "section_title": "我们的服务",
+    "main_title": "我们的服务",
+    "main_sub_title": "DoctorHoster 网络托管服务。",
+    "services_list": [
+      {
+        "id": 1,
+        "title": "实时聊天支持",
+        "description": "我们为客户提供实时聊天支持，以解答他们的所有问题。",
+        "icon_url": "https://img.icons8.com/ios-filled/100/333333/speech-bubble.png"
+      },
+      {
+        "id": 2,
+        "title": "域名转移",
+        "description": "我们为客户提供一键式轻松域名转移解决方案。",
+        "icon_url": "https://img.icons8.com/color/100/e74c3c/cloud-download.png"
+      },
+      {
+        "id": 3,
+        "title": "安全服务器",
+        "description": "我们 24/7 全天候管理和集成安全性，以保护我们的客户数据。",
+        "icon_url": "https://img.icons8.com/ios/100/333333/server.png"
+      },
+      {
+        "id": 4,
+        "title": "域面板",
+        "description": "我们提供易于客户使用的域控制面板。",
+        "icon_url": "https://img.icons8.com/ios/100/333333/www.png"
+      }
+    ]
+  },
+  {
+    "section_id": "call_to_action",
+    "section_title": "CTA 部分",
+    "background_color": "#e74c3c",
+    "title": "从我们这里获取您想要的主机",
+    "description": {
+      "line1": "DoctorHoster - 可靠的虚拟主机，价格无与伦比。 365/7/24 技术支持，99.99% 正常运行时间，30 天",
+      "line2": "退款保证以及不计量的磁盘空间和带宽"
+    },
+    "button": {
+      "text": "立即购买",
+      "link_url": "#purchase"
+    }
+  },
+  {
+    "section_id": "faqs",
+    "section_title": "FAQs",
+    "main_title": "FAQs",
+    "questions": [
+      {
+        "q_id": 1,
+        "question": "什么是虚拟主机以及为什么我需要它？",
+        "answer": "每个网站都会占用某处真实服务器上的空间。虚拟主机保存这些文件并将您的网站内容提供给在线用户。"
+      },
+      {
+        "q_id": 2,
+        "question": "我需要什么样的虚拟主机？",
+        "answer": "这取决于您网站的要求。对于新手和较小的网站来说，共享虚拟主机可能是正确的托管。对于那些需要更多管理的用户，VPS 托管或专用服务器是更好的选择。"
+      },
+      {
+        "q_id": 3,
+        "question": "网站建设者和网络托管之间的主要区别是什么？",
+        "answer": "网站构建器是一种可以帮助您轻松有效地创建网站的工具。虚拟主机提供和管理服务器，并为您提供空间和其他资源来托管您的网站。"
+      },
+      {
+        "q_id": 4,
+        "question": "什么是WordPress？",
+        "answer": "它是最著名的网站建设工具，它是一个CMS（内容管理系统），可以开发多种网站。"
+      },
+      {
+        "q_id": 5,
+        "question": "为什么要从 DoctorHoster 购买域名？",
+        "answer": "DoctorHoster 以非常便宜的价格提供您的域名，旨在提供卓越的客户体验。当您从 DoctorHoster 购买域名时，我们向您保证，它将为您提供更高标准的服务和帮助。我们的主要目标是打造一个以客户为中心的环境，充满全宇宙最满意的客户。 DoctorHoster 保证是我们卓越的品牌。"
+      },
+      {
+        "q_id": 6,
+        "question": "什么是 PHP 托管？",
+        "answer": "PHP 虚拟主机是可以理解和执行 PHP 编程语言的虚拟主机。 PHP是一种著名的服务器端脚本语言，服务器可以在其中处理源代码。这意味着前端客户端无法获取源代码。 DoctorHoster 以非常低且实惠的价格提供市场上最便宜的托管。我们提供廉价的共享托管套餐，比 GoDaddy 和 HostGator 更便宜且速度快 2 倍。我们提供低预算的托管、高质量的服务和无限的存储空间。最快的共享主机和高质量的服务。"
+      },
+      {
+        "q_id": 7,
+        "question": "什么是预算托管？",
+        "answer": "预算虚拟主机正在按照共享虚拟主机计划进行设置。这意味着您将拥有服务器的一小部分来托管您的网站。即使是最好的预算虚拟主机计划也无法满足您以较高价格购买但仍然相对实惠的所有需求。 DoctorHoster 通过 MySQL 数据库和 Cpanel 提供速度提高 2 倍的 PHP 托管。我们为个人和企业用途提供最佳的 PHP 托管计划。我们公司提供 24/7/365 天支持 PHP 和 MySQL 的虚拟主机。我们包括所有版本的 PHP 托管，其中包括 PHP 7 托管。"
+      },
+      {
+        "q_id": 8,
+        "question": "什么是 WordPress 托管？",
+        "answer": "WordPress 虚拟主机还可以使用共享网络服务器同时托管多个网站，但与虚拟主机不同的是，共享网络服务器上的每个网站都将是 WordPress 网站。 WordPress 虚拟主机专门为 WordPress 安装提供定制解决方案、服务和支持，以提高 WordPress 效率。如果您想要最好、最快的 WordPress 网络托管，请尝试我们的快速 WordPress 托管计划，并提供 30 天退款保证。 DoctorHoster 拥有超快速的网络服务器，可提供超快速的托管。我们最快的网络服务器使我们成为当前市场上最快的托管公司。我们最快的托管服务使我们的客户享受 WordPress 快速托管、快速 PHP 托管以及全球最快的共享托管。"
+      },
+      {
+        "q_id": 9,
+        "question": "什么是 WordPress 托管？",
+        "answer": "我们为客户提供托管网络托管服务和托管服务器解决方案。托管 WordPress 托管有点像拥有您的技术团队。我们的托管托管提供专业知识和经验来支持您的托管运营。 DoctorHoster 在当前市场上提供廉价的托管 WordPress 托管，价格仅为 24.99 美元。凭借我们的专业团队，我们可以提供最快的 WordPress 托管托管，以节省客户的宝贵时间。完全托管的 WordPress 托管可让您在晚上睡个好觉并放松身心。 DoctorHoster 提供价格实惠且专业的 WordPress 托管服务，使您的网站更快、更安全。我们还提供基本托管 WordPress 网站套餐，价格仅为 24.99 美元，包含终身免费域名、终身免费 SSL、无限带宽和无限磁盘空间。"
+      },
+      {
+        "q_id": 10,
+        "question": "什么是企业托管？",
+        "answer": "商业虚拟主机可在带有 cPanel 的 Linux 虚拟主机和带有 Plesk 的 Windows 虚拟主机中使用，具有私人服务器的资源和功能，无需服务器管理员。如果您的网站正在扩展，企业托管可提供比共享托管更强的性能，同时保持经济实惠且易于管理。"
+      }
+    ]
+  }
+]

@@ -523,7 +523,7 @@ const TECHNOLOGY_SLUG_SEO: Record<string, SeoConfig> = {
       "See the tools Devisgon uses for automation and product operations, including n8n, Make, Zapier, Amazon, Shopify, and WordPress.",
     keywords: ["automation tools", "n8n", "Make", "Zapier", "Shopify", "WordPress"],
   },
-  dctr_hoasting: {
+  doctorhosters: {
     title: "DoctorHoster Hosting Platform | Devisgon",
     description:
       "Explore DoctorHoster hosting and domain capabilities with Devisgon meeting support and a dedicated landing page.",
