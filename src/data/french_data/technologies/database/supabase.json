@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée technique de Supabase",
     "image": "/technologies/supabase/scope.webp",
     "items": [
@@ -83,16 +83,16 @@
       },
       {
         "metric": "99,95%",
-        "title": "Temps de disponibilité",
+        "title": "Uptime",
         "description": "Infrastructure haute disponibilité gérée par AWS et optimisée pour une disponibilité critique."
       },
       {
-        "metric": "Ouvrir",
+        "metric": "Open",
         "title": "Noyau source",
         "description": "Construit sur des normes open source telles que Postgres, GoTrue et PostgREST, empêchant un verrouillage restrictif."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Verrouillage du fournisseur",
         "description": "Exportez l'intégralité de votre base de données et de votre configuration à tout moment vers votre propre instance PostgreSQL auto-hébergée."
       }

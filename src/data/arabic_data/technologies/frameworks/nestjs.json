@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "هندسة التكنولوجيا",
+    "id": "technology-architecture",
     "title": "النطاق الفني لـ NestJS",
     "image": "/technologies/nestjs/scope.webp",
     "items": [
@@ -77,22 +77,22 @@
     "subtitle": "أداء يمكن التنبؤ به للواجهات الخلفية على مستوى المؤسسات.",
     "cards": [
       {
-        "metric": "حازم",
+        "metric": "Strict",
         "title": "اكتب السلامة",
         "description": "تخلص فعليًا من أخطاء الكتابة في وقت التشغيل من خلال الاستفادة من التكامل العميق لـ NestJS مع TypeScript."
       },
       {
         "metric": "100%",
-        "title": "قابل للاختبار",
+        "title": "Testable",
         "description": "دعم مدمج لـ Jest وأدوات الاختبار المتخصصة لاختبارات الوحدة والتكامل وe2e."
       },
       {
-        "metric": "حديث",
-        "title": "النظام البيئي",
+        "metric": "Modern",
+        "title": "Ecosystem",
         "description": "تكامل سلس مع TypeORM وPrisma وMongoose ومئات المكتبات التي تم اختبارها في المعارك."
       },
       {
-        "metric": "صفر",
+        "metric": "Zero",
         "title": "الاحتكاك التصميمي",
         "description": "تعمل الاتفاقيات المعمول بها على تقليل الوقت المستغرق في المناقشات المعمارية، مما يؤدي إلى تسريع تسليم الميزات."
       }

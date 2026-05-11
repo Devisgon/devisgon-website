@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import TechnologyHero from "@/components/technologies/hero";
@@ -11,6 +11,7 @@ import TechnologyConversation from "@/components/technologies/conversation";
 import { getCachedLanguage } from "@/lib/language";
 import { getTechnologySlugMetadata } from "@/lib/seo";
 import { getTechnologyData } from "@/data/loaders/technologies";
+import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -26,6 +27,12 @@ export default async function TechnologyDetailPage({ params, searchParams }: Pag
   const { slug } = await params;
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
+
+  if (slug.includes("_")) {
+    const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
+    redirect(`/technologies/${toCanonicalSlug(slug)}${langSuffix}`);
+  }
+
   const data = getTechnologyData(activeLang, slug);
 
   if (!data) {

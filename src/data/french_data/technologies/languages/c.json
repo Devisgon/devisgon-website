@@ -1,5 +1,5 @@
 {
-  "slug": "c-programming",
+  "slug": "c",
   "seo_metadata": {
     "title": "Services de programmation et d'architecture de systèmes de bas niveau C",
     "description": "Développement Enterprise C pour des systèmes hautes performances. Nous concevons des micrologiciels, des solutions embarquées et des noyaux critiques en termes de performances avec une précision de mémoire chirurgicale.",
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée architecturale des systèmes",
     "image": "/technologies/c/scope.webp",
     "items": [
@@ -77,22 +77,22 @@
     "subtitle": "Une efficacité inégalée pour le cœur de votre infrastructure numérique.",
     "cards": [
       {
-        "metric": "Proche de zéro",
+        "metric": "Near-Zero",
         "title": "Coût du prélèvement",
         "description": "Exécutez le code avec la plus grande efficacité d’instructions par horloge possible."
       },
       {
-        "metric": "Déterministe",
-        "title": "Latence",
+        "metric": "Deterministic",
+        "title": "Latency",
         "description": "Éliminez les pauses imprévisibles causées par les garbage collector trouvés dans les environnements d'exécution de haut niveau."
       },
       {
-        "metric": "OIN",
-        "title": "Standardisé",
+        "metric": "ISO",
+        "title": "Standardized",
         "description": "Le respect des normes C11/C17/C23 garantit que votre logique de base reste viable pendant des décennies."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Ballonnement d’exécution",
         "description": "Conservez la plus petite empreinte binaire possible, idéale pour l’informatique de pointe et l’intégration existante."
       }

@@ -1,26 +1,26 @@
 {
   "slug": "python",
   "seo_metadata": {
-    "title": "企业级 Python 开发 | 人工智能、数据科学与后端解决方案",
-    "description": "针对人工智能、机器学习和可扩展后端的定制化 Python 软件工程。我们利用现代 Pythonic 架构构建高速、易维护的系统。",
+    "title": "企业Python开发|人工智能、数据科学和后端解决方案",
+    "description": "适用于人工智能、机器学习和可扩展后端的定制 Python 软件工程。我们使用现代 Pythonic 架构构建高速、可维护的系统。",
     "keywords": [
-      "Python 软件开发",
+      "Python软件开发",
       "人工智能与机器学习工程",
-      "Django 与 FastAPI 解决方案",
-      "数据科学流水线",
+      "Django 和 FastAPI 解决方案",
+      "数据科学管道",
       "Python 自动化脚本",
-      "可扩展后端架构",
-      "Python 科学计算"
+      "可扩展的后端架构",
+      "科学计算Python"
     ]
   },
   "hero_section": {
     "eyebrow": "创新的语言",
-    "title": "凭借以下技术实现智能设计",
+    "title": "智能设计",
     "highlight": "Python",
-    "description": "利用专为开发效率、科学计算和企业级自动化优化的语言，加速从构思到投产的进程。",
+    "description": "使用针对开发人员生产力、科学计算和企业级自动化进行优化的语言，加速从创意到生产的过程。",
     "side_image": "/technologies/python/hero.webp",
     "primary_cta": {
-      "text": "构建您的逻辑",
+      "text": "建立你的逻辑",
       "href": "/contact"
     },
     "secondary_cta": {
@@ -29,89 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 Python 进行工程设计",
-    "subtitle": "Python 为大规模解决复杂的数学和逻辑挑战提供了最清晰的路径。",
+    "title": "为什么我们使用 Python 进行工程师",
+    "subtitle": "Python 提供了大规模解决复杂数学和逻辑挑战的最简洁途径。",
     "paragraphs": [
-      "Python 是我们处理数据密集型应用和人工智能的主要引擎。其“极简美学”允许我们的架构师编写富有表现力且易于维护的代码，缩短了科学研究与生产级软件之间的距离。通过利用其庞大的专业库生态系统，我们可以用更少的代码行解决复杂问题。",
-      "除了在人工智能领域的统治地位外，Python 在后端工程中的多功能性（通过 Django 和 FastAPI 等框架）确保了我们能够构建高度安全、可扩展的 API。这种多领域的处理能力使我们能够在单一的高速语言栈下，统一您的数据科学和 Web 工程团队。"
+      "Python 是我们数据密集型应用程序和人工智能的主要引擎。它的“美学简单性”使我们的架构师能够编写富有表现力、可维护的代码，从而缩小科学研究和生产就绪软件之间的差距。通过利用其庞大的专业库生态系统，我们可以用更少的代码行解决复杂的问题。",
+      "除了在人工智能领域占据主导地位之外，Python 在后端工程方面的多功能性（通过 Django 和 FastAPI 等框架）确保我们可以构建高度安全、可扩展的 API。这种多领域功能使我们能够将您的数据科学和网络工程团队统一在单一的高速语言堆栈下。"
     ],
     "cards": [
       {
-        "title": "科学计算的主导地位",
+        "title": "科学优势",
         "description": "利用 NumPy、Pandas 和 TensorFlow 等行业标准库进行高级数据处理。",
         "icon_type": "FaFlask"
       },
       {
-        "title": "快速原型设计",
-        "description": "比任何其他高级语言都能更快地将复杂的想法转化为功能性的原型验证。",
+        "title": "快速原型制作",
+        "description": "比任何其他高级语言更快地将复杂的想法转化为功能概念验证。",
         "icon_type": "FaRocket"
       },
       {
         "title": "清晰的可读性",
-        "description": "通过强调清晰度的语法执行高标准，降低长期维护成本。",
+        "description": "使用强调清晰度的语法强制执行高标准，从而降低长期维护成本。",
         "icon_type": "FaEye"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Python 技术范畴",
+    "title": "Python 技术范围",
     "image": "/technologies/python/scope.webp",
     "items": [
       {
-        "title": "人工智能与机器学习模型",
-        "description": "架构并部署预测模型、自然语言处理 (NLP) 引擎和计算机视觉系统至生产环境。"
+        "title": "人工智能和机器学习模型",
+        "description": "构建预测模型、NLP 引擎和计算机视觉系统并将其部署到生产中。"
       },
       {
-        "title": "高吞吐量数据流水线",
-        "description": "编排健壮的 ETL 流程，将海量数据集转化为可操作的业务情报。",
-        "icon_type": "FaDatabase"
+        "title": "高吞吐量数据管道",
+        "description": "编排强大的 ETL 流程，将海量数据集转换为可操作的运营智能。"
       },
       {
         "title": "异步 API 微服务",
-        "description": "在高速并发环境下，使用 FastAPI 和 Trio 构建极速异步后端。"
+        "description": "使用 FastAPI 和 Trio 为高并发环境构建闪电般快速的异步后端。"
       }
     ]
   },
   "edge_section": {
-    "title": "Python 优势",
-    "subtitle": "为数据驱动型组织提供的战略优势。",
+    "title": "Python 边缘",
+    "subtitle": "数据驱动型组织的战略优势。",
     "cards": [
       {
         "metric": "50%",
-        "title": "更快的上市速度",
-        "description": "针对复杂逻辑和科学计算模块，平均缩短 50% 的初始开发时间。"
+        "title": "更快的TTM",
+        "description": "平均减少复杂逻辑和科学模块​​的初始开发时间。"
       },
       {
         "metric": "100%",
-        "title": "AI 兼容性",
-        "description": "与全球最先进的机器学习和自动化框架无缝集成。"
+        "title": "人工智能兼容",
+        "description": "与世界上最先进的机器学习和自动化框架无缝集成。"
       },
       {
-        "metric": "200万+",
-        "title": "开源库",
-        "description": "即时获取 Python 软件包索引 (PyPI)，涵盖各行各业经过预审的模块。"
+        "metric": "2M+",
+        "title": "开放图书馆",
+        "description": "立即访问 Python 包索引 (PyPI)，了解所有行业的预先审查模块。"
       },
       {
-        "metric": "零",
-        "title": "复杂度冗余",
-        "description": "即使底层逻辑日益复杂，依然能保持简洁、易读的代码库。"
+        "metric": "Zero",
+        "title": "复杂性膨胀",
+        "description": "即使底层逻辑变得越来越复杂，也要保持简单、可读的代码库。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Python 是一场实验，旨在探索在以下特性背后能隐藏多少复杂度",
-    "highlight": "极简美学"
+    "quote": "Python 是一项实验，旨在探究背后到底隐藏着多少复杂性",
+    "highlight": "审美简单"
   },
   "conversation_section": {
-    "title": "构建您的智能架构",
-    "subtitle": "咨询我们的首席 Python 专家，定义您的人工智能路线图或优化您的后端基础设施。",
-    "full_name_label": "首席数据架构师姓名",
-    "business_email_label": "公司邮箱",
+    "title": "构建你的智慧",
+    "subtitle": "咨询我们的首席 Python 专家来定义您的 AI 路线图或优化您的后端基础设施。",
+    "full_name_label": "首席数据架构师",
+    "business_email_label": "企业邮箱",
     "message_label": "战略需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的数据挑战或人工智能/机器学习愿景...",
-    "button_text": "申请技术审计"
+    "message_placeholder": "描述您的数据挑战或您的 AI/ML 愿景...",
+    "button_text": "请求技术审核"
   }
 }

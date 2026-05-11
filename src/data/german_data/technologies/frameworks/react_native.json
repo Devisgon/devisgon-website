@@ -25,7 +25,7 @@
     },
     "secondary_cta": {
       "text": "Technische Dokumentation",
-      "href": "/technologies/react_native#technology-architecture"
+      "href": "/technologies/react-native#technology-architecture"
     }
   },
   "why_use_section": {
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "Mobiler architektonischer Umfang",
     "image": "/technologies/react_native/scope.webp",
     "items": [
@@ -82,17 +82,17 @@
         "description": "Deutliche Verkürzung der Markteinführungszeit durch gleichzeitiges Engineering für zwei Plattformen."
       },
       {
-        "metric": "Einheimisch",
+        "metric": "Native",
         "title": "UI-Treue",
         "description": "Durch den direkten Zugriff auf OEM-Widgets wird sichergestellt, dass die App den plattformspezifischen Designrichtlinien perfekt entspricht."
       },
       {
-        "metric": "Groß",
+        "metric": "Large",
         "title": "Talentpool",
         "description": "Nutzen Sie das riesige React-Ökosystem und erleichtern Sie so die Skalierung Ihres Engineering-Teams."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "Web-Hürden",
         "description": "Vermeiden Sie Leistungsengpässe mobiler Browser, indem Sie die Ausführung direkt im nativen UI-Thread des Geräts durchführen."
       }

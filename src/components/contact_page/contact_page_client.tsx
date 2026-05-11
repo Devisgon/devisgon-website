@@ -400,7 +400,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                   <input type="checkbox" className="mt-1" required />
                   <p className="text-t-primary">
                     {content.form.labels.privacy_consent}{" "}
-                    <Link href="/privacy_policies" className="text-t_secondary underline">
+                    <Link href="/privacy-policies" className="text-t_secondary underline">
                       {content.form.labels.privacy_policy}
                     </Link>{" "}
                     {content.form.labels.privacy_consent_suffix}

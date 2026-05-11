@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée de la conception MongoDB",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
@@ -82,17 +82,17 @@
         "description": "Accélérez le développement en utilisant un format de données qui reflète les objets natifs dans la plupart des langages de programmation."
       },
       {
-        "metric": "Élastique",
-        "title": "Évolutivité",
+        "metric": "Elastic",
+        "title": "Scalability",
         "description": "Évoluez horizontalement sur du matériel standard à l’aide du partitionnement natif sans aucun temps d’arrêt des applications."
       },
       {
         "metric": "99,99%",
-        "title": "Temps de disponibilité",
+        "title": "Uptime",
         "description": "Fiabilité obtenue grâce à des jeux de répliques distribués et à des protocoles d'auto-réparation automatisés."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Goulots d'étranglement SQL",
         "description": "Évitez les problèmes de performances liés aux jointures relationnelles complexes en utilisant des documents dénormalisés et autonomes."
       }

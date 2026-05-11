@@ -78,9 +78,33 @@ body {
   animation-play-state: paused;
 }
 
+@keyframes navigation-progress {
+  0% {
+    transform: translateX(-120%);
+  }
+
+  45% {
+    transform: translateX(20%);
+  }
+
+  100% {
+    transform: translateX(120vw);
+  }
+}
+
+.navigation-progress-bar {
+  animation: navigation-progress 1.15s ease-in-out infinite;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .service-tech-marquee {
     animation: none;
+  }
+
+  .navigation-progress-bar {
+    animation: none;
+    transform: none;
+    width: 100%;
   }
 }
 @custom-variant dark (&:where(.dark, .dark *));

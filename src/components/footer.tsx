@@ -21,12 +21,19 @@ interface FooterCategory {
 }
 
 const getCookieValue = (name: string): string | null => {
+  if (typeof document === "undefined") {
+    return null;
+  }
+
   const token = `${name}=`;
   const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
   return match ? decodeURIComponent(match.slice(token.length)) : null;
 };
 
-const linkClass = "text-sm font-medium text-t-secondary transition-colors hover:text-btn-primary md:text-base";
+const getInitialLanguage = () => normalizeLanguage(getCookieValue("lang"));
+
+const linkClass =
+  "cursor-pointer text-sm font-medium text-t-secondary underline-offset-4 transition-colors hover:text-btn-primary hover:underline md:text-base";
 
 const FooterStaticColumn = ({ title, links }: FooterColumn) => (
   <div className="flex flex-col items-start">
@@ -45,12 +52,23 @@ const FooterStaticColumn = ({ title, links }: FooterColumn) => (
 
 const FooterCategoryColumn = ({ title, categories }: { title: string; categories: FooterCategory[] }) => {
   const [activeCategory, setActiveCategory] = useState<FooterCategory | null>(null);
+  const directLinks = categories.length === 1 && !categories[0].title ? categories[0].links : null;
 
   return (
     <div className="flex flex-col items-start">
       <h3 className="mb-5 text-xl font-bold text-t-primary">{activeCategory ? activeCategory.title : title}</h3>
 
-      {activeCategory ? (
+      {directLinks ? (
+        <ul className="flex flex-col gap-3">
+          {directLinks.map((link) => (
+            <li key={`${title}-${link.href}`}>
+              <a href={link.href} className={linkClass}>
+                {link.name}
+              </a>
+            </li>
+          ))}
+        </ul>
+      ) : activeCategory ? (
         <>
           <button
             type="button"
@@ -78,7 +96,7 @@ const FooterCategoryColumn = ({ title, categories }: { title: string; categories
               <button
                 type="button"
                 onClick={() => setActiveCategory(category)}
-                className="text-left text-sm font-medium text-t-secondary transition-colors hover:text-btn-primary md:text-base"
+                className={linkClass}
               >
                 {category.title}
               </button>
@@ -91,7 +109,7 @@ const FooterCategoryColumn = ({ title, categories }: { title: string; categories
 };
 
 const Footer = () => {
-  const [currentLang, setCurrentLang] = useState("en");
+  const [currentLang, setCurrentLang] = useState(getInitialLanguage);
 
   useEffect(() => {
     const syncLanguageFromCookie = () => {
@@ -105,15 +123,17 @@ const Footer = () => {
 
   const footerData = useMemo(() => getFooterDataByLang(currentLang), [currentLang]);
   const navbarData = useMemo(() => getNavbarDataByLang(currentLang), [currentLang]);
+  const isRTL = currentLang === "ur" || currentLang === "ar";
   const footerColumns = footerData.columns as FooterColumn[];
   const companyColumn = footerColumns.find((column) => column.title.toLowerCase().includes("company")) ?? footerColumns[0];
   const helpColumn = footerColumns.find((column) => column.title.toLowerCase().includes("help")) ?? footerColumns[1];
   const newsletterColumn =
     footerColumns.find((column) => column.title.toLowerCase().includes("newsletter")) ?? footerColumns[2];
+  const legalLinks = helpColumn.links.filter((link) => link.href.includes("privacy") || link.href.includes("terms"));
   const servicesNav = navbarData.navbar.find((item) => item.href === "/services");
   const industriesNav = navbarData.navbar.find((item) => item.href === "/industries");
   const technologiesNav = navbarData.navbar.find((item) => item.href === "/technologies");
-  const partnersNav = navbarData.navbar.find((item) => item.href === "/others/dctr_hosting");
+  const partnersNav = navbarData.navbar.find((item) => item.href === "/partners/dctr-hosting");
   const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
   const servicesCategories = servicesNav?.dropdown?.columns ?? [];
   const industriesCategories = industriesNav?.dropdown?.columns ?? [];
@@ -122,7 +142,11 @@ const Footer = () => {
   const aboutLinks = aboutNav?.dropdown?.columns.flatMap((column) => column.links) ?? [];
 
   return (
-    <footer className="bg-bg-primary px-6 pb-4 pt-14 text-primary md:px-12 lg:px-20">
+    <footer
+      className="bg-bg-primary px-6 pb-4 pt-14 text-primary md:px-12 lg:px-20"
+      dir={isRTL ? "rtl" : "ltr"}
+      suppressHydrationWarning
+    >
       <div className="flex w-full flex-col gap-10">
         <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-4">
           <div className="flex flex-col items-start gap-7">
@@ -160,12 +184,11 @@ const Footer = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-5">
+        <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
           <FooterCategoryColumn title={servicesNav?.name ?? "Services"} categories={servicesCategories} />
           <FooterCategoryColumn title={industriesNav?.name ?? "Industries"} categories={industriesCategories} />
           <FooterCategoryColumn title={technologiesNav?.name ?? "Technologies"} categories={technologiesCategories} />
           <FooterCategoryColumn title={partnersNav?.name ?? "Partners"} categories={partnersCategories} />
-          <FooterStaticColumn title={helpColumn.title} links={helpColumn.links} />
         </div>
 
         <div className="flex flex-col items-start lg:hidden">
@@ -173,8 +196,15 @@ const Footer = () => {
           <FooterNewsletterForm lang={currentLang} />
         </div>
 
-        <div className="border-t border-t-[#D1AFEC] p-2 text-center dark:border-[#664282]">
-          <p className="text-sm text-t-primary">{footerData.copyright}</p>
+        <div className="flex flex-col gap-3 border-t border-t-[#D1AFEC] px-0 py-4 text-sm text-t-primary dark:border-[#664282] md:flex-row md:items-center md:justify-between">
+          <p>{footerData.copyright}</p>
+          <div className="flex flex-wrap gap-x-5 gap-y-2 md:justify-end">
+            {legalLinks.map((link) => (
+              <a key={`${link.href}-${link.name}`} href={link.href} className={linkClass}>
+                {link.name}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </footer>

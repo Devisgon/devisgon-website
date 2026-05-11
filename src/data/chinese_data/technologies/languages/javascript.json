@@ -1,26 +1,26 @@
 {
   "slug": "javascript",
   "seo_metadata": {
-    "title": "通用 JavaScript 开发 | 全栈 Web 与 Node.js 解决方案",
-    "description": "针对动态 Web 应用的专业 JavaScript 实施。我们利用 V8 引擎性能和事件驱动架构构建可扩展的全栈系统。",
+    "title": "通用 JavaScript 开发 |全栈 Web 和 Node.js 解决方案",
+    "description": "动态 Web 应用程序的专家 JavaScript 实现。我们利用 V8 引擎性能和事件驱动架构来构建可扩展的全栈系统。",
     "keywords": [
       "JavaScript 开发",
-      "ES6+ Web 标准",
-      "V8 引擎优化",
+      "ES6+ 网络标准",
+      "V8 发动机优化",
       "异步编程",
-      "通用 JavaScript (Universal JS)",
+      "通用JavaScript",
       "事件驱动架构",
       "全栈 JS 解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "Web 的核心语言",
-    "title": "凭借以下技术实现动态敏捷",
+    "eyebrow": "网络语言",
+    "title": "动态敏捷性",
     "highlight": "JavaScript",
-    "description": "使用全球最通用的语言驱动您的整个产品生命周期，提供从浏览器到服务器的高性能交互体验。",
+    "description": "使用地球上最通用的语言为您的整个产品生命周期提供支持，提供从浏览器到服务器的高性能交互性。",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "优化您的技术栈",
+      "text": "优化你的堆栈",
       "href": "/contact"
     },
     "secondary_cta": {
@@ -29,88 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 JavaScript 进行工程设计",
-    "subtitle": "JavaScript 是现代数字体验的基石，提供无与伦比的速度和全球覆盖能力。",
+    "title": "为什么我们使用 JavaScript 进行工程师",
+    "subtitle": "JavaScript 是现代数字体验的基石，提供无与伦比的速度和普遍的覆盖范围。",
     "paragraphs": [
-      "JavaScript 是我们构建响应式、以用户为中心的应用的首选工具。通过利用其非阻塞事件循环和高速 V8 引擎，我们交付的界面能即时响应用户输入，同时通过统一且高效的语言生态系统处理复杂的后端编排。",
-      "JavaScript 的真正力量在于其“通用性 (Universal)”。通过在客户端和服务器之间共享逻辑，我们的团队减少了架构摩擦，加速了功能交付，并确保您的业务逻辑在数字基础设施的每个触点上都保持一致。"
+      "JavaScript 是我们构建反应式、以用户为中心的应用程序的主要工具。通过利用其非阻塞事件循环和高速 V8 引擎，我们提供的界面可以立即响应用户输入，同时通过统一的高速语言生态系统处理复杂的后端编排。",
+      "JavaScript 的真正力量在于它的“通用”性质。通过在客户端和服务器之间共享逻辑，我们的团队减少了架构摩擦，加速了功能交付，并确保您的业务逻辑在数字基础设施的每个接触点上保持一致。"
     ],
     "cards": [
       {
-        "title": "全球覆盖",
-        "description": "在浏览器、服务器和移动设备上执行相同的代码库，实现最大程度的逻辑重用。",
+        "title": "普遍覆盖",
+        "description": "跨浏览器、服务器和移动设备执行相同的代码库，以实现最大程度的逻辑重用。",
         "icon_type": "FaGlobe"
       },
       {
-        "title": "异步动力",
-        "description": "使用 Promise 和 Async/Await 处理数千个并发操作，且不会阻塞主线程。",
+        "title": "异步电源",
+        "description": "使用 Promises 和 Async/Await 处理数千个并发操作，而不阻塞主线程。",
         "icon_type": "FaSync"
       },
       {
         "title": "充满活力的生态系统",
-        "description": "获取全球最大的软件包注册表 (npm)，利用经受过实战检验的模块实现快速功能集成。",
+        "description": "访问世界上最大的包注册表 (npm)，获取经过实战检验的模块和快速功能集成。",
         "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "技术范畴",
+    "title": "技术范围",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "事件驱动型后端",
-        "description": "利用 Node.js 事件循环构建高并发服务端服务，实现极致的吞吐量。"
+        "title": "事件驱动后端",
+        "description": "构建高并发服务器端服务，利用 Node.js 事件循环实现极高的吞吐量。"
       },
       {
-        "title": "响应式前端状态",
-        "description": "使用现代模式构建复杂的动态 UI，确保视图层与底层数据保持完美同步。"
+        "title": "反应式前端状态",
+        "description": "使用现代模式构建复杂、生动的 UI，确保视图层与底层数据保持完美同步。"
       },
       {
-        "title": "无服务器与边缘计算",
-        "description": "在边缘部署轻量级 JavaScript 函数，实现大规模个性化、低延迟的内容交付。"
+        "title": "无服务器和边缘计算",
+        "description": "将轻量级 JavaScript 函数部署到边缘，以大规模地交付个性化、低延迟的内容。"
       }
     ]
   },
   "edge_section": {
-    "title": "JavaScript 优势",
-    "subtitle": "为快速发展的数字世界提供的战略性能优势。",
+    "title": "JavaScript 边缘",
+    "subtitle": "快速数字世界的战略绩效优势。",
     "cards": [
       {
-        "metric": "极速",
-        "title": "执行性能",
-        "description": "Google 的 V8 引擎将 JS 实时编译为机器代码，性能足以媲美传统编程语言。"
+        "metric": "Fast",
+        "title": "Execution",
+        "description": "Google 的 V8 引擎将 JS 实时编译为机器代码，性能可与传统语言相媲美。"
       },
       {
         "metric": "100%",
-        "title": "全栈能力",
-        "description": "统一的语言栈减少了上下文切换，并简化了从开发到部署的工作流。"
+        "title": "Full-Stack",
+        "description": "统一语言堆栈减少了上下文切换并简化了开发到部署的工作流程。"
       },
       {
-        "metric": "200万+",
-        "title": "开源库",
-        "description": "获取海量的全球预测试技术模块，大幅缩短交付周期。"
+        "metric": "2M+",
+        "title": "开放图书馆",
+        "description": "访问预先测试的技术模块的庞大全球存储库以加速交付。"
       },
       {
-        "metric": "零",
-        "title": "平台障碍",
-        "description": "唯一被所有主流浏览器原生支持的语言，确保 100% 的平台兼容性。"
+        "metric": "Zero",
+        "title": "Barriers",
+        "description": "唯一所有主流浏览器原生支持的语言，确保 100% 平台兼容性。"
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript 让我们能够在不丧失以下优势的情况下，构建最复杂的界面",
-    "highlight": "架构的敏捷性"
+    "quote": "JavaScript 允许我们构建最复杂的界面而不丢失",
+    "highlight": "架构敏捷性"
   },
   "conversation_section": {
-    "title": "规划您的基础设施",
-    "subtitle": "咨询我们的首席技术专家，为您的数字产品定义可扩展的 JavaScript 路线图。",
-    "full_name_label": "首席开发人员姓名",
-    "business_email_label": "单位邮箱",
+    "title": "构建您的基础设施",
+    "subtitle": "请咨询我们的首席技术专家，为您的数字产品定义可扩展的 JavaScript 路线图。",
+    "full_name_label": "首席开发人员",
+    "business_email_label": "实体邮箱",
     "message_label": "战略需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的 JavaScript 架构挑战或性能目标...",
-    "button_text": "申请咨询"
+    "message_placeholder": "描述您的 JavaScript 架构挑战或性能目标...",
+    "button_text": "请求咨询"
   }
 }

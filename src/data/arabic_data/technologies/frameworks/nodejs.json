@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "هندسة التكنولوجيا",
+    "id": "technology-architecture",
     "title": "النطاق الفني",
     "image": "/technologies/node_js/scope.webp",
     "items": [
@@ -87,13 +87,13 @@
         "description": "تقليل أوقات الاستجابة للتطبيقات المرتبطة بالإدخال/الإخراج مقارنة بالبيئات المتزامنة التقليدية."
       },
       {
-        "metric": "أعزب",
+        "metric": "Single",
         "title": "كومة اللغة",
         "description": "قم بتحسين إنتاجية المطورين باستخدام JavaScript عبر دورة حياة تطوير المنتج بأكملها."
       },
       {
-        "metric": "صفر",
-        "title": "قفل",
+        "metric": "Zero",
+        "title": "Lock-in",
         "description": "حافظ على التحكم الكامل في بيئة التشغيل الخاصة بك عبر أي بنية أساسية سحابية أو محلية."
       }
     ]

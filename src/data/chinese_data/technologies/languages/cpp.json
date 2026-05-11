@@ -1,26 +1,26 @@
 {
   "slug": "cpp",
   "seo_metadata": {
-    "title": "高性能 C++ 开发 | 系统与游戏工程",
-    "description": "专业的 C++ 软件工程服务。我们使用现代 C++20/23 标准为低延迟应用构建高性能、资源利用率高的系统。",
+    "title": "高性能 C++ 开发 |系统与游戏工程",
+    "description": "专家 C++ 软件工程服务。我们使用现代 C++20/23 标准为低延迟应用程序构建高性能、资源高效的系统。",
     "keywords": [
-      "C++ 软件开发",
+      "C++软件开发",
       "现代 C++20",
       "低延迟系统",
       "零成本抽象",
-      "RAII 内存管理",
+      "RAII内存管理",
       "C++ 性能优化",
-      "STL 与 Boost 集成"
+      "STL 和 Boost 集成"
     ]
   },
   "hero_section": {
-    "eyebrow": "高性能系统级语言",
-    "title": "凭借以下技术实现无与伦比的力量",
-    "highlight": "现代 C++",
-    "description": "使用现代 C++ 标准构建需要密集计算、底层硬件控制和复杂资源管理的高性能应用程序。",
+    "eyebrow": "高性能系统语言",
+    "title": "无与伦比的力量",
+    "highlight": "现代C++",
+    "description": "使用现代 C++ 标准构建需要密集计算、低级硬件控制和复杂资源管理的高性能应用程序。",
     "side_image": "/technologies/cpp/hero.webp",
     "primary_cta": {
-      "text": "优化您的核心层",
+      "text": "优化你的核心",
       "href": "/contact"
     },
     "secondary_cta": {
@@ -29,57 +29,57 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 C++ 进行工程设计",
-    "subtitle": "C++ 提供了在不牺牲运行时性能的前提下构建复杂抽象的独特能力。",
+    "title": "为什么我们使用 C++ 进行工程师",
+    "subtitle": "C++ 提供了在不牺牲运行时性能的情况下构建复杂抽象的独特能力。",
     "paragraphs": [
-      "我们为性能至上的引擎和系统级基础设施选择 C++。通过利用“零成本抽象”，我们可以使用高级面向对象和泛型编程模式，这些模式能够编译成极其高效的机器代码，确保开发者的意图永远不会成为处理器的瓶颈。",
-      "通过实施现代 RAII（资源获取即初始化）模式和智能指针，我们消除了常见的内存泄漏和线程问题。这使我们的团队能够为金融科技、游戏和实时模拟等行业交付极其稳定的软件，在这些领域，可靠性是成功的首要衡量标准。"
+      "我们选择 C++ 作为性能关键型引擎和系统级基础设施。通过利用“零成本抽象”，我们可以利用高级面向对象和通用编程模式，编译为高效的机器代码，确保开发人员的意图永远不会成为处理器的瓶颈。",
+      "通过现代 RAII（资源获取即初始化）模式和智能指针的实现，我们消除了常见的内存泄漏和线程问题。这使得我们的团队能够为金融科技、游戏和实时模拟等行业提供极其稳定的软件，在这些行业中，可靠性是成功的主要衡量标准。"
     ],
     "cards": [
       {
         "title": "零成本抽象",
-        "description": "构建高级逻辑，且不会产生其他托管语言中常见的性能损失。",
+        "description": "构建高级逻辑，而不会出现其他托管语言典型的性能损失。",
         "icon_type": "FaZap"
       },
       {
         "title": "确定性生命周期",
-        "description": "通过 RAII 实现可预测的内存管理，确保最佳资源利用，且无垃圾回收停顿。",
+        "description": "通过 RAII 进行可预测的内存管理可确保最佳的资源利用率，而无需垃圾收集暂停。",
         "icon_type": "FaClock"
       },
       {
-        "title": "多范式动力",
-        "description": "无缝融合过程式、函数式和面向对象风格，以适应特定的架构需求。",
+        "title": "多范式力量",
+        "description": "无缝融合过程式、功能式和面向对象的风格，以满足特定的架构需求。",
         "icon_type": "FaLayerGroup"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "C++ 架构范畴",
+    "title": "C++ 架构范围",
     "image": "/technologies/cpp/scope.webp",
     "items": [
       {
         "title": "低延迟引擎设计",
-        "description": "以微秒级精度开发高频交易平台和实时处理引擎。"
+        "description": "开发微秒级精度的高频交易平台和实时处理引擎。"
       },
       {
-        "title": "资源密集型桌面应用",
+        "title": "资源密集型桌面应用程序",
         "description": "构建需要直接 GPU 和 CPU 优化的强大图形工具、CAD 软件和多媒体套件。"
       },
       {
-        "title": "嵌入式与物联网核心",
-        "description": "为必须严格控制内存占用的跨平台硬件目标构建稳健的逻辑架构。"
+        "title": "嵌入式和物联网核心",
+        "description": "为必须严格控制内存占用的跨平台硬件目标构建强大的逻辑。"
       }
     ]
   },
   "edge_section": {
-    "title": "C++ 优势",
-    "subtitle": "为企业核心模块提供的战略性能优势。",
+    "title": "C++ 边缘",
+    "subtitle": "企业核心的战略绩效优势。",
     "cards": [
       {
-        "metric": "最大化",
-        "title": "吞吐量",
-        "description": "通过手动内存控制和缓存优化，实现尽可能高的数据处理速度。"
+        "metric": "Max",
+        "title": "Throughput",
+        "description": "通过手动内存控制和缓存优化实现尽可能高的数据处理速度。"
       },
       {
         "metric": "100%",
@@ -87,30 +87,30 @@
         "description": "直接访问系统资源和硬件寄存器，实现无与伦比的执行效率。"
       },
       {
-        "metric": "遗留系统",
-        "title": "互操作性",
-        "description": "在对高级逻辑层进行现代化的同时，与 C 语言库和现有系统无缝集成。"
+        "metric": "Legacy",
+        "title": "Interoperability",
+        "description": "与 C 库和现有系统无缝集成，同时实现高级逻辑层的现代化。"
       },
       {
-        "metric": "零",
-        "title": "运行时臃肿",
-        "description": "仅包含应用程序所需的特定库和功能，保持极小的体积占用。"
+        "metric": "Zero",
+        "title": "运行时膨胀",
+        "description": "仅包含应用程序所需的特定库和功​​能，以保持最小的占用空间。"
       }
     ]
   },
   "quote_section": {
-    "quote": "对于那些拒绝在优雅与速度之间妥协的人来说，C++ 仍然是",
-    "highlight": "首选语言"
+    "quote": "对于那些拒绝在两者之间妥协的人来说，C++ 仍然是首选语言",
+    "highlight": "优雅与速度"
   },
   "conversation_section": {
     "title": "设计您的性能层",
-    "subtitle": "咨询我们的首席 C++ 专家，规划您的低延迟路线图和系统战略。",
-    "full_name_label": "首席系统架构师姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "技术需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "subtitle": "咨询我们的首席 C++ 专家来构建您的低延迟路线图和系统策略。",
+    "full_name_label": "首席系统架构师",
+    "business_email_label": "实体邮箱",
+    "message_label": "技术要求",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的延迟要求或性能关键型挑战...",
-    "button_text": "申请技术审计"
+    "message_placeholder": "描述您的延迟要求或性能关键挑战...",
+    "button_text": "请求技术审核"
   }
 }

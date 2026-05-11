@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { TechnologyListingData, TechnologyPageData } from "@/types/technologies_page";
+import { toLegacySlug } from "@/lib/slugs";
 
 const LANGUAGE_FOLDER_MAP: Record<string, string> = {
   en: "english_data",
@@ -29,13 +30,13 @@ export const TECHNOLOGY_SLUGS = [
   "nestjs",
   "laravel",
   "react",
-  "react_native",
+  "react-native",
   "flutter",
   "supabase",
   "mongodb",
   "graphql",
   "mysql",
-  "amazon_dynamodb",
+  "amazon-dynamodb",
   "n8n",
   "make",
   "zapier",
@@ -64,13 +65,13 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
   nestjs: "frameworks",
   laravel: "frameworks",
   react: "frameworks",
-  react_native: "frameworks",
+  "react-native": "frameworks",
   flutter: "frameworks",
   supabase: "database",
   mongodb: "database",
   graphql: "database",
   mysql: "database",
-  amazon_dynamodb: "database",
+  "amazon-dynamodb": "database",
   n8n: "tools",
   make: "tools",
   zapier: "tools",
@@ -82,6 +83,11 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
 
 };
 
+const TECHNOLOGY_FILE_SLUG_MAP: Record<string, string> = {
+  "amazon-dynamodb": "amazon_dynamodb",
+  "react-native": "react_native",
+};
+
 function resolveTechnologyPath(langFolder: string, slug: string): string | null {
   const typedSlug = slug as (typeof TECHNOLOGY_SLUGS)[number];
   const category = TECHNOLOGY_CATEGORY_MAP[typedSlug];
@@ -90,7 +96,8 @@ function resolveTechnologyPath(langFolder: string, slug: string): string | null 
     return null;
   }
 
-  const fileName = slug === category ? "index.json" : `${slug}.json`;
+  const fileSlug = TECHNOLOGY_FILE_SLUG_MAP[slug] ?? toLegacySlug(slug);
+  const fileName = slug === category ? "index.json" : `${fileSlug}.json`;
   return path.join(process.cwd(), "src", "data", langFolder, "technologies", category, fileName);
 }
 

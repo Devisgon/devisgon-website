@@ -1,93 +1,182 @@
 {
   "slug": "marketing-sales-automation",
   "hero_section": {
-    "title": "Services d'automatisation du marketing et des ventes",
-    "subtitle": "Automatisation du CRM, Nurturing de Leads et Optimisation du Tunnel de Vente",
-    "description": "Automatisez les flux de travail CRM, le nurturing des leads, les campagnes e-mail, les pipelines de vente et les rapports de revenus pour augmenter les conversions et une croissance évolutive.",
+    "title": "Services de marketing et d'automatisation des ventes",
+    "subtitle": "Automatisation du CRM, lead nurturing et optimisation de l'entonnoir de vente",
+    "description": "Automatisez les flux de travail CRM, le lead nurturing, les campagnes par e-mail, les pipelines de ventes et les rapports sur les revenus pour augmenter les conversions et atteindre une croissance évolutive.",
     "buttons": [
-      { "text": "Automatiser mon tunnel de vente", "link": "/contact" },
-      { "text": "Contactez-nous", "link": "/contact" }
+      {
+        "text": "Automatisez mon entonnoir de vente",
+        "link": "/contact"
+      },
+      {
+        "text": "Contactez-nous",
+        "link": "/contact"
+      }
     ],
     "hero_image": "/videos/marketing.mp4"
   },
   "introduction_section": {
     "heading": "Qu'est-ce que",
-    "span_heading": " l'automatisation du marketing et des ventes ?",
+    "span_heading": "Automatisation du marketing et des ventes ?",
     "content": [
-      "De nombreuses entreprises perdent des revenus à cause de suivis lents, de mises à jour manuelles du CRM et d'un nurturing de leads incohérent.",
-      "Chez Devisgon, nous concevons des systèmes de marketing et CRM automatisés qui rationalisent l'ensemble du tunnel de vente. Nos solutions :",
-      "  • Automatisent les mises à jour CRM et la catégorisation des leads",
-      "  • Déclenchent des campagnes marketing par e-mail et SMS",
-      "  • Orientent automatiquement les leads qualifiés vers les équipes de vente",
-      "  • Génèrent des rapports de revenus et de performance en temps réel",
-      "Résultat : conversions plus élevées, suivis plus rapides et croissance prévisible des revenus."
+      "De nombreuses entreprises perdent des revenus en raison de la lenteur des suivis, des mises à jour manuelles du CRM et d'un lead nurturing incohérent.",
+      "Chez Devisgon, nous concevons des systèmes CRM et marketing automatisés qui rationalisent l'ensemble de l'entonnoir de vente. Nos solutions d'automatisation :",
+      "• Automatisez les mises à jour CRM et la catégorisation des leads",
+      "• Déclenchez des campagnes marketing par e-mail et SMS",
+      "• Acheminer automatiquement les leads qualifiés vers les équipes commerciales",
+      "• Générez des rapports sur les revenus et les performances en temps réel",
+      "Le résultat : des conversions plus élevées, des suivis plus rapides et une croissance prévisible des revenus."
     ],
-    "highlight_quote": "« Tunnels automatisés. Conversions plus élevées. Croissance évolutive. »",
+    "highlight_quote": "\"Entonnoirs automatisés. Conversions plus élevées. Croissance évolutive.\"",
     "side_image": "/all_services/business/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Avantages Clés",
+    "title": "Avantages clés",
     "subtitle": "Transformez les visites en revenus",
     "cards": [
-      { "title": "Conversions élevées", "description": "Le nurturing automatisé améliore l'engagement.", "icon_type": "MdTrendingUp" },
-      { "title": "Suivis plus rapides", "description": "L'automatisation instantanée du CRM augmente la vitesse de réponse.", "icon_type": "MdSpeed" },
-      { "title": "Meilleur Lead Scoring", "description": "Priorisez automatiquement les leads à forte intention.", "icon_type": "MdVerified" },
-      { "title": "Clarté des revenus", "description": "Suivez les performances via des tableaux de bord automatisés.", "icon_type": "MdAnalytics" }
+      {
+        "title": "Conversions plus élevées",
+        "description": "Le nurturing automatisé améliore l’engagement.",
+        "icon_type": "MdTrendingUp"
+      },
+      {
+        "title": "Des suivis plus rapides",
+        "description": "L'automatisation instantanée du CRM augmente la vitesse de réponse.",
+        "icon_type": "MdSpeed"
+      },
+      {
+        "title": "Meilleure notation des leads",
+        "description": "Priorisez automatiquement les leads à forte intention.",
+        "icon_type": "MdVerified"
+      },
+      {
+        "title": "Clarté des revenus",
+        "description": "Suivez les performances grâce à des tableaux de bord de reporting automatisés.",
+        "icon_type": "MdAnalytics"
+      }
     ]
   },
   "what_you_get_section": {
-    "title": "Ce que vous obtenez avec l'automatisation",
+    "title": "Ce que vous obtenez avec l'automatisation du marketing et des ventes",
     "image": "/all_services/business/wwg.webp",
     "list_items": [
-      { "title": "1. Automatisation du flux CRM", "description": "Mises à jour CRM et routage des ventes automatisés." },
-      { "title": "2. Automatisation des campagnes", "description": "Séquences d'e-mails et tunnels automatisés." },
-      { "title": "3. Systèmes de Lead Scoring", "description": "Logique intelligente pour qualifier les prospects." },
-      { "title": "4. Tableau de bord de revenus", "description": "Analyses instantanées et suivi des conversions." }
+      {
+        "title": "1. Automatisation du flux de travail CRM",
+        "description": "Mises à jour CRM et routage des ventes automatisés."
+      },
+      {
+        "title": "2. Automatisation des campagnes et des e-mails",
+        "description": "Séquences d'e-mails, messages et entonnoirs automatisés."
+      },
+      {
+        "title": "3. Systèmes de notation des leads",
+        "description": "Logique intelligente pour marquer et qualifier les prospects."
+      },
+      {
+        "title": "4. Tableau de bord de reporting des revenus",
+        "description": "Analyse instantanée et suivi des conversions."
+      }
     ]
   },
   "technologies_section": {
-    "title": "Outils d'automatisation",
-    "subtitle": "Plateformes CRM et de campagne de confiance",
+    "title": "Outils d'automatisation du marketing",
+    "subtitle": "Plateformes CRM et de campagne fiables",
     "tools": [
-      { "name": "HubSpot", "icon": "SiHubspot" },
-      { "name": "Salesforce", "icon": "SiSalesforce" },
-      { "name": "Mailchimp", "icon": "SiMailchimp" },
-      { "name": "Zapier", "icon": "SiZapier" },
-      { "name": "AWS", "icon": "FaAws" }
+      {
+        "name": "HubSpot",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "Salesforce",
+        "icon": "SiSalesforce"
+      },
+      {
+        "name": "Mailchimp",
+        "icon": "SiMailchimp"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      }
     ]
   },
   "process_section": {
-    "title": "Notre Processus",
+    "title": "Notre processus",
     "subtitle": "Déploiement rapide de l'automatisation",
     "steps": [
-      { "title": "Audit", "description": "Analyse des performances du CRM et du tunnel.", "icon": "FaSearch" },
-      { "title": "Design", "description": "Création de la logique d'automatisation.", "icon": "TbTools" },
-      { "title": "Implémentation", "description": "Déploiement des flux et intégrations.", "icon": "FaHammer" },
-      { "title": "Optimisation", "description": "Développement de campagnes via l'analyse.", "icon": "FaRocket" }
+      {
+        "title": "Audit",
+        "description": "Analysez les performances du CRM et de l’entonnoir de vente.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Créez une logique d’automatisation et une segmentation.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Implement",
+        "description": "Déployez des flux de travail et des intégrations.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Optimize",
+        "description": "Développer des campagnes à l'aide d'analyses.",
+        "icon": "FaRocket"
+      }
     ]
   },
   "case_study_section": {
-    "headline": "Taux de conversion 38% plus élevé",
+    "headline": "Taux de conversion 38 % plus élevé",
     "image": "/all_services/app_development/case_study.webp",
     "content": {
-      "problem": { "label": "Problème", "text": "Les suivis manuels entraînaient la perte de leads." },
-      "solution": { "label": "Solution", "text": "Automatisation CRM avec scoring de leads et triggers e-mail." },
-      "result": { "label": "Résultat", "text": "Taux de conversion amélioré de 38% en 90 jours." }
+      "problem": {
+        "label": "Problem",
+        "text": "Les suivis manuels ont entraîné des pertes de prospects."
+      },
+      "solution": {
+        "label": "Solution",
+        "text": "Implémentation de l'automatisation CRM avec notation des leads et déclencheurs d'e-mails."
+      },
+      "result": {
+        "label": "Result",
+        "text": "Le taux de conversion s'est amélioré de 38 % en 90 jours."
+      }
     }
   },
   "faq_section": {
     "title": "FAQ",
-    "subtitle": "Questions fréquentes sur l'automatisation",
+    "subtitle": "Questions courantes sur l'automatisation du marketing",
     "questions": [
-      { "question": "Automatisez-vous Salesforce ou HubSpot ?", "answer": "Oui, y compris l'automatisation avancée des flux." },
-      { "question": "Proposez-vous l'automatisation d'e-mails ?", "answer": "Oui, avec séquences de nurturing et triggers." },
-      { "question": "À quelle vitesse voit-on des résultats ?", "answer": "La plupart voient une amélioration en quelques semaines." },
-      { "question": "Est-ce adapté aux petites entreprises ?", "answer": "Oui, des solutions évolutives sont disponibles." },
-      { "question": "Soutenez-vous des clients internationaux ?", "answer": "Oui, en Amérique, Europe et pays du Golfe." }
+      {
+        "question": "Automatisez-vous Salesforce ou HubSpot ?",
+        "answer": "Oui, y compris l’automatisation avancée des flux de travail."
+      },
+      {
+        "question": "Proposez-vous l'automatisation des e-mails ?",
+        "answer": "Oui, y compris les séquences de développement et les déclencheurs."
+      },
+      {
+        "question": "À quelle vitesse les résultats apparaissent-ils ?",
+        "answer": "La plupart des clients constatent une amélioration en quelques semaines."
+      },
+      {
+        "question": "L’automatisation est-elle adaptée aux petites entreprises ?",
+        "answer": "Oui, des solutions évolutives sont disponibles."
+      },
+      {
+        "question": "Vous accompagnez des clients internationaux ?",
+        "answer": "Oui, en Amérique du Nord, en Europe et dans les pays du Golfe."
+      }
     ],
     "footer": {
-      "text": "Voulez-vous augmenter vos conversions ?",
-      "link_text": "Contactez notre équipe",
+      "text": "Vous voulez augmenter les conversions ?",
+      "link_text": "Contactez notre équipe d'automatisation",
       "link_url": "/contact"
     }
   }

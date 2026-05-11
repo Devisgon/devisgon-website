@@ -1,16 +1,16 @@
 {
   "herosection": {
     "title": "Nuestros Servicios",
-    "subtitle": "Soluciones Integrales ",
-    "span_subtitle": "para Empresas Modernas",
-    "description": "Desde SaaS impulsado por IA hasta ingeniería en la nube, cubrimos todo el espectro de la innovación digital con tecnología de vanguardia y experiencia comprobada.",
+    "subtitle": "Soluciones de extremo a extremo",
+    "span_subtitle": "para empresas modernas",
+    "description": "Desde SaaS impulsado por IA hasta ingeniería en la nube, cubrimos todo el espectro de innovación digital con tecnología de vanguardia y experiencia comprobada.",
     "buttons": [
       {
-        "text": "Hable con un experto",
+        "text": "Habla con un experto",
         "link": "/contact"
       },
       {
-        "text": "Explorar casos de estudio",
+        "text": "Explorar estudios de casos",
         "link": "/contact"
       }
     ]
@@ -18,7 +18,7 @@
   "services": [
     {
       "category": "Desarrollo de IA y SaaS",
-      "headline": "Construya software más inteligente y rápido",
+      "headline": "Cree software más inteligente y más rápido",
       "span": " ",
       "bg": "#FBF7FE",
       "description": "Transforme sus ideas en plataformas SaaS inteligentes con funciones impulsadas por IA y arquitectura escalable.",
@@ -30,33 +30,38 @@
         },
         {
           "title": "Plataformas SaaS",
-          "details": "Desarrollo de SaaS full-stack con gestión de suscripciones y multi-tenancy.",
+          "details": "Desarrollo SaaS full-stack con gestión de suscripciones y multiinquilino.",
           "icon": "FaCloud "
         },
         {
-          "title": "MVP y POCs",
-          "details": "Prototipado rápido y desarrollo de prueba de concepto para validación de mercado.",
+          "title": "MVP y POC",
+          "details": "Creación rápida de prototipos y desarrollo de prueba de concepto para validación en el mercado.",
           "icon": "FaRocket "
         },
         {
-          "title": "Integración de ML",
-          "details": "Modelos de aprendizaje automático personalizados integrados en sistemas de producción.",
+          "title": "Integración de aprendizaje automático",
+          "details": "Modelos personalizados de aprendizaje automático integrados en los sistemas de producción.",
           "icon": "FaGears "
         }
       ],
       "image": "/services_page/ai_and_saas.webp",
       "deliverables": [
-        "Prototipos clicables",
-        "APIs REST",
+        "Prototipos en los que se puede hacer clic",
+        "API REST",
         "Sistemas de facturación"
       ],
-      "tech_stack": ["Next.js", "Python", "AWS", "Express.js"]
+      "tech_stack": [
+        "Next.js",
+        "Python",
+        "AWS",
+        "Express.js"
+      ]
     },
     {
-      "category": "Automatización de Flujos de Trabajo",
-      "headline": "Automatice Procesos ",
-      "span": " con IA, No-Code o Código Personalizado",
-      "description": "Optimice sus operaciones comerciales con soluciones de automatización inteligente adaptadas a sus necesidades específicas.",
+      "category": "Automatización del flujo de trabajo",
+      "headline": "Automatizar procesos",
+      "span": "con IA, sin código o código personalizado",
+      "description": "Optimice sus operaciones comerciales con soluciones de automatización inteligentes adaptadas a sus necesidades específicas.",
       "features": [
         {
           "title": "Automatización impulsada por IA",
@@ -64,101 +69,117 @@
           "icon": "FaRobot"
         },
         {
-          "title": "Soluciones No-Code",
-          "details": "Integraciones con Zapier, Make.com y n8n para un despliegue rápido.",
+          "title": "Soluciones sin código",
+          "details": "Integraciones de Zapier, Make.com y n8n para una implementación rápida.",
           "icon": "FaLink  "
         },
         {
-          "title": "Soluciones Low-Code",
-          "details": "Flujos de trabajo personalizados con codificación mínima para máxima flexibilidad.",
+          "title": "Soluciones de código bajo",
+          "details": "Flujos de trabajo personalizados con codificación mínima para una máxima flexibilidad.",
           "icon": "FaPuzzlePiece "
         },
         {
-          "title": "Código Personalizado",
-          "details": "Automatizaciones con Python, JS, Selenium, Puppeteer y Playwright.",
+          "title": "Codificación personalizada",
+          "details": "Automatizaciones de Python, JS, Selenium, Puppeteer y Playwright.",
           "icon": "FaCode "
         }
       ],
       "image": "/services_page/workflow_automation.webp",
       "deliverables": [
         "Hoja de ruta de automatización",
-        "Integraciones de API",
+        "Integraciones API",
         "Herramientas de monitoreo"
       ],
-      "tech_stack": ["Zapier", "Make.com", "Python", "Airflow"]
+      "tech_stack": [
+        "Zapier",
+        "Make.com",
+        "Python",
+        "Airflow"
+      ]
     },
     {
-      "category": "Desarrollo Web y Móvil",
-      "headline": "Aplicaciones Personalizadas",
-      "span": " para cualquier dispositivo ",
+      "category": "Desarrollo web y móvil",
+      "headline": "Aplicaciones personalizadas",
+      "span": "para cualquier dispositivo",
       "bg": "#FBF7FE",
-      "description": "Cree aplicaciones impresionantes y adaptables que funcionen sin problemas en todas las plataformas y dispositivos.",
+      "description": "Cree aplicaciones impresionantes y responsivas que funcionen perfectamente en todas las plataformas y dispositivos.",
       "features": [
         {
-          "title": "Aplicaciones Web",
+          "title": "Aplicaciones web",
           "details": "Aplicaciones web responsivas con frameworks modernos y rendimiento óptimo.",
           "icon": "IoMdDesktop "
         },
         {
-          "title": "Aplicaciones Móviles",
-          "details": "Desarrollo en iOS, Android, Flutter y React Native para todas las plataformas.",
+          "title": "Aplicaciones móviles",
+          "details": "Desarrollo iOS, Android, Flutter y React Native para todas las plataformas.",
           "icon": "FaMobileScreenButton "
         },
         {
-          "title": "Scripts Personalizados",
+          "title": "Guiones personalizados",
           "details": "Bots de automatización y scripts personalizados para necesidades comerciales especializadas.",
           "icon": "FaCode "
         }
       ],
       "image": "/services_page/mobile_development.webp",
       "deliverables": [
-        "IU Responsiva",
+        "Interfaz de usuario responsiva",
         "Paneles de administración",
-        "Envíos a tiendas de aplicaciones"
+        "Envíos a la tienda de aplicaciones"
       ],
-      "tech_stack": ["React", "Next.js", "Flutter", "PHP", "Java"]
+      "tech_stack": [
+        "React",
+        "Next.js",
+        "Flutter",
+        "PHP",
+        "Java"
+      ]
     },
     {
-      "category": "Soluciones de Datos",
-      "headline": "De Datos Brutos ",
-      "span": " a Perspectivas de Negocio",
-      "description": "Transforme sus datos en información procesable con análisis avanzados y soluciones de aprendizaje automático.",
+      "category": "Soluciones de datos",
+      "headline": "A partir de datos sin procesar",
+      "span": "a información empresarial",
+      "description": "Transforme sus datos en conocimientos prácticos con análisis avanzados y soluciones de aprendizaje automático.",
       "features": [
         {
-          "title": "Extracción de Datos",
+          "title": "Extracción de datos",
           "details": "Web scraping y minería de datos de diversas fuentes.",
           "icon": "FaDatabase "
         },
         {
-          "title": "Paneles de Análisis",
+          "title": "Paneles de análisis",
           "details": "Paneles interactivos para visualización de datos en tiempo real.",
           "icon": "RiBarChartHorizontalFill "
         },
         {
-          "title": "Análisis de Negocios",
-          "details": "Perspectivas estratégicas y análisis de métricas de rendimiento.",
+          "title": "Análisis empresarial",
+          "details": "Insights estratégicos y análisis de métricas de desempeño.",
           "icon": "GoGraph "
         },
         {
           "title": "Modelos de IA/ML",
-          "details": "Análisis predictivo y soluciones de aprendizaje automático.",
+          "details": "Soluciones de análisis predictivo y aprendizaje automático.",
           "icon": "FaBrain "
         }
       ],
       "image": "/services_page/data_solution.webp",
       "deliverables": [
-        "Oleoductos de datos (Data Pipelines)",
+        "Canalizaciones de datos",
         "Paneles interactivos",
         "Modelos predictivos"
       ],
-      "tech_stack": ["Python", "SQL", "Tableau", "Power BI"]
+      "tech_stack": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Energía BI"
+      ]
     },
     {
-      "category": "Diseño y Análisis",
-      "headline": "Convirtiendo Ideas",
-      "span": " en Sistemas Validados",
+      "category": "Diseño y análisis",
+      "headline": "Ideas giratorias",
+      "span": "En sistemas validados",
       "bg": "#FBF7FE",
-      "description": "Desde el concepto hasta la ejecución, brindamos servicios integrales de diseño y análisis para productos digitales.",
+      "description": "Desde el concepto hasta la ejecución, brindamos servicios integrales de diseño y análisis de productos digitales.",
       "features": [
         {
           "title": "Diseño UI/UX",
@@ -166,18 +187,18 @@
           "icon": "MdColorLens "
         },
         {
-          "title": "Prototipado",
-          "details": "Prototipos interactivos para pruebas de usuario y validación de partes interesadas.",
+          "title": "Prototyping",
+          "details": "Prototipos interactivos para pruebas de usuarios y validación de partes interesadas.",
           "icon": "LuNetwork "
         },
         {
           "title": "Diagramas UML",
-          "details": "Documentación de arquitectura de sistemas y flujo de procesos.",
+          "details": "Arquitectura del sistema y documentación del flujo de procesos.",
           "icon": "PiShareNetworkFill "
         },
         {
-          "title": "Documentación",
-          "details": "Documentación técnica y de usuario completa.",
+          "title": "Documentation",
+          "details": "Completa documentación técnica y de usuario.",
           "icon": "CgNotes "
         }
       ],
@@ -187,17 +208,22 @@
         "Sistemas de diseño",
         "Documentación del producto"
       ],
-      "tech_stack": ["Figma", "Whimsical", "Notion", "Miro"]
+      "tech_stack": [
+        "Figma",
+        "Whimsical",
+        "Notion",
+        "Miro"
+      ]
     },
     {
-      "category": "Blockchain y Web3",
-      "headline": "Desarrollo de Contratos",
-      "span": " Inteligentes Seguros",
-      "description": "Construya el futuro con aplicaciones descentralizadas y soluciones seguras de blockchain.",
+      "category": "Cadena de bloques y Web3",
+      "headline": "Contrato inteligente seguro",
+      "span": " Develpoment",
+      "description": "Construya el futuro con aplicaciones descentralizadas y soluciones blockchain seguras.",
       "features": [
         {
-          "title": "Contratos Inteligentes",
-          "details": "Contratos inteligentes seguros y auditados para diversas plataformas de blockchain.",
+          "title": "Contratos inteligentes",
+          "details": "Contratos inteligentes seguros y auditados para varias plataformas blockchain.",
           "icon": "FaLink "
         },
         {
@@ -206,7 +232,7 @@
           "icon": "FaDatabase "
         },
         {
-          "title": "Apps Web3",
+          "title": "Aplicaciones Web3",
           "details": "Aplicaciones descentralizadas con interfaces de usuario modernas.",
           "icon": "TbWorld "
         }
@@ -217,47 +243,57 @@
         "Auditorías de seguridad",
         "Integraciones de billetera"
       ],
-      "tech_stack": ["Solidity", "Ethers.js", "IPFS", "QuickNode"]
+      "tech_stack": [
+        "Solidity",
+        "Ethers.js",
+        "IPFS",
+        "QuickNode"
+      ]
     },
     {
-      "category": "Nube y Arquitectura",
-      "headline": "Infraestructura ",
-      "span": " que escala",
+      "category": "Nube y arquitectura",
+      "headline": "Infrastructure ",
+      "span": "Eso escala",
       "bg": "#FBF7FE",
-      "description": "Construya una infraestructura de nube robusta y escalable con prácticas modernas de DevOps y diseño de arquitectura.",
+      "description": "Cree una infraestructura de nube sólida y escalable con prácticas modernas de DevOps y diseño de arquitectura.",
       "features": [
         {
-          "title": "Ingeniería en la Nube",
-          "details": "Soluciones de nube escalables en AWS, Azure y GCP.",
+          "title": "Ingeniería en la nube",
+          "details": "Soluciones escalables en la nube en AWS, Azure y GCP.",
           "icon": "FaCloud "
         },
         {
-          "title": "Despliegue y DevOps",
-          "details": "Oleoductos CI/CD y estrategias de despliegue automatizado.",
+          "title": "Implementación y DevOps",
+          "details": "Canalizaciones de CI/CD y estrategias de implementación automatizadas.",
           "icon": "FaRocket "
         },
         {
-          "title": "Arquitectura de Soluciones",
-          "details": "Diseño y planificación de arquitectura de grado empresarial.",
+          "title": "Arquitectura de la solución",
+          "details": "Diseño y planificación de arquitectura de nivel empresarial.",
           "icon": "FaNetworkWired "
         },
         {
-          "title": "Diseño de Sistemas",
+          "title": "Diseño del sistema",
           "details": "Arquitectura y optimización de sistemas de alto rendimiento.",
           "icon": "FaGears "
         }
       ],
       "image": "/services_page/cloude.webp",
       "deliverables": [
-        "Pipelines CI/CD",
-        "Docs de arquitectura",
+        "Canalizaciones de CI/CD",
+        "Documentos de arquitectura",
         "Infraestructura escalable"
       ],
-      "tech_stack": ["AWS", "Docker", "Kubernetes", "Azure"]
+      "tech_stack": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Azure"
+      ]
     }
   ],
   "contact_form": {
-    "headline": "Construyamos algo más inteligente, juntos",
+    "headline": "Construyamos juntos de forma más inteligente",
     "description": "Hable con nuestros expertos y vea cómo Devisgon puede acelerar el crecimiento de su negocio con soluciones tecnológicas de vanguardia."
   }
 }

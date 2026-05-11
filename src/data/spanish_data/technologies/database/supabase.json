@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance técnico de Supabase",
     "image": "/technologies/supabase/scope.webp",
     "items": [
@@ -83,16 +83,16 @@
       },
       {
         "metric": "99,95%",
-        "title": "tiempo de actividad",
+        "title": "Uptime",
         "description": "Infraestructura de alta disponibilidad administrada por AWS y optimizada para tiempo de actividad de misión crítica."
       },
       {
-        "metric": "Abierto",
+        "metric": "Open",
         "title": "Núcleo de origen",
         "description": "Construido sobre estándares de código abierto como Postgres, GoTrue y PostgREST, evitando bloqueos restrictivos."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Bloqueo de proveedor",
         "description": "Exporte toda su base de datos y configuración en cualquier momento a su propia instancia de PostgreSQL autohospedada."
       }

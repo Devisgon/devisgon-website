@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, redirect } from "next/navigation";
 import { workflowData } from "@/data/loaders/ai_saas_development";
 import { getCachedLanguage } from "@/lib/language";
 import { getServiceSlugMetadata } from "@/lib/seo";
+import { getSlugCandidates, toCanonicalSlug } from "@/lib/slugs";
 
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
@@ -31,7 +32,15 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
 
-  const data = workflowData[activeLang]?.[slug] || workflowData.en?.[slug];
+  if (slug.includes("_")) {
+    const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
+    redirect(`/services/saas/${toCanonicalSlug(slug)}${langSuffix}`);
+  }
+
+  const slugCandidates = getSlugCandidates(slug);
+  const data = slugCandidates
+    .map((candidate) => workflowData[activeLang]?.[candidate] || workflowData.en?.[candidate])
+    .find(Boolean);
 
   if (!data) {
     notFound();
@@ -51,7 +60,7 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         <Progress data={data.process_section} />
         <Casestudy data={data.case_study_section} />
         <Faqs data={data.faq_section} />
-        <Contact serviceName={data.hero_section.title} sourcePage={`/services/saas/${slug}`} />
+        <Contact serviceName={data.hero_section.title} sourcePage={`/services/saas/${toCanonicalSlug(slug)}`} />
       </div>
       <Footer />
     </>

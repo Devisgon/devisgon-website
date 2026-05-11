@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée architecturale C++",
     "image": "/technologies/cpp/scope.webp",
     "items": [
@@ -77,8 +77,8 @@
     "subtitle": "Avantages stratégiques en termes de performances pour les cœurs d’entreprise.",
     "cards": [
       {
-        "metric": "Max.",
-        "title": "Débit",
+        "metric": "Max",
+        "title": "Throughput",
         "description": "Obtenez les vitesses de traitement des données les plus élevées possibles grâce au contrôle manuel de la mémoire et à l’optimisation du cache."
       },
       {
@@ -87,12 +87,12 @@
         "description": "Accès direct aux ressources système et aux registres matériels pour une efficacité d'exécution inégalée."
       },
       {
-        "metric": "Héritage",
-        "title": "Interopérabilité",
+        "metric": "Legacy",
+        "title": "Interoperability",
         "description": "Intégrez-vous de manière transparente aux bibliothèques C et aux systèmes existants tout en modernisant la couche logique de haut niveau."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Ballonnement d’exécution",
         "description": "Maintenez une empreinte minimale en incluant uniquement les bibliothèques et fonctionnalités spécifiques requises par votre application."
       }

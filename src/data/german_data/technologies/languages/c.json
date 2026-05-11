@@ -1,5 +1,5 @@
 {
-  "slug": "c-programming",
+  "slug": "c",
   "seo_metadata": {
     "title": "Low-Level-C-Programmierung und Systemarchitekturdienste",
     "description": "Enterprise C-Entwicklung für Hochleistungssysteme. Wir entwerfen Firmware, eingebettete Lösungen und leistungskritische Kernel mit chirurgischer Speicherpräzision.",
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "Systemarchitektonischer Umfang",
     "image": "/technologies/c/scope.webp",
     "items": [
@@ -77,22 +77,22 @@
     "subtitle": "Unübertroffene Effizienz für den Kern Ihrer digitalen Infrastruktur.",
     "cards": [
       {
-        "metric": "Nahe Null",
+        "metric": "Near-Zero",
         "title": "Abstraktionskosten",
         "description": "Führen Sie Code mit der höchstmöglichen Befehls-pro-Takt-Effizienz aus."
       },
       {
-        "metric": "Deterministisch",
-        "title": "Latenz",
+        "metric": "Deterministic",
+        "title": "Latency",
         "description": "Eliminieren Sie unvorhersehbare Pausen, die durch Garbage Collectors in High-Level-Laufzeiten verursacht werden."
       },
       {
         "metric": "ISO",
-        "title": "Standardisiert",
+        "title": "Standardized",
         "description": "Die Einhaltung der C11/C17/C23-Standards stellt sicher, dass Ihre Kernlogik über Jahrzehnte hinweg funktionsfähig bleibt."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "Laufzeitaufblähung",
         "description": "Behalten Sie den kleinstmöglichen binären Footprint bei, ideal für Edge-Computing und Legacy-Integration."
       }

@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée architecturale",
     "image": "/technologies/graphql/scope.webp",
     "items": [
@@ -88,12 +88,12 @@
       },
       {
         "metric": "100%",
-        "title": "Introspectif",
+        "title": "Introspective",
         "description": "Documentation instantanée et tests de terrain de jeu grâce à des outils d'introspection de schéma intégrés."
       },
       {
-        "metric": "Zéro",
-        "title": "Gestion des versions",
+        "metric": "Zero",
+        "title": "Versioning",
         "description": "Faites évoluer votre API en dépréciant les champs au lieu de gérer des points de terminaison d'URL v1/v2 complexes."
       }
     ]

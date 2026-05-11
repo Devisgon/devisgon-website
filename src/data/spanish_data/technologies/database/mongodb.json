@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance del diseño de MongoDB",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
@@ -82,19 +82,19 @@
         "description": "Acelere el desarrollo utilizando un formato de datos que refleje los objetos nativos en la mayoría de los lenguajes de programación."
       },
       {
-        "metric": "Elástico",
-        "title": "Escalabilidad",
+        "metric": "Elastic",
+        "title": "Scalability",
         "description": "Amplíe horizontalmente el hardware básico mediante fragmentación nativa sin tiempo de inactividad de las aplicaciones."
       },
       {
         "metric": "99,99%",
-        "title": "tiempo de actividad",
+        "title": "Uptime",
         "description": "Fiabilidad lograda a través de conjuntos de réplicas distribuidas y protocolos de autorreparación automatizados."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Cuellos de botella de SQL",
-        "description": "Evite los problemas de rendimiento de las uniones relacionales complejas utilizando documentos autónomos y desnormalizados."
+        "description": "Evite los problemas de rendimiento de uniones relacionales complejas utilizando documentos autónomos y desnormalizados."
       }
     ]
   },

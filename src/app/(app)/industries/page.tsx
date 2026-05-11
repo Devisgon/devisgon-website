@@ -15,12 +15,12 @@ const CATEGORY_LABELS: Record<string, string> = {
   trades: "Trades",
   entertainment: "Entertainment",
   agriculture: "Agriculture",
-  real_estate: "Real Estate",
+  "real-estate": "Real Estate",
 };
 
 function formatSlug(slug: string): string {
   return slug
-    .replace(/_/g, " ")
+    .replace(/[-_]/g, " ")
     .replace(/\b\w/g, (char) => char.toUpperCase())
     .trim();
 }

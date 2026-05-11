@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "C++-Architekturumfang",
     "image": "/technologies/cpp/scope.webp",
     "items": [
@@ -78,7 +78,7 @@
     "cards": [
       {
         "metric": "Max",
-        "title": "Durchsatz",
+        "title": "Throughput",
         "description": "Erzielen Sie die höchstmögliche Datenverarbeitungsgeschwindigkeit durch manuelle Speichersteuerung und Cache-Optimierung."
       },
       {
@@ -87,12 +87,12 @@
         "description": "Direkter Zugriff auf Systemressourcen und Hardwareregister für beispiellose Ausführungseffizienz."
       },
       {
-        "metric": "Vermächtnis",
-        "title": "Interoperabilität",
+        "metric": "Legacy",
+        "title": "Interoperability",
         "description": "Nahtlose Integration in C-Bibliotheken und bestehende Systeme bei gleichzeitiger Modernisierung der High-Level-Logikschicht."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "Laufzeitaufblähung",
         "description": "Behalten Sie einen minimalen Platzbedarf bei, indem Sie nur die spezifischen Bibliotheken und Funktionen einbeziehen, die Ihre Anwendung benötigt."
       }
