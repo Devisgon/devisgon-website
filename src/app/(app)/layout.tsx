@@ -1,11 +1,13 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Suspense } from "react";
 import "./globals.css";
 import {
   MAIN_SITE_METADATA,
   getSiteNavigationStructuredData,
   getWebsiteStructuredData,
 } from "@/lib/seo";
+import NavigationProgress from "@/components/navigation_progress";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -64,6 +66,9 @@ try {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(navigationStructuredData) }}
         />
+        <Suspense fallback={null}>
+          <NavigationProgress />
+        </Suspense>
         <main>{children}</main>
       </body>
     </html>

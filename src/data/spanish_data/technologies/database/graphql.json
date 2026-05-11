@@ -16,7 +16,7 @@
   "hero_section": {
     "eyebrow": "Estándar API moderno",
     "title": "Datos unificados con",
-    "highlight": "GrafoQL",
+    "highlight": "GraphQL",
     "description": "Potencie sus interfaces con un lenguaje de consulta flexible y fuertemente tipado que proporcione exactamente los datos que sus componentes necesitan, ni más ni menos.",
     "side_image": "/technologies/graphql/hero.webp",
     "primary_cta": {
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance Arquitectónico",
     "image": "/technologies/graphql/scope.webp",
     "items": [
@@ -82,18 +82,18 @@
         "description": "Reducción promedio en el tamaño de la carga útil JSON en comparación con los puntos finales REST estándar."
       },
       {
-        "metric": "Tipo seguro",
+        "metric": "Type-Safe",
         "title": "Integridad del código",
         "description": "Seguridad de tipos de extremo a extremo cuando se combina con TypeScript, lo que reduce significativamente los errores de tiempo de ejecución."
       },
       {
         "metric": "100%",
-        "title": "Introspectivo",
+        "title": "Introspective",
         "description": "Documentación instantánea y pruebas en el campo de juego a través de herramientas integradas de introspección de esquemas."
       },
       {
-        "metric": "Cero",
-        "title": "Versionado",
+        "metric": "Zero",
+        "title": "Versioning",
         "description": "Desarrolla tu API dejando obsoletos los campos en lugar de administrar puntos finales de URL complejos v1/v2."
       }
     ]

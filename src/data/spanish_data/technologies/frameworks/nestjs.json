@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance técnico de NestJS",
     "image": "/technologies/nestjs/scope.webp",
     "items": [
@@ -77,22 +77,22 @@
     "subtitle": "Rendimiento predecible para backends de nivel empresarial.",
     "cards": [
       {
-        "metric": "Estricto",
+        "metric": "Strict",
         "title": "Tipo Seguridad",
         "description": "Elimine prácticamente los errores de tipo en tiempo de ejecución aprovechando la profunda integración de NestJS con TypeScript."
       },
       {
         "metric": "100%",
-        "title": "Comprobable",
+        "title": "Testable",
         "description": "Soporte integrado para Jest y utilidades de prueba especializadas para pruebas unitarias, de integración y e2e."
       },
       {
-        "metric": "Moderno",
-        "title": "Ecosistema",
+        "metric": "Modern",
+        "title": "Ecosystem",
         "description": "Integración perfecta con TypeORM, Prisma, Mongoose y cientos de bibliotecas probadas en batalla."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Diseño de fricción",
         "description": "Las convenciones establecidas reducen el tiempo dedicado a los debates arquitectónicos, lo que acelera la entrega de funciones."
       }

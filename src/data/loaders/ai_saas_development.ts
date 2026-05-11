@@ -49,45 +49,52 @@ import frsaas from "@/data/french_data/services/ai_and_saas_developments/saas_pl
 export const workflowData: Record<string, Record<string, any>> = {
   en: {
     "ai_powered_app": enAi, 
+    "machine-learning": enmi,
     "meachine_learning": enmi,
-    "saas_plateform": ensaas,
+    "saas-platform": ensaas,
     "mvps": enmvp,
 
   },
    ur: {
     "ai_powered_app": urAi, 
+    "machine-learning": urmi,
     "meachine_learning": urmi,
-    "saas_plateform": ursaas,
+    "saas-platform": ursaas,
     "mvps": urmvp,
 
   }, ar: {
     "ai_powered_app": arAi, 
+    "machine-learning": armi,
     "meachine_learning": armi,
-    "saas_plateform": arsaas,
+    "saas-platform": arsaas,
     "mvps": armvp,
 
   }, es: {
     "ai_powered_app": spAi, 
+    "machine-learning": spmi,
     "meachine_learning": spmi,
-    "saas_plateform": spsaas,
+    "saas-platform": spsaas,
     "mvps": spmvp,
 
   }, de: {
     "ai_powered_app": grAi, 
+    "machine-learning": grmi,
     "meachine_learning": grmi,
-    "saas_plateform": grsaas,
+    "saas-platform": grsaas,
     "mvps": grmvp,
 
   }, zh: {
     "ai_powered_app": chAi, 
+    "machine-learning": chmi,
     "meachine_learning": chmi,
-    "saas_plateform": chsaas,
+    "saas-platform": chsaas,
     "mvps": chmvp,
 
   }, fr: {
     "ai_powered_app": frAi, 
+    "machine-learning": frmi,
     "meachine_learning": frmi,
-    "saas_plateform": frsaas,
+    "saas-platform": frsaas,
     "mvps": frmvp,
 
   }, 

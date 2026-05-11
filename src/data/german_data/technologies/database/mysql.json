@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "MySQL-Designumfang",
     "image": "/technologies/mysql/scope.webp",
     "items": [
@@ -82,17 +82,17 @@
         "description": "Sicherstellung der Transaktionskonsistenz über alle relationalen Datensätze hinweg durch strikte Durchsetzung von Einschränkungen."
       },
       {
-        "metric": "Offen",
-        "title": "Ökosystem",
+        "metric": "Open",
+        "title": "Ecosystem",
         "description": "Nutzen Sie eine riesige Community und unzählige Tools von Drittanbietern für Überwachung, Sicherung und Migration."
       },
       {
-        "metric": "Niedrig",
-        "title": "Gesamtbetriebskosten",
+        "metric": "Low",
+        "title": "TCO",
         "description": "Erreichen Sie eine Datenbankleistung der Enterprise-Klasse ohne die unerschwinglichen Lizenzkosten proprietärer SQL-Engines."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "Lieferantenbindung",
         "description": "Behalten Sie die volle Kontrolle über Ihre Infrastruktur mit einer tragbaren Open-Source-Engine, die mit jeder großen Cloud kompatibel ist."
       }

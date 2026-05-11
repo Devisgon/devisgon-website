@@ -25,7 +25,7 @@
     },
     "secondary_cta": {
       "text": "Afficher les modèles d'architecture",
-      "href": "/technologies/amazon_dynamodb#technology-architecture"
+      "href": "/technologies/amazon-dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée de la conception DynamoDB",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
@@ -92,8 +92,8 @@
         "description": "Multipliez encore le débit par 10 grâce à la mise en cache en mémoire de DynamoDB Accelerator (DAX)."
       },
       {
-        "metric": "Zéro",
-        "title": "Entretien",
+        "metric": "Zero",
+        "title": "Maintenance",
         "description": "Éliminez les correctifs, le provisionnement du matériel et les mises à jour logicielles grâce à une infrastructure AWS entièrement gérée."
       }
     ]

@@ -10,9 +10,10 @@ import IndustryCarousel from "@/components/industries/carousel";
 import IndustryCaseStudies from "@/components/industries/case_studies";
 import IndustryExplore from "@/components/industries/explore";
 import IndustryConversation from "@/components/industries/conversation";
-import { getIndustryCategoryBySlug, getIndustryData } from "@/data/loaders/industries";
+import { getIndustryCategoryBySlug, getIndustryData, toPublicIndustrySlug } from "@/data/loaders/industries";
 import { getCachedLanguage } from "@/lib/language";
 import { getIndustrySlugMetadata } from "@/lib/seo";
+import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
   params: Promise<{ segments: string[] }>;
@@ -43,7 +44,7 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
     }
 
     const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
-    redirect(`/industries/${category}/${legacySlug}${langSuffix}`);
+    redirect(`/industries/${toCanonicalSlug(category)}/${toPublicIndustrySlug(legacySlug)}${langSuffix}`);
   }
 
   if (segments.length !== 2) {
@@ -51,6 +52,15 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
   }
 
   const [category, slug] = segments;
+
+  const publicCategory = toCanonicalSlug(category);
+  const publicSlug = toPublicIndustrySlug(slug);
+
+  if (category !== publicCategory || slug !== publicSlug) {
+    const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
+    redirect(`/industries/${publicCategory}/${publicSlug}${langSuffix}`);
+  }
+
   const data = getIndustryData(activeLang, category, slug);
 
   if (!data) {
@@ -89,7 +99,7 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         <IndustryConversation
           data={data.conversation_section}
           industryName={data.hero_section.highlight}
-          sourcePage={`/industries/${category}/${slug}`}
+          sourcePage={`/industries/${toCanonicalSlug(category)}/${toCanonicalSlug(slug)}`}
         />
       </div>
       <Footer />

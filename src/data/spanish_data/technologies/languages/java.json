@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance técnico de Java",
     "image": "/technologies/java/scope.webp",
     "items": [
@@ -87,12 +87,12 @@
         "description": "La JVM garantiza que su código se comporte de manera consistente en entornos Linux, Windows y la nube."
       },
       {
-        "metric": "Escalable",
-        "title": "concurrencia",
+        "metric": "Scalable",
+        "title": "Concurrency",
         "description": "Maneje de manera eficiente miles de conexiones simultáneas con modelos de subprocesos maduros."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Riesgo de mantenimiento",
         "description": "La estricta compatibilidad con versiones anteriores y las versiones de soporte a largo plazo (LTS) protegen su inversión técnica."
       }

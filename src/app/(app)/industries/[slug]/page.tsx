@@ -3,6 +3,7 @@ import { notFound, redirect } from "next/navigation";
 import { getCachedLanguage } from "@/lib/language";
 import { getIndustrySlugMetadata } from "@/lib/seo";
 import { getIndustryCategoryBySlug } from "@/data/loaders/industries";
+import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -26,5 +27,5 @@ export default async function LegacyIndustrySlugPage({ params, searchParams }: P
   }
 
   const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
-  redirect(`/industries/${category}/${slug}${langSuffix}`);
+  redirect(`/industries/${toCanonicalSlug(category)}/${toCanonicalSlug(slug)}${langSuffix}`);
 }

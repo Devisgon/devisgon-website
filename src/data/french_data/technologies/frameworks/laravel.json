@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée du cadre",
     "image": "/technologies/laravel/scope.webp",
     "items": [
@@ -68,7 +68,7 @@
       },
       {
         "title": "Opérations sans serveur et cloud",
-        "description": "Déploiement à grande échelle à l'aide de Laravel Vapor pour AWS Lambda ou Forge pour des clusters de serveurs gérés hautes performances."
+        "description": "Déploiement à grande échelle à l'aide de Laravel Vapor pour AWS Lambda ou Forge pour les clusters de serveurs gérés hautes performances."
       }
     ]
   },
@@ -77,8 +77,8 @@
     "subtitle": "Des avantages stratégiques pour une prestation commerciale moderne.",
     "cards": [
       {
-        "metric": "Rapide",
-        "title": "Intégration",
+        "metric": "Fast",
+        "title": "Onboarding",
         "description": "Des conventions claires et une documentation complète réduisent la courbe d'apprentissage pour les nouveaux développeurs."
       },
       {
@@ -88,11 +88,11 @@
       },
       {
         "metric": "20 000+",
-        "title": "Forfaits",
+        "title": "Packages",
         "description": "Une communauté massive (Packagist) fournissant des modules pour les passerelles de paiement, l'authentification sociale, etc."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Croissance de la dette",
         "description": "Le strict respect des normes PSR garantit que votre base de code reste moderne et compatible avec les futures versions de PHP."
       }

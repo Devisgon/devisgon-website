@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "MongoDB-Designumfang",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
@@ -82,17 +82,17 @@
         "description": "Beschleunigen Sie die Entwicklung durch die Verwendung eines Datenformats, das native Objekte in den meisten Programmiersprachen widerspiegelt."
       },
       {
-        "metric": "Elastisch",
-        "title": "Skalierbarkeit",
+        "metric": "Elastic",
+        "title": "Scalability",
         "description": "Horizontale Skalierung über handelsübliche Hardware hinweg mithilfe von nativem Sharding ohne Anwendungsausfallzeiten."
       },
       {
         "metric": "99,99 %",
-        "title": "Betriebszeit",
+        "title": "Uptime",
         "description": "Zuverlässigkeit wird durch verteilte Replikatsätze und automatisierte Selbstheilungsprotokolle erreicht."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "SQL-Engpässe",
         "description": "Vermeiden Sie Leistungseinbußen durch komplexe relationale Verknüpfungen, indem Sie denormalisierte, in sich geschlossene Dokumente verwenden."
       }

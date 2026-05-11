@@ -1,23 +1,23 @@
 {
   "slug": "nodejs",
   "seo_metadata": {
-    "title": "可扩展 Node.js 开发 | 高性能后端解决方案",
-    "description": "针对高并发系统的企业级 Node.js 实施。我们利用非阻塞 I/O 和 V8 引擎性能构建可扩展的实时后端。",
+    "title": "可扩展的 Node.js 开发 |高性能后端解决方案",
+    "description": "适用于高并发系统的企业级 Node.js 实现。我们利用非阻塞 I/O 和 V8 引擎性能来构建可扩展的实时后端。",
     "keywords": [
       "Node.js 开发",
-      "V8 引擎性能",
+      "V8 发动机性能",
       "事件驱动架构",
       "非阻塞 I/O",
-      "服务端 JavaScript",
-      "实时应用程序",
-      "npm 生态集成"
+      "服务器端 JavaScript",
+      "实时应用",
+      "npm 生态系统整合"
     ]
   },
   "hero_section": {
     "eyebrow": "JavaScript 运行时环境",
-    "title": "凭借以下技术实现异步动力",
+    "title": "异步电源",
     "highlight": "Node.js",
-    "description": "在服务端执行 JavaScript，构建能够通过单线程处理数千个并发连接的快速、可扩展网络应用。",
+    "description": "在服务器端执行 JavaScript 以构建快速、可扩展的网络应用程序，能够使用单个线程处理数千个并发连接。",
     "side_image": "/technologies/node_js/hero.webp",
     "primary_cta": {
       "text": "优化您的后端",
@@ -29,88 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 Node.js 进行工程设计",
-    "subtitle": "Node.js 是现代高可用 Web 服务和实时数据流的基石。",
+    "title": "为什么我们使用 Node.js 进行设计",
+    "subtitle": "Node.js 是现代、高可用性 Web 服务和实时数据流的基石。",
     "paragraphs": [
-      "对于需要高吞吐量和低延迟的工作负载，我们会选择 Node.js。其非阻塞、事件驱动的 I/O 模型使其在处理跨分布式运行的数据密集型实时应用时效率极高，让我们能够构建在重负载下依然保持响应的后端。",
-      "通过使用 JavaScript 或 TypeScript 统一前后端语言，我们消除了上下文切换带来的摩擦。这种单语言技术栈加速了开发速度，简化了团队协作，并允许在整个应用生命周期中共享逻辑。"
+      "我们选择 Node.js 来处理需要高吞吐量和低延迟的工作负载。其非阻塞、事件驱动的 I/O 模型使其对于跨分布式设备运行的数据密集型实时应用程序异常高效，使我们能够构建在重负载下保持响应的后端。",
+      "通过将前端和后端语言与 JavaScript 或 TypeScript 统一起来，我们消除了上下文切换的摩擦。这种单语言堆栈加快了开发速度，简化了团队协作，并允许在整个应用程序生命周期中共享逻辑。"
     ],
     "cards": [
       {
-        "title": "V8 引擎速度",
-        "description": "依托于 Google 的 V8 引擎，Node.js 将 JavaScript 直接编译为机器代码，实现闪电般的执行速度。",
+        "title": "V8 发动机转速",
+        "description": "Node.js 由 Google 的 V8 引擎提供支持，将 JavaScript 直接编译为机器代码，以实现闪电般的快速执行。",
         "icon_type": "FaBolt"
       },
       {
         "title": "事件循环模型",
-        "description": "无需线程管理的开销即可处理海量并发，最大限度地提高服务器资源利用率。",
+        "description": "处理大量并发，无需线程管理开销，最大限度地提高服务器资源利用率。",
         "icon_type": "FaSync"
       },
       {
         "title": "npm 生态系统",
-        "description": "利用全球最大的开源库注册表，加速功能交付与创新。",
+        "description": "利用世界上最大的开源库注册表来加速功能交付和创新。",
         "icon_type": "FaBoxOpen"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "技术范畴",
+    "title": "技术范围",
     "image": "/technologies/node_js/scope.webp",
     "items": [
       {
-        "title": "实时 WebSockets",
-        "description": "使用 Socket.io 为聊天系统、实时控制面板和协作工具构建低延迟通信层。"
+        "title": "实时 WebSocket",
+        "description": "使用 Socket.io 为聊天系统、实时仪表板和协作工具构建低延迟通信层。"
       },
       {
-        "title": "可扩展 API 网关",
-        "description": "通过轻量级、高性能的 Node.js 代理层，编排复杂的微服务交互。"
+        "title": "可扩展的 API 网关",
+        "description": "使用轻量级、高性能 Node.js 代理层协调复杂的微服务交互。"
       },
       {
-        "title": "无服务器函数",
-        "description": "通过 AWS Lambda 或 Google Cloud Functions 部署事件触发逻辑，实现高性价比、自动扩展的计算。"
+        "title": "无服务器功能",
+        "description": "通过 AWS Lambda 或 Google Cloud Functions 部署事件触发逻辑，以实现经济高效的自动扩展计算。"
       }
     ]
   },
   "edge_section": {
-    "title": "Node.js 优势",
-    "subtitle": "为现代企业提供可量化的性能。",
+    "title": "Node.js 边缘",
+    "subtitle": "现代企业的可量化绩效。",
     "cards": [
       {
-        "metric": "200万+",
-        "title": "注册模块",
-        "description": "获取极其丰富的经过测试的软件包，减少自定义工程的开销。"
+        "metric": "2M+",
+        "title": "注册表模块",
+        "description": "访问最广泛的预先测试的软件包集合，以减少定制工程开销。"
       },
       {
         "metric": "40%",
-        "title": "更低延迟",
-        "description": "与传统的同步环境相比，I/O 密集型应用的响应时间缩短了 40%。"
+        "title": "更低的延迟",
+        "description": "与传统同步环境相比，减少了 I/O 密集型应用程序的响应时间。"
       },
       {
-        "metric": "单一",
+        "metric": "Single",
         "title": "语言栈",
-        "description": "在整个产品开发生命周期中使用 JavaScript，提高开发人员的生产力。"
+        "description": "在整个产品开发生命周期中使用 JavaScript 来提高开发人员的工作效率。"
       },
       {
-        "metric": "零",
-        "title": "供应商锁定",
-        "description": "在任何云端或本地基础设施上保持对运行时环境的完全控制。"
+        "metric": "Zero",
+        "title": "Lock-in",
+        "description": "跨任何云或本地基础设施保持对运行时环境的完全控制。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Node.js 让我们能够构建既快速又具有",
-    "highlight": "优雅架构的网络优先应用"
+    "quote": "Node.js 允许我们构建尽可能快的网络优先应用程序",
+    "highlight": "建筑优雅"
   },
   "conversation_section": {
-    "title": "规划您的基础设施",
-    "subtitle": "咨询我们的首席 Node.js 工程师，为高并发性能制定路线图。",
-    "full_name_label": "首席工程师姓名",
-    "business_email_label": "单位邮箱",
+    "title": "构建您的基础设施",
+    "subtitle": "咨询我们的 Node.js 首席工程师来定义高并发性能的路线图。",
+    "full_name_label": "首席工程师",
+    "business_email_label": "实体邮箱",
     "message_label": "战略需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的 Node.js 性能挑战或扩展需求...",
-    "button_text": "申请咨询"
+    "message_placeholder": "描述您的 Node.js 性能挑战或扩展要求...",
+    "button_text": "请求咨询"
   }
 }

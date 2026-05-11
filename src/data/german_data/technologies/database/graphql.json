@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "Architektonischer Umfang",
     "image": "/technologies/graphql/scope.webp",
     "items": [
@@ -82,18 +82,18 @@
         "description": "Durchschnittliche Reduzierung der JSON-Nutzlastgröße im Vergleich zu Standard-REST-Endpunkten."
       },
       {
-        "metric": "Typsicher",
+        "metric": "Type-Safe",
         "title": "Code-Integrität",
         "description": "End-to-End-Typsicherheit in Kombination mit TypeScript, wodurch Laufzeitfehler erheblich reduziert werden."
       },
       {
         "metric": "100 %",
-        "title": "Introspektiv",
+        "title": "Introspective",
         "description": "Sofortige Dokumentation und Spielplatztests durch integrierte Schema-Introspektion-Tools."
       },
       {
-        "metric": "Null",
-        "title": "Versionierung",
+        "metric": "Zero",
+        "title": "Versioning",
         "description": "Entwickeln Sie Ihre API weiter, indem Sie Felder verwerfen, anstatt komplexe v1/v2-URL-Endpunkte zu verwalten."
       }
     ]

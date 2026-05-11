@@ -1,12 +1,12 @@
 {
   "slug": "no-code-automation",
   "hero_section": {
-    "title": "No-Code Automatisierungen",
-    "subtitle": "Bauen ohne Programmierung",
-    "description": "Wir helfen Unternehmen, No-Code-Plattformen wie Zapier, Make.com und n8n zu nutzen, um Workflows zu automatisieren, Apps zu vernetzen und Lösungen schneller zu veröffentlichen – ganz ohne Entwickler.",
+    "title": "No-Code-Automatisierungen",
+    "subtitle": "Erstellen Sie ohne Codierung",
+    "description": "Wir helfen Unternehmen dabei, No-Code-Plattformen wie Zapier, Make.com und n8n zu nutzen, um Arbeitsabläufe zu automatisieren, Apps zu verbinden und Lösungen schneller einzuführen, ohne dass Entwickler erforderlich sind.",
     "buttons": [
       {
-        "text": "No-Code Automatisierung starten",
+        "text": "Starten Sie die No-Code-Automatisierung",
         "link": "/contact"
       },
       {
@@ -17,60 +17,60 @@
     "hero_image": "/videos/no_code_automation.mp4"
   },
   "introduction_section": {
-    "heading": "Was sind ",
-    "span_heading": " No-Code Tools (Zapier, Make.com, n8n)?",
+    "heading": "Was ist",
+    "span_heading": "No-Code-Tools (Zapier, Make.com, n8n)?",
     "content": [
-      "Bei Devisgon sind wir darauf spezialisiert, No-Code-Workflows für Startups, KMUs und Konzerne zu entwerfen, zu konfigurieren und zu optimieren. Wir richten Integrationen zwischen Apps ein (z.B. CRMs, Datenbanken, ERPs), erstellen automatisierte Trigger und sorgen für einen reibungslosen Betrieb.",
-      "Dies ermöglicht es Ihrem Unternehmen, Zeit zu sparen, Kosten zu senken und Ideen schneller zu testen – und das alles, ohne eine einzige Zeile Code zu schreiben."
+      "Bei Devisgon sind wir auf das Entwerfen, Konfigurieren und Optimieren von No-Code-Workflows für Startups, KMU und Unternehmen spezialisiert. Wir richten Integrationen zwischen Apps (z. B. CRMs, Datenbanken, ERPs, E-Mail-Tools, APIs) ein, erstellen automatisierte Trigger und stellen sicher, dass Ihre Arbeitsabläufe in großem Maßstab reibungslos funktionieren.",
+      "Dadurch kann Ihr Unternehmen Zeit sparen, Kosten senken und Ideen schneller testen, ohne eine einzige Codezeile schreiben zu müssen."
     ],
-    "highlight_quote": "„No-Code-Workflows, schnellere Ausführung, null Aufwand.“",
+    "highlight_quote": "„Workflows ohne Code, schnellere Ausführung, kein Aufwand.“",
     "side_image": "/all_services/no_code_automation/introduction.webp"
   },
   "key_benefits_section": {
     "title": "Hauptvorteile",
-    "subtitle": "Transformieren Sie Ihre Abläufe mit bewährten Ergebnissen",
+    "subtitle": "Transformieren Sie Ihre Abläufe mit nachgewiesenen Ergebnissen",
     "cards": [
       {
         "title": "Schnelle Automatisierung",
-        "description": "Einsatzbereite Automatisierungen in Stunden statt Wochen implementieren.",
+        "description": "Stellen Sie funktionierende Automatisierungen innerhalb von Stunden statt Wochen bereit.",
         "icon_type": "FaRocket "
       },
       {
-        "title": "Geringere Kosten",
-        "description": "Vermeiden Sie teure Eigenentwicklungen und reduzieren Sie die Abhängigkeit von Programmierern.",
+        "title": "Niedrigere Kosten",
+        "description": "Beseitigen Sie die Notwendigkeit benutzerdefinierter Skripts und reduzieren Sie die Abhängigkeit von Entwicklern.",
         "icon_type": "HiCurrencyDollar "
       },
       {
-        "title": "Flexibilität",
-        "description": "Verbinden Sie Drittanbieter-Tools einfach per Drag-and-Drop in Ihren Workflows.",
+        "title": "Flexibility",
+        "description": "Verbinden Sie ganz einfach Tools und Dienste von Drittanbietern über Drag-and-Drop-Workflows.",
         "icon_type": "PiShareNetworkThin "
       },
       {
-        "title": "Skalierbarkeit",
-        "description": "No-Code-Tools wachsen mit Ihrem Unternehmen und bewältigen tausende Aufgaben pro Monat.",
+        "title": "Scalability",
+        "description": "No-Code-Tools können mit Ihrem Unternehmen wachsen und Tausende von Aufgaben pro Monat erledigen.",
         "icon_type": "MdCloseFullscreen"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "Was Sie erhalten, wenn Sie unseren No-Code Automatisierungsservice wählen",
+    "title": "Was Sie erhalten, wenn Sie sich für den No-Code Automation Service entscheiden",
     "image": "/all_services/no_code_automation/wwg.webp",
     "list_items": [
       {
-        "title": "1. Sofort einsatzbereite Workflows",
+        "title": "1. Gebrauchsfertige Workflows",
         "description": "Vollständig konfigurierte Workflows auf Zapier, Make.com oder n8n."
       },
       {
         "title": "2. Mehrstufige Integrationen",
-        "description": "Komplexe Automatisierungen, die verschiedene Apps und APIs verbinden."
+        "description": "Mehrstufige Automatisierungen, die Apps und APIs verbinden."
       },
       {
-        "title": "3. Zuverlässige Absicherung",
-        "description": "Fehlerbehandlung und Fallback-Mechanismen für stabilen Betrieb."
+        "title": "3. Zuverlässige Schutzmaßnahmen",
+        "description": "Fehlerbehandlungs- und Fallback-Mechanismen."
       },
       {
-        "title": "4. Performance-Optimierung",
-        "description": "Optimierung für maximale Geschwindigkeit und Skalierbarkeit."
+        "title": "4. Leistungsoptimierung",
+        "description": "Optimierung für Leistung und Skalierbarkeit."
       }
     ]
   },
@@ -78,80 +78,92 @@
     "title": "Wir arbeiten mit modernen, bewährten Technologien",
     "subtitle": "Branchenführende Tools für maximale Zuverlässigkeit und Leistung",
     "tools": [
-      { "name": "Python", "icon": "FaPython " },
-      { "name": "Make.com", "icon": "SiMake " },
-      { "name": "n8n", "icon": "SiN8N " },
-      { "name": "AWS", "icon": "FaAws " }
+      {
+        "name": "Python",
+        "icon": "FaPython "
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake "
+      },
+      {
+        "name": "n8n",
+        "icon": "SiN8N "
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws "
+      }
     ]
   },
   "process_section": {
     "title": "Unser Prozess",
-    "subtitle": "Vom Konzept bis zum Launch in 6 Wochen",
+    "subtitle": "Vom Konzept bis zur Markteinführung in 6 Wochen",
     "steps": [
       {
-        "title": "Entdecken",
-        "description": "Automatisierungspotenziale identifizieren und das richtige No-Code-Tool auswählen.",
+        "title": "Discover",
+        "description": "Identifizieren Sie Automatisierungsmöglichkeiten und wählen Sie das richtige No-Code-Tool aus.",
         "icon": "FaSearch"
       },
       {
         "title": "Design",
-        "description": "Workflows, Trigger und Integrationen grafisch planen.",
+        "description": "Ordnen Sie Workflows, Trigger und Integrationen zu.",
         "icon": "TbTools"
       },
       {
-        "title": "Bauen",
-        "description": "Mehrstufige Automatisierungen konfigurieren und Szenarien testen.",
+        "title": "Build",
+        "description": "Konfigurieren Sie mehrstufige Automatisierungen, verbinden Sie Apps und testen Sie Szenarien.",
         "icon": "FaHammer"
       },
       {
         "title": "Launch",
-        "description": "Workflows live schalten, Performance überwachen und Prozesse verfeinern.",
+        "description": "Stellen Sie Workflows bereit, überwachen Sie die Leistung und verfeinern Sie Prozesse.",
         "icon": "FaRocket"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Zapier-Automatisierung reduzierte HR-Aufwand um 70%",
+    "headline": "Zapier-Automatisierung reduzierte die Personalarbeit um 70 %",
     "image": "/all_services/no_code_automation/case_study.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Eine HR-Abteilung führte das Onboarding manuell durch: E-Mails senden, Konten erstellen, Tools zuweisen."
+        "text": "Eine Personalabteilung führte das Onboarding neuer Mitarbeiter manuell durch das Versenden von E-Mails, das Erstellen von Konten und das Hinzufügen dieser zu Tools durch."
       },
       "solution": {
-        "label": "Lösung",
-        "text": "Wir bauten eine Zapier-Automatisierung, die auf neue Formulare reagiert, automatisch HR-Konten erstellt und Willkommens-Mails sendet."
+        "label": "Solution",
+        "text": "Wir haben auf Zapier eine Automatisierung erstellt, die bei neuen Einstellungsformularen ausgelöst wurde, automatisch Konten in der HR-Software erstellte, Willkommens-E-Mails verschickte und diese zu Slack hinzufügte."
       },
       "result": {
-        "label": "Ergebnis",
-        "text": "Die Onboarding-Zeit sank um 70%, was ca. 20 Stunden pro Monat einsparte."
+        "label": "Result",
+        "text": "Die Zeit für die Einarbeitung in die Personalabteilung wurde um 70 % reduziert, wodurch etwa 20 Stunden pro Monat eingespart werden."
       }
     }
   },
   "faq_section": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Antworten auf gängige Fragen",
+    "subtitle": "Erhalten Sie Antworten auf häufig gestellte Fragen",
     "questions": [
       {
         "question": "Welche Tools können Sie automatisieren?",
-        "answer": "In der Regel kann ein MVP je nach Komplexität der Funktionen in 4-6 Wochen entwickelt werden."
+        "answer": "Typischerweise kann ein MVP je nach Komplexität der Funktionen in 4–6 Wochen entwickelt werden."
       },
       {
-        "question": "Wird Automatisierung mein Team ersetzen?",
-        "answer": "Ja, wir bieten Wartungs- und Supportpakete nach dem Launch an, um einen reibungslosen Betrieb zu gewährleisten."
+        "question": "Wird die Automatisierung mein Team ersetzen?",
+        "answer": "Ja, wir bieten Post-Launch-Wartungs- und Supportpakete an, um sicherzustellen, dass Ihre Anwendung reibungslos läuft."
       },
       {
         "question": "Wie viel Zeit kann Automatisierung sparen?",
-        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle über APIs in bestehende Architekturen zu integrieren."
+        "answer": "Absolut. Wir sind darauf spezialisiert, KI-Modelle per API in bestehende Architekturen zu integrieren."
       },
       {
         "question": "Erstellen Sie KI-Agenten?",
-        "answer": "Wir nutzen primär Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
+        "answer": "Wir nutzen hauptsächlich Next.js, React, Node.js, Python und Cloud-Dienste wie AWS oder Vercel."
       }
     ],
     "footer": {
-      "text": "Nicht gefunden?",
-      "link_text": "Kontaktieren Sie uns für mehr Infos",
+      "text": "Haben Sie Ihre Antwort nicht gefunden?",
+      "link_text": "Kontaktieren Sie uns für weitere Informationen",
       "link_url": "/contact"
     }
   }

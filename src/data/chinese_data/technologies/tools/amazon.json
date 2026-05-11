@@ -1,26 +1,26 @@
 {
   "slug": "amazon",
   "seo_metadata": {
-    "title": "企业级 AWS 云架构与咨询服务",
-    "description": "专业的 AWS 实施与迁移服务。我们利用 AWS Lambda、EC2 和 S3 构建可扩展、安全且经过成本优化的云解决方案。",
+    "title": "企业AWS云架构和咨询服务",
+    "description": "专业的AWS实施和迁移服务。我们使用 AWS Lambda、EC2 和 S3 构建可扩展、安全且成本优化的云解决方案。",
     "keywords": [
       "AWS 云咨询",
-      "亚马逊云科技架构",
+      "亚马逊网络服务架构",
       "无服务器计算",
-      "AWS 云迁移",
-      "基础设施即代码 (IaC)",
+      "AWS云迁移",
+      "基础设施即代码",
       "AWS 安全最佳实践",
       "云成本优化"
     ]
   },
   "hero_section": {
     "eyebrow": "全球云基础设施",
-    "title": "凭借以下技术实现无限扩展",
+    "title": "无限扩展",
     "highlight": "AWS",
-    "description": "在全球功能最全面、应用最广泛的云平台上构建、部署和管理生产级应用程序。",
+    "description": "在世界上最全面、采用最广泛的云平台上构建、部署和管理生产级应用程序。",
     "side_image": "/technologies/aws/hero.webp",
     "primary_cta": {
-      "text": "优化您的云环境",
+      "text": "优化您的云",
       "href": "/contact"
     },
     "secondary_cta": {
@@ -29,88 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择在 AWS 上进行工程设计",
-    "subtitle": "AWS 为现代分布式系统提供了最成熟、最安全的基石。",
+    "title": "为什么我们在 AWS 上进行工程师",
+    "subtitle": "AWS 为现代分布式系统提供了最成熟、最安全的基础。",
     "paragraphs": [
-      "AWS 是我们进行企业级云托管和自动化的首选。通过利用其超过 200 项功能齐全的服务（从计算、存储到高级 AI/ML），我们消除了物理硬件的限制，使您的业务能够根据市场需求实现即时扩展。",
-      "我们的架构方法专注于 AWS 良好架构框架 (Well-Architected Framework)。我们确保您的基础设施构建在五大支柱之上：卓越运维、安全性、可靠性、性能效率和成本优化，从而减少长期的技术债务和运营风险。"
+      "AWS 是我们企业级云托管和自动化的首选。通过利用其 200 多种功能齐全的服务（从计算和存储到先进的 AI/ML），我们消除了物理硬件的限制，使您的业务能够根据市场需求立即扩展。",
+      "我们的架构方法侧重于 AWS 架构完善的框架。我们确保您的基础设施建立在五个支柱之上：卓越运营、安全性、可靠性、性能效率和成本优化，从而减少长期技术债务和运营风险。"
     ],
     "cards": [
       {
-        "title": "卓越的可扩展性",
-        "description": "利用 Auto Scaling 和弹性负载均衡 (ELB) 处理流量高峰，无需人工干预。",
+        "title": "无与伦比的可扩展性",
+        "description": "利用 Auto Scaling 和 Elastic Load Balancing 来处理流量峰值，无需手动干预。",
         "icon_type": "FaExpandArrowsAlt"
       },
       {
-        "title": "企业级安全",
+        "title": "企业安全",
         "description": "实施军用级加密以及身份和访问管理 (IAM) 以保护敏感数据。",
         "icon_type": "FaShieldAlt"
       },
       {
         "title": "成本效益",
-        "description": "通过按需定价模式以及针对非关键工作负载的竞价实例，实现仅为实际使用付费。",
+        "description": "通过按需定价和非关键工作负载的现货实例，只需按实际使用量付费。",
         "icon_type": "FaWallet"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "AWS 架构范畴",
+    "title": "AWS 架构范围",
     "image": "/technologies/aws/scope.webp",
     "items": [
       {
         "title": "无服务器架构",
-        "description": "利用 AWS Lambda 和 API Gateway 部署事件驱动逻辑，实现零服务器管理和高可用性。"
+        "description": "使用 AWS Lambda 和 API Gateway 部署事件驱动逻辑，以实现零服务器管理和高可用性。"
       },
       {
         "title": "托管数据湖",
-        "description": "使用 Amazon S3、Glue 和 Redshift 构建稳健的数据存储和分析流水线，以获取大数据洞察。"
+        "description": "使用 Amazon S3、Glue 和 Redshift 构建强大的数据存储和分析管道以获取大数据见解。"
       },
       {
         "title": "混合云集成",
-        "description": "使用 AWS Direct Connect 和 VPC 对等连接将本地数据中心与云端桥接，实现安全、低延迟的互联。"
+        "description": "使用 AWS Direct Connect 和 VPC 对等互连将本地数据中心与云桥接起来，以实现安全、低延迟的连接。"
       }
     ]
   },
   "edge_section": {
-    "title": "AWS 优势",
-    "subtitle": "为您全球化数字业务提供可量化的效率提升。",
+    "title": "AWS 的优势",
+    "subtitle": "全球数字化的可量化效率。",
     "cards": [
       {
         "metric": "99.99%",
-        "title": "运行时间 SLA",
-        "description": "在多个可用区和全球区域提供行业领先的可靠性保障。"
+        "title": "正常运行时间服务等级协议",
+        "description": "跨多个可用区和全球区域的行业领先的可靠性。"
       },
       {
         "metric": "200+",
         "title": "功能齐全的服务",
-        "description": "即时获取最广泛的云工具集，包括人工智能、物联网和高性能计算。"
+        "description": "立即访问最广泛的云工具集，包括人工智能、物联网和高性能计算。"
       },
       {
         "metric": "315+",
-        "title": "边缘节点",
-        "description": "利用 Amazon CloudFront 全球边缘网络，以极低延迟交付内容。"
+        "title": "存在点",
+        "description": "使用 Amazon CloudFront 全球边缘网络以超低延迟交付内容。"
       },
       {
-        "metric": "零",
+        "metric": "Zero",
         "title": "硬件开销",
-        "description": "无需物理维护，让团队能够 100% 专注于产品创新。"
+        "description": "消除物理维护的需要，让团队能够 100% 专注于产品创新。"
       }
     ]
   },
   "quote_section": {
-    "quote": "AWS 将基础设施转化为可编程资产，让我们能够以",
-    "highlight": "无限的灵活性进行构建"
+    "quote": "AWS 将基础设施转变为可编程资产，使我们能够使用",
+    "highlight": "无限的灵活性"
   },
   "conversation_section": {
-    "title": "规划您的云解决方案",
-    "subtitle": "咨询我们的 AWS 认证解决方案架构师，定义您的迁移路线图或成本优化策略。",
-    "full_name_label": "首席架构师姓名",
-    "business_email_label": "公司邮箱",
+    "title": "构建您的云解决方案",
+    "subtitle": "请咨询我们的 AWS 认证解决方案架构师来定义您的迁移路线图或成本优化策略。",
+    "full_name_label": "首席架构师",
+    "business_email_label": "企业邮箱",
     "message_label": "云需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的 AWS 扩展挑战或迁移目标...",
-    "button_text": "申请云环境审计"
+    "message_placeholder": "描述您的 AWS 扩展挑战或迁移目标...",
+    "button_text": "请求云审核"
   }
 }

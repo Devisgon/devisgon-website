@@ -25,7 +25,7 @@
     },
     "secondary_cta": {
       "text": "Architekturmuster anzeigen",
-      "href": "/technologies/amazon_dynamodb#technology-architecture"
+      "href": "/technologies/amazon-dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "DynamoDB-Designumfang",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
@@ -87,13 +87,13 @@
         "description": "Branchenführende Verfügbarkeit für Global Tables, um sicherzustellen, dass Ihre Anwendung immer erreichbar ist."
       },
       {
-        "metric": "Doppelt",
+        "metric": "Double",
         "title": "DAX-Beschleunigung",
         "description": "Erhöhen Sie den Durchsatz mit dem In-Memory-Caching von DynamoDB Accelerator (DAX) um das Zehnfache."
       },
       {
-        "metric": "Null",
-        "title": "Wartung",
+        "metric": "Zero",
+        "title": "Maintenance",
         "description": "Eliminieren Sie Patches, Hardware-Bereitstellung und Software-Updates durch eine vollständig verwaltete AWS-Infrastruktur."
       }
     ]

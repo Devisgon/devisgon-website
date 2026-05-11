@@ -1,116 +1,116 @@
 {
   "slug": "nestjs",
   "seo_metadata": {
-    "title": "企业级 NestJS 开发 | 可扩展 Node.js 架构",
-    "description": "针对健壮、模块化及企业级后端的定制化 NestJS 开发。我们使用 NestJS 构建高度可测试且易于维护的 TypeScript API。",
+    "title": "企业NestJS开发|可扩展的 Node.js 架构",
+    "description": "用于强大、模块化和企业级后端的自定义 NestJS 开发。我们使用 NestJS 构建高度可测试和可维护的 TypeScript API。",
     "keywords": [
-      "NestJS 开发",
+      "NestJS开发",
       "TypeScript 后端框架",
       "Node.js 微服务",
-      "企业级 API 架构",
+      "企业API架构",
       "NestJS 依赖注入",
       "模块化后端设计",
-      "服务端 TypeScript"
+      "服务器端 TypeScript"
     ]
   },
   "hero_section": {
     "eyebrow": "渐进式 Node.js 框架",
-    "title": "凭借以下技术构建可扩展系统",
+    "title": "构建可扩展的系统",
     "highlight": "NestJS",
-    "description": "利用 TypeScript 和模块化架构的力量，构建高效、可靠且企业级的服务端应用程序。",
+    "description": "利用 TypeScript 和模块化架构的强大功能来构建高效、可靠的企业级服务器端应用程序。",
     "side_image": "/technologies/nestjs/hero.webp",
     "primary_cta": {
-      "text": "规划您的后端架构",
+      "text": "设计你的后端",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看架构方案",
+      "text": "查看架构",
       "href": "/technologies/nestjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 NestJS 进行工程设计",
-    "subtitle": "NestJS 为大规模 Node.js 应用程序提供了所需的结构化、规范化架构。",
+    "title": "为什么我们使用 NestJS 进行工程师",
+    "subtitle": "NestJS 提供了大规模 Node.js 应用程序所需的结构化、固执己见的架构。",
     "paragraphs": [
-      "NestJS 是我们在企业级 Node.js 环境中的首选框架。通过原生利用 TypeScript 并采用受 Angular 启发的架构，它解决了标准 Node.js 项目中常见的“混乱”问题，提供了控制器 (Controllers)、提供者 (Providers) 和模块 (Modules) 的清晰结构。",
-      "这种模块化特性使我们的团队能够构建高度可测试且松耦合的系统。无论我们是在构建复杂的单体应用还是分布式的微服务网格，NestJS 都能确保代码保持可维护性，并以极高的精度处理依赖注入。"
+      "NestJS 是我们为企业 Node.js 环境选择的框架。通过原生利用 TypeScript 并采用受 Angular 启发的架构，它解决了标准 Node.js 项目的“狂野西部”问题，提供了控制器、提供程序和模块的清晰结构。",
+      "这种模块化使我们的团队能够构建高度可测试且松散耦合的系统。无论我们是构建复杂的整体架构还是分布式微服务网格，NestJS 都能确保代码保持可维护性，并且以外科手术般的精度处理依赖项注入。"
     ],
     "cards": [
       {
-        "title": "原生 TypeScript",
-        "description": "专为 TypeScript 打造，提供强类型支持和现代 JavaScript 特性，确保交付过程零错误。",
+        "title": "TypeScript 本机",
+        "description": "使用 TypeScript 构建并为 TypeScript 构建，提供强大的类型和现代 JavaScript 功能，以实现无错误交付。",
         "icon_type": "FaCode"
       },
       {
         "title": "模块化架构",
-        "description": "将逻辑封装到可重用的模块中，使大型代码库易于导航和扩展。",
+        "description": "将逻辑封装到可重用模块中，使大型代码库易于导航和扩展。",
         "icon_type": "FaThLarge"
       },
       {
         "title": "依赖注入",
-        "description": "强大的 DI 容器，简化了测试过程并增强了整个生态系统的代码重用性。",
+        "description": "功能强大的 DI 容器，可简化测试并增强整个生态系统中的代码可重用性。",
         "icon_type": "FaProjectDiagram"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "NestJS 技术范畴",
+    "title": "NestJS 技术范围",
     "image": "/technologies/nestjs/scope.webp",
     "items": [
       {
-        "title": "微服务与传输层",
-        "description": "利用内置对 NATS、RabbitMQ、gRPC 和 Kafka 的支持，构建分布式系统架构。"
+        "title": "微服务与运输",
+        "description": "使用对 NATS、RabbitMQ、gRPC 和 Kafka 的内置支持来构建分布式系统。"
       },
       {
-        "title": "GraphQL 与 REST API",
-        "description": "通过自动化的 Swagger/OpenAPI 文档和类型安全的 GraphQL 解析器构建强大的数据层。"
+        "title": "GraphQL 和 REST API",
+        "description": "使用自动化 Swagger/OpenAPI 文档和类型安全的 GraphQL 解析器构建强大的数据层。"
       },
       {
-        "title": "CQRS 与事件溯源",
-        "description": "为复杂的企业级数据驱动工作流实施命令查询职责分离 (CQRS)。"
+        "title": "CQRS 和事件溯源",
+        "description": "为复杂的数据驱动企业工作流程实施命令查询职责分离 (CQRS)。"
       }
     ]
   },
   "edge_section": {
-    "title": "NestJS 优势",
-    "subtitle": "为企业级后端提供可预测的性能。",
+    "title": "NestJS 边缘",
+    "subtitle": "企业级后端的可预测性能。",
     "cards": [
       {
-        "metric": "严格",
+        "metric": "Strict",
         "title": "类型安全",
-        "description": "利用 NestJS 与 TypeScript 的深度集成，几乎完全消除运行时类型错误。"
+        "description": "利用 NestJS 与 TypeScript 的深度集成，几乎消除运行时类型错误。"
       },
       {
         "metric": "100%",
-        "title": "可测试性",
-        "description": "内置对 Jest 的支持，并提供专门用于单元、集成和端到端测试的测试工具。"
+        "title": "Testable",
+        "description": "对 Jest 的内置支持以及用于单元、集成和 e2e 测试的专用测试实用程序。"
       },
       {
-        "metric": "现代",
-        "title": "生态系统",
-        "description": "与 TypeORM、Prisma、Mongoose 以及数百个经过实战检验的库无缝集成。"
+        "metric": "Modern",
+        "title": "Ecosystem",
+        "description": "与 TypeORM、Prisma、Mongoose 和数百个久经考验的库无缝集成。"
       },
       {
-        "metric": "零",
-        "title": "设计摩擦",
-        "description": "既定的开发约定减少了在架构辩论上花费的时间，从而加速功能交付。"
+        "metric": "Zero",
+        "title": "设计摩擦力",
+        "description": "既定的惯例减少了花在架构辩论上的时间，加速了功能交付。"
       }
     ]
   },
   "quote_section": {
-    "quote": "NestJS 为 Node.js 生态系统带来了",
-    "highlight": "企业级纪律与架构优雅"
+    "quote": "NestJS 为企业带来了企业纪律和架构优雅",
+    "highlight": "Node.js 生态系统"
   },
   "conversation_section": {
-    "title": "构建您的企业级 API",
-    "subtitle": "咨询我们的 NestJS 架构师，设计一个可扩展、易维护且类型安全的后端基础设施。",
-    "full_name_label": "首席架构师姓名",
-    "business_email_label": "公司邮箱",
+    "title": "构建您的企业 API",
+    "subtitle": "咨询我们的 NestJS 架构师，设计可扩展、可维护且类型安全的后端基础设施。",
+    "full_name_label": "首席架构师",
+    "business_email_label": "企业邮箱",
     "message_label": "技术愿景",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的后端扩展挑战或架构需求...",
-    "button_text": "申请咨询"
+    "message_placeholder": "描述您的后端扩展挑战或架构要求......",
+    "button_text": "请求咨询"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "slug": "c-programming",
+  "slug": "c",
   "seo_metadata": {
     "title": "Servicios de arquitectura de sistemas y programación C de bajo nivel",
     "description": "Desarrollo Enterprise C para sistemas de alto rendimiento. Diseñamos firmware, soluciones integradas y núcleos de rendimiento crítico con precisión de memoria quirúrgica.",
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance arquitectónico de sistemas",
     "image": "/technologies/c/scope.webp",
     "items": [
@@ -77,22 +77,22 @@
     "subtitle": "Eficiencia inigualable para el núcleo de su infraestructura digital.",
     "cards": [
       {
-        "metric": "Casi cero",
+        "metric": "Near-Zero",
         "title": "Costo de abstracción",
         "description": "Ejecute código con la mayor eficiencia posible de instrucciones por reloj."
       },
       {
-        "metric": "determinista",
-        "title": "Estado latente",
+        "metric": "Deterministic",
+        "title": "Latency",
         "description": "Elimine las pausas impredecibles causadas por los recolectores de basura que se encuentran en tiempos de ejecución de alto nivel."
       },
       {
         "metric": "ISO",
-        "title": "Estandarizado",
+        "title": "Standardized",
         "description": "El cumplimiento de los estándares C11/C17/C23 garantiza que su lógica central siga siendo viable durante décadas."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Inflación en tiempo de ejecución",
         "description": "Mantenga la huella binaria más pequeña posible, ideal para informática de punta e integración heredada."
       }

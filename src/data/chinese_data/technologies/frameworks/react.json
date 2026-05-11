@@ -1,23 +1,23 @@
 {
   "slug": "react",
   "seo_metadata": {
-    "title": "专业 React 开发 | 交互式组件架构",
-    "description": "企业级 React.js 开发服务。我们利用组件驱动设计和现代状态管理，构建高性能、可扩展的用户界面。",
+    "title": "专业React开发 |交互组件架构",
+    "description": "企业级 React.js 开发服务。我们使用组件驱动设计和现代状态管理来构建高性能、可扩展的用户界面。",
     "keywords": [
       "React.js 开发",
       "前端架构",
-      "单页面应用 (SPA)",
+      "单页应用程序 (SPA)",
       "虚拟 DOM 性能",
-      "React Hooks",
+      "反应钩子",
       "组件驱动设计",
       "状态管理解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "专为 Web 界面打造的库",
-    "title": "凭借以下技术实现交互精度",
+    "eyebrow": "Web 界面库",
+    "title": "交互精度",
     "highlight": "React",
-    "description": "通过基于组件的架构构建高并发、交互式的用户界面，确保状态的可预测性和闪电般的渲染速度。",
+    "description": "使用基于组件的架构构建高并发、交互式用户界面，确保可预测的状态和闪电般的快速渲染。",
     "side_image": "/technologies/react/hero.webp",
     "primary_cta": {
       "text": "优化您的前端",
@@ -29,88 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 React 进行工程设计",
-    "subtitle": "React 提供了构建复杂、数据驱动界面所需的声明式能力。",
+    "title": "为什么我们使用 React 进行设计",
+    "subtitle": "React 提供了轻松构建复杂的数据驱动界面所需的声明性功能。",
     "paragraphs": [
-      "React 是我们构建动态 Web 体验的基础选择。通过利用声明式编程模型和虚拟 DOM，我们最大限度地减少了昂贵的浏览器直接操作，从而实现了无论 UI 复杂度如何都能无缝扩展的高性能应用。",
-      "React 的真正优势在于其基于组件的生态系统。这种模块化方法允许我们的团队构建管理自身状态的封装代码单元，从而实现更好的重用性、更简单的测试，以及设计师与工程师之间更清晰的交接。"
+      "React 是我们构建动态 Web 体验的基本选择。通过利用声明性编程模型和虚拟 DOM，我们最大限度地减少了昂贵的直接浏览器操作，从而产生了无论 UI 复杂性如何都可以无缝扩展的高性能应用程序。",
+      "React 的真正优势在于其基于组件的生态系统。这种模块化方法使我们的团队能够构建管理自己状态的封装代码单元，从而实现更好的可重用性、更容易的测试以及设计师和工程师之间显着更清晰的交接。"
     ],
     "cards": [
       {
         "title": "虚拟 DOM 效率",
-        "description": "智能 Diff 算法确保仅更新必要的 UI 部分，从而最大限度地提高性能。",
+        "description": "智能差异算法可确保仅更新 UI 的必要部分，从而最大限度地提高性能。",
         "icon_type": "FaZap"
       },
       {
         "title": "单向数据流",
-        "description": "单向数据绑定为调试和应用逻辑提供了一个可预测的思维模型。",
+        "description": "单向数据绑定为调试和应用程序逻辑提供了可预测的心理模型。",
         "icon_type": "FaExchangeAlt"
       },
       {
         "title": "丰富的生态系统",
-        "description": "通过 npm 获取数千个经过预审的库，涵盖路由、状态管理和 UI 组件。",
+        "description": "通过 npm 访问数千个预先审查的库，用于路由、状态管理和 UI 组件。",
         "icon_type": "FaBoxes"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "前端架构范畴",
+    "title": "前端架构范围",
     "image": "/technologies/react/scope.webp",
     "items": [
       {
         "title": "组件驱动设计",
-        "description": "遵循原子设计 (Atomic Design) 原则构建设计系统，确保 UI 元素的一致性和可重用性。"
+        "description": "使用原子设计原则构建设计系统，以实现一致且可重用的 UI 元素。"
       },
       {
-        "title": "现代状态管理",
-        "description": "针对复杂的应用状态，使用 Redux Toolkit、Zustand 或 Context API 实施可预测的数据存储。"
+        "title": "现代国家管理",
+        "description": "使用 Redux Toolkit、Zustand 或 Context API 为复杂的应用程序状态实现可预测的数据存储。"
       },
       {
         "title": "性能优化",
-        "description": "利用记忆化 (Memoization)、代码拆分和懒加载技术，确保最小的包体积和瞬时加载速度。"
+        "description": "利用记忆、代码分割和延迟加载来确保最小的包大小和即时加载时间。"
       }
     ]
   },
   "edge_section": {
-    "title": "React 优势",
-    "subtitle": "为现代 Web 产品提供可量化的优势。",
+    "title": "反应边缘",
+    "subtitle": "现代网络产品的可量化优势。",
     "cards": [
       {
         "metric": "85%",
-        "title": "代码复用率",
-        "description": "在多个视图之间利用共享组件，甚至可以在移动项目中复用于 React Native。"
+        "title": "代码可重用性",
+        "description": "利用跨多个视图的共享组件，甚至针对移动项目使用 React Native。"
       },
       {
-        "metric": "60 FPS",
-        "title": "界面流畅度",
-        "description": "通过优化的渲染周期和 Hooks 实现丝滑的动画和过渡效果。"
+        "metric": "60帧/秒",
+        "title": "界面流畅性",
+        "description": "通过优化的渲染周期和挂钩实现流畅的动画和过渡。"
       },
       {
-        "metric": "长期",
-        "title": "LTS 支持",
-        "description": "由 Meta 和全球社区提供支持，确保长期的稳定性和安全更新。"
+        "metric": "Active",
+        "title": "长期支持",
+        "description": "由 Meta 和全球社区支持，确保长期稳定性和安全更新。"
       },
       {
-        "metric": "零",
-        "title": "面条代码",
-        "description": "JSX 和 Hooks 等既定模式为大型团队强制执行了更清晰、更具可读性的结构。"
+        "metric": "Zero",
+        "title": "意大利面条代码",
+        "description": "JSX 和 Hooks 等既定模式为大型团队提供了更清晰、更易读的结构。"
       }
     ]
   },
   "quote_section": {
-    "quote": "React 让我们能够构建复杂的、有生命力的界面，而不会丢失",
+    "quote": "React 允许我们构建复杂的、生动的界面而不丢失",
     "highlight": "架构的可预测性"
   },
   "conversation_section": {
-    "title": "规划您的前端架构",
+    "title": "设计你的前端",
     "subtitle": "咨询我们的首席 React 架构师，定义可扩展的 UI 策略和性能路线图。",
-    "full_name_label": "首席工程师姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "UI 需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "full_name_label": "首席工程师",
+    "business_email_label": "实体邮箱",
+    "message_label": "用户界面要求",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的 React 性能目标或设计系统挑战...",
-    "button_text": "申请咨询"
+    "message_placeholder": "描述您的 React 性能目标或设计系统挑战...",
+    "button_text": "请求咨询"
   }
 }

@@ -32,7 +32,7 @@
     "title": "Por qué diseñamos con C++",
     "subtitle": "C++ proporciona la capacidad única de crear abstracciones complejas sin sacrificar el rendimiento del tiempo de ejecución.",
     "paragraphs": [
-      "Elegimos C++ para motores de rendimiento crítico e infraestructura a nivel de sistemas. Al aprovechar las 'Abstracciones de Costo Cero', podemos utilizar patrones de programación genéricos y orientados a objetos de alto nivel que se compilan en código de máquina altamente eficiente, asegurando que la intención del desarrollador nunca se convierta en un cuello de botella para el procesador.",
+      "Elegimos C++ para motores de rendimiento crítico e infraestructura a nivel de sistemas. Al aprovechar las 'abstracciones de costo cero', podemos utilizar patrones de programación genéricos y orientados a objetos de alto nivel que se compilan en código de máquina altamente eficiente, asegurando que la intención del desarrollador nunca se convierta en un cuello de botella para el procesador.",
       "Con la implementación de patrones RAII (La adquisición de recursos es inicialización) modernos y punteros inteligentes, eliminamos las pérdidas de memoria comunes y los problemas de subprocesamiento. Esto permite a nuestros equipos ofrecer software excepcionalmente estable para industrias como fintech, juegos y simulaciones en tiempo real donde la confiabilidad es la principal métrica de éxito."
     ],
     "cards": [
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance arquitectónico de C++",
     "image": "/technologies/cpp/scope.webp",
     "items": [
@@ -77,8 +77,8 @@
     "subtitle": "Ventajas de rendimiento estratégico para los núcleos empresariales.",
     "cards": [
       {
-        "metric": "máx.",
-        "title": "Rendimiento",
+        "metric": "Max",
+        "title": "Throughput",
         "description": "Logre las velocidades de procesamiento de datos más altas posibles mediante el control manual de la memoria y la optimización de la caché."
       },
       {
@@ -87,12 +87,12 @@
         "description": "Acceso directo a los recursos del sistema y registros de hardware para una eficiencia de ejecución incomparable."
       },
       {
-        "metric": "Legado",
-        "title": "Interoperabilidad",
+        "metric": "Legacy",
+        "title": "Interoperability",
         "description": "Integre perfectamente con bibliotecas C y sistemas existentes mientras moderniza la capa lógica de alto nivel."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Inflación en tiempo de ejecución",
         "description": "Mantenga un espacio mínimo al incluir únicamente las bibliotecas y funciones específicas que requiere su aplicación."
       }

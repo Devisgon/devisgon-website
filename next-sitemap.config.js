@@ -5,14 +5,24 @@ const LANGUAGES = ["en", "ur", "ar", "es", "de", "zh", "fr"];
 const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/services");
 const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
 const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
-const BASE_OTHERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
+const BASE_PARTNERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
 
 const folderToUrlMap = {
   ai_and_saas_developments: "saas",
-  data_solutions: "data_solutions",
+  data_solutions: "data-solutions",
+  digital_design: "design",
   workflow_automations: "automations",
-  web_and_mobile_development: "web_and_mobile_development",
+  web_and_mobile_development: "web-and-mobile-development",
 };
+
+function readJsonFile(filePath) {
+  const fileContent = fs.readFileSync(filePath, "utf-8").replace(/^\uFEFF/, "");
+  return JSON.parse(fileContent);
+}
+
+function canonicalSegment(value) {
+  return value.replace(/_/g, "-");
+}
 
 function getServiceUrls() {
   const urls = [];
@@ -24,7 +34,7 @@ function getServiceUrls() {
       const folderPath = path.join(BASE_SERVICES_PATH, folder);
 
       if (fs.statSync(folderPath).isDirectory()) {
-        const urlSegment = folderToUrlMap[folder] || folder;
+        const urlSegment = canonicalSegment(folderToUrlMap[folder] || folder);
         const files = fs.readdirSync(folderPath);
 
         files.forEach((file) => {
@@ -33,7 +43,7 @@ function getServiceUrls() {
           }
 
           const filePath = path.join(folderPath, file);
-          const fileContent = JSON.parse(fs.readFileSync(filePath, "utf-8"));
+          const fileContent = readJsonFile(filePath);
           const slug = fileContent.slug;
 
           LANGUAGES.forEach((lang) => {
@@ -76,11 +86,11 @@ function getIndustryUrls() {
       }
 
       const [category] = pathSegments;
-      const fileContent = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
-      const slug = fileContent.slug || path.basename(entry.name, ".json");
+      const fileContent = readJsonFile(fullPath);
+      const slug = fileContent.slug || canonicalSegment(path.basename(entry.name, ".json"));
 
       LANGUAGES.forEach((lang) => {
-        urls.push(`/industries/${category}/${slug}?lang=${lang}`);
+        urls.push(`/industries/${canonicalSegment(category)}/${canonicalSegment(slug)}?lang=${lang}`);
       });
     }
   }
@@ -112,11 +122,11 @@ function getTechnologyUrls() {
         continue;
       }
 
-      const fileContent = JSON.parse(fs.readFileSync(fullPath, "utf-8"));
+      const fileContent = readJsonFile(fullPath);
       const slug = fileContent.slug || (entry.name === "index.json" ? path.basename(path.dirname(fullPath)) : path.basename(entry.name, ".json"));
 
       LANGUAGES.forEach((lang) => {
-        urls.push(`/technologies/${slug}?lang=${lang}`);
+        urls.push(`/technologies/${canonicalSegment(slug)}?lang=${lang}`);
       });
     }
   }
@@ -130,20 +140,20 @@ function getTechnologyUrls() {
   return urls;
 }
 
-function getOtherUrls() {
+function getPartnerUrls() {
   const urls = [];
 
   try {
-    const files = fs.readdirSync(BASE_OTHERS_PATH);
+    const files = fs.readdirSync(BASE_PARTNERS_PATH);
 
     files.forEach((file) => {
       if (!file.endsWith(".json")) {
         return;
       }
 
-      const slug = path.basename(file, ".json");
+      const slug = canonicalSegment(path.basename(file, ".json"));
       LANGUAGES.forEach((lang) => {
-        urls.push(`/others/${slug}?lang=${lang}`);
+        urls.push(`/partners/${slug}?lang=${lang}`);
       });
     });
   } catch (error) {
@@ -158,9 +168,18 @@ const config = {
   siteUrl: "https://www.devisgon.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
+  exclude: [
+    "/others/*",
+    "/partners/dctr_hosting",
+    "/privacy_policies",
+    "/terms_condition",
+    "/services/data_solutions/*",
+    "/services/digital_design/*",
+    "/services/web_and_mobile_development/*",
+  ],
 
   async additionalPaths() {
-    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls(), ...getOtherUrls()];
+    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls(), ...getPartnerUrls()];
 
     return dynamicSlugs.map((url) => ({
       loc: url,

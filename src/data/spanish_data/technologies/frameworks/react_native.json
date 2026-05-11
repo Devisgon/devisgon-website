@@ -25,7 +25,7 @@
     },
     "secondary_cta": {
       "text": "Documentación técnica",
-      "href": "/technologies/react_native#technology-architecture"
+      "href": "/technologies/react-native#technology-architecture"
     }
   },
   "why_use_section": {
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
+    "id": "technology-architecture",
     "title": "Alcance arquitectónico móvil",
     "image": "/technologies/react_native/scope.webp",
     "items": [
@@ -82,19 +82,19 @@
         "description": "Reducción significativa del time-to-market mediante ingeniería para dos plataformas simultáneamente."
       },
       {
-        "metric": "Nativo",
+        "metric": "Native",
         "title": "Fidelidad de la interfaz de usuario",
         "description": "El acceso directo a los widgets OEM garantiza que la aplicación siga perfectamente las pautas de diseño específicas de la plataforma."
       },
       {
-        "metric": "Grande",
+        "metric": "Large",
         "title": "Grupo de talentos",
         "description": "Aproveche el enorme ecosistema de React, lo que facilita la ampliación de su equipo de ingeniería."
       },
       {
-        "metric": "Cero",
+        "metric": "Zero",
         "title": "Obstáculos web",
-        "description": "Evite los cuellos de botella en el rendimiento de los navegadores móviles ejecutando directamente en el hilo de la interfaz de usuario nativa del dispositivo."
+        "description": "Evite los cuellos de botella en el rendimiento de los navegadores móviles ejecutando directamente en el subproceso de interfaz de usuario nativo del dispositivo."
       }
     ]
   },

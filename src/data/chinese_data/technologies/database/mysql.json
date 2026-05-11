@@ -1,116 +1,116 @@
 {
   "slug": "mysql",
   "seo_metadata": {
-    "title": "企业级 MySQL 开发与关系型数据库设计",
-    "description": "专业的 MySQL 实施与优化服务。我们构建具有高完整性的关系型数据库，专为 ACID 合规性、安全性以及一致的性能而设计。",
+    "title": "企业MySQL开发和关系数据库设计",
+    "description": "专业的 MySQL 实施和优化服务。我们构建高度完整性的关系数据库，旨在实现 ACID 合规性、安全性和一致的性能。",
     "keywords": [
-      "MySQL 开发",
-      "关系型数据库设计",
-      "SQL 优化",
-      "ACID 合规性",
+      "MySQL开发",
+      "关系数据库设计",
+      "SQL优化",
+      "酸性合规性",
       "数据库集群",
       "InnoDB 性能调优",
       "托管 MySQL 服务"
     ]
   },
   "hero_section": {
-    "eyebrow": "卓越的关系型存储",
-    "title": "凭借以下技术实现可扩展的完整性",
+    "eyebrow": "卓越关系",
+    "title": "可扩展的完整性",
     "highlight": "MySQL",
-    "description": "利用全球最受欢迎的开源数据库，构建安全且支持事务的应用程序，专注于数据一致性和高并发性能。",
+    "description": "利用世界上最流行的开源数据库构建安全的事务性应用程序，重点关注数据一致性和高并发性能。",
     "side_image": "/technologies/mysql/hero.webp",
     "primary_cta": {
       "text": "优化您的数据库",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看架构方案",
+      "text": "查看架构",
       "href": "/technologies/mysql#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 MySQL 进行工程设计",
-    "subtitle": "MySQL 仍然是关系型数据的黄金标准，为结构化工作负载提供无与伦比的可靠性。",
+    "title": "为什么我们使用 MySQL 进行设计",
+    "subtitle": "MySQL 仍然是关系数据的黄金标准，为结构化工作负载提供无与伦比的可靠性。",
     "paragraphs": [
-      "对于需要严格数据完整性和复杂关系查询的应用程序，MySQL 是我们的首选。它对 ACID 事务的强大支持确保了每一项操作都能得到可靠处理，使其成为金融系统和核心业务逻辑的理想选择。",
-      "通过利用 InnoDB 等现代存储引擎并实施高级索引策略，我们提供了一个既能平衡高速读取性能，又能保障结构化数据管理安全的数据层。"
+      "对于需要严格数据完整性和复杂关系查询的应用程序，MySQL是我们的首选。它对 ACID 事务的强大支持可确保每个操作都得到可靠处理，使其成为金融系统和核心业务逻辑的理想选择。",
+      "通过利用 InnoDB 等现代存储引擎并实施先进的索引策略，我们提供了一个在高速读取性能与结构化数据管理的安全性之间取得平衡的数据层。"
     ],
     "cards": [
       {
-        "title": "ACID 合规性",
-        "description": "通过原子性、一致性、隔离性和持久性的事务处理，保障数据的有效性。",
+        "title": "酸性合规性",
+        "description": "通过原子、一致、隔离和持久的事务处理保证数据有效性。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "成熟的关系型能力",
-        "description": "凭借成熟的优化器和经过验证的执行引擎，处理复杂的联接和多表关系。",
+        "title": "关系成熟度",
+        "description": "使用成熟的优化器和经过验证的执行引擎处理复杂的联接和多表关系。",
         "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "安全至上",
-        "description": "受益于经受过实战检验的安全模型，包括细粒度的访问控制和加密连接。",
+        "title": "安全第一",
+        "description": "受益于久经考验的安全模型，包括精细的访问控制和加密连接。",
         "icon_type": "FaLock"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "MySQL 设计范畴",
+    "title": "MySQL 设计范围",
     "image": "/technologies/mysql/scope.webp",
     "items": [
       {
-        "title": "规范化数据建模",
-        "description": "设计高效的 3NF（第三范式）架构，在保持最高查询性能的同时最大限度地减少冗余。"
+        "title": "标准化数据建模",
+        "description": "设计高效的 3NF 模式，最大限度地减少冗余，同时保持最大的查询性能。"
       },
       {
-        "title": "读写分离",
-        "description": "实施主从复制架构以分摊流量，并确保读密集型应用的水平可扩展性。"
+        "title": "读/写分离",
+        "description": "实施主副本架构来分配流量并确保读取密集型应用程序的水平可扩展性。"
       },
       {
         "title": "自动故障转移",
-        "description": "通过同步或半同步复制设置高可用集群，确保全天候业务连续性。"
+        "description": "设置具有同步或半同步复制的高可用性集群，以实现 24/7 业务连续性。"
       }
     ]
   },
   "edge_section": {
-    "title": "MySQL 优势",
-    "subtitle": "为现代 Web 提供值得信赖的性能。",
+    "title": "MySQL 的优势",
+    "subtitle": "现代网络值得信赖的性能。",
     "cards": [
       {
         "metric": "100%",
         "title": "数据完整性",
-        "description": "通过严格的约束执行，确保所有关系型数据集之间的事务一致性。"
+        "description": "通过严格的约束执行确保所有关系数据集的事务一致性。"
       },
       {
-        "metric": "开放",
-        "title": "生态系统",
-        "description": "利用庞大的社区和无限的第三方工具进行监控、备份和迁移。"
+        "metric": "Open",
+        "title": "Ecosystem",
+        "description": "利用庞大的社区和无数的第三方工具进行监控、备份和迁移。"
       },
       {
-        "metric": "低",
-        "title": "总拥有成本 (TCO)",
-        "description": "无需支付专有 SQL 引擎的高昂授权费用，即可获得企业级的数据库性能。"
+        "metric": "Low",
+        "title": "TCO",
+        "description": "实现企业级数据库性能，而无需支付高昂的专有 SQL 引擎许可成本。"
       },
       {
-        "metric": "零",
+        "metric": "Zero",
         "title": "供应商锁定",
-        "description": "通过可移植的开源引擎保持对基础设施的完全控制，兼容各大主流云平台。"
+        "description": "通过与每个主要云兼容的便携式开源引擎，保持对基础设施的完全控制。"
       }
     ]
   },
   "quote_section": {
-    "quote": "MySQL 为将复杂数据转化为可靠的逻辑提供了",
-    "highlight": "结构化基础"
+    "quote": "MySQL 提供了将复杂数据转化为数据所需的结构化基础",
+    "highlight": "可靠的业务逻辑"
   },
   "conversation_section": {
     "title": "构建您的 SQL 解决方案",
-    "subtitle": "咨询我们的数据库专家，审计您的 Schema 或优化您的查询性能。",
-    "full_name_label": "首席数据库管理员姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "技术需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "subtitle": "请咨询我们的数据库专家来审核您的架构或优化您的查询性能。",
+    "full_name_label": "首席数据库管理员",
+    "business_email_label": "实体邮箱",
+    "message_label": "技术要求",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的 SQL 性能挑战或架构目标...",
-    "button_text": "申请数据库审计"
+    "message_placeholder": "描述您的 SQL 性能挑战或架构目标...",
+    "button_text": "请求数据库审计"
   }
 }

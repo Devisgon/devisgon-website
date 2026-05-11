@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée technique Java",
     "image": "/technologies/java/scope.webp",
     "items": [
@@ -87,12 +87,12 @@
         "description": "La JVM garantit que votre code se comporte de manière cohérente dans les environnements Linux, Windows et Cloud."
       },
       {
-        "metric": "Évolutif",
-        "title": "Concurrence",
+        "metric": "Scalable",
+        "title": "Concurrency",
         "description": "Gérez efficacement des milliers de connexions simultanées avec des modèles de threads matures."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Risque de maintenance",
         "description": "La stricte compatibilité ascendante et les versions LTS (Long-Term Support) protègent votre investissement technique."
       }

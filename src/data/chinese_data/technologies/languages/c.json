@@ -1,23 +1,23 @@
 {
-  "slug": "c-programming",
+  "slug": "c",
   "seo_metadata": {
-    "title": "底层 C 语言编程与系统架构服务",
-    "description": "针对高性能系统的企业级 C 语言开发。我们以精准的内存控制架构固件、嵌入式解决方案和性能至上的内核。",
+    "title": "低级 C 编程和系统架构服务",
+    "description": "高性能系统的企业 C 开发。我们以外科手术记忆精度构建固件、嵌入式解决方案和性能关键型内核。",
     "keywords": [
-      "C 语言编程",
+      "C语言",
       "系统编程",
-      "嵌入式 C 开发",
-      "底层硬件抽象",
+      "嵌入式C语言开发",
+      "低级硬件抽象",
       "内存管理优化",
       "内核开发",
       "高性能计算"
     ]
   },
   "hero_section": {
-    "eyebrow": "现代计算的基石",
-    "title": "凭借以下技术实现原生性能",
-    "highlight": "C 语言",
-    "description": "通过过程式编程释放最大的硬件效率，为处理器提供极薄的抽象层，从而实现极致的执行速度。",
+    "eyebrow": "现代计算的基础",
+    "title": "原始性能",
+    "highlight": "C语言",
+    "description": "通过过程编程释放最大的硬件效率，在处理器上提供一个薄的抽象层，以实现最终的执行速度。",
     "side_image": "/technologies/c/hero.webp",
     "primary_cta": {
       "text": "咨询工程师",
@@ -29,88 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 C 语言进行工程设计",
-    "subtitle": "对于资源受限的环境和性能至上的核心模块，C 语言仍然是无可替代的选择。",
+    "title": "为什么我们用 C 语言进行设计",
+    "subtitle": "C 仍然是资源受限环境和性能关键核心的最终选择。",
     "paragraphs": [
-      "当每一字节内存和每个 CPU 周期都至关重要时，C 语言是我们的首选工具。它通过指针和结构体直接访问内存和硬件的能力，使其在构建操作系统、驱动程序以及对开销零容忍的高频交易平台时不可或缺。",
-      "通过遵循严格的 MISRA 标准并利用现代静态分析工具，我们降低了手动内存管理带来的固有风险，交付出既快速又可靠的代码库。"
+      "当每个内存字节和每个 CPU 周期都很重要时，C 就是我们的主要工具。它能够通过指针和结构提供对内存和硬件的直接访问，这使得它对于构建开销不可接受的操作系统、驱动程序和高频交易平台来说是不可或缺的。",
+      "通过遵循严格的 MISRA 标准并利用现代静态分析工具，我们降低了手动内存管理的固有风险，提供了既可靠又快速的代码库。"
     ],
     "cards": [
       {
-        "title": "接近硬件层",
-        "description": "直接操作寄存器和内存地址，实现对硬件外设的精准控制。",
+        "title": "硬件邻近度",
+        "description": "直接操作寄存器和内存地址以精确控制硬件外设。",
         "icon_type": "FaMicrochip"
       },
       {
-        "title": "极低开销",
-        "description": "无运行时垃圾回收或沉重的抽象层，确保确定性的执行时间。",
+        "title": "最小的开销",
+        "description": "零运行时垃圾收集或大量抽象，确保确定的执行时间。",
         "icon_type": "FaTachometerAlt"
       },
       {
-        "title": "通用的可移植性",
-        "description": "编写的代码可以针对几乎任何处理器架构进行编译，从微小的 MCU 到庞大的超级计算机。",
+        "title": "通用便携性",
+        "description": "编写可编译用于几乎所有处理器架构（从小型 MCU 到大型超级计算机）的代码。",
         "icon_type": "FaExpandArrowsAlt"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "系统架构范畴",
+    "title": "系统架构范围",
     "image": "/technologies/c/scope.webp",
     "items": [
       {
-        "title": "嵌入式系统与固件",
-        "description": "为物联网设备、汽车 ECU 和工业自动化硬件开发稳健的固件。"
+        "title": "嵌入式系统和固件",
+        "description": "为物联网设备、汽车 ECU 和工业自动化硬件开发强大的固件。"
       },
       {
         "title": "高性能内核",
-        "description": "构建大型系统中对性能要求极高的“热路径”，以消除瓶颈并降低延迟。"
+        "description": "构建大型系统的性能关键“热路径”，以消除瓶颈并减少延迟。"
       },
       {
-        "title": "跨语言桥接",
-        "description": "构建共享库 (.so/.dll)，允许 Python 或 Node.js 等高级语言通过 FFI 访问 C 语言的高速执行能力。"
+        "title": "跨语言桥梁",
+        "description": "构建共享库 (.so/.dll)，允许 Python 或 Node.js 等高级语言通过 FFI 访问 C 的速度。"
       }
     ]
   },
   "edge_section": {
-    "title": "C 语言的竞争优势",
-    "subtitle": "为您数字基础设施的核心提供无与伦比的效率。",
+    "title": "C 竞争优势",
+    "subtitle": "为您的数字基础设施核心提供无与伦比的效率。",
     "cards": [
       {
-        "metric": "趋于零",
+        "metric": "Near-Zero",
         "title": "抽象成本",
-        "description": "以尽可能高的“每时钟指令数”效率执行代码。"
+        "description": "以尽可能高的每时钟指令效率执行代码。"
       },
       {
-        "metric": "确定性",
-        "title": "延迟",
-        "description": "消除由高级语言运行时中常见的垃圾回收器所导致的不可预测的停顿。"
+        "metric": "Deterministic",
+        "title": "Latency",
+        "description": "消除由高级运行时中的垃圾收集器引起的不可预测的暂停。"
       },
       {
         "metric": "ISO",
-        "title": "标准化",
-        "description": "遵循 C11/C17/C23 标准，确保您的核心逻辑在数十年内依然保持生命力。"
+        "title": "Standardized",
+        "description": "遵守 C11/C17/C23 标准可确保您的核心逻辑在数十年内保持可行。"
       },
       {
-        "metric": "零",
-        "title": "运行时臃肿",
-        "description": "保持尽可能小的二进制体积，是边缘计算和遗留系统集成的理想选择。"
+        "metric": "Zero",
+        "title": "运行时膨胀",
+        "description": "保持尽可能小的二进制占用空间，非常适合边缘计算和遗留集成。"
       }
     ]
   },
   "quote_section": {
-    "quote": "C 语言提供了所需的如手术刀般的精度，将硅片转化为",
+    "quote": "C 提供将硅转化为所需的外科手术精度",
     "highlight": "纯粹的计算能力"
   },
   "conversation_section": {
-    "title": "构建您的核心架构",
-    "subtitle": "咨询我们的系统专家，优化您的性能关键型基础设施。",
-    "full_name_label": "首席系统工程师姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "技术需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "构建你的核心",
+    "subtitle": "请咨询我们的系统专家，以优化您的性能关键型基础设施。",
+    "full_name_label": "首席系统工程师",
+    "business_email_label": "实体邮箱",
+    "message_label": "技术要求",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的硬件限制或性能瓶颈...",
-    "button_text": "申请系统审计"
+    "message_placeholder": "描述您的硬件限制或性能瓶颈...",
+    "button_text": "请求系统审核"
   }
 }

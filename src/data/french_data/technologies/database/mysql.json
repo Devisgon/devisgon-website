@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
+    "id": "technology-architecture",
     "title": "Portée de la conception MySQL",
     "image": "/technologies/mysql/scope.webp",
     "items": [
@@ -82,17 +82,17 @@
         "description": "Assurer la cohérence transactionnelle sur tous les ensembles de données relationnelles grâce à une application stricte des contraintes."
       },
       {
-        "metric": "Ouvrir",
-        "title": "Écosystème",
+        "metric": "Open",
+        "title": "Ecosystem",
         "description": "Tirer parti d’une communauté massive et d’outils tiers infinis pour la surveillance, la sauvegarde et la migration."
       },
       {
-        "metric": "Faible",
-        "title": "Coût total de possession",
+        "metric": "Low",
+        "title": "TCO",
         "description": "Obtenez des performances de base de données de niveau entreprise sans les coûts de licence prohibitifs des moteurs SQL propriétaires."
       },
       {
-        "metric": "Zéro",
+        "metric": "Zero",
         "title": "Verrouillage du fournisseur",
         "description": "Gardez le contrôle total de votre infrastructure avec un moteur portable et open source compatible avec tous les principaux cloud."
       }

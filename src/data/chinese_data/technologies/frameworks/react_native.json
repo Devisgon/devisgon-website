@@ -1,116 +1,116 @@
 {
   "slug": "react-native",
   "seo_metadata": {
-    "title": "专业 React Native 开发 | 跨平台原生应用",
-    "description": "企业级 React Native 实施服务。我们使用统一的 JavaScript 代码库和原生渲染技术，构建高性能的 iOS 和 Android 应用程序。",
+    "title": "专业React Native开发 |跨平台本机应用程序",
+    "description": "企业React Native实施服务。我们使用具有本机渲染功能的单个 JavaScript 代码库构建高性能 iOS 和 Android 应用程序。",
     "keywords": [
-      "React Native 开发",
-      "跨平台移动应用",
-      "JavaScript 原生桥接",
+      "反应本机开发",
+      "跨平台移动应用程序",
+      "JavaScript 原生桥",
       "React Native Fabric 架构",
       "移动应用优化",
-      "Expo 开发",
+      "世博发展",
       "原生模块集成"
     ]
   },
   "hero_section": {
-    "eyebrow": "原生性能，React 效率",
-    "title": "凭借以下技术实现统一体验",
-    "highlight": "React Native",
-    "description": "将原生平台的强大能力与 React 行业领先的开发体验相结合，以更快的速度发布高质量移动应用。",
+    "eyebrow": "原生性能、反应效率",
+    "title": "统一经验",
+    "highlight": "反应本机",
+    "description": "将本机平台功能的强大功能与 React 业界领先的开发人员体验相结合，更快地交付高质量的移动应用程序。",
     "side_image": "/technologies/react_native/hero.webp",
     "primary_cta": {
-      "text": "开始移动端构建",
+      "text": "开始移动构建",
       "href": "/contact"
     },
     "secondary_cta": {
       "text": "技术文档",
-      "href": "/technologies/react_native#technology-architecture"
+      "href": "/technologies/react-native#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 React Native 进行工程设计",
-    "subtitle": "React Native 让我们在保持单一共享代码库的同时，能够交付真正的原生 UI。",
+    "title": "为什么我们使用 React Native 进行工程师",
+    "subtitle": "React Native 允许我们提供真正的本机 UI，同时维护单个共享代码库。",
     "paragraphs": [
-      "对于追求原生级响应速度和需要访问平台特定 API 的项目，React Native 是我们的首选框架。与依赖 WebViews 的混合框架不同，React Native 调用实际的原生 UI 组件，确保您的应用程序在 iOS 和 Android 上都能拥有纯正的原生手感。",
-      "通过利用“新架构”（Fabric 和 TurboModules），我们利用直接的 C++ 集成来处理高并发任务。这带来了更流畅的动画、更快的启动速度，以及在 JavaScript 逻辑与底层移动硬件之间建立起高度可预测的桥接。"
+      "React Native 是我们为需要本机级响应能力和访问特定于平台的 API 的项目选择的框架。与依赖 WebView 的混合框架不同，React Native 调用实际的本机 UI 组件，确保您的应用程序在 iOS 和 Android 上都感觉很自在。",
+      "通过利用“新架构”（Fabric 和 TurboModules），我们利用直接 C++ 集成来执行高并发任务。这会带来更流畅的动画、更快的启动时间以及 JavaScript 逻辑和底层移动硬件之间高度可预测的桥梁。"
     ],
     "cards": [
       {
         "title": "原生渲染",
-        "description": "使用真实的平台组件而非浏览器，提供无缝的用户体验和 60FPS 的流畅动画。",
+        "description": "使用真实的平台组件而不是浏览器，提供无缝的用户体验和 60FPS 流畅的运动。",
         "icon_type": "FaMobileAlt"
       },
       {
-        "title": "代码复用性",
-        "description": "在 iOS 和 Android 之间共享高达 90% 的代码库，大幅减少维护成本和功能滞后。",
+        "title": "代码可重用性",
+        "description": "在 iOS 和 Android 之间共享高达 90% 的代码库，大大减少维护和功能滞后。",
         "icon_type": "FaSync"
       },
       {
         "title": "快速刷新",
-        "description": "在不丢失应用程序状态的情况下即时查看更改，实现移动开发中最快的迭代周期。",
+        "description": "立即查看更改，而不会丢失应用程序状态，从而实现移动开发中最快的迭代周期。",
         "icon_type": "FaZap"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "移动架构范畴",
+    "title": "移动架构范围",
     "image": "/technologies/react_native/scope.webp",
     "items": [
       {
-        "title": "Fabric 与 TurboModules",
-        "description": "实施现代 React Native 架构，以实现同步线程执行并提升启动性能。"
+        "title": "Fabric 和 TurboModules",
+        "description": "实现现代 React Native 架构以实现同步线程执行并提高启动性能。"
       },
       {
-        "title": "自定义原生模块",
-        "description": "为生物识别传感器或增强现实 (AR) 等特殊硬件需求，桥接 Java/Kotlin 和 Objective-C/Swift 代码。"
+        "title": "自定义本机模块",
+        "description": "桥接 Java/Kotlin 和 Objective-C/Swift 代码，以满足生物识别传感器或 AR 等特殊硬件要求。"
       },
       {
         "title": "离线优先数据",
-        "description": "使用本地持久化（WatermelonDB/Realm）和实时后台同步，构建具有韧性的应用程序。"
+        "description": "构建具有本地持久性（WatermelonDB/Realm）和实时后台同步的弹性应用程序。"
       }
     ]
   },
   "edge_section": {
-    "title": "React Native 优势",
-    "subtitle": "打造主流移动产品的战略优势。",
+    "title": "React Native 边缘",
+    "subtitle": "主导移动产品的战略优势。",
     "cards": [
       {
         "metric": "40%",
-        "title": "更快的上市速度",
-        "description": "通过同时为两个平台进行工程设计，显著缩短产品上市时间 (TTM)。"
+        "title": "更快的TTM",
+        "description": "通过同时为两个平台进行工程设计，显着缩短了上市时间。"
       },
       {
-        "metric": "原生",
-        "title": "UI 忠实度",
-        "description": "直接访问 OEM 组件，确保应用完美遵循平台特定的设计指南。"
+        "metric": "Native",
+        "title": "用户界面保真度",
+        "description": "直接访问 OEM 小部件可确保应用程序完美遵循特定于平台的设计准则。"
       },
       {
-        "metric": "庞大",
+        "metric": "Large",
         "title": "人才库",
-        "description": "利用庞大的 React 生态系统，让扩展您的工程团队变得更加容易。"
+        "description": "利用庞大的 React 生态系统，更轻松地扩展您的工程团队。"
       },
       {
-        "metric": "零",
-        "title": "Web 障碍",
-        "description": "通过直接在设备的原生 UI 线程上执行，避免移动端浏览器的性能瓶颈。"
+        "metric": "Zero",
+        "title": "网络障碍",
+        "description": "通过直接在设备的本机 UI 线程上执行，避免移动浏览器的性能瓶颈。"
       }
     ]
   },
   "quote_section": {
-    "quote": "React Native 在开发速度与卓越性能之间找到了完美的平衡点",
-    "highlight": "不妥协的移动性能"
+    "quote": "React Native 提供了开发速度和",
+    "highlight": "不折不扣的移动性能"
   },
   "conversation_section": {
-    "title": "规划您的移动未来",
-    "subtitle": "咨询我们的首席移动架构师，定义您的跨平台路线图和性能策略。",
-    "full_name_label": "首席移动架构师姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "应用需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "title": "构建您的移动未来",
+    "subtitle": "请咨询我们的主要 React Native 专家，以定义您的跨平台路线图和性能策略。",
+    "full_name_label": "首席移动架构师",
+    "business_email_label": "实体邮箱",
+    "message_label": "应用程序要求",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的跨平台构想或性能挑战...",
+    "message_placeholder": "描述您的跨平台愿景或性能挑战...",
     "button_text": "索取报价"
   }
 }

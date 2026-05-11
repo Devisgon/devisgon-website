@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "Technischer Java-Bereich",
     "image": "/technologies/java/scope.webp",
     "items": [
@@ -87,12 +87,12 @@
         "description": "Die JVM stellt sicher, dass sich Ihr Code in Linux-, Windows- und Cloud-Umgebungen konsistent verhält."
       },
       {
-        "metric": "Skalierbar",
-        "title": "Parallelität",
+        "metric": "Scalable",
+        "title": "Concurrency",
         "description": "Behandeln Sie Tausende gleichzeitiger Verbindungen effizient mit ausgereiften Threading-Modellen."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "Wartungsrisiko",
         "description": "Strikte Abwärtskompatibilität und Long-Term-Support-Versionen (LTS) schützen Ihre technische Investition."
       }

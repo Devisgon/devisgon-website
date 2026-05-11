@@ -1,5 +1,6 @@
 import React from "react";
 import { HeroSectionProps } from "@/types/sub_services_page/hero";
+import HeroVideo from "@/components/sub_services_pages/hero_video";
 
 const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
   const { title, subtitle, description, hero_image } = data;
@@ -36,7 +37,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
 
           <div className="w-full lg:w-1/3 z-20">
             <div className="relative mx-auto w-[300px]  h-[550px]  rounded-2xl overflow-hidden">
-              <video src={hero_image} autoPlay muted playsInline className="absolute inset-0 w-full h-full object-contain " />
+              <HeroVideo src={hero_image} className="absolute inset-0 w-full h-full object-contain" />
 
               <div className="absolute bottom-0 left-0 w-full h-[40%] bg-gradient-to-t from-[#BE93E4]/70 via-[#BE93E4]/40 to-transparent z-[2] pointer-events-none" />
 
@@ -57,4 +58,3 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
 };
 
 export default HeroSection;
-

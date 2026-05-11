@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "هندسة التكنولوجيا",
+    "id": "technology-architecture",
     "title": "نطاق جافا الفني",
     "image": "/technologies/java/scope.webp",
     "items": [
@@ -87,12 +87,12 @@
         "description": "يضمن JVM أن التعليمات البرمجية الخاصة بك تعمل بشكل متسق عبر بيئات Linux وWindows وCloud."
       },
       {
-        "metric": "قابلة للتطوير",
-        "title": "التزامن",
+        "metric": "Scalable",
+        "title": "Concurrency",
         "description": "تعامل بكفاءة مع الآلاف من الاتصالات المتزامنة باستخدام نماذج الخيوط الناضجة."
       },
       {
-        "metric": "صفر",
+        "metric": "Zero",
         "title": "مخاطر الصيانة",
         "description": "يعمل التوافق الصارم مع الإصدارات السابقة والدعم طويل الأمد (LTS) على حماية استثمارك الفني."
       }

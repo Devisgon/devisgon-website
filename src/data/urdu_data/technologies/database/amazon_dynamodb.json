@@ -25,7 +25,7 @@
     },
     "secondary_cta": {
       "text": "آرکیٹیکچر پیٹرن دیکھیں",
-      "href": "/technologies/amazon_dynamodb#technology-architecture"
+      "href": "/technologies/amazon-dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "ٹیکنالوجی فن تعمیر",
+    "id": "technology-architecture",
     "title": "DynamoDB ڈیزائن اسکوپ",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
@@ -87,13 +87,13 @@
         "description": "گلوبل ٹیبلز کے لیے صنعت کا معروف اپ ٹائم، اس بات کو یقینی بناتے ہوئے کہ آپ کی درخواست ہمیشہ قابل رسائی ہے۔"
       },
       {
-        "metric": "ڈبل",
+        "metric": "Double",
         "title": "DAX ایکسلریشن",
         "description": "DynamoDB ایکسلریٹر (DAX) ان میموری کیچنگ کے ساتھ تھرو پٹ میں مزید 10x اضافہ کریں۔"
       },
       {
-        "metric": "صفر",
-        "title": "دیکھ بھال",
+        "metric": "Zero",
+        "title": "Maintenance",
         "description": "مکمل طور پر منظم AWS انفراسٹرکچر کے ذریعے پیچنگ، ہارڈ ویئر کی فراہمی، اور سافٹ ویئر اپ ڈیٹس کو ختم کریں۔"
       }
     ]
@@ -110,7 +110,7 @@
     "message_label": "تکنیکی ضرورت",
     "full_name_placeholder": "ڈاکٹر جولین تھورن",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "ہمیں اپنی تھرو پٹ ضروریات یا ڈیٹا ماڈلنگ کے چیلنجوں کے بارے میں بتائیں...",
+    "message_placeholder": "ہمیں اپنی تھرو پٹ کی ضروریات یا ڈیٹا ماڈلنگ کے چیلنجوں کے بارے میں بتائیں...",
     "button_text": "شیڈول آڈٹ"
   }
 }

@@ -1,23 +1,23 @@
 {
   "slug": "supabase",
   "seo_metadata": {
-    "title": "企业级 Supabase 开发 | PostgreSQL 与实时后端解决方案",
-    "description": "专业的 Supabase 实施服务。构建具有自动化 API、实时数据库订阅和企业级身份验证 (Auth) 的可扩展、安全应用程序。",
+    "title": "企业Supabase开发| PostgreSQL 和实时后端解决方案",
+    "description": "专业的Supabase实施服务。使用自动化 API、实时数据库订阅和企业级身份验证构建可扩展、安全的应用程序。",
     "keywords": [
-      "Supabase 开发",
+      "苏帕基地发展",
       "PostgreSQL 架构",
       "实时数据库",
       "行级安全性 (RLS)",
-      "BaaS 解决方案",
-      "Supabase Edge Functions",
+      "基础设施即服务解决方案",
+      "Supabase 边缘函数",
       "无服务器后端"
     ]
   },
   "hero_section": {
-    "eyebrow": "开源的 Firebase 替代方案",
-    "title": "凭借以下技术实现快速创新",
+    "eyebrow": "开源 Firebase 替代方案",
+    "title": "快速创新",
     "highlight": "Supabase",
-    "description": "通过强大的基于 PostgreSQL 的套件加速您的后端开发，包括即时生成的 API、实时数据同步和集成式身份验证。",
+    "description": "使用基于 PostgreSQL 的强大套件（包括即时 API、实时数据同步和集成身份验证）加速后端开发。",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
       "text": "构建您的后端",
@@ -29,88 +29,88 @@
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用 Supabase 进行工程设计",
-    "subtitle": "Supabase 将 PostgreSQL 的可靠性与现代后端即服务 (BaaS) 平台的快速性完美结合。",
+    "title": "为什么我们使用 Supabase 进行设计",
+    "subtitle": "Supabase 将 PostgreSQL 的可靠性与现代后端即服务 (BaaS) 平台的速度相结合。",
     "paragraphs": [
-      "Supabase 让我们能够消除数月乏味的后端工程样板代码。通过利用其自动生成的 REST 和 GraphQL API，我们可以在几小时内（而非数周）完成从模式设计到前端集成的转变，同时始终保持在健壮的 PostgreSQL 生态系统中。",
-      "该平台最大的优势在于其安全模型。通过利用 PostgreSQL 原生的行级安全性 (RLS)，我们确保数据隔离和用户权限在数据库层面得到强制执行，从而创建出一种本质上更安全的“胖数据库，薄客户端”架构。"
+      "Supabase 使我们能够消除数月的样板后端工程。通过利用其自动生成的 REST 和 GraphQL API，我们可以在数小时而不是数周内从模式设计过渡到前端集成，同时保持在强大的 PostgreSQL 生态系统内。",
+      "该平台的最大优势在于其安全模型。通过利用 PostgreSQL 的原生行级安全性 (RLS)，我们确保在数据库级别强制执行数据隔离和用户权限，从而创建本质上更安全的“厚数据库、瘦客户端”架构。"
     ],
     "cards": [
       {
-        "title": "PostgreSQL 动力",
+        "title": "PostgreSQL 电源",
         "description": "每个 Supabase 项目都是一个完整的、专用的 PostgreSQL 数据库——没有专有的抽象层。",
         "icon_type": "FaDatabase"
       },
       {
         "title": "实时引擎",
-        "description": "通过 WebSockets 实时监听数据库变更，构建协作式的实时用户体验。",
+        "description": "通过 WebSocket 实时监听数据库更改，以构建协作的实时用户体验。",
         "icon_type": "FaSync"
       },
       {
         "title": "内置身份验证",
-        "description": "通过全面的社交平台和无密码提供商套件管理用户注册与登录。",
+        "description": "使用一整套社交和无密码提供商管理用户注册和登录。",
         "icon_type": "FaUserShield"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Supabase 技术范畴",
+    "title": "Supabase 技术范围",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "关系型数据建模",
-        "description": "设计具有外键、视图和用于业务逻辑的存储过程的高完整性 PostgreSQL 模式。"
+        "title": "关系数据建模",
+        "description": "设计具有外键、视图和业务逻辑存储过程的高完整性 PostgreSQL 模式。"
       },
       {
-        "title": "无服务器边缘函数",
-        "description": "在全球范围内部署 TypeScript 函数，处理敏感逻辑、Webhooks 和第三方集成。"
+        "title": "无服务器边缘功能",
+        "description": "在全球范围内部署 TypeScript 函数以处理敏感逻辑、Webhooks 和第三方集成。"
       },
       {
-        "title": "存储与资产管理",
-        "description": "通过与数据库权限直接集成的可扩展存储层，管理大型文件和媒体资源。"
+        "title": "存储和资产管理",
+        "description": "使用直接与数据库权限集成的可扩展存储层管理大型文件和媒体。"
       }
     ]
   },
   "edge_section": {
-    "title": "Supabase 优势",
+    "title": "苏帕基地边缘",
     "subtitle": "现代全栈交付的战略优势。",
     "cards": [
       {
-        "metric": "3倍",
+        "metric": "3x",
         "title": "开发速度",
-        "description": "通过自动化 CRUD API 生成和集成式 Auth，缩短后端开发时间。"
+        "description": "通过自动 CRUD API 生成和集成 Auth 减少后端开发时间。"
       },
       {
         "metric": "99.95%",
-        "title": "运行时间",
-        "description": "由 AWS 管理的高可用基础设施，针对关键业务的运行时间进行了优化。"
+        "title": "Uptime",
+        "description": "由 AWS 管理并针对关键任务正常运行时间进行优化的高可用性基础设施。"
       },
       {
-        "metric": "开源",
-        "title": "核心代码",
-        "description": "构建在 Postgres、GoTrue 和 PostgREST 等开源标准之上，防止限制性的供应商锁定。"
+        "metric": "Open",
+        "title": "源核心",
+        "description": "基于 Postgres、GoTrue 和 PostgREST 等开源标准构建，防止限制性锁定。"
       },
       {
-        "metric": "零",
+        "metric": "Zero",
         "title": "供应商锁定",
-        "description": "随时将您的整个数据库和配置导出到您自己的自托管 PostgreSQL 实例中。"
+        "description": "随时将整个数据库和配置导出到您自己的自托管 PostgreSQL 实例。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase 让我们能够以初创公司的速度和",
-    "highlight": "企业的稳定性进行构建"
+    "quote": "Supabase 使我们能够以初创公司的速度进行构建，并且",
+    "highlight": "企业的稳定性"
   },
   "conversation_section": {
-    "title": "构建您的实时应用",
-    "subtitle": "咨询我们的首席工程师，定义您的 Supabase 架构或规划从 Firebase 的迁移。",
+    "title": "构建您的实时应用程序",
+    "subtitle": "请咨询我们的首席工程师来定义您的 Supabase 架构或计划从 Firebase 迁移。",
     "full_name_label": "首席开发人员姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "技术需求",
-    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_label": "实体邮箱",
+    "message_label": "技术要求",
+    "full_name_placeholder": "朱利安·索恩博士",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您的数据需求或实时挑战...",
+    "message_placeholder": "描述您的数据要求或实时挑战...",
     "button_text": "启动您的项目"
   }
 }

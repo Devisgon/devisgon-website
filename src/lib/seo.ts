@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { toLegacySlug } from "@/lib/slugs";
 
 type SeoConfig = {
   title: string;
@@ -233,6 +234,12 @@ const SERVICE_SLUG_SEO: Record<string, SeoConfig> = {
       "Build AI powered apps with automation, smart features, personalized experiences, and production-ready architecture.",
     keywords: ["AI powered app development", "AI app development", "Devisgon"],
   },
+  machine_learning: {
+    title: "Machine Learning Model Development | Devisgon",
+    description:
+      "Design, train, and deploy machine learning models for prediction, classification, recommendation, and business intelligence.",
+    keywords: ["machine learning models", "ML development", "Devisgon"],
+  },
   meachine_learning: {
     title: "Machine Learning Model Development | Devisgon",
     description:
@@ -446,7 +453,7 @@ const SERVICE_SLUG_SEO: Record<string, SeoConfig> = {
 };
 
 export const getServiceSlugMetadata = (slug: string): Metadata => {
-  const seo = SERVICE_SLUG_SEO[slug];
+  const seo = SERVICE_SLUG_SEO[slug] ?? SERVICE_SLUG_SEO[toLegacySlug(slug)];
   if (seo) return toMetadata(seo);
 
   const fallbackTitle = `${slug.replace(/[-_]/g, " ")} | Devisgon`;
@@ -486,7 +493,7 @@ const INDUSTRY_SLUG_SEO: Record<string, SeoConfig> = {
 };
 
 export const getIndustrySlugMetadata = (slug: string): Metadata => {
-  const seo = INDUSTRY_SLUG_SEO[slug];
+  const seo = INDUSTRY_SLUG_SEO[slug] ?? INDUSTRY_SLUG_SEO[toLegacySlug(slug)];
   if (seo) return toMetadata(seo);
 
   const fallbackTitle = `${slug.replace(/[-_]/g, " ")} Industry Solutions | Devisgon`;
@@ -538,7 +545,7 @@ const TECHNOLOGY_SLUG_SEO: Record<string, SeoConfig> = {
 };
 
 export const getTechnologySlugMetadata = (slug: string): Metadata => {
-  const seo = TECHNOLOGY_SLUG_SEO[slug];
+  const seo = TECHNOLOGY_SLUG_SEO[slug] ?? TECHNOLOGY_SLUG_SEO[toLegacySlug(slug)];
   if (seo) return toMetadata(seo);
 
   const fallbackTitle = `${slug.replace(/[-_]/g, " ")} Technology Stack | Devisgon`;

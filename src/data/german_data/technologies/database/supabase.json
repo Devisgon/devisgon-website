@@ -54,7 +54,7 @@
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
+    "id": "technology-architecture",
     "title": "Technischer Umfang von Supabase",
     "image": "/technologies/supabase/scope.webp",
     "items": [
@@ -83,16 +83,16 @@
       },
       {
         "metric": "99,95 %",
-        "title": "Betriebszeit",
+        "title": "Uptime",
         "description": "Hochverfügbare Infrastruktur, die von AWS verwaltet und für geschäftskritische Betriebszeit optimiert wird."
       },
       {
-        "metric": "Offen",
+        "metric": "Open",
         "title": "Quellkern",
         "description": "Basierend auf Open-Source-Standards wie Postgres, GoTrue und PostgREST, um eine restriktive Bindung zu verhindern."
       },
       {
-        "metric": "Null",
+        "metric": "Zero",
         "title": "Lieferantenbindung",
         "description": "Exportieren Sie Ihre gesamte Datenbank und Konfiguration jederzeit in Ihre eigene, selbst gehostete PostgreSQL-Instanz."
       }
