@@ -148,6 +148,8 @@ export type JotformLandingPageData = {
       billed_yearly: string;
       popular_label: string;
       pricing_cta: string;
+      form_limits_label?: string;
+      ai_agent_limits_label?: string;
       stats_eyebrow: string;
       stats_title: string;
       products_eyebrow: string;
@@ -197,6 +199,7 @@ export type JotformLandingPageData = {
       price_monthly: number;
       price_yearly: number;
       features: string[];
+      agent?: string[];
       is_popular?: boolean;
     }>;
     faqs?: Array<{
