@@ -1,8 +1,5 @@
 
 
-
-
-
 // ENGLISH
 import enAi from "@/data/english_data/services/workflow_automations/ai_powered_automation.json";
 import enLow from "@/data/english_data/services/workflow_automations/low_code_automations.json";
@@ -12,7 +9,6 @@ import enRpa from "@/data/english_data/services/workflow_automations/robotic_pro
 import enFa from "@/data/english_data/services/workflow_automations/accounting.json"
 import enDia from "@/data/english_data/services/workflow_automations/infrastructure_automation.json"
 import enMsa from "@/data/english_data/services/workflow_automations/marketing_sales_automation.json"
-import enApi from "@/data/english_data/services/workflow_automations/api_integration.json"
 // URDU
 import urAi from "@/data/urdu_data/services/workflow_automations/ai_powered_automation.json";
 import urLow from "@/data/urdu_data/services/workflow_automations/low_code_automations.json";
@@ -22,7 +18,6 @@ import urRpa from "@/data/urdu_data/services/workflow_automations/robotic_proces
 import urFa from "@/data/urdu_data/services/workflow_automations/accounting.json"
 import urDia from "@/data/urdu_data/services/workflow_automations/infrastructure_automation.json"
 import urMsa from "@/data/urdu_data/services/workflow_automations/marketing_sales_automation.json"
-import urApi from "@/data/urdu_data/services/workflow_automations/api_integration.json"
 
 // ARABIC
 import arAi from "@/data/arabic_data/services/workflow_automations/ai_powered_automation.json";
@@ -33,7 +28,6 @@ import arRpa from "@/data/arabic_data/services/workflow_automations/robotic_proc
 import arFa from "@/data/arabic_data/services/workflow_automations/accounting.json"
 import arDia from "@/data/arabic_data/services/workflow_automations/infrastructure_automation.json"
 import arMsa from "@/data/arabic_data/services/workflow_automations/marketing_sales_automation.json"
-import arApi from "@/data/arabic_data/services/workflow_automations/api_integration.json"
 
 //spanish
 import spAi from "@/data/spanish_data/services/workflow_automations/ai_powered_automation.json";
@@ -44,7 +38,6 @@ import spRpa from "@/data/spanish_data/services/workflow_automations/robotic_pro
 import spFa from "@/data/spanish_data/services/workflow_automations/accounting.json"
 import spDia from "@/data/spanish_data/services/workflow_automations/infrastructure_automation.json"
 import spMsa from "@/data/spanish_data/services/workflow_automations/marketing_sales_automation.json"
-import spApi from "@/data/spanish_data/services/workflow_automations/api_integration.json"
 
 //germam
 import grAi from "@/data/german_data/services/workflow_automations/ai_powered_automation.json";
@@ -55,7 +48,6 @@ import grRpa from "@/data/german_data/services/workflow_automations/robotic_proc
 import grFa from "@/data/german_data/services/workflow_automations/accounting.json"
 import grDia from "@/data/german_data/services/workflow_automations/infrastructure_automation.json"
 import grMsa from "@/data/german_data/services/workflow_automations/marketing_sales_automation.json"
-import grApi from "@/data/german_data/services/workflow_automations/api_integration.json"
 
 //chainese
 import chAi from "@/data/chinese_data/services/workflow_automations/ai_powered_automation.json";
@@ -66,7 +58,6 @@ import chRpa from "@/data/chinese_data/services/workflow_automations/robotic_pro
 import chFa from "@/data/chinese_data/services/workflow_automations/accounting.json"
 import chDia from "@/data/chinese_data/services/workflow_automations/infrastructure_automation.json"
 import chMsa from "@/data/chinese_data/services/workflow_automations/marketing_sales_automation.json"
-import chApi from "@/data/chinese_data/services/workflow_automations/api_integration.json"
 
 //french
 import frAi from "@/data/french_data/services/workflow_automations/ai_powered_automation.json";
@@ -77,7 +68,6 @@ import frRpa from "@/data/french_data/services/workflow_automations/robotic_proc
 import frFa from "@/data/french_data/services/workflow_automations/accounting.json"
 import frDia from "@/data/french_data/services/workflow_automations/infrastructure_automation.json"
 import frMsa from "@/data/french_data/services/workflow_automations/marketing_sales_automation.json"
-import frApi from "@/data/french_data/services/workflow_automations/api_integration.json"
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const workflowData: Record<string, Record<string, any>> = {
@@ -86,10 +76,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": enLow,
     "no_code_automations": enNo,
     "business_process_automation": enbpa,
-    "accounting": enFa,
-    "api_integration": enApi,
+    "finance_automation": enFa,
     "devops-infrastructure-automation": enDia,
-    "marketing-sales-automation": enMsa,
+    "marketing-automation": enMsa,
     "robotic-process-automation": enRpa
   },
   ur: {
@@ -97,10 +86,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": urLow,
     "no_code_automations": urNo,
     "business_process_automation": urbpa,
-    "accounting": urFa,
-    "api_integration": urApi,
+    "finance_automation": urFa,
     "devops-infrastructure-automation": urDia,
-    "marketing-sales-automation": urMsa,
+    "marketing-automation": urMsa,
     "robotic-process-automation": urRpa
   },
   ar: {
@@ -108,10 +96,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": arLow,
     "no_code_automations": arNo,
     "business_process_automation": arbpa,
-    "accounting": arFa,
-    "api_integration": arApi,
+    "finance_automation": arFa,
     "devops-infrastructure-automation": arDia,
-    "marketing-sales-automation": arMsa,
+    "marketing-automation": arMsa,
     "robotic-process-automation": arRpa
   },
   de: {
@@ -119,10 +106,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": grLow,
     "no_code_automations": grNo,
     "business_process_automation": grbpa,
-    "accounting": grFa,
-    "api_integration": grApi,
+    "finance_automation": grFa,
     "devops-infrastructure-automation": grDia,
-    "marketing-sales-automation": grMsa,
+    "marketing-automation": grMsa,
     "robotic-process-automation": grRpa
   },
   fr: {
@@ -130,10 +116,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": frLow,
     "no_code_automations": frNo,
     "business_process_automation": frbpa,
-    "accounting": frFa,
-    "api_integration": frApi,
+    "finance_automation": frFa,
     "devops-infrastructure-automation": frDia,
-    "marketing-sales-automation": frMsa,
+    "marketing-automation": frMsa,
     "robotic-process-automation": frRpa
   },
   es: {
@@ -141,10 +126,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": spLow,
     "no_code_automations": spNo,
     "business_process_automation": spbpa,
-    "accounting": spFa,
-    "api_integration": spApi,
+    "finance_automation": spFa,
     "devops-infrastructure-automation": spDia,
-    "marketing-sales-automation": spMsa,
+    "marketing-automation": spMsa,
     "robotic-process-automation": spRpa
   },
   zh: {
@@ -152,10 +136,9 @@ export const workflowData: Record<string, Record<string, any>> = {
     "low_code_automations": chLow,
     "no_code_automations": chNo,
     "business_process_automation": chbpa,
-    "accounting": chFa,
-    "api_integration": chApi,
+    "finance_automation": chFa,
     "devops-infrastructure-automation": chDia,
-    "marketing-sales-automation": chMsa,
+    "marketing-automation": chMsa,
     "robotic-process-automation": chRpa
   }
 };

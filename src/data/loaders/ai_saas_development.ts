@@ -51,7 +51,7 @@ export const workflowData: Record<string, Record<string, any>> = {
     "ai_powered_app": enAi, 
     "machine-learning": enmi,
     "meachine_learning": enmi,
-    "saas-platform": ensaas,
+    "saas-development": ensaas,
     "mvps": enmvp,
 
   },
@@ -59,42 +59,42 @@ export const workflowData: Record<string, Record<string, any>> = {
     "ai_powered_app": urAi, 
     "machine-learning": urmi,
     "meachine_learning": urmi,
-    "saas-platform": ursaas,
+    "saas-development": ursaas,
     "mvps": urmvp,
 
   }, ar: {
     "ai_powered_app": arAi, 
     "machine-learning": armi,
     "meachine_learning": armi,
-    "saas-platform": arsaas,
+    "saas-development": arsaas,
     "mvps": armvp,
 
   }, es: {
     "ai_powered_app": spAi, 
     "machine-learning": spmi,
     "meachine_learning": spmi,
-    "saas-platform": spsaas,
+    "saas-development": spsaas,
     "mvps": spmvp,
 
   }, de: {
     "ai_powered_app": grAi, 
     "machine-learning": grmi,
     "meachine_learning": grmi,
-    "saas-platform": grsaas,
+    "saas-development": grsaas,
     "mvps": grmvp,
 
   }, zh: {
     "ai_powered_app": chAi, 
     "machine-learning": chmi,
     "meachine_learning": chmi,
-    "saas-platform": chsaas,
+    "saas-development": chsaas,
     "mvps": chmvp,
 
   }, fr: {
     "ai_powered_app": frAi, 
     "machine-learning": frmi,
     "meachine_learning": frmi,
-    "saas-platform": frsaas,
+    "saas-development": frsaas,
     "mvps": frmvp,
 
   }, 
