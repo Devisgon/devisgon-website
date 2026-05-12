@@ -25,8 +25,8 @@
                 "href": "/services/saas/mvps"
               },
               {
-                "name": "SaaS Platform",
-                "href": "/services/saas/saas-platform"
+                "name": "SaaS Development",
+                "href": "/services/saas/saas-development"
               }
             ]
           },
@@ -37,17 +37,14 @@
                 "name": "AI Powered Automation",
                 "href": "/services/automations/ai-powered-automation"
               },
-              {
-                "name": "API Integration Automation",
-                "href": "/services/automations/api-integration"
-              },
+            
               {
                 "name": "Business Process Automation",
                 "href": "/services/automations/business-process-automation"
               },
               {
                 "name": "Financial Automation",
-                "href": "/services/automations/accounting"
+                "href": "/services/automations/finance-automation"
               },
               {
                 "name": "Infrastructure Automation",
@@ -59,7 +56,7 @@
               },
               {
                 "name": "Marketing & Sales Automation",
-                "href": "/services/automations/marketing-sales-automation"
+                "href": "/services/automations/marketing-automation"
               },
               {
                 "name": "Robotic Process Automation",
@@ -170,17 +167,21 @@
           {
             "title": "Web and App Applications",
             "links": [
+                {
+                "name": "API Integration",
+                "href": "/services/web-and-mobile-development/api-integration"
+              },
               {
                 "name": "Custom Bots",
                 "href": "/services/web-and-mobile-development/custom-bots"
               },
               {
-                "name": "Mobile Application",
-                "href": "/services/web-and-mobile-development/app-applications"
+                "name": "Mobile App Development",
+                "href": "/services/web-and-mobile-development/mobile-app-development"
               },
               {
-                "name": "Web Application",
-                "href": "/services/web-and-mobile-development/web-applications"
+                "name": "Web Application Development",
+                "href": "/services/web-and-mobile-development/web-application-development"
               }
             ]
           }
@@ -544,7 +545,7 @@
     },
     {
       "name": "Partners",
-      "href": "/partners/dctr-hosting",
+      "href": "/partners/doctorhoster",
       "dropdown": {
         "columns": [
           {
@@ -552,7 +553,7 @@
             "links": [
               {
                 "name": "DoctorHoster",
-                "href": "/partners/dctr-hosting"
+                "href": "/partners/doctorhoster"
               },
               {
                 "name": "Jotform",
