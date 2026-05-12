@@ -3,7 +3,6 @@ import type { ReactNode } from "react";
 import {
   ArrowRight,
   BarChart3,
-  Check,
   CheckCircle2,
   CreditCard,
   FileText,
@@ -16,6 +15,7 @@ import {
   Workflow,
 } from "lucide-react";
 import type { JotformLandingPageData } from "@/types/others_page";
+import JotformPricing from "./jotform_pricing";
 
 const jotformFeatureIcons = [MousePointerClick, Workflow, CreditCard, FileText, PlugZap, ShieldCheck];
 const jotformProductIcons = [FormInput, FileText, Workflow, BarChart3, Sparkles, ShieldCheck];
@@ -271,66 +271,6 @@ function JotformProductSuite({ data }: { data: JotformLandingPageData["landing_p
               </article>
             );
           })}
-        </div>
-      </div>
-    </section>
-  );
-}
-
-function formatJotformPrice(value: number) {
-  return value === 0 ? "Free" : `$${value}`;
-}
-
-function JotformPricing({ data }: { data: JotformLandingPageData["landing_page"] }) {
-  const joinHref = data.hero_section.cta_link;
-  const copy = getJotformCopy(data);
-
-  return (
-    <section id="pricing" className="bg-bg-secondary px-6 py-20 md:px-12 md:py-24">
-      <div className="mx-auto max-w-7xl">
-        <JotformSectionHeading
-          eyebrow={copy.pricing_eyebrow}
-          title={copy.pricing_title}
-          subtitle={copy.pricing_subtitle}
-        />
-        <div className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-          {data.pricing.map((plan) => (
-            <article
-              key={plan.plan}
-              className={`relative flex min-h-[400px] flex-col rounded-2xl border bg-bg-primary p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl ${
-                plan.is_popular ? "border-btn-primary ring-2 ring-btn-primary/25" : "border-[color:var(--primry)]"
-              }`}
-            >
-              {plan.is_popular ? (
-                <span className="absolute right-5 top-5 rounded-full bg-btn-primary px-3 py-1 text-[11px] font-black text-btn-secondary">
-                  {copy.popular_label}
-                </span>
-              ) : null}
-              <h3 className="text-xl font-black text-t-primary">{plan.plan}</h3>
-              <div className="mt-6">
-                <p className="text-4xl font-black text-btn-primary">{formatJotformPrice(plan.price_yearly)}</p>
-                <p className="mt-2 text-[11px] font-bold uppercase tracking-[0.14em] text-t-secondary">
-                  {plan.price_yearly === 0 ? copy.starter_access : copy.billed_yearly}
-                </p>
-              </div>
-              <ul className="mt-7 flex-1 space-y-3">
-                {plan.features.map((feature) => (
-                  <li key={feature} className="flex gap-3 text-xs font-semibold text-t-secondary">
-                    <Check className="mt-0.5 h-4 w-4 shrink-0 text-btn-primary" />
-                    {feature}
-                  </li>
-                ))}
-              </ul>
-              <a
-                href={joinHref}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="mt-8 inline-flex min-h-11 items-center justify-center rounded-xl bg-btn-primary px-4 py-3 text-xs font-black text-btn-secondary transition hover:opacity-90"
-              >
-                {copy.pricing_cta}
-              </a>
-            </article>
-          ))}
         </div>
       </div>
     </section>

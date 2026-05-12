@@ -1,9 +1,33 @@
+"use client";
+
 import styles from "../animations/ServicesSection.module.css";
 import type { ServicesSectionProps } from "@/types/homepage/services";
 import Image from "next/image";
+import { useEffect, useRef, useState } from "react";
+
 export default function ServicesSection({ data }: ServicesSectionProps) {
+  const sectionRef = useRef<HTMLElement | null>(null);
+  const [isInView, setIsInView] = useState(false);
+
+  useEffect(() => {
+    const section = sectionRef.current;
+
+    if (!section) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsInView(Boolean(entry?.isIntersecting));
+      },
+      { threshold: 0.2 },
+    );
+
+    observer.observe(section);
+
+    return () => observer.disconnect();
+  }, []);
+
   return (
-    <section className=" p-5 md:p-10 flex flex-col bg-background items-center overflow-hidden">
+    <section ref={sectionRef} className=" p-5 md:p-10 flex flex-col bg-background items-center overflow-hidden">
       {/* Header */}
       <div className="flex flex-col justify-center items-center m-4 px-4 z-10 relative">
         <p className="text-t-secondary text-2xl font-semibold mb-2">
@@ -18,7 +42,7 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
       <div className="relative w-full mt-8">
         <div className={styles.track}>
           <div className={styles.maskClip}>
-            <div className={styles.marquee}>
+            <div className={`${styles.marquee} ${isInView ? styles.marqueeRunning : ""}`}>
               <div className={styles.marqueeGroup}>
                {data.services_list.map((card, index) => (
   <a
@@ -56,12 +80,13 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
     href={card.link}
     className={styles.card}
   >
-    <img
+    <Image
       src={card.image_alt}
       alt={card.title}
+      width={653}
+      height={500}
+      sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 653px"
       className={styles.cardImage}
-      loading="lazy"
-      decoding="async"
     />
 
      <div className={styles.overlay}>

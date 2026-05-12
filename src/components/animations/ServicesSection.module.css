@@ -31,12 +31,13 @@
   display: flex;
   gap: 2rem;
   width: max-content;
-  animation: marquee 40s linear 1 forwards;
+  animation: marquee 40s linear infinite;
+  animation-play-state: paused;
   will-change: transform;
 }
 
-.track:hover .marquee {
-  animation-play-state: paused;
+.marqueeRunning {
+  animation-play-state: running;
 }
 
 .marqueeGroup {
