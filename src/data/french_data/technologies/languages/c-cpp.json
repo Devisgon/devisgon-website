@@ -1,0 +1,140 @@
+{
+  "slug": "c-cpp",
+  "seo_metadata": {
+    "title": "C / C++ Systems Programming & High-Performance Engineering",
+    "description": "Systems programming and high-performance engineering with C and C++ for embedded, low-latency, hardware-adjacent, and resource-intensive products.",
+    "keywords": [
+      "Langage de programmation C",
+      "Programmation des systèmes",
+      "Développement C embarqué",
+      "Abstraction matérielle de bas niveau",
+      "Optimisation de la gestion de la mémoire",
+      "Développement du noyau",
+      "Calcul haute performance",
+      "Développement de logiciels C++",
+      "C++20 moderne",
+      "Systèmes à faible latence",
+      "Abstractions à coût nul",
+      "Gestion de la mémoire RAII",
+      "Optimisation des performances C++",
+      "Intégration STL et Boost"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Systems Languages for Performance-Critical Products",
+    "title": "Build Close to the Metal with",
+    "highlight": "C / C++",
+    "description": "Bénéficiez d'une efficacité matérielle maximale grâce à une programmation procédurale qui fournit une fine couche d'abstraction sur le processeur pour une vitesse d'exécution ultime. Concevez des applications hautes performances qui nécessitent des calculs intensifs, un contrôle matériel de bas niveau et une gestion sophistiquée des ressources avec les normes C++ modernes.",
+    "side_image": "/technologies/c/hero.webp",
+    "primary_cta": {
+      "text": "Consulter un ingénieur",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Documentation technique",
+      "href": "/technologies/c-cpp#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with C / C++",
+    "subtitle": "C reste le choix définitif pour les environnements aux ressources limitées et les cœurs critiques en termes de performances. C++ offre la capacité unique de créer des abstractions complexes sans sacrifier les performances d'exécution.",
+    "paragraphs": [
+      "Lorsque chaque octet de mémoire et chaque cycle CPU compte, C est notre outil principal. Sa capacité à fournir un accès direct à la mémoire et au matériel via des pointeurs et des structures le rend indispensable pour créer des systèmes d'exploitation, des pilotes et des plateformes de trading haute fréquence où les frais généraux sont inacceptables.",
+      "Nous choisissons C++ pour les moteurs critiques en termes de performances et l'infrastructure au niveau des systèmes. En tirant parti des « abstractions à coût nul », nous pouvons utiliser des modèles de programmation génériques et orientés objet de haut niveau qui se compilent en code machine très efficace, garantissant ainsi que l'intention du développeur ne devient jamais un goulot d'étranglement pour le processeur."
+    ],
+    "cards": [
+      {
+        "title": "Proximité matérielle",
+        "description": "Manipulez directement les registres et les adresses mémoire pour un contrôle précis des périphériques matériels.",
+        "icon_type": "FaMicrochip"
+      },
+      {
+        "title": "Frais généraux minimes",
+        "description": "Zéro garbage collection d’exécution ou abstractions lourdes, garantissant des temps d’exécution déterministes.",
+        "icon_type": "FaTachometerAlt"
+      },
+      {
+        "title": "Abstractions à coût nul",
+        "description": "Créez une logique de haut niveau sans les pénalités de performances typiques des autres langages gérés.",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "Cycle de vie déterministe",
+        "description": "La gestion prévisible de la mémoire via RAII garantit une utilisation optimale des ressources sans interruption du garbage collection.",
+        "icon_type": "FaClock"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "C / C++ Architectural Scope",
+    "image": "/technologies/c++/scope.webp",
+    "items": [
+      {
+        "title": "Systèmes et micrologiciels embarqués",
+        "description": "Développement de micrologiciels robustes pour les appareils IoT, les calculateurs automobiles et le matériel d'automatisation industrielle."
+      },
+      {
+        "title": "Noyaux hautes performances",
+        "description": "Concevoir les « chemins chauds » critiques en termes de performances des systèmes plus importants pour éliminer les goulots d'étranglement et réduire la latence."
+      },
+      {
+        "title": "Ponts multilingues",
+        "description": "Construire des bibliothèques partagées (.so/.dll) qui permettent à des langages de haut niveau comme Python ou Node.js d'accéder à la vitesse du C via FFI."
+      },
+      {
+        "title": "Conception de moteur à faible latence",
+        "description": "Développer des plateformes de trading haute fréquence et des moteurs de traitement en temps réel avec une précision de l’ordre de la microseconde."
+      },
+      {
+        "title": "Applications de bureau gourmandes en ressources",
+        "description": "Création d'outils graphiques puissants, de logiciels de CAO et de suites multimédias nécessitant une optimisation directe du GPU et du CPU."
+      },
+      {
+        "title": "Cœurs embarqués et IoT",
+        "description": "Concevoir une logique robuste pour les cibles matérielles multiplateformes où les empreintes mémoire doivent être strictement contrôlées."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The C / C++ Edge",
+    "subtitle": "Une efficacité inégalée pour le cœur de votre infrastructure numérique. Avantages stratégiques en termes de performances pour les cœurs d’entreprise.",
+    "cards": [
+      {
+        "metric": "Near-Zero",
+        "title": "Coût du prélèvement",
+        "description": "Exécutez le code avec la plus grande efficacité d’instructions par horloge possible."
+      },
+      {
+        "metric": "Deterministic",
+        "title": "Latency",
+        "description": "Éliminez les pauses imprévisibles causées par les garbage collector trouvés dans les environnements d'exécution de haut niveau."
+      },
+      {
+        "metric": "Max",
+        "title": "Throughput",
+        "description": "Obtenez les vitesses de traitement des données les plus élevées possibles grâce au contrôle manuel de la mémoire et à l’optimisation du cache."
+      },
+      {
+        "metric": "100%",
+        "title": "Contrôle matériel",
+        "description": "Accès direct aux ressources système et aux registres matériels pour une efficacité d'exécution inégalée."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "C and C++ give us precision control over memory, latency, and hardware while preserving",
+    "highlight": "maximum runtime performance"
+  },
+  "conversation_section": {
+    "title": "Architect Your Systems Layer",
+    "subtitle": "Consultez nos spécialistes des systèmes pour optimiser votre infrastructure critique en termes de performances. Consultez nos principaux spécialistes C++ pour concevoir votre feuille de route et votre stratégie système à faible latence.",
+    "full_name_label": "Ingénieur systèmes principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence technique",
+    "full_name_placeholder": "Dr Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Décrivez vos contraintes matérielles ou vos goulots d'étranglement de performances...",
+    "button_text": "Demander un audit des systèmes"
+  }
+}

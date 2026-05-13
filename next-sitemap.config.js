@@ -7,21 +7,13 @@ const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/ind
 const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
 const BASE_PARTNERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
 
-const folderToUrlMap = {
-  ai_and_ml: "ai-and-ml",
-  data_solutions: "data-solutions",
-  digital_design: "design",
-  workflow_automations: "automations",
-  web_and_saas_development: "web-and-saas-development",
-};
-
 function readJsonFile(filePath) {
   const fileContent = fs.readFileSync(filePath, "utf-8").replace(/^\uFEFF/, "");
   return JSON.parse(fileContent);
 }
 
 function canonicalSegment(value) {
-  return value.replace(/_/g, "-");
+  return value.trim().toLowerCase().replace(/[_\s]+/g, "-").replace(/-+/g, "-");
 }
 
 function getServiceUrls() {
@@ -34,7 +26,6 @@ function getServiceUrls() {
       const folderPath = path.join(BASE_SERVICES_PATH, folder);
 
       if (fs.statSync(folderPath).isDirectory()) {
-        const urlSegment = canonicalSegment(folderToUrlMap[folder] || folder);
         const files = fs.readdirSync(folderPath);
 
         files.forEach((file) => {
@@ -44,10 +35,10 @@ function getServiceUrls() {
 
           const filePath = path.join(folderPath, file);
           const fileContent = readJsonFile(filePath);
-          const slug = fileContent.slug;
+          const slug = fileContent.slug || path.basename(file, ".json");
 
           LANGUAGES.forEach((lang) => {
-            urls.push(`/services/${urlSegment}/${slug}?lang=${lang}`);
+            urls.push(`/services/${canonicalSegment(slug)}?lang=${lang}`);
           });
         });
       }
@@ -85,12 +76,11 @@ function getIndustryUrls() {
         continue;
       }
 
-      const [category] = pathSegments;
       const fileContent = readJsonFile(fullPath);
       const slug = fileContent.slug || canonicalSegment(path.basename(entry.name, ".json"));
 
       LANGUAGES.forEach((lang) => {
-        urls.push(`/industries/${canonicalSegment(category)}/${canonicalSegment(slug)}?lang=${lang}`);
+        urls.push(`/industries/${canonicalSegment(slug)}?lang=${lang}`);
       });
     }
   }
@@ -178,6 +168,14 @@ const config = {
     "/partners/dctr_hosting",
     "/privacy_policies",
     "/terms_condition",
+    "/industries/*/*",
+    "/services/ai-and-ml/*",
+    "/services/automations/*",
+    "/services/cloud/*",
+    "/services/data-solutions/*",
+    "/services/design/*",
+    "/services/testing/*",
+    "/services/web-and-saas-development/*",
     "/services/saas/*",
     "/services/web-and-mobile-development/*",
     "/services/data_solutions/*",

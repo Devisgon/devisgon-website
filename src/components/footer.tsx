@@ -191,7 +191,7 @@ const Footer = () => {
           <FooterCategoryColumn title={partnersNav?.name ?? "Partners"} categories={partnersCategories} />
         </div>
 
-        <div className="flex flex-col items-start lg:hidden">
+        <div className="flex flex-col items-start lg:hidden">r
           <h3 className="mb-5 text-xl font-bold text-t-primary">{newsletterColumn.title}</h3>
           <FooterNewsletterForm lang={currentLang} />
         </div>

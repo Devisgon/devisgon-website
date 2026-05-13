@@ -1,116 +1,116 @@
 {
   "slug": "tools",
   "seo_metadata": {
-    "title": "Outils d'automatisation des flux de travail et d'intégration d'entreprise",
-    "description": "Rationalisez votre entreprise avec l'intégration de n8n, Make, Zapier et Shopify. Nous concevons des flux de travail automatisés et des pipelines commerciaux pour une efficacité opérationnelle maximale.",
+    "title": "Commerce, Hosting & Platform Tools",
+    "description": "Implementation support for Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling across commerce, content, forms, and hosting operations.",
     "keywords": [
-      "Automatisation du flux de travail",
-      "Services d'intégration n8n",
-      "Automatisation Make.com",
-      "Zapier pour les entreprises",
-      "Développement Shopify",
-      "Solutions WordPress sans tête",
-      "Orchestration des processus métier"
+      "Platform Tools",
+      "Shopify Development",
+      "WordPress Development",
+      "Amazon Integrations",
+      "Jotform Implementation",
+      "DoctorHosters Hosting",
+      "Commerce Tooling"
     ]
   },
   "hero_section": {
-    "eyebrow": "Orchestration et automatisation",
-    "title": "Unifier les flux de travail avec",
-    "highlight": "Outils intégrés",
-    "description": "Transformez des processus fragmentés en écosystèmes numériques transparents à l’aide de plateformes d’automatisation, de moteurs commerciaux et de cadres CMS de pointe.",
+    "eyebrow": "Commerce, Content & Platform Tooling",
+    "title": "Operational Leverage with",
+    "highlight": "Platform Tools",
+    "description": "Unify commerce, content, forms, hosting, and marketplace operations with dependable platform integrations and implementation patterns.",
     "side_image": "/services_page/tools-hero.webp",
     "primary_cta": {
-      "text": "Automatisez votre flux de travail",
+      "text": "Plan Your Tool Stack",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Feuille de route technique",
+      "text": "Technical Roadmap",
       "href": "/technologies/tools#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons avec des outils.",
-    "subtitle": "Les sélections d'outils stratégiques nous permettent de créer une logique métier complexe avec des frais généraux considérablement réduits.",
+    "title": "Why We Engineer with Platform Tools",
+    "subtitle": "The right platforms reduce operational drag while keeping business workflows maintainable.",
     "paragraphs": [
-      "Notre pile d'automatisation, comprenant n8n, Make et Zapier, nous permet de connecter vos applications SaaS disparates en un flux de travail unique et cohérent. En tirant parti de l'orchestration low-code et du développement d'API personnalisées, nous proposons des solutions à la fois rapidement déployables et hautement maintenables, permettant à votre équipe d'évoluer aussi rapidement que les exigences du marché.",
-      "En intégrant des plateformes de commerce et de contenu robustes comme Shopify et WordPress, nous fournissons une base de confiance élevée pour votre vitrine numérique et la présence de votre marque. Nous nous concentrons sur des architectures « indépendantes des outils » qui garantissent que vos données circulent librement entre les systèmes, évitant ainsi les silos et maximisant le retour sur investissement de vos investissements logiciels existants."
+      "We use proven platform tools when they provide a faster and more reliable path than custom development. Shopify, WordPress, Jotform, Amazon, and DoctorHosters cover common business needs while still allowing custom integrations where the workflow demands more control.",
+      "Our implementation approach keeps these platforms connected, observable, and ready to scale so teams avoid data silos and manual handoffs."
     ],
     "cards": [
       {
-        "title": "Hyper-automatisation",
-        "description": "Déployez des portes logiques et des déclencheurs complexes sur plus de 1 000 applications pour éliminer la saisie manuelle des données et les erreurs humaines.",
-        "icon_type": "FaSyncAlt"
-      },
-      {
-        "title": "Commerce évolutif",
-        "description": "Concevez des workflows Shopify et Amazon à conversion élevée qui évoluent automatiquement en fonction du volume de vos commandes.",
+        "title": "Commerce Operations",
+        "description": "Build and integrate Shopify and Amazon workflows for catalog, order, and fulfillment management.",
         "icon_type": "FaStore"
       },
       {
-        "title": "Agilité du contenu",
-        "description": "Utilisez des outils WordPress et CMS sans tête pour diffuser du contenu sur plusieurs plates-formes via des API sécurisées et rapides.",
+        "title": "Content and Forms",
+        "description": "Use WordPress and Jotform to publish, collect, and route business information cleanly.",
         "icon_type": "FaPencilRuler"
+      },
+      {
+        "title": "Hosting Foundation",
+        "description": "Deploy dependable hosting and domain workflows through DoctorHosters-backed infrastructure.",
+        "icon_type": "FaServer"
       }
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
-    "title": "Portée de l'intégration",
+    "id": "technology-architecture",
+    "title": "Platform Integration Scope",
     "image": "/services_page/tools-scope.webp",
     "items": [
       {
-        "title": "Orchestration axée sur l'API",
-        "description": "Création de connecteurs et de webhooks personnalisés pour synchroniser les données entre les bases de données existantes et les outils cloud modernes."
+        "title": "Commerce and Marketplace Sync",
+        "description": "Connect product, order, customer, and fulfillment data across storefronts and marketplace tools."
       },
       {
-        "title": "Hubs marketing automatisés",
-        "description": "Connecter le CRM, la messagerie électronique et les canaux sociaux en boucles autonomes qui nourrissent les prospects sans intervention manuelle."
+        "title": "Content and Form Pipelines",
+        "description": "Route submitted and published content into CRM, support, analytics, and internal review systems."
       },
       {
-        "title": "Synchronisation des stocks omnicanal",
-        "description": "Orchestration de la synchronisation des produits et des stocks en temps réel sur les systèmes Shopify, Amazon et ERP."
+        "title": "Hosting and Domain Operations",
+        "description": "Coordinate hosting, domain, DNS, and deployment workflows for stable production operations."
       }
     ]
   },
   "edge_section": {
-    "title": "L'avantage de l'automatisation",
-    "subtitle": "Efficacité quantifiable pour un flux opérationnel moderne.",
+    "title": "The Platform Tools Edge",
+    "subtitle": "Operational reliability without rebuilding commodity platform features from scratch.",
     "cards": [
       {
-        "metric": "60%",
-        "title": "Gain opérationnel",
-        "description": "Réduction moyenne du temps consacré aux tâches administratives manuelles grâce à l'intégration d'outils stratégiques."
+        "metric": "Fast",
+        "title": "Launch Cycles",
+        "description": "Use established platforms to move quickly while preserving room for custom integrations."
       },
       {
-        "metric": "En temps réel",
-        "title": "Synchronisation des données",
-        "description": "Éliminez la latence des données grâce à des mises à jour instantanées basées sur des webhooks sur l'ensemble de votre pile technologique."
+        "metric": "Unified",
+        "title": "Data Flow",
+        "description": "Connect platform data into reporting, CRM, support, and fulfillment systems."
       },
       {
-        "metric": "100%",
-        "title": "Évolutivité",
-        "description": "Des outils basés sur le cloud qui évoluent avec votre entreprise, gérant des charges de travail accrues sans embauche supplémentaire."
+        "metric": "Stable",
+        "title": "Operations",
+        "description": "Lean on mature platform capabilities for hosting, commerce, content, and form handling."
       },
       {
-        "metric": "Sécurisé",
-        "title": "Relations",
-        "description": "Utilisez OAuth 2.0 et le chiffrement de niveau entreprise pour garantir la sécurité des données lors de leur déplacement entre les plates-formes."
+        "metric": "Scalable",
+        "title": "Extensions",
+        "description": "Add custom APIs and middleware when platform defaults need deeper business logic."
       }
     ]
   },
   "quote_section": {
-    "quote": "Les outils connectés transforment les flux de travail fragmentés en",
-    "highlight": "flux opérationnel"
+    "quote": "The best platform tooling keeps teams focused on business outcomes instead of",
+    "highlight": "rebuilding solved infrastructure"
   },
   "conversation_section": {
-    "title": "Concevez votre solution",
-    "subtitle": "Consultez nos principaux spécialistes techniques pour définir une feuille de route qui unifie vos outils fragmentés.",
-    "full_name_label": "Nom de l'architecte principal",
-    "business_email_label": "E-mail de l'entité",
-    "message_label": "Exigence stratégique",
-    "full_name_placeholder": "Dr Julian Thorne",
+    "title": "Architect Your Platform Stack",
+    "subtitle": "Consult with our technical specialists to connect your commerce, content, hosting, and form tools.",
+    "full_name_label": "Lead Architect Name",
+    "business_email_label": "Entity Email",
+    "message_label": "Strategic Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez vos goulots d'étranglement actuels en matière de flux de travail ou vos défis d'intégration...",
-    "button_text": "Démarrer l'audit d'automatisation"
+    "message_placeholder": "Describe your current platform tooling or integration challenge...",
+    "button_text": "Start Platform Audit"
   }
 }

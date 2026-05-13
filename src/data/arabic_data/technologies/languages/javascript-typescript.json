@@ -1,0 +1,140 @@
+{
+  "slug": "javascript-typescript",
+  "seo_metadata": {
+    "title": "JavaScript / TypeScript Development | Full-Stack Web Engineering",
+    "description": "Full-stack JavaScript and TypeScript engineering for scalable, type-safe web applications, APIs, and modern product platforms.",
+    "keywords": [
+      "تطوير جافا سكريبت",
+      "معايير الويب ES6+",
+      "تحسين محرك V8",
+      "البرمجة غير المتزامنة",
+      "جافا سكريبت العالمية",
+      "العمارة الموجهة بالحدث",
+      "حلول JS الكاملة",
+      "تطوير تايب سكريبت",
+      "الكتابة الثابتة جافا سكريبت",
+      "تصميم واجهة برمجة التطبيقات الآمنة من النوع",
+      "بنية الواجهة الأمامية للمؤسسات",
+      "Node.js TypeScript الخلفية",
+      "خدمات إعادة هيكلة TypeScript",
+      "بنية تحتية للويب قابلة للتطوير"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Typed and Dynamic Web Engineering",
+    "title": "Ship Faster with",
+    "highlight": "JavaScript / TypeScript",
+    "description": "قم بتعزيز دورة حياة منتجك بالكامل باستخدام اللغة الأكثر تنوعًا على هذا الكوكب، مما يوفر تفاعلًا عالي الأداء من المتصفح إلى الخادم. أنشئ أنظمة إنتاج عالية الثقة باستخدام لغة برمجة مكتوبة بقوة تعتمد على JavaScript، مما يمنحك أدوات أفضل على أي نطاق.",
+    "side_image": "/technologies/js/hero.webp",
+    "primary_cta": {
+      "text": "تحسين المكدس الخاص بك",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "عرض خريطة الطريق التقنية",
+      "href": "/technologies/javascript-typescript#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with JavaScript / TypeScript",
+    "subtitle": "تعد JavaScript حجر الزاوية في التجارب الرقمية الحديثة، حيث توفر سرعة لا مثيل لها ومدى وصول عالمي. يوفر TypeScript السلامة الهيكلية المطلوبة لإدارة قواعد التعليمات البرمجية الضخمة ومتعددة الفرق بدقة جراحية.",
+    "paragraphs": [
+      "JavaScript هي أداتنا الأساسية لبناء تطبيقات تفاعلية تتمحور حول المستخدم. من خلال الاستفادة من حلقة الأحداث غير المحظورة ومحرك V8 عالي السرعة، نقدم واجهات تستجيب بشكل فوري لإدخال المستخدم أثناء التعامل مع تنسيق الواجهة الخلفية المعقدة من خلال نظام بيئي لغة موحد وعالي السرعة.",
+      "يعد TypeScript خيارنا الأساسي لتطوير التطبيقات على نطاق واسع. من خلال تقديم نظام كتابة ثابت قوي إلى JavaScript، فإننا نكتشف الأخطاء المحتملة أثناء التطوير وليس في وقت التشغيل. يؤدي هذا النهج \"السريع الفشل\" إلى تقليل وقت تصحيح الأخطاء بشكل كبير وزيادة موثوقية نشر البرامج ذات المهام الحرجة."
+    ],
+    "cards": [
+      {
+        "title": "الوصول العالمي",
+        "description": "قم بتنفيذ نفس قاعدة التعليمات البرمجية عبر المتصفحات والخوادم والأجهزة المحمولة لتحقيق أقصى قدر من إعادة استخدام المنطق.",
+        "icon_type": "FaGlobe"
+      },
+      {
+        "title": "الطاقة غير المتزامنة",
+        "description": "تعامل مع الآلاف من العمليات المتزامنة دون حظر الخيط الرئيسي باستخدام Promises وAsync/Await.",
+        "icon_type": "FaSync"
+      },
+      {
+        "title": "سلامة النوع الثابت",
+        "description": "حدد هياكل وواجهات بيانات واضحة للتخلص من فئات كاملة من أخطاء وقت التشغيل قبل أن تصل إلى مرحلة الإنتاج.",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "الأدوات المتقدمة",
+        "description": "استفد من دعم IDE الفائق من خلال إعادة الهيكلة الفورية والتحقق من الكتابة والتنقل الذكي للتعليمات البرمجية.",
+        "icon_type": "FaTools"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "JavaScript / TypeScript Technical Scope",
+    "image": "/technologies/js/scope.webp",
+    "items": [
+      {
+        "title": "الواجهات الخلفية المستندة إلى الأحداث",
+        "description": "تصميم خدمات عالية التزامن من جانب الخادم تستفيد من حلقة أحداث Node.js لتحقيق إنتاجية فائقة."
+      },
+      {
+        "title": "حالة الواجهة الأمامية التفاعلية",
+        "description": "إنشاء واجهات مستخدم حية ومعقدة بأنماط حديثة تضمن بقاء طبقة العرض متزامنة بشكل مثالي مع البيانات الأساسية."
+      },
+      {
+        "title": "الحوسبة بدون خادم وحوسبة الحافة",
+        "description": "نشر وظائف JavaScript خفيفة الوزن على الحافة لتقديم محتوى مخصص وزمن وصول منخفض على نطاق واسع."
+      },
+      {
+        "title": "تصميم واجهة برمجة التطبيقات المستندة إلى المجال",
+        "description": "تصميم واجهات برمجة التطبيقات الآمنة من النوع باستخدام واجهات مشتركة لضمان محاذاة مثالية للبيانات بين الواجهة الأمامية والخلفية."
+      },
+      {
+        "title": "خدمات دقيقة خلفية صارمة",
+        "description": "نشر خدمات Node.js القوية مع NestJS أو Express، واستخدام أدوات الديكور وDTOs للتحقق الصارم من الصحة."
+      },
+      {
+        "title": "الهجرة القديمة واختيار النوع",
+        "description": "ترحيل مكدسات JavaScript الفانيليا بشكل استراتيجي إلى TypeScript من خلال الكتابة المتزايدة والواجهات عالية الدقة."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The JavaScript / TypeScript Edge",
+    "subtitle": "مزايا الأداء الاستراتيجي لعالم رقمي سريع. مزايا قابلة للقياس للحفاظ على التعليمات البرمجية على مستوى المؤسسة.",
+    "cards": [
+      {
+        "metric": "Fast",
+        "title": "Execution",
+        "description": "يقوم محرك Google V8 بتجميع JS إلى كود الآلة في الوقت الفعلي، مما ينافس أداء اللغات التقليدية."
+      },
+      {
+        "metric": "100%",
+        "title": "Full-Stack",
+        "description": "تعمل حزمة اللغة الموحدة على تقليل تبديل السياق وتبسيط سير العمل من التطوير إلى النشر."
+      },
+      {
+        "metric": "15%",
+        "title": "الحد من الأخطاء",
+        "description": "تُظهر الأبحاث المتوافقة مع معايير الصناعة أن TypeScript يلتقط جزءًا كبيرًا من الأخطاء العامة في وقت الترجمة."
+      },
+      {
+        "metric": "100%",
+        "title": "Self-Documenting",
+        "description": "تعمل تعريفات النوع كعقد حي، مما يقلل الحاجة إلى وثائق خارجية قديمة."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "JavaScript and TypeScript let us balance rapid delivery with",
+    "highlight": "long-term type-safe architecture"
+  },
+  "conversation_section": {
+    "title": "Architect Your Web Stack",
+    "subtitle": "استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق JavaScript قابلة للتطوير لمنتجك الرقمي. استشر كبار المتخصصين الفنيين لدينا لتحديد خارطة طريق قابلة للتطوير وآمنة للنوع لمؤسستك.",
+    "full_name_label": "المطور الرئيسي",
+    "business_email_label": "البريد الإلكتروني للكيان",
+    "message_label": "المتطلبات الاستراتيجية",
+    "full_name_placeholder": "دكتور جوليان ثورن",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "قم بوصف التحدي المعماري لجافا سكريبت أو أهداف الأداء...",
+    "button_text": "طلب استشارة"
+  }
+}

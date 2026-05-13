@@ -1,0 +1,140 @@
+{
+  "slug": "c-cpp",
+  "seo_metadata": {
+    "title": "C / C++ Systems Programming & High-Performance Engineering",
+    "description": "Systems programming and high-performance engineering with C and C++ for embedded, low-latency, hardware-adjacent, and resource-intensive products.",
+    "keywords": [
+      "C Programming Language",
+      "Systems Programming",
+      "Embedded C Development",
+      "Low-level Hardware Abstraction",
+      "Memory Management Optimization",
+      "Kernel Development",
+      "High-Performance Computing",
+      "C++ Software Development",
+      "Modern C++20",
+      "Low Latency Systems",
+      "Zero-Cost Abstractions",
+      "RAII Memory Management",
+      "C++ Performance Optimization",
+      "STL & Boost Integration"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Systems Languages for Performance-Critical Products",
+    "title": "Build Close to the Metal with",
+    "highlight": "C / C++",
+    "description": "Unlock maximum hardware efficiency with procedural programming that provides a thin abstraction layer over the processor for ultimate execution speed. Architect high-performance applications that demand intensive computation, low-level hardware control, and sophisticated resource management with modern C++ standards.",
+    "side_image": "/technologies/c/hero.webp",
+    "primary_cta": {
+      "text": "Consult an Engineer",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Technical Documentation",
+      "href": "/technologies/c-cpp#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with C / C++",
+    "subtitle": "C remains the definitive choice for resource-constrained environments and performance-critical cores. C++ provides the unique ability to build complex abstractions without sacrificing runtime performance.",
+    "paragraphs": [
+      "When every byte of memory and every CPU cycle counts, C is our primary tool. Its ability to provide direct access to memory and hardware through pointers and structures makes it indispensable for building operating systems, drivers, and high-frequency trading platforms where overhead is unacceptable.",
+      "We choose C++ for performance-critical engines and systems-level infrastructure. By leveraging 'Zero-Cost Abstractions,' we can utilize high-level object-oriented and generic programming patterns that compile down to highly efficient machine code, ensuring that the developer's intent never becomes a bottleneck for the processor."
+    ],
+    "cards": [
+      {
+        "title": "Hardware Proximity",
+        "description": "Directly manipulate registers and memory addresses for precise control over hardware peripherals.",
+        "icon_type": "FaMicrochip"
+      },
+      {
+        "title": "Minimal Overhead",
+        "description": "Zero runtime garbage collection or heavy abstractions, ensuring deterministic execution times.",
+        "icon_type": "FaTachometerAlt"
+      },
+      {
+        "title": "Zero-Cost Abstractions",
+        "description": "Build high-level logic without the performance penalties typical of other managed languages.",
+        "icon_type": "FaZap"
+      },
+      {
+        "title": "Deterministic Lifecycle",
+        "description": "Predictable memory management through RAII ensures optimal resource utilization without garbage collection pauses.",
+        "icon_type": "FaClock"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "C / C++ Architectural Scope",
+    "image": "/technologies/c++/scope.webp",
+    "items": [
+      {
+        "title": "Embedded Systems & Firmware",
+        "description": "Developing robust firmware for IoT devices, automotive ECUs, and industrial automation hardware."
+      },
+      {
+        "title": "High-Performance Kernels",
+        "description": "Architecting the performance-critical 'hot paths' of larger systems to eliminate bottlenecks and reduce latency."
+      },
+      {
+        "title": "Cross-Language Bridges",
+        "description": "Building shared libraries (.so/.dll) that allow high-level languages like Python or Node.js to access C's speed via FFI."
+      },
+      {
+        "title": "Low-Latency Engine Design",
+        "description": "Developing high-frequency trading platforms and real-time processing engines with microsecond-level precision."
+      },
+      {
+        "title": "Resource-Intensive Desktop Apps",
+        "description": "Building powerful graphics tools, CAD software, and multimedia suites that require direct GPU and CPU optimization."
+      },
+      {
+        "title": "Embedded & IoT Cores",
+        "description": "Architecting robust logic for cross-platform hardware targets where memory footprints must be strictly controlled."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The C / C++ Edge",
+    "subtitle": "Unrivaled efficiency for the core of your digital infrastructure. Strategic performance advantages for enterprise cores.",
+    "cards": [
+      {
+        "metric": "Near-Zero",
+        "title": "Abstraction Cost",
+        "description": "Execute code with the highest possible instructions-per-clock efficiency."
+      },
+      {
+        "metric": "Deterministic",
+        "title": "Latency",
+        "description": "Eliminate unpredictable pauses caused by garbage collectors found in high-level runtimes."
+      },
+      {
+        "metric": "Max",
+        "title": "Throughput",
+        "description": "Achieve the highest possible data processing speeds through manual memory control and cache optimization."
+      },
+      {
+        "metric": "100%",
+        "title": "Hardware Control",
+        "description": "Direct access to system resources and hardware registers for unparalleled execution efficiency."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "C and C++ give us precision control over memory, latency, and hardware while preserving",
+    "highlight": "maximum runtime performance"
+  },
+  "conversation_section": {
+    "title": "Architect Your Systems Layer",
+    "subtitle": "Consult with our systems specialists to optimize your performance-critical infrastructure. Consult with our lead C++ specialists to architect your low-latency roadmap and systems strategy.",
+    "full_name_label": "Lead Systems Engineer",
+    "business_email_label": "Entity Email",
+    "message_label": "Technical Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe your hardware constraints or performance bottlenecks...",
+    "button_text": "Request Systems Audit"
+  }
+}

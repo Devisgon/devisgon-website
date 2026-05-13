@@ -1,9 +1,9 @@
 export function toCanonicalSlug(value: string): string {
-  return value.replace(/_/g, "-");
+  return value.trim().toLowerCase().replace(/[_\s]+/g, "-").replace(/-+/g, "-");
 }
 
 export function toLegacySlug(value: string): string {
-  return value.replace(/-/g, "_");
+  return value.trim().toLowerCase().replace(/[\s-]+/g, "_").replace(/_+/g, "_");
 }
 
 export function getSlugCandidates(value: string): string[] {

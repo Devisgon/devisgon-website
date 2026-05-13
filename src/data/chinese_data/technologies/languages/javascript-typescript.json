@@ -1,0 +1,140 @@
+{
+  "slug": "javascript-typescript",
+  "seo_metadata": {
+    "title": "JavaScript / TypeScript Development | Full-Stack Web Engineering",
+    "description": "Full-stack JavaScript and TypeScript engineering for scalable, type-safe web applications, APIs, and modern product platforms.",
+    "keywords": [
+      "JavaScript 开发",
+      "ES6+ 网络标准",
+      "V8 发动机优化",
+      "异步编程",
+      "通用JavaScript",
+      "事件驱动架构",
+      "全栈 JS 解决方案",
+      "TypeScript 开发",
+      "静态类型 JavaScript",
+      "类型安全的 API 设计",
+      "企业前端架构",
+      "Node.js TypeScript 后端",
+      "TypeScript 重构服务",
+      "可扩展的网络基础设施"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Typed and Dynamic Web Engineering",
+    "title": "Ship Faster with",
+    "highlight": "JavaScript / TypeScript",
+    "description": "使用地球上最通用的语言为您的整个产品生命周期提供支持，提供从浏览器到服务器的高性能交互性。 使用基于 JavaScript 的强类型编程语言构建高可信度的生产系统，为您提供任何规模的更好工具。",
+    "side_image": "/technologies/js/hero.webp",
+    "primary_cta": {
+      "text": "优化你的堆栈",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "查看技术路线图",
+      "href": "/technologies/javascript-typescript#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with JavaScript / TypeScript",
+    "subtitle": "JavaScript 是现代数字体验的基石，提供无与伦比的速度和普遍的覆盖范围。 TypeScript 提供了精确管理大规模、多团队代码库所需的结构完整性。",
+    "paragraphs": [
+      "JavaScript 是我们构建反应式、以用户为中心的应用程序的主要工具。通过利用其非阻塞事件循环和高速 V8 引擎，我们提供的界面可以立即响应用户输入，同时通过统一的高速语言生态系统处理复杂的后端编排。",
+      "TypeScript 是我们大规模应用程序开发的基本选择。通过向 JavaScript 引入强大的静态类型系统，我们可以在开发期间而不是运行时捕获潜在的错误。这种“快速失败”方法显着减少了调试时间并提高了关键任务软件部署的可靠性。"
+    ],
+    "cards": [
+      {
+        "title": "普遍覆盖",
+        "description": "跨浏览器、服务器和移动设备执行相同的代码库，以实现最大程度的逻辑重用。",
+        "icon_type": "FaGlobe"
+      },
+      {
+        "title": "异步电源",
+        "description": "使用 Promises 和 Async/Await 处理数千个并发操作，而不阻塞主线程。",
+        "icon_type": "FaSync"
+      },
+      {
+        "title": "静态类型安全",
+        "description": "定义清晰的数据结构和接口，以在运行时错误到达生产环境之前消除它们。",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "先进的工具",
+        "description": "利用卓越的 IDE 支持以及即时重构、类型检查和智能代码导航。",
+        "icon_type": "FaTools"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "JavaScript / TypeScript Technical Scope",
+    "image": "/technologies/js/scope.webp",
+    "items": [
+      {
+        "title": "事件驱动后端",
+        "description": "构建高并发服务器端服务，利用 Node.js 事件循环实现极高的吞吐量。"
+      },
+      {
+        "title": "反应式前端状态",
+        "description": "使用现代模式构建复杂、生动的 UI，确保视图层与底层数据保持完美同步。"
+      },
+      {
+        "title": "无服务器和边缘计算",
+        "description": "将轻量级 JavaScript 函数部署到边缘，以大规模地交付个性化、低延迟的内容。"
+      },
+      {
+        "title": "领域驱动的API设计",
+        "description": "使用共享接口构建类型安全的 API，以确保前端和后端之间的完美数据对齐。"
+      },
+      {
+        "title": "严格的后端微服务",
+        "description": "使用 NestJS 或 Express 部署强大的 Node.js 服务，利用装饰器和 DTO 进行严格验证。"
+      },
+      {
+        "title": "遗留迁移和类型转换",
+        "description": "通过增量类型和高保真接口，战略性地将普通 JavaScript 堆栈迁移到 TypeScript。"
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The JavaScript / TypeScript Edge",
+    "subtitle": "快速数字世界的战略绩效优势。 维护企业级代码的可量化优势。",
+    "cards": [
+      {
+        "metric": "Fast",
+        "title": "Execution",
+        "description": "Google 的 V8 引擎将 JS 实时编译为机器代码，性能可与传统语言相媲美。"
+      },
+      {
+        "metric": "100%",
+        "title": "Full-Stack",
+        "description": "统一语言堆栈减少了上下文切换并简化了开发到部署的工作流程。"
+      },
+      {
+        "metric": "15%",
+        "title": "减少错误",
+        "description": "行业标准研究表明 TypeScript 在编译时捕获了很大一部分公共错误。"
+      },
+      {
+        "metric": "100%",
+        "title": "Self-Documenting",
+        "description": "类型定义充当活契约，减少对陈旧外部文档的需求。"
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "JavaScript and TypeScript let us balance rapid delivery with",
+    "highlight": "long-term type-safe architecture"
+  },
+  "conversation_section": {
+    "title": "Architect Your Web Stack",
+    "subtitle": "请咨询我们的首席技术专家，为您的数字产品定义可扩展的 JavaScript 路线图。 请咨询我们的首席技术专家，为您的组织定义可扩展、类型安全的路线图。",
+    "full_name_label": "首席开发人员",
+    "business_email_label": "实体邮箱",
+    "message_label": "战略需求",
+    "full_name_placeholder": "朱利安·索恩博士",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "描述您的 JavaScript 架构挑战或性能目标...",
+    "button_text": "请求咨询"
+  }
+}

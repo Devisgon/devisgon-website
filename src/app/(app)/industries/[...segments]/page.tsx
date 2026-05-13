@@ -1,19 +1,8 @@
-﻿import type { Metadata } from "next";
+import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
-import Footer from "@/components/footer";
-import Header from "@/components/navbar";
-import IndustryHero from "@/components/industries/hero";
-import IndustryFriction from "@/components/industries/friction";
-import IndustryArchitecture from "@/components/industries/architecture";
-import IndustryKeyBenefits from "@/components/industries/key_benefits";
-import IndustryCarousel from "@/components/industries/carousel";
-import IndustryCaseStudies from "@/components/industries/case_studies";
-import IndustryExplore from "@/components/industries/explore";
-import IndustryConversation from "@/components/industries/conversation";
-import { getIndustryCategoryBySlug, getIndustryData, toPublicIndustrySlug } from "@/data/loaders/industries";
+import { getIndustryCategoryBySlug, toPublicIndustrySlug } from "@/data/loaders/industries";
 import { getCachedLanguage } from "@/lib/language";
 import { getIndustrySlugMetadata } from "@/lib/seo";
-import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
   params: Promise<{ segments: string[] }>;
@@ -23,86 +12,26 @@ type PageProps = {
 export async function generateMetadata({ params }: { params: Promise<{ segments: string[] }> }): Promise<Metadata> {
   const { segments } = await params;
   const slug = segments?.[segments.length - 1] ?? "industry";
-  return getIndustrySlugMetadata(slug);
+  return getIndustrySlugMetadata(toPublicIndustrySlug(slug));
 }
 
-export default async function IndustryPage({ params, searchParams }: PageProps) {
+export default async function LegacyIndustryPathPage({ params, searchParams }: PageProps) {
   const { segments } = await params;
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
 
-  if (!segments || segments.length === 0) {
+  if (!segments || segments.length !== 2) {
     notFound();
   }
 
-  if (segments.length === 1) {
-    const [legacySlug] = segments;
-    const category = getIndustryCategoryBySlug(legacySlug);
-
-    if (!category) {
-      notFound();
-    }
-
-    const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
-    redirect(`/industries/${toCanonicalSlug(category)}/${toPublicIndustrySlug(legacySlug)}${langSuffix}`);
-  }
-
-  if (segments.length !== 2) {
-    notFound();
-  }
-
-  const [category, slug] = segments;
-
-  const publicCategory = toCanonicalSlug(category);
+  const [, slug] = segments;
   const publicSlug = toPublicIndustrySlug(slug);
+  const category = getIndustryCategoryBySlug(publicSlug);
 
-  if (category !== publicCategory || slug !== publicSlug) {
-    const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
-    redirect(`/industries/${publicCategory}/${publicSlug}${langSuffix}`);
-  }
-
-  const data = getIndustryData(activeLang, category, slug);
-
-  if (!data) {
+  if (!category) {
     notFound();
   }
 
-  const isRTL = activeLang === "ur" || activeLang === "ar";
-  const localizeHref = (href: string) => {
-    if (activeLang === "en") {
-      return href;
-    }
-
-    const queryJoiner = href.includes("?") ? "&" : "?";
-    return `${href}${queryJoiner}lang=${activeLang}`;
-  };
-
-  const localizedExploreSection = {
-    ...data.explore_section,
-    cards: data.explore_section.cards.map((card) => ({
-      ...card,
-      href: localizeHref(card.href),
-    })),
-  };
-
-  return (
-    <>
-      <Header />
-      <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
-        <IndustryHero data={data.hero_section} slides={data.carousel_section?.cards} />
-        <IndustryFriction data={data.friction_section} />
-        <IndustryArchitecture data={data.architecture_section} />
-        <IndustryKeyBenefits data={data.benefits_section} />
-        {data.carousel_section ? <IndustryCarousel data={data.carousel_section} /> : null}
-        <IndustryCaseStudies data={data.case_studies_section} />
-        <IndustryExplore data={localizedExploreSection} />
-        <IndustryConversation
-          data={data.conversation_section}
-          industryName={data.hero_section.highlight}
-          sourcePage={`/industries/${toCanonicalSlug(category)}/${toCanonicalSlug(slug)}`}
-        />
-      </div>
-      <Footer />
-    </>
-  );
+  const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
+  redirect(`/industries/${publicSlug}${langSuffix}`);
 }

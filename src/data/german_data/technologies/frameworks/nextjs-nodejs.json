@@ -1,0 +1,140 @@
+{
+  "slug": "nextjs-nodejs",
+  "seo_metadata": {
+    "title": "Next.js / Node.js Development | Full-Stack React and API Engineering",
+    "description": "Full-stack Next.js and Node.js development for performant React frontends, APIs, server actions, edge functions, and scalable backend services.",
+    "keywords": [
+      "Next.js-Entwicklung",
+      "React-Server-Komponenten",
+      "Serverseitiges Rendering (SSR)",
+      "Statische Site-Generierung (SSG)",
+      "App-Router-Architektur",
+      "Inkrementelle statische Regeneration",
+      "Vercel-Bereitstellung",
+      "Node.js-Entwicklung",
+      "V8-Motorleistung",
+      "Ereignisgesteuerte Architektur",
+      "Nicht blockierende E/A",
+      "Serverseitiges JavaScript",
+      "Echtzeitanwendungen",
+      "npm-Ökosystemintegration"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Full-Stack JavaScript Runtime and Framework",
+    "title": "Scale Product Delivery with",
+    "highlight": "Next.js / Node.js",
+    "description": "Bieten Sie schnelle, SEO-freundliche und hochgradig interaktive Benutzererlebnisse mit dem Framework, das serverseitiges Rendering und statische Site-Generierung vereinfacht. Führen Sie JavaScript auf der Serverseite aus, um schnelle, skalierbare Netzwerkanwendungen zu erstellen, die Tausende gleichzeitiger Verbindungen mit einem einzigen Thread verarbeiten können.",
+    "side_image": "/technologies/next_js/hero.webp",
+    "primary_cta": {
+      "text": "Optimieren Sie Ihre Web Vitals",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Technische Daten anzeigen",
+      "href": "/technologies/nextjs-nodejs#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with Next.js / Node.js",
+    "subtitle": "Next.js schließt die Lücke zwischen statischer Geschwindigkeit und dynamischer Leistung und bietet eine unübertroffene Grundlage für moderne Web-Apps. Node.js ist der Grundstein für moderne, hochverfügbare Webdienste und Echtzeit-Datenstreaming.",
+    "paragraphs": [
+      "Next.js ist unsere erste Wahl für Projekte, bei denen Leistung und Auffindbarkeit im Vordergrund stehen. Durch die Nutzung der Hybrid-Rendering-Funktionen können wir statische Inhalte für nahezu sofortige Ladezeiten bereitstellen und gleichzeitig dynamische Daten auf dem Server abrufen, wodurch die an den Client gesendete JavaScript-Bundle-Größe erheblich reduziert wird.",
+      "Wir wählen Node.js für Workloads, die einen hohen Durchsatz und eine geringe Latenz erfordern. Sein nicht blockierendes, ereignisgesteuertes I/O-Modell macht es außergewöhnlich effizient für datenintensive Echtzeitanwendungen, die auf verteilten Geräten laufen, und ermöglicht uns den Aufbau von Backends, die auch unter hoher Last reaktionsfähig bleiben."
+    ],
+    "cards": [
+      {
+        "title": "Hybrid-Rendering",
+        "description": "Wählen Sie pro Seite zwischen SSR, SSG und ISR, um aktuelle Daten mit extremer Geschwindigkeit in Einklang zu bringen.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "SEO-Exzellenz",
+        "description": "Die native Unterstützung für Metadaten und servergerenderte Inhalte sorgt dafür, dass Ihre Website in den Suchergebnissen einen höheren Rang einnimmt.",
+        "icon_type": "FaSearch"
+      },
+      {
+        "title": "V8-Motordrehzahl",
+        "description": "Node.js basiert auf der V8-Engine von Google und kompiliert JavaScript direkt in Maschinencode für eine blitzschnelle Ausführung.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Ereignisschleifenmodell",
+        "description": "Bewältigen Sie massive Parallelität ohne den Overhead der Thread-Verwaltung und maximieren Sie so den Nutzen der Serverressourcen.",
+        "icon_type": "FaSync"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Next.js / Node.js Architecture Scope",
+    "image": "/technologies/next_js/scope.webp",
+    "items": [
+      {
+        "title": "App-Router-Architektur",
+        "description": "Implementierung komplexer verschachtelter Layouts und Streaming-Datenabruf für eine nahtlose, leistungsstarke Navigation."
+      },
+      {
+        "title": "Edge-Laufzeitdienste",
+        "description": "Bereitstellung von Middleware und Funktionen am Netzwerkrand, um personalisierte Inhalte ohne Latenz bereitzustellen."
+      },
+      {
+        "title": "API-Routen und Serveraktionen",
+        "description": "Erstellen Sie Full-Stack-Funktionen mit typsicheren Serverfunktionen, die eine komplexe API-Orchestrierung überflüssig machen."
+      },
+      {
+        "title": "Echtzeit-WebSockets",
+        "description": "Erstellen Sie Kommunikationsebenen mit geringer Latenz für Chat-Systeme, Live-Dashboards und Tools für die Zusammenarbeit mit Socket.io."
+      },
+      {
+        "title": "Skalierbare API-Gateways",
+        "description": "Orchestrierung komplexer Microservice-Interaktionen mit schlanken, leistungsstarken Node.js-Proxy-Layern."
+      },
+      {
+        "title": "Serverlose Funktionen",
+        "description": "Bereitstellung ereignisgesteuerter Logik über AWS Lambda oder Google Cloud Functions für kostengünstige, automatisch skalierende Datenverarbeitung."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The Next.js / Node.js Edge",
+    "subtitle": "Quantifizierbare Kennzahlen, die die Zukunft des Webs definieren. Quantifizierbare Leistung für das moderne Unternehmen.",
+    "cards": [
+      {
+        "metric": "100/100",
+        "title": "Leuchtturm-Score",
+        "description": "Erzielen Sie perfekte Leistung und SEO-Scores durch automatische Optimierungen auf Framework-Ebene."
+      },
+      {
+        "metric": "Zero",
+        "title": "CLS-Probleme",
+        "description": "Eliminieren Sie kumulative Layoutverschiebungen mithilfe der optimierten Bild- und Schriftartkomponenten von Next.js."
+      },
+      {
+        "metric": "2M+",
+        "title": "Registrierungsmodule",
+        "description": "Zugriff auf die umfangreichste Sammlung vorab getesteter Pakete zur Reduzierung des kundenspezifischen Engineering-Aufwands."
+      },
+      {
+        "metric": "40 %",
+        "title": "Geringere Latenz",
+        "description": "Verkürzung der Antwortzeiten für E/A-gebundene Anwendungen im Vergleich zu herkömmlichen synchronen Umgebungen."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "Next.js and Node.js let us connect fast user experiences to",
+    "highlight": "scalable server-side systems"
+  },
+  "conversation_section": {
+    "title": "Architect Your Full-Stack Platform",
+    "subtitle": "Beraten Sie sich mit unseren Next.js-Spezialisten, um ein leistungsstarkes, zukunftssicheres digitales Produkt zu entwickeln. Wenden Sie sich an unsere leitenden Node.js-Ingenieure, um eine Roadmap für die Leistung bei hoher Parallelität zu definieren.",
+    "full_name_label": "Leitender Ingenieur",
+    "business_email_label": "Unternehmens-E-Mail",
+    "message_label": "Technische Vision",
+    "full_name_placeholder": "Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Beschreiben Sie Ihre Web-Performance-Ziele oder architektonischen Herausforderungen ...",
+    "button_text": "Starten Sie Ihr Projekt"
+  }
+}

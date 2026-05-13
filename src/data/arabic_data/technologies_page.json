@@ -6,27 +6,33 @@
   },
   "technology_cards": [
     {
-      "title": "اللغات",
-      "description": "أسس Java وJavaScript وPython وTypeScript وPHP وC++ وC للأنظمة القوية.",
-      "href": "/technologies/java",
+      "title": "Automation",
+      "description": "Make, n8n, and Zapier workflow automation for operations, integrations, and recurring business processes.",
+      "href": "/technologies/automation",
+      "icon_type": "FaSyncAlt"
+    },
+    {
+      "title": "Languages",
+      "description": "Java, JavaScript / TypeScript, Python, PHP, and C / C++ foundations for robust systems.",
+      "href": "/technologies/javascript-typescript",
       "icon_type": "FaCode"
     },
     {
-      "title": "الأطر",
-      "description": "مجموعات التسليم Node.js وNext.js وNestJS وLaravel وReact وReact Native وFlutter.",
-      "href": "/technologies/react",
+      "title": "Frameworks",
+      "description": "Next.js / Node.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
+      "href": "/technologies/nextjs-nodejs",
       "icon_type": "FaLayerGroup"
     },
     {
-      "title": "قاعدة البيانات",
-      "description": "هندسة البيانات Supabase وMongoDB وGraphQL وMySQL وAmazon DynamoDB.",
+      "title": "Database",
+      "description": "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB data architecture.",
       "href": "/technologies/mongodb",
       "icon_type": "FaDatabase"
     },
     {
-      "title": "أدوات",
-      "description": "أدوات العمليات n8n وMake وZapier وAmazon وShopify وWordPress.",
-      "href": "/technologies/n8n",
+      "title": "Tools",
+      "description": "Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling.",
+      "href": "/technologies/shopify",
       "icon_type": "FaTools"
     }
   ]

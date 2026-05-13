@@ -1,0 +1,116 @@
+{
+  "slug": "automation",
+  "seo_metadata": {
+    "title": "Automation Tools | Make, n8n & Zapier Workflow Engineering",
+    "description": "Workflow automation implementation with Make, n8n, and Zapier for integrations, operations, lead routing, reporting, and recurring business processes.",
+    "keywords": [
+      "Automation Tools",
+      "Make Automation",
+      "n8n Workflows",
+      "Zapier Integrations",
+      "Workflow Automation",
+      "Business Process Automation",
+      "API Automation"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Workflow Automation Platforms",
+    "title": "Connect Business Systems with",
+    "highlight": "Automation Tools",
+    "description": "Use Make, n8n, and Zapier to connect SaaS tools, route data, trigger follow-ups, and remove repetitive manual work from daily operations.",
+    "side_image": "/services_page/tools-hero.webp",
+    "primary_cta": {
+      "text": "Automate Your Workflow",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Technical Roadmap",
+      "href": "/technologies/automation#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with Automation Tools",
+    "subtitle": "Make, n8n, and Zapier give teams fast, maintainable ways to connect systems and automate handoffs.",
+    "paragraphs": [
+      "Automation platforms are ideal when business teams need reliable workflows without waiting for full custom software cycles. We use Make for visual orchestration, n8n for flexible self-hostable workflow logic, and Zapier for fast SaaS-to-SaaS integrations.",
+      "Our automation work combines low-code speed with engineering discipline: clear trigger design, error handling, logging, data validation, and API-first patterns that make workflows dependable in production."
+    ],
+    "cards": [
+      {
+        "title": "Workflow Orchestration",
+        "description": "Design trigger-action flows that move data between CRM, forms, spreadsheets, support tools, and databases.",
+        "icon_type": "FaProjectDiagram"
+      },
+      {
+        "title": "API Connectivity",
+        "description": "Connect standard SaaS apps and custom APIs with validation, retries, and structured payload mapping.",
+        "icon_type": "FaPlug"
+      },
+      {
+        "title": "Operational Visibility",
+        "description": "Add logging, alerts, and recovery paths so automated workflows are easy to monitor and maintain.",
+        "icon_type": "FaEye"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Automation Architecture Scope",
+    "image": "/services_page/tools-scope.webp",
+    "items": [
+      {
+        "title": "Lead and Customer Routing",
+        "description": "Move incoming leads, form submissions, and customer updates through CRM, email, and support systems automatically."
+      },
+      {
+        "title": "Reporting and Data Sync",
+        "description": "Keep spreadsheets, dashboards, databases, and SaaS apps in sync with scheduled or event-driven workflows."
+      },
+      {
+        "title": "Custom Workflow Logic",
+        "description": "Build branching, filtering, enrichment, and error-handling paths for business-specific automation rules."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The Automation Edge",
+    "subtitle": "Practical efficiency gains for teams that rely on repeated digital handoffs.",
+    "cards": [
+      {
+        "metric": "Hours",
+        "title": "Saved Weekly",
+        "description": "Remove repetitive administrative work from sales, operations, support, and reporting workflows."
+      },
+      {
+        "metric": "Real-time",
+        "title": "Handoffs",
+        "description": "Trigger immediate actions when forms, orders, tickets, or records change."
+      },
+      {
+        "metric": "Low-code",
+        "title": "Speed",
+        "description": "Deliver integrations quickly while reserving custom code for the places that need it."
+      },
+      {
+        "metric": "Reliable",
+        "title": "Recovery",
+        "description": "Design retries, alerts, and fallbacks so automations fail visibly and recover cleanly."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "Automation tools turn repeated handoffs into",
+    "highlight": "dependable operational systems"
+  },
+  "conversation_section": {
+    "title": "Automate Your Operations",
+    "subtitle": "Talk to our automation specialists about connecting your tools and reducing manual work.",
+    "full_name_label": "Lead Architect Name",
+    "business_email_label": "Entity Email",
+    "message_label": "Workflow Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe the workflow you want to automate...",
+    "button_text": "Start Automation Audit"
+  }
+}

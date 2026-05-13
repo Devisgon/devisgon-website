@@ -1,116 +1,116 @@
 {
   "slug": "tools",
   "seo_metadata": {
-    "title": "工作流自动化与企业集成工具",
-    "description": "通过 n8n、Make、Zapier 和 Shopify 集成简化您的业务。我们构建自动化的工作流和商业流水线，以实现最大的运营效率。",
+    "title": "Commerce, Hosting & Platform Tools",
+    "description": "Implementation support for Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling across commerce, content, forms, and hosting operations.",
     "keywords": [
-      "工作流自动化",
-      "n8n 集成服务",
-      "Make.com 自动化",
-      "企业级 Zapier",
-      "Shopify 开发",
-      "Headless WordPress 解决方案",
-      "业务流程编排"
+      "Platform Tools",
+      "Shopify Development",
+      "WordPress Development",
+      "Amazon Integrations",
+      "Jotform Implementation",
+      "DoctorHosters Hosting",
+      "Commerce Tooling"
     ]
   },
   "hero_section": {
-    "eyebrow": "编排与自动化",
-    "title": "凭借以下技术统一工作流",
-    "highlight": "集成工具",
-    "description": "使用行业领先的自动化平台、商业引擎和 CMS 框架，将碎片化的流程转化为无缝的数字生态系统。",
+    "eyebrow": "Commerce, Content & Platform Tooling",
+    "title": "Operational Leverage with",
+    "highlight": "Platform Tools",
+    "description": "Unify commerce, content, forms, hosting, and marketplace operations with dependable platform integrations and implementation patterns.",
     "side_image": "/services_page/tools-hero.webp",
     "primary_cta": {
-      "text": "自动化您的工作流",
+      "text": "Plan Your Tool Stack",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "技术路线图",
+      "text": "Technical Roadmap",
       "href": "/technologies/tools#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择使用工具进行工程设计",
-    "subtitle": "战略性的工具选择使我们能够以大幅降低的开销构建复杂的业务逻辑。",
+    "title": "Why We Engineer with Platform Tools",
+    "subtitle": "The right platforms reduce operational drag while keeping business workflows maintainable.",
     "paragraphs": [
-      "我们的自动化技术栈——涵盖 n8n、Make 和 Zapier——能够将您分散的 SaaS 应用程序连接成一个统一、协调的工作流。通过结合低代码编排与定制 API 开发，我们提供既能快速部署又易于维护的解决方案，让您的团队能够像市场需求一样快速转型。",
-      "通过集成 Shopify 和 WordPress 等强大的商业和内容平台，我们为您数字店面和品牌形象提供了高信度的基础。我们专注于“工具无关 (Tool-agnostic)”的架构，确保数据在系统间自由流动，防止信息孤岛并最大化您现有软件投资的投资回报率 (ROI)。"
+      "We use proven platform tools when they provide a faster and more reliable path than custom development. Shopify, WordPress, Jotform, Amazon, and DoctorHosters cover common business needs while still allowing custom integrations where the workflow demands more control.",
+      "Our implementation approach keeps these platforms connected, observable, and ready to scale so teams avoid data silos and manual handoffs."
     ],
     "cards": [
       {
-        "title": "超自动化",
-        "description": "在 1,000 多个应用中部署复杂的逻辑门和触发器，消除手动数据录入和人为错误。",
-        "icon_type": "FaSyncAlt"
-      },
-      {
-        "title": "可扩展商业",
-        "description": "构建高转化率的 Shopify 和亚马逊工作流，随订单量自动扩展。",
+        "title": "Commerce Operations",
+        "description": "Build and integrate Shopify and Amazon workflows for catalog, order, and fulfillment management.",
         "icon_type": "FaStore"
       },
       {
-        "title": "内容敏捷性",
-        "description": "利用 Headless WordPress 和 CMS 工具，通过安全、快速的 API 跨多个平台交付内容。",
+        "title": "Content and Forms",
+        "description": "Use WordPress and Jotform to publish, collect, and route business information cleanly.",
         "icon_type": "FaPencilRuler"
+      },
+      {
+        "title": "Hosting Foundation",
+        "description": "Deploy dependable hosting and domain workflows through DoctorHosters-backed infrastructure.",
+        "icon_type": "FaServer"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "集成范畴",
+    "title": "Platform Integration Scope",
     "image": "/services_page/tools-scope.webp",
     "items": [
       {
-        "title": "API 优先的编排",
-        "description": "构建自定义连接器和 Webhooks，在遗留数据库与现代云工具之间实现数据同步。"
+        "title": "Commerce and Marketplace Sync",
+        "description": "Connect product, order, customer, and fulfillment data across storefronts and marketplace tools."
       },
       {
-        "title": "自动化营销中心",
-        "description": "将 CRM、电子邮件和社交渠道连接成自给自足的闭环，无需人工干预即可培育潜在客户。"
+        "title": "Content and Form Pipelines",
+        "description": "Route submitted and published content into CRM, support, analytics, and internal review systems."
       },
       {
-        "title": "多渠道库存同步",
-        "description": "在 Shopify、亚马逊和 ERP 系统之间实现实时的产品和库存同步编排。"
+        "title": "Hosting and Domain Operations",
+        "description": "Coordinate hosting, domain, DNS, and deployment workflows for stable production operations."
       }
     ]
   },
   "edge_section": {
-    "title": "自动化优势",
-    "subtitle": "为现代运营流程提供可量化的效率提升。",
+    "title": "The Platform Tools Edge",
+    "subtitle": "Operational reliability without rebuilding commodity platform features from scratch.",
     "cards": [
       {
-        "metric": "60%",
-        "title": "运营提升",
-        "description": "通过战略性的工具集成，平均减少 60% 处理手动行政任务的时间。"
+        "metric": "Fast",
+        "title": "Launch Cycles",
+        "description": "Use established platforms to move quickly while preserving room for custom integrations."
       },
       {
-        "metric": "实时",
-        "title": "数据同步",
-        "description": "利用整个技术栈中基于 Webhook 的即时更新，消除数据延迟。"
+        "metric": "Unified",
+        "title": "Data Flow",
+        "description": "Connect platform data into reporting, CRM, support, and fulfillment systems."
       },
       {
-        "metric": "100%",
-        "title": "可扩展性",
-        "description": "云端工具随业务增长而扩展，无需额外招聘即可处理增加的工作负载。"
+        "metric": "Stable",
+        "title": "Operations",
+        "description": "Lean on mature platform capabilities for hosting, commerce, content, and form handling."
       },
       {
-        "metric": "安全",
-        "title": "连接保障",
-        "description": "利用 OAuth 2.0 和企业级加密，确保数据在平台间流动时的安全性。"
+        "metric": "Scalable",
+        "title": "Extensions",
+        "description": "Add custom APIs and middleware when platform defaults need deeper business logic."
       }
     ]
   },
   "quote_section": {
-    "quote": "互联的工具将碎片化的工作流转化为",
-    "highlight": "高效的运营流"
+    "quote": "The best platform tooling keeps teams focused on business outcomes instead of",
+    "highlight": "rebuilding solved infrastructure"
   },
   "conversation_section": {
-    "title": "构建您的解决方案",
-    "subtitle": "咨询我们的首席技术专家，定义统一您碎片化工具的路线图。",
-    "full_name_label": "首席架构师姓名",
-    "business_email_label": "单位邮箱",
-    "message_label": "战略需求",
+    "title": "Architect Your Platform Stack",
+    "subtitle": "Consult with our technical specialists to connect your commerce, content, hosting, and form tools.",
+    "full_name_label": "Lead Architect Name",
+    "business_email_label": "Entity Email",
+    "message_label": "Strategic Requirement",
     "full_name_placeholder": "Dr. Julian Thorne",
     "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "请描述您当前的工作流瓶颈或集成挑战...",
-    "button_text": "开始自动化审计"
+    "message_placeholder": "Describe your current platform tooling or integration challenge...",
+    "button_text": "Start Platform Audit"
   }
 }

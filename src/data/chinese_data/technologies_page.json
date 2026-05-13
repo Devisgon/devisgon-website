@@ -6,15 +6,21 @@
   },
   "technology_cards": [
     {
+      "title": "Automation",
+      "description": "Make, n8n, and Zapier workflow automation for operations, integrations, and recurring business processes.",
+      "href": "/technologies/automation",
+      "icon_type": "FaSyncAlt"
+    },
+    {
       "title": "Languages",
-      "description": "Java, JavaScript, Python, TypeScript, PHP, C++, and C foundations for robust systems.",
-      "href": "/technologies/java",
+      "description": "Java, JavaScript / TypeScript, Python, PHP, and C / C++ foundations for robust systems.",
+      "href": "/technologies/javascript-typescript",
       "icon_type": "FaCode"
     },
     {
       "title": "Frameworks",
-      "description": "Node.js, Next.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
-      "href": "/technologies/react",
+      "description": "Next.js / Node.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
+      "href": "/technologies/nextjs-nodejs",
       "icon_type": "FaLayerGroup"
     },
     {
@@ -25,8 +31,8 @@
     },
     {
       "title": "Tools",
-      "description": "n8n, Make, Zapier, Amazon, Shopify, and WordPress operations tooling.",
-      "href": "/technologies/n8n",
+      "description": "Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling.",
+      "href": "/technologies/shopify",
       "icon_type": "FaTools"
     }
   ]

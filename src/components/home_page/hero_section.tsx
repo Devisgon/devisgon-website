@@ -24,9 +24,9 @@ dark:bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060
            ">
           <span className=" bg-[linear-gradient(90deg,#8E4EC6_8.68%,rgba(142,78,198,0.9)_23.34%,rgba(142,78,198,0.9)_30.29%,#8E4EC6_38.33%)]
 
-  dark:bg-[linear-gradient(135deg,rgba(109,0,195,0.31)_0%,#D1AFEC_70.71%)]
+  dark:bg-[linear-gradient(135deg,rgba(255, 0, 255, 0.31)_0%,#D1AFEC_70.71%)]
   bg-clip-text
-  text-transparent
+  text-transparent dark:text-white
 ">
             {data.pre_title}
           </span>
