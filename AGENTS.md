@@ -37,7 +37,7 @@ Required actions after each meaningful code change:
 - Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; it renders logo/contact, Company, About, Newsletter, expandable Services, expandable Industries, expandable Technologies, and expandable Partners sections, with Privacy/Terms links in the bottom legal bar. Newsletter form copy/errors/buttons are language-aware in `src/components/footer_newsletter_form.tsx`.
 - Public route transitions show immediate feedback through `src/components/navigation_progress.tsx` for internal link clicks plus the route-level fallback spinner in `src/app/(app)/loading.tsx` for slower App Router segment loads.
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
-- Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`.
+- Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`; the public root layout exports site-wide Metadata API defaults including metadata base, canonical root URL, robots, icons, Open Graph, Twitter card data, and the generated `/opengraph-image` preview.
 
 ## Route Flow
 ### Public Pages
@@ -394,3 +394,4 @@ If you change this, also check this:
 - 2026-05-13: Flattened industry detail URLs to lowercase hyphenated `/industries/<slug>` routes, updated industry navigation/sitemaps, and redirected category-prefixed industry URLs.
 - 2026-05-13: Merged C/C++, JavaScript/TypeScript, and Next.js/Node.js technology detail files into combined canonical slugs and moved Make, n8n, and Zapier into a separate Automation technology category.
 - 2026-05-13: Added a branded public 404 page with Devisgon-themed recovery copy, shared navigation/footer, and quick links back to core site sections.
+- 2026-05-13: Expanded the public root Metadata API defaults with site-wide Open Graph/Twitter cards, robots, icons, canonical metadata, and a generated Devisgon Open Graph image.

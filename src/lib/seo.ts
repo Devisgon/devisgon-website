@@ -9,12 +9,18 @@ type SeoConfig = {
 
 export const SITE_NAME = "Devisgon";
 export const SITE_URL = "https://www.devisgon.com";
+export const DEFAULT_OPEN_GRAPH_IMAGE = {
+  url: "/opengraph-image",
+  width: 1200,
+  height: 630,
+  alt: "Devisgon AI software, SaaS, and automation agency",
+};
 
 const LOCAL_SEO_KEYWORDS = [
   "software houses in Okara",
   "software house in Okara",
   "top software houses",
-  "best software house in Okara",
+  "best software house ",
   "AI software company ",
   "custom software development ",
   "software company Pakistan",
@@ -31,12 +37,16 @@ const toMetadata = ({ title, description, keywords = [] }: SeoConfig): Metadata 
     title,
     description,
     siteName: SITE_NAME,
+    url: SITE_URL,
+    locale: "en_US",
     type: "website",
+    images: [DEFAULT_OPEN_GRAPH_IMAGE],
   },
   twitter: {
     card: "summary_large_image",
     title,
     description,
+    images: [DEFAULT_OPEN_GRAPH_IMAGE.url],
   },
 });
 
