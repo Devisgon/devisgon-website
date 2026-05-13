@@ -57,6 +57,7 @@ Required actions after each meaningful code change:
 - `/contact` -> `src/app/(app)/contact/page.tsx` resolves `lang` from cookie, injects localized `contact_page.json` content into `src/components/contact_page/contact_page_client.tsx`, and client form posts to `/api/contact_mail`; the service dropdown is generated from the localized Services navbar links, includes every service, and the country dropdown uses `src/lib/inquiry-options.ts`.
 - `/get-started` -> `src/app/(app)/get-started/page.tsx` server wrapper (`dynamic = "force-dynamic"`) renders `src/components/get_started/get_started_client.tsx`; client form posts to `/api/apply_mail`, pulls careers and form global settings from Payload REST endpoints, localizes UI copy from `get_started_page.json` by cookie language, and only shows `Job`/`Internship` application types that currently have active programs.
 - `/privacy-policies` and `/terms-condition` -> server components reading language-specific JSON by cookie; legacy `/privacy_policies` and `/terms_condition` redirects are handled in `next.config.ts`.
+- Unmatched public routes render `src/app/(app)/not-found.tsx`, a branded Devisgon 404 page with the shared navbar/footer, professional recovery copy, and quick links to homepage, services, technologies, industries, and contact.
 
 ### Service Detail Pages
 All service detail pages share one rendering pattern:
@@ -392,3 +393,4 @@ If you change this, also check this:
 - 2026-05-13: Flattened service detail URLs to lowercase hyphenated `/services/<slug>` routes, updated service navigation/sitemaps, and redirected category-prefixed service URLs.
 - 2026-05-13: Flattened industry detail URLs to lowercase hyphenated `/industries/<slug>` routes, updated industry navigation/sitemaps, and redirected category-prefixed industry URLs.
 - 2026-05-13: Merged C/C++, JavaScript/TypeScript, and Next.js/Node.js technology detail files into combined canonical slugs and moved Make, n8n, and Zapier into a separate Automation technology category.
+- 2026-05-13: Added a branded public 404 page with Devisgon-themed recovery copy, shared navigation/footer, and quick links back to core site sections.
