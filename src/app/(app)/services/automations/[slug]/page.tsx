@@ -15,7 +15,7 @@ import Technalogies from "@/components/sub_services_pages/technalogies";
 import Progress from "@/components/sub_services_pages/process_section";
 import Casestudy from "@/components/sub_services_pages/case_study";
 import Faqs from "@/components/sub_services_pages/faq";
-import Contact from "@/components/sub_services_pages/contact";
+import ServicesCtaSection from "@/components/services_page/cta_section";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -60,7 +60,7 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         <Progress data={data.process_section} />
         <Casestudy data={data.case_study_section} />
         <Faqs data={data.faq_section} />
-        <Contact serviceName={data.hero_section.title} sourcePage={`/services/automations/${toCanonicalSlug(slug)}`} />
+        <ServicesCtaSection />
       </div>
       <Footer />
     </>

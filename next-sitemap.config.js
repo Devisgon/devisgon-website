@@ -8,11 +8,11 @@ const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/t
 const BASE_PARTNERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
 
 const folderToUrlMap = {
-  ai_and_saas_developments: "saas",
+  ai_and_ml: "ai-and-ml",
   data_solutions: "data-solutions",
   digital_design: "design",
   workflow_automations: "automations",
-  web_and_mobile_development: "web-and-mobile-development",
+  web_and_saas_development: "web-and-saas-development",
 };
 
 function readJsonFile(filePath) {
@@ -142,6 +142,10 @@ function getTechnologyUrls() {
 
 function getPartnerUrls() {
   const urls = [];
+  const partnerSlugMap = {
+    dctr_hosting: "doctorhoster",
+    "dctr-hosting": "doctorhoster",
+  };
 
   try {
     const files = fs.readdirSync(BASE_PARTNERS_PATH);
@@ -151,7 +155,8 @@ function getPartnerUrls() {
         return;
       }
 
-      const slug = canonicalSegment(path.basename(file, ".json"));
+      const rawSlug = path.basename(file, ".json");
+      const slug = canonicalSegment(partnerSlugMap[rawSlug] || rawSlug);
       LANGUAGES.forEach((lang) => {
         urls.push(`/partners/${slug}?lang=${lang}`);
       });
@@ -173,6 +178,8 @@ const config = {
     "/partners/dctr_hosting",
     "/privacy_policies",
     "/terms_condition",
+    "/services/saas/*",
+    "/services/web-and-mobile-development/*",
     "/services/data_solutions/*",
     "/services/digital_design/*",
     "/services/web_and_mobile_development/*",

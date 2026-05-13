@@ -10,23 +10,19 @@
       "dropdown": {
         "columns": [
           {
-            "title": "ØªØ·ÙˆÙŠØ± Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ ÙˆSaaS",
+            "title": "AI and ML",
             "links": [
               {
-                "name": "ØªØ·Ø¨ÙŠÙ‚ Ù…Ø¯Ø¹ÙˆÙ… Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ",
-                "href": "/services/saas/ai-powered-app"
+                "name": "Ù†Ù…Ø§Ø°Ø¬ Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ",
+                "href": "/services/ai-and-ml/ai-ml-models"
+              },
+              {
+                "name": "Ø§Ù„Ø±ÙˆØ¨ÙˆØªØ§Øª Ø§Ù„Ù…Ø®ØµØµØ©",
+                "href": "/services/ai-and-ml/custom-bots"
               },
               {
                 "name": "Ù†Ù…Ø§Ø°Ø¬ Ø§Ù„ØªØ¹Ù„Ù… Ø§Ù„Ø¢Ù„ÙŠ",
-                "href": "/services/saas/machine-learning"
-              },
-              {
-                "name": "Ø£ÙØ¶Ù„ Ø§Ù„Ù„Ø§Ø¹Ø¨ÙŠÙ† Ùˆ POCs",
-                "href": "/services/saas/mvps"
-              },
-              {
-                "name": "Ù…Ù†ØµØ§Øª SaaS",
-                "href": "/services/saas/saas-platform"
+                "href": "/services/ai-and-ml/machine-learning"
               }
             ]
           },
@@ -91,10 +87,6 @@
           {
             "title": "Ø­Ù„ÙˆÙ„ Ø§Ù„Ø¨ÙŠØ§Ù†Ø§Øª",
             "links": [
-              {
-                "name": "Ù†Ù…Ø§Ø°Ø¬ Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ",
-                "href": "/services/data-solutions/ai-ml-models"
-              },
               {
                 "name": "ØªØ­Ù„ÙŠÙ„Ø§Øª Ø§Ù„Ø£Ø¹Ù…Ø§Ù„",
                 "href": "/services/data-solutions/business-analytics"
@@ -168,19 +160,31 @@
             ]
           },
           {
-            "title": "ØªØ·Ø¨ÙŠÙ‚Ø§Øª Ø§Ù„ÙˆÙŠØ¨ ÙˆØ§Ù„ØªØ·Ø¨ÙŠÙ‚Ø§Øª",
+            "title": "Web and SaaS Development",
             "links": [
               {
-                "name": "Ø§Ù„Ø±ÙˆØ¨ÙˆØªØ§Øª Ø§Ù„Ù…Ø®ØµØµØ©",
-                "href": "/services/web-and-mobile-development/custom-bots"
+                "name": "ØªØ·Ø¨ÙŠÙ‚ Ù…Ø¯Ø¹ÙˆÙ… Ø¨Ø§Ù„Ø°ÙƒØ§Ø¡ Ø§Ù„Ø§ØµØ·Ù†Ø§Ø¹ÙŠ",
+                "href": "/services/web-and-saas-development/ai-powered-app"
+              },
+              {
+                "name": "API Integration",
+                "href": "/services/web-and-saas-development/api-integration"
               },
               {
                 "name": "ØªØ·Ø¨ÙŠÙ‚ Ø§Ù„Ù‡Ø§ØªÙ Ø§Ù„Ù…Ø­Ù…ÙˆÙ„",
-                "href": "/services/web-and-mobile-development/app-applications"
+                "href": "/services/web-and-saas-development/mobile-app-development"
+              },
+              {
+                "name": "Ø£ÙØ¶Ù„ Ø§Ù„Ù„Ø§Ø¹Ø¨ÙŠÙ† Ùˆ POCs",
+                "href": "/services/web-and-saas-development/mvps"
+              },
+              {
+                "name": "Ù…Ù†ØµØ§Øª SaaS",
+                "href": "/services/web-and-saas-development/saas-development"
               },
               {
                 "name": "ØªØ·Ø¨ÙŠÙ‚ Ø§Ù„ÙˆÙŠØ¨",
-                "href": "/services/web-and-mobile-development/web-applications"
+                "href": "/services/web-and-saas-development/web-application-development"
               }
             ]
           }
@@ -544,7 +548,7 @@
     },
     {
       "name": "Partners",
-      "href": "/partners/dctr-hosting",
+      "href": "/partners/doctorhoster",
       "dropdown": {
         "columns": [
           {
@@ -552,7 +556,7 @@
             "links": [
               {
                 "name": "Doctor Hosting",
-                "href": "/partners/dctr-hosting"
+                "href": "/partners/doctorhoster"
               },
               {
                 "name": "Jotform",

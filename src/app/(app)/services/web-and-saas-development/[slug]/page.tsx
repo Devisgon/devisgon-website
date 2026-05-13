@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
-import { workflowData } from "@/data/loaders/ai_saas_development";
+import { workflowData } from "@/data/loaders/web_development";
 import { getCachedLanguage } from "@/lib/language";
 import { getServiceSlugMetadata } from "@/lib/seo";
 import { getSlugCandidates, toCanonicalSlug } from "@/lib/slugs";
@@ -15,7 +15,7 @@ import Technalogies from "@/components/sub_services_pages/technalogies";
 import Progress from "@/components/sub_services_pages/process_section";
 import Casestudy from "@/components/sub_services_pages/case_study";
 import Faqs from "@/components/sub_services_pages/faq";
-import Contact from "@/components/sub_services_pages/contact";
+import ServicesCtaSection from "@/components/services_page/cta_section";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -27,14 +27,14 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   return getServiceSlugMetadata(slug);
 }
 
-export default async function IndustryPage({ params, searchParams }: PageProps) {
+export default async function ServiceDetailPage({ params, searchParams }: PageProps) {
   const { slug } = await params;
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
 
   if (slug.includes("_")) {
     const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
-    redirect(`/services/saas/${toCanonicalSlug(slug)}${langSuffix}`);
+    redirect(`/services/web-and-saas-development/${toCanonicalSlug(slug)}${langSuffix}`);
   }
 
   const slugCandidates = getSlugCandidates(slug);
@@ -60,7 +60,7 @@ export default async function IndustryPage({ params, searchParams }: PageProps) 
         <Progress data={data.process_section} />
         <Casestudy data={data.case_study_section} />
         <Faqs data={data.faq_section} />
-        <Contact serviceName={data.hero_section.title} sourcePage={`/services/saas/${toCanonicalSlug(slug)}`} />
+        <ServicesCtaSection />
       </div>
       <Footer />
     </>

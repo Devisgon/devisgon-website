@@ -10,23 +10,19 @@
       "dropdown": {
         "columns": [
           {
-            "title": "äººå·¥æ™ºèƒ½å’ŒSaaSå¼€å‘",
+            "title": "AI and ML",
             "links": [
               {
-                "name": "äººå·¥æ™ºèƒ½é©±åŠ¨çš„åº”ç”¨ç¨‹åº",
-                "href": "/services/saas/ai-powered-app"
+                "name": "äººå·¥æ™ºèƒ½æ¨¡åž‹",
+                "href": "/services/ai-and-ml/ai-ml-models"
+              },
+              {
+                "name": "å®šåˆ¶æœºå™¨äºº",
+                "href": "/services/ai-and-ml/custom-bots"
               },
               {
                 "name": "æœºå™¨å­¦ä¹ æ¨¡åž‹",
-                "href": "/services/saas/machine-learning"
-              },
-              {
-                "name": "MVP å’Œ POC",
-                "href": "/services/saas/mvps"
-              },
-              {
-                "name": "è½¯ä»¶å³æœåŠ¡å¹³å°",
-                "href": "/services/saas/saas-platform"
+                "href": "/services/ai-and-ml/machine-learning"
               }
             ]
           },
@@ -91,10 +87,6 @@
           {
             "title": "æ•°æ®è§£å†³æ–¹æ¡ˆ",
             "links": [
-              {
-                "name": "äººå·¥æ™ºèƒ½æ¨¡åž‹",
-                "href": "/services/data-solutions/ai-ml-models"
-              },
               {
                 "name": "å•†ä¸šåˆ†æž",
                 "href": "/services/data-solutions/business-analytics"
@@ -168,19 +160,31 @@
             ]
           },
           {
-            "title": "ç½‘ç»œå’Œåº”ç”¨ç¨‹åº",
+            "title": "Web and SaaS Development",
             "links": [
               {
-                "name": "å®šåˆ¶æœºå™¨äºº",
-                "href": "/services/web-and-mobile-development/custom-bots"
+                "name": "äººå·¥æ™ºèƒ½é©±åŠ¨çš„åº”ç”¨ç¨‹åº",
+                "href": "/services/web-and-saas-development/ai-powered-app"
+              },
+              {
+                "name": "API Integration",
+                "href": "/services/web-and-saas-development/api-integration"
               },
               {
                 "name": "ç§»åŠ¨åº”ç”¨ç¨‹åº",
-                "href": "/services/web-and-mobile-development/app-applications"
+                "href": "/services/web-and-saas-development/mobile-app-development"
+              },
+              {
+                "name": "MVP å’Œ POC",
+                "href": "/services/web-and-saas-development/mvps"
+              },
+              {
+                "name": "è½¯ä»¶å³æœåŠ¡å¹³å°",
+                "href": "/services/web-and-saas-development/saas-development"
               },
               {
                 "name": "ç½‘é¡µåº”ç”¨ç¨‹åº",
-                "href": "/services/web-and-mobile-development/web-applications"
+                "href": "/services/web-and-saas-development/web-application-development"
               }
             ]
           }
@@ -544,7 +548,7 @@
     },
     {
       "name": "Partners",
-      "href": "/partners/dctr-hosting",
+      "href": "/partners/doctorhoster",
       "dropdown": {
         "columns": [
           {
@@ -552,7 +556,7 @@
             "links": [
               {
                 "name": "Doctor Hosting",
-                "href": "/partners/dctr-hosting"
+                "href": "/partners/doctorhoster"
               },
               {
                 "name": "Jotform",

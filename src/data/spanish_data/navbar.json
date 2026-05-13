@@ -1,4 +1,4 @@
-﻿{
+{
   "navbar": [
     {
       "name": "Hogar",
@@ -10,23 +10,19 @@
       "dropdown": {
         "columns": [
           {
-            "title": "Desarrollo de IA y SaaS",
+            "title": "AI and ML",
             "links": [
               {
-                "name": "AplicaciÃ³n impulsada por IA",
-                "href": "/services/saas/ai-powered-app"
+                "name": "Modelos de IA",
+                "href": "/services/ai-and-ml/ai-ml-models"
               },
               {
-                "name": "Modelos de aprendizaje automÃ¡tico",
-                "href": "/services/saas/machine-learning"
+                "name": "Bots personalizados",
+                "href": "/services/ai-and-ml/custom-bots"
               },
               {
-                "name": "MVP y POC",
-                "href": "/services/saas/mvps"
-              },
-              {
-                "name": "Plataformas SaaS",
-                "href": "/services/saas/saas-platform"
+                "name": "Modelos de aprendizaje automático",
+                "href": "/services/ai-and-ml/machine-learning"
               }
             ]
           },
@@ -34,35 +30,35 @@
             "title": "Automatizaciones",
             "links": [
               {
-                "name": "AutomatizaciÃ³n impulsada por IA",
+                "name": "Automatización impulsada por IA",
                 "href": "/services/automations/ai-powered-automation"
               },
               {
-                "name": "AutomatizaciÃ³n de integraciÃ³n API",
+                "name": "Automatización de integración API",
                 "href": "/services/automations/api-integration"
               },
               {
-                "name": "AutomatizaciÃ³n de procesos de negocio",
+                "name": "Automatización de procesos de negocio",
                 "href": "/services/automations/business-process-automation"
               },
               {
-                "name": "AutomatizaciÃ³n financiera",
+                "name": "Automatización financiera",
                 "href": "/services/automations/accounting"
               },
               {
-                "name": "AutomatizaciÃ³n de infraestructura",
+                "name": "Automatización de infraestructura",
                 "href": "/services/automations/devops-infrastructure-automation"
               },
               {
-                "name": "AutomatizaciÃ³n de cÃ³digo bajo",
+                "name": "Automatización de código bajo",
                 "href": "/services/automations/low-code-automations"
               },
               {
-                "name": "AutomatizaciÃ³n de marketing y ventas",
+                "name": "Automatización de marketing y ventas",
                 "href": "/services/automations/marketing-sales-automation"
               },
               {
-                "name": "AutomatizaciÃ³n de procesos robÃ³ticos",
+                "name": "Automatización de procesos robóticos",
                 "href": "/services/automations/robotic-process-automation"
               }
             ]
@@ -71,7 +67,7 @@
             "title": "Nube y DevOps",
             "links": [
               {
-                "name": "TuberÃ­as de Ci/Cd",
+                "name": "Tuberías de Ci/Cd",
                 "href": "/services/cloud/cicd-pipelines"
               },
               {
@@ -79,11 +75,11 @@
                 "href": "/services/cloud/cloud-security"
               },
               {
-                "name": "GestiÃ³n de bases de datos",
+                "name": "Gestión de bases de datos",
                 "href": "/services/cloud/database-management"
               },
               {
-                "name": "ConsultorÃ­a DevOps",
+                "name": "Consultoría DevOps",
                 "href": "/services/cloud/devops-consulting"
               }
             ]
@@ -92,15 +88,11 @@
             "title": "Soluciones de datos",
             "links": [
               {
-                "name": "Modelos de IA",
-                "href": "/services/data-solutions/ai-ml-models"
-              },
-              {
-                "name": "AnÃ¡lisis empresarial",
+                "name": "Análisis empresarial",
                 "href": "/services/data-solutions/business-analytics"
               },
               {
-                "name": "Panel de anÃ¡lisis de datos",
+                "name": "Panel de análisis de datos",
                 "href": "/services/data-solutions/data-analytics-dashboard"
               },
               {
@@ -110,22 +102,22 @@
             ]
           },
           {
-            "title": "DiseÃ±o Digital",
+            "title": "Diseño Digital",
             "links": [
               {
-                "name": "DiseÃ±o grÃ¡fico y virtual",
+                "name": "Diseño gráfico y virtual",
                 "href": "/services/design/graphic-design"
               },
               {
-                "name": "DiseÃ±o de logotipo",
+                "name": "Diseño de logotipo",
                 "href": "/services/design/logo-design"
               },
               {
-                "name": "DiseÃ±o de aplicaciones mÃ³viles",
+                "name": "Diseño de aplicaciones móviles",
                 "href": "/services/design/mobile-app-design"
               },
               {
-                "name": "DiseÃ±o de producto",
+                "name": "Diseño de producto",
                 "href": "/services/design/product-design"
               },
               {
@@ -133,24 +125,24 @@
                 "href": "/services/design/prototyping-wireframing"
               },
               {
-                "name": "DiseÃ±o de interfaz de usuario/experiencia de usuario",
+                "name": "Diseño de interfaz de usuario/experiencia de usuario",
                 "href": "/services/design/ui-ux-design"
               },
               {
-                "name": "DiseÃ±o Web",
+                "name": "Diseño Web",
                 "href": "/services/design/web-design"
               }
             ]
           },
           {
-            "title": "GarantÃ­a de calidad y pruebas",
+            "title": "Garantía de calidad y pruebas",
             "links": [
               {
                 "name": "Pruebas de API",
                 "href": "/services/testing/api-testing"
               },
               {
-                "name": "Pruebas de automatizaciÃ³n",
+                "name": "Pruebas de automatización",
                 "href": "/services/testing/automation-testing"
               },
               {
@@ -168,19 +160,31 @@
             ]
           },
           {
-            "title": "Aplicaciones web y de aplicaciones",
+            "title": "Web and SaaS Development",
             "links": [
               {
-                "name": "Bots personalizados",
-                "href": "/services/web-and-mobile-development/custom-bots"
+                "name": "Aplicación impulsada por IA",
+                "href": "/services/web-and-saas-development/ai-powered-app"
               },
               {
-                "name": "AplicaciÃ³n mÃ³vil",
-                "href": "/services/web-and-mobile-development/app-applications"
+                "name": "API Integration",
+                "href": "/services/web-and-saas-development/api-integration"
               },
               {
-                "name": "AplicaciÃ³n web",
-                "href": "/services/web-and-mobile-development/web-applications"
+                "name": "Aplicación móvil",
+                "href": "/services/web-and-saas-development/mobile-app-development"
+              },
+              {
+                "name": "MVP y POC",
+                "href": "/services/web-and-saas-development/mvps"
+              },
+              {
+                "name": "Plataformas SaaS",
+                "href": "/services/web-and-saas-development/saas-development"
+              },
+              {
+                "name": "Aplicación web",
+                "href": "/services/web-and-saas-development/web-application-development"
               }
             ]
           }
@@ -241,7 +245,7 @@
                 "href": "/industries/entertainment/hotels"
               },
               {
-                "name": "ProducciÃ³n de medios",
+                "name": "Producción de medios",
                 "href": "/industries/entertainment/media-production"
               },
               {
@@ -258,7 +262,7 @@
             "title": "Alimentos",
             "links": [
               {
-                "name": "CafÃ©s y bares",
+                "name": "Cafés y bares",
                 "href": "/industries/food/juice-bar"
               },
               {
@@ -283,7 +287,7 @@
             "title": "Cuidado de la salud",
             "links": [
               {
-                "name": "QuiroprÃ¡ctico",
+                "name": "Quiropráctico",
                 "href": "/industries/healthcare/chiropractor"
               },
               {
@@ -299,11 +303,11 @@
                 "href": "/industries/healthcare/myotherapist"
               },
               {
-                "name": "OptometrÃ­a",
+                "name": "Optometría",
                 "href": "/industries/healthcare/optometry"
               },
               {
-                "name": "PsicÃ³logo",
+                "name": "Psicólogo",
                 "href": "/industries/healthcare/psychologist"
               }
             ]
@@ -316,7 +320,7 @@
                 "href": "/industries/professional/consulting"
               },
               {
-                "name": "EducaciÃ³n",
+                "name": "Educación",
                 "href": "/industries/professional/education"
               },
               {
@@ -345,7 +349,7 @@
             "title": "Bienes Ra?ces",
             "links": [
               {
-                "name": "Arquitectura y DiseÃ±o",
+                "name": "Arquitectura y Diseño",
                 "href": "/industries/real-estate/architecture-design"
               },
               {
@@ -361,7 +365,7 @@
                 "href": "/industries/real-estate/micro-finance"
               },
               {
-                "name": "GestiÃ³n de propiedades",
+                "name": "Gestión de propiedades",
                 "href": "/industries/real-estate/property-management"
               },
               {
@@ -374,7 +378,7 @@
             "title": "Oficios",
             "links": [
               {
-                "name": "CarpinterÃ­a",
+                "name": "Carpintería",
                 "href": "/industries/trades/carpentry"
               },
               {
@@ -390,7 +394,7 @@
                 "href": "/industries/trades/electronics"
               },
               {
-                "name": "PlomerÃ­a",
+                "name": "Plomería",
                 "href": "/industries/trades/plumbing"
               },
               {
@@ -407,7 +411,7 @@
       }
     },
     {
-      "name": "TecnologÃ­as",
+      "name": "Tecnologías",
       "href": "/technologies",
       "dropdown": {
         "columns": [
@@ -493,7 +497,7 @@
                 "href": "/technologies/php"
               },
               {
-                "name": "PitÃ³n",
+                "name": "Pitón",
                 "href": "/technologies/python"
               },
               {
@@ -544,7 +548,7 @@
     },
     {
       "name": "Partners",
-      "href": "/partners/dctr-hosting",
+      "href": "/partners/doctorhoster",
       "dropdown": {
         "columns": [
           {
@@ -552,7 +556,7 @@
             "links": [
               {
                 "name": "Doctor Hosting",
-                "href": "/partners/dctr-hosting"
+                "href": "/partners/doctorhoster"
               },
               {
                 "name": "Jotform",
@@ -589,9 +593,8 @@
       }
     },
     {
-      "name": "ContÃ¡ctenos",
+      "name": "Contáctenos",
       "href": "/contact"
     }
   ]
 }
-
