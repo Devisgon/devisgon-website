@@ -10,7 +10,7 @@ import TechnologyQuote from "@/components/technologies/quote";
 import TechnologyConversation from "@/components/technologies/conversation";
 import { getCachedLanguage } from "@/lib/language";
 import { getTechnologySlugMetadata } from "@/lib/seo";
-import { getTechnologyData } from "@/data/loaders/technologies";
+import { getCanonicalTechnologySlug, getTechnologyData } from "@/data/loaders/technologies";
 import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
@@ -20,7 +20,7 @@ type PageProps = {
 
 export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
   const { slug } = await params;
-  return getTechnologySlugMetadata(slug);
+  return getTechnologySlugMetadata(getCanonicalTechnologySlug(slug));
 }
 
 export default async function TechnologyDetailPage({ params, searchParams }: PageProps) {
@@ -28,12 +28,14 @@ export default async function TechnologyDetailPage({ params, searchParams }: Pag
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
 
-  if (slug.includes("_")) {
+  const canonicalSlug = getCanonicalTechnologySlug(toCanonicalSlug(slug));
+
+  if (slug !== canonicalSlug) {
     const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
-    redirect(`/technologies/${toCanonicalSlug(slug)}${langSuffix}`);
+    redirect(`/technologies/${canonicalSlug}${langSuffix}`);
   }
 
-  const data = getTechnologyData(activeLang, slug);
+  const data = getTechnologyData(activeLang, canonicalSlug);
 
   if (!data) {
     notFound();

@@ -6,27 +6,33 @@
   },
   "technology_cards": [
     {
-      "title": "Langues",
-      "description": "Bases Java, JavaScript, Python, TypeScript, PHP, C++ et C pour des systèmes robustes.",
-      "href": "/technologies/java",
+      "title": "Automation",
+      "description": "Make, n8n, and Zapier workflow automation for operations, integrations, and recurring business processes.",
+      "href": "/technologies/automation",
+      "icon_type": "FaSyncAlt"
+    },
+    {
+      "title": "Languages",
+      "description": "Java, JavaScript / TypeScript, Python, PHP, and C / C++ foundations for robust systems.",
+      "href": "/technologies/javascript-typescript",
       "icon_type": "FaCode"
     },
     {
-      "title": "Cadres",
-      "description": "Piles de livraison Node.js, Next.js, NestJS, Laravel, React, React Native et Flutter.",
-      "href": "/technologies/react",
+      "title": "Frameworks",
+      "description": "Next.js / Node.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
+      "href": "/technologies/nextjs-nodejs",
       "icon_type": "FaLayerGroup"
     },
     {
-      "title": "Base de données",
-      "description": "Architecture de données Supabase, MongoDB, GraphQL, MySQL et Amazon DynamoDB.",
+      "title": "Database",
+      "description": "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB data architecture.",
       "href": "/technologies/mongodb",
       "icon_type": "FaDatabase"
     },
     {
-      "title": "Outils",
-      "description": "Outils d'exploitation n8n, Make, Zapier, Amazon, Shopify et WordPress.",
-      "href": "/technologies/n8n",
+      "title": "Tools",
+      "description": "Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling.",
+      "href": "/technologies/shopify",
       "icon_type": "FaTools"
     }
   ]

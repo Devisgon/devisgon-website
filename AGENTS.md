@@ -46,8 +46,9 @@ Required actions after each meaningful code change:
 - Home services carousel (`src/components/home_page/services_section.tsx` + `src/components/animations/ServicesSection.module.css`) is a viewport-aware client island; the curved marquee loops infinitely while visible and pauses when out of view.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map, renders service sections, and ends with a simple CTA band (`src/components/services_page/cta_section.tsx`) using `contact_form` copy plus Book a Consultation/Contact Us links instead of a form.
 - Services, Industries, and Technologies main-page hero primary CTAs render as `Book a Meeting` and use `NEXT_PUBLIC_CALENDLY_30_MIN_MEETING` with fallback to `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING`; secondary/other buttons keep their existing links.
-- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/loaders/industries.ts` `INDUSTRY_GROUPS` (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links, and navbar Food links mirror those slugs.
-- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
+- Service detail public URLs are flat lowercase/hyphenated paths (`/services/<slug>`) resolved by `src/app/(app)/services/[slug]/page.tsx`; category-prefixed service URLs redirect to the flat route.
+- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/loaders/industries.ts` `INDUSTRY_GROUPS` (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with flat localized links, and navbar Food links mirror those slugs.
+- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Automation`, `Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
 - `/partners/doctorhoster` -> `src/app/(app)/partners/doctorhoster/page.tsx` is force-dynamic, reads `lang` cookie/query, loads Doctor Hosting section-array JSON through `src/data/loaders/others.ts`, and renders `src/components/others/doctorhosting/doctor_hosting_page.tsx` with rotating hero (`src/components/others/hosting_hero_slider.tsx`), meeting + pricing hero CTAs, an inline domain search form that checks common extensions through the internal API and shows an availability/pricing list on the same page, compact equal-height pricing cards, services, CTA, and FAQ sections.
 - `/partners/jotform` -> `src/app/(app)/partners/jotform/page.tsx` reads `lang` cookie/query, loads Jotform object JSON through `src/data/loaders/others.ts`, and renders `src/components/others/jotform/jotform_page.tsx` with a Jotform-inspired Devisgon-themed hero, meeting + Jotform login hero CTAs, stats, icon-based feature cards, product-suite cards, pricing cards with expandable AI Agent Limits near the middle of the page, template categories, workflow steps, security cards, FAQ, and external Jotform login CTAs.
 - Legacy `/others/dctr_hosting`, `/others/jotform`, `/partners/dctr_hosting`, and `/partners/dctr-hosting` redirects are handled in `next.config.ts`; duplicate App Router redirect folders are intentionally removed.
@@ -58,19 +59,16 @@ Required actions after each meaningful code change:
 - `/privacy-policies` and `/terms-condition` -> server components reading language-specific JSON by cookie; legacy `/privacy_policies` and `/terms_condition` redirects are handled in `next.config.ts`.
 
 ### Service Detail Pages
-All service detail routes share one rendering pattern:
-- Routes:
-  - `/services/automations/[slug]`
-  - `/services/design/[slug]`
-  - `/services/web-and-saas-development/[slug]`
-  - `/services/data-solutions/[slug]`
-  - `/services/testing/[slug]`
-  - `/services/ai-and-ml/[slug]`
-  - `/services/cloud/[slug]`
-- Each route:
+All service detail pages share one rendering pattern:
+- Canonical route:
+  - `/services/[slug]` (served by `src/app/(app)/services/[slug]/page.tsx`).
+- Legacy compatibility routes:
+  - category-prefixed routes such as `/services/automations/[slug]`, `/services/design/[slug]`, `/services/web-and-saas-development/[slug]`, `/services/data-solutions/[slug]`, `/services/testing/[slug]`, `/services/ai-and-ml/[slug]`, and `/services/cloud/[slug]` redirect to `/services/[slug]` through `next.config.ts`.
+- Route behavior:
   - is a server component,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
-  - pulls content from `src/data/loaders/*.ts` map by slug, with hyphenated public slugs resolved against existing underscore-backed loader keys when needed,
+  - normalizes incoming service slugs to lowercase hyphenated values and redirects uppercase/space/underscore variants to the canonical path,
+  - pulls content from `src/lib/service-detail.ts`, which searches the service loader maps by slug, with hyphenated public slugs resolved against existing underscore-backed loader keys and old aliases when needed,
   - renders shared section components (`hero`, `introduction`, `key_benefits`, `what_we_do`, `technologies`, `process`, `case_study`, `faq`, `contact`).
   - the shared `hero` section uses a client video island (`src/components/sub_services_pages/hero_video.tsx`) so hero videos loop while in view and pause when scrolled out of view.
   - the shared `technologies` section renders cards as a continuously moving marquee, pauses on hover, and resolves card links from the top-level Technologies navbar dropdown with safe fallback to `/technologies`.
@@ -78,13 +76,13 @@ All service detail routes share one rendering pattern:
 
 ### Industry Detail Pages
 - Canonical route:
-  - `/industries/[category]/[slug]` (served by `src/app/(app)/industries/[...segments]/page.tsx`).
+  - `/industries/[slug]` (served by `src/app/(app)/industries/[slug]/page.tsx`).
 - Legacy compatibility route:
-  - `/industries/[slug]` -> server redirect to `/industries/[category]/[slug]` using `src/data/loaders/industries.ts` slug-to-category mapping.
+  - `/industries/[category]/[slug]` -> redirect to `/industries/[slug]` through `next.config.ts` and `src/app/(app)/industries/[...segments]/page.tsx`.
 - Route behavior:
   - server component with metadata from `src/lib/seo.ts`,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
-  - loads category + slug data from `src/data/loaders/industries.ts` with English fallback if localized file is missing,
+  - resolves category from slug through `src/data/loaders/industries.ts`, then loads category + slug data with English fallback if localized file is missing,
   - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, optional `carousel`, `case_studies`, `explore`, `conversation`),
   - hero now receives carousel cards and rotates card title/description smoothly via `src/components/industries/hero_rotating_copy.tsx`,
   - conversation forms submit directly to `/api/contact_mail` with `industryName`, `serviceName`, source page, country, and message fields for Resend inquiry emails.
@@ -95,6 +93,7 @@ All service detail routes share one rendering pattern:
 - Route behavior:
   - server component with metadata from `src/lib/seo.ts`,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
+  - normalizes merged legacy technology slugs (`c`, `cpp`, `javascript`, `typescript`, `nextjs`, `nodejs`) to canonical combined slugs before loading data,
   - loads slug data from `src/data/loaders/technologies.ts` with English fallback if localized file is missing,
   - renders dedicated technology sections from `src/components/technologies/*` (`hero` with left-content/right-image layout, `why_use`, `architecture`, `competitive_edge`, `quote`, `conversation`),
   - technology section styling uses global theme variables (`bg-bg-primary`, `bg-bg-secondary`, `text-t-primary`, `text-t-secondary`, `bg-btn-primary`) with alternating section backgrounds for light/dark parity.
@@ -103,10 +102,10 @@ All service detail routes share one rendering pattern:
 ### Static JSON Content
 - Base folders by language in `src/data/*_data`.
 - Home/services/privacy/terms pages use language-specific JSON maps in route files; `services_page.contact_form` provides the services-page bottom CTA heading/description.
-- Service detail pages use loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`; AI/ML content is sourced from `services/ai_and_ml` and Web/SaaS content is sourced from `services/web_and_saas_development`.
+- Service detail pages use `src/lib/service-detail.ts` to search loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`; AI/ML content is sourced from `services/ai_and_ml` and Web/SaaS content is sourced from `services/web_and_saas_development`.
 - Industry main page uses `src/data/*_data/industries_page.json`.
 - Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
-- Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
+- Industry detail pages use flat public routes plus `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
 - Food industry detail pages currently include `bakery`, `juice-bar`, `catering`, `fine-dining`, and `ice-cream-parlor` across all language folders, with matching Food navbar links in `src/data/navbar.json` and localized `src/data/*_data/navbar.json` files.
 - Industry detail `hero_section.background_image` fields now point to slug/category-specific assets under `public/industries/*.webp`; new uploaded industry raster images should be converted to WEBP and the original PNG/JPG files removed after references are updated.
 - Technologies main page uses `src/data/*_data/technologies_page.json`.
@@ -120,10 +119,11 @@ All service detail routes share one rendering pattern:
 - Contact-page UI copy is sourced from `src/data/*_data/contact_page.json`.
 - Get-started page UI copy is sourced from `src/data/*_data/get_started_page.json`.
 - Technologies data is organized by main category folders:
-  - `technologies/languages/index.json` + language subcategory files (for example `java.json`, `python.json`),
-  - `technologies/frameworks/index.json` + framework subcategory files (for example `react.json`, `nestjs.json`),
+  - `technologies/automation/index.json` + automation tool files (`make.json`, `n8n.json`, `zapier.json`),
+  - `technologies/languages/index.json` + language subcategory files (for example `java.json`, `python.json`, `c-cpp.json`, `javascript-typescript.json`),
+  - `technologies/frameworks/index.json` + framework subcategory files (for example `react.json`, `nestjs.json`, `nextjs-nodejs.json`),
   - `technologies/database/index.json` + database subcategory files (for example `mongodb.json`, `mysql.json`),
-  - `technologies/tools/index.json` + tools subcategory files (for example `n8n.json`, `shopify.json`).
+  - `technologies/tools/index.json` + platform tool files (for example `shopify.json`, `wordpress.json`, `jotform.json`).
 - Technology detail JSON schema is custom (separate from industries) and includes:
   - `hero_section` (`side_image`, `primary_cta`, `secondary_cta`),
   - `why_use_section` (`paragraphs` + right-column icon cards),
@@ -200,19 +200,19 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Localized navbar labels are mirrored in `src/data/*_data/navbar.json`; `src/lib/localized-content.ts` resolves the active language dataset.
 - Public `href` values in localized navbar JSON must mirror canonical `src/data/navbar.json` slugs exactly, even when labels are translated or ordered differently.
 - Dropdown categories (`dropdown.columns`) and subcategory links (`links`) in navbar data are maintained in alphabetical order by display name.
-- Services dropdown links are grouped by canonical service routes: AI and ML (`/services/ai-and-ml/*`), Automations, Cloud And DevOps, Data Solutions, Digital Design, Quality Assurance and Testing, and Web and SaaS Development (`/services/web-and-saas-development/*`). The footer reads these same dropdown groups from localized navbar JSON.
+- Services dropdown links are grouped by service category labels but point to flat canonical service routes (`/services/<slug>`). The footer reads these same dropdown groups from localized navbar JSON.
 - About uses a one-column dropdown in each navbar JSON file with `CEO`, `Team`, and `Careers` links; the dropdown column title is intentionally empty so no main category heading appears above those links.
 - Industries dropdown links are grouped in `src/data/navbar.json` into seven columns (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`) with sub-industry links.
-- Technologies is a separate top-level navbar item in `src/data/navbar.json` with four dropdown columns (`Languages`, `Frameworks`, `Database`, `Tools`) and per-track technology links.
-- Technologies dropdown links in `src/data/navbar.json` point directly to dedicated subcategory routes under `/technologies/[slug]` (for example `java`, `javascript`, `python`, `react`, `nestjs`, `mongodb`, `amazon-dynamodb`, `doctorhosters`, `jotform`, `shopify`, `wordpress`).
+- Technologies is a separate top-level navbar item in `src/data/navbar.json` with five dropdown columns (`Automation`, `Database`, `Frameworks`, `Languages`, `Tools`) and per-track technology links.
+- Technologies dropdown links in `src/data/navbar.json` point directly to dedicated subcategory routes under `/technologies/[slug]` (for example `automation`, `c-cpp`, `javascript-typescript`, `nextjs-nodejs`, `java`, `python`, `react`, `nestjs`, `mongodb`, `amazon-dynamodb`, `doctorhosters`, `jotform`, `shopify`, `wordpress`).
 - Technologies dropdown columns in `src/data/navbar.json` also drive the grouped sections and card ordering on `/technologies`.
 - Partners uses a one-column dropdown with links to `/partners/doctorhoster` and `/partners/jotform`; the dropdown column title is intentionally empty so no main category heading appears above those links.
 - Footer quick links and Services/Industries/Technologies/Partners lists are rendered in `src/components/footer.tsx`; category-based lists use `src/data/*_data/navbar.json` dropdown categories and reveal subcategory links after clicking a main category, while single empty-title dropdowns such as Partners render their links directly and Privacy/Terms links render in the bottom legal bar. Footer links and category buttons share pointer cursor plus hover underline styling.
-- Service detail loaders must expose keys that resolve from nav slugs through `src/lib/slugs.ts` hyphen/underscore candidates.
-- Old service URLs under `/services/saas/*`, `/services/web-and-mobile-development/*`, `/services/web_and_mobile_development/*`, and `/services/data_solutions/*` are handled by redirects in `next.config.ts` instead of duplicate App Router folders.
-- Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` may remain underscore-backed on disk, but public navbar industries links must use hyphenated category/slug segments resolved by `src/data/loaders/industries.ts`.
+- Service detail loaders must expose keys that resolve from nav slugs through `src/lib/slugs.ts` hyphen/underscore candidates and `src/lib/service-detail.ts` alias candidates.
+- Old service URLs under category-prefixed paths such as `/services/ai-and-ml/*`, `/services/automations/*`, `/services/cloud/*`, `/services/data-solutions/*`, `/services/design/*`, `/services/testing/*`, `/services/web-and-saas-development/*`, `/services/saas/*`, `/services/web-and-mobile-development/*`, `/services/web_and_mobile_development/*`, and `/services/data_solutions/*` are handled by redirects in `next.config.ts` instead of duplicate public URLs.
+- Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` may remain underscore-backed on disk, but public navbar industries links must use flat hyphenated `/industries/<slug>` paths resolved by `src/data/loaders/industries.ts`.
 - Legacy typo-backed industry files such as `landscraping`, `poetry_farm`, `tutoer`, and `elctronics` are resolved through loader aliases to public slugs `landscaping`, `poultry-farm`, `tutor`, and `electronics`.
-- Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and nested English industries category JSON files and emits language query variants.
+- Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files into flat `/services/<slug>` URLs and nested English industries category JSON files into flat `/industries/<slug>` URLs, then emits language query variants.
 
 ## Environment Variables
 Required by runtime code:
@@ -249,9 +249,9 @@ Optional for local newsletter testing:
 
 ## Change Impact Guide
 If you change this, also check this:
-- Service slug in JSON -> loader alias resolution + `navbar.json` link + sitemap output; public service URLs should use hyphens, not underscores.
-- Industry category/slug JSON path -> `src/data/loaders/industries.ts` lookup + `navbar.json` grouped industries links + sitemap output; public industry URLs should use hyphens, not underscores.
-- Technology slug JSON path (`technologies/<category>/<slug>.json` with category `index.json`) -> `src/data/loaders/technologies.ts` slug-to-category lookup + `navbar.json` Technologies links + sitemap output; public technology URLs should use hyphens, not underscores.
+- Service slug in JSON -> loader alias resolution + `navbar.json` link + sitemap output; public service URLs should use lowercase hyphenated `/services/<slug>` paths, not category-prefixed paths, spaces, capitals, or underscores.
+- Industry category/slug JSON path -> `src/data/loaders/industries.ts` lookup + `navbar.json` grouped industries links + sitemap output; public industry URLs should use lowercase hyphenated `/industries/<slug>` paths, not category-prefixed paths, spaces, capitals, or underscores.
+- Technology slug JSON path (`technologies/<category>/<slug>.json` with category `index.json`) -> `src/data/loaders/technologies.ts` slug-to-category lookup + alias map + `navbar.json` Technologies links + sitemap output; public technology URLs should use hyphens, not underscores, and merged technologies should use the canonical combined slugs.
 - Partners landing JSON path (`others/<slug>.json`) -> explicit `src/app/(app)/partners/<slug>/page.tsx` route + `next.config.ts` legacy redirects + component folder under `src/components/others/*` + `src/data/loaders/others.ts` + `navbar.json` Partners dropdown links + sitemap output.
 - Service section schema -> shared sub-service components and type files under `src/types/sub_services_page`.
 - Industry section schema -> shared industry components under `src/components/industries` + `src/types/industries_page` (including optional `carousel_section` content).
@@ -389,3 +389,6 @@ If you change this, also check this:
 - 2026-05-13: Replaced the `/services` bottom direct inquiry form with a CTA band using the existing services-page CTA copy and consultation/contact links.
 - 2026-05-13: Replaced service detail page bottom direct inquiry forms with the same services CTA band.
 - 2026-05-13: Removed duplicate legacy App Router redirect folders, moved those redirects into `next.config.ts`, and restored footer Partners links by standardizing partner links on `/partners/doctorhoster` and `/partners/jotform`.
+- 2026-05-13: Flattened service detail URLs to lowercase hyphenated `/services/<slug>` routes, updated service navigation/sitemaps, and redirected category-prefixed service URLs.
+- 2026-05-13: Flattened industry detail URLs to lowercase hyphenated `/industries/<slug>` routes, updated industry navigation/sitemaps, and redirected category-prefixed industry URLs.
+- 2026-05-13: Merged C/C++, JavaScript/TypeScript, and Next.js/Node.js technology detail files into combined canonical slugs and moved Make, n8n, and Zapier into a separate Automation technology category.

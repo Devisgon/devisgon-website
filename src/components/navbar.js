@@ -113,7 +113,7 @@ const Navbar = () => {
   <div
     className={`${dropdownPositionClass} z-50 transition-all duration-200 ${
       isDropdownOpen 
-        ? "visible translate-y-0 opacity-100" 
+        ? "visible translate-y-3 opacity-100" 
         : "pointer-events-none invisible translate-y-2 opacity-0"
     }`}
   >

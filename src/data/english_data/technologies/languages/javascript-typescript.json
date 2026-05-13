@@ -1,0 +1,140 @@
+{
+  "slug": "javascript-typescript",
+  "seo_metadata": {
+    "title": "JavaScript / TypeScript Development | Full-Stack Web Engineering",
+    "description": "Full-stack JavaScript and TypeScript engineering for scalable, type-safe web applications, APIs, and modern product platforms.",
+    "keywords": [
+      "JavaScript Development",
+      "ES6+ Web Standards",
+      "V8 Engine Optimization",
+      "Asynchronous Programming",
+      "Universal JavaScript",
+      "Event-Driven Architecture",
+      "Full-Stack JS Solutions",
+      "TypeScript Development",
+      "Static Typing JavaScript",
+      "Type-Safe API Design",
+      "Enterprise Frontend Architecture",
+      "Node.js TypeScript Backend",
+      "TypeScript Refactoring Services",
+      "Scalable Web Infrastructure"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Typed and Dynamic Web Engineering",
+    "title": "Ship Faster with",
+    "highlight": "JavaScript / TypeScript",
+    "description": "Power your entire product lifecycle with the most versatile language on the planet, delivering high-performance interactivity from the browser to the server. Build high-confidence production systems with a strongly typed programming language that builds on JavaScript, giving you better tooling at any scale.",
+    "side_image": "/technologies/js/hero.webp",
+    "primary_cta": {
+      "text": "Optimize Your Stack",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "View Technical Roadmap",
+      "href": "/technologies/javascript-typescript#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with JavaScript / TypeScript",
+    "subtitle": "JavaScript is the cornerstone of modern digital experiences, offering unparalleled speed and universal reach. TypeScript provides the structural integrity required to manage massive, multi-team codebases with surgical precision.",
+    "paragraphs": [
+      "JavaScript is our primary tool for building reactive, user-centric applications. By utilizing its non-blocking event loop and the high-speed V8 engine, we deliver interfaces that respond instantly to user input while handling complex backend orchestration through a unified, high-velocity language ecosystem.",
+      "TypeScript is our foundational choice for large-scale application development. By introducing a robust static type system to JavaScript, we catch potential errors during development rather than at runtime. This 'fail-fast' approach significantly reduces debugging time and increases the reliability of mission-critical software deployment."
+    ],
+    "cards": [
+      {
+        "title": "Universal Reach",
+        "description": "Execute the same codebase across browsers, servers, and mobile devices for maximum logic reuse.",
+        "icon_type": "FaGlobe"
+      },
+      {
+        "title": "Asynchronous Power",
+        "description": "Handle thousands of concurrent operations without blocking the main thread using Promises and Async/Await.",
+        "icon_type": "FaSync"
+      },
+      {
+        "title": "Static Type Safety",
+        "description": "Define clear data structures and interfaces to eliminate entire classes of runtime bugs before they reach production.",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Advanced Tooling",
+        "description": "Leverage superior IDE support with instant refactoring, type checking, and intelligent code navigation.",
+        "icon_type": "FaTools"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "JavaScript / TypeScript Technical Scope",
+    "image": "/technologies/js/scope.webp",
+    "items": [
+      {
+        "title": "Event-Driven Backends",
+        "description": "Architecting high-concurrency server-side services that leverage the Node.js event loop for extreme throughput."
+      },
+      {
+        "title": "Reactive Frontend State",
+        "description": "Building complex, living UIs with modern patterns that ensure the view layer stays in perfect sync with underlying data."
+      },
+      {
+        "title": "Serverless & Edge Compute",
+        "description": "Deploying lightweight JavaScript functions to the edge for personalized, low-latency content delivery at scale."
+      },
+      {
+        "title": "Domain-Driven API Design",
+        "description": "Architecting type-safe APIs using shared interfaces to ensure perfect data alignment between frontend and backend."
+      },
+      {
+        "title": "Strict Backend Microservices",
+        "description": "Deploying robust Node.js services with NestJS or Express, utilizing decorators and DTOs for strict validation."
+      },
+      {
+        "title": "Legacy Migration & Type-Casting",
+        "description": "Strategically migrating vanilla JavaScript stacks to TypeScript through incremental typing and high-fidelity interfaces."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The JavaScript / TypeScript Edge",
+    "subtitle": "Strategic performance advantages for a rapid digital world. Quantifiable advantages for maintaining enterprise-grade code.",
+    "cards": [
+      {
+        "metric": "Fast",
+        "title": "Execution",
+        "description": "Google's V8 engine compiles JS to machine code in real-time, rivaling the performance of traditional languages."
+      },
+      {
+        "metric": "100%",
+        "title": "Full-Stack",
+        "description": "Unified language stack reduces context switching and simplifies development-to-deployment workflows."
+      },
+      {
+        "metric": "15%",
+        "title": "Bug Reduction",
+        "description": "Industry-standard research shows TypeScript catches a significant portion of public bugs at compile-time."
+      },
+      {
+        "metric": "100%",
+        "title": "Self-Documenting",
+        "description": "Type definitions act as a living contract, reducing the need for stale external documentation."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "JavaScript and TypeScript let us balance rapid delivery with",
+    "highlight": "long-term type-safe architecture"
+  },
+  "conversation_section": {
+    "title": "Architect Your Web Stack",
+    "subtitle": "Consult with our lead technical specialists to define a scalable JavaScript roadmap for your digital product. Consult with our lead technical specialists to define a scalable, type-safe roadmap for your organization.",
+    "full_name_label": "Lead Developer",
+    "business_email_label": "Entity Email",
+    "message_label": "Strategic Requirement",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe your JavaScript architectural challenge or performance goals...",
+    "button_text": "Request Consultation"
+  }
+}

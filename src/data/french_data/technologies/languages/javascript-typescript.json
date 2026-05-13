@@ -1,0 +1,140 @@
+{
+  "slug": "javascript-typescript",
+  "seo_metadata": {
+    "title": "JavaScript / TypeScript Development | Full-Stack Web Engineering",
+    "description": "Full-stack JavaScript and TypeScript engineering for scalable, type-safe web applications, APIs, and modern product platforms.",
+    "keywords": [
+      "Développement JavaScript",
+      "Normes Web ES6+",
+      "Optimisation du moteur V8",
+      "Programmation asynchrone",
+      "JavaScript universel",
+      "Architecture pilotée par les événements",
+      "Solutions JS full-stack",
+      "Développement de scripts dactylographiés",
+      "JavaScript de saisie statique",
+      "Conception d'API de type sécurisé",
+      "Architecture frontale d'entreprise",
+      "Backend TypeScript Node.js",
+      "Services de refactorisation TypeScript",
+      "Infrastructure Web évolutive"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Typed and Dynamic Web Engineering",
+    "title": "Ship Faster with",
+    "highlight": "JavaScript / TypeScript",
+    "description": "Alimentez l’ensemble du cycle de vie de vos produits avec le langage le plus polyvalent de la planète, offrant une interactivité hautes performances du navigateur au serveur. Créez des systèmes de production fiables avec un langage de programmation fortement typé qui s'appuie sur JavaScript, vous offrant ainsi de meilleurs outils à n'importe quelle échelle.",
+    "side_image": "/technologies/js/hero.webp",
+    "primary_cta": {
+      "text": "Optimisez votre pile",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "Voir la feuille de route technique",
+      "href": "/technologies/javascript-typescript#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with JavaScript / TypeScript",
+    "subtitle": "JavaScript est la pierre angulaire des expériences numériques modernes, offrant une vitesse inégalée et une portée universelle. TypeScript fournit l'intégrité structurelle requise pour gérer des bases de code massives et multi-équipes avec une précision chirurgicale.",
+    "paragraphs": [
+      "JavaScript est notre principal outil pour créer des applications réactives et centrées sur l'utilisateur. En utilisant sa boucle d'événements non bloquante et le moteur V8 à grande vitesse, nous fournissons des interfaces qui répondent instantanément aux entrées de l'utilisateur tout en gérant une orchestration back-end complexe via un écosystème linguistique unifié à haute vitesse.",
+      "TypeScript est notre choix fondamental pour le développement d'applications à grande échelle. En introduisant un système de types statiques robuste dans JavaScript, nous détectons les erreurs potentielles pendant le développement plutôt qu'au moment de l'exécution. Cette approche « rapide » réduit considérablement le temps de débogage et augmente la fiabilité du déploiement de logiciels critiques."
+    ],
+    "cards": [
+      {
+        "title": "Portée universelle",
+        "description": "Exécutez la même base de code sur tous les navigateurs, serveurs et appareils mobiles pour une réutilisation maximale de la logique.",
+        "icon_type": "FaGlobe"
+      },
+      {
+        "title": "Alimentation asynchrone",
+        "description": "Gérez des milliers d'opérations simultanées sans bloquer le thread principal à l'aide de Promises et Async/Await.",
+        "icon_type": "FaSync"
+      },
+      {
+        "title": "Sécurité de type statique",
+        "description": "Définissez des structures de données et des interfaces claires pour éliminer des classes entières de bogues d’exécution avant qu’ils n’atteignent la production.",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Outillage avancé",
+        "description": "Bénéficiez d’une prise en charge supérieure de l’IDE ​​avec une refactorisation instantanée, une vérification de type et une navigation intelligente dans le code.",
+        "icon_type": "FaTools"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "JavaScript / TypeScript Technical Scope",
+    "image": "/technologies/js/scope.webp",
+    "items": [
+      {
+        "title": "Backends pilotés par les événements",
+        "description": "Concevoir des services côté serveur à haute concurrence qui exploitent la boucle d'événements Node.js pour un débit extrême."
+      },
+      {
+        "title": "État frontal réactif",
+        "description": "Créez des interfaces utilisateur complexes et vivantes avec des modèles modernes qui garantissent que la couche de vue reste parfaitement synchronisée avec les données sous-jacentes."
+      },
+      {
+        "title": "Calcul sans serveur et Edge",
+        "description": "Déploiement de fonctions JavaScript légères à la périphérie pour une diffusion de contenu personnalisé à faible latence à grande échelle."
+      },
+      {
+        "title": "Conception d'API basée sur le domaine",
+        "description": "Concevoir des API de type sécurisé à l'aide d'interfaces partagées pour garantir un alignement parfait des données entre le frontend et le backend."
+      },
+      {
+        "title": "Microservices back-end stricts",
+        "description": "Déployer des services Node.js robustes avec NestJS ou Express, en utilisant des décorateurs et des DTO pour une validation stricte."
+      },
+      {
+        "title": "Migration et conversion de types hérités",
+        "description": "Migration stratégique des piles JavaScript Vanilla vers TypeScript via une saisie incrémentielle et des interfaces haute fidélité."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The JavaScript / TypeScript Edge",
+    "subtitle": "Des avantages de performance stratégiques pour un monde numérique rapide. Avantages quantifiables pour maintenir le code de niveau entreprise.",
+    "cards": [
+      {
+        "metric": "Fast",
+        "title": "Execution",
+        "description": "Le moteur V8 de Google compile JS en code machine en temps réel, rivalisant avec les performances des langages traditionnels."
+      },
+      {
+        "metric": "100%",
+        "title": "Full-Stack",
+        "description": "La pile linguistique unifiée réduit le changement de contexte et simplifie les flux de travail du développement au déploiement."
+      },
+      {
+        "metric": "15%",
+        "title": "Réduction des bogues",
+        "description": "Des recherches conformes aux normes de l'industrie montrent que TypeScript détecte une partie importante des bogues publics au moment de la compilation."
+      },
+      {
+        "metric": "100%",
+        "title": "Self-Documenting",
+        "description": "Les définitions de types agissent comme un contrat évolutif, réduisant le besoin de documentation externe obsolète."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "JavaScript and TypeScript let us balance rapid delivery with",
+    "highlight": "long-term type-safe architecture"
+  },
+  "conversation_section": {
+    "title": "Architect Your Web Stack",
+    "subtitle": "Consultez nos principaux spécialistes techniques pour définir une feuille de route JavaScript évolutive pour votre produit numérique. Consultez nos principaux spécialistes techniques pour définir une feuille de route évolutive et sécurisée pour votre organisation.",
+    "full_name_label": "Développeur principal",
+    "business_email_label": "E-mail de l'entité",
+    "message_label": "Exigence stratégique",
+    "full_name_placeholder": "Dr Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Décrivez votre défi architectural JavaScript ou vos objectifs de performances...",
+    "button_text": "Demander une consultation"
+  }
+}

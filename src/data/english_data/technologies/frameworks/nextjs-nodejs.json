@@ -1,0 +1,140 @@
+{
+  "slug": "nextjs-nodejs",
+  "seo_metadata": {
+    "title": "Next.js / Node.js Development | Full-Stack React and API Engineering",
+    "description": "Full-stack Next.js and Node.js development for performant React frontends, APIs, server actions, edge functions, and scalable backend services.",
+    "keywords": [
+      "Next.js Development",
+      "React Server Components",
+      "Server Side Rendering (SSR)",
+      "Static Site Generation (SSG)",
+      "App Router Architecture",
+      "Incremental Static Regeneration",
+      "Vercel Deployment",
+      "Node.js Development",
+      "V8 Engine Performance",
+      "Event-Driven Architecture",
+      "Non-blocking I/O",
+      "Server-side JavaScript",
+      "Real-time Applications",
+      "npm Ecosystem Integration"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Full-Stack JavaScript Runtime and Framework",
+    "title": "Scale Product Delivery with",
+    "highlight": "Next.js / Node.js",
+    "description": "Deliver fast, SEO-friendly, and highly interactive user experiences with the framework that simplifies server-side rendering and static site generation. Execute JavaScript on the server side to build fast, scalable network applications capable of handling thousands of concurrent connections with a single thread.",
+    "side_image": "/technologies/next_js/hero.webp",
+    "primary_cta": {
+      "text": "Optimize Your Web Vitals",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "View Technical Specs",
+      "href": "/technologies/nextjs-nodejs#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with Next.js / Node.js",
+    "subtitle": "Next.js bridges the gap between static speed and dynamic power, providing an unmatched foundation for modern web apps. Node.js is the cornerstone of modern, highly-available web services and real-time data streaming.",
+    "paragraphs": [
+      "Next.js is our primary choice for projects where performance and discoverability are paramount. By utilizing its hybrid rendering capabilities, we can serve static content for near-instant load times while fetching dynamic data on the server, significantly reducing the JavaScript bundle size sent to the client.",
+      "We select Node.js for workloads requiring high throughput and low latency. Its non-blocking, event-driven I/O model makes it exceptionally efficient for data-intensive real-time applications that run across distributed devices, allowing us to build backends that remain responsive under heavy load."
+    ],
+    "cards": [
+      {
+        "title": "Hybrid Rendering",
+        "description": "Choose between SSR, SSG, and ISR on a per-page basis to balance fresh data with extreme speed.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "SEO Excellence",
+        "description": "Native support for metadata and server-rendered content ensures your site ranks higher in search results.",
+        "icon_type": "FaSearch"
+      },
+      {
+        "title": "V8 Engine Speed",
+        "description": "Powered by Google's V8 engine, Node.js compiles JavaScript directly into machine code for lightning-fast execution.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Event-Loop Model",
+        "description": "Handle massive concurrency without the overhead of thread management, maximizing server resource utility.",
+        "icon_type": "FaSync"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Next.js / Node.js Architecture Scope",
+    "image": "/technologies/next_js/scope.webp",
+    "items": [
+      {
+        "title": "App Router Architecture",
+        "description": "Implementing complex nested layouts and streaming data fetching for seamless, high-performance navigation."
+      },
+      {
+        "title": "Edge Runtime Services",
+        "description": "Deploying middleware and functions at the network edge to provide personalized content with zero latency."
+      },
+      {
+        "title": "API Routes & Server Actions",
+        "description": "Building full-stack features with type-safe server functions that eliminate the need for complex API orchestration."
+      },
+      {
+        "title": "Real-time WebSockets",
+        "description": "Building low-latency communication layers for chat systems, live dashboards, and collaborative tools using Socket.io."
+      },
+      {
+        "title": "Scalable API Gateways",
+        "description": "Orchestrating complex microservice interactions with lightweight, high-performance Node.js proxy layers."
+      },
+      {
+        "title": "Serverless Functions",
+        "description": "Deploying event-triggered logic via AWS Lambda or Google Cloud Functions for cost-effective, auto-scaling compute."
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The Next.js / Node.js Edge",
+    "subtitle": "Quantifiable metrics that define the future of the web. Quantifiable performance for the modern enterprise.",
+    "cards": [
+      {
+        "metric": "100/100",
+        "title": "Lighthouse Score",
+        "description": "Achieve perfect performance and SEO scores through automatic framework-level optimizations."
+      },
+      {
+        "metric": "Zero",
+        "title": "CLS Issues",
+        "description": "Eliminate Cumulative Layout Shift using Next.js's optimized Image and Font components."
+      },
+      {
+        "metric": "2M+",
+        "title": "Registry Modules",
+        "description": "Access to the most extensive collection of pre-tested packages to reduce custom engineering overhead."
+      },
+      {
+        "metric": "40%",
+        "title": "Lower Latency",
+        "description": "Reduction in response times for I/O bound applications compared to traditional synchronous environments."
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "Next.js and Node.js let us connect fast user experiences to",
+    "highlight": "scalable server-side systems"
+  },
+  "conversation_section": {
+    "title": "Architect Your Full-Stack Platform",
+    "subtitle": "Consult with our Next.js specialists to build a high-performance, future-proof digital product. Consult with our lead Node.js engineers to define a roadmap for high-concurrency performance.",
+    "full_name_label": "Lead Engineer",
+    "business_email_label": "Corporate Email",
+    "message_label": "Technical Vision",
+    "full_name_placeholder": "Dr. Julian Thorne",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "Describe your web performance goals or architectural challenges...",
+    "button_text": "Launch Your Project"
+  }
+}

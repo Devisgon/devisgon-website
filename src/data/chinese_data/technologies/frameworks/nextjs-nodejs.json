@@ -1,0 +1,140 @@
+{
+  "slug": "nextjs-nodejs",
+  "seo_metadata": {
+    "title": "Next.js / Node.js Development | Full-Stack React and API Engineering",
+    "description": "Full-stack Next.js and Node.js development for performant React frontends, APIs, server actions, edge functions, and scalable backend services.",
+    "keywords": [
+      "Next.js 开发",
+      "反应服务器组件",
+      "服务器端渲染 (SSR)",
+      "静态站点生成 (SSG)",
+      "应用路由器架构",
+      "增量静态再生",
+      "Vercel部署",
+      "Node.js 开发",
+      "V8 发动机性能",
+      "事件驱动架构",
+      "非阻塞 I/O",
+      "服务器端 JavaScript",
+      "实时应用",
+      "npm 生态系统整合"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "Full-Stack JavaScript Runtime and Framework",
+    "title": "Scale Product Delivery with",
+    "highlight": "Next.js / Node.js",
+    "description": "通过简化服务器端渲染和静态站点生成的框架，提供快速、SEO 友好且高度交互的用户体验。 在服务器端执行 JavaScript 以构建快速、可扩展的网络应用程序，能够使用单个线程处理数千个并发连接。",
+    "side_image": "/technologies/next_js/hero.webp",
+    "primary_cta": {
+      "text": "优化您的网络生命力",
+      "href": "/contact"
+    },
+    "secondary_cta": {
+      "text": "查看技术规格",
+      "href": "/technologies/nextjs-nodejs#technology-architecture"
+    }
+  },
+  "why_use_section": {
+    "title": "Why We Engineer with Next.js / Node.js",
+    "subtitle": "Next.js 弥合了静态速度和动态功率之间的差距，为现代 Web 应用程序提供了无与伦比的基础。 Node.js 是现代、高可用性 Web 服务和实时数据流的基石。",
+    "paragraphs": [
+      "对于性能和可发现性至关重要的项目，Next.js 是我们的首选。通过利用其混合渲染功能，我们可以在近乎即时的加载时间内提供静态内容，同时在服务器上获取动态数据，从而显着减少发送到客户端的 JavaScript 包大小。",
+      "我们选择 Node.js 来处理需要高吞吐量和低延迟的工作负载。其非阻塞、事件驱动的 I/O 模型使其对于跨分布式设备运行的数据密集型实时应用程序异常高效，使我们能够构建在重负载下保持响应的后端。"
+    ],
+    "cards": [
+      {
+        "title": "混合渲染",
+        "description": "基于每页在 SSR、SSG 和 ISR 之间进行选择，以极快的速度平衡新数据。",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "卓越搜索引擎优化",
+        "description": "对元数据和服务器渲染内容的本机支持可确保您的网站在搜索结果中排名更高。",
+        "icon_type": "FaSearch"
+      },
+      {
+        "title": "V8 发动机转速",
+        "description": "Node.js 由 Google 的 V8 引擎提供支持，将 JavaScript 直接编译为机器代码，以实现闪电般的快速执行。",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "事件循环模型",
+        "description": "处理大量并发，无需线程管理开销，最大限度地提高服务器资源利用率。",
+        "icon_type": "FaSync"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "technology-architecture",
+    "title": "Next.js / Node.js Architecture Scope",
+    "image": "/technologies/next_js/scope.webp",
+    "items": [
+      {
+        "title": "应用路由器架构",
+        "description": "实现复杂的嵌套布局和流数据获取，以实现无缝、高性能的导航。"
+      },
+      {
+        "title": "边缘运行时服务",
+        "description": "在网络边缘部署中间件和功能，以零延迟提供个性化内容。"
+      },
+      {
+        "title": "API 路由和服务器操作",
+        "description": "使用类型安全的服务器功能构建全栈功能，无需复杂的 API 编排。"
+      },
+      {
+        "title": "实时 WebSocket",
+        "description": "使用 Socket.io 为聊天系统、实时仪表板和协作工具构建低延迟通信层。"
+      },
+      {
+        "title": "可扩展的 API 网关",
+        "description": "使用轻量级、高性能 Node.js 代理层协调复杂的微服务交互。"
+      },
+      {
+        "title": "无服务器功能",
+        "description": "通过 AWS Lambda 或 Google Cloud Functions 部署事件触发逻辑，以实现经济高效的自动扩展计算。"
+      }
+    ]
+  },
+  "edge_section": {
+    "title": "The Next.js / Node.js Edge",
+    "subtitle": "定义网络未来的量化指标。 现代企业的可量化绩效。",
+    "cards": [
+      {
+        "metric": "100/100",
+        "title": "灯塔分数",
+        "description": "通过自动框架级优化实现完美的性能和 SEO 分数。"
+      },
+      {
+        "metric": "Zero",
+        "title": "CLS 问题",
+        "description": "使用 Next.js 的优化图像和字体组件消除累积布局偏移。"
+      },
+      {
+        "metric": "2M+",
+        "title": "注册表模块",
+        "description": "访问最广泛的预先测试的软件包集合，以减少定制工程开销。"
+      },
+      {
+        "metric": "40%",
+        "title": "更低的延迟",
+        "description": "与传统同步环境相比，减少了 I/O 密集型应用程序的响应时间。"
+      }
+    ]
+  },
+  "quote_section": {
+    "quote": "Next.js and Node.js let us connect fast user experiences to",
+    "highlight": "scalable server-side systems"
+  },
+  "conversation_section": {
+    "title": "Architect Your Full-Stack Platform",
+    "subtitle": "请咨询我们的 Next.js 专家，构建高性能、面向未来的数字产品。 咨询我们的 Node.js 首席工程师来定义高并发性能的路线图。",
+    "full_name_label": "首席工程师",
+    "business_email_label": "企业邮箱",
+    "message_label": "技术愿景",
+    "full_name_placeholder": "朱利安·索恩博士",
+    "business_email_placeholder": "j.thorne@luminous.com",
+    "message_placeholder": "描述您的 Web 性能目标或架构挑战...",
+    "button_text": "启动您的项目"
+  }
+}

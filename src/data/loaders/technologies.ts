@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import type { TechnologyListingData, TechnologyPageData } from "@/types/technologies_page";
-import { toLegacySlug } from "@/lib/slugs";
+import { toCanonicalSlug, toLegacySlug } from "@/lib/slugs";
 
 const LANGUAGE_FOLDER_MAP: Record<string, string> = {
   en: "english_data",
@@ -18,15 +18,13 @@ export const TECHNOLOGY_SLUGS = [
   "frameworks",
   "database",
   "tools",
+  "automation",
   "java",
-  "javascript",
+  "javascript-typescript",
   "python",
-  "typescript",
   "php",
-  "cpp",
-  "c",
-  "nodejs",
-  "nextjs",
+  "c-cpp",
+  "nextjs-nodejs",
   "nestjs",
   "laravel",
   "react",
@@ -48,20 +46,27 @@ export const TECHNOLOGY_SLUGS = [
 
 ] as const;
 
-const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "languages" | "frameworks" | "database" | "tools"> = {
+const TECHNOLOGY_ALIAS_MAP: Record<string, (typeof TECHNOLOGY_SLUGS)[number]> = {
+  c: "c-cpp",
+  cpp: "c-cpp",
+  javascript: "javascript-typescript",
+  typescript: "javascript-typescript",
+  nextjs: "nextjs-nodejs",
+  nodejs: "nextjs-nodejs",
+};
+
+const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "languages" | "frameworks" | "database" | "tools" | "automation"> = {
   languages: "languages",
   frameworks: "frameworks",
   database: "database",
   tools: "tools",
+  automation: "automation",
   java: "languages",
-  javascript: "languages",
+  "javascript-typescript": "languages",
   python: "languages",
-  typescript: "languages",
   php: "languages",
-  cpp: "languages",
-  c: "languages",
-  nodejs: "frameworks",
-  nextjs: "frameworks",
+  "c-cpp": "languages",
+  "nextjs-nodejs": "frameworks",
   nestjs: "frameworks",
   laravel: "frameworks",
   react: "frameworks",
@@ -72,9 +77,9 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
   graphql: "database",
   mysql: "database",
   "amazon-dynamodb": "database",
-  n8n: "tools",
-  make: "tools",
-  zapier: "tools",
+  n8n: "automation",
+  make: "automation",
+  zapier: "automation",
   amazon: "tools",
   shopify: "tools",
   wordpress: "tools",
@@ -85,19 +90,28 @@ const TECHNOLOGY_CATEGORY_MAP: Record<(typeof TECHNOLOGY_SLUGS)[number], "langua
 
 const TECHNOLOGY_FILE_SLUG_MAP: Record<string, string> = {
   "amazon-dynamodb": "amazon_dynamodb",
+  "c-cpp": "c-cpp",
+  "javascript-typescript": "javascript-typescript",
+  "nextjs-nodejs": "nextjs-nodejs",
   "react-native": "react_native",
 };
 
+export function getCanonicalTechnologySlug(slug: string): string {
+  const canonicalSlug = toCanonicalSlug(slug);
+  return TECHNOLOGY_ALIAS_MAP[canonicalSlug] ?? canonicalSlug;
+}
+
 function resolveTechnologyPath(langFolder: string, slug: string): string | null {
-  const typedSlug = slug as (typeof TECHNOLOGY_SLUGS)[number];
+  const canonicalSlug = getCanonicalTechnologySlug(slug);
+  const typedSlug = canonicalSlug as (typeof TECHNOLOGY_SLUGS)[number];
   const category = TECHNOLOGY_CATEGORY_MAP[typedSlug];
 
   if (!category) {
     return null;
   }
 
-  const fileSlug = TECHNOLOGY_FILE_SLUG_MAP[slug] ?? toLegacySlug(slug);
-  const fileName = slug === category ? "index.json" : `${fileSlug}.json`;
+  const fileSlug = TECHNOLOGY_FILE_SLUG_MAP[canonicalSlug] ?? toLegacySlug(canonicalSlug);
+  const fileName = canonicalSlug === category ? "index.json" : `${fileSlug}.json`;
   return path.join(process.cwd(), "src", "data", langFolder, "technologies", category, fileName);
 }
 
