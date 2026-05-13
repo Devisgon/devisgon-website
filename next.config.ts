@@ -2,6 +2,165 @@ import { withPayload } from "@payloadcms/next/withPayload";
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  async redirects() {
+    return [
+      {
+        source: "/others/dctr_hosting",
+        destination: "/partners/doctorhoster",
+        permanent: true,
+      },
+      {
+        source: "/others/jotform",
+        destination: "/partners/jotform",
+        permanent: true,
+      },
+      {
+        source: "/partners/dctr_hosting",
+        destination: "/partners/doctorhoster",
+        permanent: true,
+      },
+      {
+        source: "/partners/dctr-hosting",
+        destination: "/partners/doctorhoster",
+        permanent: true,
+      },
+      {
+        source: "/privacy_policies",
+        destination: "/privacy-policies",
+        permanent: true,
+      },
+      {
+        source: "/terms_condition",
+        destination: "/terms-condition",
+        permanent: true,
+      },
+      {
+        source: "/services/data-solutions/ai-ml-models",
+        destination: "/services/ai-and-ml/ai-ml-models",
+        permanent: true,
+      },
+      {
+        source: "/services/data-solutions/ai_ml_models",
+        destination: "/services/ai-and-ml/ai-ml-models",
+        permanent: true,
+      },
+      {
+        source: "/services/data_solutions/ai-ml-models",
+        destination: "/services/ai-and-ml/ai-ml-models",
+        permanent: true,
+      },
+      {
+        source: "/services/data_solutions/ai_ml_models",
+        destination: "/services/ai-and-ml/ai-ml-models",
+        permanent: true,
+      },
+      {
+        source: "/services/data_solutions/:slug",
+        destination: "/services/data-solutions/:slug",
+        permanent: true,
+      },
+      {
+        source: "/services/saas/machine-learning",
+        destination: "/services/ai-and-ml/machine-learning",
+        permanent: true,
+      },
+      {
+        source: "/services/saas/machine_learning",
+        destination: "/services/ai-and-ml/machine-learning",
+        permanent: true,
+      },
+      {
+        source: "/services/saas/meachine_learning",
+        destination: "/services/ai-and-ml/machine-learning",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/custom-bots",
+        destination: "/services/ai-and-ml/custom-bots",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/custom_bots",
+        destination: "/services/ai-and-ml/custom-bots",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/custom-bots",
+        destination: "/services/ai-and-ml/custom-bots",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/custom_bots",
+        destination: "/services/ai-and-ml/custom-bots",
+        permanent: true,
+      },
+      {
+        source: "/services/saas/saas-platform",
+        destination: "/services/web-and-saas-development/saas-development",
+        permanent: true,
+      },
+      {
+        source: "/services/saas/saas_plateform",
+        destination: "/services/web-and-saas-development/saas-development",
+        permanent: true,
+      },
+      {
+        source: "/services/saas/:slug",
+        destination: "/services/web-and-saas-development/:slug",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/app-applications",
+        destination: "/services/web-and-saas-development/mobile-app-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/app_applications",
+        destination: "/services/web-and-saas-development/mobile-app-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/web-applications",
+        destination: "/services/web-and-saas-development/web-application-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/web_applications",
+        destination: "/services/web-and-saas-development/web-application-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web-and-mobile-development/:slug",
+        destination: "/services/web-and-saas-development/:slug",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/app-applications",
+        destination: "/services/web-and-saas-development/mobile-app-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/app_applications",
+        destination: "/services/web-and-saas-development/mobile-app-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/web-applications",
+        destination: "/services/web-and-saas-development/web-application-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/web_applications",
+        destination: "/services/web-and-saas-development/web-application-development",
+        permanent: true,
+      },
+      {
+        source: "/services/web_and_mobile_development/:slug",
+        destination: "/services/web-and-saas-development/:slug",
+        permanent: true,
+      },
+    ];
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },

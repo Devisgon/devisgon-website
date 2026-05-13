@@ -1,4 +1,4 @@
-﻿{
+{
   "navbar": [
     {
       "name": "Home",
@@ -10,23 +10,19 @@
       "dropdown": {
         "columns": [
           {
-            "title": "AI and SaaS Development",
+            "title": "AI and ML",
             "links": [
               {
-                "name": "AI Powered App",
-                "href": "/services/saas/ai-powered-app"
+                "name": "AI Models",
+                "href": "/services/ai-and-ml/ai-ml-models"
+              },
+              {
+                "name": "Custom Bots",
+                "href": "/services/ai-and-ml/custom-bots"
               },
               {
                 "name": "Machine Learning Models",
-                "href": "/services/saas/machine-learning"
-              },
-              {
-                "name": "MVPs & POCs",
-                "href": "/services/saas/mvps"
-              },
-              {
-                "name": "SaaS Development",
-                "href": "/services/saas/saas-development"
+                "href": "/services/ai-and-ml/machine-learning"
               }
             ]
           },
@@ -37,7 +33,6 @@
                 "name": "AI Powered Automation",
                 "href": "/services/automations/ai-powered-automation"
               },
-            
               {
                 "name": "Business Process Automation",
                 "href": "/services/automations/business-process-automation"
@@ -88,10 +83,6 @@
           {
             "title": "Data Solutions",
             "links": [
-              {
-                "name": "AI Models",
-                "href": "/services/data-solutions/ai-ml-models"
-              },
               {
                 "name": "Business Analytics",
                 "href": "/services/data-solutions/business-analytics"
@@ -165,23 +156,31 @@
             ]
           },
           {
-            "title": "Web and App Applications",
+            "title": "Web and SaaS Development",
             "links": [
-                {
-                "name": "API Integration",
-                "href": "/services/web-and-mobile-development/api-integration"
+              {
+                "name": "AI Powered App",
+                "href": "/services/web-and-saas-development/ai-powered-app"
               },
               {
-                "name": "Custom Bots",
-                "href": "/services/web-and-mobile-development/custom-bots"
+                "name": "API Integration",
+                "href": "/services/web-and-saas-development/api-integration"
               },
               {
                 "name": "Mobile App Development",
-                "href": "/services/web-and-mobile-development/mobile-app-development"
+                "href": "/services/web-and-saas-development/mobile-app-development"
+              },
+              {
+                "name": "MVPs & POCs",
+                "href": "/services/web-and-saas-development/mvps"
+              },
+              {
+                "name": "SaaS Development",
+                "href": "/services/web-and-saas-development/saas-development"
               },
               {
                 "name": "Web Application Development",
-                "href": "/services/web-and-mobile-development/web-application-development"
+                "href": "/services/web-and-saas-development/web-application-development"
               }
             ]
           }
@@ -595,4 +594,3 @@
     }
   ]
 }
-

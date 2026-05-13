@@ -44,28 +44,28 @@ Required actions after each meaningful code change:
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - Home blogs preview route segment (`src/components/home_page/blogs.tsx`) resolves `lang` from cookie and injects localized `home_page.blog_section` heading/subheading before rendering shared blog list.
 - Home services carousel (`src/components/home_page/services_section.tsx` + `src/components/animations/ServicesSection.module.css`) is a viewport-aware client island; the curved marquee loops infinitely while visible and pauses when out of view.
-- `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map.
+- `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map, renders service sections, and ends with a simple CTA band (`src/components/services_page/cta_section.tsx`) using `contact_form` copy plus Book a Consultation/Contact Us links instead of a form.
 - Services, Industries, and Technologies main-page hero primary CTAs render as `Book a Meeting` and use `NEXT_PUBLIC_CALENDLY_30_MIN_MEETING` with fallback to `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING`; secondary/other buttons keep their existing links.
 - `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero content, then renders grouped category subsections from `src/data/loaders/industries.ts` `INDUSTRY_GROUPS` (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`); each sub-industry card is enriched from its detail JSON (`src/data/*_data/industries/<category>/<slug>.json`) for title/description/icon with localized links, and navbar Food links mirror those slugs.
 - `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero content, then renders grouped category subsections from language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns (`Database`, `Frameworks`, `Languages`, `Tools`); each sub-technology card is enriched from its detail JSON (`src/data/*_data/technologies/<category>/<slug>.json`) for title/description/icon with localized links.
-- `/partners/dctr-hosting` -> `src/app/(app)/partners/dctr-hosting/page.tsx` is force-dynamic, reads `lang` cookie/query, loads Doctor Hosting section-array JSON through `src/data/loaders/others.ts`, and renders `src/components/others/doctorhosting/doctor_hosting_page.tsx` with rotating hero (`src/components/others/hosting_hero_slider.tsx`), meeting + pricing hero CTAs, an inline domain search form that checks common extensions through the internal API and shows an availability/pricing list on the same page, compact equal-height pricing cards, services, CTA, and FAQ sections.
+- `/partners/doctorhoster` -> `src/app/(app)/partners/doctorhoster/page.tsx` is force-dynamic, reads `lang` cookie/query, loads Doctor Hosting section-array JSON through `src/data/loaders/others.ts`, and renders `src/components/others/doctorhosting/doctor_hosting_page.tsx` with rotating hero (`src/components/others/hosting_hero_slider.tsx`), meeting + pricing hero CTAs, an inline domain search form that checks common extensions through the internal API and shows an availability/pricing list on the same page, compact equal-height pricing cards, services, CTA, and FAQ sections.
 - `/partners/jotform` -> `src/app/(app)/partners/jotform/page.tsx` reads `lang` cookie/query, loads Jotform object JSON through `src/data/loaders/others.ts`, and renders `src/components/others/jotform/jotform_page.tsx` with a Jotform-inspired Devisgon-themed hero, meeting + Jotform login hero CTAs, stats, icon-based feature cards, product-suite cards, pricing cards with expandable AI Agent Limits near the middle of the page, template categories, workflow steps, security cards, FAQ, and external Jotform login CTAs.
-- Legacy `/others/dctr_hosting`, `/others/jotform`, and `/partners/dctr_hosting` routes redirect to their `/partners/*` equivalents while preserving `?lang=`.
+- Legacy `/others/dctr_hosting`, `/others/jotform`, `/partners/dctr_hosting`, and `/partners/dctr-hosting` redirects are handled in `next.config.ts`; duplicate App Router redirect folders are intentionally removed.
 - `/blogs` -> `src/app/(app)/blogs/page.jsx` and `components/blogs_page/blogs.tsx` query all published Payload `blogs` and auto-translate blog title/category to the selected language before rendering; blog hero copy and list UI labels resolve by selected language.
 - `/blogs/[slug]` -> `src/app/(app)/blogs/[slug]/page.tsx` queries Payload by slug (published only), auto-translates title + lexical rich text + recent-post titles to selected language, and renders translated lexical rich text.
 - `/contact` -> `src/app/(app)/contact/page.tsx` resolves `lang` from cookie, injects localized `contact_page.json` content into `src/components/contact_page/contact_page_client.tsx`, and client form posts to `/api/contact_mail`; the service dropdown is generated from the localized Services navbar links, includes every service, and the country dropdown uses `src/lib/inquiry-options.ts`.
 - `/get-started` -> `src/app/(app)/get-started/page.tsx` server wrapper (`dynamic = "force-dynamic"`) renders `src/components/get_started/get_started_client.tsx`; client form posts to `/api/apply_mail`, pulls careers and form global settings from Payload REST endpoints, localizes UI copy from `get_started_page.json` by cookie language, and only shows `Job`/`Internship` application types that currently have active programs.
-- `/privacy-policies` and `/terms-condition` -> server components reading language-specific JSON by cookie; legacy `/privacy_policies` and `/terms_condition` redirect to the hyphenated URLs.
+- `/privacy-policies` and `/terms-condition` -> server components reading language-specific JSON by cookie; legacy `/privacy_policies` and `/terms_condition` redirects are handled in `next.config.ts`.
 
 ### Service Detail Pages
 All service detail routes share one rendering pattern:
 - Routes:
   - `/services/automations/[slug]`
   - `/services/design/[slug]`
-  - `/services/web-and-mobile-development/[slug]`
+  - `/services/web-and-saas-development/[slug]`
   - `/services/data-solutions/[slug]`
   - `/services/testing/[slug]`
-  - `/services/saas/[slug]`
+  - `/services/ai-and-ml/[slug]`
   - `/services/cloud/[slug]`
 - Each route:
   - is a server component,
@@ -74,7 +74,7 @@ All service detail routes share one rendering pattern:
   - renders shared section components (`hero`, `introduction`, `key_benefits`, `what_we_do`, `technologies`, `process`, `case_study`, `faq`, `contact`).
   - the shared `hero` section uses a client video island (`src/components/sub_services_pages/hero_video.tsx`) so hero videos loop while in view and pause when scrolled out of view.
   - the shared `technologies` section renders cards as a continuously moving marquee, pauses on hover, and resolves card links from the top-level Technologies navbar dropdown with safe fallback to `/technologies`.
-  - the shared `contact` section now renders a direct inquiry form that posts to `/api/contact_mail` with the current service name and source page instead of linking users to `/contact`.
+  - service detail pages end with the shared services CTA band (`src/components/services_page/cta_section.tsx`) using Book a Consultation and Contact Us links instead of rendering a direct inquiry form.
 
 ### Industry Detail Pages
 - Canonical route:
@@ -102,8 +102,8 @@ All service detail routes share one rendering pattern:
 ## Data Flow
 ### Static JSON Content
 - Base folders by language in `src/data/*_data`.
-- Home/services/privacy/terms pages use language-specific JSON maps in route files.
-- Service detail pages use loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`.
+- Home/services/privacy/terms pages use language-specific JSON maps in route files; `services_page.contact_form` provides the services-page bottom CTA heading/description.
+- Service detail pages use loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`; AI/ML content is sourced from `services/ai_and_ml` and Web/SaaS content is sourced from `services/web_and_saas_development`.
 - Industry main page uses `src/data/*_data/industries_page.json`.
 - Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
 - Industry detail pages use `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
@@ -113,7 +113,7 @@ All service detail routes share one rendering pattern:
 - Technologies main page hero content uses `src/data/*_data/technologies_page.json`; category sections and sub-technology links are sourced from language-specific `src/data/*_data/navbar.json` Technologies dropdown columns.
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
 - Technology JSON reads and sitemap crawling strip an optional UTF-8 BOM before parsing so localized/generated files remain loadable.
-- Partners landing pages use explicit `/partners/<slug>` routes plus `src/data/*_data/others/<slug>.json` and `src/data/loaders/others.ts`; `/partners/dctr-hosting` uses Doctor Hosting section-array JSON, JSON-defined remote hero backgrounds, and local fallback/service images under `public/doctr_hosting`, while `/partners/jotform` uses object-shaped Jotform JSON with translatable `page_copy`, stats, product-suite, template-category, workflow, security, pricing, optional per-plan `agent` AI-agent limits, and FAQ arrays plus external Jotform CDN hero artwork allowed by `next.config.ts` and a company referral login URL.
+- Partners landing pages use explicit `/partners/<slug>` routes plus `src/data/*_data/others/<slug>.json` and `src/data/loaders/others.ts`; `/partners/doctorhoster` uses Doctor Hosting section-array JSON, JSON-defined remote hero backgrounds, and local fallback/service images under `public/doctr_hosting`, while `/partners/jotform` uses object-shaped Jotform JSON with translatable `page_copy`, stats, product-suite, template-category, workflow, security, pricing, optional per-plan `agent` AI-agent limits, and FAQ arrays plus external Jotform CDN hero artwork allowed by `next.config.ts` and a company referral login URL.
 - Navbar labels/dropdowns are sourced from `src/data/navbar.json` (English) and `src/data/*_data/navbar.json` (localized variants), resolved by `src/lib/localized-content.ts`; the About dropdown links to the CEO section (`/#about`), Team section (`/#team`), and Careers/application flow (`/get-started`).
 - Footer copy is sourced from `src/data/*_data/footer.json`, while expandable Services/Industries/Technologies/Partners category labels and sublinks are sourced from the localized navbar data.
 - Footer column titles and link labels are language-specific in `src/data/*_data/footer.json`; newsletter placeholder/button/validation/success copy is localized in component state maps.
@@ -200,14 +200,16 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Localized navbar labels are mirrored in `src/data/*_data/navbar.json`; `src/lib/localized-content.ts` resolves the active language dataset.
 - Public `href` values in localized navbar JSON must mirror canonical `src/data/navbar.json` slugs exactly, even when labels are translated or ordered differently.
 - Dropdown categories (`dropdown.columns`) and subcategory links (`links`) in navbar data are maintained in alphabetical order by display name.
+- Services dropdown links are grouped by canonical service routes: AI and ML (`/services/ai-and-ml/*`), Automations, Cloud And DevOps, Data Solutions, Digital Design, Quality Assurance and Testing, and Web and SaaS Development (`/services/web-and-saas-development/*`). The footer reads these same dropdown groups from localized navbar JSON.
 - About uses a one-column dropdown in each navbar JSON file with `CEO`, `Team`, and `Careers` links; the dropdown column title is intentionally empty so no main category heading appears above those links.
 - Industries dropdown links are grouped in `src/data/navbar.json` into seven columns (`Agriculture`, `Entertainment`, `Food`, `Healthcare`, `Professional`, `Real Estate`, `Trades`) with sub-industry links.
 - Technologies is a separate top-level navbar item in `src/data/navbar.json` with four dropdown columns (`Languages`, `Frameworks`, `Database`, `Tools`) and per-track technology links.
 - Technologies dropdown links in `src/data/navbar.json` point directly to dedicated subcategory routes under `/technologies/[slug]` (for example `java`, `javascript`, `python`, `react`, `nestjs`, `mongodb`, `amazon-dynamodb`, `doctorhosters`, `jotform`, `shopify`, `wordpress`).
 - Technologies dropdown columns in `src/data/navbar.json` also drive the grouped sections and card ordering on `/technologies`.
-- Partners uses a one-column dropdown with links to `/partners/dctr-hosting` and `/partners/jotform`; the dropdown column title is intentionally empty so no main category heading appears above those links.
+- Partners uses a one-column dropdown with links to `/partners/doctorhoster` and `/partners/jotform`; the dropdown column title is intentionally empty so no main category heading appears above those links.
 - Footer quick links and Services/Industries/Technologies/Partners lists are rendered in `src/components/footer.tsx`; category-based lists use `src/data/*_data/navbar.json` dropdown categories and reveal subcategory links after clicking a main category, while single empty-title dropdowns such as Partners render their links directly and Privacy/Terms links render in the bottom legal bar. Footer links and category buttons share pointer cursor plus hover underline styling.
 - Service detail loaders must expose keys that resolve from nav slugs through `src/lib/slugs.ts` hyphen/underscore candidates.
+- Old service URLs under `/services/saas/*`, `/services/web-and-mobile-development/*`, `/services/web_and_mobile_development/*`, and `/services/data_solutions/*` are handled by redirects in `next.config.ts` instead of duplicate App Router folders.
 - Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` may remain underscore-backed on disk, but public navbar industries links must use hyphenated category/slug segments resolved by `src/data/loaders/industries.ts`.
 - Legacy typo-backed industry files such as `landscraping`, `poetry_farm`, `tutoer`, and `elctronics` are resolved through loader aliases to public slugs `landscaping`, `poultry-farm`, `tutor`, and `electronics`.
 - Sitemap generation (`next-sitemap.config.js`) crawls English service JSON files and nested English industries category JSON files and emits language query variants.
@@ -250,7 +252,7 @@ If you change this, also check this:
 - Service slug in JSON -> loader alias resolution + `navbar.json` link + sitemap output; public service URLs should use hyphens, not underscores.
 - Industry category/slug JSON path -> `src/data/loaders/industries.ts` lookup + `navbar.json` grouped industries links + sitemap output; public industry URLs should use hyphens, not underscores.
 - Technology slug JSON path (`technologies/<category>/<slug>.json` with category `index.json`) -> `src/data/loaders/technologies.ts` slug-to-category lookup + `navbar.json` Technologies links + sitemap output; public technology URLs should use hyphens, not underscores.
-- Partners landing JSON path (`others/<slug>.json`) -> explicit hyphenated `src/app/(app)/partners/<slug>/page.tsx` route + legacy `/others/<slug>` redirect + component folder under `src/components/others/*` + `src/data/loaders/others.ts` + `navbar.json` Partners dropdown links + sitemap output.
+- Partners landing JSON path (`others/<slug>.json`) -> explicit `src/app/(app)/partners/<slug>/page.tsx` route + `next.config.ts` legacy redirects + component folder under `src/components/others/*` + `src/data/loaders/others.ts` + `navbar.json` Partners dropdown links + sitemap output.
 - Service section schema -> shared sub-service components and type files under `src/types/sub_services_page`.
 - Industry section schema -> shared industry components under `src/components/industries` + `src/types/industries_page` (including optional `carousel_section` content).
 - Changes to `carousel_section.cards` affect both hero rotating copy and the lower carousel cards, so update content with both placements in mind.
@@ -383,3 +385,7 @@ If you change this, also check this:
 - 2026-05-11: Added a global client-side navigation progress indicator so internal navbar/footer/button link clicks show immediate loading feedback before the next page appears.
 - 2026-05-12: Added Jotform pricing support for optional per-plan AI agent limits via expandable AI Agent Limits panels on each pricing card.
 - 2026-05-12: Updated the homepage services curved carousel to loop infinitely while visible and pause when scrolled out of view.
+- 2026-05-13: Regrouped service detail routes around `/services/ai-and-ml/*` and `/services/web-and-saas-development/*`, synced loaders/nav/footer data, removed duplicate App Router service folders, and added legacy redirects.
+- 2026-05-13: Replaced the `/services` bottom direct inquiry form with a CTA band using the existing services-page CTA copy and consultation/contact links.
+- 2026-05-13: Replaced service detail page bottom direct inquiry forms with the same services CTA band.
+- 2026-05-13: Removed duplicate legacy App Router redirect folders, moved those redirects into `next.config.ts`, and restored footer Partners links by standardizing partner links on `/partners/doctorhoster` and `/partners/jotform`.

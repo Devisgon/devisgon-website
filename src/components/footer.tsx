@@ -133,7 +133,7 @@ const Footer = () => {
   const servicesNav = navbarData.navbar.find((item) => item.href === "/services");
   const industriesNav = navbarData.navbar.find((item) => item.href === "/industries");
   const technologiesNav = navbarData.navbar.find((item) => item.href === "/technologies");
-  const partnersNav = navbarData.navbar.find((item) => item.href === "/partners/dctr-hosting");
+  const partnersNav = navbarData.navbar.find((item) => item.name.toLowerCase().includes("partner"));
   const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
   const servicesCategories = servicesNav?.dropdown?.columns ?? [];
   const industriesCategories = industriesNav?.dropdown?.columns ?? [];
