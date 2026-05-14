@@ -104,6 +104,7 @@ All service detail pages share one rendering pattern:
 - Base folders by language in `src/data/*_data`.
 - Home/services/privacy/terms pages use language-specific JSON maps in route files; `services_page.contact_form` provides the services-page bottom CTA heading/description.
 - Service detail pages use `src/lib/service-detail.ts` to search loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`; AI/ML content is sourced from `services/ai_and_ml` and Web/SaaS content is sourced from `services/web_and_saas_development`.
+- Service detail `hero_section.hero_image` values point to MP4 files in `public/videos`; newly added service videos should use the canonical data filenames rather than upload-time typos or spaces.
 - Industry main page uses `src/data/*_data/industries_page.json`.
 - Industry main page hero content uses `src/data/*_data/industries_page.json`; category sections and sub-industry links are sourced from `src/data/navbar.json` Industries dropdown columns.
 - Industry detail pages use flat public routes plus `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
@@ -132,7 +133,7 @@ All service detail pages share one rendering pattern:
   - `edge_section` (`metric` cards),
   - `quote_section`,
   - `conversation_section`.
-- Technology detail image fields now resolve to technology-scoped static assets under `public/technologies/<tech-folder>/hero.png` and `public/technologies/<tech-folder>/scope.png`.
+- Technology detail image fields resolve to technology-scoped WEBP static assets under `public/technologies/<tech-folder>/hero.webp` and `public/technologies/<tech-folder>/scope.webp`; JSON slugs may point to legacy folder names such as `my_sql`, `nest_js`, and `amazon` when the public asset folder uses that name.
 - Technology detail `hero_section.primary_cta.href` or `secondary_cta.href` may use the sentinel value `book_meeting`, which `src/components/technologies/hero.tsx` resolves to `NEXT_PUBLIC_CALENDLY_30_MIN_MEETING`, then `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING`, then `/contact`.
 - Public marketing/detail imagery is now standardized on `.webp`; legacy `.png`/`.svg` assets are removed when unused (with `/services_page/hero_bg.svg` retained for hero overlay backgrounds still referenced in code).
 - Industry detail JSON supports `carousel_section` (title, subtitle, cards[title/description]); these cards are used in two places:
@@ -395,3 +396,5 @@ If you change this, also check this:
 - 2026-05-13: Merged C/C++, JavaScript/TypeScript, and Next.js/Node.js technology detail files into combined canonical slugs and moved Make, n8n, and Zapier into a separate Automation technology category.
 - 2026-05-13: Added a branded public 404 page with Devisgon-themed recovery copy, shared navigation/footer, and quick links back to core site sections.
 - 2026-05-13: Expanded the public root Metadata API defaults with site-wide Open Graph/Twitter cards, robots, icons, canonical metadata, and a generated Devisgon Open Graph image.
+- 2026-05-14: Repaired technology detail image references for Amazon, MySQL, NestJS, and GraphQL across localized JSON data and generated WEBP assets for the uploaded GraphQL images.
+- 2026-05-14: Normalized newly uploaded service hero videos for CI/CD pipelines, cloud security, database management, DevOps consulting, and graphic design to the canonical filenames already referenced by localized service data.

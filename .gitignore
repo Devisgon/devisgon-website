@@ -27,6 +27,13 @@ yarn-error.log*
 # local env files
 .env*.local
 .env
+.tmp-start-err.log
+.tmp-start-out.log
+scripts
+AGENTS.md
+convert-public-images-to-webp.mjs
+next-env.d.ts
+
 
 # vercel
 .vercel
