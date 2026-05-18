@@ -10,181 +10,261 @@
       "dropdown": {
         "columns": [
           {
-            "title": "AI and ML",
+            "title": "AI & ML",
             "links": [
               {
-                "name": "äººå·¥æ™ºèƒ½æ¨¡åž‹",
-                "href": "/services/ai-ml-models"
+                "name": "代理人工智能",
+                "href": "/services/agentic-ai"
               },
               {
-                "name": "å®šåˆ¶æœºå™¨äºº",
-                "href": "/services/custom-bots"
+                "name": "人工智能代理",
+                "href": "/services/ai-agents"
               },
               {
-                "name": "æœºå™¨å­¦ä¹ æ¨¡åž‹",
+                "name": "人工智能聊天机器人",
+                "href": "/services/ai-chatbot"
+              },
+              {
+                "name": "人工智能整合",
+                "href": "/services/ai-integration"
+              },
+              {
+                "name": "计算机视觉",
+                "href": "/services/computer-vision"
+              },
+              {
+                "name": "深度学习",
+                "href": "/services/deep-learning"
+              },
+              {
+                "name": "LLM 即时工程",
+                "href": "/services/llm-prompt-engineering"
+              },
+              {
+                "name": "机器学习模型",
                 "href": "/services/machine-learning"
+              },
+              {
+                "name": "模型训练",
+                "href": "/services/model-training"
+              },
+              {
+                "name": "RAG系统",
+                "href": "/services/rag-system"
+              },
+              {
+                "name": "识别系统",
+                "href": "/services/recognition-systems"
               }
             ]
           },
           {
-            "title": "è‡ªåŠ¨åŒ–",
+            "title": "自动化",
             "links": [
               {
-                "name": "äººå·¥æ™ºèƒ½é©±åŠ¨çš„è‡ªåŠ¨åŒ–",
+                "name": "人工智能驱动的自动化",
                 "href": "/services/ai-powered-automation"
               },
               {
-                "name": "APIé›†æˆè‡ªåŠ¨åŒ–",
-                "href": "/services/api-integration"
+                "name": "分析自动化",
+                "href": "/services/analytics-automation"
               },
               {
-                "name": "ä¸šåŠ¡æµç¨‹è‡ªåŠ¨åŒ–",
+                "name": "业务流程自动化",
                 "href": "/services/business-process-automation"
               },
               {
-                "name": "è´¢åŠ¡è‡ªåŠ¨åŒ–",
-                "href": "/services/finance-automation"
-              },
-              {
-                "name": "åŸºç¡€è®¾æ–½è‡ªåŠ¨åŒ–",
+                "name": "基础设施自动化",
                 "href": "/services/devops-infrastructure-automation"
               },
               {
-                "name": "ä½Žä»£ç è‡ªåŠ¨åŒ–",
+                "name": "潜在客户生成自动化",
+                "href": "/services/lead-generation-automation"
+              },
+              {
+                "name": "低代码自动化",
                 "href": "/services/low-code-automations"
               },
               {
-                "name": "è¥é”€å’Œé”€å”®è‡ªåŠ¨åŒ–",
+                "name": "营销自动化",
                 "href": "/services/marketing-automation"
               },
               {
-                "name": "æœºå™¨äººè¿‡ç¨‹è‡ªåŠ¨åŒ–",
+                "name": "机器人过程自动化",
                 "href": "/services/robotic-process-automation"
+              },
+              {
+                "name": "销售自动化",
+                "href": "/services/sales-automation"
               }
             ]
           },
           {
-            "title": "äº‘å’Œ DevOps",
+            "title": "云和 DevOps",
             "links": [
               {
-                "name": "Ci/Cd ç®¡é“",
+                "name": "AWS 云与 DevOps",
+                "href": "/services/aws-devops-infrastructure"
+              },
+              {
+                "name": "CI/CD 管道",
                 "href": "/services/cicd-pipelines"
               },
               {
-                "name": "äº‘å®‰å…¨",
+                "name": "云安全",
                 "href": "/services/cloud-security"
               },
               {
-                "name": "æ•°æ®åº“ç®¡ç†",
+                "name": "数据库管理",
                 "href": "/services/database-management"
               },
               {
-                "name": "å¼€å‘è¿è¥å’¨è¯¢",
+                "name": "开发运营咨询",
                 "href": "/services/devops-consulting"
+              },
+              {
+                "name": "Google 云平台",
+                "href": "/services/gcp-devops-infrastructure"
               }
             ]
           },
           {
-            "title": "æ•°æ®è§£å†³æ–¹æ¡ˆ",
+            "title": "数据解决方案",
             "links": [
               {
-                "name": "å•†ä¸šåˆ†æž",
+                "name": "业务分析",
                 "href": "/services/business-analytics"
               },
               {
-                "name": "æ•°æ®åˆ†æžä»ªè¡¨æ¿",
+                "name": "C级仪表板",
+                "href": "/services/c-level-dashboard"
+              },
+              {
+                "name": "代码架构图",
+                "href": "/services/code-architecture-diagrams"
+              },
+              {
+                "name": "数据分析仪表板",
                 "href": "/services/data-analytics-dashboard"
               },
               {
-                "name": "æ•°æ®æŠ“å–",
+                "name": "数据抓取",
                 "href": "/services/data-scraping"
+              },
+              {
+                "name": "营销仪表板",
+                "href": "/services/marketing-dashboard"
               }
             ]
           },
           {
-            "title": "æ•°å­—åŒ–è®¾è®¡",
+            "title": "数字化设计",
             "links": [
               {
-                "name": "å›¾å½¢å’Œè™šæ‹Ÿè®¾è®¡",
+                "name": "品牌套件",
+                "href": "/services/branding-kit-design"
+              },
+              {
+                "name": "平面设计",
                 "href": "/services/graphic-design"
               },
               {
-                "name": "æ ‡å¿—è®¾è®¡",
+                "name": "标志设计",
                 "href": "/services/logo-design"
               },
               {
-                "name": "ç§»åŠ¨åº”ç”¨ç¨‹åºè®¾è®¡",
+                "name": "移动应用程序设计",
                 "href": "/services/mobile-app-design"
               },
               {
-                "name": "äº§å“è®¾è®¡",
+                "name": "产品设计",
                 "href": "/services/product-design"
               },
               {
-                "name": "åŽŸåž‹è®¾è®¡å’Œçº¿æ¡†å›¾",
+                "name": "原型设计和线框图",
                 "href": "/services/prototyping-wireframing"
               },
               {
-                "name": "ç”¨æˆ·ç•Œé¢/ç”¨æˆ·ä½“éªŒè®¾è®¡",
+                "name": "用户界面/用户体验设计",
                 "href": "/services/ui-ux-design"
               },
               {
-                "name": "ç½‘é¡µè®¾è®¡",
+                "name": "网页设计",
                 "href": "/services/web-design"
               }
             ]
           },
           {
-            "title": "è´¨é‡ä¿è¯å’Œæµ‹è¯•",
+            "title": "质量保证和测试",
             "links": [
               {
-                "name": "APIæµ‹è¯•",
+                "name": "API测试",
                 "href": "/services/api-testing"
               },
               {
-                "name": "è‡ªåŠ¨åŒ–æµ‹è¯•",
+                "name": "自动化测试",
                 "href": "/services/automation-testing"
               },
               {
-                "name": "æ‰‹åŠ¨æµ‹è¯•",
+                "name": "黑盒测试",
+                "href": "/services/black-box-testing"
+              },
+              {
+                "name": "漏洞赏金",
+                "href": "/services/bug-bounty"
+              },
+              {
+                "name": "负载测试",
+                "href": "/services/load-testing"
+              },
+              {
+                "name": "手动测试",
                 "href": "/services/manual-testing"
               },
               {
-                "name": "æ€§èƒ½æµ‹è¯•",
+                "name": "性能测试",
                 "href": "/services/performance-testing"
               },
               {
-                "name": "å®‰å…¨æµ‹è¯•",
+                "name": "安全测试",
                 "href": "/services/security-testing"
               }
             ]
           },
           {
-            "title": "Web and SaaS Development",
+            "title": "Web 和 SaaS 开发",
             "links": [
               {
-                "name": "äººå·¥æ™ºèƒ½é©±åŠ¨çš„åº”ç”¨ç¨‹åº",
+                "name": "人工智能驱动的应用程序",
                 "href": "/services/ai-powered-app"
               },
               {
-                "name": "API Integration",
+                "name": "API集成",
                 "href": "/services/api-integration"
               },
               {
-                "name": "ç§»åŠ¨åº”ç”¨ç¨‹åº",
+                "name": "移动应用程序开发",
                 "href": "/services/mobile-app-development"
               },
               {
-                "name": "MVP å’Œ POC",
+                "name": "MVPs & POCs",
                 "href": "/services/mvps"
               },
               {
-                "name": "è½¯ä»¶å³æœåŠ¡å¹³å°",
+                "name": "SaaS开发",
                 "href": "/services/saas-development"
               },
               {
-                "name": "ç½‘é¡µåº”ç”¨ç¨‹åº",
+                "name": "搜索引擎优化",
+                "href": "/services/search-engine-optimization"
+              },
+              {
+                "name": "网页应用程序开发",
                 "href": "/services/web-application-development"
+              },
+              {
+                "name": "网站开发",
+                "href": "/services/website-development"
               }
             ]
           }
@@ -411,114 +491,6 @@
       }
     },
     {
-      "name": "æŠ€æœ¯",
-      "href": "/technologies",
-      "dropdown": {
-        "columns": [
-          {
-            "title": "Automation",
-            "links": [
-              {
-                "name": "åˆ¶ä½œ",
-                "href": "/technologies/make"
-              },
-              {
-                "name": "n8n",
-                "href": "/technologies/n8n"
-              },
-              {
-                "name": "æ‰Žçš®å°”",
-                "href": "/technologies/zapier"
-              }
-            ]
-          },
-          {
-            "title": "Database",
-            "links": []
-          },
-          {
-            "title": "Frameworks",
-            "links": [
-              {
-                "name": "Flutter",
-                "href": "/technologies/flutter"
-              },
-              {
-                "name": "Laravel",
-                "href": "/technologies/laravel"
-              },
-              {
-                "name": "NestJS",
-                "href": "/technologies/nestjs"
-              },
-              {
-                "name": "Next.js / Node.js",
-                "href": "/technologies/nextjs-nodejs"
-              },
-              {
-                "name": "React",
-                "href": "/technologies/react"
-              },
-              {
-                "name": "React Native",
-                "href": "/technologies/react-native"
-              }
-            ]
-          },
-          {
-            "title": "Languages",
-            "links": [
-              {
-                "name": "C / C++",
-                "href": "/technologies/c-cpp"
-              },
-              {
-                "name": "Java",
-                "href": "/technologies/java"
-              },
-              {
-                "name": "JavaScript / TypeScript",
-                "href": "/technologies/javascript-typescript"
-              },
-              {
-                "name": "PHP",
-                "href": "/technologies/php"
-              },
-              {
-                "name": "Python",
-                "href": "/technologies/python"
-              }
-            ]
-          },
-          {
-            "title": "Tools",
-            "links": [
-              {
-                "name": "Amazon",
-                "href": "/technologies/amazon"
-              },
-              {
-                "name": "DoctorHosters",
-                "href": "/technologies/doctorhosters"
-              },
-              {
-                "name": "Jotform",
-                "href": "/technologies/jotform"
-              },
-              {
-                "name": "Shopify",
-                "href": "/technologies/shopify"
-              },
-              {
-                "name": "WordPress",
-                "href": "/technologies/wordpress"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "Partners",
       "href": "/partners/doctorhoster",
       "dropdown": {
@@ -558,6 +530,114 @@
               {
                 "name": "èŒä¸šæœºä¼š",
                 "href": "/get-started"
+              },
+              {
+                "name": "æŠ€æœ¯",
+                "href": "/technologies",
+                "dropdown": {
+                  "columns": [
+                    {
+                      "title": "Automation",
+                      "links": [
+                        {
+                          "name": "åˆ¶ä½œ",
+                          "href": "/technologies/make"
+                        },
+                        {
+                          "name": "n8n",
+                          "href": "/technologies/n8n"
+                        },
+                        {
+                          "name": "æ‰Žçš®å°”",
+                          "href": "/technologies/zapier"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Database",
+                      "links": []
+                    },
+                    {
+                      "title": "Frameworks",
+                      "links": [
+                        {
+                          "name": "Flutter",
+                          "href": "/technologies/flutter"
+                        },
+                        {
+                          "name": "Laravel",
+                          "href": "/technologies/laravel"
+                        },
+                        {
+                          "name": "NestJS",
+                          "href": "/technologies/nestjs"
+                        },
+                        {
+                          "name": "Next.js / Node.js",
+                          "href": "/technologies/nextjs-nodejs"
+                        },
+                        {
+                          "name": "React",
+                          "href": "/technologies/react"
+                        },
+                        {
+                          "name": "React Native",
+                          "href": "/technologies/react-native"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Languages",
+                      "links": [
+                        {
+                          "name": "C / C++",
+                          "href": "/technologies/c-cpp"
+                        },
+                        {
+                          "name": "Java",
+                          "href": "/technologies/java"
+                        },
+                        {
+                          "name": "JavaScript / TypeScript",
+                          "href": "/technologies/javascript-typescript"
+                        },
+                        {
+                          "name": "PHP",
+                          "href": "/technologies/php"
+                        },
+                        {
+                          "name": "Python",
+                          "href": "/technologies/python"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Tools",
+                      "links": [
+                        {
+                          "name": "Amazon",
+                          "href": "/technologies/amazon"
+                        },
+                        {
+                          "name": "DoctorHosters",
+                          "href": "/technologies/doctorhosters"
+                        },
+                        {
+                          "name": "Jotform",
+                          "href": "/technologies/jotform"
+                        },
+                        {
+                          "name": "Shopify",
+                          "href": "/technologies/shopify"
+                        },
+                        {
+                          "name": "WordPress",
+                          "href": "/technologies/wordpress"
+                        }
+                      ]
+                    }
+                  ]
+                }
               }
             ]
           }

@@ -1,0 +1,206 @@
+{
+  "slug": "marketing-dashboard",
+  "hero_section": {
+    "title": "Ingénierie des tableaux de bord marketing d'entreprise",
+    "subtitle": "Intelligence omnicanal unifiée et analyse des performances en temps réel",
+    "description": "Nous concevons des tableaux de bord marketing hautes performances en temps réel qui consolident les données publicitaires multicanaux fragmentées, les entonnoirs d'acquisition de clients et les mesures de conversion en une seule source de vérité glassmorphique. Maximisez l’efficacité des dépenses publicitaires et éliminez les angles morts de l’analyse par programmation.",
+    "buttons": [
+      {
+        "text": "Architecter mon tableau de bord",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs de données",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/marketing_dashboard.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "span_heading": "Tableau de bord marketing ?",
+    "content": [
+      "Chez Devisgon, nous abordons l'analyse marketing comme une discipline exacte d'ingénierie des données. Au-delà des macros de feuilles de calcul lentes et déconnectées et des modèles d'analyse génériques et statiques, nous concevons des applications d'analyse côté client à faible latence basées sur des maillages d'ingestion de données en streaming, une exécution de requêtes en moins d'une seconde et des interfaces de graphiques visuels hautes performances.",
+      "Nous comblons le fossé entre les plateformes publicitaires programmatiques multiplateformes complexes et la prise de décision tactique des entreprises. Chaque console de surveillance que nous déployons comprend des pipelines API entièrement conteneurisés, une gestion sécurisée des informations d'identification tierces, des modèles de nettoyage automatisé des données et une esthétique en mode sombre pour présenter parfaitement vos mesures de conversion aux équipes administratives mondiales."
+    ],
+    "highlight_quote": "« Télémétrie marketing unifiée, requêtes de suivi en moins d'une seconde, visibilité des performances 100 % automatisée. »",
+    "side_image": "/all_services/marketing_dashboard/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Transformez des statistiques publicitaires multiplateformes disparates en une seule interface visuelle haute fidélité",
+    "cards": [
+      {
+        "title": "Consolidation omnicanal",
+        "description": "Regroupez et affichez des boucles de performances complètes sur les réseaux Google Ads, Meta, LinkedIn et de messagerie dans une seule vue relationnelle.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Vitesses de requête inférieures à la seconde",
+        "description": "Interrogez des millions d’enregistrements d’événements comportementaux bruts et de points de contact de conversion en quelques millisecondes à un chiffre à l’aide de structures d’indexation de bases de données hautement optimisées.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Alertes structurelles instantanées",
+        "description": "Programmez des boucles de contrôle des performances personnalisées qui surveillent activement les objectifs de coût par acquisition (CPA), alertant instantanément les équipes si les mesures dérivent.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Informations prédictives sur les dépenses",
+        "description": "Transformez les statistiques publicitaires historiques brutes en tableaux de données propres pour calculer avec précision les chemins de valeur à vie (LTV) du client et les courbes de mise à l'échelle futures.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec l'infrastructure Devisgon Analytics",
+    "image": "/all_services/marketing_dashboard/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Grilles d'ingestion de données API multiplateformes",
+        "description": "Courtiers d'extraction robustes (conçus via n8n ou Make.com) conçus pour extraire des charges utiles de données marketing multiplateformes et standardiser les schémas de formatage."
+      },
+      {
+        "title": "2. Pools de métriques relationnelles hautes performances",
+        "description": "Tables de base de données dédiées configurées dans un maillage backend sécurisé et optimisé pour les requêtes pour maintenir l'uniformité absolue des données historiques."
+      },
+      {
+        "title": "3. Moteurs de cartographie d'attribution automatisés",
+        "description": "Itinéraires de requêtes personnalisés conçus pour calculer avec précision les métriques d'attribution au premier contact, au dernier contact et multi-touch linéaires sur l'ensemble des parcours utilisateur."
+      },
+      {
+        "title": "4. Panneaux de commande Glassmorphic à lueur ambiante",
+        "description": "Interfaces utilisateur Next.js réactives conçues avec un style de flou de fond, des lignes de mise en page de progression précises et des accents de couleur personnalisés comme #f27f0c."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous nous intégrons à des analyses modernes et à une infrastructure visuelle",
+    "subtitle": "Plateformes de bases de données, moteurs de cartographie et orchestrateurs de pipelines de pointe, conçus pour une évolutivité intense des données",
+    "tools": [
+      {
+        "name": "Next.js (routeur d'application)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (maillage d'analyse)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "n8n (orchestration des données)",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Tailwind CSS (style esthétique)",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "Mouvement Framer (rendu de graphique)",
+        "icon": "SiFramermotion"
+      },
+      {
+        "name": "Tremor UI / Recharts",
+        "icon": "SiReact"
+      },
+      {
+        "name": "API Google Ads",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "API méta-graphique",
+        "icon": "SiMeta"
+      },
+      {
+        "name": "API HubSpot Analytics",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "Redis (mise en cache des requêtes)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De l'audit brut des points de terminaison de l'API au lancement opérationnel d'une interface personnalisée en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les profils publicitaires d'entreprise, tracez les contraintes de débit des API tierces, cartographiez les exigences d'attribution des données et détaillez les objectifs de mesure.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulez des modèles de stockage de base de données principale, structurez des cartes d'extraction de charge utile et concevez des interfaces de widgets glassmorphic en mode sombre.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des routeurs d'extraction personnalisés, configurez les synchronisations de pipeline sur n8n/Make et codez des vues de rendu côté client à faible latence dans Next.js.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests de stress approfondis sur les données à haut débit, optimisez les scripts d'indexation et lancez en toute sécurité des tableaux de bord de performances à mise à jour automatique.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Cartographie d'attribution des coûts 100 % précise et plus de 18 heures d'ingénierie récupérées chaque semaine",
+    "image": "/all_services/marketing_dashboard/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une marque grand public en pleine expansion faisait des choix de budgétisation publicitaire sous-optimaux en raison de mises à jour de données fragmentées, d'écarts de données et de boucles de reporting manuelles multiplateformes lentes."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu un agrégateur de données marketing automatisé utilisant les routes API n8n et Next.js sans serveur, affichant des métriques structurées dans un pool de bases de données Supabase isolé."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "L'effort de compilation manuelle est tombé à zéro absolu, la latence de synchronisation des données a chuté à quelques secondes et les dirigeants ont obtenu une visibilité immédiate sur les véritables coûts d'acquisition en temps réel."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture du tableau de bord et FAQ",
+    "subtitle": "Des réponses claires aux questions critiques sur la configuration de la base de données, le traitement des webhooks et la sécurité du pipeline",
+    "questions": [
+      {
+        "question": "Pourquoi associez-vous des microservices d'intégration visuelle à des cadres de programmation personnalisés ?",
+        "answer": "Nous combinons le suivi des flux de travail agile de n8n ou Make.com avec les gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des interfaces low-code pour une surveillance claire des flux de données et des blocs de code JavaScript personnalisés pour une analyse sécurisée des jetons, des règles de tri multicouches et des transformations de tableaux précises."
+      },
+      {
+        "question": "Qu'arrive-t-il au système de suivi du tableau de bord lors de pics de trafic ou de vagues de clics à grande vitesse ?",
+        "answer": "Nous déployons un middleware d'intégration sans état soutenu par des tampons de base de données Redis à haut débit. Si vos campagnes publicitaires génèrent des milliers de webhooks de clics d'utilisateurs simultanés, notre pipeline structure les charges utiles en toute sécurité, mettant à jour les éléments visuels sans atteindre les limites d'exécution des tiers."
+      },
+      {
+        "question": "Pouvons-nous connecter des canaux d'admission frontaux personnalisés comme JotForm directement aux vues marketing principales ?",
+        "answer": "Absolument. Nous construisons des passerelles webhook robustes qui ingèrent en toute sécurité les paramètres JSON en temps réel à partir de plateformes comme JotForm, analysant les marqueurs de conversion avant de mettre à jour vos tableaux centraux de métriques relationnelles."
+      },
+      {
+        "question": "Comment protégez-vous les données marketing sensibles et les budgets de campagne dans les pipelines d’intégration ?",
+        "answer": "Chaque plate-forme de données automatisée que nous déployons applique des modèles de paramètres de confiance zéro. Tous les webhooks entrants sont validés à l'aide de signatures cryptographiques (balises d'en-tête SHA-256), tous les flux de données sont cryptés en transit via TLS 1.3 et les champs d'entreprise privés sont complètement masqués avant l'affichage."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à créer une architecture de télémétrie marketing unifiée et performante ?",
+      "link_text": "Planifiez un examen du tableau de bord d'entreprise avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

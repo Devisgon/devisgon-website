@@ -1,0 +1,206 @@
+{
+  "slug": "gcp-devops-infrastructure",
+  "hero_section": {
+    "title": "企业Google云平台（GCP）基础设施工程",
+    "subtitle": "以数据为中心的云架构、自动化 DevSecOps 和无服务器扩展网格",
+    "description": "我们利用声明性基础设施即代码 (IaC) 设计高性能、弹性且安全的 Google Cloud Platform 基础设施。优化多区域数据管道，利用托管容器网格，并在高数据负载下实现无缝服务交付。",
+    "buttons": [
+      {
+        "text": "架构师我的 GCP 基础架构",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的 DevOps 工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/gcp_devops.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "GCP DevOps 工程？",
+    "content": [
+      "在 Devisgon，我们将 Google Cloud Platform 架构视为一种精确的、软件驱动的系统学科。完全摆脱手动控制台配置和脆弱的服务器脚本，我们构建完全自动化、版本控制的基础设施即代码 (IaC) 架构，为您的整个网络边界、容器编排布局和本地分布式大数据框架绘制蓝图。",
+      "我们弥合了快速前端迭代和强大、安全的云系统操作之间的差距。我们部署的每个 GCP 环境都通过零信任身份和访问管理 (IAM) 权限、低延迟全局负载平衡阵列、持续部署交付循环和集中式 Google Cloud Operations 遥测管道进行了强化，以保证应用程序的持续运行状况。"
+    ],
+    "highlight_quote": "“可编程环境状态、高速多区域结构、100% 可预测的数据基础设施扩展。”",
+    "side_image": "/all_services/gcp_devops/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将非托管服务器设置转变为高度安全、数据优化的 Google Cloud 运行时",
+    "cards": [
+      {
+        "title": "自动化环境状态",
+        "description": "通过声明性 IaC 结构部署代码更改，完全消除登台和生产服务器层之间的配置漂移错误。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "持续部署流程",
+        "description": "建立优化的管道，自动运行功能检查、执行安全编译运行并在几分钟内部署软件更新。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "亚秒级自动缩放范围",
+        "description": "利用原生 Google 计算基础设施在流量高峰期间立即启动水平容量，从而保护后端指标。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "强化的多区域隔离",
+        "description": "在定制的虚拟私有云 (VPC) 中干净地隔离私有数据库资源，通过严格的安全组控制微服务访问。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "我们设计的核心 Google Cloud 和 DevOps 支柱",
+    "image": "/all_services/gcp_devops/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 声明式基础设施即代码 (IaC)",
+        "description": "通过 Terraform 脚本编译的完全可重现的系统环境，以编程方式管理 VPC 网络、子网、网关和负载均衡器。"
+      },
+      {
+        "title": "2. 生产容器编排结构",
+        "description": "高度可扩展的 Google Kubernetes Engine (GKE) 设置，配置用于管理应用程序部署、运行状况路由和滚动微服务更新。"
+      },
+      {
+        "title": "3. 自动化 DevSecOps CI/CD 集成管道",
+        "description": "利用嵌入了自动安全策略审核和集成检查的 Cloud Build 或 GitHub Actions 的持续代码交付工作流程。"
+      },
+      {
+        "title": "4. 集中式系统遥测和日志监视器",
+        "description": "通过 Google Cloud Operations Suite (Stackdriver) 构建的全面监控仪表板跟踪处理日志、内存利用率曲线和网络指标。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用企业级 GCP 和 DevOps 基础设施工具进行工程师",
+    "subtitle": "行业标准云服务、供应商和交付实用程序针对绝对系统弹性进行了优化",
+    "tools": [
+      {
+        "name": "谷歌计算引擎",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "谷歌 Kubernetes 引擎 (GKE)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Terraform（IaC 核心）",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Docker（微服务）",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "GitHub 操作/云构建",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "云 SQL/BigQuery",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "谷歌云 VPC 网格",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "GCP IAM（零信任访问）",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "谷歌云 CDN/负载均衡",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "谷歌云运营套件",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "普罗米修斯和格拉法纳",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "Supabase（数据管理）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Redis（云存储）",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从云网络映射到经过认证的 Google Cloud 操作",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核现有系统环境、跟踪软件网络依赖性线、建立目标扩展边界并隔离数据安全限制。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定主 VPC 路由架构、规划零信任 IAM 权限模型并清晰地规划持续交付工作流程。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "编写声明性 Terraform 配置文件，将微服务层打包到 Docker 容器中，并组装部署管道。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行密集的环境负载测试，验证自动节点扩展配置，并安全地启动实时云运营跟踪面板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100% 核心云基础设施自动化，运营部署延迟下降 73%",
+    "image": "/all_services/gcp_devops/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于手动基础架构更改，可扩展的云应用程序遭受频繁的平台中断、软件依赖性破坏以及服务器实例之间的配置差异的困扰。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 Terraform 和 Google Kubernetes Engine (GKE) 完全重构了他们的环境架构，在安全的 Cloud Build 管道中构建自动化的零停机部署工作流程。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "服务器配置错误降至绝对零，代码部署频率显着加快，平台在流量激增期间保持完全的运行稳定性。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Google Cloud DevOps 架构和常见问题解答",
+    "subtitle": "关键网络编排、容器化微服务和合规性查询的清晰答案",
+    "questions": [
+      {
+        "question": "通过 Google Cloud 上的 Terraform 编写基础设施即代码 (IaC) 的具体战略价值是什么？",
+        "answer": "Terraform 充当系统网格的单一声明性事实来源。 IaC 不会手动部署导致未经验证的配置的云资源，而是以纯文本代码的形式跟踪每个路由器、负载均衡器和安全数据库设置，从而实现自动版本审核和即时环境克隆。"
+      },
+      {
+        "question": "您的自动化 CI/CD 管道如何在 GKE 上实现零停机软件发布？",
+        "answer": "我们在 Google Kubernetes Engine 内设计了专门的蓝绿或滚动容器部署机制。当新代码通过验证检查时，管道会在活动基础设施旁边启动新容器，验证其运行状况，并平稳地转换用户流量，没有一毫秒的服务延迟。"
+      },
+      {
+        "question": "您的云环境能否有效扩展以控制运营托管费用？",
+        "answer": "绝对地。我们配置精确的水平 Pod 自动缩放器和与实时 CPU 和请求限制直接相关的 GKE 集群自动缩放规则。当非高峰期间流量下降时，基础设施会自动缩小规模，从而保留计算限制并优化每月平台费用。"
+      },
+      {
+        "question": "如何保护 GCP 设置中的安全数据库记录和微服务私钥？",
+        "answer": "我们执行严格的零信任参数策略。数据库被锁定在完全私有的子网内，与公共互联网完全分离。所有 API 连接都需要通过 Google Cloud Secret Manager 管理的短期加密令牌，以保持应用程序连接路由的安全和隐藏。"
+      }
+    ],
+    "footer": {
+      "text": "准备好将您的云环境转变为不可变的企业级 DevOps 基础设施了吗？",
+      "link_text": "与我们的工程团队安排 GCP 审核",
+      "link_url": "/contact"
+    }
+  }
+}

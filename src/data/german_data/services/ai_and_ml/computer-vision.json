@@ -1,0 +1,206 @@
+{
+  "slug": "computer-vision",
+  "hero_section": {
+    "title": "Computer-Vision-Systeme für Unternehmen",
+    "subtitle": "Visuelle Intelligenz in Echtzeit für autonome Operationen",
+    "description": "Wir entwerfen, trainieren und implementieren produktionstaugliche Computer-Vision-Modelle, die es Anwendungen ermöglichen, digitale Bilder, Videostreams und Live-Raumtelemetrie zu sehen, zu analysieren und umsetzbare Informationen zu extrahieren.",
+    "buttons": [
+      {
+        "text": "Architect Vision Systems",
+        "link": "/contact"
+      },
+      {
+        "text": "Konsultieren Sie unsere Vision-Ingenieure",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/computer_vision.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist Enterprise-Grade?",
+    "span_heading": "Computer Vision?",
+    "content": [
+      "Bei Devisgon entwickeln wir maßgeschneiderte Computer-Vision-Architekturen, die rohe visuelle Feeds in strukturierte, umsetzbare Betriebsdaten umwandeln. Wir gehen weit über einfache Open-Source-Skripte hinaus und bauen hochpräzise Systeme, die auf Echtzeit-Objekterkennung, semantische Bildsegmentierung, Gesichtserkennungsverfolgung und automatisierte optische Zeichenerkennung (OCR) spezialisiert sind.",
+      "Wir schließen die Lücke zwischen umfangreichen räumlichen Datenmatrizen und Produktionslaufzeiten mit geringer Latenz. Jede Vision-Pipeline ist für Edge Computing oder skalierbare Cloud-Cluster optimiert und nutzt spezielle Tensorlaufzeiten und automatisierte Video-Frame-Grabbing-Mechaniken, um einen konstanten, zuverlässigen Inferenzdurchsatz in Sicherheits-, Logistik- und Fertigungsumgebungen zu gewährleisten."
+    ],
+    "highlight_quote": "„Hochpräzise Bildklassifizierung, Objektverfolgung im Submillisekundenbereich, 100 % automatisierte räumliche Analyse.“",
+    "side_image": "/all_services/computer_vision/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Wichtige Vorteile für Unternehmen",
+    "subtitle": "Wandeln Sie Live-Kamera-Feeds und Bilder in automatisierte, datengesteuerte Entscheidungen um",
+    "cards": [
+      {
+        "title": "Räumliche Verfolgung in Echtzeit",
+        "description": "Setzen Sie hochmoderne Erkennungsmodelle ein, die mehrere sich bewegende Objekte gleichzeitig im Sichtfeld einer Kamera lokalisieren, klassifizieren und verfolgen.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Automatisierte Qualitätsprüfung",
+        "description": "Beseitigen Sie manuelle Überwachungsfehler, indem Sie automatisierte visuelle Sortiergitter einbetten, die Produktoberflächenfehler und -anomalien sofort erkennen.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Extraktion von Dokumentdaten",
+        "description": "Lesen, analysieren und digitalisieren Sie verzerrten, handgeschriebenen oder fehlerhaften Text aus physischen Dateien mithilfe benutzerdefinierter OCR-Logik-Arrays programmgesteuert.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Embedded Edge-Bereitstellung",
+        "description": "Quantisieren Sie neuronale Netzwerkstrukturen so, dass sie direkt auf leichten lokalen Hardware-Gates ausgeführt werden können, wodurch externe Bandbreitenanforderungen und Datenkosten reduziert werden.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie mit Devisgon Computer Vision Architectures erhalten",
+    "image": "/all_services/computer_vision/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Benutzerdefinierte Objekterkennung und Segmentgewichte",
+        "description": "Vollständig kompilierte neuronale Gewichtskonfigurationen, optimiert für schnelle Lokalisierung, Boundary Boxing und semantische Maskierungsprofile."
+      },
+      {
+        "title": "2. Videoaufnahme-Broker mit geringer Latenz",
+        "description": "Aufnahmeroutinen mit hohem Durchsatz, die darauf ausgelegt sind, kontinuierliche RTSP- und Live-Kamera-Streams zu verarbeiten, ohne dass kritische Betriebsbilder verloren gehen."
+      },
+      {
+        "title": "3. Visuelle Analyse und Heatmap-Schnittstelle",
+        "description": "Interaktive Tracking-Steuerungs-Dashboards, die auf Next.js basieren, um historische Trends, Koordinaten und Bounding-Box-Protokolle der räumlichen Zählung zu überwachen."
+      },
+      {
+        "title": "4. Edge-optimierte Inferenzcontainer",
+        "description": "Hochkomprimierte, containerisierte Laufzeitkonfigurationen, verpackt für die sofortige Bereitstellung auf lokalen Servern oder spezialisierten Feldknoten."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir bauen mit bewährten räumlichen Analysetools mit hohem Durchsatz",
+    "subtitle": "Branchenführende Vision-Modelle, Bildprozessoren und Deep-Tensor-Laufzeiten, die für blitzschnelle Inferenzen entwickelt wurden",
+    "tools": [
+      {
+        "name": "OpenCV",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "YOLO (v8 / v10)",
+        "icon": "SiUltralytics"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "CUDA / NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "ONNX-Laufzeit",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "Roboflow",
+        "icon": "SiRoboflow"
+      },
+      {
+        "name": "Umarmendes Gesicht (Vision)",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS Lookout for Vision",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase (Ereignisspeicher)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser technischer Entwurf",
+    "subtitle": "Vom Rohbild-Matrix-Tagging bis zur Live-Video-Inferenzausführung in 6 Wochen",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Überprüfen Sie die visuellen Feeds des Unternehmens, legen Sie Einschränkungen für die Umgebungsbeleuchtung fest, definieren Sie räumliche Zielklassen und kartieren Sie Computerkonfigurationen.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulieren Sie Standards für die Kennzeichnung von Koordinatendaten, skizzieren Sie Bildvergrößerungsmatrizen und strukturieren Sie neuronale Modelltopografien.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Führen Sie Modellobjekt-Trainingsläufe mit YOLO oder PyTorch durch, verwalten Sie Koordinatenbegrenzungsschleifen und führen Sie Inferenzoptimierungen durch.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Kompilieren Sie Gewichte in komprimierte TensorRT-Laufzeiten, stellen Sie Stream-Schleifen mit geringer Latenz bereit und starten Sie lokalisierte Visualisierungs-Dashboards sicher.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "99,4 % präzise räumliche Bestandszählung und Ereigniserkennung im Submillisekundenbereich",
+    "image": "/all_services/computer_vision/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operative Straßensperre",
+        "text": "Ein riesiges Verteilzentrum verlor den Überblick über die Anzahl der eingehenden Pakete aufgrund langsamer Barcode-Scans und Verzögerungen bei der menschlichen Kontrolle an den stark ausgelasteten Toren der Sortierrampe."
+      },
+      "solution": {
+        "label": "Unser Engineering-Ansatz",
+        "text": "Wir haben ein maßgeschneidertes YOLO-Objektlokalisierungs- und Tracking-Layout entwickelt und das Modell über eine optimierte NVIDIA TensorRT-Architektur bereitgestellt, die direkt mit ihren lokalen Sicherheits-Feeds verbunden ist."
+      },
+      "result": {
+        "label": "Messbare Wirkung",
+        "text": "Die Genauigkeit der Bestandsextraktion erreichte erfolgreich 99,4 %, Verarbeitungsrückstände verschwanden vollständig und die Lieferkette sicherte 100 % automatisierte räumliche Prüfprotokolle auf dem Autopiloten."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Computer-Vision-Architektur und FAQ",
+    "subtitle": "Klare Antworten auf kritische Implementierungs-, Feed-Aufnahme- und neuronale Tensor-Anfragen",
+    "questions": [
+      {
+        "question": "Was ist der wesentliche technische Unterschied zwischen Objekterkennung und semantischer Segmentierung?",
+        "answer": "Die Objekterkennung identifiziert das Vorhandensein einer Zielentität und isoliert sie innerhalb eines quadratischen Begrenzungsrahmen-Koordinatenarrays. Die semantische Segmentierung arbeitet mit einem tieferen Raster auf Pixelebene und zeichnet die genauen Kantenkonturen eines Objekts nach, um eine präzise visuelle Maskenüberlagerung zu erstellen."
+      },
+      {
+        "question": "Wie kommen Ihre Vision-Modelle mit volatilen, schwach beleuchteten oder staubigen Industrieumgebungen zurecht?",
+        "answer": "Während der Datenentwurfsphase setzen wir umfangreiche Vorverarbeitungs- und Bilderweiterungsstrategien um. Durch das Training von Modellen auf absichtlich herabgesetzten, belichtungsangepassten und unscharfen Trainingstensoren bleiben die endgültigen neuronalen Gewichte robust gegenüber physischen Kamerainterferenzen in der realen Welt."
+      },
+      {
+        "question": "Ist es besser, Videodatenströme in der Cloud oder direkt auf Edge-Hardware zu verarbeiten?",
+        "answer": "Edge-Bereitstellung (unter Verwendung von Hardware wie NVIDIA Jetson) ist überlegen, wenn Sie Antwortschleifen unter einer Millisekunde benötigen oder mit engen Bandbreitenbeschränkungen konfrontiert sind. Die Cloud-Bereitstellung eignet sich am besten für die Verarbeitung umfangreicher, nicht sofort verfügbarer Bildbibliotheken, die umfassende Querverweise mit relationalen Masterdatenbanken erfordern."
+      },
+      {
+        "question": "Wie schützen Sie Datenschutz- und Sicherheitsbedenken beim Einsatz kamerabasierter Bildverarbeitungssysteme?",
+        "answer": "Wir bauen sichere, lokalisierte Zero-Egress-Videopipelines auf. Die Frame-Daten werden sofort in einer Sandbox-Laufzeitumgebung verarbeitet, in der Identitäten oder PII am Erfassungsrand programmgesteuert verwischt werden können, bevor eine Protokollierung erfolgt."
+      }
+    ],
+    "footer": {
+      "text": "Sind Sie bereit, automatisierte visuelle Intelligenz in Ihre Unternehmensabläufe einzubetten?",
+      "link_text": "Vereinbaren Sie mit unserem Team eine räumliche Besichtigung",
+      "link_url": "/contact"
+    }
+  }
+}

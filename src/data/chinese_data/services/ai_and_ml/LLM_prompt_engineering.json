@@ -1,0 +1,206 @@
+{
+  "slug": "llm-prompt-engineering",
+  "hero_section": {
+    "title": "企业法学硕士即时工程与优化",
+    "subtitle": "可靠的人工智能工作流程的程序化令牌对齐",
+    "description": "我们设计、测试和构建结构化、可立即投入生产的提示评估框架、算法逻辑格式和系统上下文。将不可预测的生成输出转化为确定性、可解析且成本优化的系统步骤。",
+    "buttons": [
+      {
+        "text": "优化我的提示",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/prompt_engineering.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "及时工程？",
+    "content": [
+      "在 Devisgon，我们将即时工程视为严格的软件学科，而不是创造性试验和错误的过程。超越简单的聊天输入，我们设计了系统上下文模板、结构化 JSON 模式和多轮推理循环（例如 Chain-of-Thought 和 ReAct），指导基础模型产生可靠、高保真的结果。",
+      "我们弥合了开放式语言模式和严格的软件要求之间的差距。每个系统提示都使用 CI/CD 测试网格、回归矩阵日志和令牌缩减脚本进行优化，确保您的生产运行时调用在大规模范围内保持数学稳定、准确和成本控制。"
+    ],
+    "highlight_quote": "“结构化提示模式、确定性 JSON 输出、令牌计算成本降低 60%。”",
+    "side_image": "/all_services/llm_prompt_engineering/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将不可预测的人工智能输入转换为稳定的结构化软件组件",
+    "cards": [
+      {
+        "title": "确定性 JSON 输出",
+        "description": "使用 JSON 模式强制执行严格、可预测的输出格式，从而可以轻松地将模型结果直接解析到后端代码中。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "高级逻辑流程",
+        "description": "嵌入专门的推理步骤，例如少样本示例和思维链，以提高复杂逻辑的准确性并处理边缘情况。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "代币费用压缩",
+        "description": "审核系统以编程方式提示删除填充短语，减少闲置令牌数量并降低 API 费用，而不会影响质量。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "防弹护栏",
+        "description": "构建分层验证上下文以阻止即时注入攻击、保持数据私密性并防止模型编造答案。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon 即时优化面料将为您带来什么",
+    "image": "/all_services/llm_prompt_engineering/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 程序化系统提示和上下文模板",
+        "description": "生产级系统指令具有清晰的逻辑约束、明确的工具参数和严格的行为配置文件。"
+      },
+      {
+        "title": "2. 可靠的少样本上下文库",
+        "description": "精选的高质量输入输出培训示例数组，旨在使模型响应与特定公司格式保持一致。"
+      },
+      {
+        "title": "3. 自动化 JSON 模式和验证过滤器",
+        "description": "严格的结构定义和验证代码确保所有模型返回与所需的软件字段和数组完美匹配。"
+      },
+      {
+        "title": "4. 自动快速回归评估测试平台",
+        "description": "独立的测试设置可以针对数千个模拟案例进行快速更改，以在上线之前验证逻辑准确性。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用强化的提示优化和 MLOps 工具进行构建",
+    "subtitle": "行业领先的框架、测试平台和评估套件，旨在实现总体输出一致性",
+    "tools": [
+      {
+        "name": "Promptfoo",
+        "icon": "SiPromptfoo"
+      },
+      {
+        "name": "LangSmith",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "OpenAI API（结构化输出）",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Braintrust",
+        "icon": "SiBraintrust"
+      },
+      {
+        "name": "阿里兹·菲尼克斯",
+        "icon": "SiArize"
+      },
+      {
+        "name": "Langfuse",
+        "icon": "SiLangfuse"
+      },
+      {
+        "name": "Pydantic",
+        "icon": "SiPydantic"
+      },
+      {
+        "name": "Next.js（AI SDK核心）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（提示注册）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "YAML / JSON 架构",
+        "icon": "SiJson"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "权重和偏差",
+        "icon": "SiWeightsandbiases"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从及时审核到结构化生产模板在 6 周内推出",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核当前模型输入，跟踪逻辑故障的结构点，并定义所需的数据输出模式。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "构建推理模式（如思维链）、制定边缘情况数据集和框架结构系统参数。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "通过 Promptfoo 编写自定义提示矩阵，编写 Pydantic 结构验证规则，并配置注册表控制层。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "运行大规模矩阵测试来评估提示安全性、优化上下文令牌限制并安全地启动优化的提示模板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "0% 结构故障和生产计算费用下降 62%",
+    "image": "/all_services/llm_prompt_engineering/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一个可扩展的物流 SaaS 应用程序使用复杂的文本提示，随机输出损坏的格式，导致后端应用程序路由崩溃。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 OpenAI 结构化输出和 Pydantic 模式重新设计了他们的上下文堆栈，用通过 Promptfoo 管道网格评估的严格条件变量替换了冗长的指令。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "输出解析失败率降至绝对零，响应准确性显着提高，优化工作将持续的 API 运行成本降低了 62%。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "及时的工程架构和常见问题解答",
+    "subtitle": "对关键实施、安全性和程序化令牌查询的清晰答案",
+    "questions": [
+      {
+        "question": "为什么要使用编程式提示工程，而不是仅仅向用户窗口添加更多指令？",
+        "answer": "添加原始句子会使模型行为变得不可预测并且容易受到提示注入的影响。程序化提示工程依赖于严格的模式、清晰的系统用户划分和具体的输入输出库，将上下文视为可测试的软件代码层。"
+      },
+      {
+        "question": "什么是“结构化输出”？它们如何防止运行时应用程序崩溃？",
+        "answer": "结构化输出对模型的标记选择过程强制执行匹配的 JSON 架构约束。这迫使模型仅使用严格遵守数据库类型参数的文本进行回复，从而消除无效的属性或键。"
+      },
+      {
+        "question": "如何测试即时更改是否不会意外破坏生产中的其他功能？",
+        "answer": "我们使用 Promptfoo 等工具设置自动化评估套件。每次更新系统提示时，我们都会通过一系列广泛的模拟日志来运行它，跟踪准确性分数和边缘情况，以确保在上线之前不会发生性能回归。"
+      },
+      {
+        "question": "即时工程可以帮助减少网络应用程序中的延迟和响应滞后吗？",
+        "answer": "绝对地。通过简化模板设计、删除重复的措辞以及利用精确的令牌格式，我们减少了模型必须执行的不必要的处理工作，从而加快了生成时间并降低了系统延迟。"
+      }
+    ],
+    "footer": {
+      "text": "准备好为您的模型构建可靠的结构化上下文模板了吗？",
+      "link_text": "与我们的团队安排优化审核",
+      "link_url": "/contact"
+    }
+  }
+}

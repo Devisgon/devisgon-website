@@ -1,0 +1,206 @@
+{
+  "slug": "model-training",
+  "hero_section": {
+    "title": "Enterprise AI & Machine Learning Model Training",
+    "subtitle": "Custom Algorithmic Optimization Engineered on Proprietary Data",
+    "description": "We architect, train, and validate domain-specific machine learning models from the ground up. Turn your raw operational data lakes into high-precision corporate intelligence assets built with custom neural weights.",
+    "buttons": [
+      {
+        "text": "Initiate Model Training",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our Data Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/model_training.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is Enterprise-Grade",
+    "span_heading": " Model Training?",
+    "content": [
+      "At Devisgon, we approach machine learning model training as an exact science. Moving past generic, pre-trained API wrappers, we design and execute custom training loops tailored specifically to your corporate data structures. Whether training deep neural networks for computer vision, fine-tuning large transformer models, or building robust tabular prediction systems, we ensure complete alignment with your operational constraints.",
+      "We bridge the gap between messy, raw data pools and high-performance inference runtimes. Every training lifecycle is managed through automated, version-controlled compute pipelines, rigorous bias-variance checks, and hyperparameter optimization configurations, resulting in production-ready models that achieve peak precision, stability, and speed."
+    ],
+    "highlight_quote": "“Proprietary parameter weights, high-precision validation matrices, 0% reliance on third-party public models.”",
+    "side_image": "/all_services/model_training/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Enterprise Benefits",
+    "subtitle": "Convert raw corporate telemetry into private, high-fidelity mathematical assets",
+    "cards": [
+      {
+        "title": "Proprietary Weight Control",
+        "description": "Own your algorithmic intelligence completely. Train unique parameters and weight configurations that your competitors cannot buy off-the-shelf.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Deep Context Alignment",
+        "description": "Train models on your actual enterprise vocabulary, custom product IDs, and operational nuances to unlock deep contextual accuracy.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Drastic Latency Reduction",
+        "description": "Optimize and prune custom models to run on lightweight microservices, drastically lowering inference latency compared to multi-billion parameter networks.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Total Privacy Assurance",
+        "description": "Keep your core business intellectual property safe by conducting model training entirely within your isolated, zero-egress cloud perimeter.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You'll Receive with Devisgon Custom Model Training",
+    "image": "/all_services/model_training/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Production-Ready Trained Model Weights",
+        "description": "Fully compiled, highly optimized model binaries (e.g., ONNX, PyTorch, TensorFlow) customized to resolve your specific business targets."
+      },
+      {
+        "title": "2. End-to-End Data Preprocessing Ensembles",
+        "description": "Programmatic ETL pipelines that clean, normalize, tokenize, and balance raw datasets automatically ahead of training loops."
+      },
+      {
+        "title": "3. Automated Hyperparameter Tuning Registries",
+        "description": "Distributed computing routines (Bayesian, Grid Search) engineered to extract maximum model performance from your target datasets."
+      },
+      {
+        "title": "4. Complete Training Evaluation Ledgers",
+        "description": "Comprehensive loss logs, confusion matrices, ROC-AUC profiles, and validation metrics verifying structural model safety before deployment."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We Train with Hardened, Enterprise-Scale Machine Learning Compute Tools",
+    "subtitle": "Industry-leading deep learning frameworks, hyperparameter tuners, and MLOps tech engineered for massive datasets",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Scikit-Learn",
+        "icon": "SiScikitlearn"
+      },
+      {
+        "name": "XGBoost",
+        "icon": "SiXgboost"
+      },
+      {
+        "name": "Hugging Face (Transformers)",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Weights & Biases",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Ray (Distributed Compute)",
+        "icon": "SiRay"
+      },
+      {
+        "name": "Optuna",
+        "icon": "SiOptuna"
+      },
+      {
+        "name": "CUDA / NVIDIA SDK",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase (Metadata Logging)",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Engineering Blueprint",
+    "subtitle": "From data engineering to compiled model production delivery in 6 weeks",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Evaluate target datasets, assess class balances, define loss metrics, and align data storage frameworks.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Program ingestion workflows, design custom deep learning architectures, and map out training validation splits.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Run distributed training loops, manage hyperparameter sweeps, evaluate loss curves, and execute bias-variance optimizations.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Compile weights to optimized formats (ONNX), package endpoints into secure containers, and activate continuous evaluation pipelines safely.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "99.1% High-Precision Fraud Detection via Customized Deep Learning Architecture",
+    "image": "/all_services/model_training/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A scaling financial platform was bleeding revenue because standard, rule-based security software kept missing complex, non-linear fraudulent transaction patterns."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "We constructed a proprietary classification network via PyTorch, setting up an end-to-end training loop across millions of anonymized, historical transactional data rows."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "Fraudulent incident detection accurately climbed to 99.1%, false positives fell by 68%, and the trained model binary responded with lightning-fast, sub-millisecond validation speeds."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Model Training Architecture & FAQ",
+    "subtitle": "Clear answers to critical implementation, data security, and compute infrastructure queries",
+    "questions": [
+      {
+        "question": "What is the difference between training a custom model and fine-tuning an existing one?",
+        "answer": "Training from scratch constructs parameter weights from zero using your specific data, ideal for custom tabular or niche vision tasks. Fine-tuning starts with a broad, pre-trained base model (like an LLM) and alters its outer layers to match your industry-specific vocabulary."
+      },
+      {
+        "question": "How do you guarantee that a trained model won't 'overfit' and fail on real-world data?",
+        "answer": "We enforce rigorous cross-validation protocols, early-stopping triggers, and regularization matrices (L1/L2). We isolate distinct validation and testing sets that the model never sees during training, ensuring its accuracy scores translate perfectly to active production."
+      },
+      {
+        "question": "Where does the computational training take place, and how are server costs managed?",
+        "answer": "Training runs inside secure cloud instances (like AWS SageMaker or custom EC2 GPU spot clusters). We write highly optimized batch scripts and leverage frameworks like Ray to spread workloads efficiently, keeping compute resource waste to a minimum."
+      },
+      {
+        "question": "How do you handle highly imbalanced enterprise data, where target events are rare?",
+        "answer": "We employ advanced algorithmic data engineering, utilizing techniques like SMOTE for synthetic upsampling, focal loss adjustment parameters, and strategic downsampling to ensure the model learns to spot critical minority anomalies accurately."
+      }
+    ],
+    "footer": {
+      "text": "Ready to train proprietary machine learning weights on your enterprise data?",
+      "link_text": "Schedule a training review with our team",
+      "link_url": "/contact"
+    }
+  }
+}

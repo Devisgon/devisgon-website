@@ -1,0 +1,206 @@
+{
+  "slug": "load-testing",
+  "hero_section": {
+    "title": "Services de tests de performances et de charge d'entreprise",
+    "subtitle": "Renforcez votre infrastructure Web pour faire face aux augmentations de trafic à grande vitesse",
+    "description": "Nous concevons des cadres rigoureux de tests de performances, de stress et de charge à haute concurrence qui exposent les goulots d'étranglement du système avant vos utilisateurs. Garantissez une latence inférieure à la seconde, aucune dégradation de la base de données et une stabilité structurelle absolue face à des millions de requêtes API simultanées.",
+    "buttons": [
+      {
+        "text": "Auditer la capacité de mon système",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs DevOps",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/load_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que le niveau entreprise",
+    "span_heading": "Test de charge ?",
+    "content": [
+      "Chez Devisgon, nous abordons l’optimisation des performances comme une discipline logicielle de haute précision. Allant bien au-delà des scripts de base à vitesse de page, nous concevons des suites de tests de charge distribuées et personnalisées qui reproduisent des parcours utilisateur complexes du monde réel, des flux de webhooks automatisés à grand volume et des pics de trafic de base de données en lecture-écriture simultanés de manière native dans votre sandbox de préparation.",
+      "Nous comblons le fossé entre le code d'application abstrait et les limites sous-jacentes du serveur. Chaque boucle de simulation que nous exécutons met à l'épreuve vos gestionnaires de routes API, vos matrices de mémoire système et vos maillages de microservices tout en suivant la télémétrie du serveur en temps réel pour garantir que votre application reste complètement à l'épreuve des pics de trafic viral et des charges de production lourdes."
+    ],
+    "highlight_quote": "« Limites du système validées, débit des points de terminaison optimisé, durées d'exécution des applications 100 % stables en cas de charge de pointe. »",
+    "side_image": "/all_services/load_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Convertissez le code backend fragile en une architecture logicielle déterministe et hautement résiliente",
+    "cards": [
+      {
+        "title": "Exposer la dégradation de la latence",
+        "description": "Identifiez les seuils de concurrence exacts où les temps de routage des API augmentent ou où les threads du système se bloquent, permettant ainsi une refactorisation préventive du code.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Renforcer la mise à l'échelle de la base de données",
+        "description": "Testez les pools de connexions relationnelles et les couches de mise en cache pour éviter les verrouillages, les requêtes lentes et les fuites de mémoire sous de lourdes charges transactionnelles.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Valider les règles de mise à l'échelle automatique",
+        "description": "Vérifiez que les limites de l'infrastructure cloud, les orchestrateurs de conteneurs et les proxys de périphérie augmentent dynamiquement la capacité de calcul précisément lorsque les pics surviennent.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Éliminez les temps d’arrêt coûteux",
+        "description": "Éliminez les pannes d'exécution inattendues et les pannes de serveur, garantissant ainsi une confiance totale dans la marque et une capture continue des revenus lors des chutes majeures de produits.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec Devisgon Performance Engineering",
+    "image": "/all_services/load_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Scripts de test de concurrence distribuée",
+        "description": "Code de simulation de charge sur mesure configuré pour imiter les comportements utilisateur authentiques en plusieurs étapes, les procédures de paiement et les matrices d'admission des webhooks."
+      },
+      {
+        "title": "2. Évaluations de contraintes API à haut débit",
+        "description": "Tests de saturation rigoureux conçus pour exposer les limites de seuil structurels, les paramètres de débit des points finaux et les points de rupture de connexion."
+      },
+      {
+        "title": "3. Configurations de secours automatisées en cas de panne",
+        "description": "Mise en œuvre de disjoncteurs intelligents, de limiteurs de débit et de mise en file d'attente des messages morts pour protéger les bases de données lors de pics extrêmes."
+      },
+      {
+        "title": "4. Journaux complets de télémétrie du système",
+        "description": "Cartes de profilage granulaires visualisant les lignes de limitation du processeur, les graphiques d'épuisement de la mémoire, les journaux de transactions de base de données et les distributions de taux d'erreur."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous testons avec une infrastructure de performance renforcée et moderne",
+    "subtitle": "Moteurs de charge, agrégateurs de télémétrie et moniteurs de système conformes aux normes de l'industrie, conçus pour une échelle de données extrême",
+    "tools": [
+      {
+        "name": "k6 (Grafana)",
+        "icon": "SiK6"
+      },
+      {
+        "name": "Apache JMeter",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "Locust",
+        "icon": "SiLocust"
+      },
+      {
+        "name": "Prometheus",
+        "icon": "SiPrometheus"
+      },
+      {
+        "name": "Tableaux de bord Grafana",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "API Datadog",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Next.js (audit de performance)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (test de requêtes)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (EXPLIQUER ANALYSER)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis (mise en cache de chargement)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker (contrainte du conteneur)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes (validation HPA)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Tests de charge distribués AWS",
+        "icon": "SiAmazonaws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la cartographie du protocole à la certification complète de l'infrastructure en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Analysez les topologies d'infrastructure logicielle existantes, documentez les routes d'API cibles, définissez les SLA de performances de base et cartographiez les tendances de comportement des utilisateurs.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Construisez des matrices logiques de scénarios distribués, formulez des chemins de mise à l'échelle des utilisateurs virtuels et structurez des profils de télémétrie de métriques cibles.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des suites de tests personnalisées via k6 ou Locust, établissez des graphiques de visualisation Grafana centralisés et configurez les limites du bac à sable de l'environnement.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des exécutions de contraintes incrémentielles, isolez les goulots d'étranglement en matière de performances, ajustez les propriétés de l'infrastructure et délivrez une certification de stabilité vérifiée.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Stabilité d'exécution à 100 % maintenue sur plus de 500 000 transactions virtuelles simultanées",
+    "image": "/all_services/load_testing/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une plate-forme numérique à grande vitesse a subi de graves retards d'application et des blocages soudains de bases de données chaque fois que des campagnes marketing par courrier électronique déclenchaient une augmentation soudaine du trafic d'utilisateurs."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu une matrice de tests de charge distribuée à l'aide de k6 et Docker, exécutant des milliers de chemins de paiement simulés tout en analysant les temps d'exécution des requêtes dans leur instance Supabase."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "La latence de réponse de l'API a chuté de 73 % grâce à une indexation optimisée de la base de données, les goulots d'étranglement des ressources du serveur ont été éliminés et la plate-forme a maintenu une stabilité d'exécution continue à 100 % lors des pics de trafic ultérieurs."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture des performances et FAQ",
+    "subtitle": "Des réponses claires aux tests d’infrastructures critiques, à l’optimisation des API et aux requêtes de mise à l’échelle",
+    "questions": [
+      {
+        "question": "Quelle est la principale différence entre les tests de charge standard et les tests de contrainte ?",
+        "answer": "Les tests de charge évaluent le comportement d'une application sous sa capacité opérationnelle maximale attendue pour garantir que les temps de réponse respectent les règles de performances de base. Les tests de résistance poussent le système complètement au-delà de ses seuils logiques jusqu'à ce qu'il se brise, révélant exactement quel niveau matériel ou quelle table de base de données échouera en premier."
+      },
+      {
+        "question": "Comment tester les performances du système sans polluer ou corrompre accidentellement notre base de données de production active ?",
+        "answer": "Nous exécutons toutes les boucles de simulation de performances et de charge dans un environnement sandbox de transfert isolé qui reflète exactement la topographie de votre matériel de production. Nous utilisons des ensembles de données fictifs anonymisés et des tableaux structurels propres, gardant vos informations utilisateur réelles complètement sûres et intactes."
+      },
+      {
+        "question": "Les tests de charge peuvent-ils optimiser les applications Web sans serveur qui utilisent des réseaux de routage de périphérie ?",
+        "answer": "Absolument. Bien que les fonctions sans serveur évoluent de manière dynamique, elles se heurtent souvent à des limitations cachées du backend, telles que les limites de regroupement de connexions à la base de données ou la limitation du débit des API externes. Nous traquons ces limites précises d'intégration sans serveur, en configurant des couches de mise en cache Redis optimisées pour éviter les blocages en aval."
+      },
+      {
+        "question": "À quelle fréquence notre entreprise doit-elle exécuter des contrôles de performances programmatiques et de validation de charge ?",
+        "answer": "Nous vous recommandons d'intégrer des tests de charge automatisés dans vos principaux pipelines de déploiement CI/CD avant les versions de fonctionnalités majeures, les modifications de la base de données système ou les événements saisonniers à fort trafic anticipés, en vérifiant que les nouvelles modifications de code n'entraînent pas de régressions de performances."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à vérifier les seuils de votre infrastructure de système logiciel ?",
+      "link_text": "Planifiez une évaluation des performances avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

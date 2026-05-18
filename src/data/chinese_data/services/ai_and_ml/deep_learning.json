@@ -1,0 +1,206 @@
+{
+  "slug": "deep-learning",
+  "hero_section": {
+    "title": "企业深度学习系统",
+    "subtitle": "用于复杂推理的多层神经网络架构",
+    "description": "我们设计、训练和部署生产级深度神经网络，旨在从多结构企业数据池中提取高级抽象。通过先进的感知、复杂的顺序处理和认知决策层增强您的软件。",
+    "buttons": [
+      {
+        "text": "架构神经网络",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的深度学习工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/deep_learning.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "深度学习？",
+    "content": [
+      "在 Devisgon，我们设计并实施定制的多层深度学习模型，旨在解码公司记录中的高维非线性关系。我们的架构远远超出了传统的浅层统计建模，依赖于专门的神经框架，包括用于视觉的卷积神经网络 (CNN)、用于序列理解的 Transformer 以及用于异常模式挖掘的深度自动编码器。",
+      "我们弥合了抽象的学术研究和强大的、可用于生产的软件系统之间的差距。我们部署的每个深度学习结构都针对高吞吐量 GPU 加速进行编译，使用高级量化矩阵进行优化，并嵌入编程监控，以保证高速操作工作流程的绝对可靠性。"
+    ],
+    "highlight_quote": "“多层网络抽象、GPU 加速执行、数学精度 0% 妥协。”",
+    "side_image": "/all_services/deep_learning/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "利用多层神经结构来自动化非线性公司逻辑",
+    "cards": [
+      {
+        "title": "非结构化数据挖掘",
+        "description": "直接从原始的非表格企业源（例如复杂的空间图像、连续音频流和非结构化文本块）中提取具体的运营见解。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "自动特征提取",
+        "description": "消除手动、脆弱的特征工程循环。我们的深度网络直接从您的原始数据集矩阵中独立学习最佳表示。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "高尺寸精度",
+        "description": "解决导致传统统计回归和表格模型完全失败的高度复杂的非线性业务挑战。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "可扩展模型推理",
+        "description": "将复杂的神经参数编译成经过优化的高度简化的微服务，以服务大规模的闪电般快速的实时请求。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devisgon 深度学习工程获得什么",
+    "image": "/all_services/deep_learning/wwg.webp",
+    "list_items": [
+      {
+        "title": "1.定制神经网络架构设计",
+        "description": "定制编译的拓扑（Transformers、CNN、RNN）经过明确设计，可映射您独特的公司系统参数。"
+      },
+      {
+        "title": "2. 高性能 GPU 摄取管道",
+        "description": "编程数据加载结构旨在将大型张量数组顺利地传输到分布式 GPU 计算网格中。"
+      },
+      {
+        "title": "3. 程序化模型量化和剪枝",
+        "description": "训练后网络优化可消除死节点并缩小权重定义，以实现快速、低延迟的目标部署。"
+      },
+      {
+        "title": "4. 神经性能分析和审计报告",
+        "description": "详细的遥测读数涵盖验证损失斜率、逐层梯度稳定性指标和操作推理速度曲线。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用最先进的深度学习框架进行设计",
+    "subtitle": "行业领先的计算库、张量运行时和专为大规模构建的 MLOps 平台",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Keras",
+        "icon": "SiKeras"
+      },
+      {
+        "name": "CUDA/NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "拥抱脸（变形金刚）",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "ONNX 运行时",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "OpenCV（神经视觉）",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "权重和偏差",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase（嵌入日志）",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从层拓扑设计到生产级张量运行时部署只需 6 周",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "映射非结构化业务记录、定义数学客观指标并审核可用的 GPU 计算集群。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "建立张量维度，绘制隐藏层拓扑结构，并构建验证分割机制。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "执行深度训练运行、实施梯度稳定层、执行超参数扫描并验证权重准确性。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "将参数文件量化为优化的二进制运行时、容器化执行运行时并安全地连接实时性能跟踪数组。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "98.7% 自动图像提取和 12 倍系统处理加速",
+    "image": "/all_services/deep_learning/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一家全球物流供应商因人工审查和转录损坏的混合格式传入运输标签而造成的巨大瓶颈而陷入瘫痪。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 PyTorch 设计了与本地化 Transformer 层集成的深度卷积神经网络 (CNN)，将最终权重文件直接编译到 ONNX 容器运行时中。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "标签提取准确率飙升至 98.7%，总操作处理速度加快了 12 倍，管理错误降至接近于零。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "深度学习架构和常见问题解答",
+    "subtitle": "对关键实施、网络性能和张量基础设施查询的清晰答案",
+    "questions": [
+      {
+        "question": "标准机器学习和深度学习之间的核心结构差异是什么？",
+        "answer": "标准机器学习模型（如线性回归或决策树）要求开发人员在训练之前手动清理和选择特征输入。深度学习使用多层神经网络直接从原始数据矩阵中自动提取特征。"
+      },
+      {
+        "question": "训练深度神经网络叠层时如何处理“梯度消失”？",
+        "answer": "我们以编程方式减轻梯度不稳定性。我们实现策略层初始化（例如 He/Xavier 方法），嵌入批量归一化层，使用现代激活函数（ReLU/GELU），并在训练执行例程中强制执行梯度裁剪限制。"
+      },
+      {
+        "question": "什么是“模型量化”和“修剪”？它们如何影响 Web 应用程序？",
+        "answer": "量化将 32 位浮点神经权重转换为节省空间的 8 位整数，同时修剪会剪掉不活跃、低影响的节点连接。这减少了模型文件占用空间和内存开销，将推理延迟降至毫秒，使其在生产中顺利运行。"
+      },
+      {
+        "question": "为什么 PyTorch 比其他传统深度学习框架更适合企业开发？",
+        "answer": "PyTorch 提供了动态计算图形布局，使代码调试和架构跟踪与标准 Python 执行一样简单。这与企业环境完美匹配，允许开发人员构建强大的多代理设置并通过 Docker 干净地扩展部署。"
+      }
+    ],
+    "footer": {
+      "text": "准备好将深度神经网络嵌入到您的软件基础架构中了吗？",
+      "link_text": "与我们的团队安排架构审查",
+      "link_url": "/contact"
+    }
+  }
+}

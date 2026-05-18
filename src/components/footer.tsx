@@ -3,7 +3,7 @@
 import { ChevronLeft, Mail, Phone } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
-import { getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+import { findNavbarItemByHref, getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
 
 interface FooterLink {
   name: string;
@@ -130,9 +130,9 @@ const Footer = () => {
   const newsletterColumn =
     footerColumns.find((column) => column.title.toLowerCase().includes("newsletter")) ?? footerColumns[2];
   const legalLinks = helpColumn.links.filter((link) => link.href.includes("privacy") || link.href.includes("terms"));
-  const servicesNav = navbarData.navbar.find((item) => item.href === "/services");
-  const industriesNav = navbarData.navbar.find((item) => item.href === "/industries");
-  const technologiesNav = navbarData.navbar.find((item) => item.href === "/technologies");
+  const servicesNav = findNavbarItemByHref(navbarData, "/services");
+  const industriesNav = findNavbarItemByHref(navbarData, "/industries");
+  const technologiesNav = findNavbarItemByHref(navbarData, "/technologies");
   const partnersNav = navbarData.navbar.find((item) => item.name.toLowerCase().includes("partner"));
   const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
   const servicesCategories = servicesNav?.dropdown?.columns ?? [];

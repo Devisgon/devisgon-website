@@ -1,151 +1,91 @@
-
-// ENGLISH
-import engd from "@/data/english_data/services/digital_design/graphical.json";
-import enlg from "@/data/english_data/services/digital_design/logo_design.json";
-import enmd from "@/data/english_data/services/digital_design/mobile_design.json";
-import enpd from "@/data/english_data/services/digital_design/product_deign.json";
-import enpwd from "@/data/english_data/services/digital_design/prototyping_and_wireframe.json";
-import enui from "@/data/english_data/services/digital_design/ui_ux_design.json";
-import enwd from "@/data/english_data/services/digital_design/web_design.json";
-
-
-
-// URDU
-
-import urgd from "@/data/urdu_data/services/digital_design/graphical.json";
-import urlg from "@/data/urdu_data/services/digital_design/logo_design.json";
-import urmd from "@/data/urdu_data/services/digital_design/mobile_design.json";
-import urpd from "@/data/urdu_data/services/digital_design/product_deign.json";
-import urpwd from "@/data/urdu_data/services/digital_design/prototyping_and_wireframe.json";
-import urui from "@/data/urdu_data/services/digital_design/ui_ux_design.json";
-import urwd from "@/data/urdu_data/services/digital_design/web_design.json";
-
-
-// ARABIC
-
-import argd from "@/data/german_data/services/digital_design/graphical.json";
-import arlg from "@/data/german_data/services/digital_design/logo_design.json";
-import armd from "@/data/german_data/services/digital_design/mobile_design.json";
-import arpd from "@/data/german_data/services/digital_design/product_deign.json";
-import arpwd from "@/data/german_data/services/digital_design/prototyping_and_wireframe.json";
-import arui from "@/data/german_data/services/digital_design/ui_ux_design.json";
-import arwd from "@/data/german_data/services/digital_design/web_design.json";
-
-
-//german
-
-import grgd from "@/data/arabic_data/services/digital_design/graphical.json";
-import grlg from "@/data/arabic_data/services/digital_design/logo_design.json";
-import grmd from "@/data/arabic_data/services/digital_design/mobile_design.json";
-import grpd from "@/data/arabic_data/services/digital_design/product_deign.json";
-import grpwd from "@/data/arabic_data/services/digital_design/prototyping_and_wireframe.json";
-import grui from "@/data/arabic_data/services/digital_design/ui_ux_design.json";
-import grwd from "@/data/arabic_data/services/digital_design/web_design.json";
-
-
-//spanish
-
-import spgd from "@/data/spanish_data/services/digital_design/graphical.json";
-import splg from "@/data/spanish_data/services/digital_design/logo_design.json";
-import spmd from "@/data/spanish_data/services/digital_design/mobile_design.json";
-import sppd from "@/data/spanish_data/services/digital_design/product_deign.json";
-import sppwd from "@/data/spanish_data/services/digital_design/prototyping_and_wireframe.json";
-import spui from "@/data/spanish_data/services/digital_design/ui_ux_design.json";
-import spwd from "@/data/spanish_data/services/digital_design/web_design.json";
-
-
-//chinese
-
-import chgd from "@/data/chinese_data/services/digital_design/graphical.json";
-import chlg from "@/data/chinese_data/services/digital_design/logo_design.json";
-import chmd from "@/data/chinese_data/services/digital_design/mobile_design.json";
-import chpd from "@/data/chinese_data/services/digital_design/product_deign.json";
-import chpwd from "@/data/chinese_data/services/digital_design/prototyping_and_wireframe.json";
-import chui from "@/data/chinese_data/services/digital_design/ui_ux_design.json";
-import chwd from "@/data/chinese_data/services/digital_design/web_design.json";
-
-
-//french 
-
-import frgd from "@/data/french_data/services/digital_design/graphical.json";
-import frlg from "@/data/french_data/services/digital_design/logo_design.json";
-import frmd from "@/data/french_data/services/digital_design/mobile_design.json";
-import frpd from "@/data/french_data/services/digital_design/product_deign.json";
-import frpwd from "@/data/french_data/services/digital_design/prototyping_and_wireframe.json";
-import frui from "@/data/french_data/services/digital_design/ui_ux_design.json";
-import frwd from "@/data/french_data/services/digital_design/web_design.json";
-
-
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const workflowData: Record<string, Record<string, any>> = {
-  
-  en: {
-    "graphic_design": engd, 
-    "logo_design": enlg,
-    "mobile_app_design": enmd,
-        "product_design": enpd,
-    "prototyping_wireframing": enpwd,
-    "ui_ux_design": enui,
-    "web_design": enwd,
+type ServiceDetailData = any;
 
+import enBrandingKit from "@/data/english_data/services/digital_design/branding_kit.json";
+import enGraphical from "@/data/english_data/services/digital_design/graphical.json";
+import enLogoDesign from "@/data/english_data/services/digital_design/logo_design.json";
+import enMobileDesign from "@/data/english_data/services/digital_design/mobile_design.json";
+import enProductDeign from "@/data/english_data/services/digital_design/product_deign.json";
+import enPrototypingAndWireframe from "@/data/english_data/services/digital_design/prototyping_and_wireframe.json";
+import enUiUxDesign from "@/data/english_data/services/digital_design/ui_ux_design.json";
+import enWebDesign from "@/data/english_data/services/digital_design/web_design.json";
 
+import urBrandingKit from "@/data/urdu_data/services/digital_design/branding_kit.json";
+import urGraphical from "@/data/urdu_data/services/digital_design/graphical.json";
+import urLogoDesign from "@/data/urdu_data/services/digital_design/logo_design.json";
+import urMobileDesign from "@/data/urdu_data/services/digital_design/mobile_design.json";
+import urProductDeign from "@/data/urdu_data/services/digital_design/product_deign.json";
+import urPrototypingAndWireframe from "@/data/urdu_data/services/digital_design/prototyping_and_wireframe.json";
+import urUiUxDesign from "@/data/urdu_data/services/digital_design/ui_ux_design.json";
+import urWebDesign from "@/data/urdu_data/services/digital_design/web_design.json";
 
-  },
-   ur: {
-  "graphic_design": urgd, 
-    "logo_design": urlg,
-    "mobile_app_design": urmd,
-        "product_design": urpd,
-    "prototyping_wireframing": urpwd,
-    "ui_ux_design": urui,
-    "web_design": urwd,
+import arBrandingKit from "@/data/arabic_data/services/digital_design/branding_kit.json";
+import arGraphical from "@/data/arabic_data/services/digital_design/graphical.json";
+import arLogoDesign from "@/data/arabic_data/services/digital_design/logo_design.json";
+import arMobileDesign from "@/data/arabic_data/services/digital_design/mobile_design.json";
+import arProductDeign from "@/data/arabic_data/services/digital_design/product_deign.json";
+import arPrototypingAndWireframe from "@/data/arabic_data/services/digital_design/prototyping_and_wireframe.json";
+import arUiUxDesign from "@/data/arabic_data/services/digital_design/ui_ux_design.json";
+import arWebDesign from "@/data/arabic_data/services/digital_design/web_design.json";
 
-  }, ar: {
-   "graphic_design": argd, 
-    "logo_design": arlg,
-    "mobile_app_design": armd,
-        "product_design": arpd,
-    "prototyping_wireframing": arpwd,
-    "ui_ux_design": arui,
-    "web_design": arwd,
+import deBrandingKit from "@/data/german_data/services/digital_design/branding_kit.json";
+import deGraphical from "@/data/german_data/services/digital_design/graphical.json";
+import deLogoDesign from "@/data/german_data/services/digital_design/logo_design.json";
+import deMobileDesign from "@/data/german_data/services/digital_design/mobile_design.json";
+import deProductDeign from "@/data/german_data/services/digital_design/product_deign.json";
+import dePrototypingAndWireframe from "@/data/german_data/services/digital_design/prototyping_and_wireframe.json";
+import deUiUxDesign from "@/data/german_data/services/digital_design/ui_ux_design.json";
+import deWebDesign from "@/data/german_data/services/digital_design/web_design.json";
 
-  }, es: {
-     "graphic_design": spgd, 
-    "logo_design": splg,
-    "mobile_app_design": spmd,
-        "product_design": sppd,
-    "prototyping_wireframing": sppwd,
-    "ui_ux_design": spui,
-    "web_design": spwd,
-  },
-   de: {
-     "graphic_design": grgd, 
-    "logo_design": grlg,
-    "mobile_app_design": grmd,
-        "product_design": grpd,
-    "prototyping_wireframing": grpwd,
-    "ui_ux_design": grui,
-    "web_design": grwd,
+import esBrandingKit from "@/data/spanish_data/services/digital_design/branding_kit.json";
+import esGraphical from "@/data/spanish_data/services/digital_design/graphical.json";
+import esLogoDesign from "@/data/spanish_data/services/digital_design/logo_design.json";
+import esMobileDesign from "@/data/spanish_data/services/digital_design/mobile_design.json";
+import esProductDeign from "@/data/spanish_data/services/digital_design/product_deign.json";
+import esPrototypingAndWireframe from "@/data/spanish_data/services/digital_design/prototyping_and_wireframe.json";
+import esUiUxDesign from "@/data/spanish_data/services/digital_design/ui_ux_design.json";
+import esWebDesign from "@/data/spanish_data/services/digital_design/web_design.json";
 
-  }, zh: {
-    "graphic_design": chgd, 
-    "logo_design": chlg,
-    "mobile_app_design": chmd,
-        "product_design": chpd,
-    "prototyping_wireframing": chpwd,
-    "ui_ux_design": chui,
-    "web_design": chwd,
+import zhBrandingKit from "@/data/chinese_data/services/digital_design/branding_kit.json";
+import zhGraphical from "@/data/chinese_data/services/digital_design/graphical.json";
+import zhLogoDesign from "@/data/chinese_data/services/digital_design/logo_design.json";
+import zhMobileDesign from "@/data/chinese_data/services/digital_design/mobile_design.json";
+import zhProductDeign from "@/data/chinese_data/services/digital_design/product_deign.json";
+import zhPrototypingAndWireframe from "@/data/chinese_data/services/digital_design/prototyping_and_wireframe.json";
+import zhUiUxDesign from "@/data/chinese_data/services/digital_design/ui_ux_design.json";
+import zhWebDesign from "@/data/chinese_data/services/digital_design/web_design.json";
 
-  }, fr: {
- "graphic_design": frgd, 
-    "logo_design": frlg,
-    "mobile_app_design": frmd,
-        "product_design": frpd,
-    "prototyping_wireframing": frpwd,
-    "ui_ux_design": frui,
-    "web_design": frwd,
+import frBrandingKit from "@/data/french_data/services/digital_design/branding_kit.json";
+import frGraphical from "@/data/french_data/services/digital_design/graphical.json";
+import frLogoDesign from "@/data/french_data/services/digital_design/logo_design.json";
+import frMobileDesign from "@/data/french_data/services/digital_design/mobile_design.json";
+import frProductDeign from "@/data/french_data/services/digital_design/product_deign.json";
+import frPrototypingAndWireframe from "@/data/french_data/services/digital_design/prototyping_and_wireframe.json";
+import frUiUxDesign from "@/data/french_data/services/digital_design/ui_ux_design.json";
+import frWebDesign from "@/data/french_data/services/digital_design/web_design.json";
 
-  }, 
+const serviceEntries = (brandingKit: ServiceDetailData, graphical: ServiceDetailData, logoDesign: ServiceDetailData, mobileDesign: ServiceDetailData, productDeign: ServiceDetailData, prototypingAndWireframe: ServiceDetailData, uiUxDesign: ServiceDetailData, webDesign: ServiceDetailData) => ({
+  "branding-kit-design": brandingKit,
+  "branding-kit": brandingKit,
+  "graphic-design": graphical,
+  "graphical": graphical,
+  "logo-design": logoDesign,
+  "mobile-app-design": mobileDesign,
+  "mobile-design": mobileDesign,
+  "product-design": productDeign,
+  "product-deign": productDeign,
+  "prototyping-wireframing": prototypingAndWireframe,
+  "prototyping-and-wireframe": prototypingAndWireframe,
+  "ui-ux-design": uiUxDesign,
+  "web-design": webDesign,
+});
 
+export const workflowData: Record<string, Record<string, ServiceDetailData>> = {
+  en: serviceEntries(enBrandingKit, enGraphical, enLogoDesign, enMobileDesign, enProductDeign, enPrototypingAndWireframe, enUiUxDesign, enWebDesign),
+  ur: serviceEntries(urBrandingKit, urGraphical, urLogoDesign, urMobileDesign, urProductDeign, urPrototypingAndWireframe, urUiUxDesign, urWebDesign),
+  ar: serviceEntries(arBrandingKit, arGraphical, arLogoDesign, arMobileDesign, arProductDeign, arPrototypingAndWireframe, arUiUxDesign, arWebDesign),
+  de: serviceEntries(deBrandingKit, deGraphical, deLogoDesign, deMobileDesign, deProductDeign, dePrototypingAndWireframe, deUiUxDesign, deWebDesign),
+  es: serviceEntries(esBrandingKit, esGraphical, esLogoDesign, esMobileDesign, esProductDeign, esPrototypingAndWireframe, esUiUxDesign, esWebDesign),
+  zh: serviceEntries(zhBrandingKit, zhGraphical, zhLogoDesign, zhMobileDesign, zhProductDeign, zhPrototypingAndWireframe, zhUiUxDesign, zhWebDesign),
+  fr: serviceEntries(frBrandingKit, frGraphical, frLogoDesign, frMobileDesign, frProductDeign, frPrototypingAndWireframe, frUiUxDesign, frWebDesign),
 };

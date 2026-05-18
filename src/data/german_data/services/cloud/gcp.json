@@ -1,0 +1,206 @@
+{
+  "slug": "gcp-devops-infrastructure",
+  "hero_section": {
+    "title": "Infrastruktur-Engineering für die Google Cloud Platform (GCP) für Unternehmen",
+    "subtitle": "Datenzentrierte Cloud-Architekturen, automatisierte DevSecOps und serverlose Skalierungsnetze",
+    "description": "Wir entwickeln eine leistungsstarke, belastbare und sichere Google Cloud Platform-Infrastruktur unter Nutzung der deklarativen Infrastructure as Code (IaC). Optimieren Sie multiregionale Datenpipelines, nutzen Sie verwaltete Containernetze und erreichen Sie eine nahtlose Servicebereitstellung bei hoher Datenlast.",
+    "buttons": [
+      {
+        "text": "Entwerfen Sie meine GCP-Infrastruktur",
+        "link": "/contact"
+      },
+      {
+        "text": "Konsultieren Sie unsere DevOps-Ingenieure",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/gcp_devops.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist Enterprise-Grade?",
+    "span_heading": "GCP DevOps Engineering?",
+    "content": [
+      "Bei Devisgon betrachten wir die Architektur der Google Cloud Platform als eine exakte, softwaregesteuerte Systemdisziplin. Wir verabschieden uns vollständig von manueller Konsolenkonfiguration und fragilem Server-Scripting und erstellen vollständig automatisierte, versionierte IaC-Architekturen (Infrastructure as Code), die Ihren gesamten Netzwerkperimeter, Container-Orchestrierungslayouts und verteilte Big-Data-Frameworks nativ entwerfen.",
+      "Wir schließen die Lücke zwischen schnellen Front-End-Iterationen und einem robusten, sicheren Cloud-Systembetrieb. Jede von uns bereitgestellte GCP-Umgebung ist durch Zero-Trust-Berechtigungen für das Identitäts- und Zugriffsmanagement (IAM), globale Lastausgleichs-Arrays mit geringer Latenz, kontinuierliche Bereitstellungsschleifen und zentralisierte Google Cloud Operations-Telemetriepipelines abgesichert, um einen kontinuierlichen Anwendungszustand zu gewährleisten."
+    ],
+    "highlight_quote": "„Programmierbare Umgebungszustände, Hochgeschwindigkeits-Mehrzonenstrukturen, 100 % vorhersehbare Skalierung der Dateninfrastruktur.“",
+    "side_image": "/all_services/gcp_devops/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Wichtige Vorteile für Unternehmen",
+    "subtitle": "Verwandeln Sie nicht verwaltete Server-Setups in eine hochsichere, datenoptimierte Google Cloud-Laufzeitumgebung",
+    "cards": [
+      {
+        "title": "Automatisierter Umgebungsstatus",
+        "description": "Stellen Sie Codeänderungen über deklarative IaC-Strukturen bereit und eliminieren Sie so Konfigurationsabweichungsfehler auf den Staging- und Produktionsserverebenen vollständig.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Kontinuierlicher Bereitstellungsfluss",
+        "description": "Richten Sie optimierte Pipelines ein, die automatisch Funktionsprüfungen durchführen, Sicherheitskompilierungsläufe ausführen und Software-Updates innerhalb von Minuten bereitstellen.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Grenzen für die automatische Skalierung in Sekundenbruchteilen",
+        "description": "Nutzen Sie die native Recheninfrastruktur von Google, um horizontale Kapazitäten bei Verkehrsspitzen sofort hochzufahren und so Backend-Metriken zu schützen.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Gehärtete Mehrzonentrennungen",
+        "description": "Isolieren Sie private Datenbankressourcen sauber in maßgeschneiderten Virtual Private Clouds (VPC) und kontrollieren Sie den Microservice-Zugriff über strenge Sicherheitsgruppen.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Die von uns entwickelten Kernsäulen von Google Cloud und DevOps",
+    "image": "/all_services/gcp_devops/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Deklarative Infrastruktur als Code (IaC)",
+        "description": "Vollständig reproduzierbare Systemumgebungen, die über Terraform-Skripte kompiliert werden, um VPC-Netzwerke, Subnetze, Gateways und Load Balancer programmgesteuert zu steuern."
+      },
+      {
+        "title": "2. Production Container Orchestration Fabrics",
+        "description": "Hochskalierbare Google Kubernetes Engine (GKE)-Setups, die für die Verwaltung von Anwendungsbereitstellungen, Integritätsrouting und fortlaufenden Microservice-Updates konfiguriert sind."
+      },
+      {
+        "title": "3. Automatisierte DevSecOps CI/CD-Integrationspipelines",
+        "description": "Kontinuierliche Codebereitstellungs-Workflows mithilfe von Cloud Build- oder GitHub-Aktionen, eingebettet in automatisierte Sicherheitsrichtlinien-Audits und Integrationsprüfungen."
+      },
+      {
+        "title": "4. Zentralisierte Systemtelemetrie- und Protokollüberwachungen",
+        "description": "Umfassende Überwachungs-Dashboards, die über die Google Cloud Operations Suite (Stackdriver) erstellt wurden und Verarbeitungsprotokolle, Speicherauslastungskurven und Netzwerkmetriken verfolgen."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir entwickeln mit GCP- und DevOps-Infrastrukturtools der Enterprise-Klasse",
+    "subtitle": "Cloud-Dienste, Bereitstellungsdienste und Bereitstellungsdienstprogramme nach Industriestandard, optimiert für absolute Systemstabilität",
+    "tools": [
+      {
+        "name": "Google Compute Engine",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Google Kubernetes Engine (GKE)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Terraform (IaC Core)",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Docker (Microservices)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "GitHub-Aktionen / Cloud Build",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Cloud SQL/BigQuery",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Google Cloud VPC Mesh",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "GCP IAM (Zero-Trust Access)",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Google Cloud CDN / Load Balancing",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Google Cloud Operations Suite",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Prometheus und Grafana",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "Supabase (Datenmanagement)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Redis (Cloud Memorystore)",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser technischer Entwurf",
+    "subtitle": "Von der Cloud-Netzwerkzuordnung bis zum zertifizierten Google Cloud-Betrieb in 6 Wochen",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Überwachen Sie vorhandene Systemumgebungen, verfolgen Sie Abhängigkeitslinien von Softwarenetzwerken, legen Sie Zielskalierungsgrenzen fest und isolieren Sie Datensicherheitsgrenzen.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulieren Sie Master-VPC-Routing-Schemata, planen Sie Zero-Trust-IAM-Berechtigungsmodelle und entwerfen Sie Workflows für die kontinuierliche Bereitstellung sauber.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Schreiben Sie deklarative Terraform-Konfigurationsdateien, packen Sie Microservice-Layer in Docker-Container und stellen Sie Bereitstellungspipelines zusammen.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Führen Sie intensive Umgebungslasttests durch, überprüfen Sie die Konfigurationen der automatischen Knotenskalierung und starten Sie Live-Tracking-Panels für Cloud-Operationen sicher.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100 % Automatisierung der Kern-Cloud-Infrastruktur und 73 % Reduzierung der Latenz bei der betrieblichen Bereitstellung",
+    "image": "/all_services/gcp_devops/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operative Straßensperre",
+        "text": "Eine skalierende Cloud-Anwendung litt aufgrund manueller Infrastrukturänderungen unter häufigen Plattformausfällen, fehlerhaften Softwareabhängigkeiten und Konfigurationsdiskrepanzen zwischen ihren Serverinstanzen."
+      },
+      "solution": {
+        "label": "Unser Engineering-Ansatz",
+        "text": "Wir haben ihre Umgebungsarchitektur mithilfe von Terraform und Google Kubernetes Engine (GKE) vollständig umgestaltet und automatisierte Bereitstellungsworkflows ohne Ausfallzeiten innerhalb einer sicheren Cloud Build-Pipeline strukturiert."
+      },
+      "result": {
+        "label": "Messbare Wirkung",
+        "text": "Serverkonfigurationsfehler sanken auf den absoluten Nullpunkt, die Code-Bereitstellungshäufigkeit beschleunigte sich erheblich und die Plattform behielt bei Datenverkehrsspitzen die vollständige Betriebsstabilität bei."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Google Cloud DevOps-Architektur und FAQ",
+    "subtitle": "Klare Antworten auf kritische Netzwerkorchestrierung, Container-Microservices und Compliance-Anfragen",
+    "questions": [
+      {
+        "question": "Was ist der konkrete strategische Wert des Schreibens von Infrastructure as Code (IaC) über Terraform in Google Cloud?",
+        "answer": "Terraform fungiert als einzelne, deklarative Wahrheitsquelle für Ihr Systemnetzwerk. Anstatt Cloud-Ressourcen manuell bereitzustellen, was zu nicht überprüften Konfigurationen führt, verfolgt IaC jeden einzelnen Router, Load Balancer und jedes sichere Datenbank-Setup als Klartextcode und ermöglicht so automatisierte Versionsprüfungen und sofortiges Klonen der Umgebung."
+      },
+      {
+        "question": "Wie erreichen Ihre automatisierten CI/CD-Pipelines Softwareversionen ohne Ausfallzeiten auf GKE?",
+        "answer": "Wir entwickeln spezielle Blue-Green- oder Rolling-Container-Bereitstellungsmechanismen innerhalb der Google Kubernetes Engine. Wenn neuer Code die Validierungsprüfungen besteht, startet die Pipeline neue Container neben der aktiven Infrastruktur, validiert deren Gesundheitszustand und leitet den Benutzerverkehr reibungslos um, ohne dass eine einzige Millisekunde Serviceverzögerung auftritt."
+      },
+      {
+        "question": "Können Ihre Cloud-Umgebungen effizient skaliert werden, um die betrieblichen Hosting-Rechnungen unter Kontrolle zu halten?",
+        "answer": "Absolut. Wir konfigurieren präzise horizontale Pod-Auto-Scaler und GKE-Cluster-Auto-Scaling-Regeln, die direkt an Echtzeit-CPU- und Anforderungslimits gebunden sind. Wenn der Datenverkehr außerhalb der Spitzenzeiten abnimmt, wird die Infrastruktur automatisch verkleinert, wodurch die Rechengrenzen erhalten bleiben und die monatlichen Plattformkosten optimiert werden."
+      },
+      {
+        "question": "Wie schützen Sie sichere Datenbankeinträge und private Microservice-Schlüssel in GCP-Setups?",
+        "answer": "Wir setzen strikte Zero-Trust-Parameterstrategien durch. Datenbanken sind in vollständig privaten Subnetzen eingeschlossen, die vollständig vom öffentlichen Internet getrennt sind. Für alle API-Verbindungen sind kurzlebige kryptografische Token erforderlich, die über Google Cloud Secret Manager verwaltet werden, sodass Anwendungsverbindungsrouten sicher und verborgen bleiben."
+      }
+    ],
+    "footer": {
+      "text": "Sind Sie bereit, Ihre Cloud-Umgebungen in eine unveränderliche DevOps-Infrastruktur der Enterprise-Klasse umzuwandeln?",
+      "link_text": "Vereinbaren Sie eine GCP-Überprüfung mit unserem Technikteam",
+      "link_url": "/contact"
+    }
+  }
+}

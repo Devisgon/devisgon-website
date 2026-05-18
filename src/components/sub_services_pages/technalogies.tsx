@@ -3,22 +3,7 @@ import Link from "next/link";
 import AllIcons from "../icons";
 import { TechnologiesSectionProps } from "@/types/sub_services_page/technalogies";
 import navbarData from "@/data/navbar.json";
-
-type NavbarDropdownLink = {
-  name: string;
-  href: string;
-};
-
-type NavbarDropdownColumn = {
-  links?: NavbarDropdownLink[];
-};
-
-type NavbarItem = {
-  href: string;
-  dropdown?: {
-    columns?: NavbarDropdownColumn[];
-  };
-};
+import { findNavbarItemByHref } from "@/lib/localized-content";
 
 const normalizeTechnologyName = (value: string) =>
   value
@@ -40,8 +25,7 @@ const technologyAliases: Record<string, string> = {
   [normalizeTechnologyName("laravel")]: "/technologies/laravel",
 };
 
-const technologyLinks = (navbarData.navbar as NavbarItem[])
-  .find((item) => item.href === "/technologies")
+const technologyLinks = findNavbarItemByHref(navbarData, "/technologies")
   ?.dropdown?.columns?.flatMap((column) => column.links ?? [])
   .reduce<Record<string, string>>((links, item) => {
     links[normalizeTechnologyName(item.name)] = item.href;

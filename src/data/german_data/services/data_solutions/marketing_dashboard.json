@@ -1,0 +1,206 @@
+{
+  "slug": "marketing-dashboard",
+  "hero_section": {
+    "title": "Entwicklung von Dashboards für Unternehmensmarketing",
+    "subtitle": "Einheitliche Omnichannel-Intelligenz und Echtzeit-Leistungsanalyse",
+    "description": "Wir entwickeln leistungsstarke Echtzeit-Marketing-Dashboards, die fragmentierte Multi-Channel-Werbedaten, Kundengewinnungstrichter und Conversion-Metriken in einer einzigen glasmorphischen Wahrheitsquelle konsolidieren. Maximieren Sie die Effizienz Ihrer Werbeausgaben und beseitigen Sie programmgesteuert Schwachstellen in der Analyse.",
+    "buttons": [
+      {
+        "text": "Gestalten Sie mein Dashboard",
+        "link": "/contact"
+      },
+      {
+        "text": "Konsultieren Sie unsere Dateningenieure",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/marketing_dashboard.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist ein Enterprise-Grade?",
+    "span_heading": "Marketing-Dashboard?",
+    "content": [
+      "Bei Devisgon betrachten wir Marketing Analytics als eine exakte Data-Engineering-Disziplin. Wir gehen weit über langsame, unzusammenhängende Tabellenkalkulationsmakros und generische, statische Analysevorlagen hinaus und entwerfen clientseitige Analyseanwendungen mit geringer Latenz, die auf Streaming-Datenerfassungsnetzen, Abfrageausführung in Sekundenbruchteilen und leistungsstarken visuellen Diagrammschnittstellen basieren.",
+      "Wir schließen die Lücke zwischen komplexen Multiplattform-Programmatic-Ad-Plattformen und taktischen Unternehmensentscheidungen. Jede von uns bereitgestellte Überwachungskonsole verfügt über vollständig containerisierte API-Pipelines, eine sichere Verwaltung von Anmeldeinformationen von Drittanbietern, automatisierte Datenbereinigungsmodelle und eine Dark-Mode-Ästhetik, um Ihre Konvertierungsmetriken in allen globalen Verwaltungsteams einwandfrei darzustellen."
+    ],
+    "highlight_quote": "„Einheitliche Marketing-Telemetrie, Tracking-Abfragen in Sekundenschnelle, 100 % automatisierte Leistungstransparenz.“",
+    "side_image": "/all_services/marketing_dashboard/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Wichtige Vorteile für Unternehmen",
+    "subtitle": "Verwandeln Sie unzusammenhängende Anzeigenmetriken für mehrere Plattformen in eine einzige, hochauflösende visuelle Oberfläche",
+    "cards": [
+      {
+        "title": "Omnichannel-Konsolidierung",
+        "description": "Fassen Sie vollständige Leistungsschleifen über Google Ads, Meta, LinkedIn und E-Mail-Netzwerke hinweg in einer einzigen relationalen Ansicht zusammen und zeigen Sie sie an.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Abfragegeschwindigkeiten im Sekundenbruchteil",
+        "description": "Fragen Sie mithilfe hochoptimierter Datenbankindizierungsstrukturen Millionen von Rohdaten zu Verhaltensereignissen und Konvertierungskontaktpunkten im einstelligen Millisekundenbereich ab.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Sofortige Strukturwarnungen",
+        "description": "Programmieren Sie benutzerdefinierte Leistungsprüfschleifen, die die Cost-per-Acquisition-Ziele (CPA) aktiv überwachen und Teams sofort benachrichtigen, wenn die Kennzahlen abweichen.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Einblicke in prädiktive Ausgaben",
+        "description": "Wandeln Sie rohe historische Anzeigenmetriken in saubere Datenarrays um, um präzise Pfade zum Customer Lifetime Value (LTV) und zukünftige Skalierungskurven zu berechnen.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie mit der Devisgon Analytics Infrastructure erhalten",
+    "image": "/all_services/marketing_dashboard/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Multi-Plattform-API-Datenerfassungsraster",
+        "description": "Robuste Extraktionsbroker (entwickelt über n8n oder Make.com), die zum Abrufen plattformübergreifender Marketingdatennutzlasten und zur Standardisierung von Formatierungsschemata entwickelt wurden."
+      },
+      {
+        "title": "2. Leistungsstarke Pools für relationale Metriken",
+        "description": "Dedizierte Datenbanktabellen, die in einem sicheren, abfrageoptimierten Backend-Netz konfiguriert sind, um absolute Einheitlichkeit der historischen Daten zu gewährleisten."
+      },
+      {
+        "title": "3. Automatisierte Attribution-Mapping-Engines",
+        "description": "Benutzerdefinierte Abfragerouten zur genauen Berechnung von First-Touch-, Last-Touch- und linearen Multi-Touch-Attributionsmetriken über Benutzerpfade hinweg."
+      },
+      {
+        "title": "4. Glasmorphische Bedienfelder mit Umgebungsbeleuchtung",
+        "description": "Responsive Next.js-Benutzeroberflächen mit Hintergrundunschärfe-Stil, präzisen Fortschrittslayoutlinien und benutzerdefinierten Farbakzenten wie #f27f0c."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir integrieren moderne Analysen und visuelle Infrastruktur",
+    "subtitle": "Branchenführende Datenbankplattformen, Diagramm-Engines und Pipeline-Orchestratoren, die für eine intensive Datenskalierung entwickelt wurden",
+    "tools": [
+      {
+        "name": "Next.js (App-Router)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (Analytics Mesh)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "n8n (Datenorchestrierung)",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Tailwind CSS (Ästhetisches Styling)",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "Framer Motion (Diagramm-Rendering)",
+        "icon": "SiFramermotion"
+      },
+      {
+        "name": "Tremor-Benutzeroberfläche / Recharts",
+        "icon": "SiReact"
+      },
+      {
+        "name": "Google Ads-API",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Metagraph-API",
+        "icon": "SiMeta"
+      },
+      {
+        "name": "HubSpot Analytics-API",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "Redis (Abfrage-Caching)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser technischer Entwurf",
+    "subtitle": "Von der Roh-API-Endpunktprüfung bis zur betriebsbereiten Einführung einer benutzerdefinierten Schnittstelle in 6 Wochen",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Überprüfen Sie Unternehmenswerbeprofile, verfolgen Sie API-Ratenbeschränkungen von Drittanbietern, kartieren Sie Datenzuordnungsanforderungen und geben Sie Metrikziele im Detail an.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulieren Sie Master-Datenbankspeichermuster, strukturieren Sie Nutzlast-Extraktionskarten und entwerfen Sie glasmorphische Widget-Schnittstellen im Dunkelmodus.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmieren Sie benutzerdefinierte Extraktionsrouter, konfigurieren Sie Pipeline-Synchronisierungen auf n8n/Make und programmieren Sie clientseitige Rendering-Ansichten mit geringer Latenz in Next.js.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Führen Sie umfangreiche Datenbelastungstests mit hohem Durchsatz durch, optimieren Sie Indexierungsskripte und starten Sie selbstaktualisierende Leistungs-Dashboards sicher.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100 % genaue Kostenzuordnungszuordnung und mehr als 18 technische Stunden, die wöchentlich zurückgewonnen werden",
+    "image": "/all_services/marketing_dashboard/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operative Straßensperre",
+        "text": "Eine expandierende Verbrauchermarke traf aufgrund fragmentierter Datenaktualisierungen, Datendiskrepanzen und langsamer manueller plattformübergreifender Berichtsschleifen suboptimale Entscheidungen für das Werbebudget."
+      },
+      "solution": {
+        "label": "Unser Engineering-Ansatz",
+        "text": "Wir haben einen automatisierten Marketingdaten-Aggregator entwickelt, der n8n und serverlose Next.js-API-Routen verwendet und strukturierte Metriken in einem isolierten Supabase-Datenbankpool anzeigt."
+      },
+      "result": {
+        "label": "Messbare Wirkung",
+        "text": "Der Aufwand für die manuelle Kompilierung sank auf den absoluten Nullpunkt, die Latenzzeit bei der Datensynchronisierung sank auf weniger als eine Sekunde und die Führungskräfte sicherten sich einen sofortigen Einblick in die tatsächlichen Akquisitionskosten in Echtzeit."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Dashboard-Architektur und FAQ",
+    "subtitle": "Klare Antworten auf kritische Fragen zur Datenbankkonfiguration, Webhook-Verarbeitung und Pipeline-Sicherheit",
+    "questions": [
+      {
+        "question": "Warum kombinieren Sie Microservices für die visuelle Integration mit benutzerdefinierten programmatischen Frameworks?",
+        "answer": "Wir kombinieren das agile Workflow-Tracking von n8n oder Make.com mit spezialisierten serverlosen Routenhandlern von Next.js. Diese Architektur nutzt Low-Code-Schnittstellen für eine klare Datenflussüberwachung und benutzerdefinierte JavaScript-Codeblöcke für sicheres Token-Parsing, mehrschichtige Sortierregeln und präzise Array-Transformationen."
+      },
+      {
+        "question": "Was passiert mit dem Dashboard-Tracking-System bei hohem Verkehrsaufkommen oder Klickwellen?",
+        "answer": "Wir stellen zustandslose Integrations-Middleware bereit, die durch Hochgeschwindigkeits-Redis-Datenbankpuffer unterstützt wird. Wenn Ihre Werbekampagnen Tausende gleichzeitiger Benutzerklick-Webhooks generieren, strukturiert unsere Pipeline sicher Nutzlasten und aktualisiert visuelle Elemente, ohne die Ausführungsgrenzen von Drittanbietern zu überschreiten."
+      },
+      {
+        "question": "Können wir benutzerdefinierte Front-End-Einnahmekanäle wie JotForm direkt mit Master-Marketingansichten verbinden?",
+        "answer": "Absolut. Wir konstruieren robuste Webhook-Gateways, die sicher JSON-Parameter in Echtzeit von Plattformen wie Jotform aufnehmen und Konvertierungsmarkierungen analysieren, bevor Sie Ihre zentralen relationalen Metriktabellen aktualisieren."
+      },
+      {
+        "question": "Wie schützen Sie sensible Marketingdaten und Kampagnenbudgets über Integrationspipelines hinweg?",
+        "answer": "Jede von uns eingesetzte automatisierte Datenplattform erzwingt Zero-Trust-Parametermodelle. Alle eingehenden Webhooks werden mithilfe kryptografischer Signaturen (SHA-256-Header-Tags) validiert, alle Datenströme werden während der Übertragung über TLS 1.3 verschlüsselt und private Unternehmensfelder werden vor der Anzeige vollständig maskiert."
+      }
+    ],
+    "footer": {
+      "text": "Sind Sie bereit, eine einheitliche, leistungsstarke Marketing-Telemetrie-Architektur aufzubauen?",
+      "link_text": "Vereinbaren Sie mit unserem Team eine Überprüfung des Unternehmens-Dashboards",
+      "link_url": "/contact"
+    }
+  }
+}

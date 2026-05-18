@@ -1,0 +1,206 @@
+{
+  "slug": "sales-automation",
+  "hero_section": {
+    "title": "企业销售自动化系统",
+    "subtitle": "用于高速创收的算法管道优化",
+    "description": "我们设计高性能、事件驱动的销售自动化基础设施，将传入的销售线索信号转换为结构化、自动化的销售工作流程。加快交易速度，消除手动数据库日志记录，并扩展您的管道运营。",
+    "buttons": [
+      {
+        "text": "架构我的销售引擎",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的自动化工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/sales_automation.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "销售自动化？",
+    "content": [
+      "在 Devisgon，我们构建自定义销售自动化层，旨在协调整个企业生态系统中的高吞吐量、数据驱动的收入运营。我们远远超出了基本的日历调度程序，我们设计了分散的工作流程架构，可以在本地处理复杂的潜在客户分布数组、程序化资格参数和即时多平台配置文件丰富。",
+      "我们弥合了面向用户的进气引擎和内部 B2B 销售软件之间的差距。每个自动化管道都部署了分布式 Webhook 监控、实时回退处理程序、有效负载架构验证和安全 API 密钥，确保您的交易跟踪、文档交付和 CRM 管道完美同步。"
+    ],
+    "highlight_quote": "“解耦数据路由、低延迟管道同步、0% 手动记录摩擦。”",
+    "side_image": "/all_services/sales_automation/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将碎片化的用户记录转变为高转化、程序化的销售渠道",
+    "cards": [
+      {
+        "title": "即时潜在客户资格",
+        "description": "对传入的公司记录 Webhook 触发的精确毫秒进行评估和评分，根据负载元数据立即触发特定的意图路径。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "自主 CRM 路由",
+        "description": "通过部署循环逻辑图来消除人工分配滞后，该逻辑图可以立即分配潜在客户、创建交易并通过安全通信渠道通知销售代表。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "计划性跟进",
+        "description": "执行有条件的多渠道接触点（包括短信警报和自定义模板删除），由交易管道阶段的变化严格触发。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "预测收入遥测",
+        "description": "将原始 CRM 活动日志转换为干净的结构化数据集，以监控历史转换趋势、阶段瓶颈下降和配额速度概况。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devsgon 收入基础设施获得什么",
+    "image": "/all_services/sales_automation/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 多应用Webhook编排Web",
+        "description": "先进的工作流网络（在 n8n 或 Make.com 上设计），可摄取主要钩子、执行数据转换和更新工具。"
+      },
+      {
+        "title": "2. 实时数据丰富引擎",
+        "description": "API 中间件层拦截传入的联系人、搜索外部固件服务器并注入结构元数据标签。"
+      },
+      {
+        "title": "3. 自动化合同和文档管道",
+        "description": "编程文档引擎可自动生成干净的 PDF、传递签名有效负载参数并在完成时触发计费 Webhook。"
+      },
+      {
+        "title": "4. 集中式管道遥测仪表板",
+        "description": "时尚的 Next.js 跟踪门户采用暗模式和 glassmorphism 样式构建，可可视化转换渠道、响应时间和 API 运行状况。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们与强化的销售和收入架构集成",
+    "subtitle": "行业领先的编排工具、数据网络和通信 API，专为高流量运营而设计",
+    "tools": [
+      {
+        "name": "n8n",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "HubSpot 客户关系管理",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "销售人员API",
+        "icon": "SiSalesforce"
+      },
+      {
+        "name": "乔特形式API",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "Next.js（边缘路由）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（身份验证和数据库）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Twilio（语音和短信 API）",
+        "icon": "SiTwilio"
+      },
+      {
+        "name": "重新发送（交易电子邮件）",
+        "icon": "SiResend"
+      },
+      {
+        "name": "Redis（消息队列）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从端点映射到实时程序化销售自动化",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核现有 CRM 属性、跟踪运营销售步骤、定义资格规则并映射所需的软件 API 端点。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "构建多路径自动化逻辑矩阵，制定数据映射模式，以及蓝图错误处理回退路线。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对中间件路由器进行编程，在 n8n/Make 上部署云集成网络，并链接安全的 HubSpot、Twilio 和 Jotform API 挂钩。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "运行密集的端到端负载测试，验证峰值流量模拟下的实时触发延迟指标，并安全上线。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "+280% 领先速度加速并 100% 消除手动输入错误",
+    "image": "/all_services/sales_automation/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一个快速增长的 B2B 技术平台正在失去交易，因为销售代表花费了 12 个小时以上的时间来手动验证、输入和认领来自断开连接的表单提交的潜在客户。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们通过 n8n 微服务设计了一个事件驱动的 Webhook 管道，将其 Jotform 摄取阵列链接到 HubSpot，同时嵌入自动数据丰富参数。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "初始响应时间从几小时缩短到亚秒级，管理日志记录工作绝对为零，整体团队管道速度加快了 280%。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "销售自动化架构和常见问题解答",
+    "subtitle": "关键系统扩展、数据路由和 Webhook 安全问题的清晰答案",
+    "questions": [
+      {
+        "question": "如何将可视化集成平台与自定义代码路由结合起来？",
+        "answer": "我们将 n8n 或 Make.com 的敏捷工作流映射与专门的 Next.js 无服务器路由处理程序配对。该架构利用低代码工具进行可见的工作流程序列控制，并利用自定义 JavaScript/Python 代码块进行安全令牌解析和深度数据映射。"
+      },
+      {
+        "question": "如果核心销售平台在流量激增期间出现故障，会发生什么情况？",
+        "answer": "我们先于您的工具使用高速 Redis 缓冲区构建异步消息队列。如果像 HubSpot 这样的外部服务遇到暂时中断，我们的中间件会安全地捕获 Webhook 有效负载，记录队列，并在平台恢复后自动重试同步。"
+      },
+      {
+        "question": "我们能否安全地将无服务器 Web 应用程序连接到 Twilio Call Agents 等自动化语音工具？",
+        "answer": "绝对地。我们构建了强大的 Webhook 网关，可以在无服务器后端路由器和高级通信 API 之间安全地来回交换实时 JSON 参数，从而实现即时、自动的语音跟进或文本状态跟踪。"
+      },
+      {
+        "question": "在跨集成层移动数据时如何保护敏感的公司记录？",
+        "answer": "我们执行严格的零信任参数准则。每个传入的 Webhook 都会检查加密签名（SHA-256 验证），数据在传输过程中使用 TLS 1.3 进行完全加密，并且所有敏感客户字段都会在传输层之前被剥离或屏蔽。"
+      }
+    ],
+    "footer": {
+      "text": "准备好以编程方式扩展您的公司收入基础架构了吗？",
+      "link_text": "与我们的团队安排自动化审核",
+      "link_url": "/contact"
+    }
+  }
+}

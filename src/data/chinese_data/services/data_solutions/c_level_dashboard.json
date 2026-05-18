@@ -1,0 +1,206 @@
+{
+  "slug": "c-level-dashboard",
+  "hero_section": {
+    "title": "企业 C 级高管仪表板",
+    "subtitle": "战略商业智能和统一高保真性能遥测",
+    "description": "我们设计了生产级高管仪表板，将分散的财务向量、收入指标、运营能力日志和市场风险变量统一为单一透明的事实来源。通过整个企业的实时战略调整和绝对可见性来增强战略领导力。",
+    "buttons": [
+      {
+        "text": "架构师执行情报",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的数据工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/c_level_dashboard.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "C级仪表板？",
+    "content": [
+      "在 Devisgon，我们将执行智能视为严格的高性能数据工程学科。我们远远超越了杂乱的操作图表、相互冲突的数据定义和缓慢的电子表格更新，构建了基于高速统一数据管道的低延迟客户端控制台应用程序，为复杂的战略问题提供亚秒级答案。",
+      "我们弥合了繁重的事务数据库和顶级管理监督之间的差距。我们部署的每个 C 级监控门户都具有基于角色的自定义权限树、多源财务 ETL 数据模型、数据安全合规性和高级暗模式美学，以完美呈现您的年度经常性收入 (ARR)、客户生命周期价值比率和效率指标。"
+    ],
+    "highlight_quote": "“统一的战略遥测、亚秒级的执行查询、100% 数据驱动的运营信心。”",
+    "side_image": "/all_services/c_level_dashboard/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将分散的部门孤岛转变为单一的、高保真的战略指挥视图",
+    "cards": [
+      {
+        "title": "统一的企业清晰度",
+        "description": "将销售、运营、营销和财务方面的重要高级 KPI 整合到单一视图中，确保所有执行团队都根据单一事实版本开展工作。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "亚秒级决策速度",
+        "description": "使用高度优化的数据库引擎，在个位数毫秒内对数百万个核心事务行和系统日志执行深度分析聚合查询。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "细化权限树",
+        "description": "强制执行数据架构中内置的严格零信任权限模型，确保安全的财务记录或合法数据字段与用户验证清算相匹配。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "预测缩放轨迹",
+        "description": "将原始历史遥测曲线转化为清晰的预测数组，计算精确的收入回收期和自动化市场增长趋势。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon 执行基础设施将为您带来什么",
+    "image": "/all_services/c_level_dashboard/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 多源管道整合结构",
+        "description": "强大的提取代理（通过 n8n 或 Make.com 设计）配置为获取多应用程序数据、清理架构和标准化格式化配置文件。"
+      },
+      {
+        "title": "2. 高性能关系指标池",
+        "description": "在安全后端网格内优化的专用历史数据库表，以保持业务记录之间严格的数学一致性。"
+      },
+      {
+        "title": "3. 自动性能警报门",
+        "description": "配置自定义查询检查路径以监视关键目标（例如 LTV：CAC 下降边界），如果变量发生漂移，则触发实时 Webhook 通知。"
+      },
+      {
+        "title": "4. 环境发光玻璃控制台",
+        "description": "响应式 Next.js 用户视图采用背景模糊细节、严格的 2x2 网格布局、特定进度线坐标和标志性颜色突出显示构建。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们与现代分析和企业数据基础设施集成",
+    "subtitle": "行业领先的核心平台、图表运行时和专为企业规模构建的管道编排器",
+    "tools": [
+      {
+        "name": "Next.js（应用程序路由器）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（数据存储堆栈）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL（pgvector 日志记录）",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "n8n（高级工作流程自动化）",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Tailwind CSS（美观配置）",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "Framer Motion（平滑视觉过渡）",
+        "icon": "SiFramermotion"
+      },
+      {
+        "name": "Tremor UI / Recharts 组件",
+        "icon": "SiReact"
+      },
+      {
+        "name": "HubSpot CRM 分析 API",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "销售人员API",
+        "icon": "SiSalesforce"
+      },
+      {
+        "name": "Redis（低延迟查询缓存）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "乔特形式API",
+        "icon": "SiJotform"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从原始数据提取布局到实时执行仪表板启动，仅需 6 周时间",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核不同的公司软件架构，定义目标执行 KPI，建立数据权限树并详细说明度量规则。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定统一的数据库转换模板，规划多平台有效负载同步路线，并绘制暗模式用户小部件。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对自定义中间件路由器进行编程，在 n8n/Make 上部署自动化数据流，并在 Next.js 中编写优化的客户端渲染布局。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行深度集成压力评估，确认亚秒级数据查询速度，并安全启动实时可视化门户。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "+340% 执行速度加速并 100% 消除数据报告差异",
+    "image": "/all_services/c_level_dashboard/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于报告脱节、数据碎片和缓慢的手动跨平台编译方法，一家规模化科技公司面临着延迟的管理选择。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 n8n 引擎和无服务器 Next.js 边缘路由器设计了一个自动化的企业数据整合矩阵，将指标直接输入到安全的 Supabase 池中。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "手动电子表格处理降至绝对零，仪表板数据同步延迟降至亚秒级，最高管理层确保了 100% 准确的实时跟踪可见性。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "执行仪表板架构和常见问题解答",
+    "subtitle": "关键数据库配置、Webhook 处理和管道安全问题的清晰答案",
+    "questions": [
+      {
+        "question": "为什么将低代码可视化集成微服务与自定义代码路由配对？",
+        "answer": "我们平衡 n8n 或 Make.com 的敏捷工作流程跟踪与专门的 Next.js 无服务器路由处理程序。该架构利用低代码接口实现清晰的数据路径可视化，并利用自定义 JavaScript/Python 代码块进行安全令牌解析、多层数据格式化和复杂的数组转换。"
+      },
+      {
+        "question": "在突发的大流量激增或系统事件期间，仪表板如何管理数据库性能？",
+        "answer": "我们部署由高速 Redis 数据库缓冲区支持的无状态集成中间件。如果您的操作系统遇到数千个并发事务性 Webhook，我们的管道可以安全地对有效负载进行排队，顺利更新数据指标，而不会触及数据库执行限制块。"
+      },
+      {
+        "question": "像 Jotform 这样的自定义前端导入格式可以直接连接到集中式执行视图吗？",
+        "answer": "绝对地。我们构建了强大的 Webhook 网关，可以从 Jotform 等表单中安全地获取实时 JSON 参数，在将记录附加到中央关系指标表之前解析验证字段。"
+      },
+      {
+        "question": "如何跨集成管道保护敏感的公司数据和财务领域？",
+        "answer": "我们部署的每个自动化数据平台都强制执行零信任参数准则。所有传入的 Webhook 均使用加密签名（SHA-256 标头验证）进行验证，数据传输在传输过程中通过 TLS 1.3 进行加密，并且私有公司字段在显示组件之前完全屏蔽。"
+      }
+    ],
+    "footer": {
+      "text": "准备好构建统一的高性能执行智能架构了吗？",
+      "link_text": "与我们的工程团队安排 C 级平台审查",
+      "link_url": "/contact"
+    }
+  }
+}

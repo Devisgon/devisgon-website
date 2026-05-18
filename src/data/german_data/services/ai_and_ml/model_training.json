@@ -1,0 +1,206 @@
+{
+  "slug": "model-training",
+  "hero_section": {
+    "title": "Schulung zum Modell für Unternehmens-KI und maschinelles Lernen",
+    "subtitle": "Benutzerdefinierte algorithmische Optimierung, die auf proprietären Daten basiert",
+    "description": "Wir entwickeln, trainieren und validieren domänenspezifische Modelle für maschinelles Lernen von Grund auf. Verwandeln Sie Ihre operativen Rohdatenseen in hochpräzise Corporate-Intelligence-Assets, die mit benutzerdefinierten neuronalen Gewichtungen erstellt wurden.",
+    "buttons": [
+      {
+        "text": "Starten Sie das Modelltraining",
+        "link": "/contact"
+      },
+      {
+        "text": "Konsultieren Sie unsere Dateningenieure",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/model_training.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist Enterprise-Grade?",
+    "span_heading": "Modeltraining?",
+    "content": [
+      "Bei Devisgon betrachten wir das Modelltraining für maschinelles Lernen als eine exakte Wissenschaft. Wir gehen über generische, vorab trainierte API-Wrapper hinaus und entwerfen und führen benutzerdefinierte Trainingsschleifen aus, die speziell auf die Datenstrukturen Ihres Unternehmens zugeschnitten sind. Ganz gleich, ob Sie tiefe neuronale Netze für Computer Vision trainieren, große Transformatormodelle verfeinern oder robuste tabellarische Vorhersagesysteme erstellen – wir stellen eine vollständige Anpassung an Ihre betrieblichen Einschränkungen sicher.",
+      "Wir schließen die Lücke zwischen unübersichtlichen Rohdatenpools und leistungsstarken Inferenzlaufzeiten. Jeder Trainingslebenszyklus wird durch automatisierte, versionierte Rechenpipelines, strenge Bias-Varianz-Prüfungen und Hyperparameter-Optimierungskonfigurationen verwaltet, was zu produktionsbereiten Modellen führt, die höchste Präzision, Stabilität und Geschwindigkeit erreichen."
+    ],
+    "highlight_quote": "„Proprietäre Parametergewichte, hochpräzise Validierungsmatrizen, 0 % Abhängigkeit von öffentlichen Modellen Dritter.“",
+    "side_image": "/all_services/model_training/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Wichtige Vorteile für Unternehmen",
+    "subtitle": "Konvertieren Sie rohe Unternehmenstelemetrie in private, hochpräzise mathematische Vermögenswerte",
+    "cards": [
+      {
+        "title": "Proprietäre Gewichtskontrolle",
+        "description": "Besitzen Sie Ihre algorithmische Intelligenz vollständig. Trainieren Sie einzigartige Parameter und Gewichtskonfigurationen, die Ihre Konkurrenten nicht von der Stange kaufen können.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Tiefe Kontextausrichtung",
+        "description": "Trainieren Sie Modelle anhand Ihres tatsächlichen Unternehmensvokabulars, benutzerdefinierter Produkt-IDs und betrieblicher Nuancen, um eine umfassende kontextbezogene Genauigkeit zu erzielen.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Drastische Latenzreduzierung",
+        "description": "Optimieren und bereinigen Sie benutzerdefinierte Modelle für die Ausführung auf einfachen Microservices und reduzieren Sie so die Inferenzlatenz im Vergleich zu Netzwerken mit mehreren Milliarden Parametern drastisch.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Vollständige Datenschutzgarantie",
+        "description": "Schützen Sie das geistige Eigentum Ihres Kerngeschäfts, indem Sie Modellschulungen vollständig innerhalb Ihres isolierten Cloud-Perimeters ohne Austritt durchführen.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie mit dem Devisgon Custom Model Training erhalten",
+    "image": "/all_services/model_training/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Produktionsbereit trainierte Modellgewichte",
+        "description": "Vollständig kompilierte, hochoptimierte Modellbinärdateien (z. B. ONNX, PyTorch, TensorFlow), angepasst an die Lösung Ihrer spezifischen Geschäftsziele."
+      },
+      {
+        "title": "2. End-to-End-Datenvorverarbeitungs-Ensembles",
+        "description": "Programmatische ETL-Pipelines, die Rohdatensätze automatisch vor Trainingsschleifen bereinigen, normalisieren, tokenisieren und ausgleichen."
+      },
+      {
+        "title": "3. Automatisierte Hyperparameter-Tuning-Register",
+        "description": "Verteilte Rechenroutinen (Bayesian, Grid Search), die entwickelt wurden, um die maximale Modellleistung aus Ihren Zieldatensätzen zu extrahieren."
+      },
+      {
+        "title": "4. Vervollständigen Sie die Schulungsbewertungsbücher",
+        "description": "Umfassende Verlustprotokolle, Verwirrungsmatrizen, ROC-AUC-Profile und Validierungsmetriken zur Überprüfung der Strukturmodellsicherheit vor der Bereitstellung."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir trainieren mit bewährten, unternehmensweiten Computing-Tools für maschinelles Lernen",
+    "subtitle": "Branchenführende Deep-Learning-Frameworks, Hyperparameter-Tuner und MLOps-Technologie, die für riesige Datensätze entwickelt wurden",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Scikit-Learn",
+        "icon": "SiScikitlearn"
+      },
+      {
+        "name": "XGBoost",
+        "icon": "SiXgboost"
+      },
+      {
+        "name": "Umarmendes Gesicht (Transformers)",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Gewichte und Voreingenommenheiten",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Ray (verteiltes Rechnen)",
+        "icon": "SiRay"
+      },
+      {
+        "name": "Optuna",
+        "icon": "SiOptuna"
+      },
+      {
+        "name": "CUDA / NVIDIA SDK",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase (Metadatenprotokollierung)",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser technischer Entwurf",
+    "subtitle": "Von der Datenentwicklung bis zur Auslieferung der kompilierten Modellproduktion in 6 Wochen",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Bewerten Sie Zieldatensätze, bewerten Sie Klassenbilanzen, definieren Sie Verlustmetriken und richten Sie Datenspeicher-Frameworks aus.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Programmieren Sie Aufnahme-Workflows, entwerfen Sie benutzerdefinierte Deep-Learning-Architekturen und planen Sie Trainingsvalidierungsaufteilungen.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Führen Sie verteilte Trainingsschleifen aus, verwalten Sie Hyperparameter-Sweeps, bewerten Sie Verlustkurven und führen Sie Bias-Varianz-Optimierungen durch.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Kompilieren Sie Gewichtungen in optimierte Formate (ONNX), packen Sie Endpunkte in sichere Container und aktivieren Sie kontinuierliche Evaluierungspipelines sicher.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "99,1 % hochpräzise Betrugserkennung durch maßgeschneiderte Deep-Learning-Architektur",
+    "image": "/all_services/model_training/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operative Straßensperre",
+        "text": "Eine skalierende Finanzplattform führte zu Umsatzeinbußen, da standardmäßige, regelbasierte Sicherheitssoftware weiterhin komplexe, nichtlineare betrügerische Transaktionsmuster übersah."
+      },
+      "solution": {
+        "label": "Unser Engineering-Ansatz",
+        "text": "Wir haben über PyTorch ein proprietäres Klassifizierungsnetzwerk aufgebaut und eine End-to-End-Trainingsschleife über Millionen anonymisierter, historischer Transaktionsdatenzeilen eingerichtet."
+      },
+      "result": {
+        "label": "Messbare Wirkung",
+        "text": "Die Genauigkeit der Erkennung betrügerischer Vorfälle stieg auf 99,1 %, Fehlalarme gingen um 68 % zurück und die trainierte Modellbinärdatei reagierte mit blitzschnellen Validierungsgeschwindigkeiten von weniger als einer Millisekunde."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Modellschulungsarchitektur und FAQ",
+    "subtitle": "Klare Antworten auf kritische Fragen zur Implementierung, Datensicherheit und Recheninfrastruktur",
+    "questions": [
+      {
+        "question": "Was ist der Unterschied zwischen dem Training eines benutzerdefinierten Modells und der Feinabstimmung eines vorhandenen Modells?",
+        "answer": "Durch das Training von Grund auf werden anhand Ihrer spezifischen Daten Parametergewichte von Null erstellt, ideal für benutzerdefinierte tabellarische oder Nischen-Vision-Aufgaben. Die Feinabstimmung beginnt mit einem breiten, vorab trainierten Basismodell (wie einem LLM) und ändert seine äußeren Schichten, um sie an Ihr branchenspezifisches Vokabular anzupassen."
+      },
+      {
+        "question": "Wie stellen Sie sicher, dass ein trainiertes Modell bei realen Daten nicht „überpasst“ und versagt?",
+        "answer": "Wir setzen strenge Kreuzvalidierungsprotokolle, Frühstopp-Trigger und Regularisierungsmatrizen (L1/L2) durch. Wir isolieren bestimmte Validierungs- und Testsätze, die das Modell während des Trainings nie sieht, und stellen so sicher, dass sich seine Genauigkeitswerte perfekt auf die aktive Produktion übertragen lassen."
+      },
+      {
+        "question": "Wo findet das Computertraining statt und wie werden die Serverkosten verwaltet?",
+        "answer": "Das Training findet in sicheren Cloud-Instanzen statt (wie AWS SageMaker oder benutzerdefinierten EC2-GPU-Spot-Clustern). Wir schreiben hochoptimierte Batch-Skripte und nutzen Frameworks wie Ray, um Arbeitslasten effizient zu verteilen und die Verschwendung von Rechenressourcen auf ein Minimum zu beschränken."
+      },
+      {
+        "question": "Wie gehen Sie mit stark unausgeglichenen Unternehmensdaten um, bei denen Zielereignisse selten sind?",
+        "answer": "Wir setzen fortschrittliche algorithmische Datentechnik ein und nutzen Techniken wie SMOTE für synthetisches Upsampling, Fokalverlustanpassungsparameter und strategisches Downsampling, um sicherzustellen, dass das Modell lernt, kritische Minderheitsanomalien genau zu erkennen."
+      }
+    ],
+    "footer": {
+      "text": "Sind Sie bereit, proprietäre Gewichtungen für maschinelles Lernen auf Ihren Unternehmensdaten zu trainieren?",
+      "link_text": "Vereinbaren Sie einen Schulungsrückblick mit unserem Team",
+      "link_url": "/contact"
+    }
+  }
+}

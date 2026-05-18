@@ -1,0 +1,206 @@
+{
+  "slug": "bug-bounty",
+  "hero_section": {
+    "title": "Enterprise Bug Bounty & Crowdsourced Security Platforms",
+    "subtitle": "Continuous, Adversarial Vulnerability Discovery at Global Scale",
+    "description": "We architect, launch, and manage production-grade Bug Bounty programs that harness the ethical hacking community to find critical vulnerabilities in your code. Harden your external attack surface, secure your APIs, and prevent catastrophic breaches through continuous penetration testing.",
+    "buttons": [
+      {
+        "text": "Launch My Bug Bounty",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our Security Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/bug_bounty.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is an Enterprise-Grade",
+    "span_heading": " Bug Bounty Program?",
+    "content": [
+      "At Devisgon, we treat defensive security as an ongoing, adversarial discipline. Moving far beyond traditional, point-in-time annual penetration tests, we build resilient crowdsourced security frameworks that open your production apps, server networks, and code ecosystems to elite ethical hackers around the clock under strict, customized rules of engagement.",
+      "We bridge the gap between open-ended security research and internal engineering teams. Every program we manage features automated triage filtering, vulnerability verification, reward pricing strategies, and integration into your CI/CD pipelines, ensuring your web systems, databases, and microservices remain hardened against real-world exploits."
+    ],
+    "highlight_quote": "“Continuous crowd-sourced defense, verified vulnerability metrics, 0% reliance on simple automated scanners.”",
+    "side_image": "/all_services/bug_bounty/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Enterprise Benefits",
+    "subtitle": "Convert your exposed digital perimeters into a battle-tested, secure application network",
+    "cards": [
+      {
+        "title": "Continuous Defect Discovery",
+        "description": "Expose critical code flaws, injection bugs, and hidden access bypasses around the clock, far outpacing the scheduling limits of periodic audits.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Diverse Adversarial Insight",
+        "description": "Engage hundreds of specialized security researchers utilizing modern toolsets, mimicking the actual methodologies of malicious actors safely.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Pay-for-Performance Value",
+        "description": "Optimize your security budget programmatically by paying exclusively for valid, verified vulnerabilities rather than flat human consulting hours.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Proactive Brand Hardening",
+        "description": "Demonstrate a world-class commitment to data security and regulatory compliance by maintaining a structured, safe channel for ethical disclosure.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You'll Receive with Devisgon Crowdsourced Security Fabrics",
+    "image": "/all_services/bug_bounty/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Customized Bug Bounty Scopes & Policies",
+        "description": "Production-grade rules of engagement specifying protected boundaries, testing limitations, and explicit safe-harbor legal protections."
+      },
+      {
+        "title": "2. Managed Report Triage & Validation Engines",
+        "description": "Expert engineering review pipelines that screen out noise, replicate security claims, and weed out false positives automatically."
+      },
+      {
+        "title": "3. Programmatic Severity Mapping (CVSS v4)",
+        "description": "Rigorous evaluation setups using the Common Vulnerability Scoring System to calculate structural flaw impacts accurately."
+      },
+      {
+        "title": "4. Centralized Security Observability Dashboards",
+        "description": "Sleek Next.js tracking portals styled with dark-mode, backdrop-blur, and clear ambient glow designs to monitor patch metrics and vulnerability statuses."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We Secure with Modern, Advanced Offensive Security Tools",
+    "subtitle": "Industry-leading testing platforms, distributions, and configuration meshes built for deep system auditing",
+    "tools": [
+      {
+        "name": "Kali Linux",
+        "icon": "SiKalilinux"
+      },
+      {
+        "name": "Burp Suite Pro",
+        "icon": "SiBurpsuite"
+      },
+      {
+        "name": "OWASP Zed Attack Proxy",
+        "icon": "SiOwasp"
+      },
+      {
+        "name": "HackerOne API",
+        "icon": "SiHackerone"
+      },
+      {
+        "name": "Bugcrowd API",
+        "icon": "SiBugcrowd"
+      },
+      {
+        "name": "Nuclei (Vulnerability Scanner)",
+        "icon": "SiNuclei"
+      },
+      {
+        "name": "Payload CMS (Secure Config)",
+        "icon": "SiPayloadcms"
+      },
+      {
+        "name": "Supabase (Auth Penetration Testing)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (SQLi Testing)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Next.js (Security Auditing)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker (Isolated Lab Environment)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "GitHub Actions (DevSecOps Sync)",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "GitLab CI (Security Pipelines)",
+        "icon": "FaGitlab"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Engineering Blueprint",
+    "subtitle": "From scope formulation to live global bug bounty rollout in 6 weeks",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Audit corporate asset inventories, map external API domains, define target security boundaries, and evaluate current system code baselines.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Draft program policy conditions, formulate reward payout matrix tiers based on severity, and structure engineering triage routes.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Configure the bounty platform workspace, implement webhooks for automated engineering notifications, and write input verification tests.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Onboard private researcher tiers, initiate localized soft launches, monitor validation latency under initial traffic, and take the program live globally.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "0% Severe Exploits Reaching Active Production and +400% Vulnerability Remediation Velocity",
+    "image": "/all_services/bug_bounty/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Security Roadblock",
+        "text": "A high-growth cloud platform utilizing Supabase and Payload CMS was facing continuous scanning attacks and feared hidden logic flaws would bypass their traditional firewall arrays."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "We designed and launched a managed Bug Bounty framework, orchestrating automated triage filters via n8n and feeding validated exploit proof files directly to the dev team via secure APIs."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "Critical authorization logic issues were safely isolated and patched prior to malicious abuse, code exposure risk plummeted, and engineering response velocities accelerated fourfold."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Security Architecture & FAQ",
+    "subtitle": "Clear answers to critical crowd-sourced testing, researcher coordination, and perimeter safety queries",
+    "questions": [
+      {
+        "question": "What is the primary difference between a classic Penetration Test and a Bug Bounty program?",
+        "answer": "A Penetration Test typically relies on a single consultancy group auditing your code over a rigid 1-2 week window for a flat fee. A Bug Bounty program is continuous and crowd-sourced, opening your defined scopes to thousands of diverse security researchers around the globe who are compensated only when they discover actionable vulnerabilities."
+      },
+      {
+        "question": "How do you protect our platform against rogue hackers trying to actively damage our database grids?",
+        "answer": "We enforce strict, granular Rules of Engagement. Every researcher must follow clear testing parameters—such as avoiding Denial of Service (DoS) attempts, using explicit test header tags, and accessing only custom mock data pools, which allows security teams to monitor and block invalid traffic footprints immediately."
+      },
+      {
+        "question": "Can we run a highly secure, restricted program without exposing our code to the public web?",
+        "answer": "Absolutely. We build custom Private Bug Bounty programs. This model limits access exclusively to highly vetted, top-ranked ethical security researchers. The program operates under non-disclosure parameters within isolated staging runtimes, giving you deep defensive testing visibility before going public."
+      },
+      {
+        "question": "How does your triage process prevent our engineering teams from getting swamped by duplicate reports?",
+        "answer": "We engineer a rigorous multi-stage validation proxy. Every incoming ticket runs through custom automation tooling and human code-replication audits. We independently verify, rate according to CVSS guidelines, and clean the files, routing only confirmed, net-new issues directly into your Jira or GitHub development backlogs."
+      }
+    ],
+    "footer": {
+      "text": "Ready to build an ironclad, crowd-backed security defense mesh?",
+      "link_text": "Schedule an architecture review with our security team",
+      "link_url": "/contact"
+    }
+  }
+}       

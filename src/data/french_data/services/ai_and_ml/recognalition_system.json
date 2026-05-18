@@ -1,0 +1,206 @@
+{
+  "slug": "recognition-systems",
+  "hero_section": {
+    "title": "Systèmes de reconnaissance de l'IA d'entreprise",
+    "subtitle": "Infrastructure de vérification d'identité et biométrique de haute précision",
+    "description": "Nous concevons des systèmes de reconnaissance d'IA sécurisés et à faible latence qui automatisent la vérification des utilisateurs, la validation biométrique faciale, le mappage de signatures d'objets et la numérisation optique de textes sur l'ensemble de votre pile logicielle d'entreprise.",
+    "buttons": [
+      {
+        "text": "Systèmes de reconnaissance des architectes",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs biométriques",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/recognition_systems.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "span_heading": "Un système de reconnaissance ?",
+    "content": [
+      "Chez Devisgon, nous concevons et déployons des architectures de reconnaissance hautes performances conçues pour traiter des données biométriques complexes, des coordonnées spatiales et des vecteurs de documents physiques. Au-delà des wrappers de vérification tiers génériques à latence élevée, nous construisons des algorithmes d'alignement neuronal personnalisés qui mappent les visages individuels, la télémétrie des empreintes digitales et les signatures d'actifs dans des bases de données vectorielles protégées.",
+      "Nous comblons le fossé entre les intrants biologiques ou structurels de haute sécurité et les applications Web standards. Chaque système est conçu pour s'intégrer de manière native aux systèmes de sécurité des appareils mobiles modernes (comme les profils de reconnaissance faciale et d'empreintes digitales), en appliquant des périmètres de données de confiance zéro, des itinéraires de vérification basés sur des jetons et des recherches de classification inférieures à la milliseconde."
+    ],
+    "highlight_quote": "« Précision de classification de 99,9 %, recherches vectorielles inférieures à la milliseconde, biométrie cryptographique sans confiance. »",
+    "side_image": "/all_services/recognition_systems/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Sécurisez et accélérez les points de contact des utilisateurs grâce à une correspondance d'identité concrète et basée sur les données.",
+    "cards": [
+      {
+        "title": "Contrôle d'accès biométrique",
+        "description": "Déployez des poids d'extraction de pointe pour le visage, l'iris et les empreintes digitales pour débloquer des couches d'authentification ultra-sécurisées et sans friction.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Analyse de documents et d'identité",
+        "description": "Lisez, analysez et vérifiez instantanément les pièces d'identité gouvernementales, les passeports et les laissez-passer d'entreprise à l'aide d'architectures d'alignement de texte OCR personnalisées.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Protection automatisée contre l'usurpation d'identité",
+        "description": "Intégrez des cadres actifs d'anti-usurpation et de détection d'activité pour rejeter les images numériques statiques, les modèles de masques et les rediffusions vidéo.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Correspondance de cible en sous-seconde",
+        "description": "Convertissez des propriétés visuelles structurelles complexes en intégrations de faible dimension pour une recherche d'index rapide parmi des millions d'enregistrements de référence de serveur.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec les cadres de reconnaissance Devisgon",
+    "image": "/all_services/recognition_systems/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Extraction de fonctionnalités personnalisées et poids d’intégration",
+        "description": "Couches de modèles d'apprentissage profond propriétaires optimisées pour transformer des images ou des signaux bruts en matrices de coordonnées sécurisées et de haute précision."
+      },
+      {
+        "title": "2. Vérification biométrique de la vivacité en temps réel",
+        "description": "Microservices anti-usurpation actifs et passifs conçus pour évaluer les micro-mouvements physiques, les matrices de profondeur et les changements de texture des pixels."
+      },
+      {
+        "title": "3. Maillage de base de données vectorielles ultra-sécurisé",
+        "description": "Configurations vectorielles protégées et isolées conçues pour exécuter des millions de requêtes de recherche de correspondance d'identité en quelques millisecondes à un chiffre."
+      },
+      {
+        "title": "4. Tableau de bord de suivi d'audit et de journalisation de sécurité",
+        "description": "Panneaux de gestion Next.js centralisés construits avec des styles en mode sombre pour surveiller les anomalies de précision d'authentification, les indices de confiance et les profils de latence."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous construisons avec une infrastructure de reconnaissance renforcée à l'échelle de l'entreprise",
+    "subtitle": "Boîtes à outils biométriques de pointe, index vectoriels de grande dimension et cadres neuronaux profonds",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "OpenCV",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "Supabase (base de données vectorielles)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvecteur)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "CUDA / NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Exécution ONNX",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "Dlib (pile de repères faciaux)",
+        "icon": "SiDlib"
+      },
+      {
+        "name": "Moteur OCR Tesseract",
+        "icon": "SiTesseract"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Reconnaissance AWS",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "FaceNet/ArcFace",
+        "icon": "SiPython"
+      },
+      {
+        "name": "Redis (mise en cache d'identité)",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De l'intégration de la configuration vectorielle au lancement de la reconnaissance d'entreprise en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les sources de données d’identité entrantes, déterminez les obstacles à la conformité en matière de sécurité et choisissez les configurations de périphérie ou de cloud computing.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Cartographiez les limites de correspondance de confiance mathématique, les exécutions de vérification de l'activité des plans et les règles d'accès à la base de données structurelle.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des couches d'alignement neuronal personnalisées, connectez les paramètres de recherche vectorielle Supabase et créez des points de terminaison d'API de vérification tokenisés.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests de pénétration agressifs et de repli biométrique, surveillez la latence de correspondance inférieure à la seconde et poussez les configurations système en direct en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Précision de vérification de 99,94 % et 0 % d'attaques de fausse identité via des moteurs d'activité à double couche",
+    "image": "/all_services/recognition_systems/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une plateforme numérique en pleine expansion souffrait d'une fraude de création de compte rapide, provoquée par des acteurs malveillants utilisant des portraits statiques et des impressions synthétiques pour contourner les contrôles d'inscription de base."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu une boucle de reconnaissance biométrique personnalisée à l'aide d'ArcFace et Supabase pgvector, intégrant un vérificateur passif actif de profondeur de texture directement dans leur cadre d'application mobile."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "La précision de la vérification a atteint 99,94 %, les tentatives d'usurpation d'identité sont tombées à zéro absolu et les temps de connexion des utilisateurs sont tombés à moins de 500 millisecondes."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture de reconnaissance et FAQ",
+    "subtitle": "Des réponses claires à la mise en œuvre critique, à la conformité des données utilisateur et aux requêtes biométriques",
+    "questions": [
+      {
+        "question": "Comment exactement un modèle d’IA reconnaît-il un visage ou une identité en toute sécurité ?",
+        "answer": "Le modèle convertit les repères faciaux et les proportions structurelles en un tableau vectoriel de grande dimension (une longue séquence de nombres à virgule flottante). Ce vecteur sert de signature mathématique unique. Pour vérifier l'identité, nous calculons la similarité cosinus entre le nouveau vecteur d'entrée et le vecteur de référence sécurisé stocké dans notre base de données."
+      },
+      {
+        "question": "Qu'est-ce que la « détection de l'activité » et pourquoi est-elle essentielle à la protection de la plateforme ?",
+        "answer": "La détection de la vivacité est une étape de vérification automatisée qui garantit que l'entrée visuelle provient d'un être humain réel et présent plutôt que d'une photographie, d'un masque 3D ou d'une lecture deepfake. Nous analysons par programmation les réflexions de texture des pixels, les micro-clignotements et les mouvements vectoriels de la tête pour garantir une présence absolue."
+      },
+      {
+        "question": "Comment les données biométriques sensibles des utilisateurs sont-elles protégées de manière sécurisée contre les fuites de bases de données ?",
+        "answer": "Nous ne stockons jamais de fichiers d'images brutes ou de coordonnées en texte brut. Toutes les données sont traitées en périphérie, transformées en vecteurs mathématiques cryptés et enregistrées sous des paramètres de confiance zéro au sein d'un cluster de bases de données Supabase isolé, rendant les vecteurs inutiles s'ils sont interceptés."
+      },
+      {
+        "question": "Vos réseaux de reconnaissance personnalisés peuvent-ils s'intégrer au matériel biométrique mobile intégré ?",
+        "answer": "Absolument. Nous construisons des structures de traduction d'API conformes aux normes qui se connectent de manière native aux capteurs biométriques au niveau matériel (tels que Face ID ou les lecteurs d'empreintes digitales sur les systèmes iOS, Android et Xiaomi modernes), en utilisant des jetons back-end pour vérifier les clés d'accès natives en toute sécurité."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à créer des systèmes de vérification d'identité sécurisés et à faible latence ?",
+      "link_text": "Planifiez une revue d’architecture avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

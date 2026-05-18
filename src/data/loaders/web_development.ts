@@ -1,4 +1,3 @@
-
 import type { CaseStudyData } from "@/types/sub_services_page/case_study";
 import type { FAQSectionData } from "@/types/sub_services_page/faq";
 import type { HeroSectionData } from "@/types/sub_services_page/hero";
@@ -19,93 +18,92 @@ type ServiceDetailData = {
   faq_section: FAQSectionData;
 };
 
-// ENGLISH
 import enAiPoweredApp from "@/data/english_data/services/web_and_saas_development/ai_powered_app.json";
 import enApiIntegration from "@/data/english_data/services/web_and_saas_development/api_integration.json";
-import enMobileApp from "@/data/english_data/services/web_and_saas_development/app_applications.json";
-import enMvp from "@/data/english_data/services/web_and_saas_development/mvps.json";
-import enSaas from "@/data/english_data/services/web_and_saas_development/saas_plateform.json";
-import enWebApp from "@/data/english_data/services/web_and_saas_development/web_applications.json";
+import enAppApplications from "@/data/english_data/services/web_and_saas_development/app_applications.json";
+import enMvps from "@/data/english_data/services/web_and_saas_development/mvps.json";
+import enSaasPlateform from "@/data/english_data/services/web_and_saas_development/saas_plateform.json";
+import enSearchEngineOptimization from "@/data/english_data/services/web_and_saas_development/search_engine_optimization.json";
+import enWebApplications from "@/data/english_data/services/web_and_saas_development/web_applications.json";
+import enWebDevelopment from "@/data/english_data/services/web_and_saas_development/web_development.json";
 
-// URDU
 import urAiPoweredApp from "@/data/urdu_data/services/web_and_saas_development/ai_powered_app.json";
 import urApiIntegration from "@/data/urdu_data/services/web_and_saas_development/api_integration.json";
-import urMobileApp from "@/data/urdu_data/services/web_and_saas_development/app_applications.json";
-import urMvp from "@/data/urdu_data/services/web_and_saas_development/mvps.json";
-import urSaas from "@/data/urdu_data/services/web_and_saas_development/saas_plateform.json";
-import urWebApp from "@/data/urdu_data/services/web_and_saas_development/web_applications.json";
+import urAppApplications from "@/data/urdu_data/services/web_and_saas_development/app_applications.json";
+import urMvps from "@/data/urdu_data/services/web_and_saas_development/mvps.json";
+import urSaasPlateform from "@/data/urdu_data/services/web_and_saas_development/saas_plateform.json";
+import urSearchEngineOptimization from "@/data/urdu_data/services/web_and_saas_development/search_engine_optimization.json";
+import urWebApplications from "@/data/urdu_data/services/web_and_saas_development/web_applications.json";
+import urWebDevelopment from "@/data/urdu_data/services/web_and_saas_development/web_development.json";
 
-// ARABIC
 import arAiPoweredApp from "@/data/arabic_data/services/web_and_saas_development/ai_powered_app.json";
 import arApiIntegration from "@/data/arabic_data/services/web_and_saas_development/api_integration.json";
-import arMobileApp from "@/data/arabic_data/services/web_and_saas_development/app_applications.json";
-import arMvp from "@/data/arabic_data/services/web_and_saas_development/mvps.json";
-import arSaas from "@/data/arabic_data/services/web_and_saas_development/saas_plateform.json";
-import arWebApp from "@/data/arabic_data/services/web_and_saas_development/web_applications.json";
+import arAppApplications from "@/data/arabic_data/services/web_and_saas_development/app_applications.json";
+import arMvps from "@/data/arabic_data/services/web_and_saas_development/mvps.json";
+import arSaasPlateform from "@/data/arabic_data/services/web_and_saas_development/saas_plateform.json";
+import arSearchEngineOptimization from "@/data/arabic_data/services/web_and_saas_development/search_engine_optimization.json";
+import arWebApplications from "@/data/arabic_data/services/web_and_saas_development/web_applications.json";
+import arWebDevelopment from "@/data/arabic_data/services/web_and_saas_development/web_development.json";
 
-// GERMAN
 import deAiPoweredApp from "@/data/german_data/services/web_and_saas_development/ai_powered_app.json";
 import deApiIntegration from "@/data/german_data/services/web_and_saas_development/api_integration.json";
-import deMobileApp from "@/data/german_data/services/web_and_saas_development/app_applications.json";
-import deMvp from "@/data/german_data/services/web_and_saas_development/mvps.json";
-import deSaas from "@/data/german_data/services/web_and_saas_development/saas_plateform.json";
-import deWebApp from "@/data/german_data/services/web_and_saas_development/web_applications.json";
+import deAppApplications from "@/data/german_data/services/web_and_saas_development/app_applications.json";
+import deMvps from "@/data/german_data/services/web_and_saas_development/mvps.json";
+import deSaasPlateform from "@/data/german_data/services/web_and_saas_development/saas_plateform.json";
+import deSearchEngineOptimization from "@/data/german_data/services/web_and_saas_development/search_engine_optimization.json";
+import deWebApplications from "@/data/german_data/services/web_and_saas_development/web_applications.json";
+import deWebDevelopment from "@/data/german_data/services/web_and_saas_development/web_development.json";
 
-// SPANISH
 import esAiPoweredApp from "@/data/spanish_data/services/web_and_saas_development/ai_powered_app.json";
 import esApiIntegration from "@/data/spanish_data/services/web_and_saas_development/api_integration.json";
-import esMobileApp from "@/data/spanish_data/services/web_and_saas_development/app_applications.json";
-import esMvp from "@/data/spanish_data/services/web_and_saas_development/mvps.json";
-import esSaas from "@/data/spanish_data/services/web_and_saas_development/saas_plateform.json";
-import esWebApp from "@/data/spanish_data/services/web_and_saas_development/web_applications.json";
+import esAppApplications from "@/data/spanish_data/services/web_and_saas_development/app_applications.json";
+import esMvps from "@/data/spanish_data/services/web_and_saas_development/mvps.json";
+import esSaasPlateform from "@/data/spanish_data/services/web_and_saas_development/saas_plateform.json";
+import esSearchEngineOptimization from "@/data/spanish_data/services/web_and_saas_development/search_engine_optimization.json";
+import esWebApplications from "@/data/spanish_data/services/web_and_saas_development/web_applications.json";
+import esWebDevelopment from "@/data/spanish_data/services/web_and_saas_development/web_development.json";
 
-// CHINESE
 import zhAiPoweredApp from "@/data/chinese_data/services/web_and_saas_development/ai_powered_app.json";
 import zhApiIntegration from "@/data/chinese_data/services/web_and_saas_development/api_integration.json";
-import zhMobileApp from "@/data/chinese_data/services/web_and_saas_development/app_applications.json";
-import zhMvp from "@/data/chinese_data/services/web_and_saas_development/mvps.json";
-import zhSaas from "@/data/chinese_data/services/web_and_saas_development/saas_plateform.json";
-import zhWebApp from "@/data/chinese_data/services/web_and_saas_development/web_applications.json";
+import zhAppApplications from "@/data/chinese_data/services/web_and_saas_development/app_applications.json";
+import zhMvps from "@/data/chinese_data/services/web_and_saas_development/mvps.json";
+import zhSaasPlateform from "@/data/chinese_data/services/web_and_saas_development/saas_plateform.json";
+import zhSearchEngineOptimization from "@/data/chinese_data/services/web_and_saas_development/search_engine_optimization.json";
+import zhWebApplications from "@/data/chinese_data/services/web_and_saas_development/web_applications.json";
+import zhWebDevelopment from "@/data/chinese_data/services/web_and_saas_development/web_development.json";
 
-// FRENCH
 import frAiPoweredApp from "@/data/french_data/services/web_and_saas_development/ai_powered_app.json";
 import frApiIntegration from "@/data/french_data/services/web_and_saas_development/api_integration.json";
-import frMobileApp from "@/data/french_data/services/web_and_saas_development/app_applications.json";
-import frMvp from "@/data/french_data/services/web_and_saas_development/mvps.json";
-import frSaas from "@/data/french_data/services/web_and_saas_development/saas_plateform.json";
-import frWebApp from "@/data/french_data/services/web_and_saas_development/web_applications.json";
+import frAppApplications from "@/data/french_data/services/web_and_saas_development/app_applications.json";
+import frMvps from "@/data/french_data/services/web_and_saas_development/mvps.json";
+import frSaasPlateform from "@/data/french_data/services/web_and_saas_development/saas_plateform.json";
+import frSearchEngineOptimization from "@/data/french_data/services/web_and_saas_development/search_engine_optimization.json";
+import frWebApplications from "@/data/french_data/services/web_and_saas_development/web_applications.json";
+import frWebDevelopment from "@/data/french_data/services/web_and_saas_development/web_development.json";
 
-const webAndSaasEntries = (
-  aiPoweredApp: ServiceDetailData,
-  apiIntegration: ServiceDetailData,
-  mobileApp: ServiceDetailData,
-  mvp: ServiceDetailData,
-  saas: ServiceDetailData,
-  webApp: ServiceDetailData,
-) => ({
+const serviceEntries = (aiPoweredApp: ServiceDetailData, apiIntegration: ServiceDetailData, appApplications: ServiceDetailData, mvps: ServiceDetailData, saasPlateform: ServiceDetailData, searchEngineOptimization: ServiceDetailData, webApplications: ServiceDetailData, webDevelopment: ServiceDetailData) => ({
   "ai-powered-app": aiPoweredApp,
   "api-integration": apiIntegration,
-  "api_integration": apiIntegration,
-  "app-applications": mobileApp,
-  "app_applications": mobileApp,
-  "mobile-app-development": mobileApp,
-  "mvps": mvp,
-  "mvps-pocs": mvp,
-  "saas-development": saas,
-  "saas-platform": saas,
-  "saas_plateform": saas,
-  "web-application-development": webApp,
-  "web-applications": webApp,
-  "web_applications": webApp,
+  "mobile-app-development": appApplications,
+  "app-applications": appApplications,
+  "mvps": mvps,
+  "mvps-pocs": mvps,
+  "saas-development": saasPlateform,
+  "saas-platform": saasPlateform,
+  "saas-plateform": saasPlateform,
+  "search-engine-optimization": searchEngineOptimization,
+  "web-application-development": webApplications,
+  "web-applications": webApplications,
+  "website-development": webDevelopment,
+  "web-development": webDevelopment,
 });
 
 export const workflowData: Record<string, Record<string, ServiceDetailData>> = {
-  en: webAndSaasEntries(enAiPoweredApp, enApiIntegration, enMobileApp, enMvp, enSaas, enWebApp),
-  ur: webAndSaasEntries(urAiPoweredApp, urApiIntegration, urMobileApp, urMvp, urSaas, urWebApp),
-  ar: webAndSaasEntries(arAiPoweredApp, arApiIntegration, arMobileApp, arMvp, arSaas, arWebApp),
-  es: webAndSaasEntries(esAiPoweredApp, esApiIntegration, esMobileApp, esMvp, esSaas, esWebApp),
-  de: webAndSaasEntries(deAiPoweredApp, deApiIntegration, deMobileApp, deMvp, deSaas, deWebApp),
-  zh: webAndSaasEntries(zhAiPoweredApp, zhApiIntegration, zhMobileApp, zhMvp, zhSaas, zhWebApp),
-  fr: webAndSaasEntries(frAiPoweredApp, frApiIntegration, frMobileApp, frMvp, frSaas, frWebApp),
+  en: serviceEntries(enAiPoweredApp, enApiIntegration, enAppApplications, enMvps, enSaasPlateform, enSearchEngineOptimization, enWebApplications, enWebDevelopment),
+  ur: serviceEntries(urAiPoweredApp, urApiIntegration, urAppApplications, urMvps, urSaasPlateform, urSearchEngineOptimization, urWebApplications, urWebDevelopment),
+  ar: serviceEntries(arAiPoweredApp, arApiIntegration, arAppApplications, arMvps, arSaasPlateform, arSearchEngineOptimization, arWebApplications, arWebDevelopment),
+  de: serviceEntries(deAiPoweredApp, deApiIntegration, deAppApplications, deMvps, deSaasPlateform, deSearchEngineOptimization, deWebApplications, deWebDevelopment),
+  es: serviceEntries(esAiPoweredApp, esApiIntegration, esAppApplications, esMvps, esSaasPlateform, esSearchEngineOptimization, esWebApplications, esWebDevelopment),
+  zh: serviceEntries(zhAiPoweredApp, zhApiIntegration, zhAppApplications, zhMvps, zhSaasPlateform, zhSearchEngineOptimization, zhWebApplications, zhWebDevelopment),
+  fr: serviceEntries(frAiPoweredApp, frApiIntegration, frAppApplications, frMvps, frSaasPlateform, frSearchEngineOptimization, frWebApplications, frWebDevelopment),
 };
-                                                                                                    

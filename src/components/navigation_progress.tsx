@@ -88,6 +88,10 @@ export default function NavigationProgress() {
         return;
       }
 
+      if (anchor.dataset.navbarDropdownTrigger === "true" && event.detail < 2) {
+        return;
+      }
+
       startLoading();
     };
 

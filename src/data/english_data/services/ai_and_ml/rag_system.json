@@ -1,0 +1,207 @@
+{
+  "slug": "rag-system",
+  "hero_section": {
+    "title": "Enterprise Retrieval-Augmented Generation (RAG) Systems",
+    "subtitle": "Eliminate Hallucinations with Context-Injected AI Infrastructure",
+    "description": "We engineer production-grade Retrieval-Augmented Generation (RAG) systems that anchor foundational large language models to your secure, internal company data stores. Convert vast, unstructured data silos into precise, real-time business intelligence.",
+    "buttons": [
+      {
+        "text": "Architect My RAG System",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/rag_system.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is an Enterprise-Grade",
+    "span_heading": " RAG System?",
+    "content": [
+      "At Devisgon, we design and implement advanced RAG architectures that provide language models with a secure, real-time factual baseline. Moving away from standard, hallucination-prone prompt engineering, our systems programmatically search, retrieve, and rank the exact context needed from your internal knowledge bases before any model response is generated.",
+      "We bridge the gap between static model weights and dynamic, evolving enterprise data lakes. Every RAG pipeline we deploy features automated document parsing, high-dimensional vector embeddings, hybrid semantic-keyword searching, and strict document-level access permissions, ensuring your answers are mathematically verified, current, and securely enclosed."
+    ],
+    "highlight_quote": "“Zero-hallucination model outputs, real-time knowledge injection, 100% deterministic data boundaries.”",
+    "side_image": "/all_services/rag_system/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Enterprise Benefits",
+    "subtitle": "Empower your applications with verifiable, context-accurate search and generation networks",
+    "cards": [
+      {
+        "title": "Complete Hallucination Eradication",
+        "description": "Programmatically restrict LLM parameters to answer exclusively using the retrieved text blocks, minimizing speculation and false output generation.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Real-Time Knowledge Updates",
+        "description": "Skip expensive model fine-tuning loops. Simply update your database, and your RAG system immediately serves the latest document versions.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Granular Access Permissions",
+        "description": "Embed security parameters within vector lookups, guaranteeing that users only retrieve information matching their specific clearance roles.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Multi-Format Ingestion",
+        "description": "Parse and vectorize unstructured internal records seamlessly, including technical markdown, PDFs, database rows, and scanned manuals.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You'll Receive with Devisgon RAG Infrastructure",
+    "image": "/all_services/rag_system/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Advanced Vector Extraction & Chunking Frameworks",
+        "description": "Custom ingestion microservices configured to break complex enterprise documents into context-preserved chunks with semantic metadata tags."
+      },
+      {
+        "title": "2. High-Dimensional Hybrid Search Routers",
+        "description": "Search architectures blending dense vector embeddings with sparse keyword lookups (BM25) to maximize retrieval precision.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "3. Context Re-Ranking & Compression Meshes",
+        "description": "Integration of Cohere or specialized Cross-Encoder re-rankers to extract the most relevant results and minimize token usage costs."
+      },
+      {
+        "title": "4. Verifiable Citation & Attribution Systems",
+        "description": "Programmatic generation tracking that forces models to append clickable citations mapping directly back to source documents for easy human audits."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We Build with Scalable, High-Performance Vector Infrastructure",
+    "subtitle": "Industry-leading embedding models, index stores, and pipeline orchestrators built for low-latency accuracy",
+    "tools": [
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "LangChain",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "Supabase (Vector Stack)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvector)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Pinecone",
+        "icon": "SiPinecone"
+      },
+      {
+        "name": "Qdrant",
+        "icon": "SiQdrant"
+      },
+      {
+        "name": "OpenAI Embeddings",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Cohere (Rerank)",
+        "icon": "SiCohere"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js (AI SDK Streaming)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Redis (Semantic Cache)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "AWS Bedrock",
+        "icon": "SiAmazonaws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Engineering Blueprint",
+    "subtitle": "From document pipeline construction to verified live RAG deployment in 6 weeks",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Audit corporate data structures, evaluate source document cleanliness, and map out expected search intent perimeters.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulate token-chunking policies, design index schemas, and plan hybrid metadata ranking structures.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Program ingestion workflows in Python, establish vector indexes within Supabase pgvector, and write re-ranking routines.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Perform rigorous RAGAS quality matrix evaluations, optimize query streaming latency, and activate data sync webhooks securely.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Zero Inaccuracies Achieved Across 50,000+ Multi-Format Technical Documentation Logs",
+    "image": "/all_services/rag_system/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "An engineering enterprise spent considerable internal time tracking down precise equipment repair procedures scattered across thousands of complex, legacy PDFs."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "We constructed a production-grade, metadata-filtered RAG system leveraging Supabase and LlamaIndex, combining dense vector search with cross-encoder re-ranking pipelines."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "Information lookup times plummeted by 94%, technical data hallucinations dropped to absolute zero, and field engineers secured immediate, cited answers on active terminal systems."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "RAG Architecture & FAQ",
+    "subtitle": "Clear answers to critical implementation, security, and systems engineering queries",
+    "questions": [
+      {
+        "question": "Why is a hybrid search system necessary for enterprise-grade RAG?",
+        "answer": "Dense vector search is exceptional at grasping conceptual semantic intent, but it can miss specific serial keys, product codes, or exact names. Hybrid search blends vector embeddings with traditional keyword tracking (BM25) to guarantee both structural and conceptual matching accuracy."
+      },
+      {
+        "question": "How does a RAG system keep its data current as our business records change daily?",
+        "answer": "We establish automated event webhooks and Cron sync schedules. Whenever a document is modified, added, or deleted inside your storage platform, our pipeline instantly runs extraction, generates fresh embeddings, and updates your vector database index automatically."
+      },
+      {
+        "question": "How do you protect sensitive data from being shown to employees without proper credentials?",
+        "answer": "We enforce strict metadata permission tagging at the database level. Every document block is vectorized alongside its required access roles; when a user issues a query, the system appends a hard verification filter, making unauthorized files mathematically invisible to the lookup step."
+      },
+      {
+        "question": "What tools do you use to evaluate and score the accuracy of a RAG pipeline?",
+        "answer": "We integrate automated evaluation frameworks like RAGAS and TruLens during sandbox development. We continuously test and optimize for three distinct metrics: Faithfulness (is the answer based on data?), Answer Relevance (does it solve the prompt?), and Context Precision (did we pull the right data chunks?)."
+      }
+    ],
+    "footer": {
+      "text": "Ready to build a reliable, context-locked data engine?",
+      "link_text": "Schedule an architecture review with our team",
+      "link_url": "/contact"
+    }
+  }
+}

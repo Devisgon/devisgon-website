@@ -1,0 +1,206 @@
+{
+  "slug": "recognition-systems",
+  "hero_section": {
+    "title": "企业人工智能识别系统",
+    "subtitle": "高精度身份和生物识别验证基础设施",
+    "description": "我们设计安全、低延迟的人工智能识别系统，可在整个企业软件堆栈中自动执行用户验证、面部生物识别验证、对象签名映射和光学文本数字化。",
+    "buttons": [
+      {
+        "text": "建筑师识别系统",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的生物识别工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/recognition_systems.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "识别系统？",
+    "content": [
+      "在 Devisgon，我们设计和部署高性能识别架构，旨在处理复杂的生物识别、空间坐标和物理文档向量。超越通用、高延迟的第三方验证包装器，我们构建了自定义神经对齐算法，将个人面孔、指纹遥测和资产签名映射到受保护的矢量数据库中。",
+      "我们弥合了高安全性生物或结构输入与标准网络应用程序之间的差距。每个系统都经过精心设计，可与现代移动设备安全阵列（例如人脸和指纹识别配置文件）本地集成，实施零信任数据边界、基于令牌的验证路线和亚毫秒级分类查找。"
+    ],
+    "highlight_quote": "“99.9% 的分类准确率、亚毫秒级向量查找、零信任加密生物识别技术。”",
+    "side_image": "/all_services/recognition_systems/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "通过数据驱动的硬身份匹配来保护和加速用户接触点",
+    "cards": [
+      {
+        "title": "生物识别访问控制",
+        "description": "部署最先进的人脸、虹膜和指纹提取权重来解锁无摩擦、超安全的身份验证层。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "文档和身份解析",
+        "description": "使用自定义 OCR 文本对齐架构即时读取、解析和验证政府身份证、护照和公司通行证。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "自动欺骗防护",
+        "description": "嵌入主动反欺骗和活体检测框架，以拒绝静态数字图像、掩模模型和视频重播。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "亚秒级目标匹配",
+        "description": "将复杂的结构视觉属性转换为低维嵌入，以便在数百万个服务器参考记录中进行快速索引搜索。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "使用 Devisgon 识别框架您将收到什么",
+    "image": "/all_services/recognition_systems/wwg.webp",
+    "list_items": [
+      {
+        "title": "1.自定义特征提取和嵌入权重",
+        "description": "专有的深度学习模型层经过优化，可将原始图像或信号转换为安全、高精度的坐标矩阵。"
+      },
+      {
+        "title": "2. 实时生物活体验证",
+        "description": "主动和被动反欺骗微服务，旨在评估物理微运动、深度矩阵和像素纹理变化。"
+      },
+      {
+        "title": "3.超安全矢量数据库网格",
+        "description": "受保护的隔离向量配置旨在在个位数毫秒内执行数百万个身份匹配查找查询。"
+      },
+      {
+        "title": "4. 审计跟踪和安全日志记录仪表板",
+        "description": "采用暗模式风格构建的集中式 Next.js 管理面板可监控身份验证准确性异常、置信度指数和延迟配置文件。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用强化的企业级识别基础设施进行构建",
+    "subtitle": "业界领先的生物识别工具包、高维向量索引和深度神经框架",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "OpenCV",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "Supabase（矢量数据库）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvector)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "CUDA/NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "ONNX 运行时",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "Dlib（面部地标堆栈）",
+        "icon": "SiDlib"
+      },
+      {
+        "name": "Tesseract OCR 引擎",
+        "icon": "SiTesseract"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS 重新识别",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "FaceNet/ArcFace",
+        "icon": "SiPython"
+      },
+      {
+        "name": "Redis（身份缓存）",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从嵌入向量设置到企业识别启动只需 6 周",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核传入的身份数据源，确定安全合规性障碍，并选择边缘计算与云计算设置。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "映射数学置信度匹配边界、蓝图活性验证运行以及结构数据库访问规则。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对自定义神经对齐层进行编程，连接 Supabase 向量搜索参数，并构建标记化验证 API 端点。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行积极的渗透和生物识别回退测试，监控亚秒级匹配延迟，并安全地推送实时系统配置。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过双层 Liveness 引擎实现 99.94% 的验证精度和 0% 的虚假身份通行攻击",
+    "image": "/all_services/recognition_systems/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一个可扩展的数字平台遭受了快速帐户创建欺诈，这是由恶意行为者使用静态头像和合成打印输出绕过基本注册检查造成的。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 ArcFace 和 Supabase pgvector 设计了一个自定义生物识别循环，将主动被动纹理深度检查器直接嵌入到他们的移动应用程序框架中。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "验证准确率成功攀升至 99.94%，欺骗条目尝试次数降至绝对零，用户登录时间降至 500 毫秒以下。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "识别架构和常见问题解答",
+    "subtitle": "对关键实施、用户数据合规性和生物识别查询的清晰答案",
+    "questions": [
+      {
+        "question": "人工智能模型到底如何安全地识别人脸或身份？",
+        "answer": "该模型将面部标志和结构比例转换为高维向量数组（一长串浮点数）。该向量充当独特的数学签名。为了验证身份，我们计算新输入向量与数据库中存储的安全参考向量之间的余弦相似度。"
+      },
+      {
+        "question": "什么是“活体检测”？为什么它对于平台保护至关重要？",
+        "answer": "活体检测是一个自动验证步骤，可确保视觉输入源自真实存在的人，而不是照片、3D 掩模或深度伪造播放。我们以编程方式分析像素纹理反射、微眨眼和头部矢量运动，以保证绝对存在。"
+      },
+      {
+        "question": "如何安全地保护敏感的用户生物识别数据免遭数据库泄露？",
+        "answer": "我们从不存储原始图像文件或纯文本坐标。所有数据都在边缘处理，转换为加密的数学向量，并在隔离的 Supabase 数据库集群中以零信任参数保存，如果被拦截，向量将变得毫无用处。"
+      },
+      {
+        "question": "您的自定义识别网络可以与内置移动生物识别硬件集成吗？",
+        "answer": "绝对地。我们构建符合标准的 API 转换结构，与硬件级生物识别传感器（例如现代 iOS、Android 和小米系统上的 Face ID 或指纹识别器）进行本地连接，并使用后端令牌安全地验证本机密钥。"
+      }
+    ],
+    "footer": {
+      "text": "准备好构建安全、低延迟的身份验证系统了吗？",
+      "link_text": "与我们的团队安排架构审查",
+      "link_url": "/contact"
+    }
+  }
+}

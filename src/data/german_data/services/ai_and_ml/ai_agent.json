@@ -1,0 +1,206 @@
+{
+  "slug": "ai-agents",
+  "hero_section": {
+    "title": "Autonome KI-Agenten für Unternehmen",
+    "subtitle": "Entkoppelte kognitive Infrastruktur für komplexe Arbeitsabläufe",
+    "description": "Wir entwerfen und implementieren zielgerichtete KI-Agenten in Produktionsqualität, die zu autonomem Denken, Werkzeugausführung, Zusammenarbeit mit mehreren Agenten und dynamischer Entscheidungsfindung fähig sind. Gehen Sie über die grundlegende Automatisierung hinaus und etablieren Sie eine sich selbst optimierende digitale Belegschaft.",
+    "buttons": [
+      {
+        "text": "Stellen Sie autonome Agenten bereit",
+        "link": "/contact"
+      },
+      {
+        "text": "Konsultieren Sie unsere Ingenieure",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_agents.mp4"
+  },
+  "introduction_section": {
+    "heading": "Was ist ein Autonomer",
+    "span_heading": "KI-Agent?",
+    "content": [
+      "Bei Devisgon entwickeln wir KI-Agenten der Enterprise-Klasse, die darauf ausgelegt sind, komplexe, offene Geschäftsziele umzusetzen, ohne dass ein ständiges menschliches Eingreifen erforderlich ist. Im Gegensatz zu statischen, regelbasierten Automatisierungsskripten oder einfachen linearen Chatbots verfügen unsere autonomen Agenten über fortschrittliche Argumentationsschleifen (wie ReAct und Plan-and-Solve), die es ihnen ermöglichen, sich ändernde Datenumgebungen zu bewerten, geeignete Softwaretools auszuwählen und ihren Kurs dynamisch zu korrigieren.",
+      "Wir schließen die Lücke zwischen abstrakter LLM-Erkenntnis und produktionstauglichen Softwareoperationen. Jeder Multi-Agent-Cluster wird in sicheren Sandbox-Umgebungen bereitgestellt, in persistente Speichersysteme integriert und unterliegt strengen programmatischen Einschränkungen, um sicherzustellen, dass Ihre autonomen Arbeitsabläufe zuverlässig, sicher und mit höchster Recheneffizienz ausgeführt werden."
+    ],
+    "highlight_quote": "„Zielorientierte Ausführung, Multi-Agenten-Orchestrierung, 100 % autonome Problemlösungsinfrastruktur.“",
+    "side_image": "/all_services/ai_agents/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Wichtige Vorteile für Unternehmen",
+    "subtitle": "Transformieren Sie Ihre Geschäftsabläufe mit selbstgesteuerten, deterministischen Ausführungsschleifen",
+    "cards": [
+      {
+        "title": "Zielorientierte Autonomie",
+        "description": "Geben Sie ein übergeordnetes Ziel an, und der Agent unterteilt es in umsetzbare Unteraufgaben, führt die Schritte aus und validiert die Ausgabe unabhängig.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Dynamische Werkzeugnutzung",
+        "description": "Statten Sie Agenten mit der Möglichkeit aus, selbstständig Datenbanken zu lesen und zu schreiben, externe Webhooks aufzurufen, CSVs zu analysieren und mit Software-Meshs von Drittanbietern zu kommunizieren.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Zusammenarbeit mehrerer Agenten",
+        "description": "Stellen Sie spezialisierte Agentennetzwerke (z. B. Forscher, Redakteure und Auditoren) bereit, die strukturierte Datennutzlasten aneinander weitergeben, um komplexe Ziele zu erreichen.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Proaktive Betriebsprüfung",
+        "description": "Richten Sie Hintergrundüberwachungsagenten ein, die Systeme aktiv auf Sicherheitsbedrohungen oder Datenanomalien scannen und sofort Korrekturmaßnahmen ergreifen.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Was Sie mit Devisgon Autonomous Agent Frameworks erhalten",
+    "image": "/all_services/ai_agents/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Multi-Agent-Orchestrierungs-Fabrics",
+        "description": "Hochentwickelte Agentennetzwerke, die darauf ausgelegt sind, Aufgaben autonom zuzuweisen, die Zustandsverwaltung zu übernehmen und mehrstufige Betriebslogiken aufzulösen."
+      },
+      {
+        "title": "2. Erweiterte Tool-Aufrufe und Funktionsregister",
+        "description": "Sichere Ausführungsumgebungen mit hohem Sandbox-Gehalt, die es Agenten ermöglichen, programmgesteuert mit internen APIs, Datenbanken und CRMs zu interagieren."
+      },
+      {
+        "title": "3. Kurzzeit- und episodisches Langzeitgedächtnis",
+        "description": "Vektorgestützte Speichernetzwerke, die es Agenten ermöglichen, den Systemkontext beizubehalten, sich an vergangene Entscheidungen zu erinnern und aus Ausführungsfehlern zu lernen."
+      },
+      {
+        "title": "4. Human-in-the-Loop-Verifizierungskontrollpunkte",
+        "description": "Programmatische Gating-Mechaniken, die Agenten dazu zwingen, eine Pause einzulegen und eine menschliche Genehmigung einzuholen, bevor sie schwerwiegende oder sensible Vorgänge ausführen."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Wir bauen mit gehärteten Agenten-Ökosystemen",
+    "subtitle": "Branchenführende Frameworks, Speicher und Laufzeiten, die für sichere Autonomie entwickelt wurden",
+    "tools": [
+      {
+        "name": "LangGraph",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "CrewAI",
+        "icon": "SiCrewai"
+      },
+      {
+        "name": "Autogen",
+        "icon": "SiMicrosoft"
+      },
+      {
+        "name": "OpenAI-Assistenten-API",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "n8n (Erweiterte KI und Agenten)",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Supabase (Vektor & Zustand)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis (episodisches Gedächtnis)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js (Agent-Systemsteuerung)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker (Sandboxed Runtimes)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS-Grundgestein",
+        "icon": "SiAmazonaws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Unser technischer Entwurf",
+    "subtitle": "Von der Logikzuordnung bis zur vollständig autonomen Agentenbereitstellung in 6 Wochen",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Identifizieren Sie sich wiederholende oder kognitiv komplexe betriebliche Engpässe, skizzieren Sie verfügbare Softwaretools und definieren Sie Agentenberechtigungen.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Entwerfen Sie das Layout des Multi-Agent-Diagramms, entwerfen Sie spezifische Eingabeaufforderungsgrenzen, entwerfen Sie Speicher-Routing-Tabellen und richten Sie Sicherheitsbarrieren ein.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmieren Sie die Agentendiagramme mit LangGraph oder CrewAI, erstellen Sie benutzerdefinierte API-Toolfunktionen und integrieren Sie vektorgestützte Speicherpools.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Führen Sie intensive Sandbox-Testschleifen durch, testen Sie die Agent-Fallback-Zweige einem Stresstest, aktivieren Sie Tracking-Panels und starten Sie die autonome Pipeline sicher.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "92 % Reduzierung der Forschungsverarbeitungszeit durch orchestrierte Multi-Agent-Netzwerke",
+    "image": "/all_services/ai_agents/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operative Straßensperre",
+        "text": "Eine globale SaaS-Plattform verbrachte Hunderte von Entwicklungsstunden damit, manuell technische Wettbewerbsanalysen durchzuführen, APIs zu überprüfen und Änderungen an der Softwaredokumentation zu validieren."
+      },
+      "solution": {
+        "label": "Unser Engineering-Ansatz",
+        "text": "Wir haben ein autonomes Multiagentensystem über LangGraph und Python entwickelt. Ein Agent durchsuchte Zielendpunkte, ein anderer analysierte Unterschiede mithilfe der Supabase-Vektorindizierung und ein dritter generierte strukturierte Optimierungsmatrizen."
+      },
+      "result": {
+        "label": "Messbare Wirkung",
+        "text": "Die Verarbeitungszyklen sanken um 92 %, die technische Genauigkeit stieg erheblich und das System erstellte vollständig auf Autopilot umfangreiche, ausführungsbereite Business-Insight-Protokolle."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Agentenarchitektur und FAQ",
+    "subtitle": "Klare Antworten auf kritische Fragen zur Implementierung, Sicherheit und autonomen Systemtechnik",
+    "questions": [
+      {
+        "question": "Was hindert einen autonomen KI-Agenten daran, in eine Endlosschleife zu geraten oder zu viele Token auszugeben?",
+        "answer": "Wir kodieren strenge architektonische Leistungsschalter und Einschränkungsparameter fest. Jede Agentenausführungsschleife ist durch maximale Schrittgrenzen, Ausführungszeitüberschreitungen und strenge Obergrenzen für die Token-Ausgaben pro Lauf begrenzt, wodurch das System gezwungen wird, sicher herunterzufahren und menschliche Bediener zu benachrichtigen, wenn Grenzen erreicht werden."
+      },
+      {
+        "question": "Wie schreiben KI-Agenten sicher in Datenbanken, ohne Produktionsumgebungen zu beschädigen?",
+        "answer": "Agenten greifen nicht direkt auf Rohdatenbanken zu. Stattdessen interagieren sie mit einer entkoppelten Microservice-API-Schicht. Diese Ebene validiert jede einzelne vom Agenten generierte JSON-Nutzlast und stellt sicher, dass strenge Formatierungen, Typen und Berechtigungen überprüft werden, bevor Datenbankänderungen ausgeführt werden."
+      },
+      {
+        "question": "Was ist der Unterschied zwischen einem KI-Chatbot und einem autonomen KI-Agenten?",
+        "answer": "Ein Chatbot ist in der Regel reaktiv und wickelt Gespräche mit einem Benutzer in mehreren Runden ab. Ein autonomer Agent ist proaktiv und zielorientiert; Sie stellen eine übergeordnete Aufgabe bereit und der Agent agiert über eine lange Laufzeit unabhängig – er plant Schritte, wählt Tools aus und analysiert Ergebnisse, ohne dass für jede Aktion eine Benutzeraufforderung erforderlich ist."
+      },
+      {
+        "question": "Kann ich eine menschliche Aufsicht durchsetzen, bevor ein Agent Finanztransaktionen durchführt oder Datensätze löscht?",
+        "answer": "Absolut. Wir betten Human-in-the-Loop (HITL)-Kontrollpunkte ein. Wenn ein Agent einen Knoten mit hoher Priorität erreicht (z. B. beim Auslösen einer API-Auszahlung oder beim Ändern einer sicheren Datei), aktualisiert er seinen Status auf „Ausstehend“ und sendet einen Benachrichtigungs-Webhook an Ihr menschliches Team zur Validierung über Slack oder ein Verwaltungs-Dashboard."
+      }
+    ],
+    "footer": {
+      "text": "Sind Sie bereit, Ihr Unternehmen mit autonomen digitalen Mitarbeitern zu skalieren?",
+      "link_text": "Vereinbaren Sie eine Maklerbewertung mit unserem Team",
+      "link_url": "/contact"
+    }
+  }
+}

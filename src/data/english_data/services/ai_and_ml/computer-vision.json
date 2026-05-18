@@ -1,0 +1,206 @@
+{
+  "slug": "computer-vision",
+  "hero_section": {
+    "title": "Enterprise Computer Vision Systems",
+    "subtitle": "Real-Time Visual Intelligence for Autonomous Operations",
+    "description": "We design, train, and deploy production-grade computer vision models that enable applications to see, analyze, and extract actionable information from digital images, video streams, and live spatial telemetry.",
+    "buttons": [
+      {
+        "text": "Architect Vision Systems",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our Vision Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/computer_vision.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is Enterprise-Grade",
+    "span_heading": " Computer Vision?",
+    "content": [
+      "At Devisgon, we engineer custom computer vision architectures that transform raw visual feeds into structured, actionable operational data. Moving far beyond basic open-source scripts, we build high-precision systems specialized in real-time object detection, semantic image segmentation, facial recognition tracking, and automated optical character recognition (OCR).",
+      "We bridge the gap between heavy spatial data matrices and low-latency production runtimes. Every vision pipeline is optimized for edge computing or scalable cloud clusters, utilizing specialized tensor runtimes and automated video frame-grabbing mechanics to guarantee constant, reliable inference throughput across security, logistics, and manufacturing environments."
+    ],
+    "highlight_quote": "“High-fidelity image classification, sub-millisecond object tracking, 100% automated spatial analytics.”",
+    "side_image": "/all_services/computer_vision/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Enterprise Benefits",
+    "subtitle": "Convert live camera feeds and imagery into automated, data-driven decisions",
+    "cards": [
+      {
+        "title": "Real-Time Spatial Tracking",
+        "description": "Deploy state-of-the-art detection models that pinpoint, classify, and track multiple moving objects concurrently within a camera's field of view.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Automated Quality Inspection",
+        "description": "Eliminate manual oversight bugs by embedding automated visual sorting grids that identify product surface defects and anomalies instantly.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Document Data Extraction",
+        "description": "Programmatically read, parse, and digitize skewed, handwritten, or degraded text from physical files using customized OCR logic arrays.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Embedded Edge Deployment",
+        "description": "Quantize neural network structures to run directly on lightweight local hardware gates, reducing external bandwidth requirements and data costs.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You'll Receive with Devisgon Computer Vision Architectures",
+    "image": "/all_services/computer_vision/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Custom Object Detection & Segment Weights",
+        "description": "Fully compiled neural weight configurations optimized for fast localization, boundary boxing, and semantic masking profiles."
+      },
+      {
+        "title": "2. Low-Latency Video Ingestion Brokers",
+        "description": "High-throughput ingestion routines designed to process continuous RTSP and live camera streams without dropping critical operational frames."
+      },
+      {
+        "title": "3. Visual Analytics & Heatmap Interfacing",
+        "description": "Interactive tracking control dashboards built on Next.js to monitor spatial count historical trends, coordinates, and bounding box logs."
+      },
+      {
+        "title": "4. Edge-Optimized Inference Containers",
+        "description": "Highly compressed, containerized runtime configurations packaged for immediate deployment to local servers or specialized field nodes."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "We Build with Hardened, High-Throughput Spatial Analytics Tools",
+    "subtitle": "Industry-leading vision models, image processors, and deep tensor runtimes engineered for lightning-fast inference",
+    "tools": [
+      {
+        "name": "OpenCV",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "YOLO (v8 / v10)",
+        "icon": "SiUltralytics"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "CUDA / NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "ONNX Runtime",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "Roboflow",
+        "icon": "SiRoboflow"
+      },
+      {
+        "name": "Hugging Face (Vision)",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS Lookout for Vision",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase (Event Storage)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Engineering Blueprint",
+    "subtitle": "From raw image matrix tagging to live video inference execution in 6 weeks",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Audit corporate visual feeds, establish environment lighting constraints, define target spatial classes, and map compute setups.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulate coordinate data labeling standards, outline image augmentation matrices, and structure neural model topographies.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Run model object training runs using YOLO or PyTorch, manage coordinate bounding loops, and execute inference optimizations.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Compile weights into compressed TensorRT runtimes, deploy low-latency stream loops, and launch localized visualization dashboards safely.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "99.4% Precision Spatial Inventory Counting and Sub-Millisecond Event Detection",
+    "image": "/all_services/computer_vision/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A massive distribution center was losing track of incoming parcel counts due to slow barcode scans and human checking lags at busy sorting dock doors."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "We engineered a customized YOLO object localization and tracking layout, deploying the model via an optimized NVIDIA TensorRT architecture connected straight to their local security feeds."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "Inventory extraction accuracy successfully hit 99.4%, processing backlogs completely disappeared, and the supply chain secured 100% automated spatial auditing logs on autopilot."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Computer Vision Architecture & FAQ",
+    "subtitle": "Clear answers to critical implementation, feed ingestion, and neural tensor queries",
+    "questions": [
+      {
+        "question": "What is the core technical difference between Object Detection and Semantic Segmentation?",
+        "answer": "Object Detection identifies the presence of a target entity and isolates it within a square bounding box coordinate array. Semantic Segmentation operates at a deeper pixel-level grid, tracing the exact edge contours of an object to build a precise visual mask overlay."
+      },
+      {
+        "question": "How do your vision models handle volatile, low-light, or dusty industrial environments?",
+        "answer": "We enforce heavy preprocessing and image augmentation strategies during the data design phase. By training models on intentionally degraded, exposure-adjusted, and blurred training tensors, the final neural weights stay robust against physical real-world camera interference."
+      },
+      {
+        "question": "Is it better to process video data streams in the cloud or directly on edge hardware?",
+        "answer": "Edge deployment (using hardware like NVIDIA Jetson) is superior when you require sub-millisecond response loops or face tight bandwidth limits. Cloud deployment fits best when processing massive, non-instantaneous image libraries that need deep cross-referencing with master relational databases."
+      },
+      {
+        "question": "How do you protect privacy and security concerns when deploying camera-based vision systems?",
+        "answer": "We construct secure, localized zero-egress video pipelines. The frame data is processed immediately within a sandboxed runtime environment where identities or PII can be programmatically blurred out at the ingestion edge before any logging occurs."
+      }
+    ],
+    "footer": {
+      "text": "Ready to embed automated visual intelligence into your enterprise operations?",
+      "link_text": "Schedule a spatial review with our team",
+      "link_url": "/contact"
+    }
+  }
+}

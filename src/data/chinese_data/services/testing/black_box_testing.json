@@ -1,0 +1,206 @@
+{
+  "slug": "black-box-testing",
+  "hero_section": {
+    "title": "企业黑盒测试服务",
+    "subtitle": "严格的功能和行为驱动的质量保证",
+    "description": "我们设计了全面、客观的黑盒测试框架，可以从用户的角度严格评估您的应用程序。无需依赖内部代码可见性即可发现深层行为缺陷、界面逻辑错误和集成差距。",
+    "buttons": [
+      {
+        "text": "审核我的应用程序功能",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的质量保证工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/black_box_testing.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "黑盒测试？",
+    "content": [
+      "在 Devisgon，我们将功能验证视为一门精确的、以用户为中心的科学。远远超出了随意的手动点击，我们构建了系统的自动化测试矩阵，严格根据您的核心软件规范评估您的应用程序的输入输出行为、表单验证、边界限制和多步骤业务旅程。",
+      "我们弥合了抽象设计要求和现实系统可用性之间的差距。我们执行的每个验证循环都会隔离客户端视图和 API 端点之间的边缘情况、损坏的状态转换和验证差异，确保您的生产代码在所有设备和工作流程中提供完美的用户体验。"
+    ],
+    "highlight_quote": "“客观的行为洞察、无懈可击的功能验证、对内部代码假设的 0% 依赖。”",
+    "side_image": "/all_services/black_box_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将不可预测的用户交互转化为稳定、完全可预测的应用程序体验",
+    "cards": [
+      {
+        "title": "客观缺陷检测",
+        "description": "发现内部开发团队由于结构代码熟悉而经常忽视的隐藏行为错误和逻辑错误。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "严格的边界分析",
+        "description": "使用极端的越界参数对输入字段和数据表单进行压力测试，以确保正确处理验证错误，而不会导致应用程序崩溃。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "端到端用户验证",
+        "description": "模拟完整的客户工作流程（从入职设置到结账处理），验证每个逻辑状态转换的行为是否准确。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "无缝跨设备测试",
+        "description": "验证您的响应式 UI 布局在不同视口中的表现是否干净，检查 2x2 连接卡和实际使用下的对齐位置。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon 质量保证工程将为您带来什么",
+    "image": "/all_services/black_box_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 自动化端到端E2E测试套件",
+        "description": "强大的、行为驱动的自动化脚本配置为运行模仿真实用户输入数组的编程浏览器交互。"
+      },
+      {
+        "title": "2. 高密度边值测试台",
+        "description": "精心设计的输入矩阵参数可根据边缘情况检查验证字段、文本容量和数字范围。"
+      },
+      {
+        "title": "3. 组件状态和交互性检查表",
+        "description": "详细的功能跟踪地图审查暗模式样式、响应式玻璃形态卡片和复杂的多页面路线。"
+      },
+      {
+        "title": "4. 全面的缺陷和逻辑账本",
+        "description": "精细的 QA 分析报告具有精确的复制步骤、输入数据负载、行为不匹配注释和可视化证明日志。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代、强化的测试基础设施进行验证",
+    "subtitle": "行业领先的端到端自动化引擎、行为驱动框架和审计套件，旨在实现完全一致性",
+    "tools": [
+      {
+        "name": "Playwright",
+        "icon": "SiPlaywright"
+      },
+      {
+        "name": "Cypress",
+        "icon": "SiCypress"
+      },
+      {
+        "name": "硒网格",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "黄瓜（BDD 框架）",
+        "icon": "SiCucumber"
+      },
+      {
+        "name": "邮递员（API 验证）",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Next.js（应用程序路由器审核）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（Auth E2E验证）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Jotform API（有效负载测试）",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "Docker（QA 运行时网格）",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "GitHub Actions（CI/CD 管道）",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Python（自动脚本）",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Node.js（测试引擎）",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "斧头辅助核心",
+        "icon": "SiAxe"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从需求映射到全面的功能认证",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "分析功能规范模型、映射用户角色目标、识别核心业务规则并跟踪高优先级应用程序路由。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "构造等价划分矩阵，制定边界值场景，并构建行为测试脚本。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "使用 Playwright 或 Cypress 编写 E2E 自动断言、建立无头测试容器并构建模拟服务器。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行深度回归测试矩阵，记录功能异常，调整验证属性并提供最终质量认证。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "主要更新推出期间 100% 核心功能准确性和 0% 面向用户的流程崩溃",
+    "image": "/all_services/black_box_testing/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于意外的布局不匹配和表单错误不断渗入生产代码升级中，可扩展的云应用程序的客户保留率严重下降。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 Playwright 和 Docker 设计了一个自动化的端到端黑盒验证架构，模拟数千个用户配置文件更新、身份验证检查和登陆提交。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "用户报告的系统错误在第一个月内下降了 84%，发布后的修补程序降至绝对零，工程团队在部署过程中完全放心。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "功能 QA 架构和常见问题解答",
+    "subtitle": "对关键行为验证、测试自动化和端点验证查询的清晰答案",
+    "questions": [
+      {
+        "question": "黑盒测试和白盒测试之间的主要区别是什么？",
+        "answer": "黑盒测试完全从外部用户角度评估应用程序，验证行为、表单逻辑和界面，而无需了解底层内部代码。白盒测试着眼于系统网格内部，直接关注源路径、内部循环和代码架构指标。"
+      },
+      {
+        "question": "如何在不冒主动数据污染风险的情况下实现用户行为路径的自动化？",
+        "answer": "我们将所有行为测试套件隔离在解耦的暂存沙箱环境中。我们构建定制的编程模拟服务器和本地化的测试数据池，确保您的生产数据库和活跃的消费者交易保持完全不受影响且安全。"
+      },
+      {
+        "question": "黑盒方法能否准确验证复杂的集成（例如自定义 Jotform hooks 或 Supabase Auth）？",
+        "answer": "绝对地。通过将这些系统视为功能边界，我们模拟特定的用户行为，例如提交的引导字段或密码重置提示。我们以编程方式断言应用程序显示正确的成功状态或干净地拦截字段验证错误。"
+      },
+      {
+        "question": "如何确保自动化 UI 测试脚本在简单的前端布局发生变化时不会中断？",
+        "answer": "我们在 Playwright 等框架内实施严格、有弹性的选择器策略。我们没有针对脆弱、易变的 CSS 样式，而是优先考虑解耦的测试属性、可访问的标签和数据属性，通过标准用户界面修订使测试运行器保持坚如磐石。"
+      }
+    ],
+    "footer": {
+      "text": "准备好验证您的应用程序的功能弹性和用户体验了吗？",
+      "link_text": "与我们的团队安排功能审查",
+      "link_url": "/contact"
+    }
+  }
+}

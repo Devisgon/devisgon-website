@@ -1,0 +1,206 @@
+{
+  "slug": "bug-bounty",
+  "hero_section": {
+    "title": "Enterprise Bug Bounty et plateformes de sécurité participatives",
+    "subtitle": "Découverte continue et contradictoire de vulnérabilités à l’échelle mondiale",
+    "description": "Nous concevons, lançons et gérons des programmes Bug Bounty de niveau production qui exploitent la communauté du piratage éthique pour trouver des vulnérabilités critiques dans votre code. Renforcez votre surface d'attaque externe, sécurisez vos API et évitez les violations catastrophiques grâce à des tests d'intrusion continus.",
+    "buttons": [
+      {
+        "text": "Lancez mon Bug Bounty",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs en sécurité",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/bug_bounty.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "span_heading": "Programme de prime aux bogues ?",
+    "content": [
+      "Chez Devisgon, nous traitons la sécurité défensive comme une discipline continue et conflictuelle. Allant bien au-delà des tests d'intrusion annuels ponctuels traditionnels, nous construisons des cadres de sécurité participatifs résilients qui ouvrent vos applications de production, vos réseaux de serveurs et vos écosystèmes de code aux pirates informatiques éthiques d'élite 24 heures sur 24, selon des règles d'engagement strictes et personnalisées.",
+      "Nous comblons le fossé entre la recherche ouverte sur la sécurité et les équipes d’ingénierie internes. Chaque programme que nous gérons comprend un filtrage de tri automatisé, une vérification des vulnérabilités, des stratégies de tarification de récompense et une intégration dans vos pipelines CI/CD, garantissant ainsi que vos systèmes Web, bases de données et microservices restent résistants aux exploits du monde réel."
+    ],
+    "highlight_quote": "« Défense continue et participative, mesures de vulnérabilité vérifiées, 0 % de dépendance à l'égard de simples scanners automatisés. »",
+    "side_image": "/all_services/bug_bounty/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Convertissez vos périmètres numériques exposés en un réseau d'applications sécurisé et éprouvé",
+    "cards": [
+      {
+        "title": "Découverte continue des défauts",
+        "description": "Exposez les failles de code critiques, les bogues d’injection et les contournements d’accès cachés 24 heures sur 24, dépassant de loin les limites de planification des audits périodiques.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Diverses perspectives contradictoires",
+        "description": "Engagez des centaines de chercheurs spécialisés en sécurité en utilisant des ensembles d’outils modernes, imitant en toute sécurité les méthodologies réelles des acteurs malveillants.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Valeur de rémunération à la performance",
+        "description": "Optimisez votre budget de sécurité par programmation en payant exclusivement pour des vulnérabilités valides et vérifiées plutôt que pour des heures de consultation humaine forfaitaires.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Renforcement proactif de la marque",
+        "description": "Démontrer un engagement de classe mondiale en faveur de la sécurité des données et de la conformité réglementaire en maintenant un canal structuré et sûr pour la divulgation éthique.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec les tissus de sécurité participatifs Devisgon",
+    "image": "/all_services/bug_bounty/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Portées et politiques personnalisées du Bug Bounty",
+        "description": "Règles d'engagement de niveau production spécifiant les limites protégées, les limites de test et les protections juridiques explicites de la sphère de sécurité."
+      },
+      {
+        "title": "2. Moteurs de tri et de validation des rapports gérés",
+        "description": "Des pipelines d’examen technique experts qui filtrent le bruit, reproduisent les allégations de sécurité et éliminent automatiquement les faux positifs."
+      },
+      {
+        "title": "3. Cartographie de la gravité programmatique (CVSS v4)",
+        "description": "Configurations d'évaluation rigoureuses utilisant le système commun de notation des vulnérabilités pour calculer avec précision les impacts des défauts structurels."
+      },
+      {
+        "title": "4. Tableaux de bord centralisés d'observabilité de la sécurité",
+        "description": "Des portails de suivi Next.js élégants dotés de conceptions en mode sombre, avec flou de fond et de lueur ambiante claire pour surveiller les métriques de correctifs et les statuts de vulnérabilité."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous sécurisons avec des outils de sécurité offensifs modernes et avancés",
+    "subtitle": "Plateformes de test, distributions et maillages de configuration de pointe, conçus pour un audit approfondi du système",
+    "tools": [
+      {
+        "name": "Kali Linux",
+        "icon": "SiKalilinux"
+      },
+      {
+        "name": "Burp Suite Pro",
+        "icon": "SiBurpsuite"
+      },
+      {
+        "name": "Proxy d'attaque OWASP Zed",
+        "icon": "SiOwasp"
+      },
+      {
+        "name": "API HackerOne",
+        "icon": "SiHackerone"
+      },
+      {
+        "name": "API Bugcrowd",
+        "icon": "SiBugcrowd"
+      },
+      {
+        "name": "Nuclei (scanner de vulnérabilités)",
+        "icon": "SiNuclei"
+      },
+      {
+        "name": "Charge utile CMS (configuration sécurisée)",
+        "icon": "SiPayloadcms"
+      },
+      {
+        "name": "Supabase (tests d'intrusion d'authentification)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (tests SQLi)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Next.js (audit de sécurité)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker (environnement de laboratoire isolé)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Actions GitHub (synchronisation DevSecOps)",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "GitLab CI (pipelines de sécurité)",
+        "icon": "FaGitlab"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la formulation du périmètre au déploiement mondial du bug bounty en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les inventaires des actifs de l'entreprise, mappez les domaines d'API externes, définissez les limites de sécurité cibles et évaluez les références actuelles du code système.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Rédigez les conditions politiques du programme, formulez les niveaux de la matrice de paiement des récompenses en fonction de la gravité et structurez les itinéraires de triage de l'ingénierie.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Configurez l'espace de travail de la plateforme de primes, implémentez des webhooks pour les notifications d'ingénierie automatisées et rédigez des tests de vérification des entrées.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Intégrez des niveaux de chercheurs privés, lancez des lancements progressifs localisés, surveillez la latence de validation sous le trafic initial et diffusez le programme à l'échelle mondiale.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "0 % d'exploits graves atteignant la production active et + 400 % de vitesse de correction des vulnérabilités",
+    "image": "/all_services/bug_bounty/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage de sécurité",
+        "text": "Une plate-forme cloud à forte croissance utilisant Supabase et Payload CMS était confrontée à des attaques d'analyse continue et craignait que des failles logiques cachées contournent leurs baies de pare-feu traditionnelles."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu et lancé un framework Bug Bounty géré, orchestrant des filtres de tri automatisés via n8n et fournissant des fichiers de preuve d'exploit validés directement à l'équipe de développement via des API sécurisées."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les problèmes critiques de logique d’autorisation ont été isolés et corrigés en toute sécurité avant les abus malveillants, le risque d’exposition du code a chuté et la vitesse de réponse technique a été multipliée par quatre."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture de sécurité et FAQ",
+    "subtitle": "Des réponses claires aux tests participatifs critiques, à la coordination des chercheurs et aux questions relatives à la sécurité du périmètre",
+    "questions": [
+      {
+        "question": "Quelle est la principale différence entre un Penetration Test classique et un programme Bug Bounty ?",
+        "answer": "Un test d'intrusion repose généralement sur un seul groupe de consultants auditant votre code sur une fenêtre rigide d'une à deux semaines pour un montant forfaitaire. Un programme Bug Bounty est continu et participatif, ouvrant vos champs d'application définis à des milliers de chercheurs en sécurité divers à travers le monde qui ne sont rémunérés que lorsqu'ils découvrent des vulnérabilités exploitables."
+      },
+      {
+        "question": "Comment protégez-vous notre plateforme contre les pirates informatiques malveillants qui tentent d’endommager activement nos grilles de bases de données ?",
+        "answer": "Nous appliquons des règles d’engagement strictes et granulaires. Chaque chercheur doit suivre des paramètres de test clairs, comme éviter les tentatives de déni de service (DoS), utiliser des balises d'en-tête de test explicites et accéder uniquement à des pools de données fictifs personnalisés, ce qui permet aux équipes de sécurité de surveiller et de bloquer immédiatement les empreintes de trafic invalides."
+      },
+      {
+        "question": "Pouvons-nous exécuter un programme hautement sécurisé et restreint sans exposer notre code au Web public ?",
+        "answer": "Absolument. Nous construisons des programmes Private Bug Bounty personnalisés. Ce modèle limite l’accès exclusivement à des chercheurs en sécurité éthique hautement sélectionnés et de premier plan. Le programme fonctionne selon des paramètres de non-divulgation dans des environnements d'exécution isolés, vous offrant une visibilité approfondie des tests défensifs avant de le rendre public."
+      },
+      {
+        "question": "Comment votre processus de tri évite-t-il que nos équipes d’ingénierie ne soient submergées par des rapports en double ?",
+        "answer": "Nous concevons un proxy de validation rigoureux en plusieurs étapes. Chaque ticket entrant passe par des outils d'automatisation personnalisés et des audits de réplication de code humain. Nous vérifions de manière indépendante, évaluons conformément aux directives CVSS et nettoyons les fichiers, en acheminant uniquement les nouveaux problèmes confirmés directement dans vos backlogs de développement Jira ou GitHub."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à construire un maillage de défense de sécurité à toute épreuve et soutenu par la foule ?",
+      "link_text": "Planifiez une revue d'architecture avec notre équipe de sécurité",
+      "link_url": "/contact"
+    }
+  }
+}

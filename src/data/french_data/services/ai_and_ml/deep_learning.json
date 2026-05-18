@@ -1,0 +1,206 @@
+{
+  "slug": "deep-learning",
+  "hero_section": {
+    "title": "Systèmes d'apprentissage profond d'entreprise",
+    "subtitle": "Architectures de réseaux neuronaux multicouches pour des inférences complexes",
+    "description": "Nous concevons, formons et déployons des réseaux neuronaux profonds de qualité production conçus pour extraire des abstractions de haut niveau à partir de pools de données d'entreprise multistructurés. Boostez votre logiciel avec une perception avancée, un traitement séquentiel complexe et des couches de décision cognitive.",
+    "buttons": [
+      {
+        "text": "Architecte de réseaux de neurones",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs Deep Learning",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/deep_learning.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que le niveau entreprise",
+    "span_heading": "Apprentissage profond ?",
+    "content": [
+      "Chez Devisgon, nous concevons et mettons en œuvre des modèles d'apprentissage profond multicouches sur mesure, conçus pour décoder les relations non linéaires de grande dimension au sein de vos dossiers d'entreprise. Allant bien au-delà de la modélisation statistique superficielle traditionnelle, nos architectures s'appuient sur des cadres neuronaux spécialisés, notamment des réseaux neuronaux convolutifs (CNN) pour la vision, des transformateurs pour la compréhension des séquences et des auto-encodeurs profonds pour l'exploration de modèles anormaux.",
+      "Nous comblons le fossé entre la recherche universitaire abstraite et les systèmes logiciels robustes et prêts pour la production. Chaque structure d'apprentissage profond que nous déployons est compilée pour une accélération GPU à haut débit, optimisée à l'aide de matrices de quantification avancées et intégrée à une surveillance programmatique pour garantir une fiabilité absolue sur les flux de travail opérationnels à haute vitesse."
+    ],
+    "highlight_quote": "\"Abstraction de réseau multicouche, exécution accélérée par GPU, compromis de 0 % sur la précision mathématique.\"",
+    "side_image": "/all_services/deep_learning/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Exploitez les structures neuronales multicouches pour automatiser la logique d’entreprise non linéaire",
+    "cards": [
+      {
+        "title": "Exploration de données non structurées",
+        "description": "Extrayez des informations opérationnelles concrètes directement à partir de sources d'entreprise brutes et non tabulaires telles que des images spatiales complexes, des flux audio continus et des blocs de texte non structurés.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Extraction automatisée de fonctionnalités",
+        "description": "Éliminez les boucles d’ingénierie de fonctionnalités manuelles et fragiles. Nos réseaux approfondis apprennent indépendamment les représentations optimales directement à partir de vos matrices de jeux de données brutes.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Précision dimensionnelle élevée",
+        "description": "Résolvez les défis commerciaux non linéaires et très complexes qui provoquent l’échec complet des modèles de régression statistique et tabulaires traditionnels.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Inférence de modèle évolutive",
+        "description": "Compilez des paramètres neuronaux complexes dans des microservices hautement rationalisés optimisés pour répondre à des requêtes ultra-rapides et en temps réel à grande échelle.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec Devisgon Deep Learning Engineering",
+    "image": "/all_services/deep_learning/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Conception d'architecture de réseau neuronal sur mesure",
+        "description": "Topologies compilées personnalisées (Transformateurs, CNN, RNN) explicitement conçues pour mapper les paramètres uniques de votre système d'entreprise."
+      },
+      {
+        "title": "2. Pipelines d’ingestion GPU hautes performances",
+        "description": "Structures de chargement de données programmatiques conçues pour canaliser et diffuser en douceur de grands tableaux de tenseurs dans des grilles de calcul GPU distribuées."
+      },
+      {
+        "title": "3. Quantification et élagage du modèle programmatique",
+        "description": "Optimisations du réseau post-formation qui éliminent les nœuds morts et réduisent les définitions de poids pour permettre un déploiement cible rapide et à faible latence."
+      },
+      {
+        "title": "4. Profilage des performances neuronales et rapports d'audit",
+        "description": "Lectures télémétriques détaillées couvrant les pentes de perte de validation, les mesures de stabilité du gradient couche par couche et les profils de vitesse d'inférence opérationnelle."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous concevons avec des cadres d'apprentissage profond de pointe",
+    "subtitle": "Bibliothèques de calcul, environnements d'exécution tenseurs et plates-formes MLOps de pointe conçus pour des échelles massives",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Keras",
+        "icon": "SiKeras"
+      },
+      {
+        "name": "CUDA / NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Visage câlin (Transformers)",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Exécution ONNX",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "OpenCV (Vision neuronale)",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "Pondérations et biais",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase (intégration des journaux)",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la conception de la topographie des couches au déploiement du runtime Tensor de qualité production en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Cartographiez les enregistrements commerciaux non structurés, définissez des mesures objectives mathématiques et auditez les clusters informatiques GPU disponibles.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Établissez des dimensions tensorielles, esquissez des topographies de couches cachées et construisez des mécanismes de division de validation.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Exécutez des courses d'entraînement approfondies, implémentez des couches de stabilisation de gradient, effectuez des balayages d'hyperparamètres et validez la précision du poids.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Quantifiez les fichiers de paramètres pour optimiser les environnements d'exécution binaires, conteneurisez les environnements d'exécution d'exécution et connectez les tableaux de suivi des performances en direct en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Extraction d'images automatisée à 98,7 % et accélération du traitement du système 12X",
+    "image": "/all_services/deep_learning/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Un fournisseur mondial de logistique a été paralysé par un énorme goulot d'étranglement causé par des humains examinant et transcrivant manuellement les étiquettes d'expédition entrantes endommagées et de formats mixtes."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu un réseau neuronal convolutif (CNN) profond intégré à une couche Transformer localisée à l'aide de PyTorch, compilant les fichiers de poids finaux directement dans un environnement d'exécution de conteneur ONNX."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "La précision de l’extraction des étiquettes a grimpé jusqu’à 98,7 %, la vitesse totale de traitement opérationnel a été multipliée par 12 et les erreurs administratives sont tombées à près de zéro."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture d'apprentissage profond et FAQ",
+    "subtitle": "Des réponses claires aux requêtes critiques de mise en œuvre, de performances du réseau et d’infrastructure tensorielle",
+    "questions": [
+      {
+        "question": "Quelle est la principale différence structurelle entre le Machine Learning standard et le Deep Learning ?",
+        "answer": "Les modèles standard d'apprentissage automatique (comme la régression linéaire ou les arbres de décision) exigent que les développeurs nettoient et sélectionnent manuellement les entrées de fonctionnalités avant la formation. Le Deep Learning utilise des réseaux neuronaux multicouches pour extraire automatiquement des fonctionnalités directement des matrices de données brutes."
+      },
+      {
+        "question": "Comment gérez-vous les « gradients qui disparaissent » lors de la formation de configurations de réseaux neuronaux profonds ?",
+        "answer": "Nous atténuons l'instabilité du gradient par programmation. Nous mettons en œuvre des initialisations de couches stratégiques (telles que les méthodes He/Xavier), intégrons des couches de normalisation par lots, utilisons des fonctions d'activation modernes (ReLU/GELU) et appliquons des limites d'écrêtage de gradient dans nos routines d'exécution de formation."
+      },
+      {
+        "question": "Que sont la « quantification de modèle » et l'« élagage » et quel est leur impact sur les applications Web ?",
+        "answer": "La quantification convertit les poids neuronaux à virgule flottante de 32 bits en entiers de 8 bits peu encombrants, tandis que l'élagage supprime les connexions de nœuds inactives et à faible impact. Cela réduit considérablement l'encombrement du fichier modèle et la surcharge de mémoire, ramenant la latence d'inférence à quelques millisecondes afin qu'elle fonctionne correctement en production."
+      },
+      {
+        "question": "Pourquoi PyTorch est-il préféré aux autres frameworks d'apprentissage profond existants pour le développement d'entreprise ?",
+        "answer": "PyTorch fournit une présentation graphique dynamique qui rend le débogage du code et le traçage architectural aussi simples qu'une exécution Python standard. Cela correspond parfaitement aux environnements d'entreprise, permettant aux développeurs de créer des configurations multi-agents robustes et de faire évoluer les déploiements proprement via Docker."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à intégrer des réseaux de neurones profonds dans votre infrastructure logicielle ?",
+      "link_text": "Planifiez une revue architecturale avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

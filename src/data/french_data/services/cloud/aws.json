@@ -1,0 +1,206 @@
+{
+  "slug": "aws-devops-infrastructure",
+  "hero_section": {
+    "title": "Ingénierie d'infrastructure AWS Cloud et DevOps d'entreprise",
+    "subtitle": "Architectures immuables, pipelines CI/CD automatisés et maillages cloud élastiques",
+    "description": "Nous concevons une infrastructure AWS de qualité production, hautement sécurisée et à mise à l'échelle automatique en utilisant l'Infrastructure as Code (IaC). Maximisez votre vitesse de déploiement, éliminez le suivi manuel de la configuration du serveur et établissez une gestion du basculement multirégion en moins d'une seconde.",
+    "buttons": [
+      {
+        "text": "Architecter mon infrastructure AWS",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs DevOps",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/aws_devops.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est-ce que le niveau entreprise",
+    "span_heading": "Ingénierie AWS DevOps ?",
+    "content": [
+      "Chez Devisgon, nous abordons l'infrastructure cloud AWS comme une discipline d'ingénierie logicielle exacte et programmable. S'éloignant des clics manuels sur la console et des configurations de serveur fragiles, nous écrivons une infrastructure en tant que code (IaC) déclarative et contrôlée en version qui planifie l'ensemble de votre périmètre réseau, les couches d'orchestration de conteneurs et les clusters de bases de données de manière native.",
+      "Nous comblons le fossé entre le développement d’applications et les opérations des systèmes cloud. Chaque pipeline d'infrastructure de déploiement que nous construisons est renforcé avec des périmètres de gestion des identités et des accès (IAM) sans confiance, des réseaux de diffusion de contenu à faible latence, des mises à niveau automatisées sans temps d'arrêt et des pools de télémétrie de microservices centralisés pour garantir une disponibilité maximale de la plateforme."
+    ],
+    "highlight_quote": "« État de l'infrastructure déclaratif, versions CI/CD entièrement automatisées, temps d'exécution de mise à l'échelle du cloud 100 % prévisibles. »",
+    "side_image": "/all_services/aws_devops/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Transformez la gestion volatile des serveurs en un maillage cloud automatisé et hautement prévisible",
+    "cards": [
+      {
+        "title": "État de l'infrastructure immuable",
+        "description": "Déployez les modifications de code via des structures IaC déclaratives, en éliminant entièrement les erreurs de dérive de configuration sur les couches de serveur de préparation et de production.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Flux de déploiement continu",
+        "description": "Établissez des pipelines optimisés qui exécutent automatiquement des contrôles fonctionnels, exécutent des compilations de sécurité et déploient des mises à jour logicielles en quelques minutes.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Limites élastiques à mise à l'échelle automatique",
+        "description": "Configurez les systèmes pour ajuster dynamiquement la capacité de calcul avec précision pendant les pics de trafic, en maintenant les performances tout en réduisant les coûts d'infrastructure hors pointe.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Ségrégations cloud renforcées",
+        "description": "Isolez proprement les ressources de bases de données privées dans des cloud privés virtuels (VPC) personnalisés, en contrôlant l'accès aux microservices via des groupes de sécurité stricts.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Les principaux piliers AWS et DevOps que nous concevons",
+    "image": "/all_services/aws_devops/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Infrastructure déclarative en tant que code (IaC)",
+        "description": "Environnements système entièrement reproductibles compilés via des scripts Terraform pour gouverner les réseaux VPC, les sous-réseaux, les passerelles et les équilibreurs de charge par programmation."
+      },
+      {
+        "title": "2. Structures d'orchestration de conteneurs de production",
+        "description": "Configurations Amazon EKS (Kubernetes) ou ECS hautement évolutives configurées pour gérer les déploiements d'applications, le routage de l'état et les mises à jour progressives des microservices."
+      },
+      {
+        "title": "3. Pipelines d'intégration CI/CD DevSecOps automatisés",
+        "description": "Workflows de livraison continue de code utilisant GitHub Actions ou AWS CodePipeline intégrés à des audits automatisés des politiques de sécurité et des contrôles d'intégration."
+      },
+      {
+        "title": "4. Télémétrie du système centralisé et moniteurs de journaux",
+        "description": "Tableaux de bord de surveillance complets créés via les baies Amazon CloudWatch et Prometheus qui suivent les journaux de traitement, les courbes d'utilisation de la mémoire et les métriques du réseau."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous concevons avec des outils d'infrastructure AWS et DevOps de niveau entreprise",
+    "subtitle": "Services cloud, fournisseurs et utilitaires de livraison conformes aux normes de l'industrie optimisés pour une résilience absolue des systèmes",
+    "tools": [
+      {
+        "name": "AWS EC2/mise à l'échelle automatique",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Amazon EKS (Kubernetes)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Terraform (IaC Core)",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Docker (Microservices)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Actions GitHub",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Amazon RDS / Aurore",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Amazon VPC (réseau maillé)",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "AWS IAM (accès zéro confiance)",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "AWS Route 53 / CloudFront",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Amazon CloudWatch",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Prométhée et Grafana",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "Supabase (gestion des données)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Redis (mise en cache distribuée)",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la cartographie architecturale du système à l'exploitation cloud certifiée en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les environnements système existants, tracez les lignes de dépendance du réseau logiciel, établissez des limites de mise à l’échelle cible et isolez les limites de sécurité des données.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulez des schémas de routage VPC principaux, planifiez des modèles d'autorisation IAM sans confiance et planifiez proprement les workflows de livraison continue.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Écrivez des fichiers de configuration Terraform déclaratifs, regroupez des couches de microservices dans des conteneurs Docker et assemblez des pipelines de déploiement.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests de charge d'environnement intensifs, vérifiez les configurations de mise à l'échelle automatique des nœuds et lancez des panneaux de suivi des métriques CloudWatch en direct en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Automatisation de l'infrastructure de base à 100 % et réduction de 73 % de la latence de déploiement opérationnel",
+    "image": "/all_services/aws_devops/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une application cloud évolutive souffrait de pannes fréquentes de plate-forme, de dépendances logicielles rompues et d'écarts de configuration entre ses instances de serveur en raison de modifications manuelles de l'infrastructure."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons complètement refactorisé leur architecture d'environnement à l'aide de Terraform et d'Amazon EKS, en structurant des workflows de déploiement automatisés sans temps d'arrêt au sein d'un pipeline GitHub Actions sécurisé."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les erreurs de configuration du serveur ont chuté jusqu'à zéro absolu, les fréquences de déploiement de code se sont considérablement accélérées et la plate-forme a maintenu une stabilité opérationnelle totale lors des pics de trafic."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture AWS DevOps et FAQ",
+    "subtitle": "Des réponses claires aux requêtes d’orchestration des infrastructures critiques, d’intégration continue et de sécurité des pipelines",
+    "questions": [
+      {
+        "question": "Quelle est la valeur stratégique concrète de l’écriture d’Infrastructure as Code (IaC) via Terraform ?",
+        "answer": "Terraform agit comme une source de vérité unique et déclarative pour le maillage de vos systèmes. Au lieu de déployer manuellement des ressources cloud, ce qui conduit à des configurations non vérifiées, IaC suit chaque routeur, équilibreur de charge et configuration de base de données sécurisée sous forme de code en texte brut, permettant des audits de version automatisés et un clonage immédiat de l'environnement."
+      },
+      {
+        "question": "Comment vos pipelines CI/CD automatisés parviennent-ils à publier des versions logicielles sans temps d'arrêt ?",
+        "answer": "Nous concevons des mécanismes spécialisés de déploiement de conteneurs bleu-vert ou roulants au sein d'Amazon EKS. Lorsque le nouveau code passe les contrôles de validation, le pipeline lance de nouveaux conteneurs aux côtés de l'infrastructure active, valide leur état de santé et fait transiter le trafic utilisateur en douceur, sans une seule milliseconde de décalage de service."
+      },
+      {
+        "question": "Vos environnements cloud peuvent-ils évoluer efficacement pour contrôler les factures d'hébergement opérationnel ?",
+        "answer": "Absolument. Nous configurons des mise à l'échelle automatique de pods horizontaux précis et des règles de mise à l'échelle Amazon EC2 directement liées aux limites de CPU et de requêtes en temps réel. Lorsque le trafic baisse pendant les périodes creuses, l'infrastructure diminue automatiquement, préservant ainsi les limites de calcul et optimisant les dépenses mensuelles de la plateforme."
+      },
+      {
+        "question": "Comment protégez-vous les enregistrements de base de données sécurisés et les clés de microservice privées dans les configurations AWS ?",
+        "answer": "Nous appliquons des stratégies strictes de paramètres de confiance zéro. Les bases de données sont verrouillées dans des sous-réseaux totalement privés, entièrement séparés de l’Internet public. Toutes les connexions API nécessitent des jetons cryptographiques de courte durée gérés via AWS Secrets Manager, garantissant ainsi la sécurité et la dissimulation des routes de connexion aux applications."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à transformer vos environnements cloud en une infrastructure DevOps immuable de niveau entreprise ?",
+      "link_text": "Planifiez une revue DevOps avec notre équipe d'ingénierie",
+      "link_url": "/contact"
+    }
+  }
+}

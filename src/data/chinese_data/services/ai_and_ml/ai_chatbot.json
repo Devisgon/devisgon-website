@@ -1,0 +1,206 @@
+{
+  "slug": "ai-chatbot",
+  "hero_section": {
+    "title": "企业人工智能聊天机器人和会话代理",
+    "subtitle": "无限规模的人性化情境自动化",
+    "description": "我们设计、构建和部署生产级对话式 AI 代理，这些代理可以跨您的 Web 界面、移动应用程序和通信渠道进行本机交互。将原始的消费者互动转化为高度结构化的交易解决方案。",
+    "buttons": [
+      {
+        "text": "构建我的人工智能聊天机器人",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_chatbot.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "人工智能聊天机器人？",
+    "content": [
+      "在 Devisgon，我们构建了先进的对话式 AI 代理，旨在执行具有完整上下文感知的复杂、多轮业务逻辑。摆脱僵化的、令人沮丧的基于树的点击机器人和基本的提示包装器，我们的系统利用深度语义理解、多代理框架和实时后端集成来自主解决用户问题。",
+      "我们弥合了开放式自然语言处理和严格的关系数据库安全之间的差距。每个聊天机器人管道都使用低延迟流协议、人工代理的动态后备挂钩以及精细的性能跟踪部署到您的软件生态系统中，确保您的数字接触点保持可靠、准确并与您的品牌声音保持一致。"
+    ],
+    "highlight_quote": "“流畅的自然语言工作流程、零延迟流响应、24/7 自主支持操作。”",
+    "side_image": "/all_services/ai_chatbot/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将消费者参与转变为无摩擦、自动化的收入引擎",
+    "cards": [
+      {
+        "title": "不间断 24/7 参与",
+        "description": "全天候提供即时、高保真技术解决方案和产品演练，而无需扩大员工数量。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "多轮情境记忆",
+        "description": "在长时间对话中保留结构化上下文，轻松记住客户历史记录、用户属性和即时偏好。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "完整的系统可操作性",
+        "description": "使聊天机器人能够直接读取和写入您的数据库网格，从而允许它们通过安全 API 进行预约、更新用户记录或取消订单。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "大幅减轻运营负担",
+        "description": "转移高达 80% 的重复传入客户请求，从而将人类客户服务部门解放出来，专注于高价值的升级。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon 对话基础设施将为您带来什么",
+    "image": "/all_services/ai_chatbot/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 自定义对话界面和小部件",
+        "description": "精美的、响应式的聊天组件，针对 React 和 Next.js 应用程序进行了优化，具有暗模式和 glassmorphism 样式。"
+      },
+      {
+        "title": "2. 上下文感知检索增强生成（RAG）",
+        "description": "内部知识库流架构将实时文档输入聊天机器人的系统边界，以确保万无一失的准确性。"
+      },
+      {
+        "title": "3. 人在环升级矩阵",
+        "description": "智能后备系统旨在通过完整的结构化聊天记录将复杂的对话优雅地传输给现场操作员。"
+      },
+      {
+        "title": "4. 对话分析和令牌审计",
+        "description": "集中分析门户映射聊天情绪趋势、解决率、API 延迟参数和准确的代币支出概况。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用可扩展的对话式人工智能框架进行设计",
+    "subtitle": "行业领先的语言模型、数据库和微服务，专为实时规模而设计",
+    "tools": [
+      {
+        "name": "Next.js（AI SDK）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "顺风 CSS",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "成帧器运动",
+        "icon": "SiFramermotion"
+      },
+      {
+        "name": "LangChain",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "开放人工智能API",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Supabase",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvector)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "n8n（高级人工智能）",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Redis（会话内存）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从角色制定到全渠道聊天机器人部署",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核支持文档、定义核心对话范围、映射目标 API 写入操作以及设计代理角色。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "构建状态处理工作流程，建立回退逻辑序列，并绘制暗模式、响应式 UI 聊天布局。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "使用 Next.js 和 Framer Motion 开发客户端组件，在 Supabase 中编写 RAG 矢量逻辑，并连接工具调用管道。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行深度提示安全审核、连接实时 Web 套接字、运行实时用户流测试以及部署跟踪仪表板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "74% 支持票证偏转和亚秒级对话解决时间",
+    "image": "/all_services/ai_chatbot/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一个快速扩展的数字服务平台正在努力应对大量重复的客户帐户查询，导致人工响应周期超过 18 小时。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 Next.js AI SDK 和 LangChain 设计了一个智能 AI 聊天代理，通过安全的微服务层将其功能工具直接绑定到 Supabase 后端。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "该聊天机器人在没有人工干预的情况下成功解决了 74% 的支持量，响应延迟降至一秒以下，客户满意度立即攀升。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "对话架构和常见问题解答",
+    "subtitle": "对关键实施、安全和系统工程查询的清晰答案",
+    "questions": [
+      {
+        "question": "聊天机器人如何避免提供虚假信息或幻觉指令？",
+        "answer": "我们使用检索增强生成（RAG）严格隔离代理的知识空间。以编程方式限制聊天机器人从注入的 Supabase 矢量数据库上下文之外提取答案，从而防止推测性语句。"
+      },
+      {
+        "question": "人工智能代理可以执行实际的数据库任务，例如修改帐户余额或预订应用程序位置吗？",
+        "answer": "是的。我们配置高级工具调用和功能参数。当用户请求功能更改时，模型会安全地构建 JSON 有效负载并访问您的安全 API 端点，以在严格的验证规则下执行数据库任务。"
+      },
+      {
+        "question": "如何为回访用户保留短期和长期对话历史记录？",
+        "answer": "我们利用高速 Redis 会话管理阵列以及永久 PostgreSQL 表。此设置可确保如果用户重新加载其视图或在几天后返回，聊天机器人将保持完整的上下文线程跟踪。"
+      },
+      {
+        "question": "如果聊天机器人遇到无法解决的问题会发生什么？",
+        "answer": "我们构建无缝的人类后备层。如果对话触发警报参数、感知到负面情绪或遇到逻辑死胡同，它会立即将用户线程和历史记录传递给您的实时团队（例如，通过 Crisp、Slack 或内部 CRM 仪表板）。"
+      }
+    ],
+    "footer": {
+      "text": "正在寻找自定义对话工具？",
+      "link_text": "与我们的团队安排代理审查",
+      "link_url": "/contact"
+    }
+  }
+}

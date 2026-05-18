@@ -1,0 +1,206 @@
+{
+  "slug": "ai-agents",
+  "hero_section": {
+    "title": "企业自主人工智能代理",
+    "subtitle": "复杂工作流程的解耦认知基础设施",
+    "description": "我们构建和部署生产级、目标驱动的人工智能代理，能够自主推理、工具执行、多代理协作和动态决策。超越基本自动化，建立自我优化的数字化劳动力队伍。",
+    "buttons": [
+      {
+        "text": "部署自治代理",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_agents.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是自治",
+    "span_heading": "人工智能代理？",
+    "content": [
+      "在 Devisgon，我们设计了企业级人工智能代理，旨在执行复杂的、开放式的业务目标，而无需持续的人工干预。与静态的、基于规则的自动化脚本或基本的线性聊天机器人不同，我们的自主代理拥有先进的推理循环（例如ReAct和Plan-and-Solve），使它们能够评估不断变化的数据环境，选择适当的软件工具，并动态纠正其路线。",
+      "我们弥合了抽象法学硕士认知和生产级软件操作之间的差距。每个多代理集群都部署在安全的沙箱环境中，与持久内存系统集成，并受到严格的编程约束的管理，确保您的自主工作流可靠、安全地运行并以最高计算效率运行。"
+    ],
+    "highlight_quote": "“面向目标的执行、多代理编排、100% 自主解决问题的基础设施。”",
+    "side_image": "/all_services/ai_agents/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "通过自主的、确定性的执行循环改变您的业务运营",
+    "cards": [
+      {
+        "title": "目标驱动的自主性",
+        "description": "提供一个高级目标，代理会将其分解为可操作的子任务，执行步骤并独立验证输出。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "动态工具利用",
+        "description": "使代理能够自主读取和写入数据库、调用外部 Webhooks、分析 CSV 以及与第三方软件网格连接。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "多智能体协作",
+        "description": "部署专门的代理网络（例如研究员、编辑和审计员），将结构化数据有效负载相互传递以完成复杂的目标。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "主动运营审计",
+        "description": "设置后台监控代理，主动扫描系统是否存在安全威胁或数据异常，并立即采取纠正措施。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devisgon 自治代理框架获得什么",
+    "image": "/all_services/ai_agents/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 多代理编排结构",
+        "description": "复杂的代理网络旨在分配任务、处理状态管理并自主解决多步骤操作逻辑。"
+      },
+      {
+        "title": "2. 高级工具调用和函数注册表",
+        "description": "安全、高度沙盒的执行环境允许代理以编程方式与内部 API、数据库和 CRM 进行交互。"
+      },
+      {
+        "title": "3. 短期记忆和情景长期记忆",
+        "description": "矢量支持的记忆网络允许代理保留系统上下文、记住过去的决策并从执行失败中学习。"
+      },
+      {
+        "title": "4. 人在环验证检查点",
+        "description": "程序化门控机制迫使代理在执行高影响或敏感操作之前暂停并请求人工授权。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用硬化的代理生态系统进行构建",
+    "subtitle": "行业领先的框架、内存存储和运行时专为安全自治而设计",
+    "tools": [
+      {
+        "name": "LangGraph",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "CrewAI",
+        "icon": "SiCrewai"
+      },
+      {
+        "name": "Autogen",
+        "icon": "SiMicrosoft"
+      },
+      {
+        "name": "OpenAI 助手 API",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "n8n（高级人工智能和代理）",
+        "icon": "SiN8n"
+      },
+      {
+        "name": "Supabase（矢量和状态）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis（情景记忆）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js（代理控制面板）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker（沙盒运行时）",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS 基岩",
+        "icon": "SiAmazonaws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从逻辑映射到完全自主的代理部署",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "识别重复性或认知复杂的操作瓶颈，概述可用的软件工具，并定义代理权限。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "构建多代理图形布局、起草特定的提示边界、设计内存路由表并建立安全门。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "使用 LangGraph 或 CrewAI 对代理图进行编程，构建自定义 API 工具函数，并集成矢量支持的内存池。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "运行密集的沙箱试验循环，对代理后备分支进行压力测试，激活跟踪面板，并安全启动自主管道。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过精心安排的多代理网络，研究处理时间减少 92%",
+    "image": "/all_services/ai_agents/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一个全球 SaaS 平台花费了数百个开发时间手动执行竞争性技术分析、检查 API 并验证软件文档更改。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们通过 LangGraph 和 Python 设计了一个自主多智能体系统。一个代理抓取目标端点，另一个代理使用 Supabase 向量索引解析差异，第三个代理生成结构化优化矩阵。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "处理周期下降了 92%，技术准确性显着提高，并且系统完全在自动驾驶仪上生成丰富的、可立即执行的业务洞察日志。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "代理架构和常见问题解答",
+    "subtitle": "对关键实施、安全和自主系统工程查询的清晰答案",
+    "questions": [
+      {
+        "question": "是什么阻止自主人工智能代理进入无限循环或花费太多代币？",
+        "answer": "我们对严格的架构断路器和约束参数进行硬编码。每个代理执行循环都受到最大步数限制、执行超时和严格的每次运行代币支出上限的限制，迫使系统安全关闭并在达到边界时向操作人员发出警报。"
+      },
+      {
+        "question": "AI代理如何在不破坏生产环境的情况下安全地写入数据库？",
+        "answer": "代理不直接访问原始数据库。相反，它们与解耦的微服务 API 层交互。该层验证代理生成的每个 JSON 有效负载，确保在执行数据库更改之前验证严格的格式、类型和权限。"
+      },
+      {
+        "question": "人工智能聊天机器人和自主人工智能代理有什么区别？",
+        "answer": "聊天机器人通常是反应性的，处理与用户来回的多轮对话。自主代理是积极主动且目标驱动的；您提供高级任务，代理在长时间运行时独立运行 - 规划步骤、选择工具和分析结果，而无需用户提示每个操作。"
+      },
+      {
+        "question": "在代理进行金融交易或删除记录之前，我可以强制实施人工监督吗？",
+        "answer": "绝对地。我们嵌入了人机交互 (HITL) 检查点。当代理到达高优先级节点（例如触发 API 支付或修改安全文件）时，它会将其状态更新为“待处理”，并向您的团队发送通知 Webhook，以便通过 Slack 或管理仪表板进行验证。"
+      }
+    ],
+    "footer": {
+      "text": "准备好通过自主数字员工扩展您的业务了吗？",
+      "link_text": "与我们的团队安排代理审查",
+      "link_url": "/contact"
+    }
+  }
+}

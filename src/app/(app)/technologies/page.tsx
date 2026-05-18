@@ -6,7 +6,7 @@ import TechnologiesMainPage from "@/components/technologies/main_page";
 import { getCachedLanguage } from "@/lib/language";
 import { TECHNOLOGIES_PAGE_METADATA } from "@/lib/seo";
 import { getTechnologiesListingData, getTechnologyData } from "@/data/loaders/technologies";
-import { getNavbarDataByLang } from "@/lib/localized-content";
+import { findNavbarItemByHref, getNavbarDataByLang } from "@/lib/localized-content";
 
 export const metadata: Metadata = TECHNOLOGIES_PAGE_METADATA;
 
@@ -24,7 +24,7 @@ export default async function TechnologiesPage() {
   const categoryDescriptionMap = new Map(listingCards.map((card) => [card.title.toLowerCase(), card.description]));
   const navbarData = getNavbarDataByLang(lang);
 
-  const technologiesDropdown = navbarData.navbar.find((item) => item.href === "/technologies")?.dropdown;
+  const technologiesDropdown = findNavbarItemByHref(navbarData, "/technologies")?.dropdown;
   const technologyGroups =
     technologiesDropdown?.columns
       ?.map((column) => {

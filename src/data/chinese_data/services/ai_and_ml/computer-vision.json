@@ -1,0 +1,206 @@
+{
+  "slug": "computer-vision",
+  "hero_section": {
+    "title": "企业计算机视觉系统",
+    "subtitle": "用于自主操作的实时视觉智能",
+    "description": "我们设计、训练和部署生产级计算机视觉模型，使应用程序能够从数字图像、视频流和实时空间遥测中查看、分析和提取可操作的信息。",
+    "buttons": [
+      {
+        "text": "视觉系统架构师",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的视觉工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/computer_vision.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "计算机视觉？",
+    "content": [
+      "在 Devisgon，我们设计了定制计算机视觉架构，将原始视觉输入转换为结构化、可操作的操作数据。我们远远超越了基本的开源脚本，构建了专门从事实时对象检测、语义图像分割、面部识别跟踪和自动光学字符识别 (OCR) 的高精度系统。",
+      "我们弥合了繁重的空间数据矩阵和低延迟生产运行时之间的差距。每个视觉管道都针对边缘计算或可扩展的云集群进行了优化，利用专门的张量运行时和自动视频帧抓取机制来保证跨安全、物流和制造环境的持续、可靠的推理吞吐量。"
+    ],
+    "highlight_quote": "“高保真图像分类、亚毫秒级对象跟踪、100% 自动化空间分析。”",
+    "side_image": "/all_services/computer_vision/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将实时摄像机馈送和图像转换为自动化、数据驱动的决策",
+    "cards": [
+      {
+        "title": "实时空间追踪",
+        "description": "部署最先进的检测模型，可在摄像机视野内同时精确定位、分类和跟踪多个移动物体。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "自动化质量检测",
+        "description": "通过嵌入自动视觉分类网格来立即识别产品表面缺陷和异常，消除手动监督错误。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "文档数据提取",
+        "description": "使用定制的 OCR 逻辑阵列以编程方式读取、解析和数字化物理文件中的倾斜、手写或降级文本。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "嵌入式边缘部署",
+        "description": "量化神经网络结构以直接在轻量级本地硬件门上运行，从而降低外部带宽要求和数据成本。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon 计算机视觉架构将为您带来什么",
+    "image": "/all_services/computer_vision/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 自定义对象检测和分段权重",
+        "description": "完全编译的神经权重配置针对快速定位、边界框和语义屏蔽配置文件进行了优化。"
+      },
+      {
+        "title": "2.低延迟视频摄取代理",
+        "description": "高吞吐量摄取例程旨在处理连续的 RTSP 和实时摄像机流，而不会丢失关键的操作帧。"
+      },
+      {
+        "title": "3. 可视化分析和热图接口",
+        "description": "基于 Next.js 构建的交互式跟踪控制仪表板，用于监控空间计数历史趋势、坐标和边界框日志。"
+      },
+      {
+        "title": "4. 边缘优化的推理容器",
+        "description": "打包高度压缩的容器化运行时配置，以便立即部署到本地服务器或专用现场节点。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用强化的高吞吐量空间分析工具进行构建",
+    "subtitle": "行业领先的视觉模型、图像处理器和深度张量运行时间，专为闪电般的推理而设计",
+    "tools": [
+      {
+        "name": "OpenCV",
+        "icon": "SiOpencv"
+      },
+      {
+        "name": "YOLO（v8/v10）",
+        "icon": "SiUltralytics"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "CUDA/NVIDIA TensorRT",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "ONNX 运行时",
+        "icon": "SiOnnx"
+      },
+      {
+        "name": "Roboflow",
+        "icon": "SiRoboflow"
+      },
+      {
+        "name": "抱脸（视觉）",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS 愿景展望",
+        "icon": "SiAmazonaws"
+      },
+      {
+        "name": "Supabase（事件存储）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从原始图像矩阵标记到实时视频推理执行仅需 6 周",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核公司视觉反馈、建立环境照明约束、定义目标空间类别以及映射计算设置。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定坐标数据标注标准、轮廓图像增强矩阵、结构神经模型拓扑。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "使用 YOLO 或 PyTorch 运行模型对象训练、管理坐标边界循环并执行推理优化。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "将权重编译到压缩的 TensorRT 运行时中，部署低延迟流循环，并安全地启动本地化可视化仪表板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "99.4% 精确的空间库存盘点和亚毫秒级事件检测",
+    "image": "/all_services/computer_vision/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于条码扫描缓慢以及繁忙的分拣码头门处的人工检查滞后，一个大型配送中心无法跟踪传入的包裹数量。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们设计了定制的 YOLO 对象定位和跟踪布局，通过直接连接到本地安全源的优化的 NVIDIA TensorRT 架构来部署模型。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "库存提取准确率成功达到 99.4%，处理积压完全消失，供应链在自动驾驶仪上实现 100% 自动化空间审核日志。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "计算机视觉架构和常见问题解答",
+    "subtitle": "对关键实施、提要摄取和神经张量查询的清晰答案",
+    "questions": [
+      {
+        "question": "物体检测和语义分割的核心技术区别是什么？",
+        "answer": "对象检测可识别目标实体的存在，并将其隔离在方形边界框坐标数组内。语义分割在更深的像素级网格上运行，跟踪对象的精确边缘轮廓以构建精确的视觉掩模叠加。"
+      },
+      {
+        "question": "您的视觉模型如何处理不稳定、低光或多尘的工业环境？",
+        "answer": "我们在数据设计阶段实施大量预处理和图像增强策略。通过在故意降级、曝光调整和模糊的训练张量上训练模型，最终的神经权重能够在抵御物理现实世界相机干扰的情况下保持稳健。"
+      },
+      {
+        "question": "在云端处理视频数据流更好还是直接在边缘硬件上处理更好？",
+        "answer": "当您需要亚毫秒级响应循环或面临严格的带宽限制时，边缘部署（使用 NVIDIA Jetson 等硬件）更为优越。当处理需要与主关系数据库进行深度交叉引用的大量非即时图像库时，云部署最适合。"
+      },
+      {
+        "question": "部署基于摄像头的视觉系统时如何保护隐私和安全问题？",
+        "answer": "我们构建安全、本地化的零出口视频管道。帧数据立即在沙盒运行时环境中进行处理，在进行任何日志记录之前，可以在摄取边缘以编程方式模糊身份或 PII。"
+      }
+    ],
+    "footer": {
+      "text": "准备好将自动化视觉智能嵌入到您的企业运营中了吗？",
+      "link_text": "与我们的团队安排空间审查",
+      "link_url": "/contact"
+    }
+  }
+}
