@@ -1,116 +1,135 @@
 {
   "slug": "supabase",
   "seo_metadata": {
-    "title": "企业Supabase开发| PostgreSQL 和实时后端解决方案",
-    "description": "专业的Supabase实施服务。使用自动化 API、实时数据库订阅和企业级身份验证构建可扩展、安全的应用程序。",
+    "title": "Supabase 开发服务 | PostgreSQL 后端、身份验证和实时应用程序 |德维斯冈",
+    "description": "Devisgon 为可扩展的 PostgreSQL 后端、身份验证、实时应用程序、SaaS 平台、仪表板、API、存储和云就绪数字产品提供专业的 Supabase 开发服务。",
     "keywords": [
-      "苏帕基地发展",
-      "PostgreSQL 架构",
-      "实时数据库",
-      "行级安全性 (RLS)",
-      "基础设施即服务解决方案",
+      "Supabase开发服务",
+      "Supabase应用程序开发",
+      "Supabase后端开发",
+      "苏帕贝咨询",
+      "PostgreSQL后端开发",
+      "Supabase认证",
+      "Supabase实时数据库",
+      "Supabase 行级安全性",
+      "Supabase API开发",
       "Supabase 边缘函数",
-      "无服务器后端"
+      "Supabase 存储集成",
+      "无服务器后端开发",
+      "后端即服务开发",
+      "适用于 SaaS 平台的 Supabase",
+      "Supabase 仪表板开发",
+      "Supabase数据库设计",
+      "定制 Supabase 应用程序",
+      "Firebase 替代开发"
     ]
   },
   "hero_section": {
-    "eyebrow": "开源 Firebase 替代方案",
-    "title": "快速创新",
+    "eyebrow": "PostgreSQL 后端和实时应用程序开发",
+    "title": "构建可扩展的产品",
     "highlight": "Supabase",
-    "description": "使用基于 PostgreSQL 的强大套件（包括即时 API、实时数据同步和集成身份验证）加速后端开发。",
+    "description": "Devisgon 为 SaaS 平台、Web 应用程序、移动应用程序、管理仪表板、客户门户、AI 工作流程以及需要安全身份验证、PostgreSQL 数据架构、实时功能、API 和存储的云就绪产品设计和实施 Supabase 解决方案。",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "构建您的后端",
+      "text": "规划您的 Supabase 后端",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看核心架构",
+      "text": "探索 Supabase 范围",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 Supabase 进行设计",
-    "subtitle": "Supabase 将 PostgreSQL 的可靠性与现代后端即服务 (BaaS) 平台的速度相结合。",
+    "title": "为什么我们使用 Supabase 进行构建",
+    "subtitle": "Supabase 为现代产品提供了基于 PostgreSQL、身份验证、实时数据、存储、API 和无服务器功能构建的快速、安全且可扩展的后端基础。",
     "paragraphs": [
-      "Supabase 使我们能够消除数月的样板后端工程。通过利用其自动生成的 REST 和 GraphQL API，我们可以在数小时而不是数周内从模式设计过渡到前端集成，同时保持在强大的 PostgreSQL 生态系统内。",
-      "该平台的最大优势在于其安全模型。通过利用 PostgreSQL 的原生行级安全性 (RLS)，我们确保在数据库级别强制执行数据隔离和用户权限，从而创建本质上更安全的“厚数据库、瘦客户端”架构。"
+      "Devisgon 将 Supabase 用于需要可靠后端基础设施的初创公司、SaaS 平台、内部工具、移动应用程序、仪表板、门户和 MVP，而无需在重复的后端设置上浪费数月时间。 Supabase 有助于加速产品交付，同时仍为团队提供 PostgreSQL、结构化数据建模、安全访问控制和 API 驱动开发的优势。",
+      "强大的 Supabase 实现需要的不仅仅是创建表和启用身份验证。我们的方法侧重于数据库架构规划、行级安全策略、用户角色、API 边界、服务器端逻辑、存储规则、实时工作流程、边缘功能、迁移和生产就绪架构，以便您的产品在增长时保持安全、可维护和可扩展。"
     ],
     "cards": [
       {
-        "title": "PostgreSQL 电源",
-        "description": "每个 Supabase 项目都是一个完整的、专用的 PostgreSQL 数据库——没有专有的抽象层。",
+        "title": "PostgreSQL 数据基础",
+        "description": "使用 PostgreSQL 表、关系、约束、视图、函数和查询模式构建结构化、关系型和可扩展的数据系统。",
         "icon_type": "FaDatabase"
       },
       {
-        "title": "实时引擎",
-        "description": "通过 WebSocket 实时监听数据库更改，以构建协作的实时用户体验。",
-        "icon_type": "FaSync"
+        "title": "安全身份验证和访问",
+        "description": "为实际产品工作流程实施用户身份验证、会话流、基于角色的访问、行级安全策略和安全数据权限。",
+        "icon_type": "FaUserShield"
       },
       {
-        "title": "内置身份验证",
-        "description": "使用一整套社交和无密码提供商管理用户注册和登录。",
-        "icon_type": "FaUserShield"
+        "title": "实时且 API 就绪的后端",
+        "description": "使用 Supabase 服务创建实时体验、即时 API、存储工作流程、服务器端功能和连接的应用程序功能。",
+        "icon_type": "FaSync"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Supabase 技术范围",
+    "title": "Supabase开发范围",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "关系数据建模",
-        "description": "设计具有外键、视图和业务逻辑存储过程的高完整性 PostgreSQL 模式。"
+        "title": "PostgreSQL 架构和数据建模",
+        "description": "基于 SaaS、仪表板、移动或业务应用程序工作流程设计表、关系、约束、索引、视图、函数和结构化数据模型。"
       },
       {
-        "title": "无服务器边缘功能",
-        "description": "在全球范围内部署 TypeScript 函数以处理敏感逻辑、Webhooks 和第三方集成。"
+        "title": "身份验证和行级安全性",
+        "description": "实施安全的用户身份验证、访问规则、租户感知权限、基于角色的策略、受保护的数据访问和数据库级安全控制。"
       },
       {
-        "title": "存储和资产管理",
-        "description": "使用直接与数据库权限集成的可扩展存储层管理大型文件和媒体。"
+        "title": "API和应用程序集成",
+        "description": "将 Supabase 与前端应用程序、移动应用程序、仪表板、门户、AI 工作流程、管理系统、服务器路由和第三方服务连接。"
+      },
+      {
+        "title": "边缘函数和服务器端逻辑",
+        "description": "为 Webhooks、支付、电子邮件、后台工作流程、API 保护、自定义逻辑和外部集成构建安全的 Supabase Edge Functions。"
+      },
+      {
+        "title": "存储、实时和生产设置",
+        "description": "配置文件存储、媒体工作流程、实时订阅、环境管理、迁移、备份、监控和生产就绪部署实践。"
       }
     ]
   },
   "edge_section": {
-    "title": "苏帕基地边缘",
-    "subtitle": "现代全栈交付的战略优势。",
+    "title": "苏帕巴斯的优势",
+    "subtitle": "为需要更快交付、安全数据访问、PostgreSQL 可靠性、实时工作流程和可扩展产品架构的团队提供现代后端基础。",
     "cards": [
       {
-        "metric": "3x",
-        "title": "开发速度",
-        "description": "通过自动 CRUD API 生成和集成 Auth 减少后端开发时间。"
+        "metric": "Fast",
+        "title": "后端交付",
+        "description": "通过托管身份验证、生成的 API、PostgreSQL 数据存储、实时功能和集成开发人员工具，更快地启动后端功能。"
       },
       {
-        "metric": "99.95%",
-        "title": "Uptime",
-        "description": "由 AWS 管理并针对关键任务正常运行时间进行优化的高可用性基础设施。"
+        "metric": "Secure",
+        "title": "数据库级访问控制",
+        "description": "通过行级安全性、角色感知策略、身份验证感知查询和严格的权限边界来保护产品数据。"
       },
       {
-        "metric": "Open",
-        "title": "源核心",
-        "description": "基于 Postgres、GoTrue 和 PostgREST 等开源标准构建，防止限制性锁定。"
+        "metric": "Scalable",
+        "title": "产品数据架构",
+        "description": "支持不断增长的用户、记录、团队、仪表板、工作流程以及与专为长期增长而设计的基于 PostgreSQL 的后端的集成。"
       },
       {
-        "metric": "Zero",
-        "title": "供应商锁定",
-        "description": "随时将整个数据库和配置导出到您自己的自托管 PostgreSQL 实例。"
+        "metric": "Modern",
+        "title": "实时应用功能",
+        "description": "构建实时仪表板、协作工作流程、通知、状态更新、消息传递功能和实时产品体验。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase 使我们能够以初创公司的速度进行构建，并且",
-    "highlight": "企业的稳定性"
+    "quote": "Supabase 帮助现代团队从产品理念转变为",
+    "highlight": "安全后端执行"
   },
   "conversation_section": {
-    "title": "构建您的实时应用程序",
-    "subtitle": "请咨询我们的首席工程师来定义您的 Supabase 架构或计划从 Firebase 迁移。",
-    "full_name_label": "首席开发人员姓名",
-    "business_email_label": "实体邮箱",
-    "message_label": "技术要求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的数据要求或实时挑战...",
-    "button_text": "启动您的项目"
+    "title": "设计您的 Supabase 后端架构",
+    "subtitle": "与 Devisgon 合作，为 SaaS 平台、移动应用程序、仪表板、门户、实时工作流程、人工智能系统和云就绪数字产品规划、构建、保护或优化 Supabase。",
+    "full_name_label": "姓名",
+    "business_email_label": "企业邮箱",
+    "message_label": "后端要求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的应用程序、Supabase 设置、身份验证流程、数据库模型、RLS 要求或后端架构目标...",
+    "button_text": "请求 Supabase 咨询"
   }
 }

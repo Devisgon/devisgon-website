@@ -1,116 +1,135 @@
 {
   "slug": "laravel",
   "seo_metadata": {
-    "title": "企业 Laravel 开发 |优雅的 PHP 框架解决方案",
-    "description": "定制 Laravel Web 开发服务。我们使用 PHP 最强大的 MVC 框架构建可扩展、安全且可维护的应用程序。",
+    "title": "Laravel 开发服务 |定制 PHP Web 应用程序和 API 开发 |德维斯冈",
+    "description": "Devisgon 为全球公司的定制 PHP Web 应用程序、SaaS 平台、管理仪表板、API、门户、电子商务系统和安全业务软件提供专业的 Laravel 开发服务。",
     "keywords": [
-      "Laravel 开发",
-      "PHP MVC 框架",
-      "雄辩的 ORM",
-      "Laravel Forge 部署",
-      "定制API开发",
-      "Laravel Vapor 无服务器",
-      "全栈 PHP 解决方案"
+      "Laravel 开发服务",
+      "Laravel 开发公司",
+      "定制 Laravel 开发",
+      "Laravel 网络应用程序开发",
+      "PHP 网页开发",
+      "Laravel API 开发",
+      "Laravel SaaS 开发",
+      "Laravel 后端开发",
+      "Laravel 仪表板开发",
+      "Laravel 电子商务开发",
+      "Laravel 门户开发",
+      "Laravel 应用程序现代化",
+      "Laravel 性能优化",
+      "Laravel 迁移服务",
+      "Laravel 咨询",
+      "PHP MVC框架开发",
+      "定制 PHP 应用程序",
+      "企业 Laravel 解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "适合 Web 工匠的 PHP 框架",
-    "title": "优雅的工程设计",
+    "eyebrow": "定制 PHP Web 应用程序开发",
+    "title": "构建安全的业务应用程序",
     "highlight": "Laravel",
-    "description": "使用优先考虑干净代码、开发人员幸福感和企业规模稳健性的框架构建现代全栈 Web 应用程序。",
+    "description": "Devisgon 为 SaaS 平台、客户门户、管理仪表板、API、电子商务系统、内部工具、预订平台、CRM 工作流程以及需要安全后端逻辑和长期可维护性的自定义业务软件构建可扩展的 Laravel 应用程序。",
     "side_image": "/technologies/laravel/hero.webp",
     "primary_cta": {
-      "text": "开始你的构建",
+      "text": "规划你的 Laravel 项目",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "探索生态系统",
+      "text": "探索 Laravel 范围",
       "href": "/technologies/laravel#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 Laravel 进行工程师",
-    "subtitle": "Laravel 为快速开发提供了最全面的生态系统，同时又不牺牲架构完整性。",
+    "title": "为什么我们使用 Laravel 进行构建",
+    "subtitle": "Laravel 是一个成熟的 PHP 框架，用于构建安全、可维护和可扩展的业务应用程序，具有结构化的后端逻辑、干净的 API 和快速的产品交付。",
     "paragraphs": [
-      "Laravel 是复杂、内容丰富或事务性 Web 应用程序的首选。其“内置电池”方法（具有内置身份验证、邮件服务和队列管理功能）使我们能够专注于构建独特的业务功能，而不是重新发明核心基础设施。",
-      "通过利用 Eloquent ORM 和 Blade 模板引擎，我们创建的代码库不仅具有高性能，而且具有高度可读性。这确保了我们构建的应用程序易于审核、维护，并随着内部团队的发展而移交给他们。"
+      "Devisgon 将 Laravel 用于需要可靠 Web 应用程序、管理面板、客户门户、SaaS 平台、电子商务工作流程、内容系统、CRM 风格工具、预订系统和 API 驱动产品的企业。 Laravel 提供了结构化的 MVC 基础，可以帮助团队快速构建业务功能，同时保持代码库的组织性和可维护性。",
+      "成功的 Laravel 应用程序需要的不仅仅是标准的 PHP 开发。我们的方法侧重于应用程序架构、数据库设计、身份验证、授权、API 结构、队列、通知、支付、集成、测试、部署和性能优化，以便您的平台保持安全、稳定并为长期增长做好准备。"
     ],
     "cards": [
       {
-        "title": "雄辩的 ORM",
-        "description": "使用富有表现力、优美的语法管理数据库记录，使复杂的查询变得简单且可读。",
-        "icon_type": "FaDatabase"
+        "title": "结构化MVC架构",
+        "description": "构建有组织的应用程序，在业务逻辑、数据库模型、路由、控制器、服务和面向用户的视图之间明确分离。",
+        "icon_type": "FaLayerGroup"
       },
       {
-        "title": "强大的安全性",
-        "description": "核心内置了针对 SQL 注入、跨站点请求伪造和跨站点脚本编写的保护。",
+        "title": "安全后端开发",
+        "description": "实施身份验证、权限、验证、加密数据处理、受保护的路由、安全 API 和生产就绪的后端工作流程。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "可扩展的队列",
-        "description": "将耗时的任务转移给后台工作人员，以保持应用程序的用户界面快如闪电。",
+        "title": "可扩展的业务逻辑",
+        "description": "使用队列、作业、事件、通知、缓存、API 层和干净的服务模式来支持不断增长的业务运营。",
         "icon_type": "FaTasks"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "框架范围",
+    "title": "Laravel 开发范围",
     "image": "/technologies/laravel/scope.webp",
     "items": [
       {
-        "title": "模块化整体结构",
-        "description": "使用传统的 MVC 模式构建应用程序，同时保持模块化，以便更轻松地过渡到微服务。"
+        "title": "自定义 Laravel Web 应用程序",
+        "description": "使用 Laravel 的结构化框架构建业务平台、仪表板、门户、内部工具、预订系统、CRM 工作流程、电子商务功能和 SaaS 应用程序。"
       },
       {
-        "title": "实时事件",
-        "description": "集成 Laravel Echo 和 Pusher/Reverb 来构建实时通知和实时数据更新。"
+        "title": "Laravel API 和后端开发",
+        "description": "创建安全的 REST API、后端服务、身份验证流程、基于角色的访问、第三方集成、移动应用程序后端和 API 优先的产品架构。"
       },
       {
-        "title": "无服务器和云运营",
-        "description": "使用适用于 AWS Lambda 的 Laravel Vapor 或适用于高性能托管服务器集群的 Forge 进行大规模部署。"
+        "title": "数据库设计和 Eloquent 建模",
+        "description": "设计关系数据库模式、迁移、Eloquent 模型、关系、查询范围、验证规则和优化的数据访问模式。"
+      },
+      {
+        "title": "队列、作业和自动化工作流程",
+        "description": "实施后台作业、计划任务、电子邮件通知、事件驱动的工作流程、支付处理、数据导入和长期运行的业务运营。"
+      },
+      {
+        "title": "优化、部署和维护",
+        "description": "提高 Laravel 性能、缓存、查询速度、代码结构、安全性、部署管道、服务器配置、监控和发布后维护。"
       }
     ]
   },
   "edge_section": {
-    "title": "Laravel 边缘",
-    "subtitle": "现代业务交付的战略优势。",
+    "title": "Laravel 的优势",
+    "subtitle": "一个经过验证的 Web 应用程序框架，适用于需要安全后端系统、快速开发、灵活集成和可维护产品架构的企业。",
     "cards": [
       {
-        "metric": "Fast",
-        "title": "Onboarding",
-        "description": "清晰的约定和丰富的文档可以缩短新开发人员的学习曲线。"
+        "metric": "Structured",
+        "title": "干净的应用程序架构",
+        "description": "使用 Laravel 的 MVC 结构、服务层、路由约定和有组织的后端模式保持复杂的业务软件易于管理。"
       },
       {
-        "metric": "99.9%",
-        "title": "代码安全",
-        "description": "利用 PHP 8+ 功能和 Laravel 的测试套件来确保高可信度部署。"
+        "metric": "Secure",
+        "title": "生产就绪基础",
+        "description": "支持安全身份验证、验证、路由保护、数据库访问、API 控制和关键业务应用程序工作流程。"
       },
       {
-        "metric": "2万+",
-        "title": "Packages",
-        "description": "一个庞大的社区 (Packagist)，提供支付网关、社交身份验证等模块。"
+        "metric": "Flexible",
+        "title": "定制业务功能",
+        "description": "围绕您的业务模型构建门户、仪表板、管理面板、支付工作流程、报告工具、CRM 功能、集成和自动化逻辑。"
       },
       {
-        "metric": "Zero",
-        "title": "债务增长",
-        "description": "严格遵守 PSR 标准可确保您的代码库保持现代化并与未来的 PHP 版本兼容。"
+        "metric": "Scalable",
+        "title": "长期产品增长",
+        "description": "使用队列、缓存、数据库优化、模块化代码和云就绪部署实践来支持未来的增长。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Laravel 让开发人员可以自由地进行创作，而框架则负责处理",
-    "highlight": "建筑重型起重"
+    "quote": "Laravel 帮助将复杂的业务需求转化为",
+    "highlight": "安全且可维护的 Web 应用程序"
   },
   "conversation_section": {
-    "title": "设计你的下一个创业项目",
-    "subtitle": "咨询我们的 Laravel 专家，构建适合您业务需求的可扩展、安全的 Web 解决方案。",
-    "full_name_label": "首席开发人员",
+    "title": "设计你的 Laravel 应用程序",
+    "subtitle": "与 Devisgon 合作，为 SaaS 平台、仪表板、门户、API、电子商务系统和自定义业务工作流程规划、构建、现代化或优化 Laravel 应用程序。",
+    "full_name_label": "姓名",
     "business_email_label": "企业邮箱",
-    "message_label": "项目范围",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的 Laravel 愿景或复杂的后端需求...",
-    "button_text": "索取报价"
+    "message_label": "项目需求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的 Laravel 项目、后端需求、API 需求、数据库结构、集成或性能目标...",
+    "button_text": "请求 Laravel 咨询"
   }
 }

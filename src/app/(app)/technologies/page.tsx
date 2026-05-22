@@ -5,10 +5,16 @@ import Footer from "@/components/footer";
 import TechnologiesMainPage from "@/components/technologies/main_page";
 import { getCachedLanguage } from "@/lib/language";
 import { TECHNOLOGIES_PAGE_METADATA } from "@/lib/seo";
-import { getTechnologiesListingData, getTechnologyData } from "@/data/loaders/technologies";
+import { getCanonicalTechnologySlug, getTechnologiesListingData, getTechnologyData } from "@/data/loaders/technologies";
 import { findNavbarItemByHref, getNavbarDataByLang } from "@/lib/localized-content";
+import { toSectionAnchor } from "@/lib/section-anchor";
 
 export const metadata: Metadata = TECHNOLOGIES_PAGE_METADATA;
+
+function getLastPathSegment(href: string): string | null {
+  const slug = href.split("?")[0].split("#")[0].split("/").filter(Boolean).pop();
+  return slug ?? null;
+}
 
 export default async function TechnologiesPage() {
   const lang = await getCachedLanguage();
@@ -20,18 +26,50 @@ export default async function TechnologiesPage() {
 
   const isRTL = lang === "ur" || lang === "ar";
   const withLang = (href: string) => (lang === "en" ? href : `${href}${href.includes("?") ? "&" : "?"}lang=${lang}`);
+  const technologyHref = (slug: string) => withLang(`/technologies/${getCanonicalTechnologySlug(slug)}`);
   const listingCards = Array.isArray(data.technology_cards) ? data.technology_cards : [];
-  const categoryDescriptionMap = new Map(listingCards.map((card) => [card.title.toLowerCase(), card.description]));
+  const categorySections = Array.isArray(data.technology_categories_section?.technology_cards)
+    ? data.technology_categories_section.technology_cards
+    : [];
+  const categoryDescriptionMap = new Map(
+    [...categorySections, ...listingCards].map((card) => [card.title.toLowerCase(), card.description])
+  );
   const navbarData = getNavbarDataByLang(lang);
 
   const technologiesDropdown = findNavbarItemByHref(navbarData, "/technologies")?.dropdown;
   const technologyGroups =
-    technologiesDropdown?.columns
+    (categorySections.length > 0
+      ? categorySections.map((category) => ({
+          title: category.title,
+          anchor: category.slug ? toSectionAnchor(category.slug) : toSectionAnchor(category.title),
+          description: category.description,
+          links:
+            category.technologies?.map((technology) => ({
+              name: technology.title,
+              href: technology.href,
+              description: technology.description,
+              slug: technology.slug,
+            })) ?? [],
+        }))
+      : technologiesDropdown?.columns?.map((column) => ({
+          title: column.title,
+          anchor: toSectionAnchor(column.title),
+          description:
+            categoryDescriptionMap.get(column.title.toLowerCase()) ??
+            `Explore modern ${column.title.toLowerCase()} stacks for scalable product delivery.`,
+          links:
+            column.links?.map((link) => ({
+              name: link.name,
+              href: link.href,
+              description: undefined,
+              slug: undefined,
+            })) ?? [],
+        })) ?? [])
       ?.map((column) => {
         const cards =
           column.links
             ?.map((link) => {
-              const slug = link.href.split("?")[0].split("/").filter(Boolean).pop();
+              const slug = link.slug ?? getLastPathSegment(link.href);
 
               if (!slug) {
                 return null;
@@ -40,9 +78,10 @@ export default async function TechnologiesPage() {
               const detailData = getTechnologyData(lang, slug);
 
               return {
-                title: detailData?.hero_section.highlight ?? link.name,
-                href: withLang(link.href),
+                title: link.name ?? detailData?.hero_section.highlight ?? slug,
+                href: technologyHref(slug),
                 description:
+                  link.description ??
                   detailData?.hero_section.description ??
                   `Production-ready implementation support for ${link.name.toLowerCase()}.`,
                 icon_type: detailData?.why_use_section.cards?.[0]?.icon_type ?? "FaCode",
@@ -51,10 +90,9 @@ export default async function TechnologiesPage() {
             .filter((card): card is NonNullable<typeof card> => Boolean(card)) ?? [];
 
         return {
+          anchor: column.anchor,
           title: column.title,
-          description:
-            categoryDescriptionMap.get(column.title.toLowerCase()) ??
-            `Explore modern ${column.title.toLowerCase()} stacks for scalable product delivery.`,
+          description: column.description,
           cards,
         };
       })

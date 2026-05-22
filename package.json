@@ -15,7 +15,9 @@
     "start": "next start",
     "postbuild": "next-sitemap",
     "lint": "eslint",
-    "images:webp": "node ./convert-public-images-to-webp.mjs --dir public"
+    "images:webp": "node ./convert-public-images-to-webp.mjs --dir public",
+    "data:hyphen-to-space": "node scripts/replace-data-hyphens.mjs",
+    "data:translate": "node scripts/translate_services.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.992.0",

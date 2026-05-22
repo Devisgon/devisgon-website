@@ -1,116 +1,135 @@
 {
   "slug": "supabase",
   "seo_metadata": {
-    "title": "Développement de Supabase d'entreprise | PostgreSQL et solutions back-end en temps réel",
-    "description": "Services professionnels de mise en œuvre de Supabase. Créez des applications évolutives et sécurisées avec des API automatisées, des abonnements à des bases de données en temps réel et une authentification de niveau entreprise.",
+    "title": "Services de développement Supabase | Applications backend, d'authentification et en temps réel PostgreSQL | Devisgon",
+    "description": "Devisgon fournit des services de développement professionnels Supabase pour les backends PostgreSQL évolutifs, l'authentification, les applications en temps réel, les plates-formes SaaS, les tableaux de bord, les API, le stockage et les produits numériques prêts pour le cloud.",
     "keywords": [
-      "Développement de la Supabase",
-      "Architecture PostgreSQL",
-      "Base de données en temps réel",
-      "Sécurité au niveau des lignes (RLS)",
-      "Solutions BaaS",
+      "Services de développement Supabase",
+      "Développement d'application Supabase",
+      "Développement backend Supabase",
+      "Conseil Supabase",
+      "Développement back-end PostgreSQL",
+      "Authentification Supabase",
+      "Base de données en temps réel Supabase",
+      "Sécurité au niveau des lignes Supabase",
+      "Développement d'API Supabase",
       "Fonctions Edge de la Supabase",
-      "Back-end sans serveur"
+      "Intégration du stockage Supabase",
+      "développement back-end sans serveur",
+      "développement backend en tant que service",
+      "Supabase pour les plateformes SaaS",
+      "Développement de tableaux de bord Supabase",
+      "Conception de base de données Supabase",
+      "applications Supabase personnalisées",
+      "Développement alternatif de Firebase"
     ]
   },
   "hero_section": {
-    "eyebrow": "L'alternative open source à Firebase",
-    "title": "Innovation rapide avec",
+    "eyebrow": "Développement d'applications backend et temps réel PostgreSQL",
+    "title": "Créez des produits évolutifs avec",
     "highlight": "Supabase",
-    "description": "Accélérez votre développement backend avec une puissante suite basée sur PostgreSQL comprenant des API instantanées, une synchronisation des données en temps réel et une authentification intégrée.",
+    "description": "Devisgon conçoit et implémente des solutions Supabase pour les plates-formes SaaS, les applications Web, les applications mobiles, les tableaux de bord d'administration, les portails clients, les flux de travail d'IA et les produits prêts pour le cloud qui nécessitent une authentification sécurisée, une architecture de données PostgreSQL, des fonctionnalités en temps réel, des API et un stockage.",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Construisez votre back-end",
+      "text": "Planifiez votre backend Supabase",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Voir l'architecture de base",
+      "text": "Explorer la portée de Supabase",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons avec Supabase",
-    "subtitle": "Supabase combine la fiabilité de PostgreSQL avec la vitesse des plates-formes Backend-as-a-Service (BaaS) modernes.",
+    "title": "Pourquoi nous construisons avec Supabase",
+    "subtitle": "Supabase offre aux produits modernes une base backend rapide, sécurisée et évolutive basée sur PostgreSQL, l'authentification, les données en temps réel, le stockage, les API et les fonctions sans serveur.",
     "paragraphs": [
-      "Supabase nous permet d'éliminer des mois d'ingénierie back-end standard. En tirant parti de ses API REST et GraphQL générées automatiquement, nous pouvons passer de la conception de schémas à l'intégration frontale en quelques heures plutôt qu'en quelques semaines, tout en restant dans le robuste écosystème PostgreSQL.",
-      "La plus grande force de la plateforme réside dans son modèle de sécurité. En utilisant la sécurité au niveau des lignes (RLS) native de PostgreSQL, nous garantissons que l'isolation des données et les autorisations des utilisateurs sont appliquées au niveau de la base de données, créant ainsi une architecture « base de données épaisse, client léger » qui est intrinsèquement plus sécurisée."
+      "Devisgon utilise Supabase pour les startups, les plates-formes SaaS, les outils internes, les applications mobiles, les tableaux de bord, les portails et les MVP qui ont besoin d'une infrastructure backend fiable sans perdre des mois en configuration backend répétitive. Supabase permet d'accélérer la livraison des produits tout en offrant aux équipes la puissance de PostgreSQL, la modélisation de données structurées, le contrôle d'accès sécurisé et le développement piloté par API.",
+      "Une implémentation solide de Supabase nécessite plus que la création de tables et l’activation de l’authentification. Notre approche se concentre sur la planification des schémas de base de données, les politiques de sécurité au niveau des lignes, les rôles des utilisateurs, les limites des API, la logique côté serveur, les règles de stockage, les flux de travail en temps réel, les fonctions périphériques, les migrations et l'architecture prête pour la production afin que votre produit reste sécurisé, maintenable et évolutif au fur et à mesure de sa croissance."
     ],
     "cards": [
       {
-        "title": "La puissance de PostgreSQL",
-        "description": "Chaque projet Supabase est une base de données PostgreSQL complète et dédiée, sans couches d'abstraction propriétaires.",
+        "title": "Fondation de données PostgreSQL",
+        "description": "Créez des systèmes de données structurés, relationnels et évolutifs à l'aide des tables, relations, contraintes, vues, fonctions et modèles de requête PostgreSQL.",
         "icon_type": "FaDatabase"
       },
       {
-        "title": "Moteur temps réel",
-        "description": "Écoutez les modifications de la base de données en temps réel via WebSockets pour créer des expériences utilisateur collaboratives en direct.",
-        "icon_type": "FaSync"
+        "title": "Authentification et accès sécurisés",
+        "description": "Mettez en œuvre l'authentification des utilisateurs, les flux de session, l'accès basé sur les rôles, les politiques de sécurité au niveau des lignes et les autorisations de données sécurisées pour les flux de travail de produits réels.",
+        "icon_type": "FaUserShield"
       },
       {
-        "title": "Authentification intégrée",
-        "description": "Gérez les inscriptions et les connexions des utilisateurs avec une suite complète de fournisseurs sociaux et sans mot de passe.",
-        "icon_type": "FaUserShield"
+        "title": "Backend en temps réel et prêt pour l'API",
+        "description": "Créez des expériences en temps réel, des API instantanées, des workflows de stockage, des fonctions côté serveur et des fonctionnalités d'applications connectées à l'aide des services Supabase.",
+        "icon_type": "FaSync"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Portée technique de Supabase",
+    "title": "Portée du développement de la Supabase",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Modélisation des données relationnelles",
-        "description": "Conception de schémas PostgreSQL de haute intégrité avec des clés étrangères, des vues et des procédures stockées pour la logique métier."
+        "title": "PostgreSQL Schema and Data Modeling",
+        "description": "Conception de tables, de relations, de contraintes, d'index, de vues, de fonctions et de modèles de données structurés basés sur des workflows SaaS, de tableaux de bord, d'applications mobiles ou d'applications métier."
       },
       {
-        "title": "Fonctions Edge sans serveur",
-        "description": "Déployer des fonctions TypeScript à l'échelle mondiale pour gérer la logique sensible, les webhooks et les intégrations tierces."
+        "title": "Authentification et sécurité au niveau des lignes",
+        "description": "Implémentation d'une authentification sécurisée des utilisateurs, de règles d'accès, d'autorisations tenant compte des locataires, de politiques basées sur les rôles, d'un accès protégé aux données et de contrôles de sécurité au niveau de la base de données."
       },
       {
-        "title": "Stockage et gestion des actifs",
-        "description": "Gérez des fichiers et des médias volumineux avec une couche de stockage évolutive qui s'intègre directement aux autorisations de base de données."
+        "title": "Intégration d'API et d'applications",
+        "description": "Connecter Supabase aux applications frontales, aux applications mobiles, aux tableaux de bord, aux portails, aux flux de travail d'IA, aux systèmes d'administration, aux routes de serveur et aux services tiers."
+      },
+      {
+        "title": "Fonctions Edge et logique côté serveur",
+        "description": "Création de fonctions Supabase Edge sécurisées pour les webhooks, les paiements, les e-mails, les flux de travail en arrière-plan, la protection des API, la logique personnalisée et les intégrations externes."
+      },
+      {
+        "title": "Configuration du stockage, du temps réel et de la production",
+        "description": "Configuration du stockage de fichiers, des flux de travail multimédias, des abonnements en temps réel, de la gestion de l'environnement, des migrations, des sauvegardes, de la surveillance et des pratiques de déploiement prêtes pour la production."
       }
     ]
   },
   "edge_section": {
-    "title": "Le bord de la Supabase",
-    "subtitle": "Avantages stratégiques pour une livraison full-stack moderne.",
+    "title": "L'avantage Supabase",
+    "subtitle": "Une base back-end moderne pour les équipes qui ont besoin d'une livraison plus rapide, d'un accès sécurisé aux données, de la fiabilité de PostgreSQL, de flux de travail en temps réel et d'une architecture de produit évolutive.",
     "cards": [
       {
-        "metric": "3x",
-        "title": "Vitesse de développement",
-        "description": "Réduction du temps de développement backend grâce à la génération automatisée d'API CRUD et à l'authentification intégrée."
+        "metric": "Fast",
+        "title": "Livraison back-end",
+        "description": "Lancez les fonctionnalités backend plus rapidement grâce à l'authentification gérée, aux API générées, au stockage de données PostgreSQL, aux fonctionnalités en temps réel et aux outils de développement intégrés."
       },
       {
-        "metric": "99,95%",
-        "title": "Uptime",
-        "description": "Infrastructure haute disponibilité gérée par AWS et optimisée pour une disponibilité critique."
+        "metric": "Secure",
+        "title": "Contrôle d'accès au niveau de la base de données",
+        "description": "Protégez les données produit avec une sécurité au niveau des lignes, des politiques tenant compte des rôles, des requêtes tenant compte de l'authentification et des limites d'autorisation strictes."
       },
       {
-        "metric": "Open",
-        "title": "Noyau source",
-        "description": "Construit sur des normes open source telles que Postgres, GoTrue et PostgREST, empêchant un verrouillage restrictif."
+        "metric": "Scalable",
+        "title": "Architecture des données produit",
+        "description": "Prenez en charge la croissance du nombre d'utilisateurs, d'enregistrements, d'équipes, de tableaux de bord, de flux de travail et d'intégrations avec un backend basé sur PostgreSQL conçu pour une croissance à long terme."
       },
       {
-        "metric": "Zero",
-        "title": "Verrouillage du fournisseur",
-        "description": "Exportez l'intégralité de votre base de données et de votre configuration à tout moment vers votre propre instance PostgreSQL auto-hébergée."
+        "metric": "Modern",
+        "title": "Fonctionnalités des applications en temps réel",
+        "description": "Créez des tableaux de bord en direct, des flux de travail collaboratifs, des notifications, des mises à jour de statut, des fonctionnalités de messagerie et des expériences produit en temps réel."
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase nous permet de construire avec la vitesse d'une startup et le",
-    "highlight": "stabilité d'une entreprise"
+    "quote": "Supabase aide les équipes modernes à passer de l'idée de produit à",
+    "highlight": "exécution back-end sécurisée"
   },
   "conversation_section": {
-    "title": "Concevez votre application en temps réel",
-    "subtitle": "Consultez nos ingénieurs principaux pour définir votre architecture Supabase ou planifier une migration depuis Firebase.",
-    "full_name_label": "Nom du développeur principal",
-    "business_email_label": "E-mail de l'entité",
-    "message_label": "Exigence technique",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez vos besoins en données ou vos défis en temps réel...",
-    "button_text": "Lancez votre projet"
+    "title": "Concevez votre architecture back-end Supabase",
+    "subtitle": "Travaillez avec Devisgon pour planifier, créer, sécuriser ou optimiser Supabase pour les plates-formes SaaS, les applications mobiles, les tableaux de bord, les portails, les flux de travail en temps réel, les systèmes d'IA et les produits numériques prêts pour le cloud.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Exigence du back-end",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Parlez-nous de votre application, de la configuration de Supabase, du flux d'authentification, du modèle de base de données, des exigences RLS ou des objectifs de l'architecture backend...",
+    "button_text": "Demander une consultation Supabase"
   }
 }

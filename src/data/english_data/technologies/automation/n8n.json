@@ -1,116 +1,132 @@
 {
   "slug": "n8n",
   "seo_metadata": {
-    "title": "Enterprise n8n Automation | Self-Hosted Workflow Orchestration",
-    "description": "Professional n8n implementation services. We architect secure, self-hosted automation workflows and fair-code node-based integrations for enterprise data sovereignty.",
+    "title": "n8n Automation Services | Self-Hosted Workflow Automation & AI Integrations | Devisgon",
+    "description": "Devisgon provides professional n8n automation services for secure workflow orchestration, AI agents, API integrations, CRM automation, data routing, and self-hosted business process automation.",
     "keywords": [
-      "n8n Automation",
-      "Self-hosted Workflow Tool",
-      "Node-based Automation",
-      "Data Sovereignty Solutions",
-      "n8n Custom Nodes",
-      "Enterprise Workflow Orchestration",
-      "Fair-code Automation Platform"
+      "n8n automation services",
+      "n8n workflow automation",
+      "n8n integration services",
+      "self-hosted automation platform",
+      "AI workflow automation",
+      "business process automation",
+      "API automation services",
+      "CRM automation with n8n",
+      "custom n8n workflows",
+      "n8n automation agency",
+      "workflow orchestration",
+      "data routing automation",
+      "self-hosted n8n development",
+      "n8n custom node development",
+      "enterprise automation solutions"
     ]
   },
   "hero_section": {
-    "eyebrow": "Fair-Code Workflow Automation",
-    "title": "Take Full Control with",
+    "eyebrow": "Self-Hosted Workflow Automation",
+    "title": "Build Secure, Scalable Automation with",
     "highlight": "n8n",
-    "description": "Build highly customizable, node-based automations that can be self-hosted to ensure absolute data privacy and architectural freedom.",
+    "description": "Devisgon designs and implements advanced n8n automation workflows that connect APIs, CRMs, databases, AI agents, cloud tools, forms, and internal systems into secure, reliable, and scalable business operations.",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Architect Your Workflow",
+      "text": "Plan Your n8n Automation",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Source Integration",
+      "text": "Explore Automation Scope",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with n8n",
-    "subtitle": "n8n provides the extensible, node-based foundation required for secure and complex backend orchestration.",
+    "title": "Why We Build Automation with n8n",
+    "subtitle": "n8n gives businesses the flexibility to build powerful automations with deep API control, custom logic, AI workflows, and self-hosted infrastructure.",
     "paragraphs": [
-      "n8n is our primary choice for projects that demand data sovereignty and high levels of customization. Unlike traditional SaaS automation tools, n8n’s fair-code model allows us to host the engine on your own secure infrastructure, ensuring that sensitive data never leaves your perimeter while still benefiting from a powerful visual workflow designer.",
-      "The true power of n8n lies in its extensibility. Its node-based architecture allows our developers to write custom JavaScript logic directly within the workflow, or even build proprietary nodes to interface with internal legacy systems, providing a bridge between standard cloud services and your unique enterprise stack."
+      "Devisgon uses n8n for businesses that need more than simple app-to-app automation. n8n is ideal for complex workflow orchestration where data must move between CRMs, databases, AI systems, webhooks, internal tools, cloud platforms, and third-party APIs with clear logic, validations, routing, and error handling.",
+      "For companies that care about control, privacy, and long-term scalability, n8n provides a strong automation foundation. It can be self-hosted, extended with custom JavaScript, connected to almost any API, and structured around real business workflows. This makes it suitable for AI agents, lead routing, CRM automation, reporting pipelines, operational dashboards, support workflows, and backend process automation."
     ],
     "cards": [
       {
-        "title": "Data Sovereignty",
-        "description": "Self-host on your own servers to maintain 100% control over your data and ensure strict compliance with privacy regulations.",
+        "title": "Self-Hosted Control",
+        "description": "Run n8n on your own infrastructure to keep sensitive business data, workflow logic, credentials, and execution history under your control.",
         "icon_type": "FaServer"
       },
       {
-        "title": "Infinite Extensibility",
-        "description": "Add custom JavaScript code or build proprietary nodes to handle unique business logic and complex data parsing.",
-        "icon_type": "FaCode"
+        "title": "Advanced Workflow Logic",
+        "description": "Build conditional routes, data transformations, approval flows, retries, scheduled jobs, webhook triggers, and multi-system automation pipelines.",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "Transparent Architecture",
-        "description": "Leverage a fair-code model that allows for deep auditing and complete technological independence.",
-        "icon_type": "FaLockOpen"
+        "title": "AI and API Integration",
+        "description": "Connect AI models, CRMs, databases, forms, email systems, cloud tools, and custom APIs into one intelligent automation layer.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Orchestration Scope",
+    "title": "n8n Automation Scope",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Self-Hosted Cloud Automations",
-        "description": "Deploying containerized n8n instances on AWS or GCP to manage backend tasks with zero external data exposure."
+        "title": "Business Workflow Orchestration",
+        "description": "Designing end-to-end n8n workflows for lead routing, CRM updates, customer communication, task creation, reporting, approvals, data syncing, and operational automation."
       },
       {
-        "title": "Custom Node Development",
-        "description": "Engineering specialized nodes to connect internal ERPs, databases, and niche legacy software to the n8n engine."
+        "title": "AI Agent and Data Automation",
+        "description": "Connecting AI agents with business tools, knowledge sources, forms, databases, emails, calendars, and APIs to automate decision support and repetitive operational tasks."
       },
       {
-        "title": "Advanced Logic Flows",
-        "description": "Utilizing the 'Function Node' to perform complex data transformations and algorithmic sorting directly within a visual scenario."
+        "title": "Self-Hosted Infrastructure Setup",
+        "description": "Deploying secure n8n environments with Docker, cloud servers, environment variables, credential handling, backups, monitoring, access controls, and production-ready configuration."
+      },
+      {
+        "title": "Custom API Integrations",
+        "description": "Building webhook-based and REST API integrations for SaaS platforms, CRMs, internal software, payment tools, data systems, and niche business applications."
+      },
+      {
+        "title": "Error Handling and Monitoring",
+        "description": "Implementing retry logic, failure alerts, execution logs, validation checks, fallback routes, and monitoring workflows to keep automation reliable in production."
       }
     ]
   },
   "edge_section": {
     "title": "The n8n Advantage",
-    "subtitle": "Strategic competitive gains for secure and flexible ecosystems.",
+    "subtitle": "A flexible automation foundation for businesses that need control, customization, AI readiness, and scalable workflow execution.",
     "cards": [
       {
-        "metric": "100%",
-        "title": "Data Control",
-        "description": "Total privacy and security by hosting the automation engine entirely within your own firewall."
+        "metric": "Self-Hosted",
+        "title": "Infrastructure Control",
+        "description": "Deploy automation on your own server or cloud environment for stronger control over data, credentials, execution logs, and workflow ownership."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Maintain full sovereignty over your workflows and logic without being tied to a proprietary SaaS cloud."
+        "metric": "API-First",
+        "title": "Integration Flexibility",
+        "description": "Connect tools beyond native apps using webhooks, REST APIs, custom headers, authentication flows, and structured data transformations."
       },
       {
-        "metric": "400+",
-        "title": "Native Nodes",
-        "description": "A massive library of pre-built integrations combined with the ability to build your own effortlessly."
+        "metric": "AI-Ready",
+        "title": "Agentic Workflows",
+        "description": "Use n8n as an orchestration layer for AI agents, document processing, CRM intelligence, data enrichment, and automated decision workflows."
       },
       {
-        "metric": "Optimized",
-        "title": "Cost Structure",
-        "description": "Eliminate 'per-task' billing models by running your own instance, providing predictable and lower TCO."
+        "metric": "Scalable",
+        "title": "Operational Automation",
+        "description": "Move from manual repetitive work to consistent, monitored, and repeatable workflows across departments and business systems."
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n gives teams a practical path to bridge the gap between low-code ease and",
-    "highlight": "pro-code flexibility"
+    "quote": "n8n turns disconnected tools, APIs, and manual tasks into",
+    "highlight": "secure business automation infrastructure"
   },
   "conversation_section": {
-    "title": "Architect Your Automation",
-    "subtitle": "Consult with our lead technical specialists to define a secure, self-hosted n8n roadmap for your enterprise.",
-    "full_name_label": "Lead Engineer",
-    "business_email_label": "Entity Email",
-    "message_label": "Technical Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your data privacy requirements or complex automation challenges...",
-    "button_text": "Request a Technical Audit"
+    "title": "Build Your n8n Automation System",
+    "subtitle": "Work with Devisgon to design secure, scalable, and business-ready n8n workflows for AI automation, CRM operations, API integrations, reporting, and internal process automation.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Automation Requirement",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "Tell us what tools, workflows, APIs, or manual processes you want to automate with n8n...",
+    "button_text": "Request n8n Automation Consultation"
   }
 }

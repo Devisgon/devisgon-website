@@ -532,15 +532,19 @@
                 "href": "/get-started"
               },
               {
+                "name": "Our Process",
+                "href": "/our-process"
+              },
+              {
                 "name": "Tecnologías",
                 "href": "/technologies",
                 "dropdown": {
                   "columns": [
                     {
-                      "title": "Automation",
+                      "title": "Automatizaci?n",
                       "links": [
                         {
-                          "name": "Hacer",
+                          "name": "Make",
                           "href": "/technologies/make"
                         },
                         {
@@ -554,8 +558,42 @@
                       ]
                     },
                     {
-                      "title": "Database",
-                      "links": []
+                      "title": "CRM",
+                      "links": [
+                        {
+                          "name": "Jira CRM",
+                          "href": "/technologies/jira-crm"
+                        },
+                        {
+                          "name": "Odoo",
+                          "href": "/technologies/odoo"
+                        },
+                        {
+                          "name": "Payload CMS",
+                          "href": "/technologies/payload-cms"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Bases de datos",
+                      "links": [
+                        {
+                          "name": "Amazon DynamoDB",
+                          "href": "/technologies/amazon-dynamodb"
+                        },
+                        {
+                          "name": "MongoDB",
+                          "href": "/technologies/mongodb"
+                        },
+                        {
+                          "name": "MySQL",
+                          "href": "/technologies/mysql"
+                        },
+                        {
+                          "name": "Supabase",
+                          "href": "/technologies/supabase"
+                        }
+                      ]
                     },
                     {
                       "title": "Frameworks",
@@ -577,22 +615,14 @@
                           "href": "/technologies/nextjs-nodejs"
                         },
                         {
-                          "name": "React",
-                          "href": "/technologies/react"
-                        },
-                        {
                           "name": "React Native",
                           "href": "/technologies/react-native"
                         }
                       ]
                     },
                     {
-                      "title": "Languages",
+                      "title": "Lenguajes",
                       "links": [
-                        {
-                          "name": "C / C++",
-                          "href": "/technologies/c-cpp"
-                        },
                         {
                           "name": "Java",
                           "href": "/technologies/java"
@@ -608,11 +638,19 @@
                         {
                           "name": "Python",
                           "href": "/technologies/python"
+                        },
+                        {
+                          "name": "Ruby",
+                          "href": "/technologies/ruby"
+                        },
+                        {
+                          "name": "Rust",
+                          "href": "/technologies/rust"
                         }
                       ]
                     },
                     {
-                      "title": "Tools",
+                      "title": "Herramientas",
                       "links": [
                         {
                           "name": "Amazon",
@@ -621,10 +659,6 @@
                         {
                           "name": "DoctorHosters",
                           "href": "/technologies/doctorhosters"
-                        },
-                        {
-                          "name": "Jotform",
-                          "href": "/technologies/jotform"
                         },
                         {
                           "name": "Shopify",

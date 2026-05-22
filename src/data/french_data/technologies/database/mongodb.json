@@ -1,116 +1,135 @@
 {
   "slug": "mongodb",
   "seo_metadata": {
-    "title": "Développement MongoDB évolutif et conception de schémas NoSQL",
-    "description": "Services de mise en œuvre d'entreprise MongoDB. Nous construisons des bases de données documentaires flexibles et performantes, conçues pour une échelle horizontale et une itération rapide.",
+    "title": "Services de développement MongoDB | Conception de bases de données NoSQL et architecture de données évolutive | Devisgon",
+    "description": "Devisgon fournit des services de développement MongoDB professionnels pour une architecture de base de données NoSQL évolutive, la modélisation de données documentaires, des applications basées sur des API, des plates-formes SaaS, des tableaux de bord et des produits logiciels cloud natifs.",
     "keywords": [
-      "Développement MongoDB",
-      "Conception de base de données NoSQL",
-      "Architecture de la base de données documentaire",
-      "Modélisation des données BSON",
-      "Cadre d'agrégation MongoDB",
+      "Services de développement MongoDB",
+      "Conception de base de données MongoDB",
+      "Conseil MongoDB",
+      "Développement de base de données NoSQL",
+      "architecture de base de données documentaire",
+      "Modélisation des données MongoDB",
+      "Développement d'Atlas MongoDB",
+      "Pipeline d'agrégation MongoDB",
+      "Développement d'API MongoDB",
+      "MongoDB pour les plateformes SaaS",
       "Développement de la pile MERN",
-      "Solutions de partage de bases de données"
+      "développement de base de données cloud",
+      "architecture de base de données évolutive",
+      "Conception de schéma NoSQL",
+      "Optimisation des performances de MongoDB",
+      "Développement back-end MongoDB",
+      "applications MongoDB personnalisées",
+      "solutions de base de données NoSQL d'entreprise"
     ]
   },
   "hero_section": {
-    "eyebrow": "Base de données de documents de premier plan",
-    "title": "Mise à l'échelle flexible avec",
+    "eyebrow": "Développement de bases de données NoSQL évolutives",
+    "title": "Construisez des systèmes de données flexibles avec",
     "highlight": "MongoDB",
-    "description": "Libérez la productivité des développeurs avec un modèle de données basé sur des documents qui correspond directement à votre code, permettant une livraison de fonctionnalités à grande vitesse et une mise à l'échelle sans effort.",
+    "description": "Devisgon conçoit et met en œuvre des solutions MongoDB pour les plates-formes SaaS, les applications cloud, les tableaux de bord, les backends mobiles, les systèmes pilotés par API, les flux de travail en temps réel et les produits modernes nécessitant une architecture de données flexible, évolutive et hautes performances.",
     "side_image": "/technologies/mongodb/hero.webp",
     "primary_cta": {
-      "text": "Optimisez votre cluster",
+      "text": "Planifiez votre architecture MongoDB",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Modèles techniques",
+      "text": "Explorer la portée de la base de données",
       "href": "/technologies/mongodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons avec MongoDB",
-    "subtitle": "MongoDB offre la flexibilité architecturale nécessaire aux applications modernes dont les exigences en matière de données évoluent.",
+    "title": "Pourquoi nous construisons avec MongoDB",
+    "subtitle": "MongoDB est un excellent choix de base de données pour les applications modernes qui nécessitent des structures de données flexibles, une itération rapide des produits, un stockage évolutif et un déploiement prêt pour le cloud.",
     "paragraphs": [
-      "Le modèle de document de MongoDB (BSON) permet des structures imbriquées et des schémas flexibles, éliminant ainsi les frictions liées aux jointures SQL complexes. Nous le choisissons pour les projets où le prototypage rapide et la capacité de stocker des données polymorphes sont essentiels à l'agilité de l'entreprise.",
-      "Grâce à la réplication intégrée et au partitionnement horizontal, MongoDB garantit que votre application reste hautement disponible et performante même si vos données atteignent la plage des téraoctets et au-delà."
+      "Devisgon utilise MongoDB pour les produits où les structures de données doivent évoluer rapidement sans les frictions des schémas relationnels rigides. Il convient aux plates-formes SaaS, aux systèmes de contenu, aux tableaux de bord, aux plates-formes de marché, aux applications mobiles, aux portails clients, aux plates-formes d'automatisation, aux flux de travail d'analyse et aux applications avec des modèles de données dynamiques ou imbriqués.",
+      "MongoDB fonctionne mieux lorsque le modèle de document est planifié autour de flux de travail d'application réels. Notre approche se concentre sur la conception des collections, la stratégie de données intégrées ou référencées, l'indexation, les pipelines d'agrégation, les modèles de requêtes API, le déploiement dans le cloud, la sécurité, les sauvegardes, la surveillance et l'optimisation des performances afin que votre base de données prenne en charge la croissance des produits à long terme."
     ],
     "cards": [
       {
-        "title": "Schéma dynamique",
-        "description": "Itérez plus rapidement sans les temps d'arrêt des migrations traditionnelles ; la structure des documents peut varier au sein d’une même collection.",
+        "title": "Modélisation de documents flexible",
+        "description": "Concevez des structures de données autour de flux de travail de produits réels à l'aide de documents flexibles, d'objets imbriqués, de tableaux et de collections axées sur les applications.",
         "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "Agrégation puissante",
-        "description": "Traitez les données de manière native avec un langage de requête riche et un pipeline d'agrégation pour des analyses en temps réel.",
-        "icon_type": "FaStream"
+        "title": "Données d'application évolutives",
+        "description": "Créez une architecture de base de données qui prend en charge le nombre croissant d'utilisateurs, les grands ensembles de données, les lectures à volume élevé, les flux de travail lourds en écriture et l'évolution des exigences en matière de fonctionnalités.",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "Haute disponibilité native",
-        "description": "Le basculement automatique et la redondance des données via des jeux de réplicas maintiennent votre application en ligne 24h/24 et 7j/7.",
-        "icon_type": "FaShieldVirus"
+        "title": "Requête et agrégation puissantes",
+        "description": "Utilisez les requêtes, les index et les pipelines d'agrégation MongoDB pour prendre en charge les tableaux de bord, les rapports, les flux de travail de type recherche, les analyses et les informations opérationnelles.",
+        "icon_type": "FaStream"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Portée de la conception MongoDB",
+    "title": "Portée du développement de MongoDB",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
       {
         "title": "Modélisation des données documentaires",
-        "description": "Concevoir des stratégies « d'intégration ou de référencement » pour optimiser les charges de travail lourdes en lecture/écriture et minimiser les IOPS."
+        "description": "Concevoir des collections, des schémas, des documents intégrés, des références, des index et des modèles de requête en fonction des flux de travail du produit, du comportement des utilisateurs et des besoins d'accès aux données des applications."
       },
       {
-        "title": "Intégration du cloud Atlas",
-        "description": "Déploiement de clusters entièrement gérés avec une portée multi-cloud, une mise à l'échelle automatisée et des capacités de recherche intégrées."
+        "title": "MongoDB Atlas et configuration du cloud",
+        "description": "Configuration d'environnements MongoDB Atlas sécurisés avec déploiement cloud, contrôles d'accès, utilisateurs de base de données, sauvegardes, surveillance, configuration de mise à l'échelle et paramètres prêts pour la production."
       },
       {
-        "title": "Collections de séries chronologiques",
-        "description": "Implémentation de collections spécialisées pour les données IoT et financières à haut débit avec vieillissement et compression automatiques."
+        "title": "Intégration API et back-end",
+        "description": "Connecter MongoDB aux services backend, aux API REST, aux API GraphQL, aux plates-formes SaaS, aux tableaux de bord, aux applications mobiles, aux couches d'authentification et aux flux de travail métier."
+      },
+      {
+        "title": "Flux de travail d'agrégation et de reporting",
+        "description": "Création de pipelines d'agrégation pour les tableaux de bord analytiques, les rapports opérationnels, les vues de données groupées, les informations sur l'activité des utilisateurs, les résumés financiers et les fonctionnalités de produits basées sur les données."
+      },
+      {
+        "title": "Optimisation des performances et des indices",
+        "description": "Améliorer les performances des requêtes grâce à la conception d'index, à l'analyse des modèles de lecture/écriture, à l'affinement de la structure des données, à l'optimisation des requêtes et à la surveillance de la production."
       }
     ]
   },
   "edge_section": {
-    "title": "Le bord de MongoDB",
-    "subtitle": "Avantages en termes de performances pour les applications modernes basées sur les données.",
+    "title": "L'avantage MongoDB",
+    "subtitle": "Une base de données NoSQL flexible pour les produits qui ont besoin de vitesse, d'évolutivité, de modèles de données dynamiques et d'une architecture d'applications cloud moderne.",
     "cards": [
       {
-        "metric": "3x",
-        "title": "Codage plus rapide",
-        "description": "Accélérez le développement en utilisant un format de données qui reflète les objets natifs dans la plupart des langages de programmation."
+        "metric": "Flexible",
+        "title": "Modèles de données basés sur des documents",
+        "description": "Stockez les données produit dans des structures qui s'alignent sur les objets d'application réels, les flux de travail des utilisateurs, les enregistrements imbriqués et les exigences changeantes des fonctionnalités."
       },
       {
-        "metric": "Elastic",
-        "title": "Scalability",
-        "description": "Évoluez horizontalement sur du matériel standard à l’aide du partitionnement natif sans aucun temps d’arrêt des applications."
+        "metric": "Scalable",
+        "title": "Croissance prête pour le cloud",
+        "description": "Prenez en charge l'augmentation du nombre d'utilisateurs, l'expansion des ensembles de données, l'augmentation du trafic et l'évolution des opérations commerciales grâce à l'architecture de base de données MongoDB évolutive."
       },
       {
-        "metric": "99,99%",
-        "title": "Uptime",
-        "description": "Fiabilité obtenue grâce à des jeux de répliques distribués et à des protocoles d'auto-réparation automatisés."
+        "metric": "Insightful",
+        "title": "Agrégation et analyse",
+        "description": "Utilisez les pipelines d'agrégation MongoDB pour alimenter les tableaux de bord, les rapports, les fonctionnalités de business intelligence, les résumés de données et la visibilité opérationnelle."
       },
       {
-        "metric": "Zero",
-        "title": "Goulots d'étranglement SQL",
-        "description": "Évitez les problèmes de performances liés aux jointures relationnelles complexes en utilisant des documents dénormalisés et autonomes."
+        "metric": "Fast",
+        "title": "Itération du produit",
+        "description": "Créez et améliorez les fonctionnalités plus rapidement grâce à un modèle de base de données qui peut s'adapter à mesure que votre plateforme SaaS, votre application ou votre produit numérique évolue."
       }
     ]
   },
   "quote_section": {
-    "quote": "MongoDB permet à la base de données d'évoluer à la vitesse de votre",
-    "highlight": "code d'application"
+    "quote": "MongoDB aide les produits modernes à transformer des données flexibles en",
+    "highlight": "intelligence applicative évolutive"
   },
   "conversation_section": {
-    "title": "Faites évoluer votre magasin de documents",
-    "subtitle": "Consultez nos experts NoSQL pour optimiser vos pipelines d’agrégation ou planifier votre migration vers Atlas.",
-    "full_name_label": "Nom de l'ingénieur principal",
-    "business_email_label": "E-mail de l'entité",
-    "message_label": "Défi technique",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez votre défi de modélisation de données ou vos exigences de mise à l'échelle...",
-    "button_text": "Commencer"
+    "title": "Concevez votre architecture de données MongoDB",
+    "subtitle": "Travaillez avec Devisgon pour planifier, concevoir et optimiser MongoDB pour les plates-formes SaaS, les tableaux de bord, les backends mobiles, les API, les systèmes d'automatisation et les produits numériques cloud natifs.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Exigence de base de données",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Parlez-nous de votre application, de votre modèle de données, de la configuration de MongoDB, des problèmes de performances des requêtes ou des objectifs d'architecture de base de données...",
+    "button_text": "Demander une consultation MongoDB"
   }
 }

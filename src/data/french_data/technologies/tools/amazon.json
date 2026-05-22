@@ -1,116 +1,135 @@
 {
   "slug": "amazon",
   "seo_metadata": {
-    "title": "Services d'architecture et de conseil en cloud AWS pour entreprise",
-    "description": "Services professionnels de mise en œuvre et de migration AWS. Nous concevons des solutions cloud évolutives, sécurisées et optimisées en termes de coûts à l'aide d'AWS Lambda, EC2 et S3.",
+    "title": "Services de développement cloud AWS | Architecture cloud, applications sans serveur et DevOps | Devisgon",
+    "description": "Devisgon fournit des services professionnels de développement cloud AWS pour les applications Web évolutives, les plates-formes SaaS, les systèmes sans serveur, la migration vers le cloud, l'automatisation DevOps, le stockage, les API et l'infrastructure cloud sécurisée.",
     "keywords": [
-      "Conseil en cloud AWS",
-      "Architecture des services Web Amazon",
-      "Informatique sans serveur",
-      "Migration vers le cloud AWS",
-      "L'infrastructure en tant que code",
-      "Meilleures pratiques de sécurité AWS",
-      "Optimisation des coûts du cloud"
+      "Services de développement cloud AWS",
+      "Architecture cloud AWS",
+      "Développement Amazon Web Services",
+      "Services de conseil AWS",
+      "développement d'applications cloud",
+      "développement d'applications sans serveur",
+      "Développement AWS Lambda",
+      "Intégration d'AWS API Gateway",
+      "Solutions de stockage AWS S3",
+      "Déploiement AWS EC2",
+      "Services AWS DevOps",
+      "développement d'infrastructures cloud",
+      "services de migration vers le cloud",
+      "Développement de la plateforme AWS SaaS",
+      "architecture cloud sécurisée",
+      "optimisation des coûts du cloud",
+      "Développement back-end AWS",
+      "logiciel cloud évolutif"
     ]
   },
   "hero_section": {
-    "eyebrow": "Infrastructure cloud mondiale",
-    "title": "Évoluez sans limites avec",
+    "eyebrow": "Architecture et développement du cloud AWS",
+    "title": "Créez des systèmes cloud évolutifs avec",
     "highlight": "AWS",
-    "description": "Créez, déployez et gérez des applications de production sur la plateforme cloud la plus complète et la plus largement adoptée au monde.",
+    "description": "Devisgon conçoit et met en œuvre des solutions cloud AWS pour les plateformes SaaS, les applications Web, les API, les flux de travail sans serveur, les systèmes de stockage, les pipelines DevOps, les produits basés sur l'IA, les portails d'entreprise et les plateformes numériques sécurisées qui nécessitent performances, fiabilité et évolutivité à long terme.",
     "side_image": "/technologies/amazon/hero.webp",
     "primary_cta": {
-      "text": "Optimisez votre cloud",
+      "text": "Planifiez votre architecture AWS",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Afficher les modèles d'architecture",
+      "text": "Explorez la portée d'AWS",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons sur AWS",
-    "subtitle": "AWS fournit la base la plus mature et la plus sécurisée pour les systèmes distribués modernes.",
+    "title": "Pourquoi nous construisons avec AWS",
+    "subtitle": "AWS fournit une base cloud mature pour les entreprises qui ont besoin d'une infrastructure évolutive, de déploiements sécurisés, de flux de travail sans serveur, de stockage, de surveillance et d'hébergement d'applications prêtes pour la production.",
     "paragraphs": [
-      "AWS est notre principal choix pour l'hébergement et l'automatisation cloud de niveau entreprise. En tirant parti de sa vaste gamme de plus de 200 services complets, du calcul et du stockage à l'IA/ML avancée, nous éliminons les contraintes du matériel physique, permettant à votre entreprise d'évoluer instantanément en réponse à la demande du marché.",
-      "Notre approche architecturale se concentre sur le framework AWS Well-Architected. Nous veillons à ce que votre infrastructure repose sur cinq piliers : excellence opérationnelle, sécurité, fiabilité, efficacité des performances et optimisation des coûts, réduisant ainsi la dette technique à long terme et le risque opérationnel."
+      "Devisgon utilise AWS pour les projets qui nécessitent une infrastructure cloud fiable, des systèmes backend évolutifs, un hébergement sécurisé, des services API, un stockage, une automatisation et une flexibilité de déploiement. AWS convient parfaitement aux plates-formes SaaS, aux backends d'applications mobiles, aux tableaux de bord commerciaux, aux portails clients, aux applications sans serveur, aux flux de données, aux intégrations d'IA et aux produits numériques d'entreprise.",
+      "Une implémentation AWS réussie nécessite bien plus que le lancement de ressources cloud. Notre approche se concentre sur la planification de l'architecture, la sélection des services, la conception de l'environnement, le contrôle d'accès IAM, les flux de travail sans serveur, la stratégie de calcul, la structure de stockage, l'intégration de bases de données, les pipelines de déploiement, la surveillance, la planification des sauvegardes et l'infrastructure adaptée aux coûts afin que votre système cloud reste stable à mesure que votre produit se développe."
     ],
     "cards": [
       {
-        "title": "Évolutivité inégalée",
-        "description": "Utilisez Auto Scaling et Elastic Load Balancing pour gérer les pics de trafic sans intervention manuelle.",
-        "icon_type": "FaExpandArrowsAlt"
+        "title": "Infrastructure cloud évolutive",
+        "description": "Concevez des systèmes cloud qui prennent en charge l'augmentation du nombre d'utilisateurs, du trafic, du stockage, des API, des tâches en arrière-plan, des intégrations et des opérations commerciales.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "Sécurité d'entreprise",
-        "description": "Mettez en œuvre un cryptage de niveau militaire et une gestion des identités et des accès (IAM) pour protéger les données sensibles.",
+        "title": "Architecture AWS sécurisée",
+        "description": "Mettez en œuvre les autorisations IAM, la séparation des environnements, le stockage chiffré, les API sécurisées, les modèles de réseau privé et les contrôles d'accès prêts pour la production.",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Rentabilité",
-        "description": "Payez uniquement pour ce que vous utilisez grâce à la tarification à la demande et aux instances ponctuelles pour les charges de travail non critiques.",
-        "icon_type": "FaWallet"
+        "title": "Sans serveur et prêt pour DevOps",
+        "description": "Créez des flux de travail AWS Lambda, des intégrations API Gateway, des pipelines de déploiement, des systèmes de surveillance, l'automatisation du cloud et des services backend évolutifs.",
+        "icon_type": "FaCogs"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Portée architecturale AWS",
+    "title": "Portée du développement AWS",
     "image": "/technologies/amazon/scope.webp",
     "items": [
       {
-        "title": "Architectures sans serveur",
-        "description": "Déploiement d'une logique basée sur les événements avec AWS Lambda et API Gateway pour une gestion sans serveur et une haute disponibilité."
+        "title": "Architecture cloud et planification de l'infrastructure",
+        "description": "Conception d'environnements AWS, de stratégie de calcul, de structure de réseau, d'architecture de stockage, de modèles de déploiement, de limites de sécurité et de fondations d'infrastructure évolutives."
       },
       {
-        "title": "Lacs de données gérés",
-        "description": "Concevoir des pipelines robustes de stockage et d'analyse de données à l'aide d'Amazon S3, Glue et Redshift pour obtenir des informations sur le Big Data."
+        "title": "Développement d'applications sans serveur",
+        "description": "Création de fonctions AWS Lambda, de points de terminaison API Gateway, de flux de travail basés sur des événements, de tâches en arrière-plan, de webhooks, de systèmes d'automatisation et d'une logique backend sans serveur."
       },
       {
-        "title": "Intégration du cloud hybride",
-        "description": "Reliez les centres de données sur site avec le cloud à l'aide d'AWS Direct Connect et du peering VPC pour une connectivité sécurisée et à faible latence."
+        "title": "Hébergement et déploiement d'applications",
+        "description": "Déploiement d'applications Web, de plates-formes SaaS, d'API, de tableaux de bord, de portails et de systèmes backend à l'aide des services AWS avec une configuration de production stable."
+      },
+      {
+        "title": "Flux de travail de stockage, de base de données et de données",
+        "description": "Implémentation du stockage S3, des intégrations de bases de données, des flux de travail de fichiers, des sauvegardes, des pipelines de traitement des données, des flux de reporting et de la gestion sécurisée des données d'entreprise."
+      },
+      {
+        "title": "DevOps, surveillance et optimisation des coûts",
+        "description": "Configuration de pipelines de déploiement, d'automatisation de l'infrastructure, de variables d'environnement, de journaux, d'alertes, de surveillance, de sauvegardes, de politiques de mise à l'échelle et d'opérations AWS tenant compte des coûts."
       }
     ]
   },
   "edge_section": {
     "title": "L'avantage AWS",
-    "subtitle": "Une efficacité quantifiable pour une présence numérique mondiale.",
+    "subtitle": "Une base technologique cloud pour les entreprises qui ont besoin d'une infrastructure sécurisée, d'applications évolutives, d'un déploiement flexible et de systèmes numériques prêts pour la production.",
     "cards": [
       {
-        "metric": "99,99%",
-        "title": "SLA de disponibilité",
-        "description": "Fiabilité de pointe dans plusieurs zones de disponibilité et régions du monde."
+        "metric": "Scalable",
+        "title": "Fondation pour la croissance du cloud",
+        "description": "Prenez en charge plus d'utilisateurs, plus de trafic, plus de stockage, plus d'intégrations et plus de flux de travail professionnels grâce à une architecture cloud flexible."
       },
       {
-        "metric": "200+",
-        "title": "Services complets",
-        "description": "Accès immédiat à l'ensemble le plus complet d'outils cloud, notamment l'IA, l'IoT et le calcul haute performance."
+        "metric": "Secure",
+        "title": "Accès contrôlé et protection des données",
+        "description": "Renforcez la sécurité du cloud avec des politiques IAM, des ressources chiffrées, des API protégées, une séparation des environnements et une conception soignée de l'infrastructure."
       },
       {
-        "metric": "315+",
-        "title": "Points de présence",
-        "description": "Diffusez du contenu avec une latence ultra-faible à l'aide du réseau périphérique mondial Amazon CloudFront."
+        "metric": "Flexible",
+        "title": "Options sans serveur et de calcul",
+        "description": "Utilisez la bonne combinaison de fonctions sans serveur, de services gérés, de stockage, de calcul, de bases de données et d'outils de déploiement pour les besoins de votre produit."
       },
       {
-        "metric": "Zero",
-        "title": "Frais généraux liés au matériel",
-        "description": "Éliminez le besoin de maintenance physique, permettant aux équipes de se concentrer à 100 % sur l’innovation produit."
+        "metric": "Optimized",
+        "title": "Coût et performances du cloud",
+        "description": "Concevez des systèmes AWS en gardant à l'esprit les performances, la surveillance, la mise à l'échelle, l'utilisation des ressources et le contrôle des coûts à long terme."
       }
     ]
   },
   "quote_section": {
-    "quote": "AWS transforme l'infrastructure en un actif programmable, nous permettant de construire avec",
-    "highlight": "flexibilité infinie"
+    "quote": "AWS aide les entreprises à transformer leur infrastructure cloud en",
+    "highlight": "architecture de produits numériques évolutive"
   },
   "conversation_section": {
-    "title": "Architectez votre solution cloud",
-    "subtitle": "Consultez nos architectes de solutions certifiés AWS pour définir votre feuille de route de migration ou votre stratégie d'optimisation des coûts.",
-    "full_name_label": "Architecte principal",
-    "business_email_label": "Courriel d'entreprise",
+    "title": "Concevez votre architecture cloud AWS",
+    "subtitle": "Travaillez avec Devisgon pour planifier, créer, migrer ou optimiser l'infrastructure AWS pour les plates-formes SaaS, les API, les applications sans serveur, les portails d'entreprise, les flux de travail de stockage, les pipelines DevOps et les systèmes cloud sécurisés.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
     "message_label": "Exigence relative au cloud",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez vos défis de mise à l'échelle AWS ou vos objectifs de migration...",
-    "button_text": "Demander un audit cloud"
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Parlez-nous de votre projet AWS, de la migration vers le cloud, du flux de travail sans serveur, de la configuration de l'hébergement, du système API, du besoin de stockage ou du défi d'infrastructure...",
+    "button_text": "Demander une consultation AWS"
   }
 }

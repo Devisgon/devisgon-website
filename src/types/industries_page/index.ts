@@ -3,6 +3,12 @@
   href: string;
 };
 
+export type IndustryListingAction = {
+  label?: string;
+  text?: string;
+  href: string;
+};
+
 export type IndustryIconCard = {
   title: string;
   description: string;
@@ -97,6 +103,8 @@ export type IndustryListingHero = {
   eyebrow: string;
   title: string;
   description: string;
+  primary_cta?: IndustryListingAction;
+  secondary_cta?: IndustryListingAction;
 };
 
 export type IndustryListingCard = {
@@ -107,14 +115,36 @@ export type IndustryListingCard = {
 };
 
 export type IndustryListingGroup = {
+  anchor?: string;
   title: string;
   description: string;
   cards: IndustryListingCard[];
 };
 
+export type IndustryListingCategory = {
+  title: string;
+  slug?: string;
+  href: string;
+  description: string;
+  sub_industries?: {
+    title: string;
+    slug?: string;
+    href: string;
+    description?: string;
+  }[];
+};
+
+export type IndustryListingCategorySection = {
+  id?: string;
+  title: string;
+  description: string;
+  categories: IndustryListingCategory[];
+};
+
 export type IndustryListingData = {
   hero_section: IndustryListingHero;
   industry_cards: IndustryListingCard[];
+  industry_categories_section?: IndustryListingCategorySection;
   industry_groups?: IndustryListingGroup[];
 };
 

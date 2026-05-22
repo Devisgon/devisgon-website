@@ -1,116 +1,135 @@
 {
   "slug": "nestjs",
   "seo_metadata": {
-    "title": "Desarrollo empresarial NestJS | Arquitectura escalable de Node.js",
-    "description": "Desarrollo personalizado de NestJS para backends robustos, modulares y de nivel empresarial. Creamos API de TypeScript altamente comprobables y fáciles de mantener utilizando NestJS.",
+    "title": "Servicios de desarrollo de NestJS | Scalable Node.js & TypeScript Backend Architecture | diseño",
+    "description": "Devisgon proporciona servicios profesionales de desarrollo de NestJS para backends escalables de Node.js, API de TypeScript, plataformas SaaS, microservicios, aplicaciones empresariales, sistemas de autenticación y arquitectura de backend lista para la nube.",
     "keywords": [
-      "Desarrollo NestJS",
-      "Marco de fondo de TypeScript",
-      "Microservicios de Node.js",
-      "Arquitectura de API empresarial",
-      "Inyección de dependencia de NestJS",
-      "Diseño de back-end modular",
-      "TypeScript del lado del servidor"
+      "Servicios de desarrollo de NestJS",
+      "Empresa de desarrollo NestJS",
+      "Desarrollo de backend de NestJS",
+      "Desarrollo back-end de Node.js",
+      "Desarrollo de backend de TypeScript",
+      "Desarrollo de API NestJS",
+      "desarrollo empresarial de Node.js",
+      "Microservicios NestJS",
+      "Desarrollo NestJS SaaS",
+      "Desarrollo de API REST de NestJS",
+      "Desarrollo NestJS GraphQL",
+      "arquitectura de backend escalable",
+      "desarrollo modular de back-end",
+      "Autenticación NestJS",
+      "Desarrollo de aplicaciones en la nube NestJS",
+      "aplicaciones NestJS personalizadas",
+      "arquitectura API de back-end",
+      "desarrollo de TypeScript del lado del servidor"
     ]
   },
   "hero_section": {
-    "eyebrow": "Un marco progresivo de Node.js",
-    "title": "Construya sistemas escalables con",
+    "eyebrow": "Desarrollo de backend escalable de TypeScript",
+    "title": "Cree backends empresariales con",
     "highlight": "NestJS",
-    "description": "Aproveche el poder de TypeScript y la arquitectura modular para crear aplicaciones del lado del servidor eficientes, confiables y de nivel empresarial.",
+    "description": "Devisgon crea backends NestJS seguros, modulares y escalables para plataformas SaaS, aplicaciones web, aplicaciones móviles, paneles de administración, flujos de trabajo de IA, portales comerciales, API empresariales y productos digitales listos para la nube que necesitan una arquitectura confiable del lado del servidor.",
     "side_image": "/technologies/nest_js/hero.webp",
     "primary_cta": {
-      "text": "Diseñe su backend",
+      "text": "Planifique su backend de NestJS",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Ver Arquitectura",
+      "text": "Explora el alcance de NestJS",
       "href": "/technologies/nestjs#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Por qué diseñamos con NestJS",
-    "subtitle": "NestJS proporciona la arquitectura estructurada y obstinada necesaria para aplicaciones Node.js a gran escala.",
+    "title": "Por qué construimos con NestJS",
+    "subtitle": "NestJS es un potente marco Node.js para crear sistemas backend estructurados, comprobables y mantenibles con TypeScript, arquitectura modular y patrones de desarrollo de nivel empresarial.",
     "paragraphs": [
-      "NestJS es nuestro marco elegido para entornos empresariales Node.js. Al utilizar TypeScript de forma nativa y adoptar una arquitectura inspirada en Angular, resuelve el problema del \"salvaje oeste\" de los proyectos estándar de Node.js, proporcionando una estructura clara de controladores, proveedores y módulos.",
-      "Esta modularidad permite a nuestros equipos construir sistemas altamente comprobables y débilmente acoplados. Ya sea que estemos construyendo un monolito complejo o una malla de microservicios distribuidos, NestJS garantiza que el código siga siendo mantenible y que la inyección de dependencia se maneje con precisión quirúrgica."
+      "Devisgon uses NestJS for products that require more than a basic backend. Es una excelente opción para plataformas SaaS, API empresariales, sistemas de administración, portales de clientes, backends de aplicaciones móviles, motores de flujo de trabajo de IA, plataformas de mercado, sistemas de automatización y aplicaciones nativas de la nube que necesitan una arquitectura limpia y mantenibilidad a largo plazo.",
+      "A successful NestJS backend depends on disciplined architecture. Nuestro enfoque se centra en los límites de los módulos, controladores, servicios, guardias, interceptores, validación, autenticación, autorización, acceso a bases de datos, contratos API, trabajos en segundo plano, integraciones, pruebas, documentación e implementación de producción para que su backend permanezca estable a medida que crece el producto."
     ],
     "cards": [
       {
-        "title": "Mecanografiado nativo",
-        "description": "Creado con y para TypeScript, proporciona escritura potente y funciones modernas de JavaScript para una entrega sin errores.",
-        "icon_type": "FaCode"
-      },
-      {
-        "title": "Arquitectura Modular",
-        "description": "Encapsule la lógica en módulos reutilizables, haciendo que las bases de código grandes sean fáciles de navegar y escalar.",
+        "title": "Arquitectura de back-end modular",
+        "description": "Build clean backend systems with organized modules, controllers, services, providers, guards, and reusable business logic.",
         "icon_type": "FaThLarge"
       },
       {
-        "title": "Inyección de dependencia",
-        "description": "Un potente contenedor DI que simplifica las pruebas y mejora la reutilización del código en todo el ecosistema.",
+        "title": "Desarrollo de API de TypeScript",
+        "description": "Create reliable APIs with strong typing, DTO validation, structured contracts, clear data handling, and maintainable server-side code.",
+        "icon_type": "FaCode"
+      },
+      {
+        "title": "Ingeniería preparada para la empresa",
+        "description": "Support authentication, permissions, background jobs, integrations, microservices, testing, observability, and scalable production workflows.",
         "icon_type": "FaProjectDiagram"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Alcance técnico de NestJS",
+    "title": "Alcance del desarrollo de NestJS",
     "image": "/technologies/nest_js/scope.webp",
     "items": [
       {
-        "title": "Microservicios y Transporte",
-        "description": "Diseño de sistemas distribuidos utilizando soporte integrado para NATS, RabbitMQ, gRPC y Kafka."
+        "title": "Desarrollo de API REST y GraphQL",
+        "description": "Creación de API REST seguras, API GraphQL, DTO escritos, validación de solicitudes, manejo de errores, documentación de OpenAPI y contratos backend listos para el frontend."
       },
       {
-        "title": "API GraphQL y REST",
-        "description": "Creación de potentes capas de datos con documentación automatizada Swagger/OpenAPI y solucionadores GraphQL con seguridad de tipos."
+        "title": "Sistemas de autenticación y autorización",
+        "description": "Implementación de flujos de inicio de sesión, autenticación JWT, manejo de sesiones, control de acceso basado en roles, guardias de permisos, acceso consciente de los inquilinos y rutas comerciales protegidas."
       },
       {
-        "title": "CQRS y abastecimiento de eventos",
-        "description": "Implementación de segregación de responsabilidad de consultas de comandos (CQRS) para flujos de trabajo empresariales complejos basados ​​en datos."
+        "title": "Arquitectura SaaS y backend empresarial",
+        "description": "Diseño de sistemas backend modulares para productos SaaS, paneles, portales, herramientas internas, flujos de trabajo de suscripción, gestión de usuarios y operaciones comerciales."
+      },
+      {
+        "title": "Capas de base de datos y de integración",
+        "description": "Conexión de NestJS con PostgreSQL, MySQL, MongoDB, Supabase, Redis, colas, API de terceros, sistemas de pago, herramientas CRM, servicios en la nube y plataformas de automatización."
+      },
+      {
+        "title": "Microservicios, trabajos y preparación para la producción",
+        "description": "Creación de trabajadores en segundo plano, trabajos programados, colas de mensajes, flujos de trabajo basados ​​en eventos, límites de microservicios, registro, monitoreo, pruebas e infraestructura de backend lista para implementar."
       }
     ]
   },
   "edge_section": {
-    "title": "El borde de NestJS",
-    "subtitle": "Rendimiento predecible para backends de nivel empresarial.",
+    "title": "La ventaja de NestJS",
+    "subtitle": "Un marco de backend estructurado para productos que necesitan API mantenibles, arquitectura escalable, desarrollo con seguridad de tipos y disciplina de ingeniería a nivel empresarial.",
     "cards": [
       {
-        "metric": "Strict",
-        "title": "Tipo Seguridad",
-        "description": "Elimine prácticamente los errores de tipo en tiempo de ejecución aprovechando la profunda integración de NestJS con TypeScript."
+        "metric": "Modular",
+        "title": "Estructura del sistema limpio",
+        "description": "Keep large backend applications manageable with clear module boundaries, reusable services, dependency injection, and predictable architecture."
       },
       {
-        "metric": "100%",
-        "title": "Testable",
-        "description": "Soporte integrado para Jest y utilidades de prueba especializadas para pruebas unitarias, de integración y e2e."
+        "metric": "Typed",
+        "title": "Código TypeScript confiable",
+        "description": "Reduce backend defects with strong typing, validated request data, clear API contracts, and safer server-side development patterns."
       },
       {
-        "metric": "Modern",
-        "title": "Ecosystem",
-        "description": "Integración perfecta con TypeORM, Prisma, Mongoose y cientos de bibliotecas probadas en batalla."
+        "metric": "Scalable",
+        "title": "Fundación de crecimiento backend",
+        "description": "Support growing products with queues, caching, microservices, database layers, integrations, background jobs, and cloud-ready deployment."
       },
       {
-        "metric": "Zero",
-        "title": "Diseño de fricción",
-        "description": "Las convenciones establecidas reducen el tiempo dedicado a los debates arquitectónicos, lo que acelera la entrega de funciones."
+        "metric": "Testable",
+        "title": "Ingeniería mantenible",
+        "description": "Build backend systems that are easier to test, refactor, document, extend, and maintain across long-term product development."
       }
     ]
   },
   "quote_section": {
-    "quote": "NestJS aporta disciplina empresarial y elegancia arquitectónica al",
-    "highlight": "Ecosistema Node.js"
+    "quote": "NestJS convierte los complejos requisitos de backend en",
+    "highlight": "Arquitectura TypeScript estructurada y escalable"
   },
   "conversation_section": {
-    "title": "Diseñe su API empresarial",
-    "subtitle": "Consulte con nuestros arquitectos de NestJS para diseñar una infraestructura backend escalable, mantenible y con seguridad de tipos.",
-    "full_name_label": "Arquitecto principal",
-    "business_email_label": "Correo electrónico corporativo",
-    "message_label": "Visión Técnica",
-    "full_name_placeholder": "Dr. Julián Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describa sus desafíos de escalamiento de backend o requisitos arquitectónicos...",
-    "button_text": "Solicitar una consulta"
+    "title": "Diseñe su arquitectura de backend NestJS",
+    "subtitle": "Trabaje con Devisgon para planificar, crear, modernizar o escalar backends de NestJS para plataformas SaaS, API empresariales, aplicaciones móviles, paneles, sistemas de inteligencia artificial, flujos de trabajo de automatización y productos digitales listos para la nube.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico empresarial",
+    "message_label": "Requisito de backend",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@empresa.com",
+    "message_placeholder": "Tell us about your backend requirements, API structure, database needs, authentication flow, integrations, or NestJS architecture goals...",
+    "button_text": "Solicitar consulta sobre NestJS"
   }
 }

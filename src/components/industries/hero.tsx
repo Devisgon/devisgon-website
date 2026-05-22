@@ -1,5 +1,10 @@
-import Link from "next/link";
 import IndustryHeroRotatingCopy from "@/components/industries/hero_rotating_copy";
+import {
+  CONTACT_US_HREF,
+  CONTACT_US_LABEL,
+  DISCOVERY_CALL_LABEL,
+  discoveryCallHref,
+} from "@/lib/cta-links";
 import type {
   IndustryCarouselCard,
   IndustryHeroSection,
@@ -37,19 +42,19 @@ export default function IndustryHero({ data, slides }: IndustryHeroProps) {
 
         {/* Buttons - Spacing increased to avoid overlap */}
         <div className="mt-12 md:mt-16 flex flex-wrap justify-center gap-6">
-          <Link
-            href={data.primary_cta.href}
+          <a
+            href={discoveryCallHref}
             className="rounded-full bg-btn-primary px-10 py-4 text-sm font-black text-btn-secondary transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(207,162,242,0.4)]"
           >
-            {data.primary_cta.text}
-          </Link>
+            {DISCOVERY_CALL_LABEL}
+          </a>
           
-          <Link
-            href={data.secondary_cta.href}
+          <a
+            href={CONTACT_US_HREF}
             className="rounded-full border border-white/10 bg-white/5 px-10 py-4 text-sm font-black text-white backdrop-blur-md transition-all hover:bg-white/10 hover:border-white/20"
           >
-            {data.secondary_cta.text}
-          </Link>
+            {CONTACT_US_LABEL}
+          </a>
         </div>
       </div>
     </section>

@@ -1,116 +1,135 @@
 {
   "slug": "flutter",
   "seo_metadata": {
-    "title": "专业 Flutter 应用开发 |多平台解决方案",
-    "description": "适用于 iOS、Android 和 Web 的自定义 Flutter 开发。我们使用单一代码库和富有表现力的 UI 构建高性能、本机编译的应用程序。",
+    "title": "Flutter 应用程序开发服务 |跨平台移动、网络和桌面应用程序 |德维斯冈",
+    "description": "Devisgon 为全球企业的跨平台移动应用程序、SaaS 产品、初创 MVP、客户门户、仪表板和可扩展数字产品提供专业的 Flutter 应用程序开发服务。",
     "keywords": [
-      "颤振开发",
-      "Dart 编程",
-      "跨平台移动应用程序",
-      "网页版 Flutter",
-      "材质设计用户界面",
-      "Flutter 桌面应用程序",
-      "移动应用优化"
+      "Flutter 应用开发服务",
+      "颤振开发公司",
+      "跨平台移动应用程序开发",
+      "Flutter 移动应用开发",
+      "Flutter iOS 应用程序开发",
+      "Flutter Android 应用程序开发",
+      "Flutter Web 应用程序开发",
+      "Dart 应用程序开发",
+      "自定义 Flutter 应用程序",
+      "Flutter MVP 开发",
+      "Flutter SaaS 应用程序开发",
+      "Flutter UI 开发",
+      "Flutter 应用优化",
+      "移动应用开发公司",
+      "跨平台应用程序开发服务",
+      "Flutter前端开发",
+      "Flutter 后端集成",
+      "Flutter 应用咨询"
     ]
   },
   "hero_section": {
-    "eyebrow": "UI软件开发套件",
-    "title": "为任何屏幕构建",
+    "eyebrow": "跨平台应用程序开发",
+    "title": "构建现代数字产品",
     "highlight": "Flutter",
-    "description": "从单一的高性能代码库为移动、Web、桌面和嵌入式设备创建美观的、本机编译的应用程序。",
+    "description": "Devisgon 为初创公司、SaaS 公司、服务企业、市场、客户门户、内部工具和全球数字产品构建高质量的 Flutter 应用程序，这些应用程序需要在移动、Web 和桌面平台上提供流畅的用户体验。",
     "side_image": "/technologies/flutter/hero.webp",
     "primary_cta": {
-      "text": "开始你的项目",
+      "text": "规划您的 Flutter 应用程序",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看框架范围",
+      "text": "探索 Flutter 范围",
       "href": "/technologies/flutter#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 Flutter 进行工程",
-    "subtitle": "Flutter 提供了开发速度和硬件加速性能的独特组合。",
+    "title": "为什么我们使用 Flutter 进行构建",
+    "subtitle": "对于需要快速产品交付、一致设计、跨平台覆盖和可维护应用架构的企业来说，Flutter 是一个不错的选择。",
     "paragraphs": [
-      "我们利用 Flutter 来弥补本机性能和跨平台效率之间的差距。通过利用 Skia 和 Impeller 渲染引擎，Flutter 绕过了传统的基于桥的瓶颈，使我们能够提供 60fps 到 120fps 的动画，感觉与本机代码没有区别。",
-      "Dart（一种针对客户端优化的语言）的使用确保了强大的类型安全性和最先进的开发工具（例如“热重载”），使我们的团队能够在几秒钟内迭代功能，从而显着缩短整个开发生命周期。"
+      "Devisgon 将 Flutter 用于企业需要推出精美的移动应用程序而无需维护完全独立的 iOS 和 Android 代码库的项目。 Flutter 适用于初创公司 MVP、SaaS 配套应用程序、预订平台、客户门户、市场应用程序、内部业务工具、仪表板和基于服务的移动应用程序。",
+      "一个成功的 Flutter 产品需要的不仅仅是构建屏幕。我们的方法侧重于产品架构、响应式 UI 设计、状态管理、API 集成、身份验证流程、离线友好模式、性能优化、应用程序商店准备情况、分析和长期可维护性，以便您的应用程序可以随着用户和业务目标的增长而增长。"
     ],
     "cards": [
       {
-        "title": "本机编译",
-        "description": "Flutter 代码被编译为 ARM 或 Intel 机器代码以及 JavaScript，确保在任何设备上都能实现最佳性能。",
-        "icon_type": "FaCogs"
+        "title": "跨平台交付",
+        "description": "从一个代码库构建适用于多个平台的应用程序，同时保持产品行为、业务逻辑和用户体验一致。",
+        "icon_type": "FaMobileAlt"
       },
       {
-        "title": "富有表现力的用户界面",
-        "description": "完全控制每个像素以创建定制的品牌设计，不受本机 OEM 小部件的限制。",
+        "title": "高级用户界面",
+        "description": "通过围绕您的产品标识构建的流畅交互和设计系统，打造简洁、品牌化、响应灵敏且现代的应用程序体验。",
         "icon_type": "FaPaintBrush"
       },
       {
-        "title": "统一逻辑",
-        "description": "在 iOS 和 Android 之间共享 100% 的业务逻辑和 UI 代码，从而大幅降低维护成本。",
-        "icon_type": "FaCopy"
+        "title": "可扩展的应用程序架构",
+        "description": "使用可维护的状态管理、干净的 API 层、可重用的组件和生产就绪的开发标准来构建 Flutter 应用程序。",
+        "icon_type": "FaCogs"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "框架范围",
+    "title": "Flutter开发范围",
     "image": "/technologies/flutter/scope.webp",
     "items": [
       {
-        "title": "国家卓越管理",
-        "description": "实施 Bloc、Provider 或 Riverpod 等强大的状态管理解决方案，以实现可预测和可扩展的应用程序流。"
+        "title": "跨平台移动应用程序开发",
+        "description": "使用共享业务逻辑、精美的 UI、安全身份验证、API 连接和可发布的应用程序结构构建适用于 iOS 和 Android 的 Flutter 应用程序。"
       },
       {
-        "title": "特定于平台的集成",
-        "description": "当需要特定的硬件级访问时，利用方法通道接入本机 API（GPS、蓝牙、传感器）。"
+        "title": "Flutter Web 和响应式体验",
+        "description": "创建响应式 Flutter Web 界面、仪表板、门户、管理工具和产品体验，以适应屏幕尺寸和业务用例。"
       },
       {
-        "title": "多平台部署",
-        "description": "构建从移动触摸屏无缝适应到宽屏桌面和 Web 环境的响应式布局。"
+        "title": "状态管理和应用程序架构",
+        "description": "使用可靠的状态管理模式、干净的服务层、可重用的小部件、路由组织和可维护的代码实践来实现可扩展的应用程序结构。"
+      },
+      {
+        "title": "后端和API集成",
+        "description": "将 Flutter 应用程序与 REST API、GraphQL API、Supabase、Firebase、自定义后端、支付系统、CRM 工具、云服务和业务平台连接。"
+      },
+      {
+        "title": "性能、测试和部署",
+        "description": "优化应用程序性能、处理错误、测试关键工作流程、准备生产版本以及支持应用程序商店提交和发布后改进。"
       }
     ]
   },
   "edge_section": {
-    "title": "颤振边缘",
-    "subtitle": "您的数字产品的战略竞争优势。",
+    "title": "颤动的优势",
+    "subtitle": "适合需要速度、设计一致性、平台覆盖范围和长期产品灵活性的企业的现代应用程序开发框架。",
     "cards": [
       {
-        "metric": "50%",
-        "title": "降低成本",
-        "description": "与维护单独的原生 iOS 和 Android 工程团队相比，资源需求减少。"
+        "metric": "Unified",
+        "title": "单一代码库策略",
+        "description": "通过跨移动和支持的数字平台共享核心产品逻辑和 UI 结构，减少重复开发工作。"
       },
       {
-        "metric": "120帧/秒",
-        "title": "流体运动",
-        "description": "通过硬件加速渲染支持高刷新率显示和复杂动画。"
+        "metric": "Consistent",
+        "title": "品牌体验",
+        "description": "通过可重用的设计组件和以产品为中心的 UI 系统，跨设备提供精美且一致的界面。"
       },
       {
-        "metric": "Stateful",
-        "title": "热重载",
-        "description": "行业领先的迭代速度使开发人员能够实时修复错误并构建 UI，而不会丢失状态。"
+        "metric": "Efficient",
+        "title": "更快的 MVP 交付",
+        "description": "通过简化的跨平台开发方法更快地启动初创 MVP、SaaS 配套应用程序、预订应用程序和服务平台。"
       },
       {
-        "metric": "Open",
-        "title": "源生态系统",
-        "description": "由 Google 和庞大社区支持，提供数千个预先测试的软件包以实现快速集成。"
+        "metric": "Scalable",
+        "title": "应用程序的长期增长",
+        "description": "构建可维护的基础，支持新功能、集成、性能改进和未来的产品扩展。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Flutter 将多平台开发的复杂性变成了",
-    "highlight": "无缝的创作过程"
+    "quote": "Flutter 帮助企业将一个产品愿景转变为",
+    "highlight": "一致的多平台应用程序体验"
   },
   "conversation_section": {
-    "title": "设计您的移动体验",
-    "subtitle": "咨询我们的 Flutter 专家，为 iOS、Android 和 Web 构建高性能应用程序。",
-    "full_name_label": "首席开发人员",
+    "title": "设计您的 Flutter 应用体验",
+    "subtitle": "与 Devisgon 合作，为移动用户、SaaS 平台、业务工作流程、客户门户、市场和全球数字产品规划、构建、改进或扩展 Flutter 应用程序。",
+    "full_name_label": "姓名",
     "business_email_label": "企业邮箱",
     "message_label": "应用程序要求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的跨平台愿景或性能挑战...",
-    "button_text": "索取报价"
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的 Flutter 应用创意、目标平台、用户流程、集成、后端需求或性能目标...",
+    "button_text": "请求颤振咨询"
   }
 }

@@ -1,117 +1,234 @@
 {
   "slug": "doctorhosters",
   "seo_metadata": {
-    "title": "安全医疗云架构与托管服务",
-    "description": "专业的医疗级云实施与迁移服务。我们使用高度安全和成本优化的解决方案构建可扩展的临床系统。",
+    "title": "Doctor – 适合所有人的网络托管和域名提供商",
+    "description": "Doctor 是一个强大的托管和域名平台，适用于个人、企业、初创公司和企业。借助可靠的托管和完美的域名，让您的网站快速上线。",
     "keywords": [
-      "医疗云咨询",
-      "HIPAA合规架构",
-      "无服务器医疗计算",
-      "医疗云迁移",
-      "基础设施即代码",
-      "医疗安全最佳实践",
-      "云成本优化"
+      "医生托管",
+      "域名注册",
+      "虚拟主机平台",
+      "购买域名",
+      "经济实惠的托管计划",
+      "商业虚拟主机",
+      "云托管提供商",
+      "医生域名提供商",
+      "快速网站托管",
+      "安全虚拟主机"
     ]
   },
   "hero_section": {
-    "eyebrow": "全球医疗基础设施",
-    "title": "以无限扩展能力构建",
-    "highlight": "现代医疗托管",
-    "description": "在世界上最全面、应用最广泛的云平台上构建、部署和管理生产级医疗应用程序。",
+    "eyebrow": "适合所有人的托管和域名",
+    "title": "您的网站以",
+    "highlight": "大域",
+    "description": "Doctor 是一款一体化平台，可帮助您快速、安全且简单地查找完美域名并托管您的网站。无论您是自由职业者、初创公司还是企业——我们都能满足您的需求。",
     "side_image": "/doctr_hosting/doctor_hosting.webp",
     "primary_cta": {
-      "text": "Book a Meeting",
+      "text": "预约探索电话",
       "href": "book_meeting"
     },
     "secondary_cta": {
-      "text": "View Landing Page",
+      "text": "查看登陆页面",
       "href": "/partners/doctorhoster"
     }
   },
   "why_use_section": {
-    "title": "为什么我们选择医疗专用工程",
-    "subtitle": "我们为现代分布式医疗系统提供最成熟、最安全的基础。",
+    "title": "人们为什么选择医生",
+    "subtitle": "快速地。可靠的。你的。",
     "paragraphs": [
-      "我们的托管服务是企业级医疗云托管和自动化的首选。通过利用 200 多项功能齐全的服务，我们消除了物理硬件的限制，使您的医疗业务能够根据需求即时扩展。",
-      "我们的架构方法侧重于医疗良好架构框架。我们确保您的基础设施建立在五大支柱之上：卓越运营、安全性、可靠性、性能效率和成本优化。"
+      "Doctor 让您轻松地将想法、业务或品牌带到网上。搜索完美的域名，选择适合您需求的托管计划，然后在几分钟内上线 - 无需技术专业知识。",
+      "我们将超快的服务器、坚如磐石的正常运行时间和直观的控制面板结合在一起，让您可以专注于构建网站，而不是管理它。从个人博客到高流量的电子商务商店，Doctor 与您一起成长。"
     ],
     "cards": [
       {
-        "title": "卓越的可扩展性",
-        "description": "利用自动扩展和弹性负载均衡来处理医疗流量高峰，无需人工干预。",
-        "icon_type": "FaExpandArrowsAlt"
+        "title": "域名注册",
+        "description": "从数百个 TLD 中搜索并注册。找到最适合您品牌的域名。",
+        "icon_type": "FaGlobe"
       },
       {
-        "title": "企业级安全",
-        "description": "实施军用级加密和身份访问管理 (IAM) 以保护敏感的患者数据。",
+        "title": "闪电般快速的托管",
+        "description": "SSD 驱动的服务器和全球 CDN 以最快的速度向世界各地的访问者提供您的网站。",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "坚如磐石的正常运行时间",
+        "description": "冗余基础设施和 99.9% 的正常运行时间 SLA 让您的网站全天候在线。",
+        "icon_type": "FaServer"
+      },
+      {
+        "title": "安全无忧",
+        "description": "每个计划均提供免费 SSL 证书、DDoS 保护和自动备份 - 默认情况下内置安全性。",
         "icon_type": "FaShieldAlt"
-      },
-      {
-        "title": "成本效益",
-        "description": "按需付费，并为非关键医疗工作负载使用竞价实例，优化预算。",
-        "icon_type": "FaWallet"
       }
     ]
   },
+  "domain_section": {
+    "id": "domain-registration",
+    "title": "找到您的完美域名",
+    "subtitle": "您的域名是您在互联网上的身份。让它令人难忘。",
+    "description": "Doctor 提供数百个 TLD 的域名注册服务。无论您想要经典的 .com 还是大胆的新扩展名，我们都有可以讲述您故事的域名。",
+    "available_tlds": [
+      {
+        "tld": ".com",
+        "example": "yourbrand.com",
+        "description": "世界上最值得信赖的域名后缀。最适合各种规模的企业。"
+      },
+      {
+        "tld": ".net",
+        "example": "techstudio.net",
+        "description": "对于科技公司和在线平台来说，这是一个强大、多功能的选择。"
+      },
+      {
+        "tld": ".org",
+        "example": "community.org",
+        "description": "非常适合非营利组织、社区和开源项目。"
+      },
+      {
+        "tld": ".store",
+        "example": "myshop.store",
+        "description": "专为电子商务和在线零售品牌而设计。"
+      },
+      {
+        "tld": ".io",
+        "example": "launchpad.io",
+        "description": "科技初创公司、SaaS 产品和开发人员工具的首选扩展。"
+      },
+      {
+        "tld": ".co",
+        "example": "venture.co",
+        "description": "简短、尖锐、现代——是初创公司和企业家的热门选择。"
+      }
+    ],
+    "cta": {
+      "text": "搜索您的域名",
+      "href": "/domain-search"
+    }
+  },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "医疗架构范围",
+    "title": "上网所需的一切",
     "image": "/doctr_hosting/doctor_hosting_1.webp",
     "items": [
       {
-        "title": "无服务器架构",
-        "description": "部署事件驱动逻辑，实现零服务器管理和医疗数据的高可用性。"
+        "title": "一键域名+托管",
+        "description": "注册您的域名并在一个无缝流程中一起启动您的托管环境 - 不到 5 分钟即可上线。"
       },
       {
-        "title": "托管数据湖",
-        "description": "使用 S3、Glue 和 Redshift 构建强大的医疗数据存储和分析管道。"
+        "title": "网站建设者",
+        "description": "具有专业模板的拖放构建器，因此任何人都可以创建令人惊叹的网站，而无需编写一行代码。"
       },
       {
-        "title": "混合云集成",
-        "description": "使用安全、低延迟的连接将本地医疗数据中心与云端桥接。"
+        "title": "电子商务就绪",
+        "description": "内置的 WooCommerce 和 Shopify 兼容环境从第一天起就为您的在线商店提供支持。"
+      },
+      {
+        "title": "开发者工具",
+        "description": "完整的 SSH 访问、Git 集成、临时环境以及对 PHP、Node.js、Python 等的支持。"
+      },
+      {
+        "title": "企业邮箱",
+        "description": "使用每个托管计划在您的域中创建专业电子邮件地址（例如 hello@yourbrand.com）。"
       }
     ]
   },
   "edge_section": {
-    "title": "医疗托管优势",
-    "subtitle": "为全球数字医疗提供可量化的效率。",
+    "title": "医生优势",
+    "subtitle": "数字证明我们是认真的。",
     "cards": [
       {
-        "metric": "99.99%",
-        "title": "运行时间 SLA",
-        "description": "在多个可用区和全球区域提供行业领先的可靠性。"
+        "metric": "99.9%",
+        "title": "正常运行时间服务等级协议",
+        "description": "我们冗余的全球基础设施保证您的网站始终可供访问者访问。"
       },
       {
-        "metric": "200+",
-        "title": "功能齐全的服务",
-        "description": "立即访问最广泛的云工具，包括医疗 AI 和物联网。"
+        "metric": "<1秒",
+        "title": "页面加载速度",
+        "description": "SSD 存储和 CDN 驱动的交付可确保您的网站从地球上的任何地方都能快速加载。"
       },
       {
-        "metric": "315+",
-        "title": "接入点",
-        "description": "通过全球边缘网络以超低延迟交付医疗内容。"
+        "metric": "Free",
+        "title": "SSL证书",
+        "description": "每个域名和托管计划都附带一个免费的 SSL 证书 - 默认情况下包含 HTTPS。"
       },
       {
-        "metric": "零",
-        "title": "硬件开销",
-        "description": "消除物理维护需求，让团队专注于医疗产品创新。"
+        "metric": "Daily",
+        "title": "自动备份",
+        "description": "您的文件和数据库每天都会备份，因此您可以随时恢复您的站点。"
+      },
+      {
+        "metric": "5分钟",
+        "title": "上线时间",
+        "description": "从域名搜索到实时网站 - Doctor 让您比其他人更快地上网。"
       }
     ]
   },
   "quote_section": {
-    "quote": "托管将基础设施转变为可编程资产，让我们能够以",
-    "highlight": "无限的灵活性"
+    "quote": "每个出色的网站都以名称开头 - 我们帮助您找到",
+    "highlight": "属于你的那个"
+  },
+  "plans_section": {
+    "id": "pricing",
+    "title": "满足各种需求的简单计划",
+    "subtitle": "所有计划都包括免费域名、SSL 证书和每日备份。",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$3.99/月",
+        "description": "非常适合个人网站、作品集和博客。",
+        "features": [
+          "1 个免费域名（.com、.net、.org）",
+          "10 GB SSD 存储",
+          "无限带宽",
+          "免费 SSL 证书",
+          "1 个企业电子邮件帐户",
+          "每日自动备份",
+          "包括网站生成器"
+        ],
+        "cta": "开始使用"
+      },
+      {
+        "name": "Business",
+        "price": "$9.99/月",
+        "description": "适用于成长型企业、在线商店和专业品牌。",
+        "features": [
+          "3 个免费域名",
+          "100 GB SSD 存储",
+          "无限带宽",
+          "免费 SSL 证书",
+          "10 个企业电子邮件帐户",
+          "电子商务就绪",
+          "优先 24/7 支持",
+          "高级安全套件"
+        ],
+        "cta": "开始免费试用",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "适用于高流量平台和大型组织的可扩展云基础设施。",
+        "features": [
+          "无限域名",
+          "无限 SSD 存储",
+          "专用服务器资源",
+          "自定义 CDN 配置",
+          "无限的商业电子邮件",
+          "SLA 支持的 99.99% 正常运行时间",
+          "专属客户经理",
+          "定制安全与合规性"
+        ],
+        "cta": "联系销售人员"
+      }
+    ]
   },
   "conversation_section": {
-    "title": "架构您的医疗云方案",
-    "subtitle": "咨询我们的认证架构师，确定您的迁移路线图或成本优化策略。",
-    "full_name_label": "首席架构师",
-    "business_email_label": "企业邮箱",
-    "message_label": "云需求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的医疗扩展挑战或迁移目标...",
-    "button_text": "请求云审计"
+    "title": "准备好在线咨询医生了吗？",
+    "subtitle": "与我们的团队联系，为您的项目找到合适的域名和托管计划。",
+    "full_name_label": "你的名字",
+    "business_email_label": "电子邮件",
+    "message_label": "告诉我们您的项目",
+    "full_name_placeholder": "亚历克斯·约翰逊",
+    "business_email_placeholder": "alex@yourbrand.com",
+    "message_placeholder": "告诉我们您的网站、您想要的域名或您正在寻找的托管计划...",
+    "button_text": "获得免费咨询"
   }
 }
-

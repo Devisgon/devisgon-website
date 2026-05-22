@@ -1,116 +1,135 @@
 {
   "slug": "amazon-dynamodb",
   "seo_metadata": {
-    "title": "Conseil et architecture Amazon DynamoDB | NoSQL hautes performances",
-    "description": "Services experts de mise en œuvre d'Amazon DynamoDB. Créez des applications sans serveur à latence ultra faible avec des performances en millisecondes à un chiffre, à n'importe quelle échelle.",
+    "title": "Services de développement Amazon DynamoDB | Architecture de base de données NoSQL sans serveur | Devisgon",
+    "description": "Devisgon fournit des services de développement professionnels Amazon DynamoDB pour les applications sans serveur, une architecture de base de données NoSQL évolutive, des intégrations AWS, des flux de travail de données en temps réel et des plates-formes logicielles cloud natives.",
     "keywords": [
-      "Amazon DynamoDB",
-      "Conception de base de données NoSQL",
-      "Architecture sans serveur",
-      "Modélisation des données AWS",
-      "Conception à table unique",
-      "Flux DynamoDB",
-      "Tableaux globaux"
+      "Services de développement Amazon DynamoDB",
+      "Conseil DynamoDB",
+      "Conception de base de données DynamoDB",
+      "base de données NoSQL sans serveur",
+      "Architecture de base de données AWS",
+      "Conception DynamoDB à table unique",
+      "Modélisation des données DynamoDB",
+      "développement d'applications sans serveur",
+      "Services de base de données cloud AWS",
+      "Développement de base de données NoSQL",
+      "Développement d'API DynamoDB",
+      "Intégration de flux DynamoDB",
+      "Intégration AWS Lambda DynamoDB",
+      "architecture de base de données cloud native",
+      "développement de base de données évolutive",
+      "conception de bases de données hautes performances",
+      "DynamoDB pour les plateformes SaaS",
+      "solutions de base de données NoSQL d'entreprise"
     ]
   },
   "hero_section": {
-    "eyebrow": "Base de données NoSQL sans serveur",
-    "title": "Échelle extrême avec",
+    "eyebrow": "Architecture de base de données NoSQL sans serveur",
+    "title": "Créez des applications cloud natives avec",
     "highlight": "Amazon DynamoDB",
-    "description": "Évoluez en toute transparence de quelques requêtes par mois à des millions par seconde avec des performances en millisecondes à un chiffre entièrement gérées.",
+    "description": "Devisgon conçoit et met en œuvre des solutions Amazon DynamoDB pour les plates-formes SaaS évolutives, les applications sans serveur, les flux de travail en temps réel, les systèmes à fort trafic, les backends mobiles et les produits numériques alimentés par AWS.",
     "side_image": "/technologies/dynamodb/hero.webp",
     "primary_cta": {
-      "text": "Optimisez votre charge de travail",
+      "text": "Planifiez votre architecture DynamoDB",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Afficher les modèles d'architecture",
+      "text": "Explorer la portée de la base de données",
       "href": "/technologies/amazon-dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons avec DynamoDB",
-    "subtitle": "DynamoDB est l'épine dorsale des applications distribuées à haute concurrence où la latence n'est pas négociable.",
+    "title": "Pourquoi nous construisons avec Amazon DynamoDB",
+    "subtitle": "Amazon DynamoDB constitue un excellent choix de base de données pour les produits cloud natifs qui nécessitent un accès aux données évolutif, une infrastructure gérée, des modèles de données flexibles et une intégration fiable de l'écosystème AWS.",
     "paragraphs": [
-      "Contrairement aux SGBDR traditionnels, DynamoDB offre des performances constantes à n'importe quelle échelle. Nous l'exploitons pour éliminer les frais généraux liés à l'administration des bases de données, permettant ainsi à votre équipe de se concentrer sur la logique métier plutôt que de provisionner des clusters ou de gérer des fragments.",
-      "En mettant en œuvre des modèles experts de conception à table unique, nous garantissons que votre accès aux données est efficace, optimisé en termes de coûts et capable de gérer des pics de trafic imprévisibles sans intervention manuelle."
+      "Devisgon utilise Amazon DynamoDB pour les applications qui nécessitent un accès rapide aux données, une modélisation NoSQL flexible, une infrastructure sans serveur et la possibilité d'évoluer sans administration de base de données traditionnelle. Il est particulièrement utile pour les plates-formes SaaS, les applications mobiles, les charges de travail de type IoT, les systèmes pilotés par événements, les portails clients, les flux de travail d'analyse et les applications métiers à fort trafic.",
+      "DynamoDB fonctionne mieux lorsque le modèle de données est conçu autour de modèles d'accès aux applications réels. Notre approche se concentre sur la planification pratique des schémas, la stratégie de clé de partition, les modèles de requêtes, les index, les intégrations AWS Lambda, les flux, l'architecture API, la surveillance et la mise en œuvre adaptée aux coûts afin que votre base de données prenne en charge les performances, la fiabilité et la croissance à long terme."
     ],
     "cards": [
       {
-        "title": "Latence prévisible",
-        "description": "Obtenez des temps de réponse cohérents inférieurs à 10 ms pour les opérations de lecture/écriture, quel que soit le volume de données.",
-        "icon_type": "FaBolt"
-      },
-      {
-        "title": "Opérations sans serveur",
-        "description": "Zéro gestion de serveur. Évolue automatiquement avec les modes de capacité « à la demande » ou « provisionnée ».",
+        "title": "Opérations de base de données sans serveur",
+        "description": "Utilisez une base de données NoSQL entièrement gérée qui réduit la gestion de l'infrastructure et prend en charge la fourniture d'applications cloud natives.",
         "icon_type": "FaCloud"
       },
       {
-        "title": "Réplication globale",
-        "description": "Déployez des bases de données multirégionales et multiactives avec Global Tables pour une disponibilité de 99,999 %.",
-        "icon_type": "FaGlobe"
+        "title": "Architecture de données évolutive",
+        "description": "Concevez des modèles de données, des clés de partition, des index et des modèles de requête qui prennent en charge l'augmentation du nombre d'utilisateurs, de transactions, d'enregistrements et de flux de travail métier.",
+        "icon_type": "FaDatabase"
+      },
+      {
+        "title": "Intégration native AWS",
+        "description": "Connectez DynamoDB à AWS Lambda, API Gateway, EventBridge, des flux, des pipelines d'analyse, des couches d'authentification et des systèmes backend sans serveur.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Portée de la conception DynamoDB",
+    "title": "Périmètre de développement Amazon DynamoDB",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
       {
-        "title": "Conception à table unique",
-        "description": "Consolidez plusieurs entités dans une seule table à l’aide de stratégies sophistiquées de partition et de clé de tri pour réduire les appels d’API."
+        "title": "Modélisation des données DynamoDB",
+        "description": "Conception de schémas NoSQL basés sur des modèles d'accès, de clés de partition, de clés de tri, de structures d'éléments et de stratégies de table pour des flux de travail d'application évolutifs."
       },
       {
-        "title": "Déclencheurs pilotés par les événements",
-        "description": "Utilisez DynamoDB Streams et AWS Lambda pour déclencher des flux de travail en aval, l'indexation de recherche ou des analyses en temps réel."
+        "title": "Architecture à table unique et multi-tables",
+        "description": "Planifier la bonne structure DynamoDB en fonction de la complexité du produit, des exigences de requêtes, des besoins opérationnels, du profil de coûts et de la maintenabilité à long terme."
       },
       {
-        "title": "Indices secondaires mondiaux (GSI)",
-        "description": "Créez des modèles de requête flexibles en projetant les données sur des index secondaires, permettant ainsi plusieurs façons d'afficher le même ensemble de données."
+        "title": "Index et optimisation des requêtes",
+        "description": "Création de modèles de requête efficaces avec des index secondaires globaux, des index secondaires locaux, une planification de projection et une optimisation de l'accès en lecture/écriture."
+      },
+      {
+        "title": "Intégration back-end sans serveur",
+        "description": "Connexion de DynamoDB à AWS Lambda, API Gateway, systèmes d'authentification, flux de travail d'événements, tâches en arrière-plan, notifications et services cloud."
+      },
+      {
+        "title": "Flux de travail et flux de travail basés sur les événements",
+        "description": "Utilisation de DynamoDB Streams pour déclencher des workflows en aval tels que les journaux d'audit, les mises à jour de rapports, les notifications, la synchronisation des données et le traitement en temps réel."
       }
     ]
   },
   "edge_section": {
-    "title": "L'avantage DynamoDB",
-    "subtitle": "Performance quantifiable pour les entreprises modernes.",
+    "title": "L'avantage Amazon DynamoDB",
+    "subtitle": "Une base de données cloud native pour les produits nécessitant une évolutivité, des opérations gérées, des flux de travail pilotés par événements et un alignement de l'écosystème AWS.",
     "cards": [
       {
-        "metric": "<10ms",
-        "title": "Contrôle de la latence",
-        "description": "Latence cohérente à un chiffre en millisecondes pour les données de valeur-clé et de document à n'importe quelle échelle."
+        "metric": "Serverless",
+        "title": "Infrastructure gérée",
+        "description": "Réduisez les coûts opérationnels en utilisant un service de base de données géré au lieu de gérer manuellement les serveurs de base de données, les correctifs, la mise à l'échelle et les couches d'infrastructure."
       },
       {
-        "metric": "99,999%",
-        "title": "Fiabilité des SLA",
-        "description": "Temps de disponibilité leader du secteur pour Global Tables, garantissant que votre application est toujours accessible."
+        "metric": "Scalable",
+        "title": "Charges de travail à forte croissance",
+        "description": "Prenez en charge les applications avec un trafic changeant, des ensembles de données en expansion, une activité utilisateur croissante et des flux de travail cloud critiques pour l'entreprise."
       },
       {
-        "metric": "Double",
-        "title": "Accélération DAX",
-        "description": "Multipliez encore le débit par 10 grâce à la mise en cache en mémoire de DynamoDB Accelerator (DAX)."
+        "metric": "Flexible",
+        "title": "Modèles de données NoSQL",
+        "description": "Modélisez les données d’application autour de modèles d’accès réels, d’enregistrements de type document, d’accès clé-valeur et d’exigences de requête spécifiques au produit."
       },
       {
-        "metric": "Zero",
-        "title": "Maintenance",
-        "description": "Éliminez les correctifs, le provisionnement du matériel et les mises à jour logicielles grâce à une infrastructure AWS entièrement gérée."
+        "metric": "AWS-Native",
+        "title": "Intégration cloud",
+        "description": "Créez des systèmes connectés avec AWS Lambda, API Gateway, EventBridge, CloudWatch, des services d'authentification et une architecture d'applications sans serveur."
       }
     ]
   },
   "quote_section": {
-    "quote": "DynamoDB n'est pas seulement une base de données ; c'est la base de la construction",
-    "highlight": "écosystèmes sans serveur hyperscale"
+    "quote": "Amazon DynamoDB aide à transformer les applications cloud en",
+    "highlight": "systèmes de données sans serveur évolutifs"
   },
   "conversation_section": {
-    "title": "Faites évoluer votre infrastructure",
-    "subtitle": "Consultez nos spécialistes des données certifiés AWS pour concevoir votre modèle de données DynamoDB.",
-    "full_name_label": "Nom de l'ingénieur principal",
-    "business_email_label": "E-mail de l'entreprise",
-    "message_label": "Exigence technique",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Parlez-nous de vos besoins en matière de débit ou de vos défis en matière de modélisation des données...",
-    "button_text": "Planifier un audit"
+    "title": "Concevez votre architecture de données DynamoDB",
+    "subtitle": "Travaillez avec Devisgon pour planifier, concevoir et mettre en œuvre Amazon DynamoDB pour les plateformes SaaS, les applications sans serveur, les backends mobiles, les flux de travail en temps réel et les produits numériques alimentés par AWS.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Exigence de base de données",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Parlez-nous de votre application, des modèles d'accès aux données, de la configuration AWS, des besoins d'évolutivité ou du défi de l'architecture DynamoDB...",
+    "button_text": "Demander une consultation DynamoDB"
   }
 }

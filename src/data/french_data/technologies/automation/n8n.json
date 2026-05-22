@@ -1,116 +1,132 @@
 {
   "slug": "n8n",
   "seo_metadata": {
-    "title": "Automatisation n8n d'entreprise | Orchestration de flux de travail auto-hébergé",
-    "description": "Services professionnels de mise en œuvre n8n. Nous concevons des workflows d'automatisation sécurisés et auto-hébergés et des intégrations basées sur des nœuds de code équitable pour la souveraineté des données d'entreprise.",
+    "title": "Services d'automatisation n8n | Automatisation des flux de travail auto-hébergés et intégrations d'IA | Devisgon",
+    "description": "Devisgon fournit des services d'automatisation n8n professionnels pour l'orchestration sécurisée des flux de travail, les agents IA, les intégrations d'API, l'automatisation CRM, le routage des données et l'automatisation des processus métier auto-hébergés.",
     "keywords": [
-      "Automatisation n8n",
-      "Outil de workflow auto-hébergé",
-      "Automatisation basée sur les nœuds",
-      "Solutions de souveraineté des données",
-      "Nœuds personnalisés n8n",
-      "Orchestration des flux de travail d'entreprise",
-      "Plateforme d'automatisation du code équitable"
+      "services d'automatisation n8n",
+      "Automatisation du flux de travail n8n",
+      "services d'intégration n8n",
+      "plateforme d'automatisation auto-hébergée",
+      "Automatisation du flux de travail de l'IA",
+      "automatisation des processus métier",
+      "Services d'automatisation des API",
+      "Automatisation CRM avec n8n",
+      "flux de travail n8n personnalisés",
+      "agence d'automatisation n8n",
+      "orchestration du flux de travail",
+      "automatisation du routage des données",
+      "développement n8n auto-hébergé",
+      "Développement de nœuds personnalisés n8n",
+      "solutions d'automatisation d'entreprise"
     ]
   },
   "hero_section": {
-    "eyebrow": "Automatisation du flux de travail Fair-Code",
-    "title": "Prenez le contrôle total avec",
+    "eyebrow": "Automatisation du flux de travail auto-hébergé",
+    "title": "Créez une automatisation sécurisée et évolutive avec",
     "highlight": "n8n",
-    "description": "Créez des automatisations hautement personnalisables, basées sur des nœuds, qui peuvent être auto-hébergées pour garantir une confidentialité absolue des données et une liberté architecturale.",
+    "description": "Devisgon conçoit et met en œuvre des flux de travail d'automatisation n8n avancés qui connectent les API, les CRM, les bases de données, les agents d'IA, les outils cloud, les formulaires et les systèmes internes dans des opérations commerciales sécurisées, fiables et évolutives.",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Concevez votre flux de travail",
+      "text": "Planifiez votre automatisation n8n",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Afficher l'intégration source",
+      "text": "Explorez la portée de l'automatisation",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons avec n8n",
-    "subtitle": "n8n fournit la base extensible basée sur les nœuds requise pour une orchestration back-end sécurisée et complexe.",
+    "title": "Pourquoi nous construisons l'automatisation avec n8n",
+    "subtitle": "n8n offre aux entreprises la flexibilité nécessaire pour créer de puissantes automatisations avec un contrôle approfondi des API, une logique personnalisée, des flux de travail d'IA et une infrastructure auto-hébergée.",
     "paragraphs": [
-      "n8n est notre premier choix pour les projets qui exigent la souveraineté des données et des niveaux élevés de personnalisation. Contrairement aux outils d'automatisation SaaS traditionnels, le modèle de code équitable de n8n nous permet d'héberger le moteur sur votre propre infrastructure sécurisée, garantissant ainsi que les données sensibles ne quittent jamais votre périmètre tout en bénéficiant d'un puissant concepteur de flux de travail visuel.",
-      "Le véritable pouvoir de n8n réside dans son extensibilité. Son architecture basée sur les nœuds permet à nos développeurs d'écrire une logique JavaScript personnalisée directement dans le flux de travail, ou même de créer des nœuds propriétaires pour s'interfacer avec les systèmes internes existants, fournissant ainsi un pont entre les services cloud standard et votre pile d'entreprise unique."
+      "Devisgon utilise n8n pour les entreprises qui ont besoin de plus qu'une simple automatisation d'application à application. n8n est idéal pour l'orchestration de flux de travail complexes où les données doivent circuler entre les CRM, les bases de données, les systèmes d'IA, les webhooks, les outils internes, les plateformes cloud et les API tierces avec une logique, des validations, un routage et une gestion des erreurs claires.",
+      "Pour les entreprises soucieuses du contrôle, de la confidentialité et de l’évolutivité à long terme, n8n fournit une base d’automatisation solide. Il peut être auto-hébergé, étendu avec du JavaScript personnalisé, connecté à presque toutes les API et structuré autour de flux de travail métier réels. Cela le rend adapté aux agents IA, au routage des leads, à l'automatisation CRM, aux pipelines de reporting, aux tableaux de bord opérationnels, aux workflows de support et à l'automatisation des processus backend."
     ],
     "cards": [
       {
-        "title": "Souveraineté des données",
-        "description": "Auto-hébergez-vous sur vos propres serveurs pour conserver un contrôle à 100 % sur vos données et garantir le strict respect des réglementations en matière de confidentialité.",
+        "title": "Contrôle auto-hébergé",
+        "description": "Exécutez n8n sur votre propre infrastructure pour garder sous votre contrôle les données commerciales sensibles, la logique de flux de travail, les informations d'identification et l'historique d'exécution.",
         "icon_type": "FaServer"
       },
       {
-        "title": "Extensibilité infinie",
-        "description": "Ajoutez du code JavaScript personnalisé ou créez des nœuds propriétaires pour gérer une logique métier unique et une analyse de données complexe.",
-        "icon_type": "FaCode"
+        "title": "Logique de flux de travail avancée",
+        "description": "Créez des itinéraires conditionnels, des transformations de données, des flux d'approbation, des tentatives, des tâches planifiées, des déclencheurs de webhook et des pipelines d'automatisation multi-systèmes.",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "Architecture transparente",
-        "description": "Tirez parti d’un modèle de code équitable qui permet un audit approfondi et une indépendance technologique totale.",
-        "icon_type": "FaLockOpen"
+        "title": "Intégration de l'IA et des API",
+        "description": "Connectez les modèles d'IA, les CRM, les bases de données, les formulaires, les systèmes de messagerie, les outils cloud et les API personnalisées en une seule couche d'automatisation intelligente.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
-    "id": "architecture technologique",
-    "title": "Portée de l'orchestration",
+    "id": "technology-architecture",
+    "title": "Portée de l'automatisation n8n",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Automatisations cloud auto-hébergées",
-        "description": "Déployez des instances n8n conteneurisées sur AWS ou GCP pour gérer les tâches backend sans exposition aux données externes."
+        "title": "Orchestration des flux de travail d'entreprise",
+        "description": "Conception de workflows n8n de bout en bout pour le routage des leads, les mises à jour CRM, la communication client, la création de tâches, le reporting, les approbations, la synchronisation des données et l'automatisation opérationnelle."
       },
       {
-        "title": "Développement de nœuds personnalisés",
-        "description": "Ingénierie de nœuds spécialisés pour connecter les ERP internes, les bases de données et les logiciels de niche existants au moteur n8n."
+        "title": "Agent IA et automatisation des données",
+        "description": "Connecter les agents IA aux outils métier, aux sources de connaissances, aux formulaires, aux bases de données, aux e-mails, aux calendriers et aux API pour automatiser l'aide à la décision et les tâches opérationnelles répétitives."
       },
       {
-        "title": "Flux logiques avancés",
-        "description": "Utiliser le « nœud de fonction » pour effectuer des transformations de données complexes et un tri algorithmique directement dans un scénario visuel."
+        "title": "Configuration de l'infrastructure auto-hébergée",
+        "description": "Déploiement d'environnements n8n sécurisés avec Docker, serveurs cloud, variables d'environnement, gestion des informations d'identification, sauvegardes, surveillance, contrôles d'accès et configuration prête pour la production."
+      },
+      {
+        "title": "Intégrations d'API personnalisées",
+        "description": "Création d'intégrations basées sur des webhooks et des API REST pour les plates-formes SaaS, les CRM, les logiciels internes, les outils de paiement, les systèmes de données et les applications commerciales de niche."
+      },
+      {
+        "title": "Gestion et surveillance des erreurs",
+        "description": "Implémentation d'une logique de nouvelle tentative, d'alertes d'échec, de journaux d'exécution, de contrôles de validation, d'itinéraires de secours et de flux de travail de surveillance pour garantir la fiabilité de l'automatisation en production."
       }
     ]
   },
   "edge_section": {
     "title": "L'avantage n8n",
-    "subtitle": "Des gains compétitifs stratégiques pour des écosystèmes sécurisés et flexibles.",
+    "subtitle": "Une base d'automatisation flexible pour les entreprises qui ont besoin de contrôle, de personnalisation, de préparation à l'IA et d'exécution de flux de travail évolutif.",
     "cards": [
       {
-        "metric": "100%",
-        "title": "Contrôle des données",
-        "description": "Confidentialité et sécurité totales en hébergeant le moteur d'automatisation entièrement dans votre propre pare-feu."
+        "metric": "Self-Hosted",
+        "title": "Contrôle des infrastructures",
+        "description": "Déployez l'automatisation sur votre propre serveur ou environnement cloud pour un contrôle plus fort sur les données, les informations d'identification, les journaux d'exécution et la propriété des flux de travail."
       },
       {
-        "metric": "Zéro",
-        "title": "Verrouillage du fournisseur",
-        "description": "Maintenez la souveraineté totale sur vos flux de travail et votre logique sans être lié à un cloud SaaS propriétaire."
+        "metric": "API-First",
+        "title": "Flexibilité d'intégration",
+        "description": "Connectez des outils au-delà des applications natives à l'aide de webhooks, d'API REST, d'en-têtes personnalisés, de flux d'authentification et de transformations de données structurées."
       },
       {
-        "metric": "400+",
-        "title": "Nœuds natifs",
-        "description": "Une bibliothèque massive d'intégrations prédéfinies combinée à la possibilité de créer la vôtre sans effort."
+        "metric": "AI-Ready",
+        "title": "Flux de travail agents",
+        "description": "Utilisez n8n comme couche d'orchestration pour les agents IA, le traitement des documents, l'intelligence CRM, l'enrichissement des données et les workflows de décision automatisés."
       },
       {
-        "metric": "Optimisé",
-        "title": "Structure des coûts",
-        "description": "Éliminez les modèles de facturation « par tâche » en exécutant votre propre instance, offrant ainsi un TCO prévisible et inférieur."
+        "metric": "Scalable",
+        "title": "Automatisation opérationnelle",
+        "description": "Passez d'un travail manuel répétitif à des flux de travail cohérents, surveillés et reproductibles dans tous les départements et systèmes d'entreprise."
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n offre aux équipes un chemin pratique pour combler le fossé entre la facilité du low-code et",
-    "highlight": "flexibilité du code pro"
+    "quote": "n8n transforme les outils, API et tâches manuelles déconnectés en",
+    "highlight": "infrastructure d'automatisation d'entreprise sécurisée"
   },
   "conversation_section": {
-    "title": "Architectez votre automatisation",
-    "subtitle": "Consultez nos principaux spécialistes techniques pour définir une feuille de route n8n sécurisée et auto-hébergée pour votre entreprise.",
-    "full_name_label": "Ingénieur principal",
-    "business_email_label": "E-mail de l'entité",
-    "message_label": "Exigence technique",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez vos exigences en matière de confidentialité des données ou vos défis d'automatisation complexes...",
-    "button_text": "Demander un audit technique"
+    "title": "Construisez votre système d'automatisation n8n",
+    "subtitle": "Travaillez avec Devisgon pour concevoir des flux de travail n8n sécurisés, évolutifs et prêts à l'emploi pour l'automatisation de l'IA, les opérations CRM, les intégrations d'API, le reporting et l'automatisation des processus internes.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Exigence d'automatisation",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Dites-nous quels outils, flux de travail, API ou processus manuels vous souhaitez automatiser avec n8n...",
+    "button_text": "Demander une consultation sur l’automatisation n8n"
   }
 }

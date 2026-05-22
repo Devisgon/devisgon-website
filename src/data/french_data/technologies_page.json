@@ -1,39 +1,472 @@
 {
+  "page": {
+    "name": "Technologies",
+    "slug": "/technologies",
+    "search_intent": [
+      "Entreprises à la recherche de technologies modernes de développement de logiciels",
+      "Startups à la recherche de piles de développement SaaS, MVP, Web, mobile et cloud",
+      "Entreprises à la recherche d'automatisation, d'outils de flux de travail d'IA, de bases de données et d'intégrations de plateformes",
+      "Clients mondiaux comparant les capacités techniques avant d'embaucher une société de développement de logiciels"
+    ]
+  },
+  "seo": {
+    "meta_title": "Technologies que nous utilisons | Développement de logiciels, automatisation, bases de données et frameworks | Devisgon",
+    "meta_description": "Explorez les technologies utilisées par Devisgon pour créer des logiciels évolutifs, des plateformes SaaS, des applications mobiles, des flux de travail d'automatisation, des systèmes cloud, des bases de données, des plateformes de commerce électronique et des outils commerciaux pour les entreprises mondiales.",
+    "canonical_url": "https://www.devisgon.com/technologies",
+    "robots": "indexer, suivre",
+    "primary_keywords": [
+      "technologies que nous utilisons",
+      "technologies de développement de logiciels",
+      "pile de développement de logiciels personnalisés",
+      "technologies de développement web",
+      "technologies de développement d'applications mobiles",
+      "Pile technologique de développement SaaS",
+      "outils d'automatisation pour les entreprises",
+      "technologies de bases de données",
+      "cadres Web modernes",
+      "outils de développement cloud",
+      "société mondiale de développement de logiciels",
+      "Technologies Devisgon"
+    ],
+    "secondary_keywords": [
+      "Développement JavaScript",
+      "Développement dactylographié",
+      "Développement Python",
+      "Développement de logiciels Java",
+      "Développement PHP",
+      "Développement Ruby",
+      "Développement de rouille",
+      "Développement Next.js",
+      "Développement Node.js",
+      "Développement NestJS",
+      "Développement Laravel",
+      "Développement React Native",
+      "Développement du flottement",
+      "Développement de la Supabase",
+      "Développement MongoDB",
+      "Développement de base de données MySQL",
+      "Développement Amazon DynamoDB",
+      "Développement Jira CRM",
+      "Développement Odoo",
+      "Développement de CMS de charge utile",
+      "automatisation n8n",
+      "Faire de l'automatisation",
+      "Automatisation Zapier",
+      "Développement Shopify",
+      "Développement WordPress"
+    ]
+  },
   "hero_section": {
     "eyebrow": "Intelligence technologique",
     "title": "Technologies avec lesquelles nous construisons",
-    "description": "Explorez nos principales pistes technologiques : langages, frameworks, bases de données et outils."
-  },
-  "technology_cards": [
-    {
-      "title": "Automation",
-      "description": "Make, n8n, and Zapier workflow automation for operations, integrations, and recurring business processes.",
-      "href": "/technologies/automation",
-      "icon_type": "FaSyncAlt"
+    "description": "Devisgon utilise des langages de programmation, des frameworks, des bases de données, des plates-formes d'automatisation, des outils cloud et des technologies commerciales modernes pour créer des logiciels évolutifs, des plates-formes SaaS, des applications mobiles, des flux de travail d'IA, des systèmes de commerce électronique et des produits numériques pour les entreprises mondiales.",
+    "primary_cta": {
+      "label": "Explorer les technologies",
+      "href": "#technology-categories"
     },
-    {
-      "title": "Languages",
-      "description": "Java, JavaScript / TypeScript, Python, PHP, and C / C++ foundations for robust systems.",
-      "href": "/technologies/javascript-typescript",
-      "icon_type": "FaCode"
-    },
-    {
-      "title": "Frameworks",
-      "description": "Next.js / Node.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
-      "href": "/technologies/nextjs-nodejs",
-      "icon_type": "FaLayerGroup"
-    },
-    {
-      "title": "Database",
-      "description": "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB data architecture.",
-      "href": "/technologies/mongodb",
-      "icon_type": "FaDatabase"
-    },
-    {
-      "title": "Tools",
-      "description": "Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling.",
-      "href": "/technologies/shopify",
-      "icon_type": "FaTools"
+    "secondary_cta": {
+      "label": "Discutez de votre pile technologique",
+      "href": "/contact"
     }
-  ]
+  },
+  "intro_section": {
+    "title": "Des piles de technologies modernes pour des produits numériques évolutifs",
+    "description": "La bonne pile technologique définit à quel point un produit numérique peut devenir rapide, sécurisé, évolutif et maintenable. Devisgon fonctionne avec des technologies éprouvées dans les domaines frontend, backend, mobile, automatisation, bases de données, plateformes cloud, outils de commerce électronique et intégrations commerciales. Notre approche technologique aide les startups, les sociétés SaaS, les entreprises et les entreprises de services à créer des systèmes numériques fiables qui soutiennent la croissance à long terme.",
+    "highlights": [
+      "Développement front-end et back-end",
+      "Architecture SaaS et MVP",
+      "Développement d'applications mobiles",
+      "Automatisation du flux de travail",
+      "Bases de données prêtes pour le cloud",
+      "Intégrations d'API et de plateforme",
+      "Développement de commerce électronique et de CMS",
+      "Logiciel d'entreprise évolutif"
+    ]
+  },
+  "technology_categories_section": {
+    "id": "technology-categories",
+    "title": "Explorez nos pistes technologiques de base",
+    "description": "Devisgon organise son expertise technologique en pistes claires couvrant l'automatisation, les langages de programmation, les cadres logiciels, les bases de données, les API et les outils de plate-forme.",
+    "technology_cards": [
+      {
+        "title": "Automation",
+        "slug": "automation",
+        "href": "/technologies/automation",
+        "icon_type": "FaSyncAlt",
+        "description": "Technologies d'automatisation des flux de travail pour les opérations commerciales, les agents IA, la gestion des leads, les intégrations, les notifications, les approbations, l'automatisation CRM et les processus numériques récurrents.",
+        "seo_keywords": [
+          "outils d'automatisation d'entreprise",
+          "services d'automatisation des flux de travail",
+          "automatisation n8n",
+          "Faire de l'automatisation",
+          "Automatisation Zapier",
+          "Automatisation du flux de travail de l'IA"
+        ],
+        "technologies": [
+          {
+            "title": "Make",
+            "slug": "make",
+            "href": "/technologies/make",
+            "description": "Automatisez la connexion des outils SaaS, des CRM, des formulaires, des feuilles de calcul, des API et des flux de travail métier sans opérations manuelles lourdes.",
+            "seo_keywords": [
+              "Faire de l'automatisation",
+              "Automatisez le flux de travail",
+              "Faire des services d'intégration"
+            ]
+          },
+          {
+            "title": "n8n",
+            "slug": "n8n",
+            "href": "/technologies/n8n",
+            "description": "Automatisation des flux de travail n8n pour les intégrations avancées, la logique personnalisée, les flux de travail API, les agents IA, le routage des données et l'automatisation des processus métier.",
+            "seo_keywords": [
+              "automatisation n8n",
+              "Développement de flux de travail n8n",
+              "services d'intégration n8n"
+            ]
+          },
+          {
+            "title": "Zapier",
+            "slug": "zapier",
+            "href": "/technologies/zapier",
+            "description": "Automatisation Zapier pour connecter des applications professionnelles, automatiser les tâches répétitives, synchroniser les données et améliorer la productivité des équipes.",
+            "seo_keywords": [
+              "Automatisation Zapier",
+              "Intégration Zapier",
+              "automatisation des applications professionnelles"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "CRMs",
+        "slug": "crms",
+        "href": "/technologies/crms",
+        "icon_type": "FaUsersCog",
+        "description": "Technologies CRM et CMS pour les flux de travail clients, la gestion des services, les opérations commerciales, les systèmes de contenu, les portails internes et l'automatisation des processus d'équipe.",
+        "seo_keywords": [
+          "Services de développement CRM",
+          "Développement Jira CRM",
+          "Développement Odoo",
+          "Développement de CMS de charge utile",
+          "systèmes de flux de travail d'entreprise",
+          "développement CMS personnalisé"
+        ],
+        "technologies": [
+          {
+            "title": "Jira CRM",
+            "slug": "jira-crm",
+            "href": "/technologies/jira-crm",
+            "description": "Jira CRM et développement de workflows pour la gestion des services, le support client, les workflows de vente, la billetterie, le reporting, les tableaux de bord et les opérations d'équipe.",
+            "seo_keywords": [
+              "Développement Jira CRM",
+              "Automatisation du flux de travail Jira",
+              "Gestion des services Jira"
+            ]
+          },
+          {
+            "title": "Odoo",
+            "slug": "odoo",
+            "href": "/technologies/odoo",
+            "description": "Développement Odoo pour CRM, ERP, ventes, inventaire, comptabilité, opérations, automatisation, tableaux de bord et workflows de gestion d'entreprise personnalisés.",
+            "seo_keywords": [
+              "Développement Odoo",
+              "Développement Odoo CRM",
+              "Implémentation de l'ERP Odoo"
+            ]
+          },
+          {
+            "title": "CMS de charge utile",
+            "slug": "payload-cms",
+            "href": "/technologies/payload-cms",
+            "description": "Développement de CMS de charge utile pour les plateformes de contenu modernes, les panneaux d'administration, les catalogues de produits, les sites Web, les portails, les API et les flux de travail éditoriaux personnalisés.",
+            "seo_keywords": [
+              "Développement de CMS de charge utile",
+              "développement CMS sans tête",
+              "développement CMS personnalisé"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "slug": "database",
+        "href": "/technologies/database",
+        "icon_type": "FaDatabase",
+        "description": "Technologies de base de données pour le stockage sécurisé, les requêtes évolutives, les applications basées sur des API, les systèmes en temps réel, les données cloud et la business intelligence.",
+        "seo_keywords": [
+          "technologies de bases de données",
+          "services de développement de bases de données",
+          "Développement de la Supabase",
+          "Développement MongoDB",
+          "Développement MySQL",
+          "Développement Amazon DynamoDB"
+        ],
+        "technologies": [
+          {
+            "title": "Amazon DynamoDB",
+            "slug": "amazon-dynamodb",
+            "href": "/technologies/amazon-dynamodb",
+            "description": "Développement Amazon DynamoDB pour les applications sans serveur, les bases de données cloud évolutives, les systèmes à fort trafic et les plateformes numériques alimentées par AWS.",
+            "seo_keywords": [
+              "Développement Amazon DynamoDB",
+              "Conception de base de données DynamoDB",
+              "Développement de base de données AWS"
+            ]
+          },
+          {
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "href": "/technologies/mongodb",
+            "description": "Développement MongoDB pour des bases de données de documents flexibles, des applications évolutives, des modèles de données dynamiques, des tableaux de bord, des API et des plateformes cloud.",
+            "seo_keywords": [
+              "Développement MongoDB",
+              "Conception de base de données MongoDB",
+              "Développement de base de données NoSQL"
+            ]
+          },
+          {
+            "title": "MySQL",
+            "slug": "mysql",
+            "href": "/technologies/mysql",
+            "description": "Développement MySQL pour des bases de données relationnelles structurées, des applications métier, des systèmes de reporting, des tableaux de bord et des plateformes sécurisées basées sur les données.",
+            "seo_keywords": [
+              "Développement MySQL",
+              "Conception de base de données MySQL",
+              "développement de bases de données relationnelles"
+            ]
+          },
+          {
+            "title": "Supabase",
+            "slug": "supabase",
+            "href": "/technologies/supabase",
+            "description": "Développement Supabase pour l'authentification, les bases de données PostgreSQL, les applications en temps réel, les API, les tableaux de bord, les plateformes SaaS et les produits basés sur le cloud.",
+            "seo_keywords": [
+              "Développement de la Supabase",
+              "Développement d'application Supabase",
+              "Développement backend Supabase"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "slug": "frameworks",
+        "href": "/technologies/frameworks",
+        "icon_type": "FaLayerGroup",
+        "description": "Des cadres modernes pour créer des sites Web rapides, des backends sécurisés, des plateformes SaaS, des applications mobiles, des API, des tableaux de bord d'administration et des produits numériques évolutifs.",
+        "seo_keywords": [
+          "cadres de développement Web",
+          "cadres de développement d'applications mobiles",
+          "Développement Next.js",
+          "Développement Node.js",
+          "Développement NestJS",
+          "Développement du flottement",
+          "Développement React Native"
+        ],
+        "technologies": [
+          {
+            "title": "Flutter",
+            "slug": "flutter",
+            "href": "/technologies/flutter",
+            "description": "Développement Flutter pour des applications mobiles multiplateformes rapides, modernes avec une interface utilisateur raffinée, une architecture évolutive et des expériences utilisateur fluides.",
+            "seo_keywords": [
+              "Développement du flottement",
+              "Développement d'applications Flutter",
+              "développement d'applications multiplateformes"
+            ]
+          },
+          {
+            "title": "Laravel",
+            "slug": "laravel",
+            "href": "/technologies/laravel",
+            "description": "Développement Laravel pour des applications Web personnalisées, des plates-formes commerciales, des tableaux de bord d'administration, des API, des systèmes CMS et des solutions backend sécurisées.",
+            "seo_keywords": [
+              "Développement Laravel",
+              "Développement web Laravel",
+              "Développement d'applications Laravel"
+            ]
+          },
+          {
+            "title": "NestJS",
+            "slug": "nestjs",
+            "href": "/technologies/nestjs",
+            "description": "Développement NestJS pour l'architecture backend structurée, les API d'entreprise, les systèmes SaaS, l'authentification, les autorisations et les applications serveur évolutives.",
+            "seo_keywords": [
+              "Développement NestJS",
+              "Développement back-end NestJS",
+              "Développement d'API NestJS"
+            ]
+          },
+          {
+            "title": "Suivant.js / Node.js",
+            "slug": "nextjs-nodejs",
+            "href": "/technologies/nextjs-nodejs",
+            "description": "Développement Next.js et Node.js pour des produits Web optimisés pour le référencement, des API évolutives, des plateformes SaaS, des tableaux de bord, des portails et des applications hautes performances.",
+            "seo_keywords": [
+              "Développement Next.js",
+              "Développement Node.js",
+              "développement JavaScript full-stack"
+            ]
+          },
+          {
+            "title": "Réagir natif",
+            "slug": "react-native",
+            "href": "/technologies/react-native",
+            "description": "Développement React Native pour les applications mobiles multiplateformes avec des performances de type natif, des bases de code partagées, des API et une architecture d'application évolutive.",
+            "seo_keywords": [
+              "Développement React Native",
+              "développement d'applications mobiles multiplateformes",
+              "Développement d'applications React Native"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Languages",
+        "slug": "languages",
+        "href": "/technologies/languages",
+        "icon_type": "FaCode",
+        "description": "Langages de programmation utilisés pour créer des systèmes logiciels fiables, des applications Web, des services backend, une logique d'automatisation, des API, des outils d'entreprise et des produits axés sur les performances.",
+        "seo_keywords": [
+          "langages de programmation pour le développement de logiciels",
+          "Développement JavaScript",
+          "Développement dactylographié",
+          "Développement Python",
+          "Développement Java",
+          "Développement PHP",
+          "Développement Ruby",
+          "Développement de rouille"
+        ],
+        "technologies": [
+          {
+            "title": "Java",
+            "slug": "java",
+            "href": "/technologies/java",
+            "description": "Développement Java pour les systèmes d'entreprise, les services backend, les applications évolutives, les API sécurisées et les plateformes logicielles d'entreprise.",
+            "seo_keywords": [
+              "Développement de logiciels Java",
+              "Développement back-end Java",
+              "développement Java d'entreprise"
+            ]
+          },
+          {
+            "title": "JavaScript/TypeScript",
+            "slug": "javascript-typescript",
+            "href": "/technologies/javascript-typescript",
+            "description": "Développement JavaScript et TypeScript pour des applications Web évolutives, des plates-formes SaaS, des API, des interfaces et des systèmes d'entreprise.",
+            "seo_keywords": [
+              "Développement JavaScript",
+              "Développement dactylographié",
+              "développement TypeScript full-stack"
+            ]
+          },
+          {
+            "title": "PHP",
+            "slug": "php",
+            "href": "/technologies/php",
+            "description": "Développement PHP pour sites Web, plates-formes personnalisées, solutions CMS, systèmes backend, applications Laravel et outils Web d'entreprise.",
+            "seo_keywords": [
+              "Développement PHP",
+              "Développement web PHP",
+              "développement PHP personnalisé"
+            ]
+          },
+          {
+            "title": "Python",
+            "slug": "python",
+            "href": "/technologies/python",
+            "description": "Développement Python pour l'automatisation, les API, les flux de travail d'IA, le traitement des données, les systèmes backend, les scripts et les outils commerciaux intelligents.",
+            "seo_keywords": [
+              "Développement Python",
+              "Automatisation Python",
+              "Développement back-end Python"
+            ]
+          },
+          {
+            "title": "Ruby",
+            "slug": "ruby",
+            "href": "/technologies/ruby",
+            "description": "Développement Ruby pour les plates-formes SaaS, les portails d'entreprise, les API backend, les tableaux de bord d'administration, les systèmes d'automatisation, les MVP et les produits Web maintenables.",
+            "seo_keywords": [
+              "Développement Ruby",
+              "Développement back-end Ruby",
+              "Développement Ruby on Rails"
+            ]
+          },
+          {
+            "title": "Rust",
+            "slug": "rust",
+            "href": "/technologies/rust",
+            "description": "Développement Rust pour des systèmes sécurisés et hautes performances, des services backend, des API, des moteurs d'automatisation, des outils d'infrastructure et des produits critiques en termes de performances.",
+            "seo_keywords": [
+              "Développement de rouille",
+              "Développement back-end Rust",
+              "développement de logiciels performants"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "slug": "tools",
+        "href": "/technologies/tools",
+        "icon_type": "FaTools",
+        "description": "Outils de plate-forme et technologies commerciales pour le commerce électronique, les sites Web CMS, l'hébergement cloud, les intégrations, les boutiques en ligne et les systèmes opérationnels.",
+        "seo_keywords": [
+          "outils de plateforme commerciale",
+          "Développement Shopify",
+          "Développement WordPress",
+          "Services cloud Amazon",
+          "Outils de développement de commerce électronique"
+        ],
+        "technologies": [
+          {
+            "title": "Amazon",
+            "slug": "amazon",
+            "href": "/technologies/amazon",
+            "description": "Solutions technologiques Amazon pour l'infrastructure cloud, les flux de travail de commerce électronique, les intégrations, l'hébergement, l'évolutivité et la prise en charge des plateformes commerciales.",
+            "seo_keywords": [
+              "Développement du cloud Amazon",
+              "Services d'intégration Amazon",
+              "Solutions commerciales AWS"
+            ]
+          },
+          {
+            "title": "DoctorHosters",
+            "slug": "doctorhosters",
+            "href": "/technologies/doctorhosters",
+            "description": "Prise en charge de la plate-forme DoctorHosters pour l'hébergement, les sites Web d'entreprise, les systèmes numériques, la configuration technique et les opérations de sites Web gérés.",
+            "seo_keywords": [
+              "Assistance DoctorHosters",
+              "prise en charge de l'hébergement de sites Web",
+              "hébergement de site Web géré"
+            ]
+          },
+          {
+            "title": "Shopify",
+            "slug": "shopify",
+            "href": "/technologies/shopify",
+            "description": "Développement Shopify pour les boutiques en ligne, les vitrines personnalisées, les catalogues de produits, les flux de paiement, l'automatisation et les intégrations de commerce électronique.",
+            "seo_keywords": [
+              "Développement Shopify",
+              "Développement de boutique Shopify",
+              "Développement du commerce électronique Shopify"
+            ]
+          },
+          {
+            "title": "WordPress",
+            "slug": "wordpress",
+            "href": "/technologies/wordpress",
+            "description": "Développement WordPress pour sites Web d'entreprise, pages de destination, plateformes CMS, blogs, pages de service, contenu SEO et intégrations personnalisées.",
+            "seo_keywords": [
+              "Développement WordPress",
+              "Développement de sites WordPress",
+              "développement WordPress personnalisé"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

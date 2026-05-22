@@ -1,140 +1,144 @@
 {
   "slug": "javascript-typescript",
   "seo_metadata": {
-    "title": "JavaScript / TypeScript Development | Full-Stack Web Engineering",
-    "description": "Full-stack JavaScript and TypeScript engineering for scalable, type-safe web applications, APIs, and modern product platforms.",
+    "title": "Services de développement JavaScript et TypeScript | Plateformes Web, API et SaaS Full-Stack | Devisgon",
+    "description": "Devisgon fournit des services professionnels de développement JavaScript et TypeScript pour des applications Web complètes, des plates-formes SaaS, des API, des tableaux de bord, des portails, des systèmes d'automatisation et des produits numériques évolutifs pour les entreprises mondiales.",
     "keywords": [
-      "Développement JavaScript",
-      "Normes Web ES6+",
-      "Optimisation du moteur V8",
-      "Programmation asynchrone",
-      "JavaScript universel",
-      "Architecture pilotée par les événements",
-      "Solutions JS full-stack",
-      "Développement de scripts dactylographiés",
-      "JavaScript de saisie statique",
-      "Conception d'API de type sécurisé",
-      "Architecture frontale d'entreprise",
+      "Services de développement JavaScript",
+      "Services de développement TypeScript",
+      "Société de développement JavaScript",
+      "Société de développement TypeScript",
+      "développement JavaScript full-stack",
+      "développement TypeScript full-stack",
+      "développement d'applications web personnalisées",
+      "Développement web Javascript",
+      "Développement d'applications Web TypeScript",
       "Backend TypeScript Node.js",
-      "Services de refactorisation TypeScript",
-      "Infrastructure Web évolutive"
+      "Développement de React TypeScript",
+      "Développement de plateforme SaaS",
+      "Services de développement d'API",
+      "architecture frontale d'entreprise",
+      "développement d'API de type sécurisé",
+      "Développement d'automatisation JavaScript",
+      "développement d'applications Web évolutives",
+      "services de développement Web modernes"
     ]
   },
   "hero_section": {
-    "eyebrow": "Typed and Dynamic Web Engineering",
-    "title": "Ship Faster with",
-    "highlight": "JavaScript / TypeScript",
-    "description": "Alimentez l’ensemble du cycle de vie de vos produits avec le langage le plus polyvalent de la planète, offrant une interactivité hautes performances du navigateur au serveur. Créez des systèmes de production fiables avec un langage de programmation fortement typé qui s'appuie sur JavaScript, vous offrant ainsi de meilleurs outils à n'importe quelle échelle.",
+    "eyebrow": "Développement JavaScript et TypeScript Full-Stack",
+    "title": "Créez des produits numériques évolutifs avec",
+    "highlight": "JavaScript/TypeScript",
+    "description": "Devisgon crée des applications JavaScript et TypeScript modernes pour les plates-formes SaaS, les applications Web, les tableaux de bord, les portails clients, les API, les systèmes d'automatisation, les flux de travail d'IA, les backends mobiles et les produits numériques mondiaux qui nécessitent une livraison rapide, une architecture fiable et une maintenabilité à long terme.",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "Optimisez votre pile",
+      "text": "Planifiez votre pile Web",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Voir la feuille de route technique",
+      "text": "Explorer la portée technique",
       "href": "/technologies/javascript-typescript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with JavaScript / TypeScript",
-    "subtitle": "JavaScript est la pierre angulaire des expériences numériques modernes, offrant une vitesse inégalée et une portée universelle. TypeScript fournit l'intégrité structurelle requise pour gérer des bases de code massives et multi-équipes avec une précision chirurgicale.",
+    "title": "Pourquoi nous construisons avec JavaScript et TypeScript",
+    "subtitle": "JavaScript alimente les expériences numériques modernes, tandis que TypeScript ajoute la structure, la sécurité et la maintenabilité requises pour les logiciels d'entreprise évolutifs.",
     "paragraphs": [
-      "JavaScript est notre principal outil pour créer des applications réactives et centrées sur l'utilisateur. En utilisant sa boucle d'événements non bloquante et le moteur V8 à grande vitesse, nous fournissons des interfaces qui répondent instantanément aux entrées de l'utilisateur tout en gérant une orchestration back-end complexe via un écosystème linguistique unifié à haute vitesse.",
-      "TypeScript est notre choix fondamental pour le développement d'applications à grande échelle. En introduisant un système de types statiques robuste dans JavaScript, nous détectons les erreurs potentielles pendant le développement plutôt qu'au moment de l'exécution. Cette approche « rapide » réduit considérablement le temps de débogage et augmente la fiabilité du déploiement de logiciels critiques."
+      "Devisgon utilise JavaScript et TypeScript pour créer des produits numériques rapides, interactifs et fiables sur les couches frontend, backend, automatisation et API. Ces technologies sont idéales pour les plateformes SaaS, les tableaux de bord d'administration, les portails clients, les systèmes de commerce électronique, les backends d'applications mobiles, l'automatisation des flux de travail, les fonctionnalités en temps réel et les applications Web d'entreprise modernes.",
+      "Pour le développement de produits sérieux, TypeScript donne à JavaScript la discipline nécessaire pour les bases de code plus volumineuses. Notre approche se concentre sur une architecture propre, des composants réutilisables, des API typées, la validation, des contrats backend, la gestion de l'état frontend, l'optimisation des performances, les tests, les intégrations et les pratiques d'ingénierie maintenables afin que votre produit puisse se développer sans se transformer en code fragile."
     ],
     "cards": [
       {
-        "title": "Portée universelle",
-        "description": "Exécutez la même base de code sur tous les navigateurs, serveurs et appareils mobiles pour une réutilisation maximale de la logique.",
-        "icon_type": "FaGlobe"
+        "title": "Développement de produits full-stack",
+        "description": "Utilisez JavaScript et TypeScript sur le frontend, le backend, les API, les routes de serveur, la logique d'automatisation et les flux de travail métier pour une livraison de produits cohérente.",
+        "icon_type": "FaCode"
       },
       {
-        "title": "Alimentation asynchrone",
-        "description": "Gérez des milliers d'opérations simultanées sans bloquer le thread principal à l'aide de Promises et Async/Await.",
-        "icon_type": "FaSync"
-      },
-      {
-        "title": "Sécurité de type statique",
-        "description": "Définissez des structures de données et des interfaces claires pour éliminer des classes entières de bogues d’exécution avant qu’ils n’atteignent la production.",
+        "title": "Architecture de type sécurisé",
+        "description": "Réduisez les erreurs de production grâce à des interfaces typées, des DTO, des contrats, des modèles de validation et une communication plus sûre entre les systèmes frontend et backend.",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Outillage avancé",
-        "description": "Bénéficiez d’une prise en charge supérieure de l’IDE ​​avec une refactorisation instantanée, une vérification de type et une navigation intelligente dans le code.",
+        "title": "Expériences Web modernes",
+        "description": "Créez des interfaces numériques rapides, interactives, réactives et optimisées pour le référencement à l'aide de frameworks JavaScript modernes et de modèles frontaux évolutifs.",
+        "icon_type": "FaGlobe"
+      },
+      {
+        "title": "Flux de travail d'ingénierie évolutif",
+        "description": "Améliorez la maintenabilité grâce à des modules réutilisables, des outils puissants, des tests automatisés, du peluchage, de la vérification de type et des normes de développement propres.",
         "icon_type": "FaTools"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "JavaScript / TypeScript Technical Scope",
+    "title": "Portée du développement JavaScript/TypeScript",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "Backends pilotés par les événements",
-        "description": "Concevoir des services côté serveur à haute concurrence qui exploitent la boucle d'événements Node.js pour un débit extrême."
+        "title": "Développement d'applications Web frontales",
+        "description": "Création de sites Web interactifs, d'interfaces SaaS, de tableaux de bord, de portails, de panneaux d'administration, d'interfaces de commerce électronique et d'applications destinées aux utilisateurs avec des frameworks JavaScript et TypeScript modernes."
       },
       {
-        "title": "État frontal réactif",
-        "description": "Créez des interfaces utilisateur complexes et vivantes avec des modèles modernes qui garantissent que la couche de vue reste parfaitement synchronisée avec les données sous-jacentes."
+        "title": "API backend et développement côté serveur",
+        "description": "Création de services backend évolutifs, d'API REST, d'API GraphQL, de routes de serveur, de flux d'authentification, de logique métier, d'intégrations et de couches d'automatisation à l'aide de Node.js et TypeScript."
       },
       {
-        "title": "Calcul sans serveur et Edge",
-        "description": "Déploiement de fonctions JavaScript légères à la périphérie pour une diffusion de contenu personnalisé à faible latence à grande échelle."
+        "title": "Architecture Full-Stack de type sécurisé",
+        "description": "Conception de contrats de données partagées, d'interfaces typées, de règles de validation, de modèles requête-réponse, d'utilitaires réutilisables et d'une communication front-end-backend cohérente."
       },
       {
-        "title": "Conception d'API basée sur le domaine",
-        "description": "Concevoir des API de type sécurisé à l'aide d'interfaces partagées pour garantir un alignement parfait des données entre le frontend et le backend."
+        "title": "Développement SaaS, tableaux de bord et portail",
+        "description": "Développer des produits SaaS, des portails clients, des outils internes, des systèmes d'administration, des flux de travail d'abonnement, des tableaux de bord de reporting, un accès basé sur les rôles et des plateformes de gestion d'entreprise."
       },
       {
-        "title": "Microservices back-end stricts",
-        "description": "Déployer des services Node.js robustes avec NestJS ou Express, en utilisant des décorateurs et des DTO pour une validation stricte."
+        "title": "Développement d'automatisation et d'intégration",
+        "description": "Création d'une logique d'automatisation basée sur JavaScript, de gestionnaires de webhooks, d'intégrations d'API, de scripts de transformation de données, de flux de travail CRM et de systèmes d'entreprise connectés."
       },
       {
-        "title": "Migration et conversion de types hérités",
-        "description": "Migration stratégique des piles JavaScript Vanilla vers TypeScript via une saisie incrémentielle et des interfaces haute fidélité."
+        "title": "Modernisation des performances, des tests et de la base de code",
+        "description": "Amélioration de la vitesse des pages, de la structure du bundle, des performances d'exécution, de la couverture des tests, de l'adoption de TypeScript, de la qualité du code, de la refactorisation et de la maintenabilité à long terme."
       }
     ]
   },
   "edge_section": {
-    "title": "The JavaScript / TypeScript Edge",
-    "subtitle": "Des avantages de performance stratégiques pour un monde numérique rapide. Avantages quantifiables pour maintenir le code de niveau entreprise.",
+    "title": "L'avantage JavaScript/TypeScript",
+    "subtitle": "Une base technologique flexible et évolutive pour les entreprises qui ont besoin d'applications Web modernes, d'API fiables, d'itérations rapides et d'une architecture de produit maintenable.",
     "cards": [
       {
+        "metric": "Universal",
+        "title": "Couverture front-end et back-end",
+        "description": "Utilisez un écosystème technologique unique pour les interfaces de navigateur, les API côté serveur, les scripts d'automatisation, les intégrations et les flux de travail des produits."
+      },
+      {
+        "metric": "Typed",
+        "title": "Développement de produits plus sûr",
+        "description": "Construisez avec des contrats plus solides, des structures de données plus claires, de meilleurs outils et moins de surprises d'exécution dans des applications métier complexes."
+      },
+      {
         "metric": "Fast",
-        "title": "Execution",
-        "description": "Le moteur V8 de Google compile JS en code machine en temps réel, rivalisant avec les performances des langages traditionnels."
+        "title": "Vitesse de livraison moderne",
+        "description": "Lancez plus rapidement des MVP, des plateformes SaaS, des tableaux de bord et des applications Web grâce à un écosystème mature et des modèles d'ingénierie réutilisables."
       },
       {
-        "metric": "100%",
-        "title": "Full-Stack",
-        "description": "La pile linguistique unifiée réduit le changement de contexte et simplifie les flux de travail du développement au déploiement."
-      },
-      {
-        "metric": "15%",
-        "title": "Réduction des bogues",
-        "description": "Des recherches conformes aux normes de l'industrie montrent que TypeScript détecte une partie importante des bogues publics au moment de la compilation."
-      },
-      {
-        "metric": "100%",
-        "title": "Self-Documenting",
-        "description": "Les définitions de types agissent comme un contrat évolutif, réduisant le besoin de documentation externe obsolète."
+        "metric": "Scalable",
+        "title": "Maintenabilité à long terme",
+        "description": "Prenez en charge la croissance des équipes et la complexité des produits avec un code modulaire, des API typées, des contrôles automatisés et des pratiques d'architecture épurées."
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript and TypeScript let us balance rapid delivery with",
-    "highlight": "long-term type-safe architecture"
+    "quote": "JavaScript et TypeScript aident les entreprises à passer d'idées de produits rapides à",
+    "highlight": "logiciel full-stack évolutif"
   },
   "conversation_section": {
-    "title": "Architect Your Web Stack",
-    "subtitle": "Consultez nos principaux spécialistes techniques pour définir une feuille de route JavaScript évolutive pour votre produit numérique. Consultez nos principaux spécialistes techniques pour définir une feuille de route évolutive et sécurisée pour votre organisation.",
-    "full_name_label": "Développeur principal",
-    "business_email_label": "E-mail de l'entité",
-    "message_label": "Exigence stratégique",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez votre défi architectural JavaScript ou vos objectifs de performances...",
-    "button_text": "Demander une consultation"
+    "title": "Concevez votre produit JavaScript/TypeScript",
+    "subtitle": "Travaillez avec Devisgon pour planifier, créer, moderniser ou mettre à l'échelle des applications JavaScript et TypeScript pour les plates-formes SaaS, les tableaux de bord, les portails, les API, les systèmes d'automatisation, les flux de travail d'IA et les produits numériques mondiaux.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Exigence du projet",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Parlez-nous de votre application JavaScript ou TypeScript, de vos besoins frontend, des API backend, des intégrations, des objectifs de performances ou des défis d'architecture...",
+    "button_text": "Demander une consultation JavaScript/TypeScript"
   }
 }

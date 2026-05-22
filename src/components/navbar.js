@@ -13,6 +13,56 @@ const getCookieValue = (name) => {
   return match ? decodeURIComponent(match.slice(token.length)) : null;
 };
 
+const findNavItemByHref = (links, href) => {
+  for (const link of links) {
+    if (link.href === href) {
+      return link;
+    }
+
+    for (const column of link.dropdown?.columns ?? []) {
+      const match = findNavItemByHref(column.links ?? [], href);
+      if (match) {
+        return match;
+      }
+    }
+  }
+
+  return null;
+};
+
+const removeNestedNavItemByHref = (link, href) => {
+  if (!link.dropdown) {
+    return link;
+  }
+
+  return {
+    ...link,
+    dropdown: {
+      ...link.dropdown,
+      columns: link.dropdown.columns.map((column) => ({
+        ...column,
+        links: (column.links ?? [])
+          .filter((sublink) => sublink.href !== href)
+          .map((sublink) => removeNestedNavItemByHref(sublink, href)),
+      })),
+    },
+  };
+};
+
+const getDesktopNavLinks = (links) => {
+  const hasTopLevelTechnologies = links.some((link) => link.href === "/technologies");
+  const technologiesItem = findNavItemByHref(links, "/technologies");
+
+  if (hasTopLevelTechnologies || !technologiesItem) {
+    return links;
+  }
+
+  return links.flatMap((link) => {
+    const cleanedLink = removeNestedNavItemByHref(link, "/technologies");
+    return link.href === "/industries" ? [cleanedLink, technologiesItem] : [cleanedLink];
+  });
+};
+
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -25,7 +75,7 @@ const Navbar = () => {
   const [activeMobileNestedDropdown, setActiveMobileNestedDropdown] = useState(null);
   const desktopNavRef = useRef(null);
 
-  const navLinks = getNavbarDataByLang(currentLang).navbar;
+  const navLinks = getDesktopNavLinks(getNavbarDataByLang(currentLang).navbar);
 
   useEffect(() => {
     const hasOpenSession = window.sessionStorage.getItem("theme-session") === "active";
@@ -120,40 +170,14 @@ const Navbar = () => {
             const isServicesDropdown = normalizedHref === "/services";
             const isIndustriesDropdown = normalizedHref === "/industries";
             const isTechnologiesDropdown = normalizedHref === "/technologies";
-            const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown;
+            const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown || isTechnologiesDropdown;
             const isDropdownOpen = activeDesktopDropdown === link.href;
-            const renderTechnologyInlineList = (columns, onNavigate) => (
-              <ul className="space-y-4">
-                {columns.map((col, colIndex) => (
-                  <li
-                    key={col.title || `${link.name}-${colIndex}`}
-                    className="text-base font-bold leading-relaxed text-[#402060] dark:text-[#FEFCFE]"
-                  >
-                    {col.title && <span className="font-extrabold text-t-primary">{col.title}: </span>}
-                    <span className="inline">
-                      {col.links.map((sublink, sublinkIndex) => (
-                        <span key={sublink.name}>
-                          <Link
-                            href={sublink.href}
-                            onClick={onNavigate}
-                            className="font-bold transition-colors hover:text-[#8457AA] hover:underline dark:hover:text-[#D8B4FE]"
-                          >
-                            {sublink.name}
-                          </Link>
-                          {sublinkIndex < col.links.length - 1 && <span className="px-2 text-t-secondary">|</span>}
-                        </span>
-                      ))}
-                    </span>
-                  </li>
-                ))}
-              </ul>
-            );
 
          const dropdownPositionClass = isServicesDropdown
   ? "fixed right-6 top-10 w-[calc(100vw-2rem)]" 
-  : isTechnologiesDropdown
-  ? "absolute right-0 top-full w-[min(720px,calc(100vw-2rem))]"
   : isIndustriesDropdown
+  ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
+  : isTechnologiesDropdown
   ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
   : "absolute left-0 top-full w-[320px]";
             return (
@@ -222,15 +246,6 @@ const Navbar = () => {
             {link.name}
           </button>
         )}
-        {isTechnologiesDropdown ? (
-          <div className="max-h-[70vh] overflow-y-auto pr-2">
-            {renderTechnologyInlineList(activeDropdownColumns, () => {
-              setActiveDesktopDropdown(null);
-              setPinnedDesktopDropdown(null);
-              setActiveDesktopNestedDropdown(null);
-            })}
-          </div>
-        ) : (
           <div
             className={`grid gap-8 ${isFullWidthDropdown ? "max-h-[70vh] overflow-y-auto pr-2" : ""}`}
             style={{
@@ -275,12 +290,11 @@ const Navbar = () => {
                         </Link>
                       )}
                     </li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+              ))}
+            </ul>
           </div>
-        )}
+        ))}
+      </div>
       </div>
     </div>
   </div>
@@ -330,7 +344,6 @@ const Navbar = () => {
             const activeMobileDropdownItem =
               activeMobileNestedDropdown?.parentHref === link.href ? activeMobileNestedDropdown.item : link;
             const activeMobileDropdownColumns = activeMobileDropdownItem.dropdown?.columns ?? [];
-            const isMobileTechnologiesDropdown = activeMobileDropdownItem.href === "/technologies";
 
             return (
             <div key={link.name} className="pb-3">
@@ -381,32 +394,7 @@ const Navbar = () => {
                     </button>
                   )}
 
-                  {isMobileTechnologiesDropdown ? (
-                    <ul className="space-y-4">
-                      {activeMobileDropdownColumns.map((col, colIndex) => (
-                        <li key={col.title || `${link.name}-${colIndex}`} className="text-sm font-bold leading-relaxed text-t-primary">
-                          {col.title && <span className="font-extrabold">{col.title}: </span>}
-                          <span className="inline">
-                            {col.links.map((sublink, sublinkIndex) => (
-                              <span key={sublink.name}>
-                                <Link
-                                  href={sublink.href}
-                                  onClick={() => setMobileOpen(false)}
-                                  className="font-bold underline-offset-4 hover:underline"
-                                >
-                                  {sublink.name}
-                                </Link>
-                                {sublinkIndex < col.links.length - 1 && (
-                                  <span className="px-2 text-t-secondary">|</span>
-                                )}
-                              </span>
-                            ))}
-                          </span>
-                        </li>
-                      ))}
-                    </ul>
-                  ) : (
-                  activeMobileDropdownColumns.map((col, colIndex) => (
+                  {activeMobileDropdownColumns.map((col, colIndex) => (
                     <div key={col.title || `${link.name}-${colIndex}`}>
                       {col.title ? (
                         <button
@@ -453,8 +441,7 @@ const Navbar = () => {
                         </div>
                       )}
                     </div>
-                  ))
-                  )}
+                  ))}
                 </div>
               )}
             </div>

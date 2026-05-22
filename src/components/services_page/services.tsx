@@ -1,5 +1,6 @@
 import type { ServicesListProps } from "@/types/services_page/services";
 import allIcons from "../icons";
+import { toSectionAnchor } from "@/lib/section-anchor";
 
 const ServicesList = ({ data }: ServicesListProps) => {
   return (
@@ -8,8 +9,9 @@ const ServicesList = ({ data }: ServicesListProps) => {
         {data.map((section, index) => (
           <section
             key={index}
+            id={toSectionAnchor(section.category)}
             className={`
-    px-6 md:px-12 lg:px-20 transition-colors duration-300
+    scroll-mt-24 px-6 md:px-12 lg:px-20 transition-colors duration-300
     ${index % 2 === 0 ? "bg-background" : " bg-foreground dark:bg-background"}
   `}
           >

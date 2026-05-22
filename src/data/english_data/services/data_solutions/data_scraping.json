@@ -1,179 +1,261 @@
-{  "slug": "data-scraping",
-
-
-    "hero_section": {
-      "title": "Data Extraction & Scraping",
-      "subtitle": "Clean, Reliable Data at Scale",
-      "description": "We design secure, automated pipelines to extract, clean, and structure data from websites, APIs, and internal systems, empowering you with actionable insights.",
-      "buttons": [
-        {
-          "text": "Automate My Data Project",
-          "link": "/contact"
-        },
-        {
-          "text": "Contact Us",
-          "link": "/contact"
-        }
-      ],
-      "hero_image": "/videos/data_scraping.mp4"},
-    "introduction_section": {
-      "heading": "What is",
-      "span_heading":"Data Extraction & Scraping?",
-      "content": [
-      
-        "In today’s digital economy, data is the new oil,  but raw data is often scattered, unstructured, and hard to use. Businesses spend countless hours manually copying information from websites, APIs, or reports.",
-        "At Devisgon, we build custom data extraction and web scraping solutions that automatically collect, clean, and organize large volumes of data. Whether it’s scraping competitor websites, gathering product catalogs, extracting financial reports, or monitoring social trends, our solutions deliver ready-to-use, structured datasets that fuel better decision-making.",
-        "We ensure that every pipeline is scalable, accurate, and compliant with ethical & legal standards."
-      ],
-      "highlight_quote": " “Clean data, faster insights, 5x efficiency.” ",
-      "side_image":"/all_services/data_scraping/introduction.webp"},
-    "key_benefits_section": {
-      "title": "Key Benefits",
-      "subtitle": "Transform your operations with proven results",
-      "cards": [
-        {
-          "title": "Automated Collection ",
-          "description": "Extract data from thousands of pages in minutes.",
-          "icon_type": "FaRobot  "
-        },
-        {
-          "title": "Clean & Structured",
-          "description": "Transform raw data into ready-to-use CSV, JSON, or dashboards.",
-          "icon_type": "FaHandHoldingUsd  "
-        },
-          {
-          "title": "Scalable",
-          "description": "Designed to handle millions of records per day.",
-          "icon_type": "AiFillDollarCircle  "
-        },
-        {
-          "title": "Customizable",
-          "description": "Tailored scripts for your industry, APIs, or websites.",
-          "icon_type": "IoShieldCheckmarkSharp  "
-        }
-      ]
-    },
-    "what_you_get_section": {
-      "title": "What you'll get when you choose  Data Extraction & Scraping",
-      "image": "/all_services/data_scraping/wwg.webp",
-      "list_items": [
-        {
-          "title": "1. Seamless Pipelines ",
-          "description": "Automated pipelines for data collection"
-        },
-         {
-          "title": "2. Ready-to-Use Data ",
-          "description": "Clean structured datasets (CSV, Excel, JSON, database)"
-        },
-          {
-          "title": "3. Custom Automation",
-          "description": "Custom scripts or bots for recurring extractions"
-        },
-         {
-          "title": "4. Instant Access",
-          "description": "Dashboards & APIs for real-time access"
-        }
-      ]
-    },
-    "technologies_section": {
-      "title": "We work with modern, proven technologies",
-      "subtitle": "Industry-leading tools for maximum reliability and performance",
-      "tools": [
-        { 
-          "name": "Python", 
-          "icon": "FaPython " 
-        },
-        { 
-          "name": "Javascript", 
-          "icon": "FaJs" 
-        },
-        { 
-          "name": "PHP", 
-          "icon": "SiPhp " 
-        },
-        { 
-          "name": "Pandas", 
-          "icon": "SiPandas  " 
-        },
-        { 
-          "name": "Selenium", 
-          "icon": "SiSelenium  " 
-        },
-        { 
-          "name": "AWS Lambda", 
-          "icon": "BsCollectionPlay  " 
-        }
-      ]
-    },
-    "process_section": {
-      "title": "Our Process",
-      "subtitle": "From concept to launch in 6 weeks",
-      "steps": [
-        {
-          "title": "Discover",
-          "description": "Define sources (websites, APIs, systems) and data requirements.",
-          "icon": "FaSearch"
-        },
-        {
-          "title": "Design",
-          "description": "Map scraping logic, data formats, and pipelines.",
-          "icon": "TbTools"
-        },
-       {
-          "title": "Build",
-          "description": "Develop scrapers, bots, and ETL workflows.",
-          "icon": "FaHammer"
-        },
-       {
-          "title": "Launch",
-          "description": "Deploy pipelines, schedule jobs, and monitor performance.",
-          "icon": "FaRocket"
-        }
-      ]
-    },
-    "case_study_section": {
-      "headline": "90% Time Saved with Automated Competitor Price Tracking",
-      "image": "/all_services/data_scraping/case_study.webp",
-      "content": {
-        "problem": {
-          "label": "Problem",
-          "text": "A market research firm manually tracked competitor pricing across 20+ e-commerce sites, consuming hundreds of hours monthly."
-        },
-        "solution": {
-          "label": "Solution",
-          "text": "We built a scalable Python + Scrapy pipeline that automatically extracted prices daily and stored them in a centralized dashboard."
-        },
-        "result": {
-          "label": "Result",
-          "text": "Reporting time dropped by 90%, accuracy improved, and insights were available in real-time."
-        }
+{
+  "slug": "data-scraping",
+  "seo_metadata": {
+    "title": "Data Extraction & Web Scraping Services | Automated Data Pipelines, APIs & Structured Datasets | Devisgon",
+    "description": "Devisgon provides professional data extraction and web scraping services for public web data, APIs, market research, competitor tracking, product catalogs, lead enrichment, ETL pipelines, dashboards, and structured datasets for global businesses.",
+    "keywords": [
+      "data scraping services",
+      "web scraping services",
+      "data extraction services",
+      "automated data collection",
+      "web scraping company",
+      "custom web scraper development",
+      "API data extraction",
+      "ETL pipeline development",
+      "public web data extraction",
+      "competitor price tracking",
+      "product catalog scraping",
+      "market research data scraping",
+      "structured data extraction",
+      "Python web scraping",
+      "Selenium scraping services",
+      "Scrapy development services",
+      "business data automation",
+      "data pipeline automation"
+    ]
+  },
+  "hero_section": {
+    "title": "Data Extraction & Web Scraping Services",
+    "subtitle": "Clean, Structured, and Automated Data Pipelines for Smarter Business Decisions",
+    "description": "Devisgon builds compliant data extraction and web scraping systems that collect, clean, structure, and deliver business-ready data from public websites, APIs, internal tools, documents, databases, and approved data sources. We help global companies automate research, price tracking, product monitoring, lead enrichment, reporting, and market intelligence workflows.",
+    "buttons": [
+      {
+        "text": "Automate My Data Project",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our Data Engineers",
+        "link": "/contact"
       }
-    },
-   "faq_section": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Get answers to common questions",
-      "questions": [
-        {
-          "question": "Can you build apps for both iOS and Android?",
-          "answer": "Typically, an MVP can be developed in 4-6 weeks depending on the complexity of the features."
-        },
-        {
-          "question": "How secure are your enterprise solutions?",
-          "answer": "Yes, we offer post-launch maintenance and support packages to ensure your application runs smoothly."
-        },
-        {
-          "question": "Do you work with existing ERP/CRM systems?",
-          "answer": "Absolutely. We specialize in integrating AI models into existing architectures via API."
-        },
-        {
-          "question": "Can you scale apps as our business grows?",
-          "answer": "We primarily use Next.js, React, Node.js, Python, and cloud services like AWS or Vercel."
-        }
-      ],
-      "footer": {
-        "text": "Didn't find your answer?",
-        "link_text": "Contact us for more information",
-        "link_url": "/contact"
+    ],
+    "hero_image": "/videos/data_scraping.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is Enterprise-Grade",
+    "span_heading": " Data Extraction & Web Scraping?",
+    "content": [
+      "Enterprise-grade data extraction is the process of collecting information from websites, APIs, files, databases, portals, or internal systems and converting it into clean, structured, usable data. It helps businesses automate manual research, monitor markets, compare pricing, enrich records, track content changes, and power analytics workflows.",
+      "At Devisgon, we build data extraction systems with reliability, compliance, accuracy, and maintainability in mind. Our approach includes source analysis, extraction logic, parsing rules, rate controls, data cleaning, validation, storage, scheduled jobs, dashboards, APIs, monitoring, and documentation.",
+      "We focus on ethical and permission-aware extraction using approved APIs, publicly available data, client-owned systems, and responsible access patterns that respect source limitations and business risk."
+    ],
+    "highlight_quote": "“Reliable data extraction turns scattered online and internal information into clean datasets, automated workflows, and faster business intelligence.”",
+    "side_image": "/all_services/data_scraping/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Business Benefits",
+    "subtitle": "Use automated extraction to save time, improve data quality, monitor markets, and power business intelligence",
+    "cards": [
+      {
+        "title": "Automated Data Collection",
+        "description": "Collect public web data, API records, documents, product details, and approved business data without repetitive manual work.",
+        "icon_type": "FaRobot"
+      },
+      {
+        "title": "Clean Structured Datasets",
+        "description": "Transform raw extracted data into validated CSV, Excel, JSON, database tables, dashboards, or API-ready formats.",
+        "icon_type": "FaHandHoldingUsd"
+      },
+      {
+        "title": "Scalable Data Pipelines",
+        "description": "Build scheduled extraction workflows that handle recurring data updates, larger sources, and growing business needs.",
+        "icon_type": "AiFillDollarCircle"
+      },
+      {
+        "title": "Compliance-Aware Automation",
+        "description": "Design extraction flows around approved sources, access rules, rate limits, data validation, and responsible usage practices.",
+        "icon_type": "IoShieldCheckmarkSharp"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Receive with Devisgon Data Extraction & Scraping",
+    "image": "/all_services/data_scraping/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Data Source and Requirement Mapping",
+        "description": "We define target sources, required fields, access method, data format, update frequency, and compliance boundaries."
+      },
+      {
+        "title": "2. Custom Scrapers and API Connectors",
+        "description": "We build extraction scripts, API connectors, browser automation, parsers, and source-specific collection workflows."
+      },
+      {
+        "title": "3. Data Cleaning and Validation Pipeline",
+        "description": "We remove duplicates, normalize fields, validate records, handle missing values, and structure outputs for business use."
+      },
+      {
+        "title": "4. Storage, Dashboards, and Delivery",
+        "description": "We deliver data through CSV, Excel, JSON, databases, dashboards, cloud storage, webhooks, or internal APIs."
+      },
+      {
+        "title": "5. Scheduling, Monitoring, and Error Handling",
+        "description": "We configure recurring jobs, logs, alerts, retry logic, source-change handling, and extraction health monitoring."
+      },
+      {
+        "title": "6. Maintenance and Pipeline Optimization",
+        "description": "We update scrapers, improve accuracy, fix source changes, optimize speed, and maintain data reliability over time."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Data Extraction and Scraping Technologies We Use",
+    "subtitle": "Modern scraping, automation, data processing, API, cloud, and storage tools for reliable extraction workflows",
+    "tools": [
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "JavaScript",
+        "icon": "FaJs"
+      },
+      {
+        "name": "PHP",
+        "icon": "SiPhp"
+      },
+      {
+        "name": "Pandas",
+        "icon": "SiPandas"
+      },
+      {
+        "name": "Selenium",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "Scrapy",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Playwright",
+        "icon": "FaJs"
+      },
+      {
+        "name": "BeautifulSoup",
+        "icon": "FaPython"
+      },
+      {
+        "name": "AWS Lambda",
+        "icon": "BsCollectionPlay"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "SiPostgresql"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Data Extraction & Scraping Process",
+    "subtitle": "A focused 6-step process from discovery to testing, deployment, maintenance, and continuous data quality improvement",
+    "steps": [
+      {
+        "title": "Discovery Call",
+        "description": "We understand your data goals, target sources, fields, output format, frequency, and business use case.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Source and Data Mapping",
+        "description": "We map websites, APIs, documents, selectors, access limits, data fields, and compliance requirements.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Extraction Strategy",
+        "description": "We define scraper logic, API flow, storage structure, validation rules, schedule, and delivery method.",
+        "icon": "VscGraphLine"
+      },
+      {
+        "title": "Development and Integration",
+        "description": "We build scrapers, API connectors, parsers, cleaning logic, storage workflows, and dashboard integrations.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Testing and Deployment",
+        "description": "We test accuracy, duplicates, missing fields, rate limits, errors, and deploy the pipeline safely.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Maintenance and Optimization",
+        "description": "We monitor jobs, fix source changes, improve quality, optimize speed, and maintain extraction reliability.",
+        "icon": "PiCodeFill"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Automated Data Extraction That Reduced Manual Research and Improved Market Visibility",
+    "image": "/all_services/data_scraping/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A market research team was manually collecting competitor pricing, product availability, category data, and promotional changes across multiple public websites. The process consumed hours every week and produced inconsistent spreadsheets."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "Devisgon built a scheduled extraction pipeline with source-specific scrapers, validation rules, duplicate handling, structured database storage, and dashboard-ready exports for daily competitor monitoring."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "The team reduced manual research time, improved data consistency, received cleaner market updates, and gained faster access to structured insights for pricing and product strategy."
       }
     }
+  },
+  "faq_section": {
+    "title": "Data Extraction & Web Scraping Questions and Answers",
+    "subtitle": "Detailed answers for founders, operations teams, research teams, and data leaders planning extraction workflows",
+    "questions": [
+      {
+        "question": "What is data extraction and web scraping?",
+        "answer": "Data extraction is the process of collecting information from websites, APIs, documents, databases, or internal systems and turning it into structured data. Web scraping focuses on collecting data from websites, usually from public pages or approved sources. Businesses use it for research, monitoring, reporting, analytics, and automation."
+      },
+      {
+        "question": "What type of data can be extracted?",
+        "answer": "Data extraction can collect product details, pricing, categories, reviews, business listings, public records, reports, documents, tables, images, metadata, and API responses. The exact fields depend on the target source and business goal. Devisgon maps the required fields before building the extraction pipeline."
+      },
+      {
+        "question": "Is web scraping legal and safe for business use?",
+        "answer": "Web scraping must be handled carefully and responsibly. We prioritize approved APIs, public data, client-owned systems, permission-based sources, rate limits, and compliance-aware workflows. We avoid building extraction flows for private, restricted, or unauthorized data access. Legal review may be needed for sensitive or regulated use cases."
+      },
+      {
+        "question": "Can extracted data be delivered into dashboards or databases?",
+        "answer": "Yes. Extracted data can be delivered into CSV, Excel, JSON, PostgreSQL, MongoDB, Google Sheets, cloud storage, dashboards, APIs, or business intelligence tools. We design the delivery method based on how your team needs to use the data. This turns extraction into a practical business workflow instead of a raw file dump."
+      },
+      {
+        "question": "Can data extraction run automatically on a schedule?",
+        "answer": "Yes. Extraction pipelines can run hourly, daily, weekly, monthly, or on custom triggers depending on the use case. We can add job scheduling, logs, alerts, retry logic, and monitoring so the pipeline runs consistently. Scheduled extraction is useful for price tracking, market monitoring, reporting, and recurring research."
+      },
+      {
+        "question": "How do you handle websites that change layout?",
+        "answer": "Website layout changes can break scrapers, so we design extraction logic with monitoring, error handling, selector checks, and maintenance workflows. When a source changes, the scraper may need an update. Devisgon provides ongoing maintenance to keep extraction pipelines stable as source websites evolve."
+      },
+      {
+        "question": "Can you extract data from APIs instead of scraping websites?",
+        "answer": "Yes. APIs are often the best and most reliable option when available because they provide structured data directly. Devisgon can build API integrations, authentication flows, pagination handling, rate limit management, and data transformation pipelines. We usually prefer API extraction over scraping when the source supports it."
+      },
+      {
+        "question": "Does Devisgon provide maintenance after deployment?",
+        "answer": "Yes. Data extraction systems need maintenance because sources, APIs, formats, rate limits, and business requirements change over time. Devisgon provides monitoring, bug fixes, scraper updates, data quality checks, pipeline optimization, and ongoing support after launch."
+      }
+    ],
+    "footer": {
+      "text": "Ready to automate data collection and reporting?",
+      "link_text": "Schedule a data extraction discovery call",
+      "link_url": "/contact"
+    }
   }
+}

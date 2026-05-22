@@ -1,39 +1,472 @@
 {
+  "page": {
+    "name": "Technologies",
+    "slug": "/technologies",
+    "search_intent": [
+      "Businesses looking for modern software development technologies",
+      "Startups searching for SaaS, MVP, web, mobile, and cloud development stacks",
+      "Companies looking for automation, AI workflow tools, databases, and platform integrations",
+      "Global clients comparing technical capabilities before hiring a software development company"
+    ]
+  },
+  "seo": {
+    "meta_title": "Technologies We Use | Software Development, Automation, Databases & Frameworks | Devisgon",
+    "meta_description": "Explore the technologies Devisgon uses to build scalable software, SaaS platforms, mobile apps, automation workflows, cloud systems, databases, eCommerce platforms, and business tools for global companies.",
+    "canonical_url": "https://www.devisgon.com/technologies",
+    "robots": "index, follow",
+    "primary_keywords": [
+      "technologies we use",
+      "software development technologies",
+      "custom software development stack",
+      "web development technologies",
+      "mobile app development technologies",
+      "SaaS development technology stack",
+      "automation tools for business",
+      "database technologies",
+      "modern web frameworks",
+      "cloud development tools",
+      "global software development company",
+      "Devisgon technologies"
+    ],
+    "secondary_keywords": [
+      "JavaScript development",
+      "TypeScript development",
+      "Python development",
+      "Java software development",
+      "PHP development",
+      "Ruby development",
+      "Rust development",
+      "Next.js development",
+      "Node.js development",
+      "NestJS development",
+      "Laravel development",
+      "React Native development",
+      "Flutter development",
+      "Supabase development",
+      "MongoDB development",
+      "MySQL database development",
+      "Amazon DynamoDB development",
+      "Jira CRM development",
+      "Odoo development",
+      "Payload CMS development",
+      "n8n automation",
+      "Make automation",
+      "Zapier automation",
+      "Shopify development",
+      "WordPress development"
+    ]
+  },
   "hero_section": {
     "eyebrow": "Technology Intelligence",
     "title": "Technologies We Build With",
-    "description": "Explore our core technology tracks: languages, frameworks, database, and tools."
-  },
-  "technology_cards": [
-    {
-      "title": "Automation",
-      "description": "Make, n8n, and Zapier workflow automation for operations, integrations, and recurring business processes.",
-      "href": "/technologies/automation",
-      "icon_type": "FaSyncAlt"
+    "description": "Devisgon uses modern programming languages, frameworks, databases, automation platforms, cloud tools, and business technologies to build scalable software, SaaS platforms, mobile applications, AI workflows, eCommerce systems, and digital products for global businesses.",
+    "primary_cta": {
+      "label": "Explore Technologies",
+      "href": "#technology-categories"
     },
-    {
-      "title": "Languages",
-      "description": "Java, JavaScript / TypeScript, Python, PHP, and C / C++ foundations for robust systems.",
-      "href": "/technologies/javascript-typescript",
-      "icon_type": "FaCode"
-    },
-    {
-      "title": "Frameworks",
-      "description": "Next.js / Node.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
-      "href": "/technologies/nextjs-nodejs",
-      "icon_type": "FaLayerGroup"
-    },
-    {
-      "title": "Database",
-      "description": "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB data architecture.",
-      "href": "/technologies/mongodb",
-      "icon_type": "FaDatabase"
-    },
-    {
-      "title": "Tools",
-      "description": "Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling.",
-      "href": "/technologies/shopify",
-      "icon_type": "FaTools"
+    "secondary_cta": {
+      "label": "Discuss Your Tech Stack",
+      "href": "/contact"
     }
-  ]
+  },
+  "intro_section": {
+    "title": "Modern Technology Stacks for Scalable Digital Products",
+    "description": "The right technology stack defines how fast, secure, scalable, and maintainable a digital product can become. Devisgon works with proven technologies across frontend, backend, mobile, automation, databases, cloud platforms, eCommerce tools, and business integrations. Our technology approach helps startups, SaaS companies, enterprises, and service businesses build reliable digital systems that support long-term growth.",
+    "highlights": [
+      "Frontend and backend development",
+      "SaaS and MVP architecture",
+      "Mobile app development",
+      "Workflow automation",
+      "Cloud-ready databases",
+      "API and platform integrations",
+      "eCommerce and CMS development",
+      "Scalable business software"
+    ]
+  },
+  "technology_categories_section": {
+    "id": "technology-categories",
+    "title": "Explore Our Core Technology Tracks",
+    "description": "Devisgon organizes its technology expertise into clear tracks covering automation, programming languages, software frameworks, databases, APIs, and platform tools.",
+    "technology_cards": [
+      {
+        "title": "Automation",
+        "slug": "automation",
+        "href": "/technologies/automation",
+        "icon_type": "FaSyncAlt",
+        "description": "Workflow automation technologies for business operations, AI agents, lead management, integrations, notifications, approvals, CRM automation, and recurring digital processes.",
+        "seo_keywords": [
+          "business automation tools",
+          "workflow automation services",
+          "n8n automation",
+          "Make automation",
+          "Zapier automation",
+          "AI workflow automation"
+        ],
+        "technologies": [
+          {
+            "title": "Make",
+            "slug": "make",
+            "href": "/technologies/make",
+            "description": "Make automation for connecting SaaS tools, CRMs, forms, spreadsheets, APIs, and business workflows without heavy manual operations.",
+            "seo_keywords": [
+              "Make automation",
+              "Make workflow automation",
+              "Make integration services"
+            ]
+          },
+          {
+            "title": "n8n",
+            "slug": "n8n",
+            "href": "/technologies/n8n",
+            "description": "n8n workflow automation for advanced integrations, custom logic, API workflows, AI agents, data routing, and business process automation.",
+            "seo_keywords": [
+              "n8n automation",
+              "n8n workflow development",
+              "n8n integration services"
+            ]
+          },
+          {
+            "title": "Zapier",
+            "slug": "zapier",
+            "href": "/technologies/zapier",
+            "description": "Zapier automation for connecting business apps, automating repetitive tasks, syncing data, and improving team productivity.",
+            "seo_keywords": [
+              "Zapier automation",
+              "Zapier integration",
+              "business app automation"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "CRMs",
+        "slug": "crms",
+        "href": "/technologies/crms",
+        "icon_type": "FaUsersCog",
+        "description": "CRM and CMS technologies for customer workflows, service management, business operations, content systems, internal portals, and team process automation.",
+        "seo_keywords": [
+          "CRM development services",
+          "Jira CRM development",
+          "Odoo development",
+          "Payload CMS development",
+          "business workflow systems",
+          "custom CMS development"
+        ],
+        "technologies": [
+          {
+            "title": "Jira CRM",
+            "slug": "jira-crm",
+            "href": "/technologies/jira-crm",
+            "description": "Jira CRM and workflow development for service management, customer support, sales workflows, ticketing, reporting, dashboards, and team operations.",
+            "seo_keywords": [
+              "Jira CRM development",
+              "Jira workflow automation",
+              "Jira service management"
+            ]
+          },
+          {
+            "title": "Odoo",
+            "slug": "odoo",
+            "href": "/technologies/odoo",
+            "description": "Odoo development for CRM, ERP, sales, inventory, accounting, operations, automation, dashboards, and custom business management workflows.",
+            "seo_keywords": [
+              "Odoo development",
+              "Odoo CRM development",
+              "Odoo ERP implementation"
+            ]
+          },
+          {
+            "title": "Payload CMS",
+            "slug": "payload-cms",
+            "href": "/technologies/payload-cms",
+            "description": "Payload CMS development for modern content platforms, admin panels, product catalogs, websites, portals, APIs, and custom editorial workflows.",
+            "seo_keywords": [
+              "Payload CMS development",
+              "headless CMS development",
+              "custom CMS development"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "slug": "database",
+        "href": "/technologies/database",
+        "icon_type": "FaDatabase",
+        "description": "Database technologies for secure storage, scalable queries, API-driven applications, real-time systems, cloud data, and business intelligence.",
+        "seo_keywords": [
+          "database technologies",
+          "database development services",
+          "Supabase development",
+          "MongoDB development",
+          "MySQL development",
+          "Amazon DynamoDB development"
+        ],
+        "technologies": [
+          {
+            "title": "Amazon DynamoDB",
+            "slug": "amazon-dynamodb",
+            "href": "/technologies/amazon-dynamodb",
+            "description": "Amazon DynamoDB development for serverless applications, scalable cloud databases, high-traffic systems, and AWS-powered digital platforms.",
+            "seo_keywords": [
+              "Amazon DynamoDB development",
+              "DynamoDB database design",
+              "AWS database development"
+            ]
+          },
+          {
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "href": "/technologies/mongodb",
+            "description": "MongoDB development for flexible document databases, scalable applications, dynamic data models, dashboards, APIs, and cloud platforms.",
+            "seo_keywords": [
+              "MongoDB development",
+              "MongoDB database design",
+              "NoSQL database development"
+            ]
+          },
+          {
+            "title": "MySQL",
+            "slug": "mysql",
+            "href": "/technologies/mysql",
+            "description": "MySQL development for structured relational databases, business applications, reporting systems, dashboards, and secure data-driven platforms.",
+            "seo_keywords": [
+              "MySQL development",
+              "MySQL database design",
+              "relational database development"
+            ]
+          },
+          {
+            "title": "Supabase",
+            "slug": "supabase",
+            "href": "/technologies/supabase",
+            "description": "Supabase development for authentication, PostgreSQL databases, real-time applications, APIs, dashboards, SaaS platforms, and cloud-backed products.",
+            "seo_keywords": [
+              "Supabase development",
+              "Supabase app development",
+              "Supabase backend development"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "slug": "frameworks",
+        "href": "/technologies/frameworks",
+        "icon_type": "FaLayerGroup",
+        "description": "Modern frameworks for building fast websites, secure backends, SaaS platforms, mobile apps, APIs, admin dashboards, and scalable digital products.",
+        "seo_keywords": [
+          "web development frameworks",
+          "mobile app development frameworks",
+          "Next.js development",
+          "Node.js development",
+          "NestJS development",
+          "Flutter development",
+          "React Native development"
+        ],
+        "technologies": [
+          {
+            "title": "Flutter",
+            "slug": "flutter",
+            "href": "/technologies/flutter",
+            "description": "Flutter development for fast, modern, cross-platform mobile applications with polished UI, scalable architecture, and smooth user experiences.",
+            "seo_keywords": [
+              "Flutter development",
+              "Flutter app development",
+              "cross-platform app development"
+            ]
+          },
+          {
+            "title": "Laravel",
+            "slug": "laravel",
+            "href": "/technologies/laravel",
+            "description": "Laravel development for custom web applications, business platforms, admin dashboards, APIs, CMS systems, and secure backend solutions.",
+            "seo_keywords": [
+              "Laravel development",
+              "Laravel web development",
+              "Laravel application development"
+            ]
+          },
+          {
+            "title": "NestJS",
+            "slug": "nestjs",
+            "href": "/technologies/nestjs",
+            "description": "NestJS development for structured backend architecture, enterprise APIs, SaaS systems, authentication, permissions, and scalable server applications.",
+            "seo_keywords": [
+              "NestJS development",
+              "NestJS backend development",
+              "NestJS API development"
+            ]
+          },
+          {
+            "title": "Next.js / Node.js",
+            "slug": "nextjs-nodejs",
+            "href": "/technologies/nextjs-nodejs",
+            "description": "Next.js and Node.js development for SEO-friendly web products, scalable APIs, SaaS platforms, dashboards, portals, and high-performance applications.",
+            "seo_keywords": [
+              "Next.js development",
+              "Node.js development",
+              "full-stack JavaScript development"
+            ]
+          },
+          {
+            "title": "React Native",
+            "slug": "react-native",
+            "href": "/technologies/react-native",
+            "description": "React Native development for cross-platform mobile apps with native-like performance, shared codebases, APIs, and scalable app architecture.",
+            "seo_keywords": [
+              "React Native development",
+              "cross-platform mobile app development",
+              "React Native app development"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Languages",
+        "slug": "languages",
+        "href": "/technologies/languages",
+        "icon_type": "FaCode",
+        "description": "Programming languages used to build reliable software systems, web applications, backend services, automation logic, APIs, enterprise tools, and performance-focused products.",
+        "seo_keywords": [
+          "programming languages for software development",
+          "JavaScript development",
+          "TypeScript development",
+          "Python development",
+          "Java development",
+          "PHP development",
+          "Ruby development",
+          "Rust development"
+        ],
+        "technologies": [
+          {
+            "title": "Java",
+            "slug": "java",
+            "href": "/technologies/java",
+            "description": "Java development for enterprise systems, backend services, scalable applications, secure APIs, and business software platforms.",
+            "seo_keywords": [
+              "Java software development",
+              "Java backend development",
+              "enterprise Java development"
+            ]
+          },
+          {
+            "title": "JavaScript / TypeScript",
+            "slug": "javascript-typescript",
+            "href": "/technologies/javascript-typescript",
+            "description": "JavaScript and TypeScript development for scalable web applications, SaaS platforms, APIs, interfaces, and enterprise-grade systems.",
+            "seo_keywords": [
+              "JavaScript development",
+              "TypeScript development",
+              "full-stack TypeScript development"
+            ]
+          },
+          {
+            "title": "PHP",
+            "slug": "php",
+            "href": "/technologies/php",
+            "description": "PHP development for websites, custom platforms, CMS solutions, backend systems, Laravel applications, and business web tools.",
+            "seo_keywords": [
+              "PHP development",
+              "PHP web development",
+              "custom PHP development"
+            ]
+          },
+          {
+            "title": "Python",
+            "slug": "python",
+            "href": "/technologies/python",
+            "description": "Python development for automation, APIs, AI workflows, data processing, backend systems, scripting, and intelligent business tools.",
+            "seo_keywords": [
+              "Python development",
+              "Python automation",
+              "Python backend development"
+            ]
+          },
+          {
+            "title": "Ruby",
+            "slug": "ruby",
+            "href": "/technologies/ruby",
+            "description": "Ruby development for SaaS platforms, business portals, backend APIs, admin dashboards, automation systems, MVPs, and maintainable web products.",
+            "seo_keywords": [
+              "Ruby development",
+              "Ruby backend development",
+              "Ruby on Rails development"
+            ]
+          },
+          {
+            "title": "Rust",
+            "slug": "rust",
+            "href": "/technologies/rust",
+            "description": "Rust development for secure, high-performance systems, backend services, APIs, automation engines, infrastructure tooling, and performance-critical products.",
+            "seo_keywords": [
+              "Rust development",
+              "Rust backend development",
+              "high-performance software development"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "slug": "tools",
+        "href": "/technologies/tools",
+        "icon_type": "FaTools",
+        "description": "Platform tools and business technologies for eCommerce, CMS websites, cloud hosting, integrations, online stores, and operational systems.",
+        "seo_keywords": [
+          "business platform tools",
+          "Shopify development",
+          "WordPress development",
+          "Amazon cloud services",
+          "eCommerce development tools"
+        ],
+        "technologies": [
+          {
+            "title": "Amazon",
+            "slug": "amazon",
+            "href": "/technologies/amazon",
+            "description": "Amazon technology solutions for cloud infrastructure, eCommerce workflows, integrations, hosting, scalability, and business platform support.",
+            "seo_keywords": [
+              "Amazon cloud development",
+              "Amazon integration services",
+              "AWS business solutions"
+            ]
+          },
+          {
+            "title": "DoctorHosters",
+            "slug": "doctorhosters",
+            "href": "/technologies/doctorhosters",
+            "description": "DoctorHosters platform support for hosting, business websites, digital systems, technical setup, and managed website operations.",
+            "seo_keywords": [
+              "DoctorHosters support",
+              "website hosting support",
+              "managed website hosting"
+            ]
+          },
+          {
+            "title": "Shopify",
+            "slug": "shopify",
+            "href": "/technologies/shopify",
+            "description": "Shopify development for online stores, custom storefronts, product catalogs, payment workflows, automation, and eCommerce integrations.",
+            "seo_keywords": [
+              "Shopify development",
+              "Shopify store development",
+              "Shopify ecommerce development"
+            ]
+          },
+          {
+            "title": "WordPress",
+            "slug": "wordpress",
+            "href": "/technologies/wordpress",
+            "description": "WordPress development for business websites, landing pages, CMS platforms, blogs, service pages, SEO content, and custom integrations.",
+            "seo_keywords": [
+              "WordPress development",
+              "WordPress website development",
+              "custom WordPress development"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

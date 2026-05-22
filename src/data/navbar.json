@@ -512,6 +512,10 @@
       }
     },
     {
+      "name": "Our Process",
+      "href": "/our-process"
+    },
+    {
       "name": "About Us",
       "href": "/#about",
       "dropdown": {
@@ -558,15 +562,28 @@
                       ]
                     },
                     {
-                      "title": "Database",
+                      "title": "CRMs",
+                      "links": [
+                        {
+                          "name": "Jira CRM",
+                          "href": "/technologies/jira-crm"
+                        },
+                        {
+                          "name": "Odoo",
+                          "href": "/technologies/odoo"
+                        },
+                        {
+                          "name": "Payload CMS",
+                          "href": "/technologies/payload-cms"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "Databases",
                       "links": [
                         {
                           "name": "Amazon DynamoDB",
                           "href": "/technologies/amazon-dynamodb"
-                        },
-                        {
-                          "name": "GraphQL",
-                          "href": "/technologies/graphql"
                         },
                         {
                           "name": "MongoDB",
@@ -602,10 +619,6 @@
                           "href": "/technologies/nextjs-nodejs"
                         },
                         {
-                          "name": "React",
-                          "href": "/technologies/react"
-                        },
-                        {
                           "name": "React Native",
                           "href": "/technologies/react-native"
                         }
@@ -614,10 +627,6 @@
                     {
                       "title": "Languages",
                       "links": [
-                        {
-                          "name": "C / C++",
-                          "href": "/technologies/c-cpp"
-                        },
                         {
                           "name": "Java",
                           "href": "/technologies/java"
@@ -633,6 +642,14 @@
                         {
                           "name": "Python",
                           "href": "/technologies/python"
+                        },
+                        {
+                          "name": "Ruby",
+                          "href": "/technologies/ruby"
+                        },
+                        {
+                          "name": "Rust",
+                          "href": "/technologies/rust"
                         }
                       ]
                     },
@@ -646,10 +663,6 @@
                         {
                           "name": "DoctorHosters",
                           "href": "/technologies/doctorhosters"
-                        },
-                        {
-                          "name": "Jotform",
-                          "href": "/technologies/jotform"
                         },
                         {
                           "name": "Shopify",

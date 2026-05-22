@@ -6,23 +6,21 @@ import IndustriesMainPage from "@/components/industries/main_page";
 import { getCachedLanguage } from "@/lib/language";
 import { INDUSTRIES_PAGE_METADATA } from "@/lib/seo";
 import { getIndustriesListingData, getIndustryData, INDUSTRY_GROUPS } from "@/data/loaders/industries";
+import { findNavbarItemByHref, getNavbarDataByLang } from "@/lib/localized-content";
+import { toSectionAnchor } from "@/lib/section-anchor";
 
 export const metadata: Metadata = INDUSTRIES_PAGE_METADATA;
-
-const CATEGORY_LABELS: Record<string, string> = {
-  healthcare: "Healthcare",
-  professional: "Professional",
-  trades: "Trades",
-  entertainment: "Entertainment",
-  agriculture: "Agriculture",
-  "real-estate": "Real Estate",
-};
 
 function formatSlug(slug: string): string {
   return slug
     .replace(/[-_]/g, " ")
     .replace(/\b\w/g, (char) => char.toUpperCase())
     .trim();
+}
+
+function getLastPathSegment(href: string): string | null {
+  const slug = href.split("?")[0].split("#")[0].split("/").filter(Boolean).pop();
+  return slug ?? null;
 }
 
 export default async function IndustriesPage() {
@@ -35,23 +33,71 @@ export default async function IndustriesPage() {
 
   const isRTL = lang === "ur" || lang === "ar";
   const withLang = (href: string) => (lang === "en" ? href : `${href}${href.includes("?") ? "&" : "?"}lang=${lang}`);
+  const industryHref = (slug: string) => withLang(`/industries/${slug}`);
   const listingCards = Array.isArray(data.industry_cards) ? data.industry_cards : [];
+  const categorySections = Array.isArray(data.industry_categories_section?.categories)
+    ? data.industry_categories_section.categories
+    : [];
   const categoryDescriptionMap = new Map(
-    listingCards.map((card) => [card.title.toLowerCase(), card.description])
+    [...categorySections, ...listingCards].map((card) => [card.title.toLowerCase(), card.description])
+  );
+  const navbarData = getNavbarDataByLang(lang);
+  const industriesDropdown = findNavbarItemByHref(navbarData, "/industries")?.dropdown;
+  const slugCategoryMap = new Map(
+    Object.entries(INDUSTRY_GROUPS).flatMap(([category, slugs]) => slugs.map((slug) => [slug, category]))
   );
 
-  const industryGroups = Object.entries(INDUSTRY_GROUPS)
-    .map(([category, slugs]) => {
-      const categoryTitle = CATEGORY_LABELS[category] ?? formatSlug(category);
-      const cards = slugs
-        .map((slug) => {
+  const industryGroups =
+    (categorySections.length > 0
+      ? categorySections.map((category) => ({
+          title: category.title,
+          anchor: category.slug ? toSectionAnchor(category.slug) : toSectionAnchor(category.title),
+          description: category.description,
+          categorySlug: category.slug,
+          links:
+            category.sub_industries?.map((subIndustry) => ({
+              name: subIndustry.title,
+              href: subIndustry.href,
+              description: subIndustry.description,
+              slug: subIndustry.slug,
+            })) ?? [],
+        }))
+      : industriesDropdown?.columns?.map((column) => ({
+          title: column.title,
+          anchor: toSectionAnchor(column.title),
+          description:
+            categoryDescriptionMap.get(column.title.toLowerCase()) ??
+            `Specialized AI solutions for ${column.title.toLowerCase()} organizations.`,
+          categorySlug: toSectionAnchor(column.title),
+          links: column.links.map((link) => ({
+            name: link.name,
+            href: link.href,
+            description: undefined,
+            slug: undefined,
+          })),
+        })) ?? []
+    )
+      .map((column) => {
+        const cards = column.links
+          .map((link) => {
+          const slug = link.slug ?? getLastPathSegment(link.href);
+
+          if (!slug) {
+            return null;
+          }
+
+          const category = slugCategoryMap.get(slug) ?? column.categorySlug;
+          if (!category) {
+            return null;
+          }
+
           const detailData = getIndustryData(lang, category, slug);
-          const href = withLang(`/industries/${category}/${slug}`);
 
           return {
-            title: detailData?.hero_section.highlight ?? formatSlug(slug),
-            href,
+            title: link.name ?? detailData?.hero_section.highlight ?? formatSlug(slug),
+            href: industryHref(slug),
             description:
+              link.description ??
               detailData?.hero_section.description ??
               `Specialized AI solutions for ${formatSlug(slug).toLowerCase()} operations.`,
             icon_type:
@@ -60,17 +106,16 @@ export default async function IndustriesPage() {
               "FaArrowRight",
           };
         })
-        .filter((card) => Boolean(card.href));
+          .filter((card): card is NonNullable<typeof card> => Boolean(card));
 
       return {
-        title: categoryTitle,
-        description:
-          categoryDescriptionMap.get(categoryTitle.toLowerCase()) ??
-          `Specialized AI solutions for ${categoryTitle.toLowerCase()} organizations.`,
+        anchor: column.anchor,
+        title: column.title,
+        description: column.description,
         cards,
       };
     })
-    .filter((group) => group.cards.length > 0);
+      .filter((group) => group.cards.length > 0) ?? [];
 
   const localizedData = {
     ...data,

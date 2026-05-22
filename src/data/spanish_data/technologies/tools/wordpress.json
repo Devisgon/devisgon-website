@@ -1,116 +1,135 @@
 {
   "slug": "wordpress",
   "seo_metadata": {
-    "title": "Desarrollo empresarial de WordPress | CMS sin cabeza y arquitectura personalizada",
-    "description": "Ingeniería profesional de WordPress para plataformas de contenidos de gran escala. Diseñamos soluciones de WordPress sin cabeza, temas de bloques personalizados y flujos de trabajo de publicación de alto rendimiento.",
+    "title": "Servicios de desarrollo de WordPress | Sitios web personalizados, CMS, SEO y WordPress sin cabeza | diseño",
+    "description": "Devisgon proporciona servicios profesionales de desarrollo de WordPress para sitios web compatibles con SEO, plataformas CMS personalizadas, sitios web comerciales, páginas de destino, tiendas WooCommerce, WordPress sin cabeza y sistemas de contenido escalables.",
     "keywords": [
-      "Desarrollo empresarial de WordPress",
-      "Arquitectura de WordPress sin cabeza",
-      "API REST de WP y GraphQL",
-      "Bloques Gutenberg personalizados",
-      "Soluciones CMS escalables",
+      "Servicios de desarrollo de WordPress",
+      "Empresa de desarrollo de WordPress",
+      "desarrollo personalizado de WordPress",
+      "Desarrollo de sitios web en WordPress",
+      "Desarrollo de CMS WordPress",
+      "desarrollo de WordPress sin cabeza",
+      "Servicios de SEO de WordPress",
       "Optimización del rendimiento de WordPress",
-      "Desarrollo de WordPress desacoplado"
+      "Desarrollo de WooCommerce",
+      "desarrollo de temas personalizados de WordPress",
+      "Desarrollo de complementos de WordPress",
+      "desarrollo de sitios web comerciales",
+      "Sitios web de WordPress compatibles con SEO",
+      "Integración de la API de WordPress",
+      "Servicios de migración de WordPress",
+      "Servicios de mantenimiento de WordPress.",
+      "desarrollo empresarial de WordPress",
+      "desarrollo de CMS escalable"
     ]
   },
   "hero_section": {
-    "eyebrow": "El CMS líder en el mundo",
-    "title": "Velocidad del contenido con",
+    "eyebrow": "Desarrollo de sitios web y CMS en WordPress",
+    "title": "Cree plataformas digitales listas para SEO con",
     "highlight": "WordPress",
-    "description": "Capacite a sus equipos editoriales con un motor de publicación de alto rendimiento diseñado para un alcance global, dominio de SEO y una integración perfecta con API primero.",
+    "description": "Devisgon crea sitios web profesionales de WordPress, plataformas CMS personalizadas, tiendas WooCommerce, páginas de destino, sitios web de servicios, blogs, centros de contenido y sistemas WordPress headless diseñados para visibilidad de búsqueda, rendimiento, gestión sencilla de contenido y crecimiento empresarial a largo plazo.",
     "side_image": "/technologies/wordpress/hero.webp",
     "primary_cta": {
-      "text": "Construya su plataforma",
+      "text": "Planifique su sitio web de WordPress",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Ver patrones de arquitectura",
+      "text": "Explora el alcance de WordPress",
       "href": "/technologies/wordpress#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Por qué diseñamos con WordPress",
-    "subtitle": "WordPress proporciona la base más flexible y extensible para ecosistemas digitales modernos basados ​​en contenido.",
+    "title": "Por qué construimos con WordPress",
+    "subtitle": "WordPress es una potente base CMS para empresas que necesitan una gestión de contenido flexible, páginas compatibles con SEO, flujos de trabajo de publicación rápidos, funciones de comercio electrónico y una arquitectura de sitio web escalable.",
     "paragraphs": [
-      "Utilizamos WordPress como algo más que una simple herramienta de blogs; Es una API de contenido sólida para la web moderna. Al aprovechar su API REST madura y WPGraphQL, podemos desacoplar la administración del backend del frontend, permitiendo que su contenido impulse todo, desde las aplicaciones web Next.js hasta las experiencias móviles nativas sin entradas duplicadas.",
-      "El verdadero valor del WordPress moderno reside en el editor de bloques de Gutenberg. Creamos bloques personalizados de alto rendimiento que brindan a su equipo de marketing una experiencia de creación de páginas \"sin código\", al mismo tiempo que mantenemos estándares arquitectónicos estrictos y evitamos la desviación del diseño que a menudo se encuentra en los creadores de páginas genéricos."
+      "Devisgon utiliza WordPress para empresas que necesitan sitios web profesionales, plataformas de contenido, páginas de servicios, blogs, páginas de destino, tiendas en línea, áreas de membresía y experiencias digitales centradas en marketing. WordPress es especialmente eficaz cuando los equipos necesitan controlar las actualizaciones de contenido, la estructura de SEO, los medios, las páginas, los formularios y los flujos de trabajo de publicación sin depender de los desarrolladores para cada pequeño cambio.",
+      "Un sitio web profesional de WordPress requiere más que instalar un tema. Nuestro enfoque se centra en una estructura de página personalizada, metadatos de SEO, optimización del rendimiento, diseño responsivo, configuración segura, tipos de contenido personalizados, estrategia de complementos, integraciones, análisis, copias de seguridad, formularios, planificación de migración y una arquitectura CMS mantenible para que su sitio web respalde un crecimiento empresarial real."
     ],
     "cards": [
       {
-        "title": "Flexibilidad de API primero",
-        "description": "Implemente WordPress como un CMS sin cabeza para introducir datos estructurados en marcos de JavaScript modernos a través de REST o GraphQL.",
-        "icon_type": "FaCloud"
+        "title": "Estructura del sitio web compatible con SEO",
+        "description": "Cree páginas de WordPress listas para realizar búsquedas con una jerarquía de contenido limpia, metadatos, enlaces internos, URL optimizadas y una arquitectura de contenido escalable.",
+        "icon_type": "FaSearch"
       },
       {
-        "title": "Excelencia editorial",
-        "description": "Capacite a los creadores de contenido con un editor intuitivo basado en bloques adaptado a su sistema de diseño de marca específico.",
+        "title": "Experiencia CMS personalizada",
+        "description": "Cree flujos de trabajo de administración de contenido sencillos con tipos de publicaciones personalizadas, secciones reutilizables, bloques de páginas editables, manejo de medios y diseños controlados por la marca.",
         "icon_type": "FaPencilAlt"
       },
       {
-        "title": "SEO Nativo",
-        "description": "Benefíciese de una arquitectura central que les encanta a los motores de búsqueda, combinada con herramientas líderes en la industria para SEO técnico.",
-        "icon_type": "FaSearch"
+        "title": "Plataforma empresarial flexible",
+        "description": "Utilice WordPress para sitios web de servicios, blogs, páginas de destino, tiendas WooCommerce, centros de contenido, generación de leads y flujos de trabajo empresariales integrados.",
+        "icon_type": "FaLayerGroup"
       }
     ]
   },
   "architecture_section": {
-    "id": "arquitectura-tecnológica",
-    "title": "Alcance técnico del CMS",
+    "id": "technology-architecture",
+    "title": "Alcance del desarrollo de WordPress",
     "image": "/technologies/wordpress/scope.webp",
     "items": [
       {
-        "title": "CMS desacoplado y sin cabeza",
-        "description": "Diseño de backends seguros y rápidos que sirvan como una única fuente de información para la distribución de contenido omnicanal."
+        "title": "Desarrollo de sitios web personalizados de WordPress",
+        "description": "Creación de sitios web comerciales profesionales, páginas de servicios, páginas de destino, blogs, centros de contenido, sitios web de empresas y plataformas de WordPress centradas en la conversión."
       },
       {
-        "title": "Sistemas de bloques personalizados",
-        "description": "Desarrollar bloques patentados de Gutenberg utilizando React para garantizar una experiencia de edición controlada y eficaz."
+        "title": "Desarrollo de bloques y temas personalizados",
+        "description": "Creación de temas de WordPress alineados con la marca, secciones de página reutilizables, bloques de Gutenberg personalizados, diseños responsivos y experiencias de edición controlada."
       },
       {
-        "title": "Redes empresariales multisitio",
-        "description": "Orquestar redes complejas multidominio y multilenguaje desde una única instalación unificada de WordPress."
+        "title": "Funciones de WooCommerce y sitios web comerciales",
+        "description": "Desarrollar tiendas WooCommerce, catálogos de productos, flujos de trabajo de pago, flujos de reserva de servicios, formularios para clientes potenciales, páginas de clientes y funciones de sitios web específicos de la empresa."
+      },
+      {
+        "title": "Integraciones sin cabeza de WordPress y API",
+        "description": "Usar WordPress como backend de CMS para interfaces modernas, conectando API REST, flujos de trabajo GraphQL, CRM, formularios, herramientas de análisis, plataformas de correo electrónico y sistemas de automatización."
+      },
+      {
+        "title": "SEO, rendimiento, seguridad y mantenimiento",
+        "description": "Optimización de sitios web de WordPress para velocidad de página, Core Web Vitals, SEO técnico, seguridad de complementos, copias de seguridad, actualizaciones, monitoreo, migraciones y mantenimiento a largo plazo."
       }
     ]
   },
   "edge_section": {
     "title": "La ventaja de WordPress",
-    "subtitle": "Ganancias competitivas estratégicas para publicaciones de alto rendimiento.",
+    "subtitle": "Una base de gestión de contenidos flexible para empresas que necesitan visibilidad SEO, publicación sencilla, control de marketing, capacidad de comercio electrónico y crecimiento escalable de sitios web.",
     "cards": [
       {
-        "metric": "40%+",
-        "title": "Dominio del mercado",
-        "description": "Aproveche el ecosistema de desarrolladores, complementos e integraciones de terceros más grande del mundo."
+        "metric": "SEO-Ready",
+        "title": "Fundación de visibilidad de búsqueda",
+        "description": "Cree páginas estructuradas, secciones de contenido optimizadas, metadatos, enlaces internos y flujos de trabajo de publicación que respalden el crecimiento orgánico."
       },
       {
-        "metric": "en tiempo real",
-        "title": "Sincronización de contenido",
-        "description": "Actualice instantáneamente contenido en múltiples plataformas y dispositivos mediante activadores de webhook integrados."
+        "metric": "Flexible",
+        "title": "Control de gestión de contenidos",
+        "description": "Brinde a los equipos la capacidad de administrar páginas, blogs, imágenes, contenido de servicios, páginas de destino y actualizaciones de campañas sin un trabajo técnico complejo."
       },
       {
-        "metric": "Rápido",
-        "title": "TTM",
-        "description": "Acelere el tiempo de comercialización utilizando un núcleo maduro que maneja la gestión de usuarios y los medios de forma inmediata."
+        "metric": "Scalable",
+        "title": "Arquitectura de crecimiento del sitio web",
+        "description": "Admite más páginas, categorías, servicios, campañas de contenido, integraciones y flujos de trabajo comerciales a medida que tu sitio web crece."
       },
       {
-        "metric": "Cero",
-        "title": "Bloqueo de proveedor",
-        "description": "Mantenga el 100 % de la propiedad de sus datos y su pila técnica con una base portátil de código abierto."
+        "metric": "Integrated",
+        "title": "Herramientas de marketing y negocios",
+        "description": "Conecte WordPress con formularios, CRM, análisis, marketing por correo electrónico, herramientas de pago, plataformas de automatización y servicios de terceros."
       }
     ]
   },
   "quote_section": {
-    "quote": "El WordPress moderno convierte la complejidad de la publicación digital en un",
-    "highlight": "flujo operativo optimizado"
+    "quote": "WordPress ayuda a las empresas a convertir el contenido, el SEO y la experiencia de marca en",
+    "highlight": "una plataforma de crecimiento digital escalable"
   },
   "conversation_section": {
-    "title": "Diseñe su centro de contenido",
-    "subtitle": "Consulte con nuestros principales especialistas técnicos para definir su hoja de ruta de WordPress headless o su estrategia multisitio.",
-    "full_name_label": "Desarrollador principal",
-    "business_email_label": "Correo electrónico de la entidad",
-    "message_label": "Requisito Estratégico",
-    "full_name_placeholder": "Dr. Julián Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe tus objetivos editoriales o desafíos arquitectónicos...",
-    "button_text": "Solicitar una consulta"
+    "title": "Diseñe su sitio web WordPress o CMS",
+    "subtitle": "Trabaje con Devisgon para planificar, crear, rediseñar, migrar u optimizar sitios web de WordPress, tiendas WooCommerce, páginas de destino, centros de contenido, sistemas CMS personalizados y plataformas de WordPress sin cabeza.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico empresarial",
+    "message_label": "Requisito del sitio web",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@empresa.com",
+    "message_placeholder": "Cuéntenos sobre su sitio web de WordPress, requisitos de CMS, objetivos de SEO, tienda WooCommerce, plan de rediseño, necesidad de migración o problema de rendimiento...",
+    "button_text": "Solicitar consulta de WordPress"
   }
 }

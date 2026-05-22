@@ -1,116 +1,135 @@
 {
   "slug": "amazon",
   "seo_metadata": {
-    "title": "Servicios de consultoría y arquitectura de nube empresarial de AWS",
-    "description": "Servicios profesionales de implementación y migración de AWS. Diseñamos soluciones en la nube escalables, seguras y con costos optimizados utilizando AWS Lambda, EC2 y S3.",
+    "title": "Servicios de desarrollo en la nube de AWS | Arquitectura en la nube, aplicaciones sin servidor y DevOps | diseño",
+    "description": "Devisgon proporciona servicios profesionales de desarrollo en la nube de AWS para aplicaciones web escalables, plataformas SaaS, sistemas sin servidor, migración a la nube, automatización de DevOps, almacenamiento, API e infraestructura segura en la nube.",
     "keywords": [
-      "Consultoría en la nube de AWS",
-      "Arquitectura de servicios web de Amazon",
-      "Computación sin servidor",
-      "Migración a la nube de AWS",
-      "Infraestructura como código",
-      "Mejores prácticas de seguridad de AWS",
-      "Optimización de costos de la nube"
+      "Servicios de desarrollo en la nube de AWS",
+      "Arquitectura de la nube de AWS",
+      "Desarrollo de servicios web de Amazon",
+      "Servicios de consultoría de AWS",
+      "desarrollo de aplicaciones en la nube",
+      "desarrollo de aplicaciones sin servidor",
+      "Desarrollo de AWS Lambda",
+      "Integración de la puerta de enlace API de AWS",
+      "Soluciones de almacenamiento AWS S3",
+      "Implementación de AWS EC2",
+      "Servicios de AWS DevOps",
+      "desarrollo de infraestructura en la nube",
+      "servicios de migración a la nube",
+      "Desarrollo de plataforma AWS SaaS",
+      "arquitectura de nube segura",
+      "optimización de costos de la nube",
+      "Desarrollo de back-end de AWS",
+      "software de nube escalable"
     ]
   },
   "hero_section": {
-    "eyebrow": "Infraestructura de nube global",
-    "title": "Escala sin límites con",
+    "eyebrow": "Arquitectura y desarrollo de la nube de AWS",
+    "title": "Cree sistemas de nube escalables con",
     "highlight": "AWS",
-    "description": "Cree, implemente y administre aplicaciones de producción en la plataforma en la nube más completa y ampliamente adoptada del mundo.",
+    "description": "Devisgon diseña e implementa soluciones en la nube de AWS para plataformas SaaS, aplicaciones web, API, flujos de trabajo sin servidor, sistemas de almacenamiento, canales de DevOps, productos impulsados ​​por IA, portales comerciales y plataformas digitales seguras que necesitan rendimiento, confiabilidad y escalabilidad a largo plazo.",
     "side_image": "/technologies/amazon/hero.webp",
     "primary_cta": {
-      "text": "Optimice su nube",
+      "text": "Planifique su arquitectura de AWS",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Ver patrones de arquitectura",
+      "text": "Explorar el alcance de AWS",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Por qué diseñamos en AWS",
-    "subtitle": "AWS proporciona la base más madura y segura para los sistemas distribuidos modernos.",
+    "title": "Por qué construimos con AWS",
+    "subtitle": "AWS proporciona una base de nube madura para empresas que necesitan infraestructura escalable, implementaciones seguras, flujos de trabajo sin servidor, almacenamiento, monitoreo y alojamiento de aplicaciones listas para producción.",
     "paragraphs": [
-      "AWS es nuestra principal opción para la automatización y el alojamiento en la nube de nivel empresarial. Al aprovechar su amplia gama de más de 200 servicios con todas las funciones, desde computación y almacenamiento hasta IA/ML avanzados, eliminamos las limitaciones del hardware físico, lo que permite que su negocio escale instantáneamente en respuesta a la demanda del mercado.",
-      "Nuestro enfoque arquitectónico se centra en el marco de buena arquitectura de AWS. Nos aseguramos de que su infraestructura se base en cinco pilares: excelencia operativa, seguridad, confiabilidad, eficiencia del rendimiento y optimización de costos, reduciendo la deuda técnica y el riesgo operativo a largo plazo."
+      "Devisgon utiliza AWS para proyectos que necesitan una infraestructura de nube confiable, sistemas backend escalables, alojamiento seguro, servicios API, almacenamiento, automatización y flexibilidad de implementación. AWS es una excelente opción para plataformas SaaS, backends de aplicaciones móviles, paneles comerciales, portales de clientes, aplicaciones sin servidor, flujos de trabajo de datos, integraciones de IA y productos digitales de nivel empresarial.",
+      "Una implementación exitosa de AWS requiere más que lanzar recursos en la nube. Nuestro enfoque se centra en la planificación de la arquitectura, la selección de servicios, el diseño del entorno, el control de acceso de IAM, los flujos de trabajo sin servidor, la estrategia informática, la estructura de almacenamiento, la integración de bases de datos, los canales de implementación, la supervisión, la planificación de copias de seguridad y la infraestructura consciente de los costos para que su sistema en la nube permanezca estable a medida que su producto crece."
     ],
     "cards": [
       {
-        "title": "Escalabilidad inigualable",
-        "description": "Utilice Auto Scaling y Elastic Load Balancing para manejar picos de tráfico sin intervención manual.",
-        "icon_type": "FaExpandArrowsAlt"
+        "title": "Infraestructura de nube escalable",
+        "description": "Diseñe sistemas en la nube que admitan usuarios, tráfico, almacenamiento, API, trabajos en segundo plano, integraciones y operaciones comerciales en crecimiento.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "Seguridad empresarial",
-        "description": "Implemente cifrado de nivel militar y gestión de identidad y acceso (IAM) para proteger datos confidenciales.",
+        "title": "Arquitectura segura de AWS",
+        "description": "Implemente permisos de IAM, separación de entornos, almacenamiento cifrado, API seguras, patrones de redes privadas y controles de acceso listos para producción.",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Rentabilidad",
-        "description": "Pague solo por lo que usa con precios bajo demanda e instancias puntuales para cargas de trabajo no críticas.",
-        "icon_type": "FaWallet"
+        "title": "Sin servidor y preparado para DevOps",
+        "description": "Cree flujos de trabajo de AWS Lambda, integraciones de API Gateway, canales de implementación, sistemas de monitoreo, automatización de la nube y servicios backend escalables.",
+        "icon_type": "FaCogs"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Alcance arquitectónico de AWS",
+    "title": "Alcance del desarrollo de AWS",
     "image": "/technologies/amazon/scope.webp",
     "items": [
       {
-        "title": "Arquitecturas sin servidor",
-        "description": "Implementación de lógica basada en eventos con AWS Lambda y API Gateway para una administración sin servidores y alta disponibilidad."
+        "title": "Planificación de infraestructura y arquitectura de la nube",
+        "description": "Diseño de entornos de AWS, estrategia informática, estructura de redes, arquitectura de almacenamiento, patrones de implementación, límites de seguridad y bases de infraestructura escalables."
       },
       {
-        "title": "Lagos de datos administrados",
-        "description": "Diseño de canales sólidos de análisis y almacenamiento de datos utilizando Amazon S3, Glue y Redshift para obtener información valiosa sobre big data."
+        "title": "Desarrollo de aplicaciones sin servidor",
+        "description": "Creación de funciones de AWS Lambda, puntos finales de API Gateway, flujos de trabajo basados ​​en eventos, trabajos en segundo plano, webhooks, sistemas de automatización y lógica de backend sin servidor."
       },
       {
-        "title": "Integración de la nube híbrida",
-        "description": "Uniendo los centros de datos locales con la nube mediante AWS Direct Connect y el emparejamiento de VPC para una conectividad segura y de baja latencia."
+        "title": "Alojamiento e implementación de aplicaciones",
+        "description": "Implementación de aplicaciones web, plataformas SaaS, API, paneles, portales y sistemas backend utilizando servicios de AWS con una configuración de producción estable."
+      },
+      {
+        "title": "Almacenamiento, bases de datos y flujos de trabajo de datos",
+        "description": "Implementación de almacenamiento S3, integraciones de bases de datos, flujos de trabajo de archivos, copias de seguridad, canales de procesamiento de datos, flujos de informes y manejo seguro de datos comerciales."
+      },
+      {
+        "title": "DevOps, monitoreo y optimización de costos",
+        "description": "Configuración de canalizaciones de implementación, automatización de infraestructura, variables de entorno, registros, alertas, monitoreo, copias de seguridad, políticas de escalado y operaciones de AWS conscientes de los costos."
       }
     ]
   },
   "edge_section": {
     "title": "La ventaja de AWS",
-    "subtitle": "Eficiencia cuantificable para una presencia digital global.",
+    "subtitle": "Una base de tecnología en la nube para empresas que necesitan una infraestructura segura, aplicaciones escalables, implementación flexible y sistemas digitales listos para producción.",
     "cards": [
       {
-        "metric": "99,99%",
-        "title": "SLA de tiempo de actividad",
-        "description": "Fiabilidad líder en la industria en múltiples zonas de disponibilidad y regiones globales."
+        "metric": "Scalable",
+        "title": "Fundación para el crecimiento de la nube",
+        "description": "Admite más usuarios, más tráfico, más almacenamiento, más integraciones y más flujos de trabajo empresariales con una arquitectura de nube flexible."
       },
       {
-        "metric": "200+",
-        "title": "Servicios completos",
-        "description": "Acceso inmediato al conjunto más amplio de herramientas en la nube, que incluyen IA, IoT y computación de alto rendimiento."
+        "metric": "Secure",
+        "title": "Acceso controlado y protección de datos",
+        "description": "Fortalezca la seguridad de la nube con políticas de IAM, recursos cifrados, API protegidas, separación de entornos y un cuidadoso diseño de infraestructura."
       },
       {
-        "metric": "315+",
-        "title": "Puntos de presencia",
-        "description": "Entregue contenido con latencia ultrabaja utilizando la red de borde global de Amazon CloudFront."
+        "metric": "Flexible",
+        "title": "Opciones informáticas y sin servidor",
+        "description": "Utilice la combinación adecuada de funciones sin servidor, servicios administrados, almacenamiento, computación, bases de datos y herramientas de implementación para las necesidades de su producto."
       },
       {
-        "metric": "Zero",
-        "title": "Gastos generales de hardware",
-        "description": "Elimine la necesidad de mantenimiento físico, lo que permitirá a los equipos centrarse 100 % en la innovación de productos."
+        "metric": "Optimized",
+        "title": "Costo y rendimiento de la nube",
+        "description": "Diseñe sistemas AWS teniendo en cuenta el rendimiento, el monitoreo, el escalado, el uso de recursos y el control de costos a largo plazo."
       }
     ]
   },
   "quote_section": {
-    "quote": "AWS convierte la infraestructura en un activo programable, lo que nos permite construir con",
-    "highlight": "flexibilidad infinita"
+    "quote": "AWS ayuda a las empresas a convertir la infraestructura en la nube en",
+    "highlight": "arquitectura de producto digital escalable"
   },
   "conversation_section": {
-    "title": "Diseñe su solución en la nube",
-    "subtitle": "Consulte con nuestros arquitectos de soluciones certificados por AWS para definir su hoja de ruta de migración o estrategia de optimización de costos.",
-    "full_name_label": "Arquitecto principal",
-    "business_email_label": "Correo electrónico corporativo",
+    "title": "Diseñe su arquitectura de nube de AWS",
+    "subtitle": "Trabaje con Devisgon para planificar, crear, migrar u optimizar la infraestructura de AWS para plataformas SaaS, API, aplicaciones sin servidor, portales comerciales, flujos de trabajo de almacenamiento, canalizaciones de DevOps y sistemas seguros en la nube.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico empresarial",
     "message_label": "Requisito de nube",
-    "full_name_placeholder": "Dr. Julián Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describa sus desafíos de escalamiento de AWS o sus objetivos de migración...",
-    "button_text": "Solicite una auditoría de la nube"
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@empresa.com",
+    "message_placeholder": "Cuéntenos sobre su proyecto de AWS, migración a la nube, flujo de trabajo sin servidor, configuración de alojamiento, sistema API, necesidad de almacenamiento o desafío de infraestructura...",
+    "button_text": "Solicitar consulta de AWS"
   }
 }

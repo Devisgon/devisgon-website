@@ -1,116 +1,132 @@
 {
   "slug": "n8n",
   "seo_metadata": {
-    "title": "N8N-Automatisierung für Unternehmen | Selbstgehostete Workflow-Orchestrierung",
-    "description": "Professionelle n8n-Implementierungsdienste. Wir entwerfen sichere, selbst gehostete Automatisierungsworkflows und knotenbasierte Fair-Code-Integrationen für die Souveränität der Unternehmensdaten.",
+    "title": "n8n-Automatisierungsdienste | Selbstgehostete Workflow-Automatisierung und KI-Integrationen | Devisgon",
+    "description": "Devisgon bietet professionelle n8n-Automatisierungsdienste für sichere Workflow-Orchestrierung, KI-Agenten, API-Integrationen, CRM-Automatisierung, Datenrouting und selbst gehostete Geschäftsprozessautomatisierung.",
     "keywords": [
-      "n8n-Automatisierung",
-      "Selbstgehostetes Workflow-Tool",
-      "Knotenbasierte Automatisierung",
-      "Datensouveränitätslösungen",
-      "n8n benutzerdefinierte Knoten",
-      "Enterprise-Workflow-Orchestrierung",
-      "Fair-Code-Automatisierungsplattform"
+      "N8N-Automatisierungsdienste",
+      "N8N-Workflow-Automatisierung",
+      "N8N-Integrationsdienste",
+      "Selbstgehostete Automatisierungsplattform",
+      "KI-Workflow-Automatisierung",
+      "Automatisierung von Geschäftsprozessen",
+      "API-Automatisierungsdienste",
+      "CRM-Automatisierung mit n8n",
+      "Benutzerdefinierte N8N-Workflows",
+      "N8N-Automatisierungsagentur",
+      "Workflow-Orchestrierung",
+      "Automatisierung des Datenroutings",
+      "Selbstgehostete N8N-Entwicklung",
+      "Entwicklung benutzerdefinierter n8n-Knoten",
+      "Automatisierungslösungen für Unternehmen"
     ]
   },
   "hero_section": {
-    "eyebrow": "Fair-Code-Workflow-Automatisierung",
-    "title": "Übernehmen Sie die volle Kontrolle mit",
+    "eyebrow": "Selbstgehostete Workflow-Automatisierung",
+    "title": "Erstellen Sie eine sichere, skalierbare Automatisierung mit",
     "highlight": "n8n",
-    "description": "Erstellen Sie hochgradig anpassbare, knotenbasierte Automatisierungen, die selbst gehostet werden können, um absoluten Datenschutz und architektonische Freiheit zu gewährleisten.",
+    "description": "Devisgon entwirft und implementiert fortschrittliche n8n-Automatisierungsworkflows, die APIs, CRMs, Datenbanken, KI-Agenten, Cloud-Tools, Formulare und interne Systeme zu sicheren, zuverlässigen und skalierbaren Geschäftsabläufen verbinden.",
     "side_image": "/technologies/n8n/hero.webp",
     "primary_cta": {
-      "text": "Gestalten Sie Ihren Workflow",
+      "text": "Planen Sie Ihre n8n-Automatisierung",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Quellintegration anzeigen",
+      "text": "Entdecken Sie den Automatisierungsbereich",
       "href": "/technologies/n8n#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Warum wir mit n8n entwickeln",
-    "subtitle": "n8n bietet die erweiterbare, knotenbasierte Grundlage, die für eine sichere und komplexe Backend-Orchestrierung erforderlich ist.",
+    "title": "Warum wir Automatisierung mit n8n entwickeln",
+    "subtitle": "n8n bietet Unternehmen die Flexibilität, leistungsstarke Automatisierungen mit umfassender API-Kontrolle, benutzerdefinierter Logik, KI-Workflows und selbst gehosteter Infrastruktur zu erstellen.",
     "paragraphs": [
-      "n8n ist unsere erste Wahl für Projekte, die Datensouveränität und ein hohes Maß an Individualisierung erfordern. Im Gegensatz zu herkömmlichen SaaS-Automatisierungstools ermöglicht uns das Fair-Code-Modell von n8n, die Engine in Ihrer eigenen sicheren Infrastruktur zu hosten. So stellen wir sicher, dass sensible Daten niemals Ihre Umgebung verlassen und profitieren gleichzeitig von einem leistungsstarken visuellen Workflow-Designer.",
-      "Die wahre Stärke von n8n liegt in seiner Erweiterbarkeit. Seine knotenbasierte Architektur ermöglicht es unseren Entwicklern, benutzerdefinierte JavaScript-Logik direkt im Workflow zu schreiben oder sogar proprietäre Knoten zu erstellen, um mit internen Legacy-Systemen zu kommunizieren und so eine Brücke zwischen Standard-Cloud-Diensten und Ihrem einzigartigen Unternehmens-Stack zu schlagen."
+      "Devisgon nutzt n8n für Unternehmen, die mehr als nur eine einfache App-zu-App-Automatisierung benötigen. n8n ist ideal für die komplexe Workflow-Orchestrierung, bei der Daten zwischen CRMs, Datenbanken, KI-Systemen, Webhooks, internen Tools, Cloud-Plattformen und APIs von Drittanbietern mit klarer Logik, Validierungen, Routing und Fehlerbehandlung bewegt werden müssen.",
+      "Für Unternehmen, denen Kontrolle, Datenschutz und langfristige Skalierbarkeit wichtig sind, bietet n8n eine starke Automatisierungsgrundlage. Es kann selbst gehostet, mit benutzerdefiniertem JavaScript erweitert, mit nahezu jeder API verbunden und nach realen Geschäftsabläufen strukturiert werden. Dadurch eignet es sich für KI-Agenten, Lead-Routing, CRM-Automatisierung, Reporting-Pipelines, operative Dashboards, Support-Workflows und Backend-Prozessautomatisierung."
     ],
     "cards": [
       {
-        "title": "Datensouveränität",
-        "description": "Hosten Sie Ihre Daten selbst auf Ihren eigenen Servern, um die 100-prozentige Kontrolle über Ihre Daten zu behalten und die strikte Einhaltung der Datenschutzbestimmungen sicherzustellen.",
+        "title": "Selbstgehostete Kontrolle",
+        "description": "Führen Sie n8n auf Ihrer eigenen Infrastruktur aus, um vertrauliche Geschäftsdaten, Workflow-Logik, Anmeldeinformationen und Ausführungsverlauf unter Ihrer Kontrolle zu behalten.",
         "icon_type": "FaServer"
       },
       {
-        "title": "Unendliche Erweiterbarkeit",
-        "description": "Fügen Sie benutzerdefinierten JavaScript-Code hinzu oder erstellen Sie proprietäre Knoten, um einzigartige Geschäftslogik und komplexe Datenanalyse zu bewältigen.",
-        "icon_type": "FaCode"
+        "title": "Erweiterte Workflow-Logik",
+        "description": "Erstellen Sie bedingte Routen, Datentransformationen, Genehmigungsabläufe, Wiederholungsversuche, geplante Jobs, Webhook-Trigger und Automatisierungspipelines für mehrere Systeme.",
+        "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "Transparente Architektur",
-        "description": "Nutzen Sie ein Fair-Code-Modell, das eine umfassende Prüfung und vollständige technologische Unabhängigkeit ermöglicht.",
-        "icon_type": "FaLockOpen"
+        "title": "KI- und API-Integration",
+        "description": "Verbinden Sie KI-Modelle, CRMs, Datenbanken, Formulare, E-Mail-Systeme, Cloud-Tools und benutzerdefinierte APIs in einer intelligenten Automatisierungsebene.",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
-    "id": "Technologie-Architektur",
-    "title": "Orchestrierungsumfang",
+    "id": "technology-architecture",
+    "title": "n8n-Automatisierungsbereich",
     "image": "/technologies/n8n/scope.webp",
     "items": [
       {
-        "title": "Selbstgehostete Cloud-Automatisierungen",
-        "description": "Bereitstellung von containerisierten n8n-Instanzen auf AWS oder GCP, um Backend-Aufgaben ohne externe Datenexposition zu verwalten."
+        "title": "Orchestrierung von Geschäftsabläufen",
+        "description": "Entwerfen von End-to-End-N8N-Workflows für Lead-Routing, CRM-Updates, Kundenkommunikation, Aufgabenerstellung, Berichterstattung, Genehmigungen, Datensynchronisierung und Betriebsautomatisierung."
       },
       {
-        "title": "Benutzerdefinierte Knotenentwicklung",
-        "description": "Entwicklung spezialisierter Knoten, um interne ERPs, Datenbanken und Nischen-Legacy-Software mit der n8n-Engine zu verbinden."
+        "title": "KI-Agent und Datenautomatisierung",
+        "description": "Verbinden Sie KI-Agenten mit Geschäftstools, Wissensquellen, Formularen, Datenbanken, E-Mails, Kalendern und APIs, um die Entscheidungsunterstützung und sich wiederholende Betriebsaufgaben zu automatisieren."
       },
       {
-        "title": "Erweiterte Logikflüsse",
-        "description": "Verwendung des „Funktionsknotens“, um komplexe Datentransformationen und algorithmische Sortierung direkt in einem visuellen Szenario durchzuführen."
+        "title": "Einrichtung einer selbst gehosteten Infrastruktur",
+        "description": "Bereitstellung sicherer N8N-Umgebungen mit Docker, Cloud-Servern, Umgebungsvariablen, Umgang mit Anmeldeinformationen, Backups, Überwachung, Zugriffskontrollen und produktionsbereiter Konfiguration."
+      },
+      {
+        "title": "Benutzerdefinierte API-Integrationen",
+        "description": "Erstellen von Webhook-basierten und REST-API-Integrationen für SaaS-Plattformen, CRMs, interne Software, Zahlungstools, Datensysteme und Nischengeschäftsanwendungen."
+      },
+      {
+        "title": "Fehlerbehandlung und -überwachung",
+        "description": "Implementierung von Wiederholungslogik, Fehlerwarnungen, Ausführungsprotokollen, Validierungsprüfungen, Fallback-Routen und Überwachung von Arbeitsabläufen, um die Automatisierung in der Produktion zuverlässig zu halten."
       }
     ]
   },
   "edge_section": {
     "title": "Der n8n-Vorteil",
-    "subtitle": "Strategische Wettbewerbsvorteile für sichere und flexible Ökosysteme.",
+    "subtitle": "Eine flexible Automatisierungsgrundlage für Unternehmen, die Kontrolle, Anpassung, KI-Bereitschaft und skalierbare Workflow-Ausführung benötigen.",
     "cards": [
       {
-        "metric": "100 %",
-        "title": "Datenkontrolle",
-        "description": "Absolute Privatsphäre und Sicherheit durch das vollständige Hosten der Automatisierungs-Engine innerhalb Ihrer eigenen Firewall."
+        "metric": "Self-Hosted",
+        "title": "Infrastrukturkontrolle",
+        "description": "Stellen Sie die Automatisierung auf Ihrem eigenen Server oder Ihrer Cloud-Umgebung bereit, um eine stärkere Kontrolle über Daten, Anmeldeinformationen, Ausführungsprotokolle und Workflow-Eigentümer zu erhalten."
       },
       {
-        "metric": "Null",
-        "title": "Lieferantenbindung",
-        "description": "Behalten Sie die volle Kontrolle über Ihre Arbeitsabläufe und Logik, ohne an eine proprietäre SaaS-Cloud gebunden zu sein."
+        "metric": "API-First",
+        "title": "Integrationsflexibilität",
+        "description": "Verbinden Sie Tools über native Apps hinaus mithilfe von Webhooks, REST-APIs, benutzerdefinierten Headern, Authentifizierungsabläufen und strukturierten Datentransformationen."
       },
       {
-        "metric": "400+",
-        "title": "Native Knoten",
-        "description": "Eine riesige Bibliothek vorgefertigter Integrationen kombiniert mit der Möglichkeit, mühelos eigene zu erstellen."
+        "metric": "AI-Ready",
+        "title": "Agenten-Workflows",
+        "description": "Nutzen Sie n8n als Orchestrierungsebene für KI-Agenten, Dokumentenverarbeitung, CRM-Intelligenz, Datenanreicherung und automatisierte Entscheidungsworkflows."
       },
       {
-        "metric": "Optimiert",
-        "title": "Kostenstruktur",
-        "description": "Eliminieren Sie Abrechnungsmodelle pro Aufgabe, indem Sie Ihre eigene Instanz betreiben und so vorhersehbare und niedrigere Gesamtbetriebskosten erzielen."
+        "metric": "Scalable",
+        "title": "Betriebsautomatisierung",
+        "description": "Gehen Sie von manueller, sich wiederholender Arbeit zu konsistenten, überwachten und wiederholbaren Arbeitsabläufen über Abteilungen und Geschäftssysteme hinweg über."
       }
     ]
   },
   "quote_section": {
-    "quote": "n8n bietet Teams einen praktischen Weg, um die Lücke zwischen Low-Code-Einfachheit und zu schließen",
-    "highlight": "Pro-Code-Flexibilität"
+    "quote": "n8n verwandelt getrennte Tools, APIs und manuelle Aufgaben in",
+    "highlight": "sichere Infrastruktur für die Geschäftsautomatisierung"
   },
   "conversation_section": {
-    "title": "Gestalten Sie Ihre Automatisierung",
-    "subtitle": "Wenden Sie sich an unsere führenden technischen Spezialisten, um eine sichere, selbst gehostete N8N-Roadmap für Ihr Unternehmen zu definieren.",
-    "full_name_label": "Leitender Ingenieur",
-    "business_email_label": "Entitäts-E-Mail",
-    "message_label": "Technische Anforderung",
-    "full_name_placeholder": "Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Beschreiben Sie Ihre Datenschutzanforderungen oder komplexen Automatisierungsherausforderungen ...",
-    "button_text": "Fordern Sie ein technisches Audit an"
+    "title": "Erstellen Sie Ihr n8n-Automatisierungssystem",
+    "subtitle": "Arbeiten Sie mit Devisgon zusammen, um sichere, skalierbare und geschäftsbereite n8n-Workflows für KI-Automatisierung, CRM-Vorgänge, API-Integrationen, Berichterstellung und interne Prozessautomatisierung zu entwerfen.",
+    "full_name_label": "Vollständiger Name",
+    "business_email_label": "Geschäfts-E-Mail",
+    "message_label": "Automatisierungsanforderung",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "Teilen Sie uns mit, welche Tools, Workflows, APIs oder manuellen Prozesse Sie mit n8n automatisieren möchten ...",
+    "button_text": "Fordern Sie eine n8n-Automatisierungsberatung an"
   }
 }

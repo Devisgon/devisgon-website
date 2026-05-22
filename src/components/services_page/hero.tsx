@@ -1,7 +1,10 @@
 import type { HeroSectionProps } from "@/types/services_page/hero";
-
-const bookMeetingLink =
-  process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING || "/contact";
+import {
+  CONTACT_US_HREF,
+  CONTACT_US_LABEL,
+  DISCOVERY_CALL_LABEL,
+  discoveryCallHref,
+} from "@/lib/cta-links";
 
 const HeroSection = ({ data }: HeroSectionProps) => {
   return (
@@ -36,19 +39,18 @@ const HeroSection = ({ data }: HeroSectionProps) => {
         </p>
 
         <div className="flex flex-col sm:flex-row items-center gap-4">
-          {data.buttons.map((btn, index) => {
-            const isPrimaryButton = index === 0;
-            const href = isPrimaryButton ? bookMeetingLink : btn.link;
-            const text = isPrimaryButton ? "Book a Meeting" : btn.text;
-
-            return (
-            <a href={href} key={index}>
-              <button className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 dark:border-[#664282] bg-transparent text-t-secondary hover:bg-btn-primary hover:text-white">
-                {text}
-              </button>
-            </a>
-            );
-          })}
+          <a
+            href={discoveryCallHref}
+            className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 dark:border-[#664282] bg-transparent text-t-secondary hover:bg-btn-primary hover:text-white"
+          >
+            {DISCOVERY_CALL_LABEL}
+          </a>
+          <a
+            href={CONTACT_US_HREF}
+            className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 dark:border-[#664282] bg-transparent text-t-secondary hover:bg-btn-primary hover:text-white"
+          >
+            {CONTACT_US_LABEL}
+          </a>
         </div>
       </div>
     </section>

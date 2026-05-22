@@ -203,6 +203,12 @@ const SITE_NAVIGATION_LINKS: SiteNavigationLink[] = [
     description: "Read Devisgon insights and updates on software, AI, and automation.",
   },
   {
+    name: "Our Process",
+    path: "/our-process",
+    description:
+      "Review Devisgon's discovery, planning, development, testing, launch, and maintenance process.",
+  },
+  {
     name: "Contact Us",
     path: "/contact",
     description: "Contact our team for project consultation and software support.",

@@ -80,14 +80,14 @@ const ICONS: Record<string, IconType> = {
 
 const ProcessSection: React.FC<ProcessSectionProps> = ({ data }) => {
   return (
-    <section className="w-screen md:w-full  py-24 px-6">
+    <section className="w-screen md:w-full  py-24 px-2">
       <div className="container mx-auto max-w-7xl text-center">
         <div className="mb-20">
           <h2 className="text-4xl font-extrabold text-t-primary mb-4">{data.title}</h2>
           <p className="text-lg text-t-secondary dark:text-t-primary font-medium">{data.subtitle}</p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 lg:gap-10">
           {data.steps.map((step, index) => {
             const iconName = step.icon.trim() as keyof typeof ICONS;
             const IconComponent = ICONS[iconName];

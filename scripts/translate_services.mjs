@@ -4,10 +4,11 @@ import translate from "translate";
 
 translate.engine = "google";
 
+const args = process.argv.slice(2);
 const dataPath = path.join(process.cwd(), "src", "data");
 const englishDataDir = path.join(dataPath, "english_data");
 
-const targetLanguages = [
+const allTargetLanguages = [
   { folder: "arabic_data", code: "ar" },
   { folder: "chinese_data", code: "zh" },
   { folder: "french_data", code: "fr" },
@@ -15,6 +16,11 @@ const targetLanguages = [
   { folder: "spanish_data", code: "es" },
   { folder: "urdu_data", code: "ur" },
 ];
+
+const options = {
+  requestedFiles: [],
+  targetLanguages: allTargetLanguages,
+};
 
 const excludeKeys = new Set([
   "slug",
@@ -34,6 +40,71 @@ const excludeKeys = new Set([
   "value",
 ]);
 
+function printHelp() {
+  console.log(
+    [
+      "Translate website JSON data from src/data/english_data into localized data folders.",
+      "",
+      "Usage:",
+      "  node scripts/translate_services.mjs [options] [english_data-relative-json-files...]",
+      "",
+      "Examples:",
+      "  node scripts/translate_services.mjs",
+      "  node scripts/translate_services.mjs --lang ur",
+      "  node scripts/translate_services.mjs services_page.json technologies/tools/shopify.json",
+      "  node scripts/translate_services.mjs --lang spanish_data others/jotform.json",
+      "",
+      "Options:",
+      "  --lang <code|folder>  Translate only one target language, e.g. ur, es, chinese_data",
+      "  --help                Show this help",
+      "",
+      "Non-translatable values such as slugs, URLs, links, asset paths, icons, and IDs are preserved.",
+    ].join("\n"),
+  );
+}
+
+function parseArgs() {
+  for (let i = 0; i < args.length; i += 1) {
+    const arg = args[i];
+
+    if (arg === "--help") {
+      printHelp();
+      process.exit(0);
+    }
+
+    if (arg === "--lang") {
+      const requestedLanguage = args[++i];
+
+      if (!requestedLanguage) {
+        throw new Error("Missing value for --lang");
+      }
+
+      const matchedLanguage = allTargetLanguages.find(
+        (language) =>
+          language.code === requestedLanguage ||
+          language.folder === requestedLanguage,
+      );
+
+      if (!matchedLanguage) {
+        throw new Error(
+          `Unknown language '${requestedLanguage}'. Use one of: ${allTargetLanguages
+            .map((language) => `${language.code}/${language.folder}`)
+            .join(", ")}`,
+        );
+      }
+
+      options.targetLanguages = [matchedLanguage];
+      continue;
+    }
+
+    if (arg.startsWith("--")) {
+      throw new Error(`Unknown option: ${arg}`);
+    }
+
+    options.requestedFiles.push(arg);
+  }
+}
+
 const translationCache = new Map();
 let translatedStringCount = 0;
 let fallbackStringCount = 0;
@@ -51,7 +122,7 @@ function isStaticAssetOrUrl(value) {
     trimmed.startsWith("/") ||
     trimmed.startsWith("http") ||
     trimmed.startsWith("#") ||
-    /\.(svg|png|jpg|jpeg|webp|gif|avif)$/i.test(trimmed)
+    /\.(svg|png|jpg|jpeg|webp|gif|avif|mp4|pdf|json)$/i.test(trimmed)
   );
 }
 
@@ -108,7 +179,7 @@ function normalizeRequestedFile(filePath) {
 }
 
 function getRequestedJsonFiles() {
-  const requestedFiles = process.argv.slice(2);
+  const requestedFiles = options.requestedFiles;
 
   if (requestedFiles.length === 0) {
     return getJsonFilesRecursively(englishDataDir);
@@ -215,7 +286,7 @@ async function translateWholeWebsiteData() {
     const sourceFilePath = path.join(englishDataDir, relativeFile);
     const englishJson = JSON.parse(fs.readFileSync(sourceFilePath, "utf8"));
 
-    for (const lang of targetLanguages) {
+    for (const lang of options.targetLanguages) {
       const targetFilePath = path.join(dataPath, lang.folder, relativeFile);
       fs.mkdirSync(path.dirname(targetFilePath), { recursive: true });
 
@@ -231,6 +302,8 @@ async function translateWholeWebsiteData() {
 }
 
 async function run() {
+  parseArgs();
+
   const writtenFiles = await translateWholeWebsiteData();
   console.log(`Website data translation completed. Files written: ${writtenFiles}`);
   console.log(`Strings translated: ${translatedStringCount}`);
