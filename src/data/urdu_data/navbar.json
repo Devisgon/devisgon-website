@@ -10,19 +10,51 @@
       "dropdown": {
         "columns": [
           {
-            "title": "AI and ML",
+            "title": "AI & ML",
             "links": [
               {
-                "name": "AI ماڈلز",
-                "href": "/services/ai-ml-models"
+                "name": "ایجنٹی اے آئی",
+                "href": "/services/agentic-ai"
               },
               {
-                "name": "کسٹم بوٹس",
-                "href": "/services/custom-bots"
+                "name": "اے آئی ایجنٹس",
+                "href": "/services/ai-agents"
+              },
+              {
+                "name": "اے آئی چیٹ بوٹس",
+                "href": "/services/ai-chatbot"
+              },
+              {
+                "name": "اے آئی انٹیگریشن",
+                "href": "/services/ai-integration"
+              },
+              {
+                "name": "کمپیوٹر ویژن",
+                "href": "/services/computer-vision"
+              },
+              {
+                "name": "گہری تعلیم",
+                "href": "/services/deep-learning"
+              },
+              {
+                "name": "ایل ایل ایم پرامپٹ انجینئرنگ",
+                "href": "/services/llm-prompt-engineering"
               },
               {
                 "name": "مشین لرننگ ماڈلز",
                 "href": "/services/machine-learning"
+              },
+              {
+                "name": "ماڈل ٹریننگ",
+                "href": "/services/model-training"
+              },
+              {
+                "name": "آر اے جی سسٹمز",
+                "href": "/services/rag-system"
+              },
+              {
+                "name": "شناختی نظام",
+                "href": "/services/recognition-systems"
               }
             ]
           },
@@ -30,42 +62,50 @@
             "title": "آٹومیشنز",
             "links": [
               {
-                "name": "AI آٹومیشن",
+                "name": "AI سے چلنے والی آٹومیشن",
                 "href": "/services/ai-powered-automation"
               },
               {
-                "name": "API انٹیگریشن آٹومیشن",
-                "href": "/services/api-integration"
+                "name": "تجزیات آٹومیشن",
+                "href": "/services/analytics-automation"
               },
               {
                 "name": "بزنس پروسیس آٹومیشن",
                 "href": "/services/business-process-automation"
               },
               {
-                "name": "مالیاتی آٹومیشن",
-                "href": "/services/finance-automation"
-              },
-              {
                 "name": "انفراسٹرکچر آٹومیشن",
                 "href": "/services/devops-infrastructure-automation"
               },
               {
-                "name": "لو کوڈ آٹومیشن",
+                "name": "لیڈ جنریشن آٹومیشن",
+                "href": "/services/lead-generation-automation"
+              },
+              {
+                "name": "کم کوڈ آٹومیشن",
                 "href": "/services/low-code-automations"
               },
               {
-                "name": "مارکیٹنگ اور سیلز آٹومیشن",
+                "name": "مارکیٹنگ آٹومیشن",
                 "href": "/services/marketing-automation"
               },
               {
                 "name": "روبوٹک پروسیس آٹومیشن",
                 "href": "/services/robotic-process-automation"
+              },
+              {
+                "name": "سیلز آٹومیشن",
+                "href": "/services/sales-automation"
               }
             ]
           },
           {
-            "title": "کلاؤڈ اور DevOps",
+            "title": "کلاؤڈ اور ڈی او اوپس",
             "links": [
+              {
+                "name": "AWS کلاؤڈ اور DevOps",
+                "href": "/services/aws-devops-infrastructure"
+              },
               {
                 "name": "CI/CD پائپ لائنز",
                 "href": "/services/cicd-pipelines"
@@ -81,6 +121,10 @@
               {
                 "name": "DevOps کنسلٹنگ",
                 "href": "/services/devops-consulting"
+              },
+              {
+                "name": "Google Cloud پلیٹ فارم",
+                "href": "/services/gcp-devops-infrastructure"
               }
             ]
           },
@@ -88,16 +132,28 @@
             "title": "ڈیٹا سلوشنز",
             "links": [
               {
-                "name": "بزنس اینالیٹکس",
+                "name": "کاروباری تجزیات",
                 "href": "/services/business-analytics"
+              },
+              {
+                "name": "سی لیول ڈیش بورڈ",
+                "href": "/services/c-level-dashboard"
+              },
+              {
+                "name": "کوڈ آرکیٹیکچر ڈایاگرام",
+                "href": "/services/code-architecture-diagrams"
               },
               {
                 "name": "ڈیٹا اینالیٹکس ڈیش بورڈ",
                 "href": "/services/data-analytics-dashboard"
               },
               {
-                "name": "ڈیٹا اسکریپنگ",
+                "name": "ڈیٹا سکریپنگ",
                 "href": "/services/data-scraping"
+              },
+              {
+                "name": "مارکیٹنگ ڈیش بورڈ",
+                "href": "/services/marketing-dashboard"
               }
             ]
           },
@@ -105,7 +161,11 @@
             "title": "ڈیجیٹل ڈیزائن",
             "links": [
               {
-                "name": "گرافک اور ورچوئل ڈیزائن",
+                "name": "برانڈنگ کٹ",
+                "href": "/services/branding-kit-design"
+              },
+              {
+                "name": "گرافک ڈیزائن",
                 "href": "/services/graphic-design"
               },
               {
@@ -121,7 +181,7 @@
                 "href": "/services/product-design"
               },
               {
-                "name": "پروٹوٹائپنگ اور وائر فریمز",
+                "name": "پروٹو ٹائپنگ اور وائر فریم",
                 "href": "/services/prototyping-wireframing"
               },
               {
@@ -135,7 +195,7 @@
             ]
           },
           {
-            "title": "کوالٹی اشورنس اور ٹیسٹنگ",
+            "title": "کوالٹی اشورینس اور ٹیسٹنگ",
             "links": [
               {
                 "name": "API ٹیسٹنگ",
@@ -146,11 +206,23 @@
                 "href": "/services/automation-testing"
               },
               {
-                "name": "مینول ٹیسٹنگ",
+                "name": "بلیک باکس ٹیسٹنگ",
+                "href": "/services/black-box-testing"
+              },
+              {
+                "name": "بگ باؤنٹی",
+                "href": "/services/bug-bounty"
+              },
+              {
+                "name": "لوڈ ٹیسٹنگ",
+                "href": "/services/load-testing"
+              },
+              {
+                "name": "دستی ٹیسٹنگ",
                 "href": "/services/manual-testing"
               },
               {
-                "name": "پرفارمنس ٹیسٹنگ",
+                "name": "کارکردگی کی جانچ",
                 "href": "/services/performance-testing"
               },
               {
@@ -160,31 +232,39 @@
             ]
           },
           {
-            "title": "Web and SaaS Development",
+            "title": "ویب اور ساس ڈویلپمنٹ",
             "links": [
               {
-                "name": "AI سے چلنے والی ایپ",
+                "name": "اے آئی سے چلنے والی ایپ",
                 "href": "/services/ai-powered-app"
               },
               {
-                "name": "API Integration",
+                "name": "API انٹیگریشن",
                 "href": "/services/api-integration"
               },
               {
-                "name": "موبائل ایپلیکیشن",
+                "name": "موبائل ایپ ڈویلپمنٹ",
                 "href": "/services/mobile-app-development"
               },
               {
-                "name": "MVPs اور POCs",
+                "name": "MVPs & POCs",
                 "href": "/services/mvps"
               },
               {
-                "name": "SaaS پلیٹ فارم",
+                "name": "ساس ڈویلپمنٹ",
                 "href": "/services/saas-development"
               },
               {
-                "name": "ویب ایپلیکیشن",
+                "name": "سرچ انجن آپٹیمائزیشن",
+                "href": "/services/search-engine-optimization"
+              },
+              {
+                "name": "ویب ایپلیکیشن ڈویلپمنٹ",
                 "href": "/services/web-application-development"
+              },
+              {
+                "name": "ویب سائٹ کی ترقی",
+                "href": "/services/website-development"
               }
             ]
           }
@@ -411,114 +491,6 @@
       }
     },
     {
-      "name": "ٹیکنالوجیز",
-      "href": "/technologies",
-      "dropdown": {
-        "columns": [
-          {
-            "title": "Automation",
-            "links": [
-              {
-                "name": "Make",
-                "href": "/technologies/make"
-              },
-              {
-                "name": "n8n",
-                "href": "/technologies/n8n"
-              },
-              {
-                "name": "Zapier",
-                "href": "/technologies/zapier"
-              }
-            ]
-          },
-          {
-            "title": "Database",
-            "links": []
-          },
-          {
-            "title": "Frameworks",
-            "links": [
-              {
-                "name": "Flutter",
-                "href": "/technologies/flutter"
-              },
-              {
-                "name": "Laravel",
-                "href": "/technologies/laravel"
-              },
-              {
-                "name": "NestJS",
-                "href": "/technologies/nestjs"
-              },
-              {
-                "name": "Next.js / Node.js",
-                "href": "/technologies/nextjs-nodejs"
-              },
-              {
-                "name": "React",
-                "href": "/technologies/react"
-              },
-              {
-                "name": "React Native",
-                "href": "/technologies/react-native"
-              }
-            ]
-          },
-          {
-            "title": "Languages",
-            "links": [
-              {
-                "name": "C / C++",
-                "href": "/technologies/c-cpp"
-              },
-              {
-                "name": "Java",
-                "href": "/technologies/java"
-              },
-              {
-                "name": "JavaScript / TypeScript",
-                "href": "/technologies/javascript-typescript"
-              },
-              {
-                "name": "PHP",
-                "href": "/technologies/php"
-              },
-              {
-                "name": "Python",
-                "href": "/technologies/python"
-              }
-            ]
-          },
-          {
-            "title": "Tools",
-            "links": [
-              {
-                "name": "Amazon",
-                "href": "/technologies/amazon"
-              },
-              {
-                "name": "DoctorHosters",
-                "href": "/technologies/doctorhosters"
-              },
-              {
-                "name": "Jotform",
-                "href": "/technologies/jotform"
-              },
-              {
-                "name": "Shopify",
-                "href": "/technologies/shopify"
-              },
-              {
-                "name": "WordPress",
-                "href": "/technologies/wordpress"
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
       "name": "پارٹنرز",
       "href": "/partners/doctorhoster",
       "dropdown": {
@@ -558,6 +530,148 @@
               {
                 "name": "کیریئرز",
                 "href": "/get-started"
+              },
+              {
+                "name": "Our Process",
+                "href": "/our-process"
+              },
+              {
+                "name": "ٹیکنالوجیز",
+                "href": "/technologies",
+                "dropdown": {
+                  "columns": [
+                    {
+                      "title": "???????",
+                      "links": [
+                        {
+                          "name": "Make",
+                          "href": "/technologies/make"
+                        },
+                        {
+                          "name": "n8n",
+                          "href": "/technologies/n8n"
+                        },
+                        {
+                          "name": "Zapier",
+                          "href": "/technologies/zapier"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "CRM ?????",
+                      "links": [
+                        {
+                          "name": "Jira CRM",
+                          "href": "/technologies/jira-crm"
+                        },
+                        {
+                          "name": "Odoo",
+                          "href": "/technologies/odoo"
+                        },
+                        {
+                          "name": "Payload CMS",
+                          "href": "/technologies/payload-cms"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "????????",
+                      "links": [
+                        {
+                          "name": "Amazon DynamoDB",
+                          "href": "/technologies/amazon-dynamodb"
+                        },
+                        {
+                          "name": "MongoDB",
+                          "href": "/technologies/mongodb"
+                        },
+                        {
+                          "name": "MySQL",
+                          "href": "/technologies/mysql"
+                        },
+                        {
+                          "name": "Supabase",
+                          "href": "/technologies/supabase"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "???? ????",
+                      "links": [
+                        {
+                          "name": "Flutter",
+                          "href": "/technologies/flutter"
+                        },
+                        {
+                          "name": "Laravel",
+                          "href": "/technologies/laravel"
+                        },
+                        {
+                          "name": "NestJS",
+                          "href": "/technologies/nestjs"
+                        },
+                        {
+                          "name": "Next.js / Node.js",
+                          "href": "/technologies/nextjs-nodejs"
+                        },
+                        {
+                          "name": "React Native",
+                          "href": "/technologies/react-native"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "??????",
+                      "links": [
+                        {
+                          "name": "Java",
+                          "href": "/technologies/java"
+                        },
+                        {
+                          "name": "JavaScript / TypeScript",
+                          "href": "/technologies/javascript-typescript"
+                        },
+                        {
+                          "name": "PHP",
+                          "href": "/technologies/php"
+                        },
+                        {
+                          "name": "Python",
+                          "href": "/technologies/python"
+                        },
+                        {
+                          "name": "Ruby",
+                          "href": "/technologies/ruby"
+                        },
+                        {
+                          "name": "Rust",
+                          "href": "/technologies/rust"
+                        }
+                      ]
+                    },
+                    {
+                      "title": "????",
+                      "links": [
+                        {
+                          "name": "Amazon",
+                          "href": "/technologies/amazon"
+                        },
+                        {
+                          "name": "DoctorHosters",
+                          "href": "/technologies/doctorhosters"
+                        },
+                        {
+                          "name": "Shopify",
+                          "href": "/technologies/shopify"
+                        },
+                        {
+                          "name": "WordPress",
+                          "href": "/technologies/wordpress"
+                        }
+                      ]
+                    }
+                  ]
+                }
               }
             ]
           }

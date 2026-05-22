@@ -1,144 +1,96 @@
-
-
-// ENGLISH
-import enAi from "@/data/english_data/services/workflow_automations/ai_powered_automation.json";
-import enLow from "@/data/english_data/services/workflow_automations/low_code_automations.json";
-import enNo from "@/data/english_data/services/workflow_automations/no_code_automations.json";
-import enbpa from "@/data/english_data/services/workflow_automations/business_process_automation.json"
-import enRpa from "@/data/english_data/services/workflow_automations/robotic_process_automation.json"
-import enFa from "@/data/english_data/services/workflow_automations/accounting.json"
-import enDia from "@/data/english_data/services/workflow_automations/infrastructure_automation.json"
-import enMsa from "@/data/english_data/services/workflow_automations/marketing_sales_automation.json"
-// URDU
-import urAi from "@/data/urdu_data/services/workflow_automations/ai_powered_automation.json";
-import urLow from "@/data/urdu_data/services/workflow_automations/low_code_automations.json";
-import urNo from "@/data/urdu_data/services/workflow_automations/no_code_automations.json";
-import urbpa from "@/data/urdu_data/services/workflow_automations/business_process_automation.json"
-import urRpa from "@/data/urdu_data/services/workflow_automations/robotic_process_automation.json"
-import urFa from "@/data/urdu_data/services/workflow_automations/accounting.json"
-import urDia from "@/data/urdu_data/services/workflow_automations/infrastructure_automation.json"
-import urMsa from "@/data/urdu_data/services/workflow_automations/marketing_sales_automation.json"
-
-// ARABIC
-import arAi from "@/data/arabic_data/services/workflow_automations/ai_powered_automation.json";
-import arLow from "@/data/arabic_data/services/workflow_automations/low_code_automations.json";
-import arNo from "@/data/arabic_data/services/workflow_automations/no_code_automations.json";
-import arbpa from "@/data/arabic_data/services/workflow_automations/business_process_automation.json"
-import arRpa from "@/data/arabic_data/services/workflow_automations/robotic_process_automation.json"
-import arFa from "@/data/arabic_data/services/workflow_automations/accounting.json"
-import arDia from "@/data/arabic_data/services/workflow_automations/infrastructure_automation.json"
-import arMsa from "@/data/arabic_data/services/workflow_automations/marketing_sales_automation.json"
-
-//spanish
-import spAi from "@/data/spanish_data/services/workflow_automations/ai_powered_automation.json";
-import spLow from "@/data/spanish_data/services/workflow_automations/low_code_automations.json";
-import spNo from "@/data/spanish_data/services/workflow_automations/no_code_automations.json";
-import spbpa from "@/data/spanish_data/services/workflow_automations/business_process_automation.json"
-import spRpa from "@/data/spanish_data/services/workflow_automations/robotic_process_automation.json"
-import spFa from "@/data/spanish_data/services/workflow_automations/accounting.json"
-import spDia from "@/data/spanish_data/services/workflow_automations/infrastructure_automation.json"
-import spMsa from "@/data/spanish_data/services/workflow_automations/marketing_sales_automation.json"
-
-//germam
-import grAi from "@/data/german_data/services/workflow_automations/ai_powered_automation.json";
-import grLow from "@/data/german_data/services/workflow_automations/low_code_automations.json";
-import grNo from "@/data/german_data/services/workflow_automations/no_code_automations.json";
-import grbpa from "@/data/german_data/services/workflow_automations/business_process_automation.json"
-import grRpa from "@/data/german_data/services/workflow_automations/robotic_process_automation.json"
-import grFa from "@/data/german_data/services/workflow_automations/accounting.json"
-import grDia from "@/data/german_data/services/workflow_automations/infrastructure_automation.json"
-import grMsa from "@/data/german_data/services/workflow_automations/marketing_sales_automation.json"
-
-//chainese
-import chAi from "@/data/chinese_data/services/workflow_automations/ai_powered_automation.json";
-import chLow from "@/data/chinese_data/services/workflow_automations/low_code_automations.json";
-import chNo from "@/data/chinese_data/services/workflow_automations/no_code_automations.json";
-import chbpa from "@/data/chinese_data/services/workflow_automations/business_process_automation.json"
-import chRpa from "@/data/chinese_data/services/workflow_automations/robotic_process_automation.json"
-import chFa from "@/data/chinese_data/services/workflow_automations/accounting.json"
-import chDia from "@/data/chinese_data/services/workflow_automations/infrastructure_automation.json"
-import chMsa from "@/data/chinese_data/services/workflow_automations/marketing_sales_automation.json"
-
-//french
-import frAi from "@/data/french_data/services/workflow_automations/ai_powered_automation.json";
-import frLow from "@/data/french_data/services/workflow_automations/low_code_automations.json";
-import frNo from "@/data/french_data/services/workflow_automations/no_code_automations.json";
-import frbpa from "@/data/french_data/services/workflow_automations/business_process_automation.json"
-import frRpa from "@/data/french_data/services/workflow_automations/robotic_process_automation.json"
-import frFa from "@/data/french_data/services/workflow_automations/accounting.json"
-import frDia from "@/data/french_data/services/workflow_automations/infrastructure_automation.json"
-import frMsa from "@/data/french_data/services/workflow_automations/marketing_sales_automation.json"
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const workflowData: Record<string, Record<string, any>> = {
-  en: {
-    "ai_powered_automation": enAi,
-    "low_code_automations": enLow,
-    "no_code_automations": enNo,
-    "business_process_automation": enbpa,
-    "finance_automation": enFa,
-    "devops-infrastructure-automation": enDia,
-    "marketing-automation": enMsa,
-    "robotic-process-automation": enRpa
-  },
-  ur: {
-    "ai_powered_automation": urAi,
-    "low_code_automations": urLow,
-    "no_code_automations": urNo,
-    "business_process_automation": urbpa,
-    "finance_automation": urFa,
-    "devops-infrastructure-automation": urDia,
-    "marketing-automation": urMsa,
-    "robotic-process-automation": urRpa
-  },
-  ar: {
-    "ai_powered_automation": arAi,
-    "low_code_automations": arLow,
-    "no_code_automations": arNo,
-    "business_process_automation": arbpa,
-    "finance_automation": arFa,
-    "devops-infrastructure-automation": arDia,
-    "marketing-automation": arMsa,
-    "robotic-process-automation": arRpa
-  },
-  de: {
-    "ai_powered_automation": grAi,
-    "low_code_automations": grLow,
-    "no_code_automations": grNo,
-    "business_process_automation": grbpa,
-    "finance_automation": grFa,
-    "devops-infrastructure-automation": grDia,
-    "marketing-automation": grMsa,
-    "robotic-process-automation": grRpa
-  },
-  fr: {
-    "ai_powered_automation": frAi,
-    "low_code_automations": frLow,
-    "no_code_automations": frNo,
-    "business_process_automation": frbpa,
-    "finance_automation": frFa,
-    "devops-infrastructure-automation": frDia,
-    "marketing-automation": frMsa,
-    "robotic-process-automation": frRpa
-  },
-  es: {
-    "ai_powered_automation": spAi,
-    "low_code_automations": spLow,
-    "no_code_automations": spNo,
-    "business_process_automation": spbpa,
-    "finance_automation": spFa,
-    "devops-infrastructure-automation": spDia,
-    "marketing-automation": spMsa,
-    "robotic-process-automation": spRpa
-  },
-  zh: {
-    "ai_powered_automation": chAi,
-    "low_code_automations": chLow,
-    "no_code_automations": chNo,
-    "business_process_automation": chbpa,
-    "finance_automation": chFa,
-    "devops-infrastructure-automation": chDia,
-    "marketing-automation": chMsa,
-    "robotic-process-automation": chRpa
-  }
+type ServiceDetailData = any;
+
+import enAiPoweredAutomation from "@/data/english_data/services/workflow_automations/ai_powered_automation.json";
+import enAnalyticsAutomation from "@/data/english_data/services/workflow_automations/analytics_automation.json";
+import enBusinessProcessAutomation from "@/data/english_data/services/workflow_automations/business_process_automation.json";
+import enInfrastructureAutomation from "@/data/english_data/services/workflow_automations/infrastructure_automation.json";
+import enLeadGeneration from "@/data/english_data/services/workflow_automations/lead_generation.json";
+import enLowCodeAutomations from "@/data/english_data/services/workflow_automations/low_code_automations.json";
+import enMarketingAutomation from "@/data/english_data/services/workflow_automations/marketing_automation.json";
+import enRoboticProcessAutomation from "@/data/english_data/services/workflow_automations/robotic_process_automation.json";
+import enSalesAutomation from "@/data/english_data/services/workflow_automations/sales_automation.json";
+
+import urAiPoweredAutomation from "@/data/urdu_data/services/workflow_automations/ai_powered_automation.json";
+import urAnalyticsAutomation from "@/data/urdu_data/services/workflow_automations/analytics_automation.json";
+import urBusinessProcessAutomation from "@/data/urdu_data/services/workflow_automations/business_process_automation.json";
+import urInfrastructureAutomation from "@/data/urdu_data/services/workflow_automations/infrastructure_automation.json";
+import urLeadGeneration from "@/data/urdu_data/services/workflow_automations/lead_generation.json";
+import urLowCodeAutomations from "@/data/urdu_data/services/workflow_automations/low_code_automations.json";
+import urMarketingAutomation from "@/data/urdu_data/services/workflow_automations/marketing_automation.json";
+import urRoboticProcessAutomation from "@/data/urdu_data/services/workflow_automations/robotic_process_automation.json";
+import urSalesAutomation from "@/data/urdu_data/services/workflow_automations/sales_automation.json";
+
+import arAiPoweredAutomation from "@/data/arabic_data/services/workflow_automations/ai_powered_automation.json";
+import arAnalyticsAutomation from "@/data/arabic_data/services/workflow_automations/analytics_automation.json";
+import arBusinessProcessAutomation from "@/data/arabic_data/services/workflow_automations/business_process_automation.json";
+import arInfrastructureAutomation from "@/data/arabic_data/services/workflow_automations/infrastructure_automation.json";
+import arLeadGeneration from "@/data/arabic_data/services/workflow_automations/lead_generation.json";
+import arLowCodeAutomations from "@/data/arabic_data/services/workflow_automations/low_code_automations.json";
+import arMarketingAutomation from "@/data/arabic_data/services/workflow_automations/marketing_automation.json";
+import arRoboticProcessAutomation from "@/data/arabic_data/services/workflow_automations/robotic_process_automation.json";
+import arSalesAutomation from "@/data/arabic_data/services/workflow_automations/sales_automation.json";
+
+import deAiPoweredAutomation from "@/data/german_data/services/workflow_automations/ai_powered_automation.json";
+import deAnalyticsAutomation from "@/data/german_data/services/workflow_automations/analytics_automation.json";
+import deBusinessProcessAutomation from "@/data/german_data/services/workflow_automations/business_process_automation.json";
+import deInfrastructureAutomation from "@/data/german_data/services/workflow_automations/infrastructure_automation.json";
+import deLeadGeneration from "@/data/german_data/services/workflow_automations/lead_generation.json";
+import deLowCodeAutomations from "@/data/german_data/services/workflow_automations/low_code_automations.json";
+import deMarketingAutomation from "@/data/german_data/services/workflow_automations/marketing_automation.json";
+import deRoboticProcessAutomation from "@/data/german_data/services/workflow_automations/robotic_process_automation.json";
+import deSalesAutomation from "@/data/german_data/services/workflow_automations/sales_automation.json";
+
+import esAiPoweredAutomation from "@/data/spanish_data/services/workflow_automations/ai_powered_automation.json";
+import esAnalyticsAutomation from "@/data/spanish_data/services/workflow_automations/analytics_automation.json";
+import esBusinessProcessAutomation from "@/data/spanish_data/services/workflow_automations/business_process_automation.json";
+import esInfrastructureAutomation from "@/data/spanish_data/services/workflow_automations/infrastructure_automation.json";
+import esLeadGeneration from "@/data/spanish_data/services/workflow_automations/lead_generation.json";
+import esLowCodeAutomations from "@/data/spanish_data/services/workflow_automations/low_code_automations.json";
+import esMarketingAutomation from "@/data/spanish_data/services/workflow_automations/marketing_automation.json";
+import esRoboticProcessAutomation from "@/data/spanish_data/services/workflow_automations/robotic_process_automation.json";
+import esSalesAutomation from "@/data/spanish_data/services/workflow_automations/sales_automation.json";
+
+import zhAiPoweredAutomation from "@/data/chinese_data/services/workflow_automations/ai_powered_automation.json";
+import zhAnalyticsAutomation from "@/data/chinese_data/services/workflow_automations/analytics_automation.json";
+import zhBusinessProcessAutomation from "@/data/chinese_data/services/workflow_automations/business_process_automation.json";
+import zhInfrastructureAutomation from "@/data/chinese_data/services/workflow_automations/infrastructure_automation.json";
+import zhLeadGeneration from "@/data/chinese_data/services/workflow_automations/lead_generation.json";
+import zhLowCodeAutomations from "@/data/chinese_data/services/workflow_automations/low_code_automations.json";
+import zhMarketingAutomation from "@/data/chinese_data/services/workflow_automations/marketing_automation.json";
+import zhRoboticProcessAutomation from "@/data/chinese_data/services/workflow_automations/robotic_process_automation.json";
+import zhSalesAutomation from "@/data/chinese_data/services/workflow_automations/sales_automation.json";
+
+import frAiPoweredAutomation from "@/data/french_data/services/workflow_automations/ai_powered_automation.json";
+import frAnalyticsAutomation from "@/data/french_data/services/workflow_automations/analytics_automation.json";
+import frBusinessProcessAutomation from "@/data/french_data/services/workflow_automations/business_process_automation.json";
+import frInfrastructureAutomation from "@/data/french_data/services/workflow_automations/infrastructure_automation.json";
+import frLeadGeneration from "@/data/french_data/services/workflow_automations/lead_generation.json";
+import frLowCodeAutomations from "@/data/french_data/services/workflow_automations/low_code_automations.json";
+import frMarketingAutomation from "@/data/french_data/services/workflow_automations/marketing_automation.json";
+import frRoboticProcessAutomation from "@/data/french_data/services/workflow_automations/robotic_process_automation.json";
+import frSalesAutomation from "@/data/french_data/services/workflow_automations/sales_automation.json";
+
+const serviceEntries = (aiPoweredAutomation: ServiceDetailData, analyticsAutomation: ServiceDetailData, businessProcessAutomation: ServiceDetailData, infrastructureAutomation: ServiceDetailData, leadGeneration: ServiceDetailData, lowCodeAutomations: ServiceDetailData, marketingAutomation: ServiceDetailData, roboticProcessAutomation: ServiceDetailData, salesAutomation: ServiceDetailData) => ({
+  "ai-powered-automation": aiPoweredAutomation,
+  "analytics-automation": analyticsAutomation,
+  "business-process-automation": businessProcessAutomation,
+  "devops-infrastructure-automation": infrastructureAutomation,
+  "infrastructure-automation": infrastructureAutomation,
+  "lead-generation-automation": leadGeneration,
+  "lead-generation": leadGeneration,
+  "low-code-automations": lowCodeAutomations,
+  "marketing-automation": marketingAutomation,
+  "robotic-process-automation": roboticProcessAutomation,
+  "sales-automation": salesAutomation,
+});
+
+export const workflowData: Record<string, Record<string, ServiceDetailData>> = {
+  en: serviceEntries(enAiPoweredAutomation, enAnalyticsAutomation, enBusinessProcessAutomation, enInfrastructureAutomation, enLeadGeneration, enLowCodeAutomations, enMarketingAutomation, enRoboticProcessAutomation, enSalesAutomation),
+  ur: serviceEntries(urAiPoweredAutomation, urAnalyticsAutomation, urBusinessProcessAutomation, urInfrastructureAutomation, urLeadGeneration, urLowCodeAutomations, urMarketingAutomation, urRoboticProcessAutomation, urSalesAutomation),
+  ar: serviceEntries(arAiPoweredAutomation, arAnalyticsAutomation, arBusinessProcessAutomation, arInfrastructureAutomation, arLeadGeneration, arLowCodeAutomations, arMarketingAutomation, arRoboticProcessAutomation, arSalesAutomation),
+  de: serviceEntries(deAiPoweredAutomation, deAnalyticsAutomation, deBusinessProcessAutomation, deInfrastructureAutomation, deLeadGeneration, deLowCodeAutomations, deMarketingAutomation, deRoboticProcessAutomation, deSalesAutomation),
+  es: serviceEntries(esAiPoweredAutomation, esAnalyticsAutomation, esBusinessProcessAutomation, esInfrastructureAutomation, esLeadGeneration, esLowCodeAutomations, esMarketingAutomation, esRoboticProcessAutomation, esSalesAutomation),
+  zh: serviceEntries(zhAiPoweredAutomation, zhAnalyticsAutomation, zhBusinessProcessAutomation, zhInfrastructureAutomation, zhLeadGeneration, zhLowCodeAutomations, zhMarketingAutomation, zhRoboticProcessAutomation, zhSalesAutomation),
+  fr: serviceEntries(frAiPoweredAutomation, frAnalyticsAutomation, frBusinessProcessAutomation, frInfrastructureAutomation, frLeadGeneration, frLowCodeAutomations, frMarketingAutomation, frRoboticProcessAutomation, frSalesAutomation),
 };

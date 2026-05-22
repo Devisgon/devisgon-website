@@ -1,0 +1,206 @@
+{
+  "slug": "model-training",
+  "hero_section": {
+    "title": "企业人工智能和机器学习模型培训",
+    "subtitle": "基于专有数据设计的定制算法优化",
+    "description": "我们从头开始构建、训练和验证特定领域的机器学习模型。将原始运营数据湖转变为使用自定义神经权重构建的高精度企业智能资产。",
+    "buttons": [
+      {
+        "text": "启动模型训练",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的数据工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "模型训练？",
+    "content": [
+      "在 Devisgon，我们将机器学习模型训练视为一门精确的科学。超越通用的、预先训练的 API 包装器，我们设计并执行专门针对您的公司数据结构定制的自定义训练循环。无论是训练计算机视觉深度神经网络、微调大型变压器模型，还是构建强大的表格预测系统，我们都能确保完全符合您的操作限制。",
+      "我们弥合了混乱的原始数据池和高性能推理运行时之间的差距。每个训练生命周期都通过自动化、版本控制的计算管道、严格的偏差 方差检查和超参数优化配置进行管理，从而产生可实现最高精度、稳定性和速度的生产就绪模型。"
+    ],
+    "highlight_quote": "“专有参数权重、高精度验证矩阵、0%依赖第三方公共模型。”",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将原始企业遥测数据转换为私有的高保真数学资产",
+    "cards": [
+      {
+        "title": "专有体重控制",
+        "description": "完全拥有你的算法智能。训练竞争对手无法购买现成的独特参数和重量配置。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "深度上下文对齐",
+        "description": "根据实际企业词汇、自定义产品 ID 和操作细微差别训练模型，以解锁深层上下文准确性。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "大幅降低延迟",
+        "description": "优化和修剪自定义模型以在轻量级微服务上运行，与数十亿参数网络相比，大大降低推理延迟。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "全面的隐私保证",
+        "description": "完全在隔离的零出口云范围内进行模型训练，确保您的核心业务知识产权安全。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "通过 Devsgon 定制模型培训您将获得什么",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 生产就绪的训练模型权重",
+        "description": "完全编译、高度优化的模型二进制文件（例如 ONNX、PyTorch、TensorFlow）可定制，以解决您的特定业务目标。"
+      },
+      {
+        "title": "2. 端到端数据预处理集成",
+        "description": "程序化 ETL 管道可在训练循环之前自动清理、规范化、标记化和平衡原始数据集。"
+      },
+      {
+        "title": "3.自动超参数调优注册表",
+        "description": "分布式计算例程（贝叶斯、网格搜索）旨在从目标数据集中提取最大的模型性能。"
+      },
+      {
+        "title": "4. 完整的培训评估台账",
+        "description": "全面的损失日志、混淆矩阵、ROC AUC 配置文件和验证指标，可在部署前验证结构模型的安全性。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用强化的企业级机器学习计算工具进行培训",
+    "subtitle": "行业领先的深度学习框架、超参数调优器和 MLOps 技术，专为海量数据集而设计",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Scikit Learn",
+        "icon": "SiScikitlearn"
+      },
+      {
+        "name": "XGBoost",
+        "icon": "SiXgboost"
+      },
+      {
+        "name": "拥抱脸（变形金刚）",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "权重和偏差",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Ray（分布式计算）",
+        "icon": "SiRay"
+      },
+      {
+        "name": "Optuna",
+        "icon": "SiOptuna"
+      },
+      {
+        "name": "CUDA/NVIDIA SDK",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Supabase（元数据记录）",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从数据工程到编译模型生产交付仅需 6 周",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "评估目标数据集、评估类别平衡、定义损失指标并调整数据存储框架。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "编程摄取工作流程、设计自定义深度学习架构并制定训练验证划分。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "运行分布式训练循环、管理超参数扫描、评估损失曲线并执行偏差 方差优化。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "将权重编译为优化格式 (ONNX)，将端点打包到安全容器中，并安全地激活连续评估管道。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "通过定制深度学习架构实现 99.1% 高精度欺诈检测",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于标准的、基于规则的安全软件不断遗漏复杂的、非线性的欺诈交易模式，一个可扩展的金融平台正在流失收入。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们通过 PyTorch 构建了一个专有的分类网络，在数百万个匿名历史交易数据行上建立了端到端的训练循环。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "欺诈事件检测准确率攀升至 99.1%，误报率下降 68%，经过训练的模型二进制文件以闪电般的亚毫秒级验证速度做出响应。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "模型训练架构和常见问题解答",
+    "subtitle": "对关键实施、数据安全和计算基础设施查询的清晰答案",
+    "questions": [
+      {
+        "question": "训练自定义模型和微调现有模型有什么区别？",
+        "answer": "从头开始训练使用您的特定数据从零开始构建参数权重，非常适合自定义表格或利基视觉任务。微调从广泛的预训练基础模型（如法学硕士）开始，并更改其外层以匹配您的行业特定词汇。"
+      },
+      {
+        "question": "如何保证经过训练的模型不会“过度拟合”并在实际数据上失败？",
+        "answer": "我们执行严格的交叉验证协议、提前停止触发器和正则化矩阵 (L1/L2)。我们隔离了模型在训练期间从未见过的不同验证和测试集，确保其准确性分数完美地转化为活跃生产。"
+      },
+      {
+        "question": "计算训练在哪里进行？服务器成本如何管理？",
+        "answer": "训练在安全云实例（例如 AWS SageMaker 或自定义 EC2 GPU 点集群）内运行。我们编写高度优化的批处理脚本，并利用 Ray 等框架来有效地分散工作负载，将计算资源浪费降至最低。"
+      },
+      {
+        "question": "如何处理高度不平衡、目标事件很少的企业数据？",
+        "answer": "我们采用先进的算法数据工程，利用 SMOTE 等技术进行合成上采样、焦点损失调整参数和策略下采样，以确保模型学会准确地发现关键的少数异常。"
+      }
+    ],
+    "footer": {
+      "text": "准备好根据您的企业数据训练专有的机器学习权重了吗？",
+      "link_text": "与我们的团队安排培训审查",
+      "link_url": "/contact"
+    }
+  }
+}

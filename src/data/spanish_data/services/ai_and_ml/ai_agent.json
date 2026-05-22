@@ -1,0 +1,206 @@
+{
+  "slug": "ai-agents",
+  "hero_section": {
+    "title": "Agentes de IA autónomos empresariales",
+    "subtitle": "Infraestructura cognitiva desacoplada para flujos de trabajo complejos",
+    "description": "Diseñamos e implementamos agentes de IA de nivel de producción, impulsados ​​por objetivos, capaces de razonamiento autónomo, ejecución de herramientas, colaboración entre múltiples agentes y toma de decisiones dinámica. Vaya más allá de la automatización básica y establezca una fuerza laboral digital que se optimice sola.",
+    "buttons": [
+      {
+        "text": "Implementar agentes autónomos",
+        "link": "/contact"
+      },
+      {
+        "text": "Consulte a nuestros ingenieros",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/custom_boats.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es un autónomo?",
+    "span_heading": "¿Agente de IA?",
+    "content": [
+      "En Devisgon, diseñamos agentes de IA de nivel empresarial diseñados para ejecutar objetivos comerciales complejos y abiertos sin requerir intervención humana constante. A diferencia de los scripts de automatización estáticos basados ​​en reglas o los chatbots lineales básicos, nuestros agentes autónomos poseen bucles de razonamiento avanzados (como ReAct y Plan and Solve), lo que les permite evaluar entornos de datos cambiantes, seleccionar herramientas de software apropiadas y corregir dinámicamente su rumbo.",
+      "Cerramos la brecha entre la cognición abstracta de LLM y las operaciones de software de nivel de producción. Cada clúster de múltiples agentes se implementa dentro de entornos sandbox seguros, se integra con sistemas de memoria persistente y se rige por estrictas restricciones programáticas, lo que garantiza que sus flujos de trabajo autónomos se ejecuten de manera confiable, segura y con la máxima eficiencia computacional."
+    ],
+    "highlight_quote": "\"Ejecución orientada a objetivos, orquestación de múltiples agentes, infraestructura de resolución de problemas 100% autónoma\".",
+    "side_image": "/all_services/custom_bots/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios empresariales clave",
+    "subtitle": "Transforme sus operaciones comerciales con bucles de ejecución deterministas y autodirigidos",
+    "cards": [
+      {
+        "title": "Autonomía impulsada por objetivos",
+        "description": "Proporcione un objetivo de alto nivel y el agente lo dividirá en subtareas procesables, ejecutará los pasos y validará el resultado de forma independiente.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Utilización dinámica de herramientas",
+        "description": "Equipe a los agentes con el poder de leer y escribir de forma autónoma en bases de datos, llamar a webhooks externos, analizar archivos CSV e interactuar con mallas de software de terceros.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Colaboración entre múltiples agentes",
+        "description": "Implemente redes de agentes especializados (por ejemplo, investigador, editor y auditor) que se pasan cargas de datos estructurados entre sí para completar objetivos complejos.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Auditoría operativa proactiva",
+        "description": "Configure agentes de monitoreo en segundo plano que analicen activamente los sistemas en busca de amenazas a la seguridad o anomalías en los datos y tomen medidas correctivas inmediatas.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que recibirá con los marcos de agentes autónomos de Devisgon",
+    "image": "/all_services/custom_bots/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Estructuras de orquestación de múltiples agentes",
+        "description": "Redes de agentes sofisticadas diseñadas para asignar tareas, manejar la gestión del estado y resolver la lógica operativa de varios pasos de forma autónoma."
+      },
+      {
+        "title": "2. Registros avanzados de funciones y llamadas de herramientas",
+        "description": "Entornos de ejecución seguros y altamente aislados que permiten a los agentes interactuar mediante programación con API, bases de datos y CRM internos."
+      },
+      {
+        "title": "3. Memoria a corto plazo y memoria episódica a largo plazo",
+        "description": "Redes de memoria respaldadas por vectores que permiten a los agentes retener el contexto del sistema, recordar decisiones pasadas y aprender de las fallas de ejecución."
+      },
+      {
+        "title": "4. Puntos de control de verificación humanos en el circuito",
+        "description": "Mecánicas de control programático que obligan a los agentes a hacer una pausa y solicitar autorización humana antes de ejecutar operaciones sensibles o de alto impacto."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Construimos con ecosistemas agentes endurecidos",
+    "subtitle": "Marcos, almacenes de memoria y tiempos de ejecución líderes en la industria diseñados para una autonomía segura",
+    "tools": [
+      {
+        "name": "LangGraph",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "CrewAI",
+        "icon": "SiCrewai"
+      },
+      {
+        "name": "Autogen",
+        "icon": "SiMicrosoft"
+      },
+      {
+        "name": "API de asistentes OpenAI",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "n8n (IA avanzada y agentes)",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Supabase (Vector y Estado)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis (memoria episódica)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js (Panel de control del agente)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker (tiempos de ejecución en espacio aislado)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Base de AWS",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro plan de ingeniería",
+    "subtitle": "Del mapeo lógico al despliegue de agentes totalmente autónomo en 6 semanas",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Identifique cuellos de botella operativos repetitivos o cognitivamente complejos, describa las herramientas de software disponibles y defina los permisos de los agentes.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Diseñe el diseño del gráfico de múltiples agentes, diseñe perímetros de avisos específicos, diseñe tablas de enrutamiento de memoria y establezca puertas de seguridad.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programe los gráficos del agente utilizando LangGraph o CrewAI, cree funciones de herramientas API personalizadas e integre grupos de memoria respaldados por vectores.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Ejecute ciclos de prueba intensivos de sandbox, pruebe las ramas de reserva del agente, active paneles de seguimiento e inicie el canal autónomo de forma segura.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Reducción del 92 % en el tiempo de procesamiento de la investigación a través de redes orquestadas de múltiples agentes",
+    "image": "/all_services/custom_bots/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barricada operativa",
+        "text": "Una plataforma SaaS global dedicó cientos de horas de desarrollo a realizar manualmente análisis técnicos competitivos, verificar API y validar cambios en la documentación del software."
+      },
+      "solution": {
+        "label": "Nuestro enfoque de ingeniería",
+        "text": "Diseñamos un sistema autónomo multiagente a través de LangGraph y Python. Un agente rastreó los puntos finales de destino, otro analizó las diferencias utilizando la indexación vectorial de Supabase y un tercero generó matrices de optimización estructuradas."
+      },
+      "result": {
+        "label": "Impacto mensurable",
+        "text": "Los ciclos de procesamiento se redujeron en un 92 %, la precisión técnica aumentó significativamente y el sistema produjo registros de información empresarial completos y listos para la ejecución, completamente en piloto automático."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Arquitectura agente y preguntas frecuentes",
+    "subtitle": "Respuestas claras a consultas críticas de implementación, seguridad e ingeniería de sistemas autónomos",
+    "questions": [
+      {
+        "question": "¿Qué impide que un agente autónomo de IA entre en un bucle infinito o gaste demasiados tokens?",
+        "answer": "Codificamos estrictos disyuntores arquitectónicos y parámetros de restricción. Cada ciclo de ejecución de agente está limitado por límites máximos de pasos, tiempos de espera de ejecución y límites estrictos de gasto de tokens por ejecución, lo que obliga al sistema a cerrarse de forma segura y alertar a los operadores humanos si se superan los límites."
+      },
+      {
+        "question": "¿Cómo escriben los agentes de IA de forma segura en bases de datos sin corromper los entornos de producción?",
+        "answer": "Los agentes no acceden directamente a las bases de datos sin procesar. En cambio, interactúan con una capa API de microservicio desacoplada. Esta capa valida cada carga útil JSON generada por el agente, lo que garantiza que se verifiquen el formato, los tipos y los permisos estrictos antes de ejecutar cambios en la base de datos."
+      },
+      {
+        "question": "¿Cuál es la diferencia entre un Chatbot de IA y un Agente de IA autónomo?",
+        "answer": "Un chatbot suele ser reactivo y maneja conversaciones de varios turnos con un usuario. Un agente autónomo es proactivo y está orientado a objetivos; usted proporciona una tarea de alto nivel y el agente actúa de forma independiente durante un tiempo de ejecución prolongado: planifica pasos, selecciona herramientas y analiza resultados sin necesidad de que el usuario le indique cada acción."
+      },
+      {
+        "question": "¿Puedo imponer supervisión humana antes de que un agente realice transacciones financieras o elimine registros?",
+        "answer": "Absolutamente. Incorporamos puntos de control Human in the Loop (HITL). Cuando un agente llega a un nodo de alta prioridad (como activar un pago de API o modificar un archivo seguro), actualiza su estado a \"Pendiente\" y envía un webhook de notificación a su equipo humano para su validación a través de Slack o un panel administrativo."
+      }
+    ],
+    "footer": {
+      "text": "¿Listo para escalar su negocio con trabajadores digitales autónomos?",
+      "link_text": "Programe una revisión de agente con nuestro equipo",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -3,6 +3,24 @@ export type TechnologyActionLink = {
   href: string;
 };
 
+export type TechnologySeoMetadata = {
+  title?: string;
+  description?: string;
+  keywords?: string[];
+  meta_title?: string;
+  meta_description?: string;
+  canonical_url?: string;
+  robots?: string;
+  primary_keywords?: string[];
+  secondary_keywords?: string[];
+};
+
+export type TechnologyListingAction = {
+  label?: string;
+  text?: string;
+  href: string;
+};
+
 export type TechnologyIconCard = {
   title: string;
   description: string;
@@ -13,6 +31,8 @@ export type TechnologyListingHero = {
   eyebrow: string;
   title: string;
   description: string;
+  primary_cta?: TechnologyListingAction;
+  secondary_cta?: TechnologyListingAction;
 };
 
 export type TechnologyListingCard = {
@@ -23,14 +43,38 @@ export type TechnologyListingCard = {
 };
 
 export type TechnologyListingGroup = {
+  anchor?: string;
   title: string;
   description: string;
   cards: TechnologyListingCard[];
 };
 
+export type TechnologyListingCategory = {
+  title: string;
+  slug?: string;
+  href: string;
+  icon_type?: string;
+  description: string;
+  technologies?: {
+    title: string;
+    slug?: string;
+    href: string;
+    description?: string;
+  }[];
+};
+
+export type TechnologyListingCategorySection = {
+  id?: string;
+  title: string;
+  description: string;
+  technology_cards: TechnologyListingCategory[];
+};
+
 export type TechnologyListingData = {
+  seo?: TechnologySeoMetadata;
   hero_section: TechnologyListingHero;
   technology_cards: TechnologyListingCard[];
+  technology_categories_section?: TechnologyListingCategorySection;
   technology_groups?: TechnologyListingGroup[];
 };
 
@@ -94,6 +138,7 @@ export type TechnologyConversationSection = {
 
 export type TechnologyPageData = {
   slug: string;
+  seo_metadata?: TechnologySeoMetadata;
   hero_section: TechnologyHeroSection;
   why_use_section: TechnologyWhyUseSection;
   architecture_section: TechnologyArchitectureSection;

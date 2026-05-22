@@ -40,6 +40,11 @@
   animation-play-state: running;
 }
 
+.track:hover .marquee,
+.track:focus-within .marquee {
+  animation-play-state: paused;
+}
+
 .marqueeGroup {
   display: flex;
   gap: 2rem;

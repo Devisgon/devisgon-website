@@ -1,0 +1,206 @@
+{
+  "slug": "analytics-automation",
+  "hero_section": {
+    "title": "Systèmes d'automatisation de l'analyse d'entreprise",
+    "subtitle": "Ingénierie de pipeline de données algorithmiques pour la télémétrie en temps réel",
+    "description": "Nous concevons une infrastructure d'automatisation de l'analyse de niveau production qui transforme les données opérationnelles brutes et multistructurées en une business intelligence propre et continue. Éradiquez les rapports manuels, unifiez les silos de données et établissez des maillages de télémétrie à faible latence.",
+    "buttons": [
+      {
+        "text": "Pipelines d’analyse d’architecte",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs de données",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/business_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce que le niveau entreprise",
+    "span_heading": "Automatisation des analyses ?",
+    "content": [
+      "Chez Devisgon, nous concevons et construisons des couches d'automatisation d'analyse programmatique robustes qui convertissent des mesures commerciales complexes en une infrastructure de données continue et auto mise à jour. Au delà des macros de feuilles de calcul fragiles et des rapports manuels lents, nous concevons des réseaux d'extraction et d'agrégation décentralisés qui exécutent des calculs de métriques en temps réel de manière native au sein de votre pile de produits.",
+      "Nous comblons le fossé entre les bases de données de production lourdes et les tableaux de bord destinés aux utilisateurs. Chaque boucle d'analyse que nous déployons comprend des microservices d'extraction transformation chargement (ETL) automatisés, un formatage précis du type de données, une validation de schéma et des clés API sécurisées, garantissant que les journaux de trafic de vos applications Web, les transactions financières et les mesures opérationnelles restent unifiées et sans erreur."
+    ],
+    "highlight_quote": "\"Agrégation continue de données, suivi de télémétrie en moins d'une seconde, 0 % de surcharge de calcul manuel.\"",
+    "side_image": "/all_services/ai_powered_automation/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Convertissez les journaux d'événements non organisés en informations décisionnelles en temps réel et haute fidélité",
+    "cards": [
+      {
+        "title": "Données en streaming continu",
+        "description": "Regroupez et calculez les mesures vitales à la milliseconde exacte où une transaction ou un événement se déclenche, en contournant les boucles de latence conventionnelles du traitement par lots.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Suivi des systèmes unifiés",
+        "description": "Éliminez les divergences de données en exécutant des synchronisations continues de webhooks multi applications qui fusionnent les enregistrements logiciels en une seule source de vérité.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Alertes d'anomalies automatisées",
+        "description": "Programmez des flux de travail matriciels multivariables personnalisés qui vérifient en permanence les équilibres de performances, alertant instantanément les équipes via des webhooks de communication si les métriques dérivent.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Suivi prédictif des tendances",
+        "description": "Transformez les pools de télémétrie historiques bruts en matrices de données structurées pour suivre avec précision les modèles de croissance, les baisses opérationnelles et les profils de vélocité des ressources.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec l'infrastructure Devisgon Analytics",
+    "image": "/all_services/ai_powered_automation/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. ETL programmatique et microservices d'agrégation",
+        "description": "Réseaux de flux de travail automatisés avancés (conçus via n8n ou Make.com) qui extraient les données opérationnelles, gèrent les transformations de schéma et structurent les paramètres métriques."
+      },
+      {
+        "title": "2. Synchronisations vectorielles et relationnelles hautes performances",
+        "description": "Couches middleware API configurées pour lire les interactions d'applications multiplateformes et les enregistrer instantanément dans des tables relationnelles sécurisées et optimisées pour les requêtes."
+      },
+      {
+        "title": "3. Passerelles d'ingestion de webhooks automatisées",
+        "description": "Des points de terminaison robustes qui capturent en toute sécurité les événements des applications, façonnent les charges utiles des données et alimentent les tableaux de bord d'analyse en temps réel sans manquer de paquets actifs."
+      },
+      {
+        "title": "4. Panneaux de télémétrie de l'interface utilisateur Glassmorphic centralisés",
+        "description": "Interfaces de suivi élégantes Next.js conçues avec des conceptions de mode sombre, de flou d'arrière plan et de lueur ambiante claire pour surveiller les tableaux de conversion en temps réel et l'état du système."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous nous intégrons aux outils d'analyse et de pipeline modernes",
+    "subtitle": "Plateformes d'orchestration de données de pointe, magasins à haut débit et API de suivi conçues pour des échelles de trafic intenses",
+    "tools": [
+      {
+        "name": "n8n",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Next.js (Routes API)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvecteur)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis (métriques en mémoire)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Python (Traitement des données)",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "API Google Analytics",
+        "icon": "SiGoogleanalytics"
+      },
+      {
+        "name": "API Mixpanel",
+        "icon": "SiMixpanel"
+      },
+      {
+        "name": "API HubSpot Analytics",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "API Jotform",
+        "icon": "SiJotform"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la conception des métriques à l'automatisation de la télémétrie en direct en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les sources de données actives, cartographiez les points de terminaison de télémétrie du système, isolez les KPI critiques de l'entreprise et tracez les formats de charge utile des API logicielles.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulez des schémas de mappage de données logiques, structurez des transformations en continu et concevez des tables de bases de données relationnelles sécurisées.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des couches de routage de données personnalisées, configurez les flux d'ingestion cloud sur n8n/Make et déployez des composants d'analyse Next.js à faible latence.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests approfondis de charge utile à haut débit, optimisez les requêtes système et lancez des panneaux de visualisation à mise à jour automatique en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Élimination à 100 % du travail de reporting et synchronisation instantanée des données sur les baies multi applications",
+    "image": "/all_services/ai_powered_automation/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une plateforme de services B2B en pleine croissance perdait de son attrait stratégique car les responsables passaient plus de 20 heures humaines par semaine à copier et combiner les métriques des formulaires de destination, des CRM et des applications de paiement."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu un réseau de données ETL automatisé basé sur des événements utilisant des microservices n8n et des gestionnaires de routes Next.js sans serveur, structurant instantanément les enregistrements dans un moteur Supabase isolé."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "La création manuelle de feuilles de calcul est tombée à zéro absolu, la latence de synchronisation des données est tombée à quelques secondes et les dirigeants ont obtenu un accès immédiat à des journaux d'analyse d'entreprise précis en temps réel."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture d'automatisation de l'analyse et FAQ",
+    "subtitle": "Des réponses claires aux questions critiques sur la configuration de la base de données, le traitement des webhooks et la sécurité du pipeline",
+    "questions": [
+      {
+        "question": "Comment mélanger des nœuds d'orchestration visuelle avec des scripts de programmation personnalisés ?",
+        "answer": "Nous associons le suivi agile des séquences de flux de travail de n8n ou Make.com aux gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des nœuds low code pour une visibilité opérationnelle claire et des blocs de code JavaScript/Python personnalisés pour une analyse sécurisée des jetons, des règles logiques approfondies et des transformations de tableaux complexes."
+      },
+      {
+        "question": "Qu’arrive t il au moteur de surveillance analytique lors de pics soudains de trafic applicatif ?",
+        "answer": "Nous déployons un middleware d'intégration sans état soutenu par des files d'attente de messages Redis à haut débit. Si votre plateforme reçoit des milliers d'interactions utilisateur simultanées, le pipeline de base de données met en file d'attente les charges utiles en toute sécurité, calculant les métriques en douceur sans surcharger les limites de stockage de la base de données."
+      },
+      {
+        "question": "Pouvons nous intégrer en toute sécurité des canaux d'admission personnalisés comme JotForm directement dans les maillages de données internes ?",
+        "answer": "Absolument. Nous construisons des passerelles webhook robustes qui ingèrent en toute sécurité les paramètres JSON en temps réel à partir de plateformes telles que JotForm, validant les formats de données avant d'ajouter des enregistrements à vos pools de données PostgreSQL."
+      },
+      {
+        "question": "Comment préserver la confidentialité des données tout en acheminant les informations via les couches d’intégration ?",
+        "answer": "Chaque pipeline de données automatisé que nous concevons applique les directives de confiance zéro. Tous les webhooks entrants sont validés à l'aide de signatures cryptographiques (validation d'en tête SHA 256), toutes les transmissions sont cryptées en transit à l'aide de TLS 1.3 et les champs PII utilisateur sensibles sont supprimés ou masqués avant le stockage."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à créer une architecture de télémétrie analytique fiable et auto correctrice ?",
+      "link_text": "Planifiez un examen du pipeline avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

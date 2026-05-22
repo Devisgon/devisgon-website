@@ -1,98 +1,73 @@
-
-// ENGLISH
-import endbm from "@/data/english_data/services/cloud/Database_managment.json";
-import encicd from "@/data/english_data/services/cloud/ci_cd_pipeline.json";
-import encs from "@/data/english_data/services/cloud/cloud_security.json";
-import endoc from "@/data/english_data/services/cloud/devops_consulting.json";
-
-
-// URDU
-import urdbm from "@/data/urdu_data/services/cloud/Database_managment.json";
-import urcicd from "@/data/urdu_data/services/cloud/ci_cd_pipeline.json";
-import urcs from "@/data/urdu_data/services/cloud/cloud_security.json";
-import urrdoc from "@/data/urdu_data/services/cloud/devops_consulting.json";
-
-// ARABIC
-import ardbm from "@/data/arabic_data/services/cloud/Database_managment.json";
-import arcicd from "@/data/arabic_data/services/cloud/ci_cd_pipeline.json";
-import arcs from "@/data/arabic_data/services/cloud/cloud_security.json";
-import ardoc from "@/data/arabic_data/services/cloud/devops_consulting.json";
-
-//german
-import grdbm from "@/data/german_data/services/cloud/Database_managment.json";
-import grcicd from "@/data/german_data/services/cloud/ci_cd_pipeline.json";
-import grcs from "@/data/german_data/services/cloud/cloud_security.json";
-import grdoc from "@/data/german_data/services/cloud/devops_consulting.json";
-
-//spanish
-import spdbm from "@/data/spanish_data/services/cloud/Database_managment.json";
-import spcicd from "@/data/spanish_data/services/cloud/ci_cd_pipeline.json";
-import spcs from "@/data/spanish_data/services/cloud/cloud_security.json";
-import spdoc from "@/data/spanish_data/services/cloud/devops_consulting.json";
-
-//chineas
-import chdbm from "@/data/chinese_data/services/cloud/Database_managment.json";
-import chcicd from "@/data/chinese_data/services/cloud/ci_cd_pipeline.json";
-import chcs from "@/data/chinese_data/services/cloud/cloud_security.json";
-import chdoc from "@/data/chinese_data/services/cloud/devops_consulting.json";
-
-
-//french 
-import frdbm from "@/data/french_data/services/cloud/Database_managment.json";
-import frcicd from "@/data/french_data/services/cloud/ci_cd_pipeline.json";
-import frcs from "@/data/french_data/services/cloud/cloud_security.json";
-import frdoc from "@/data/french_data/services/cloud/devops_consulting.json";
-
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const workflowData: Record<string, Record<string, any>> = {
-  en: {
-    "cicd_pipelines": encicd, 
-    "cloud_security": encs,
-    "database_management": endbm,
-    "devops_consulting": endoc,
+type ServiceDetailData = any;
 
-  },
-   ur: {
-    "cicd_pipelines": urcicd, 
-    "cloud_security": urcs,
-    "database_management": urdbm,
-    "devops_consulting": urrdoc,
+import enAws from "@/data/english_data/services/cloud/aws.json";
+import enCiCdPipeline from "@/data/english_data/services/cloud/ci_cd_pipeline.json";
+import enCloudSecurity from "@/data/english_data/services/cloud/cloud_security.json";
+import enDatabaseManagment from "@/data/english_data/services/cloud/Database_managment.json";
+import enDevopsConsulting from "@/data/english_data/services/cloud/devops_consulting.json";
+import enGcp from "@/data/english_data/services/cloud/gcp.json";
 
-  }, ar: {
-    "cicd_pipelines": arcicd, 
-    "cloud_security": arcs,
-    "database_management": ardbm,
-    "devops_consulting": ardoc,
+import urAws from "@/data/urdu_data/services/cloud/aws.json";
+import urCiCdPipeline from "@/data/urdu_data/services/cloud/ci_cd_pipeline.json";
+import urCloudSecurity from "@/data/urdu_data/services/cloud/cloud_security.json";
+import urDatabaseManagment from "@/data/urdu_data/services/cloud/Database_managment.json";
+import urDevopsConsulting from "@/data/urdu_data/services/cloud/devops_consulting.json";
+import urGcp from "@/data/urdu_data/services/cloud/gcp.json";
 
+import arAws from "@/data/arabic_data/services/cloud/aws.json";
+import arCiCdPipeline from "@/data/arabic_data/services/cloud/ci_cd_pipeline.json";
+import arCloudSecurity from "@/data/arabic_data/services/cloud/cloud_security.json";
+import arDatabaseManagment from "@/data/arabic_data/services/cloud/Database_managment.json";
+import arDevopsConsulting from "@/data/arabic_data/services/cloud/devops_consulting.json";
+import arGcp from "@/data/arabic_data/services/cloud/gcp.json";
 
-  }, es: {
-    "cicd_pipelines": spcicd, 
-    "cloud_security": spcs,
-    "database_management": spdbm,
-    "devops_consulting": spdoc,
+import deAws from "@/data/german_data/services/cloud/aws.json";
+import deCiCdPipeline from "@/data/german_data/services/cloud/ci_cd_pipeline.json";
+import deCloudSecurity from "@/data/german_data/services/cloud/cloud_security.json";
+import deDatabaseManagment from "@/data/german_data/services/cloud/Database_managment.json";
+import deDevopsConsulting from "@/data/german_data/services/cloud/devops_consulting.json";
+import deGcp from "@/data/german_data/services/cloud/gcp.json";
 
-  }, de: {
-    "cicd_pipelines": grcicd,
-    "cloud_security": grcs,
-    "database_management": grdbm,
-    "devops_consulting": grdoc,
+import esAws from "@/data/spanish_data/services/cloud/aws.json";
+import esCiCdPipeline from "@/data/spanish_data/services/cloud/ci_cd_pipeline.json";
+import esCloudSecurity from "@/data/spanish_data/services/cloud/cloud_security.json";
+import esDatabaseManagment from "@/data/spanish_data/services/cloud/Database_managment.json";
+import esDevopsConsulting from "@/data/spanish_data/services/cloud/devops_consulting.json";
+import esGcp from "@/data/spanish_data/services/cloud/gcp.json";
 
-    
+import zhAws from "@/data/chinese_data/services/cloud/aws.json";
+import zhCiCdPipeline from "@/data/chinese_data/services/cloud/ci_cd_pipeline.json";
+import zhCloudSecurity from "@/data/chinese_data/services/cloud/cloud_security.json";
+import zhDatabaseManagment from "@/data/chinese_data/services/cloud/Database_managment.json";
+import zhDevopsConsulting from "@/data/chinese_data/services/cloud/devops_consulting.json";
+import zhGcp from "@/data/chinese_data/services/cloud/gcp.json";
 
-  }, zh: {
-   "cicd_pipelines": chcicd, 
-    "cloud_security": chcs,
-    "database_management": chdbm,
-    "devops_consulting": chdoc,
+import frAws from "@/data/french_data/services/cloud/aws.json";
+import frCiCdPipeline from "@/data/french_data/services/cloud/ci_cd_pipeline.json";
+import frCloudSecurity from "@/data/french_data/services/cloud/cloud_security.json";
+import frDatabaseManagment from "@/data/french_data/services/cloud/Database_managment.json";
+import frDevopsConsulting from "@/data/french_data/services/cloud/devops_consulting.json";
+import frGcp from "@/data/french_data/services/cloud/gcp.json";
 
-  }, fr: {
-    "cicd_pipelines": frcicd,
-    "cloud_security": frcs,
-    "database_management": frdbm,
-    "devops_consulting": frdoc,
+const serviceEntries = (aws: ServiceDetailData, cicdPipelines: ServiceDetailData, cloudSecurity: ServiceDetailData, databaseManagement: ServiceDetailData, devopsConsulting: ServiceDetailData, gcp: ServiceDetailData) => ({
+  "aws-devops-infrastructure": aws,
+  "cicd-pipelines": cicdPipelines,
+  "cicd_pipelines": cicdPipelines,
+  "ci-cd-pipelines": cicdPipelines,
+  "cloud-security": cloudSecurity,
+  "database-management": databaseManagement,
+  "database-managment": databaseManagement,
+  "devops-consulting": devopsConsulting,
+  "gcp-devops-infrastructure": gcp,
+});
 
-
-  }, 
-
+export const workflowData: Record<string, Record<string, ServiceDetailData>> = {
+  en: serviceEntries(enAws, enCiCdPipeline, enCloudSecurity, enDatabaseManagment, enDevopsConsulting, enGcp),
+  ur: serviceEntries(urAws, urCiCdPipeline, urCloudSecurity, urDatabaseManagment, urDevopsConsulting, urGcp),
+  ar: serviceEntries(arAws, arCiCdPipeline, arCloudSecurity, arDatabaseManagment, arDevopsConsulting, arGcp),
+  de: serviceEntries(deAws, deCiCdPipeline, deCloudSecurity, deDatabaseManagment, deDevopsConsulting, deGcp),
+  es: serviceEntries(esAws, esCiCdPipeline, esCloudSecurity, esDatabaseManagment, esDevopsConsulting, esGcp),
+  zh: serviceEntries(zhAws, zhCiCdPipeline, zhCloudSecurity, zhDatabaseManagment, zhDevopsConsulting, zhGcp),
+  fr: serviceEntries(frAws, frCiCdPipeline, frCloudSecurity, frDatabaseManagment, frDevopsConsulting, frGcp),
 };

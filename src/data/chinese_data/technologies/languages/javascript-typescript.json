@@ -1,140 +1,144 @@
 {
   "slug": "javascript-typescript",
   "seo_metadata": {
-    "title": "JavaScript / TypeScript Development | Full-Stack Web Engineering",
-    "description": "Full-stack JavaScript and TypeScript engineering for scalable, type-safe web applications, APIs, and modern product platforms.",
+    "title": "JavaScript 和 TypeScript 开发服务 |全栈 Web、API 和 SaaS 平台 |德维斯冈",
+    "description": "Devisgon 为全球企业的全栈 Web 应用程序、SaaS 平台、API、仪表板、门户、自动化系统和可扩展数字产品提供专业的 JavaScript 和 TypeScript 开发服务。",
     "keywords": [
-      "JavaScript 开发",
-      "ES6+ 网络标准",
-      "V8 发动机优化",
-      "异步编程",
-      "通用JavaScript",
-      "事件驱动架构",
-      "全栈 JS 解决方案",
-      "TypeScript 开发",
-      "静态类型 JavaScript",
-      "类型安全的 API 设计",
-      "企业前端架构",
+      "JavaScript 开发服务",
+      "TypeScript 开发服务",
+      "JavaScript开发公司",
+      "TypeScript 开发公司",
+      "全栈 JavaScript 开发",
+      "全栈 TypeScript 开发",
+      "定制网络应用程序开发",
+      "JavaScript 网页开发",
+      "TypeScript Web 应用程序开发",
       "Node.js TypeScript 后端",
-      "TypeScript 重构服务",
-      "可扩展的网络基础设施"
+      "React TypeScript 开发",
+      "SaaS平台开发",
+      "API开发服务",
+      "企业前端架构",
+      "类型安全的API开发",
+      "JavaScript自动化开发",
+      "可扩展的网络应用程序开发",
+      "现代网络开发服务"
     ]
   },
   "hero_section": {
-    "eyebrow": "Typed and Dynamic Web Engineering",
-    "title": "Ship Faster with",
+    "eyebrow": "全栈 JavaScript 和 TypeScript 开发",
+    "title": "构建可扩展的数字产品",
     "highlight": "JavaScript / TypeScript",
-    "description": "使用地球上最通用的语言为您的整个产品生命周期提供支持，提供从浏览器到服务器的高性能交互性。 使用基于 JavaScript 的强类型编程语言构建高可信度的生产系统，为您提供任何规模的更好工具。",
+    "description": "Devisgon 为 SaaS 平台、Web 应用程序、仪表板、客户门户、API、自动化系统、AI 工作流程、移动后端和需要快速交付、可靠架构和长期可维护性的全球数字产品构建现代 JavaScript 和 TypeScript 应用程序。",
     "side_image": "/technologies/js/hero.webp",
     "primary_cta": {
-      "text": "优化你的堆栈",
+      "text": "规划您的网络堆栈",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看技术路线图",
+      "text": "探索技术范围",
       "href": "/technologies/javascript-typescript#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with JavaScript / TypeScript",
-    "subtitle": "JavaScript 是现代数字体验的基石，提供无与伦比的速度和普遍的覆盖范围。 TypeScript 提供了精确管理大规模、多团队代码库所需的结构完整性。",
+    "title": "为什么我们使用 JavaScript 和 TypeScript 进行构建",
+    "subtitle": "JavaScript 为现代数字体验提供动力，而 TypeScript 添加了可扩展业务软件所需的结构、安全性和可维护性。",
     "paragraphs": [
-      "JavaScript 是我们构建反应式、以用户为中心的应用程序的主要工具。通过利用其非阻塞事件循环和高速 V8 引擎，我们提供的界面可以立即响应用户输入，同时通过统一的高速语言生态系统处理复杂的后端编排。",
-      "TypeScript 是我们大规模应用程序开发的基本选择。通过向 JavaScript 引入强大的静态类型系统，我们可以在开发期间而不是运行时捕获潜在的错误。这种“快速失败”方法显着减少了调试时间并提高了关键任务软件部署的可靠性。"
+      "Devisgon 使用 JavaScript 和 TypeScript 跨前端、后端、自动化和 API 层构建快速、交互式且可靠的数字产品。这些技术非常适合 SaaS 平台、管理仪表板、客户门户、电子商务系统、移动应用后端、工作流程自动化、实时功能和现代商业 Web 应用程序。",
+      "对于严肃的产品开发，TypeScript 为 JavaScript 提供了更大代码库所需的规则。我们的方法侧重于干净的架构、可重用的组件、类型化 API、验证、后端契约、前端状态管理、性能优化、测试、集成和可维护的工程实践，以便您的产品可以在不变成脆弱代码的情况下增长。"
     ],
     "cards": [
       {
-        "title": "普遍覆盖",
-        "description": "跨浏览器、服务器和移动设备执行相同的代码库，以实现最大程度的逻辑重用。",
-        "icon_type": "FaGlobe"
+        "title": "全栈产品开发",
+        "description": "跨前端、后端、API、服务器路由、自动化逻辑和业务工作流程使用 JavaScript 和 TypeScript，以实现一致的产品交付。",
+        "icon_type": "FaCode"
       },
       {
-        "title": "异步电源",
-        "description": "使用 Promises 和 Async/Await 处理数千个并发操作，而不阻塞主线程。",
-        "icon_type": "FaSync"
-      },
-      {
-        "title": "静态类型安全",
-        "description": "定义清晰的数据结构和接口，以在运行时错误到达生产环境之前消除它们。",
+        "title": "类型安全架构",
+        "description": "通过类型化接口、DTO、合约、验证模式以及前端和后端系统之间更安全的通信来减少生产错误。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "先进的工具",
-        "description": "利用卓越的 IDE 支持以及即时重构、类型检查和智能代码导航。",
+        "title": "现代网络体验",
+        "description": "使用现代 JavaScript 框架和可扩展的前端模式构建快速、交互式、响应式和 SEO 友好的数字界面。",
+        "icon_type": "FaGlobe"
+      },
+      {
+        "title": "可扩展的工程工作流程",
+        "description": "通过可重用模块、强大的工具、自动化测试、linting、类型检查和清洁开发标准来提高可维护性。",
         "icon_type": "FaTools"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "JavaScript / TypeScript Technical Scope",
+    "title": "JavaScript / TypeScript 开发范围",
     "image": "/technologies/js/scope.webp",
     "items": [
       {
-        "title": "事件驱动后端",
-        "description": "构建高并发服务器端服务，利用 Node.js 事件循环实现极高的吞吐量。"
+        "title": "前端 Web 应用程序开发",
+        "description": "使用现代 JavaScript 和 TypeScript 框架构建交互式网站、SaaS 前端、仪表板、门户、管理面板、电子商务界面和面向用户的应用程序。"
       },
       {
-        "title": "反应式前端状态",
-        "description": "使用现代模式构建复杂、生动的 UI，确保视图层与底层数据保持完美同步。"
+        "title": "后端API和服务器端开发",
+        "description": "使用 Node.js 和 TypeScript 创建可扩展的后端服务、REST API、GraphQL API、服务器路由、身份验证流、业务逻辑、集成和自动化层。"
       },
       {
-        "title": "无服务器和边缘计算",
-        "description": "将轻量级 JavaScript 函数部署到边缘，以大规模地交付个性化、低延迟的内容。"
+        "title": "类型安全的全栈架构",
+        "description": "设计共享数据契约、类型化接口、验证规则、请求响应模型、可重用实用程序以及一致的前端到后端通信。"
       },
       {
-        "title": "领域驱动的API设计",
-        "description": "使用共享接口构建类型安全的 API，以确保前端和后端之间的完美数据对齐。"
+        "title": "SaaS、仪表板和门户开发",
+        "description": "开发 SaaS 产品、客户门户、内部工具、管理系统、订阅工作流程、报告仪表板、基于角色的访问和业务管理平台。"
       },
       {
-        "title": "严格的后端微服务",
-        "description": "使用 NestJS 或 Express 部署强大的 Node.js 服务，利用装饰器和 DTO 进行严格验证。"
+        "title": "自动化与集成开发",
+        "description": "构建基于 JavaScript 的自动化逻辑、Webhook 处理程序、API 集成、数据转换脚本、CRM 工作流程和连接的业务系统。"
       },
       {
-        "title": "遗留迁移和类型转换",
-        "description": "通过增量类型和高保真接口，战略性地将普通 JavaScript 堆栈迁移到 TypeScript。"
+        "title": "性能、测试和代码库现代化",
+        "description": "提高页面速度、捆绑结构、运行时性能、测试覆盖率、TypeScript 采用、代码质量、重构和长期可维护性。"
       }
     ]
   },
   "edge_section": {
-    "title": "The JavaScript / TypeScript Edge",
-    "subtitle": "快速数字世界的战略绩效优势。 维护企业级代码的可量化优势。",
+    "title": "JavaScript / TypeScript 的优势",
+    "subtitle": "为需要现代 Web 应用程序、可靠的 API、快速迭代和可维护的产品架构的企业提供灵活且可扩展的技术基础。",
     "cards": [
       {
+        "metric": "Universal",
+        "title": "前端和后端覆盖",
+        "description": "使用跨浏览器界面、服务器端 API、自动化脚本、集成和产品工作流程的同一个技术生态系统。"
+      },
+      {
+        "metric": "Typed",
+        "title": "更安全的产品开发",
+        "description": "在复杂的业务应用程序中使用更强大的契约、更清晰的数据结构、更好的工具和更少的运行时意外进行构建。"
+      },
+      {
         "metric": "Fast",
-        "title": "Execution",
-        "description": "Google 的 V8 引擎将 JS 实时编译为机器代码，性能可与传统语言相媲美。"
+        "title": "现代交货速度",
+        "description": "借助成熟的生态系统和可重用的工程模式，更快地启动 MVP、SaaS 平台、仪表板和 Web 应用程序。"
       },
       {
-        "metric": "100%",
-        "title": "Full-Stack",
-        "description": "统一语言堆栈减少了上下文切换并简化了开发到部署的工作流程。"
-      },
-      {
-        "metric": "15%",
-        "title": "减少错误",
-        "description": "行业标准研究表明 TypeScript 在编译时捕获了很大一部分公共错误。"
-      },
-      {
-        "metric": "100%",
-        "title": "Self-Documenting",
-        "description": "类型定义充当活契约，减少对陈旧外部文档的需求。"
+        "metric": "Scalable",
+        "title": "长期可维护性",
+        "description": "通过模块化代码、类型化 API、自动检查和简洁的架构实践来支持不断增长的团队和产品复杂性。"
       }
     ]
   },
   "quote_section": {
-    "quote": "JavaScript and TypeScript let us balance rapid delivery with",
-    "highlight": "long-term type-safe architecture"
+    "quote": "JavaScript 和 TypeScript 帮助企业从快速的产品创意转变为",
+    "highlight": "可扩展的全栈软件"
   },
   "conversation_section": {
-    "title": "Architect Your Web Stack",
-    "subtitle": "请咨询我们的首席技术专家，为您的数字产品定义可扩展的 JavaScript 路线图。 请咨询我们的首席技术专家，为您的组织定义可扩展、类型安全的路线图。",
-    "full_name_label": "首席开发人员",
-    "business_email_label": "实体邮箱",
-    "message_label": "战略需求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的 JavaScript 架构挑战或性能目标...",
-    "button_text": "请求咨询"
+    "title": "设计您的 JavaScript / TypeScript 产品",
+    "subtitle": "与 Devisgon 合作，为 SaaS 平台、仪表板、门户、API、自动化系统、AI 工作流程和全球数字产品规划、构建、现代化或扩展 JavaScript 和 TypeScript 应用程序。",
+    "full_name_label": "姓名",
+    "business_email_label": "企业邮箱",
+    "message_label": "项目需求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的 JavaScript 或 TypeScript 应用程序、前端需求、后端 API、集成、性能目标或架构挑战...",
+    "button_text": "请求 JavaScript / TypeScript 咨询"
   }
 }

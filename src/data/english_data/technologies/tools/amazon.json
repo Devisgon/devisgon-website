@@ -1,116 +1,135 @@
 {
   "slug": "amazon",
   "seo_metadata": {
-    "title": "Enterprise AWS Cloud Architecture & Consulting Services",
-    "description": "Professional AWS implementation and migration services. We architect scalable, secure, and cost-optimized cloud solutions using AWS Lambda, EC2, and S3.",
+    "title": "AWS Cloud Development Services | Cloud Architecture, Serverless Apps & DevOps | Devisgon",
+    "description": "Devisgon provides professional AWS cloud development services for scalable web applications, SaaS platforms, serverless systems, cloud migration, DevOps automation, storage, APIs, and secure cloud infrastructure.",
     "keywords": [
-      "AWS Cloud Consulting",
-      "Amazon Web Services Architecture",
-      "Serverless Computing",
-      "AWS Cloud Migration",
-      "Infrastructure as Code",
-      "AWS Security Best Practices",
-      "Cloud Cost Optimization"
+      "AWS cloud development services",
+      "AWS cloud architecture",
+      "Amazon Web Services development",
+      "AWS consulting services",
+      "cloud application development",
+      "serverless application development",
+      "AWS Lambda development",
+      "AWS API Gateway integration",
+      "AWS S3 storage solutions",
+      "AWS EC2 deployment",
+      "AWS DevOps services",
+      "cloud infrastructure development",
+      "cloud migration services",
+      "AWS SaaS platform development",
+      "secure cloud architecture",
+      "cloud cost optimization",
+      "AWS backend development",
+      "scalable cloud software"
     ]
   },
   "hero_section": {
-    "eyebrow": "Global Cloud Infrastructure",
-    "title": "Scale Without Limits with",
+    "eyebrow": "AWS Cloud Architecture and Development",
+    "title": "Build Scalable Cloud Systems with",
     "highlight": "AWS",
-    "description": "Build, deploy, and manage production-grade applications on the world’s most comprehensive and broadly adopted cloud platform.",
+    "description": "Devisgon designs and implements AWS cloud solutions for SaaS platforms, web applications, APIs, serverless workflows, storage systems, DevOps pipelines, AI powered products, business portals, and secure digital platforms that need performance, reliability, and long term scalability.",
     "side_image": "/technologies/amazon/hero.webp",
     "primary_cta": {
-      "text": "Optimize Your Cloud",
+      "text": "Plan Your AWS Architecture",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Architecture Patterns",
+      "text": "Explore AWS Scope",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer on AWS",
-    "subtitle": "AWS provides the most mature and secure foundation for modern distributed systems.",
+    "title": "Why We Build with AWS",
+    "subtitle": "AWS provides a mature cloud foundation for businesses that need scalable infrastructure, secure deployments, serverless workflows, storage, monitoring, and production ready application hosting.",
     "paragraphs": [
-      "AWS is our primary choice for enterprise-grade cloud hosting and automation. By leveraging its vast array of over 200 fully featured services—from compute and storage to advanced AI/ML—we eliminate the constraints of physical hardware, allowing your business to scale instantly in response to market demand.",
-      "Our architectural approach focuses on the AWS Well-Architected Framework. We ensure your infrastructure is built on five pillars: operational excellence, security, reliability, performance efficiency, and cost optimization, reducing long-term technical debt and operational risk."
+      "Devisgon uses AWS for projects that need reliable cloud infrastructure, scalable backend systems, secure hosting, API services, storage, automation, and deployment flexibility. AWS is a strong fit for SaaS platforms, mobile app backends, business dashboards, customer portals, serverless applications, data workflows, AI integrations, and enterprise grade digital products.",
+      "A successful AWS implementation requires more than launching cloud resources. Our approach focuses on architecture planning, service selection, environment design, IAM access control, serverless workflows, compute strategy, storage structure, database integration, deployment pipelines, monitoring, backup planning, and cost aware infrastructure so your cloud system remains stable as your product grows."
     ],
     "cards": [
       {
-        "title": "Unmatched Scalability",
-        "description": "Utilize Auto Scaling and Elastic Load Balancing to handle traffic spikes without manual intervention.",
-        "icon_type": "FaExpandArrowsAlt"
+        "title": "Scalable Cloud Infrastructure",
+        "description": "Design cloud systems that support growing users, traffic, storage, APIs, background jobs, integrations, and business operations.",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "Enterprise Security",
-        "description": "Implement military-grade encryption and Identity and Access Management (IAM) to protect sensitive data.",
+        "title": "Secure AWS Architecture",
+        "description": "Implement IAM permissions, environment separation, encrypted storage, secure APIs, private networking patterns, and production ready access controls.",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Cost Efficiency",
-        "description": "Pay only for what you use with on-demand pricing and spot instances for non-critical workloads.",
-        "icon_type": "FaWallet"
+        "title": "Serverless and DevOps Ready",
+        "description": "Build AWS Lambda workflows, API Gateway integrations, deployment pipelines, monitoring systems, cloud automation, and scalable backend services.",
+        "icon_type": "FaCogs"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "AWS Architectural Scope",
+    "title": "AWS Development Scope",
     "image": "/technologies/amazon/scope.webp",
     "items": [
       {
-        "title": "Serverless Architectures",
-        "description": "Deploying event-driven logic with AWS Lambda and API Gateway for zero-server management and high availability."
+        "title": "Cloud Architecture and Infrastructure Planning",
+        "description": "Designing AWS environments, compute strategy, networking structure, storage architecture, deployment patterns, security boundaries, and scalable infrastructure foundations."
       },
       {
-        "title": "Managed Data Lakes",
-        "description": "Architecting robust data storage and analytics pipelines using Amazon S3, Glue, and Redshift for big data insights."
+        "title": "Serverless Application Development",
+        "description": "Building AWS Lambda functions, API Gateway endpoints, event driven workflows, background jobs, webhooks, automation systems, and serverless backend logic."
       },
       {
-        "title": "Hybrid Cloud Integration",
-        "description": "Bridging on-premise data centers with the cloud using AWS Direct Connect and VPC peering for secure, low-latency connectivity."
+        "title": "Application Hosting and Deployment",
+        "description": "Deploying web applications, SaaS platforms, APIs, dashboards, portals, and backend systems using AWS services with stable production configuration."
+      },
+      {
+        "title": "Storage, Database, and Data Workflows",
+        "description": "Implementing S3 storage, database integrations, file workflows, backups, data processing pipelines, reporting flows, and secure business data handling."
+      },
+      {
+        "title": "DevOps, Monitoring, and Cost Optimization",
+        "description": "Setting up deployment pipelines, infrastructure automation, environment variables, logs, alerts, monitoring, backups, scaling policies, and cost aware AWS operations."
       }
     ]
   },
   "edge_section": {
     "title": "The AWS Advantage",
-    "subtitle": "Quantifiable efficiency for a global digital presence.",
+    "subtitle": "A cloud technology foundation for businesses that need secure infrastructure, scalable applications, flexible deployment, and production ready digital systems.",
     "cards": [
       {
-        "metric": "99.99%",
-        "title": "Uptime SLA",
-        "description": "Industry-leading reliability across multiple availability zones and global regions."
+        "metric": "Scalable",
+        "title": "Cloud Growth Foundation",
+        "description": "Support more users, more traffic, more storage, more integrations, and more business workflows with flexible cloud architecture."
       },
       {
-        "metric": "200+",
-        "title": "Fully Featured Services",
-        "description": "Immediate access to the most extensive set of cloud tools including AI, IoT, and high-performance compute."
+        "metric": "Secure",
+        "title": "Controlled Access and Data Protection",
+        "description": "Strengthen cloud security with IAM policies, encrypted resources, protected APIs, environment separation, and careful infrastructure design."
       },
       {
-        "metric": "315+",
-        "title": "Points of Presence",
-        "description": "Deliver content with ultra-low latency using the Amazon CloudFront global edge network."
+        "metric": "Flexible",
+        "title": "Serverless and Compute Options",
+        "description": "Use the right mix of serverless functions, managed services, storage, compute, databases, and deployment tools for your product needs."
       },
       {
-        "metric": "Zero",
-        "title": "Hardware Overhead",
-        "description": "Eliminate the need for physical maintenance, allowing teams to focus 100% on product innovation."
+        "metric": "Optimized",
+        "title": "Cloud Cost and Performance",
+        "description": "Design AWS systems with performance, monitoring, scaling, resource usage, and long term cost control in mind."
       }
     ]
   },
   "quote_section": {
-    "quote": "AWS turns infrastructure into a programmable asset, allowing us to build with",
-    "highlight": "infinite flexibility"
+    "quote": "AWS helps businesses turn cloud infrastructure into",
+    "highlight": "scalable digital product architecture"
   },
   "conversation_section": {
-    "title": "Architect Your Cloud Solution",
-    "subtitle": "Consult with our AWS Certified Solutions Architects to define your migration roadmap or cost-optimization strategy.",
-    "full_name_label": "Lead Architect",
-    "business_email_label": "Corporate Email",
+    "title": "Design Your AWS Cloud Architecture",
+    "subtitle": "Work with Devisgon to plan, build, migrate, or optimize AWS infrastructure for SaaS platforms, APIs, serverless applications, business portals, storage workflows, DevOps pipelines, and secure cloud systems.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
     "message_label": "Cloud Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your AWS scaling challenges or migration goals...",
-    "button_text": "Request a Cloud Audit"
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "Tell us about your AWS project, cloud migration, serverless workflow, hosting setup, API system, storage need, or infrastructure challenge...",
+    "button_text": "Request AWS Consultation"
   }
 }

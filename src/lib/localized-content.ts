@@ -77,6 +77,7 @@ export type NavbarContent = typeof navbarEn;
 export type FooterContent = typeof footerEn;
 export type ContactPageContent = typeof contactEn;
 export type GetStartedPageContent = typeof getStartedEn;
+type NavbarItem = NavbarContent["navbar"][number];
 
 export function normalizeLanguage(language: string | null | undefined): SupportedLanguage {
   if (!language) return "en";
@@ -105,6 +106,28 @@ export function normalizeLanguage(language: string | null | undefined): Supporte
 
 export function getNavbarDataByLang(language: string | null | undefined): NavbarContent {
   return navbarByLang[normalizeLanguage(language)] ?? navbarByLang.en;
+}
+
+export function findNavbarItemByHref(navbarData: NavbarContent, href: string): NavbarItem | undefined {
+  const queue: NavbarItem[] = [...navbarData.navbar];
+
+  while (queue.length > 0) {
+    const item = queue.shift();
+
+    if (!item) {
+      continue;
+    }
+
+    if (item.href === href) {
+      return item;
+    }
+
+    for (const column of item.dropdown?.columns ?? []) {
+      queue.push(...(column.links as NavbarItem[]));
+    }
+  }
+
+  return undefined;
 }
 
 export function getFooterDataByLang(language: string | null | undefined): FooterContent {

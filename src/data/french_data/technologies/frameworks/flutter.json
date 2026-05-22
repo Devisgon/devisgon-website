@@ -1,116 +1,135 @@
 {
   "slug": "flutter",
   "seo_metadata": {
-    "title": "Développement d'applications Flutter professionnelles | Solutions multiplateformes",
-    "description": "Développement Flutter personnalisé pour iOS, Android et Web. Nous construisons des applications compilées nativement hautes performances avec une base de code unique et des interfaces utilisateur expressives.",
+    "title": "Services de développement d'applications Flutter | Applications multiplateformes mobiles, Web et de bureau | Devisgon",
+    "description": "Devisgon fournit des services professionnels de développement d'applications Flutter pour les applications mobiles multiplateformes, les produits SaaS, les MVP de startup, les portails clients, les tableaux de bord et les produits numériques évolutifs pour les entreprises mondiales.",
     "keywords": [
-      "Développement du flottement",
-      "Programmation de fléchettes",
-      "Applications mobiles multiplateformes",
-      "Flutter pour le Web",
-      "Interface utilisateur de conception matérielle",
-      "Applications de bureau Flutter",
-      "Optimisation des applications mobiles"
+      "Services de développement d'applications Flutter",
+      "Société de développement Flutter",
+      "développement d'applications mobiles multiplateformes",
+      "Développement d'applications mobiles Flutter",
+      "Développement d'applications Flutter iOS",
+      "Développement d'applications Android Flutter",
+      "Développement d'applications Web Flutter",
+      "Développement d'applications Dart",
+      "applications Flutter personnalisées",
+      "Développement MVP Flutter",
+      "Développement d'applications Flutter SaaS",
+      "Développement de l'interface utilisateur Flutter",
+      "Optimisation de l'application Flutter",
+      "société de développement d'applications mobiles",
+      "services de développement d'applications multiplateformes",
+      "Développement de l'interface Flutter",
+      "Intégration back end Flutter",
+      "Conseil sur l'application Flutter"
     ]
   },
   "hero_section": {
-    "eyebrow": "Kit de développement de logiciels d'interface utilisateur",
-    "title": "Construisez pour n’importe quel écran avec",
+    "eyebrow": "Développement d'applications multiplateformes",
+    "title": "Créez des produits numériques modernes avec",
     "highlight": "Flutter",
-    "description": "Créez de superbes applications compilées de manière native pour les appareils mobiles, Web, de bureau et intégrés à partir d'une base de code unique et hautes performances.",
+    "description": "Devisgon crée des applications Flutter de haute qualité pour les startups, les entreprises SaaS, les entreprises de services, les places de marché, les portails clients, les outils internes et les produits numériques mondiaux qui nécessitent une expérience utilisateur fluide sur les plateformes mobiles, Web et de bureau.",
     "side_image": "/technologies/flutter/hero.webp",
     "primary_cta": {
-      "text": "Démarrez votre projet",
+      "text": "Planifiez votre application Flutter",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Afficher la portée du cadre",
+      "text": "Explorez la portée Flutter",
       "href": "/technologies/flutter#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Pourquoi nous concevons avec Flutter",
-    "subtitle": "Flutter offre une combinaison unique de vitesse de développement et de performances accélérées par le matériel.",
+    "title": "Pourquoi nous construisons avec Flutter",
+    "subtitle": "Flutter est un choix judicieux pour les entreprises qui ont besoin d'une livraison rapide de produits, d'une conception cohérente, d'une couverture multiplateforme et d'une architecture d'application maintenable.",
     "paragraphs": [
-      "Nous utilisons Flutter pour combler le fossé entre les performances natives et l'efficacité multiplateforme. En tirant parti des moteurs de rendu Skia et Impeller, Flutter contourne les goulots d'étranglement traditionnels basés sur les ponts, nous permettant de fournir des animations de 60 ips à 120 ips qui semblent impossibles à distinguer du code natif.",
-      "L'utilisation de Dart, un langage optimisé pour le client, garantit une sécurité de type élevée et des outils de développement de pointe tels que « Hot Reload », qui permettent à notre équipe d'itérer sur les fonctionnalités en quelques secondes, réduisant ainsi considérablement le cycle de vie global du développement."
+      "Devisgon utilise Flutter pour les projets dans lesquels les entreprises doivent lancer des applications mobiles raffinées sans maintenir des bases de code iOS et Android complètement séparées. Flutter convient aux MVP de startup, aux applications compagnons SaaS, aux plateformes de réservation, aux portails clients, aux applications de marché, aux outils commerciaux internes, aux tableaux de bord et aux applications mobiles basées sur des services.",
+      "Un produit Flutter réussi nécessite plus que la création d’écrans. Notre approche se concentre sur l'architecture du produit, la conception d'interface utilisateur réactive, la gestion de l'état, l'intégration des API, les flux d'authentification, les modèles compatibles hors ligne, l'optimisation des performances, la préparation à l'App Store, l'analyse et la maintenabilité à long terme afin que votre application puisse évoluer avec vos utilisateurs et vos objectifs commerciaux."
     ],
     "cards": [
       {
-        "title": "Compilé nativement",
-        "description": "Le code Flutter est compilé en code machine ARM ou Intel ainsi qu'en JavaScript, garantissant des performances optimales sur n'importe quel appareil.",
-        "icon_type": "FaCogs"
+        "title": "Livraison multiplateforme",
+        "description": "Créez des applications pour plusieurs plates formes à partir d'une seule base de code tout en garantissant la cohérence du comportement du produit, de la logique métier et de l'expérience utilisateur.",
+        "icon_type": "FaMobileAlt"
       },
       {
-        "title": "Interface utilisateur expressive",
-        "description": "Contrôle total sur chaque pixel pour créer des conceptions personnalisées de marque sans les limitations des widgets OEM natifs.",
+        "title": "Interfaces utilisateur haut de gamme",
+        "description": "Créez des expériences d'application propres, personnalisées, réactives et modernes avec des interactions fluides et des systèmes de conception construits autour de l'identité de votre produit.",
         "icon_type": "FaPaintBrush"
       },
       {
-        "title": "Logique unifiée",
-        "description": "Partagez 100 % de votre logique métier et du code de votre interface utilisateur sur iOS et Android, réduisant ainsi considérablement les coûts de maintenance.",
-        "icon_type": "FaCopy"
+        "title": "Architecture d'application évolutive",
+        "description": "Structurez les applications Flutter avec une gestion d'état maintenable, des couches d'API propres, des composants réutilisables et des normes de développement prêtes pour la production.",
+        "icon_type": "FaCogs"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Portée du cadre",
+    "title": "Portée du développement Flutter",
     "image": "/technologies/flutter/scope.webp",
     "items": [
       {
-        "title": "Excellence en gestion de l’État",
-        "description": "Mettre en œuvre des solutions de gestion d'état robustes telles que Bloc, Provider ou Riverpod pour un flux d'applications prévisible et évolutif."
+        "title": "Développement d'applications mobiles multiplateformes",
+        "description": "Créez des applications Flutter pour iOS et Android avec une logique métier partagée, une interface utilisateur raffinée, une authentification sécurisée, une connectivité API et une structure d'application prête à être publiée."
       },
       {
-        "title": "Intégration spécifique à la plateforme",
-        "description": "Utilisation de canaux de méthode pour exploiter les API natives (GPS, Bluetooth, capteurs) lorsqu'un accès spécifique au niveau matériel est requis."
+        "title": "Flutter Web et expériences réactives",
+        "description": "Créer des interfaces Web, des tableaux de bord, des portails, des outils d'administration et des expériences de produits Flutter réactifs qui s'adaptent aux tailles d'écran et aux cas d'utilisation professionnels."
       },
       {
-        "title": "Déploiement multiplateforme",
-        "description": "Concevoir des mises en page réactives qui s'adaptent de manière transparente des écrans tactiles mobiles aux environnements de bureau et Web à écran large."
+        "title": "Gestion de l'état et architecture des applications",
+        "description": "Implémentation de structures d'applications évolutives à l'aide de modèles de gestion d'état fiables, de couches de service propres, de widgets réutilisables, d'une organisation des itinéraires et de pratiques de code maintenables."
+      },
+      {
+        "title": "Intégration back end et API",
+        "description": "Connexion des applications Flutter aux API REST, aux API GraphQL, Supabase, Firebase, aux backends personnalisés, aux systèmes de paiement, aux outils CRM, aux services cloud et aux plateformes commerciales."
+      },
+      {
+        "title": "Performances, tests et déploiement",
+        "description": "Optimiser les performances des applications, gérer les erreurs, tester les flux de travail critiques, préparer les versions de production et prendre en charge la soumission de l'App Store et les améliorations post lancement."
       }
     ]
   },
   "edge_section": {
-    "title": "Le bord flottant",
-    "subtitle": "Des avantages concurrentiels stratégiques pour votre produit numérique.",
+    "title": "L'avantage du flottement",
+    "subtitle": "Un cadre de développement d'applications moderne pour les entreprises qui ont besoin de rapidité, de cohérence de conception, de couverture de plateforme et de flexibilité de produits à long terme.",
     "cards": [
       {
-        "metric": "50%",
-        "title": "Coût inférieur",
-        "description": "Besoins en ressources réduits par rapport au maintien d’équipes d’ingénierie natives iOS et Android distinctes."
+        "metric": "Unified",
+        "title": "Stratégie de base de code unique",
+        "description": "Réduisez les efforts de développement en double en partageant la logique de base du produit et la structure de l’interface utilisateur sur les plateformes mobiles et numériques prises en charge."
       },
       {
-        "metric": "120 images par seconde",
-        "title": "Mouvement fluide",
-        "description": "Prise en charge des affichages à taux de rafraîchissement élevé et des animations complexes grâce au rendu accéléré par le matériel."
+        "metric": "Consistent",
+        "title": "Expérience de marque",
+        "description": "Offrez une interface soignée et cohérente sur tous les appareils avec des composants de conception réutilisables et des systèmes d’interface utilisateur axés sur le produit."
       },
       {
-        "metric": "Stateful",
-        "title": "Rechargement à chaud",
-        "description": "Vitesse d'itération de pointe permettant aux développeurs de corriger les bugs et de créer des interfaces utilisateur en temps réel sans perdre d'état."
+        "metric": "Efficient",
+        "title": "Livraison MVP plus rapide",
+        "description": "Lancez plus rapidement des MVP de démarrage, des applications compagnons SaaS, des applications de réservation et des plates formes de services grâce à une approche de développement multiplateforme rationalisée."
       },
       {
-        "metric": "Open",
-        "title": "Écosystème source",
-        "description": "Soutenu par Google et une communauté massive, fournissant des milliers de packages pré-testés pour une intégration rapide."
+        "metric": "Scalable",
+        "title": "Croissance des applications à long terme",
+        "description": "Créez une base maintenable qui prend en charge les nouvelles fonctionnalités, les intégrations, les améliorations de performances et l'expansion future des produits."
       }
     ]
   },
   "quote_section": {
-    "quote": "Flutter transforme la complexité du développement multiplateforme en un",
-    "highlight": "processus créatif fluide"
+    "quote": "Flutter aide les entreprises à transformer une vision de produit en",
+    "highlight": "une expérience d'application multiplateforme cohérente"
   },
   "conversation_section": {
-    "title": "Concevez votre expérience mobile",
-    "subtitle": "Consultez nos spécialistes Flutter pour concevoir une application hautes performances pour iOS, Android et Web.",
-    "full_name_label": "Développeur principal",
-    "business_email_label": "Courriel d'entreprise",
-    "message_label": "Exigences de l'application",
-    "full_name_placeholder": "Dr Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Décrivez votre vision multiplateforme ou vos défis de performance...",
-    "button_text": "Demander un devis"
+    "title": "Concevez votre expérience d'application Flutter",
+    "subtitle": "Travaillez avec Devisgon pour planifier, créer, améliorer ou faire évoluer une application Flutter pour les utilisateurs mobiles, les plates formes SaaS, les flux de travail commerciaux, les portails clients, les marchés et les produits numériques mondiaux.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Exigence de l'application",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@entreprise.com",
+    "message_placeholder": "Parlez nous de votre idée d'application Flutter, des plates formes cibles, des flux d'utilisateurs, des intégrations, des besoins backend ou des objectifs de performances...",
+    "button_text": "Demander une consultation Flutter"
   }
 }

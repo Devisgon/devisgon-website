@@ -1,0 +1,264 @@
+{
+  "slug": "llm-prompt-engineering",
+  "seo_metadata": {
+    "title": "LLM Prompt Engineering Services | AI Prompt Optimization, Structured Outputs & Evaluation | Devisgon",
+    "description": "Devisgon provides professional LLM prompt engineering services for AI agents, chatbots, structured outputs, prompt optimization, RAG workflows, evaluation systems, guardrails, and production ready AI applications.",
+    "keywords": [
+      "LLM prompt engineering services",
+      "prompt engineering company",
+      "AI prompt optimization",
+      "LLM optimization services",
+      "structured output prompts",
+      "AI prompt testing",
+      "prompt evaluation framework",
+      "prompt engineering for AI agents",
+      "prompt engineering for chatbots",
+      "RAG prompt engineering",
+      "AI guardrails development",
+      "LLM evaluation services",
+      "Promptfoo testing",
+      "LangSmith evaluation",
+      "AI output validation",
+      "JSON schema prompts",
+      "enterprise prompt engineering",
+      "production AI prompt design"
+    ]
+  },
+  "hero_section": {
+    "title": "LLM Prompt Engineering Services",
+    "subtitle": "Reliable Prompt Systems for Production AI Workflows",
+    "description": "Devisgon designs, tests, and optimizes LLM prompts for AI agents, chatbots, RAG systems, automation workflows, structured outputs, and business software. We help global companies turn unpredictable AI responses into accurate, consistent, validated, and production ready outputs.",
+    "buttons": [
+      {
+        "text": "Optimize My Prompts",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our AI Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is Enterprise Grade",
+    "span_heading": " Prompt Engineering?",
+    "content": [
+      "Enterprise grade prompt engineering is the process of designing structured instructions, context rules, examples, output formats, and evaluation tests that help AI systems behave reliably in real business workflows. It is not just writing better prompts; it is creating a controlled AI communication layer that can be tested, versioned, validated, and improved.",
+      "At Devisgon, we build prompt systems for AI agents, chatbots, automation flows, RAG pipelines, data extraction tools, internal assistants, and customer facing AI products. Our approach focuses on accuracy, structure, safety, cost control, edge cases, model behavior, and integration with backend systems."
+    ],
+    "highlight_quote": "“Strong prompt engineering turns AI from a flexible text generator into a reliable software component.”",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Business Benefits",
+    "subtitle": "Improve AI accuracy, structure, safety, and performance inside production workflows",
+    "cards": [
+      {
+        "title": "Consistent AI Outputs",
+        "description": "Create prompts that produce stable, structured, and predictable responses for business workflows and backend systems.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Better Accuracy and Context",
+        "description": "Use examples, role context, retrieval data, and clear task rules to improve answer quality and reduce weak outputs.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Safer AI Behavior",
+        "description": "Add guardrails, response limits, fallback rules, validation checks, and safe handling for sensitive business tasks.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Lower Token Cost",
+        "description": "Remove prompt waste, reduce repeated context, optimize instructions, and improve AI performance without unnecessary spend.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Receive with Devisgon Prompt Engineering",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Prompt Audit and AI Workflow Review",
+        "description": "We review current prompts, model behavior, output failures, workflow goals, edge cases, and business requirements."
+      },
+      {
+        "title": "2. Structured Prompt Templates",
+        "description": "We create reusable system prompts, user prompts, role instructions, examples, and task specific prompt formats."
+      },
+      {
+        "title": "3. JSON Output and Schema Design",
+        "description": "We design structured output formats, validation rules, field definitions, and backend friendly response patterns."
+      },
+      {
+        "title": "4. Prompt Testing and Evaluation Framework",
+        "description": "We build test cases, evaluation criteria, regression checks, and quality scoring for safer prompt updates."
+      },
+      {
+        "title": "5. Guardrails and Safety Rules",
+        "description": "We add refusal rules, fallback behavior, data boundaries, hallucination controls, and sensitive action limits."
+      },
+      {
+        "title": "6. Optimization and Maintenance",
+        "description": "We improve token usage, reduce latency, monitor outputs, update prompts, and maintain prompt reliability."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Prompt Engineering and Evaluation Tools We Use",
+    "subtitle": "Modern prompt testing, observability, structured output, validation, and AI workflow tools for production systems",
+    "tools": [
+      {
+        "name": "Promptfoo",
+        "icon": "SiPromptfoo"
+      },
+      {
+        "name": "LangSmith",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "OpenAI Structured Outputs",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Braintrust",
+        "icon": "SiBraintrust"
+      },
+      {
+        "name": "Arize Phoenix",
+        "icon": "SiArize"
+      },
+      {
+        "name": "Langfuse",
+        "icon": "SiLangfuse"
+      },
+      {
+        "name": "Pydantic",
+        "icon": "SiPydantic"
+      },
+      {
+        "name": "Next.js AI SDK",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase Prompt Registry",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "YAML / JSON Schema",
+        "icon": "SiJson"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Weights & Biases",
+        "icon": "SiWeightsandbiases"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our LLM Prompt Engineering Process",
+    "subtitle": "A focused 6 step process from discovery to testing, deployment, maintenance, and optimization",
+    "steps": [
+      {
+        "title": "Discovery Call",
+        "description": "We understand your AI use case, output needs, workflows, users, risks, and success criteria.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Prompt and Process Audit",
+        "description": "We review current prompts, failure patterns, edge cases, model behavior, and integration points.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Prompt Strategy",
+        "description": "We define prompt structure, examples, output schemas, guardrails, test cases, and evaluation rules.",
+        "icon": "VscGraphLine"
+      },
+      {
+        "title": "Development and Integration",
+        "description": "We build prompt templates, validation logic, structured outputs, and workflow integration patterns.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Testing and Deployment",
+        "description": "We test accuracy, safety, formatting, edge cases, and deploy the prompts into production workflows.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Maintenance and Optimization",
+        "description": "We monitor outputs, reduce token cost, improve prompts, update tests, and maintain quality over time.",
+        "icon": "PiCodeFill"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Prompt Optimization That Improved Output Reliability and Reduced AI Runtime Cost",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A SaaS business was using AI prompts that produced inconsistent formatting, weak summaries, and occasional broken JSON outputs. These failures created manual review work and caused backend automation steps to fail."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "Devisgon redesigned the prompt structure with clearer system instructions, structured output schemas, validation rules, test cases, and fallback behavior. We also optimized repeated context to reduce unnecessary token usage."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "The business improved AI output consistency, reduced manual correction time, lowered prompt cost, and created a safer foundation for AI powered workflows inside the product."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "LLM Prompt Engineering Questions and Answers",
+    "subtitle": "Detailed answers for founders, product teams, CTOs, and AI teams improving production LLM workflows",
+    "questions": [
+      {
+        "question": "What is prompt engineering and why does it matter for business AI systems?",
+        "answer": "Prompt engineering is the process of designing clear instructions, examples, context, output formats, and rules for AI models. In business systems, it matters because poor prompts create inconsistent, unsafe, or unusable outputs. Strong prompt engineering improves reliability, accuracy, structure, and workflow automation."
+      },
+      {
+        "question": "How is professional prompt engineering different from writing normal prompts?",
+        "answer": "Normal prompting is often informal and untested, while professional prompt engineering treats prompts like part of the software system. It includes reusable templates, structured outputs, version control, evaluation tests, guardrails, and backend validation. This makes AI behavior easier to manage in production."
+      },
+      {
+        "question": "Can prompt engineering reduce hallucinations?",
+        "answer": "Yes, prompt engineering can reduce hallucinations by using trusted context, retrieval data, response boundaries, explicit uncertainty rules, and validation checks. It cannot guarantee perfect answers alone, so we often combine prompts with RAG, structured data, tool limits, and human review for high risk workflows."
+      },
+      {
+        "question": "What are structured outputs and why are they useful?",
+        "answer": "Structured outputs force the AI response into a predictable format such as JSON with required fields. This is useful when AI results need to be parsed by backend systems, automation tools, CRMs, dashboards, or databases. It reduces broken formatting and makes AI outputs easier to validate."
+      },
+      {
+        "question": "Can prompt engineering improve AI chatbot and AI agent performance?",
+        "answer": "Yes. Chatbots and AI agents depend heavily on prompt quality, tool instructions, fallback rules, and context design. Better prompts help them answer more accurately, follow the right tone, use tools correctly, and avoid unsupported actions. This improves user experience and operational reliability."
+      },
+      {
+        "question": "How do you test whether a prompt works well?",
+        "answer": "We test prompts using real examples, edge cases, expected outputs, schema checks, failure scenarios, and evaluation criteria. We compare model responses against business requirements instead of relying on one manual test. This helps catch weak behavior before the prompt is used in production."
+      },
+      {
+        "question": "Can prompt engineering reduce AI API costs?",
+        "answer": "Yes. Cost can be reduced by shortening unnecessary instructions, removing repeated context, improving retrieval quality, using structured templates, and routing tasks to the right model. Better prompt design can also reduce retries and manual correction work, which lowers operational cost."
+      },
+      {
+        "question": "Does Devisgon provide ongoing prompt maintenance?",
+        "answer": "Yes. Prompts need maintenance because models, workflows, user behavior, data, and business rules change over time. Devisgon monitors outputs, updates prompt templates, improves evaluation tests, optimizes token usage, and adjusts prompts as your AI system evolves."
+      }
+    ],
+    "footer": {
+      "text": "Ready to make your AI outputs more reliable and production ready?",
+      "link_text": "Schedule a prompt engineering review",
+      "link_url": "/contact"
+    }
+  }
+}

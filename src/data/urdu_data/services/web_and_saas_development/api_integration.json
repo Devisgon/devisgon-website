@@ -1,17 +1,21 @@
 {
   "slug": "api-integration",
-
   "hero_section": {
     "title": "API & System Integration Automation Services",
-    "subtitle": "ERP Integration, CRM Integration & Cross-Platform Workflow Automation",
-    "description": "Connect your ERP, CRM, accounting software, e-commerce platforms, and SaaS tools with secure API integrations and automated data synchronization systems.",
+    "subtitle": "ERP Integration, CRM Integration & Cross Platform Workflow Automation",
+    "description": "Connect your ERP, CRM, accounting software, e commerce platforms, and SaaS tools with secure API integrations and automated data synchronization systems.",
     "buttons": [
-      { "text": "Integrate My Systems", "link": "/contact" },
-      { "text": "Contact Us", "link": "/contact" }
+      {
+        "text": "Integrate My Systems",
+        "link": "/contact"
+      },
+      {
+        "text": "Contact Us",
+        "link": "/contact"
+      }
     ],
     "hero_image": "/videos/api_integration.mp4"
   },
-
   "introduction_section": {
     "heading": "What is",
     "span_heading": " API & System Integration Automation?",
@@ -19,21 +23,20 @@
       "Disconnected software systems create data silos, duplicate work, and operational inefficiencies.",
       "At Devisgon, we design secure API integration and system automation solutions that unify your digital ecosystem. Our integration services:",
       "   •  Connect ERP, CRM, and accounting systems",
-      "   •  Enable real-time data synchronization",
-      "   •  Automate cross-platform workflows",
-      "   •  Implement webhook-based trigger systems",
+      "   •  Enable real time data synchronization",
+      "   •  Automate cross platform workflows",
+      "   •  Implement webhook based trigger systems",
       "The result: seamless data flow, reduced manual entry, and unified operations."
     ],
     "highlight_quote": "“Connected systems. Unified data. Automated efficiency.”",
     "side_image": "/all_services/api_integration/introduction.webp"
   },
-
   "key_benefits_section": {
     "title": "Key Benefits",
     "subtitle": "Eliminate data silos and inefficiencies",
     "cards": [
       {
-        "title": "Real-Time Data Sync",
+        "title": "Real Time Data Sync",
         "description": "Automatically synchronize data across platforms.",
         "icon_type": "MdSync"
       },
@@ -54,7 +57,6 @@
       }
     ]
   },
-
   "what_you_get_section": {
     "title": "What you'll get when you choose API & System Integration Automation",
     "image": "/all_services/api_integration/wwg.webp",
@@ -65,11 +67,11 @@
       },
       {
         "title": "2. Automated Data Pipelines",
-        "description": "Real-time synchronization across systems."
+        "description": "Real time synchronization across systems."
       },
       {
         "title": "3. Webhook & Event Automation",
-        "description": "Trigger-based cross-platform workflows."
+        "description": "Trigger based cross platform workflows."
       },
       {
         "title": "4. Centralized Monitoring Dashboard",
@@ -77,20 +79,36 @@
       }
     ]
   },
-
   "technologies_section": {
     "title": "Integration Technologies",
     "subtitle": "Secure and scalable API architecture",
     "tools": [
-      { "name": "REST APIs", "icon": "FaExchangeAlt" },
-      { "name": "GraphQL", "icon": "SiGraphql" },
-      { "name": "Node.js", "icon": "FaNodeJs" },
-      { "name": "Python", "icon": "FaPython" },
-      { "name": "AWS", "icon": "FaAws" },
-      { "name": "MongoDB", "icon": "SiMongodb" }
+      {
+        "name": "REST APIs",
+        "icon": "FaExchangeAlt"
+      },
+      {
+        "name": "GraphQL",
+        "icon": "SiGraphql"
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "SiMongodb"
+      }
     ]
   },
-
   "process_section": {
     "title": "Our Process",
     "subtitle": "Secure integration deployment",
@@ -112,12 +130,11 @@
       },
       {
         "title": "Deploy",
-        "description": "Launch and monitor real-time synchronization.",
+        "description": "Launch and monitor real time synchronization.",
         "icon": "FaRocket"
       }
     ]
   },
-
   "case_study_section": {
     "headline": "Unified 5 Business Systems",
     "image": "/all_services/api_integration/case_study.webp",
@@ -128,7 +145,7 @@
       },
       "solution": {
         "label": "Solution",
-        "text": "Implemented API-based integration with automated order and invoice synchronization."
+        "text": "Implemented API based integration with automated order and invoice synchronization."
       },
       "result": {
         "label": "Result",
@@ -136,7 +153,6 @@
       }
     }
   },
-
   "faq_section": {
     "title": "Frequently Asked Questions",
     "subtitle": "Integration Automation FAQs",
@@ -146,8 +162,8 @@
         "answer": "Yes, we build secure API connections between enterprise platforms."
       },
       {
-        "question": "Do you provide real-time data synchronization?",
-        "answer": "Yes, including webhook and event-driven automation."
+        "question": "Do you provide real time data synchronization?",
+        "answer": "Yes, including webhook and event driven automation."
       },
       {
         "question": "Is API integration secure?",

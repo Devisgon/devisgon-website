@@ -1,0 +1,206 @@
+{
+  "slug": "marketing-dashboard",
+  "hero_section": {
+    "title": "企业营销仪表板工程",
+    "subtitle": "统一的全渠道情报和实时绩效分析",
+    "description": "我们设计了高性能、实时营销仪表板，将分散的多渠道广告数据、客户获取渠道和转化指标整合为单一的玻璃形态事实来源。以编程方式最大限度地提高广告支出效率并消除分析盲点。",
+    "buttons": [
+      {
+        "text": "架构师我的仪表板",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的数据工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/dashboard_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "营销仪表板？",
+    "content": [
+      "在 Devisgon，我们将营销分析视为一门精确的数据工程学科。我们远远超越了缓慢、断开连接的电子表格宏和通用静态分析模板，我们设计了基于流数据摄取网格、亚秒级查询执行和高性能可视化图表界面构建的低延迟客户端分析应用程序。",
+      "我们弥合了复杂的多平台程序化广告平台和战术性企业决策之间的差距。我们部署的每个监控控制台都具有完全容器化的 API 管道、安全的第三方凭证管理、自动数据清理模型和暗模式美观，可以在全球管理团队中完美地呈现您的转化指标。"
+    ],
+    "highlight_quote": "“统一营销遥测、亚秒级跟踪查询、100% 自动化绩效可见性。”",
+    "side_image": "/all_services/dashboard/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将脱节的多平台广告指标转变为单一的高保真视觉界面",
+    "cards": [
+      {
+        "title": "全渠道整合",
+        "description": "在单个关系视图中聚合并查看 Google Ads、Meta、LinkedIn 和电子邮件网络的完整绩效循环。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "亚秒级查询速度",
+        "description": "使用高度优化的数据库索引结构在个位数毫秒内查询数百万条原始行为事件记录和转化接触点。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "即时结构警报",
+        "description": "对自定义性能检查循环进行编程，以主动监控每次获取成本 (CPA) 目标，如果指标发生变化，立即向团队发出警报。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "预测支出洞察",
+        "description": "将原始历史广告指标转化为干净的数据数组，以计算精确的客户生命周期价值 (LTV) 路径和未来扩展曲线。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devsgon Analytics 基础设施获得什么",
+    "image": "/all_services/dashboard/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 多平台API数据摄取网格",
+        "description": "强大的提取代理（通过 n8n 或 Make.com 设计）旨在提取跨平台营销数据有效负载并标准化格式架构。"
+      },
+      {
+        "title": "2. 高性能关系指标池",
+        "description": "在安全、查询优化的后端网格内配置专用数据库表，以保持历史数据的绝对一致性。"
+      },
+      {
+        "title": "3.自动归因映射引擎",
+        "description": "构建自定义查询路由，用于跨用户路径准确计算首次触摸、最后一次触摸和线性多触摸归因指标。"
+      },
+      {
+        "title": "4. 环境发光玻璃控制面板",
+        "description": "响应式 Next.js 用户界面采用背景模糊样式、精确的进度布局线以及 #f27f0c 等自定义颜色强调。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们与现代分析和视觉基础设施集成",
+    "subtitle": "行业领先的数据库平台、图表引擎和管道编排器，专为密集数据规模而构建",
+    "tools": [
+      {
+        "name": "Next.js（应用程序路由器）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（分析网格）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "n8n（数据编排）",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Tailwind CSS（美学造型）",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "Framer Motion（图表渲染）",
+        "icon": "SiFramermotion"
+      },
+      {
+        "name": "Tremor UI / 图表",
+        "icon": "SiReact"
+      },
+      {
+        "name": "谷歌广告 API",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "元图API",
+        "icon": "SiMeta"
+      },
+      {
+        "name": "HubSpot 分析 API",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "Redis（查询缓存）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从原始 API 端点审核到可操作的自定义界面在 6 周内启动",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核企业广告资料、跟踪第三方 API 速率限制、地图数据归属要求以及详细指标目标。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定主数据库存储模式、构建有效负载提取图并设计暗模式玻璃形态小部件界面。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对自定义提取路由器进行编程，在 n8n/Make 上配置管道同步，并在 Next.js 中编写低延迟客户端渲染视图。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行广泛的高吞吐量数据压力测试，优化索引脚本，并安全地启动自我更新性能仪表板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100% 准确的成本归因映射，每周恢复超过 18 小时的工程时间",
+    "image": "/all_services/dashboard/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于数据更新分散、数据差异以及缓慢的手动跨平台报告循环，一个规模不断扩大的消费品牌正在做出次优的广告预算选择。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 n8n 和无服务器 Next.js API 路由设计了一个自动营销数据聚合器，在隔离的 Supabase 数据库池内显示结构化指标。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "手动编译工作量降至绝对零，数据同步延迟降至亚秒级，管理人员可以立即了解真正的实时采集成本。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "仪表板架构和常见问题解答",
+    "subtitle": "关键数据库配置、Webhook 处理和管道安全问题的清晰答案",
+    "questions": [
+      {
+        "question": "为什么将视觉集成微服务与自定义编程框架配对？",
+        "answer": "我们将 n8n 或 Make.com 的敏捷工作流程跟踪与专门的 Next.js 无服务器路由处理程序相结合。该架构利用低代码接口进行清晰的数据流监控，并利用自定义 JavaScript 代码块进行安全令牌解析、多层排序规则和精确的数组转换。"
+      },
+      {
+        "question": "在高速流量激增或点击波期间，仪表板跟踪系统会发生什么？",
+        "answer": "我们部署由高速 Redis 数据库缓冲区支持的无状态集成中间件。如果您的广告活动生成数千个并发用户点击网络钩子，我们的管道可以安全地构建有效负载，更新视觉元素，而不会触及第三方执行限制。"
+      },
+      {
+        "question": "我们能否将 Jotform 等自定义前端接收渠道直接连接到主营销视图中？",
+        "answer": "绝对地。我们构建了强大的 Webhook 网关，可以从 Jotform 等平台安全地获取实时 JSON 参数，在更新中央关系指标表之前解析转换标记。"
+      },
+      {
+        "question": "如何跨集成管道保护敏感的营销数据和活动预算？",
+        "answer": "我们部署的每个自动化数据平台都强制执行零信任参数模型。所有传入的 Webhook 均使用加密签名（SHA 256 标头标签）进行验证，所有数据流在传输过程中均通过 TLS 1.3 进行加密，并且私有公司字段在显示前完全屏蔽。"
+      }
+    ],
+    "footer": {
+      "text": "准备好构建统一的高性能营销遥测架构了吗？",
+      "link_text": "与我们的团队安排企业仪表板审查",
+      "link_url": "/contact"
+    }
+  }
+}

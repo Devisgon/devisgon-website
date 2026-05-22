@@ -1,116 +1,135 @@
 {
   "slug": "mysql",
   "seo_metadata": {
-    "title": "Desarrollo empresarial MySQL y diseño de bases de datos relacionales",
-    "description": "Servicios expertos en implementación y optimización de MySQL. Diseñamos bases de datos relacionales de alta integridad diseñadas para el cumplimiento de ACID, la seguridad y un rendimiento consistente.",
+    "title": "Servicios de desarrollo MySQL | Diseño de bases de datos relacionales y optimización de SQL | diseño",
+    "description": "Devisgon proporciona servicios profesionales de desarrollo MySQL para diseño de bases de datos relacionales, optimización de SQL, arquitectura de datos segura, plataformas SaaS, aplicaciones comerciales, paneles y sistemas de software listos para la nube.",
     "keywords": [
-      "Desarrollo MySQL",
-      "Diseño de bases de datos relacionales",
-      "Optimización de SQL",
-      "Cumplimiento del ÁCIDO",
-      "Agrupación de bases de datos",
-      "Ajuste del rendimiento de InnoDB",
-      "Servicios MySQL administrados"
+      "servicios de desarrollo mysql",
+      "Diseño de base de datos MySQL",
+      "Consultoría MySQL",
+      "desarrollo de bases de datos relacionales",
+      "Arquitectura de base de datos SQL",
+      "Optimización de consultas SQL",
+      "Optimización del rendimiento de MySQL",
+      "Desarrollo de back end MySQL",
+      "diseño de esquema de base de datos",
+      "Base de datos compatible con ACID",
+      "desarrollo de bases de datos empresariales",
+      "MySQL para plataformas SaaS",
+      "desarrollo de MySQL en la nube",
+      "soluciones de bases de datos SQL empresariales",
+      "Desarrollo de API MySQL",
+      "Migración de datos MySQL",
+      "desarrollo seguro de bases de datos",
+      "aplicaciones MySQL personalizadas"
     ]
   },
   "hero_section": {
-    "eyebrow": "Excelencia Relacional",
-    "title": "Integridad escalable con",
+    "eyebrow": "Desarrollo de bases de datos relacionales",
+    "title": "Construya sistemas de datos confiables con",
     "highlight": "MySQL",
-    "description": "Aproveche la base de datos de código abierto más popular del mundo para crear aplicaciones transaccionales seguras centrándose en la coherencia de los datos y el rendimiento de alta concurrencia.",
+    "description": "Devisgon diseña y optimiza bases de datos MySQL para plataformas SaaS, aplicaciones comerciales, paneles de control, portales de clientes, sistemas de comercio electrónico, herramientas de informes y productos listos para la nube que necesitan datos estructurados, transacciones confiables y escalabilidad a largo plazo.",
     "side_image": "/technologies/my_sql/hero.webp",
     "primary_cta": {
-      "text": "Optimice su base de datos",
+      "text": "Planifique su arquitectura MySQL",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Ver Arquitectura",
+      "text": "Explorar el alcance de la base de datos",
       "href": "/technologies/mysql#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Por qué diseñamos con MySQL",
-    "subtitle": "MySQL sigue siendo el estándar de oro para datos relacionales y ofrece una confiabilidad inigualable para cargas de trabajo estructuradas.",
+    "title": "Por qué construimos con MySQL",
+    "subtitle": "MySQL es una base de datos relacional confiable para aplicaciones que requieren datos estructurados, confiabilidad transaccional, consultas SQL maduras y lógica empresarial segura.",
     "paragraphs": [
-      "Para aplicaciones que requieren una estricta integridad de los datos y consultas relacionales complejas, MySQL es nuestra principal opción. Su sólido soporte para transacciones ACID garantiza que cada operación se procese de manera confiable, lo que lo hace ideal para sistemas financieros y lógica empresarial central.",
-      "Al utilizar motores de almacenamiento modernos como InnoDB e implementar estrategias de indexación avanzadas, proporcionamos una capa de datos que equilibra el rendimiento de lectura de alta velocidad con la seguridad de la gestión de datos estructurados."
+      "Devisgon utiliza MySQL para productos donde la coherencia de los datos, las relaciones, los informes y la seguridad de las transacciones son importantes. Es una excelente opción para plataformas SaaS, paneles de administración, sistemas CRM, flujos de trabajo de comercio electrónico, operaciones financieras, plataformas de reservas, portales de clientes, sistemas de inventario y aplicaciones comerciales personalizadas.",
+      "Una implementación exitosa de MySQL depende de algo más que la creación de tablas. Nuestro enfoque se centra en la planificación de esquemas, el diseño de relaciones, la indexación, la optimización de consultas, el control de acceso, las migraciones, las copias de seguridad, la integración de API, las necesidades de informes y la implementación en la nube para que su base de datos siga siendo confiable, segura y escalable a medida que su producto crece."
     ],
     "cards": [
       {
-        "title": "Cumplimiento del ÁCIDO",
-        "description": "Garantice la validez de los datos mediante el procesamiento de transacciones atómicas, consistentes, aisladas y duraderas.",
-        "icon_type": "FaShieldAlt"
-      },
-      {
-        "title": "Madurez relacional",
-        "description": "Maneje uniones complejas y relaciones entre tablas múltiples con un optimizador maduro y un motor de ejecución probado.",
+        "title": "Modelado de datos estructurados",
+        "description": "Diseñe tablas, relaciones, restricciones y reglas de esquema normalizadas que mantengan los datos comerciales organizados, precisos y fáciles de consultar.",
         "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "La seguridad es lo primero",
-        "description": "Benefíciese de un modelo de seguridad probado en batalla, que incluye control de acceso granular y conexiones cifradas.",
-        "icon_type": "FaLock"
+        "title": "Transacciones confiables",
+        "description": "Respalde flujos de trabajo críticos, como pagos, pedidos, reservas, aprobaciones, cambios de inventario y registros de clientes con coherencia transaccional.",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "Rendimiento SQL optimizado",
+        "description": "Mejore la velocidad de las aplicaciones con índices, ajuste de consultas, planificación de relaciones, patrones de lectura, vistas de informes y estructura de base de datos lista para producción.",
+        "icon_type": "FaDatabase"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Alcance del diseño de MySQL",
+    "title": "Alcance del desarrollo de MySQL",
     "image": "/technologies/my_sql/scope.webp",
     "items": [
       {
-        "title": "Modelado de datos normalizados",
-        "description": "Diseño de esquemas 3NF eficientes que minimicen la redundancia y mantengan el máximo rendimiento de las consultas."
+        "title": "Diseño de esquemas relacionales",
+        "description": "Diseño de tablas, relaciones, claves primarias, claves externas, restricciones, índices y modelos de datos basados ​​en flujos de trabajo de aplicaciones reales y necesidades de generación de informes."
       },
       {
-        "title": "División de lectura/escritura",
-        "description": "Implementar arquitecturas de réplica primaria para distribuir el tráfico y garantizar la escalabilidad horizontal para aplicaciones con mucha lectura."
+        "title": "Consulta SQL y optimización del rendimiento",
+        "description": "Mejora de consultas lentas, uniones, índices, patrones de lectura/escritura, consultas de informes y lógica de acceso a datos para un rendimiento más rápido de las aplicaciones."
       },
       {
-        "title": "Conmutación por error automatizada",
-        "description": "Configuración de clústeres de alta disponibilidad con replicación sincrónica o semisincrónica para una continuidad del negocio las 24 horas, los 7 días de la semana."
+        "title": "Integración de backend y API",
+        "description": "Conexión de MySQL con servicios backend, API REST, API GraphQL, plataformas SaaS, paneles, portales, sistemas de administración y flujos de trabajo empresariales."
+      },
+      {
+        "title": "Migración y Modernización de Datos",
+        "description": "Planificación de migraciones seguras de bases de datos, actualizaciones de esquemas, limpieza de datos heredados, flujos de trabajo de importación, estrategias de respaldo y transformación de datos estructurados."
+      },
+      {
+        "title": "Seguridad, acceso y confiabilidad",
+        "description": "Implementación de usuarios de bases de datos, permisos, conexiones cifradas, copias de seguridad, planificación de restauración, separación de entornos, estructuras fáciles de auditar y salvaguardas de producción."
       }
     ]
   },
   "edge_section": {
     "title": "La ventaja de MySQL",
-    "subtitle": "Rendimiento confiable para la web moderna.",
+    "subtitle": "Una base de datos relacional comprobada para productos que necesitan coherencia, seguridad, generación de informes, flujos de trabajo estructurados y mantenibilidad a largo plazo.",
     "cards": [
       {
-        "metric": "100%",
-        "title": "Integridad de datos",
-        "description": "Garantizar la coherencia transaccional en todos los conjuntos de datos relacionales mediante una estricta aplicación de restricciones."
+        "metric": "Reliable",
+        "title": "Consistencia transaccional",
+        "description": "Mantenga precisas las operaciones comerciales importantes con reglas relacionales, restricciones y flujos de trabajo seguros para las transacciones."
       },
       {
-        "metric": "Open",
-        "title": "Ecosystem",
-        "description": "Aprovechando una comunidad masiva e infinitas herramientas de terceros para monitoreo, respaldo y migración."
+        "metric": "Structured",
+        "title": "Borrar relaciones de datos",
+        "description": "Modele clientes, pedidos, usuarios, roles, pagos, reservas, inventario e informes con una arquitectura de base de datos relacional organizada."
       },
       {
-        "metric": "Low",
-        "title": "TCO",
-        "description": "Logre un rendimiento de base de datos de nivel empresarial sin los prohibitivos costos de licencia de los motores SQL propietarios."
+        "metric": "Optimized",
+        "title": "Rendimiento de consultas SQL",
+        "description": "Admite paneles rápidos, flujos de trabajo de búsqueda, informes, paneles de administración y pantallas de aplicaciones con índices optimizados y consultas eficientes."
       },
       {
-        "metric": "Zero",
-        "title": "Bloqueo de proveedor",
-        "description": "Mantenga el control total de su infraestructura con un motor portátil de código abierto compatible con todas las nubes principales."
+        "metric": "Scalable",
+        "title": "Crecimiento de aplicaciones empresariales",
+        "description": "Cree una base de datos que pueda admitir más usuarios, más registros, más integraciones y más complejidad operativa a lo largo del tiempo."
       }
     ]
   },
   "quote_section": {
-    "quote": "MySQL proporciona la base estructurada necesaria para convertir datos complejos en",
-    "highlight": "lógica de negocios confiable"
+    "quote": "MySQL convierte datos empresariales estructurados en",
+    "highlight": "lógica de aplicación confiable"
   },
   "conversation_section": {
-    "title": "Diseñe su solución SQL",
-    "subtitle": "Consulte con nuestros especialistas en bases de datos para auditar su esquema u optimizar el rendimiento de su consulta.",
-    "full_name_label": "Administrador principal de base de datos",
-    "business_email_label": "Correo electrónico de la entidad",
-    "message_label": "Requisito técnico",
-    "full_name_placeholder": "Dr. Julián Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describa sus desafíos de rendimiento de SQL u objetivos arquitectónicos...",
-    "button_text": "Solicitar auditoría de base de datos"
+    "title": "Diseñe la arquitectura de su base de datos MySQL",
+    "subtitle": "Trabaje con Devisgon para planificar, crear, migrar u optimizar MySQL para plataformas SaaS, aplicaciones comerciales, paneles, portales, sistemas de comercio electrónico, API y productos digitales listos para la nube.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico empresarial",
+    "message_label": "Requisito de base de datos",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@empresa.com",
+    "message_placeholder": "Cuéntenos sobre su aplicación, esquema, configuración de MySQL, problemas de rendimiento de consultas, necesidades de migración u objetivos de arquitectura de base de datos...",
+    "button_text": "Solicitar consulta MySQL"
   }
 }

@@ -1,116 +1,135 @@
 {
   "slug": "amazon-dynamodb",
   "seo_metadata": {
-    "title": "Amazon DynamoDB 咨询与架构 |高性能NoSQL",
-    "description": "专家 Amazon DynamoDB 实施服务。构建任意规模的、具有个位数毫秒性能的无服务器、超低延迟应用程序。",
+    "title": "Amazon DynamoDB 开发服务 |无服务器 NoSQL 数据库架构 |德维斯冈",
+    "description": "Devisgon 为无服务器应用程序、可扩展的 NoSQL 数据库架构、AWS 集成、实时数据工作流程和云原生软件平台提供专业的 Amazon DynamoDB 开发服务。",
     "keywords": [
-      "亚马逊动态数据库",
-      "NoSQL 数据库设计",
-      "无服务器架构",
-      "AWS 数据建模",
-      "单桌设计",
-      "DynamoDB 流",
-      "全局表"
+      "Amazon DynamoDB 开发服务",
+      "DynamoDB 咨询",
+      "DynamoDB 数据库设计",
+      "无服务器 NoSQL 数据库",
+      "AWS数据库架构",
+      "DynamoDB 单表设计",
+      "DynamoDB 数据建模",
+      "无服务器应用程序开发",
+      "AWS云数据库服务",
+      "NoSQL数据库开发",
+      "DynamoDB API 开发",
+      "DynamoDB 流集成",
+      "AWS Lambda DynamoDB 集成",
+      "云原生数据库架构",
+      "可扩展的数据库开发",
+      "高性能数据库设计",
+      "适用于 SaaS 平台的 DynamoDB",
+      "企业NoSQL数据库解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "无服务器 NoSQL 数据库",
-    "title": "极端规模与",
+    "eyebrow": "无服务器 NoSQL 数据库架构",
+    "title": "构建云原生应用程序",
     "highlight": "亚马逊动态数据库",
-    "description": "通过完全托管的个位数毫秒性能，从每月几个请求无缝扩展到每秒数百万个请求。",
+    "description": "Devisgon 为可扩展 SaaS 平台、无服务器应用程序、实时工作流程、高流量系统、移动后端和 AWS 支持的数字产品设计和实施 Amazon DynamoDB 解决方案。",
     "side_image": "/technologies/dynamodb/hero.webp",
     "primary_cta": {
-      "text": "优化您的工作量",
+      "text": "规划您的 DynamoDB 架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看架构模式",
+      "text": "探索数据库范围",
       "href": "/technologies/amazon-dynamodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 DynamoDB 进行工程",
-    "subtitle": "DynamoDB 是高并发分布式应用程序的支柱，其中延迟是不可协商的。",
+    "title": "为什么我们使用 Amazon DynamoDB 进行构建",
+    "subtitle": "对于需要可扩展数据访问、托管基础设施、灵活的数据模型和可靠的 AWS 生态系统集成的云原生产品来说，Amazon DynamoDB 是一个强大的数据库选择。",
     "paragraphs": [
-      "与传统 RDBMS 不同，DynamoDB 在任何规模下都能提供一致的性能。我们利用它来消除数据库管理的开销，使您的团队能够专注于业务逻辑，而不是配置集群或管理分片。",
-      "通过实施专家的单表设计模式，我们确保您的数据访问高效、成本优化，并且能够在无需人工干预的情况下处理不可预测的流量峰值。"
+      "Devisgon 将 Amazon DynamoDB 用于需要快速数据访问、灵活的 NoSQL 建模、无服务器基础设施以及无需传统数据库管理即可扩展的应用程序。它对于 SaaS 平台、移动应用程序、物联网式工作负载、事件驱动系统、客户门户、分析工作流程和高流量业务应用程序特别有用。",
+      "当数据模型围绕真实应用程序访问模式设计时，DynamoDB 效果最佳。我们的方法侧重于实用的架构规划、分区键策略、查询模式、索引、AWS Lambda 集成、流、API 架构、监控和成本感知实施，以便您的数据库支持性能、可靠性和长期增长。"
     ],
     "cards": [
       {
-        "title": "可预测的延迟",
-        "description": "无论数据量如何，读/写操作的响应时间均一致低于 10 毫秒。",
-        "icon_type": "FaBolt"
-      },
-      {
-        "title": "无服务器操作",
-        "description": "零服务器管理。通过“按需”或“预配置”容量模式自动扩展。",
+        "title": "无服务器数据库操作",
+        "description": "使用完全托管的 NoSQL 数据库基础，减少基础设施管理并支持云原生应用程序交付。",
         "icon_type": "FaCloud"
       },
       {
-        "title": "全局复制",
-        "description": "使用全局表部署多区域、多活动数据库，实现 99.999% 的可用性。",
-        "icon_type": "FaGlobe"
+        "title": "可扩展的数据架构",
+        "description": "设计支持不断增长的用户、事务、记录和业务工作流程的数据模型、分区键、索引和查询模式。",
+        "icon_type": "FaDatabase"
+      },
+      {
+        "title": "AWS 原生集成",
+        "description": "将 DynamoDB 与 AWS Lambda、API Gateway、EventBridge、流、分析管道、身份验证层和无服务器后端系统连接。",
+        "icon_type": "FaPlug"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "DynamoDB 设计范围",
+    "title": "Amazon DynamoDB 开发范围",
     "image": "/technologies/dynamodb/scope.webp",
     "items": [
       {
-        "title": "单桌设计",
-        "description": "使用复杂的分区和排序键策略将多个实体合并到单个表中，以减少 API 调用。"
+        "title": "DynamoDB 数据建模",
+        "description": "为可扩展的应用程序工作流程设计基于访问模式的 NoSQL 架构、分区键、排序键、项结构和表策略。"
       },
       {
-        "title": "事件驱动的触发器",
-        "description": "利用 DynamoDB Streams 和 AWS Lambda 触发下游工作流程、搜索索引或实时分析。"
+        "title": "单表和多表架构",
+        "description": "根据产品复杂性、查询要求、运营需求、成本概况和长期可维护性规划正确的 DynamoDB 结构。"
       },
       {
-        "title": "全球二级指数（GSI）",
-        "description": "通过将数据投影到二级索引上来创建灵活的查询模式，从而支持多种方式查看同一数据集。"
+        "title": "索引和查询优化",
+        "description": "使用全局二级索引、本地二级索引、投影规划和读/写访问优化构建高效的查询模式。"
+      },
+      {
+        "title": "无服务器后端集成",
+        "description": "将 DynamoDB 与 AWS Lambda、API Gateway、身份验证系统、事件工作流程、后台作业、通知和云服务连接。"
+      },
+      {
+        "title": "流和事件驱动的工作流程",
+        "description": "使用 DynamoDB Streams 触发下游工作流程，例如审核日志、报告更新、通知、数据同步和实时处理。"
       }
     ]
   },
   "edge_section": {
-    "title": "DynamoDB 的优势",
-    "subtitle": "现代企业的可量化绩效。",
+    "title": "Amazon DynamoDB 的优势",
+    "subtitle": "云原生数据库基础，适用于需要可扩展性、托管操作、事件驱动的工作流程和 AWS 生态系统协调的产品。",
     "cards": [
       {
-        "metric": "<10毫秒",
-        "title": "延迟控制",
-        "description": "任何规模的键值和文档数据都具有一致的个位数毫秒延迟。"
+        "metric": "Serverless",
+        "title": "托管基础设施",
+        "description": "通过使用托管数据库服务而不是手动维护数据库服务器、修补、扩展和基础设施层来减少运营开销。"
       },
       {
-        "metric": "99.999%",
-        "title": "SLA 可靠性",
-        "description": "Global Tables 行业领先的正常运行时间，确保您的应用程序始终可访问。"
+        "metric": "Scalable",
+        "title": "高增长的工作负载",
+        "description": "支持流量不断变化、数据集不断扩展、用户活动不断增长以及业务关键型云工作流程的应用程序。"
       },
       {
-        "metric": "Double",
-        "title": "DAX 加速",
-        "description": "利用 DynamoDB Accelerator (DAX) 内存缓存将吞吐量进一步提高 10 倍。"
+        "metric": "Flexible",
+        "title": "NoSQL 数据模型",
+        "description": "围绕真实访问模式、文档样式记录、键值访问和特定于产品的查询要求对应用程序数据进行建模。"
       },
       {
-        "metric": "Zero",
-        "title": "Maintenance",
-        "description": "通过完全托管的 AWS 基础设施，消除修补、硬件配置和软件更新。"
+        "metric": "AWS Native",
+        "title": "云端整合",
+        "description": "使用 AWS Lambda、API Gateway、EventBridge、CloudWatch、身份验证服务和无服务器应用程序架构构建互联系统。"
       }
     ]
   },
   "quote_section": {
-    "quote": "DynamoDB 不仅仅是一个数据库；它也是一个数据库。这是建筑的基础",
-    "highlight": "超大规模无服务器生态系统"
+    "quote": "Amazon DynamoDB 帮助将云应用程序转变为",
+    "highlight": "可扩展的无服务器数据系统"
   },
   "conversation_section": {
-    "title": "扩展您的基础设施",
-    "subtitle": "请咨询我们的 AWS 认证数据专家来构建您的 DynamoDB 数据模型。",
-    "full_name_label": "首席工程师姓名",
-    "business_email_label": "公司邮箱",
-    "message_label": "技术要求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "告诉我们您的吞吐量要求或数据建模挑战......",
-    "button_text": "安排审核"
+    "title": "设计您的 DynamoDB 数据架构",
+    "subtitle": "与 Devisgon 合作，规划、设计和实施适用于 SaaS 平台、无服务器应用程序、移动后端、实时工作流程和 AWS 支持的数字产品的 Amazon DynamoDB。",
+    "full_name_label": "姓名",
+    "business_email_label": "企业邮箱",
+    "message_label": "数据库要求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的应用程序、数据访问模式、AWS 设置、可扩展性需求或 DynamoDB 架构挑战...",
+    "button_text": "请求 DynamoDB 咨询"
   }
 }

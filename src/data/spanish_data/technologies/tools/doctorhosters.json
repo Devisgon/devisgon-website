@@ -1,117 +1,234 @@
 {
   "slug": "doctorhosters",
   "seo_metadata": {
-    "title": "Arquitectura Cloud Segura y Consultoría para Salud",
-    "description": "Servicios profesionales de migración e implementación para el sector salud. Diseñamos soluciones clínicas escalables y seguras.",
+    "title": "Doctor: proveedor de dominio y alojamiento web para todos",
+    "description": "Doctor es una poderosa plataforma de dominio y alojamiento para individuos, empresas, nuevas empresas y empresas. Pon tu sitio web en línea rápidamente con hosting confiable y tu dominio perfecto.",
     "keywords": [
-      "Consultoría Cloud Salud",
-      "Arquitectura compatible con HIPAA",
-      "Computación sin servidor",
-      "Migración Cloud Médica",
-      "Infraestructura como código",
-      "Mejores prácticas de seguridad",
-      "Optimización de costos en la nube"
+      "Alojamiento médico",
+      "Registro de Dominio",
+      "Plataforma de alojamiento web",
+      "Comprar nombre de dominio",
+      "Planes de alojamiento asequibles",
+      "Alojamiento web empresarial",
+      "Proveedor de alojamiento en la nube",
+      "Proveedor de dominio médico",
+      "Alojamiento de sitios web rápido",
+      "Alojamiento web seguro"
     ]
   },
   "hero_section": {
-    "eyebrow": "Infraestructura Cloud Global para Medicina",
-    "title": "Escale sin límites con",
-    "highlight": "Hosting Moderno",
-    "description": "Construya, despliegue y gestione aplicaciones de grado médico en la plataforma en la nube más completa del mundo.",
+    "eyebrow": "Hosting y dominios para todos",
+    "title": "Su sitio web comienza con un",
+    "highlight": "Gran dominio",
+    "description": "Doctor es la plataforma todo en uno para encontrar el nombre de dominio perfecto y alojar su sitio web con velocidad, seguridad y simplicidad. Ya sea que sea un profesional independiente, una startup o una empresa, lo tenemos cubierto.",
     "side_image": "/doctr_hosting/doctor_hosting.webp",
     "primary_cta": {
-      "text": "Book a Meeting",
+      "text": "Reserve una llamada de descubrimiento",
       "href": "book_meeting"
     },
     "secondary_cta": {
-      "text": "View Landing Page",
+      "text": "Ver página de destino",
       "href": "/partners/doctorhoster"
     }
   },
   "why_use_section": {
-    "title": "Por qué diseñamos en Hosting Especializado",
-    "subtitle": "Proporcionamos la base más madura y segura para sistemas médicos distribuidos.",
+    "title": "Por qué la gente elige al médico",
+    "subtitle": "Rápido. Confiable. Tuyo.",
     "paragraphs": [
-      "Nuestro hosting es la opción preferida para la automatización cloud de grado empresarial en salud. Al aprovechar más de 200 servicios, eliminamos las restricciones de hardware físico.",
-      "Nuestro enfoque arquitectónico se centra en el marco de trabajo Well-Architected. Garantizamos excelencia operativa, seguridad, fiabilidad y optimización de costos."
+      "Doctor hace que sea fácil poner su idea, negocio o marca en línea. Busque el dominio perfecto, elija un plan de hosting que se ajuste a sus necesidades y comience a funcionar en minutos, sin necesidad de conocimientos técnicos.",
+      "Combinamos servidores increíblemente rápidos, un tiempo de actividad sólido y un panel de control intuitivo para que pueda concentrarse en crear su sitio web, no en administrarlo. Desde blogs personales hasta tiendas de comercio electrónico de alto tráfico, Doctor crece contigo."
     ],
     "cards": [
       {
-        "title": "Escalabilidad Inigualable",
-        "description": "Utilice el escalado automático para manejar picos de tráfico médico sin intervención manual.",
-        "icon_type": "FaExpandArrowsAlt"
+        "title": "Registro de Dominio",
+        "description": "Busque y regístrese en cientos de TLD. Encuentre el nombre de dominio que se adapte perfectamente a su marca.",
+        "icon_type": "FaGlobe"
       },
       {
-        "title": "Seguridad Empresarial",
-        "description": "Implemente cifrado de grado militar para proteger los datos sensibles de los pacientes.",
+        "title": "Alojamiento ultrarrápido",
+        "description": "Los servidores con tecnología SSD y la CDN global ofrecen su sitio web a la máxima velocidad a los visitantes de cualquier parte del mundo.",
+        "icon_type": "FaBolt"
+      },
+      {
+        "title": "Tiempo de actividad sólido como una roca",
+        "description": "La infraestructura redundante y el SLA de tiempo de actividad del 99,9 % mantienen su sitio web en línea las 24 horas del día.",
+        "icon_type": "FaServer"
+      },
+      {
+        "title": "Seguridad sin preocupaciones",
+        "description": "Certificados SSL gratuitos, protección DDoS y copias de seguridad automáticas en cada plan: seguridad integrada de forma predeterminada.",
         "icon_type": "FaShieldAlt"
-      },
-      {
-        "title": "Eficiencia de Costos",
-        "description": "Pague solo por lo que usa con precios bajo demanda para cargas de trabajo no críticas.",
-        "icon_type": "FaWallet"
       }
     ]
   },
+  "domain_section": {
+    "id": "domain-registration",
+    "title": "Encuentra tu dominio perfecto",
+    "subtitle": "Tu dominio es tu identidad en Internet. Hazlo memorable.",
+    "description": "Doctor ofrece registro de dominios en cientos de TLD. Ya sea que desee un .com clásico o una extensión nueva y atrevida, tenemos el dominio que cuenta su historia.",
+    "available_tlds": [
+      {
+        "tld": ".com",
+        "example": "yourbrand.com",
+        "description": "La extensión de dominio más confiable del mundo. Lo mejor para empresas de todos los tamaños."
+      },
+      {
+        "tld": ".net",
+        "example": "techstudio.net",
+        "description": "Una opción sólida y versátil para empresas de tecnología y plataformas en línea."
+      },
+      {
+        "tld": ".org",
+        "example": "community.org",
+        "description": "Ideal para organizaciones sin fines de lucro, comunidades y proyectos de código abierto."
+      },
+      {
+        "tld": ".store",
+        "example": "myshop.store",
+        "description": "Diseñado específicamente para el comercio electrónico y las marcas minoristas en línea."
+      },
+      {
+        "tld": ".io",
+        "example": "launchpad.io",
+        "description": "La extensión de referencia para nuevas empresas tecnológicas, productos SaaS y herramientas para desarrolladores."
+      },
+      {
+        "tld": ".co",
+        "example": "venture.co",
+        "description": "Breve, nítido y moderno: una elección popular para empresas emergentes y emprendedores."
+      }
+    ],
+    "cta": {
+      "text": "Busque su dominio",
+      "href": "/domain-search"
+    }
+  },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Alcance Arquitectónico Médico",
+    "title": "Todo lo que necesitas para conectarte a Internet",
     "image": "/doctr_hosting/doctor_hosting_1.webp",
     "items": [
       {
-        "title": "Arquitecturas Serverless",
-        "description": "Despliegue de lógica impulsada por eventos para alta disponibilidad sin gestión de servidores."
+        "title": "Dominio con un clic + Alojamiento",
+        "description": "Registre su dominio y ponga en marcha su entorno de hosting juntos en un único flujo fluido: disponible en menos de 5 minutos."
       },
       {
-        "title": "Data Lakes Gestionados",
-        "description": "Arquitectura de almacenamiento y análisis para obtener información de Big Data médica."
+        "title": "Creador de sitios web",
+        "description": "Creador de arrastrar y soltar con plantillas profesionales para que cualquiera pueda crear un sitio web impresionante sin escribir una sola línea de código."
       },
       {
-        "title": "Integración Cloud Híbrida",
-        "description": "Conexión de centros de datos locales con la nube mediante enlaces seguros y de baja latencia."
+        "title": "Listo para el comercio electrónico",
+        "description": "Entornos integrados compatibles con WooCommerce y Shopify para potenciar tu tienda online desde el primer día."
+      },
+      {
+        "title": "Herramientas para desarrolladores",
+        "description": "Acceso SSH completo, integración de Git, entornos de prueba y soporte para PHP, Node.js, Python y más."
+      },
+      {
+        "title": "Correo electrónico empresarial",
+        "description": "Cree direcciones de correo electrónico profesionales en su dominio (por ejemplo, hola@sumarca.com) con cada plan de hosting."
       }
     ]
   },
   "edge_section": {
-    "title": "La Ventaja Tecnológica Médica",
-    "subtitle": "Eficiencia cuantificable para una presencia digital global.",
+    "title": "La ventaja del médico",
+    "subtitle": "Números que demuestran que hablamos en serio.",
     "cards": [
       {
-        "metric": "99.99%",
-        "title": "SLA de Disponibilidad",
-        "description": "Fiabilidad líder en la industria en múltiples zonas y regiones globales."
+        "metric": "99,9%",
+        "title": "SLA de tiempo de actividad",
+        "description": "Nuestra infraestructura global redundante garantiza que su sitio web esté siempre disponible para sus visitantes."
       },
       {
-        "metric": "200+",
-        "title": "Servicios Completos",
-        "description": "Acceso inmediato a herramientas cloud incluyendo IA y IoT médico."
+        "metric": "< 1s",
+        "title": "Velocidad de carga de página",
+        "description": "El almacenamiento SSD y la entrega basada en CDN garantizan que su sitio se cargue rápidamente desde cualquier parte del planeta."
       },
       {
-        "metric": "315+",
-        "title": "Puntos de Presencia",
-        "description": "Entregue contenido médico con latencia ultra baja en todo el mundo."
+        "metric": "Free",
+        "title": "Certificado SSL",
+        "description": "Cada dominio y plan de alojamiento viene con un certificado SSL gratuito: HTTPS incluido de forma predeterminada."
       },
       {
-        "metric": "Cero",
-        "title": "Gastos de Hardware",
-        "description": "Elimine la necesidad de mantenimiento físico, permitiendo centrarse en la innovación."
+        "metric": "Daily",
+        "title": "Copias de seguridad automatizadas",
+        "description": "Se realiza una copia de seguridad de sus archivos y bases de datos todos los días para que pueda restaurar su sitio en cualquier momento."
+      },
+      {
+        "metric": "5 minutos",
+        "title": "Ir en vivo",
+        "description": "Desde la búsqueda de dominios hasta un sitio web activo: Doctor lo conecta más rápido que nadie."
       }
     ]
   },
   "quote_section": {
-    "quote": "El hosting convierte la infraestructura en un activo programable con",
-    "highlight": "flexibilidad infinita"
+    "quote": "Todo gran sitio web comienza con un nombre, y nosotros te ayudamos a encontrarlo.",
+    "highlight": "el que es tuyo"
+  },
+  "plans_section": {
+    "id": "pricing",
+    "title": "Planes simples para cada necesidad",
+    "subtitle": "Todos los planes incluyen un dominio gratuito, certificado SSL y copias de seguridad diarias.",
+    "plans": [
+      {
+        "name": "Starter",
+        "price": "$3.99/mes",
+        "description": "Perfecto para sitios web personales, portafolios y blogs.",
+        "features": [
+          "1 dominio gratuito (.com, .net, .org)",
+          "Almacenamiento SSD de 10 GB",
+          "Ancho de banda ilimitado",
+          "Certificado SSL gratuito",
+          "1 cuenta de correo electrónico empresarial",
+          "Copias de seguridad automatizadas diarias",
+          "Creador de sitios web incluido"
+        ],
+        "cta": "Empezar"
+      },
+      {
+        "name": "Business",
+        "price": "$9.99/mes",
+        "description": "Para empresas en crecimiento, tiendas online y marcas profesionales.",
+        "features": [
+          "3 dominios gratis",
+          "Almacenamiento SSD de 100 GB",
+          "Ancho de banda ilimitado",
+          "Certificado SSL gratuito",
+          "10 cuentas de correo electrónico comerciales",
+          "Listo para el comercio electrónico",
+          "Soporte prioritario 24 horas al día, 7 días a la semana",
+          "Suite de seguridad avanzada"
+        ],
+        "cta": "Iniciar prueba gratuita",
+        "highlighted": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "description": "Infraestructura de nube escalable para plataformas de alto tráfico y grandes organizaciones.",
+        "features": [
+          "Dominios ilimitados",
+          "Almacenamiento SSD ilimitado",
+          "Recursos de servidor dedicado",
+          "Configuración CDN personalizada",
+          "Correos electrónicos comerciales ilimitados",
+          "99,99% de tiempo de actividad respaldado por SLA",
+          "Gerente de cuentas dedicado",
+          "Seguridad y cumplimiento personalizados"
+        ],
+        "cta": "Contacto Ventas"
+      }
+    ]
   },
   "conversation_section": {
-    "title": "Arquitecte su Solución Cloud",
-    "subtitle": "Consulte con nuestros arquitectos certificados para definir su hoja de ruta de migración.",
-    "full_name_label": "Arquitecto Principal",
-    "business_email_label": "Correo Corporativo",
-    "message_label": "Requerimiento Cloud",
-    "full_name_placeholder": "Dr. Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describa sus desafíos de escalado médico o sus metas de migración...",
-    "button_text": "Solicitar Auditoría Cloud"
+    "title": "¿Listo para conectarse en línea con el médico?",
+    "subtitle": "Habla con nuestro equipo para encontrar el dominio y el plan de hosting adecuados para tu proyecto.",
+    "full_name_label": "Su nombre",
+    "business_email_label": "Dirección de correo electrónico",
+    "message_label": "Cuéntanos sobre tu proyecto",
+    "full_name_placeholder": "Alex Johnson",
+    "business_email_placeholder": "alex@tumarca.com",
+    "message_placeholder": "Cuéntanos sobre tu sitio web, el dominio que tienes en mente o el plan de hosting que estás buscando…",
+    "button_text": "Obtenga una consulta gratuita"
   }
 }
-

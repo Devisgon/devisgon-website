@@ -2,8 +2,8 @@
   "slug": "performance-testing",
   "hero_section": {
     "title": "Tests de performances et de charge",
-    "subtitle": "Assurez-vous que votre application évolue sous pression",
-    "description": "Ne laissez pas les pics de trafic détruire votre entreprise. Nous testons rigoureusement votre logiciel pour garantir des temps de chargement ultra-rapides, une stabilité sans faille et une expérience utilisateur optimale sous des charges d'utilisateurs massives.",
+    "subtitle": "Assurez vous que votre application évolue sous pression",
+    "description": "Ne laissez pas les pics de trafic détruire votre entreprise. Nous testons rigoureusement votre logiciel pour garantir des temps de chargement ultra rapides, une stabilité sans faille et une expérience utilisateur optimale sous des charges d'utilisateurs massives.",
     "buttons": [
       {
         "text": "Test de résistance de mon application",
@@ -14,13 +14,13 @@
         "link": "/contact"
       }
     ],
-    "hero_image": "/videos/performance_testing.mp4"
+    "hero_image": "/videos/dashboard_analytics.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que",
+    "heading": "Qu'est ce que",
     "span_heading": "Tests de performances ?",
     "content": [
-      "Les tests de performances consistent à soumettre votre application à un stress simulé dans le monde réel pour voir exactement comment elle se comporte, où elle présente des goulots d'étranglement et à quel moment elle se brise complètement. Il répond à la question cruciale : « Nos serveurs survivront-ils si notre campagne marketing devient virale ? » [Image d'un graphique de test de charge de performances montrant l'évolution des utilisateurs virtuels par rapport au temps de réponse des applications et à la charge du processeur du serveur]",
+      "Les tests de performances consistent à soumettre votre application à un stress simulé dans le monde réel pour voir exactement comment elle se comporte, où elle présente des goulots d'étranglement et à quel moment elle se brise complètement. Il répond à la question cruciale : « Nos serveurs survivront ils si notre campagne marketing devient virale ? » [Image d'un graphique de test de charge de performances montrant l'évolution des utilisateurs virtuels par rapport au temps de réponse des applications et à la charge du processeur du serveur]",
       "Chez Devisgon, nous simulons des milliers d'utilisateurs simultanés accédant simultanément à vos API, bases de données et serveurs Web. En identifiant les fuites de mémoire, les requêtes de base de données lentes et les ressources serveur inadéquates avant votre grand lancement, nous garantissons que votre application ne laisse jamais vos clients regarder un écran de chargement."
     ],
     "highlight_quote": "\"Dans le monde numérique, lent n'est qu'un autre mot pour dire cassé.\"",
@@ -32,7 +32,7 @@
     "cards": [
       {
         "title": "Survivre aux pics de trafic",
-        "description": "Assurez-vous que votre application reste en ligne et fonctionnelle pendant les ventes du Black Friday, les événements viraux ou les lancements de produits majeurs.",
+        "description": "Assurez vous que votre application reste en ligne et fonctionnelle pendant les ventes du Black Friday, les événements viraux ou les lancements de produits majeurs.",
         "icon_type": "MdTrendingUp"
       },
       {
@@ -62,7 +62,7 @@
       },
       {
         "title": "2. Tests de stress et de pointes",
-        "description": "Poussez votre application bien au-delà de ses limites pour trouver son point de rupture et tester comment elle récupère après des surtensions soudaines."
+        "description": "Poussez votre application bien au delà de ses limites pour trouver son point de rupture et tester comment elle récupère après des surtensions soudaines."
       },
       {
         "title": "3. Test d'endurance (trempage)",
@@ -150,14 +150,14 @@
     "questions": [
       {
         "question": "Quelle est la différence entre les tests de charge et les tests de contrainte ?",
-        "answer": "Les tests de charge vérifient comment votre système gère la quantité *attendue* de trafic normal. Les tests de résistance poussent le système bien au-delà du trafic attendu pour le briser intentionnellement, nous aidant ainsi à comprendre sa capacité maximale absolue et son comportement en cas de panne."
+        "answer": "Les tests de charge vérifient comment votre système gère la quantité *attendue* de trafic normal. Les tests de résistance poussent le système bien au delà du trafic attendu pour le briser intentionnellement, nous aidant ainsi à comprendre sa capacité maximale absolue et son comportement en cas de panne."
       },
       {
-        "question": "Les tests de performances vont-ils faire planter notre site Web en direct ?",
+        "question": "Les tests de performances vont ils faire planter notre site Web en direct ?",
         "answer": "C’est possible, c’est pourquoi nous exécutons rarement des tests à forte charge sur un serveur de production en direct ! Nous préférons exécuter ces tests sur un environnement de test qui reflète parfaitement votre matériel de production, garantissant ainsi que vos utilisateurs réels ne sont jamais interrompus."
       },
       {
-        "question": "Quelles métriques suivez-vous lors d’un test ?",
+        "question": "Quelles métriques suivez vous lors d’un test ?",
         "answer": "Nous suivons une grande variété de mesures, notamment le temps de réponse moyen, les taux d'erreur (comme les erreurs de passerelle 500 ou 502), le débit (requêtes par seconde), l'utilisation du processeur, la consommation de mémoire et les E/S réseau."
       },
       {

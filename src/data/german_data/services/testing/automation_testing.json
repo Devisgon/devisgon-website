@@ -3,36 +3,36 @@
   "hero_section": {
     "title": "Automatisierungstestdienste",
     "subtitle": "Schnellere Veröffentlichung mit absoluter Sicherheit",
-    "description": "Ersetzen Sie langsame, fehleranfällige manuelle Tests durch robuste automatisierte Testsuiten. Wir erstellen skalierbare QA-Automatisierungs-Frameworks, die Fehler sofort erkennen und Ihre Softwarebereitstellungspipeline beschleunigen.",
+    "description": "Ersetzen Sie langsame, fehleranfällige manuelle Tests durch robuste automatisierte Testsuiten. Wir erstellen skalierbare QA Automatisierungs Frameworks, die Fehler sofort erkennen und Ihre Softwarebereitstellungspipeline beschleunigen.",
     "buttons": [
       {
         "text": "Automatisieren Sie meine Qualitätssicherung",
         "link": "/contact"
       },
       {
-        "text": "Sprechen Sie mit einem QA-Ingenieur",
+        "text": "Sprechen Sie mit einem QA Ingenieur",
         "link": "/contact"
       }
     ],
-    "hero_image": "/videos/automation_testing.mp4"
+    "hero_image": "/videos/ai_powered_automation_video.mp4"
   },
   "introduction_section": {
     "heading": "Was ist",
     "span_heading": "Automatisierungstests?",
     "content": [
       "In der modernen Softwareentwicklung ist es ein großer Engpass, sich ausschließlich auf manuelle Tests zu verlassen. Beim Automatisierungstest werden spezielle Software und Skripte verwendet, um komplexe Testfälle für Ihre Anwendung automatisch auszuführen und dabei die tatsächlichen Ergebnisse mit den erwarteten Ergebnissen zu vergleichen.",
-      "Bei Devisgon entwerfen wir benutzerdefinierte Automatisierungs-Frameworks für Ihre Web-, Mobil- und API-Ebenen. Durch die Automatisierung sich stark wiederholender Regressionstests reduzieren wir Ihre Testzeit drastisch. Dadurch kann sich Ihr QA-Team auf explorative Tests und Edge-Cases konzentrieren und sorgt so für ein einwandfreies Benutzererlebnis bei jeder einzelnen Bereitstellung."
+      "Bei Devisgon entwerfen wir benutzerdefinierte Automatisierungs Frameworks für Ihre Web , Mobil  und API Ebenen. Durch die Automatisierung sich stark wiederholender Regressionstests reduzieren wir Ihre Testzeit drastisch. Dadurch kann sich Ihr QA Team auf explorative Tests und Edge Cases konzentrieren und sorgt so für ein einwandfreies Benutzererlebnis bei jeder einzelnen Bereitstellung."
     ],
     "highlight_quote": "„Kontinuierlich testen. Zuversichtlich freigeben. Unendlich skalieren.“",
     "side_image": "/all_services/automation_testing/introduction.webp"
   },
   "key_benefits_section": {
     "title": "Hauptvorteile",
-    "subtitle": "Warum QA-Automatisierung der Schlüssel zur Skalierung Ihrer Software ist",
+    "subtitle": "Warum QA Automatisierung der Schlüssel zur Skalierung Ihrer Software ist",
     "cards": [
       {
         "title": "Drastisch schnellere Veröffentlichungen",
-        "description": "Führen Sie Tausende komplexer Testfälle in Minuten aus und verkürzen Sie so Ihre Release-Zyklen von Wochen auf Tage.",
+        "description": "Führen Sie Tausende komplexer Testfälle in Minuten aus und verkürzen Sie so Ihre Release Zyklen von Wochen auf Tage.",
         "icon_type": "MdSpeed"
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "title": "Kontinuierliche Integration",
-        "description": "Integrieren Sie Testsuiten nahtlos in Ihre CI/CD-Pipelines, sodass fehlerhafter Code blockiert wird, bevor er jemals in die Produktion gelangt.",
+        "description": "Integrieren Sie Testsuiten nahtlos in Ihre CI/CD Pipelines, sodass fehlerhafter Code blockiert wird, bevor er jemals in die Produktion gelangt.",
         "icon_type": "MdSync"
       },
       {
@@ -57,20 +57,20 @@
     "image": "/all_services/automation_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. Benutzerdefiniertes Automatisierungs-Framework",
+        "title": "1. Benutzerdefiniertes Automatisierungs Framework",
         "description": "Eine skalierbare, wartbare Testarchitektur, die mithilfe von Page Object Model (POM) oder datengesteuerten Methoden erstellt wurde."
       },
       {
-        "title": "2. End-to-End-UI-Tests",
+        "title": "2. End to End UI Tests",
         "description": "Simulierte Benutzerreisen über mehrere Browser (Chrome, Safari, Edge) und Geräte hinweg, um plattformübergreifende Kompatibilität sicherzustellen."
       },
       {
         "title": "3. Automatisierte Regressionssuiten",
-        "description": "Umfassende Testpakete, die bei jedem Code-Commit ausgeführt werden, um sicherzustellen, dass neue Funktionen die vorhandene Funktionalität nicht beeinträchtigen."
+        "description": "Umfassende Testpakete, die bei jedem Code Commit ausgeführt werden, um sicherzustellen, dass neue Funktionen die vorhandene Funktionalität nicht beeinträchtigen."
       },
       {
         "title": "4. Umsetzbare Berichterstattung",
-        "description": "Automatisierte HTML-Berichte mit detaillierten Protokollen, Videos und Screenshots fehlgeschlagener Tests für ein schnelles Debugging."
+        "description": "Automatisierte HTML Berichte mit detaillierten Protokollen, Videos und Screenshots fehlgeschlagener Tests für ein schnelles Debugging."
       }
     ]
   },
@@ -111,7 +111,7 @@
       },
       {
         "title": "Rahmendesign",
-        "description": "Wir entwickeln ein individuelles, robustes Testautomatisierungs-Framework, das auf Ihren spezifischen Tech-Stack zugeschnitten ist.",
+        "description": "Wir entwickeln ein individuelles, robustes Testautomatisierungs Framework, das auf Ihren spezifischen Tech Stack zugeschnitten ist.",
         "icon": "FaProjectDiagram"
       },
       {
@@ -120,7 +120,7 @@
         "icon": "FaCode"
       },
       {
-        "title": "CI/CD-Integration",
+        "title": "CI/CD Integration",
         "description": "Für eine kontinuierliche, automatisierte Ausführung binden wir die Testsuite direkt in Ihre Bereitstellungspipeline ein.",
         "icon": "FaCogs"
       }
@@ -132,15 +132,15 @@
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Eine E-Commerce-Plattform hatte mit einem enormen manuellen Testaufwand zu kämpfen. Für jedes größere Update musste ein Team von fünf Testern drei volle Tage damit verbringen, sich durch die Website zu klicken."
+        "text": "Eine E Commerce Plattform hatte mit einem enormen manuellen Testaufwand zu kämpfen. Für jedes größere Update musste ein Team von fünf Testern drei volle Tage damit verbringen, sich durch die Website zu klicken."
       },
       "solution": {
         "label": "Solution",
-        "text": "Wir haben mit Cypress ein umfassendes End-to-End-Automatisierungsframework erstellt, das alle wichtigen Checkout-Abläufe, Benutzeranmeldungen und Katalogsuchen abdeckt."
+        "text": "Wir haben mit Cypress ein umfassendes End to End Automatisierungsframework erstellt, das alle wichtigen Checkout Abläufe, Benutzeranmeldungen und Katalogsuchen abdeckt."
       },
       "result": {
         "label": "Result",
-        "text": "Regressionstests werden jetzt bei jedem Code-Push automatisch in nur 45 Minuten ausgeführt, sodass der Client Updates sicher wöchentlich statt monatlich bereitstellen kann."
+        "text": "Regressionstests werden jetzt bei jedem Code Push automatisch in nur 45 Minuten ausgeführt, sodass der Client Updates sicher wöchentlich statt monatlich bereitstellen kann."
       }
     }
   },
@@ -150,24 +150,24 @@
     "questions": [
       {
         "question": "Können wir unsere Tests zu 100 % automatisieren?",
-        "answer": "Nein, und das sollten Sie auch nicht versuchen. Die Automatisierung eignet sich perfekt für sich wiederholende Aufgaben, Regressionstests und zentrale Funktionsabläufe. Für explorative Tests, Usability-Tests und die Beurteilung der visuellen Ästhetik ist jedoch immer noch die menschliche Intuition erforderlich. Eine gesunde QS-Strategie kombiniert beides."
+        "answer": "Nein, und das sollten Sie auch nicht versuchen. Die Automatisierung eignet sich perfekt für sich wiederholende Aufgaben, Regressionstests und zentrale Funktionsabläufe. Für explorative Tests, Usability Tests und die Beurteilung der visuellen Ästhetik ist jedoch immer noch die menschliche Intuition erforderlich. Eine gesunde QS Strategie kombiniert beides."
       },
       {
         "question": "Wann ist der richtige Zeitpunkt, mit der Automatisierung von Tests zu beginnen?",
         "answer": "Sie sollten mit der Automatisierung von Tests beginnen, sobald die Benutzeroberfläche und die Kernlogik einer Funktion relativ stabil sind. Wenn Sie versuchen, eine Funktion zu automatisieren, deren Design sich täglich ändert, verbringen Sie mehr Zeit damit, fehlerhafte Testskripte zu reparieren, als sie tatsächlich zu testen."
       },
       {
-        "question": "Wird die Automatisierung mein manuelles QS-Team ersetzen?",
-        "answer": "Absolut nicht. Automatisierung ist ein Tool, das Ihr QA-Team stärkt. Durch die Übernahme der mühsamen, sich wiederholenden Regressionstests entlastet die Automatisierung Ihre manuellen Tester, sodass sie sich auf die Suche nach komplexen Randfällen und die Verbesserung der gesamten Benutzererfahrung konzentrieren können."
+        "question": "Wird die Automatisierung mein manuelles QS Team ersetzen?",
+        "answer": "Absolut nicht. Automatisierung ist ein Tool, das Ihr QA Team stärkt. Durch die Übernahme der mühsamen, sich wiederholenden Regressionstests entlastet die Automatisierung Ihre manuellen Tester, sodass sie sich auf die Suche nach komplexen Randfällen und die Verbesserung der gesamten Benutzererfahrung konzentrieren können."
       },
       {
-        "question": "Was ist ein Testautomatisierungs-Framework?",
+        "question": "Was ist ein Testautomatisierungs Framework?",
         "answer": "Ein Framework besteht aus einer Reihe von Richtlinien, Codierungsstandards und Tools, die zum Erstellen und Ausführen automatisierter Tests verwendet werden. Anstatt unübersichtliche, eigenständige Skripte zu schreiben, stellt ein Framework sicher, dass Ihre Tests modular und einfach zu warten sind und klare Berichte generieren, wenn sie fehlschlagen."
       }
     ],
     "footer": {
       "text": "Haben Sie Ihre Antwort nicht gefunden?",
-      "link_text": "Vereinbaren Sie eine QA-Beratung",
+      "link_text": "Vereinbaren Sie eine QA Beratung",
       "link_url": "/contact"
     }
   }

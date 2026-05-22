@@ -1,0 +1,207 @@
+{
+  "slug": "rag-system",
+  "hero_section": {
+    "title": "企业检索增强生成 (RAG) 系统",
+    "subtitle": "通过情境注入的人工智能基础设施消除幻觉",
+    "description": "我们设计了生产级检索增强生成 (RAG) 系统，将基础大型语言模型锚定到您安全的内部公司数据存储中。将大量非结构化数据孤岛转换为精确、实时的商业智能。",
+    "buttons": [
+      {
+        "text": "架构师我的 RAG 系统",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "RAG系统？",
+    "content": [
+      "在 Devisgon，我们设计并实现了先进的 RAG 架构，为语言模型提供安全、实时的事实基线。摆脱标准的、容易产生幻觉的提示工程，我们的系统在生成任何模型响应之前，以编程方式从您的内部知识库中搜索、检索和排列所需的确切上下文。",
+      "我们弥合了静态模型权重与动态、不断发展的企业数据湖之间的差距。我们部署的每个 RAG 管道都具有自动文档解析、高维向量嵌入、混合语义关键字搜索和严格的文档级访问权限，确保您的答案经过数学验证、最新且安全封闭。"
+    ],
+    "highlight_quote": "“零幻觉模型输出、实时知识注入、100%确定性数据边界。”",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "为您的应用程序提供可验证、上下文准确的搜索和生成网络",
+    "cards": [
+      {
+        "title": "彻底根除幻觉",
+        "description": "以编程方式限制 LLM 参数仅使用检索到的文本块进行回答，从而最大限度地减少猜测和错误输出的生成。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "实时知识更新",
+        "description": "跳过昂贵的模型微调循环。只需更新您的数据库，您的 RAG 系统就会立即提供最新的文档版本。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "精细的访问权限",
+        "description": "在矢量查找中嵌入安全参数，保证用户仅检索与其特定许可角色匹配的信息。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "多格式摄取",
+        "description": "无缝解析和矢量化非结构化内部记录，包括技术 Markdown、PDF、数据库行和扫描手册。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon RAG 基础设施将为您带来什么",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 高级向量提取和分块框架",
+        "description": "自定义摄取微服务配置为将复杂的企业文档分解为带有语义元数据标签的上下文保留的块。"
+      },
+      {
+        "title": "2. 高维混合搜索路由器",
+        "description": "搜索架构将密集向量嵌入与稀疏关键字查找 (BM25) 相结合，以最大限度地提高检索精度。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "3. 上下文重排序和压缩网格",
+        "description": "集成 Cohere 或专门的交叉编码器重新排序器，以提取最相关的结果并最大限度地降低令牌使用成本。"
+      },
+      {
+        "title": "4. 可验证的引文和归因系统",
+        "description": "程序化生成跟踪，强制模型将可点击的引文映射直接附加回源文档，以便于人工审核。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用可扩展、高性能的矢量基础设施进行构建",
+    "subtitle": "行业领先的嵌入模型、索引存储和管道编排器，专为低延迟精度而构建",
+    "tools": [
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "LangChain",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "Supabase（矢量堆栈）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvector)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Pinecone",
+        "icon": "SiPinecone"
+      },
+      {
+        "name": "Qdrant",
+        "icon": "SiQdrant"
+      },
+      {
+        "name": "OpenAI 嵌入",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "连贯（重新排名）",
+        "icon": "SiCohere"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js（AI SDK 流）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Redis（语义缓存）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "AWS 基岩",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从文档管道构建到经过验证的实时 RAG 部署仅需 6 周时间",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核公司数据结构，评估源文档的清洁度，并绘制预期的搜索意图范围。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定令牌分块策略、设计索引模式并规划混合元数据排名结构。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "使用 Python 编写摄取工作流程，在 Supabase pgvector 中建立向量索引，并编写重新排序例程。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行严格的 RAGAS 质量矩阵评估、优化查询流延迟并安全地激活数据同步 Webhook。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "50,000 多个多格式技术文档日志实现了零误差",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一家工程企业花费了大量的内部时间来追踪分散在数千个复杂的遗留 PDF 中的精确设备维修程序。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们利用 Supabase 和 LlamaIndex 构建了一个生产级、元数据过滤的 RAG 系统，将密集向量搜索与跨编码器重新排名管道相结合。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "信息查找时间骤降 94%，技术数据幻觉降至绝对零，现场工程师在活动终端系统上获得即时、引用的答案。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "RAG 架构和常见问题解答",
+    "subtitle": "对关键实施、安全和系统工程查询的清晰答案",
+    "questions": [
+      {
+        "question": "为什么企业级 RAG 需要混合搜索系统？",
+        "answer": "密集向量搜索在掌握概念语义意图方面非常出色，但它可能会错过特定的序列号、产品代码或确切名称。混合搜索将向量嵌入与传统关键字跟踪 (BM25) 相结合，以保证结构和概念匹配的准确性。"
+      },
+      {
+        "question": "当我们的业务记录每天发生变化时，RAG 系统如何保持数据最新？",
+        "answer": "我们建立自动化事件网络钩子和 Cron 同步时间表。每当您的存储平台内修改、添加或删除文档时，我们的管道都会立即运行提取，生成新的嵌入，并自动更新您的矢量数据库索引。"
+      },
+      {
+        "question": "如何保护敏感数据不被显示给没有适当凭据的员工？",
+        "answer": "我们在数据库级别强制执行严格的元数据权限标记。每个文档块都与其所需的访问角色一起进行矢量化；当用户发出查询时，系统会附加一个硬验证过滤器，使未经授权的文件在数学上对查找步骤不可见。"
+      },
+      {
+        "question": "您使用哪些工具来评估和评分 RAG 管道的准确性？",
+        "answer": "我们在沙箱开发过程中集成了 RAGAS 和 TruLens 等自动化评估框架。我们不断测试和优化三个不同的指标：忠实性（答案是否基于数据？）、答案相关性（是否解决了提示问题？）和上下文精度（我们是否提取了正确的数据块？）。"
+      }
+    ],
+    "footer": {
+      "text": "准备好构建可靠的上下文锁定数据引擎了吗？",
+      "link_text": "与我们的团队安排架构审查",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "marketing-automation",
+  "hero_section": {
+    "title": "企业营销自动化架构",
+    "subtitle": "用于高速客户获取的算法增长引擎",
+    "description": "我们设计、集成和部署生产级营销自动化框架，将用户行为转变为个性化的多渠道交易旅程。推动结构转换，最大限度地提高客户生命周期价值 (LTV)，并在没有人工工程摩擦的情况下扩展您的获取循环。",
+    "buttons": [
+      {
+        "text": "架构我的增长引擎",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的自动化工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/marketing.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "营销自动化？",
+    "content": [
+      "在 Devisgon，我们构建定制营销自动化基础设施，旨在跨数字接触点协调高吞吐量、事件驱动的客户交互。我们远远超越了脆弱的基本电子邮件序列循环，构建了去中心化的工作流程架构，可以本地处理复杂的条件逻辑、实时潜在客户评分算法和动态客户细分更新。",
+      "我们弥合了分散的营销工具和您的核心应用程序后端之间的差距。我们设计的每个管道都具有多应用程序 Webhook 监听、严格的有效负载验证、数据同步过滤器和集中式遥测仪表板，以确保您的促销、交易和转换操作大规模可靠地运行。"
+    ],
+    "highlight_quote": "“行为触发的工作流程、统一的配置文件数据同步、0% 的手动保留泄漏。”",
+    "side_image": "/all_services/ai_powered_automation/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将断开连接的用户事件转变为程序化、高转化的收入周期",
+    "cards": [
+      {
+        "title": "事件驱动的个性化",
+        "description": "在用户与应用程序网格交互的精确毫秒内触发精确的跨渠道通知、本地化布局和自定义电子邮件。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "潜在客户评分算法",
+        "description": "对自定义多变量矩阵工作流程进行编程以评估潜在客户意图，自动将高价值客户直接路由到您的销售渠道。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "完美的多应用同步",
+        "description": "通过在 CRM、登陆页面和后端数据库之间运行连续的双向 Webhook 同步，消除客户记录差异。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "大幅减少客户流失",
+        "description": "部署可识别流失信号的自主保留触发器，立即启动有针对性的重新参与活动，以最大限度地提高帐户生命周期价值。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devsgon Growth 基础设施获得什么",
+    "image": "/all_services/ai_powered_automation/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 多平台Webhook编排层",
+        "description": "集中式工作流程系统（基于 n8n 或 Make.com 构建），可摄取 Webhook、执行复杂的数据映射并干净地同步平台。"
+      },
+      {
+        "title": "2. 优化交易和营销模板",
+        "description": "使用结构 CSS 变量构建高性能、简洁的电子邮件布局，省略臃肿的代码块，以保证最大的收件箱送达率。"
+      },
+      {
+        "title": "3. 行为引导路由跟踪过滤器",
+        "description": "自定义分析路由，用于监视表单捕获、页面滚动触发器和应用程序事件日志，以构建完整的用户配置文件映射。"
+      },
+      {
+        "title": "4.集中转换遥测仪表板",
+        "description": "采用暗模式和 glassmorphism 样式构建的综合跟踪门户，可可视化点击率分布、打开率和处理运行状况。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们与强化的自动化和营销基础设施集成",
+    "subtitle": "行业领先的编排引擎、数据存储和通信层，专为高运营流量而设计",
+    "tools": [
+      {
+        "name": "n8n",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "Next.js（应用程序路由器 API）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（身份验证和数据库）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "乔特形式API",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "重新发送（电子邮件引擎）",
+        "icon": "SiResend"
+      },
+      {
+        "name": "Twilio（语音和短信 API）",
+        "icon": "SiTwilio"
+      },
+      {
+        "name": "HubSpot 客户关系管理",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Redis（队列/节流）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从系统端点布局到实时程序化营销运营只需 6 周",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核活动软件工具架构、跟踪现有潜在客户捕获工作流程、记录 API 限制并定义目标转换里程碑。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "映射多分支自动化状态逻辑、构建 Webhooks 转换模式并概述数据库有效负载参数。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对自定义中间件路由器进行编程，在 n8n/Make 上部署云集成工作流程，并集成 Resend、Twilio 和 CRM API 挂钩。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行深度集成负载测试，验证峰值流量模拟下的事件触发性能指标，并安全上线。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "+340% 管道速度加速和 100% 消除数据差异",
+    "image": "/all_services/ai_powered_automation/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "规模化的数字化企业因手动销售任务、延迟的用户接触点以及跨孤立的登陆页面和 CRM 的分散的潜在客户条目而受到瓶颈。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 n8n 微服务和 Next.js 后端端点构建了一个自动化的事件驱动工作流层，将传入的表单负载立即映射到隔离的 CRM 和通知网格中。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "潜在客户参与时间从几小时缩短到亚秒级，管理同步错误完全消失，运营用户管道转化率增长了 340%。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "自动化架构和常见问题解答",
+    "subtitle": "关键系统扩展、数据路由和 Webhook 安全问题的清晰答案",
+    "questions": [
+      {
+        "question": "为什么将 n8n 等工具与自定义 Next.js API 端点一起使用？",
+        "answer": "我们将 n8n 或 Make.com 等可视化工作流编排器的敏捷性与自定义 Next.js 后端路由处理程序相结合，以实现速度和跨平台可见性，以处理安全令牌、深度数据库读取和高性能负载格式化。"
+      },
+      {
+        "question": "您的营销自动化流程如何在大流量高峰期间保持数据库准确性？",
+        "answer": "我们设计由高速 Redis 消息队列支持的无状态微服务。如果您的平台收到数千个并发登录页面完成信息，集成层会安全地排列有效负载，确保您的 CRM 或核心数据库不会达到执行速率限制。"
+      },
+      {
+        "question": "我们能否将现代无服务器 Web 架构与 Twilio Call Agents 等自定义通信网络连接起来？",
+        "answer": "绝对地。我们构建了强大的 Webhook 网关，可以在无服务器 Next.js 运行时和自定义通信框架之间安全地来回传递数据密钥，从而实现动态、实时文本警报或语音处理路由。"
+      },
+      {
+        "question": "如何在第三方自动化软件中保护数据安全并确保系统安全？",
+        "answer": "我们构建的每个集成管道都强制执行零信任数据参数。所有 Webhook 均使用加密签名（SHA 256 标头）进行验证，流量使用 TLS 1.3 进行端到端加密，敏感 PII 字段在传输层之前被清除或屏蔽。"
+      }
+    ],
+    "footer": {
+      "text": "准备好以编程方式扩展您的客户获取基础架构了吗？",
+      "link_text": "与我们的团队安排自动化审核",
+      "link_url": "/contact"
+    }
+  }
+}

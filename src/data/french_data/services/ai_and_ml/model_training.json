@@ -1,0 +1,206 @@
+{
+  "slug": "model-training",
+  "hero_section": {
+    "title": "Formation sur les modèles d'IA et d'apprentissage automatique d'entreprise",
+    "subtitle": "Optimisation algorithmique personnalisée conçue sur des données propriétaires",
+    "description": "Nous concevons, formons et validons des modèles d'apprentissage automatique spécifiques à un domaine à partir de zéro. Transformez vos lacs de données opérationnelles brutes en actifs de business intelligence de haute précision construits avec des poids neuronaux personnalisés.",
+    "buttons": [
+      {
+        "text": "Lancer la formation du modèle",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs de données",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce que le niveau entreprise",
+    "span_heading": "Formation de modèle ?",
+    "content": [
+      "Chez Devisgon, nous abordons la formation de modèles d'apprentissage automatique comme une science exacte. Au delà des wrappers d'API génériques et pré entraînés, nous concevons et exécutons des boucles de formation personnalisées adaptées spécifiquement aux structures de données de votre entreprise. Qu'il s'agisse de former des réseaux de neurones profonds pour la vision par ordinateur, d'affiner de grands modèles de transformateurs ou de créer des systèmes de prédiction tabulaires robustes, nous garantissons un alignement complet avec vos contraintes opérationnelles.",
+      "Nous comblons le fossé entre les pools de données brutes et désordonnés et les environnements d'exécution d'inférence hautes performances. Chaque cycle de vie de formation est géré via des pipelines de calcul automatisés et contrôlés par version, des contrôles rigoureux de variance de biais et des configurations d'optimisation d'hyperparamètres, ce qui donne lieu à des modèles prêts à la production qui atteignent une précision, une stabilité et une vitesse maximales."
+    ],
+    "highlight_quote": "« Poids des paramètres propriétaires, matrices de validation de haute précision, 0 % de dépendance à l'égard de modèles publics tiers. »",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Convertissez la télémétrie brute d'entreprise en actifs mathématiques privés de haute fidélité",
+    "cards": [
+      {
+        "title": "Contrôle du poids exclusif",
+        "description": "Possédez entièrement votre intelligence algorithmique. Entraînez des paramètres et des configurations de poids uniques que vos concurrents ne peuvent pas acheter dans le commerce.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Alignement profond du contexte",
+        "description": "Entraînez des modèles sur le vocabulaire actuel de votre entreprise, les identifiants de produits personnalisés et les nuances opérationnelles pour bénéficier d'une précision contextuelle approfondie.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Réduction drastique de la latence",
+        "description": "Optimisez et élaguez les modèles personnalisés pour qu'ils s'exécutent sur des microservices légers, réduisant ainsi considérablement la latence d'inférence par rapport aux réseaux de paramètres de plusieurs milliards.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Assurance totale de la confidentialité",
+        "description": "Protégez la propriété intellectuelle de votre activité principale en effectuant une formation sur les modèles entièrement au sein de votre périmètre cloud isolé et sans sortie.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec la formation sur les modèles personnalisés Devisgon",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Poids des modèles formés prêts à la production",
+        "description": "Modèles binaires entièrement compilés et hautement optimisés (par exemple, ONNX, PyTorch, TensorFlow) personnalisés pour répondre à vos objectifs commerciaux spécifiques."
+      },
+      {
+        "title": "2. Ensembles de prétraitement des données de bout en bout",
+        "description": "Pipelines ETL programmatiques qui nettoient, normalisent, tokenisent et équilibrent automatiquement les ensembles de données brutes avant les boucles de formation."
+      },
+      {
+        "title": "3. Registres automatisés de réglage des hyperparamètres",
+        "description": "Routines informatiques distribuées (Bayésienne, Grid Search) conçues pour extraire les performances maximales du modèle à partir de vos ensembles de données cibles."
+      },
+      {
+        "title": "4. Remplir les registres d'évaluation de la formation",
+        "description": "Journaux de pertes complets, matrices de confusion, profils ROC AUC et mesures de validation vérifiant la sécurité du modèle structurel avant le déploiement."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous formons avec des outils de calcul d'apprentissage automatique renforcés à l'échelle de l'entreprise",
+    "subtitle": "Des frameworks d'apprentissage profond de pointe, des tuners d'hyperparamètres et une technologie MLOps conçus pour des ensembles de données volumineux",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Scikit Learn",
+        "icon": "SiScikitlearn"
+      },
+      {
+        "name": "XGBoost",
+        "icon": "SiXgboost"
+      },
+      {
+        "name": "Visage câlin (Transformers)",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Pondérations et biais",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Ray (calcul distribué)",
+        "icon": "SiRay"
+      },
+      {
+        "name": "Optuna",
+        "icon": "SiOptuna"
+      },
+      {
+        "name": "SDK CUDA/Nvidia",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Supabase (journalisation des métadonnées)",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De l'ingénierie des données à la livraison en production du modèle compilé en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Évaluez les ensembles de données cibles, évaluez les équilibres de classes, définissez les mesures de perte et alignez les cadres de stockage de données.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Programmez les workflows d'ingestion, concevez des architectures d'apprentissage en profondeur personnalisées et cartographiez les répartitions de validation de la formation.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Exécutez des boucles d'entraînement distribuées, gérez les balayages d'hyperparamètres, évaluez les courbes de perte et exécutez des optimisations biais variance.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Compilez les pondérations dans des formats optimisés (ONNX), regroupez les points finaux dans des conteneurs sécurisés et activez les pipelines d'évaluation continue en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Détection de fraude de haute précision à 99,1 % via une architecture d'apprentissage profond personnalisée",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une plate forme financière évolutive perdait des revenus parce que les logiciels de sécurité standard basés sur des règles manquaient toujours de modèles de transactions frauduleuses complexes et non linéaires."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons construit un réseau de classification propriétaire via PyTorch, mettant en place une boucle de formation de bout en bout sur des millions de lignes de données transactionnelles historiques anonymisées."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "La détection des incidents frauduleux a grimpé avec précision jusqu'à 99,1 %, les faux positifs ont chuté de 68 % et le modèle binaire formé a répondu avec des vitesses de validation ultra rapides, inférieures à la milliseconde."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture de formation modèle et FAQ",
+    "subtitle": "Des réponses claires aux requêtes critiques de mise en œuvre, de sécurité des données et d’infrastructure de calcul",
+    "questions": [
+      {
+        "question": "Quelle est la différence entre entraîner un modèle personnalisé et affiner un modèle existant ?",
+        "answer": "La formation à partir de zéro construit des poids de paramètres à partir de zéro en utilisant vos données spécifiques, idéal pour les tâches de vision tabulaires ou de niche personnalisées. Le réglage fin commence par un modèle de base large et pré entraîné (comme un LLM) et modifie ses couches externes pour correspondre au vocabulaire spécifique à votre secteur."
+      },
+      {
+        "question": "Comment garantir qu'un modèle entraîné ne sera pas « surajusté » et n'échouera pas sur des données réelles ?",
+        "answer": "Nous appliquons des protocoles de validation croisée rigoureux, des déclencheurs d'arrêt précoce et des matrices de régularisation (L1/L2). Nous isolons des ensembles de validation et de test distincts que le modèle ne voit jamais pendant la formation, garantissant ainsi que ses scores de précision se traduisent parfaitement en production active."
+      },
+      {
+        "question": "Où se déroule la formation informatique et comment les coûts des serveurs sont ils gérés ?",
+        "answer": "La formation s'exécute dans des instances cloud sécurisées (comme AWS SageMaker ou des clusters spot GPU EC2 personnalisés). Nous écrivons des scripts batch hautement optimisés et exploitons des frameworks tels que Ray pour répartir efficacement les charges de travail, en minimisant le gaspillage des ressources de calcul."
+      },
+      {
+        "question": "Comment gérer des données d’entreprise très déséquilibrées, où les événements cibles sont rares ?",
+        "answer": "Nous utilisons une ingénierie de données algorithmique avancée, en utilisant des techniques telles que SMOTE pour le suréchantillonnage synthétique, les paramètres d'ajustement de la perte focale et le sous échantillonnage stratégique pour garantir que le modèle apprend à repérer avec précision les anomalies minoritaires critiques."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à entraîner des pondérations d'apprentissage automatique propriétaires sur les données de votre entreprise ?",
+      "link_text": "Planifiez un bilan de formation avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

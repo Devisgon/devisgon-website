@@ -12,7 +12,7 @@ import Progress from "@/components/sub_services_pages/process_section";
 import Technalogies from "@/components/sub_services_pages/technalogies";
 import WhatYouGetSection from "@/components/sub_services_pages/what_we_do";
 import { getCachedLanguage } from "@/lib/language";
-import { getServiceSlugMetadata } from "@/lib/seo";
+import { getJsonSeoMetadata, getServiceSlugMetadata } from "@/lib/seo";
 import { getServiceDetailData } from "@/lib/service-detail";
 import { toCanonicalSlug } from "@/lib/slugs";
 
@@ -26,9 +26,27 @@ function servicePath(slug: string, lang: string) {
   return `/services/${slug}${langSuffix}`;
 }
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ lang?: string | string[] }>;
+}): Promise<Metadata> {
   const { slug } = await params;
-  return getServiceSlugMetadata(toCanonicalSlug(slug));
+  const query = await searchParams;
+  const activeLang = await getCachedLanguage(query.lang);
+  const canonicalSlug = toCanonicalSlug(slug);
+  const fallback = getServiceSlugMetadata(canonicalSlug);
+  const localizedResult = getServiceDetailData(activeLang, canonicalSlug);
+  const englishResult = getServiceDetailData("en", canonicalSlug);
+  const result = localizedResult ?? englishResult;
+
+  return getJsonSeoMetadata(
+    localizedResult?.data?.seo_metadata ?? englishResult?.data?.seo_metadata,
+    fallback,
+    `/services/${result?.slug ?? canonicalSlug}`,
+  );
 }
 
 export default async function ServiceDetailPage({ params, searchParams }: PageProps) {

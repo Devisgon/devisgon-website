@@ -1,6 +1,12 @@
 import React from "react";
 import { HeroSectionProps } from "@/types/sub_services_page/hero";
 import HeroVideo from "@/components/sub_services_pages/hero_video";
+import {
+  CONTACT_US_HREF,
+  CONTACT_US_LABEL,
+  DISCOVERY_CALL_LABEL,
+  discoveryCallHref,
+} from "@/lib/cta-links";
 
 const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
   const { title, subtitle, description, hero_image } = data;
@@ -25,13 +31,18 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
             </p>
 
             <div className="flex flex-col items-center sm:flex-row gap-4">
-              {data.buttons.map((btn, index) => (
-                <a href={btn.link} key={index}>
-                  <button className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary bg-transparent text-t-secondary dark:text-t-primary hover:bg-btn-primary hover:text-white">
-                    {btn.text}
-                  </button>
-                </a>
-              ))}
+              <a
+                href={discoveryCallHref}
+                className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary bg-transparent text-t-secondary dark:text-t-primary hover:bg-btn-primary hover:text-white"
+              >
+                {DISCOVERY_CALL_LABEL}
+              </a>
+              <a
+                href={CONTACT_US_HREF}
+                className="px-8 py-3.5 rounded-lg text-sm font-semibold duration-300 border-2 border-btn-primary bg-transparent text-t-secondary dark:text-t-primary hover:bg-btn-primary hover:text-white"
+              >
+                {CONTACT_US_LABEL}
+              </a>
             </div>
           </div>
 

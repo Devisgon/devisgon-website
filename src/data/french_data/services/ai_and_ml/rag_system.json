@@ -1,0 +1,207 @@
+{
+  "slug": "rag-system",
+  "hero_section": {
+    "title": "Systèmes de génération augmentée de récupération d'entreprise (RAG)",
+    "subtitle": "Éliminez les hallucinations grâce à une infrastructure d'IA injectée dans le contexte",
+    "description": "Nous concevons des systèmes de génération de récupération et de génération augmentée (RAG) de niveau production qui ancrent les grands modèles de langage fondamentaux dans les magasins de données internes sécurisés de votre entreprise. Convertissez de vastes silos de données non structurés en une business intelligence précise et en temps réel.",
+    "buttons": [
+      {
+        "text": "Architecte de mon système RAG",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce qu'un niveau entreprise",
+    "span_heading": "Système RAG ?",
+    "content": [
+      "Chez Devisgon, nous concevons et mettons en œuvre des architectures RAG avancées qui fournissent des modèles de langage avec une base factuelle sécurisée en temps réel. S'éloignant de l'ingénierie d'invite standard sujette aux hallucinations, nos systèmes recherchent, récupèrent et classent par programme le contexte exact nécessaire à partir de vos bases de connaissances internes avant qu'une réponse de modèle ne soit générée.",
+      "Nous comblons le fossé entre les pondérations de modèles statiques et les lacs de données d'entreprise dynamiques et évolutifs. Chaque pipeline RAG que nous déployons comprend une analyse automatisée des documents, des intégrations vectorielles de grande dimension, une recherche hybride par mots clés sémantiques et des autorisations d'accès strictes au niveau du document, garantissant que vos réponses sont mathématiquement vérifiées, actuelles et sécurisées."
+    ],
+    "highlight_quote": "« Résultats du modèle sans hallucination, injection de connaissances en temps réel, limites de données 100 % déterministes. »",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Renforcez vos applications avec des réseaux de recherche et de génération vérifiables et précis au contexte",
+    "cards": [
+      {
+        "title": "Éradication complète des hallucinations",
+        "description": "Limitez par programme les paramètres LLM pour répondre exclusivement en utilisant les blocs de texte récupérés, minimisant ainsi la spéculation et la génération de fausses sorties.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Mises à jour des connaissances en temps réel",
+        "description": "Évitez les boucles coûteuses de réglage fin du modèle. Mettez simplement à jour votre base de données et votre système RAG fournit immédiatement les dernières versions de documents.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Autorisations d'accès granulaires",
+        "description": "Intégrez des paramètres de sécurité dans les recherches vectorielles, garantissant que les utilisateurs récupèrent uniquement les informations correspondant à leurs rôles d'autorisation spécifiques.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Ingestion multiformat",
+        "description": "Analysez et vectorisez de manière transparente les enregistrements internes non structurés, y compris les démarques techniques, les PDF, les lignes de base de données et les manuels numérisés.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec l'infrastructure Devisgon RAG",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Cadres avancés d'extraction et de regroupement de vecteurs",
+        "description": "Microservices d'ingestion personnalisés configurés pour diviser les documents d'entreprise complexes en morceaux préservés dans leur contexte avec des balises de métadonnées sémantiques."
+      },
+      {
+        "title": "2. Routeurs de recherche hybrides de grande dimension",
+        "description": "Architectures de recherche combinant des intégrations vectorielles denses avec des recherches de mots clés clairsemées (BM25) pour maximiser la précision de la récupération.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "3. Reclassement contextuel et maillages de compression",
+        "description": "Intégration de Cohere ou de reclasseurs spécialisés Cross Encoder pour extraire les résultats les plus pertinents et minimiser les coûts d'utilisation des jetons."
+      },
+      {
+        "title": "4. Systèmes de citation et d'attribution vérifiables",
+        "description": "Suivi de génération programmatique qui oblige les modèles à ajouter des citations cliquables mappant directement aux documents sources pour des audits humains faciles."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous construisons avec une infrastructure vectorielle évolutive et haute performance",
+    "subtitle": "Modèles d'intégration, magasins d'index et orchestrateurs de pipelines de pointe, conçus pour une précision à faible latence",
+    "tools": [
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "LangChain",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "Supabase (pile vectorielle)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvecteur)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Pinecone",
+        "icon": "SiPinecone"
+      },
+      {
+        "name": "Qdrant",
+        "icon": "SiQdrant"
+      },
+      {
+        "name": "Intégrations OpenAI",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Cohérer (Reclassement)",
+        "icon": "SiCohere"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js (diffusion du SDK IA)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Redis (Cache Sémantique)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Socle AWS",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la construction du pipeline de documents au déploiement RAG en direct vérifié en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les structures de données d’entreprise, évaluez la propreté des documents sources et cartographiez les périmètres d’intention de recherche attendus.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulez des politiques de regroupement de jetons, concevez des schémas d'index et planifiez des structures de classement de métadonnées hybrides.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez les workflows d'ingestion en Python, établissez des index vectoriels dans Supabase pgvector et écrivez des routines de reclassement.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Effectuez des évaluations rigoureuses de la matrice de qualité RAGAS, optimisez la latence du streaming des requêtes et activez les webhooks de synchronisation des données en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Zéro inexactitude obtenue dans plus de 50 000 journaux de documentation technique multiformat",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une entreprise d’ingénierie a consacré un temps considérable en interne à rechercher des procédures précises de réparation d’équipements dispersées dans des milliers de fichiers PDF anciens et complexes."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons construit un système RAG de qualité production, filtré par métadonnées, exploitant Supabase et LlamaIndex, combinant une recherche de vecteurs denses avec des pipelines de reclassement multi encodeurs."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les temps de recherche d'informations ont chuté de 94 %, les hallucinations liées aux données techniques sont tombées à zéro absolu et les ingénieurs de terrain ont obtenu des réponses immédiates et citées sur les systèmes de terminaux actifs."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture RAG et FAQ",
+    "subtitle": "Des réponses claires aux questions critiques de mise en œuvre, de sécurité et d’ingénierie des systèmes",
+    "questions": [
+      {
+        "question": "Pourquoi un système de recherche hybride est il nécessaire pour un RAG d'entreprise ?",
+        "answer": "La recherche de vecteurs denses est exceptionnelle pour saisir l'intention sémantique conceptuelle, mais elle peut manquer des clés de série spécifiques, des codes de produit ou des noms exacts. La recherche hybride associe les intégrations vectorielles au suivi traditionnel des mots clés (BM25) pour garantir la précision de la correspondance structurelle et conceptuelle."
+      },
+      {
+        "question": "Comment un système RAG maintient il ses données à jour alors que nos dossiers commerciaux changent quotidiennement ?",
+        "answer": "Nous établissons des webhooks d'événements automatisés et des calendriers de synchronisation Cron. Chaque fois qu'un document est modifié, ajouté ou supprimé sur votre plate forme de stockage, notre pipeline exécute instantanément l'extraction, génère de nouvelles intégrations et met automatiquement à jour l'index de votre base de données vectorielle."
+      },
+      {
+        "question": "Comment protéger les données sensibles contre la divulgation aux employés sans informations d'identification appropriées ?",
+        "answer": "Nous appliquons un marquage strict des autorisations de métadonnées au niveau de la base de données. Chaque bloc de document est vectorisé avec ses rôles d'accès requis ; lorsqu'un utilisateur émet une requête, le système ajoute un filtre de vérification matérielle, rendant les fichiers non autorisés mathématiquement invisibles à l'étape de recherche."
+      },
+      {
+        "question": "Quels outils utilisez vous pour évaluer et noter la précision d'un pipeline RAG ?",
+        "answer": "Nous intégrons des frameworks d'évaluation automatisés tels que RAGAS et TruLens lors du développement du sandbox. Nous testons et optimisons en permanence trois mesures distinctes : la fidélité (la réponse est elle basée sur des données ?), la pertinence de la réponse (est ce que cela résout l'invite ?) et la précision du contexte (avons nous extrait les bons morceaux de données ?)."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à créer un moteur de données fiable et contextuel ?",
+      "link_text": "Planifiez une revue d’architecture avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

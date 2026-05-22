@@ -1,116 +1,135 @@
 {
   "slug": "mysql",
   "seo_metadata": {
-    "title": "企业MySQL开发和关系数据库设计",
-    "description": "专业的 MySQL 实施和优化服务。我们构建高度完整性的关系数据库，旨在实现 ACID 合规性、安全性和一致的性能。",
+    "title": "MySQL 开发服务 |关系数据库设计和 SQL 优化 |德维斯冈",
+    "description": "Devisgon 为关系数据库设计、SQL 优化、安全数据架构、SaaS 平台、业务应用程序、仪表板和云就绪软件系统提供专业的 MySQL 开发服务。",
     "keywords": [
-      "MySQL开发",
-      "关系数据库设计",
-      "SQL优化",
-      "酸性合规性",
-      "数据库集群",
-      "InnoDB 性能调优",
-      "托管 MySQL 服务"
+      "MySQL开发服务",
+      "MySQL数据库设计",
+      "MySQL咨询",
+      "关系型数据库开发",
+      "SQL数据库架构",
+      "SQL查询优化",
+      "MySQL性能优化",
+      "MySQL后端开发",
+      "数据库模式设计",
+      "ACID 兼容数据库",
+      "商业数据库开发",
+      "适用于 SaaS 平台的 MySQL",
+      "云MySQL开发",
+      "企业SQL数据库解决方案",
+      "MySQL API开发",
+      "MySQL数据迁移",
+      "安全数据库开发",
+      "定制 MySQL 应用程序"
     ]
   },
   "hero_section": {
-    "eyebrow": "卓越关系",
-    "title": "可扩展的完整性",
+    "eyebrow": "关系数据库开发",
+    "title": "构建可靠的数据系统",
     "highlight": "MySQL",
-    "description": "利用世界上最流行的开源数据库构建安全的事务性应用程序，重点关注数据一致性和高并发性能。",
+    "description": "Devisgon 为需要结构化数据、可靠交易和长期可扩展性的 SaaS 平台、业务应用程序、仪表板、客户门户、电子商务系统、报告工具和云就绪产品设计和优化 MySQL 数据库。",
     "side_image": "/technologies/my_sql/hero.webp",
     "primary_cta": {
-      "text": "优化您的数据库",
+      "text": "规划您的 MySQL 架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看架构",
+      "text": "探索数据库范围",
       "href": "/technologies/mysql#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 MySQL 进行设计",
-    "subtitle": "MySQL 仍然是关系数据的黄金标准，为结构化工作负载提供无与伦比的可靠性。",
+    "title": "为什么我们使用 MySQL 进行构建",
+    "subtitle": "MySQL 是一种值得信赖的关系数据库，适用于需要结构化数据、事务可靠性、成熟 SQL 查询和安全业务逻辑的应用程序。",
     "paragraphs": [
-      "对于需要严格数据完整性和复杂关系查询的应用程序，MySQL是我们的首选。它对 ACID 事务的强大支持可确保每个操作都得到可靠处理，使其成为金融系统和核心业务逻辑的理想选择。",
-      "通过利用 InnoDB 等现代存储引擎并实施先进的索引策略，我们提供了一个在高速读取性能与结构化数据管理的安全性之间取得平衡的数据层。"
+      "Devisgon 将 MySQL 用于数据一致性、关系、报告和事务安全性很重要的产品。它非常适合 SaaS 平台、管理仪表板、CRM 系统、电子商务工作流程、财务运营、预订平台、客户门户、库存系统和自定义业务应用程序。",
+      "成功的 MySQL 实施不仅仅取决于创建表。我们的方法侧重于架构规划、关系设计、索引、查询优化、访问控制、迁移、备份、API 集成、报告需求和云部署，以便您的数据库随着产品的增长而保持可靠、安全和可扩展。"
     ],
     "cards": [
       {
-        "title": "酸性合规性",
-        "description": "通过原子、一致、隔离和持久的事务处理保证数据有效性。",
-        "icon_type": "FaShieldAlt"
-      },
-      {
-        "title": "关系成熟度",
-        "description": "使用成熟的优化器和经过验证的执行引擎处理复杂的联接和多表关系。",
+        "title": "结构化数据建模",
+        "description": "设计规范化的表、关系、约束和架构规则，使业务数据保持组织有序、准确且易于查询。",
         "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "安全第一",
-        "description": "受益于久经考验的安全模型，包括精细的访问控制和加密连接。",
-        "icon_type": "FaLock"
+        "title": "可靠的交易",
+        "description": "支持关键工作流程，例如付款、订单、预订、审批、库存变更和客户记录，并保持事务一致性。",
+        "icon_type": "FaShieldAlt"
+      },
+      {
+        "title": "优化的 SQL 性能",
+        "description": "通过索引、查询调优、关系规划、读取模式、报告视图和生产就绪的数据库结构提高应用程序速度。",
+        "icon_type": "FaDatabase"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "MySQL 设计范围",
+    "title": "MySQL开发范围",
     "image": "/technologies/my_sql/scope.webp",
     "items": [
       {
-        "title": "标准化数据建模",
-        "description": "设计高效的 3NF 模式，最大限度地减少冗余，同时保持最大的查询性能。"
+        "title": "关系模式设计",
+        "description": "根据实际应用程序工作流程和报告需求设计表、关系、主键、外键、约束、索引和数据模型。"
       },
       {
-        "title": "读/写分离",
-        "description": "实施主副本架构来分配流量并确保读取密集型应用程序的水平可扩展性。"
+        "title": "SQL查询与性能优化",
+        "description": "改进缓慢的查询、联接、索引、读/写模式、报告查询和数据访问逻辑，以提高应用程序性能。"
       },
       {
-        "title": "自动故障转移",
-        "description": "设置具有同步或半同步复制的高可用性集群，以实现 24/7 业务连续性。"
+        "title": "后端和API集成",
+        "description": "将 MySQL 与后端服务、REST API、GraphQL API、SaaS 平台、仪表板、门户、管理系统和业务工作流程连接起来。"
+      },
+      {
+        "title": "迁移和数据现代化",
+        "description": "规划安全的数据库迁移、架构升级、遗留数据清理、导入工作流程、备份策略和结构化数据转换。"
+      },
+      {
+        "title": "安全性、访问性和可靠性",
+        "description": "实施数据库用户、权限、加密连接、备份、恢复规划、环境分离、审计友好的结构和生产保障。"
       }
     ]
   },
   "edge_section": {
     "title": "MySQL 的优势",
-    "subtitle": "现代网络值得信赖的性能。",
+    "subtitle": "经过验证的关系数据库基础，适用于需要一致性、安全性、报告、结构化工作流程和长期可维护性的产品。",
     "cards": [
       {
-        "metric": "100%",
-        "title": "数据完整性",
-        "description": "通过严格的约束执行确保所有关系数据集的事务一致性。"
+        "metric": "Reliable",
+        "title": "事务一致性",
+        "description": "通过关系规则、约束和事务安全工作流程保持重要业务运营的准确性。"
       },
       {
-        "metric": "Open",
-        "title": "Ecosystem",
-        "description": "利用庞大的社区和无数的第三方工具进行监控、备份和迁移。"
+        "metric": "Structured",
+        "title": "清晰的数据关系",
+        "description": "使用有组织的关系数据库架构对客户、订单、用户、角色、付款、预订、库存和报告进行建模。"
       },
       {
-        "metric": "Low",
-        "title": "TCO",
-        "description": "实现企业级数据库性能，而无需支付高昂的专有 SQL 引擎许可成本。"
+        "metric": "Optimized",
+        "title": "SQL查询性能",
+        "description": "通过调整的索引和高效的查询，支持快速仪表板、搜索工作流程、报告、管理面板和应用程序屏幕。"
       },
       {
-        "metric": "Zero",
-        "title": "供应商锁定",
-        "description": "通过与每个主要云兼容的便携式开源引擎，保持对基础设施的完全控制。"
+        "metric": "Scalable",
+        "title": "业务应用程序增长",
+        "description": "构建一个数据库基础，随着时间的推移，可以支持更多用户、更多记录、更多集成和更高的操作复杂性。"
       }
     ]
   },
   "quote_section": {
-    "quote": "MySQL 提供了将复杂数据转化为数据所需的结构化基础",
-    "highlight": "可靠的业务逻辑"
+    "quote": "MySQL 将结构化业务数据转化为",
+    "highlight": "可靠的应用逻辑"
   },
   "conversation_section": {
-    "title": "构建您的 SQL 解决方案",
-    "subtitle": "请咨询我们的数据库专家来审核您的架构或优化您的查询性能。",
-    "full_name_label": "首席数据库管理员",
-    "business_email_label": "实体邮箱",
-    "message_label": "技术要求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的 SQL 性能挑战或架构目标...",
-    "button_text": "请求数据库审计"
+    "title": "设计您的 MySQL 数据库架构",
+    "subtitle": "与 Devisgon 合作，为 SaaS 平台、业务应用程序、仪表板、门户、电子商务系统、API 和云就绪数字产品规划、构建、迁移或优化 MySQL。",
+    "full_name_label": "姓名",
+    "business_email_label": "企业邮箱",
+    "message_label": "数据库要求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的应用程序、架构、MySQL 设置、查询性能问题、迁移需求或数据库架构目标...",
+    "button_text": "请求 MySQL 咨询"
   }
 }

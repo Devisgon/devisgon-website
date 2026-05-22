@@ -1,0 +1,206 @@
+{
+  "slug": "website-development",
+  "hero_section": {
+    "title": "企业Web应用工程",
+    "subtitle": "现代品牌的高性能数字基础设施",
+    "description": "我们设计、构建和部署生产级 Web 应用程序，旨在实现最大速度、结构 SEO 可扩展性和流畅交互。将您的数字表面区域转变为高度优化、高转化的客户中心。",
+    "buttons": [
+      {
+        "text": "构建我的 Web 应用程序",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的核心工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/web_development.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "网络工程？",
+    "content": [
+      "在 Devisgon，我们将网站开发视为严格的、组件驱动的软件学科。远离繁重、通用的页面构建器和臃肿的代码库，我们开发了轻量级、快速的 Web 生态系统，使用干净的模块化渲染、严格的类型参数、扁平 URL 目录机制和动态多语言本地化系统来构建。",
+      "我们弥合了抽象 UI/UX 布局和底层服务器效率之间的差距。我们部署的每个界面都具有优化的资产加载数组、用于最大搜索排名的清晰语义降价以及平滑的用户状态转换，确保您的产品页面、博客和操作登陆页面在全球边缘网络上完美运行。"
+    ],
+    "highlight_quote": "“极快的页面加载速度、扁平的语义 slug 架构、100% 组件驱动的扩展。”",
+    "side_image": "/all_services/web_development/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将您的网络形象转变为超快、搜索优化的引擎",
+    "cards": [
+      {
+        "title": "炽热的边缘速度",
+        "description": "部署无服务器、优化的 Web 应用程序，这些应用程序几乎可以在全球范围内立即加载，从而最大限度地提高用户交互指标并减少初始页面跳出。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "平面架构 SEO 对齐",
+        "description": "以编程方式强制执行干净、小写的 Flat slug URL 和自动化元数据配置，以完美匹配现代搜索引擎索引参数。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "动态全球本地化",
+        "description": "无缝集成高级本地化翻译，允许您的应用程序视图跨多个区域切换上下文，而无需重复代码层。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "流畅的用户界面过渡",
+        "description": "通过配置暗模式美学、响应式玻璃形态卡片和精确的水平对齐标记，为界面注入活力。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon Web 架构将为您带来什么",
+    "image": "/all_services/web_development/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 生产就绪的应用路由器网格",
+        "description": "基于 Next.js 构建的强大前端配置，具有优化的全局路由分组和自定义结构布局。"
+      },
+      {
+        "title": "2. 完整记录的 API 中间件层",
+        "description": "安全的无服务器路由代理旨在处理用户身份验证检查、自定义 Webhook 和第三方数据映射。"
+      },
+      {
+        "title": "3. 编码设计系统和组件库",
+        "description": "自定义 Tailwind 配置设置和响应式组件专门围绕严格的 2x2 移动布局构建。"
+      },
+      {
+        "title": "4. 完整的国际化和 SEO 包",
+        "description": "使用 i18next 结构以及自动化 XML 站点地图引擎的完整站点翻译设置，以实现最佳搜索索引。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代、强化的 Web 框架进行设计",
+    "subtitle": "业界领先的前端架构、部署云和动画网络，专为极致性能而打造",
+    "tools": [
+      {
+        "name": "Next.js（应用程序路由器）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "TypeScript",
+        "icon": "SiTypescript"
+      },
+      {
+        "name": "Tailwind CSS（v4 实用程序）",
+        "icon": "SiTailwindcss"
+      },
+      {
+        "name": "成帧器运动",
+        "icon": "SiFramermotion"
+      },
+      {
+        "name": "Supabase（数据网格）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Node.js（后端运行时）",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Vercel（边缘部署）",
+        "icon": "SiVercel"
+      },
+      {
+        "name": "Git / GitHub（版本中心）",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Figma（UI传输）",
+        "icon": "SiFigma"
+      },
+      {
+        "name": "i18next（本地化）",
+        "icon": "SiI18next"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从最初的 UI/UX 组件映射到实时边缘部署，只需 6 周时间",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "分析所需的用户交互路径、审核目标搜索词、设计 URL 文件夹层次结构并定义结构 API 挂钩。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "映射功能状态变化，勾勒出暗模式玻璃形态界面画布，并制定精确的响应组件边界。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "使用 Next.js 对模块化客户端布局进行编程、配置 Tailwind 实用程序类并集成自定义翻译加载器。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行严格的多视口布局测试、运行性能灯塔审核、验证全局路由行为并安全部署到边缘云。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "+120% 搜索可见性扩展和绝对零结构格式差异",
+    "image": "/all_services/web_development/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于加载速度缓慢、索引轨道重复以及移动屏幕上的布局中断，一个可扩展的技术平台正在失去自然用户获取。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 Next.js 和 Tailwind CSS 重新设计了他们的整个布局，强制执行平面 URL 设置、语义 HTML 标记和精确的 2x2 网格连接令牌。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "平台加载速度加快了 4 倍，搜索引擎流量信号攀升了 120%，内部团队在不停机的情况下实现了流畅的前端更新。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Web 工程架构和常见问题解答",
+    "subtitle": "对关键布局配置、索引机制和系统扩展查询的清晰答案",
+    "questions": [
+      {
+        "question": "企业 Next.js 结构与标准遗留 Web 构建有何不同？",
+        "answer": "传统设置依赖于繁重、缓慢的服务器操作，从而缓慢地构建页面。 Next.js 利用先进的静态生成和边缘路由阵列，以亚毫秒的速度全局渲染页面，同时原生提供隔离的 API 微服务网格。"
+      },
+      {
+        "question": "如何确保 Web 应用程序 URL 针对搜索可见性进行了全面优化？",
+        "answer": "我们以编程方式执行严格的语义标准。我们构建扁平的小写路径设置，删除无用的单词，去掉尾部斜杠，并将自动元属性直接注入到路由布局中，以确保搜索引擎正确索引组件。"
+      },
+      {
+        "question": "您的前端组件能否完美适应复杂的移动方向？",
+        "answer": "绝对地。我们根据具体的移动限制编写流畅的实用程序代码。通过将布局元素组织到精确的响应系统中（例如链接空间的严格 2x2 网格模式），我们保证了不同移动视图之间的视觉和谐。"
+      },
+      {
+        "question": "您的多语言翻译设置如何在不减慢页面渲染速度的情况下发挥作用？",
+        "answer": "我们利用通过 i18next 框架管理的异步 JSON 翻译脚本。我们的中间件不是预先加载每个本地化配置文件，而是动态注入与用户直接选择的语言相匹配的精确字典数据，从而保持代码块干净且不臃肿。"
+      }
+    ],
+    "footer": {
+      "text": "准备好设计一个精英、高性能的 Web 应用程序生态系统了吗？",
+      "link_text": "与我们的工程团队安排平台审查",
+      "link_url": "/contact"
+    }
+  }
+}

@@ -1,0 +1,264 @@
+{
+  "slug": "rag-system",
+  "seo_metadata": {
+    "title": "RAG System Development Services | Retrieval Augmented Generation, AI Search & Knowledge Base Automation | Devisgon",
+    "description": "Devisgon provides professional RAG system development services for AI knowledge bases, semantic search, document intelligence, enterprise chatbots, internal assistants, secure data retrieval, and production ready AI workflows.",
+    "keywords": [
+      "RAG system development services",
+      "Retrieval Augmented Generation development",
+      "enterprise RAG systems",
+      "AI knowledge base development",
+      "semantic search development",
+      "vector database development",
+      "RAG chatbot development",
+      "AI document search",
+      "LLM knowledge base integration",
+      "custom RAG pipeline",
+      "RAG system for business",
+      "AI search engine development",
+      "vector search implementation",
+      "RAG with Supabase",
+      "RAG with pgvector",
+      "LlamaIndex RAG development",
+      "LangChain RAG development",
+      "secure enterprise AI search"
+    ]
+  },
+  "hero_section": {
+    "title": "Enterprise RAG System Development",
+    "subtitle": "Accurate AI Answers Powered by Your Trusted Business Knowledge",
+    "description": "Devisgon builds Retrieval Augmented Generation systems that connect AI models with your approved documents, databases, policies, product data, support content, and internal knowledge. We help global businesses reduce hallucinations, improve AI accuracy, and turn scattered information into secure, searchable, and production ready intelligence.",
+    "buttons": [
+      {
+        "text": "Build My RAG System",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our AI Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is an Enterprise Grade",
+    "span_heading": " RAG System?",
+    "content": [
+      "A Retrieval Augmented Generation system connects an AI model with trusted business knowledge before it generates an answer. Instead of relying only on general model memory, the system searches your approved documents, databases, files, FAQs, manuals, policies, or product data and gives the model relevant context to answer more accurately.",
+      "At Devisgon, we build RAG systems with secure access control, vector search, metadata filtering, document ingestion, citations, evaluation, monitoring, and workflow integration. This allows your AI chatbots, internal assistants, support tools, and knowledge systems to produce useful answers grounded in your real business data."
+    ],
+    "highlight_quote": "“RAG turns scattered business knowledge into accurate, searchable, and secure AI powered answers.”",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Business Benefits",
+    "subtitle": "Use RAG to improve AI accuracy, knowledge access, support speed, and internal decision making",
+    "cards": [
+      {
+        "title": "More Accurate AI Answers",
+        "description": "Ground AI responses in approved documents, policies, product data, manuals, and internal knowledge sources.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Fast Knowledge Retrieval",
+        "description": "Help users search large document libraries, FAQs, records, and technical content using natural language.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Secure Access Control",
+        "description": "Restrict search results by user role, department, document type, permission level, or business rules.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Lower Support Workload",
+        "description": "Automate repeated questions, internal lookup tasks, documentation search, and knowledge based support workflows.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Receive with Devisgon RAG System Development",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. RAG Strategy and Knowledge Audit",
+        "description": "We review your documents, data sources, users, access rules, search goals, and AI accuracy requirements."
+      },
+      {
+        "title": "2. Document Ingestion and Chunking Pipeline",
+        "description": "We build pipelines to parse, clean, split, tag, and prepare documents for reliable AI retrieval."
+      },
+      {
+        "title": "3. Vector Search and Metadata Filtering",
+        "description": "We configure vector databases, embeddings, metadata filters, hybrid search, and role aware retrieval logic."
+      },
+      {
+        "title": "4. AI Answer Generation and Citations",
+        "description": "We connect retrieved context with AI models and return grounded answers with source references where needed."
+      },
+      {
+        "title": "5. Evaluation, Testing, and Guardrails",
+        "description": "We test answer quality, retrieval accuracy, access control, edge cases, hallucination risks, and fallback behavior."
+      },
+      {
+        "title": "6. Deployment, Monitoring, and Maintenance",
+        "description": "We deploy the RAG system, monitor usage, update knowledge, improve retrieval, and maintain performance."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "RAG System Technologies and Frameworks We Use",
+    "subtitle": "Modern AI retrieval, vector database, embedding, reranking, backend, and deployment tools for production ready RAG systems",
+    "tools": [
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "LangChain",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "Supabase Vector Stack",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL pgvector",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Pinecone",
+        "icon": "SiPinecone"
+      },
+      {
+        "name": "Qdrant",
+        "icon": "SiQdrant"
+      },
+      {
+        "name": "OpenAI Embeddings",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Cohere Rerank",
+        "icon": "SiCohere"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js AI SDK",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Redis Semantic Cache",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "AWS Bedrock",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our RAG System Development Process",
+    "subtitle": "A focused 6 step process from discovery to testing, deployment, maintenance, and optimization",
+    "steps": [
+      {
+        "title": "Discovery Call",
+        "description": "We understand your knowledge sources, users, search goals, AI use cases, risks, and success criteria.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Knowledge and Process Mapping",
+        "description": "We map documents, databases, permissions, user roles, query types, workflows, and answer requirements.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "RAG Strategy",
+        "description": "We define chunking, embeddings, vector storage, metadata filters, reranking, guardrails, and rollout scope.",
+        "icon": "VscGraphLine"
+      },
+      {
+        "title": "Development and Integration",
+        "description": "We build ingestion pipelines, retrieval logic, AI response flow, citations, APIs, and app integrations.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Testing and Deployment",
+        "description": "We test retrieval accuracy, answer quality, permissions, edge cases, performance, and deploy safely.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Maintenance and Optimization",
+        "description": "We monitor answers, update knowledge, improve search quality, tune prompts, and maintain integrations.",
+        "icon": "PiCodeFill"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "RAG Knowledge System That Improved Search Accuracy and Reduced Support Delays",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A growing technical business had policies, support guides, product documents, and internal notes spread across multiple locations. Employees and customers wasted time searching manually, and AI tools often gave incomplete or unsupported answers."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "Devisgon built a secure RAG pipeline with document ingestion, vector search, metadata filtering, AI answer generation, and citation support. The system retrieved approved context before answering and routed unsupported queries to fallback workflows."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "The business improved knowledge access, reduced repetitive support lookups, increased answer consistency, and created a controlled AI search layer grounded in verified company data."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "RAG System Questions and Answers",
+    "subtitle": "Detailed answers for founders, CTOs, product teams, and business leaders evaluating RAG systems",
+    "questions": [
+      {
+        "question": "What is a RAG system and why is it useful?",
+        "answer": "A RAG system connects an AI model with your trusted business knowledge before generating an answer. It retrieves relevant documents, policies, FAQs, or database records and uses that context to respond. This makes AI answers more accurate, current, and useful for business workflows."
+      },
+      {
+        "question": "How is RAG different from normal AI chatbot prompting?",
+        "answer": "Normal prompting relies mostly on the model’s existing knowledge and whatever context is manually provided. RAG automatically searches your approved knowledge sources and injects relevant information into the AI workflow. This makes it better for company specific answers, documentation search, support tools, and internal assistants."
+      },
+      {
+        "question": "Can a RAG system reduce hallucinations?",
+        "answer": "Yes, RAG can reduce hallucinations by grounding answers in retrieved business documents and approved sources. It does not remove all risk by itself, so we also add prompt boundaries, citations, validation rules, fallback behavior, and testing. For sensitive workflows, the system can refuse unsupported answers or escalate to a human."
+      },
+      {
+        "question": "What data sources can be connected to a RAG system?",
+        "answer": "A RAG system can connect with PDFs, documents, website pages, FAQs, manuals, support tickets, database rows, policies, product catalogs, spreadsheets, and internal knowledge bases. Devisgon prepares these sources through ingestion, cleaning, chunking, metadata tagging, and vector indexing so they become searchable by AI."
+      },
+      {
+        "question": "Can RAG search results be restricted by user roles?",
+        "answer": "Yes. We can use metadata filters, role based permissions, tenant rules, department access, document labels, and API level checks to control what each user can retrieve. This is important for internal knowledge systems where different teams should not see the same documents or sensitive records."
+      },
+      {
+        "question": "What is the difference between vector search and hybrid search?",
+        "answer": "Vector search finds content based on meaning, even when the user uses different words from the document. Hybrid search combines vector search with keyword matching for exact terms, IDs, product names, or codes. For enterprise RAG systems, hybrid search often improves retrieval accuracy and reliability."
+      },
+      {
+        "question": "How do you test if a RAG system is accurate?",
+        "answer": "We test retrieval quality, answer relevance, citation accuracy, unsupported question handling, role based access, and edge cases. We use sample questions, expected answers, document checks, and evaluation workflows. The goal is to confirm that the system retrieves the right context and answers from trusted sources."
+      },
+      {
+        "question": "Does Devisgon provide maintenance after a RAG system is deployed?",
+        "answer": "Yes. RAG systems need ongoing maintenance because documents, policies, products, permissions, and user questions change over time. Devisgon updates ingestion pipelines, refreshes indexes, improves prompts, monitors answer quality, fixes issues, and optimizes retrieval performance after launch."
+      }
+    ],
+    "footer": {
+      "text": "Ready to build a secure AI knowledge system for your business?",
+      "link_text": "Schedule a RAG system discovery call",
+      "link_url": "/contact"
+    }
+  }
+}

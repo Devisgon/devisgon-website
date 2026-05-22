@@ -1,0 +1,207 @@
+{
+  "slug": "rag-system",
+  "hero_section": {
+    "title": "Sistemas de generación aumentada (RAG) de recuperación empresarial",
+    "subtitle": "Elimine las alucinaciones con infraestructura de IA inyectada en contexto",
+    "description": "Diseñamos sistemas de generación aumentada (RAG) de recuperación de nivel de producción que anclan modelos de lenguaje grandes fundamentales a los almacenes de datos internos y seguros de su empresa. Convierta grandes silos de datos no estructurados en inteligencia empresarial precisa y en tiempo real.",
+    "buttons": [
+      {
+        "text": "Diseñe mi sistema RAG",
+        "link": "/contact"
+      },
+      {
+        "text": "Consulte a nuestros ingenieros",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es un nivel empresarial?",
+    "span_heading": "¿Sistema RAG?",
+    "content": [
+      "En Devisgon, diseñamos e implementamos arquitecturas RAG avanzadas que proporcionan modelos de lenguaje con una base factual segura y en tiempo real. Alejándonos de la ingeniería de avisos estándar, propensa a alucinaciones, nuestros sistemas buscan, recuperan y clasifican mediante programación el contexto exacto necesario de sus bases de conocimiento internas antes de que se genere cualquier respuesta del modelo.",
+      "Cerramos la brecha entre los pesos de los modelos estáticos y los lagos de datos empresariales dinámicos y en evolución. Cada proceso de RAG que implementamos presenta análisis automatizado de documentos, incrustaciones de vectores de alta dimensión, búsqueda híbrida de palabras clave semánticas y permisos estrictos de acceso a nivel de documentos, lo que garantiza que sus respuestas estén matemáticamente verificadas, actualizadas y protegidas de forma segura."
+    ],
+    "highlight_quote": "\"Resultados del modelo de alucinación cero, inyección de conocimiento en tiempo real, límites de datos 100% deterministas\".",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios empresariales clave",
+    "subtitle": "Potencie sus aplicaciones con redes de generación y búsqueda verificables y con precisión contextual",
+    "cards": [
+      {
+        "title": "Erradicación completa de las alucinaciones",
+        "description": "Restrinja mediante programación los parámetros de LLM para responder exclusivamente utilizando los bloques de texto recuperados, minimizando la especulación y la generación de resultados falsos.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Actualizaciones de conocimientos en tiempo real",
+        "description": "Evite los costosos ciclos de ajuste de modelos. Simplemente actualice su base de datos y su sistema RAG ofrecerá inmediatamente las últimas versiones de los documentos.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Permisos de acceso granular",
+        "description": "Incorpore parámetros de seguridad dentro de las búsquedas de vectores, garantizando que los usuarios solo recuperen información que coincida con sus funciones de autorización específicas.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Ingestión multiformato",
+        "description": "Analice y vectorice registros internos no estructurados sin problemas, incluidas rebajas técnicas, archivos PDF, filas de bases de datos y manuales escaneados.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que recibirá con la infraestructura Devisgon RAG",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Marcos avanzados de extracción y fragmentación de vectores",
+        "description": "Microservicios de ingesta personalizados configurados para dividir documentos empresariales complejos en fragmentos preservados en contexto con etiquetas de metadatos semánticos."
+      },
+      {
+        "title": "2. Enrutadores de búsqueda híbridos de alta dimensión",
+        "description": "Arquitecturas de búsqueda que combinan incrustaciones de vectores densas con búsquedas dispersas de palabras clave (BM25) para maximizar la precisión de la recuperación.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "3. Mallas de compresión y reclasificación del contexto",
+        "description": "Integración de Cohere o reclasificadores Cross Encoder especializados para extraer los resultados más relevantes y minimizar los costos de uso de tokens."
+      },
+      {
+        "title": "4. Sistemas de atribución y citas verificables",
+        "description": "Seguimiento de generación programática que obliga a los modelos a agregar citas en las que se puede hacer clic directamente a los documentos fuente para facilitar las auditorías humanas."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Construimos con infraestructura vectorial escalable y de alto rendimiento",
+    "subtitle": "Modelos de integración, almacenes de índices y orquestadores de canalizaciones líderes en la industria creados para lograr una precisión de baja latencia",
+    "tools": [
+      {
+        "name": "LlamaIndex",
+        "icon": "SiLlamaindex"
+      },
+      {
+        "name": "LangChain",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "Supabase (pila vectorial)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvector)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Pinecone",
+        "icon": "SiPinecone"
+      },
+      {
+        "name": "Qdrant",
+        "icon": "SiQdrant"
+      },
+      {
+        "name": "Incorporaciones de OpenAI",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Cohere (Reclasificar)",
+        "icon": "SiCohere"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Next.js (transmisión de SDK de IA)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Redis (caché semántica)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Base de AWS",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro plan de ingeniería",
+    "subtitle": "Desde la construcción de documentos hasta la implementación verificada de RAG en vivo en 6 semanas",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Audite las estructuras de datos corporativas, evalúe la limpieza de los documentos fuente y trace los perímetros de intención de búsqueda esperados.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formule políticas de fragmentación de tokens, diseñe esquemas de índices y planifique estructuras de clasificación de metadatos híbridos.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programe flujos de trabajo de ingesta en Python, establezca índices vectoriales dentro de Supabase pgvector y escriba rutinas de reclasificación.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Realice rigurosas evaluaciones de la matriz de calidad RAGAS, optimice la latencia de transmisión de consultas y active webhooks de sincronización de datos de forma segura.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Cero imprecisiones logradas en más de 50 000 registros de documentación técnica multiformato",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barricada operativa",
+        "text": "Una empresa de ingeniería dedicó un tiempo interno considerable a rastrear procedimientos precisos de reparación de equipos repartidos en miles de archivos PDF complejos y heredados."
+      },
+      "solution": {
+        "label": "Nuestro enfoque de ingeniería",
+        "text": "Construimos un sistema RAG filtrado de metadatos de grado de producción que aprovecha Supabase y LlamaIndex, combinando búsqueda de vectores densos con canales de reclasificación de codificadores cruzados."
+      },
+      "result": {
+        "label": "Impacto mensurable",
+        "text": "Los tiempos de búsqueda de información se desplomaron en un 94%, las alucinaciones de datos técnicos cayeron al cero absoluto y los ingenieros de campo obtuvieron respuestas inmediatas y citadas en sistemas terminales activos."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Arquitectura RAG y preguntas frecuentes",
+    "subtitle": "Respuestas claras a consultas críticas de implementación, seguridad e ingeniería de sistemas.",
+    "questions": [
+      {
+        "question": "¿Por qué es necesario un sistema de búsqueda híbrido para RAG de nivel empresarial?",
+        "answer": "La búsqueda de vectores densos es excepcional para captar la intención semántica conceptual, pero puede pasar por alto claves de serie, códigos de productos o nombres exactos específicos. La búsqueda híbrida combina incrustaciones de vectores con el seguimiento de palabras clave tradicional (BM25) para garantizar la precisión de la coincidencia tanto estructural como conceptual."
+      },
+      {
+        "question": "¿Cómo mantiene un sistema RAG sus datos actualizados mientras nuestros registros comerciales cambian diariamente?",
+        "answer": "Establecemos webhooks de eventos automatizados y horarios de sincronización Cron. Cada vez que se modifica, agrega o elimina un documento dentro de su plataforma de almacenamiento, nuestra canalización ejecuta instantáneamente la extracción, genera nuevas incrustaciones y actualiza automáticamente el índice de su base de datos vectorial."
+      },
+      {
+        "question": "¿Cómo se protegen los datos confidenciales para que no se muestren a empleados sin las credenciales adecuadas?",
+        "answer": "Aplicamos un estricto etiquetado de permisos de metadatos a nivel de base de datos. Cada bloque de documentos se vectoriza junto con sus roles de acceso requeridos; Cuando un usuario realiza una consulta, el sistema agrega un filtro de verificación estricta, lo que hace que los archivos no autorizados sean matemáticamente invisibles para el paso de búsqueda."
+      },
+      {
+        "question": "¿Qué herramientas utiliza para evaluar y calificar la precisión de una tubería RAG?",
+        "answer": "Integramos marcos de evaluación automatizados como RAGAS y TruLens durante el desarrollo de sandbox. Probamos y optimizamos continuamente para tres métricas distintas: fidelidad (¿la respuesta se basa en datos?), relevancia de la respuesta (¿resuelve la pregunta?) y precisión del contexto (¿obtuvimos los fragmentos de datos correctos?)."
+      }
+    ],
+    "footer": {
+      "text": "¿Listo para construir un motor de datos confiable y bloqueado por contexto?",
+      "link_text": "Programe una revisión de arquitectura con nuestro equipo",
+      "link_url": "/contact"
+    }
+  }
+}

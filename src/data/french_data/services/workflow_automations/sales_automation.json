@@ -1,0 +1,206 @@
+{
+  "slug": "sales-automation",
+  "hero_section": {
+    "title": "Systèmes d'automatisation des ventes d'entreprise",
+    "subtitle": "Optimisation algorithmique du pipeline pour une génération de revenus à grande vitesse",
+    "description": "Nous concevons une infrastructure d'automatisation des ventes hautes performances, basée sur les événements, qui convertit les signaux de prospects entrants en flux de vente structurés et automatisés. Accélérez la rapidité des transactions, éliminez la journalisation manuelle des bases de données et faites évoluer vos opérations de pipeline.",
+    "buttons": [
+      {
+        "text": "Architecter mon moteur de vente",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs en automatisation",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/financial_automation.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce que le niveau entreprise",
+    "span_heading": "Automatisation des ventes ?",
+    "content": [
+      "Chez Devisgon, nous construisons des couches d'automatisation des ventes personnalisées conçues pour orchestrer des opérations de revenus à haut débit et basées sur les données dans l'ensemble de votre écosystème d'entreprise. Allant bien au delà des planificateurs de calendrier de base, nous concevons des architectures de flux de travail décentralisées qui gèrent de manière native des tableaux complexes de distribution de leads, des paramètres de qualification programmatique et un enrichissement instantané de profils multiplateformes.",
+      "Nous comblons le fossé entre les moteurs d’admission destinés aux utilisateurs et les logiciels de vente B2B internes. Chaque pipeline d'automatisation est déployé avec une surveillance distribuée des webhooks, des gestionnaires de secours en temps réel, une validation du schéma de charge utile et des clés API sécurisées, garantissant ainsi une synchronisation parfaite de vos pipelines de suivi des transactions, de livraison de documents et de CRM."
+    ],
+    "highlight_quote": "\"Routage de données découplé, synchronisation du pipeline à faible latence, 0 % de friction de journalisation manuelle.\"",
+    "side_image": "/all_services/financial_automation/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Transformez les enregistrements d'utilisateurs fragmentés en un pipeline de ventes programmatique à fort taux de conversion",
+    "cards": [
+      {
+        "title": "Qualification instantanée des leads",
+        "description": "Évaluez et notez les enregistrements de l'entreprise entrante à la milliseconde exacte qu'un webhook se déclenche, déclenchant immédiatement des chemins d'intention spécifiques basés sur les métadonnées de la charge utile.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Routage CRM autonome",
+        "description": "Éliminez le décalage d'affectation humaine en déployant des graphiques logiques à tour de rôle qui attribuent instantanément des prospects, créent des transactions et informent les commerciaux via des canaux de communication sécurisés.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Suivis programmatiques",
+        "description": "Exécutez des points de contact conditionnels et multicanaux, notamment des alertes SMS et des modèles personnalisés, déclenchés strictement par les changements dans les étapes du pipeline de transactions.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Télémétrie prédictive des revenus",
+        "description": "Transformez les journaux d'activité CRM bruts en ensembles de données propres et structurés pour surveiller les tendances de conversion historiques, les baisses de goulets d'étranglement et les profils de vélocité des quotas.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec Devisgon Revenue Infrastructure",
+    "image": "/all_services/financial_automation/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Web d'orchestration de webhooks multi applications",
+        "description": "Réseaux de flux de travail avancés (conçus sur n8n ou Make.com) qui ingèrent des hooks principaux, exécutent des transformations de données et mettent à jour les outils."
+      },
+      {
+        "title": "2. Moteurs d'enrichissement des données en temps réel",
+        "description": "Couches middleware API qui interceptent les contacts entrants, recherchent des serveurs firmographiques externes et injectent des balises de métadonnées structurelles."
+      },
+      {
+        "title": "3. Pipelines automatisés de contrats et de documents",
+        "description": "Moteurs de documents programmatiques qui génèrent automatiquement des PDF propres, transmettent les paramètres de charge utile de signature et déclenchent des webhooks de facturation une fois terminés."
+      },
+      {
+        "title": "4. Tableaux de bord centralisés de télémétrie des pipelines",
+        "description": "Portails de suivi élégants Next.js construits avec un style sombre et glassmorphisme pour visualiser les entonnoirs de conversion, les temps de réponse et l'état de l'API."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous nous intégrons à une architecture renforcée de ventes et de revenus",
+    "subtitle": "Outils d'orchestration, réseaux de données et API de communication de pointe, conçus pour un trafic opérationnel intense",
+    "tools": [
+      {
+        "name": "n8n",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "HubSpot CRM",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "API Salesforce",
+        "icon": "SiSalesforce"
+      },
+      {
+        "name": "API Jotform",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "Next.js (itinéraires périphériques)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (authentification et base de données)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Twilio (API Voix et SMS)",
+        "icon": "SiTwilio"
+      },
+      {
+        "name": "Renvoyer (e mail transactionnel)",
+        "icon": "SiResend"
+      },
+      {
+        "name": "Redis (files d'attente de messages)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la cartographie des points de terminaison à l'automatisation des ventes programmatiques en direct en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les propriétés CRM existantes, tracez les étapes de vente opérationnelles, définissez des règles de qualification et mappez les points de terminaison de l'API logicielle requis.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Construisez des matrices logiques d’automatisation multi chemins, formulez des schémas de mappage de données et planifiez des itinéraires de secours pour la gestion des erreurs.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des routeurs middleware, déployez des réseaux d'intégration cloud sur n8n/Make et liez des hooks d'API sécurisés HubSpot, Twilio et Jotform.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests de charge intensifs de bout en bout, vérifiez les mesures de latence de déclenchement en temps réel dans le cadre d'une simulation de trafic de pointe et démarrez en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "+280 % d'accélération de la vitesse de pointe et élimination de 100 % des erreurs de saisie manuelle",
+    "image": "/all_services/financial_automation/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une plate forme technologique B2B en pleine croissance perdait des contrats car les commerciaux prenaient plus de 12 heures pour vérifier, saisir et réclamer manuellement des prospects issus de soumissions de formulaires déconnectées."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu un pipeline de webhooks basé sur des événements via des microservices n8n, reliant leur tableau d'ingestion Jotform à HubSpot tout en intégrant des paramètres d'enrichissement automatisé des données."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les temps de réponse initiaux sont passés de quelques heures à quelques secondes, le travail de journalisation administrative a atteint le zéro absolu et la vitesse globale du pipeline de l'équipe s'est accélérée de 280 %."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture d'automatisation des ventes et FAQ",
+    "subtitle": "Des réponses claires aux questions critiques sur la mise à l'échelle du système, le routage des données et la sécurité des webhooks",
+    "questions": [
+      {
+        "question": "Comment combiner des plateformes d'intégration visuelle avec des itinéraires de code personnalisés ?",
+        "answer": "Nous associons le mappage de flux de travail agile de n8n ou Make.com aux gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des outils low code pour un contrôle visible de la séquence de flux de travail et des blocs de code JavaScript/Python personnalisés pour une analyse sécurisée des jetons et un mappage approfondi des données."
+      },
+      {
+        "question": "Que se passe t il si une plate forme de vente principale tombe en panne lors d'une augmentation de trafic importante ?",
+        "answer": "Nous construisons une file d'attente de messages asynchrone à l'aide de tampons Redis à grande vitesse avant vos outils. Si un service externe comme HubSpot subit une panne temporaire, notre middleware récupère en toute sécurité la charge utile du webhook, enregistre la file d'attente et réessaye automatiquement la synchronisation une fois la plate forme récupérée."
+      },
+      {
+        "question": "Pouvons nous connecter en toute sécurité des applications Web sans serveur à des outils vocaux automatisés tels que les agents d'appel Twilio ?",
+        "answer": "Absolument. Nous construisons des passerelles webhook robustes qui échangent en toute sécurité des paramètres JSON en temps réel entre des routeurs back end sans serveur et des API de communication avancées, permettant des suivis vocaux immédiats et automatisés ou des suivis d'état des textes."
+      },
+      {
+        "question": "Comment protégez vous les enregistrements sensibles de l’entreprise lors du déplacement de données entre les couches d’intégration ?",
+        "answer": "Nous appliquons des directives strictes en matière de paramètres de confiance zéro. Chaque webhook entrant est vérifié pour les signatures cryptographiques (validation SHA 256), les données sont entièrement cryptées en transit à l'aide de TLS 1.3 et tous les champs clients sensibles sont supprimés ou masqués avant les couches de transport."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à faire évoluer par programmation l'infrastructure de vos revenus d'entreprise ?",
+      "link_text": "Planifiez une revue d’automatisation avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

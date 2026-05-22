@@ -1,9 +1,9 @@
 {
   "slug": "cloud-security",
   "hero_section": {
-    "title": "Cloud-Sicherheit",
+    "title": "Cloud Sicherheit",
     "subtitle": "Stärken Sie Ihre digitale Infrastruktur",
-    "description": "Schützen Sie Ihre sensiblen Daten, stellen Sie die Einhaltung gesetzlicher Vorschriften sicher und verteidigen Sie sich gegen moderne Cyber-Bedrohungen mit unseren Cloud-Sicherheitsarchitekturen und kontinuierlichen Überwachungslösungen der Enterprise-Klasse.",
+    "description": "Schützen Sie Ihre sensiblen Daten, stellen Sie die Einhaltung gesetzlicher Vorschriften sicher und verteidigen Sie sich gegen moderne Cyber Bedrohungen mit unseren Cloud Sicherheitsarchitekturen und kontinuierlichen Überwachungslösungen der Enterprise Klasse.",
     "buttons": [
       {
         "text": "Sichern Sie meine Cloud",
@@ -18,26 +18,26 @@
   },
   "introduction_section": {
     "heading": "Was ist",
-    "span_heading": "Cloud-Sicherheit?",
+    "span_heading": "Cloud Sicherheit?",
     "content": [
-      "Cloud-Sicherheit besteht aus den Technologien, Richtlinien und Kontrollen, die zum Schutz von Daten, Anwendungen und Infrastruktur im Zusammenhang mit Cloud Computing implementiert werden. Wenn Unternehmen in die Cloud migrieren, verschwindet der traditionelle Netzwerkperimeter, wodurch eine robuste, mehrschichtige Sicherheitsarchitektur wichtiger denn je wird.",
-      "Bei Devisgon verfolgen wir einen „Zero Trust“-Ansatz – das bedeutet, dass wir niemals vertrauen und immer überprüfen. Wir sichern Ihre AWS-, Azure- oder Google Cloud-Umgebungen von Grund auf, indem wir Identitätsmanagement, Datenverschlüsselung und automatisierte Bedrohungsreaktion implementieren, damit Ihr Unternehmen völlig beruhigt skalieren kann."
+      "Cloud Sicherheit besteht aus den Technologien, Richtlinien und Kontrollen, die zum Schutz von Daten, Anwendungen und Infrastruktur im Zusammenhang mit Cloud Computing implementiert werden. Wenn Unternehmen in die Cloud migrieren, verschwindet der traditionelle Netzwerkperimeter, wodurch eine robuste, mehrschichtige Sicherheitsarchitektur wichtiger denn je wird.",
+      "Bei Devisgon verfolgen wir einen „Zero Trust“ Ansatz – das bedeutet, dass wir niemals vertrauen und immer überprüfen. Wir sichern Ihre AWS , Azure  oder Google Cloud Umgebungen von Grund auf, indem wir Identitätsmanagement, Datenverschlüsselung und automatisierte Bedrohungsreaktion implementieren, damit Ihr Unternehmen völlig beruhigt skalieren kann."
     ],
     "highlight_quote": "„Sicherheit ist kein Produkt, das man kauft, sondern ein kontinuierlicher Prozess.“",
     "side_image": "/all_services/cloud_security/introduction.webp"
   },
   "key_benefits_section": {
     "title": "Hauptvorteile",
-    "subtitle": "Warum proaktive Cloud-Sicherheit nicht verhandelbar ist",
+    "subtitle": "Warum proaktive Cloud Sicherheit nicht verhandelbar ist",
     "cards": [
       {
         "title": "Bedrohungsminderung",
-        "description": "Stoppen Sie Ransomware, DDoS-Angriffe und unbefugte Zugriffe, bevor sie in Ihre Systeme eindringen können.",
+        "description": "Stoppen Sie Ransomware, DDoS Angriffe und unbefugte Zugriffe, bevor sie in Ihre Systeme eindringen können.",
         "icon_type": "MdSecurity"
       },
       {
         "title": "Einhaltung gesetzlicher Vorschriften",
-        "description": "Stellen Sie sicher, dass Ihre Infrastruktur strenge Industriestandards wie SOC 2, HIPAA, DSGVO und PCI-DSS erfüllt.",
+        "description": "Stellen Sie sicher, dass Ihre Infrastruktur strenge Industriestandards wie SOC 2, HIPAA, DSGVO und PCI DSS erfüllt.",
         "icon_type": "MdGppGood"
       },
       {
@@ -58,11 +58,11 @@
     "list_items": [
       {
         "title": "1. Schwachstellenbewertungen",
-        "description": "Tiefgreifende Prüfungen Ihres aktuellen Cloud-Setups, um Fehlkonfigurationen und exponierte Endpunkte zu identifizieren."
+        "description": "Tiefgreifende Prüfungen Ihres aktuellen Cloud Setups, um Fehlkonfigurationen und exponierte Endpunkte zu identifizieren."
       },
       {
-        "title": "2. Identitäts- und Zugriffsmanagement (IAM)",
-        "description": "Strenge „geringste Privilegien“-Zugriffskontrollen stellen sicher, dass Benutzer und Apps nur auf das zugreifen, was sie unbedingt benötigen."
+        "title": "2. Identitäts  und Zugriffsmanagement (IAM)",
+        "description": "Strenge „geringste Privilegien“ Zugriffskontrollen stellen sicher, dass Benutzer und Apps nur auf das zugreifen, was sie unbedingt benötigen."
       },
       {
         "title": "3. Datenverschlüsselung",
@@ -79,7 +79,7 @@
     "subtitle": "Unternehmenssoftware für maximalen Schutz",
     "tools": [
       {
-        "name": "AWS-Sicherheitshub",
+        "name": "AWS Sicherheitshub",
         "icon": "FaAws"
       },
       {
@@ -87,7 +87,7 @@
         "icon": "SiCloudflare"
       },
       {
-        "name": "HashiCorp-Tresor",
+        "name": "HashiCorp Tresor",
         "icon": "SiHashicorp"
       },
       {
@@ -106,51 +106,51 @@
     "steps": [
       {
         "title": "Auditieren und Bewerten",
-        "description": "Wir führen umfassende Scans Ihrer Cloud-Umgebung durch, um kritische Schwachstellen zu identifizieren.",
+        "description": "Wir führen umfassende Scans Ihrer Cloud Umgebung durch, um kritische Schwachstellen zu identifizieren.",
         "icon": "FaSearch"
       },
       {
         "title": "Architekturdesign",
-        "description": "Wir entwerfen ein Zero-Trust-Sicherheitsmodell, das speziell auf Ihren Tech-Stack zugeschnitten ist.",
+        "description": "Wir entwerfen ein Zero Trust Sicherheitsmodell, das speziell auf Ihren Tech Stack zugeschnitten ist.",
         "icon": "FaShieldAlt"
       },
       {
         "title": "Implementation",
-        "description": "Wir stellen Firewalls, IAM-Richtlinien und Verschlüsselungsschlüssel bereit, ohne Ihre Live-Dienste zu unterbrechen.",
+        "description": "Wir stellen Firewalls, IAM Richtlinien und Verschlüsselungsschlüssel bereit, ohne Ihre Live Dienste zu unterbrechen.",
         "icon": "FaLock"
       },
       {
         "title": "Überwachen und warten",
-        "description": "Wir richten automatisierte Warnsysteme ein und bieten fortlaufendes Patch-Management und Bedrohungssuche.",
+        "description": "Wir richten automatisierte Warnsysteme ein und bieten fortlaufendes Patch Management und Bedrohungssuche.",
         "icon": "FaChartLine"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Sicherung eines Fintech-Startups für die Einhaltung von SOC 2 Typ II",
+    "headline": "Sicherung eines Fintech Startups für die Einhaltung von SOC 2 Typ II",
     "image": "/all_services/cloud_security/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Eine schnell wachsende Finanzanwendung hatte AWS S3-Buckets offengelegt und verfügte nicht über angemessene Zugriffskontrollen, sodass sie Gefahr liefen, bei einem bevorstehenden Compliance-Audit durchzufallen."
+        "text": "Eine schnell wachsende Finanzanwendung hatte AWS S3 Buckets offengelegt und verfügte nicht über angemessene Zugriffskontrollen, sodass sie Gefahr liefen, bei einem bevorstehenden Compliance Audit durchzufallen."
       },
       "solution": {
         "label": "Solution",
-        "text": "Wir führten eine vollständige Sicherheitsüberprüfung durch, sperrten die öffentlich zugängliche Infrastruktur, verschlüsselten alle Datenbanken und implementierten eine strenge IAM-Richtlinie (Identity and Access Management)."
+        "text": "Wir führten eine vollständige Sicherheitsüberprüfung durch, sperrten die öffentlich zugängliche Infrastruktur, verschlüsselten alle Datenbanken und implementierten eine strenge IAM Richtlinie (Identity and Access Management)."
       },
       "result": {
         "label": "Result",
-        "text": "Der Kunde hat sein SOC 2 Typ II-Audit in weniger als 4 Wochen erfolgreich bestanden und konnte so einen wichtigen Unternehmensvertrag über 5 Millionen US-Dollar abschließen."
+        "text": "Der Kunde hat sein SOC 2 Typ II Audit in weniger als 4 Wochen erfolgreich bestanden und konnte so einen wichtigen Unternehmensvertrag über 5 Millionen US Dollar abschließen."
       }
     }
   },
   "faq_section": {
     "title": "Häufig gestellte Fragen",
-    "subtitle": "Erhalten Sie Antworten zum Thema Cloud-Sicherheit",
+    "subtitle": "Erhalten Sie Antworten zum Thema Cloud Sicherheit",
     "questions": [
       {
-        "question": "Ist die Cloud weniger sicher als On-Premise-Server?",
-        "answer": "Nein. Große Cloud-Anbieter (AWS, Azure, Google) verfügen über eine wesentlich bessere physische und grundlegende Sicherheit als die meisten privaten Rechenzentren. Cloud-Sicherheit basiert jedoch auf einem „Shared Responsibility Model“. Der Anbieter sichert die Hardware, Sie sind jedoch dafür verantwortlich, die Konfiguration Ihrer Daten und Apps sicherzustellen. Hier kommen wir ins Spiel."
+        "question": "Ist die Cloud weniger sicher als On Premise Server?",
+        "answer": "Nein. Große Cloud Anbieter (AWS, Azure, Google) verfügen über eine wesentlich bessere physische und grundlegende Sicherheit als die meisten privaten Rechenzentren. Cloud Sicherheit basiert jedoch auf einem „Shared Responsibility Model“. Der Anbieter sichert die Hardware, Sie sind jedoch dafür verantwortlich, die Konfiguration Ihrer Daten und Apps sicherzustellen. Hier kommen wir ins Spiel."
       },
       {
         "question": "Was bedeutet eigentlich „Zero Trust“?",
@@ -158,11 +158,11 @@
       },
       {
         "question": "Können Sie uns helfen, Compliance zu erreichen (SOC 2, HIPAA, DSGVO)?",
-        "answer": "Absolut. Wir sind auf die Abbildung von Cloud-Architekturen auf strenge regulatorische Rahmenbedingungen spezialisiert. Wir können die technischen Kontrollen implementieren, die erforderlich sind, um Ihre Compliance-Audits mit Bravour zu bestehen."
+        "answer": "Absolut. Wir sind auf die Abbildung von Cloud Architekturen auf strenge regulatorische Rahmenbedingungen spezialisiert. Wir können die technischen Kontrollen implementieren, die erforderlich sind, um Ihre Compliance Audits mit Bravour zu bestehen."
       },
       {
         "question": "Was passiert, wenn wir einen Cyberangriff erleiden?",
-        "answer": "Wir integrieren automatisierte Incident Response (IR)-Protokolle in Ihre Infrastruktur. Wenn ungewöhnliches Verhalten erkannt wird (z. B. ein massiver Daten-Download-Versuch), kann das System automatisch Verbindungen trennen, den Benutzerzugriff widerrufen und Ihr Team sofort alarmieren, um den Angriff im Keim zu ersticken."
+        "answer": "Wir integrieren automatisierte Incident Response (IR) Protokolle in Ihre Infrastruktur. Wenn ungewöhnliches Verhalten erkannt wird (z. B. ein massiver Daten Download Versuch), kann das System automatisch Verbindungen trennen, den Benutzerzugriff widerrufen und Ihr Team sofort alarmieren, um den Angriff im Keim zu ersticken."
       }
     ],
     "footer": {

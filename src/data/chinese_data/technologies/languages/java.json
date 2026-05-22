@@ -1,116 +1,135 @@
 {
   "slug": "java",
   "seo_metadata": {
-    "title": "企业 Java 开发 |可扩展的 JVM 架构服务",
-    "description": "适用于高并发企业应用程序的定制 Java 软件工程。我们使用 Spring Boot 和现代 JVM 优化来构建安全、稳定且可扩展的系统。",
+    "title": "Java 开发服务 |企业后端、API 和可扩展软件架构 |德维斯冈",
+    "description": "Devisgon 为企业应用程序、可扩展后端系统、API、SaaS 平台、云原生软件、微服务和安全的关键业务数字产品提供专业的 Java 开发服务。",
     "keywords": [
+      "Java开发服务",
+      "Java开发公司",
       "企业Java开发",
-      "Spring Boot 微服务",
+      "Java后端开发",
+      "Java API开发",
+      "Java软件开发",
+      "Spring Boot 开发",
+      "Java微服务开发",
+      "云原生Java开发",
+      "Java企业应用程序开发",
+      "自定义 Java 应用程序",
+      "Java SaaS 开发",
+      "Java 应用程序现代化",
+      "Java性能优化",
       "JVM 性能调优",
-      "Java软件架构",
-      "后端系统工程",
-      "多线程 Java 应用程序",
-      "雅加达 EE 解决方案"
+      "安全的 Java 后端架构",
+      "Java集成服务",
+      "可扩展的Java软件"
     ]
   },
   "hero_section": {
-    "eyebrow": "企业级可靠性",
-    "title": "经验证的稳定性",
-    "highlight": "Java平台",
-    "description": "使用专为安全性、高并发性和长期可维护性而设计的语言构建弹性、跨平台的企业系统。",
+    "eyebrow": "企业Java软件开发",
+    "title": "构建可靠的企业系统",
+    "highlight": "Java",
+    "description": "Devisgon 为企业平台、SaaS 产品、后端 API、财务工作流程、云系统、微服务、内部工具和需要长期可靠性的关键业务软件构建安全、可扩展且可维护的 Java 应用程序。",
     "side_image": "/technologies/java/hero.webp",
     "primary_cta": {
-      "text": "构建您的系统",
+      "text": "规划您的 Java 架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "技术路线图",
+      "text": "探索 Java 范围",
       "href": "/technologies/java#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 Java 进行工程师",
-    "subtitle": "Java 提供了任务关键型软件所需的结构规则和生态系统深度。",
+    "title": "为什么我们使用 Java 进行构建",
+    "subtitle": "对于需要稳定后端系统、安全企业逻辑、可扩展 API 和长期软件可维护性的企业来说，Java 是一项经过验证的技术。",
     "paragraphs": [
-      "Java 是我们构建复杂、多层企业应用程序的基石。其严格的类型安全性、通过高级垃圾收集实现的强大内存管理以及高性能 Java 虚拟机 (JVM) 可确保应用程序在大量事务负载下保持稳定。",
-      "通过利用庞大的 Spring 生态系统（包括 Spring Boot 和 Spring Cloud），我们提供本质上可观察、可安全且可用于云原生部署的微服务。这种成熟的框架支持使我们能够专注于解决复杂的业务逻辑，而平台处理底层基础设施。"
+      "Devisgon 将 Java 用于可靠性、安全性、结构化架构和长期性能至关重要的产品和平台。 Java 非常适合企业软件、后端 API、SaaS 系统、财务平台、内部业务工具、高流量应用程序、集成层和云原生微服务。",
+      "一个成功的 Java 系统需要严格的工程设计。我们的方法侧重于域架构、API 设计、Spring Boot 服务、数据库集成、身份验证、授权、事务处理、性能优化、测试、部署、监控和可维护的代码模式，以便您的软件随着业务复杂性的增长而保持稳定。"
     ],
     "cards": [
       {
-        "title": "JVM 性能",
-        "description": "利用即时 (JIT) 编译和优化的内存管理来实现高吞吐量执行。",
-        "icon_type": "FaTachometerAlt"
+        "title": "企业后端架构",
+        "description": "构建具有清晰的服务层、安全的 API、可靠的业务逻辑和可维护的应用程序边界的结构化后端系统。",
+        "icon_type": "FaServer"
       },
       {
-        "title": "强类型安全",
-        "description": "强制实施架构边界并在编译时捕获错误，以确保大型团队中的代码完整性。",
+        "title": "安全可靠的系统",
+        "description": "通过强类型、事务安全、身份验证、授权、验证和生产就绪的安全实践来支持业务关键型工作流程。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "企业生态系统",
-        "description": "访问世界一流的安全性、持久性 (Hibernate) 和消息传递 (Kafka/JMS) 库。",
-        "icon_type": "FaServer"
+        "title": "可扩展的 Java 工程",
+        "description": "开发支持不断增长的用户、复杂数据、集成、后台作业、微服务和云部署要求的应用程序。",
+        "icon_type": "FaTachometerAlt"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Java 技术范围",
+    "title": "Java开发范围",
     "image": "/technologies/java/scope.webp",
     "items": [
       {
-        "title": "云原生微服务",
-        "description": "使用 Spring Boot 和 Quarkus 构建容器化服务，以便在 Kubernetes 环境中快速扩展。"
+        "title": "企业Java应用程序开发",
+        "description": "使用结构化 Java 架构构建安全的业务应用程序、内部平台、管理系统、SaaS 产品、客户门户和后端服务。"
       },
       {
-        "title": "高并发处理",
-        "description": "利用 Java 先进的多线程和虚拟线程 (Project Loom) 进行高性能数据处理。"
+        "title": "Spring Boot API 和微服务开发",
+        "description": "使用 Spring Boot 创建 REST API、微服务、身份验证系统、集成服务、业务模块和云就绪后端应用程序。"
       },
       {
-        "title": "分布式遗留集成",
-        "description": "通过安全的 API 网关和 RMI，将任务关键型遗留系统与现代云架构连接起来。"
+        "title": "数据库和事务系统",
+        "description": "使用关系数据库、事务处理、ORM 层、存储库、报告需求和关键业务数据完整性来设计 Java 支持的数据工作流程。"
+      },
+      {
+        "title": "云原生和集成架构",
+        "description": "将 Java 系统与云服务、第三方 API、支付平台、CRM、消息队列、事件驱动的工作流程和企业工具连接起来。"
+      },
+      {
+        "title": "性能、测试和现代化",
+        "description": "优化 JVM 性能、改进遗留 Java 系统、重构代码库、编写自动化测试、加强部署工作流程以及支持长期维护。"
       }
     ]
   },
   "edge_section": {
-    "title": "Java 的竞争优势",
-    "subtitle": "产品长期成功的可量化优势。",
+    "title": "Java的优势",
+    "subtitle": "为需要安全架构、企业可靠性、可扩展后端系统和长期产品稳定性的组织提供成熟的软件基础。",
     "cards": [
       {
-        "metric": "99.99%",
-        "title": "正常运行时间可靠性",
-        "description": "金融和电信领域数十年的实战测试确保了无与伦比的稳定性。"
-      },
-      {
-        "metric": "写一次",
-        "title": "随处奔跑",
-        "description": "JVM 确保您的代码在 Linux、Windows 和云环境中表现一致。"
+        "metric": "Reliable",
+        "title": "关键业务稳定性",
+        "description": "使用 Java 成熟的生态系统和强大的工程模式来支持正常运行时间、正确性和可维护性很重要的应用程序。"
       },
       {
         "metric": "Scalable",
-        "title": "Concurrency",
-        "description": "使用成熟的线程模型高效处理数千个同时连接。"
+        "title": "后端增长基础",
+        "description": "随着时间的推移，构建可以支持更多用户、更多事务、更多集成和更复杂企业工作流程的服务。"
       },
       {
-        "metric": "Zero",
-        "title": "维护风险",
-        "description": "严格的向后兼容性和长期支持 (LTS) 版本可保护您的技术投资。"
+        "metric": "Secure",
+        "title": "企业访问控制",
+        "description": "实施身份验证、授权、验证、加密通信、基于角色的访问和受保护的应用程序工作流程。"
+      },
+      {
+        "metric": "Maintainable",
+        "title": "长期代码质量",
+        "description": "创建结构化的 Java 应用程序，这些应用程序更容易在较长的产品生命周期中测试、监控、重构、扩展和支持。"
       }
     ]
   },
   "quote_section": {
-    "quote": "Java让我们将分布式系统的复杂性隐藏在背后",
-    "highlight": "严谨的建筑"
+    "quote": "Java有助于将复杂的企业需求转化为",
+    "highlight": "稳定且可扩展的后端系统"
   },
   "conversation_section": {
-    "title": "设计您的企业层",
-    "subtitle": "咨询我们的首席 Java 专家，为您的数字基础设施构建安全、可扩展的路线图。",
-    "full_name_label": "首席架构师姓名",
-    "business_email_label": "实体邮箱",
-    "message_label": "技术要求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的后端扩展目标或 JVM 性能挑战...",
-    "button_text": "请求咨询"
+    "title": "设计您的 Java 软件架构",
+    "subtitle": "与 Devisgon 合作，为企业平台、SaaS 产品、API、云系统、微服务和业务关键型工作流程规划、构建、现代化或扩展 Java 应用程序。",
+    "full_name_label": "姓名",
+    "business_email_label": "企业邮箱",
+    "message_label": "项目需求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的 Java 应用程序、后端需求、API 需求、Spring Boot 架构、集成、性能目标或现代化计划...",
+    "button_text": "请求 Java 咨询"
   }
 }

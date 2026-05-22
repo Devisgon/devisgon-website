@@ -1,9 +1,9 @@
 ﻿"use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Menu, Moon, Sun, ChevronDown } from "lucide-react";
+import { Menu, Moon, Sun, ChevronDown, ChevronLeft } from "lucide-react";
 import Switcher from "./language_switch_component";
 import { getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
 
@@ -13,15 +13,69 @@ const getCookieValue = (name) => {
   return match ? decodeURIComponent(match.slice(token.length)) : null;
 };
 
+const findNavItemByHref = (links, href) => {
+  for (const link of links) {
+    if (link.href === href) {
+      return link;
+    }
+
+    for (const column of link.dropdown?.columns ?? []) {
+      const match = findNavItemByHref(column.links ?? [], href);
+      if (match) {
+        return match;
+      }
+    }
+  }
+
+  return null;
+};
+
+const removeNestedNavItemByHref = (link, href) => {
+  if (!link.dropdown) {
+    return link;
+  }
+
+  return {
+    ...link,
+    dropdown: {
+      ...link.dropdown,
+      columns: link.dropdown.columns.map((column) => ({
+        ...column,
+        links: (column.links ?? [])
+          .filter((sublink) => sublink.href !== href)
+          .map((sublink) => removeNestedNavItemByHref(sublink, href)),
+      })),
+    },
+  };
+};
+
+const getDesktopNavLinks = (links) => {
+  const hasTopLevelTechnologies = links.some((link) => link.href === "/technologies");
+  const technologiesItem = findNavItemByHref(links, "/technologies");
+
+  if (hasTopLevelTechnologies || !technologiesItem) {
+    return links;
+  }
+
+  return links.flatMap((link) => {
+    const cleanedLink = removeNestedNavItemByHref(link, "/technologies");
+    return link.href === "/industries" ? [cleanedLink, technologiesItem] : [cleanedLink];
+  });
+};
+
 const Navbar = () => {
   const [isDark, setIsDark] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState("en");
   const [activeDesktopDropdown, setActiveDesktopDropdown] = useState(null);
+  const [pinnedDesktopDropdown, setPinnedDesktopDropdown] = useState(null);
+  const [activeDesktopNestedDropdown, setActiveDesktopNestedDropdown] = useState(null);
   const [activeMobileCategory, setActiveMobileCategory] = useState(null);
   const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
+  const [activeMobileNestedDropdown, setActiveMobileNestedDropdown] = useState(null);
+  const desktopNavRef = useRef(null);
 
-  const navLinks = getNavbarDataByLang(currentLang).navbar;
+  const navLinks = getDesktopNavLinks(getNavbarDataByLang(currentLang).navbar);
 
   useEffect(() => {
     const hasOpenSession = window.sessionStorage.getItem("theme-session") === "active";
@@ -51,6 +105,34 @@ const Navbar = () => {
     };
   }, [mobileOpen]);
 
+  useEffect(() => {
+    const handlePointerDown = (event) => {
+      if (desktopNavRef.current?.contains(event.target)) {
+        return;
+      }
+
+      setActiveDesktopDropdown(null);
+      setPinnedDesktopDropdown(null);
+      setActiveDesktopNestedDropdown(null);
+    };
+
+    const handleKeyDown = (event) => {
+      if (event.key === "Escape") {
+        setActiveDesktopDropdown(null);
+        setPinnedDesktopDropdown(null);
+        setActiveDesktopNestedDropdown(null);
+      }
+    };
+
+    document.addEventListener("mousedown", handlePointerDown);
+    document.addEventListener("keydown", handleKeyDown);
+
+    return () => {
+      document.removeEventListener("mousedown", handlePointerDown);
+      document.removeEventListener("keydown", handleKeyDown);
+    };
+  }, []);
+
   const toggleTheme = () => {
     const newTheme = !isDark;
     setIsDark(newTheme);
@@ -77,10 +159,14 @@ const Navbar = () => {
           />
         </Link>
 
-        <nav className="hidden items-center gap-8 md:flex">
+        <nav ref={desktopNavRef} className="hidden items-center gap-8 md:flex">
           {navLinks.map((link) => {
             const columnCount = link.dropdown?.columns?.length ?? 0;
-            const normalizedHref = link.href.toLowerCase();
+            const nestedDesktopItem =
+              activeDesktopNestedDropdown?.parentHref === link.href ? activeDesktopNestedDropdown.item : null;
+            const activeDropdownItem = nestedDesktopItem ?? link;
+            const activeDropdownColumns = activeDropdownItem.dropdown?.columns ?? [];
+            const normalizedHref = activeDropdownItem.href.toLowerCase();
             const isServicesDropdown = normalizedHref === "/services";
             const isIndustriesDropdown = normalizedHref === "/industries";
             const isTechnologiesDropdown = normalizedHref === "/technologies";
@@ -89,19 +175,49 @@ const Navbar = () => {
 
          const dropdownPositionClass = isServicesDropdown
   ? "fixed right-6 top-10 w-[calc(100vw-2rem)]" 
-  : isIndustriesDropdown || isTechnologiesDropdown
+  : isIndustriesDropdown
+  ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
+  : isTechnologiesDropdown
   ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
   : "absolute left-0 top-full w-[320px]";
             return (
               <div
                 key={link.name}
                 className="relative"
-                onMouseEnter={() => setActiveDesktopDropdown(link.dropdown ? link.href : null)}
-                onMouseLeave={() => setActiveDesktopDropdown((prev) => (prev === link.href ? null : prev))}
+                onMouseEnter={() => {
+                  setActiveDesktopDropdown(link.dropdown ? link.href : null);
+                  if (activeDesktopNestedDropdown?.parentHref !== link.href) {
+                    setActiveDesktopNestedDropdown(null);
+                  }
+                }}
+                onMouseLeave={() => {
+                  if (pinnedDesktopDropdown !== link.href) {
+                    setActiveDesktopDropdown((prev) => (prev === link.href ? pinnedDesktopDropdown : prev));
+                    setActiveDesktopNestedDropdown((prev) =>
+                      prev?.parentHref === link.href && pinnedDesktopDropdown !== link.href ? null : prev,
+                    );
+                  }
+                }}
               >
                 <Link
                   href={link.href}
+                  onClick={(event) => {
+                    if (!link.dropdown) {
+                      return;
+                    }
+
+                    if (event.detail > 1) {
+                      return;
+                    }
+
+                    event.preventDefault();
+                    setPinnedDesktopDropdown(link.href);
+                    setActiveDesktopDropdown(link.href);
+                    setActiveDesktopNestedDropdown(null);
+                  }}
+                  data-navbar-dropdown-trigger={link.dropdown ? "true" : undefined}
                   className="flex items-center gap-1 text-sm font-medium text-[#402060] transition-colors dark:text-[#FEFCFE]"
+                  aria-expanded={link.dropdown ? isDropdownOpen : undefined}
                 >
                   {link.name}
                   {link.dropdown && (
@@ -113,43 +229,72 @@ const Navbar = () => {
   <div
     className={`${dropdownPositionClass} z-50 transition-all duration-200 ${
       isDropdownOpen 
-        ? "visible translate-y-3 opacity-100" 
+        ? "visible translate-y-3 opacity-100"
         : "pointer-events-none invisible translate-y-2 opacity-0"
     }`}
   >
     {/* This pt-4 (padding-top) is the "invisible bridge" */}
     <div className="pt-4"> 
       <div className="rounded-xl border border-[#D8B4FE]/30 bg-[#F7EDFE] p-8 shadow-2xl dark:bg-[#402060]">
-        <div
-          className={`grid gap-8 ${isFullWidthDropdown ? "max-h-[70vh] overflow-y-auto pr-2" : ""}`}
-          style={{
-            gridTemplateColumns: isFullWidthDropdown
-              ? "repeat(auto-fit, minmax(170px, 1fr))"
-              : `repeat(${columnCount}, minmax(0, 1fr))`,
-          }}
-        >
-          {link.dropdown.columns.map((col, colIndex) => (
-            <div key={col.title || `${link.name}-${colIndex}`}>
-              {col.title && (
-                <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
-                  {col.title}
-                </h3>
-              )}
-              <ul className="space-y-3">
-                {col.links.map((sublink) => (
-                  <li key={sublink.name}>
-                    <Link
-                      href={sublink.href}
-                      className="block text-sm font-medium text-[#402060] transition-all hover:translate-x-1 hover:text-[#8457AA] dark:text-[#FEFCFE] dark:hover:text-[#D8B4FE]"
-                    >
-                      {sublink.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          ))}
-        </div>
+        {nestedDesktopItem && (
+          <button
+            type="button"
+            onClick={() => setActiveDesktopNestedDropdown(null)}
+            className="mb-5 inline-flex items-center gap-1 text-sm font-semibold text-[#8457AA] transition-opacity hover:opacity-80 dark:text-[#D8B4FE]"
+          >
+            <ChevronLeft className="h-4 w-4" />
+            {link.name}
+          </button>
+        )}
+          <div
+            className={`grid gap-8 ${isFullWidthDropdown ? "max-h-[70vh] overflow-y-auto pr-2" : ""}`}
+            style={{
+              gridTemplateColumns: isFullWidthDropdown
+                ? "repeat(auto-fit, minmax(170px, 1fr))"
+                : `repeat(${nestedDesktopItem ? activeDropdownColumns.length : columnCount}, minmax(0, 1fr))`,
+            }}
+          >
+            {activeDropdownColumns.map((col, colIndex) => (
+              <div key={col.title || `${link.name}-${colIndex}`}>
+                {col.title && (
+                  <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
+                    {col.title}
+                  </h3>
+                )}
+                <ul className="space-y-3">
+                  {col.links.map((sublink) => (
+                    <li key={sublink.name}>
+                      {sublink.dropdown ? (
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setActiveDesktopNestedDropdown({ parentHref: link.href, item: sublink });
+                            setActiveDesktopDropdown(link.href);
+                            setPinnedDesktopDropdown(link.href);
+                          }}
+                          className="block text-left text-sm font-medium text-[#402060] transition-all hover:translate-x-1 hover:text-[#8457AA] dark:text-[#FEFCFE] dark:hover:text-[#D8B4FE]"
+                        >
+                          {sublink.name}
+                        </button>
+                      ) : (
+                        <Link
+                          href={sublink.href}
+                          onClick={() => {
+                            setActiveDesktopDropdown(null);
+                            setPinnedDesktopDropdown(null);
+                            setActiveDesktopNestedDropdown(null);
+                          }}
+                          className="block text-sm font-medium text-[#402060] transition-all hover:translate-x-1 hover:text-[#8457AA] dark:text-[#FEFCFE] dark:hover:text-[#D8B4FE]"
+                        >
+                          {sublink.name}
+                        </Link>
+                      )}
+                    </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
       </div>
     </div>
   </div>
@@ -195,7 +340,12 @@ const Navbar = () => {
         <div className="-mt-8 h-screen space-y-6 overflow-y-auto bg-[#F7EDFE] px-4 py-12 dark:bg-[#8457AA]">
           <div className="-ml-4 -mt-4 h-[1px] w-3xl bg-black" />
 
-          {navLinks.map((link) => (
+          {navLinks.map((link) => {
+            const activeMobileDropdownItem =
+              activeMobileNestedDropdown?.parentHref === link.href ? activeMobileNestedDropdown.item : link;
+            const activeMobileDropdownColumns = activeMobileDropdownItem.dropdown?.columns ?? [];
+
+            return (
             <div key={link.name} className="pb-3">
               {link.dropdown ? (
                 <div className="flex items-center justify-between text-xl font-bold">
@@ -207,6 +357,7 @@ const Navbar = () => {
                     onClick={() => {
                       setActiveMobileDropdown(activeMobileDropdown === link.href ? null : link.href);
                       setActiveMobileCategory(null);
+                      setActiveMobileNestedDropdown(null);
                     }}
                     aria-label={`Toggle ${link.name} dropdown`}
                   >
@@ -229,7 +380,21 @@ const Navbar = () => {
 
               {link.dropdown && activeMobileDropdown === link.href && (
                 <div className="mt-4 space-y-3">
-                  {link.dropdown.columns.map((col, colIndex) => (
+                  {activeMobileNestedDropdown?.parentHref === link.href && (
+                    <button
+                      type="button"
+                      onClick={() => {
+                        setActiveMobileNestedDropdown(null);
+                        setActiveMobileCategory(null);
+                      }}
+                      className="mb-2 inline-flex items-center gap-1 text-sm font-semibold text-btn-primary"
+                    >
+                      <ChevronLeft className="h-4 w-4" />
+                      {link.name}
+                    </button>
+                  )}
+
+                  {activeMobileDropdownColumns.map((col, colIndex) => (
                     <div key={col.title || `${link.name}-${colIndex}`}>
                       {col.title ? (
                         <button
@@ -249,16 +414,30 @@ const Navbar = () => {
 
                       {(!col.title || activeMobileCategory === col.title) && (
                         <div className={col.title ? "mt-2 space-y-2 pl-4" : "space-y-2 pl-4"}>
-                          {col.links.map((sublink) => (
-                            <Link
-                              key={sublink.name}
-                              href={sublink.href}
-                              onClick={() => setMobileOpen(false)}
-                              className="block text-sm text-t-primary"
-                            >
-                              {sublink.name}
-                            </Link>
-                          ))}
+                          {col.links.map((sublink) =>
+                            sublink.dropdown ? (
+                              <button
+                                key={sublink.name}
+                                type="button"
+                                onClick={() => {
+                                  setActiveMobileNestedDropdown({ parentHref: link.href, item: sublink });
+                                  setActiveMobileCategory(null);
+                                }}
+                                className="block text-left text-sm text-t-primary"
+                              >
+                                {sublink.name}
+                              </button>
+                            ) : (
+                              <Link
+                                key={sublink.name}
+                                href={sublink.href}
+                                onClick={() => setMobileOpen(false)}
+                                className="block text-sm text-t-primary"
+                              >
+                                {sublink.name}
+                              </Link>
+                            ),
+                          )}
                         </div>
                       )}
                     </div>
@@ -266,7 +445,8 @@ const Navbar = () => {
                 </div>
               )}
             </div>
-          ))}
+            );
+          })}
 
           <div className="mr-4">
             <Switcher onLanguageChange={(code) => setCurrentLang(normalizeLanguage(code))} />

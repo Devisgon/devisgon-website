@@ -1,116 +1,135 @@
 {
   "slug": "laravel",
   "seo_metadata": {
-    "title": "Desarrollo empresarial Laravel | Soluciones elegantes de marco PHP",
-    "description": "Servicios de desarrollo web Laravel personalizados. Diseñamos aplicaciones escalables, seguras y mantenibles utilizando el marco MVC más potente de PHP.",
+    "title": "Servicios de desarrollo de Laravel | Aplicaciones web PHP personalizadas y desarrollo de API | diseño",
+    "description": "Devisgon proporciona servicios profesionales de desarrollo de Laravel para aplicaciones web PHP personalizadas, plataformas SaaS, paneles de administración, API, portales, sistemas de comercio electrónico y software empresarial seguro para empresas globales.",
     "keywords": [
-      "Desarrollo Laravel",
-      "Marco PHP MVC",
-      "ORM elocuente",
-      "Implementación de Laravel Forge",
-      "Desarrollo de API personalizado",
-      "Laravel Vapor sin servidor",
-      "Soluciones PHP de pila completa"
+      "Servicios de desarrollo de Laravel.",
+      "empresa de desarrollo laravel",
+      "desarrollo personalizado de Laravel",
+      "Desarrollo de aplicaciones web laravel.",
+      "Desarrollo web PHP",
+      "Desarrollo de API de Laravel",
+      "Desarrollo de Laravel SaaS",
+      "Desarrollo back end de Laravel",
+      "Desarrollo del panel de Laravel",
+      "Desarrollo del comercio electrónico Laravel",
+      "Desarrollo del portal laravel",
+      "Modernización de la aplicación Laravel.",
+      "Optimización del rendimiento de Laravel",
+      "Servicios de migración de Laravel",
+      "consultoría laravel",
+      "Desarrollo del marco PHP MVC",
+      "aplicaciones PHP personalizadas",
+      "soluciones empresariales de Laravel"
     ]
   },
   "hero_section": {
-    "eyebrow": "El marco PHP para artesanos web",
-    "title": "Ingeniería elegante con",
+    "eyebrow": "Desarrollo de aplicaciones web PHP personalizadas",
+    "title": "Cree aplicaciones empresariales seguras con",
     "highlight": "Laravel",
-    "description": "Cree aplicaciones web modernas y completas con un marco que priorice el código limpio, la felicidad de los desarrolladores y la solidez a escala empresarial.",
+    "description": "Devisgon crea aplicaciones Laravel escalables para plataformas SaaS, portales de clientes, paneles de administración, API, sistemas de comercio electrónico, herramientas internas, plataformas de reservas, flujos de trabajo CRM y software empresarial personalizado que necesita una lógica de backend segura y mantenibilidad a largo plazo.",
     "side_image": "/technologies/laravel/hero.webp",
     "primary_cta": {
-      "text": "Comience su construcción",
+      "text": "Planifica tu proyecto Laravel",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Explorar el ecosistema",
+      "text": "Explorar el alcance de Laravel",
       "href": "/technologies/laravel#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Por qué diseñamos con Laravel",
-    "subtitle": "Laravel proporciona el ecosistema más completo para un desarrollo rápido sin sacrificar la integridad arquitectónica.",
+    "title": "Por qué construimos con Laravel",
+    "subtitle": "Laravel es un marco PHP maduro para crear aplicaciones comerciales seguras, fáciles de mantener y escalables con lógica de backend estructurada, API limpias y entrega rápida de productos.",
     "paragraphs": [
-      "Laravel es nuestra opción preferida para aplicaciones web complejas, ricas en contenido o transaccionales. Su enfoque de 'baterías incluidas' (que incluye autenticación, servicios de correo y gestión de colas integrados) nos permite centrarnos en crear características comerciales únicas en lugar de reinventar la infraestructura central.",
-      "Al utilizar Eloquent ORM y el motor de plantillas Blade, creamos bases de código que no solo son eficientes sino también altamente legibles. Esto garantiza que las aplicaciones que creamos sean fáciles de auditar, mantener y transferir a los equipos internos a medida que crecen."
+      "Devisgon utiliza Laravel para empresas que necesitan aplicaciones web confiables, paneles de administración, portales de clientes, plataformas SaaS, flujos de trabajo de comercio electrónico, sistemas de contenido, herramientas estilo CRM, sistemas de reservas y productos basados ​​en API. Laravel proporciona una base MVC estructurada que ayuda a los equipos a crear funciones comerciales rápidamente mientras mantiene el código base organizado y mantenible.",
+      "Una aplicación Laravel exitosa requiere más que un desarrollo PHP estándar. Nuestro enfoque se centra en la arquitectura de aplicaciones, diseño de bases de datos, autenticación, autorización, estructura de API, colas, notificaciones, pagos, integraciones, pruebas, implementación y optimización del rendimiento para que su plataforma siga siendo segura, estable y lista para el crecimiento a largo plazo."
     ],
     "cards": [
       {
-        "title": "ORM elocuente",
-        "description": "Administre registros de bases de datos con una sintaxis hermosa y expresiva que hace que las consultas complejas sean simples y legibles.",
-        "icon_type": "FaDatabase"
+        "title": "Arquitectura MVC estructurada",
+        "description": "Cree aplicaciones organizadas con una clara separación entre lógica empresarial, modelos de bases de datos, rutas, controladores, servicios y vistas orientadas al usuario.",
+        "icon_type": "FaLayerGroup"
       },
       {
-        "title": "Seguridad sólida",
-        "description": "La protección contra la inyección de SQL, la falsificación de solicitudes entre sitios y las secuencias de comandos entre sitios está integrada en el núcleo.",
+        "title": "Desarrollo de backend seguro",
+        "description": "Implemente autenticación, permisos, validación, manejo de datos cifrados, rutas protegidas, API seguras y flujos de trabajo backend listos para producción.",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Colas escalables",
-        "description": "Descargue tareas que consumen mucho tiempo a los trabajadores en segundo plano para mantener la interfaz de usuario de su aplicación ultrarrápida.",
+        "title": "Lógica empresarial escalable",
+        "description": "Utilice colas, trabajos, eventos, notificaciones, almacenamiento en caché, capas de API y patrones de servicio limpios para respaldar las operaciones comerciales en crecimiento.",
         "icon_type": "FaTasks"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Alcance del marco",
+    "title": "Alcance del desarrollo de Laravel",
     "image": "/technologies/laravel/scope.webp",
     "items": [
       {
-        "title": "Monolitos modulares",
-        "description": "Estructurar aplicaciones utilizando el patrón MVC tradicional manteniendo la modularidad para facilitar las transiciones a microservicios."
+        "title": "Aplicaciones web personalizadas de Laravel",
+        "description": "Creación de plataformas comerciales, paneles de control, portales, herramientas internas, sistemas de reservas, flujos de trabajo de CRM, funciones de comercio electrónico y aplicaciones SaaS utilizando el marco estructurado de Laravel."
       },
       {
-        "title": "Eventos en tiempo real",
-        "description": "Integrando Laravel Echo y Pusher/Reverb para crear notificaciones en tiempo real y actualizaciones de datos en vivo."
+        "title": "API de Laravel y desarrollo de backend",
+        "description": "Creación de API REST seguras, servicios backend, flujos de autenticación, acceso basado en roles, integraciones de terceros, backends de aplicaciones móviles y arquitectura de producto basada en API."
       },
       {
-        "title": "Operaciones sin servidor y en la nube",
-        "description": "Implementación a escala utilizando Laravel Vapor para AWS Lambda o Forge para clústeres de servidores administrados de alto rendimiento."
+        "title": "Diseño de bases de datos y modelado elocuente",
+        "description": "Diseño de esquemas de bases de datos relacionales, migraciones, modelos Eloquent, relaciones, alcances de consulta, reglas de validación y patrones optimizados de acceso a datos."
+      },
+      {
+        "title": "Colas, trabajos y flujos de trabajo de automatización",
+        "description": "Implementación de trabajos en segundo plano, tareas programadas, notificaciones por correo electrónico, flujos de trabajo basados ​​en eventos, procesamiento de pagos, importaciones de datos y operaciones comerciales de larga duración."
+      },
+      {
+        "title": "Optimización, implementación y mantenimiento",
+        "description": "Mejorar el rendimiento, el almacenamiento en caché, la velocidad de consulta, la estructura del código, la seguridad, los canales de implementación, la configuración del servidor, el monitoreo y el mantenimiento posterior al lanzamiento de Laravel."
       }
     ]
   },
   "edge_section": {
-    "title": "El borde de Laravel",
-    "subtitle": "Ventajas estratégicas para la entrega empresarial moderna.",
+    "title": "La ventaja de Laravel",
+    "subtitle": "Un marco de aplicaciones web probado para empresas que necesitan sistemas backend seguros, desarrollo rápido, integraciones flexibles y una arquitectura de producto mantenible.",
     "cards": [
       {
-        "metric": "Fast",
-        "title": "Onboarding",
-        "description": "Las convenciones claras y la documentación extensa reducen la curva de aprendizaje para los nuevos desarrolladores."
+        "metric": "Structured",
+        "title": "Arquitectura de aplicaciones limpia",
+        "description": "Mantenga manejable el software empresarial complejo con la estructura MVC, las capas de servicio, las convenciones de enrutamiento y los patrones de backend organizados de Laravel."
       },
       {
-        "metric": "99,9%",
-        "title": "Código de seguridad",
-        "description": "Utilizando funciones de PHP 8+ y el conjunto de pruebas de Laravel para garantizar implementaciones de alta confianza."
+        "metric": "Secure",
+        "title": "Cimentaciones listas para producción",
+        "description": "Admite autenticación segura, validación, protección de rutas, acceso a bases de datos, controles API y flujos de trabajo de aplicaciones críticas para el negocio."
       },
       {
-        "metric": "20k+",
-        "title": "Packages",
-        "description": "Una comunidad masiva (Packagist) que proporciona módulos para pasarelas de pago, autenticación social y más."
+        "metric": "Flexible",
+        "title": "Funciones comerciales personalizadas",
+        "description": "Cree portales, paneles de control, paneles de administración, flujos de trabajo de pago, herramientas de generación de informes, funciones de CRM, integraciones y lógica de automatización en torno a su modelo de negocio."
       },
       {
-        "metric": "Zero",
-        "title": "Crecimiento de la deuda",
-        "description": "El estricto cumplimiento de los estándares PSR garantiza que su código base siga siendo moderno y compatible con futuras versiones de PHP."
+        "metric": "Scalable",
+        "title": "Crecimiento del producto a largo plazo",
+        "description": "Utilice colas, almacenamiento en caché, optimización de bases de datos, código modular y prácticas de implementación listas para la nube para respaldar el crecimiento futuro."
       }
     ]
   },
   "quote_section": {
-    "quote": "Laravel libera a los desarrolladores para crear mientras el marco maneja el",
-    "highlight": "levantamiento pesado arquitectónico"
+    "quote": "Laravel ayuda a convertir requisitos comerciales complejos en",
+    "highlight": "aplicaciones web seguras y mantenibles"
   },
   "conversation_section": {
-    "title": "Diseñe su próxima empresa",
-    "subtitle": "Consulte con nuestros expertos en Laravel para crear una solución web escalable y segura adaptada a sus necesidades comerciales.",
-    "full_name_label": "Desarrollador principal",
-    "business_email_label": "Correo electrónico corporativo",
-    "message_label": "Alcance del proyecto",
-    "full_name_placeholder": "Dr. Julián Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe tu visión de Laravel o los complejos requisitos de backend...",
-    "button_text": "Solicitar una cotización"
+    "title": "Diseña tu aplicación Laravel",
+    "subtitle": "Trabaje con Devisgon para planificar, crear, modernizar u optimizar aplicaciones Laravel para plataformas SaaS, paneles, portales, API, sistemas de comercio electrónico y flujos de trabajo comerciales personalizados.",
+    "full_name_label": "Nombre completo",
+    "business_email_label": "Correo electrónico empresarial",
+    "message_label": "Requisito del proyecto",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@empresa.com",
+    "message_placeholder": "Cuéntenos sobre su proyecto Laravel, requisitos de backend, necesidades de API, estructura de base de datos, integraciones u objetivos de rendimiento...",
+    "button_text": "Solicitar consulta sobre Laravel"
   }
 }

@@ -1,0 +1,264 @@
+{
+  "slug": "model-training",
+  "seo_metadata": {
+    "title": "AI Model Training Services | Custom ML Models, Fine Tuning, Data Pipelines & MLOps | Devisgon",
+    "description": "Devisgon provides professional AI model training services for custom machine learning models, fine tuning, data preparation, model evaluation, deployment, MLOps, and production ready AI systems for global businesses.",
+    "keywords": [
+      "AI model training services",
+      "machine learning model training",
+      "custom AI model training",
+      "custom machine learning models",
+      "AI model fine tuning",
+      "ML model development",
+      "model training company",
+      "data preprocessing for AI",
+      "MLOps services",
+      "model evaluation services",
+      "model deployment services",
+      "predictive model training",
+      "deep learning model training",
+      "classification model training",
+      "AI model optimization",
+      "enterprise AI model training",
+      "production ML pipelines",
+      "AI training data strategy"
+    ]
+  },
+  "hero_section": {
+    "title": "AI Model Training Services",
+    "subtitle": "Custom Machine Learning Models Trained on Your Business Data",
+    "description": "Devisgon trains custom AI and machine learning models for prediction, classification, recommendation, anomaly detection, document processing, computer vision, NLP, and business automation. We help global companies turn raw data into production ready models that are accurate, scalable, secure, and connected to real software workflows.",
+    "buttons": [
+      {
+        "text": "Start Model Training",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our AI Engineers",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "What is Enterprise Grade",
+    "span_heading": " Model Training?",
+    "content": [
+      "Enterprise grade model training is the process of preparing business data, selecting the right algorithm, training the model, validating performance, and deploying it into a real production environment. It is used when a company needs AI that understands its own data, workflows, customer behavior, documents, images, transactions, or operational patterns.",
+      "At Devisgon, we build model training pipelines that go beyond notebooks and experiments. Our approach covers data cleaning, feature engineering, labeling strategy, model selection, training, evaluation, deployment, monitoring, retraining, and maintenance so your model becomes a reliable business asset."
+    ],
+    "highlight_quote": "“Model training turns raw business data into private AI capability, predictive intelligence, and production ready automation.”",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Business Benefits",
+    "subtitle": "Train models that understand your data, improve decisions, and support production workflows",
+    "cards": [
+      {
+        "title": "Business Specific Intelligence",
+        "description": "Train models on your own data, terminology, workflows, users, products, and operational patterns.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Higher Prediction Accuracy",
+        "description": "Improve forecasting, classification, scoring, detection, and recommendations with models built around your use case.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Secure Data Ownership",
+        "description": "Keep sensitive training data, model outputs, and business logic protected through controlled infrastructure and access rules.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Production Ready Deployment",
+        "description": "Deploy trained models into APIs, dashboards, apps, automation systems, and cloud based business workflows.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Receive with Devisgon AI Model Training",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Data Strategy and Training Readiness Review",
+        "description": "We assess your datasets, labels, business goals, model objective, data quality, risks, and expected outputs."
+      },
+      {
+        "title": "2. Custom Model Training Pipeline",
+        "description": "We build repeatable training workflows for classification, forecasting, recommendation, anomaly detection, NLP, or vision models."
+      },
+      {
+        "title": "3. Data Preprocessing and Feature Engineering",
+        "description": "We clean, normalize, label, transform, balance, and structure datasets so the model can learn useful patterns."
+      },
+      {
+        "title": "4. Model Evaluation and Performance Reports",
+        "description": "We measure accuracy, false positives, false negatives, loss, precision, recall, and business specific success metrics."
+      },
+      {
+        "title": "5. Model Optimization and Deployment",
+        "description": "We optimize trained models for speed, reliability, cost, and deployment through APIs, containers, or cloud services."
+      },
+      {
+        "title": "6. Monitoring, Retraining, and Maintenance",
+        "description": "We monitor model drift, update datasets, retrain models, fix issues, and improve performance over time."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "AI Model Training Technologies and Frameworks We Use",
+    "subtitle": "Modern ML training, evaluation, optimization, deployment, and MLOps tools for production ready AI systems",
+    "tools": [
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "Scikit Learn",
+        "icon": "SiScikitlearn"
+      },
+      {
+        "name": "XGBoost",
+        "icon": "SiXgboost"
+      },
+      {
+        "name": "Hugging Face Transformers",
+        "icon": "SiHuggingface"
+      },
+      {
+        "name": "Weights & Biases",
+        "icon": "SiWeightsandbiases"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      },
+      {
+        "name": "Ray Distributed Compute",
+        "icon": "SiRay"
+      },
+      {
+        "name": "Optuna",
+        "icon": "SiOptuna"
+      },
+      {
+        "name": "CUDA / NVIDIA SDK",
+        "icon": "SiNvidia"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS SageMaker",
+        "icon": "FaAws"
+      },
+      {
+        "name": "Supabase Metadata Logging",
+        "icon": "SiSupabase"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our AI Model Training Process",
+    "subtitle": "A focused 6 step process from discovery to testing, deployment, maintenance, and optimization",
+    "steps": [
+      {
+        "title": "Discovery Call",
+        "description": "We understand your business goal, data sources, model objective, accuracy needs, and deployment expectations.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Data and Process Mapping",
+        "description": "We map datasets, labels, features, workflows, output needs, risks, and integration points.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Training Strategy",
+        "description": "We define the model type, training method, evaluation metrics, infrastructure, and rollout plan.",
+        "icon": "VscGraphLine"
+      },
+      {
+        "title": "Training and Optimization",
+        "description": "We preprocess data, train models, tune parameters, validate outputs, and optimize performance.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Testing and Deployment",
+        "description": "We test accuracy, edge cases, speed, security, and deploy the model into production workflows.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Maintenance and Retraining",
+        "description": "We monitor drift, update data, retrain models, improve accuracy, and maintain integrations.",
+        "icon": "PiCodeFill"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Custom Model Training That Improved Detection Accuracy and Reduced Manual Review",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A growing business had large volumes of historical data but relied on manual review and rule based checks to identify important patterns. The process was slow, inconsistent, and difficult to scale as data volume increased."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "Devisgon designed a custom model training pipeline using cleaned datasets, feature engineering, validation splits, model tuning, and API based deployment. The trained model converted raw records into structured predictions and operational signals."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "The company improved detection consistency, reduced manual review time, and gained a scalable model workflow that supported faster decisions, cleaner outputs, and more reliable business automation."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "AI Model Training Questions and Answers",
+    "subtitle": "Detailed answers for founders, CTOs, product teams, and business leaders planning custom model training",
+    "questions": [
+      {
+        "question": "What is AI model training and why does it matter?",
+        "answer": "AI model training is the process of teaching a model to recognize patterns from data and produce useful predictions, classifications, or recommendations. It matters when generic AI tools are not accurate enough for your business. A trained model can understand your data, workflows, and operational goals more closely."
+      },
+      {
+        "question": "What is the difference between training a model and fine tuning a model?",
+        "answer": "Training a model usually means building learning behavior from a dataset for a specific task, while fine tuning starts with an existing model and adapts it to your domain. Fine tuning can be useful for language, document, and industry specific tasks. Full training is better when the data structure or prediction goal is highly specialized."
+      },
+      {
+        "question": "How much data do we need to train a model?",
+        "answer": "The amount of data depends on the use case, model type, accuracy target, and data quality. Some models can work with moderate structured data, while deep learning and vision systems often need larger labeled datasets. We review your data first, then recommend training, fine tuning, transfer learning, or data improvement."
+      },
+      {
+        "question": "Can a trained model be integrated into our existing software?",
+        "answer": "Yes. Trained models can be deployed through APIs, dashboards, apps, internal tools, cloud services, automation workflows, or CRM systems. Devisgon connects model outputs to real workflows so predictions become useful actions, alerts, scores, recommendations, or reports inside your existing software."
+      },
+      {
+        "question": "How do you know if a trained model is accurate enough?",
+        "answer": "We evaluate models using validation datasets, test datasets, accuracy metrics, precision, recall, error analysis, and business specific success criteria. We also test edge cases and real world samples. The goal is not only a high score but a model that performs reliably in the environment where it will be used."
+      },
+      {
+        "question": "How do you protect private data during model training?",
+        "answer": "We design training workflows with controlled access, secure storage, encrypted transfer, restricted environments, and careful data handling. Sensitive data can be anonymized, masked, filtered, or processed in private infrastructure. Security planning is part of the model training architecture from the beginning."
+      },
+      {
+        "question": "Can trained models improve over time?",
+        "answer": "Yes. Models can improve through retraining, better datasets, feedback loops, updated labels, new examples, and performance monitoring. After deployment, we monitor drift and review outputs to decide when retraining is needed. This keeps the model aligned with changing business behavior and new data patterns."
+      },
+      {
+        "question": "Does Devisgon provide support after model deployment?",
+        "answer": "Yes. Model training does not end at deployment. Devisgon provides monitoring, retraining, model updates, performance reviews, bug fixes, integration maintenance, and optimization. This helps your model remain accurate, stable, and useful as your data and business workflows evolve."
+      }
+    ],
+    "footer": {
+      "text": "Ready to train a custom AI model on your business data?",
+      "link_text": "Schedule a model training discovery call",
+      "link_url": "/contact"
+    }
+  }
+}

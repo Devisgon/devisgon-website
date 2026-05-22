@@ -1,9 +1,33 @@
 {
   "slug": "security-testing",
+  "seo_metadata": {
+    "title": "Security Testing Services | Penetration Testing, Vulnerability Assessment & AppSec Audits | Devisgon",
+    "description": "Devisgon provides professional security testing services for web applications, APIs, SaaS platforms, cloud systems, authentication flows, vulnerability assessment, penetration testing, OWASP audits, compliance readiness, and secure software delivery for global businesses.",
+    "keywords": [
+      "security testing services",
+      "penetration testing services",
+      "application security testing",
+      "web application security testing",
+      "API security testing",
+      "vulnerability assessment services",
+      "security audit services",
+      "OWASP Top 10 testing",
+      "ethical hacking services",
+      "SaaS security testing",
+      "cloud security testing",
+      "DevSecOps testing",
+      "authentication security testing",
+      "compliance security testing",
+      "SOC 2 security testing",
+      "HIPAA security testing",
+      "PCI DSS security testing",
+      "enterprise cybersecurity testing"
+    ]
+  },
   "hero_section": {
-    "title": "Security Testing & Penetration",
-    "subtitle": "Find the Vulnerabilities Before the Hackers Do",
-    "description": "Protect your application, your user data, and your reputation. We simulate real-world cyber attacks to identify and patch critical security flaws in your software before they can be exploited.",
+    "title": "Security Testing Services",
+    "subtitle": "Application, API, and Cloud Security Validation Before Attackers Find the Gaps",
+    "description": "Devisgon performs professional security testing for web applications, SaaS platforms, APIs, authentication systems, cloud infrastructure, and business critical software. We help global companies identify vulnerabilities, reduce breach risk, validate security controls, support compliance readiness, and protect users, data, and brand trust.",
     "buttons": [
       {
         "text": "Secure Your Application",
@@ -14,69 +38,78 @@
         "link": "/contact"
       }
     ],
-    "hero_image": "/videos/security_testing.mp4"
+    "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "What is",
+    "heading": "What is Enterprise Grade",
     "span_heading": " Security Testing?",
     "content": [
-      "Security testing is the rigorous process of evaluating your software to uncover vulnerabilities, threats, and risks. Instead of waiting for a malicious attack to reveal the weak points in your system, our certified ethical hackers take the offensive, attempting to breach your applications using the exact same tools and techniques as real-world cybercriminals. ",
-      "At Devisgon, we go beyond automated scans. We dive deep into your application's logic, APIs, and infrastructure to find hidden loopholes like SQL injections, cross-site scripting (XSS), and broken authentication. We then provide actionable remediation steps to lock down your system completely."
+      "Enterprise grade security testing evaluates your software, APIs, authentication flows, cloud configuration, user permissions, and data handling to identify vulnerabilities before they can be exploited. It combines automated scanning, manual penetration testing, OWASP validation, business logic review, and risk based reporting.",
+      "At Devisgon, we go beyond generic vulnerability scans by testing how your application behaves under realistic attack scenarios and misuse cases. Our approach covers access control, injection risks, broken authentication, sensitive data exposure, insecure APIs, misconfigurations, dependency risks, and remediation validation.",
+      "Security testing is essential for SaaS products, healthcare systems, fintech platforms, enterprise portals, eCommerce applications, and any digital product that handles sensitive user, payment, operational, or business data."
     ],
-    "highlight_quote": " “If you think compliance is expensive, try a data breach.” ",
+    "highlight_quote": "“Security testing turns hidden vulnerabilities into clear remediation priorities before they become business critical incidents.”",
     "side_image": "/all_services/security_testing/introduction.webp"
   },
   "key_benefits_section": {
-    "title": "Key Benefits",
-    "subtitle": "Why proactive security testing is a business necessity",
+    "title": "Key Business Benefits",
+    "subtitle": "Use security testing to reduce breach risk, protect data, support compliance, and strengthen user trust",
     "cards": [
       {
-        "title": "Prevent Costly Breaches",
-        "description": "Identify and patch zero-day vulnerabilities and critical flaws before they lead to catastrophic data loss or ransom demands.",
+        "title": "Reduced Breach Risk",
+        "description": "Identify access control flaws, injection risks, exposed data, insecure APIs, and configuration weaknesses early.",
         "icon_type": "MdLock"
       },
       {
-        "title": "Protect Brand Reputation",
-        "description": "Show your users and enterprise clients that their sensitive data is handled with the highest level of security.",
+        "title": "Stronger Brand Trust",
+        "description": "Protect customer confidence by validating how your application handles sensitive data and user access.",
         "icon_type": "MdVerifiedUser"
       },
       {
-        "title": "Ensure Compliance",
-        "description": "Meet the strict security testing requirements mandated by frameworks like SOC 2, HIPAA, PCI-DSS, and GDPR.",
+        "title": "Compliance Readiness",
+        "description": "Support SOC 2, HIPAA, PCI DSS, GDPR, and enterprise security requirements with structured testing evidence.",
         "icon_type": "MdGppGood"
       },
       {
-        "title": "Secure the Supply Chain",
-        "description": "Verify that third-party plugins, APIs, and open-source libraries aren't introducing hidden risks into your application.",
+        "title": "Secure Software Delivery",
+        "description": "Add security validation into releases so vulnerabilities are found before production exposure.",
         "icon_type": "MdSecurity"
       }
     ]
   },
   "what_you_get_section": {
-    "title": "What you'll get when you choose Security Testing",
+    "title": "What You Receive with Devisgon Security Testing",
     "image": "/all_services/security_testing/wwg.webp",
     "list_items": [
       {
-        "title": "1. Automated Vulnerability Scans",
-        "description": "Rapid, wide-net sweeps of your codebase and infrastructure to catch known Common Vulnerabilities and Exposures (CVEs)."
+        "title": "1. Security Scope and Risk Assessment",
+        "description": "We define applications, APIs, roles, environments, data sensitivity, compliance needs, and testing boundaries."
       },
       {
-        "title": "2. Manual Penetration Testing",
-        "description": "Deep-dive, human-led ethical hacking targeting complex business logic and sophisticated exploit chains."
+        "title": "2. Automated Vulnerability Assessment",
+        "description": "We scan for known vulnerabilities, weak configurations, exposed services, dependency risks, and security headers."
       },
       {
-        "title": "3. OWASP Top 10 Audits",
-        "description": "Rigorous validation against the industry standard for the most critical web application security risks."
+        "title": "3. Manual Penetration Testing",
+        "description": "We test business logic, authentication, authorization, data access, input handling, and high risk workflows."
       },
       {
-        "title": "4. Actionable Remediation Reports",
-        "description": "Clear documentation of every vulnerability found, its risk severity, and exact code-level instructions on how to fix it."
+        "title": "4. OWASP Top 10 Security Review",
+        "description": "We validate common web and API risks including injection, broken access control, XSS, SSRF, and misconfiguration."
+      },
+      {
+        "title": "5. Remediation Report and Fix Guidance",
+        "description": "We provide severity ratings, reproduction details, impact explanation, screenshots, and practical remediation guidance."
+      },
+      {
+        "title": "6. Retesting and Security Validation",
+        "description": "We retest fixes, confirm closure, update risk status, and support secure release readiness."
       }
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard security tools",
-    "subtitle": "The ultimate arsenal for ethical hacking and vulnerability detection",
+    "title": "Security Testing Tools and Platforms We Use",
+    "subtitle": "Modern vulnerability assessment, penetration testing, API security, network analysis, and reporting tools for secure software validation",
     "tools": [
       {
         "name": "Burp Suite",
@@ -97,77 +130,131 @@
       {
         "name": "Wireshark",
         "icon": "SiWireshark"
+      },
+      {
+        "name": "Postman API Security",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Nuclei",
+        "icon": "SiNuclei"
+      },
+      {
+        "name": "Kali Linux",
+        "icon": "SiKalilinux"
+      },
+      {
+        "name": "GitHub Dependabot",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Docker Security Review",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Cloudflare Security",
+        "icon": "SiCloudflare"
+      },
+      {
+        "name": "OWASP ASVS",
+        "icon": "SiOwasp"
       }
     ]
   },
   "process_section": {
-    "title": "Our Process",
-    "subtitle": "A structured approach to ethical hacking",
+    "title": "Our Security Testing Process",
+    "subtitle": "A focused 6 step process from discovery to testing, reporting, remediation validation, and ongoing security improvement",
     "steps": [
       {
-        "title": "Reconnaissance",
-        "description": "We map your application's attack surface, identifying exposed endpoints, subdomains, and tech stacks.",
+        "title": "Discovery Call",
+        "description": "We understand your application, APIs, users, data sensitivity, compliance needs, and security goals.",
         "icon": "FaSearch"
       },
       {
-        "title": "Scanning",
-        "description": "We utilize advanced automated tools to identify misconfigurations and known vulnerabilities.",
-        "icon": "FaRadar"
+        "title": "Scope and Attack Surface Mapping",
+        "description": "We map endpoints, roles, assets, environments, integrations, authentication flows, and test boundaries.",
+        "icon": "TbTools"
       },
       {
-        "title": "Exploitation (Pentesting)",
-        "description": "Our engineers manually attempt to exploit the discovered vulnerabilities to determine their actual impact.",
+        "title": "Security Test Strategy",
+        "description": "We define testing methods, OWASP coverage, risk priorities, tooling, environments, and reporting format.",
+        "icon": "VscGraphLine"
+      },
+      {
+        "title": "Scanning and Manual Testing",
+        "description": "We run controlled scans, perform manual validation, test workflows, and assess real security impact.",
         "icon": "FaUnlockAlt"
       },
       {
-        "title": "Reporting & Patching",
-        "description": "We deliver a comprehensive risk report and work with your dev team to verify that the patches are effective.",
+        "title": "Reporting and Remediation",
+        "description": "We document findings, severity, evidence, business impact, and practical fix recommendations.",
         "icon": "FaFileContract"
+      },
+      {
+        "title": "Retesting and Maintenance",
+        "description": "We verify fixes, update risk status, support release readiness, and improve security over time.",
+        "icon": "PiCodeFill"
       }
     ]
   },
   "case_study_section": {
-    "headline": "Prevented a massive data leak in a healthcare portal",
+    "headline": "Security Testing That Prevented Sensitive Data Exposure Before Product Launch",
     "image": "/all_services/security_testing/cs.webp",
     "content": {
       "problem": {
-        "label": "Problem",
-        "text": "A telehealth startup was weeks away from launching their patient portal but needed a final security audit to comply with HIPAA regulations."
+        "label": "Security Roadblock",
+        "text": "A healthcare startup was preparing to launch a patient portal but needed security validation before onboarding real users. The product handled sensitive records, authentication flows, role based access, and patient facing data."
       },
       "solution": {
-        "label": "Solution",
-        "text": "During our manual penetration test, we discovered a severe Insecure Direct Object Reference (IDOR) vulnerability that allowed any user to access other patients' medical records by manipulating the URL."
+        "label": "Our Engineering Approach",
+        "text": "Devisgon performed security testing across authentication, authorization, API access, user roles, data exposure risks, and OWASP Top 10 vulnerabilities. We identified an access control issue that could expose records across user accounts."
       },
       "result": {
-        "label": "Result",
-        "text": "We provided immediate remediation code. The vulnerability was patched before launch, avoiding a catastrophic HIPAA violation and preserving the startup's future."
+        "label": "Measurable Impact",
+        "text": "The vulnerability was fixed before launch, sensitive data exposure risk was reduced, and the team gained stronger confidence for compliance focused customer onboarding."
       }
     }
   },
   "faq_section": {
-    "title": "Frequently Asked Questions",
-    "subtitle": "Get answers about cybersecurity and penetration testing",
+    "title": "Security Testing Questions and Answers",
+    "subtitle": "Detailed answers for founders, CTOs, product teams, compliance teams, and engineering leaders planning application security validation",
     "questions": [
       {
-        "question": "What is the difference between a Vulnerability Scan and a Penetration Test?",
-        "answer": "A Vulnerability Scan is an automated process that checks your systems for known flaws and reports them. A Penetration Test (Pentest) is a manual, human-led process where an ethical hacker actively tries to exploit those flaws to see how deep into the system they can get, simulating a real-world attack."
+        "question": "What is security testing?",
+        "answer": "Security testing evaluates software, APIs, infrastructure, and user access controls to find vulnerabilities before attackers can exploit them. It checks authentication, authorization, input handling, sensitive data exposure, misconfigurations, and insecure integrations. The goal is to reduce risk before production incidents happen."
       },
       {
-        "question": "Is it safe to perform security testing on a live, production environment?",
-        "answer": "While we can test production environments carefully, we highly recommend performing intrusive security testing (like Penetration Testing) on a staging or replica environment. This ensures there is absolutely no disruption to your live users or risk of accidental data corruption."
+        "question": "How is vulnerability scanning different from penetration testing?",
+        "answer": "Vulnerability scanning uses automated tools to identify known weaknesses and configuration issues. Penetration testing is a deeper manual process where security engineers validate impact and test realistic attack paths within an approved scope. Both are useful, but penetration testing provides stronger context for business risk."
       },
       {
-        "question": "How often should we perform security testing?",
-        "answer": "Best practices dictate running automated vulnerability scans continuously (integrated into your CI/CD pipeline). Deep-dive manual penetration tests should be conducted at least annually, or immediately following any major architecture change or significant feature release."
+        "question": "What does OWASP Top 10 security testing include?",
+        "answer": "OWASP Top 10 testing reviews common web application risks such as broken access control, injection, authentication failures, insecure design, misconfiguration, vulnerable components, and data exposure. It gives teams a practical baseline for web and API security. Devisgon can combine OWASP checks with business logic testing."
       },
       {
-        "question": "What happens after you find a vulnerability?",
-        "answer": "We don't just hand you a list of problems. We provide a detailed report ranking the vulnerabilities by severity (Critical, High, Medium, Low) alongside step-by-step remediation instructions. Once your developers apply the fix, we perform a 're-test' to guarantee the loophole is permanently closed."
+        "question": "Can security testing support SOC 2, HIPAA, PCI DSS, or GDPR readiness?",
+        "answer": "Yes. Security testing can support compliance readiness by validating access controls, data protection, logging, vulnerability management, secure configuration, and remediation workflows. It does not replace legal or formal audit work, but it provides important technical evidence and risk reduction for compliance programs."
+      },
+      {
+        "question": "Is it safe to test production systems?",
+        "answer": "Production testing must be handled carefully with clear scope, approval, safe limits, monitoring, and rollback planning. For intrusive tests, staging or replica environments are usually safer. Devisgon designs testing boundaries to reduce disruption risk while still producing meaningful security findings."
+      },
+      {
+        "question": "What happens after vulnerabilities are found?",
+        "answer": "We provide a report with severity, evidence, affected areas, impact explanation, reproduction notes, and remediation guidance. Your developers fix the issues, then we retest to confirm that the vulnerability is resolved. This creates a clear path from discovery to verified remediation."
+      },
+      {
+        "question": "How often should security testing be performed?",
+        "answer": "Security testing should be performed before launch, after major releases, after architecture changes, after authentication changes, and at regular intervals for critical systems. Automated scanning can run more frequently, while manual penetration testing is usually scheduled periodically or after high risk changes."
+      },
+      {
+        "question": "Does Devisgon provide retesting and ongoing security support?",
+        "answer": "Yes. Devisgon provides retesting after fixes, recurring vulnerability assessments, security review support, remediation guidance, DevSecOps recommendations, and ongoing application security validation. This helps teams maintain security as products, APIs, and infrastructure evolve."
       }
     ],
     "footer": {
-      "text": "Didn't find your answer?",
-      "link_text": "Schedule a security consultation",
+      "text": "Ready to find and fix security gaps before attackers do?",
+      "link_text": "Schedule a security testing discovery call",
       "link_url": "/contact"
     }
   }

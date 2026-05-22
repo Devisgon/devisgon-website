@@ -1,116 +1,135 @@
 {
   "slug": "java",
   "seo_metadata": {
-    "title": "Enterprise Java-Entwicklung | Skalierbare JVM-Architekturdienste",
-    "description": "Benutzerdefiniertes Java-Software-Engineering für Unternehmensanwendungen mit hoher Parallelität. Wir entwerfen sichere, stabile und skalierbare Systeme mit Spring Boot und moderner JVM-Optimierung.",
+    "title": "Java Entwicklungsdienste | Enterprise Backend, APIs und skalierbare Softwarearchitektur | Devisgon",
+    "description": "Devisgon bietet professionelle Java Entwicklungsdienste für Unternehmensanwendungen, skalierbare Backend Systeme, APIs, SaaS Plattformen, Cloud native Software, Microservices und sichere geschäftskritische digitale Produkte.",
     "keywords": [
-      "Enterprise Java-Entwicklung",
-      "Spring Boot-Microservices",
-      "JVM-Leistungsoptimierung",
-      "Java-Softwarearchitektur",
-      "Backend-Systemtechnik",
-      "Multithread-Java-Anwendungen",
-      "Jakarta EE-Lösungen"
+      "Java Entwicklungsdienste",
+      "Java Entwicklungsunternehmen",
+      "Java Entwicklung für Unternehmen",
+      "Java Backend Entwicklung",
+      "Java API Entwicklung",
+      "Java Softwareentwicklung",
+      "Spring Boot Entwicklung",
+      "Entwicklung von Java Microservices",
+      "Cloud native Java Entwicklung",
+      "Entwicklung von Java Unternehmensanwendungen",
+      "benutzerdefinierte Java Anwendungen",
+      "Java SaaS Entwicklung",
+      "Modernisierung von Java Anwendungen",
+      "Java Leistungsoptimierung",
+      "JVM Leistungsoptimierung",
+      "sichere Java Backend Architektur",
+      "Java Integrationsdienste",
+      "skalierbare Java Software"
     ]
   },
   "hero_section": {
-    "eyebrow": "Zuverlässigkeit auf Unternehmensniveau",
-    "title": "Bewährte Stabilität mit",
-    "highlight": "Die Java-Plattform",
-    "description": "Erstellen Sie robuste, plattformübergreifende Unternehmenssysteme mit einer Sprache, die auf Sicherheit, hohe Parallelität und langfristige Wartbarkeit ausgelegt ist.",
+    "eyebrow": "Entwicklung von Java Software für Unternehmen",
+    "title": "Erstellen Sie zuverlässige Unternehmenssysteme mit",
+    "highlight": "Java",
+    "description": "Devisgon erstellt sichere, skalierbare und wartbare Java Anwendungen für Unternehmensplattformen, SaaS Produkte, Backend APIs, Finanzworkflows, Cloud Systeme, Microservices, interne Tools und geschäftskritische Software, die langfristige Zuverlässigkeit erfordert.",
     "side_image": "/technologies/java/hero.webp",
     "primary_cta": {
-      "text": "Gestalten Sie Ihr System",
+      "text": "Planen Sie Ihre Java Architektur",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "Technische Roadmap",
+      "text": "Entdecken Sie Java Scope",
       "href": "/technologies/java#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Warum wir mit Java entwickeln",
-    "subtitle": "Java bietet die strukturelle Disziplin und Ökosystemtiefe, die für geschäftskritische Software erforderlich sind.",
+    "title": "Warum wir mit Java bauen",
+    "subtitle": "Java ist eine bewährte Technologie für Unternehmen, die stabile Backend Systeme, sichere Unternehmenslogik, skalierbare APIs und langfristige Wartbarkeit der Software benötigen.",
     "paragraphs": [
-      "Java ist unser Grundstein für die Erstellung komplexer, mehrschichtiger Unternehmensanwendungen. Seine strikte Typsicherheit, die robuste Speicherverwaltung mittels fortschrittlicher Garbage Collection und die leistungsstarke Java Virtual Machine (JVM) sorgen dafür, dass Anwendungen auch unter massiven Transaktionslasten stabil bleiben.",
-      "Durch die Nutzung des umfangreichen Spring-Ökosystems – einschließlich Spring Boot und Spring Cloud – stellen wir Microservices bereit, die von Natur aus beobachtbar, sicherbar und für die cloudnative Bereitstellung bereit sind. Diese ausgereifte Framework-Unterstützung ermöglicht es uns, uns auf die Lösung komplexer Geschäftslogiken zu konzentrieren, während die Plattform die zugrunde liegende Infrastruktur verwaltet."
+      "Devisgon verwendet Java für Produkte und Plattformen, bei denen Zuverlässigkeit, Sicherheit, strukturierte Architektur und langfristige Leistung wichtig sind. Java eignet sich hervorragend für Unternehmenssoftware, Backend APIs, SaaS Systeme, Finanzplattformen, interne Geschäftstools, Anwendungen mit hohem Datenverkehr, Integrationsschichten und Cloud native Microservices.",
+      "Ein erfolgreiches Java System erfordert diszipliniertes Engineering. Unser Ansatz konzentriert sich auf Domänenarchitektur, API Design, Spring Boot Dienste, Datenbankintegration, Authentifizierung, Autorisierung, Transaktionsabwicklung, Leistungsoptimierung, Tests, Bereitstellung, Überwachung und wartbare Codemuster, damit Ihre Software auch bei zunehmender Geschäftskomplexität stabil bleibt."
     ],
     "cards": [
       {
-        "title": "JVM-Leistung",
-        "description": "Nutzen Sie die Just-In-Time-Kompilierung (JIT) und die optimierte Speicherverwaltung für eine Ausführung mit hohem Durchsatz.",
-        "icon_type": "FaTachometerAlt"
+        "title": "Enterprise Backend Architektur",
+        "description": "Erstellen Sie strukturierte Backend Systeme mit klaren Serviceschichten, sicheren APIs, zuverlässiger Geschäftslogik und wartbaren Anwendungsgrenzen.",
+        "icon_type": "FaServer"
       },
       {
-        "title": "Starke Typensicherheit",
-        "description": "Erzwingen Sie architektonische Grenzen und erkennen Sie Fehler zur Kompilierungszeit, um die Codeintegrität in großen Teams sicherzustellen.",
+        "title": "Sichere und zuverlässige Systeme",
+        "description": "Unterstützen Sie geschäftskritische Arbeitsabläufe mit starker Typisierung, Transaktionssicherheit, Authentifizierung, Autorisierung, Validierung und produktionsbereiten Sicherheitspraktiken.",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "Unternehmensökosystem",
-        "description": "Greifen Sie auf erstklassige Bibliotheken für Sicherheit, Persistenz (Hibernate) und Messaging (Kafka/JMS) zu.",
-        "icon_type": "FaServer"
+        "title": "Skalierbares Java Engineering",
+        "description": "Entwickeln Sie Anwendungen, die wachsende Benutzer, komplexe Daten, Integrationen, Hintergrundjobs, Microservices und Cloud Bereitstellungsanforderungen unterstützen.",
+        "icon_type": "FaTachometerAlt"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Technischer Java-Bereich",
+    "title": "Java Entwicklungsumfang",
     "image": "/technologies/java/scope.webp",
     "items": [
       {
-        "title": "Cloud-native Microservices",
-        "description": "Architektur von Containerdiensten mit Spring Boot und Quarkus für eine schnelle Skalierung in Kubernetes-Umgebungen."
+        "title": "Entwicklung von Java Anwendungen für Unternehmen",
+        "description": "Erstellen sicherer Geschäftsanwendungen, interner Plattformen, Verwaltungssysteme, SaaS Produkte, Kundenportale und Backend Dienste mithilfe einer strukturierten Java Architektur."
       },
       {
-        "title": "Verarbeitung mit hoher Parallelität",
-        "description": "Nutzung von Javas fortschrittlichem Multithreading und Virtual Threads (Project Loom) für eine leistungsstarke Datenverarbeitung."
+        "title": "Spring Boot API und Microservices Entwicklung",
+        "description": "Erstellen von REST APIs, Microservices, Authentifizierungssystemen, Integrationsdiensten, Geschäftsmodulen und Cloud fähigen Backend Anwendungen mit Spring Boot."
       },
       {
-        "title": "Verteilte Legacy-Integration",
-        "description": "Überbrückung geschäftskritischer Altsysteme mit modernen Cloud-Architekturen durch sichere API-Gateways und RMI."
+        "title": "Datenbank  und Transaktionssysteme",
+        "description": "Entwerfen von Java gestützten Datenworkflows mit relationalen Datenbanken, Transaktionsverarbeitung, ORM Schichten, Repositorys, Berichtsanforderungen und geschäftskritischer Datenintegrität."
+      },
+      {
+        "title": "Cloud native und Integrationsarchitektur",
+        "description": "Verbinden von Java Systemen mit Cloud Diensten, APIs von Drittanbietern, Zahlungsplattformen, CRMs, Messaging Warteschlangen, ereignisgesteuerten Workflows und Unternehmenstools."
+      },
+      {
+        "title": "Leistung, Tests und Modernisierung",
+        "description": "Optimierung der JVM Leistung, Verbesserung älterer Java Systeme, Umgestaltung von Codebasen, Schreiben automatisierter Tests, Stärkung von Bereitstellungsworkflows und Unterstützung der langfristigen Wartung."
       }
     ]
   },
   "edge_section": {
-    "title": "Der Java-Wettbewerbsvorteil",
-    "subtitle": "Quantifizierbare Vorteile für den langfristigen Produkterfolg.",
+    "title": "Der Java Vorteil",
+    "subtitle": "Eine ausgereifte Softwaregrundlage für Unternehmen, die eine sichere Architektur, Unternehmenszuverlässigkeit, skalierbare Backend Systeme und langfristige Produktstabilität benötigen.",
     "cards": [
       {
-        "metric": "99,99 %",
-        "title": "Verfügbarkeitszuverlässigkeit",
-        "description": "Jahrzehntelange Praxistests im Finanz- und Telekommunikationssektor sorgen für unübertroffene Stabilität."
-      },
-      {
-        "metric": "Einmal schreiben",
-        "title": "Überall laufen",
-        "description": "Die JVM stellt sicher, dass sich Ihr Code in Linux-, Windows- und Cloud-Umgebungen konsistent verhält."
+        "metric": "Reliable",
+        "title": "Geschäftskritische Stabilität",
+        "description": "Nutzen Sie das ausgereifte Ökosystem und die starken technischen Muster von Java, um Anwendungen zu unterstützen, bei denen Verfügbarkeit, Korrektheit und Wartbarkeit wichtig sind."
       },
       {
         "metric": "Scalable",
-        "title": "Concurrency",
-        "description": "Behandeln Sie Tausende gleichzeitiger Verbindungen effizient mit ausgereiften Threading-Modellen."
+        "title": "Backend Growth Foundation",
+        "description": "Erstellen Sie Dienste, die im Laufe der Zeit mehr Benutzer, mehr Transaktionen, mehr Integrationen und komplexere Unternehmensworkflows unterstützen können."
       },
       {
-        "metric": "Zero",
-        "title": "Wartungsrisiko",
-        "description": "Strikte Abwärtskompatibilität und Long-Term-Support-Versionen (LTS) schützen Ihre technische Investition."
+        "metric": "Secure",
+        "title": "Unternehmenszugangskontrolle",
+        "description": "Implementieren Sie Authentifizierung, Autorisierung, Validierung, verschlüsselte Kommunikation, rollenbasierten Zugriff und geschützte Anwendungsworkflows."
+      },
+      {
+        "metric": "Maintainable",
+        "title": "Langfristige Codequalität",
+        "description": "Erstellen Sie strukturierte Java Anwendungen, die über lange Produktlebenszyklen einfacher zu testen, zu überwachen, umzugestalten, zu erweitern und zu unterstützen sind."
       }
     ]
   },
   "quote_section": {
-    "quote": "Mit Java können wir die Komplexität verteilter Systeme verbergen",
-    "highlight": "disziplinierte Architektur"
+    "quote": "Java hilft bei der Umsetzung komplexer Unternehmensanforderungen",
+    "highlight": "stabile und skalierbare Backend Systeme"
   },
   "conversation_section": {
-    "title": "Entwerfen Sie Ihre Unternehmensebene",
-    "subtitle": "Lassen Sie sich von unseren führenden Java-Spezialisten beraten, um eine sichere, skalierbare Roadmap für Ihre digitale Infrastruktur zu erstellen.",
-    "full_name_label": "Name des Hauptarchitekten",
-    "business_email_label": "Entitäts-E-Mail",
-    "message_label": "Technische Anforderung",
-    "full_name_placeholder": "Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Beschreiben Sie Ihre Backend-Skalierungsziele oder JVM-Leistungsherausforderungen ...",
-    "button_text": "Fordern Sie eine Beratung an"
+    "title": "Entwerfen Sie Ihre Java Softwarearchitektur",
+    "subtitle": "Arbeiten Sie mit Devisgon zusammen, um Java Anwendungen für Unternehmensplattformen, SaaS Produkte, APIs, Cloud Systeme, Microservices und geschäftskritische Arbeitsabläufe zu planen, zu erstellen, zu modernisieren oder zu skalieren.",
+    "full_name_label": "Vollständiger Name",
+    "business_email_label": "Geschäfts E Mail",
+    "message_label": "Projektanforderung",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "Erzählen Sie uns von Ihrer Java Anwendung, Backend Anforderungen, API Anforderungen, Spring Boot Architektur, Integrationen, Leistungszielen oder Modernisierungsplänen ...",
+    "button_text": "Fordern Sie eine Java Beratung an"
   }
 }

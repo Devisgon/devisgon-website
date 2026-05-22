@@ -21,11 +21,14 @@ const SERVICE_DATASETS: Array<Record<string, Record<string, ServiceDetailData>>>
 ];
 
 const SERVICE_SLUG_ALIASES: Record<string, string[]> = {
-  accounting: ["finance-automation"],
+  accounting: ["sales-automation"],
+  "ai-ml-models": ["model-training", "machine-learning"],
+  "custom-bots": ["ai-chatbot", "ai-agents"],
+  "finance-automation": ["sales-automation"],
   "ci-cd-pipelines": ["cicd-pipelines"],
   "infrastructure-automation": ["devops-infrastructure-automation"],
   "marketing-sales-automation": ["marketing-automation"],
-  "no-code-automations": ["no-code-automation"],
+  "no-code-automations": ["low-code-automations", "no-code-automation"],
   "saas-platform": ["saas-development"],
   "saas-plateform": ["saas-development"],
 };

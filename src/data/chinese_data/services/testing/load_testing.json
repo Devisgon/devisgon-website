@@ -1,0 +1,206 @@
+{
+  "slug": "load-testing",
+  "hero_section": {
+    "title": "企业性能和负载测试服务",
+    "subtitle": "强化您的 Web 基础设施以应对高速流量激增",
+    "description": "我们设计了严格的性能、压力和高并发负载测试框架，可在您的用户之前暴露系统瓶颈。确保在数百万并发 API 请求下实现亚秒级延迟、零数据库降级和绝对的结构稳定性。",
+    "buttons": [
+      {
+        "text": "审核我的系统容量",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的 DevOps 工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/dashboard_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "负载测试？",
+    "content": [
+      "在 Devisgon，我们将性能优化视为一门高精度软件学科。远远超出基本的页面速度脚本，我们设计了自定义的分布式负载测试套件，可以复制复杂的现实世界用户路径、大容量自动化 Webhook 流以及本地沙箱内的并发读写数据库流量峰值。",
+      "我们弥合了抽象应用程序代码和底层服务器限制之间的差距。我们执行的每个模拟循环都会对您的 API 路由处理程序、系统内存阵列和微服务网格施加压力，同时跟踪实时服务器遥测，以确保您的应用程序在病毒流量高峰和繁重的生产负载期间保持完全安全。"
+    ],
+    "highlight_quote": "“经过验证的系统限制、优化的端点吞吐量、峰值负载下 100% 稳定的应用程序运行时间。”",
+    "side_image": "/all_services/performance_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将脆弱的后端代码转换为确定性、高弹性的软件架构",
+    "cards": [
+      {
+        "title": "暴露延迟下降",
+        "description": "确定 API 路由时间峰值或系统线程锁定的确切并发阈值，从而允许抢占式代码重构。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "强化数据库扩展",
+        "description": "对关系连接池和缓存层进行压力测试，以防止重事务负载下的锁定、缓慢查询和内存泄漏。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "验证自动扩展规则",
+        "description": "验证云基础设施边界、容器编排器和边缘代理是否在峰值出现时精确动态地提高计算能力。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "消除代价高昂的停机时间",
+        "description": "消除意外的运行时崩溃和服务器故障，确保完全的品牌信任并在主要产品下降期间持续获取收入。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将从 Devsgon 性能工程中获得什么",
+    "image": "/all_services/performance_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1.分布式并发测试脚本",
+        "description": "定制的负载模拟代码配置为模拟真实的多步骤用户行为、结帐过程和 Webhook 摄入矩阵。"
+      },
+      {
+        "title": "2. 高通量 API 压力评估",
+        "description": "严格的饱和测试旨在暴露结构阈值限制、端点吞吐量参数和连接断点。"
+      },
+      {
+        "title": "3. 自动故障回退配置",
+        "description": "实施智能断路器、速率限制器和死信消息队列，以在极端峰值期间保护数据库。"
+      },
+      {
+        "title": "4. 全面的系统遥测日志",
+        "description": "粒度分析图可视化 CPU 节流线、内存耗尽图表、数据库事务日志和错误率分布。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用强化的现代性能基础设施进行测试",
+    "subtitle": "专为极端数据规模而构建的行业标准负载引擎、遥测聚合器和系统监视器",
+    "tools": [
+      {
+        "name": "k6（格拉法纳）",
+        "icon": "SiK6"
+      },
+      {
+        "name": "阿帕奇JMeter",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "Locust",
+        "icon": "SiLocust"
+      },
+      {
+        "name": "Prometheus",
+        "icon": "SiPrometheus"
+      },
+      {
+        "name": "Grafana 仪表板",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "数据狗API",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Next.js（性能审计）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase（查询测试）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL（解释分析）",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis（加载缓存）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker（容器压力）",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes（HPA 验证）",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "AWS分布式负载测试",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从协议映射到完整的基础设施认证",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "分析现有软件基础架构拓扑、记录目标 API 路由、定义核心性能 SLA 并绘制用户行为趋势。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "构建分布式场景逻辑矩阵，制定虚拟用户扩展路径，构建目标指标遥测配置文件。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "通过 k6 或 Locust 编写自定义测试套件，建立集中式 Grafana 可视化图表，并配置环境沙箱边界。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行增量压力运行、隔离性能瓶颈、调整基础设施属性并提供经过验证的稳定性认证。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "超过 500,000 笔并发虚拟交易保持 100% 运行时稳定性",
+    "image": "/all_services/performance_testing/cs.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "每当营销电子邮件活动引发用户流量突然激增时，高速数字平台就会遭受严重的应用程序延迟和突然的数据库锁定。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 k6 和 Docker 设计了一个分布式负载测试矩阵，执行数千个模拟结账路径，同时分析 Supabase 实例内的查询执行时间。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "通过优化数据库索引，API响应延迟下降了73%，消除了服务器资源瓶颈，平台在后续流量高峰期间保持了100%的持续运行稳定性。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "性能架构和常见问题解答",
+    "subtitle": "关键基础设施测试、API 优化和扩展查询的清晰答案",
+    "questions": [
+      {
+        "question": "标准负载测试和压力测试之间的主要区别是什么？",
+        "answer": "负载测试评估应用程序在其预期峰值运行容量下的行为，以确保响应时间满足基本性能规则。压力测试将系统完全推过其逻辑阈值直至崩溃，从而准确揭示哪个硬件层或数据库表将首先发生故障。"
+      },
+      {
+        "question": "如何测试系统性能而不意外污染或损坏我们的活动生产数据库？",
+        "answer": "我们在隔离的暂存沙箱环境中执行所有性能和负载模拟循环，该环境反映了您确切的生产硬件拓扑。我们使用匿名模拟数据集和干净的结构表，确保您的现实世界用户信息完全安全且不受影响。"
+      },
+      {
+        "question": "负载测试能否优化利用边缘路由网络的无服务器 Web 应用程序？",
+        "answer": "绝对地。虽然无服务器函数可以动态扩展，但它们通常会遇到隐藏的后端限制，例如数据库连接池限制或外部 API 速率限制。我们追踪这些精确的无服务器集成限制，设置优化的 Redis 缓存层以防止下游阻塞。"
+      },
+      {
+        "question": "我们的企业应该多久运行一次编程性能和负载验证检查？",
+        "answer": "我们建议在主要功能发布、系统数据库修改或预期的高流量季节性事件之前将自动化负载测试集成到核心 CI/CD 部署管道中，以验证新的代码更改不会导致性能下降。"
+      }
+    ],
+    "footer": {
+      "text": "准备好验证您的软件系统基础设施阈值了吗？",
+      "link_text": "与我们的团队安排绩效评估",
+      "link_url": "/contact"
+    }
+  }
+}

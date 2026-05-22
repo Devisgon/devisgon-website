@@ -1,0 +1,206 @@
+{
+  "slug": "aws-devops-infrastructure",
+  "hero_section": {
+    "title": "企业 AWS 云和开发运营基础设施工程",
+    "subtitle": "不可变架构、自动化 CI/CD 管道和弹性云网格",
+    "description": "我们使用基础设施即代码 (IaC) 设计生产级、高度安全且可自动扩展的 AWS 基础设施。最大限度地提高部署速度，消除手动服务器配置跟踪，并建立亚秒级多区域故障转移处理。",
+    "buttons": [
+      {
+        "text": "架构我的 AWS 基础设施",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的 DevOps 工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/devops_consulting.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "AWS 开发运营工程？",
+    "content": [
+      "在 Devisgon，我们将 AWS 云基础设施视为精确的、可编程的软件工程学科。远离手动控制台单击和脆弱的服务器设置，我们编写声明性的、版本控制的基础设施即代码 (IaC)，以原生方式规划您的整个网络边界、容器编排层和数据库集群。",
+      "我们弥合应用程序开发和云系统运营之间的差距。我们构建的每个部署基础设施管道都通过零信任身份和访问管理 (IAM) 边界、低延迟内容交付网络、自动化零停机滚动升级和集中式微服务遥测池进行强化，以保证峰值平台可用性。"
+    ],
+    "highlight_quote": "“声明式基础设施状态、完全自动化的 CI/CD 发布、100% 可预测的云扩展运行时。”",
+    "side_image": "/all_services/devops_consulting/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将不稳定的服务器管理转变为高度可预测的自动化云网格",
+    "cards": [
+      {
+        "title": "不可变的基础设施状态",
+        "description": "通过声明性 IaC 结构部署代码更改，完全消除登台和生产服务器层之间的配置漂移错误。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "持续部署流程",
+        "description": "建立优化的管道，自动运行功能检查、执行安全编译运行并在几分钟内部署软件更新。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "弹性自动缩放范围",
+        "description": "配置系统以在流量激增期间精确地动态调整计算能力，在保持性能的同时降低非高峰基础设施成本。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "强化云隔离",
+        "description": "在定制的虚拟私有云 (VPC) 中干净地隔离私有数据库资源，通过严格的安全组控制微服务访问。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "我们设计的核心 AWS 和 DevOps 支柱",
+    "image": "/all_services/devops_consulting/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 声明式基础设施即代码 (IaC)",
+        "description": "通过 Terraform 脚本编译的完全可重现的系统环境，以编程方式管理 VPC 网络、子网、网关和负载均衡器。"
+      },
+      {
+        "title": "2. 生产容器编排结构",
+        "description": "高度可扩展的 Amazon EKS (Kubernetes) 或 ECS 设置，配置为管理应用程序部署、运行状况路由和滚动微服务更新。"
+      },
+      {
+        "title": "3. 自动化 DevSecOps CI/CD 集成管道",
+        "description": "利用嵌入了自动安全策略审核和集成检查的 GitHub Actions 或 AWS CodePipeline 的持续代码交付工作流程。"
+      },
+      {
+        "title": "4. 集中式系统遥测和日志监视器",
+        "description": "通过 Amazon CloudWatch 和 Prometheus 阵列构建的全面监控仪表板，可跟踪处理日志、内存利用率曲线和网络指标。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用企业级 AWS 和 DevOps 基础设施工具进行工程师",
+    "subtitle": "行业标准云服务、供应商和交付实用程序针对绝对系统弹性进行了优化",
+    "tools": [
+      {
+        "name": "AWS EC2 / 自动扩展",
+        "icon": "FaAws"
+      },
+      {
+        "name": "亚马逊 EKS (Kubernetes)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Terraform（IaC 核心）",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Docker（微服务）",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "GitHub 操作",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "亚马逊 RDS / 极光",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "亚马逊 VPC（网络网格）",
+        "icon": "FaAws"
+      },
+      {
+        "name": "AWS IAM（零信任访问）",
+        "icon": "FaAws"
+      },
+      {
+        "name": "AWS 路线 53/CloudFront",
+        "icon": "FaAws"
+      },
+      {
+        "name": "亚马逊云观察",
+        "icon": "FaAws"
+      },
+      {
+        "name": "普罗米修斯和格拉法纳",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "Supabase（数据管理）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Redis（分布式缓存）",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "6 周内从系统架构映射到经过认证的云运营",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核现有系统环境、跟踪软件网络依赖性线、建立目标扩展边界并隔离数据安全限制。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定主 VPC 路由架构、规划零信任 IAM 权限模型并清晰地规划持续交付工作流程。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "编写声明性 Terraform 配置文件，将微服务层打包到 Docker 容器中，并组装部署管道。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行密集环境负载测试，验证自动节点扩展配置，并安全启动实时 CloudWatch 指标跟踪面板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100% 核心基础设施自动化，运营部署延迟降低 73%",
+    "image": "/all_services/devops_consulting/cs.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "由于手动基础架构更改，可扩展的云应用程序遭受频繁的平台中断、软件依赖性破坏以及服务器实例之间的配置差异的困扰。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 Terraform 和 Amazon EKS 完全重构了他们的环境架构，在安全的 GitHub Actions 管道中构建自动化的零停机部署工作流程。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "服务器配置错误降至绝对零，代码部署频率显着加快，平台在流量激增期间保持完全的运行稳定性。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "AWS 开发运营架构和常见问题解答",
+    "subtitle": "对关键基础架构编排、持续集成和管道安全查询的清晰答案",
+    "questions": [
+      {
+        "question": "通过 Terraform 编写基础设施即代码 (IaC) 的具体战略价值是什么？",
+        "answer": "Terraform 充当系统网格的单一声明性事实来源。 IaC 不会手动部署导致未经验证的配置的云资源，而是以纯文本代码的形式跟踪每个路由器、负载均衡器和安全数据库设置，从而实现自动版本审核和即时环境克隆。"
+      },
+      {
+        "question": "您的自动化 CI/CD 管道如何实现零停机软件发布？",
+        "answer": "我们在 Amazon EKS 内设计了专门的蓝绿或滚动容器部署机制。当新代码通过验证检查时，管道会在活动基础设施旁边启动新容器，验证其运行状况，并平稳地转换用户流量，没有一毫秒的服务延迟。"
+      },
+      {
+        "question": "您的云环境能否有效扩展以控制运营托管费用？",
+        "answer": "绝对地。我们配置精确的水平 Pod 自动缩放器和与实时 CPU 和请求限制直接相关的 Amazon EC2 缩放规则。当非高峰期间流量下降时，基础设施会自动缩小规模，从而保留计算限制并优化每月平台费用。"
+      },
+      {
+        "question": "如何在 AWS 设置中保护安全的数据库记录和微服务私钥？",
+        "answer": "我们执行严格的零信任参数策略。数据库被锁定在完全私有的子网内，与公共互联网完全分离。所有 API 连接都需要通过 AWS Secrets Manager 管理的短期加密令牌，以保持应用程序连接路由的安全和隐藏。"
+      }
+    ],
+    "footer": {
+      "text": "准备好将您的云环境转变为不可变的企业级 DevOps 基础设施了吗？",
+      "link_text": "与我们的工程团队安排 DevOps 审查",
+      "link_url": "/contact"
+    }
+  }
+}

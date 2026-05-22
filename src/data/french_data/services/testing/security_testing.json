@@ -14,14 +14,14 @@
         "link": "/contact"
       }
     ],
-    "hero_image": "/videos/security_testing.mp4"
+    "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que",
+    "heading": "Qu'est ce que",
     "span_heading": "Tests de sécurité ?",
     "content": [
       "Les tests de sécurité sont un processus rigoureux d'évaluation de votre logiciel pour découvrir les vulnérabilités, les menaces et les risques. Au lieu d'attendre qu'une attaque malveillante révèle les points faibles de votre système, nos hackers éthiques certifiés passent à l'offensive et tentent de pirater vos applications en utilisant exactement les mêmes outils et techniques que les cybercriminels du monde réel.",
-      "Chez Devisgon, nous allons au-delà des analyses automatisées. Nous approfondissons la logique, les API et l'infrastructure de votre application pour trouver des failles cachées telles que les injections SQL, les scripts intersites (XSS) et les authentifications défectueuses. Nous proposons ensuite des mesures correctives concrètes pour verrouiller complètement votre système."
+      "Chez Devisgon, nous allons au delà des analyses automatisées. Nous approfondissons la logique, les API et l'infrastructure de votre application pour trouver des failles cachées telles que les injections SQL, les scripts intersites (XSS) et les authentifications défectueuses. Nous proposons ensuite des mesures correctives concrètes pour verrouiller complètement votre système."
     ],
     "highlight_quote": "« Si vous pensez que la conformité coûte cher, essayez une violation de données. »",
     "side_image": "/all_services/security_testing/introduction.webp"
@@ -42,7 +42,7 @@
       },
       {
         "title": "Assurer la conformité",
-        "description": "Répondez aux exigences strictes en matière de tests de sécurité imposées par des cadres tels que SOC 2, HIPAA, PCI-DSS et GDPR.",
+        "description": "Répondez aux exigences strictes en matière de tests de sécurité imposées par des cadres tels que SOC 2, HIPAA, PCI DSS et GDPR.",
         "icon_type": "MdGppGood"
       },
       {
@@ -106,7 +106,7 @@
     "steps": [
       {
         "title": "Reconnaissance",
-        "description": "Nous cartographions la surface d'attaque de votre application, en identifiant les points de terminaison, les sous-domaines et les piles technologiques exposés.",
+        "description": "Nous cartographions la surface d'attaque de votre application, en identifiant les points de terminaison, les sous domaines et les piles technologiques exposés.",
         "icon": "FaSearch"
       },
       {
@@ -153,15 +153,15 @@
         "answer": "Une analyse de vulnérabilité est un processus automatisé qui vérifie vos systèmes pour détecter les failles connues et les signale. Un test d'intrusion (Pentest) est un processus manuel dirigé par un humain dans lequel un pirate informatique éthique tente activement d'exploiter ces failles pour voir jusqu'où ils peuvent pénétrer dans le système, simulant une attaque réelle."
       },
       {
-        "question": "Est-il sécuritaire d’effectuer des tests de sécurité dans un environnement de production en direct ?",
+        "question": "Est il sécuritaire d’effectuer des tests de sécurité dans un environnement de production en direct ?",
         "answer": "Bien que nous puissions tester les environnements de production avec soin, nous vous recommandons fortement d'effectuer des tests de sécurité intrusifs (comme les tests d'intrusion) sur un environnement de test ou de réplique. Cela garantit qu’il n’y a absolument aucune interruption pour vos utilisateurs en direct ni aucun risque de corruption accidentelle des données."
       },
       {
-        "question": "À quelle fréquence devons-nous effectuer des tests de sécurité ?",
+        "question": "À quelle fréquence devons nous effectuer des tests de sécurité ?",
         "answer": "Les meilleures pratiques imposent d’exécuter en continu des analyses de vulnérabilité automatisées (intégrées à votre pipeline CI/CD). Des tests d'intrusion manuels approfondis doivent être effectués au moins une fois par an, ou immédiatement après tout changement majeur d'architecture ou publication de fonctionnalités importantes."
       },
       {
-        "question": "Que se passe-t-il une fois que vous avez découvert une vulnérabilité ?",
+        "question": "Que se passe t il une fois que vous avez découvert une vulnérabilité ?",
         "answer": "Nous ne vous remettons pas seulement une liste de problèmes. Nous fournissons un rapport détaillé classant les vulnérabilités par gravité (Critique, Élevé, Moyen, Faible) ainsi que des instructions de remédiation étape par étape. Une fois que vos développeurs ont appliqué le correctif, nous effectuons un « nouveau test » pour garantir que la faille est définitivement comblée."
       }
     ],

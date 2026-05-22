@@ -1,80 +1,71 @@
-
-// ENGLISH
-import ends from "@/data/english_data/services/data_solutions/data_scraping.json";
-import endad from "@/data/english_data/services/data_solutions/data_analytics_dashboard.json";
-import enbn from "@/data/english_data/services/data_solutions/business_analytics.json";
-
-
-// URDU
-import urds from "@/data/urdu_data/services/data_solutions/data_scraping.json";
-import urdad from "@/data/urdu_data/services/data_solutions/data_analytics_dashboard.json";
-import urbn from "@/data/urdu_data/services/data_solutions/business_analytics.json";
-
-// ARABIC
-import ards from "@/data/arabic_data/services/data_solutions/data_scraping.json";
-import ardad from "@/data/arabic_data/services/data_solutions/data_analytics_dashboard.json";
-import arbn from "@/data/arabic_data/services/data_solutions/business_analytics.json";
-
-//german
-import grds from "@/data/german_data/services/data_solutions/data_scraping.json";
-import grdad from "@/data/german_data/services/data_solutions/data_analytics_dashboard.json";
-import grbn from "@/data/german_data/services/data_solutions/business_analytics.json";
-
-//spanish
-import spds from "@/data/spanish_data/services/data_solutions/data_scraping.json";
-import spdad from "@/data/spanish_data/services/data_solutions/data_analytics_dashboard.json";
-import spbn from "@/data/spanish_data/services/data_solutions/business_analytics.json";
-
-//chineas
-import chds from "@/data/chinese_data/services/data_solutions/data_scraping.json";
-import chdad from "@/data/chinese_data/services/data_solutions/data_analytics_dashboard.json";
-import chbn from "@/data/chinese_data/services/data_solutions/business_analytics.json";
-
-
-//french 
-import frds from "@/data/french_data/services/data_solutions/data_scraping.json";
-import frdad from "@/data/french_data/services/data_solutions/data_analytics_dashboard.json";
-import frbn from "@/data/french_data/services/data_solutions/business_analytics.json";
-
-
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export const workflowData: Record<string, Record<string, any>> = {
-  en: {
-    "data_scraping": ends,
-    "data_analytics_dashboard": endad,
-    "business_analytics": enbn,
+type ServiceDetailData = any;
 
-  },
-   ur: {
-    "data_scraping": urds,
-    "data_analytics_dashboard": urdad,
-    "business_analytics": urbn,
+import enBusinessAnalytics from "@/data/english_data/services/data_solutions/business_analytics.json";
+import enCLevelDashboard from "@/data/english_data/services/data_solutions/c_level_dashboard.json";
+import enWorkflowDiagram from "@/data/english_data/services/data_solutions/workflow_diagram.json";
+import enDataAnalyticsDashboard from "@/data/english_data/services/data_solutions/data_analytics_dashboard.json";
+import enDataScraping from "@/data/english_data/services/data_solutions/data_scraping.json";
+import enMarketingDashboard from "@/data/english_data/services/data_solutions/marketing_dashboard.json";
 
-  }, ar: {
-    "data_scraping": ards,
-    "data_analytics_dashboard": ardad,
-    "business_analytics": arbn,
+import urBusinessAnalytics from "@/data/urdu_data/services/data_solutions/business_analytics.json";
+import urCLevelDashboard from "@/data/urdu_data/services/data_solutions/c_level_dashboard.json";
+import urWorkflowDiagram from "@/data/urdu_data/services/data_solutions/workflow_diagram.json";
+import urDataAnalyticsDashboard from "@/data/urdu_data/services/data_solutions/data_analytics_dashboard.json";
+import urDataScraping from "@/data/urdu_data/services/data_solutions/data_scraping.json";
+import urMarketingDashboard from "@/data/urdu_data/services/data_solutions/marketing_dashboard.json";
 
-  }, es: {
-    "data_scraping": spds,
-    "data_analytics_dashboard": spdad,
-    "business_analytics": spbn,
+import arBusinessAnalytics from "@/data/arabic_data/services/data_solutions/business_analytics.json";
+import arCLevelDashboard from "@/data/arabic_data/services/data_solutions/c_level_dashboard.json";
+import arWorkflowDiagram from "@/data/arabic_data/services/data_solutions/workflow_diagram.json";
+import arDataAnalyticsDashboard from "@/data/arabic_data/services/data_solutions/data_analytics_dashboard.json";
+import arDataScraping from "@/data/arabic_data/services/data_solutions/data_scraping.json";
+import arMarketingDashboard from "@/data/arabic_data/services/data_solutions/marketing_dashboard.json";
 
-  }, de: {
-    "data_scraping": grds,
-    "data_analytics_dashboard": grdad,
-    "business_analytics": grbn,
+import deBusinessAnalytics from "@/data/german_data/services/data_solutions/business_analytics.json";
+import deCLevelDashboard from "@/data/german_data/services/data_solutions/c_level_dashboard.json";
+import deWorkflowDiagram from "@/data/german_data/services/data_solutions/workflow_diagram.json";
+import deDataAnalyticsDashboard from "@/data/german_data/services/data_solutions/data_analytics_dashboard.json";
+import deDataScraping from "@/data/german_data/services/data_solutions/data_scraping.json";
+import deMarketingDashboard from "@/data/german_data/services/data_solutions/marketing_dashboard.json";
 
-  }, zh: {
-    "data_scraping": chds,
-    "data_analytics_dashboard": chdad,
-    "business_analytics": chbn,
+import esBusinessAnalytics from "@/data/spanish_data/services/data_solutions/business_analytics.json";
+import esCLevelDashboard from "@/data/spanish_data/services/data_solutions/c_level_dashboard.json";
+import esWorkflowDiagram from "@/data/spanish_data/services/data_solutions/workflow_diagram.json";
+import esDataAnalyticsDashboard from "@/data/spanish_data/services/data_solutions/data_analytics_dashboard.json";
+import esDataScraping from "@/data/spanish_data/services/data_solutions/data_scraping.json";
+import esMarketingDashboard from "@/data/spanish_data/services/data_solutions/marketing_dashboard.json";
 
-  }, fr: {
-    "data_scraping": frds,
-    "data_analytics_dashboard": frdad,
-    "business_analytics": frbn,
+import zhBusinessAnalytics from "@/data/chinese_data/services/data_solutions/business_analytics.json";
+import zhCLevelDashboard from "@/data/chinese_data/services/data_solutions/c_level_dashboard.json";
+import zhWorkflowDiagram from "@/data/chinese_data/services/data_solutions/workflow_diagram.json";
+import zhDataAnalyticsDashboard from "@/data/chinese_data/services/data_solutions/data_analytics_dashboard.json";
+import zhDataScraping from "@/data/chinese_data/services/data_solutions/data_scraping.json";
+import zhMarketingDashboard from "@/data/chinese_data/services/data_solutions/marketing_dashboard.json";
 
-  }, 
+import frBusinessAnalytics from "@/data/french_data/services/data_solutions/business_analytics.json";
+import frCLevelDashboard from "@/data/french_data/services/data_solutions/c_level_dashboard.json";
+import frWorkflowDiagram from "@/data/french_data/services/data_solutions/workflow_diagram.json";
+import frDataAnalyticsDashboard from "@/data/french_data/services/data_solutions/data_analytics_dashboard.json";
+import frDataScraping from "@/data/french_data/services/data_solutions/data_scraping.json";
+import frMarketingDashboard from "@/data/french_data/services/data_solutions/marketing_dashboard.json";
 
+const serviceEntries = (businessAnalytics: ServiceDetailData, cLevelDashboard: ServiceDetailData, workflowDiagram: ServiceDetailData, dataAnalyticsDashboard: ServiceDetailData, dataScraping: ServiceDetailData, marketingDashboard: ServiceDetailData) => ({
+  "business-analytics": businessAnalytics,
+  "c-level-dashboard": cLevelDashboard,
+  "code-architecture-diagrams": workflowDiagram,
+  "workflow-diagram": workflowDiagram,
+  "data-analytics-dashboard": dataAnalyticsDashboard,
+  "data-scraping": dataScraping,
+  "marketing-dashboard": marketingDashboard,
+});
+
+export const workflowData: Record<string, Record<string, ServiceDetailData>> = {
+  en: serviceEntries(enBusinessAnalytics, enCLevelDashboard, enWorkflowDiagram, enDataAnalyticsDashboard, enDataScraping, enMarketingDashboard),
+  ur: serviceEntries(urBusinessAnalytics, urCLevelDashboard, urWorkflowDiagram, urDataAnalyticsDashboard, urDataScraping, urMarketingDashboard),
+  ar: serviceEntries(arBusinessAnalytics, arCLevelDashboard, arWorkflowDiagram, arDataAnalyticsDashboard, arDataScraping, arMarketingDashboard),
+  de: serviceEntries(deBusinessAnalytics, deCLevelDashboard, deWorkflowDiagram, deDataAnalyticsDashboard, deDataScraping, deMarketingDashboard),
+  es: serviceEntries(esBusinessAnalytics, esCLevelDashboard, esWorkflowDiagram, esDataAnalyticsDashboard, esDataScraping, esMarketingDashboard),
+  zh: serviceEntries(zhBusinessAnalytics, zhCLevelDashboard, zhWorkflowDiagram, zhDataAnalyticsDashboard, zhDataScraping, zhMarketingDashboard),
+  fr: serviceEntries(frBusinessAnalytics, frCLevelDashboard, frWorkflowDiagram, frDataAnalyticsDashboard, frDataScraping, frMarketingDashboard),
 };

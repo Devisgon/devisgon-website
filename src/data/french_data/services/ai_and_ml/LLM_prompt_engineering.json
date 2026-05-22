@@ -1,0 +1,206 @@
+{
+  "slug": "llm-prompt-engineering",
+  "hero_section": {
+    "title": "Ingénierie et optimisation des invites LLM d'entreprise",
+    "subtitle": "Alignement programmatique des jetons pour des flux de travail d'IA fiables",
+    "description": "Nous concevons, testons et construisons des cadres d'évaluation rapides, des formats logiques algorithmiques et des contextes système structurés et prêts pour la production. Transformez les résultats génératifs imprévisibles en étapes système déterministes, analysables et optimisées en termes de coûts.",
+    "buttons": [
+      {
+        "text": "Optimiser mes invites",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/ai_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce que le niveau entreprise",
+    "span_heading": "Ingénierie rapide ?",
+    "content": [
+      "Chez Devisgon, nous traitons l'ingénierie rapide comme une discipline logicielle rigoureuse plutôt que comme un processus d'essais et d'erreurs créatifs. Au delà des simples entrées de chat, nous concevons des modèles de contexte systématiques, des schémas JSON structurels et des boucles de raisonnement à plusieurs tours (telles que Chain of Thought et ReAct) qui guident les modèles fondamentaux pour produire des résultats fiables et de haute fidélité.",
+      "Nous comblons le fossé entre les modèles linguistiques ouverts et les exigences logicielles strictes. Chaque invite système est optimisée à l'aide de grilles de test CI/CD, de journaux de matrice de régression et de scripts de réduction de jetons, garantissant ainsi que vos appels d'exécution en production restent mathématiquement stables, précis et maîtrisés les coûts à grande échelle."
+    ],
+    "highlight_quote": "« Schémas d'invite structurés, sorties JSON déterministes, coûts de calcul des jetons inférieurs de 60 %. »",
+    "side_image": "/all_services/ai_ml_models/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Convertissez les entrées imprévisibles de l'IA en composants logiciels stables et structurés",
+    "cards": [
+      {
+        "title": "Sorties JSON déterministes",
+        "description": "Appliquez un formatage de sortie strict et prévisible à l'aide de schémas JSON, ce qui facilite l'analyse des résultats du modèle directement dans votre code backend.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Flux logique avancé",
+        "description": "Intégrez des étapes de raisonnement spécialisées telles que quelques exemples et une chaîne de pensée pour améliorer la précision logique complexe et gérer les cas extrêmes.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Compression des dépenses en jetons",
+        "description": "Le système d'audit invite par programme à supprimer les phrases de remplissage, réduisant ainsi le nombre de jetons inactifs et réduisant les factures d'API sans perte de qualité.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Garde corps pare balles",
+        "description": "Créez des contextes de validation en couches pour arrêter les attaques par injection rapide, préserver la confidentialité des données et empêcher les modèles d'inventer des réponses.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec les tissus d'optimisation d'invite Devisgon",
+    "image": "/all_services/ai_ml_models/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Invites du système programmatique et modèles de contexte",
+        "description": "Instructions système de qualité production construites avec des contraintes logiques claires, des paramètres d'outils explicites et des profils comportementaux stricts."
+      },
+      {
+        "title": "2. Bibliothèques de contexte fiables à quelques prises de vue",
+        "description": "Gammes organisées et de haute qualité d'exemples de formation entrées sorties conçus pour aligner les réponses du modèle avec le formatage spécifique de l'entreprise."
+      },
+      {
+        "title": "3. Schémas JSON automatisés et filtres de validation",
+        "description": "Définitions de structure strictes et code de validation garantissant que tous les retours du modèle correspondent parfaitement aux champs et tableaux logiciels requis."
+      },
+      {
+        "title": "4. Bancs d’essai automatisés d’évaluation de régression rapide",
+        "description": "Configurations de tests isolées qui exécutent des modifications rapides sur des milliers de cas de simulation pour vérifier l'exactitude logique avant de les mettre en ligne."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous construisons avec des outils renforcés d'optimisation des invites et de MLOps",
+    "subtitle": "Des frameworks, des plateformes de test et des suites d'évaluation de pointe conçus pour une cohérence totale des résultats.",
+    "tools": [
+      {
+        "name": "Promptfoo",
+        "icon": "SiPromptfoo"
+      },
+      {
+        "name": "LangSmith",
+        "icon": "SiLangchain"
+      },
+      {
+        "name": "API OpenAI (sorties structurées)",
+        "icon": "SiOpenai"
+      },
+      {
+        "name": "Braintrust",
+        "icon": "SiBraintrust"
+      },
+      {
+        "name": "Arize Phoenix",
+        "icon": "SiArize"
+      },
+      {
+        "name": "Langfuse",
+        "icon": "SiLangfuse"
+      },
+      {
+        "name": "Pydantic",
+        "icon": "SiPydantic"
+      },
+      {
+        "name": "Next.js (noyau du SDK AI)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (registre d'invite)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Schéma YAML/JSON",
+        "icon": "SiJson"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Pondérations et biais",
+        "icon": "SiWeightsandbiases"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De l'audit rapide au déploiement d'un modèle de production structuré en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les entrées du modèle actuel, tracez les points structurels de défaillance logique et définissez les schémas de sortie de données requis.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Construisez des modèles de raisonnement (comme la chaîne de pensée), formulez des ensembles de données de cas extrêmes et encadrez les paramètres du système structurel.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des matrices d'invites personnalisées via Promptfoo, écrivez des règles de validation structurelle Pydantic et configurez les couches de contrôle de registre.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests matriciels de masse pour évaluer la sécurité des invites, optimiser les limites des jetons de contexte et lancer les modèles d'invite optimisés en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "0 % de défaillances structurelles et une baisse de 62 % des dépenses de calcul de production",
+    "image": "/all_services/ai_ml_models/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une application SaaS de logistique évolutive utilisait des invites de texte complexes qui généraient de manière aléatoire un formatage défectueux, provoquant des plantages de l'itinéraire de l'application back end."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons repensé leur pile de contexte à l'aide de sorties structurées OpenAI et de schémas Pydantic, en remplaçant les instructions détaillées par des variables conditionnelles strictes évaluées via les grilles de pipeline Promptfoo."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les échecs d'analyse des résultats sont tombés à zéro absolu, la précision des réponses s'est considérablement améliorée et les efforts d'optimisation ont réduit les coûts de fonctionnement continus de l'API de 62 %."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture d'ingénierie rapide et FAQ",
+    "subtitle": "Des réponses claires aux requêtes critiques de mise en œuvre, de sécurité et de jetons programmatiques",
+    "questions": [
+      {
+        "question": "Pourquoi utiliser l'ingénierie des invites programmatiques au lieu de simplement ajouter plus d'instructions à la fenêtre utilisateur ?",
+        "answer": "L'ajout de phrases brutes rend le comportement du modèle imprévisible et vulnérable aux injections rapides. L'ingénierie des invites programmatiques repose sur des schémas stricts, des divisions claires entre les utilisateurs du système et des bibliothèques d'entrées sorties concrètes, traitant le contexte comme une couche de code logiciel testable."
+      },
+      {
+        "question": "Que sont les « sorties structurées » et comment évitent elles les plantages des applications d'exécution ?",
+        "answer": "Les sorties structurées appliquent une contrainte de schéma JSON correspondante sur le processus de sélection de jetons du modèle. Cela force le modèle à répondre exclusivement avec du texte qui obéit strictement aux paramètres de type de votre base de données, éliminant ainsi les propriétés ou les clés non valides."
+      },
+      {
+        "question": "Comment tester si une modification rapide ne brisera pas accidentellement d’autres fonctionnalités en production ?",
+        "answer": "Nous mettons en place des suites d'évaluation automatisées à l'aide d'outils comme Promptfoo. Chaque fois que nous mettons à jour une invite système, nous l'exécutons via une suite complète de journaux de simulation, en suivant les scores de précision et les cas extrêmes pour garantir qu'aucune régression des performances ne se produise avant sa mise en ligne."
+      },
+      {
+        "question": "L’ingénierie rapide peut elle aider à réduire la latence et le délai de réponse dans les applications Web ?",
+        "answer": "Absolument. En rationalisant la conception des modèles, en supprimant les formulations répétitives et en utilisant des formats de jetons précis, nous avons réduit le travail de traitement inutile que le modèle doit effectuer, accélérant les temps de génération et réduisant la latence du système."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à créer des modèles de contexte fiables et structurés pour vos modèles ?",
+      "link_text": "Planifiez une revue d’optimisation avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

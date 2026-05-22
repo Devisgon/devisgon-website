@@ -1,0 +1,206 @@
+{
+  "slug": "load-testing",
+  "hero_section": {
+    "title": "Servicios de pruebas de carga y rendimiento empresarial",
+    "subtitle": "Fortalezca su infraestructura web para picos de tráfico de alta velocidad",
+    "description": "Diseñamos marcos de pruebas de carga de alta concurrencia, estrés y rendimiento rigurosos que exponen los cuellos de botella del sistema antes de que lo hagan los usuarios. Garantice una latencia inferior a un segundo, una degradación cero de la base de datos y una estabilidad estructural absoluta bajo millones de solicitudes API simultáneas.",
+    "buttons": [
+      {
+        "text": "Auditar la capacidad de mi sistema",
+        "link": "/contact"
+      },
+      {
+        "text": "Consulte a nuestros ingenieros de DevOps",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/dashboard_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es el nivel empresarial?",
+    "span_heading": "¿Pruebas de carga?",
+    "content": [
+      "En Devisgon, abordamos la optimización del rendimiento como una disciplina de software de alta precisión. Yendo mucho más allá de los scripts básicos de velocidad de página, diseñamos conjuntos de pruebas de carga distribuidas y personalizadas que replican rutas complejas de usuarios del mundo real, flujos de webhooks automatizados de gran volumen y picos de tráfico simultáneo de bases de datos de lectura y escritura de forma nativa dentro de su entorno de prueba.",
+      "Cerramos la brecha entre el código abstracto de la aplicación y los límites subyacentes del servidor. Cada ciclo de simulación que ejecutamos enfatiza los controladores de rutas API, los arreglos de memoria del sistema y las mallas de microservicios mientras rastreamos la telemetría del servidor en tiempo real para garantizar que su aplicación permanezca completamente a prueba de balas durante picos de tráfico viral y cargas de producción pesadas."
+    ],
+    "highlight_quote": "\"Límites del sistema validados, rendimiento optimizado de los terminales, tiempos de ejecución de aplicaciones 100% estables bajo carga máxima\".",
+    "side_image": "/all_services/performance_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios empresariales clave",
+    "subtitle": "Convierta el código backend frágil en una arquitectura de software determinista y altamente resistente",
+    "cards": [
+      {
+        "title": "Exponer la degradación de la latencia",
+        "description": "Identifique los umbrales de concurrencia exactos donde los tiempos de enrutamiento de API aumentan o los subprocesos del sistema se bloquean, lo que permite una refactorización preventiva del código.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Fortalecer el escalado de la base de datos",
+        "description": "Pruebe los grupos de conexiones relacionales y las capas de almacenamiento en caché para evitar bloqueos, consultas lentas y pérdidas de memoria bajo cargas transaccionales pesadas.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Validar reglas de escala automática",
+        "description": "Verifique que los límites de la infraestructura de la nube, los orquestadores de contenedores y los servidores proxy de borde aceleren dinámicamente la capacidad informática precisamente cuando se produzcan picos.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Erradicar el costoso tiempo de inactividad",
+        "description": "Elimine las caídas inesperadas del tiempo de ejecución y los fallos del servidor, garantizando una confianza total en la marca y una captura continua de ingresos durante las principales caídas de productos.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que recibirá con Devisgon Performance Engineering",
+    "image": "/all_services/performance_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Scripts de prueba de simultaneidad distribuida",
+        "description": "Código de simulación de carga personalizado configurado para imitar comportamientos de usuario auténticos de varios pasos, procedimientos de pago y matrices de admisión de webhooks."
+      },
+      {
+        "title": "2. Evaluaciones de estrés de API de alto rendimiento",
+        "description": "Rigurosas pruebas de saturación diseñadas para exponer los límites de umbral estructurales, los parámetros de rendimiento de los terminales y los puntos de interrupción de la conexión."
+      },
+      {
+        "title": "3. Configuraciones de respaldo de fallas automatizadas",
+        "description": "Implementación de disyuntores inteligentes, limitadores de velocidad y colas de mensajes no entregados para salvaguardar las bases de datos durante picos extremos."
+      },
+      {
+        "title": "4. Registros integrales de telemetría del sistema",
+        "description": "Mapas de perfiles granulares que visualizan líneas de aceleración de la CPU, gráficos de agotamiento de la memoria, registros de transacciones de bases de datos y distribuciones de tasas de error."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Realizamos pruebas con una infraestructura de rendimiento moderna y reforzada",
+    "subtitle": "Motores de carga, agregadores de telemetría y monitores de sistemas estándar de la industria diseñados para una escala de datos extrema",
+    "tools": [
+      {
+        "name": "k6 (Grafana)",
+        "icon": "SiK6"
+      },
+      {
+        "name": "Apache JMetro",
+        "icon": "SiApachejmeter"
+      },
+      {
+        "name": "Locust",
+        "icon": "SiLocust"
+      },
+      {
+        "name": "Prometheus",
+        "icon": "SiPrometheus"
+      },
+      {
+        "name": "Paneles de control de Grafana",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "API de perro de datos",
+        "icon": "SiDatadog"
+      },
+      {
+        "name": "Next.js (auditoría de rendimiento)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (prueba de consultas)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (EXPLICAR ANALIZAR)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis (carga de almacenamiento en caché)",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker (estrés del contenedor)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Kubernetes (validación HPA)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Pruebas de carga distribuida de AWS",
+        "icon": "FaAws"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro plan de ingeniería",
+    "subtitle": "Del mapeo de protocolos a la certificación completa de infraestructura en 6 semanas",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Analice las topologías de infraestructura de software existentes, documente rutas de API de destino, defina acuerdos de nivel de servicio (SLA) de rendimiento central y mapee las tendencias de comportamiento de los usuarios.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Construya matrices lógicas de escenarios distribuidos, formule rutas de escalamiento de usuarios virtuales y estructure perfiles de telemetría de métricas de destino.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programe conjuntos de pruebas personalizados a través de k6 o Locust, establezca gráficos de visualización centralizados de Grafana y configure los límites del entorno sandbox.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Ejecute ejecuciones de estrés incrementales, aísle los cuellos de botella de rendimiento, ajuste las propiedades de la infraestructura y proporcione una certificación de estabilidad verificada.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100 % de estabilidad en tiempo de ejecución sostenida en más de 500 000 transacciones virtuales simultáneas",
+    "image": "/all_services/performance_testing/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Barricada operativa",
+        "text": "Una plataforma digital de alta velocidad sufría graves retrasos en las aplicaciones y bloqueos repentinos de la base de datos cada vez que las campañas de marketing por correo electrónico provocaban aumentos repentinos de tráfico de usuarios."
+      },
+      "solution": {
+        "label": "Nuestro enfoque de ingeniería",
+        "text": "Diseñamos una matriz de prueba de carga distribuida utilizando k6 y Docker, ejecutando miles de rutas de pago simuladas mientras analizamos los tiempos de ejecución de consultas dentro de su instancia de Supabase."
+      },
+      "result": {
+        "label": "Impacto mensurable",
+        "text": "La latencia de respuesta de la API se redujo en un 73 % gracias a la indexación optimizada de la base de datos, se eliminaron los cuellos de botella de los recursos del servidor y la plataforma mantuvo una estabilidad del tiempo de ejecución continua del 100 % durante los picos de tráfico posteriores."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Arquitectura de rendimiento y preguntas frecuentes",
+    "subtitle": "Respuestas claras a pruebas de infraestructura crítica, optimización de API y consultas de escalado",
+    "questions": [
+      {
+        "question": "¿Cuál es la principal diferencia entre las pruebas de carga estándar y las pruebas de estrés?",
+        "answer": "Las pruebas de carga evalúan cómo se comporta una aplicación bajo su capacidad operativa máxima esperada para garantizar que los tiempos de respuesta cumplan con las reglas básicas de rendimiento. Las pruebas de estrés empujan al sistema más allá de sus umbrales lógicos hasta que falla, revelando exactamente qué nivel de hardware o tabla de base de datos fallará primero."
+      },
+      {
+        "question": "¿Cómo se prueba el rendimiento del sistema sin contaminar o corromper accidentalmente nuestra base de datos de producción activa?",
+        "answer": "Ejecutamos todos los ciclos de simulación de carga y rendimiento dentro de un entorno aislado de prueba que refleja la topografía exacta de su hardware de producción. Utilizamos conjuntos de datos simulados anonimizados y tablas estructurales limpias, manteniendo la información de su usuario del mundo real completamente segura e intacta."
+      },
+      {
+        "question": "¿Pueden las pruebas de carga optimizar las aplicaciones web sin servidor que utilizan redes de enrutamiento de borde?",
+        "answer": "Absolutamente. Si bien las funciones sin servidor escalan dinámicamente, a menudo se topan con limitaciones ocultas del backend, como límites de agrupación de conexiones de bases de datos o limitación de la velocidad de API externa. Rastreamos estos límites precisos de integración sin servidor, configurando capas de almacenamiento en caché de Redis optimizadas para evitar bloqueos posteriores."
+      },
+      {
+        "question": "¿Con qué frecuencia nuestra empresa debe ejecutar comprobaciones programáticas de validación de carga y rendimiento?",
+        "answer": "Recomendamos integrar pruebas de carga automatizadas en sus canales principales de implementación de CI/CD antes de lanzamientos de funciones importantes, modificaciones de la base de datos del sistema o eventos estacionales anticipados de alto tráfico, verificando que los nuevos cambios en el código no causen regresiones en el rendimiento."
+      }
+    ],
+    "footer": {
+      "text": "¿Listo para verificar los umbrales de infraestructura de su sistema de software?",
+      "link_text": "Programe una revisión de desempeño con nuestro equipo",
+      "link_url": "/contact"
+    }
+  }
+}

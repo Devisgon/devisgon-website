@@ -1,0 +1,206 @@
+{
+  "slug": "black-box-testing",
+  "hero_section": {
+    "title": "Services de tests de boîte noire d'entreprise",
+    "subtitle": "Assurance qualité rigoureuse, fonctionnelle et axée sur le comportement",
+    "description": "Nous concevons des cadres de tests en boîte noire complets et objectifs qui évaluent vos applications strictement du point de vue de l'utilisateur. Découvrez les défauts de comportement profonds, les erreurs de logique d’interface et les lacunes d’intégration sans vous fier à la visibilité du code interne.",
+    "buttons": [
+      {
+        "text": "Auditer les fonctionnalités de mon application",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs QA",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/api_integration.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce que le niveau entreprise",
+    "span_heading": "Tests en boîte noire ?",
+    "content": [
+      "Chez Devisgon, nous abordons la validation fonctionnelle comme une science exacte et centrée sur l'utilisateur. Au delà du clic manuel occasionnel, nous construisons des matrices de tests automatisés systématiques qui évaluent les comportements d'entrée sortie de votre application, les validations de formulaires, les limites et les parcours professionnels en plusieurs étapes strictement par rapport aux spécifications logicielles de base.",
+      "Nous comblons le fossé entre les exigences de conception abstraite et la convivialité du système dans le monde réel. Chaque boucle de vérification que nous exécutons isole les cas extrêmes, les transitions d'état interrompues et les écarts de validation dans vos vues côté client et vos points de terminaison d'API, garantissant ainsi que votre code de production offre une expérience utilisateur sans faille sur tous les appareils et flux de travail."
+    ],
+    "highlight_quote": "« Informations comportementales objectives, validation fonctionnelle à toute épreuve, 0 % de confiance dans les hypothèses du code interne. »",
+    "side_image": "/all_services/manual_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Convertissez les interactions utilisateur imprévisibles en une expérience d'application stable et totalement prévisible",
+    "cards": [
+      {
+        "title": "Détection objective des défauts",
+        "description": "Découvrez les bugs de comportement cachés et les erreurs logiques que les équipes de développement internes négligent fréquemment en raison de la familiarité du code structurel.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Analyse rigoureuse des limites",
+        "description": "Testez les champs de saisie et les formulaires de données avec des paramètres extrêmes et hors limites pour garantir que les erreurs de validation sont traitées correctement sans plantage de l'application.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Validation utilisateur de bout en bout",
+        "description": "Simulez les flux de travail complets des clients, de la configuration d'intégration au traitement du paiement, en vérifiant que chaque transition d'état logique se comporte avec précision.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Tests multi appareils transparents",
+        "description": "Vérifiez que vos mises en page d'interface utilisateur réactives se comportent proprement dans différentes fenêtres d'affichage, en vérifiant les cartes de connexion 2x2 et les positions d'alignement dans le cadre d'une utilisation réelle.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Ce que vous recevrez avec l'ingénierie d'assurance qualité Devisgon",
+    "image": "/all_services/manual_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Suites de tests E2E automatisées de bout en bout",
+        "description": "Scripts d'automatisation robustes et axés sur le comportement, configurés pour exécuter des interactions de navigateur programmatiques imitant de véritables tableaux d'entrée d'utilisateur."
+      },
+      {
+        "title": "2. Bancs d’essai de valeurs limites à haute densité",
+        "description": "Paramètres de matrice d'entrée méticuleux conçus pour vérifier les champs de vérification, les capacités de texte et les plages de nombres par rapport aux cas extrêmes."
+      },
+      {
+        "title": "3. Listes de contrôle de l'état des composants et de l'interactivité",
+        "description": "Cartes de suivi fonctionnelles détaillées examinant les styles du mode sombre, les cartes glassmorphic réactives et les itinéraires complexes de plusieurs pages."
+      },
+      {
+        "title": "4. Grands livres complets de défauts et de logique",
+        "description": "Rapports de profilage d'assurance qualité granulaires comportant des étapes de reproduction exactes, des charges utiles de données d'entrée, des notes d'inadéquation comportementale et des journaux de preuves visuelles."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous validons avec une infrastructure de test moderne et renforcée",
+    "subtitle": "Moteurs d'automatisation E2E de pointe, cadres axés sur le comportement et suites d'audit conçus pour une cohérence totale",
+    "tools": [
+      {
+        "name": "Playwright",
+        "icon": "SiPlaywright"
+      },
+      {
+        "name": "Cypress",
+        "icon": "SiCypress"
+      },
+      {
+        "name": "Grille de sélénium",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "Concombre (cadre BDD)",
+        "icon": "SiCucumber"
+      },
+      {
+        "name": "Facteur (validation API)",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Next.js (audit du routeur d'application)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (vérification d'authentification E2E)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "API JotForm (test de charge utile)",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "Docker (maillage d'exécution QA)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Actions GitHub (pipeline CI/CD)",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Python (scripts automatisés)",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Node.js (moteur de test)",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Noyau d’accessibilité Axe",
+        "icon": "SiAxe"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la cartographie des exigences à la certification fonctionnelle complète en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Analysez les modèles de spécifications fonctionnelles, cartographiez les cibles des utilisateurs, identifiez les règles métier fondamentales et tracez les itinéraires d'application hautement prioritaires.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Construisez des matrices de partitionnement d’équivalence, formulez des scénarios de valeurs limites et structurez des scripts de tests comportementaux.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programmez des assertions automatisées E2E à l'aide de Playwright ou Cypress, établissez des conteneurs de tests sans tête et structurez des serveurs moqueurs.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des matrices de tests de régression approfondie, documentez les exceptions fonctionnelles, ajustez les propriétés de validation et délivrez la certification de qualité finale.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Précision fonctionnelle de base à 100 % et 0 % de plantages de flux destinés aux utilisateurs lors des déploiements de mises à jour majeurs",
+    "image": "/all_services/manual_testing/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une application cloud évolutive souffrait d'importantes baisses de fidélisation de la clientèle, car des discordances inattendues de mise en page et des erreurs de formulaire persistaient dans les mises à niveau du code de production."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons conçu une architecture de validation de boîte noire automatisée de bout en bout à l'aide de Playwright et Docker, simulant des milliers de mises à jour de profils utilisateur, de vérifications d'authentification et de soumissions d'atterrissage."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les bogues système signalés par les utilisateurs ont chuté de 84 % au cours du premier mois, les correctifs post lancement sont tombés à zéro et les équipes d'ingénierie ont assuré une totale tranquillité d'esprit pendant les déploiements."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture d'assurance qualité fonctionnelle et FAQ",
+    "subtitle": "Des réponses claires aux requêtes critiques de validation comportementale, d’automatisation des tests et de vérification des points finaux",
+    "questions": [
+      {
+        "question": "Quelle est la principale différence entre les tests boîte noire et les tests boîte blanche ?",
+        "answer": "Black Box Testing évalue l'application entièrement à partir d'un point de vue d'utilisateur externe, vérifiant les comportements, la logique des formulaires et les interfaces sans aucune connaissance du code interne sous jacent. Les tests en boîte blanche examinent l'intérieur du maillage du système, en se concentrant directement sur les chemins sources, les boucles internes et les métriques de l'architecture du code."
+      },
+      {
+        "question": "Comment automatiser les parcours comportementaux des utilisateurs sans risquer une contamination active des données ?",
+        "answer": "Nous isolons toutes les suites de tests comportementaux dans un environnement sandbox de transfert découplé. Nous construisons des serveurs de simulation programmatique personnalisés et des pools de données de test localisés, garantissant que vos bases de données de production et les transactions des consommateurs actifs restent totalement intactes et sécurisées."
+      },
+      {
+        "question": "Les méthodes de boîte noire peuvent elles valider avec précision des intégrations complexes telles que les hooks JotForm personnalisés ou Supabase Auth ?",
+        "answer": "Absolument. En traitant ces systèmes comme des limites fonctionnelles, nous simulons des comportements d'utilisateurs spécifiques, tels que les champs de prospects soumis ou les invites de réinitialisation de mot de passe. Nous affirmons par programme que l'application affiche les états de réussite corrects ou intercepte proprement les erreurs de validation de champ."
+      },
+      {
+        "question": "Comment vous assurer que les scripts de test automatisés de l'interface utilisateur ne s'interrompent pas à chaque fois qu'une simple mise en page frontale change ?",
+        "answer": "Nous appliquons des stratégies de sélection strictes et résilientes dans des cadres comme Playwright. Au lieu de cibler des styles CSS fragiles et volatils, nous donnons la priorité aux attributs de test découplés, aux étiquettes accessibles et aux propriétés de données, garantissant ainsi la solidité des exécuteurs de tests grâce aux révisions de l'interface utilisateur standard."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à vérifier la résilience fonctionnelle et l'expérience utilisateur de votre application ?",
+      "link_text": "Planifiez une revue fonctionnelle avec notre équipe",
+      "link_url": "/contact"
+    }
+  }
+}

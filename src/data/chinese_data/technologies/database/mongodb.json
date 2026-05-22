@@ -1,116 +1,135 @@
 {
   "slug": "mongodb",
   "seo_metadata": {
-    "title": "可扩展的 MongoDB 开发和 NoSQL 架构设计",
-    "description": "企业 MongoDB 实施服务。我们构建灵活、高性能的文档数据库，专为横向扩展和快速迭代而设计。",
+    "title": "MongoDB 开发服务 | NoSQL 数据库设计和可扩展数据架构 |德维斯冈",
+    "description": "Devisgon 为可扩展的 NoSQL 数据库架构、文档数据建模、API 驱动的应用程序、SaaS 平台、仪表板和云原生软件产品提供专业的 MongoDB 开发服务。",
     "keywords": [
-      "MongoDB 开发",
-      "NoSQL 数据库设计",
+      "MongoDB 开发服务",
+      "MongoDB数据库设计",
+      "MongoDB 咨询",
+      "NoSQL数据库开发",
       "文档数据库架构",
-      "BSON数据建模",
-      "MongoDB 聚合框架",
+      "MongoDB 数据建模",
+      "MongoDB Atlas开发",
+      "MongoDB 聚合管道",
+      "MongoDB API 开发",
+      "用于 SaaS 平台的 MongoDB",
       "MERN 堆栈开发",
-      "数据库分片解决方案"
+      "云数据库开发",
+      "可扩展的数据库架构",
+      "NoSQL 架构设计",
+      "MongoDB 性能优化",
+      "MongoDB后端开发",
+      "自定义 MongoDB 应用程序",
+      "企业NoSQL数据库解决方案"
     ]
   },
   "hero_section": {
-    "eyebrow": "领先的文档数据库",
-    "title": "灵活缩放",
+    "eyebrow": "可扩展的 NoSQL 数据库开发",
+    "title": "构建灵活的数据系统",
     "highlight": "MongoDB",
-    "description": "通过直接映射到代码的基于文档的数据模型来释放开发人员的生产力，从而实现高速功能交付和轻松扩展。",
+    "description": "Devisgon 为 SaaS 平台、云应用程序、仪表板、移动后端、API 驱动的系统、实时工作流程以及需要灵活、可扩展和高性能数据架构的现代产品设计和实施 MongoDB 解决方案。",
     "side_image": "/technologies/mongodb/hero.webp",
     "primary_cta": {
-      "text": "优化您的集群",
+      "text": "规划您的 MongoDB 架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "技术模式",
+      "text": "探索数据库范围",
       "href": "/technologies/mongodb#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们使用 MongoDB 进行工程",
-    "subtitle": "MongoDB 为具有不断变化的数据需求的现代应用程序提供了所需的架构灵活性。",
+    "title": "为什么我们使用 MongoDB 进行构建",
+    "subtitle": "对于需要灵活数据结构、快速产品迭代、可扩展存储和云就绪部署的现代应用程序来说，MongoDB 是一个强大的数据库选择。",
     "paragraphs": [
-      "MongoDB 的文档模型 (BSON) 允许嵌套结构和灵活的模式，消除了复杂 SQL 连接的摩擦。我们选择它用于快速原型设计和存储多态数据的能力对业务敏捷性至关重要的项目。",
-      "通过内置的复制和水平分片，MongoDB 可以确保您的应用程序保持高可用性和高性能，即使您的数据增长到 TB 范围甚至更高。"
+      "Devisgon 将 MongoDB 用于数据结构需要快速发展且没有严格关系模式摩擦的产品。它适用于 SaaS 平台、内容系统、仪表板、市场平台、移动应用程序、客户门户、自动化平台、分析工作流程以及具有动态或嵌套数据模型的应用程序。",
+      "当文档模型围绕实际应用程序工作流程进行规划时，MongoDB 效果最佳。我们的方法侧重于集合设计、嵌入式与引用数据策略、索引、聚合管道、API 查询模式、云部署、安全性、备份、监控和性能优化，以便您的数据库支持长期产品增长。"
     ],
     "cards": [
       {
-        "title": "动态模式",
-        "description": "迭代速度更快，不会出现传统迁移的停机时间；同一集合中的文档结构可能有所不同。",
+        "title": "灵活的文档建模",
+        "description": "使用灵活的文档、嵌套对象、数组和以应用程序为中心的集合围绕实际产品工作流程设计数据结构。",
         "icon_type": "FaProjectDiagram"
       },
       {
-        "title": "强大聚合",
-        "description": "使用丰富的查询语言和聚合管道本地处理数据以进行实时分析。",
-        "icon_type": "FaStream"
+        "title": "可扩展的应用程序数据",
+        "description": "构建支持不断增长的用户、大型数据集、大容量读取、写入密集型工作流程和不断变化的功能需求的数据库架构。",
+        "icon_type": "FaDatabase"
       },
       {
-        "title": "本机高可用性",
-        "description": "通过副本集自动故障转移和数据冗余使您的应用程序 24/7 在线。",
-        "icon_type": "FaShieldVirus"
+        "title": "强大的查询和聚合功能",
+        "description": "使用 MongoDB 查询、索引和聚合管道来支持仪表板、报告、类似搜索的工作流程、分析和运营洞察。",
+        "icon_type": "FaStream"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "MongoDB 设计范围",
+    "title": "MongoDB 开发范围",
     "image": "/technologies/mongodb/scope.webp",
     "items": [
       {
         "title": "文档数据建模",
-        "description": "设计“嵌入与引用”策略来优化读/写繁重工作负载并最大限度地减少 IOPS。"
+        "description": "根据产品工作流程、用户行为和应用程序数据访问需求设计集合、架构、嵌入式文档、引用、索引和查询模式。"
       },
       {
-        "title": "阿特拉斯云集成",
-        "description": "部署具有多云覆盖、自动扩展和集成搜索功能的完全托管集群。"
+        "title": "MongoDB Atlas 和云设置",
+        "description": "通过云部署、访问控制、数据库用户、备份、监控、扩展配置和生产就绪设置来设置安全的 MongoDB Atlas 环境。"
       },
       {
-        "title": "时间序列集合",
-        "description": "通过自动老化和压缩实现高吞吐量物联网和财务数据的专门收集。"
+        "title": "API和后端集成",
+        "description": "将 MongoDB 与后端服务、REST API、GraphQL API、SaaS 平台、仪表板、移动应用程序、身份验证层和业务工作流程连接起来。"
+      },
+      {
+        "title": "聚合和报告工作流程",
+        "description": "为分析仪表板、运营报告、分组数据视图、用户活动洞察、财务摘要和数据驱动的产品功能构建聚合管道。"
+      },
+      {
+        "title": "性能和索引优化",
+        "description": "通过索引设计、读/写模式分析、数据结构细化、查询优化和生产监控来提高查询性能。"
       }
     ]
   },
   "edge_section": {
-    "title": "MongoDB 边缘",
-    "subtitle": "现代数据驱动应用程序的性能优势。",
+    "title": "MongoDB 的优势",
+    "subtitle": "灵活的 NoSQL 数据库基础，适用于需要速度、可扩展性、动态数据模型和现代云应用程序架构的产品。",
     "cards": [
       {
-        "metric": "3x",
-        "title": "更快的编码",
-        "description": "通过使用反映大多数编程语言中本机对象的数据格式来加速开发。"
+        "metric": "Flexible",
+        "title": "基于文档的数据模型",
+        "description": "将产品数据存储在与实际应用程序对象、用户工作流程、嵌套记录和不断变化的功能需求一致的结构中。"
       },
       {
-        "metric": "Elastic",
-        "title": "Scalability",
-        "description": "使用本机分片在商用硬件上水平扩展，应用程序停机时间为零。"
+        "metric": "Scalable",
+        "title": "云就绪增长",
+        "description": "通过可扩展的 MongoDB 数据库架构支持不断增长的用户、不断扩展的数据集、更高的流量和不断发展的业务运营。"
       },
       {
-        "metric": "99.99%",
-        "title": "Uptime",
-        "description": "通过分布式副本集和自动自我修复协议实现可靠性。"
+        "metric": "Insightful",
+        "title": "聚合和分析",
+        "description": "使用 MongoDB 聚合管道为仪表板、报告、商业智能功能、数据摘要和操作可见性提供支持。"
       },
       {
-        "metric": "Zero",
-        "title": "SQL 瓶颈",
-        "description": "通过使用非规范化的独立文档，避免复杂关系连接对性能造成的影响。"
+        "metric": "Fast",
+        "title": "产品迭代",
+        "description": "使用可随着您的 SaaS 平台、应用程序或数字产品的发展而适应的数据库模型更快地构建和改进功能。"
       }
     ]
   },
   "quote_section": {
-    "quote": "MongoDB 允许数据库以您的速度发展",
-    "highlight": "应用代码"
+    "quote": "MongoDB 帮助现代产品将灵活的数据转化为",
+    "highlight": "可扩展的应用智能"
   },
   "conversation_section": {
-    "title": "扩展您的文档存储",
-    "subtitle": "咨询我们的 NoSQL 专家来优化您的聚合管道或规划您的 Atlas 迁移。",
-    "full_name_label": "首席工程师姓名",
-    "business_email_label": "实体邮箱",
-    "message_label": "技术挑战",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的数据建模挑战或扩展要求...",
-    "button_text": "开始使用"
+    "title": "设计您的 MongoDB 数据架构",
+    "subtitle": "与 Devisgon 合作，为 SaaS 平台、仪表板、移动后端、API、自动化系统和云原生数字产品规划、设计和优化 MongoDB。",
+    "full_name_label": "姓名",
+    "business_email_label": "企业邮箱",
+    "message_label": "数据库要求",
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的应用程序、数据模型、MongoDB 设置、查询性能问题或数据库架构目标...",
+    "button_text": "请求 MongoDB 咨询"
   }
 }

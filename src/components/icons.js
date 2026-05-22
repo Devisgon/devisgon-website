@@ -63,6 +63,7 @@ const allIcons = {
   ...TiIcons,
   ...VscIcons,
   ...WiIcons,
+  SiCrewai: SiIcons.SiOpenai,
 };
 
 export default allIcons;

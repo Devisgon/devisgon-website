@@ -1,0 +1,206 @@
+{
+  "slug": "gcp-devops-infrastructure",
+  "hero_section": {
+    "title": "Ingénierie d'infrastructure d'entreprise Google Cloud Platform (GCP)",
+    "subtitle": "Architectures cloud centrées sur les données, DevSecOps automatisés et maillages de mise à l'échelle sans serveur",
+    "description": "Nous concevons une infrastructure Google Cloud Platform hautes performances, résiliente et sécurisée en tirant parti de l'infrastructure déclarative en tant que code (IaC). Optimisez les pipelines de données multirégionaux, exploitez les maillages de conteneurs gérés et obtenez une prestation de services transparente malgré des charges de données intenses.",
+    "buttons": [
+      {
+        "text": "Architecter mon infrastructure GCP",
+        "link": "/contact"
+      },
+      {
+        "text": "Consultez nos ingénieurs DevOps",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/devops_consulting.mp4"
+  },
+  "introduction_section": {
+    "heading": "Qu'est ce que le niveau entreprise",
+    "span_heading": "Ingénierie GCP DevOps ?",
+    "content": [
+      "Chez Devisgon, nous abordons l'architecture de Google Cloud Platform comme une discipline système exacte et pilotée par logiciel. S'éloignant complètement de la configuration manuelle de la console et des scripts de serveur fragiles, nous construisons des architectures d'infrastructure en tant que code (IaC) entièrement automatisées et à version contrôlée qui planifient l'ensemble de votre périmètre réseau, les dispositions d'orchestration de conteneurs et les cadres Big Data distribués de manière native.",
+      "Nous comblons le fossé entre les itérations frontales rapides et les opérations de systèmes cloud robustes et sécurisées. Chaque environnement GCP que nous déployons est renforcé par des autorisations de gestion des identités et des accès (IAM) sans confiance, des baies d'équilibrage de charge global à faible latence, des boucles de déploiement continu et des pipelines de télémétrie Google Cloud Operations centralisés pour garantir la santé continue des applications."
+    ],
+    "highlight_quote": "« États d'environnement programmables, structures multizones à haut débit, mise à l'échelle de l'infrastructure de données 100 % prévisible. »",
+    "side_image": "/all_services/devops_consulting/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Avantages clés pour l'entreprise",
+    "subtitle": "Transformez les configurations de serveurs non gérés en un environnement d'exécution Google Cloud hautement sécurisé et optimisé pour les données.",
+    "cards": [
+      {
+        "title": "État de l'environnement automatisé",
+        "description": "Déployez les modifications de code via des structures IaC déclaratives, en éliminant entièrement les erreurs de dérive de configuration sur les couches de serveur de préparation et de production.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Flux de déploiement continu",
+        "description": "Établissez des pipelines optimisés qui exécutent automatiquement des contrôles fonctionnels, exécutent des compilations de sécurité et déploient des mises à jour logicielles en quelques minutes.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Limites de mise à l'échelle automatique inférieures à la seconde",
+        "description": "Tirez parti de l'infrastructure de calcul native de Google pour augmenter instantanément les capacités horizontales lors des pics de trafic, protégeant ainsi les métriques back end.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Ségrégations multizones renforcées",
+        "description": "Isolez proprement les ressources de bases de données privées dans des cloud privés virtuels (VPC) personnalisés, en contrôlant l'accès aux microservices via des groupes de sécurité stricts.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Les principaux piliers de Google Cloud et DevOps que nous concevons",
+    "image": "/all_services/devops_consulting/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Infrastructure déclarative en tant que code (IaC)",
+        "description": "Environnements système entièrement reproductibles compilés via des scripts Terraform pour gouverner les réseaux VPC, les sous réseaux, les passerelles et les équilibreurs de charge par programmation."
+      },
+      {
+        "title": "2. Structures d'orchestration de conteneurs de production",
+        "description": "Configurations Google Kubernetes Engine (GKE) hautement évolutives configurées pour gérer les déploiements d'applications, le routage de l'état et les mises à jour progressives des microservices."
+      },
+      {
+        "title": "3. Pipelines d'intégration CI/CD DevSecOps automatisés",
+        "description": "Workflows de livraison continue de code utilisant Cloud Build ou GitHub Actions intégrés à des audits automatisés des politiques de sécurité et des contrôles d'intégration."
+      },
+      {
+        "title": "4. Télémétrie du système centralisé et moniteurs de journaux",
+        "description": "Tableaux de bord de surveillance complets créés via Google Cloud Operations Suite (Stackdriver) pour suivre les journaux de traitement, les courbes d'utilisation de la mémoire et les métriques réseau."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Nous concevons avec des outils d'infrastructure GCP et DevOps de niveau entreprise",
+    "subtitle": "Services cloud, fournisseurs et utilitaires de livraison conformes aux normes de l'industrie optimisés pour une résilience absolue des systèmes",
+    "tools": [
+      {
+        "name": "Moteur de calcul Google",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Moteur Google Kubernetes (GKE)",
+        "icon": "AiOutlineKubernetes"
+      },
+      {
+        "name": "Terraform (IaC Core)",
+        "icon": "SiTerraform"
+      },
+      {
+        "name": "Docker (Microservices)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Actions GitHub/Cloud Build",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Cloud SQL/BigQuery",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Maillage VPC Google Cloud",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "GCP IAM (accès zéro confiance)",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Google Cloud CDN/Équilibrage de charge",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Suite d'opérations Google Cloud",
+        "icon": "SiGooglecloud"
+      },
+      {
+        "name": "Prométhée et Grafana",
+        "icon": "SiGrafana"
+      },
+      {
+        "name": "Supabase (gestion des données)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "Redis (Cloud Memorystore)",
+        "icon": "SiRedis"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Notre plan d'ingénierie",
+    "subtitle": "De la cartographie du réseau cloud à l'exploitation certifiée de Google Cloud en 6 semaines",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Auditez les environnements système existants, tracez les lignes de dépendance du réseau logiciel, établissez des limites de mise à l’échelle cible et isolez les limites de sécurité des données.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Formulez des schémas de routage VPC principaux, planifiez des modèles d'autorisation IAM sans confiance et planifiez proprement les workflows de livraison continue.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Écrivez des fichiers de configuration Terraform déclaratifs, regroupez des couches de microservices dans des conteneurs Docker et assemblez des pipelines de déploiement.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Exécutez des tests de charge d'environnement intensifs, vérifiez les configurations de mise à l'échelle automatique des nœuds et lancez des panneaux de suivi Cloud Operations en direct en toute sécurité.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Automatisation à 100 % de l'infrastructure cloud de base et réduction de 73 % de la latence de déploiement opérationnel",
+    "image": "/all_services/devops_consulting/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Barrage opérationnel",
+        "text": "Une application cloud évolutive souffrait de pannes fréquentes de plate forme, de dépendances logicielles rompues et d'écarts de configuration entre ses instances de serveur en raison de modifications manuelles de l'infrastructure."
+      },
+      "solution": {
+        "label": "Notre approche d'ingénierie",
+        "text": "Nous avons complètement refactorisé leur architecture d'environnement à l'aide de Terraform et de Google Kubernetes Engine (GKE), en structurant des workflows de déploiement automatisés sans temps d'arrêt au sein d'un pipeline Cloud Build sécurisé."
+      },
+      "result": {
+        "label": "Impact mesurable",
+        "text": "Les erreurs de configuration du serveur ont chuté jusqu'à zéro absolu, les fréquences de déploiement de code se sont considérablement accélérées et la plate forme a maintenu une stabilité opérationnelle totale lors des pics de trafic."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Architecture DevOps de Google Cloud et FAQ",
+    "subtitle": "Des réponses claires à l’orchestration réseau critique, aux microservices conteneurisés et aux requêtes de conformité",
+    "questions": [
+      {
+        "question": "Quelle est la valeur stratégique concrète de l'écriture d'Infrastructure as Code (IaC) via Terraform sur Google Cloud ?",
+        "answer": "Terraform agit comme une source de vérité unique et déclarative pour le maillage de vos systèmes. Au lieu de déployer manuellement des ressources cloud, ce qui conduit à des configurations non vérifiées, IaC suit chaque routeur, équilibreur de charge et configuration de base de données sécurisée sous forme de code en texte brut, permettant des audits de version automatisés et un clonage immédiat de l'environnement."
+      },
+      {
+        "question": "Comment vos pipelines CI/CD automatisés parviennent ils à publier des versions logicielles sans temps d'arrêt sur GKE ?",
+        "answer": "Nous concevons des mécanismes spécialisés de déploiement de conteneurs bleu vert ou roulants dans Google Kubernetes Engine. Lorsque le nouveau code passe les contrôles de validation, le pipeline lance de nouveaux conteneurs aux côtés de l'infrastructure active, valide leur état de santé et fait transiter le trafic utilisateur en douceur, sans une seule milliseconde de décalage de service."
+      },
+      {
+        "question": "Vos environnements cloud peuvent ils évoluer efficacement pour contrôler les factures d'hébergement opérationnel ?",
+        "answer": "Absolument. Nous configurons des mises à l'échelle automatiques de pods horizontaux précises et des règles de mise à l'échelle automatique des clusters GKE directement liées aux limites de CPU et de requêtes en temps réel. Lorsque le trafic baisse pendant les périodes creuses, l'infrastructure diminue automatiquement, préservant ainsi les limites de calcul et optimisant les dépenses mensuelles de la plateforme."
+      },
+      {
+        "question": "Comment protégez vous les enregistrements de base de données sécurisés et les clés de microservices privées dans les configurations GCP ?",
+        "answer": "Nous appliquons des stratégies strictes de paramètres de confiance zéro. Les bases de données sont verrouillées dans des sous réseaux totalement privés, entièrement séparés de l’Internet public. Toutes les connexions API nécessitent des jetons cryptographiques de courte durée gérés via Google Cloud Secret Manager, gardant les routes de connexion des applications sûres et cachées."
+      }
+    ],
+    "footer": {
+      "text": "Prêt à transformer vos environnements cloud en une infrastructure DevOps immuable de niveau entreprise ?",
+      "link_text": "Planifiez une révision GCP avec notre équipe d'ingénieurs",
+      "link_url": "/contact"
+    }
+  }
+}

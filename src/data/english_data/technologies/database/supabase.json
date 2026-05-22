@@ -1,116 +1,135 @@
 {
   "slug": "supabase",
   "seo_metadata": {
-    "title": "Enterprise Supabase Development | PostgreSQL & Realtime Backend Solutions",
-    "description": "Professional Supabase implementation services. Build scalable, secure applications with automated APIs, real-time database subscriptions, and enterprise-grade Auth.",
+    "title": "Supabase Development Services | PostgreSQL Backend, Auth & Realtime Apps | Devisgon",
+    "description": "Devisgon provides professional Supabase development services for scalable PostgreSQL backends, authentication, realtime applications, SaaS platforms, dashboards, APIs, storage, and cloud ready digital products.",
     "keywords": [
-      "Supabase Development",
-      "PostgreSQL Architecture",
-      "Realtime Database",
-      "Row Level Security (RLS)",
-      "BaaS Solutions",
+      "Supabase development services",
+      "Supabase app development",
+      "Supabase backend development",
+      "Supabase consulting",
+      "PostgreSQL backend development",
+      "Supabase authentication",
+      "Supabase realtime database",
+      "Supabase Row Level Security",
+      "Supabase API development",
       "Supabase Edge Functions",
-      "Serverless Backend"
+      "Supabase storage integration",
+      "serverless backend development",
+      "backend as a service development",
+      "Supabase for SaaS platforms",
+      "Supabase dashboard development",
+      "Supabase database design",
+      "custom Supabase applications",
+      "Firebase alternative development"
     ]
   },
   "hero_section": {
-    "eyebrow": "The Open Source Firebase Alternative",
-    "title": "Rapid Innovation with",
+    "eyebrow": "PostgreSQL Backend & Realtime App Development",
+    "title": "Build Scalable Products with",
     "highlight": "Supabase",
-    "description": "Accelerate your backend development with a powerful PostgreSQL-based suite including instant APIs, real-time data syncing, and integrated authentication.",
+    "description": "Devisgon designs and implements Supabase solutions for SaaS platforms, web applications, mobile apps, admin dashboards, customer portals, AI workflows, and cloud ready products that need secure authentication, PostgreSQL data architecture, realtime features, APIs, and storage.",
     "side_image": "/technologies/supabase/hero.webp",
     "primary_cta": {
-      "text": "Build Your Backend",
+      "text": "Plan Your Supabase Backend",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "View Core Architecture",
+      "text": "Explore Supabase Scope",
       "href": "/technologies/supabase#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "Why We Engineer with Supabase",
-    "subtitle": "Supabase combines the reliability of PostgreSQL with the speed of modern Backend-as-a-Service (BaaS) platforms.",
+    "title": "Why We Build with Supabase",
+    "subtitle": "Supabase gives modern products a fast, secure, and scalable backend foundation built on PostgreSQL, authentication, realtime data, storage, APIs, and serverless functions.",
     "paragraphs": [
-      "Supabase allows us to eliminate months of boilerplate backend engineering. By leveraging its auto-generated REST and GraphQL APIs, we can transition from schema design to frontend integration in hours rather than weeks, all while staying within the robust PostgreSQL ecosystem.",
-      "The platform’s greatest strength lies in its security model. By utilizing PostgreSQL's native Row Level Security (RLS), we ensure that data isolation and user permissions are enforced at the database level, creating a 'thick database, thin client' architecture that is inherently more secure."
+      "Devisgon uses Supabase for startups, SaaS platforms, internal tools, mobile apps, dashboards, portals, and MVPs that need reliable backend infrastructure without wasting months on repetitive backend setup. Supabase helps accelerate product delivery while still giving teams the strength of PostgreSQL, structured data modeling, secure access control, and API driven development.",
+      "A strong Supabase implementation requires more than creating tables and enabling authentication. Our approach focuses on database schema planning, Row Level Security policies, user roles, API boundaries, server side logic, storage rules, realtime workflows, edge functions, migrations, and production ready architecture so your product remains secure, maintainable, and scalable as it grows."
     ],
     "cards": [
       {
-        "title": "PostgreSQL Power",
-        "description": "Every Supabase project is a full, dedicated PostgreSQL database—no proprietary abstraction layers.",
+        "title": "PostgreSQL Data Foundation",
+        "description": "Build structured, relational, and scalable data systems using PostgreSQL tables, relationships, constraints, views, functions, and query patterns.",
         "icon_type": "FaDatabase"
       },
       {
-        "title": "Realtime Engine",
-        "description": "Listen to database changes in real-time via WebSockets to build collaborative, live user experiences.",
-        "icon_type": "FaSync"
+        "title": "Secure Authentication and Access",
+        "description": "Implement user authentication, session flows, role based access, Row Level Security policies, and secure data permissions for real product workflows.",
+        "icon_type": "FaUserShield"
       },
       {
-        "title": "Built-in Auth",
-        "description": "Manage user signups and logins with a comprehensive suite of social and passwordless providers.",
-        "icon_type": "FaUserShield"
+        "title": "Realtime and API Ready Backend",
+        "description": "Create realtime experiences, instant APIs, storage workflows, server side functions, and connected application features using Supabase services.",
+        "icon_type": "FaSync"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "Supabase Technical Scope",
+    "title": "Supabase Development Scope",
     "image": "/technologies/supabase/scope.webp",
     "items": [
       {
-        "title": "Relational Data Modeling",
-        "description": "Designing high-integrity PostgreSQL schemas with foreign keys, views, and stored procedures for business logic."
+        "title": "PostgreSQL Schema and Data Modeling",
+        "description": "Designing tables, relationships, constraints, indexes, views, functions, and structured data models based on SaaS, dashboard, mobile, or business application workflows."
       },
       {
-        "title": "Serverless Edge Functions",
-        "description": "Deploying TypeScript functions globally to handle sensitive logic, webhooks, and third-party integrations."
+        "title": "Authentication and Row Level Security",
+        "description": "Implementing secure user authentication, access rules, tenant aware permissions, role based policies, protected data access, and database level security controls."
       },
       {
-        "title": "Storage & Asset Management",
-        "description": "Managing large files and media with a scalable storage layer that integrates directly with database permissions."
+        "title": "API and Application Integration",
+        "description": "Connecting Supabase with frontend applications, mobile apps, dashboards, portals, AI workflows, admin systems, server routes, and third party services."
+      },
+      {
+        "title": "Edge Functions and Server Side Logic",
+        "description": "Building secure Supabase Edge Functions for webhooks, payments, emails, background workflows, API protection, custom logic, and external integrations."
+      },
+      {
+        "title": "Storage, Realtime, and Production Setup",
+        "description": "Configuring file storage, media workflows, realtime subscriptions, environment management, migrations, backups, monitoring, and production ready deployment practices."
       }
     ]
   },
   "edge_section": {
-    "title": "The Supabase Edge",
-    "subtitle": "Strategic advantages for modern full-stack delivery.",
+    "title": "The Supabase Advantage",
+    "subtitle": "A modern backend foundation for teams that need faster delivery, secure data access, PostgreSQL reliability, realtime workflows, and scalable product architecture.",
     "cards": [
       {
-        "metric": "3x",
-        "title": "Development Speed",
-        "description": "Reduction in backend development time through automated CRUD API generation and integrated Auth."
+        "metric": "Fast",
+        "title": "Backend Delivery",
+        "description": "Launch backend features faster with managed authentication, generated APIs, PostgreSQL data storage, realtime capabilities, and integrated developer tooling."
       },
       {
-        "metric": "99.95%",
-        "title": "Uptime",
-        "description": "High-availability infrastructure managed by AWS and optimized for mission-critical uptime."
+        "metric": "Secure",
+        "title": "Database Level Access Control",
+        "description": "Protect product data with Row Level Security, role aware policies, authentication aware queries, and strict permission boundaries."
       },
       {
-        "metric": "Open",
-        "title": "Source Core",
-        "description": "Built on open-source standards like Postgres, GoTrue, and PostgREST, preventing restrictive lock-in."
+        "metric": "Scalable",
+        "title": "Product Data Architecture",
+        "description": "Support growing users, records, teams, dashboards, workflows, and integrations with a PostgreSQL based backend designed for long term growth."
       },
       {
-        "metric": "Zero",
-        "title": "Vendor Lock-in",
-        "description": "Export your entire database and configuration at any time to your own self-hosted PostgreSQL instance."
+        "metric": "Modern",
+        "title": "Realtime Application Features",
+        "description": "Build live dashboards, collaborative workflows, notifications, status updates, messaging features, and realtime product experiences."
       }
     ]
   },
   "quote_section": {
-    "quote": "Supabase allows us to build with the speed of a startup and the",
-    "highlight": "stability of an enterprise"
+    "quote": "Supabase helps modern teams move from product idea to",
+    "highlight": "secure backend execution"
   },
   "conversation_section": {
-    "title": "Architect Your Realtime App",
-    "subtitle": "Consult with our lead engineers to define your Supabase architecture or plan a migration from Firebase.",
-    "full_name_label": "Lead Developer Name",
-    "business_email_label": "Entity Email",
-    "message_label": "Technical Requirement",
-    "full_name_placeholder": "Dr. Julian Thorne",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "Describe your data requirements or realtime challenges...",
-    "button_text": "Launch Your Project"
+    "title": "Design Your Supabase Backend Architecture",
+    "subtitle": "Work with Devisgon to plan, build, secure, or optimize Supabase for SaaS platforms, mobile applications, dashboards, portals, realtime workflows, AI systems, and cloud ready digital products.",
+    "full_name_label": "Full Name",
+    "business_email_label": "Business Email",
+    "message_label": "Backend Requirement",
+    "full_name_placeholder": "Alex Morgan",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "Tell us about your application, Supabase setup, authentication flow, database model, RLS requirements, or backend architecture goals...",
+    "button_text": "Request Supabase Consultation"
   }
 }

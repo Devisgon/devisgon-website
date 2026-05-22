@@ -163,6 +163,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
   return (
     <>
       <Header />
+     
       <div className="min-h-screen p-8">
         <motion.section
           className="w-full py-16 text-center px-4"

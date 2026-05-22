@@ -131,7 +131,7 @@ function JotformHero({ data }: { data: JotformLandingPageData["landing_page"] })
             {hero.subheadline}
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
-            <JotformJoinButton href={bookMeetingLink}>Book a Meeting</JotformJoinButton>
+            <JotformJoinButton href={bookMeetingLink}>Book a Discovery Call</JotformJoinButton>
             <JotformJoinButton href={hero.cta_link} variant="secondary">
               {hero.cta_text}
             </JotformJoinButton>

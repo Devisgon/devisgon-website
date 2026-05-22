@@ -1,177 +1,264 @@
-{   "slug": "machine-learning",
-
-    "hero_section": {
-      "title": "Machine Learning Models",
-      "subtitle": "Data-Driven Predictions That Scale",
-      "description": "We build custom machine learning models for prediction, recommendation, classification, and automation — trained on your data and deployed for real-world performance.",
-      "buttons": [
-        {
-          "text": "Start My AI Project",
-          "link": "/contact"
-        },
-        {
-          "text": "Contact Us",
-          "link": "/contact"
-        }
-      ],
-      "hero_image": "/videos/ai_ml_models.mp4" },
-    "introduction_section": {
-      "heading": "What is",
-      "span_heading":"Machine Learning Models?",
-      "content": [
-        "At Devisgon, we don’t just build models, we build production-ready ML pipelines. This means your models don’t live in notebooks; they’re deployed, monitored, and optimized to work with real-world data at scale.",
-        "We help businesses across retail, healthcare, logistics, fintech, and SaaS harness the power of ML to solve problems and gain a competitive edge."
-      ],
-      "highlight_quote": "“Custom models, sharper predictions, 30% higher accuracy.”",
-      "side_image": "/all_services/meachine_learning/introduction.webp"},
-    "key_benefits_section": {
-      "title": "Key Benefits",
-      "subtitle": "Transform your operations with proven results",
-      "cards": [
-        {
-          "title": "Accurate Predictions",
-          "description": "Forecast demand, detect anomalies, and recommend actions with precision.",
-          "icon_type": "TbTargetArrow "
-        },
-        {
-          "title": "Automation at Scale",
-          "description": "Replace manual analysis with AI-driven decision-making.",
-          "icon_type": "HiCurrencyDollar "
-        },
-          {
-          "title": "Custom-Tailored Models",
-          "description": "Models trained on your specific business data, not generic datasets.",
-          "icon_type": "BsCodeSquare "
-        },
-        {
-          "title": "End-to-End Deployment",
-          "description": "From training to production monitoring, we handle the full ML lifecycle.",
-          "icon_type": "FaRocket "
-        }
-      ]
-    },
-    "what_you_get_section": {
-      "title": "What you'll get when you choose with us ML models",
-      "image": "/all_services/meachine_learning/wwg.webp",
-      "list_items": [
-        {
-          "title": "1. Tailored ML Models",
-          "description": "Custom-trained ML models (classification, regression, clustering, NLP, etc.)"
-        },
-         {
-          "title": "2. API Integration",
-          "description": "API endpoints for model integration into apps/software."
-        },
-          {
-          "title": "3. Clear Documentation",
-          "description": "Model documentation and training reports."
-        },
-         {
-          "title": "4. Scalable Deployment",
-          "description": "Scalable deployment on cloud or on-prem infrastructure."
-        }
-      ]
-    },
-    "technologies_section": {
-      "title": "We work with modern, proven technologies",
-      "subtitle": "Industry-leading tools for maximum reliability and performance",
-      "tools": [
-         { 
-          "name": "Python", 
-          "icon": "FaPython " 
-        },
-        { 
-          "name": "Node.js", 
-          "icon": "FaNodeJs " 
-        },
-        { 
-          "name": "React", 
-          "icon": "FaReact " 
-        },
-        { 
-          "name": "Docker", 
-          "icon": "FaDocker " 
-        },
-        { 
-          "name": "AWS", 
-          "icon": "FaAws " 
-        },
-        { 
-          "name": "MongoDB", 
-          "icon": "FaDatabase " 
-        }
-      ]
-    },
-    "process_section": {
-      "title": "Our Process",
-      "subtitle": "From concept to launch in 6 weeks",
-      "steps": [
-        {
-          "title": "Discover",
-          "description": "Define business goals, identify data sources, and select ML use case.",
-          "icon": "FaSearch"
-        },
-        {
-          "title": "Design",
-          "description": "Data preprocessing, feature engineering, and model architecture planning.",
-          "icon": "TbTools"
-        },
-       {
-          "title": "Build",
-          "description": "Train and validate ML models, test with historical datasets.",
-          "icon": "FaHammer"
-        },
-       {
-          "title": "Launch",
-          "description": "Deploy production-ready models with monitoring and feedback loops.",
-          "icon": "FaRocket"
-        }
-      ]
-    },
-      "case_study_section": {
-      "headline": "AI Cut Overstock by 18%",
-      "image": "/all_services/meachine_learning/case_study.webp",
-      "content": {
-        "problem": {
-          "label": "Problem",
-          "text": "A logistics company struggled with unpredictable demand, leading to overstock and supply chain delays."
-        },
-        "solution": {
-          "label": "Solution",
-          "text": "We built a demand forecasting ML model trained on 5 years of sales and seasonal data."
-        },
-        "result": {
-          "label": "Result",
-          "text": "Forecast accuracy improved by 30%, reducing overstock costs by 18% and optimizing supply chain efficiency."
-        }
+{
+  "slug": "machine-learning",
+  "seo_metadata": {
+    "title": "Machine Learning Development Services | Predictive Models, AI Automation & MLOps | Devisgon",
+    "description": "Devisgon provides professional machine learning development services for predictive analytics, recommendation systems, classification models, anomaly detection, automation, MLOps, and scalable AI powered business software.",
+    "keywords": [
+      "machine learning development services",
+      "machine learning company",
+      "custom machine learning models",
+      "predictive analytics development",
+      "AI model development",
+      "ML model deployment",
+      "machine learning automation",
+      "recommendation system development",
+      "classification model development",
+      "anomaly detection AI",
+      "forecasting model development",
+      "MLOps services",
+      "machine learning consulting",
+      "AI data science services",
+      "machine learning API integration",
+      "enterprise machine learning",
+      "production ML pipelines",
+      "machine learning for business"
+    ]
+  },
+  "hero_section": {
+    "title": "Machine Learning Development Services",
+    "subtitle": "Predictive AI Models Built for Real Business Decisions",
+    "description": "Devisgon builds custom machine learning systems that forecast outcomes, classify data, detect anomalies, recommend actions, automate decisions, and turn business data into measurable intelligence. We help global companies move from manual analysis to production ready ML models integrated into real software workflows.",
+    "buttons": [
+      {
+        "text": "Start My ML Project",
+        "link": "/contact"
+      },
+      {
+        "text": "Consult Our ML Engineers",
+        "link": "/contact"
       }
-    },
-    "faq_section": {
-      "title": "Frequently Asked Questions",
-      "subtitle": "Get answers to common questions",
-      "questions": [
-        {
-          "question": "How long does it take to build an MVP?",
-          "answer": "Typically, an MVP can be developed in 4-6 weeks depending on the complexity of the features."
-        },
-        {
-          "question": "Do you provide ongoing support after launch?",
-          "answer": "Yes, we offer post-launch maintenance and support packages to ensure your application runs smoothly."
-        },
-        {
-          "question": "Can you integrate AI features into my existing SaaS?",
-          "answer": "Absolutely. We specialize in integrating AI models into existing architectures via API."
-        },
-        {
-          "question": "What tech stack do you use for SaaS?",
-          "answer": "We primarily use Next.js, React, Node.js, Python, and cloud services like AWS or Vercel."
-        }
-      ],
-      "footer": {
-        "text": "Didn't find your answer?",
-        "link_text": "Contact us for more information",
-        "link_url": "/contact"
+    ],
+    "hero_image": "/videos/ai_ml_models.mp4"
+  },
+  "introduction_section": {
+    "heading": "What are Enterprise Grade",
+    "span_heading": " Machine Learning Models?",
+    "content": [
+      "Enterprise grade machine learning models are AI systems trained on business data to identify patterns, make predictions, automate analysis, and support better decisions. They can power demand forecasting, customer segmentation, fraud detection, recommendation engines, risk scoring, churn prediction, lead scoring, pricing intelligence, and operational analytics.",
+      "At Devisgon, we build machine learning solutions with a production first approach. That means we handle data preparation, model training, validation, API integration, deployment, monitoring, retraining, and maintenance so your ML models work inside real applications instead of staying in notebooks."
+    ],
+    "highlight_quote": "“Machine learning turns business data into predictive intelligence, automated workflows, and smarter operational decisions.”",
+    "side_image": "/all_services/meachine_learning/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Key Business Benefits",
+    "subtitle": "Use machine learning to improve predictions, automate analysis, and make data driven decisions",
+    "cards": [
+      {
+        "title": "Accurate Business Predictions",
+        "description": "Forecast demand, revenue, churn, risk, inventory needs, user behavior, and operational outcomes using trained ML models.",
+        "icon_type": "TbTargetArrow"
+      },
+      {
+        "title": "Automated Data Analysis",
+        "description": "Reduce manual reporting and repetitive analysis with models that classify, score, detect, recommend, and prioritize.",
+        "icon_type": "HiCurrencyDollar"
+      },
+      {
+        "title": "Custom Models for Your Data",
+        "description": "Build ML models around your real business data, users, workflows, industry patterns, and performance goals.",
+        "icon_type": "BsCodeSquare"
+      },
+      {
+        "title": "Production Ready ML Deployment",
+        "description": "Deploy machine learning models into APIs, dashboards, apps, automation workflows, and cloud systems.",
+        "icon_type": "FaRocket"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "What You Receive with Devisgon Machine Learning Development",
+    "image": "/all_services/meachine_learning/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Machine Learning Strategy and Data Review",
+        "description": "We review your business goal, available data, prediction needs, success metrics, risks, and deployment requirements."
+      },
+      {
+        "title": "2. Custom ML Model Development",
+        "description": "We build models for forecasting, classification, recommendation, clustering, anomaly detection, and scoring workflows."
+      },
+      {
+        "title": "3. Data Pipeline and Feature Engineering",
+        "description": "We prepare datasets, clean records, engineer useful features, structure inputs, and create repeatable training pipelines."
+      },
+      {
+        "title": "4. Model Evaluation and Optimization",
+        "description": "We test accuracy, review errors, tune parameters, reduce false results, and validate model performance."
+      },
+      {
+        "title": "5. API Integration and Deployment",
+        "description": "We deploy models into apps, dashboards, APIs, cloud systems, automation workflows, or internal business tools."
+      },
+      {
+        "title": "6. Monitoring and Maintenance",
+        "description": "We monitor model performance, update datasets, retrain models, fix issues, and improve accuracy over time."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Machine Learning Technologies and Frameworks We Use",
+    "subtitle": "Modern data science, model training, deployment, and MLOps tools for production ready machine learning systems",
+    "tools": [
+      {
+        "name": "Python",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Scikit learn",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Pandas",
+        "icon": "FaPython"
+      },
+      {
+        "name": "NumPy",
+        "icon": "FaPython"
+      },
+      {
+        "name": "TensorFlow",
+        "icon": "SiTensorflow"
+      },
+      {
+        "name": "PyTorch",
+        "icon": "SiPytorch"
+      },
+      {
+        "name": "FastAPI",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Node.js",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "React",
+        "icon": "FaReact"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "AWS",
+        "icon": "FaAws"
+      },
+      {
+        "name": "MongoDB",
+        "icon": "FaDatabase"
+      },
+      {
+        "name": "MLflow",
+        "icon": "SiMlflow"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Our Machine Learning Development Process",
+    "subtitle": "A focused 6 step process from discovery to testing, deployment, maintenance, and optimization",
+    "steps": [
+      {
+        "title": "Discovery Call",
+        "description": "We understand your business goal, data sources, prediction needs, users, risks, and expected outcomes.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Data and Process Mapping",
+        "description": "We map datasets, workflows, features, labels, integrations, decisions, and model output requirements.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Model Strategy",
+        "description": "We define the ML approach, training method, success metrics, infrastructure, and rollout plan.",
+        "icon": "VscGraphLine"
+      },
+      {
+        "title": "Development and Training",
+        "description": "We clean data, train models, tune parameters, validate outputs, and build integration logic.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Testing and Deployment",
+        "description": "We test accuracy, edge cases, performance, security, and deploy the model into production workflows.",
+        "icon": "FaRocket"
+      },
+      {
+        "title": "Maintenance and Optimization",
+        "description": "We monitor model drift, retrain models, improve accuracy, fix issues, and optimize performance.",
+        "icon": "PiCodeFill"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "Machine Learning Forecasting That Improved Planning and Reduced Operational Waste",
+    "image": "/all_services/meachine_learning/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "Operational Roadblock",
+        "text": "A logistics business was struggling with unpredictable demand, inventory imbalance, and slow manual forecasting. Teams relied on spreadsheets, historical assumptions, and delayed reporting, which created overstock, missed planning signals, and unnecessary operational cost."
+      },
+      "solution": {
+        "label": "Our Engineering Approach",
+        "text": "Devisgon built a machine learning forecasting workflow using historical sales, seasonal patterns, demand signals, and operational data. The model generated structured predictions, surfaced risk indicators, and connected outputs to reporting workflows for easier planning."
+      },
+      "result": {
+        "label": "Measurable Impact",
+        "text": "The business improved forecast consistency, reduced manual analysis time, improved inventory planning, and created a scalable ML workflow that supported faster and more reliable operational decisions."
       }
     }
-  
+  },
+  "faq_section": {
+    "title": "Machine Learning Questions and Answers",
+    "subtitle": "Detailed answers for founders, product teams, CTOs, and business leaders evaluating machine learning systems",
+    "questions": [
+      {
+        "question": "What is machine learning and how can it help my business?",
+        "answer": "Machine learning uses historical data to identify patterns and make predictions, classifications, or recommendations. Businesses use it for forecasting, lead scoring, fraud detection, customer segmentation, pricing, automation, and decision support. It helps teams move from guesswork to data driven operations."
+      },
+      {
+        "question": "What type of machine learning model does my project need?",
+        "answer": "The right model depends on your business goal, data type, output requirement, and accuracy target. Forecasting models predict future values, classification models assign categories, clustering models group similar records, and recommendation models suggest next actions. Devisgon reviews your workflow first before selecting the model approach."
+      },
+      {
+        "question": "Do we need a large amount of data to build an ML model?",
+        "answer": "Machine learning usually performs better with clean and relevant data, but the required amount depends on the use case. Some models can work with moderate datasets if the features are strong and the problem is well defined. We assess your data quality, volume, structure, and gaps before recommending the best strategy."
+      },
+      {
+        "question": "Can a machine learning model be integrated into our existing software?",
+        "answer": "Yes. ML models can be deployed through APIs, dashboards, web apps, mobile apps, automation workflows, CRMs, and internal tools. Devisgon connects model outputs to your actual business workflow so predictions become useful actions, alerts, scores, reports, or recommendations inside your software."
+      },
+      {
+        "question": "How do you measure machine learning model accuracy?",
+        "answer": "Accuracy depends on the model type and business objective. We use validation datasets, error analysis, precision, recall, RMSE, confusion matrices, and business specific success metrics. We also test edge cases and real world examples to make sure the model is useful outside training conditions."
+      },
+      {
+        "question": "Can machine learning automate business decisions?",
+        "answer": "Yes, but it should be done with proper controls. ML can recommend actions, score risk, prioritize records, detect anomalies, and trigger workflows. For sensitive decisions, we usually add human review, confidence thresholds, audit logs, and fallback rules so the system supports decisions without removing accountability."
+      },
+      {
+        "question": "How long does it take to build a machine learning model?",
+        "answer": "The timeline depends on data readiness, model complexity, integrations, testing needs, and deployment requirements. A focused proof of concept can be faster, while production grade ML needs discovery, data preparation, training, validation, deployment, monitoring, and maintenance planning."
+      },
+      {
+        "question": "Does Devisgon provide maintenance after machine learning deployment?",
+        "answer": "Yes. ML models need monitoring because user behavior, data patterns, business rules, and market conditions change over time. Devisgon provides model monitoring, retraining, performance review, integration maintenance, bug fixing, and optimization to keep your system reliable after launch."
+      }
+    ],
+    "footer": {
+      "text": "Ready to turn your business data into predictive intelligence?",
+      "link_text": "Schedule a machine learning discovery call",
+      "link_url": "/contact"
+    }
+  }
 }

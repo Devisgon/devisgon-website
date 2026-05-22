@@ -2,7 +2,7 @@
   "slug": "database-management",
   "hero_section": {
     "title": "Gestion de base de données",
-    "subtitle": "Données sécurisées, évolutives et ultra-rapides",
+    "subtitle": "Données sécurisées, évolutives et ultra rapides",
     "description": "Nous concevons, optimisons et gérons des architectures de bases de données robustes qui garantissent que vos données commerciales critiques sont toujours disponibles, hautement sécurisées et optimisées pour des performances optimales.",
     "buttons": [
       {
@@ -17,7 +17,7 @@
     "hero_image": "/videos/database_management.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que",
+    "heading": "Qu'est ce que",
     "span_heading": "Gestion de base de données ?",
     "content": [
       "Les données sont l’élément vital de toute application moderne. La gestion de bases de données implique l'architecture de la manière dont ces données sont stockées, structurées, accessibles et sécurisées. Qu'il s'agisse de données relationnelles en SQL ou de magasins de documents volumineux en NoSQL, une base de données mal configurée finira par entraîner des temps de chargement lents, des plantages d'applications et des pertes de données.",
@@ -136,11 +136,11 @@
       },
       "solution": {
         "label": "Solution",
-        "text": "Nous avons optimisé leur schéma PostgreSQL, implémenté Redis pour la mise en cache du catalogue de produits et mis en place une architecture maître-esclave en lecture-réplication."
+        "text": "Nous avons optimisé leur schéma PostgreSQL, implémenté Redis pour la mise en cache du catalogue de produits et mis en place une architecture maître esclave en lecture réplication."
       },
       "result": {
         "label": "Result",
-        "text": "La charge CPU de la base de données a chuté de 70 %, le temps de réponse moyen aux requêtes s'est amélioré de 300 % et la plate-forme a géré le trafic du Black Friday sans aucun temps d'arrêt."
+        "text": "La charge CPU de la base de données a chuté de 70 %, le temps de réponse moyen aux requêtes s'est amélioré de 300 % et la plate forme a géré le trafic du Black Friday sans aucun temps d'arrêt."
       }
     }
   },
@@ -149,19 +149,19 @@
     "subtitle": "Obtenez des réponses sur l’architecture des bases de données",
     "questions": [
       {
-        "question": "Dois-je utiliser une base de données SQL ou NoSQL ?",
+        "question": "Dois je utiliser une base de données SQL ou NoSQL ?",
         "answer": "Cela dépend entièrement de vos données. SQL (comme PostgreSQL ou MySQL) est idéal pour les données relationnelles hautement structurées où l'intégrité des données et les transactions complexes sont essentielles (comme la finance ou le commerce électronique). NoSQL (comme MongoDB) est idéal pour les données non structurées, le prototypage rapide et la mise à l'échelle horizontale massive."
       },
       {
-        "question": "Que se passe-t-il si notre serveur de base de données tombe en panne ?",
+        "question": "Que se passe t il si notre serveur de base de données tombe en panne ?",
         "answer": "Nous concevons des architectures à haute disponibilité pour éviter cela. En utilisant des configurations en cluster et des réplicas en lecture sur plusieurs zones de disponibilité de serveur, si votre base de données principale est hors ligne, le trafic est automatiquement acheminé vers un serveur de sauvegarde synchronisé en quelques millisecondes."
       },
       {
-        "question": "Pouvez-vous migrer nos données depuis un ancien système ?",
+        "question": "Pouvez vous migrer nos données depuis un ancien système ?",
         "answer": "Oui. La migration de données est l'une de nos principales spécialités. Nous mappons votre ancien schéma sur le nouveau et exécutons la migration à l'aide de pipelines sécurisés, réalisant souvent des migrations sans temps d'arrêt afin que votre activité ne soit pas interrompue."
       },
       {
-        "question": "Comment protégez-vous notre base de données contre les pirates ?",
+        "question": "Comment protégez vous notre base de données contre les pirates ?",
         "answer": "Nous mettons en œuvre une sécurité stricte au niveau du réseau (garantissant que la base de données n'est jamais exposée à l'Internet public), appliquons une gestion rigoureuse des identités et des accès (IAM), chiffrons les données au repos et en transit et surveillons en permanence les modèles de requêtes suspects."
       }
     ],

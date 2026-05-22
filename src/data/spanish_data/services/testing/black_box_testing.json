@@ -1,0 +1,206 @@
+{
+  "slug": "black-box-testing",
+  "hero_section": {
+    "title": "Servicios de prueba de caja negra empresarial",
+    "subtitle": "Riguroso control de calidad funcional y basado en el comportamiento",
+    "description": "Diseñamos marcos de prueba de caja negra integrales y objetivos que evalúan sus aplicaciones estrictamente desde la perspectiva del usuario. Descubra fallas de comportamiento profundas, errores de lógica de interfaz y brechas de integración sin depender de la visibilidad del código interno.",
+    "buttons": [
+      {
+        "text": "Auditar la funcionalidad de mi aplicación",
+        "link": "/contact"
+      },
+      {
+        "text": "Consulte a nuestros ingenieros de control de calidad",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/api_integration.mp4"
+  },
+  "introduction_section": {
+    "heading": "¿Qué es el nivel empresarial?",
+    "span_heading": "¿Pruebas de caja negra?",
+    "content": [
+      "En Devisgon, abordamos la validación funcional como una ciencia exacta y centrada en el usuario. Yendo mucho más allá de los clics manuales casuales, creamos matrices de prueba automatizadas sistemáticas que evalúan los comportamientos de entrada y salida de su aplicación, validaciones de formularios, límites y recorridos comerciales de varios pasos estrictamente en comparación con sus especificaciones principales de software.",
+      "Cerramos la brecha entre los requisitos de diseño abstracto y la usabilidad del sistema en el mundo real. Cada ciclo de verificación que ejecutamos aísla los casos extremos, las transiciones de estado interrumpidas y las discrepancias de validación en las vistas del lado del cliente y los puntos finales de API, lo que garantiza que su código de producción brinde una experiencia de usuario impecable en todos los dispositivos y flujos de trabajo."
+    ],
+    "highlight_quote": "\"Información objetiva sobre el comportamiento, validación funcional a prueba de balas, 0% de dependencia de las suposiciones del código interno\".",
+    "side_image": "/all_services/manual_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "Beneficios empresariales clave",
+    "subtitle": "Convierta las interacciones impredecibles del usuario en una experiencia de aplicación estable y completamente predecible.",
+    "cards": [
+      {
+        "title": "Detección objetiva de defectos",
+        "description": "Descubra errores de comportamiento ocultos y errores lógicos que los equipos de desarrollo internos suelen pasar por alto debido a la familiaridad con el código estructural.",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "Análisis riguroso de límites",
+        "description": "Pruebe los campos de entrada y los formularios de datos con parámetros extremos y fuera de los límites para garantizar que los errores de validación se manejen correctamente sin fallas en la aplicación.",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "Validación de usuario de un extremo a otro",
+        "description": "Simule flujos de trabajo completos del cliente, desde la configuración de incorporación hasta el procesamiento de pago, verificando que cada transición de estado lógico se comporte con precisión.",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "Pruebas perfectas entre dispositivos",
+        "description": "Verifique que sus diseños de interfaz de usuario receptivos se comporten de manera limpia en diferentes ventanas gráficas, verificando las tarjetas de conexión 2x2 y las posiciones de alineación en el uso en el mundo real.",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Lo que recibirá con la ingeniería de control de calidad de Devisgon",
+    "image": "/all_services/manual_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. Conjuntos de pruebas E2E automatizadas de extremo a extremo",
+        "description": "Scripts de automatización robustos basados ​​en el comportamiento configurados para ejecutar interacciones programáticas del navegador que imitan matrices de entrada de usuarios reales."
+      },
+      {
+        "title": "2. Bancos de pruebas de valor límite de alta densidad",
+        "description": "Meticulosos parámetros de matriz de entrada diseñados para verificar campos de verificación, capacidades de texto y rangos de números en casos extremos."
+      },
+      {
+        "title": "3. Listas de verificación de interactividad y estado de los componentes",
+        "description": "Mapas de seguimiento funcionales detallados que revisan estilos en modo oscuro, tarjetas glassmorphic responsivas y rutas complejas de varias páginas."
+      },
+      {
+        "title": "4. Libros de contabilidad integrales de defectos y lógica",
+        "description": "Informes granulares de perfiles de control de calidad que presentan pasos de reproducción exactos, cargas útiles de datos de entrada, notas de discrepancias de comportamiento y registros de pruebas visuales."
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "Validamos con una infraestructura de pruebas moderna y reforzada",
+    "subtitle": "Motores de automatización E2E, marcos basados ​​en el comportamiento y conjuntos de auditorías líderes en la industria creados para una coherencia total",
+    "tools": [
+      {
+        "name": "Playwright",
+        "icon": "SiPlaywright"
+      },
+      {
+        "name": "Cypress",
+        "icon": "SiCypress"
+      },
+      {
+        "name": "Rejilla de selenio",
+        "icon": "SiSelenium"
+      },
+      {
+        "name": "Pepino (Marco BDD)",
+        "icon": "SiCucumber"
+      },
+      {
+        "name": "Cartero (validación API)",
+        "icon": "SiPostman"
+      },
+      {
+        "name": "Next.js (auditoría de enrutador de aplicaciones)",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase (Verificación de autenticación E2E)",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "API Jotform (Prueba de carga útil)",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "Docker (malla en tiempo de ejecución de control de calidad)",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Acciones de GitHub (canalización de CI/CD)",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "Python (secuencias de comandos automatizadas)",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Node.js (motor de pruebas)",
+        "icon": "FaNodeJs"
+      },
+      {
+        "name": "Núcleo de accesibilidad de Axe",
+        "icon": "SiAxe"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "Nuestro plan de ingeniería",
+    "subtitle": "Del mapeo de requisitos a la certificación funcional integral en 6 semanas",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "Analice modelos de especificaciones funcionales, mapee objetivos de personalidad de usuario, identifique reglas comerciales centrales y rastree rutas de aplicaciones de alta prioridad.",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "Construya matrices de partición de equivalencia, formule escenarios de valores límite y estructure guiones de pruebas de comportamiento.",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "Programe afirmaciones automatizadas E2E utilizando Playwright o Cypress, establezca contenedores de prueba sin cabeza y estructure servidores simulados.",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "Ejecute matrices de pruebas de regresión profunda, documente excepciones funcionales, ajuste las propiedades de validación y entregue la certificación de calidad final.",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100% de precisión funcional central y 0% de fallas en el flujo de cara al usuario en implementaciones de actualizaciones importantes",
+    "image": "/all_services/manual_testing/cs.webp",
+    "content": {
+      "problem": {
+        "label": "Barricada operativa",
+        "text": "Una aplicación en la nube en expansión estaba sufriendo graves caídas en la retención de clientes porque las discrepancias inesperadas en el diseño y los errores de formulario seguían apareciendo en las actualizaciones del código de producción."
+      },
+      "solution": {
+        "label": "Nuestro enfoque de ingeniería",
+        "text": "Diseñamos una arquitectura automatizada de validación de caja negra de un extremo a otro utilizando Playwright y Docker, simulando miles de actualizaciones de perfiles de usuario, comprobaciones de autenticación y envíos de aterrizaje."
+      },
+      "result": {
+        "label": "Impacto mensurable",
+        "text": "Los errores del sistema informados por los usuarios se redujeron en un 84% durante el primer mes, las correcciones posteriores al lanzamiento cayeron a cero absoluto y los equipos de ingeniería obtuvieron total tranquilidad durante las implementaciones."
+      }
+    }
+  },
+  "faq_section": {
+    "title": "Arquitectura de control de calidad funcional y preguntas frecuentes",
+    "subtitle": "Respuestas claras a consultas críticas de validación de comportamiento, automatización de pruebas y verificación de terminales",
+    "questions": [
+      {
+        "question": "¿Cuál es la principal diferencia entre las pruebas de caja negra y las pruebas de caja blanca?",
+        "answer": "Black Box Testing evalúa la aplicación completamente desde el punto de vista de un usuario externo, verificando comportamientos, lógica de formularios e interfaces sin ningún conocimiento del código interno subyacente. White Box Testing analiza el interior de la malla del sistema y se centra directamente en las rutas de origen, los bucles internos y las métricas de la arquitectura del código."
+      },
+      {
+        "question": "¿Cómo se automatizan las vías de comportamiento del usuario sin correr el riesgo de contaminación activa de los datos?",
+        "answer": "Aislamos todos los conjuntos de pruebas de comportamiento dentro de un entorno de prueba desacoplado. Construimos servidores simulados programáticos personalizados y grupos de datos de prueba localizados, garantizando que sus bases de datos de producción y transacciones activas de los consumidores permanezcan completamente intactas y seguras."
+      },
+      {
+        "question": "¿Pueden los métodos de caja negra validar con precisión integraciones complejas como ganchos Jotform personalizados o Supabase Auth?",
+        "answer": "Absolutamente. Al tratar estos sistemas como límites funcionales, simulamos comportamientos específicos de los usuarios, como campos de clientes potenciales enviados o solicitudes de restablecimiento de contraseña. Afirmamos mediante programación que la aplicación muestra estados de éxito correctos o intercepta limpiamente errores de validación de campo."
+      },
+      {
+        "question": "¿Cómo se garantiza que los scripts de prueba de UI automatizados no se rompan cada vez que cambia el diseño de una interfaz simple?",
+        "answer": "Aplicamos estrategias de selección estrictas y resistentes dentro de marcos como Playwright. En lugar de apuntar a estilos CSS frágiles y volátiles, priorizamos atributos de prueba desacoplados, etiquetas accesibles y propiedades de datos, manteniendo a los ejecutores de pruebas sólidos a través de revisiones estándar de la interfaz de usuario."
+      }
+    ],
+    "footer": {
+      "text": "¿Listo para verificar la resiliencia funcional y la experiencia del usuario de su aplicación?",
+      "link_text": "Programe una revisión funcional con nuestro equipo",
+      "link_url": "/contact"
+    }
+  }
+}

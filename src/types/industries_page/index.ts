@@ -3,6 +3,24 @@
   href: string;
 };
 
+export type IndustrySeoMetadata = {
+  title?: string;
+  description?: string;
+  keywords?: string[];
+  meta_title?: string;
+  meta_description?: string;
+  canonical_url?: string;
+  robots?: string;
+  primary_keywords?: string[];
+  secondary_keywords?: string[];
+};
+
+export type IndustryListingAction = {
+  label?: string;
+  text?: string;
+  href: string;
+};
+
 export type IndustryIconCard = {
   title: string;
   description: string;
@@ -97,6 +115,8 @@ export type IndustryListingHero = {
   eyebrow: string;
   title: string;
   description: string;
+  primary_cta?: IndustryListingAction;
+  secondary_cta?: IndustryListingAction;
 };
 
 export type IndustryListingCard = {
@@ -107,19 +127,44 @@ export type IndustryListingCard = {
 };
 
 export type IndustryListingGroup = {
+  anchor?: string;
   title: string;
   description: string;
   cards: IndustryListingCard[];
 };
 
+export type IndustryListingCategory = {
+  title: string;
+  slug?: string;
+  href: string;
+  description: string;
+  sub_industries?: {
+    title: string;
+    slug?: string;
+    href: string;
+    description?: string;
+  }[];
+};
+
+export type IndustryListingCategorySection = {
+  id?: string;
+  title: string;
+  description: string;
+  categories: IndustryListingCategory[];
+};
+
 export type IndustryListingData = {
+  seo?: IndustrySeoMetadata;
   hero_section: IndustryListingHero;
   industry_cards: IndustryListingCard[];
+  industry_categories_section?: IndustryListingCategorySection;
   industry_groups?: IndustryListingGroup[];
 };
 
 export type IndustryPageData = {
   slug: string;
+  seo?: IndustrySeoMetadata;
+  seo_metadata?: IndustrySeoMetadata;
   hero_section: IndustryHeroSection;
   friction_section: IndustryFrictionSection;
   architecture_section: IndustryArchitectureSection;

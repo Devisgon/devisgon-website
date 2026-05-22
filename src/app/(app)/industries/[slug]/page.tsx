@@ -12,7 +12,7 @@ import IndustryHero from "@/components/industries/hero";
 import IndustryKeyBenefits from "@/components/industries/key_benefits";
 import { getIndustryCategoryBySlug, getIndustryData, toPublicIndustrySlug } from "@/data/loaders/industries";
 import { getCachedLanguage } from "@/lib/language";
-import { getIndustrySlugMetadata } from "@/lib/seo";
+import { getIndustrySlugMetadata, getJsonSeoMetadata } from "@/lib/seo";
 import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
@@ -20,9 +20,35 @@ type PageProps = {
   searchParams: Promise<{ lang?: string | string[] }>;
 };
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ lang?: string | string[] }>;
+}): Promise<Metadata> {
   const { slug } = await params;
-  return getIndustrySlugMetadata(toPublicIndustrySlug(slug));
+  const query = await searchParams;
+  const activeLang = await getCachedLanguage(query.lang);
+  const publicSlug = toPublicIndustrySlug(slug);
+  const fallback = getIndustrySlugMetadata(publicSlug);
+  const category = getIndustryCategoryBySlug(publicSlug);
+
+  if (!category) {
+    return fallback;
+  }
+
+  const localizedData = getIndustryData(activeLang, category, publicSlug);
+  const englishData = getIndustryData("en", category, publicSlug);
+
+  return getJsonSeoMetadata(
+    localizedData?.seo_metadata ??
+      localizedData?.seo ??
+      englishData?.seo_metadata ??
+      englishData?.seo,
+    fallback,
+    `/industries/${publicSlug}`,
+  );
 }
 
 export default async function IndustrySlugPage({ params, searchParams }: PageProps) {

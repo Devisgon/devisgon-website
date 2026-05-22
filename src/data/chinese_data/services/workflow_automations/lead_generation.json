@@ -1,0 +1,206 @@
+{
+  "slug": "lead-generation-automation",
+  "hero_section": {
+    "title": "企业潜在客户生成自动化",
+    "subtitle": "程序化规模的算法入站管道",
+    "description": "我们设计了高性能、事件驱动的潜在客户生成自动化基础设施，可以在潜在客户表达意图的那一毫秒内捕获、丰富和鉴定他们的资格。消除手动数据记录并最大限度地提高管道速度。",
+    "buttons": [
+      {
+        "text": "架构师我的主导管道",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的自动化工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/marketing.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "潜在客户生成自动化？",
+    "content": [
+      "在 Devisgon，我们构建了强大的、程序化的潜在客户路由和引入基础设施，将冷冰冰的数字交互转变为高保真结构化收入目标。远远超出了脆弱的手动联系日志或基本表单重定向结构，我们构建了解耦的中间件层，可以编排多应用程序 Webhook 操作、处理复杂的数据映射并本地执行编程排序工作流程。",
+      "我们弥合了面向用户的入口点和内部销售环境之间的差距。我们部署的每个管道都采用分布式 Webhook 跟踪、有效负载验证过滤器、安全 API 令牌身份验证和集中式日志记录进行设计，确保您的客户记录、登录表单和数据库结构在峰值负载流量下完美同步。"
+    ],
+    "highlight_quote": "“瞬时捕获循环、多平台配置文件丰富、高意图管道中的 0% 下降。”",
+    "side_image": "/all_services/no_code_automation/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将无组织的潜在客户捕获事件转变为高转化率、自动化的入站引擎",
+    "cards": [
+      {
+        "title": "亚秒级摄取速度",
+        "description": "在 Webhook 触发的精确毫秒内捕获、清理和处理传入的潜在客户数据有效负载，将响应时间缩短到接近于零。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "自主数据丰富",
+        "description": "对自定义集成代理进行编程，拦截原始条目并立即注入结构元数据、公司简介和企业标签。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "零手动数据差异",
+        "description": "通过在整个产品软件堆栈中运行连续的双向 Webhook 数据对齐，消除操作同步摩擦。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "多变量路径分析",
+        "description": "将原始入站数据点转换为干净的指标矩阵，以监控转化趋势、源渠道价值和管道速度。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devsgon 入站基础设施收到什么",
+    "image": "/all_services/no_code_automation/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 多平台入站编排结构",
+        "description": "先进的工作流程网格（通过 n8n 或 Make.com 设计）旨在摄取主要钩子、执行多路径逻辑并干净地更新平台。"
+      },
+      {
+        "title": "2. 高性能表单和API网关",
+        "description": "配置自定义 API 路由，将前端表单交互安全地路由到安全、查询优化的关系表中。"
+      },
+      {
+        "title": "3.自动化文档和模板引擎",
+        "description": "使用严格的 CSS 配置变量构建的干净的电子邮件布局文件，省略臃肿的代码块以优化送达率指标。"
+      },
+      {
+        "title": "4. 集中式玻璃遥测面板",
+        "description": "时尚的 Next.js 跟踪门户采用暗模式、背景模糊和清晰的环境发光设计构建，可监控实时转换阵列。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们与硬化铅和管道基础设施集成",
+    "subtitle": "行业领先的编排工具、数据库层和通信 API，专为大规模运营而构建",
+    "tools": [
+      {
+        "name": "n8n",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "Next.js（边缘路由）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "乔特形式API",
+        "icon": "SiJotform"
+      },
+      {
+        "name": "Supabase（授权和核心数据库）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "HubSpot 客户关系管理",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "销售人员API",
+        "icon": "SiSalesforce"
+      },
+      {
+        "name": "重新发送（交易电子邮件）",
+        "icon": "SiResend"
+      },
+      {
+        "name": "Twilio（语音和短信 API）",
+        "icon": "SiTwilio"
+      },
+      {
+        "name": "Redis（消息队列）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从系统端点布局到实时程序化潜在客户捕获，仅需 6 周时间",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核公司数据输入字段、分析前端提交布局、定义路由矩阵并跟踪第三方 API 属性。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定逻辑序列路由路径、构建有效负载数据转换模式以及错误回退行为蓝图。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对自定义中间件路由器进行编程，在 n8n/Make 上部署云集成工作流程，并链接安全的 HubSpot、Twilio 和 Jotform API 挂钩。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行深度集成负载测试，验证峰值流量模拟下的事件触发性能指标，并安全上线。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "+290% 领先速度入站加速并 100% 消除手动记录工作",
+    "image": "/all_services/no_code_automation/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一家快速发展的 B2B 企业正在失去高价值的渠道机会，因为管理团队花费了长达 14 小时手动将潜在客户详细信息从接收字段复制到单独的 CRM 中。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 n8n 工作流程和无服务器 Next.js 边缘路由器设计了一个自动化的事件驱动的 Webhook 路由层，通过数据验证过滤器将 Jotform 数组直接同步到 HubSpot。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "初始捕获和验证响应下降到亚秒级，管理打字错误下降到绝对零，整体转换速度加快了 290%。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "入站自动化架构和常见问题解答",
+    "subtitle": "关键系统扩展、数据路由和 Webhook 安全问题的清晰答案",
+    "questions": [
+      {
+        "question": "如何将可视化编排节点与自定义编程脚本混合在一起？",
+        "answer": "我们将 n8n 或 Make.com 的敏捷工作流程序列跟踪与专门的 Next.js 无服务器路由处理程序配对。该架构利用低代码节点来实现清晰的操作可见性，并利用自定义 JavaScript/Python 代码块来实现安全令牌解析、深层逻辑规则和复杂的数组转换。"
+      },
+      {
+        "question": "当平台流量突然激增时，入站引擎会发生什么情况？",
+        "answer": "我们部署由高速 Redis 消息队列支持的无状态集成中间件。如果您的平台接收数千个并发用户交互，数据库管道会安全地对有效负载进行排队，顺利计算指标，而不会超出数据库存储限制。"
+      },
+      {
+        "question": "我们能否安全地将 Jotform 等自定义接收渠道直接集成到内部数据网格中？",
+        "answer": "绝对地。我们构建了强大的 Webhook 网关，可以从 Jotform 等平台安全地获取实时 JSON 参数，在将记录附加到 PostgreSQL 数据池之前验证数据格式。"
+      },
+      {
+        "question": "在通过集成层路由信息时如何保护数据隐私？",
+        "answer": "我们设计的每个自动化数据管道都执行零信任准则。所有传入的 Webhook 均使用加密签名（SHA 256 标头验证）进行验证，所有传输均使用 TLS 1.3 在传输过程中进行加密，敏感的用户 PII 字段在存储之前会被剥离或屏蔽。"
+      }
+    ],
+    "footer": {
+      "text": "准备好建立一个可靠的、自我修正的入站管道结构了吗？",
+      "link_text": "与我们的团队安排架构审查",
+      "link_url": "/contact"
+    }
+  }
+}

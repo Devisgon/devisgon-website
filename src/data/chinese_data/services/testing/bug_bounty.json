@@ -1,0 +1,206 @@
+{
+  "slug": "bug-bounty",
+  "hero_section": {
+    "title": "企业错误赏金和众包安全平台",
+    "subtitle": "全球范围内持续的、对抗性的漏洞发现",
+    "description": "我们构建、启动和管理生产级错误赏金计划，利用道德黑客社区来查找代码中的关键漏洞。通过持续渗透测试，强化外部攻击面、保护 API 并防止灾难性漏洞。",
+    "buttons": [
+      {
+        "text": "启动我的错误赏金",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的安全工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/cloud_security.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "漏洞赏金计划？",
+    "content": [
+      "在 Devisgon，我们将防御安全视为一项持续的、对抗性的学科。我们远远超出了传统的年度时间点渗透测试，我们构建了弹性的众包安全框架，可以在严格的定制参与规则下全天候向精英道德黑客开放您的生产应用程序、服务器网络和代码生态系统。",
+      "我们弥合开放式安全研究和内部工程团队之间的差距。我们管理的每个程序都具有自动分类过滤、漏洞验证、奖励定价策略以及集成到您的 CI/CD 管道中的功能，确保您的 Web 系统、数据库和微服务针对现实世界的攻击保持强化。"
+    ],
+    "highlight_quote": "“持续的众包防御、经过验证的漏洞指标、对简单自动扫描仪的 0% 依赖。”",
+    "side_image": "/all_services/security_testing/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将您暴露的数字边界转换为经过考验的安全应用程序网络",
+    "cards": [
+      {
+        "title": "持续的缺陷发现",
+        "description": "全天候暴露关键代码缺陷、注入错误和隐藏的访问绕过，远远超出定期审计的调度限制。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "多样化的对抗性洞察力",
+        "description": "数百名专业安全研究人员利用现代工具集，安全地模仿恶意行为者的实际方法。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "按绩效付费的价值",
+        "description": "通过专门为有效、经过验证的漏洞付费，而不是固定的人工咨询时间，以编程方式优化您的安全预算。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "积极主动的品牌强化",
+        "description": "通过维护结构化、安全的道德披露渠道，展现对数据安全和监管合规性的世界级承诺。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "Devisgon 众包安全结构将为您带来什么",
+    "image": "/all_services/security_testing/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 定制的漏洞赏金范围和政策",
+        "description": "生产级交战规则指定了受保护的边界、测试限制和明确的安全港法律保护。"
+      },
+      {
+        "title": "2. 托管报告分类和验证引擎",
+        "description": "专家工程审查管道，可筛选噪音、复制安全声明并自动消除误报。"
+      },
+      {
+        "title": "3. 程序化严重性映射（CVSS v4）",
+        "description": "使用通用漏洞评分系统进行严格的评估设置，以准确计算结构缺陷的影响。"
+      },
+      {
+        "title": "4. 集中式安全可观察性仪表板",
+        "description": "时尚的 Next.js 跟踪门户采用深色模式、背景模糊和清晰的环境发光设计，可监控补丁指标和漏洞状态。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们使用现代、先进的进攻性安全工具来确保安全",
+    "subtitle": "行业领先的测试平台、发行版和配置网格，专为深度系统审计而构建",
+    "tools": [
+      {
+        "name": "卡利Linux",
+        "icon": "SiKalilinux"
+      },
+      {
+        "name": "打嗝套件专业版",
+        "icon": "SiBurpsuite"
+      },
+      {
+        "name": "OWASP Zed 攻击代理",
+        "icon": "SiOwasp"
+      },
+      {
+        "name": "黑客一API",
+        "icon": "SiHackerone"
+      },
+      {
+        "name": "Bugcrowd API",
+        "icon": "SiBugcrowd"
+      },
+      {
+        "name": "Nuclei（漏洞扫描仪）",
+        "icon": "SiNuclei"
+      },
+      {
+        "name": "有效负载 CMS（安全配置）",
+        "icon": "SiPayloadcms"
+      },
+      {
+        "name": "Supabase（身份验证渗透测试）",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL（SQLi 测试）",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Next.js（安全审计）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Docker（隔离实验室环境）",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "GitHub Actions（DevSecOps 同步）",
+        "icon": "FaGithub"
+      },
+      {
+        "name": "GitLab CI（安全管道）",
+        "icon": "FaGitlab"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "从范围制定到全球 bug 赏金活动在 6 周内推出",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核公司资产清单、映射外部 API 域、定义目标安全边界并评估当前系统代码基线。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "起草计划政策条件，根据严重程度制定奖励支付矩阵等级，并构建工程分流路线。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "配置赏金平台工作区，实施用于自动化工程通知的 Webhook，并编写输入验证测试。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "加入私人研究人员层，启动本地化软启动，监控初始流量下的验证延迟，并使该计划在全球范围内上线。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "0% 严重漏洞达到活跃生产状态，漏洞修复速度 +400%",
+    "image": "/all_services/security_testing/cs.webp",
+    "content": {
+      "problem": {
+        "label": "安全路障",
+        "text": "一个利用 Supabase 和 Payload CMS 的高增长云平台面临着持续的扫描攻击，并担心隐藏的逻辑缺陷会绕过其传统的防火墙阵列。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们设计并推出了一个托管 Bug Bounty 框架，通过 n8n 编排自动分类过滤器，并通过安全 API 直接向开发团队提供经过验证的漏洞证明文件。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "在恶意滥用之前，关键授权逻辑问题已被安全隔离和修补，代码暴露风险大幅下降，工程响应速度加快了四倍。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "安全架构和常见问题解答",
+    "subtitle": "对关键众包测试、研究人员协调和周边安全查询的明确答案",
+    "questions": [
+      {
+        "question": "经典渗透测试和错误赏金计划之间的主要区别是什么？",
+        "answer": "渗透测试通常依赖于一个咨询小组在严格的 1 2 周时间内审核您的代码，并收取固定费用。错误赏金计划是持续的、众包的，向全球数千名不同的安全研究人员开放您定义的范围，他们只有在发现可操作的漏洞时才会获得补偿。"
+      },
+      {
+        "question": "如何保护我们的平台免受试图主动破坏我们的数据库网格的流氓黑客的侵害？",
+        "answer": "我们执行严格、细致的参与规则。每个研究人员都必须遵循明确的测试参数，例如避免拒绝服务 (DoS) 尝试、使用显式测试标头标签以及仅访问自定义模拟数据池，这使安全团队能够立即监控和阻止无效流量足迹。"
+      },
+      {
+        "question": "我们能否在不将代码暴露到公共网络的情况下运行高度安全的受限程序？",
+        "answer": "绝对地。我们构建定制的私人错误赏金计划。这种模式仅限于经过严格审查的顶级道德安全研究人员。该程序在隔离的暂存运行时间内在非披露参数下运行，为您在公开之前提供深入的防御测试可见性。"
+      },
+      {
+        "question": "您的分类流程如何防止我们的工程团队被重复的报告淹没？",
+        "answer": "我们设计了严格的多阶段验证代理。每张收到的票证都会经过自定义自动化工具和人工代码复制审核。我们根据 CVSS 指南进行独立验证、评级，并清理文件，仅将已确认的新问题直接路由到您的 Jira 或 GitHub 开发待办事项中。"
+      }
+    ],
+    "footer": {
+      "text": "准备好建立一个铁定的、群众支持的安全防御网了吗？",
+      "link_text": "与我们的安全团队安排架构审查",
+      "link_url": "/contact"
+    }
+  }
+}

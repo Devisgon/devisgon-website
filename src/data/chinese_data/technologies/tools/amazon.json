@@ -1,116 +1,135 @@
 {
   "slug": "amazon",
   "seo_metadata": {
-    "title": "企业AWS云架构和咨询服务",
-    "description": "专业的AWS实施和迁移服务。我们使用 AWS Lambda、EC2 和 S3 构建可扩展、安全且成本优化的云解决方案。",
+    "title": "AWS 云开发服务 |云架构、无服务器应用程序和 DevOps |德维斯冈",
+    "description": "Devisgon 为可扩展的 Web 应用程序、SaaS 平台、无服务器系统、云迁移、DevOps 自动化、存储、API 和安全云基础设施提供专业的 AWS 云开发服务。",
     "keywords": [
-      "AWS 云咨询",
-      "亚马逊网络服务架构",
-      "无服务器计算",
-      "AWS云迁移",
-      "基础设施即代码",
-      "AWS 安全最佳实践",
-      "云成本优化"
+      "AWS云开发服务",
+      "AWS云架构",
+      "亚马逊网络服务开发",
+      "AWS 咨询服务",
+      "云应用开发",
+      "无服务器应用程序开发",
+      "AWS Lambda 开发",
+      "AWS API 网关集成",
+      "AWS S3 存储解决方案",
+      "AWS EC2部署",
+      "AWS 开发运营服务",
+      "云基础设施开发",
+      "云迁移服务",
+      "AWS SaaS 平台开发",
+      "安全云架构",
+      "云成本优化",
+      "AWS后端开发",
+      "可扩展的云软件"
     ]
   },
   "hero_section": {
-    "eyebrow": "全球云基础设施",
-    "title": "无限扩展",
+    "eyebrow": "AWS云架构和开发",
+    "title": "构建可扩展的云系统",
     "highlight": "AWS",
-    "description": "在世界上最全面、采用最广泛的云平台上构建、部署和管理生产级应用程序。",
+    "description": "Devisgon 为需要性能、可靠性和长期可扩展性的 SaaS 平台、Web 应用程序、API、无服务器工作流程、存储系统、DevOps 管道、AI 支持的产品、业务门户和安全数字平台设计和实施 AWS 云解决方案。",
     "side_image": "/technologies/amazon/hero.webp",
     "primary_cta": {
-      "text": "优化您的云",
+      "text": "规划您的 AWS 架构",
       "href": "/contact"
     },
     "secondary_cta": {
-      "text": "查看架构模式",
+      "text": "探索 AWS 范围",
       "href": "/technologies/amazon#technology-architecture"
     }
   },
   "why_use_section": {
-    "title": "为什么我们在 AWS 上进行工程师",
-    "subtitle": "AWS 为现代分布式系统提供了最成熟、最安全的基础。",
+    "title": "为什么我们使用 AWS 进行构建",
+    "subtitle": "AWS 为需要可扩展基础设施、安全部署、无服务器工作流程、存储、监控和生产就绪应用程序托管的企业提供了成熟的云基础。",
     "paragraphs": [
-      "AWS 是我们企业级云托管和自动化的首选。通过利用其 200 多种功能齐全的服务（从计算和存储到先进的 AI/ML），我们消除了物理硬件的限制，使您的业务能够根据市场需求立即扩展。",
-      "我们的架构方法侧重于 AWS 架构完善的框架。我们确保您的基础设施建立在五个支柱之上：卓越运营、安全性、可靠性、性能效率和成本优化，从而减少长期技术债务和运营风险。"
+      "Devisgon 将 AWS 用于需要可靠云基础设施、可扩展后端系统、安全托管、API 服务、存储、自动化和部署灵活性的项目。 AWS 非常适合 SaaS 平台、移动应用程序后端、业务仪表板、客户门户、无服务器应用程序、数据工作流、AI 集成和企业级数字产品。",
+      "成功的 AWS 实施需要的不仅仅是启动云资源。我们的方法侧重于架构规划、服务选择、环境设计、IAM 访问控制、无服务器工作流程、计算策略、存储结构、数据库集成、部署管道、监控、备份规划和成本感知基础设施，以便您的云系统随着产品的增长而保持稳定。"
     ],
     "cards": [
       {
-        "title": "无与伦比的可扩展性",
-        "description": "利用 Auto Scaling 和 Elastic Load Balancing 来处理流量峰值，无需手动干预。",
-        "icon_type": "FaExpandArrowsAlt"
+        "title": "可扩展的云基础设施",
+        "description": "设计支持不断增长的用户、流量、存储、API、后台作业、集成和业务运营的云系统。",
+        "icon_type": "FaCloud"
       },
       {
-        "title": "企业安全",
-        "description": "实施军用级加密以及身份和访问管理 (IAM) 以保护敏感数据。",
+        "title": "安全的 AWS 架构",
+        "description": "实施 IAM 权限、环境分离、加密存储、安全 API、专用网络模式和生产就绪访问控制。",
         "icon_type": "FaShieldAlt"
       },
       {
-        "title": "成本效益",
-        "description": "通过按需定价和非关键工作负载的现货实例，只需按实际使用量付费。",
-        "icon_type": "FaWallet"
+        "title": "无服务器和 DevOps 就绪",
+        "description": "构建 AWS Lambda 工作流程、API 网关集成、部署管道、监控系统、云自动化和可扩展后端服务。",
+        "icon_type": "FaCogs"
       }
     ]
   },
   "architecture_section": {
     "id": "technology-architecture",
-    "title": "AWS 架构范围",
+    "title": "AWS开发范围",
     "image": "/technologies/amazon/scope.webp",
     "items": [
       {
-        "title": "无服务器架构",
-        "description": "使用 AWS Lambda 和 API Gateway 部署事件驱动逻辑，以实现零服务器管理和高可用性。"
+        "title": "云架构和基础设施规划",
+        "description": "设计 AWS 环境、计算策略、网络结构、存储架构、部署模式、安全边界和可扩展的基础设施基础。"
       },
       {
-        "title": "托管数据湖",
-        "description": "使用 Amazon S3、Glue 和 Redshift 构建强大的数据存储和分析管道以获取大数据见解。"
+        "title": "无服务器应用程序开发",
+        "description": "构建 AWS Lambda 函数、API 网关终端节点、事件驱动的工作流程、后台作业、Webhook、自动化系统和无服务器后端逻辑。"
       },
       {
-        "title": "混合云集成",
-        "description": "使用 AWS Direct Connect 和 VPC 对等互连将本地数据中心与云桥接起来，以实现安全、低延迟的连接。"
+        "title": "应用程序托管和部署",
+        "description": "使用具有稳定生产配置的 AWS 服务部署 Web 应用程序、SaaS 平台、API、仪表板、门户和后端系统。"
+      },
+      {
+        "title": "存储、数据库和数据工作流程",
+        "description": "实施 S3 存储、数据库集成、文件工作流程、备份、数据处理管道、报告流程和安全业务数据处理。"
+      },
+      {
+        "title": "DevOps、监控和成本优化",
+        "description": "设置部署管道、基础设施自动化、环境变量、日志、警报、监控、备份、扩展策略和成本感知型 AWS 操作。"
       }
     ]
   },
   "edge_section": {
     "title": "AWS 的优势",
-    "subtitle": "全球数字化的可量化效率。",
+    "subtitle": "为需要安全基础设施、可扩展应用程序、灵活部署和生产就绪数字系统的企业提供的云技术基础。",
     "cards": [
       {
-        "metric": "99.99%",
-        "title": "正常运行时间服务等级协议",
-        "description": "跨多个可用区和全球区域的行业领先的可靠性。"
+        "metric": "Scalable",
+        "title": "云增长基金会",
+        "description": "通过灵活的云架构支持更多用户、更多流量、更多存储、更多集成和更多业务工作流程。"
       },
       {
-        "metric": "200+",
-        "title": "功能齐全的服务",
-        "description": "立即访问最广泛的云工具集，包括人工智能、物联网和高性能计算。"
+        "metric": "Secure",
+        "title": "受控访问和数据保护",
+        "description": "通过 IAM 策略、加密资源、受保护的 API、环境隔离和精心的基础设施设计来增强云安全性。"
       },
       {
-        "metric": "315+",
-        "title": "存在点",
-        "description": "使用 Amazon CloudFront 全球边缘网络以超低延迟交付内容。"
+        "metric": "Flexible",
+        "title": "无服务器和计算选项",
+        "description": "使用无服务器功能、托管服务、存储、计算、数据库和部署工具的正确组合来满足您的产品需求。"
       },
       {
-        "metric": "Zero",
-        "title": "硬件开销",
-        "description": "消除物理维护的需要，让团队能够 100% 专注于产品创新。"
+        "metric": "Optimized",
+        "title": "云成本和性能",
+        "description": "设计 AWS 系统时要考虑性能、监控、扩展、资源使用和长期成本控制。"
       }
     ]
   },
   "quote_section": {
-    "quote": "AWS 将基础设施转变为可编程资产，使我们能够使用",
-    "highlight": "无限的灵活性"
+    "quote": "AWS帮助企业将云基础设施转变为",
+    "highlight": "可扩展的数字产品架构"
   },
   "conversation_section": {
-    "title": "构建您的云解决方案",
-    "subtitle": "请咨询我们的 AWS 认证解决方案架构师来定义您的迁移路线图或成本优化策略。",
-    "full_name_label": "首席架构师",
+    "title": "设计您的 AWS 云架构",
+    "subtitle": "与 Devisgon 合作，为 SaaS 平台、API、无服务器应用程序、业务门户、存储工作流程、DevOps 管道和安全云系统规划、构建、迁移或优化 AWS 基础设施。",
+    "full_name_label": "姓名",
     "business_email_label": "企业邮箱",
     "message_label": "云需求",
-    "full_name_placeholder": "朱利安·索恩博士",
-    "business_email_placeholder": "j.thorne@luminous.com",
-    "message_placeholder": "描述您的 AWS 扩展挑战或迁移目标...",
-    "button_text": "请求云审核"
+    "full_name_placeholder": "亚历克斯·摩根",
+    "business_email_placeholder": "alex@company.com",
+    "message_placeholder": "告诉我们您的 AWS 项目、云迁移、无服务器工作流程、托管设置、API 系统、存储需求或基础设施挑战...",
+    "button_text": "请求 AWS 咨询"
   }
 }

@@ -1,39 +1,472 @@
 {
-  "hero_section": {
-    "eyebrow": "Technology Intelligence",
-    "title": "Technologies We Build With",
-    "description": "Explore our core technology tracks: languages, frameworks, database, and tools."
+  "page": {
+    "name": "Technologies",
+    "slug": "/technologies",
+    "search_intent": [
+      "寻求现代软件开发技术的企业",
+      "寻找 SaaS、MVP、Web、移动和云开发堆栈的初创公司",
+      "寻求自动化、人工智能工作流程工具、数据库和平台集成的公司",
+      "全球客户在雇用软件开发公司之前比较技术能力"
+    ]
   },
-  "technology_cards": [
-    {
-      "title": "Automation",
-      "description": "Make, n8n, and Zapier workflow automation for operations, integrations, and recurring business processes.",
-      "href": "/technologies/automation",
-      "icon_type": "FaSyncAlt"
+  "seo": {
+    "meta_title": "我们使用的技术|软件开发、自动化、数据库和框架 |德维斯冈",
+    "meta_description": "探索 Devisgon 用于为跨国公司构建可扩展软件、SaaS 平台、移动应用程序、自动化工作流程、云系统、数据库、电子商务平台和业务工具的技术。",
+    "canonical_url": "https://www.devisgon.com/technologies",
+    "robots": "索引，关注",
+    "primary_keywords": [
+      "我们使用的技术",
+      "软件开发技术",
+      "定制软件开发堆栈",
+      "网络开发技术",
+      "移动应用程序开发技术",
+      "SaaS开发技术栈",
+      "商业自动化工具",
+      "数据库技术",
+      "现代网络框架",
+      "云开发工具",
+      "全球软件开发公司",
+      "德维斯贡科技"
+    ],
+    "secondary_keywords": [
+      "JavaScript 开发",
+      "TypeScript 开发",
+      "Python开发",
+      "Java软件开发",
+      "PHP开发",
+      "红宝石开发",
+      "锈蚀发展",
+      "Next.js开发",
+      "Node.js 开发",
+      "NestJS开发",
+      "Laravel 开发",
+      "React Native 开发",
+      "颤振开发",
+      "苏帕基地开发",
+      "MongoDB开发",
+      "MySQL数据库开发",
+      "亚马逊 DynamoDB 开发",
+      "Jira CRM 开发",
+      "Odoo开发",
+      "有效负载 CMS 开发",
+      "n8n自动化",
+      "实现自动化",
+      "扎皮尔自动化",
+      "Shopify开发",
+      "WordPress开发"
+    ]
+  },
+  "hero_section": {
+    "eyebrow": "科技情报",
+    "title": "我们构建的技术",
+    "description": "Devisgon 使用现代编程语言、框架、数据库、自动化平台、云工具和业务技术为全球企业构建可扩展的软件、SaaS 平台、移动应用程序、人工智能工作流程、电子商务系统和数字产品。",
+    "primary_cta": {
+      "label": "探索技术",
+      "href": "#technology-categories"
     },
-    {
-      "title": "Languages",
-      "description": "Java, JavaScript / TypeScript, Python, PHP, and C / C++ foundations for robust systems.",
-      "href": "/technologies/javascript-typescript",
-      "icon_type": "FaCode"
-    },
-    {
-      "title": "Frameworks",
-      "description": "Next.js / Node.js, NestJS, Laravel, React, React Native, and Flutter delivery stacks.",
-      "href": "/technologies/nextjs-nodejs",
-      "icon_type": "FaLayerGroup"
-    },
-    {
-      "title": "Database",
-      "description": "Supabase, MongoDB, GraphQL, MySQL, and Amazon DynamoDB data architecture.",
-      "href": "/technologies/mongodb",
-      "icon_type": "FaDatabase"
-    },
-    {
-      "title": "Tools",
-      "description": "Amazon, Shopify, WordPress, Jotform, and DoctorHosters platform tooling.",
-      "href": "/technologies/shopify",
-      "icon_type": "FaTools"
+    "secondary_cta": {
+      "label": "讨论您的技术堆栈",
+      "href": "/contact"
     }
-  ]
+  },
+  "intro_section": {
+    "title": "可扩展数字产品的现代技术堆栈",
+    "description": "正确的技术堆栈定义了数字产品的速度、安全性、可扩展性和可维护性。 Devisgon 采用跨前端、后端、移动、自动化、数据库、云平台、电子商务工具和业务集成的成熟技术。我们的技术方法帮助初创公司、SaaS 公司、企业和服务企业构建可靠的数字系统，支持长期增长。",
+    "highlights": [
+      "前端和后端开发",
+      "SaaS 和 MVP 架构",
+      "移动应用程序开发",
+      "工作流程自动化",
+      "云就绪数据库",
+      "API和平台集成",
+      "电子商务和 CMS 开发",
+      "可扩展的商业软件"
+    ]
+  },
+  "technology_categories_section": {
+    "id": "technology-categories",
+    "title": "探索我们的核心技术路线",
+    "description": "Devisgon 将其技术专业知识组织成清晰的轨道，涵盖自动化、编程语言、软件框架、数据库、API 和平台工具。",
+    "technology_cards": [
+      {
+        "title": "Automation",
+        "slug": "automation",
+        "href": "/technologies/automation",
+        "icon_type": "FaSyncAlt",
+        "description": "适用于业务运营、人工智能代理、销售线索管理、集成、通知、审批、CRM 自动化和重复数字流程的工作流自动化技术。",
+        "seo_keywords": [
+          "业务自动化工具",
+          "工作流程自动化服务",
+          "n8n自动化",
+          "实现自动化",
+          "扎皮尔自动化",
+          "AI工作流程自动化"
+        ],
+        "technologies": [
+          {
+            "title": "Make",
+            "slug": "make",
+            "href": "/technologies/make",
+            "description": "实现连接 SaaS 工具、CRM、表单、电子表格、API 和业务工作流程的自动化，无需繁重的手动操作。",
+            "seo_keywords": [
+              "实现自动化",
+              "实现工作流程自动化",
+              "进行集成服务"
+            ]
+          },
+          {
+            "title": "n8n",
+            "slug": "n8n",
+            "href": "/technologies/n8n",
+            "description": "n8n 工作流程自动化，用于高级集成、自定义逻辑、API 工作流程、AI 代理、数据路由和业务流程自动化。",
+            "seo_keywords": [
+              "n8n自动化",
+              "n8n工作流程开发",
+              "n8n 集成服务"
+            ]
+          },
+          {
+            "title": "Zapier",
+            "slug": "zapier",
+            "href": "/technologies/zapier",
+            "description": "Zapier 自动化用于连接业务应用程序、自动执行重复任务、同步数据并提高团队生产力。",
+            "seo_keywords": [
+              "扎皮尔自动化",
+              "扎皮尔整合",
+              "商业应用自动化"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "CRMs",
+        "slug": "crms",
+        "href": "/technologies/crms",
+        "icon_type": "FaUsersCog",
+        "description": "用于客户工作流程、服务管理、业务运营、内容系统、内部门户和团队流程自动化的 CRM 和 CMS 技术。",
+        "seo_keywords": [
+          "客户关系管理开发服务",
+          "Jira CRM 开发",
+          "Odoo开发",
+          "有效负载 CMS 开发",
+          "业务工作流程系统",
+          "定制CMS开发"
+        ],
+        "technologies": [
+          {
+            "title": "吉拉客户关系管理",
+            "slug": "jira-crm",
+            "href": "/technologies/jira-crm",
+            "description": "用于服务管理、客户支持、销售工作流程、票务、报告、仪表板和团队运营的 Jira CRM 和工作流程开发。",
+            "seo_keywords": [
+              "Jira CRM 开发",
+              "Jira 工作流程自动化",
+              "Jira 服务管理"
+            ]
+          },
+          {
+            "title": "Odoo",
+            "slug": "odoo",
+            "href": "/technologies/odoo",
+            "description": "适用于 CRM、ERP、销售、库存、会计、运营、自动化、仪表板和自定义业务管理工作流程的 Odoo 开发。",
+            "seo_keywords": [
+              "Odoo开发",
+              "Odoo CRM 开发",
+              "Odoo ERP实施"
+            ]
+          },
+          {
+            "title": "有效负载CMS",
+            "slug": "payload-cms",
+            "href": "/technologies/payload-cms",
+            "description": "适用于现代内容平台、管理面板、产品目录、网站、门户、API 和自定义编辑工作流程的有效负载 CMS 开发。",
+            "seo_keywords": [
+              "有效负载 CMS 开发",
+              "无头 CMS 开发",
+              "定制CMS开发"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Databases",
+        "slug": "database",
+        "href": "/technologies/database",
+        "icon_type": "FaDatabase",
+        "description": "用于安全存储、可扩展查询、API 驱动的应用程序、实时系统、云数据和商业智能的数据库技术。",
+        "seo_keywords": [
+          "数据库技术",
+          "数据库开发服务",
+          "苏帕基地开发",
+          "MongoDB开发",
+          "MySQL开发",
+          "亚马逊 DynamoDB 开发"
+        ],
+        "technologies": [
+          {
+            "title": "亚马逊动态数据库",
+            "slug": "amazon-dynamodb",
+            "href": "/technologies/amazon-dynamodb",
+            "description": "适用于无服务器应用程序、可扩展云数据库、高流量系统和 AWS 支持的数字平台的 Amazon DynamoDB 开发。",
+            "seo_keywords": [
+              "亚马逊 DynamoDB 开发",
+              "DynamoDB 数据库设计",
+              "AWS数据库开发"
+            ]
+          },
+          {
+            "title": "MongoDB",
+            "slug": "mongodb",
+            "href": "/technologies/mongodb",
+            "description": "MongoDB 开发用于灵活的文档数据库、可扩展的应用程序、动态数据模型、仪表板、API 和云平台。",
+            "seo_keywords": [
+              "MongoDB开发",
+              "MongoDB数据库设计",
+              "NoSQL数据库开发"
+            ]
+          },
+          {
+            "title": "MySQL",
+            "slug": "mysql",
+            "href": "/technologies/mysql",
+            "description": "适用于结构化关系数据库、业务应用程序、报告系统、仪表板和安全数据驱动平台的 MySQL 开发。",
+            "seo_keywords": [
+              "MySQL开发",
+              "MySQL数据库设计",
+              "关系型数据库开发"
+            ]
+          },
+          {
+            "title": "Supabase",
+            "slug": "supabase",
+            "href": "/technologies/supabase",
+            "description": "Supabase 开发用于身份验证、PostgreSQL 数据库、实时应用程序、API、仪表板、SaaS 平台和云支持产品。",
+            "seo_keywords": [
+              "苏帕基地开发",
+              "Supabase应用程序开发",
+              "Supabase后端开发"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Frameworks",
+        "slug": "frameworks",
+        "href": "/technologies/frameworks",
+        "icon_type": "FaLayerGroup",
+        "description": "用于构建快速网站、安全后端、SaaS 平台、移动应用程序、API、管理仪表板和可扩展数字产品的现代框架。",
+        "seo_keywords": [
+          "网络开发框架",
+          "移动应用程序开发框架",
+          "Next.js开发",
+          "Node.js 开发",
+          "NestJS开发",
+          "颤振开发",
+          "React Native 开发"
+        ],
+        "technologies": [
+          {
+            "title": "Flutter",
+            "slug": "flutter",
+            "href": "/technologies/flutter",
+            "description": "Flutter 开发快速、现代、跨平台的移动应用程序，具有精美的 UI、可扩展的架构和流畅的用户体验。",
+            "seo_keywords": [
+              "颤振开发",
+              "颤动应用程序开发",
+              "跨平台应用程序开发"
+            ]
+          },
+          {
+            "title": "Laravel",
+            "slug": "laravel",
+            "href": "/technologies/laravel",
+            "description": "Laravel 开发用于自定义 Web 应用程序、业务平台、管理仪表板、API、CMS 系统和安全后端解决方案。",
+            "seo_keywords": [
+              "Laravel 开发",
+              "Laravel 网络开发",
+              "Laravel 应用程序开发"
+            ]
+          },
+          {
+            "title": "NestJS",
+            "slug": "nestjs",
+            "href": "/technologies/nestjs",
+            "description": "NestJS 开发用于结构化后端架构、企业 API、SaaS 系统、身份验证、权限和可扩展服务器应用程序。",
+            "seo_keywords": [
+              "NestJS开发",
+              "NestJS后端开发",
+              "NestJS API开发"
+            ]
+          },
+          {
+            "title": "Next.js / Node.js",
+            "slug": "nextjs-nodejs",
+            "href": "/technologies/nextjs-nodejs",
+            "description": "Next.js 和 Node.js 开发，适用于 SEO 友好的 Web 产品、可扩展 API、SaaS 平台、仪表板、门户和高性能应用程序。",
+            "seo_keywords": [
+              "Next.js开发",
+              "Node.js 开发",
+              "全栈 JavaScript 开发"
+            ]
+          },
+          {
+            "title": "反应本机",
+            "slug": "react-native",
+            "href": "/technologies/react-native",
+            "description": "React Native 开发跨平台移动应用程序，具有类似本机的性能、共享代码库、API 和可扩展的应用程序架构。",
+            "seo_keywords": [
+              "React Native 开发",
+              "跨平台移动应用程序开发",
+              "React Native 应用程序开发"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Languages",
+        "slug": "languages",
+        "href": "/technologies/languages",
+        "icon_type": "FaCode",
+        "description": "用于构建可靠的软件系统、Web 应用程序、后端服务、自动化逻辑、API、企业工具和注重性能的产品的编程语言。",
+        "seo_keywords": [
+          "用于软件开发的编程语言",
+          "JavaScript 开发",
+          "TypeScript 开发",
+          "Python开发",
+          "Java开发",
+          "PHP开发",
+          "红宝石开发",
+          "锈蚀发展"
+        ],
+        "technologies": [
+          {
+            "title": "Java",
+            "slug": "java",
+            "href": "/technologies/java",
+            "description": "适用于企业系统、后端服务、可扩展应用程序、安全 API 和业务软件平台的 Java 开发。",
+            "seo_keywords": [
+              "Java软件开发",
+              "Java后端开发",
+              "企业Java开发"
+            ]
+          },
+          {
+            "title": "JavaScript / TypeScript",
+            "slug": "javascript-typescript",
+            "href": "/technologies/javascript-typescript",
+            "description": "适用于可扩展 Web 应用程序、SaaS 平台、API、接口和企业级系统的 JavaScript 和 TypeScript 开发。",
+            "seo_keywords": [
+              "JavaScript 开发",
+              "TypeScript 开发",
+              "全栈 TypeScript 开发"
+            ]
+          },
+          {
+            "title": "PHP",
+            "slug": "php",
+            "href": "/technologies/php",
+            "description": "适用于网站、自定义平台、CMS 解决方案、后端系统、Laravel 应用程序和商业 Web 工具的 PHP 开发。",
+            "seo_keywords": [
+              "PHP开发",
+              "PHP 网页开发",
+              "定制 PHP 开发"
+            ]
+          },
+          {
+            "title": "Python",
+            "slug": "python",
+            "href": "/technologies/python",
+            "description": "用于自动化、API、AI 工作流程、数据处理、后端系统、脚本和智能业务工具的 Python 开发。",
+            "seo_keywords": [
+              "Python开发",
+              "Python自动化",
+              "Python后端开发"
+            ]
+          },
+          {
+            "title": "Ruby",
+            "slug": "ruby",
+            "href": "/technologies/ruby",
+            "description": "适用于 SaaS 平台、业务门户、后端 API、管理仪表板、自动化系统、MVP 和可维护的 Web 产品的 Ruby 开发。",
+            "seo_keywords": [
+              "红宝石开发",
+              "Ruby 后端开发",
+              "Ruby on Rails 开发"
+            ]
+          },
+          {
+            "title": "Rust",
+            "slug": "rust",
+            "href": "/technologies/rust",
+            "description": "Rust 开发用于安全、高性能系统、后端服务、API、自动化引擎、基础设施工具和性能关键型产品。",
+            "seo_keywords": [
+              "锈蚀发展",
+              "Rust 后端开发",
+              "高性能软件开发"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Tools",
+        "slug": "tools",
+        "href": "/technologies/tools",
+        "icon_type": "FaTools",
+        "description": "适用于电子商务、CMS 网站、云托管、集成、在线商店和操作系统的平台工具和业务技术。",
+        "seo_keywords": [
+          "业务平台工具",
+          "Shopify开发",
+          "WordPress开发",
+          "亚马逊云服务",
+          "电子商务开发工具"
+        ],
+        "technologies": [
+          {
+            "title": "Amazon",
+            "slug": "amazon",
+            "href": "/technologies/amazon",
+            "description": "适用于云基础设施、电子商务工作流程、集成、托管、可扩展性和业务平台支持的亚马逊技术解决方案。",
+            "seo_keywords": [
+              "亚马逊云开发",
+              "亚马逊整合服务",
+              "AWS 业务解决方案"
+            ]
+          },
+          {
+            "title": "DoctorHosters",
+            "slug": "doctorhosters",
+            "href": "/technologies/doctorhosters",
+            "description": "DoctorHosters 平台支持托管、商业网站、数字系统、技术设置和托管网站运营。",
+            "seo_keywords": [
+              "医生主机支持",
+              "网站托管支持",
+              "托管网站托管"
+            ]
+          },
+          {
+            "title": "Shopify",
+            "slug": "shopify",
+            "href": "/technologies/shopify",
+            "description": "针对在线商店、自定义店面、产品目录、支付工作流程、自动化和电子商务集成的 Shopify 开发。",
+            "seo_keywords": [
+              "Shopify开发",
+              "Shopify店铺开发",
+              "Shopify电子商务开发"
+            ]
+          },
+          {
+            "title": "WordPress",
+            "slug": "wordpress",
+            "href": "/technologies/wordpress",
+            "description": "适用于商业网站、登陆页面、CMS 平台、博客、服务页面、SEO 内容和自定义集成的 WordPress 开发。",
+            "seo_keywords": [
+              "WordPress开发",
+              "WordPress网站开发",
+              "定制 WordPress 开发"
+            ]
+          }
+        ]
+      }
+    ]
+  }
 }

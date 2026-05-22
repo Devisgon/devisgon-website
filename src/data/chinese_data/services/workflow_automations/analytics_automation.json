@@ -1,0 +1,206 @@
+{
+  "slug": "analytics-automation",
+  "hero_section": {
+    "title": "企业分析自动化系统",
+    "subtitle": "实时遥测的算法数据管道工程",
+    "description": "我们设计了生产级分析自动化基础设施，将原始的多结构运营数据转换为干净的流式商业智能。消除手动报告、统一数据孤岛并建立低延迟遥测网格。",
+    "buttons": [
+      {
+        "text": "架构师分析管道",
+        "link": "/contact"
+      },
+      {
+        "text": "咨询我们的数据工程师",
+        "link": "/contact"
+      }
+    ],
+    "hero_image": "/videos/business_analytics.mp4"
+  },
+  "introduction_section": {
+    "heading": "什么是企业级",
+    "span_heading": "分析自动化？",
+    "content": [
+      "在 Devisgon，我们设计和构建强大的程序化分析自动化层，将复杂的业务指标转换为连续的、自我更新的数据基础设施。摆脱脆弱的电子表格宏和缓慢的手动报告，我们构建了分散的提取和聚合网络，在您的产品堆栈内本地运行实时指标计算。",
+      "我们弥合了繁重的生产数据库和面向用户的仪表板之间的差距。我们部署的每个分析循环都具有自动提取 转换 加载 (ETL) 微服务​​、精确的数据类型格式化、架构验证和安全 API 密钥，确保您的 Web 应用程序流量日志、财务交易和运营指标保持统一且无错误。"
+    ],
+    "highlight_quote": "“连续数据聚合、亚秒级遥测跟踪、0% 手动计算开销。”",
+    "side_image": "/all_services/ai_powered_automation/introduction.webp"
+  },
+  "key_benefits_section": {
+    "title": "主要企业效益",
+    "subtitle": "将无组织的事件日志转换为实时、高保真的商业智能",
+    "cards": [
+      {
+        "title": "连续流数据",
+        "description": "在事务或事件触发的精确毫秒内聚合和计算重要指标，绕过传统的批处理延迟循环。",
+        "icon_type": "HiMiniSignal"
+      },
+      {
+        "title": "统一系统跟踪",
+        "description": "通过执行连续的多应用程序 Webhook 同步，将软件记录合并到单一事实来源，消除数据差异。",
+        "icon_type": "VscGraphLine"
+      },
+      {
+        "title": "自动异常警报",
+        "description": "对自定义多变量矩阵工作流程进行编程，持续检查性能平衡，如果指标发生变化，立即通过通信 Webhook 向团队发出警报。",
+        "icon_type": "PiCodeFill"
+      },
+      {
+        "title": "预测趋势跟踪",
+        "description": "将原始历史遥测池转化为结构化数据矩阵，以跟踪准确的增长模式、运营下降和资源速度概况。",
+        "icon_type": "VscGraphLine"
+      }
+    ]
+  },
+  "what_you_get_section": {
+    "title": "您将通过 Devsgon Analytics 基础设施获得什么",
+    "image": "/all_services/ai_powered_automation/wwg.webp",
+    "list_items": [
+      {
+        "title": "1. 程序化 ETL 和聚合微服务",
+        "description": "先进的自动化工作流程网络（通过 n8n 或 Make.com 设计），可提取操作数据、处理模式转换和构建指标参数。"
+      },
+      {
+        "title": "2. 高性能矢量和关系同步",
+        "description": "API 中间件层配置为读取多平台应用程序交互并将其立即记录到安全、查询优化的关系表中。"
+      },
+      {
+        "title": "3. 自动 Webhook 摄取网关",
+        "description": "强大的端点可以安全地捕获应用程序事件、调整数据负载并提供实时分析仪表板，而不会丢失活动数据包。"
+      },
+      {
+        "title": "4. 集中式 Glassmorphic UI 遥测面板",
+        "description": "时尚的 Next.js 跟踪界面采用暗模式、背景模糊和清晰的环境发光设计，可监控实时转换阵列和系统运行状况。"
+      }
+    ]
+  },
+  "technologies_section": {
+    "title": "我们与现代分析和管道工具集成",
+    "subtitle": "行业领先的数据编排平台、高速存储和专为高流量规模而设计的跟踪 API",
+    "tools": [
+      {
+        "name": "n8n",
+        "icon": "SiN8N"
+      },
+      {
+        "name": "Make.com",
+        "icon": "SiMake"
+      },
+      {
+        "name": "Next.js（API 路由）",
+        "icon": "SiNextdotjs"
+      },
+      {
+        "name": "Supabase",
+        "icon": "SiSupabase"
+      },
+      {
+        "name": "PostgreSQL (pgvector)",
+        "icon": "BiLogoPostgresql"
+      },
+      {
+        "name": "Redis（内存中指标）",
+        "icon": "SiRedis"
+      },
+      {
+        "name": "Python（数据处理）",
+        "icon": "FaPython"
+      },
+      {
+        "name": "Docker",
+        "icon": "FaDocker"
+      },
+      {
+        "name": "Zapier",
+        "icon": "SiZapier"
+      },
+      {
+        "name": "谷歌分析 API",
+        "icon": "SiGoogleanalytics"
+      },
+      {
+        "name": "混合面板API",
+        "icon": "SiMixpanel"
+      },
+      {
+        "name": "HubSpot 分析 API",
+        "icon": "SiHubspot"
+      },
+      {
+        "name": "乔特形式API",
+        "icon": "SiJotform"
+      }
+    ]
+  },
+  "process_section": {
+    "title": "我们的工程蓝图",
+    "subtitle": "在 6 周内从指标蓝图到实时遥测自动化",
+    "steps": [
+      {
+        "title": "Discover",
+        "description": "审核活动数据源、地图系统遥测端点、隔离关键业务 KPI 以及跟踪软件 API 有效负载格式。",
+        "icon": "FaSearch"
+      },
+      {
+        "title": "Design",
+        "description": "制定逻辑数据映射模式、结构流转换并设计安全的关系数据库表。",
+        "icon": "TbTools"
+      },
+      {
+        "title": "Build",
+        "description": "对自定义数据路由层进行编程，在 n8n/Make 上配置云摄取流，并部署低延迟的 Next.js 分析组件。",
+        "icon": "FaHammer"
+      },
+      {
+        "title": "Launch",
+        "description": "执行广泛的高吞吐量有效负载测试，优化系统查询，并安全地启动自我更新的可视化面板。",
+        "icon": "FaRocket"
+      }
+    ]
+  },
+  "case_study_section": {
+    "headline": "100% 消除报告工作和跨多应用程序阵列的即时数据同步",
+    "image": "/all_services/ai_powered_automation/case_study.webp",
+    "content": {
+      "problem": {
+        "label": "运营障碍",
+        "text": "一个快速增长的 B2B 服务平台正在失去战略吸引力，因为管理人员每周花费 20 多个工时复制和组合来自登陆表单、CRM 和支付应用程序的指标。"
+      },
+      "solution": {
+        "label": "我们的工程方法",
+        "text": "我们使用 n8n 微服务和无服务器 Next.js 路由处理程序设计了一个自动化的事件驱动 ETL 数据网络，将记录立即构建到隔离的 Supabase 引擎中。"
+      },
+      "result": {
+        "label": "可衡量的影响",
+        "text": "手动电子表格构建降至绝对零，数据同步延迟降至亚秒级，管理人员可以立即访问准确的实时企业分析日志。"
+      }
+    }
+  },
+  "faq_section": {
+    "title": "分析自动化架构和常见问题解答",
+    "subtitle": "关键数据库配置、Webhook 处理和管道安全问题的清晰答案",
+    "questions": [
+      {
+        "question": "如何将可视化编排节点与自定义编程脚本混合在一起？",
+        "answer": "我们将 n8n 或 Make.com 的敏捷工作流程序列跟踪与专门的 Next.js 无服务器路由处理程序配对。该架构利用低代码节点来实现清晰的操作可见性，并利用自定义 JavaScript/Python 代码块来实现安全令牌解析、深层逻辑规则和复杂的数组转换。"
+      },
+      {
+        "question": "在应用程序流量突然激增期间，分析监控引擎会发生什么情况？",
+        "answer": "我们部署由高速 Redis 消息队列支持的无状态集成中间件。如果您的平台接收数千个并发用户交互，数据库管道会安全地对有效负载进行排队，顺利计算指标，而不会超出数据库存储限制。"
+      },
+      {
+        "question": "我们能否安全地将 Jotform 等自定义接收渠道直接集成到内部数据网格中？",
+        "answer": "绝对地。我们构建了强大的 Webhook 网关，可以从 Jotform 等平台安全地获取实时 JSON 参数，在将记录附加到 PostgreSQL 数据池之前验证数据格式。"
+      },
+      {
+        "question": "在通过集成层路由信息时如何保护数据隐私？",
+        "answer": "我们设计的每个自动化数据管道都执行零信任准则。所有传入的 Webhook 均使用加密签名（SHA 256 标头验证）进行验证，所有传输均使用 TLS 1.3 在传输过程中进行加密，敏感的用户 PII 字段在存储之前会被剥离或屏蔽。"
+      }
+    ],
+    "footer": {
+      "text": "准备好构建可靠的、自我校正的分析遥测架构了吗？",
+      "link_text": "与我们的团队安排管道审查",
+      "link_url": "/contact"
+    }
+  }
+}

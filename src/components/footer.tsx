@@ -1,9 +1,10 @@
 "use client";
 
-import { ChevronLeft, Mail, Phone } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
-import { getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+import { findNavbarItemByHref, getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+import { toSectionAnchor } from "@/lib/section-anchor";
 
 interface FooterLink {
   name: string;
@@ -35,6 +36,33 @@ const getInitialLanguage = () => normalizeLanguage(getCookieValue("lang"));
 const linkClass =
   "cursor-pointer text-sm font-medium text-t-secondary underline-offset-4 transition-colors hover:text-btn-primary hover:underline md:text-base";
 
+const serviceCategoryAnchors = [
+  "ai-and-ml-development",
+  "workflow-automation",
+  "cloud-and-architecture",
+  "data-solutions",
+  "design-and-analysis",
+  "",
+  "web-and-saas-development",
+];
+
+const getCategoryHref = (
+  baseHref: string | undefined,
+  category: FooterCategory,
+  index: number,
+  categoryAnchors?: string[],
+) => {
+  if (!baseHref) {
+    return "#";
+  }
+
+  if (categoryAnchors && index in categoryAnchors) {
+    return categoryAnchors[index] ? `${baseHref}#${categoryAnchors[index]}` : baseHref;
+  }
+
+  return `${baseHref}#${toSectionAnchor(category.title)}`;
+};
+
 const FooterStaticColumn = ({ title, links }: FooterColumn) => (
   <div className="flex flex-col items-start">
     <h3 className="mb-5 text-xl font-bold text-t-primary">{title}</h3>
@@ -50,13 +78,22 @@ const FooterStaticColumn = ({ title, links }: FooterColumn) => (
   </div>
 );
 
-const FooterCategoryColumn = ({ title, categories }: { title: string; categories: FooterCategory[] }) => {
-  const [activeCategory, setActiveCategory] = useState<FooterCategory | null>(null);
+const FooterCategoryColumn = ({
+  title,
+  categories,
+  baseHref,
+  categoryAnchors,
+}: {
+  title: string;
+  categories: FooterCategory[];
+  baseHref?: string;
+  categoryAnchors?: string[];
+}) => {
   const directLinks = categories.length === 1 && !categories[0].title ? categories[0].links : null;
 
   return (
     <div className="flex flex-col items-start">
-      <h3 className="mb-5 text-xl font-bold text-t-primary">{activeCategory ? activeCategory.title : title}</h3>
+      <h3 className="mb-5 text-xl font-bold text-t-primary">{title}</h3>
 
       {directLinks ? (
         <ul className="flex flex-col gap-3">
@@ -68,38 +105,16 @@ const FooterCategoryColumn = ({ title, categories }: { title: string; categories
             </li>
           ))}
         </ul>
-      ) : activeCategory ? (
-        <>
-          <button
-            type="button"
-            onClick={() => setActiveCategory(null)}
-            className="mb-4 inline-flex items-center gap-1 text-sm font-semibold text-btn-primary transition-opacity hover:opacity-80"
-          >
-            <ChevronLeft className="h-4 w-4" />
-            {title}
-          </button>
-
-          <ul className="flex flex-col gap-3">
-            {activeCategory.links.map((link) => (
-              <li key={`${title}-${activeCategory.title}-${link.href}`}>
-                <a href={link.href} className={linkClass}>
-                  {link.name}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </>
       ) : (
         <ul className="flex flex-col gap-3">
-          {categories.map((category) => (
+          {categories.map((category, index) => (
             <li key={`${title}-${category.title}`}>
-              <button
-                type="button"
-                onClick={() => setActiveCategory(category)}
+              <a
+                href={getCategoryHref(baseHref, category, index, categoryAnchors)}
                 className={linkClass}
               >
                 {category.title}
-              </button>
+              </a>
             </li>
           ))}
         </ul>
@@ -130,9 +145,9 @@ const Footer = () => {
   const newsletterColumn =
     footerColumns.find((column) => column.title.toLowerCase().includes("newsletter")) ?? footerColumns[2];
   const legalLinks = helpColumn.links.filter((link) => link.href.includes("privacy") || link.href.includes("terms"));
-  const servicesNav = navbarData.navbar.find((item) => item.href === "/services");
-  const industriesNav = navbarData.navbar.find((item) => item.href === "/industries");
-  const technologiesNav = navbarData.navbar.find((item) => item.href === "/technologies");
+  const servicesNav = findNavbarItemByHref(navbarData, "/services");
+  const industriesNav = findNavbarItemByHref(navbarData, "/industries");
+  const technologiesNav = findNavbarItemByHref(navbarData, "/technologies");
   const partnersNav = navbarData.navbar.find((item) => item.name.toLowerCase().includes("partner"));
   const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
   const servicesCategories = servicesNav?.dropdown?.columns ?? [];
@@ -185,13 +200,26 @@ const Footer = () => {
         </div>
 
         <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
-          <FooterCategoryColumn title={servicesNav?.name ?? "Services"} categories={servicesCategories} />
-          <FooterCategoryColumn title={industriesNav?.name ?? "Industries"} categories={industriesCategories} />
-          <FooterCategoryColumn title={technologiesNav?.name ?? "Technologies"} categories={technologiesCategories} />
+          <FooterCategoryColumn
+            title={servicesNav?.name ?? "Services"}
+            categories={servicesCategories}
+            baseHref="/services"
+            categoryAnchors={serviceCategoryAnchors}
+          />
+          <FooterCategoryColumn
+            title={industriesNav?.name ?? "Industries"}
+            categories={industriesCategories}
+            baseHref="/industries"
+          />
+          <FooterCategoryColumn
+            title={technologiesNav?.name ?? "Technologies"}
+            categories={technologiesCategories}
+            baseHref="/technologies"
+          />
           <FooterCategoryColumn title={partnersNav?.name ?? "Partners"} categories={partnersCategories} />
         </div>
 
-        <div className="flex flex-col items-start lg:hidden">r
+        <div className="flex flex-col items-start lg:hidden">
           <h3 className="mb-5 text-xl font-bold text-t-primary">{newsletterColumn.title}</h3>
           <FooterNewsletterForm lang={currentLang} />
         </div>
