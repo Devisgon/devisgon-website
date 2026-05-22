@@ -37,7 +37,7 @@
       },
       {
         "title": "Erreur humaine réduite",
-        "description": "Éliminez les configurations manuelles du serveur et les copier-coller qui entraînent des temps d'arrêt catastrophiques.",
+        "description": "Éliminez les configurations manuelles du serveur et les copier coller qui entraînent des temps d'arrêt catastrophiques.",
         "icon_type": "MdGppGood"
       },
       {
@@ -66,7 +66,7 @@
       },
       {
         "title": "3. Déploiements sans temps d'arrêt",
-        "description": "Stratégies de déploiement avancées (comme Blue-Green ou Canary) pour que votre application reste active pendant les mises à jour."
+        "description": "Stratégies de déploiement avancées (comme Blue Green ou Canary) pour que votre application reste active pendant les mises à jour."
       },
       {
         "title": "4. Surveillance des performances",
@@ -132,7 +132,7 @@
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Une entreprise SaaS effectuait des déploiements manuels qui nécessitaient de mettre le site hors ligne pendant des heures chaque week-end, entraînant l'épuisement des développeurs."
+        "text": "Une entreprise SaaS effectuait des déploiements manuels qui nécessitaient de mettre le site hors ligne pendant des heures chaque week end, entraînant l'épuisement des développeurs."
       },
       "solution": {
         "label": "Solution",
@@ -153,21 +153,21 @@
         "answer": "La livraison continue signifie que votre code est automatiquement testé et prêt à être déployé, mais qu'un humain doit encore appuyer sur le bouton final « publier ». Le déploiement continu va encore plus loin : chaque modification de code qui réussit les tests automatisés est déployée directement en production sans aucune intervention humaine."
       },
       {
-        "question": "Ai-je besoin de CI/CD si j’ai une petite équipe de développement ?",
+        "question": "Ai je besoin de CI/CD si j’ai une petite équipe de développement ?",
         "answer": "Oui! Le CI/CD est sans doute encore plus important pour les petites équipes. Il agit comme un filet de sécurité numérique, détectant automatiquement les bogues et évitant que vos heures d'ingénierie limitées ne soient gaspillées en téléchargements répétitifs sur le serveur."
       },
       {
-        "question": "Un pipeline CI/CD fonctionnera-t-il avec ma base de code existante ?",
-        "answer": "Absolument. Que vous disposiez d’une application monolithique existante ou de microservices modernes, nous pouvons construire un pipeline autour de celle-ci. Les scripts de pipeline indiquent simplement au serveur comment créer et déplacer votre code spécifique."
+        "question": "Un pipeline CI/CD fonctionnera t il avec ma base de code existante ?",
+        "answer": "Absolument. Que vous disposiez d’une application monolithique existante ou de microservices modernes, nous pouvons construire un pipeline autour de celle ci. Les scripts de pipeline indiquent simplement au serveur comment créer et déplacer votre code spécifique."
       },
       {
-        "question": "Que se passe-t-il si un déploiement échoue ou interrompt le site en ligne ?",
+        "question": "Que se passe t il si un déploiement échoue ou interrompt le site en ligne ?",
         "answer": "Un pipeline CI/CD correctement conçu empêche cela. La phase « CI » détectera les erreurs de compilation ou de test et bloquera le déploiement. Si un bug parvient d'une manière ou d'une autre à la phase « CD », nous configurons des commandes de restauration instantanée afin que vous puissiez revenir à la version de travail précédente en quelques secondes."
       }
     ],
     "footer": {
       "text": "Vous n'avez pas trouvé votre réponse ?",
-      "link_text": "Contactez-nous pour une consultation DevOps gratuite",
+      "link_text": "Contactez nous pour une consultation DevOps gratuite",
       "link_url": "/contact"
     }
   }

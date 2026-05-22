@@ -2,274 +2,298 @@
   "herosection": {
     "title": "Our Services",
     "subtitle": "End to End Solutions ",
-    "span_subtitle":"for Modern Businesses",
-    "description": "From AI powered SaaS to cloud engineering, we cover the full spectrum of digital innovation with cutting-edge technology and proven expertise.",
+    "span_subtitle": "for Modern Businesses",
+    "description": "From AI powered SaaS to cloud engineering, we cover the full spectrum of digital innovation with cutting edge technology and proven expertise.",
     "buttons": [
       {
         "text": "Talk to an Expert",
-        "link":"/contact"
+        "link": "/contact"
       },
       {
         "text": "Explore Case Studies",
-        "link":"/contact"
-
+        "link": "/contact"
       }
     ]
   },
   "services": [
-    
-       {
+    {
       "category": "AI & ML Development",
       "headline": "Build Smarter Software, Faster",
       "span": " ",
-      "bg":"#FBF7FE",
+      "bg": "#FBF7FE",
       "description": "Transform your ideas into intelligent SaaS platforms with AI powered features and scalable architecture.",
       "features": [
         {
           "title": "AI Powered Automation",
           "details": "Custom AI solutions with machine learning models and intelligent automation.",
-          "icon":"FaRobot "
+          "icon": "FaRobot "
         },
         {
           "title": "SaaS Platforms",
-          "details": "Full-stack SaaS development with subscription management and multi tenancy.",
-          "icon":"FaCloud "
+          "details": "Full stack SaaS development with subscription management and multi tenancy.",
+          "icon": "FaCloud "
         },
         {
           "title": "MVP & POCs",
           "details": "Rapid prototyping and proof of concept development for market validation.",
-          "icon":"FaRocket "
+          "icon": "FaRocket "
         },
         {
           "title": "ML Integration",
           "details": "Custom machine learning models integrated into production systems.",
-          "icon":"FaGears "
+          "icon": "FaGears "
         }
       ],
-            "image":"/services_page/ai_and_saas.webp",
-
+      "image": "/services_page/ai_and_saas.webp",
       "deliverables": [
         "Clickable Prototypes",
         "REST APIs",
         "Billing Systems"
       ],
-      "tech_stack": ["Next.js", "Python", "AWS", "Express.js"]
+      "tech_stack": [
+        "Next.js",
+        "Python",
+        "AWS",
+        "Express.js"
+      ]
     },
     {
       "category": "Workflow Automation",
       "headline": "Automate Processes ",
-      "span":" with AI, No Code, or Custom Code",
+      "span": " with AI, No Code, or Custom Code",
       "description": "Streamline your business operations with intelligent automation solutions tailored to your specific needs.",
       "features": [
         {
           "title": "AI Powered Automation",
           "details": "Intelligent workflows that learn and adapt to your business patterns..",
-          "icon":"FaRobot"
+          "icon": "FaRobot"
         },
         {
           "title": "No Code Solutions",
           "details": "Zapier, Make.com, and n8n integrations for rapid deployment.",
-          "icon":"FaLink  "
+          "icon": "FaLink  "
         },
         {
           "title": "Low Code Solutions",
           "details": "Custom workflows with minimal coding for maximum flexibility.",
-          "icon":"FaPuzzlePiece "
+          "icon": "FaPuzzlePiece "
         },
         {
           "title": "Custom Coding",
           "details": "Python, JS, Selenium,Puppeteer, and Playwright automations..",
-          "icon":"FaCode "
+          "icon": "FaCode "
         }
       ],
-            "image":"/services_page/workflow_automation.webp",
-
+      "image": "/services_page/workflow_automation.webp",
       "deliverables": [
         "Automation Roadmap",
         "API Integrations",
         "Monitoring Tools"
       ],
-      "tech_stack": ["Zapier", "Make.com", "Python", "Airflow"]
+      "tech_stack": [
+        "Zapier",
+        "Make.com",
+        "Python",
+        "Airflow"
+      ]
     },
     {
       "category": "Web & SaaS Development",
       "headline": "Custom Apps",
-       "span": " for Any Device ",
-       "bg":"#FBF7FE",
+      "span": " for Any Device ",
+      "bg": "#FBF7FE",
       "description": "Create stunning, responsive applications that work seamlessly across all platforms and devices.",
       "features": [
         {
           "title": "Web Applications",
           "details": "Responsive web apps with modern frameworks and optimal performance.",
-          "icon":"IoMdDesktop "
+          "icon": "IoMdDesktop "
         },
         {
           "title": "Mobile Apps",
           "details": "iOS, Android, Flutter, and React Native development for all platforms.",
-          "icon":"FaMobileScreenButton "
+          "icon": "FaMobileScreenButton "
         },
         {
           "title": "Custom Scripts",
           "details": "Automation bots and custom scripts for specialized business needs.",
-          "icon":"FaCode "
+          "icon": "FaCode "
         }
       ],
-            "image":"/services_page/mobile_development.webp",
-
+      "image": "/services_page/mobile_development.webp",
       "deliverables": [
         "Responsive UI",
         "Admin Dashboards",
         "App Store Submissions"
       ],
-      "tech_stack": ["React", "Next.js", "Flutter", "PHP", "Java"]
+      "tech_stack": [
+        "React",
+        "Next.js",
+        "Flutter",
+        "PHP",
+        "Java"
+      ]
     },
-     {
+    {
       "category": "Data Solutions",
       "headline": "From Raw Data ",
-      "span":" to Business Insights",
+      "span": " to Business Insights",
       "description": "Transform your data into actionable insights with advanced analytics and machine learning solutions.",
       "features": [
         {
           "title": "Data Extraction",
           "details": "Web scraping and data mining from various sources.",
-          "icon":"FaDatabase "
+          "icon": "FaDatabase "
         },
         {
           "title": "Analytics Dashboards",
           "details": "Interactive dashboards for real time data visualization.",
-          "icon":"RiBarChartHorizontalFill "
+          "icon": "RiBarChartHorizontalFill "
         },
         {
           "title": "Business Analytics",
           "details": "Strategic insights and performance metrics analysis.",
-          "icon":"GoGraph "
+          "icon": "GoGraph "
         },
         {
           "title": "AI/ML Models",
           "details": "Predictive analytics and machine learning solutions.",
-          "icon":"FaBrain "
+          "icon": "FaBrain "
         }
       ],
-            "image":"/services_page/data_solution.webp",
-
+      "image": "/services_page/data_solution.webp",
       "deliverables": [
         "Data Pipelines",
         "Interactive Dashboards",
         "Predictive Models"
       ],
-      "tech_stack": ["Python", "SQL", "Tableau", "Power BI"]
+      "tech_stack": [
+        "Python",
+        "SQL",
+        "Tableau",
+        "Power BI"
+      ]
     },
-        
     {
       "category": "Design & Analysis",
       "headline": "Turning Ideas",
-      "span":" Into Validated Systems",
-      "bg":"#FBF7FE",
+      "span": " Into Validated Systems",
+      "bg": "#FBF7FE",
       "description": "From concept to execution, we provide comprehensive design and analysis services for digital products.",
       "features": [
         {
           "title": "UI/UX Design",
-          "details": "User-centered design with modern aesthetics and optimal user experience.",
-          "icon":"MdColorLens "
+          "details": "User centered design with modern aesthetics and optimal user experience.",
+          "icon": "MdColorLens "
         },
         {
           "title": "Prototyping",
           "details": "Interactive prototypes for user testing and stakeholder validation.",
-          "icon":"LuNetwork "
+          "icon": "LuNetwork "
         },
         {
           "title": "UML Diagrams",
           "details": "System architecture and process flow documentation.",
-          "icon":"PiShareNetworkFill "
+          "icon": "PiShareNetworkFill "
         },
         {
           "title": "Documentation",
           "details": "Comprehensive technical and user documentation.",
-          "icon":"CgNotes "
+          "icon": "CgNotes "
         }
-      ], 
-           "image":"/services_page/design.webp",
+      ],
+      "image": "/services_page/design.webp",
       "deliverables": [
         "Wireframes",
         "Design Systems",
         "Product Documentation"
       ],
-      "tech_stack": ["Figma", "Whimsical", "Notion", "Miro"]
+      "tech_stack": [
+        "Figma",
+        "Whimsical",
+        "Notion",
+        "Miro"
+      ]
     },
     {
       "category": "Blockchain & Web3",
       "headline": "Secure Smart Contract",
-      "span":" Develpoment",
+      "span": " Develpoment",
       "description": "Build the future with decentralized applications and secure blockchain solutions.",
       "features": [
         {
           "title": "Smart Contracts",
           "details": "Secure, audited smart contracts for various blockchain platforms.",
-          "icon":"FaLink "
+          "icon": "FaLink "
         },
         {
           "title": "Tokenomics",
           "details": "Token design and economic models for sustainable ecosystems.",
-          "icon":"FaDatabase "
+          "icon": "FaDatabase "
         },
         {
           "title": "Web3 Apps",
           "details": "Decentralized applications with modern user interfaces.",
-          "icon":"TbWorld "
+          "icon": "TbWorld "
         }
       ],
-      "image":"/services_page/block_chain.webp",
+      "image": "/services_page/block_chain.webp",
       "deliverables": [
         "Smart Contracts",
         "Security Audits",
         "Wallet Integrations"
       ],
-      "tech_stack": ["Solidity", "Ethers.js", "IPFS", "QuickNode"]
+      "tech_stack": [
+        "Solidity",
+        "Ethers.js",
+        "IPFS",
+        "QuickNode"
+      ]
     },
     {
-
       "category": "Cloud & Architecture",
       "headline": "Infrastructure ",
       "span": " That Scales",
-      "bg":"#FBF7FE",
+      "bg": "#FBF7FE",
       "description": "Build robust, scalable cloud infrastructure with modern DevOps practices and architecture design.",
       "features": [
         {
           "title": "Cloud Engineering",
           "details": "Scalable cloud solutions on AWS, Azure, and GCP.",
-          "icon":"FaCloud "
+          "icon": "FaCloud "
         },
         {
           "title": "Deployment & DevOps",
           "details": "CI/CD pipelines and automated deployment strategies.",
-          "icon":"FaRocket "
-
+          "icon": "FaRocket "
         },
         {
           "title": "Solution Architecture ",
           "details": "Enterprise grade architecture design and planning.",
-          "icon":"FaNetworkWired "
+          "icon": "FaNetworkWired "
         },
         {
           "title": "System Design",
           "details": "High performance system architecture and optimization.",
-          "icon":"FaGears "
+          "icon": "FaGears "
         }
       ],
-      "image":"/services_page/cloude.webp",
+      "image": "/services_page/cloude.webp",
       "deliverables": [
         "CI/CD Pipelines",
         "Architecture Docs",
         "Scalable Infrastructure"
       ],
-      "tech_stack": ["AWS", "Docker", "Kubernetes", "Azure"]
+      "tech_stack": [
+        "AWS",
+        "Docker",
+        "Kubernetes",
+        "Azure"
+      ]
     }
-   
   ],
-
-  "contact_form":{
-    "headline":"Let's Build Smarter, Together",
-    "description":"Talk to our experts and see how Devisgon can accelerate your business growth with cutting-edge technology solutions."
+  "contact_form": {
+    "headline": "Let's Build Smarter, Together",
+    "description": "Talk to our experts and see how Devisgon can accelerate your business growth with cutting edge technology solutions."
   }
-  
 }

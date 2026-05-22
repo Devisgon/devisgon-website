@@ -20,7 +20,7 @@
     "heading": "¿Qué es un autónomo?",
     "span_heading": "¿Agente de IA?",
     "content": [
-      "En Devisgon, diseñamos agentes de IA de nivel empresarial diseñados para ejecutar objetivos comerciales complejos y abiertos sin requerir intervención humana constante. A diferencia de los scripts de automatización estáticos basados ​​en reglas o los chatbots lineales básicos, nuestros agentes autónomos poseen bucles de razonamiento avanzados (como ReAct y Plan-and-Solve), lo que les permite evaluar entornos de datos cambiantes, seleccionar herramientas de software apropiadas y corregir dinámicamente su rumbo.",
+      "En Devisgon, diseñamos agentes de IA de nivel empresarial diseñados para ejecutar objetivos comerciales complejos y abiertos sin requerir intervención humana constante. A diferencia de los scripts de automatización estáticos basados ​​en reglas o los chatbots lineales básicos, nuestros agentes autónomos poseen bucles de razonamiento avanzados (como ReAct y Plan and Solve), lo que les permite evaluar entornos de datos cambiantes, seleccionar herramientas de software apropiadas y corregir dinámicamente su rumbo.",
       "Cerramos la brecha entre la cognición abstracta de LLM y las operaciones de software de nivel de producción. Cada clúster de múltiples agentes se implementa dentro de entornos sandbox seguros, se integra con sistemas de memoria persistente y se rige por estrictas restricciones programáticas, lo que garantiza que sus flujos de trabajo autónomos se ejecuten de manera confiable, segura y con la máxima eficiencia computacional."
     ],
     "highlight_quote": "\"Ejecución orientada a objetivos, orquestación de múltiples agentes, infraestructura de resolución de problemas 100% autónoma\".",
@@ -100,7 +100,7 @@
       },
       {
         "name": "n8n (IA avanzada y agentes)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Supabase (Vector y Estado)",
@@ -128,7 +128,7 @@
       },
       {
         "name": "Base de AWS",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       }
     ]
   },
@@ -194,7 +194,7 @@
       },
       {
         "question": "¿Puedo imponer supervisión humana antes de que un agente realice transacciones financieras o elimine registros?",
-        "answer": "Absolutamente. Incorporamos puntos de control Human-in-the-Loop (HITL). Cuando un agente llega a un nodo de alta prioridad (como activar un pago de API o modificar un archivo seguro), actualiza su estado a \"Pendiente\" y envía un webhook de notificación a su equipo humano para su validación a través de Slack o un panel administrativo."
+        "answer": "Absolutamente. Incorporamos puntos de control Human in the Loop (HITL). Cuando un agente llega a un nodo de alta prioridad (como activar un pago de API o modificar un archivo seguro), actualiza su estado a \"Pendiente\" y envía un webhook de notificación a su equipo humano para su validación a través de Slack o un panel administrativo."
       }
     ],
     "footer": {

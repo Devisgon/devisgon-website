@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "n8n",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -194,7 +194,7 @@
       },
       {
         "question": "¿Cómo se preserva la privacidad de los datos mientras se dirige la información a través de capas de integración?",
-        "answer": "Cada canal de datos automatizado que diseñamos aplica pautas de confianza cero. Todos los webhooks entrantes se validan mediante firmas criptográficas (validación de encabezado SHA-256), todas las transmisiones se cifran en tránsito mediante TLS 1.3 y los campos confidenciales de PII del usuario se eliminan o enmascaran antes del almacenamiento."
+        "answer": "Cada canal de datos automatizado que diseñamos aplica pautas de confianza cero. Todos los webhooks entrantes se validan mediante firmas criptográficas (validación de encabezado SHA 256), todas las transmisiones se cifran en tránsito mediante TLS 1.3 y los campos confidenciales de PII del usuario se eliminan o enmascaran antes del almacenamiento."
       }
     ],
     "footer": {

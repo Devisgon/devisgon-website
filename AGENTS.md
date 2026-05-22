@@ -39,19 +39,19 @@ Required actions after each meaningful code change:
 - Footer is a client component that syncs language from the `lang` cookie and listens to `app-language-change`; it renders logo/contact, Company, About, Newsletter, expandable Services, expandable Industries, expandable Technologies, and expandable Partners sections, with Privacy/Terms links in the bottom legal bar. Newsletter form copy/errors/buttons are language-aware in `src/components/footer_newsletter_form.tsx`.
 - Public route transitions show immediate feedback through `src/components/navigation_progress.tsx` for internal link clicks plus the route-level fallback spinner in `src/app/(app)/loading.tsx` for slower App Router segment loads.
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
-- Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`; the public root layout exports site-wide Metadata API defaults including metadata base, canonical root URL, robots, icons, Open Graph, Twitter card data, and the generated `/opengraph-image` preview.
+- Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`; `src/lib/seo.ts` also maps JSON `seo` / `seo_metadata` objects into Next Metadata API output for JSON-driven pages. The public root layout exports site-wide Metadata API defaults including metadata base, canonical root URL, robots, icons, Open Graph, Twitter card data, and the generated `/opengraph-image` preview.
 
 ## Route Flow
 ### Public Pages
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - Home blogs preview route segment (`src/components/home_page/blogs.tsx`) resolves `lang` from cookie and injects localized `home_page.blog_section` heading/subheading before rendering shared blog list.
-- Home services carousel (`src/components/home_page/services_section.tsx` + `src/components/animations/ServicesSection.module.css`) is a viewport-aware client island; the curved marquee loops infinitely while visible and pauses when out of view.
+- Home services carousel (`src/components/home_page/services_section.tsx` + `src/components/animations/ServicesSection.module.css`) is a viewport-aware client island; the curved marquee loops infinitely while visible and pauses when out of view, hovered, or keyboard-focused.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map, renders service sections, and ends with a simple CTA band (`src/components/services_page/cta_section.tsx`) using `contact_form` copy plus Book a Consultation/Contact Us links instead of a form.
 - Services, Industries, and Technologies main and detail hero sections render two fixed CTAs: `Book a Discovery Call` using `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING` with `/contact` fallback, followed by `Contact Us` linking to `/contact`.
 - Service detail public URLs are flat lowercase/hyphenated paths (`/services/<slug>`) resolved by `src/app/(app)/services/[slug]/page.tsx`; category-prefixed service URLs redirect to the flat route.
 - Services navigation now includes expanded service detail links for AI/ML, automation, cloud/DevOps, data solutions, digital design, testing, and web/SaaS additions, with localized labels mirrored in every `src/data/*_data/navbar.json` file.
-- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero/category content, then renders centered grouped category subsections from `industry_categories_section` when present, falling back to localized Industries navbar dropdown columns, with detail data resolved through `src/data/loaders/industries.ts` `INDUSTRY_GROUPS`; each sub-industry card links to flat `/industries/<slug>` routes and the page ends with the shared services CTA band.
-- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero/category content, then renders centered grouped category subsections from `technology_categories_section` when present, falling back to language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns; each sub-technology card links to flat `/technologies/<slug>` routes using technology slug aliases, is enriched from detail JSON for icons, and the page ends with the shared services CTA band.
+- `/industries` -> `src/app/(app)/industries/page.tsx` reads `lang` cookie, loads `industries_page.json` hero/category content, maps the JSON `seo` object into page metadata, then renders centered grouped category subsections from `industry_categories_section` when present, falling back to localized Industries navbar dropdown columns, with detail data resolved through `src/data/loaders/industries.ts` `INDUSTRY_GROUPS`; each sub-industry card links to flat `/industries/<slug>` routes and the page ends with the shared services CTA band.
+- `/technologies` -> `src/app/(app)/technologies/page.tsx` reads `lang` cookie, loads `technologies_page.json` hero/category content, maps the JSON `seo` object into page metadata, then renders centered grouped category subsections from `technology_categories_section` when present, falling back to language-specific navbar data (`src/data/*_data/navbar.json`) Technologies dropdown columns; each sub-technology card links to flat `/technologies/<slug>` routes using technology slug aliases, is enriched from detail JSON for icons, and the page ends with the shared services CTA band.
 - `/our-process` -> `src/app/(app)/our-process/page.tsx` loads `src/data/english_data/our_process.json`, maps `seo` to the Metadata API, renders `src/components/proceess/our_process_page.tsx`, and injects FAQ JSON-LD from the JSON FAQ section.
 - `/partners/doctorhoster` -> `src/app/(app)/partners/doctorhoster/page.tsx` is force-dynamic, reads `lang` cookie/query, loads Doctor Hosting section-array JSON through `src/data/loaders/others.ts`, and renders `src/components/others/doctorhosting/doctor_hosting_page.tsx` with rotating hero (`src/components/others/hosting_hero_slider.tsx`), meeting + pricing hero CTAs, an inline domain search form that checks common extensions through the internal API and shows an availability/pricing list on the same page, compact equal-height pricing cards, services, CTA, and FAQ sections.
 - `/partners/jotform` -> `src/app/(app)/partners/jotform/page.tsx` reads `lang` cookie/query, loads Jotform object JSON through `src/data/loaders/others.ts`, and renders `src/components/others/jotform/jotform_page.tsx` with a Jotform-inspired Devisgon-themed hero, meeting + Jotform login hero CTAs, stats, icon-based feature cards, product-suite cards, pricing cards with expandable AI Agent Limits near the middle of the page, template categories, workflow steps, security cards, FAQ, and external Jotform login CTAs.
@@ -71,6 +71,7 @@ All service detail pages share one rendering pattern:
   - category-prefixed routes such as `/services/automations/[slug]`, `/services/design/[slug]`, `/services/web-and-saas-development/[slug]`, `/services/data-solutions/[slug]`, `/services/testing/[slug]`, `/services/ai-and-ml/[slug]`, and `/services/cloud/[slug]` redirect to `/services/[slug]` through `next.config.ts`.
 - Route behavior:
   - is a server component,
+  - maps JSON `seo_metadata` into Metadata API output when present, falling back to `src/lib/seo.ts` defaults,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
   - normalizes incoming service slugs to lowercase hyphenated values and redirects uppercase/space/underscore variants to the canonical path,
   - pulls content from `src/lib/service-detail.ts`, which searches the service loader maps by slug, with hyphenated public slugs resolved against existing underscore-backed loader keys and old aliases when needed,
@@ -86,6 +87,7 @@ All service detail pages share one rendering pattern:
   - `/industries/[category]/[slug]` -> redirect to `/industries/[slug]` through `next.config.ts` and `src/app/(app)/industries/[...segments]/page.tsx`.
 - Route behavior:
   - server component with metadata from `src/lib/seo.ts`,
+  - maps detail JSON `seo` / `seo_metadata` into Metadata API output when present, falling back to `src/lib/seo.ts` defaults,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
   - resolves category from slug through `src/data/loaders/industries.ts`, then loads category + slug data with English fallback if localized file is missing,
   - renders reusable sections from `src/components/industries/*` (`hero`, `friction`, `architecture`, `key_benefits`, optional `carousel`, `case_studies`, `explore`, `conversation`),
@@ -97,6 +99,7 @@ All service detail pages share one rendering pattern:
   - `/technologies/[slug]` (served by `src/app/(app)/technologies/[slug]/page.tsx`).
 - Route behavior:
   - server component with metadata from `src/lib/seo.ts`,
+  - maps JSON `seo_metadata` into Metadata API output when present, falling back to `src/lib/seo.ts` defaults,
   - reads `lang` from URL query param (`?lang=`) with cookie fallback (`lang`) then `en`,
   - normalizes merged legacy technology slugs (`c`, `cpp`, `javascript`, `typescript`, `nextjs`, `nodejs`) to canonical combined slugs before loading data,
   - loads slug data from `src/data/loaders/technologies.ts` with English fallback if localized file is missing,
@@ -108,16 +111,18 @@ All service detail pages share one rendering pattern:
 - Base folders by language in `src/data/*_data`.
 - Home/services/privacy/terms pages use language-specific JSON maps in route files; `services_page.contact_form` provides the services-page bottom CTA heading/description.
 - Our Process page content and SEO use `src/data/english_data/our_process.json`; sections are rendered by type (`hero_section`, `intro_trust_section`, `timeline_section`, `value_cards_section`, `services_grid_section`, `call_to_action_section`, `faq_section`) through `src/components/proceess/our_process_page.tsx`.
-- Service detail pages use `src/lib/service-detail.ts` to search loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`; AI/ML content is sourced from `services/ai_and_ml` and Web/SaaS content is sourced from `services/web_and_saas_development`.
+- Service detail pages use `src/lib/service-detail.ts` to search loader files in `src/data/loaders/*.ts` that map `{lang -> {slug -> json}}`; AI/ML content is sourced from `services/ai_and_ml` and Web/SaaS content is sourced from `services/web_and_saas_development`; optional JSON `seo_metadata` (`title`, `description`, `keywords`) is mapped into page metadata with English/fallback defaults when absent.
 - Service detail loader maps include the expanded English and localized service JSON files for new AI/ML, automation, cloud/DevOps, data, design, testing, and web/SaaS pages; removed English service files should be removed from localized folders too so loader imports and sitemap crawling stay aligned.
 - Service detail `hero_section.hero_image` values point to MP4 files in `public/videos`; newly added service videos should use the canonical data filenames rather than upload-time typos or spaces.
 - Industry main page uses `src/data/*_data/industries_page.json`.
 - Industry main page hero and optional category/sub-industry copy use `src/data/*_data/industries_page.json`; category sections fall back to localized navbar Industries dropdown columns, and sub-industry card links are normalized to flat `/industries/<slug>` URLs.
+- Industry main page metadata is sourced from `industries_page.json` `seo` (`meta_title`, `meta_description`, canonical URL, robots, and keyword arrays) through `src/lib/seo.ts`, with hardcoded metadata retained only as fallback.
 - Industry detail pages use flat public routes plus `src/data/*_data/industries/<category>/<slug>.json` and `src/data/loaders/industries.ts` filesystem loaders.
 - Food industry detail pages currently include `bakery`, `juice-bar`, `catering`, `fine-dining`, and `ice-cream-parlor` across all language folders, with matching Food navbar links in `src/data/navbar.json` and localized `src/data/*_data/navbar.json` files.
 - Industry detail `hero_section.background_image` fields now point to slug/category-specific assets under `public/industries/*.webp`; new uploaded industry raster images should be converted to WEBP and the original PNG/JPG files removed after references are updated.
 - Technologies main page uses `src/data/*_data/technologies_page.json`.
 - Technologies main page hero and optional category/sub-technology copy use `src/data/*_data/technologies_page.json`; category sections fall back to language-specific `src/data/*_data/navbar.json` Technologies dropdown columns, and sub-technology card links are normalized to flat `/technologies/<slug>` URLs.
+- Technologies main page metadata is sourced from `technologies_page.json` `seo` (`meta_title`, `meta_description`, canonical URL, robots, and keyword arrays) through `src/lib/seo.ts`, with hardcoded metadata retained only as fallback.
 - Technology detail pages use `src/data/*_data/technologies/<category>/<slug>.json` and `src/data/loaders/technologies.ts` filesystem loaders.
 - Technology JSON reads and sitemap crawling strip an optional UTF-8 BOM before parsing so localized/generated files remain loadable.
 - Partners landing pages use explicit `/partners/<slug>` routes plus `src/data/*_data/others/<slug>.json` and `src/data/loaders/others.ts`; `/partners/doctorhoster` uses Doctor Hosting section-array JSON, JSON-defined remote hero backgrounds, and local fallback/service images under `public/doctr_hosting`, while `/partners/jotform` uses object-shaped Jotform JSON with translatable `page_copy`, stats, product-suite, template-category, workflow, security, pricing, optional per-plan `agent` AI-agent limits, and FAQ arrays plus external Jotform CDN hero artwork allowed by `next.config.ts` and a company referral login URL.
@@ -134,6 +139,7 @@ All service detail pages share one rendering pattern:
   - `technologies/database/*.json` database files (for example `mongodb.json`, `mysql.json`, `supabase.json`, `amazon_dynamodb.json`),
   - `technologies/tools/*.json` platform tool files (for example `shopify.json`, `wordpress.json`, `amazon.json`, `doctorhosters.json`).
 - Technology detail JSON schema is custom (separate from industries) and includes:
+  - optional `seo_metadata` (`title`, `description`, `keywords`) for Metadata API output,
   - `hero_section` (`side_image`, `primary_cta`, `secondary_cta`),
   - `why_use_section` (`paragraphs` + right-column icon cards),
   - `architecture_section` (`image` + numbered `items`),
@@ -283,7 +289,7 @@ If you change this, also check this:
 - Contact/inquiry payload fields -> `src/app/(app)/api/contact_mail/route.ts`, `src/components/contact_page/contact_page_client.tsx`, `src/components/direct_inquiry_form.tsx`, and `src/lib/inquiry-options.ts`.
 - DoctorHoster domain search behavior -> `src/components/others/doctorhosting/doctor_hosting_page.tsx` + `src/app/(app)/api/doctorhoster_domain_search/route.ts`.
 - Jotform pricing fields -> `src/data/*_data/others/jotform.json`, `src/types/others_page/index.ts`, and pricing renderer `src/components/others/jotform/jotform_pricing.tsx`; per-plan `agent` arrays render in an expandable AI Agent Limits panel when present.
-- SEO keywords, page metadata, or JSON-LD sitelinks -> `src/lib/seo.ts` + `src/app/(app)/layout.tsx` + relevant page metadata exports.
+- SEO keywords, page metadata, JSON `seo` / `seo_metadata`, or JSON-LD sitelinks -> `src/lib/seo.ts` + `src/app/(app)/layout.tsx` + relevant page `generateMetadata` functions or metadata exports.
 
 ## Known Risks and Technical Debt
 - `src/data/loaders/digital_design.ts` has Arabic/German imports swapped for `ar` and `de` language maps.
@@ -428,3 +434,7 @@ If you change this, also check this:
 - 2026-05-22: Reused existing valid service images/videos for newly added service JSON entries with missing media paths and standardized Services, Industries, and Technologies hero CTAs to 15-minute discovery call plus Contact Us links.
 - 2026-05-22: Added `scripts/replace-data-hyphens.mjs` and `npm run data:hyphen-to-space` for dry-run-safe hyphen-to-space cleanup in JSON text values under `src/data`.
 - 2026-05-22: Added the `npm run data:translate` command and help/language filtering to `scripts/translate_services.mjs` for whole-website JSON translation from English data.
+- 2026-05-22: Ran the JSON hyphen cleanup across `src/data`, replacing hyphens in content strings with spaces while preserving structural slugs, links, IDs, icons, and asset paths.
+- 2026-05-22: Normalized service technology carousel icon names for AWS, CrewAI, and n8n across localized service JSON and added a CrewAI alias in the shared icon registry.
+- 2026-05-22: Added hover and keyboard-focus pause behavior to the homepage services carousel marquee.
+- 2026-05-22: Wired JSON `seo` and `seo_metadata` fields into Metadata API output for Industries, Technologies, and service/industry/technology detail pages with hardcoded fallbacks.

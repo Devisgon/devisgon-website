@@ -1,28 +1,27 @@
 {
-    "slug": "saas-development",
-
+  "slug": "saas-development",
   "hero_section": {
     "title": "Plateformes SaaS",
     "subtitle": "Créez, faites évoluer et monétisez votre logiciel",
-    "description": "Nous concevons et développons des plates-formes SaaS avec une architecture multi-tenant, une facturation sécurisée, des tableaux de bord d'administration et une infrastructure cloud évolutive, tout ce dont vous avez besoin pour lancer et développer une entreprise par abonnement.",
+    "description": "Nous concevons et développons des plates formes SaaS avec une architecture multi tenant, une facturation sécurisée, des tableaux de bord d'administration et une infrastructure cloud évolutive, tout ce dont vous avez besoin pour lancer et développer une entreprise par abonnement.",
     "buttons": [
       {
         "text": "Démarrer mon projet d'IA",
         "link": "/contact"
       },
       {
-        "text": "Contactez-nous",
+        "text": "Contactez nous",
         "link": "/contact"
       }
     ],
     "hero_image": "/videos/saas_developmen.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que",
+    "heading": "Qu'est ce que",
     "span_heading": "Développement de plateforme SaaS ?",
     "content": [
-      "Chez Devisgon, nous construisons des plates-formes SaaS prêtes à être lancées et évolutives. Des produits SaaS MVP pour les startups aux plateformes d'entreprise pour les entreprises mondiales.",
-      "Nous sommes spécialisés dans les systèmes multi-locataires, les intégrations d'abonnement/facturation et les tableaux de bord d'administration qui vous offrent une visibilité complète sur votre produit."
+      "Chez Devisgon, nous construisons des plates formes SaaS prêtes à être lancées et évolutives. Des produits SaaS MVP pour les startups aux plateformes d'entreprise pour les entreprises mondiales.",
+      "Nous sommes spécialisés dans les systèmes multi locataires, les intégrations d'abonnement/facturation et les tableaux de bord d'administration qui vous offrent une visibilité complète sur votre produit."
     ],
     "highlight_quote": "« SaaS prêt à être lancé, mise sur le marché plus rapide, évolutivité 3x. »",
     "side_image": "/all_services/mvps_and_pocs/introduction.webp"
@@ -59,7 +58,7 @@
     "list_items": [
       {
         "title": "1. Applications intelligentes",
-        "description": "Application SaaS complète avec une architecture multi-tenant."
+        "description": "Application SaaS complète avec une architecture multi tenant."
       },
       {
         "title": "2. Analyse du tableau de bord",
@@ -71,7 +70,7 @@
       },
       {
         "title": "4. Documentation et formation",
-        "description": "Documentation et support post-lancement."
+        "description": "Documentation et support post lancement."
       }
     ]
   },
@@ -97,7 +96,7 @@
       },
       {
         "name": "AWS",
-        "icon": "FaAws "
+        "icon": "FaAws"
       },
       {
         "name": "MongoDB",
@@ -137,11 +136,11 @@
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Une startup souhaitait lancer une plate-forme SaaS d'analyse, mais manquait de ressources pour la configuration de la facturation et de l'évolutivité."
+        "text": "Une startup souhaitait lancer une plate forme SaaS d'analyse, mais manquait de ressources pour la configuration de la facturation et de l'évolutivité."
       },
       "solution": {
         "label": "Solution",
-        "text": "Nous avons construit une plate-forme SaaS prête à abonnement avec une architecture multi-tenant, des tableaux de bord et une intégration Stripe en seulement 8 semaines."
+        "text": "Nous avons construit une plate forme SaaS prête à abonnement avec une architecture multi tenant, des tableaux de bord et une intégration Stripe en seulement 8 semaines."
       },
       "result": {
         "label": "Result",
@@ -154,25 +153,25 @@
     "subtitle": "Obtenez des réponses aux questions courantes",
     "questions": [
       {
-        "question": "Combien de temps faut-il pour créer un MVP ?",
+        "question": "Combien de temps faut il pour créer un MVP ?",
         "answer": "En règle générale, un MVP peut être développé en 4 à 6 semaines en fonction de la complexité des fonctionnalités."
       },
       {
-        "question": "Fournissez-vous une assistance continue après le lancement ?",
+        "question": "Fournissez vous une assistance continue après le lancement ?",
         "answer": "Oui, nous proposons des packages de maintenance et de support après le lancement pour garantir le bon fonctionnement de votre application."
       },
       {
-        "question": "Pouvez-vous intégrer des fonctionnalités d'IA dans mon SaaS existant ?",
+        "question": "Pouvez vous intégrer des fonctionnalités d'IA dans mon SaaS existant ?",
         "answer": "Absolument. Nous sommes spécialisés dans l'intégration de modèles d'IA dans des architectures existantes via API."
       },
       {
-        "question": "Quelle pile technologique utilisez-vous pour le SaaS ?",
+        "question": "Quelle pile technologique utilisez vous pour le SaaS ?",
         "answer": "Nous utilisons principalement Next.js, React, Node.js, Python et des services cloud comme AWS ou Vercel."
       }
     ],
     "footer": {
       "text": "Vous n'avez pas trouvé votre réponse ?",
-      "link_text": "Contactez-nous pour plus d'informations",
+      "link_text": "Contactez nous pour plus d'informations",
       "link_url": "/contact"
     }
   }

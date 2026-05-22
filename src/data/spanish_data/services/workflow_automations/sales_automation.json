@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "n8n",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -194,7 +194,7 @@
       },
       {
         "question": "¿Cómo se protegen los registros corporativos confidenciales al mover datos a través de capas de integración?",
-        "answer": "Aplicamos estrictas pautas de parámetros de confianza cero. Cada webhook entrante se verifica en busca de firmas criptográficas (validación SHA-256), los datos se cifran completamente en tránsito usando TLS 1.3 y todos los campos confidenciales del cliente se eliminan o enmascaran antes de las capas de transporte."
+        "answer": "Aplicamos estrictas pautas de parámetros de confianza cero. Cada webhook entrante se verifica en busca de firmas criptográficas (validación SHA 256), los datos se cifran completamente en tránsito usando TLS 1.3 y todos los campos confidenciales del cliente se eliminan o enmascaran antes de las capas de transporte."
       }
     ],
     "footer": {

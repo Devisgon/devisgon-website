@@ -41,11 +41,11 @@
     "hero_image": "/videos/dashboard_analytics.mp4"
   },
   "introduction_section": {
-    "heading": "What is Enterprise-Grade",
+    "heading": "What is Enterprise Grade",
     "span_heading": " Load Testing?",
     "content": [
-      "Enterprise-grade load testing measures how your software performs when many users, API requests, database queries, background jobs, or traffic spikes hit the system at the same time. It helps identify slow endpoints, unstable infrastructure, database bottlenecks, memory pressure, poor scaling rules, and weak system limits before production failure happens.",
-      "At Devisgon, we build realistic performance test scenarios that simulate user journeys, API calls, checkout flows, webhook traffic, dashboard usage, login events, database reads, and high-concurrency workloads. Our approach combines test planning, controlled execution, infrastructure monitoring, bottleneck analysis, optimization recommendations, and post-fix validation.",
+      "Enterprise grade load testing measures how your software performs when many users, API requests, database queries, background jobs, or traffic spikes hit the system at the same time. It helps identify slow endpoints, unstable infrastructure, database bottlenecks, memory pressure, poor scaling rules, and weak system limits before production failure happens.",
+      "At Devisgon, we build realistic performance test scenarios that simulate user journeys, API calls, checkout flows, webhook traffic, dashboard usage, login events, database reads, and high concurrency workloads. Our approach combines test planning, controlled execution, infrastructure monitoring, bottleneck analysis, optimization recommendations, and post fix validation.",
       "Strong load testing is not just about creating traffic. It is about understanding system limits, protecting customer experience, and giving engineering teams clear evidence for performance improvements."
     ],
     "highlight_quote": "“Load testing reveals the real limits of your software before traffic spikes, campaign launches, or enterprise users expose them in production.”",
@@ -67,7 +67,7 @@
       },
       {
         "title": "Database and API Stability",
-        "description": "Test connection pools, query speed, caching layers, webhooks, background jobs, and high-volume API traffic.",
+        "description": "Test connection pools, query speed, caching layers, webhooks, background jobs, and high volume API traffic.",
         "icon_type": "PiCodeFill"
       },
       {
@@ -94,7 +94,7 @@
         "description": "We test endpoints, queries, cache layers, queues, servers, containers, autoscaling, and cloud resource behavior."
       },
       {
-        "title": "4. Real-Time Monitoring and Bottleneck Analysis",
+        "title": "4. Real Time Monitoring and Bottleneck Analysis",
         "description": "We monitor latency, throughput, errors, CPU, memory, database load, network behavior, and system health."
       },
       {
@@ -109,7 +109,7 @@
   },
   "technologies_section": {
     "title": "Load Testing and Performance Engineering Tools We Use",
-    "subtitle": "Modern load testing, monitoring, observability, database, cloud, and infrastructure tools for production-readiness validation",
+    "subtitle": "Modern load testing, monitoring, observability, database, cloud, and infrastructure tools for production readiness validation",
     "tools": [
       {
         "name": "k6 by Grafana",
@@ -161,13 +161,13 @@
       },
       {
         "name": "AWS Distributed Load Testing",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       }
     ]
   },
   "process_section": {
     "title": "Our Load Testing Process",
-    "subtitle": "A focused 6-step process from discovery to test execution, reporting, optimization, retesting, and ongoing performance validation",
+    "subtitle": "A focused 6 step process from discovery to test execution, reporting, optimization, retesting, and ongoing performance validation",
     "steps": [
       {
         "title": "Discovery Call",
@@ -181,7 +181,7 @@
       },
       {
         "title": "Load Test Strategy",
-        "description": "We define scenarios, virtual users, ramp-up rules, success metrics, monitoring, and test environments.",
+        "description": "We define scenarios, virtual users, ramp up rules, success metrics, monitoring, and test environments.",
         "icon": "VscGraphLine"
       },
       {
@@ -207,11 +207,11 @@
     "content": {
       "problem": {
         "label": "Operational Roadblock",
-        "text": "A growing digital platform was slowing down during marketing campaigns, especially on login, checkout, and API-heavy dashboard workflows. The team could not clearly identify whether the issue came from backend logic, database queries, cache behavior, or cloud resource limits."
+        "text": "A growing digital platform was slowing down during marketing campaigns, especially on login, checkout, and API heavy dashboard workflows. The team could not clearly identify whether the issue came from backend logic, database queries, cache behavior, or cloud resource limits."
       },
       "solution": {
         "label": "Our Engineering Approach",
-        "text": "Devisgon created realistic load test scenarios using high-concurrency API traffic, simulated user journeys, database monitoring, Redis cache review, and infrastructure telemetry. We identified slow queries, connection limits, and endpoint bottlenecks."
+        "text": "Devisgon created realistic load test scenarios using high concurrency API traffic, simulated user journeys, database monitoring, Redis cache review, and infrastructure telemetry. We identified slow queries, connection limits, and endpoint bottlenecks."
       },
       "result": {
         "label": "Measurable Impact",
@@ -245,15 +245,15 @@
       },
       {
         "question": "What metrics are important during load testing?",
-        "answer": "Important metrics include response time, throughput, error rate, CPU usage, memory usage, database load, network latency, queue depth, cache hit rate, and infrastructure scaling behavior. We also review business-specific metrics such as checkout completion, login success, and API reliability under load."
+        "answer": "Important metrics include response time, throughput, error rate, CPU usage, memory usage, database load, network latency, queue depth, cache hit rate, and infrastructure scaling behavior. We also review business specific metrics such as checkout completion, login success, and API reliability under load."
       },
       {
         "question": "How often should load testing be performed?",
-        "answer": "Load testing should be performed before major launches, marketing campaigns, enterprise rollouts, infrastructure changes, database changes, and high-traffic seasonal events. It can also be integrated into release planning for critical systems. Recurring testing helps catch performance regressions before they reach users."
+        "answer": "Load testing should be performed before major launches, marketing campaigns, enterprise rollouts, infrastructure changes, database changes, and high traffic seasonal events. It can also be integrated into release planning for critical systems. Recurring testing helps catch performance regressions before they reach users."
       },
       {
         "question": "Does Devisgon provide performance optimization after testing?",
-        "answer": "Yes. Devisgon provides bottleneck analysis, query optimization recommendations, caching strategy, scaling guidance, infrastructure review, retesting, and ongoing performance validation. Load testing is most valuable when findings are connected to real optimization work and verified through follow-up tests."
+        "answer": "Yes. Devisgon provides bottleneck analysis, query optimization recommendations, caching strategy, scaling guidance, infrastructure review, retesting, and ongoing performance validation. Load testing is most valuable when findings are connected to real optimization work and verified through follow up tests."
       }
     ],
     "footer": {

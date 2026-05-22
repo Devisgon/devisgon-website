@@ -17,11 +17,11 @@
     "hero_image": "/videos/ai_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "heading": "Qu'est ce qu'un niveau entreprise",
     "span_heading": "Système RAG ?",
     "content": [
       "Chez Devisgon, nous concevons et mettons en œuvre des architectures RAG avancées qui fournissent des modèles de langage avec une base factuelle sécurisée en temps réel. S'éloignant de l'ingénierie d'invite standard sujette aux hallucinations, nos systèmes recherchent, récupèrent et classent par programme le contexte exact nécessaire à partir de vos bases de connaissances internes avant qu'une réponse de modèle ne soit générée.",
-      "Nous comblons le fossé entre les pondérations de modèles statiques et les lacs de données d'entreprise dynamiques et évolutifs. Chaque pipeline RAG que nous déployons comprend une analyse automatisée des documents, des intégrations vectorielles de grande dimension, une recherche hybride par mots-clés sémantiques et des autorisations d'accès strictes au niveau du document, garantissant que vos réponses sont mathématiquement vérifiées, actuelles et sécurisées."
+      "Nous comblons le fossé entre les pondérations de modèles statiques et les lacs de données d'entreprise dynamiques et évolutifs. Chaque pipeline RAG que nous déployons comprend une analyse automatisée des documents, des intégrations vectorielles de grande dimension, une recherche hybride par mots clés sémantiques et des autorisations d'accès strictes au niveau du document, garantissant que vos réponses sont mathématiquement vérifiées, actuelles et sécurisées."
     ],
     "highlight_quote": "« Résultats du modèle sans hallucination, injection de connaissances en temps réel, limites de données 100 % déterministes. »",
     "side_image": "/all_services/ai_ml_models/introduction.webp"
@@ -62,12 +62,12 @@
       },
       {
         "title": "2. Routeurs de recherche hybrides de grande dimension",
-        "description": "Architectures de recherche combinant des intégrations vectorielles denses avec des recherches de mots-clés clairsemées (BM25) pour maximiser la précision de la récupération.",
+        "description": "Architectures de recherche combinant des intégrations vectorielles denses avec des recherches de mots clés clairsemées (BM25) pour maximiser la précision de la récupération.",
         "icon": "TbTools"
       },
       {
         "title": "3. Reclassement contextuel et maillages de compression",
-        "description": "Intégration de Cohere ou de reclasseurs spécialisés Cross-Encoder pour extraire les résultats les plus pertinents et minimiser les coûts d'utilisation des jetons."
+        "description": "Intégration de Cohere ou de reclasseurs spécialisés Cross Encoder pour extraire les résultats les plus pertinents et minimiser les coûts d'utilisation des jetons."
       },
       {
         "title": "4. Systèmes de citation et d'attribution vérifiables",
@@ -129,7 +129,7 @@
       },
       {
         "name": "Socle AWS",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       }
     ]
   },
@@ -169,7 +169,7 @@
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
-        "text": "Nous avons construit un système RAG de qualité production, filtré par métadonnées, exploitant Supabase et LlamaIndex, combinant une recherche de vecteurs denses avec des pipelines de reclassement multi-encodeurs."
+        "text": "Nous avons construit un système RAG de qualité production, filtré par métadonnées, exploitant Supabase et LlamaIndex, combinant une recherche de vecteurs denses avec des pipelines de reclassement multi encodeurs."
       },
       "result": {
         "label": "Impact mesurable",
@@ -182,20 +182,20 @@
     "subtitle": "Des réponses claires aux questions critiques de mise en œuvre, de sécurité et d’ingénierie des systèmes",
     "questions": [
       {
-        "question": "Pourquoi un système de recherche hybride est-il nécessaire pour un RAG d'entreprise ?",
+        "question": "Pourquoi un système de recherche hybride est il nécessaire pour un RAG d'entreprise ?",
         "answer": "La recherche de vecteurs denses est exceptionnelle pour saisir l'intention sémantique conceptuelle, mais elle peut manquer des clés de série spécifiques, des codes de produit ou des noms exacts. La recherche hybride associe les intégrations vectorielles au suivi traditionnel des mots clés (BM25) pour garantir la précision de la correspondance structurelle et conceptuelle."
       },
       {
-        "question": "Comment un système RAG maintient-il ses données à jour alors que nos dossiers commerciaux changent quotidiennement ?",
-        "answer": "Nous établissons des webhooks d'événements automatisés et des calendriers de synchronisation Cron. Chaque fois qu'un document est modifié, ajouté ou supprimé sur votre plate-forme de stockage, notre pipeline exécute instantanément l'extraction, génère de nouvelles intégrations et met automatiquement à jour l'index de votre base de données vectorielle."
+        "question": "Comment un système RAG maintient il ses données à jour alors que nos dossiers commerciaux changent quotidiennement ?",
+        "answer": "Nous établissons des webhooks d'événements automatisés et des calendriers de synchronisation Cron. Chaque fois qu'un document est modifié, ajouté ou supprimé sur votre plate forme de stockage, notre pipeline exécute instantanément l'extraction, génère de nouvelles intégrations et met automatiquement à jour l'index de votre base de données vectorielle."
       },
       {
         "question": "Comment protéger les données sensibles contre la divulgation aux employés sans informations d'identification appropriées ?",
         "answer": "Nous appliquons un marquage strict des autorisations de métadonnées au niveau de la base de données. Chaque bloc de document est vectorisé avec ses rôles d'accès requis ; lorsqu'un utilisateur émet une requête, le système ajoute un filtre de vérification matérielle, rendant les fichiers non autorisés mathématiquement invisibles à l'étape de recherche."
       },
       {
-        "question": "Quels outils utilisez-vous pour évaluer et noter la précision d'un pipeline RAG ?",
-        "answer": "Nous intégrons des frameworks d'évaluation automatisés tels que RAGAS et TruLens lors du développement du sandbox. Nous testons et optimisons en permanence trois mesures distinctes : la fidélité (la réponse est-elle basée sur des données ?), la pertinence de la réponse (est-ce que cela résout l'invite ?) et la précision du contexte (avons-nous extrait les bons morceaux de données ?)."
+        "question": "Quels outils utilisez vous pour évaluer et noter la précision d'un pipeline RAG ?",
+        "answer": "Nous intégrons des frameworks d'évaluation automatisés tels que RAGAS et TruLens lors du développement du sandbox. Nous testons et optimisons en permanence trois mesures distinctes : la fidélité (la réponse est elle basée sur des données ?), la pertinence de la réponse (est ce que cela résout l'invite ?) et la précision du contexte (avons nous extrait les bons morceaux de données ?)."
       }
     ],
     "footer": {

@@ -3,6 +3,18 @@ export type TechnologyActionLink = {
   href: string;
 };
 
+export type TechnologySeoMetadata = {
+  title?: string;
+  description?: string;
+  keywords?: string[];
+  meta_title?: string;
+  meta_description?: string;
+  canonical_url?: string;
+  robots?: string;
+  primary_keywords?: string[];
+  secondary_keywords?: string[];
+};
+
 export type TechnologyListingAction = {
   label?: string;
   text?: string;
@@ -59,6 +71,7 @@ export type TechnologyListingCategorySection = {
 };
 
 export type TechnologyListingData = {
+  seo?: TechnologySeoMetadata;
   hero_section: TechnologyListingHero;
   technology_cards: TechnologyListingCard[];
   technology_categories_section?: TechnologyListingCategorySection;
@@ -125,6 +138,7 @@ export type TechnologyConversationSection = {
 
 export type TechnologyPageData = {
   slug: string;
+  seo_metadata?: TechnologySeoMetadata;
   hero_section: TechnologyHeroSection;
   why_use_section: TechnologyWhyUseSection;
   architecture_section: TechnologyArchitectureSection;

@@ -41,12 +41,12 @@
     "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "What is an Enterprise-Grade",
+    "heading": "What is an Enterprise Grade",
     "span_heading": " Bug Bounty Program?",
     "content": [
-      "An enterprise-grade bug bounty program is a controlled security initiative where approved researchers test defined systems and responsibly report vulnerabilities. Unlike a one-time audit, a bug bounty program creates an ongoing channel for ethical security research, vulnerability validation, impact assessment, and remediation coordination.",
-      "At Devisgon, we design bug bounty programs around safety, authorization, scope control, researcher communication, triage quality, and engineering follow-through. Our approach includes asset mapping, program policy writing, safe-harbor language, severity rules, duplicate handling, report validation, remediation tracking, and secure integration with development workflows.",
-      "A strong bug bounty program does not mean opening systems without control. It means creating a structured, permission-based security process that helps your business discover and fix real risks before attackers can exploit them."
+      "An enterprise grade bug bounty program is a controlled security initiative where approved researchers test defined systems and responsibly report vulnerabilities. Unlike a one time audit, a bug bounty program creates an ongoing channel for ethical security research, vulnerability validation, impact assessment, and remediation coordination.",
+      "At Devisgon, we design bug bounty programs around safety, authorization, scope control, researcher communication, triage quality, and engineering follow through. Our approach includes asset mapping, program policy writing, safe harbor language, severity rules, duplicate handling, report validation, remediation tracking, and secure integration with development workflows.",
+      "A strong bug bounty program does not mean opening systems without control. It means creating a structured, permission based security process that helps your business discover and fix real risks before attackers can exploit them."
     ],
     "highlight_quote": "“A managed bug bounty program turns external security research into controlled vulnerability discovery, faster remediation, and stronger product trust.”",
     "side_image": "/all_services/security_testing/introduction.webp"
@@ -72,7 +72,7 @@
       },
       {
         "title": "Stronger Customer Trust",
-        "description": "Show a responsible security posture with clear disclosure rules, safe-harbor policy, and professional response handling.",
+        "description": "Show a responsible security posture with clear disclosure rules, safe harbor policy, and professional response handling.",
         "icon_type": "VscGraphLine"
       }
     ]
@@ -83,11 +83,11 @@
     "list_items": [
       {
         "title": "1. Asset Scope and Security Boundary Planning",
-        "description": "We define in-scope assets, out-of-scope systems, testing limits, data handling rules, and researcher expectations."
+        "description": "We define in scope assets, out of scope systems, testing limits, data handling rules, and researcher expectations."
       },
       {
         "title": "2. Program Policy and Responsible Disclosure Setup",
-        "description": "We create program rules, safe-harbor language, disclosure guidance, reward structure, and submission requirements."
+        "description": "We create program rules, safe harbor language, disclosure guidance, reward structure, and submission requirements."
       },
       {
         "title": "3. Researcher Report Triage and Validation",
@@ -167,7 +167,7 @@
   },
   "process_section": {
     "title": "Our Bug Bounty Program Process",
-    "subtitle": "A focused 6-step process from discovery to launch, triage, remediation, maintenance, and program optimization",
+    "subtitle": "A focused 6 step process from discovery to launch, triage, remediation, maintenance, and program optimization",
     "steps": [
       {
         "title": "Discovery Call",
@@ -176,7 +176,7 @@
       },
       {
         "title": "Scope and Policy Mapping",
-        "description": "We define targets, exclusions, testing limits, safe-harbor rules, severity levels, and response process.",
+        "description": "We define targets, exclusions, testing limits, safe harbor rules, severity levels, and response process.",
         "icon": "TbTools"
       },
       {
@@ -211,7 +211,7 @@
       },
       "solution": {
         "label": "Our Engineering Approach",
-        "text": "Devisgon designed a managed bug bounty workflow with clear scope, safe-harbor policy, report requirements, triage rules, severity scoring, duplicate handling, and engineering backlog integration for validated findings."
+        "text": "Devisgon designed a managed bug bounty workflow with clear scope, safe harbor policy, report requirements, triage rules, severity scoring, duplicate handling, and engineering backlog integration for validated findings."
       },
       "result": {
         "label": "Measurable Impact",
@@ -237,11 +237,11 @@
       },
       {
         "question": "How do you prevent unsafe testing activity?",
-        "answer": "Unsafe testing is reduced through clear rules of engagement, defined scope, prohibited actions, rate limits, test account guidance, safe-harbor language, and monitoring. Researchers must know what they can and cannot test. Sensitive actions such as denial-of-service, data destruction, and unauthorized data access must be explicitly prohibited."
+        "answer": "Unsafe testing is reduced through clear rules of engagement, defined scope, prohibited actions, rate limits, test account guidance, safe harbor language, and monitoring. Researchers must know what they can and cannot test. Sensitive actions such as denial of service, data destruction, and unauthorized data access must be explicitly prohibited."
       },
       {
         "question": "How are vulnerability reports validated?",
-        "answer": "Reports are validated by reviewing reproduction steps, affected assets, technical evidence, business impact, exploitability, and whether the issue is new or duplicate. Confirmed findings are assigned severity and routed to engineering. Invalid, duplicate, low-quality, or out-of-scope reports are filtered before they consume development time."
+        "answer": "Reports are validated by reviewing reproduction steps, affected assets, technical evidence, business impact, exploitability, and whether the issue is new or duplicate. Confirmed findings are assigned severity and routed to engineering. Invalid, duplicate, low quality, or out of scope reports are filtered before they consume development time."
       },
       {
         "question": "What assets can be included in a bug bounty scope?",

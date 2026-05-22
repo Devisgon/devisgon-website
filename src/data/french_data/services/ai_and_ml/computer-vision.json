@@ -17,10 +17,10 @@
     "hero_image": "/videos/ai_ml_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Vision par ordinateur ?",
     "content": [
-      "Chez Devisgon, nous concevons des architectures de vision par ordinateur personnalisées qui transforment les flux visuels bruts en données opérationnelles structurées et exploitables. Allant bien au-delà des scripts open source de base, nous construisons des systèmes de haute précision spécialisés dans la détection d'objets en temps réel, la segmentation sémantique d'images, le suivi de reconnaissance faciale et la reconnaissance optique automatisée de caractères (OCR).",
+      "Chez Devisgon, nous concevons des architectures de vision par ordinateur personnalisées qui transforment les flux visuels bruts en données opérationnelles structurées et exploitables. Allant bien au delà des scripts open source de base, nous construisons des systèmes de haute précision spécialisés dans la détection d'objets en temps réel, la segmentation sémantique d'images, le suivi de reconnaissance faciale et la reconnaissance optique automatisée de caractères (OCR).",
       "Nous comblons le fossé entre les matrices de données spatiales lourdes et les temps d'exécution de production à faible latence. Chaque pipeline de vision est optimisé pour l'informatique de pointe ou les clusters cloud évolutifs, en utilisant des environnements d'exécution tenseurs spécialisés et des mécanismes automatisés de capture d'images vidéo pour garantir un débit d'inférence constant et fiable dans les environnements de sécurité, de logistique et de fabrication."
     ],
     "highlight_quote": "\"Classification d'images haute fidélité, suivi d'objets inférieurs à la milliseconde, analyse spatiale 100 % automatisée.\"",
@@ -76,7 +76,7 @@
   },
   "technologies_section": {
     "title": "Nous construisons avec des outils d'analyse spatiale renforcés et à haut débit",
-    "subtitle": "Modèles de vision, processeurs d'images et environnements d'exécution de tenseurs profonds de pointe conçus pour une inférence ultra-rapide",
+    "subtitle": "Modèles de vision, processeurs d'images et environnements d'exécution de tenseurs profonds de pointe conçus pour une inférence ultra rapide",
     "tools": [
       {
         "name": "OpenCV",
@@ -120,7 +120,7 @@
       },
       {
         "name": "AWS Lookout pour la vision",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Supabase (stockage d'événements)",
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Un immense centre de distribution perdait la trace du décompte des colis entrants en raison de la lenteur des lectures de codes-barres et des délais de vérification humaine aux portes des quais de tri très fréquentés."
+        "text": "Un immense centre de distribution perdait la trace du décompte des colis entrants en raison de la lenteur des lectures de codes barres et des délais de vérification humaine aux portes des quais de tri très fréquentés."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -185,15 +185,15 @@
         "answer": "La détection d'objets identifie la présence d'une entité cible et l'isole dans un tableau de coordonnées de boîte englobante carrée. La segmentation sémantique fonctionne sur une grille plus profonde au niveau des pixels, traçant les contours exacts des bords d'un objet pour créer une superposition de masque visuel précise."
       },
       {
-        "question": "Comment vos modèles de vision gèrent-ils les environnements industriels volatils, faiblement éclairés ou poussiéreux ?",
+        "question": "Comment vos modèles de vision gèrent ils les environnements industriels volatils, faiblement éclairés ou poussiéreux ?",
         "answer": "Nous appliquons des stratégies lourdes de prétraitement et d’augmentation d’image pendant la phase de conception des données. En entraînant des modèles sur des tenseurs d'entraînement intentionnellement dégradés, ajustés en fonction de l'exposition et flous, les poids neuronaux finaux restent robustes face aux interférences physiques de la caméra du monde réel."
       },
       {
-        "question": "Est-il préférable de traiter les flux de données vidéo dans le cloud ou directement sur du matériel Edge ?",
+        "question": "Est il préférable de traiter les flux de données vidéo dans le cloud ou directement sur du matériel Edge ?",
         "answer": "Le déploiement Edge (à l'aide de matériel tel que NVIDIA Jetson) est supérieur lorsque vous avez besoin de boucles de réponse inférieures à la milliseconde ou que vous êtes confronté à des limites de bande passante serrées. Le déploiement dans le cloud convient mieux au traitement de bibliothèques d'images massives et non instantanées qui nécessitent des références croisées approfondies avec des bases de données relationnelles principales."
       },
       {
-        "question": "Comment protégez-vous les problèmes de confidentialité et de sécurité lors du déploiement de systèmes de vision basés sur des caméras ?",
+        "question": "Comment protégez vous les problèmes de confidentialité et de sécurité lors du déploiement de systèmes de vision basés sur des caméras ?",
         "answer": "Nous construisons des pipelines vidéo sécurisés et localisés sans sortie. Les données de trame sont traitées immédiatement dans un environnement d'exécution en bac à sable où les identités ou les informations personnelles peuvent être floutées par programme au bord de l'ingestion avant toute journalisation."
       }
     ],

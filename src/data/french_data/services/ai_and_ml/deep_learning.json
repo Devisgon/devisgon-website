@@ -17,10 +17,10 @@
     "hero_image": "/videos/ai_ml_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Apprentissage profond ?",
     "content": [
-      "Chez Devisgon, nous concevons et mettons en œuvre des modèles d'apprentissage profond multicouches sur mesure, conçus pour décoder les relations non linéaires de grande dimension au sein de vos dossiers d'entreprise. Allant bien au-delà de la modélisation statistique superficielle traditionnelle, nos architectures s'appuient sur des cadres neuronaux spécialisés, notamment des réseaux neuronaux convolutifs (CNN) pour la vision, des transformateurs pour la compréhension des séquences et des auto-encodeurs profonds pour l'exploration de modèles anormaux.",
+      "Chez Devisgon, nous concevons et mettons en œuvre des modèles d'apprentissage profond multicouches sur mesure, conçus pour décoder les relations non linéaires de grande dimension au sein de vos dossiers d'entreprise. Allant bien au delà de la modélisation statistique superficielle traditionnelle, nos architectures s'appuient sur des cadres neuronaux spécialisés, notamment des réseaux neuronaux convolutifs (CNN) pour la vision, des transformateurs pour la compréhension des séquences et des auto encodeurs profonds pour l'exploration de modèles anormaux.",
       "Nous comblons le fossé entre la recherche universitaire abstraite et les systèmes logiciels robustes et prêts pour la production. Chaque structure d'apprentissage profond que nous déployons est compilée pour une accélération GPU à haut débit, optimisée à l'aide de matrices de quantification avancées et intégrée à une surveillance programmatique pour garantir une fiabilité absolue sur les flux de travail opérationnels à haute vitesse."
     ],
     "highlight_quote": "\"Abstraction de réseau multicouche, exécution accélérée par GPU, compromis de 0 % sur la précision mathématique.\"",
@@ -47,7 +47,7 @@
       },
       {
         "title": "Inférence de modèle évolutive",
-        "description": "Compilez des paramètres neuronaux complexes dans des microservices hautement rationalisés optimisés pour répondre à des requêtes ultra-rapides et en temps réel à grande échelle.",
+        "description": "Compilez des paramètres neuronaux complexes dans des microservices hautement rationalisés optimisés pour répondre à des requêtes ultra rapides et en temps réel à grande échelle.",
         "icon_type": "VscGraphLine"
       }
     ]
@@ -66,7 +66,7 @@
       },
       {
         "title": "3. Quantification et élagage du modèle programmatique",
-        "description": "Optimisations du réseau post-formation qui éliminent les nœuds morts et réduisent les définitions de poids pour permettre un déploiement cible rapide et à faible latence."
+        "description": "Optimisations du réseau post formation qui éliminent les nœuds morts et réduisent les définitions de poids pour permettre un déploiement cible rapide et à faible latence."
       },
       {
         "title": "4. Profilage des performances neuronales et rapports d'audit",
@@ -76,7 +76,7 @@
   },
   "technologies_section": {
     "title": "Nous concevons avec des cadres d'apprentissage profond de pointe",
-    "subtitle": "Bibliothèques de calcul, environnements d'exécution tenseurs et plates-formes MLOps de pointe conçus pour des échelles massives",
+    "subtitle": "Bibliothèques de calcul, environnements d'exécution tenseurs et plates formes MLOps de pointe conçus pour des échelles massives",
     "tools": [
       {
         "name": "PyTorch",
@@ -124,7 +124,7 @@
       },
       {
         "name": "AWS SageMaker",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Supabase (intégration des journaux)",
@@ -185,7 +185,7 @@
         "answer": "Les modèles standard d'apprentissage automatique (comme la régression linéaire ou les arbres de décision) exigent que les développeurs nettoient et sélectionnent manuellement les entrées de fonctionnalités avant la formation. Le Deep Learning utilise des réseaux neuronaux multicouches pour extraire automatiquement des fonctionnalités directement des matrices de données brutes."
       },
       {
-        "question": "Comment gérez-vous les « gradients qui disparaissent » lors de la formation de configurations de réseaux neuronaux profonds ?",
+        "question": "Comment gérez vous les « gradients qui disparaissent » lors de la formation de configurations de réseaux neuronaux profonds ?",
         "answer": "Nous atténuons l'instabilité du gradient par programmation. Nous mettons en œuvre des initialisations de couches stratégiques (telles que les méthodes He/Xavier), intégrons des couches de normalisation par lots, utilisons des fonctions d'activation modernes (ReLU/GELU) et appliquons des limites d'écrêtage de gradient dans nos routines d'exécution de formation."
       },
       {
@@ -193,8 +193,8 @@
         "answer": "La quantification convertit les poids neuronaux à virgule flottante de 32 bits en entiers de 8 bits peu encombrants, tandis que l'élagage supprime les connexions de nœuds inactives et à faible impact. Cela réduit considérablement l'encombrement du fichier modèle et la surcharge de mémoire, ramenant la latence d'inférence à quelques millisecondes afin qu'elle fonctionne correctement en production."
       },
       {
-        "question": "Pourquoi PyTorch est-il préféré aux autres frameworks d'apprentissage profond existants pour le développement d'entreprise ?",
-        "answer": "PyTorch fournit une présentation graphique dynamique qui rend le débogage du code et le traçage architectural aussi simples qu'une exécution Python standard. Cela correspond parfaitement aux environnements d'entreprise, permettant aux développeurs de créer des configurations multi-agents robustes et de faire évoluer les déploiements proprement via Docker."
+        "question": "Pourquoi PyTorch est il préféré aux autres frameworks d'apprentissage profond existants pour le développement d'entreprise ?",
+        "answer": "PyTorch fournit une présentation graphique dynamique qui rend le débogage du code et le traçage architectural aussi simples qu'une exécution Python standard. Cela correspond parfaitement aux environnements d'entreprise, permettant aux développeurs de créer des configurations multi agents robustes et de faire évoluer les déploiements proprement via Docker."
       }
     ],
     "footer": {

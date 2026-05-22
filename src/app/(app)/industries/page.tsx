@@ -4,12 +4,23 @@ import Header from "@/components/navbar";
 import Footer from "@/components/footer";
 import IndustriesMainPage from "@/components/industries/main_page";
 import { getCachedLanguage } from "@/lib/language";
-import { INDUSTRIES_PAGE_METADATA } from "@/lib/seo";
+import { getJsonSeoMetadata, INDUSTRIES_PAGE_METADATA } from "@/lib/seo";
 import { getIndustriesListingData, getIndustryData, INDUSTRY_GROUPS } from "@/data/loaders/industries";
 import { findNavbarItemByHref, getNavbarDataByLang } from "@/lib/localized-content";
 import { toSectionAnchor } from "@/lib/section-anchor";
 
-export const metadata: Metadata = INDUSTRIES_PAGE_METADATA;
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string | string[] }>;
+}): Promise<Metadata> {
+  const query = await searchParams;
+  const lang = await getCachedLanguage(query.lang);
+  const data = getIndustriesListingData(lang);
+  const englishData = getIndustriesListingData("en");
+
+  return getJsonSeoMetadata(data?.seo ?? englishData?.seo, INDUSTRIES_PAGE_METADATA, "/industries");
+}
 
 function formatSlug(slug: string): string {
   return slug

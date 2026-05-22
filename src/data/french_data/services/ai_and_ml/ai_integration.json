@@ -17,10 +17,10 @@
     "hero_image": "/videos/ai_powered_app.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Intégration de l'IA ?",
     "content": [
-      "Chez Devisgon, nous construisons des couches d'intégration d'IA personnalisées qui injectent de manière transparente des capacités cognitives dans votre infrastructure de production active. Allant bien au-delà des API simples et fragiles, nous concevons des flux de travail agents fiables, des mécanismes de routage sémantique personnalisés et des systèmes de génération de récupération augmentée (RAG) qui interagissent de manière native avec vos bases de données commerciales propriétaires.",
+      "Chez Devisgon, nous construisons des couches d'intégration d'IA personnalisées qui injectent de manière transparente des capacités cognitives dans votre infrastructure de production active. Allant bien au delà des API simples et fragiles, nous concevons des flux de travail agents fiables, des mécanismes de routage sémantique personnalisés et des systèmes de génération de récupération augmentée (RAG) qui interagissent de manière native avec vos bases de données commerciales propriétaires.",
       "Nous connectons des pipelines d'IA complexes directement à vos bases de code principales. Chaque intégration est déployée dans des périmètres de sécurité de niveau entreprise avec une limitation complète des jetons, une prévention des injections rapides, des points de terminaison de streaming à faible latence et des tableaux de bord granulaires de suivi des coûts opérationnels pour garantir la sécurité et l'optimisation mathématique de votre infrastructure d'IA."
     ],
     "highlight_quote": "« Flux de travail d'application intelligents, recherche sémantique contextuelle, 0 % de perturbation du code existant. »",
@@ -32,7 +32,7 @@
     "cards": [
       {
         "title": "Flux de travail cognitifs automatisés",
-        "description": "Transformez les tâches logicielles statiques en actions intelligentes et autonomes en intégrant des systèmes d'IA multi-agents qui analysent, décident et exécutent.",
+        "description": "Transformez les tâches logicielles statiques en actions intelligentes et autonomes en intégrant des systèmes d'IA multi agents qui analysent, décident et exécutent.",
         "icon_type": "HiMiniSignal"
       },
       {
@@ -42,7 +42,7 @@
       },
       {
         "title": "Sécurité renforcée de l'IA",
-        "description": "Appliquez des périmètres d'exécution stricts, des garde-fous programmatiques et des couches de masquage des données pour empêcher les informations personnelles sensibles des utilisateurs de quitter le maillage de votre serveur.",
+        "description": "Appliquez des périmètres d'exécution stricts, des garde fous programmatiques et des couches de masquage des données pour empêcher les informations personnelles sensibles des utilisateurs de quitter le maillage de votre serveur.",
         "icon_type": "PiCodeFill"
       },
       {
@@ -61,15 +61,15 @@
         "description": "Architectures de recherche vectorielles avancées conçues pour transmettre des données d'entreprise spécifiques à un domaine aux modèles de langage d'IA en toute sécurité et en temps réel."
       },
       {
-        "title": "2. Orchestration multi-agents et flux de travail de base",
-        "description": "Des cadres d'agents découplés construits au-dessus de vos systèmes logiciels pour exécuter de manière autonome une logique métier complexe et en plusieurs étapes."
+        "title": "2. Orchestration multi agents et flux de travail de base",
+        "description": "Des cadres d'agents découplés construits au dessus de vos systèmes logiciels pour exécuter de manière autonome une logique métier complexe et en plusieurs étapes."
       },
       {
         "title": "3. Systèmes de mise en cache sémantique à faible latence",
         "description": "Couches de cache intégrées hautes performances conçues pour détecter les requêtes identiques des utilisateurs, fournissant des réponses immédiates tout en réduisant les factures de services publics LLM."
       },
       {
-        "title": "4. Garde-fous rapides et atténuation des vulnérabilités",
+        "title": "4. Garde fous rapides et atténuation des vulnérabilités",
         "description": "Middleware de filtration d'exécution conçu pour se défendre contre les injections rapides, filtrer les hallucinations de sortie et régir les limites de conformité des données."
       }
     ]
@@ -120,7 +120,7 @@
       },
       {
         "name": "n8n (IA avancée)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Redis (Cache Sémantique)",
@@ -128,7 +128,7 @@
       },
       {
         "name": "Socle AWS",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       }
     ]
   },
@@ -143,7 +143,7 @@
       },
       {
         "title": "Design",
-        "description": "Formulez des stratégies de segmentation de bases de données vectorielles, esquissez les chemins de données du pipeline RAG et rédigez des périmètres de garde-corps de sécurité personnalisés.",
+        "description": "Formulez des stratégies de segmentation de bases de données vectorielles, esquissez les chemins de données du pipeline RAG et rédigez des périmètres de garde corps de sécurité personnalisés.",
         "icon": "TbTools"
       },
       {
@@ -181,20 +181,20 @@
     "subtitle": "Des réponses claires aux questions critiques de mise en œuvre, de sécurité et d’ingénierie des systèmes",
     "questions": [
       {
-        "question": "Comment protégez-vous les données des entreprises privées contre la fuite dans les ensembles de données publics d’IA ?",
+        "question": "Comment protégez vous les données des entreprises privées contre la fuite dans les ensembles de données publics d’IA ?",
         "answer": "Nous appliquons des paramètres explicites de conservation des données nulles avec les API des fournisseurs ou déployons des modèles ouverts directement dans votre cloud privé via AWS Bedrock, garantissant ainsi que les enregistrements de votre entreprise ne sont jamais utilisés pour des boucles de formation de base."
       },
       {
-        "question": "Qu'est-ce qu'un cache sémantique et pourquoi est-il essentiel pour l'IA de production ?",
+        "question": "Qu'est ce qu'un cache sémantique et pourquoi est il essentiel pour l'IA de production ?",
         "answer": "Un cache sémantique précède votre modèle grâce à des technologies comme Redis. Il analyse l'intention de l'utilisateur ; si une question nouvellement posée correspond conceptuellement à une question précédemment résolue, elle fournit instantanément la réponse mise en cache, évitant ainsi les factures symboliques et réduisant les temps de réponse."
       },
       {
-        "question": "Les systèmes d’intégration d’IA peuvent-ils fonctionner avec précision avec des bases de données non structurées ?",
+        "question": "Les systèmes d’intégration d’IA peuvent ils fonctionner avec précision avec des bases de données non structurées ?",
         "answer": "Absolument. C’est exactement ce que résout notre couche de traitement vectoriel. Nous écrivons des scripts d'ingestion automatisés qui extraient des PDF, des fichiers Markdown et du texte SQL brut, les transformant en intégrations de coordonnées nettes et consultables."
       },
       {
         "question": "Comment atténuer les hallucinations de l’IA dans les flux de travail de l’entreprise ?",
-        "answer": "Nous implémentons des instructions système rigides parallèlement à la délimitation du contexte au sein de nos pipelines RAG, forçant le modèle à répondre exclusivement sur la base d'injections vectorielles de base de données vérifiées et en interceptant les erreurs via des garde-fous de sortie."
+        "answer": "Nous implémentons des instructions système rigides parallèlement à la délimitation du contexte au sein de nos pipelines RAG, forçant le modèle à répondre exclusivement sur la base d'injections vectorielles de base de données vérifiées et en interceptant les erreurs via des garde fous de sortie."
       }
     ],
     "footer": {

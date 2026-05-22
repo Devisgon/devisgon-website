@@ -9,7 +9,7 @@ import TechnologyCompetitiveEdge from "@/components/technologies/competitive_edg
 import TechnologyQuote from "@/components/technologies/quote";
 import TechnologyConversation from "@/components/technologies/conversation";
 import { getCachedLanguage } from "@/lib/language";
-import { getTechnologySlugMetadata } from "@/lib/seo";
+import { getJsonSeoMetadata, getTechnologySlugMetadata } from "@/lib/seo";
 import { getCanonicalTechnologySlug, getTechnologyData } from "@/data/loaders/technologies";
 import { toCanonicalSlug } from "@/lib/slugs";
 
@@ -18,9 +18,26 @@ type PageProps = {
   searchParams: Promise<{ lang?: string | string[] }>;
 };
 
-export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }): Promise<Metadata> {
+export async function generateMetadata({
+  params,
+  searchParams,
+}: {
+  params: Promise<{ slug: string }>;
+  searchParams: Promise<{ lang?: string | string[] }>;
+}): Promise<Metadata> {
   const { slug } = await params;
-  return getTechnologySlugMetadata(getCanonicalTechnologySlug(slug));
+  const query = await searchParams;
+  const activeLang = await getCachedLanguage(query.lang);
+  const canonicalSlug = getCanonicalTechnologySlug(slug);
+  const fallback = getTechnologySlugMetadata(canonicalSlug);
+  const localizedData = getTechnologyData(activeLang, canonicalSlug);
+  const englishData = getTechnologyData("en", canonicalSlug);
+
+  return getJsonSeoMetadata(
+    localizedData?.seo_metadata ?? englishData?.seo_metadata,
+    fallback,
+    `/technologies/${canonicalSlug}`,
+  );
 }
 
 export default async function TechnologyDetailPage({ params, searchParams }: PageProps) {

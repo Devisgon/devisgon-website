@@ -92,7 +92,7 @@
       },
       {
         "name": "n8n (orquestación de datos)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -194,7 +194,7 @@
       },
       {
         "question": "¿Cómo se protegen los datos de marketing confidenciales y los presupuestos de campaña en todos los canales de integración?",
-        "answer": "Cada plataforma de datos automatizada que implementamos aplica modelos de parámetros de confianza cero. Todos los webhooks entrantes se validan mediante firmas criptográficas (etiquetas de encabezado SHA-256), todos los flujos de datos se cifran en tránsito mediante TLS 1.3 y los campos corporativos privados se enmascaran completamente antes de su visualización."
+        "answer": "Cada plataforma de datos automatizada que implementamos aplica modelos de parámetros de confianza cero. Todos los webhooks entrantes se validan mediante firmas criptográficas (etiquetas de encabezado SHA 256), todos los flujos de datos se cifran en tránsito mediante TLS 1.3 y los campos corporativos privados se enmascaran completamente antes de su visualización."
       }
     ],
     "footer": {

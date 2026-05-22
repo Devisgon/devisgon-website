@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "n8n",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -194,7 +194,7 @@
       },
       {
         "question": "¿Cómo se protege la seguridad de los datos y se garantiza la seguridad del sistema dentro del software de automatización de terceros?",
-        "answer": "Cada canal de integración que construimos aplica parámetros de datos de confianza cero. Todos los webhooks se validan mediante firmas criptográficas (encabezados SHA-256), el tráfico se cifra de extremo a extremo mediante TLS 1.3 y los campos de PII confidenciales se eliminan o enmascaran antes de las capas de transporte."
+        "answer": "Cada canal de integración que construimos aplica parámetros de datos de confianza cero. Todos los webhooks se validan mediante firmas criptográficas (encabezados SHA 256), el tráfico se cifra de extremo a extremo mediante TLS 1.3 y los campos de PII confidenciales se eliminan o enmascaran antes de las capas de transporte."
       }
     ],
     "footer": {

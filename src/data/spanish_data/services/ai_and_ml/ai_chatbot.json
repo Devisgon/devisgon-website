@@ -65,7 +65,7 @@
         "description": "Arquitecturas de transmisión de base de conocimiento interna que introducen documentación en tiempo real en el perímetro del sistema del chatbot para una precisión a prueba de balas."
       },
       {
-        "title": "3. Matrices de escalamiento humano-in-the-loop",
+        "title": "3. Matrices de escalamiento humano in the loop",
         "description": "Sistemas de respaldo inteligentes diseñados para transferir con elegancia conversaciones complejas a operadores humanos en vivo con transcripciones de chat estructurales completas."
       },
       {
@@ -120,7 +120,7 @@
       },
       {
         "name": "n8n (IA avanzada)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Redis (memoria de sesión)",
@@ -182,7 +182,7 @@
     "questions": [
       {
         "question": "¿Cómo evita el chatbot dar información falsa o instrucciones alucinantes?",
-        "answer": "Aislamos estrictamente el espacio de conocimiento del agente mediante recuperación-generación aumentada (RAG). El chatbot tiene restringido mediante programación la posibilidad de obtener respuestas desde fuera del contexto de la base de datos vectorial Supabase inyectada, lo que evita declaraciones especulativas."
+        "answer": "Aislamos estrictamente el espacio de conocimiento del agente mediante recuperación generación aumentada (RAG). El chatbot tiene restringido mediante programación la posibilidad de obtener respuestas desde fuera del contexto de la base de datos vectorial Supabase inyectada, lo que evita declaraciones especulativas."
       },
       {
         "question": "¿Puede el agente de IA realizar tareas reales de la base de datos, como modificar el saldo de una cuenta o reservar un espacio para una aplicación?",

@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "AWS EC2 / Escalado automático",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Amazon EKS (Kubernetes)",
@@ -104,19 +104,19 @@
       },
       {
         "name": "Amazon VPC (malla de red)",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "AWS IAM (acceso de confianza cero)",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "AWS Ruta 53/CloudFront",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Amazon CloudWatch",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Prometeo y Grafana",
@@ -186,7 +186,7 @@
       },
       {
         "question": "¿Cómo logran sus procesos automatizados de CI/CD lograr lanzamientos de software sin tiempo de inactividad?",
-        "answer": "Diseñamos mecanismos especializados de implementación de contenedores rodantes o azul-verde dentro de Amazon EKS. Cuando el nuevo código pasa las comprobaciones de validación, la canalización activa nuevos contenedores junto con la infraestructura activa, valida su estado de salud y realiza la transición del tráfico de usuarios sin problemas sin un solo milisegundo de retraso en el servicio."
+        "answer": "Diseñamos mecanismos especializados de implementación de contenedores rodantes o azul verde dentro de Amazon EKS. Cuando el nuevo código pasa las comprobaciones de validación, la canalización activa nuevos contenedores junto con la infraestructura activa, valida su estado de salud y realiza la transición del tráfico de usuarios sin problemas sin un solo milisegundo de retraso en el servicio."
       },
       {
         "question": "¿Pueden sus entornos de nube escalar de manera eficiente para controlar las facturas de alojamiento operativo?",

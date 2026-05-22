@@ -17,11 +17,11 @@
     "hero_image": "/videos/dashboard_analytics.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Test de charge ?",
     "content": [
-      "Chez Devisgon, nous abordons l’optimisation des performances comme une discipline logicielle de haute précision. Allant bien au-delà des scripts de base à vitesse de page, nous concevons des suites de tests de charge distribuées et personnalisées qui reproduisent des parcours utilisateur complexes du monde réel, des flux de webhooks automatisés à grand volume et des pics de trafic de base de données en lecture-écriture simultanés de manière native dans votre sandbox de préparation.",
-      "Nous comblons le fossé entre le code d'application abstrait et les limites sous-jacentes du serveur. Chaque boucle de simulation que nous exécutons met à l'épreuve vos gestionnaires de routes API, vos matrices de mémoire système et vos maillages de microservices tout en suivant la télémétrie du serveur en temps réel pour garantir que votre application reste complètement à l'épreuve des pics de trafic viral et des charges de production lourdes."
+      "Chez Devisgon, nous abordons l’optimisation des performances comme une discipline logicielle de haute précision. Allant bien au delà des scripts de base à vitesse de page, nous concevons des suites de tests de charge distribuées et personnalisées qui reproduisent des parcours utilisateur complexes du monde réel, des flux de webhooks automatisés à grand volume et des pics de trafic de base de données en lecture écriture simultanés de manière native dans votre sandbox de préparation.",
+      "Nous comblons le fossé entre le code d'application abstrait et les limites sous jacentes du serveur. Chaque boucle de simulation que nous exécutons met à l'épreuve vos gestionnaires de routes API, vos matrices de mémoire système et vos maillages de microservices tout en suivant la télémétrie du serveur en temps réel pour garantir que votre application reste complètement à l'épreuve des pics de trafic viral et des charges de production lourdes."
     ],
     "highlight_quote": "« Limites du système validées, débit des points de terminaison optimisé, durées d'exécution des applications 100 % stables en cas de charge de pointe. »",
     "side_image": "/all_services/performance_testing/introduction.webp"
@@ -128,7 +128,7 @@
       },
       {
         "name": "Tests de charge distribués AWS",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       }
     ]
   },
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Une plate-forme numérique à grande vitesse a subi de graves retards d'application et des blocages soudains de bases de données chaque fois que des campagnes marketing par courrier électronique déclenchaient une augmentation soudaine du trafic d'utilisateurs."
+        "text": "Une plate forme numérique à grande vitesse a subi de graves retards d'application et des blocages soudains de bases de données chaque fois que des campagnes marketing par courrier électronique déclenchaient une augmentation soudaine du trafic d'utilisateurs."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -172,7 +172,7 @@
       },
       "result": {
         "label": "Impact mesurable",
-        "text": "La latence de réponse de l'API a chuté de 73 % grâce à une indexation optimisée de la base de données, les goulots d'étranglement des ressources du serveur ont été éliminés et la plate-forme a maintenu une stabilité d'exécution continue à 100 % lors des pics de trafic ultérieurs."
+        "text": "La latence de réponse de l'API a chuté de 73 % grâce à une indexation optimisée de la base de données, les goulots d'étranglement des ressources du serveur ont été éliminés et la plate forme a maintenu une stabilité d'exécution continue à 100 % lors des pics de trafic ultérieurs."
       }
     }
   },
@@ -182,18 +182,18 @@
     "questions": [
       {
         "question": "Quelle est la principale différence entre les tests de charge standard et les tests de contrainte ?",
-        "answer": "Les tests de charge évaluent le comportement d'une application sous sa capacité opérationnelle maximale attendue pour garantir que les temps de réponse respectent les règles de performances de base. Les tests de résistance poussent le système complètement au-delà de ses seuils logiques jusqu'à ce qu'il se brise, révélant exactement quel niveau matériel ou quelle table de base de données échouera en premier."
+        "answer": "Les tests de charge évaluent le comportement d'une application sous sa capacité opérationnelle maximale attendue pour garantir que les temps de réponse respectent les règles de performances de base. Les tests de résistance poussent le système complètement au delà de ses seuils logiques jusqu'à ce qu'il se brise, révélant exactement quel niveau matériel ou quelle table de base de données échouera en premier."
       },
       {
         "question": "Comment tester les performances du système sans polluer ou corrompre accidentellement notre base de données de production active ?",
         "answer": "Nous exécutons toutes les boucles de simulation de performances et de charge dans un environnement sandbox de transfert isolé qui reflète exactement la topographie de votre matériel de production. Nous utilisons des ensembles de données fictifs anonymisés et des tableaux structurels propres, gardant vos informations utilisateur réelles complètement sûres et intactes."
       },
       {
-        "question": "Les tests de charge peuvent-ils optimiser les applications Web sans serveur qui utilisent des réseaux de routage de périphérie ?",
+        "question": "Les tests de charge peuvent ils optimiser les applications Web sans serveur qui utilisent des réseaux de routage de périphérie ?",
         "answer": "Absolument. Bien que les fonctions sans serveur évoluent de manière dynamique, elles se heurtent souvent à des limitations cachées du backend, telles que les limites de regroupement de connexions à la base de données ou la limitation du débit des API externes. Nous traquons ces limites précises d'intégration sans serveur, en configurant des couches de mise en cache Redis optimisées pour éviter les blocages en aval."
       },
       {
-        "question": "À quelle fréquence notre entreprise doit-elle exécuter des contrôles de performances programmatiques et de validation de charge ?",
+        "question": "À quelle fréquence notre entreprise doit elle exécuter des contrôles de performances programmatiques et de validation de charge ?",
         "answer": "Nous vous recommandons d'intégrer des tests de charge automatisés dans vos principaux pipelines de déploiement CI/CD avant les versions de fonctionnalités majeures, les modifications de la base de données système ou les événements saisonniers à fort trafic anticipés, en vérifiant que les nouvelles modifications de code n'entraînent pas de régressions de performances."
       }
     ],

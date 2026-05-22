@@ -17,7 +17,7 @@
     "hero_image": "/videos/devops_consulting.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Ingénierie AWS DevOps ?",
     "content": [
       "Chez Devisgon, nous abordons l'infrastructure cloud AWS comme une discipline d'ingénierie logicielle exacte et programmable. S'éloignant des clics manuels sur la console et des configurations de serveur fragiles, nous écrivons une infrastructure en tant que code (IaC) déclarative et contrôlée en version qui planifie l'ensemble de votre périmètre réseau, les couches d'orchestration de conteneurs et les clusters de bases de données de manière native.",
@@ -58,7 +58,7 @@
     "list_items": [
       {
         "title": "1. Infrastructure déclarative en tant que code (IaC)",
-        "description": "Environnements système entièrement reproductibles compilés via des scripts Terraform pour gouverner les réseaux VPC, les sous-réseaux, les passerelles et les équilibreurs de charge par programmation."
+        "description": "Environnements système entièrement reproductibles compilés via des scripts Terraform pour gouverner les réseaux VPC, les sous réseaux, les passerelles et les équilibreurs de charge par programmation."
       },
       {
         "title": "2. Structures d'orchestration de conteneurs de production",
@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "AWS EC2/mise à l'échelle automatique",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Amazon EKS (Kubernetes)",
@@ -104,19 +104,19 @@
       },
       {
         "name": "Amazon VPC (réseau maillé)",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "AWS IAM (accès zéro confiance)",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "AWS Route 53 / CloudFront",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Amazon CloudWatch",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Prométhée et Grafana",
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Une application cloud évolutive souffrait de pannes fréquentes de plate-forme, de dépendances logicielles rompues et d'écarts de configuration entre ses instances de serveur en raison de modifications manuelles de l'infrastructure."
+        "text": "Une application cloud évolutive souffrait de pannes fréquentes de plate forme, de dépendances logicielles rompues et d'écarts de configuration entre ses instances de serveur en raison de modifications manuelles de l'infrastructure."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -172,7 +172,7 @@
       },
       "result": {
         "label": "Impact mesurable",
-        "text": "Les erreurs de configuration du serveur ont chuté jusqu'à zéro absolu, les fréquences de déploiement de code se sont considérablement accélérées et la plate-forme a maintenu une stabilité opérationnelle totale lors des pics de trafic."
+        "text": "Les erreurs de configuration du serveur ont chuté jusqu'à zéro absolu, les fréquences de déploiement de code se sont considérablement accélérées et la plate forme a maintenu une stabilité opérationnelle totale lors des pics de trafic."
       }
     }
   },
@@ -185,16 +185,16 @@
         "answer": "Terraform agit comme une source de vérité unique et déclarative pour le maillage de vos systèmes. Au lieu de déployer manuellement des ressources cloud, ce qui conduit à des configurations non vérifiées, IaC suit chaque routeur, équilibreur de charge et configuration de base de données sécurisée sous forme de code en texte brut, permettant des audits de version automatisés et un clonage immédiat de l'environnement."
       },
       {
-        "question": "Comment vos pipelines CI/CD automatisés parviennent-ils à publier des versions logicielles sans temps d'arrêt ?",
-        "answer": "Nous concevons des mécanismes spécialisés de déploiement de conteneurs bleu-vert ou roulants au sein d'Amazon EKS. Lorsque le nouveau code passe les contrôles de validation, le pipeline lance de nouveaux conteneurs aux côtés de l'infrastructure active, valide leur état de santé et fait transiter le trafic utilisateur en douceur, sans une seule milliseconde de décalage de service."
+        "question": "Comment vos pipelines CI/CD automatisés parviennent ils à publier des versions logicielles sans temps d'arrêt ?",
+        "answer": "Nous concevons des mécanismes spécialisés de déploiement de conteneurs bleu vert ou roulants au sein d'Amazon EKS. Lorsque le nouveau code passe les contrôles de validation, le pipeline lance de nouveaux conteneurs aux côtés de l'infrastructure active, valide leur état de santé et fait transiter le trafic utilisateur en douceur, sans une seule milliseconde de décalage de service."
       },
       {
-        "question": "Vos environnements cloud peuvent-ils évoluer efficacement pour contrôler les factures d'hébergement opérationnel ?",
+        "question": "Vos environnements cloud peuvent ils évoluer efficacement pour contrôler les factures d'hébergement opérationnel ?",
         "answer": "Absolument. Nous configurons des mise à l'échelle automatique de pods horizontaux précis et des règles de mise à l'échelle Amazon EC2 directement liées aux limites de CPU et de requêtes en temps réel. Lorsque le trafic baisse pendant les périodes creuses, l'infrastructure diminue automatiquement, préservant ainsi les limites de calcul et optimisant les dépenses mensuelles de la plateforme."
       },
       {
-        "question": "Comment protégez-vous les enregistrements de base de données sécurisés et les clés de microservice privées dans les configurations AWS ?",
-        "answer": "Nous appliquons des stratégies strictes de paramètres de confiance zéro. Les bases de données sont verrouillées dans des sous-réseaux totalement privés, entièrement séparés de l’Internet public. Toutes les connexions API nécessitent des jetons cryptographiques de courte durée gérés via AWS Secrets Manager, garantissant ainsi la sécurité et la dissimulation des routes de connexion aux applications."
+        "question": "Comment protégez vous les enregistrements de base de données sécurisés et les clés de microservice privées dans les configurations AWS ?",
+        "answer": "Nous appliquons des stratégies strictes de paramètres de confiance zéro. Les bases de données sont verrouillées dans des sous réseaux totalement privés, entièrement séparés de l’Internet public. Toutes les connexions API nécessitent des jetons cryptographiques de courte durée gérés via AWS Secrets Manager, garantissant ainsi la sécurité et la dissimulation des routes de connexion aux applications."
       }
     ],
     "footer": {

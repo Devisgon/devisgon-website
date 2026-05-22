@@ -17,10 +17,10 @@
     "hero_image": "/videos/api_integration.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Tests en boîte noire ?",
     "content": [
-      "Chez Devisgon, nous abordons la validation fonctionnelle comme une science exacte et centrée sur l'utilisateur. Au-delà du clic manuel occasionnel, nous construisons des matrices de tests automatisés systématiques qui évaluent les comportements d'entrée-sortie de votre application, les validations de formulaires, les limites et les parcours professionnels en plusieurs étapes strictement par rapport aux spécifications logicielles de base.",
+      "Chez Devisgon, nous abordons la validation fonctionnelle comme une science exacte et centrée sur l'utilisateur. Au delà du clic manuel occasionnel, nous construisons des matrices de tests automatisés systématiques qui évaluent les comportements d'entrée sortie de votre application, les validations de formulaires, les limites et les parcours professionnels en plusieurs étapes strictement par rapport aux spécifications logicielles de base.",
       "Nous comblons le fossé entre les exigences de conception abstraite et la convivialité du système dans le monde réel. Chaque boucle de vérification que nous exécutons isole les cas extrêmes, les transitions d'état interrompues et les écarts de validation dans vos vues côté client et vos points de terminaison d'API, garantissant ainsi que votre code de production offre une expérience utilisateur sans faille sur tous les appareils et flux de travail."
     ],
     "highlight_quote": "« Informations comportementales objectives, validation fonctionnelle à toute épreuve, 0 % de confiance dans les hypothèses du code interne. »",
@@ -46,7 +46,7 @@
         "icon_type": "PiCodeFill"
       },
       {
-        "title": "Tests multi-appareils transparents",
+        "title": "Tests multi appareils transparents",
         "description": "Vérifiez que vos mises en page d'interface utilisateur réactives se comportent proprement dans différentes fenêtres d'affichage, en vérifiant les cartes de connexion 2x2 et les positions d'alignement dans le cadre d'une utilisation réelle.",
         "icon_type": "VscGraphLine"
       }
@@ -172,7 +172,7 @@
       },
       "result": {
         "label": "Impact mesurable",
-        "text": "Les bogues système signalés par les utilisateurs ont chuté de 84 % au cours du premier mois, les correctifs post-lancement sont tombés à zéro et les équipes d'ingénierie ont assuré une totale tranquillité d'esprit pendant les déploiements."
+        "text": "Les bogues système signalés par les utilisateurs ont chuté de 84 % au cours du premier mois, les correctifs post lancement sont tombés à zéro et les équipes d'ingénierie ont assuré une totale tranquillité d'esprit pendant les déploiements."
       }
     }
   },
@@ -182,14 +182,14 @@
     "questions": [
       {
         "question": "Quelle est la principale différence entre les tests boîte noire et les tests boîte blanche ?",
-        "answer": "Black Box Testing évalue l'application entièrement à partir d'un point de vue d'utilisateur externe, vérifiant les comportements, la logique des formulaires et les interfaces sans aucune connaissance du code interne sous-jacent. Les tests en boîte blanche examinent l'intérieur du maillage du système, en se concentrant directement sur les chemins sources, les boucles internes et les métriques de l'architecture du code."
+        "answer": "Black Box Testing évalue l'application entièrement à partir d'un point de vue d'utilisateur externe, vérifiant les comportements, la logique des formulaires et les interfaces sans aucune connaissance du code interne sous jacent. Les tests en boîte blanche examinent l'intérieur du maillage du système, en se concentrant directement sur les chemins sources, les boucles internes et les métriques de l'architecture du code."
       },
       {
         "question": "Comment automatiser les parcours comportementaux des utilisateurs sans risquer une contamination active des données ?",
         "answer": "Nous isolons toutes les suites de tests comportementaux dans un environnement sandbox de transfert découplé. Nous construisons des serveurs de simulation programmatique personnalisés et des pools de données de test localisés, garantissant que vos bases de données de production et les transactions des consommateurs actifs restent totalement intactes et sécurisées."
       },
       {
-        "question": "Les méthodes de boîte noire peuvent-elles valider avec précision des intégrations complexes telles que les hooks JotForm personnalisés ou Supabase Auth ?",
+        "question": "Les méthodes de boîte noire peuvent elles valider avec précision des intégrations complexes telles que les hooks JotForm personnalisés ou Supabase Auth ?",
         "answer": "Absolument. En traitant ces systèmes comme des limites fonctionnelles, nous simulons des comportements d'utilisateurs spécifiques, tels que les champs de prospects soumis ou les invites de réinitialisation de mot de passe. Nous affirmons par programme que l'application affiche les états de réussite corrects ou intercepte proprement les erreurs de validation de champ."
       },
       {

@@ -17,11 +17,11 @@
     "hero_image": "/videos/dashboard_analytics.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "heading": "Qu'est ce qu'un niveau entreprise",
     "span_heading": "Tableau de bord de niveau C ?",
     "content": [
-      "Chez Devisgon, nous traitons l’intelligence exécutive comme une discipline d’ingénierie de données stricte et performante. Bien au-delà des graphiques opérationnels encombrés, des définitions de données contradictoires et des mises à jour lentes des feuilles de calcul, nous concevons des applications de console côté client à faible latence construites sur des pipelines de données unifiées à haut débit, fournissant des réponses en moins d'une seconde à des questions stratégiques complexes.",
-      "Nous comblons le fossé entre les bases de données transactionnelles lourdes et la surveillance administrative de haut niveau. Chaque portail de surveillance de niveau C que nous déployons comprend des arborescences d'autorisations personnalisées basées sur les rôles, des modèles de données ETL financières multi-sources, une conformité en matière de sécurité des données et une esthétique en mode sombre haut de gamme pour présenter parfaitement vos revenus récurrents annuels (ARR), les ratios de valeur à vie du client et les mesures d'efficacité."
+      "Chez Devisgon, nous traitons l’intelligence exécutive comme une discipline d’ingénierie de données stricte et performante. Bien au delà des graphiques opérationnels encombrés, des définitions de données contradictoires et des mises à jour lentes des feuilles de calcul, nous concevons des applications de console côté client à faible latence construites sur des pipelines de données unifiées à haut débit, fournissant des réponses en moins d'une seconde à des questions stratégiques complexes.",
+      "Nous comblons le fossé entre les bases de données transactionnelles lourdes et la surveillance administrative de haut niveau. Chaque portail de surveillance de niveau C que nous déployons comprend des arborescences d'autorisations personnalisées basées sur les rôles, des modèles de données ETL financières multi sources, une conformité en matière de sécurité des données et une esthétique en mode sombre haut de gamme pour présenter parfaitement vos revenus récurrents annuels (ARR), les ratios de valeur à vie du client et les mesures d'efficacité."
     ],
     "highlight_quote": "« Télémétrie stratégique unifiée, requêtes exécutives en moins d'une seconde, confiance opérationnelle 100 % basée sur les données. »",
     "side_image": "/all_services/dashboard/introduction.webp"
@@ -57,12 +57,12 @@
     "image": "/all_services/dashboard/wwg.webp",
     "list_items": [
       {
-        "title": "1. Structures de consolidation de pipelines multi-sources",
-        "description": "Courtiers d'extraction robustes (conçus via n8n ou Make.com) configurés pour récupérer des données multi-applications, nettoyer les schémas et standardiser les profils de formatage."
+        "title": "1. Structures de consolidation de pipelines multi sources",
+        "description": "Courtiers d'extraction robustes (conçus via n8n ou Make.com) configurés pour récupérer des données multi applications, nettoyer les schémas et standardiser les profils de formatage."
       },
       {
         "title": "2. Pools de métriques relationnelles hautes performances",
-        "description": "Tableaux de bases de données historiques dédiés optimisés dans un maillage back-end sécurisé pour maintenir une stricte uniformité mathématique entre les enregistrements commerciaux."
+        "description": "Tableaux de bases de données historiques dédiés optimisés dans un maillage back end sécurisé pour maintenir une stricte uniformité mathématique entre les enregistrements commerciaux."
       },
       {
         "title": "3. Portes d'alerte de performances automatisées",
@@ -92,7 +92,7 @@
       },
       {
         "name": "n8n (automatisation avancée du flux de travail)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -181,20 +181,20 @@
     "subtitle": "Des réponses claires aux questions critiques sur la configuration de la base de données, le traitement des webhooks et la sécurité du pipeline",
     "questions": [
       {
-        "question": "Pourquoi associez-vous des microservices d'intégration visuelle low-code à des itinéraires de code personnalisés ?",
-        "answer": "Nous équilibrons le suivi agile des flux de travail de n8n ou Make.com avec les gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des interfaces low-code pour une visualisation claire du chemin de données et des blocs de code JavaScript/Python personnalisés pour une analyse sécurisée des jetons, un formatage de données multicouche et des transformations de tableaux complexes."
+        "question": "Pourquoi associez vous des microservices d'intégration visuelle low code à des itinéraires de code personnalisés ?",
+        "answer": "Nous équilibrons le suivi agile des flux de travail de n8n ou Make.com avec les gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des interfaces low code pour une visualisation claire du chemin de données et des blocs de code JavaScript/Python personnalisés pour une analyse sécurisée des jetons, un formatage de données multicouche et des transformations de tableaux complexes."
       },
       {
-        "question": "Comment le tableau de bord gère-t-il les performances de la base de données lors de pics soudains de trafic ou d'événements système ?",
+        "question": "Comment le tableau de bord gère t il les performances de la base de données lors de pics soudains de trafic ou d'événements système ?",
         "answer": "Nous déployons un middleware d'intégration sans état soutenu par des tampons de base de données Redis à haut débit. Si vos systèmes opérationnels sont confrontés à des milliers de webhooks transactionnels simultanés, notre pipeline met en file d'attente les charges utiles en toute sécurité, mettant à jour les métriques de données en douceur sans atteindre les limites d'exécution de la base de données."
       },
       {
-        "question": "Les formats d’admission front-end personnalisés comme JotForm peuvent-ils se connecter directement aux vues centralisées des dirigeants ?",
+        "question": "Les formats d’admission front end personnalisés comme JotForm peuvent ils se connecter directement aux vues centralisées des dirigeants ?",
         "answer": "Absolument. Nous construisons des passerelles webhook robustes qui ingèrent en toute sécurité les paramètres JSON en temps réel à partir de formulaires comme JotForm, analysant les champs de validation avant d'ajouter les enregistrements à vos tableaux centraux de métriques relationnelles."
       },
       {
-        "question": "Comment protégez-vous les données sensibles de l’entreprise et les champs financiers tout au long des pipelines d’intégration ?",
-        "answer": "Chaque plate-forme de données automatisée que nous déployons applique les directives relatives aux paramètres de confiance zéro. Tous les webhooks entrants sont validés à l'aide de signatures cryptographiques (validation d'en-tête SHA-256), les transferts de données sont cryptés en transit via TLS 1.3 et les champs d'entreprise privés sont complètement masqués avant les composants d'affichage."
+        "question": "Comment protégez vous les données sensibles de l’entreprise et les champs financiers tout au long des pipelines d’intégration ?",
+        "answer": "Chaque plate forme de données automatisée que nous déployons applique les directives relatives aux paramètres de confiance zéro. Tous les webhooks entrants sont validés à l'aide de signatures cryptographiques (validation d'en tête SHA 256), les transferts de données sont cryptés en transit via TLS 1.3 et les champs d'entreprise privés sont complètement masqués avant les composants d'affichage."
       }
     ],
     "footer": {

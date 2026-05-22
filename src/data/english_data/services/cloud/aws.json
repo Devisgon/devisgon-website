@@ -2,7 +2,7 @@
   "slug": "aws-devops-infrastructure",
   "seo_metadata": {
     "title": "AWS DevOps Infrastructure Services | Cloud Architecture, CI/CD, IaC & Deployment Automation | Devisgon",
-    "description": "Devisgon provides professional AWS DevOps infrastructure services for cloud architecture, CI/CD pipelines, Infrastructure as Code, Docker, Kubernetes, monitoring, security, scaling, and production-ready cloud systems for global businesses.",
+    "description": "Devisgon provides professional AWS DevOps infrastructure services for cloud architecture, CI/CD pipelines, Infrastructure as Code, Docker, Kubernetes, monitoring, security, scaling, and production ready cloud systems for global businesses.",
     "keywords": [
       "AWS DevOps services",
       "AWS infrastructure services",
@@ -27,7 +27,7 @@
   "hero_section": {
     "title": "AWS DevOps Infrastructure Services",
     "subtitle": "Scalable Cloud Architecture, CI/CD Automation, and Secure Production Deployments",
-    "description": "Devisgon designs and manages AWS DevOps infrastructure for SaaS platforms, web applications, APIs, AI systems, enterprise software, and cloud-native products. We help global businesses automate deployments, improve reliability, secure environments, monitor systems, and scale infrastructure without manual server chaos.",
+    "description": "Devisgon designs and manages AWS DevOps infrastructure for SaaS platforms, web applications, APIs, AI systems, enterprise software, and cloud native products. We help global businesses automate deployments, improve reliability, secure environments, monitor systems, and scale infrastructure without manual server chaos.",
     "buttons": [
       {
         "text": "Architect My AWS Infrastructure",
@@ -41,11 +41,11 @@
     "hero_image": "/videos/devops_consulting.mp4"
   },
   "introduction_section": {
-    "heading": "What is Enterprise-Grade",
+    "heading": "What is Enterprise Grade",
     "span_heading": " AWS DevOps Engineering?",
     "content": [
-      "Enterprise-grade AWS DevOps engineering means designing cloud infrastructure, deployment pipelines, security controls, monitoring systems, and automation workflows that keep software reliable in production. It replaces manual server setup with repeatable Infrastructure as Code, CI/CD pipelines, containerized deployments, access control, and structured observability.",
-      "At Devisgon, we build AWS DevOps systems with scalability, security, uptime, cost control, and maintainability in mind. Our approach covers cloud architecture, environments, networking, Docker, Kubernetes, Terraform, deployment automation, monitoring, backup planning, and post-launch maintenance so your product can grow safely."
+      "Enterprise grade AWS DevOps engineering means designing cloud infrastructure, deployment pipelines, security controls, monitoring systems, and automation workflows that keep software reliable in production. It replaces manual server setup with repeatable Infrastructure as Code, CI/CD pipelines, containerized deployments, access control, and structured observability.",
+      "At Devisgon, we build AWS DevOps systems with scalability, security, uptime, cost control, and maintainability in mind. Our approach covers cloud architecture, environments, networking, Docker, Kubernetes, Terraform, deployment automation, monitoring, backup planning, and post launch maintenance so your product can grow safely."
     ],
     "highlight_quote": "“Strong DevOps turns cloud infrastructure into a secure, repeatable, automated foundation for reliable software delivery.”",
     "side_image": "/all_services/devops_consulting/introduction.webp"
@@ -86,7 +86,7 @@
       },
       {
         "title": "2. Infrastructure as Code Setup",
-        "description": "We create repeatable Terraform-based infrastructure for VPCs, services, load balancers, databases, and cloud resources."
+        "description": "We create repeatable Terraform based infrastructure for VPCs, services, load balancers, databases, and cloud resources."
       },
       {
         "title": "3. CI/CD Pipeline Automation",
@@ -94,7 +94,7 @@
       },
       {
         "title": "4. Docker and Kubernetes Deployment",
-        "description": "We containerize applications and configure ECS, EKS, or Kubernetes-based deployment workflows where needed."
+        "description": "We containerize applications and configure ECS, EKS, or Kubernetes based deployment workflows where needed."
       },
       {
         "title": "5. Security, Monitoring, and Backup Controls",
@@ -108,11 +108,11 @@
   },
   "technologies_section": {
     "title": "AWS DevOps Technologies and Tools We Use",
-    "subtitle": "Modern cloud, infrastructure, CI/CD, monitoring, container, and security tools for production-ready AWS systems",
+    "subtitle": "Modern cloud, infrastructure, CI/CD, monitoring, container, and security tools for production ready AWS systems",
     "tools": [
       {
         "name": "AWS EC2 / Auto Scaling",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Amazon EKS Kubernetes",
@@ -136,19 +136,19 @@
       },
       {
         "name": "Amazon VPC",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "AWS IAM",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Route 53 / CloudFront",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Amazon CloudWatch",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Prometheus and Grafana",
@@ -166,7 +166,7 @@
   },
   "process_section": {
     "title": "Our AWS DevOps Infrastructure Process",
-    "subtitle": "A focused 6-step process from discovery to testing, deployment, maintenance, and optimization",
+    "subtitle": "A focused 6 step process from discovery to testing, deployment, maintenance, and optimization",
     "steps": [
       {
         "title": "Discovery Call",
@@ -232,7 +232,7 @@
       },
       {
         "question": "What is Infrastructure as Code and why should we use it?",
-        "answer": "Infrastructure as Code means defining cloud resources through version-controlled configuration files instead of manual console setup. It helps teams reproduce environments, track changes, reduce configuration drift, and recover infrastructure faster. Terraform is commonly used for AWS IaC workflows."
+        "answer": "Infrastructure as Code means defining cloud resources through version controlled configuration files instead of manual console setup. It helps teams reproduce environments, track changes, reduce configuration drift, and recover infrastructure faster. Terraform is commonly used for AWS IaC workflows."
       },
       {
         "question": "Can AWS infrastructure scale automatically as traffic grows?",
@@ -244,15 +244,15 @@
       },
       {
         "question": "Can you migrate an existing application to AWS?",
-        "answer": "Yes. Devisgon can assess the current application, dependencies, database, deployment process, storage needs, and traffic requirements before planning migration. We can move apps to AWS using containers, managed services, server-based deployment, or cloud-native architecture depending on the product needs."
+        "answer": "Yes. Devisgon can assess the current application, dependencies, database, deployment process, storage needs, and traffic requirements before planning migration. We can move apps to AWS using containers, managed services, server based deployment, or cloud native architecture depending on the product needs."
       },
       {
         "question": "How do you monitor AWS applications after deployment?",
-        "answer": "Monitoring can include logs, metrics, alerts, uptime checks, resource usage, database performance, API health, error tracking, and deployment status. We use tools like CloudWatch, Grafana, Prometheus, and application-level monitoring where needed. This helps teams detect issues before they become major failures."
+        "answer": "Monitoring can include logs, metrics, alerts, uptime checks, resource usage, database performance, API health, error tracking, and deployment status. We use tools like CloudWatch, Grafana, Prometheus, and application level monitoring where needed. This helps teams detect issues before they become major failures."
       },
       {
         "question": "Does Devisgon provide ongoing AWS DevOps maintenance?",
-        "answer": "Yes. AWS infrastructure needs ongoing maintenance, cost review, security updates, monitoring, backup checks, scaling adjustments, pipeline improvements, and incident support. Devisgon provides post-deployment maintenance to keep cloud systems stable, secure, and optimized as your product grows."
+        "answer": "Yes. AWS infrastructure needs ongoing maintenance, cost review, security updates, monitoring, backup checks, scaling adjustments, pipeline improvements, and incident support. Devisgon provides post deployment maintenance to keep cloud systems stable, secure, and optimized as your product grows."
       }
     ],
     "footer": {

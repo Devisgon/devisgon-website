@@ -21,7 +21,7 @@
     "span_heading": "Sicherheitstests?",
     "content": [
       "Unter Sicherheitstests versteht man den strengen Prozess der Bewertung Ihrer Software, um Schwachstellen, Bedrohungen und Risiken aufzudecken. Anstatt darauf zu warten, dass ein böswilliger Angriff die Schwachstellen in Ihrem System aufdeckt, gehen unsere zertifizierten ethischen Hacker in die Offensive und versuchen, mit genau denselben Tools und Techniken wie echte Cyberkriminelle in Ihre Anwendungen einzudringen.",
-      "Bei Devisgon gehen wir über automatisierte Scans hinaus. Wir tauchen tief in die Logik, APIs und Infrastruktur Ihrer Anwendung ein, um versteckte Lücken wie SQL-Injections, Cross-Site-Scripting (XSS) und fehlerhafte Authentifizierung zu finden. Anschließend bieten wir umsetzbare Abhilfemaßnahmen an, um Ihr System vollständig zu sperren."
+      "Bei Devisgon gehen wir über automatisierte Scans hinaus. Wir tauchen tief in die Logik, APIs und Infrastruktur Ihrer Anwendung ein, um versteckte Lücken wie SQL Injections, Cross Site Scripting (XSS) und fehlerhafte Authentifizierung zu finden. Anschließend bieten wir umsetzbare Abhilfemaßnahmen an, um Ihr System vollständig zu sperren."
     ],
     "highlight_quote": "„Wenn Sie glauben, dass Compliance teuer ist, versuchen Sie es mit einer Datenschutzverletzung.“",
     "side_image": "/all_services/security_testing/introduction.webp"
@@ -32,7 +32,7 @@
     "cards": [
       {
         "title": "Verhindern Sie kostspielige Verstöße",
-        "description": "Identifizieren und beheben Sie Zero-Day-Schwachstellen und kritische Schwachstellen, bevor sie zu katastrophalen Datenverlusten oder Lösegeldforderungen führen.",
+        "description": "Identifizieren und beheben Sie Zero Day Schwachstellen und kritische Schwachstellen, bevor sie zu katastrophalen Datenverlusten oder Lösegeldforderungen führen.",
         "icon_type": "MdLock"
       },
       {
@@ -42,12 +42,12 @@
       },
       {
         "title": "Stellen Sie Compliance sicher",
-        "description": "Erfüllen Sie die strengen Sicherheitstestanforderungen, die von Frameworks wie SOC 2, HIPAA, PCI-DSS und DSGVO vorgeschrieben werden.",
+        "description": "Erfüllen Sie die strengen Sicherheitstestanforderungen, die von Frameworks wie SOC 2, HIPAA, PCI DSS und DSGVO vorgeschrieben werden.",
         "icon_type": "MdGppGood"
       },
       {
         "title": "Sichern Sie die Lieferkette",
-        "description": "Stellen Sie sicher, dass Plugins, APIs und Open-Source-Bibliotheken von Drittanbietern keine versteckten Risiken für Ihre Anwendung mit sich bringen.",
+        "description": "Stellen Sie sicher, dass Plugins, APIs und Open Source Bibliotheken von Drittanbietern keine versteckten Risiken für Ihre Anwendung mit sich bringen.",
         "icon_type": "MdSecurity"
       }
     ]
@@ -62,7 +62,7 @@
       },
       {
         "title": "2. Manueller Penetrationstest",
-        "description": "Tiefgreifendes, von Menschen geführtes ethisches Hacking, das auf komplexe Geschäftslogik und ausgefeilte Exploit-Ketten abzielt."
+        "description": "Tiefgreifendes, von Menschen geführtes ethisches Hacking, das auf komplexe Geschäftslogik und ausgefeilte Exploit Ketten abzielt."
       },
       {
         "title": "3. OWASP Top 10 Audits",
@@ -79,7 +79,7 @@
     "subtitle": "Das ultimative Arsenal für ethisches Hacking und die Erkennung von Schwachstellen",
     "tools": [
       {
-        "name": "Rülpsen-Suite",
+        "name": "Rülpsen Suite",
         "icon": "FaBug"
       },
       {
@@ -106,7 +106,7 @@
     "steps": [
       {
         "title": "Reconnaissance",
-        "description": "Wir kartieren die Angriffsfläche Ihrer Anwendung und identifizieren exponierte Endpunkte, Subdomänen und Tech-Stacks.",
+        "description": "Wir kartieren die Angriffsfläche Ihrer Anwendung und identifizieren exponierte Endpunkte, Subdomänen und Tech Stacks.",
         "icon": "FaSearch"
       },
       {
@@ -132,7 +132,7 @@
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Ein Telemedizin-Startup war noch Wochen von der Einführung seines Patientenportals entfernt, benötigte jedoch eine abschließende Sicherheitsüberprüfung, um die HIPAA-Vorschriften einzuhalten."
+        "text": "Ein Telemedizin Startup war noch Wochen von der Einführung seines Patientenportals entfernt, benötigte jedoch eine abschließende Sicherheitsüberprüfung, um die HIPAA Vorschriften einzuhalten."
       },
       "solution": {
         "label": "Solution",
@@ -140,7 +140,7 @@
       },
       "result": {
         "label": "Result",
-        "text": "Wir haben einen sofortigen Korrekturcode bereitgestellt. Die Schwachstelle wurde vor dem Start behoben, wodurch ein katastrophaler HIPAA-Verstoß vermieden und die Zukunft des Startups gesichert wurde."
+        "text": "Wir haben einen sofortigen Korrekturcode bereitgestellt. Die Schwachstelle wurde vor dem Start behoben, wodurch ein katastrophaler HIPAA Verstoß vermieden und die Zukunft des Startups gesichert wurde."
       }
     }
   },
@@ -153,16 +153,16 @@
         "answer": "Ein Vulnerability Scan ist ein automatisierter Prozess, der Ihre Systeme auf bekannte Schwachstellen überprüft und diese meldet. Ein Penetrationstest (Pentest) ist ein manueller, von Menschen geleiteter Prozess, bei dem ein ethischer Hacker aktiv versucht, diese Schwachstellen auszunutzen, um zu sehen, wie tief sie in das System eindringen können, und so einen realen Angriff simuliert."
       },
       {
-        "question": "Ist es sicher, Sicherheitstests in einer Live-Produktionsumgebung durchzuführen?",
-        "answer": "Während wir Produktionsumgebungen sorgfältig testen können, empfehlen wir dringend, aufdringliche Sicherheitstests (wie Penetrationstests) in einer Staging- oder Replikatumgebung durchzuführen. Dadurch wird sichergestellt, dass Ihre Live-Benutzer absolut nicht gestört werden und keine Gefahr einer versehentlichen Datenbeschädigung besteht."
+        "question": "Ist es sicher, Sicherheitstests in einer Live Produktionsumgebung durchzuführen?",
+        "answer": "Während wir Produktionsumgebungen sorgfältig testen können, empfehlen wir dringend, aufdringliche Sicherheitstests (wie Penetrationstests) in einer Staging  oder Replikatumgebung durchzuführen. Dadurch wird sichergestellt, dass Ihre Live Benutzer absolut nicht gestört werden und keine Gefahr einer versehentlichen Datenbeschädigung besteht."
       },
       {
         "question": "Wie oft sollten wir Sicherheitstests durchführen?",
-        "answer": "Best Practices schreiben die kontinuierliche Durchführung automatisierter Schwachstellenscans vor (integriert in Ihre CI/CD-Pipeline). Tiefgreifende manuelle Penetrationstests sollten mindestens einmal jährlich oder unmittelbar nach größeren Architekturänderungen oder bedeutenden Funktionsveröffentlichungen durchgeführt werden."
+        "answer": "Best Practices schreiben die kontinuierliche Durchführung automatisierter Schwachstellenscans vor (integriert in Ihre CI/CD Pipeline). Tiefgreifende manuelle Penetrationstests sollten mindestens einmal jährlich oder unmittelbar nach größeren Architekturänderungen oder bedeutenden Funktionsveröffentlichungen durchgeführt werden."
       },
       {
         "question": "Was passiert, nachdem Sie eine Schwachstelle gefunden haben?",
-        "answer": "Wir geben Ihnen nicht nur eine Problemliste. Wir stellen einen detaillierten Bericht zur Verfügung, in dem die Schwachstellen nach Schweregrad (Kritisch, Hoch, Mittel, Niedrig) eingestuft werden, sowie Schritt-für-Schritt-Anweisungen zur Behebung. Sobald Ihre Entwickler den Fix anwenden, führen wir einen „erneuten Test“ durch, um sicherzustellen, dass die Lücke dauerhaft geschlossen wird."
+        "answer": "Wir geben Ihnen nicht nur eine Problemliste. Wir stellen einen detaillierten Bericht zur Verfügung, in dem die Schwachstellen nach Schweregrad (Kritisch, Hoch, Mittel, Niedrig) eingestuft werden, sowie Schritt für Schritt Anweisungen zur Behebung. Sobald Ihre Entwickler den Fix anwenden, führen wir einen „erneuten Test“ durch, um sicherzustellen, dass die Lücke dauerhaft geschlossen wird."
       }
     ],
     "footer": {

@@ -17,11 +17,11 @@
     "hero_image": "/videos/marketing.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Automatisation du marketing ?",
     "content": [
-      "Chez Devisgon, nous construisons une infrastructure d'automatisation du marketing personnalisée conçue pour orchestrer des interactions client à haut débit et basées sur des événements sur vos points de contact numériques. Allant bien au-delà des boucles de séquence d'e-mails fragiles et basiques, nous construisons des architectures de flux de travail décentralisées qui gèrent de manière native une logique conditionnelle complexe, des algorithmes de notation des leads en temps réel et des mises à jour dynamiques des segments de clientèle.",
-      "Nous comblons le fossé entre les outils marketing fragmentés et le backend de votre application principale. Chaque pipeline que nous concevons comprend une écoute de webhooks multi-applications, une validation stricte de la charge utile, des filtres de synchronisation des données et des tableaux de bord de télémétrie centralisés pour garantir que vos opérations promotionnelles, transactionnelles et de conversion s'exécutent de manière fiable à grande échelle."
+      "Chez Devisgon, nous construisons une infrastructure d'automatisation du marketing personnalisée conçue pour orchestrer des interactions client à haut débit et basées sur des événements sur vos points de contact numériques. Allant bien au delà des boucles de séquence d'e mails fragiles et basiques, nous construisons des architectures de flux de travail décentralisées qui gèrent de manière native une logique conditionnelle complexe, des algorithmes de notation des leads en temps réel et des mises à jour dynamiques des segments de clientèle.",
+      "Nous comblons le fossé entre les outils marketing fragmentés et le backend de votre application principale. Chaque pipeline que nous concevons comprend une écoute de webhooks multi applications, une validation stricte de la charge utile, des filtres de synchronisation des données et des tableaux de bord de télémétrie centralisés pour garantir que vos opérations promotionnelles, transactionnelles et de conversion s'exécutent de manière fiable à grande échelle."
     ],
     "highlight_quote": "« Flux de travail déclenchés par le comportement, synchronisation unifiée des données de profil, 0 % de fuites de rétention manuelles. »",
     "side_image": "/all_services/ai_powered_automation/introduction.webp"
@@ -32,7 +32,7 @@
     "cards": [
       {
         "title": "Personnalisation basée sur les événements",
-        "description": "Déclenchez des notifications multicanaux précises, des mises en page localisées et des e-mails personnalisés à la milliseconde exacte où un utilisateur interagit avec votre maillage d'application.",
+        "description": "Déclenchez des notifications multicanaux précises, des mises en page localisées et des e mails personnalisés à la milliseconde exacte où un utilisateur interagit avec votre maillage d'application.",
         "icon_type": "HiMiniSignal"
       },
       {
@@ -41,8 +41,8 @@
         "icon_type": "VscGraphLine"
       },
       {
-        "title": "Synchronisations multi-applications parfaites",
-        "description": "Éliminez les divergences dans les enregistrements clients en exécutant des synchronisations Webhook bidirectionnelles continues entre votre CRM, vos pages de destination et vos bases de données back-end.",
+        "title": "Synchronisations multi applications parfaites",
+        "description": "Éliminez les divergences dans les enregistrements clients en exécutant des synchronisations Webhook bidirectionnelles continues entre votre CRM, vos pages de destination et vos bases de données back end.",
         "icon_type": "PiCodeFill"
       },
       {
@@ -58,7 +58,7 @@
     "list_items": [
       {
         "title": "1. Couches d'orchestration de Webhook multiplateforme",
-        "description": "Systèmes de flux de travail centralisés (construits sur n8n ou Make.com) qui ingèrent des webhooks, effectuent un mappage de données complexe et synchronisent proprement les plates-formes."
+        "description": "Systèmes de flux de travail centralisés (construits sur n8n ou Make.com) qui ingèrent des webhooks, effectuent un mappage de données complexe et synchronisent proprement les plates formes."
       },
       {
         "title": "2. Modèles transactionnels et marketing optimisés",
@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "n8n",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -181,20 +181,20 @@
     "subtitle": "Des réponses claires aux questions critiques sur la mise à l'échelle du système, le routage des données et la sécurité des webhooks",
     "questions": [
       {
-        "question": "Pourquoi utilisez-vous des outils comme n8n aux côtés de points de terminaison d'API Next.js personnalisés ?",
+        "question": "Pourquoi utilisez vous des outils comme n8n aux côtés de points de terminaison d'API Next.js personnalisés ?",
         "answer": "Nous combinons l'agilité des orchestrateurs de flux de travail visuels comme n8n ou Make.com pour la vitesse et la visibilité multiplateforme avec les gestionnaires de routes backend Next.js personnalisés pour traiter les jetons sécurisés, les lectures approfondies de la base de données et le formatage de charge utile hautes performances."
       },
       {
-        "question": "Comment vos flux d’automatisation du marketing maintiennent-ils la précision de la base de données lors de pics de trafic importants ?",
-        "answer": "Nous concevons des microservices sans état soutenus par des files d'attente de messages Redis à haut débit. Si votre plate-forme reçoit des milliers de pages de destination complétées simultanément, la couche d'intégration aligne en toute sécurité les charges utiles, garantissant ainsi que votre CRM ou votre base de données principale n'atteint pas les limites de taux d'exécution."
+        "question": "Comment vos flux d’automatisation du marketing maintiennent ils la précision de la base de données lors de pics de trafic importants ?",
+        "answer": "Nous concevons des microservices sans état soutenus par des files d'attente de messages Redis à haut débit. Si votre plate forme reçoit des milliers de pages de destination complétées simultanément, la couche d'intégration aligne en toute sécurité les charges utiles, garantissant ainsi que votre CRM ou votre base de données principale n'atteint pas les limites de taux d'exécution."
       },
       {
-        "question": "Pouvons-nous connecter des architectures Web modernes et sans serveur avec des réseaux de communication personnalisés tels que les agents d'appel Twilio ?",
+        "question": "Pouvons nous connecter des architectures Web modernes et sans serveur avec des réseaux de communication personnalisés tels que les agents d'appel Twilio ?",
         "answer": "Absolument. Nous construisons des passerelles webhook robustes qui transmettent en toute sécurité les clés de données entre les environnements d'exécution Next.js sans serveur et les cadres de communication personnalisés, permettant des alertes textuelles dynamiques en temps réel ou des itinéraires de traitement vocal."
       },
       {
-        "question": "Comment protégez-vous la sécurité des données et garantissez-vous la sécurité du système au sein d’un logiciel d’automatisation tiers ?",
-        "answer": "Chaque pipeline d'intégration que nous construisons applique des paramètres de données zéro confiance. Tous les webhooks sont validés à l'aide de signatures cryptographiques (en-têtes SHA-256), le trafic est chiffré de bout en bout à l'aide de TLS 1.3 et les champs PII sensibles sont effacés ou masqués avant les couches de transport."
+        "question": "Comment protégez vous la sécurité des données et garantissez vous la sécurité du système au sein d’un logiciel d’automatisation tiers ?",
+        "answer": "Chaque pipeline d'intégration que nous construisons applique des paramètres de données zéro confiance. Tous les webhooks sont validés à l'aide de signatures cryptographiques (en têtes SHA 256), le trafic est chiffré de bout en bout à l'aide de TLS 1.3 et les champs PII sensibles sont effacés ou masqués avant les couches de transport."
       }
     ],
     "footer": {

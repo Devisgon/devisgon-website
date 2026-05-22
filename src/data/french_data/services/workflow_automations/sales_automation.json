@@ -17,10 +17,10 @@
     "hero_image": "/videos/financial_automation.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Automatisation des ventes ?",
     "content": [
-      "Chez Devisgon, nous construisons des couches d'automatisation des ventes personnalisées conçues pour orchestrer des opérations de revenus à haut débit et basées sur les données dans l'ensemble de votre écosystème d'entreprise. Allant bien au-delà des planificateurs de calendrier de base, nous concevons des architectures de flux de travail décentralisées qui gèrent de manière native des tableaux complexes de distribution de leads, des paramètres de qualification programmatique et un enrichissement instantané de profils multiplateformes.",
+      "Chez Devisgon, nous construisons des couches d'automatisation des ventes personnalisées conçues pour orchestrer des opérations de revenus à haut débit et basées sur les données dans l'ensemble de votre écosystème d'entreprise. Allant bien au delà des planificateurs de calendrier de base, nous concevons des architectures de flux de travail décentralisées qui gèrent de manière native des tableaux complexes de distribution de leads, des paramètres de qualification programmatique et un enrichissement instantané de profils multiplateformes.",
       "Nous comblons le fossé entre les moteurs d’admission destinés aux utilisateurs et les logiciels de vente B2B internes. Chaque pipeline d'automatisation est déployé avec une surveillance distribuée des webhooks, des gestionnaires de secours en temps réel, une validation du schéma de charge utile et des clés API sécurisées, garantissant ainsi une synchronisation parfaite de vos pipelines de suivi des transactions, de livraison de documents et de CRM."
     ],
     "highlight_quote": "\"Routage de données découplé, synchronisation du pipeline à faible latence, 0 % de friction de journalisation manuelle.\"",
@@ -57,7 +57,7 @@
     "image": "/all_services/financial_automation/wwg.webp",
     "list_items": [
       {
-        "title": "1. Web d'orchestration de webhooks multi-applications",
+        "title": "1. Web d'orchestration de webhooks multi applications",
         "description": "Réseaux de flux de travail avancés (conçus sur n8n ou Make.com) qui ingèrent des hooks principaux, exécutent des transformations de données et mettent à jour les outils."
       },
       {
@@ -80,7 +80,7 @@
     "tools": [
       {
         "name": "n8n",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -119,7 +119,7 @@
         "icon": "SiTwilio"
       },
       {
-        "name": "Renvoyer (e-mail transactionnel)",
+        "name": "Renvoyer (e mail transactionnel)",
         "icon": "SiResend"
       },
       {
@@ -143,7 +143,7 @@
       },
       {
         "title": "Design",
-        "description": "Construisez des matrices logiques d’automatisation multi-chemins, formulez des schémas de mappage de données et planifiez des itinéraires de secours pour la gestion des erreurs.",
+        "description": "Construisez des matrices logiques d’automatisation multi chemins, formulez des schémas de mappage de données et planifiez des itinéraires de secours pour la gestion des erreurs.",
         "icon": "TbTools"
       },
       {
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Une plate-forme technologique B2B en pleine croissance perdait des contrats car les commerciaux prenaient plus de 12 heures pour vérifier, saisir et réclamer manuellement des prospects issus de soumissions de formulaires déconnectées."
+        "text": "Une plate forme technologique B2B en pleine croissance perdait des contrats car les commerciaux prenaient plus de 12 heures pour vérifier, saisir et réclamer manuellement des prospects issus de soumissions de formulaires déconnectées."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -182,19 +182,19 @@
     "questions": [
       {
         "question": "Comment combiner des plateformes d'intégration visuelle avec des itinéraires de code personnalisés ?",
-        "answer": "Nous associons le mappage de flux de travail agile de n8n ou Make.com aux gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des outils low-code pour un contrôle visible de la séquence de flux de travail et des blocs de code JavaScript/Python personnalisés pour une analyse sécurisée des jetons et un mappage approfondi des données."
+        "answer": "Nous associons le mappage de flux de travail agile de n8n ou Make.com aux gestionnaires de routes sans serveur Next.js spécialisés. Cette architecture exploite des outils low code pour un contrôle visible de la séquence de flux de travail et des blocs de code JavaScript/Python personnalisés pour une analyse sécurisée des jetons et un mappage approfondi des données."
       },
       {
-        "question": "Que se passe-t-il si une plate-forme de vente principale tombe en panne lors d'une augmentation de trafic importante ?",
-        "answer": "Nous construisons une file d'attente de messages asynchrone à l'aide de tampons Redis à grande vitesse avant vos outils. Si un service externe comme HubSpot subit une panne temporaire, notre middleware récupère en toute sécurité la charge utile du webhook, enregistre la file d'attente et réessaye automatiquement la synchronisation une fois la plate-forme récupérée."
+        "question": "Que se passe t il si une plate forme de vente principale tombe en panne lors d'une augmentation de trafic importante ?",
+        "answer": "Nous construisons une file d'attente de messages asynchrone à l'aide de tampons Redis à grande vitesse avant vos outils. Si un service externe comme HubSpot subit une panne temporaire, notre middleware récupère en toute sécurité la charge utile du webhook, enregistre la file d'attente et réessaye automatiquement la synchronisation une fois la plate forme récupérée."
       },
       {
-        "question": "Pouvons-nous connecter en toute sécurité des applications Web sans serveur à des outils vocaux automatisés tels que les agents d'appel Twilio ?",
-        "answer": "Absolument. Nous construisons des passerelles webhook robustes qui échangent en toute sécurité des paramètres JSON en temps réel entre des routeurs back-end sans serveur et des API de communication avancées, permettant des suivis vocaux immédiats et automatisés ou des suivis d'état des textes."
+        "question": "Pouvons nous connecter en toute sécurité des applications Web sans serveur à des outils vocaux automatisés tels que les agents d'appel Twilio ?",
+        "answer": "Absolument. Nous construisons des passerelles webhook robustes qui échangent en toute sécurité des paramètres JSON en temps réel entre des routeurs back end sans serveur et des API de communication avancées, permettant des suivis vocaux immédiats et automatisés ou des suivis d'état des textes."
       },
       {
-        "question": "Comment protégez-vous les enregistrements sensibles de l’entreprise lors du déplacement de données entre les couches d’intégration ?",
-        "answer": "Nous appliquons des directives strictes en matière de paramètres de confiance zéro. Chaque webhook entrant est vérifié pour les signatures cryptographiques (validation SHA-256), les données sont entièrement cryptées en transit à l'aide de TLS 1.3 et tous les champs clients sensibles sont supprimés ou masqués avant les couches de transport."
+        "question": "Comment protégez vous les enregistrements sensibles de l’entreprise lors du déplacement de données entre les couches d’intégration ?",
+        "answer": "Nous appliquons des directives strictes en matière de paramètres de confiance zéro. Chaque webhook entrant est vérifié pour les signatures cryptographiques (validation SHA 256), les données sont entièrement cryptées en transit à l'aide de TLS 1.3 et tous les champs clients sensibles sont supprimés ou masqués avant les couches de transport."
       }
     ],
     "footer": {

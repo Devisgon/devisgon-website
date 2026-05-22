@@ -5,6 +5,8 @@ type SeoConfig = {
   title: string;
   description: string;
   keywords?: string[];
+  canonicalUrl?: string;
+  robots?: Metadata["robots"];
 };
 
 export const SITE_NAME = "Devisgon";
@@ -29,26 +31,117 @@ const LOCAL_SEO_KEYWORDS = [
 const withLocalKeywords = (keywords: string[] = []) =>
   Array.from(new Set([...keywords, ...LOCAL_SEO_KEYWORDS]));
 
-const toMetadata = ({ title, description, keywords = [] }: SeoConfig): Metadata => ({
+const toAbsoluteUrl = (url?: string) => {
+  if (!url) return undefined;
+  if (/^https?:\/\//i.test(url)) return url;
+  return `${SITE_URL}${url.startsWith("/") ? url : `/${url}`}`;
+};
+
+const parseRobots = (robots?: unknown): Metadata["robots"] | undefined => {
+  if (!robots) return undefined;
+  if (typeof robots !== "string") return robots as Metadata["robots"];
+
+  const directives = robots.toLowerCase();
+  return {
+    index: !directives.includes("noindex"),
+    follow: !directives.includes("nofollow"),
+  };
+};
+
+const toMetadata = ({
   title,
   description,
-  keywords,
-  openGraph: {
+  keywords = [],
+  canonicalUrl,
+  robots,
+}: SeoConfig): Metadata => {
+  const absoluteCanonicalUrl = toAbsoluteUrl(canonicalUrl);
+
+  return {
     title,
     description,
-    siteName: SITE_NAME,
-    url: SITE_URL,
-    locale: "en_US",
-    type: "website",
-    images: [DEFAULT_OPEN_GRAPH_IMAGE],
-  },
-  twitter: {
-    card: "summary_large_image",
+    keywords,
+    alternates: absoluteCanonicalUrl
+      ? {
+          canonical: absoluteCanonicalUrl,
+        }
+      : undefined,
+    robots,
+    openGraph: {
+      title,
+      description,
+      siteName: SITE_NAME,
+      url: absoluteCanonicalUrl ?? SITE_URL,
+      locale: "en_US",
+      type: "website",
+      images: [DEFAULT_OPEN_GRAPH_IMAGE],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [DEFAULT_OPEN_GRAPH_IMAGE.url],
+    },
+  };
+};
+
+type JsonSeoSource = {
+  title?: string;
+  description?: string;
+  keywords?: string[] | string;
+  meta_title?: string;
+  meta_description?: string;
+  metaTitle?: string;
+  metaDescription?: string;
+  primary_keywords?: string[];
+  secondary_keywords?: string[];
+  seo_keywords?: string[];
+  canonical_url?: string;
+  canonicalUrl?: string;
+  robots?: string;
+};
+
+const normalizeKeywords = (...values: Array<unknown>) =>
+  Array.from(
+    new Set(
+      values.flatMap((value) => {
+        if (Array.isArray(value)) return value;
+        if (typeof value === "string") return value.split(",").map((item) => item.trim());
+        return [];
+      }),
+    ),
+  ).filter((keyword): keyword is string => typeof keyword === "string" && keyword.length > 0);
+
+export const getJsonSeoMetadata = (
+  source: unknown,
+  fallback: Metadata,
+  canonicalPath?: string,
+): Metadata => {
+  if (!source || typeof source !== "object") {
+    return fallback;
+  }
+
+  const seo = source as JsonSeoSource;
+  const title = seo.title ?? seo.meta_title ?? seo.metaTitle;
+  const description = seo.description ?? seo.meta_description ?? seo.metaDescription;
+
+  if (!title || !description) {
+    return fallback;
+  }
+
+  return toMetadata({
     title,
     description,
-    images: [DEFAULT_OPEN_GRAPH_IMAGE.url],
-  },
-});
+    keywords: normalizeKeywords(
+      seo.keywords,
+      seo.primary_keywords,
+      seo.secondary_keywords,
+      seo.seo_keywords,
+    ),
+    canonicalUrl: seo.canonical_url ?? seo.canonicalUrl ?? canonicalPath,
+    robots: parseRobots(seo.robots),
+  });
+};
 
 export const MAIN_SITE_METADATA = toMetadata({
   title: "Devisgon | AI-Powered Software & Business Automation Agency",

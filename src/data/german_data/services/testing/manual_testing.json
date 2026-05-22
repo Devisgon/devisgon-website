@@ -3,14 +3,14 @@
   "hero_section": {
     "title": "Manuelle Testdienste",
     "subtitle": "Menschlicher Einblick für fehlerfreie Software",
-    "description": "Stellen Sie sicher, dass Ihre Software nicht nur in der Theorie funktioniert, sondern auch in der realen Welt erfolgreich ist. Unsere erfahrenen QA-Ingenieure testen Ihre Anwendung gründlich von Hand, um versteckte Fehler, visuelle Störungen und UX-Reibungen aufzudecken, die automatisierte Skripte übersehen.",
+    "description": "Stellen Sie sicher, dass Ihre Software nicht nur in der Theorie funktioniert, sondern auch in der realen Welt erfolgreich ist. Unsere erfahrenen QA Ingenieure testen Ihre Anwendung gründlich von Hand, um versteckte Fehler, visuelle Störungen und UX Reibungen aufzudecken, die automatisierte Skripte übersehen.",
     "buttons": [
       {
-        "text": "Stellen Sie einen QA-Experten ein",
+        "text": "Stellen Sie einen QA Experten ein",
         "link": "/contact"
       },
       {
-        "text": "Entdecken Sie QA-Services",
+        "text": "Entdecken Sie QA Services",
         "link": "/services"
       }
     ],
@@ -20,8 +20,8 @@
     "heading": "Was ist",
     "span_heading": "Manuelles Testen?",
     "content": [
-      "Während sich die Automatisierung hervorragend zur Überprüfung erwarteter Ergebnisse eignet, ist ein Mensch erforderlich, um das Unerwartete zu finden. Manuelles Testen ist der Prozess, bei dem QA-Ingenieure als echte Endbenutzer agieren und Ihre Anwendung aktiv untersuchen, um Usability-Probleme, visuelle Inkonsistenzen und komplexe Edge-Case-Bugs zu identifizieren.",
-      "Bei Devisgon folgt unser QA-Team nicht nur Skripten; Wir versuchen, Ihre Software zu beschädigen. Wir führen explorative Tests, browserübergreifende visuelle Prüfungen und komplexe Szenariovalidierungen durch, um sicherzustellen, dass Ihre Anwendung intuitiv, zugänglich und absolut sicher ist, bevor sie Ihre Kunden erreicht."
+      "Während sich die Automatisierung hervorragend zur Überprüfung erwarteter Ergebnisse eignet, ist ein Mensch erforderlich, um das Unerwartete zu finden. Manuelles Testen ist der Prozess, bei dem QA Ingenieure als echte Endbenutzer agieren und Ihre Anwendung aktiv untersuchen, um Usability Probleme, visuelle Inkonsistenzen und komplexe Edge Case Bugs zu identifizieren.",
+      "Bei Devisgon folgt unser QA Team nicht nur Skripten; Wir versuchen, Ihre Software zu beschädigen. Wir führen explorative Tests, browserübergreifende visuelle Prüfungen und komplexe Szenariovalidierungen durch, um sicherzustellen, dass Ihre Anwendung intuitiv, zugänglich und absolut sicher ist, bevor sie Ihre Kunden erreicht."
     ],
     "highlight_quote": "„Automatisierung prüft den Code. Manuelle Tests prüfen das Erlebnis.“",
     "side_image": "/all_services/manual_testing/introduction.webp"
@@ -32,11 +32,11 @@
     "cards": [
       {
         "title": "Echte Benutzerperspektive",
-        "description": "Wir testen Ihre App genau so, wie ein echter Mensch sie verwenden würde, und stellen dabei UX-Reibungen und verwirrende Navigation fest.",
+        "description": "Wir testen Ihre App genau so, wie ein echter Mensch sie verwenden würde, und stellen dabei UX Reibungen und verwirrende Navigation fest.",
         "icon_type": "MdPersonSearch"
       },
       {
-        "title": "Visuelle und UI-Genauigkeit",
+        "title": "Visuelle und UI Genauigkeit",
         "description": "Automatisierte Tests können nicht erkennen, ob eine Schaltfläche leicht falsch ausgerichtet ist oder ein Bild gestreckt ist. Unsere menschlichen Tester können das.",
         "icon_type": "MdVisibility"
       },
@@ -58,7 +58,7 @@
     "list_items": [
       {
         "title": "1. Umfassende Testpläne",
-        "description": "Detaillierte Schritt-für-Schritt-Dokumentation aller Testfälle, die eine 100-prozentige Funktionsabdeckung gewährleistet."
+        "description": "Detaillierte Schritt für Schritt Dokumentation aller Testfälle, die eine 100 prozentige Funktionsabdeckung gewährleistet."
       },
       {
         "title": "2. Explorative Tests",
@@ -75,7 +75,7 @@
     ]
   },
   "technologies_section": {
-    "title": "Wir verfolgen und testen mit den besten QA-Tools",
+    "title": "Wir verfolgen und testen mit den besten QA Tools",
     "subtitle": "Industriestandards für Fehlerverfolgung und Testmanagement",
     "tools": [
       {
@@ -127,20 +127,20 @@
     ]
   },
   "case_study_section": {
-    "headline": "Aufdeckung eines kritischen Checkout-Fehlers, der der Automatisierung entgangen ist",
+    "headline": "Aufdeckung eines kritischen Checkout Fehlers, der der Automatisierung entgangen ist",
     "image": "/all_services/manual_testing/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Eine SaaS-Plattform hat alle automatisierten Funktionstests bestanden, aber Benutzer haben die Upgrade-Seite für das Premium-Abonnement willkürlich verlassen."
+        "text": "Eine SaaS Plattform hat alle automatisierten Funktionstests bestanden, aber Benutzer haben die Upgrade Seite für das Premium Abonnement willkürlich verlassen."
       },
       "solution": {
         "label": "Solution",
-        "text": "Unser manuelles QA-Team führte explorative Tests auf physischen Mobilgeräten durch und stellte fest, dass ein überlappendes Cookie-Banner die Schaltfläche „Jetzt bezahlen“ auf älteren iPhone-Bildschirmen vollständig blockierte."
+        "text": "Unser manuelles QA Team führte explorative Tests auf physischen Mobilgeräten durch und stellte fest, dass ein überlappendes Cookie Banner die Schaltfläche „Jetzt bezahlen“ auf älteren iPhone Bildschirmen vollständig blockierte."
       },
       "result": {
         "label": "Result",
-        "text": "Der Fehler war für die automatisierten Skripte optisch unsichtbar. Durch die Protokollierung und Behebung dieses UI-Fehlers stieg die Abonnement-Conversion-Rate des Kunden sofort um 22 %."
+        "text": "Der Fehler war für die automatisierten Skripte optisch unsichtbar. Durch die Protokollierung und Behebung dieses UI Fehlers stieg die Abonnement Conversion Rate des Kunden sofort um 22 %."
       }
     }
   },
@@ -150,24 +150,24 @@
     "questions": [
       {
         "question": "Wenn wir automatisierte Tests haben, brauchen wir dann immer noch manuelle Tests?",
-        "answer": "Absolut. Die Automatisierung ist blind für visuelle Störungen, schlechtes UX-Design und völlig unerwartetes Benutzerverhalten. Eine robuste QA-Strategie nutzt Automatisierung, um die Kernlogik schnell zu testen, und manuelle Tests, um sicherzustellen, dass die Anwendung für den Menschen tatsächlich gut aussieht und sich gut anfühlt."
+        "answer": "Absolut. Die Automatisierung ist blind für visuelle Störungen, schlechtes UX Design und völlig unerwartetes Benutzerverhalten. Eine robuste QA Strategie nutzt Automatisierung, um die Kernlogik schnell zu testen, und manuelle Tests, um sicherzustellen, dass die Anwendung für den Menschen tatsächlich gut aussieht und sich gut anfühlt."
       },
       {
         "question": "Was ist exploratives Testen?",
-        "answer": "Exploratives Testen ist ein äußerst kreativer, nicht geschriebener QS-Ansatz. Anstatt einer strengen Checkliste zu folgen, nutzen unsere QA-Ingenieure ihre Erfahrung und Intuition, um Ihre App zu durchsuchen und absichtlich seltsame Kombinationen von Aktionen auszuprobieren, um Fehler zu finden, mit denen niemand gerechnet hat."
+        "answer": "Exploratives Testen ist ein äußerst kreativer, nicht geschriebener QS Ansatz. Anstatt einer strengen Checkliste zu folgen, nutzen unsere QA Ingenieure ihre Erfahrung und Intuition, um Ihre App zu durchsuchen und absichtlich seltsame Kombinationen von Aktionen auszuprobieren, um Fehler zu finden, mit denen niemand gerechnet hat."
       },
       {
         "question": "Wie testen Sie auf verschiedenen Geräten?",
-        "answer": "Wir verwenden eine Kombination aus physischer Hardware (echte iPhones, iPads und Android-Telefone) und cloudbasierten Gerätelabors wie BrowserStack, um sicherzustellen, dass Ihre Anwendung unabhängig von der Bildschirmgröße oder dem Betriebssystem des Benutzers einwandfrei funktioniert."
+        "answer": "Wir verwenden eine Kombination aus physischer Hardware (echte iPhones, iPads und Android Telefone) und cloudbasierten Gerätelabors wie BrowserStack, um sicherzustellen, dass Ihre Anwendung unabhängig von der Bildschirmgröße oder dem Betriebssystem des Benutzers einwandfrei funktioniert."
       },
       {
         "question": "Wie melden Sie Fehler an unsere Entwickler?",
-        "answer": "Wir integrieren uns nahtlos in Ihren Entwicklungsworkflow. Wenn wir einen Fehler finden, protokollieren wir ein detailliertes Ticket in Ihrem Projektmanagement-Tool (wie Jira, Trello oder Linear). Jedes Ticket enthält die Umgebungsdetails, genaue Schritte zur Reproduktion des Fehlers und visuelle Beweise (Screenshots oder Videoaufzeichnungen)."
+        "answer": "Wir integrieren uns nahtlos in Ihren Entwicklungsworkflow. Wenn wir einen Fehler finden, protokollieren wir ein detailliertes Ticket in Ihrem Projektmanagement Tool (wie Jira, Trello oder Linear). Jedes Ticket enthält die Umgebungsdetails, genaue Schritte zur Reproduktion des Fehlers und visuelle Beweise (Screenshots oder Videoaufzeichnungen)."
       }
     ],
     "footer": {
       "text": "Haben Sie Ihre Antwort nicht gefunden?",
-      "link_text": "Sprechen Sie mit unserem QA-Team",
+      "link_text": "Sprechen Sie mit unserem QA Team",
       "link_url": "/contact"
     }
   }

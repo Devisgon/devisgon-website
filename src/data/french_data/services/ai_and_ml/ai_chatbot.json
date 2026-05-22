@@ -17,10 +17,10 @@
     "hero_image": "/videos/custom_boats.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "heading": "Qu'est ce qu'un niveau entreprise",
     "span_heading": "Chatbot IA ?",
     "content": [
-      "Chez Devisgon, nous construisons des agents d'IA conversationnelle avancés conçus pour exécuter une logique métier complexe à plusieurs tours avec une connaissance contextuelle complète. S'éloignant des robots de clic rigides et frustrants basés sur une arborescence et des wrappers d'invites de base, nos systèmes utilisent une compréhension sémantique approfondie, des cadres multi-agents et des intégrations backend en temps réel pour résoudre les problèmes des utilisateurs de manière autonome.",
+      "Chez Devisgon, nous construisons des agents d'IA conversationnelle avancés conçus pour exécuter une logique métier complexe à plusieurs tours avec une connaissance contextuelle complète. S'éloignant des robots de clic rigides et frustrants basés sur une arborescence et des wrappers d'invites de base, nos systèmes utilisent une compréhension sémantique approfondie, des cadres multi agents et des intégrations backend en temps réel pour résoudre les problèmes des utilisateurs de manière autonome.",
       "Nous comblons le fossé entre le traitement ouvert du langage naturel et la sécurité stricte des bases de données relationnelles. Chaque pipeline de chatbot est déployé dans votre écosystème logiciel à l'aide de protocoles de streaming à faible latence, de liens de repli dynamiques vers des agents humains et d'un suivi granulaire des performances, garantissant que vos points de contact numériques restent fiables, précis et alignés sur la voix de votre marque."
     ],
     "highlight_quote": "« Flux de travail fluides en langage naturel, réponses en streaming sans latence, opérations d'assistance autonomes 24h/24 et 7j/7. »",
@@ -36,13 +36,13 @@
         "icon_type": "HiMiniSignal"
       },
       {
-        "title": "Mémoire contextuelle multi-tours",
+        "title": "Mémoire contextuelle multi tours",
         "description": "Conservez un contexte structuré lors de longues conversations, en mémorisant sans effort l’historique des clients, les attributs de l’utilisateur et les préférences immédiates.",
         "icon_type": "VscGraphLine"
       },
       {
         "title": "Actionnabilité complète du système",
-        "description": "Permettez aux chatbots de lire et d'écrire directement dans votre base de données maillée, leur permettant ainsi de prendre des rendez-vous, de mettre à jour les enregistrements des utilisateurs ou d'annuler des commandes via des API sécurisées.",
+        "description": "Permettez aux chatbots de lire et d'écrire directement dans votre base de données maillée, leur permettant ainsi de prendre des rendez vous, de mettre à jour les enregistrements des utilisateurs ou d'annuler des commandes via des API sécurisées.",
         "icon_type": "PiCodeFill"
       },
       {
@@ -120,7 +120,7 @@
       },
       {
         "name": "n8n (IA avancée)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Redis (mémoire de session)",
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Une plateforme de services numériques en pleine expansion était aux prises avec un afflux massif de demandes répétitives sur les comptes clients, étirant les cycles de réponse humaine au-delà de 18 heures."
+        "text": "Une plateforme de services numériques en pleine expansion était aux prises avec un afflux massif de demandes répétitives sur les comptes clients, étirant les cycles de réponse humaine au delà de 18 heures."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -181,11 +181,11 @@
     "subtitle": "Des réponses claires aux questions critiques de mise en œuvre, de sécurité et d’ingénierie des systèmes",
     "questions": [
       {
-        "question": "Comment le chatbot évite-t-il de donner de fausses informations ou des instructions hallucinantes ?",
+        "question": "Comment le chatbot évite t il de donner de fausses informations ou des instructions hallucinantes ?",
         "answer": "Nous isolons strictement l'espace de connaissances de l'agent à l'aide de la génération de récupération augmentée (RAG). Le chatbot ne peut pas, par programme, extraire des réponses en dehors du contexte de la base de données vectorielle Supabase injectée, empêchant ainsi les déclarations spéculatives."
       },
       {
-        "question": "L’agent IA peut-il effectuer de véritables tâches de base de données, comme modifier le solde d’un compte ou réserver un emplacement d’application ?",
+        "question": "L’agent IA peut il effectuer de véritables tâches de base de données, comme modifier le solde d’un compte ou réserver un emplacement d’application ?",
         "answer": "Oui. Nous configurons les paramètres avancés d’appel d’outils et de fonctions. Lorsqu'un utilisateur demande une modification fonctionnelle, le modèle structure en toute sécurité une charge utile JSON et atteint vos points de terminaison d'API sécurisés pour exécuter des tâches de base de données selon des règles de validation strictes."
       },
       {
@@ -193,7 +193,7 @@
         "answer": "Nous utilisons des tableaux de gestion de session Redis à grande vitesse ainsi que des tables PostgreSQL permanentes. Cette configuration garantit que si un utilisateur recharge sa vue ou revient quelques jours plus tard, le chatbot maintient un suivi contextuel complet des fils de discussion."
       },
       {
-        "question": "Que se passe-t-il si le chatbot rencontre un problème qu’il ne parvient pas à résoudre ?",
+        "question": "Que se passe t il si le chatbot rencontre un problème qu’il ne parvient pas à résoudre ?",
         "answer": "Nous construisons des couches de secours humaines transparentes. Si la conversation déclenche un paramètre d'alerte, détecte un sentiment négatif ou atteint une impasse logique, elle transmet immédiatement le fil de discussion et l'historique de l'utilisateur à votre équipe en direct (par exemple, via Crisp, Slack ou les tableaux de bord CRM internes)."
       }
     ],

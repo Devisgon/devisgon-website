@@ -21,7 +21,7 @@
     "span_heading": "Datenbankmanagement?",
     "content": [
       "Daten sind das Lebenselixier jeder modernen Anwendung. Beim Datenbankmanagement geht es um die Architektur, wie diese Daten gespeichert, strukturiert, abgerufen und gesichert werden. Unabhängig davon, ob Sie es mit relationalen Daten in SQL oder riesigen Dokumentenspeichern in NoSQL zu tun haben, führt eine schlecht konfigurierte Datenbank letztendlich zu langsamen Ladezeiten, Anwendungsabstürzen und Datenverlust.",
-      "Bei Devisgon entlasten wir die Dateninfrastruktur von ihrer Komplexität. Wir erstellen hochverfügbare Datenbankcluster, führen eine umfassende Abfrageoptimierung durch und richten automatisierte Disaster-Recovery-Pipelines ein, damit Ihre Anwendung nahtlos von 100 auf 1.000.000 Benutzer skaliert, ohne ins Schwitzen zu geraten."
+      "Bei Devisgon entlasten wir die Dateninfrastruktur von ihrer Komplexität. Wir erstellen hochverfügbare Datenbankcluster, führen eine umfassende Abfrageoptimierung durch und richten automatisierte Disaster Recovery Pipelines ein, damit Ihre Anwendung nahtlos von 100 auf 1.000.000 Benutzer skaliert, ohne ins Schwitzen zu geraten."
     ],
     "highlight_quote": "„Ihre Anwendung ist nur so schnell wie Ihre Datenbank.“",
     "side_image": "/all_services/db_mangment/introduction.webp"
@@ -37,12 +37,12 @@
       },
       {
         "title": "Hohe Verfügbarkeit (99,99 %)",
-        "description": "Cluster-Setups und Lesereplikate stellen sicher, dass Ihre Datenbank selbst bei massiven Datenverkehrsspitzen nie ausfällt.",
+        "description": "Cluster Setups und Lesereplikate stellen sicher, dass Ihre Datenbank selbst bei massiven Datenverkehrsspitzen nie ausfällt.",
         "icon_type": "MdStorage"
       },
       {
         "title": "Kein Datenverlust",
-        "description": "Automatisierte, verschlüsselte Backups und Point-in-Time-Wiederherstellung sorgen dafür, dass Ihre Daten immer vor Beschädigung oder menschlichem Versagen geschützt sind.",
+        "description": "Automatisierte, verschlüsselte Backups und Point in Time Wiederherstellung sorgen dafür, dass Ihre Daten immer vor Beschädigung oder menschlichem Versagen geschützt sind.",
         "icon_type": "MdOutlineBackup"
       },
       {
@@ -58,7 +58,7 @@
     "list_items": [
       {
         "title": "1. Design der Datenbankarchitektur",
-        "description": "Auswahl der richtigen Datenbank-Engine (SQL vs. NoSQL) und Entwurf eines optimalen Schemas für Ihren spezifischen Anwendungsfall."
+        "description": "Auswahl der richtigen Datenbank Engine (SQL vs. NoSQL) und Entwurf eines optimalen Schemas für Ihren spezifischen Anwendungsfall."
       },
       {
         "title": "2. Leistungsoptimierung und Indizierung",
@@ -66,7 +66,7 @@
       },
       {
         "title": "3. Nahtlose Datenmigration",
-        "description": "Verschieben Sie Ihre Daten von Altsystemen in moderne Cloud-Datenbanken ohne Ausfallzeiten und ohne Datenverlust."
+        "description": "Verschieben Sie Ihre Daten von Altsystemen in moderne Cloud Datenbanken ohne Ausfallzeiten und ohne Datenverlust."
       },
       {
         "title": "4. Automatisierte Wartung",
@@ -76,7 +76,7 @@
   },
   "technologies_section": {
     "title": "Wir verwalten branchenführende Datenbanken",
-    "subtitle": "Die besten Engines für relationale, Dokument- und Caching-Anforderungen",
+    "subtitle": "Die besten Engines für relationale, Dokument  und Caching Anforderungen",
     "tools": [
       {
         "name": "PostgreSQL",
@@ -121,26 +121,26 @@
       },
       {
         "title": "Überwachen und sichern",
-        "description": "Wir stellen rund um die Uhr Überwachungstools bereit und erstellen strenge, automatisierte Backup-Zeitpläne.",
+        "description": "Wir stellen rund um die Uhr Überwachungstools bereit und erstellen strenge, automatisierte Backup Zeitpläne.",
         "icon": "FaShieldAlt"
       }
     ]
   },
   "case_study_section": {
-    "headline": "300 % schnellere Abfragegeschwindigkeiten für eine E-Commerce-Plattform",
+    "headline": "300 % schnellere Abfragegeschwindigkeiten für eine E Commerce Plattform",
     "image": "/all_services/db_mangment/cs.webp",
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "Bei einer stark frequentierten E-Commerce-Website kam es bei Flash-Verkäufen zu schwerwiegenden Datenbankblockaden und Zeitüberschreitungsfehlern, was durch verlassene Warenkörbe Tausende kostete."
+        "text": "Bei einer stark frequentierten E Commerce Website kam es bei Flash Verkäufen zu schwerwiegenden Datenbankblockaden und Zeitüberschreitungsfehlern, was durch verlassene Warenkörbe Tausende kostete."
       },
       "solution": {
         "label": "Solution",
-        "text": "Wir haben ihr PostgreSQL-Schema optimiert, Redis für das Zwischenspeichern von Produktkatalogen implementiert und eine Master-Slave-Read-Replica-Architektur eingerichtet."
+        "text": "Wir haben ihr PostgreSQL Schema optimiert, Redis für das Zwischenspeichern von Produktkatalogen implementiert und eine Master Slave Read Replica Architektur eingerichtet."
       },
       "result": {
         "label": "Result",
-        "text": "Die CPU-Auslastung der Datenbank sank um 70 %, die durchschnittliche Antwortzeit auf Abfragen verbesserte sich um 300 % und die Plattform bewältigte den Black-Friday-Verkehr ohne Ausfallzeiten."
+        "text": "Die CPU Auslastung der Datenbank sank um 70 %, die durchschnittliche Antwortzeit auf Abfragen verbesserte sich um 300 % und die Plattform bewältigte den Black Friday Verkehr ohne Ausfallzeiten."
       }
     }
   },
@@ -149,12 +149,12 @@
     "subtitle": "Erhalten Sie Antworten zur Datenbankarchitektur",
     "questions": [
       {
-        "question": "Sollte ich eine SQL- oder NoSQL-Datenbank verwenden?",
-        "answer": "Es kommt ganz auf Ihre Daten an. SQL (wie PostgreSQL oder MySQL) eignet sich am besten für stark strukturierte, relationale Daten, bei denen Datenintegrität und komplexe Transaktionen von entscheidender Bedeutung sind (z. B. Finanzen oder E-Commerce). NoSQL (wie MongoDB) eignet sich hervorragend für unstrukturierte Daten, schnelles Prototyping und massive horizontale Skalierung."
+        "question": "Sollte ich eine SQL  oder NoSQL Datenbank verwenden?",
+        "answer": "Es kommt ganz auf Ihre Daten an. SQL (wie PostgreSQL oder MySQL) eignet sich am besten für stark strukturierte, relationale Daten, bei denen Datenintegrität und komplexe Transaktionen von entscheidender Bedeutung sind (z. B. Finanzen oder E Commerce). NoSQL (wie MongoDB) eignet sich hervorragend für unstrukturierte Daten, schnelles Prototyping und massive horizontale Skalierung."
       },
       {
         "question": "Was passiert, wenn unser Datenbankserver abstürzt?",
-        "answer": "Um dies zu verhindern, entwerfen wir hochverfügbare Architekturen. Durch die Verwendung von Cluster-Setups und Lesereplikaten über mehrere Serververfügbarkeitszonen hinweg wird der Datenverkehr automatisch innerhalb von Millisekunden an einen synchronisierten Backup-Server weitergeleitet, wenn Ihre Primärdatenbank offline geht."
+        "answer": "Um dies zu verhindern, entwerfen wir hochverfügbare Architekturen. Durch die Verwendung von Cluster Setups und Lesereplikaten über mehrere Serververfügbarkeitszonen hinweg wird der Datenverkehr automatisch innerhalb von Millisekunden an einen synchronisierten Backup Server weitergeleitet, wenn Ihre Primärdatenbank offline geht."
       },
       {
         "question": "Können Sie unsere Daten von einem alten System migrieren?",
@@ -162,7 +162,7 @@
       },
       {
         "question": "Wie schützen Sie unsere Datenbank vor Hackern?",
-        "answer": "Wir implementieren strenge Sicherheit auf Netzwerkebene (stellen sicher, dass die Datenbank niemals dem öffentlichen Internet ausgesetzt ist), erzwingen ein starkes Identitäts- und Zugriffsmanagement (IAM), verschlüsseln Daten sowohl im Ruhezustand als auch während der Übertragung und überwachen kontinuierlich auf verdächtige Abfragemuster."
+        "answer": "Wir implementieren strenge Sicherheit auf Netzwerkebene (stellen sicher, dass die Datenbank niemals dem öffentlichen Internet ausgesetzt ist), erzwingen ein starkes Identitäts  und Zugriffsmanagement (IAM), verschlüsseln Daten sowohl im Ruhezustand als auch während der Übertragung und überwachen kontinuierlich auf verdächtige Abfragemuster."
       }
     ],
     "footer": {

@@ -26,7 +26,7 @@
   },
   "hero_section": {
     "title": "Performance Testing Services",
-    "subtitle": "Speed, Stability, and Scalability Testing for Production-Ready Software",
+    "subtitle": "Speed, Stability, and Scalability Testing for Production Ready Software",
     "description": "Devisgon tests web applications, SaaS platforms, APIs, databases, mobile backends, dashboards, and cloud systems to measure speed, stability, scalability, and production readiness. We help global businesses identify bottlenecks, improve response times, reduce downtime risk, optimize infrastructure, and prepare applications for real user traffic.",
     "buttons": [
       {
@@ -41,12 +41,12 @@
     "hero_image": "/videos/dashboard_analytics.mp4"
   },
   "introduction_section": {
-    "heading": "What is Enterprise-Grade",
+    "heading": "What is Enterprise Grade",
     "span_heading": " Performance Testing?",
     "content": [
-      "Enterprise-grade performance testing evaluates how fast, stable, and scalable your software is under real-world usage conditions. It measures response time, throughput, error rate, database load, server behavior, memory usage, API reliability, and infrastructure limits before users experience slow pages or system failures.",
-      "At Devisgon, we create realistic test scenarios for user journeys, APIs, checkout flows, dashboards, login events, background jobs, database operations, and high-traffic conditions. Our approach combines baseline testing, load testing, stress testing, spike testing, endurance testing, monitoring, bottleneck analysis, and post-fix validation.",
-      "Strong performance testing helps businesses protect revenue, improve customer experience, optimize cloud costs, and confidently launch products, campaigns, enterprise rollouts, and high-traffic digital platforms."
+      "Enterprise grade performance testing evaluates how fast, stable, and scalable your software is under real world usage conditions. It measures response time, throughput, error rate, database load, server behavior, memory usage, API reliability, and infrastructure limits before users experience slow pages or system failures.",
+      "At Devisgon, we create realistic test scenarios for user journeys, APIs, checkout flows, dashboards, login events, background jobs, database operations, and high traffic conditions. Our approach combines baseline testing, load testing, stress testing, spike testing, endurance testing, monitoring, bottleneck analysis, and post fix validation.",
+      "Strong performance testing helps businesses protect revenue, improve customer experience, optimize cloud costs, and confidently launch products, campaigns, enterprise rollouts, and high traffic digital platforms."
     ],
     "highlight_quote": "“Performance testing turns speed, stability, and scalability into measurable engineering evidence before real users feel the risk.”",
     "side_image": "/all_services/performance_testing/introduction.webp"
@@ -109,7 +109,7 @@
   },
   "technologies_section": {
     "title": "Performance Testing Technologies and Tools We Use",
-    "subtitle": "Modern load generation, monitoring, APM, cloud, database, and observability tools for production-readiness validation",
+    "subtitle": "Modern load generation, monitoring, APM, cloud, database, and observability tools for production readiness validation",
     "tools": [
       {
         "name": "Apache JMeter",
@@ -157,13 +157,13 @@
       },
       {
         "name": "AWS Cloud Monitoring",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       }
     ]
   },
   "process_section": {
     "title": "Our Performance Testing Process",
-    "subtitle": "A focused 6-step process from discovery to test execution, reporting, optimization, retesting, and ongoing performance validation",
+    "subtitle": "A focused 6 step process from discovery to test execution, reporting, optimization, retesting, and ongoing performance validation",
     "steps": [
       {
         "title": "Discovery Call",
@@ -177,7 +177,7 @@
       },
       {
         "title": "Test Strategy",
-        "description": "We define scenarios, virtual users, SLAs, ramp-up rules, monitoring, and test environments.",
+        "description": "We define scenarios, virtual users, SLAs, ramp up rules, monitoring, and test environments.",
         "icon": "TbTools"
       },
       {
@@ -198,7 +198,7 @@
     ]
   },
   "case_study_section": {
-    "headline": "Performance Testing That Prepared a Ticketing Platform for High-Volume Demand",
+    "headline": "Performance Testing That Prepared a Ticketing Platform for High Volume Demand",
     "image": "/all_services/performance_testing/cs.webp",
     "content": {
       "problem": {
@@ -207,11 +207,11 @@
       },
       "solution": {
         "label": "Our Engineering Approach",
-        "text": "Devisgon designed performance test scenarios for high-concurrency ticket searches, checkout flows, payment API calls, Redis cache behavior, and database transactions while monitoring system telemetry."
+        "text": "Devisgon designed performance test scenarios for high concurrency ticket searches, checkout flows, payment API calls, Redis cache behavior, and database transactions while monitoring system telemetry."
       },
       "result": {
         "label": "Measurable Impact",
-        "text": "The team identified bottlenecks before launch, improved response times, strengthened cache and database behavior, and gained confidence for the high-traffic sales event."
+        "text": "The team identified bottlenecks before launch, improved response times, strengthened cache and database behavior, and gained confidence for the high traffic sales event."
       }
     }
   },
@@ -245,7 +245,7 @@
       },
       {
         "question": "How often should performance testing be performed?",
-        "answer": "Performance testing should be done before major launches, marketing campaigns, infrastructure changes, database changes, high-traffic events, and enterprise rollouts. It should also be repeated after major code changes to catch regressions. Critical systems benefit from recurring performance validation."
+        "answer": "Performance testing should be done before major launches, marketing campaigns, infrastructure changes, database changes, high traffic events, and enterprise rollouts. It should also be repeated after major code changes to catch regressions. Critical systems benefit from recurring performance validation."
       },
       {
         "question": "Does Devisgon provide optimization support after testing?",

@@ -17,10 +17,10 @@
     "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "heading": "Qu'est ce qu'un niveau entreprise",
     "span_heading": "Programme de prime aux bogues ?",
     "content": [
-      "Chez Devisgon, nous traitons la sécurité défensive comme une discipline continue et conflictuelle. Allant bien au-delà des tests d'intrusion annuels ponctuels traditionnels, nous construisons des cadres de sécurité participatifs résilients qui ouvrent vos applications de production, vos réseaux de serveurs et vos écosystèmes de code aux pirates informatiques éthiques d'élite 24 heures sur 24, selon des règles d'engagement strictes et personnalisées.",
+      "Chez Devisgon, nous traitons la sécurité défensive comme une discipline continue et conflictuelle. Allant bien au delà des tests d'intrusion annuels ponctuels traditionnels, nous construisons des cadres de sécurité participatifs résilients qui ouvrent vos applications de production, vos réseaux de serveurs et vos écosystèmes de code aux pirates informatiques éthiques d'élite 24 heures sur 24, selon des règles d'engagement strictes et personnalisées.",
       "Nous comblons le fossé entre la recherche ouverte sur la sécurité et les équipes d’ingénierie internes. Chaque programme que nous gérons comprend un filtrage de tri automatisé, une vérification des vulnérabilités, des stratégies de tarification de récompense et une intégration dans vos pipelines CI/CD, garantissant ainsi que vos systèmes Web, bases de données et microservices restent résistants aux exploits du monde réel."
     ],
     "highlight_quote": "« Défense continue et participative, mesures de vulnérabilité vérifiées, 0 % de dépendance à l'égard de simples scanners automatisés. »",
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage de sécurité",
-        "text": "Une plate-forme cloud à forte croissance utilisant Supabase et Payload CMS était confrontée à des attaques d'analyse continue et craignait que des failles logiques cachées contournent leurs baies de pare-feu traditionnelles."
+        "text": "Une plate forme cloud à forte croissance utilisant Supabase et Payload CMS était confrontée à des attaques d'analyse continue et craignait que des failles logiques cachées contournent leurs baies de pare feu traditionnelles."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -185,15 +185,15 @@
         "answer": "Un test d'intrusion repose généralement sur un seul groupe de consultants auditant votre code sur une fenêtre rigide d'une à deux semaines pour un montant forfaitaire. Un programme Bug Bounty est continu et participatif, ouvrant vos champs d'application définis à des milliers de chercheurs en sécurité divers à travers le monde qui ne sont rémunérés que lorsqu'ils découvrent des vulnérabilités exploitables."
       },
       {
-        "question": "Comment protégez-vous notre plateforme contre les pirates informatiques malveillants qui tentent d’endommager activement nos grilles de bases de données ?",
-        "answer": "Nous appliquons des règles d’engagement strictes et granulaires. Chaque chercheur doit suivre des paramètres de test clairs, comme éviter les tentatives de déni de service (DoS), utiliser des balises d'en-tête de test explicites et accéder uniquement à des pools de données fictifs personnalisés, ce qui permet aux équipes de sécurité de surveiller et de bloquer immédiatement les empreintes de trafic invalides."
+        "question": "Comment protégez vous notre plateforme contre les pirates informatiques malveillants qui tentent d’endommager activement nos grilles de bases de données ?",
+        "answer": "Nous appliquons des règles d’engagement strictes et granulaires. Chaque chercheur doit suivre des paramètres de test clairs, comme éviter les tentatives de déni de service (DoS), utiliser des balises d'en tête de test explicites et accéder uniquement à des pools de données fictifs personnalisés, ce qui permet aux équipes de sécurité de surveiller et de bloquer immédiatement les empreintes de trafic invalides."
       },
       {
-        "question": "Pouvons-nous exécuter un programme hautement sécurisé et restreint sans exposer notre code au Web public ?",
-        "answer": "Absolument. Nous construisons des programmes Private Bug Bounty personnalisés. Ce modèle limite l’accès exclusivement à des chercheurs en sécurité éthique hautement sélectionnés et de premier plan. Le programme fonctionne selon des paramètres de non-divulgation dans des environnements d'exécution isolés, vous offrant une visibilité approfondie des tests défensifs avant de le rendre public."
+        "question": "Pouvons nous exécuter un programme hautement sécurisé et restreint sans exposer notre code au Web public ?",
+        "answer": "Absolument. Nous construisons des programmes Private Bug Bounty personnalisés. Ce modèle limite l’accès exclusivement à des chercheurs en sécurité éthique hautement sélectionnés et de premier plan. Le programme fonctionne selon des paramètres de non divulgation dans des environnements d'exécution isolés, vous offrant une visibilité approfondie des tests défensifs avant de le rendre public."
       },
       {
-        "question": "Comment votre processus de tri évite-t-il que nos équipes d’ingénierie ne soient submergées par des rapports en double ?",
+        "question": "Comment votre processus de tri évite t il que nos équipes d’ingénierie ne soient submergées par des rapports en double ?",
         "answer": "Nous concevons un proxy de validation rigoureux en plusieurs étapes. Chaque ticket entrant passe par des outils d'automatisation personnalisés et des audits de réplication de code humain. Nous vérifions de manière indépendante, évaluons conformément aux directives CVSS et nettoyons les fichiers, en acheminant uniquement les nouveaux problèmes confirmés directement dans vos backlogs de développement Jira ou GitHub."
       }
     ],

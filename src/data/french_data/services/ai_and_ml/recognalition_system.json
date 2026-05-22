@@ -17,10 +17,10 @@
     "hero_image": "/videos/ai_ml_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce qu'un niveau entreprise",
+    "heading": "Qu'est ce qu'un niveau entreprise",
     "span_heading": "Un système de reconnaissance ?",
     "content": [
-      "Chez Devisgon, nous concevons et déployons des architectures de reconnaissance hautes performances conçues pour traiter des données biométriques complexes, des coordonnées spatiales et des vecteurs de documents physiques. Au-delà des wrappers de vérification tiers génériques à latence élevée, nous construisons des algorithmes d'alignement neuronal personnalisés qui mappent les visages individuels, la télémétrie des empreintes digitales et les signatures d'actifs dans des bases de données vectorielles protégées.",
+      "Chez Devisgon, nous concevons et déployons des architectures de reconnaissance hautes performances conçues pour traiter des données biométriques complexes, des coordonnées spatiales et des vecteurs de documents physiques. Au delà des wrappers de vérification tiers génériques à latence élevée, nous construisons des algorithmes d'alignement neuronal personnalisés qui mappent les visages individuels, la télémétrie des empreintes digitales et les signatures d'actifs dans des bases de données vectorielles protégées.",
       "Nous comblons le fossé entre les intrants biologiques ou structurels de haute sécurité et les applications Web standards. Chaque système est conçu pour s'intégrer de manière native aux systèmes de sécurité des appareils mobiles modernes (comme les profils de reconnaissance faciale et d'empreintes digitales), en appliquant des périmètres de données de confiance zéro, des itinéraires de vérification basés sur des jetons et des recherches de classification inférieures à la milliseconde."
     ],
     "highlight_quote": "« Précision de classification de 99,9 %, recherches vectorielles inférieures à la milliseconde, biométrie cryptographique sans confiance. »",
@@ -32,21 +32,21 @@
     "cards": [
       {
         "title": "Contrôle d'accès biométrique",
-        "description": "Déployez des poids d'extraction de pointe pour le visage, l'iris et les empreintes digitales pour débloquer des couches d'authentification ultra-sécurisées et sans friction.",
+        "description": "Déployez des poids d'extraction de pointe pour le visage, l'iris et les empreintes digitales pour débloquer des couches d'authentification ultra sécurisées et sans friction.",
         "icon_type": "HiMiniSignal"
       },
       {
         "title": "Analyse de documents et d'identité",
-        "description": "Lisez, analysez et vérifiez instantanément les pièces d'identité gouvernementales, les passeports et les laissez-passer d'entreprise à l'aide d'architectures d'alignement de texte OCR personnalisées.",
+        "description": "Lisez, analysez et vérifiez instantanément les pièces d'identité gouvernementales, les passeports et les laissez passer d'entreprise à l'aide d'architectures d'alignement de texte OCR personnalisées.",
         "icon_type": "VscGraphLine"
       },
       {
         "title": "Protection automatisée contre l'usurpation d'identité",
-        "description": "Intégrez des cadres actifs d'anti-usurpation et de détection d'activité pour rejeter les images numériques statiques, les modèles de masques et les rediffusions vidéo.",
+        "description": "Intégrez des cadres actifs d'anti usurpation et de détection d'activité pour rejeter les images numériques statiques, les modèles de masques et les rediffusions vidéo.",
         "icon_type": "PiCodeFill"
       },
       {
-        "title": "Correspondance de cible en sous-seconde",
+        "title": "Correspondance de cible en sous seconde",
         "description": "Convertissez des propriétés visuelles structurelles complexes en intégrations de faible dimension pour une recherche d'index rapide parmi des millions d'enregistrements de référence de serveur.",
         "icon_type": "VscGraphLine"
       }
@@ -62,10 +62,10 @@
       },
       {
         "title": "2. Vérification biométrique de la vivacité en temps réel",
-        "description": "Microservices anti-usurpation actifs et passifs conçus pour évaluer les micro-mouvements physiques, les matrices de profondeur et les changements de texture des pixels."
+        "description": "Microservices anti usurpation actifs et passifs conçus pour évaluer les micro mouvements physiques, les matrices de profondeur et les changements de texture des pixels."
       },
       {
-        "title": "3. Maillage de base de données vectorielles ultra-sécurisé",
+        "title": "3. Maillage de base de données vectorielles ultra sécurisé",
         "description": "Configurations vectorielles protégées et isolées conçues pour exécuter des millions de requêtes de recherche de correspondance d'identité en quelques millisecondes à un chiffre."
       },
       {
@@ -120,7 +120,7 @@
       },
       {
         "name": "Reconnaissance AWS",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "FaceNet/ArcFace",
@@ -181,20 +181,20 @@
     "subtitle": "Des réponses claires à la mise en œuvre critique, à la conformité des données utilisateur et aux requêtes biométriques",
     "questions": [
       {
-        "question": "Comment exactement un modèle d’IA reconnaît-il un visage ou une identité en toute sécurité ?",
+        "question": "Comment exactement un modèle d’IA reconnaît il un visage ou une identité en toute sécurité ?",
         "answer": "Le modèle convertit les repères faciaux et les proportions structurelles en un tableau vectoriel de grande dimension (une longue séquence de nombres à virgule flottante). Ce vecteur sert de signature mathématique unique. Pour vérifier l'identité, nous calculons la similarité cosinus entre le nouveau vecteur d'entrée et le vecteur de référence sécurisé stocké dans notre base de données."
       },
       {
-        "question": "Qu'est-ce que la « détection de l'activité » et pourquoi est-elle essentielle à la protection de la plateforme ?",
-        "answer": "La détection de la vivacité est une étape de vérification automatisée qui garantit que l'entrée visuelle provient d'un être humain réel et présent plutôt que d'une photographie, d'un masque 3D ou d'une lecture deepfake. Nous analysons par programmation les réflexions de texture des pixels, les micro-clignotements et les mouvements vectoriels de la tête pour garantir une présence absolue."
+        "question": "Qu'est ce que la « détection de l'activité » et pourquoi est elle essentielle à la protection de la plateforme ?",
+        "answer": "La détection de la vivacité est une étape de vérification automatisée qui garantit que l'entrée visuelle provient d'un être humain réel et présent plutôt que d'une photographie, d'un masque 3D ou d'une lecture deepfake. Nous analysons par programmation les réflexions de texture des pixels, les micro clignotements et les mouvements vectoriels de la tête pour garantir une présence absolue."
       },
       {
-        "question": "Comment les données biométriques sensibles des utilisateurs sont-elles protégées de manière sécurisée contre les fuites de bases de données ?",
+        "question": "Comment les données biométriques sensibles des utilisateurs sont elles protégées de manière sécurisée contre les fuites de bases de données ?",
         "answer": "Nous ne stockons jamais de fichiers d'images brutes ou de coordonnées en texte brut. Toutes les données sont traitées en périphérie, transformées en vecteurs mathématiques cryptés et enregistrées sous des paramètres de confiance zéro au sein d'un cluster de bases de données Supabase isolé, rendant les vecteurs inutiles s'ils sont interceptés."
       },
       {
-        "question": "Vos réseaux de reconnaissance personnalisés peuvent-ils s'intégrer au matériel biométrique mobile intégré ?",
-        "answer": "Absolument. Nous construisons des structures de traduction d'API conformes aux normes qui se connectent de manière native aux capteurs biométriques au niveau matériel (tels que Face ID ou les lecteurs d'empreintes digitales sur les systèmes iOS, Android et Xiaomi modernes), en utilisant des jetons back-end pour vérifier les clés d'accès natives en toute sécurité."
+        "question": "Vos réseaux de reconnaissance personnalisés peuvent ils s'intégrer au matériel biométrique mobile intégré ?",
+        "answer": "Absolument. Nous construisons des structures de traduction d'API conformes aux normes qui se connectent de manière native aux capteurs biométriques au niveau matériel (tels que Face ID ou les lecteurs d'empreintes digitales sur les systèmes iOS, Android et Xiaomi modernes), en utilisant des jetons back end pour vérifier les clés d'accès natives en toute sécurité."
       }
     ],
     "footer": {

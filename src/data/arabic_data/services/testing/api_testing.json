@@ -20,7 +20,7 @@
     "heading": "ما هو",
     "span_heading": " API Testing?",
     "content": [
-      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third-party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
+      "APIs (Application Programming Interfaces) are the invisible bridges connecting your frontend interface to your backend databases and external third party services. If your API fails, is slow, or has a vulnerability, your entire application suffers. ",
       "Unlike traditional UI testing, API testing bypasses the graphical interface to interact directly with your software's core logic. At Devisgon, we validate your REST, GraphQL, and SOAP endpoints for functionality, reliability, load capacity, and security. We ensure your system communicates flawlessly and securely under any condition."
     ],
     "highlight_quote": " “Bugs found at the API layer are 10x cheaper to fix than those found in the UI.” ",
@@ -28,7 +28,7 @@
   },
   "key_benefits_section": {
     "title": "الفوائد الرئيسية",
-    "subtitle": "Why testing your API is non-negotiable",
+    "subtitle": "Why testing your API is non negotiable",
     "cards": [
       {
         "title": "Early Bug Detection",
@@ -47,7 +47,7 @@
       },
       {
         "title": "Seamless Integrations",
-        "description": "Guarantee that your software communicates perfectly with third-party tools like payment gateways or CRMs.",
+        "description": "Guarantee that your software communicates perfectly with third party tools like payment gateways or CRMs.",
         "icon_type": "MdSync"
       }
     ]
@@ -62,7 +62,7 @@
       },
       {
         "title": "2. Load & Performance Testing",
-        "description": "Stress-testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
+        "description": "Stress testing your endpoints to see how they handle massive traffic spikes and concurrent user requests."
       },
       {
         "title": "3. Security & Auth Audits",
@@ -75,7 +75,7 @@
     ]
   },
   "technologies_section": {
-    "title": "We test using industry-standard QA tools",
+    "title": "We test using industry standard QA tools",
     "subtitle": "The best frameworks for accurate and automated API validation",
     "tools": [
       {
@@ -111,7 +111,7 @@
       },
       {
         "title": "Design Scenarios",
-        "description": "We write comprehensive test cases covering positive, negative, and edge-case data inputs.",
+        "description": "We write comprehensive test cases covering positive, negative, and edge case data inputs.",
         "icon": "FaFileAlt"
       },
       {
@@ -132,7 +132,7 @@
     "content": {
       "problem": {
         "label": "Problem",
-        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third-party payment API."
+        "text": "A fintech app was experiencing random transaction failures because their mobile UI couldn't handle slow responses from a third party payment API."
       },
       "solution": {
         "label": "Solution",
@@ -158,7 +158,7 @@
       },
       {
         "question": "Can you test APIs that require complex authentication?",
-        "answer": "Absolutely. We routinely write test scripts that handle complex, multi-step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
+        "answer": "Absolutely. We routinely write test scripts that handle complex, multi step authentication flows, including OAuth 2.0, JWT (JSON Web Tokens), API Keys, and session cookies."
       },
       {
         "question": "Will these tests run automatically?",

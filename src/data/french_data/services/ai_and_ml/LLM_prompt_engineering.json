@@ -17,10 +17,10 @@
     "hero_image": "/videos/ai_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Ingénierie rapide ?",
     "content": [
-      "Chez Devisgon, nous traitons l'ingénierie rapide comme une discipline logicielle rigoureuse plutôt que comme un processus d'essais et d'erreurs créatifs. Au-delà des simples entrées de chat, nous concevons des modèles de contexte systématiques, des schémas JSON structurels et des boucles de raisonnement à plusieurs tours (telles que Chain-of-Thought et ReAct) qui guident les modèles fondamentaux pour produire des résultats fiables et de haute fidélité.",
+      "Chez Devisgon, nous traitons l'ingénierie rapide comme une discipline logicielle rigoureuse plutôt que comme un processus d'essais et d'erreurs créatifs. Au delà des simples entrées de chat, nous concevons des modèles de contexte systématiques, des schémas JSON structurels et des boucles de raisonnement à plusieurs tours (telles que Chain of Thought et ReAct) qui guident les modèles fondamentaux pour produire des résultats fiables et de haute fidélité.",
       "Nous comblons le fossé entre les modèles linguistiques ouverts et les exigences logicielles strictes. Chaque invite système est optimisée à l'aide de grilles de test CI/CD, de journaux de matrice de régression et de scripts de réduction de jetons, garantissant ainsi que vos appels d'exécution en production restent mathématiquement stables, précis et maîtrisés les coûts à grande échelle."
     ],
     "highlight_quote": "« Schémas d'invite structurés, sorties JSON déterministes, coûts de calcul des jetons inférieurs de 60 %. »",
@@ -46,7 +46,7 @@
         "icon_type": "PiCodeFill"
       },
       {
-        "title": "Garde-corps pare-balles",
+        "title": "Garde corps pare balles",
         "description": "Créez des contextes de validation en couches pour arrêter les attaques par injection rapide, préserver la confidentialité des données et empêcher les modèles d'inventer des réponses.",
         "icon_type": "VscGraphLine"
       }
@@ -62,7 +62,7 @@
       },
       {
         "title": "2. Bibliothèques de contexte fiables à quelques prises de vue",
-        "description": "Gammes organisées et de haute qualité d'exemples de formation entrées-sorties conçus pour aligner les réponses du modèle avec le formatage spécifique de l'entreprise."
+        "description": "Gammes organisées et de haute qualité d'exemples de formation entrées sorties conçus pour aligner les réponses du modèle avec le formatage spécifique de l'entreprise."
       },
       {
         "title": "3. Schémas JSON automatisés et filtres de validation",
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Une application SaaS de logistique évolutive utilisait des invites de texte complexes qui généraient de manière aléatoire un formatage défectueux, provoquant des plantages de l'itinéraire de l'application back-end."
+        "text": "Une application SaaS de logistique évolutive utilisait des invites de texte complexes qui généraient de manière aléatoire un formatage défectueux, provoquant des plantages de l'itinéraire de l'application back end."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -182,10 +182,10 @@
     "questions": [
       {
         "question": "Pourquoi utiliser l'ingénierie des invites programmatiques au lieu de simplement ajouter plus d'instructions à la fenêtre utilisateur ?",
-        "answer": "L'ajout de phrases brutes rend le comportement du modèle imprévisible et vulnérable aux injections rapides. L'ingénierie des invites programmatiques repose sur des schémas stricts, des divisions claires entre les utilisateurs du système et des bibliothèques d'entrées-sorties concrètes, traitant le contexte comme une couche de code logiciel testable."
+        "answer": "L'ajout de phrases brutes rend le comportement du modèle imprévisible et vulnérable aux injections rapides. L'ingénierie des invites programmatiques repose sur des schémas stricts, des divisions claires entre les utilisateurs du système et des bibliothèques d'entrées sorties concrètes, traitant le contexte comme une couche de code logiciel testable."
       },
       {
-        "question": "Que sont les « sorties structurées » et comment évitent-elles les plantages des applications d'exécution ?",
+        "question": "Que sont les « sorties structurées » et comment évitent elles les plantages des applications d'exécution ?",
         "answer": "Les sorties structurées appliquent une contrainte de schéma JSON correspondante sur le processus de sélection de jetons du modèle. Cela force le modèle à répondre exclusivement avec du texte qui obéit strictement aux paramètres de type de votre base de données, éliminant ainsi les propriétés ou les clés non valides."
       },
       {
@@ -193,7 +193,7 @@
         "answer": "Nous mettons en place des suites d'évaluation automatisées à l'aide d'outils comme Promptfoo. Chaque fois que nous mettons à jour une invite système, nous l'exécutons via une suite complète de journaux de simulation, en suivant les scores de précision et les cas extrêmes pour garantir qu'aucune régression des performances ne se produise avant sa mise en ligne."
       },
       {
-        "question": "L’ingénierie rapide peut-elle aider à réduire la latence et le délai de réponse dans les applications Web ?",
+        "question": "L’ingénierie rapide peut elle aider à réduire la latence et le délai de réponse dans les applications Web ?",
         "answer": "Absolument. En rationalisant la conception des modèles, en supprimant les formulations répétitives et en utilisant des formats de jetons précis, nous avons réduit le travail de traitement inutile que le modèle doit effectuer, accélérant les temps de génération et réduisant la latence du système."
       }
     ],

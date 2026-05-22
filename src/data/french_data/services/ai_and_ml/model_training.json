@@ -17,10 +17,10 @@
     "hero_image": "/videos/ai_ml_models.mp4"
   },
   "introduction_section": {
-    "heading": "Qu'est-ce que le niveau entreprise",
+    "heading": "Qu'est ce que le niveau entreprise",
     "span_heading": "Formation de modèle ?",
     "content": [
-      "Chez Devisgon, nous abordons la formation de modèles d'apprentissage automatique comme une science exacte. Au-delà des wrappers d'API génériques et pré-entraînés, nous concevons et exécutons des boucles de formation personnalisées adaptées spécifiquement aux structures de données de votre entreprise. Qu'il s'agisse de former des réseaux de neurones profonds pour la vision par ordinateur, d'affiner de grands modèles de transformateurs ou de créer des systèmes de prédiction tabulaires robustes, nous garantissons un alignement complet avec vos contraintes opérationnelles.",
+      "Chez Devisgon, nous abordons la formation de modèles d'apprentissage automatique comme une science exacte. Au delà des wrappers d'API génériques et pré entraînés, nous concevons et exécutons des boucles de formation personnalisées adaptées spécifiquement aux structures de données de votre entreprise. Qu'il s'agisse de former des réseaux de neurones profonds pour la vision par ordinateur, d'affiner de grands modèles de transformateurs ou de créer des systèmes de prédiction tabulaires robustes, nous garantissons un alignement complet avec vos contraintes opérationnelles.",
       "Nous comblons le fossé entre les pools de données brutes et désordonnés et les environnements d'exécution d'inférence hautes performances. Chaque cycle de vie de formation est géré via des pipelines de calcul automatisés et contrôlés par version, des contrôles rigoureux de variance de biais et des configurations d'optimisation d'hyperparamètres, ce qui donne lieu à des modèles prêts à la production qui atteignent une précision, une stabilité et une vitesse maximales."
     ],
     "highlight_quote": "« Poids des paramètres propriétaires, matrices de validation de haute précision, 0 % de dépendance à l'égard de modèles publics tiers. »",
@@ -70,7 +70,7 @@
       },
       {
         "title": "4. Remplir les registres d'évaluation de la formation",
-        "description": "Journaux de pertes complets, matrices de confusion, profils ROC-AUC et mesures de validation vérifiant la sécurité du modèle structurel avant le déploiement."
+        "description": "Journaux de pertes complets, matrices de confusion, profils ROC AUC et mesures de validation vérifiant la sécurité du modèle structurel avant le déploiement."
       }
     ]
   },
@@ -87,7 +87,7 @@
         "icon": "SiTensorflow"
       },
       {
-        "name": "Scikit-Learn",
+        "name": "Scikit Learn",
         "icon": "SiScikitlearn"
       },
       {
@@ -124,7 +124,7 @@
       },
       {
         "name": "AWS SageMaker",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Supabase (journalisation des métadonnées)",
@@ -148,7 +148,7 @@
       },
       {
         "title": "Build",
-        "description": "Exécutez des boucles d'entraînement distribuées, gérez les balayages d'hyperparamètres, évaluez les courbes de perte et exécutez des optimisations biais-variance.",
+        "description": "Exécutez des boucles d'entraînement distribuées, gérez les balayages d'hyperparamètres, évaluez les courbes de perte et exécutez des optimisations biais variance.",
         "icon": "FaHammer"
       },
       {
@@ -164,7 +164,7 @@
     "content": {
       "problem": {
         "label": "Barrage opérationnel",
-        "text": "Une plate-forme financière évolutive perdait des revenus parce que les logiciels de sécurité standard basés sur des règles manquaient toujours de modèles de transactions frauduleuses complexes et non linéaires."
+        "text": "Une plate forme financière évolutive perdait des revenus parce que les logiciels de sécurité standard basés sur des règles manquaient toujours de modèles de transactions frauduleuses complexes et non linéaires."
       },
       "solution": {
         "label": "Notre approche d'ingénierie",
@@ -172,7 +172,7 @@
       },
       "result": {
         "label": "Impact mesurable",
-        "text": "La détection des incidents frauduleux a grimpé avec précision jusqu'à 99,1 %, les faux positifs ont chuté de 68 % et le modèle binaire formé a répondu avec des vitesses de validation ultra-rapides, inférieures à la milliseconde."
+        "text": "La détection des incidents frauduleux a grimpé avec précision jusqu'à 99,1 %, les faux positifs ont chuté de 68 % et le modèle binaire formé a répondu avec des vitesses de validation ultra rapides, inférieures à la milliseconde."
       }
     }
   },
@@ -182,19 +182,19 @@
     "questions": [
       {
         "question": "Quelle est la différence entre entraîner un modèle personnalisé et affiner un modèle existant ?",
-        "answer": "La formation à partir de zéro construit des poids de paramètres à partir de zéro en utilisant vos données spécifiques, idéal pour les tâches de vision tabulaires ou de niche personnalisées. Le réglage fin commence par un modèle de base large et pré-entraîné (comme un LLM) et modifie ses couches externes pour correspondre au vocabulaire spécifique à votre secteur."
+        "answer": "La formation à partir de zéro construit des poids de paramètres à partir de zéro en utilisant vos données spécifiques, idéal pour les tâches de vision tabulaires ou de niche personnalisées. Le réglage fin commence par un modèle de base large et pré entraîné (comme un LLM) et modifie ses couches externes pour correspondre au vocabulaire spécifique à votre secteur."
       },
       {
         "question": "Comment garantir qu'un modèle entraîné ne sera pas « surajusté » et n'échouera pas sur des données réelles ?",
         "answer": "Nous appliquons des protocoles de validation croisée rigoureux, des déclencheurs d'arrêt précoce et des matrices de régularisation (L1/L2). Nous isolons des ensembles de validation et de test distincts que le modèle ne voit jamais pendant la formation, garantissant ainsi que ses scores de précision se traduisent parfaitement en production active."
       },
       {
-        "question": "Où se déroule la formation informatique et comment les coûts des serveurs sont-ils gérés ?",
+        "question": "Où se déroule la formation informatique et comment les coûts des serveurs sont ils gérés ?",
         "answer": "La formation s'exécute dans des instances cloud sécurisées (comme AWS SageMaker ou des clusters spot GPU EC2 personnalisés). Nous écrivons des scripts batch hautement optimisés et exploitons des frameworks tels que Ray pour répartir efficacement les charges de travail, en minimisant le gaspillage des ressources de calcul."
       },
       {
         "question": "Comment gérer des données d’entreprise très déséquilibrées, où les événements cibles sont rares ?",
-        "answer": "Nous utilisons une ingénierie de données algorithmique avancée, en utilisant des techniques telles que SMOTE pour le suréchantillonnage synthétique, les paramètres d'ajustement de la perte focale et le sous-échantillonnage stratégique pour garantir que le modèle apprend à repérer avec précision les anomalies minoritaires critiques."
+        "answer": "Nous utilisons une ingénierie de données algorithmique avancée, en utilisant des techniques telles que SMOTE pour le suréchantillonnage synthétique, les paramètres d'ajustement de la perte focale et le sous échantillonnage stratégique pour garantir que le modèle apprend à repérer avec précision les anomalies minoritaires critiques."
       }
     ],
     "footer": {

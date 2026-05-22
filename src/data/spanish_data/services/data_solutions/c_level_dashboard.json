@@ -92,7 +92,7 @@
       },
       {
         "name": "n8n (Automatización avanzada del flujo de trabajo)",
-        "icon": "SiN8n"
+        "icon": "SiN8N"
       },
       {
         "name": "Make.com",
@@ -194,7 +194,7 @@
       },
       {
         "question": "¿Cómo se protegen los datos confidenciales de la empresa y los campos financieros en todos los canales de integración?",
-        "answer": "Cada plataforma de datos automatizada que implementamos aplica pautas de parámetros de confianza cero. Todos los webhooks entrantes se validan mediante firmas criptográficas (validación de encabezado SHA-256), las transferencias de datos se cifran en tránsito mediante TLS 1.3 y los campos corporativos privados están completamente enmascarados delante de los componentes de visualización."
+        "answer": "Cada plataforma de datos automatizada que implementamos aplica pautas de parámetros de confianza cero. Todos los webhooks entrantes se validan mediante firmas criptográficas (validación de encabezado SHA 256), las transferencias de datos se cifran en tránsito mediante TLS 1.3 y los campos corporativos privados están completamente enmascarados delante de los componentes de visualización."
       }
     ],
     "footer": {

@@ -4,12 +4,23 @@ import Header from "@/components/navbar";
 import Footer from "@/components/footer";
 import TechnologiesMainPage from "@/components/technologies/main_page";
 import { getCachedLanguage } from "@/lib/language";
-import { TECHNOLOGIES_PAGE_METADATA } from "@/lib/seo";
+import { getJsonSeoMetadata, TECHNOLOGIES_PAGE_METADATA } from "@/lib/seo";
 import { getCanonicalTechnologySlug, getTechnologiesListingData, getTechnologyData } from "@/data/loaders/technologies";
 import { findNavbarItemByHref, getNavbarDataByLang } from "@/lib/localized-content";
 import { toSectionAnchor } from "@/lib/section-anchor";
 
-export const metadata: Metadata = TECHNOLOGIES_PAGE_METADATA;
+export async function generateMetadata({
+  searchParams,
+}: {
+  searchParams: Promise<{ lang?: string | string[] }>;
+}): Promise<Metadata> {
+  const query = await searchParams;
+  const lang = await getCachedLanguage(query.lang);
+  const data = getTechnologiesListingData(lang);
+  const englishData = getTechnologiesListingData("en");
+
+  return getJsonSeoMetadata(data?.seo ?? englishData?.seo, TECHNOLOGIES_PAGE_METADATA, "/technologies");
+}
 
 function getLastPathSegment(href: string): string | null {
   const slug = href.split("?")[0].split("#")[0].split("/").filter(Boolean).pop();

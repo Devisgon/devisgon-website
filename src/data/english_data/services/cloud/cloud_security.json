@@ -27,7 +27,7 @@
   "hero_section": {
     "title": "Cloud Security Services",
     "subtitle": "Secure Cloud Infrastructure for Modern Digital Businesses",
-    "description": "Devisgon designs cloud security systems that protect applications, data, APIs, databases, DevOps pipelines, user access, and production infrastructure. We help global businesses strengthen AWS, Azure, Google Cloud, SaaS, and cloud-native environments with secure architecture, monitoring, compliance controls, and continuous protection.",
+    "description": "Devisgon designs cloud security systems that protect applications, data, APIs, databases, DevOps pipelines, user access, and production infrastructure. We help global businesses strengthen AWS, Azure, Google Cloud, SaaS, and cloud native environments with secure architecture, monitoring, compliance controls, and continuous protection.",
     "buttons": [
       {
         "text": "Secure My Cloud",
@@ -41,13 +41,13 @@
     "hero_image": "/videos/cloud_security.mp4"
   },
   "introduction_section": {
-    "heading": "What is Enterprise-Grade",
+    "heading": "What is Enterprise Grade",
     "span_heading": " Cloud Security?",
     "content": [
-      "Enterprise-grade cloud security protects cloud applications, databases, networks, storage, identities, APIs, and deployment workflows from unauthorized access, data exposure, misconfiguration, and cyber threats. It combines secure architecture, identity management, encryption, monitoring, compliance controls, vulnerability scanning, and incident response planning.",
+      "Enterprise grade cloud security protects cloud applications, databases, networks, storage, identities, APIs, and deployment workflows from unauthorized access, data exposure, misconfiguration, and cyber threats. It combines secure architecture, identity management, encryption, monitoring, compliance controls, vulnerability scanning, and incident response planning.",
       "At Devisgon, we build cloud security around real production risks, not generic checklists. Our approach covers IAM permissions, private networking, secrets management, encrypted storage, access policies, cloud monitoring, backup planning, compliance readiness, and ongoing security maintenance so your infrastructure stays protected as your business grows."
     ],
-    "highlight_quote": "“Cloud security is not a one-time setup. It is a continuous system of protection, monitoring, access control, and operational discipline.”",
+    "highlight_quote": "“Cloud security is not a one time setup. It is a continuous system of protection, monitoring, access control, and operational discipline.”",
     "side_image": "/all_services/cloud_security/introduction.webp"
   },
   "key_benefits_section": {
@@ -60,13 +60,13 @@
         "icon_type": "MdSecurity"
       },
       {
-        "title": "Compliance-Ready Infrastructure",
-        "description": "Prepare cloud systems for SOC 2, HIPAA, GDPR, PCI-DSS, and industry-specific security requirements.",
+        "title": "Compliance Ready Infrastructure",
+        "description": "Prepare cloud systems for SOC 2, HIPAA, GDPR, PCI DSS, and industry specific security requirements.",
         "icon_type": "MdGppGood"
       },
       {
         "title": "Secure Identity and Data Access",
-        "description": "Protect sensitive data with IAM rules, encryption, private networks, secrets management, and least-privilege access.",
+        "description": "Protect sensitive data with IAM rules, encryption, private networks, secrets management, and least privilege access.",
         "icon_type": "MdLock"
       },
       {
@@ -86,7 +86,7 @@
       },
       {
         "title": "2. Identity and Access Management Hardening",
-        "description": "We configure least-privilege IAM, role-based access, service permissions, MFA policies, and secure account boundaries."
+        "description": "We configure least privilege IAM, role based access, service permissions, MFA policies, and secure account boundaries."
       },
       {
         "title": "3. Data Protection and Encryption Controls",
@@ -102,13 +102,13 @@
       },
       {
         "title": "6. Compliance Support and Ongoing Maintenance",
-        "description": "We support security documentation, control reviews, patching, monitoring, policy updates, and long-term cloud protection."
+        "description": "We support security documentation, control reviews, patching, monitoring, policy updates, and long term cloud protection."
       }
     ]
   },
   "technologies_section": {
     "title": "Cloud Security Technologies and Tools We Use",
-    "subtitle": "Enterprise-grade security, monitoring, access, compliance, and threat protection tools for cloud infrastructure",
+    "subtitle": "Enterprise grade security, monitoring, access, compliance, and threat protection tools for cloud infrastructure",
     "tools": [
       {
         "name": "AWS Security Hub",
@@ -116,11 +116,11 @@
       },
       {
         "name": "AWS IAM",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "AWS GuardDuty",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Cloudflare",
@@ -140,7 +140,7 @@
       },
       {
         "name": "Amazon CloudWatch",
-        "icon": "SiAmazonaws"
+        "icon": "FaAws"
       },
       {
         "name": "Terraform",
@@ -162,7 +162,7 @@
   },
   "process_section": {
     "title": "Our Cloud Security Process",
-    "subtitle": "A focused 6-step process from discovery to testing, deployment, maintenance, and continuous protection",
+    "subtitle": "A focused 6 step process from discovery to testing, deployment, maintenance, and continuous protection",
     "steps": [
       {
         "title": "Discovery Call",
@@ -202,7 +202,7 @@
     "content": {
       "problem": {
         "label": "Operational Roadblock",
-        "text": "A growing cloud-based business had weak access controls, exposed storage settings, inconsistent logging, and limited visibility into production security events. The team needed stronger cloud protection before scaling enterprise customer contracts."
+        "text": "A growing cloud based business had weak access controls, exposed storage settings, inconsistent logging, and limited visibility into production security events. The team needed stronger cloud protection before scaling enterprise customer contracts."
       },
       "solution": {
         "label": "Our Engineering Approach",
@@ -232,10 +232,10 @@
       },
       {
         "question": "What does Zero Trust mean in cloud security?",
-        "answer": "Zero Trust means no user, service, or device is automatically trusted just because it is inside the network. Every request should be verified using identity, permissions, context, and policy controls. In cloud security, this usually includes least-privilege access, MFA, private networks, short-lived credentials, and strict service boundaries."
+        "answer": "Zero Trust means no user, service, or device is automatically trusted just because it is inside the network. Every request should be verified using identity, permissions, context, and policy controls. In cloud security, this usually includes least privilege access, MFA, private networks, short lived credentials, and strict service boundaries."
       },
       {
-        "question": "Can cloud security help with SOC 2, HIPAA, GDPR, or PCI-DSS compliance?",
+        "question": "Can cloud security help with SOC 2, HIPAA, GDPR, or PCI DSS compliance?",
         "answer": "Yes. Cloud security controls can support compliance by improving access management, encryption, logging, monitoring, backups, incident response, and policy enforcement. Devisgon helps implement technical controls and security documentation, but final compliance depends on your full business process, legal requirements, and audit scope."
       },
       {
@@ -244,7 +244,7 @@
       },
       {
         "question": "How often should cloud security be reviewed?",
-        "answer": "Cloud security should be reviewed regularly because users, services, deployments, permissions, and threats change over time. A one-time setup is not enough for a growing product. We recommend ongoing monitoring, periodic access reviews, vulnerability checks, backup testing, and security policy updates."
+        "answer": "Cloud security should be reviewed regularly because users, services, deployments, permissions, and threats change over time. A one time setup is not enough for a growing product. We recommend ongoing monitoring, periodic access reviews, vulnerability checks, backup testing, and security policy updates."
       },
       {
         "question": "Does Devisgon provide ongoing cloud security monitoring and maintenance?",

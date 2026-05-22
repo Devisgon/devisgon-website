@@ -3,6 +3,18 @@
   href: string;
 };
 
+export type IndustrySeoMetadata = {
+  title?: string;
+  description?: string;
+  keywords?: string[];
+  meta_title?: string;
+  meta_description?: string;
+  canonical_url?: string;
+  robots?: string;
+  primary_keywords?: string[];
+  secondary_keywords?: string[];
+};
+
 export type IndustryListingAction = {
   label?: string;
   text?: string;
@@ -142,6 +154,7 @@ export type IndustryListingCategorySection = {
 };
 
 export type IndustryListingData = {
+  seo?: IndustrySeoMetadata;
   hero_section: IndustryListingHero;
   industry_cards: IndustryListingCard[];
   industry_categories_section?: IndustryListingCategorySection;
@@ -150,6 +163,8 @@ export type IndustryListingData = {
 
 export type IndustryPageData = {
   slug: string;
+  seo?: IndustrySeoMetadata;
+  seo_metadata?: IndustrySeoMetadata;
   hero_section: IndustryHeroSection;
   friction_section: IndustryFrictionSection;
   architecture_section: IndustryArchitectureSection;
