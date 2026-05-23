@@ -23,12 +23,13 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               {data.features.map((feature, index) => (
                 <div key={index} className="flex-1">
                   <div className="w-14 h-14 rounded-full bg-background border  flex items-center justify-center mb-4 shadow-sm">
-                    <img
+                    <Image
                     src={feature.icon}
                     alt="icon"
+                    width={40}
+                    height={40}
                     className="h-10 w-10"
                     loading="lazy"
-                    decoding="async"
                     />
                   </div>
 

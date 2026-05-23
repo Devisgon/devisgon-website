@@ -10,6 +10,7 @@ import { FaInstagram } from "react-icons/fa";
 import { MdCalendarToday } from "react-icons/md";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
+import Image from "next/image";
 import { motion, Variants } from "framer-motion";
 import { normalizeLanguage, type ContactPageContent } from "@/lib/localized-content";
 import { COUNTRY_OPTIONS, getServiceInquiryOptions } from "@/lib/inquiry-options";
@@ -373,9 +374,12 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                   <div className="pointer-events-none flex flex-col items-center">
                     {preview ? (
                       <>
-                        <img
+                        <Image
                           src={preview}
                           alt="Uploaded preview"
+                          width={128}
+                          height={128}
+                          unoptimized
                           className="w-32 h-32 object-cover rounded-lg mb-2 border"
                         />
                         <p className="text-t-primary text-sm font-medium">{file?.name}</p>

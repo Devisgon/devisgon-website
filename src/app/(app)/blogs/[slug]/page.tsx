@@ -1,6 +1,7 @@
 import { getPayload } from "payload";
 import config from "@payload-config";
 import { notFound } from "next/navigation";
+import Image from "next/image";
 import Link from "next/link";
 import CustomRichText from "@/components/payload_rich_text_styling";
 import Footer from "@/components/footer";
@@ -209,9 +210,12 @@ export default async function BlogPostPage({
           <article className="lg:col-span-2">
             {blog.coverImage && typeof blog.coverImage === "object" && (
               <div className="w-full mb-10 rounded-xl overflow-hidden shadow-sm">
-                <img
+                <Image
                   src={blog.coverImage.url}
                   alt={blog.coverImage.alt || translatedBlog.title}
+                  width={1200}
+                  height={300}
+                  sizes="(max-width: 1024px) 100vw, 66vw"
                   className="w-full object-cover max-h-[300px]"
                 />
               </div>
@@ -263,10 +267,12 @@ export default async function BlogPostPage({
                   >
                     {post.coverImage && typeof post.coverImage === "object" ? (
                       <div className="w-full h-48 overflow-hidden relative">
-                        <img
+                        <Image
                           src={post.coverImage.url}
                           alt={post.coverImage.alt || post.title}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                          fill
+                          sizes="(max-width: 1024px) 100vw, 33vw"
+                          className="object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>
                     ) : (

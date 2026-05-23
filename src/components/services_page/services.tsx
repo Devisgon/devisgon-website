@@ -1,4 +1,5 @@
 import type { ServicesListProps } from "@/types/services_page/services";
+import Image from "next/image";
 import allIcons from "../icons";
 import { toSectionAnchor } from "@/lib/section-anchor";
 
@@ -58,10 +59,12 @@ const ServicesList = ({ data }: ServicesListProps) => {
               </div>
 
               <div className="relative w-full h-[300px] md:h-[300px] overflow-hidden -mt-30 md:mt-12 -mb-30 md:mb-12">
-                <img
+                <Image
                   src={section.image}
                   alt={section.category}
-                  className="w-full h-full object-fill transform  transition-transform duration-800"
+                  fill
+                  sizes="100vw"
+                  className="object-fill transform transition-transform duration-800"
                 />
               </div>
 

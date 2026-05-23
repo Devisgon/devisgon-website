@@ -1,6 +1,7 @@
 "use client";
 
 import { Mail, Phone } from "lucide-react";
+import Image from "next/image";
 import { useEffect, useMemo, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
 import { findNavbarItemByHref, getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
@@ -166,8 +167,8 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-4">
           <div className="flex flex-col items-start gap-7">
             <div>
-              <img src="/logo/logo.webp" alt="logo" className="w-60 dark:hidden" />
-              <img src="/logo/dark_logo.webp" alt="logo" className="hidden w-60 dark:block" />
+              <Image src="/logo/logo.webp" alt="logo" width={240} height={80} className="w-60 h-auto dark:hidden" />
+              <Image src="/logo/dark_logo.webp" alt="logo" width={240} height={80} className="hidden w-60 h-auto dark:block" />
             </div>
 
             <div className="flex flex-col gap-4 text-start text-md font-medium text-t-primary opacity-80">

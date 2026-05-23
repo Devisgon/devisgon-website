@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { IntroductionSectionProps } from "@/types/sub_services_page/intoduction";
 
 const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
@@ -36,9 +37,12 @@ const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
         {/* Right Image */}
         <div className="w-full flex justify-center  lg:justify-end">
           <div className="rounded-2xl overflow-hidden  w-full max-w-xl">
-            <img 
+            <Image
               src={data.side_image} 
               alt="AI App Interface" 
+              width={640}
+              height={480}
+              sizes="(max-width: 1024px) 100vw, 50vw"
               className="w-full h-[100%] rounded-2xl scale-115  transition-transform duration-500"
             />
           </div>
