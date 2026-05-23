@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useCallback } from "react";
+import Image from "next/image";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import type { TestimonialSectionProps } from "@/types/homepage/comments";
 
@@ -62,15 +63,19 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                 Client Saying
               </h2>
               {/* Arrow Vectors */}
-              <img
+              <Image
                 src="/home_page/comments_section/Vector_1.webp"
                 alt="arrow"
+                width={176}
+                height={96}
                 className="hidden md:block dark:hidden w-44 ml-90 -mt-35"
                 loading="lazy"
               />
-              <img
+              <Image
                 src="/home_page/comments_section/Vector-removebg-preview.webp"
                 alt="arrow"
+                width={176}
+                height={96}
                 className="hidden dark:block w-44 ml-90 bg-transparent -mt-35"
                 loading="lazy"
               />
@@ -140,9 +145,11 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
 
                 <div className="relative z-10 flex flex-col justify-between h-full">
                   <div className="flex items-center gap-2 mb-6">
-                    <img
+                    <Image
                       src={review.image}
                       alt={review.name}
+                      width={64}
+                      height={64}
                       className={`rounded-full object-cover border-2 border-white shadow-md ${
                         isActive ? "w-16 h-16" : "w-14 h-14"
                       }`}

@@ -14,7 +14,7 @@ export default function TechnologyCompetitiveEdge({ data }: TechnologyCompetitiv
         </div>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
-          {data.cards.map((card, index) => (
+          {data.cards.map((card) => (
             <article
               key={card.metric}
               className="rounded-2xl border border-[color:var(--primry)] p-6 transition-colors duration-300"

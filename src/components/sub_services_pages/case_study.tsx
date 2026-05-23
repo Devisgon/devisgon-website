@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { CaseStudyProps } from "@/types/sub_services_page/case_study";
 
 const CaseStudySection: React.FC<CaseStudyProps> = ({ data }) => {
@@ -38,9 +39,12 @@ const CaseStudySection: React.FC<CaseStudyProps> = ({ data }) => {
         <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
           {image && (
             <div className="w-full rounded-2xl overflow-hidden">
-              <img
+              <Image
                 src={image}
                 alt={headline || "Case Study Image"}
+                width={720}
+                height={480}
+                sizes="(max-width: 1024px) 100vw, 50vw"
                 className="w-full h-auto object-cover scale-101 hover:scale-110 transform transition-transform duration-700 "
               />
             </div>

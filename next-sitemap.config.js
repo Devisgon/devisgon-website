@@ -1,7 +1,6 @@
-﻿import fs from "fs";
+import fs from "fs";
 import path from "path";
 
-const LANGUAGES = ["en", "ur", "ar", "es", "de", "zh", "fr"];
 const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/services");
 const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
 const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
@@ -25,23 +24,23 @@ function getServiceUrls() {
     folders.forEach((folder) => {
       const folderPath = path.join(BASE_SERVICES_PATH, folder);
 
-      if (fs.statSync(folderPath).isDirectory()) {
-        const files = fs.readdirSync(folderPath);
-
-        files.forEach((file) => {
-          if (!file.endsWith(".json")) {
-            return;
-          }
-
-          const filePath = path.join(folderPath, file);
-          const fileContent = readJsonFile(filePath);
-          const slug = fileContent.slug || path.basename(file, ".json");
-
-          LANGUAGES.forEach((lang) => {
-            urls.push(`/services/${canonicalSegment(slug)}?lang=${lang}`);
-          });
-        });
+      if (!fs.statSync(folderPath).isDirectory()) {
+        return;
       }
+
+      const files = fs.readdirSync(folderPath);
+
+      files.forEach((file) => {
+        if (!file.endsWith(".json")) {
+          return;
+        }
+
+        const filePath = path.join(folderPath, file);
+        const fileContent = readJsonFile(filePath);
+        const slug = fileContent.slug || path.basename(file, ".json");
+
+        urls.push(`/services/${canonicalSegment(slug)}`);
+      });
     });
   } catch (error) {
     console.error("Sitemap generation error:", error);
@@ -71,7 +70,6 @@ function getIndustryUrls() {
       const relativePath = path.relative(BASE_INDUSTRIES_PATH, fullPath);
       const pathSegments = relativePath.split(path.sep);
 
-      // Only include the new category-based files: industries/<category>/<slug>.json
       if (pathSegments.length !== 2) {
         continue;
       }
@@ -79,9 +77,7 @@ function getIndustryUrls() {
       const fileContent = readJsonFile(fullPath);
       const slug = fileContent.slug || canonicalSegment(path.basename(entry.name, ".json"));
 
-      LANGUAGES.forEach((lang) => {
-        urls.push(`/industries/${canonicalSegment(slug)}?lang=${lang}`);
-      });
+      urls.push(`/industries/${canonicalSegment(slug)}`);
     }
   }
 
@@ -115,9 +111,7 @@ function getTechnologyUrls() {
       const fileContent = readJsonFile(fullPath);
       const slug = fileContent.slug || (entry.name === "index.json" ? path.basename(path.dirname(fullPath)) : path.basename(entry.name, ".json"));
 
-      LANGUAGES.forEach((lang) => {
-        urls.push(`/technologies/${canonicalSegment(slug)}?lang=${lang}`);
-      });
+      urls.push(`/technologies/${canonicalSegment(slug)}`);
     }
   }
 
@@ -147,9 +141,8 @@ function getPartnerUrls() {
 
       const rawSlug = path.basename(file, ".json");
       const slug = canonicalSegment(partnerSlugMap[rawSlug] || rawSlug);
-      LANGUAGES.forEach((lang) => {
-        urls.push(`/partners/${slug}?lang=${lang}`);
-      });
+
+      urls.push(`/partners/${slug}`);
     });
   } catch (error) {
     console.error("Sitemap generation error:", error);
@@ -163,6 +156,39 @@ const config = {
   siteUrl: "https://www.devisgon.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
+  robotsTxtOptions: {
+    policies: [
+      {
+        userAgent: "*",
+        allow: [
+          "/",
+          "/services",
+          "/services/",
+          "/industries",
+          "/industries/",
+          "/technologies",
+          "/technologies/",
+          "/blogs",
+          "/blogs/",
+          "/partners/doctorhoster",
+          "/partners/jotform",
+          "/our-process",
+          "/contact",
+          "/get-started",
+          "/privacy-policies",
+          "/terms-condition",
+        ],
+        disallow: [
+          "/admin/",
+          "/api/",
+          "/_next/",
+          "/my-route",
+          "/*?*",
+        ],
+        crawlDelay: 10,
+      },
+    ],
+  },
   exclude: [
     "/others/*",
     "/partners/dctr_hosting",
@@ -184,7 +210,7 @@ const config = {
   ],
 
   async additionalPaths() {
-    const dynamicSlugs = [...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls(), ...getPartnerUrls()];
+    const dynamicSlugs = [...new Set([...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls(), ...getPartnerUrls()])];
 
     return dynamicSlugs.map((url) => ({
       loc: url,

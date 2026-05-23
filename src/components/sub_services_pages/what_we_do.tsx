@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { WhatYouGetSectionProps } from "@/types/sub_services_page/wwd";
 
 const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
@@ -24,7 +25,14 @@ const WhatYouGetSection: React.FC<WhatYouGetSectionProps> = ({ data }) => {
 
         <div className="relative w-full h-full flex items-center justify-center lg:justify-end">
           <div className="w-full rounded-3xl overflow-hidden">
-            <img src={data.image} alt="Feature Illustration" className="w-full h-full scale-110  " />
+            <Image
+              src={data.image}
+              alt="Feature Illustration"
+              width={720}
+              height={520}
+              sizes="(max-width: 1024px) 100vw, 50vw"
+              className="w-full h-full scale-110"
+            />
           </div>
         </div>
       </div>

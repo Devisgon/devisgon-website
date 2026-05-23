@@ -1,9 +1,9 @@
 "use client";
 import { Check } from "lucide-react";
+import Image from "next/image";
 import { motion, useInView, Variants } from "framer-motion"; // Add Variants to your import
 import { useRef } from "react";
 import type { ExpertServicesSectionProps } from "@/types/homepage/expert_services";
-import { cursorTo } from "readline";
 
 /* ------------------ Looping Typewriter Sub-Component ------------------ */
 const TypewriterTitle = ({ text, color }: { text: string; color: string }) => {
@@ -86,12 +86,14 @@ const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
         </h2>
 
         <div className="relative w-full">
-          <img
+          <Image
             src={data.image}
             alt="Expert Services"
+            width={1024}
+            height={480}
+            sizes="(max-width: 768px) 100vw, 90vw"
             className="w-full md:w-[90%] h-[300px] sm:h-[350px] md:h-[400px] lg:h-[480px] object-cover rounded-lg"
             loading="lazy"
-            decoding="async"
           />
 
           {/* Checklist Card */}

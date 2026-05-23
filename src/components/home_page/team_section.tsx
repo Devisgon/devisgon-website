@@ -1,4 +1,5 @@
 import type { TeamSectionProps } from "@/types/homepage/team";
+import Image from "next/image";
 import Link from "next/link";
 
 const TeamSection = ({ data }: TeamSectionProps) => {
@@ -21,10 +22,12 @@ const TeamSection = ({ data }: TeamSectionProps) => {
                   marginBottom: isFromTop ? "60px" : "0px",
                 }}
               >
-                <img
+                <Image
                   src={member.image}
                   alt={member.alt}
-                  className="w-full h-full bg-[#c2bebf] object-cover group-hover:opacity-50 transition-opacity"
+                  fill
+                  sizes="(max-width: 768px) 144px, (max-width: 1024px) 128px, 288px"
+                  className="bg-[#c2bebf] object-cover group-hover:opacity-50 transition-opacity"
                   loading="lazy"
                 />
 

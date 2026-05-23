@@ -333,8 +333,8 @@ const Navbar = () => {
         }`}
       >
         <div className="flex justify-between p-4">
-          <img src="/logo/logo.webp" alt="logo" className="dark:hidden" />
-          <img src="/logo/dark_logo.webp" alt="logo" className="hidden dark:block" />
+          <Image src="/logo/logo.webp" alt="logo" width={180} height={60} className="h-auto dark:hidden" />
+          <Image src="/logo/dark_logo.webp" alt="logo" width={180} height={60} className="hidden h-auto dark:block" />
         </div>
 
         <div className="-mt-8 h-screen space-y-6 overflow-y-auto bg-[#F7EDFE] px-4 py-12 dark:bg-[#8457AA]">
