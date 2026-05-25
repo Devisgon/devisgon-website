@@ -33,9 +33,9 @@ export default function ServicesSection({ data }: ServicesSectionProps) {
         <p className="text-t-secondary text-2xl font-semibold mb-2">
           {data.header_title}
         </p>
-        <h1 className="text-2xl  md:text-5xl font-bold text-t-primary max-w-3xl text-center leading-tight">
+        <h2 className="text-2xl  md:text-5xl font-bold text-t-primary max-w-3xl text-center leading-tight">
           {data.main_title}
-        </h1>
+        </h2>
       </div>
 
       {/* Carousel */}

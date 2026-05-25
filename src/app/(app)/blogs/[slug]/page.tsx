@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import { getPayload } from "payload";
 import config from "@payload-config";
 import { notFound } from "next/navigation";
@@ -11,6 +12,7 @@ import {
   translateLexicalContentForLanguage,
   translateTextForLanguage,
 } from "@/lib/blog-language";
+import { getBlogPostMetadata, BLOGS_PAGE_METADATA } from "@/lib/seo";
 
 type CoverImage = {
   url: string;
@@ -119,6 +121,39 @@ const dateLocaleByLang: Record<string, string> = {
 function formatBlogDate(lang: string, date?: string | null, createdAt?: string) {
   const locale = dateLocaleByLang[lang] ?? "en-US";
   return new Date(date || createdAt || Date.now()).toLocaleDateString(locale);
+}
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+  const { slug } = await params;
+  const payload = await getPayload({ config });
+
+  /* eslint-disable @typescript-eslint/no-explicit-any */
+  const result = (await (payload as any).find({
+    collection: "blogs",
+    where: {
+      and: [
+        { slug: { equals: slug } },
+        { status: { equals: "published" } },
+      ],
+    },
+    depth: 0,
+    limit: 1,
+  })) as { docs: Pick<BlogDoc, "slug" | "title">[] };
+
+  const blog = result.docs[0];
+
+  if (!blog) {
+    return BLOGS_PAGE_METADATA;
+  }
+
+  return getBlogPostMetadata({
+    slug: blog.slug,
+    title: blog.title,
+  });
 }
 
 export default async function BlogPostPage({

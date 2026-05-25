@@ -5,6 +5,7 @@ import Header from "@/components/navbar";
 import JotformPage from "@/components/others/jotform/jotform_page";
 import { getJotformLandingData } from "@/data/loaders/others";
 import { getCachedLanguage } from "@/lib/language";
+import { getJsonSeoMetadata, JOTFORM_PAGE_METADATA } from "@/lib/seo";
 
 type PageProps = {
   searchParams: Promise<{ lang?: string | string[] }>;
@@ -13,12 +14,14 @@ type PageProps = {
 export async function generateMetadata(): Promise<Metadata> {
   const data = getJotformLandingData("en");
 
-  return {
-    title: "Jotform Online Forms | Devisgon",
-    description:
-      data?.landing_page.hero_section.subheadline ??
-      "Use Jotform to collect leads, registrations, payments, signatures, and approvals with a clean no-code workflow.",
-  };
+  return getJsonSeoMetadata(
+    {
+      title: "Jotform Online Forms | Devisgon",
+      description: data?.landing_page.hero_section.subheadline,
+    },
+    JOTFORM_PAGE_METADATA,
+    "/partners/jotform",
+  );
 }
 
 export default async function JotformRoute({ searchParams }: PageProps) {
