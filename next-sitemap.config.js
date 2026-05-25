@@ -12,7 +12,17 @@ function readJsonFile(filePath) {
 }
 
 function canonicalSegment(value) {
-  return value.trim().toLowerCase().replace(/[_\s]+/g, "-").replace(/-+/g, "-");
+  return String(value)
+    .trim()
+    .toLowerCase()
+    .replace(/&/g, "and")
+    .replace(/[^a-z0-9]+/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+}
+
+function getFileLastmod(filePath) {
+  return fs.statSync(filePath).mtime.toISOString();
 }
 
 function getServiceUrls() {
@@ -37,13 +47,22 @@ function getServiceUrls() {
 
         const filePath = path.join(folderPath, file);
         const fileContent = readJsonFile(filePath);
-        const slug = fileContent.slug || path.basename(file, ".json");
+        const slug = canonicalSegment(fileContent.slug || path.basename(file, ".json"));
 
-        urls.push(`/services/${canonicalSegment(slug)}`);
+        if (!slug) {
+          return;
+        }
+
+        urls.push({
+          loc: `/services/${slug}`,
+          lastmod: getFileLastmod(filePath),
+          changefreq: "weekly",
+          priority: 0.8,
+        });
       });
     });
   } catch (error) {
-    console.error("Sitemap generation error:", error);
+    console.error("Sitemap service URL generation error:", error);
   }
 
   return urls;
@@ -75,16 +94,25 @@ function getIndustryUrls() {
       }
 
       const fileContent = readJsonFile(fullPath);
-      const slug = fileContent.slug || canonicalSegment(path.basename(entry.name, ".json"));
+      const slug = canonicalSegment(fileContent.slug || path.basename(entry.name, ".json"));
 
-      urls.push(`/industries/${canonicalSegment(slug)}`);
+      if (!slug) {
+        continue;
+      }
+
+      urls.push({
+        loc: `/industries/${slug}`,
+        lastmod: getFileLastmod(fullPath),
+        changefreq: "weekly",
+        priority: 0.8,
+      });
     }
   }
 
   try {
     walk(BASE_INDUSTRIES_PATH);
   } catch (error) {
-    console.error("Sitemap generation error:", error);
+    console.error("Sitemap industry URL generation error:", error);
   }
 
   return urls;
@@ -109,16 +137,30 @@ function getTechnologyUrls() {
       }
 
       const fileContent = readJsonFile(fullPath);
-      const slug = fileContent.slug || (entry.name === "index.json" ? path.basename(path.dirname(fullPath)) : path.basename(entry.name, ".json"));
+      const fallbackSlug =
+        entry.name === "index.json"
+          ? path.basename(path.dirname(fullPath))
+          : path.basename(entry.name, ".json");
 
-      urls.push(`/technologies/${canonicalSegment(slug)}`);
+      const slug = canonicalSegment(fileContent.slug || fallbackSlug);
+
+      if (!slug) {
+        continue;
+      }
+
+      urls.push({
+        loc: `/technologies/${slug}`,
+        lastmod: getFileLastmod(fullPath),
+        changefreq: "weekly",
+        priority: 0.8,
+      });
     }
   }
 
   try {
     walk(BASE_TECHNOLOGIES_PATH);
   } catch (error) {
-    console.error("Sitemap generation error:", error);
+    console.error("Sitemap technology URL generation error:", error);
   }
 
   return urls;
@@ -126,26 +168,39 @@ function getTechnologyUrls() {
 
 function getPartnerUrls() {
   const urls = [];
+
   const partnerSlugMap = {
-    dctr_hosting: "doctorhoster",
-    "dctr-hosting": "doctorhoster",
+    "dctr_hosting.json": "doctorhoster",
+    "dctr-hosting.json": "doctorhoster",
+    "jotform.json": "jotform",
   };
 
   try {
     const files = fs.readdirSync(BASE_PARTNERS_PATH);
 
     files.forEach((file) => {
-      if (!file.endsWith(".json")) {
+      const mappedSlug = partnerSlugMap[file];
+
+      if (!mappedSlug) {
         return;
       }
 
-      const rawSlug = path.basename(file, ".json");
-      const slug = canonicalSegment(partnerSlugMap[rawSlug] || rawSlug);
+      const filePath = path.join(BASE_PARTNERS_PATH, file);
+      const slug = canonicalSegment(mappedSlug);
 
-      urls.push(`/partners/${slug}`);
+      if (!slug) {
+        return;
+      }
+
+      urls.push({
+        loc: `/partners/${slug}`,
+        lastmod: getFileLastmod(filePath),
+        changefreq: "monthly",
+        priority: 0.6,
+      });
     });
   } catch (error) {
-    console.error("Sitemap generation error:", error);
+    console.error("Sitemap partner URL generation error:", error);
   }
 
   return urls;
@@ -156,42 +211,27 @@ const config = {
   siteUrl: "https://www.devisgon.com",
   generateRobotsTxt: true,
   sitemapSize: 7000,
+  changefreq: "weekly",
+  priority: 0.7,
+
   robotsTxtOptions: {
     policies: [
       {
         userAgent: "*",
-        allow: [
-          "/",
-          "/services",
-          "/services/",
-          "/industries",
-          "/industries/",
-          "/technologies",
-          "/technologies/",
-          "/blogs",
-          "/blogs/",
-          "/partners/doctorhoster",
-          "/partners/jotform",
-          "/our-process",
-          "/contact",
-          "/get-started",
-          "/privacy-policies",
-          "/terms-condition",
-        ],
+        allow: "/",
         disallow: [
           "/admin/",
           "/api/",
-          "/_next/",
           "/my-route",
-          "/*?*",
         ],
-        crawlDelay: 10,
       },
     ],
   },
+
   exclude: [
     "/others/*",
     "/partners/dctr_hosting",
+    "/partners/dctr-hosting",
     "/privacy_policies",
     "/terms_condition",
     "/industries/*/*",
@@ -210,14 +250,15 @@ const config = {
   ],
 
   async additionalPaths() {
-    const dynamicSlugs = [...new Set([...getServiceUrls(), ...getIndustryUrls(), ...getTechnologyUrls(), ...getPartnerUrls()])];
-
-    return dynamicSlugs.map((url) => ({
-      loc: url,
-      lastmod: new Date().toISOString(),
-      changefreq: "daily",
-      priority: 0.8,
-    }));
+    return [
+      ...getServiceUrls(),
+      ...getIndustryUrls(),
+      ...getTechnologyUrls(),
+      ...getPartnerUrls(),
+    ].filter(
+      (entry, index, entries) =>
+        entries.findIndex((candidate) => candidate.loc === entry.loc) === index,
+    );
   },
 };
 
