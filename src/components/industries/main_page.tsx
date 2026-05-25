@@ -39,7 +39,7 @@ export default function IndustriesMainPage({ data }: IndustryPageProps<IndustryL
             >
               {DISCOVERY_CALL_LABEL}
             </a>
-            <a
+            <a 
               href={CONTACT_US_HREF}
               className="inline-flex h-12 items-center justify-center rounded-lg border-2 border-white/25 bg-white/10 px-8 text-sm font-semibold text-white shadow-xl transition-colors hover:bg-white/20"
             >

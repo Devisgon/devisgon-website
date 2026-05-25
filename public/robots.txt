@@ -1,27 +1,9 @@
 # *
 User-agent: *
 Allow: /
-Allow: /services
-Allow: /services/
-Allow: /industries
-Allow: /industries/
-Allow: /technologies
-Allow: /technologies/
-Allow: /blogs
-Allow: /blogs/
-Allow: /partners/doctorhoster
-Allow: /partners/jotform
-Allow: /our-process
-Allow: /contact
-Allow: /get-started
-Allow: /privacy-policies
-Allow: /terms-condition
 Disallow: /admin/
 Disallow: /api/
-Disallow: /_next/
 Disallow: /my-route
-Disallow: /*?*
-Crawl-delay: 10
 
 # Host
 Host: https://www.devisgon.com

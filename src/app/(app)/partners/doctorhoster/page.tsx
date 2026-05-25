@@ -5,16 +5,13 @@ import Header from "@/components/navbar";
 import DoctorHostingPage from "@/components/others/doctorhosting/doctor_hosting_page";
 import { getDoctorHostingData } from "@/data/loaders/others";
 import { getCachedLanguage } from "@/lib/language";
+import { DOCTORHOSTER_PAGE_METADATA } from "@/lib/seo";
 
 type PageProps = {
   searchParams: Promise<{ lang?: string | string[] }>;
 };
 
-export const metadata: Metadata = {
-  title: "Doctor Hosting Plans | Devisgon",
-  description:
-    "Explore Doctor Hosting domain search, hosting platforms, managed services, pricing cards, and support options.",
-};
+export const metadata: Metadata = DOCTORHOSTER_PAGE_METADATA;
 export const dynamic = "force-dynamic";
 
 export default async function DoctorHostingRoute({ searchParams }: PageProps) {

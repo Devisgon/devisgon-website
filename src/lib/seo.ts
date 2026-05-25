@@ -9,6 +9,8 @@ type SeoConfig = {
   robots?: Metadata["robots"];
 };
 
+const MAX_TITLE_LENGTH = 55;
+
 export const SITE_NAME = "Devisgon";
 export const SITE_URL = "https://www.devisgon.com";
 export const DEFAULT_OPEN_GRAPH_IMAGE = {
@@ -48,6 +50,27 @@ const parseRobots = (robots?: unknown): Metadata["robots"] | undefined => {
   };
 };
 
+const compactSeoTitle = (title: string) => {
+  const cleanTitle = title.trim().replace(/\s+/g, " ");
+
+  if (cleanTitle.length <= MAX_TITLE_LENGTH) {
+    return cleanTitle;
+  }
+
+  const [primaryPart] = cleanTitle.split("|").map((part) => part.trim());
+  const brandedTitle = `${primaryPart} | ${SITE_NAME}`;
+
+  if (brandedTitle.length <= MAX_TITLE_LENGTH) {
+    return brandedTitle;
+  }
+
+  const suffix = ` | ${SITE_NAME}`;
+  const maxPrimaryLength = MAX_TITLE_LENGTH - suffix.length;
+  return `${primaryPart.slice(0, maxPrimaryLength).trim()}${suffix}`;
+};
+
+const uniqueDescription = (description: string) => description.trim().replace(/\s+/g, " ");
+
 const toMetadata = ({
   title,
   description,
@@ -55,11 +78,13 @@ const toMetadata = ({
   canonicalUrl,
   robots,
 }: SeoConfig): Metadata => {
+  const metadataTitle = compactSeoTitle(title);
+  const metadataDescription = uniqueDescription(description);
   const absoluteCanonicalUrl = toAbsoluteUrl(canonicalUrl);
 
   return {
-    title,
-    description,
+    title: metadataTitle,
+    description: metadataDescription,
     keywords,
     alternates: absoluteCanonicalUrl
       ? {
@@ -68,8 +93,8 @@ const toMetadata = ({
       : undefined,
     robots,
     openGraph: {
-      title,
-      description,
+      title: metadataTitle,
+      description: metadataDescription,
       siteName: SITE_NAME,
       url: absoluteCanonicalUrl ?? SITE_URL,
       locale: "en_US",
@@ -78,10 +103,33 @@ const toMetadata = ({
     },
     twitter: {
       card: "summary_large_image",
-      title,
-      description,
+      title: metadataTitle,
+      description: metadataDescription,
       images: [DEFAULT_OPEN_GRAPH_IMAGE.url],
     },
+  };
+};
+
+const withCanonical = (metadata: Metadata, canonicalUrl?: string): Metadata => {
+  const absoluteCanonicalUrl = toAbsoluteUrl(canonicalUrl);
+
+  if (!absoluteCanonicalUrl) {
+    return metadata;
+  }
+
+  return {
+    ...metadata,
+    alternates: {
+      ...metadata.alternates,
+      canonical: absoluteCanonicalUrl,
+    },
+    openGraph:
+      metadata.openGraph && typeof metadata.openGraph === "object"
+        ? {
+            ...metadata.openGraph,
+            url: absoluteCanonicalUrl,
+          }
+        : metadata.openGraph,
   };
 };
 
@@ -118,15 +166,16 @@ export const getJsonSeoMetadata = (
   canonicalPath?: string,
 ): Metadata => {
   if (!source || typeof source !== "object") {
-    return fallback;
+    return withCanonical(fallback, canonicalPath);
   }
 
   const seo = source as JsonSeoSource;
   const title = seo.title ?? seo.meta_title ?? seo.metaTitle;
   const description = seo.description ?? seo.meta_description ?? seo.metaDescription;
+  const canonicalUrl = canonicalPath ?? seo.canonical_url ?? seo.canonicalUrl;
 
   if (!title || !description) {
-    return fallback;
+    return withCanonical(fallback, canonicalUrl);
   }
 
   return toMetadata({
@@ -138,13 +187,13 @@ export const getJsonSeoMetadata = (
       seo.secondary_keywords,
       seo.seo_keywords,
     ),
-    canonicalUrl: seo.canonical_url ?? seo.canonicalUrl ?? canonicalPath,
+    canonicalUrl,
     robots: parseRobots(seo.robots),
   });
 };
 
 export const MAIN_SITE_METADATA = toMetadata({
-  title: "Devisgon | AI-Powered Software & Business Automation Agency",
+  title: "Devisgon AI Software Agency",
   description:
     "Devisgon is a leading next-gen technology partner specializing in AI development, SaaS platforms, and intelligent business automation. We help global brands and startups in Pakistan scale faster by saving 20-50% of operational time through smarter software solutions.",
   keywords: withLocalKeywords([
@@ -155,10 +204,11 @@ export const MAIN_SITE_METADATA = toMetadata({
     "SaaS development",
     "software house Pakistan",
   ]),
+  canonicalUrl: "/",
 });
 
 export const HOME_PAGE_METADATA = toMetadata({
-  title: "Devisgon | AI-Powered Software Development & Automation Agency",
+  title: "AI Software Development | Devisgon",
   description:
     "Devisgon helps global businesses save 20-50% of time through AI automation, SaaS development, and scalable software solutions. Partner with Pakistan's leading next-gen tech agency.",
   keywords: withLocalKeywords([
@@ -167,6 +217,7 @@ export const HOME_PAGE_METADATA = toMetadata({
     "SaaS Solutions",
     "Devisgon",
   ]),
+  canonicalUrl: "/",
 });
 
 export const SERVICES_PAGE_METADATA = toMetadata({
@@ -187,6 +238,7 @@ export const SERVICES_PAGE_METADATA = toMetadata({
     "quality assurance and testing services",
     "web and app application development",
   ]),
+  canonicalUrl: "/services",
 });
 
 export const INDUSTRIES_PAGE_METADATA = toMetadata({
@@ -203,6 +255,7 @@ export const INDUSTRIES_PAGE_METADATA = toMetadata({
     "healthcare workflow AI",
     "industry workflow automation",
   ]),
+  canonicalUrl: "/industries",
 });
 
 export const TECHNOLOGIES_PAGE_METADATA = toMetadata({
@@ -217,6 +270,7 @@ export const TECHNOLOGIES_PAGE_METADATA = toMetadata({
     "database technologies",
     "automation tools",
   ]),
+  canonicalUrl: "/technologies",
 });
 
 export const PRIVACY_PAGE_METADATA = toMetadata({
@@ -224,6 +278,7 @@ export const PRIVACY_PAGE_METADATA = toMetadata({
   description:
     "Read the Devisgon Privacy Policy to understand how we collect, use, and protect your data. Your privacy and data security are our top priorities.",
   keywords: ["Privacy Policy", "data protection", "Devisgon legal", "software company privacy"],
+  canonicalUrl: "/privacy-policies",
 });
 
 export const TERMS_PAGE_METADATA = toMetadata({
@@ -236,6 +291,7 @@ export const TERMS_PAGE_METADATA = toMetadata({
     "legal agreement",
     "software service terms",
   ],
+  canonicalUrl: "/terms-condition",
 });
 
 export const CONTACT_PAGE_METADATA = toMetadata({
@@ -247,6 +303,7 @@ export const CONTACT_PAGE_METADATA = toMetadata({
     "Hire AI Developers",
     "Devisgon Office Pakistan",
   ]),
+  canonicalUrl: "/contact",
 });
 
 export const BLOGS_PAGE_METADATA = toMetadata({
@@ -259,7 +316,51 @@ export const BLOGS_PAGE_METADATA = toMetadata({
     "SaaS development insights",
     "tech blog Pakistan",
   ]),
+  canonicalUrl: "/blogs",
 });
+
+export const GET_STARTED_PAGE_METADATA = toMetadata({
+  title: "Get Started with Devisgon | Project and Career Inquiry",
+  description:
+    "Start a project, apply for active roles, or send your details to the Devisgon team through the get started form.",
+  keywords: withLocalKeywords([
+    "get started Devisgon",
+    "software project inquiry",
+    "apply Devisgon",
+    "start software project",
+  ]),
+  canonicalUrl: "/get-started",
+});
+
+export const DOCTORHOSTER_PAGE_METADATA = toMetadata({
+  title: "Doctor Hosting Plans | Devisgon",
+  description:
+    "Explore Doctor Hosting domain search, hosting platforms, managed services, pricing cards, and support options.",
+  keywords: ["Doctor Hosting", "domain search", "hosting plans", "Devisgon partners"],
+  canonicalUrl: "/partners/doctorhoster",
+});
+
+export const JOTFORM_PAGE_METADATA = toMetadata({
+  title: "Jotform Online Forms | Devisgon",
+  description:
+    "Use Jotform to collect leads, registrations, payments, signatures, and approvals with a clean no-code workflow.",
+  keywords: ["Jotform", "online forms", "form automation", "Devisgon partners"],
+  canonicalUrl: "/partners/jotform",
+});
+
+export const getBlogPostMetadata = ({
+  slug,
+  title,
+}: {
+  slug: string;
+  title: string;
+}): Metadata =>
+  toMetadata({
+    title: `${title} | Devisgon Blog`,
+    description: `Read "${title}" from Devisgon for practical insight on AI, software, automation, SaaS, and modern digital systems.`,
+    keywords: withLocalKeywords(["Devisgon blog", "AI insights", "software development insights"]),
+    canonicalUrl: `/blogs/${slug}`,
+  });
 
 type SiteNavigationLink = {
   name: string;
@@ -350,9 +451,9 @@ const SERVICE_SLUG_SEO: Record<string, SeoConfig> = {
     keywords: ["machine learning models", "ML development", "Devisgon"],
   },
   meachine_learning: {
-    title: "Machine Learning Model Development | Devisgon",
+    title: "Machine Learning Services | Devisgon",
     description:
-      "Design, train, and deploy machine learning models for prediction, classification, recommendation, and business intelligence.",
+      "Plan and launch practical machine learning systems for predictions, classification, recommendations, and analytics workflows.",
     keywords: ["machine learning models", "ML development", "Devisgon"],
   },
   mvps: {
