@@ -5,6 +5,19 @@ const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/servi
 const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
 const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
 const BASE_PARTNERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
+const PRIORITY_SERVICE_SLUGS = new Set([
+  "agentic-ai",
+  "ai-agents",
+  "ai-chatbot",
+  "ai-integration",
+  "computer-vision",
+  "deep-learning",
+  "llm-prompt-engineering",
+  "machine-learning",
+  "model-training",
+  "rag-system",
+  "recognition-systems",
+]);
 
 function readJsonFile(filePath) {
   const fileContent = fs.readFileSync(filePath, "utf-8").replace(/^\uFEFF/, "");
@@ -57,7 +70,7 @@ function getServiceUrls() {
           loc: `/services/${slug}`,
           lastmod: getFileLastmod(filePath),
           changefreq: "weekly",
-          priority: 0.8,
+          priority: PRIORITY_SERVICE_SLUGS.has(slug) ? 0.95 : 0.8,
         });
       });
     });
@@ -213,6 +226,12 @@ const config = {
   sitemapSize: 7000,
   changefreq: "weekly",
   priority: 0.7,
+  transform: async (config, currentPath) => ({
+    loc: currentPath,
+    changefreq: currentPath === "/" ? "daily" : config.changefreq,
+    priority: currentPath === "/" ? 1.0 : config.priority,
+    lastmod: new Date().toISOString(),
+  }),
 
   robotsTxtOptions: {
     policies: [

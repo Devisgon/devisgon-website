@@ -1,0 +1,184 @@
+{
+  "slug": "clothing",
+  "hero_section": {
+    "eyebrow": "Solutions de vente au détail de mode",
+    "title": "IA pour",
+    "highlight": "Magasins de vêtements",
+    "description": "Modernisez la vente au détail de vêtements avec un inventaire intelligent, un style personnalisé et des opérations automatisées en magasin.",
+    "primary_cta": {
+      "text": "Commencer",
+      "href": "/get-started"
+    },
+    "secondary_cta": {
+      "text": "Voir l'architecture",
+      "href": "#industry-architecture"
+    },
+    "background_image": "/industries/clothing.webp"
+  },
+  "friction_section": {
+    "title": "Le point de friction",
+    "subtitle": "Les équipes de mode gèrent les collections à évolution rapide, la disponibilité des tailles, les retours et les attentes des clients sur tous les canaux.",
+    "cards": [
+      {
+        "title": "Écarts de taille",
+        "description": "Les tailles populaires se vendent rapidement tandis que les variantes à rotation lente sont en stock.",
+        "icon_type": "FaTshirt"
+      },
+      {
+        "title": "Merchandising manuel",
+        "description": "Les équipes passent des heures à mettre à jour les collections de produits, les campagnes saisonnières et les vitrines des magasins.",
+        "icon_type": "FaTags"
+      },
+      {
+        "title": "Pression de retour",
+        "description": "Un volume de retour élevé dû à un mauvais dimensionnement ou à des attentes inadaptées des clients réduit la marge.",
+        "icon_type": "FaUndo"
+      }
+    ]
+  },
+  "architecture_section": {
+    "id": "industry-architecture",
+    "title": "Commerce de détail connecté pour chaque collection.",
+    "description": "Nous connectons les données des points de vente, du commerce électronique, des stocks et des clients en une seule couche d'opérations de mode intelligente.",
+    "bullets": [
+      "Intelligence d’inventaire et de taille",
+      "Recommandations de produits personnalisées",
+      "Flux de travail des retours automatisés"
+    ],
+    "cards": [
+      {
+        "title": "Tableau de bord des opérations de mode",
+        "description": "Suivez la vitesse des ventes, la disponibilité des tailles et les performances saisonnières à partir d’une seule vue.",
+        "icon_type": "MdDashboardCustomize",
+        "featured": true
+      },
+      {
+        "title": "Moteur de style intelligent",
+        "description": "Recommandez des tenues, des accessoires et des offres groupées en fonction des préférences des clients et de leur historique d'achats.",
+        "icon_type": "FaMagic"
+      },
+      {
+        "title": "Automatisation des retours",
+        "description": "Acheminez les échanges, les remboursements et les mises à jour de réapprovisionnement sans travail manuel de back office.",
+        "icon_type": "FaExchangeAlt"
+      }
+    ]
+  },
+  "benefits_section": {
+    "title": "Avantages clés",
+    "subtitle": "De meilleures décisions en matière de stocks, des achats plus fluides et des achats répétés plus élevés.",
+    "cards": [
+      {
+        "title": "Achats plus intelligents",
+        "description": "Utilisez les signaux de demande pour planifier plus précisément les couleurs, les tailles et la profondeur de la collection.",
+        "icon_type": "FaChartLine"
+      },
+      {
+        "title": "Conversion plus élevée",
+        "description": "Les recommandations personnalisées aident les acheteurs à trouver plus rapidement les produits correspondants.",
+        "icon_type": "FaShoppingBag"
+      },
+      {
+        "title": "Moins de stocks morts",
+        "description": "Identifiez tôt les entreprises lentes et déclenchez des promotions avant que les stocks ne vieillissent.",
+        "icon_type": "FaBoxes"
+      },
+      {
+        "title": "Synchronisation omnicanal",
+        "description": "Gardez la disponibilité en ligne et en magasin alignée en temps réel.",
+        "icon_type": "FaSync"
+      },
+      {
+        "title": "Des retours plus rapides",
+        "description": "Automatisez les approbations de retour et les tâches de réapprovisionnement pour les équipes du magasin.",
+        "icon_type": "FaUndo"
+      },
+      {
+        "title": "Fidélisation des clients",
+        "description": "Créez des offres ciblées basées sur les préférences de style et les cycles d'achat.",
+        "icon_type": "FaUserHeart"
+      }
+    ]
+  },
+  "carousel_section": {
+    "title": "Solutions numériques pour magasins de vêtements",
+    "subtitle": "Des outils pour les équipes textiles qui ont besoin d'un inventaire plus propre et de parcours clients plus riches.",
+    "cards": [
+      {
+        "title": "Boutique de commerce électronique de mode",
+        "description": "Une vitrine soignée avec des collections, des filtres, des guides de tailles et un paiement rapide."
+      },
+      {
+        "title": "Assistant de style IA",
+        "description": "Un agent qui aide les acheteurs à choisir des tenues en fonction de l'occasion, de la taille et du budget."
+      },
+      {
+        "title": "Automatisation des stocks",
+        "description": "Alertes automatisées en cas de stock faible, de surstock et de variantes à vente rapide."
+      },
+      {
+        "title": "Portail des retours",
+        "description": "Un flux convivial pour les échanges, les remboursements et le suivi de l’état des retours."
+      },
+      {
+        "title": "Intelligence de campagne",
+        "description": "Analysez les campagnes saisonnières et recommandez des promotions pour des groupes de produits spécifiques."
+      }
+    ]
+  },
+  "case_studies_section": {
+    "title": "Résultats du commerce de détail de mode",
+    "subtitle": "Comment l'automatisation améliore les opérations du secteur de l'habillement.",
+    "cards": [
+      {
+        "label": "Étude de cas 01",
+        "title": "Solde des stocks",
+        "description": "Réduction de 28 % des événements de rupture de stock pour les tailles les plus vendues grâce à des alertes basées sur la demande.",
+        "href": "/contact",
+        "cta_text": "Apprendre encore plus"
+      },
+      {
+        "label": "Étude de cas 02",
+        "title": "Conversion en ligne",
+        "description": "Amélioration de la découverte de produits en lançant des recommandations de tenues guidées par l'IA.",
+        "href": "/contact",
+        "cta_text": "Apprendre encore plus"
+      }
+    ]
+  },
+  "explore_section": {
+    "title": "Explorer d’autres secteurs",
+    "subtitle": "Découvrez comment nous appliquons l’intelligence aux entreprises de vente au détail et de services adjacentes.",
+    "cards": [
+      {
+        "title": "Supermarket",
+        "description": "Opérations d'IA pour les équipes d'épicerie.",
+        "href": "/industries/bakery",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Electronics",
+        "description": "Workflows d’IA pour les détaillants de technologies grand public.",
+        "href": "/industries/clothing",
+        "icon_type": "FaArrowRight"
+      },
+      {
+        "title": "Bakery",
+        "description": "Automatisation de la production et de la commande de produits frais.",
+        "href": "/industries/bakery",
+        "icon_type": "FaArrowRight"
+      }
+    ]
+  },
+  "conversation_section": {
+    "title": "Modernisez votre magasin de mode",
+    "subtitle": "Discutez avec notre équipe d'automatisation de la vente au détail de l'amélioration des opérations de vêtements.",
+    "full_name_label": "Nom et prénom",
+    "business_email_label": "Courriel professionnel",
+    "message_label": "Message",
+    "full_name_placeholder": "Ayesha Khan",
+    "business_email_placeholder": "bonjour@fashionstore.com",
+    "message_placeholder": "Parlez nous de votre magasin, de vos stocks ou de vos objectifs de vente en ligne...",
+    "button_text": "Envoyer une demande"
+  }
+}

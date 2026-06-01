@@ -2,12 +2,14 @@ import Link from "next/link";
 import {
   AppWindow,
   ArrowRight,
+  CodeXml,
   Bot,
   Briefcase,
   Check,
   CheckCircle,
   ClipboardList,
   Cloud,
+Paintbrush,
   Code,
   Eye,
   FlaskConical,
@@ -197,7 +199,7 @@ const Hero = ({ section }: { section: HeroSection }) => {
         <div className="relative rounded-2xl border border-[color:var(--primry)] bg-bg-secondary p-5 shadow-2xl shadow-purple-950/10">
           <div className="grid gap-3 sm:grid-cols-2">
             {visualSteps.map((step, index) => {
-              const Icon = [Phone, Target, Code, ShieldCheck, Rocket, Settings][index] ?? CheckCircle;
+              const Icon = [Phone, Target, Code,Paintbrush,CodeXml, ShieldCheck, Rocket, Settings, ][index] ?? CheckCircle;
               return (
                 <div
                   key={step}

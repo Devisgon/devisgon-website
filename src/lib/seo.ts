@@ -208,13 +208,18 @@ export const MAIN_SITE_METADATA = toMetadata({
 });
 
 export const HOME_PAGE_METADATA = toMetadata({
-  title: "AI Software Development | Devisgon",
+  title: "AI Software Development Company | Devisgon",
   description:
-    "Devisgon helps global businesses save 20-50% of time through AI automation, SaaS development, and scalable software solutions. Partner with Pakistan's leading next-gen tech agency.",
+    "Devisgon is an AI software development company building AI agents, automation, SaaS platforms, web apps, and cloud systems for startups and growing businesses.",
   keywords: withLocalKeywords([
+    "AI software development company",
+    "AI agent development company",
+    "AI and ML development services",
     "AI Automation",
     "Software House Pakistan",
     "SaaS Solutions",
+    "custom software development company",
+    "business automation software",
     "Devisgon",
   ]),
   canonicalUrl: "/",
@@ -424,6 +429,54 @@ export const getWebsiteStructuredData = () => ({
   keywords: withLocalKeywords(["Devisgon", "AI software solutions", "software development"]),
 });
 
+export const getOrganizationStructuredData = () => ({
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": `${SITE_URL}/#organization`,
+  name: SITE_NAME,
+  url: SITE_URL,
+  logo: `${SITE_URL}/logo/logo.webp`,
+  description:
+    "Devisgon builds AI agents, machine learning systems, SaaS platforms, automations, and custom software for startups and growing businesses.",
+  sameAs: [SITE_URL],
+});
+
+export const getHomePageStructuredData = () => ({
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebPage",
+      "@id": `${SITE_URL}/#webpage`,
+      url: SITE_URL,
+      name: HOME_PAGE_METADATA.title,
+      description: HOME_PAGE_METADATA.description,
+      isPartOf: {
+        "@id": `${SITE_URL}/#website`,
+      },
+      about: {
+        "@id": `${SITE_URL}/#organization`,
+      },
+      primaryImageOfPage: {
+        "@type": "ImageObject",
+        url: `${SITE_URL}${DEFAULT_OPEN_GRAPH_IMAGE.url}`,
+      },
+    },
+    {
+      "@type": "Service",
+      "@id": `${SITE_URL}/#ai-software-development`,
+      name: "AI Software Development Services",
+      serviceType: "AI software development, AI agent development, SaaS development, and business automation",
+      provider: {
+        "@id": `${SITE_URL}/#organization`,
+      },
+      areaServed: "Worldwide",
+      url: SITE_URL,
+      description:
+        "AI agents, machine learning systems, workflow automations, SaaS platforms, web apps, and cloud systems built by Devisgon.",
+    },
+  ],
+});
+
 export const getSiteNavigationStructuredData = () => ({
   "@context": "https://schema.org",
   "@type": "ItemList",
@@ -436,6 +489,96 @@ export const getSiteNavigationStructuredData = () => ({
     url: `${SITE_URL}${link.path}`,
   })),
 });
+
+type ServiceStructuredDataInput = {
+  slug: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  data: any;
+};
+
+type ServiceFaqQuestion = {
+  question?: unknown;
+  answer?: unknown;
+};
+
+export const getServicePageStructuredData = ({ slug, data }: ServiceStructuredDataInput) => {
+  const pageUrl = `${SITE_URL}/services/${slug}`;
+  const title = data?.seo_metadata?.title ?? data?.hero_section?.title ?? `${slug.replace(/[-_]/g, " ")} Services`;
+  const description =
+    data?.seo_metadata?.description ??
+    data?.hero_section?.description ??
+    "Custom AI, automation, SaaS, and software development services by Devisgon.";
+  const faqQuestions: ServiceFaqQuestion[] = Array.isArray(data?.faq_section?.questions)
+    ? data.faq_section.questions
+    : [];
+  const graph: unknown[] = [
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: "Home",
+          item: SITE_URL,
+        },
+        {
+          "@type": "ListItem",
+          position: 2,
+          name: "Services",
+          item: `${SITE_URL}/services`,
+        },
+        {
+          "@type": "ListItem",
+          position: 3,
+          name: title,
+          item: pageUrl,
+        },
+      ],
+    },
+    {
+      "@type": "Service",
+      "@id": `${pageUrl}#service`,
+      name: title,
+      description,
+      serviceType: title,
+      provider: {
+        "@id": `${SITE_URL}/#organization`,
+      },
+      areaServed: "Worldwide",
+      url: pageUrl,
+      offers: {
+        "@type": "Offer",
+        url: `${SITE_URL}/contact`,
+        availability: "https://schema.org/InStock",
+      },
+    },
+  ];
+
+  if (faqQuestions.length > 0) {
+    graph.push({
+      "@type": "FAQPage",
+      "@id": `${pageUrl}#faq`,
+      mainEntity: faqQuestions
+        .filter(
+          (item: ServiceFaqQuestion): item is { question: string; answer: string } =>
+            typeof item?.question === "string" && typeof item?.answer === "string",
+        )
+        .map((item) => ({
+          "@type": "Question",
+          name: item.question,
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: item.answer,
+          },
+        })),
+    });
+  }
+
+  return {
+    "@context": "https://schema.org",
+    "@graph": graph,
+  };
+};
 
 const SERVICE_SLUG_SEO: Record<string, SeoConfig> = {
   ai_powered_app: {

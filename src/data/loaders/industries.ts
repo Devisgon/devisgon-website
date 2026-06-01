@@ -14,20 +14,45 @@ const LANGUAGE_FOLDER_MAP: Record<string, string> = {
 };
 
 export const INDUSTRY_GROUPS: Record<string, string[]> = {
-  healthcare: ["dentist", "psychologist", "massage-therapist", "myotherapist", "chiropractor", "optometry"],
-  professional: ["education", "travel-services", "consulting", "legal-services", "fuel-station", "gym", "tutor"],
-  trades: ["electrician", "plumbing", "carpentry", "welding", "cleaning", "electronics", "roofing"],
-  entertainment: ["restaurants", "hotels", "events", "media-production", "clothing", "supermarket"],
-  agriculture: ["farms", "fields", "plants", "irrigation", "dairy-farm", "landscaping", "poultry-farm"],
-  food: ["bakery", "juice-bar", "catering", "fine-dining", "ice-cream-parlor"],
-  "real-estate": ["residential", "commercial", "property-management", "architecture-design", "insurance", "micro-finance"],
+  healthcare: [
+    "beauty-therapist",
+    "dentist",
+    "psychologist",
+    "massage-therapist",
+    "myotherapist",
+    "chiropractor",
+    "optometry",
+    "osteopath",
+    "physiotherapist",
+    "podiatrist",
+  ],
+  professional: [
+    "barber",
+    "education",
+    "travel-services",
+    "consulting",
+    "legal-services",
+    "fuel-station",
+    "gym",
+    "hairdresser",
+    "hvac",
+  ],
+  trades: ["electrician", "plumbing", "carpentry", "cleaning", "roofing", "clothing", "mechanic", "painter"],
+  agriculture: [
+    "agricultural-equipment",
+    "agricultural-shelters",
+    "fertilizer-suppliers",
+    "grain-storage",
+    "pesticide-companies",
+    "seed-companies",
+  ],
+  food: ["bakery", "juice-bar", "catering", "hotels"],
+  "real-estate": ["accountant", "residential", "commercial", "property-management", "architecture-design", "insurance"],
 };
 
 const INDUSTRY_SLUG_ALIASES: Record<string, string[]> = {
-  electronics: ["elctronics"],
-  landscaping: ["landscraping"],
-  "poultry-farm": ["poetry-farm", "poetry_farm"],
-  tutor: ["tutoer"],
+  "beauty-therapist": ["beautytherapist"],
+  gym: ["gym-fitness"],
 };
 
 export function toPublicIndustrySlug(slug: string): string {
