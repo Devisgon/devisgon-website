@@ -50,7 +50,7 @@
     ],
     "open_graph": {
       "title": "Industries We Serve | AI, Software & Automation Solutions | Devisgon",
-      "description": "Devisgon builds AI powered, cloud ready, and scalable software solutions for healthcare, agriculture, real estate, food, trades, entertainment, and professional services.",
+      "description": "Devisgon builds AI powered, cloud ready, and scalable software solutions for healthcare, agriculture, real estate, food, trades, and professional services.",
       "type": "website",
       "url": "https://www.devisgon.com/industries",
       "image": "https://www.devisgon.com/images/industries-og-image.jpg"
@@ -59,7 +59,7 @@
   "hero_section": {
     "eyebrow": "Industries We Serve",
     "title": "AI, Software, and Automation Solutions Built for Modern Industries",
-    "description": "Devisgon helps global businesses across healthcare, agriculture, real estate, food, trades, entertainment, and professional services build scalable digital products, AI powered workflows, cloud systems, mobile apps, SaaS platforms, and custom business software.",
+    "description": "Devisgon helps global businesses across healthcare, agriculture, real estate, food, trades, and professional services build scalable digital products, AI powered workflows, cloud systems, mobile apps, SaaS platforms, and custom business software.",
     "primary_cta": {
       "label": "Explore Industries",
       "href": "#industry-categories"
@@ -93,173 +93,80 @@
       {
         "title": "Agriculture",
         "slug": "agriculture",
-        "href": "/industries/agriculture",
-        "description": "AI and software solutions for farms, dairy operations, irrigation systems, poultry businesses, plant based businesses, landscaping teams, and field management workflows.",
+        "href": "/industries#agriculture",
+        "description": "AI and software solutions for pesticide companies, seed companies, fertilizer suppliers, agricultural shelters, equipment dealers, grain storage operators, greenhouses, and nurseries.",
         "seo_keywords": [
           "agriculture software development",
-          "farm management software",
           "agritech solutions",
-          "AI for agriculture",
-          "agriculture automation",
-          "cloud software for farms"
+          "pesticide company software",
+          "seed company software",
+          "farm supply automation"
         ],
         "sub_industries": [
           {
-            "title": "Dairy Farm",
-            "slug": "dairy-farm",
-            "href": "/industries/agriculture/dairy-farm",
-            "description": "Digital tools for dairy farm management, livestock tracking, milk production records, inventory workflows, and operational reporting.",
+            "title": "Agricultural Equipment",
+            "slug": "agricultural-equipment",
+            "href": "/industries/agricultural-equipment",
+            "description": "Digital systems for agricultural equipment dealers, rental teams, service workshops, parts inventory, maintenance schedules, and sales pipelines.",
             "seo_keywords": [
-              "dairy farm software",
-              "milk production tracking",
-              "livestock management software"
+              "agricultural equipment software",
+              "farm machinery management",
+              "equipment dealer CRM"
             ]
           },
           {
-            "title": "Farms",
-            "slug": "farms",
-            "href": "/industries/agriculture/farms",
-            "description": "Custom farm management software for crop planning, resource tracking, task automation, reporting, and daily farm operations.",
+            "title": "Agricultural Shelters",
+            "slug": "agricultural-shelters",
+            "href": "/industries/agricultural-shelters",
+            "description": "Software for agricultural shelter providers, greenhouse builders, livestock shed suppliers, storage structure teams, site surveys, quotes, and installation workflows.",
             "seo_keywords": [
-              "farm management software",
-              "crop planning software",
-              "farm workflow automation"
+              "agricultural shelter software",
+              "farm shelter management",
+              "greenhouse installation CRM"
             ]
           },
           {
-            "title": "Fields",
-            "slug": "fields",
-            "href": "/industries/agriculture/fields",
-            "description": "Field management systems for land usage, crop cycles, workforce planning, inspections, productivity tracking, and operational visibility.",
+            "title": "Fertilizer Suppliers",
+            "slug": "fertilizer-suppliers",
+            "href": "/industries/fertilizer-suppliers",
+            "description": "Business software for fertilizer suppliers, dealer networks, warehouse stock, advisory sales, seasonal demand planning, delivery routes, and customer follow ups.",
             "seo_keywords": [
-              "field management software",
-              "crop cycle tracking",
-              "land management software"
+              "fertilizer supplier software",
+              "fertilizer inventory management",
+              "agri input dealer CRM"
             ]
           },
           {
-            "title": "Irrigation",
-            "slug": "irrigation",
-            "href": "/industries/agriculture/irrigation",
-            "description": "Smart irrigation software for scheduling, monitoring, water usage tracking, alerts, agriculture automation, and operational control.",
+            "title": "Grain Storage",
+            "slug": "grain-storage",
+            "href": "/industries/grain-storage",
+            "description": "Digital tools for grain storage operators, warehouse managers, procurement teams, quality checks, stock movement, moisture monitoring, and dispatch reporting.",
             "seo_keywords": [
-              "irrigation management software",
-              "smart irrigation solutions",
-              "water usage tracking software"
+              "grain storage software",
+              "warehouse stock tracking",
+              "grain procurement system"
             ]
           },
           {
-            "title": "Landscaping",
-            "slug": "landscaping",
-            "href": "/industries/agriculture/landscaping",
-            "description": "Business software for landscaping companies, including job scheduling, client management, estimates, field teams, and service tracking.",
+            "title": "Pesticide Companies",
+            "slug": "pesticide-companies",
+            "href": "/industries/pesticide-companies",
+            "description": "Custom software for pesticide companies, product catalogs, dealer orders, field advisory teams, compliance records, campaign tracking, and distribution workflows.",
             "seo_keywords": [
-              "landscaping business software",
-              "landscaping job scheduling",
-              "landscaping CRM software"
+              "pesticide company software",
+              "agrochemical CRM",
+              "pesticide distribution system"
             ]
           },
           {
-            "title": "Plants",
-            "slug": "plants",
-            "href": "/industries/agriculture/plants",
-            "description": "Plant business solutions for nursery management, stock tracking, order handling, care schedules, inventory control, and customer workflows.",
+            "title": "Seed Companies",
+            "slug": "seed-companies",
+            "href": "/industries/seed-companies",
+            "description": "Seed company software for product catalogs, dealer networks, grower records, trials, inventory, order tracking, campaign management, and field team reporting.",
             "seo_keywords": [
-              "nursery management software",
-              "plant inventory software",
-              "plant business software"
-            ]
-          },
-          {
-            "title": "Poultry Farm",
-            "slug": "poultry-farm",
-            "href": "/industries/agriculture/poultry-farm",
-            "description": "Poultry farm software for flock management, feed tracking, health records, production monitoring, farm reporting, and process automation.",
-            "seo_keywords": [
-              "poultry farm software",
-              "flock management software",
-              "poultry production tracking"
-            ]
-          }
-        ]
-      },
-      {
-        "title": "Entertainment",
-        "slug": "entertainment",
-        "href": "/industries/entertainment",
-        "description": "Digital platforms, booking systems, customer management tools, automation workflows, and AI powered solutions for entertainment, events, media, hotels, and consumer facing businesses.",
-        "seo_keywords": [
-          "entertainment software development",
-          "event management software",
-          "hotel software solutions",
-          "media production automation",
-          "AI solutions for entertainment"
-        ],
-        "sub_industries": [
-          {
-            "title": "Clothing",
-            "slug": "clothing",
-            "href": "/industries/entertainment/clothing",
-            "description": "E commerce, inventory, customer management, and automation solutions for clothing brands, boutiques, fashion stores, and apparel businesses.",
-            "seo_keywords": [
-              "clothing business software",
-              "fashion ecommerce development",
-              "apparel inventory software"
-            ]
-          },
-          {
-            "title": "Events",
-            "slug": "events",
-            "href": "/industries/entertainment/events",
-            "description": "Event management software for bookings, ticketing, guest lists, schedules, vendor coordination, customer communication, and real time updates.",
-            "seo_keywords": [
-              "event management software",
-              "event booking platform",
-              "ticketing software development"
-            ]
-          },
-          {
-            "title": "Hotels",
-            "slug": "hotels",
-            "href": "/industries/entertainment/hotels",
-            "description": "Hotel software solutions for reservations, guest management, room operations, service requests, hospitality automation, and reporting.",
-            "seo_keywords": [
-              "hotel management software",
-              "hotel reservation system",
-              "hospitality software development"
-            ]
-          },
-          {
-            "title": "Media Production",
-            "slug": "media-production",
-            "href": "/industries/entertainment/media-production",
-            "description": "Workflow platforms for media teams, project tracking, content production, approvals, scheduling, file management, and client collaboration.",
-            "seo_keywords": [
-              "media production software",
-              "content workflow software",
-              "creative project management software"
-            ]
-          },
-          {
-            "title": "Restaurants",
-            "slug": "restaurants",
-            "href": "/industries/entertainment/restaurants",
-            "description": "Restaurant technology for ordering systems, reservations, digital menus, delivery workflows, loyalty programs, and operations management.",
-            "seo_keywords": [
-              "restaurant software development",
-              "restaurant ordering system",
-              "restaurant automation software"
-            ]
-          },
-          {
-            "title": "Supermarket",
-            "slug": "supermarket",
-            "href": "/industries/entertainment/supermarket",
-            "description": "Retail software for supermarket inventory, billing workflows, supplier management, customer loyalty, POS integration, and operational reporting.",
-            "seo_keywords": [
-              "supermarket software",
-              "retail inventory software",
-              "grocery store management software"
+              "seed company software",
+              "seed distribution CRM",
+              "seed inventory management"
             ]
           }
         ]
@@ -267,7 +174,7 @@
       {
         "title": "Food",
         "slug": "food",
-        "href": "/industries/food",
+        "href": "/industries#food",
         "description": "Custom software, ordering platforms, reservation systems, inventory workflows, customer loyalty tools, delivery systems, and automation solutions for food service businesses.",
         "seo_keywords": [
           "food business software development",
@@ -280,7 +187,7 @@
           {
             "title": "Bakery",
             "slug": "bakery",
-            "href": "/industries/food/bakery",
+            "href": "/industries/bakery",
             "description": "Bakery software for order management, production planning, inventory tracking, delivery scheduling, custom orders, and customer requests.",
             "seo_keywords": [
               "bakery management software",
@@ -289,9 +196,9 @@
             ]
           },
           {
-            "title": "Cafes & Bars",
-            "slug": "cafes-bars",
-            "href": "/industries/food/cafes-bars",
+            "title": "Cafes & Restaurants",
+            "slug": "juice-bar",
+            "href": "/industries/juice-bar",
             "description": "Digital solutions for cafes and bars, including POS workflows, reservations, loyalty systems, digital menus, and customer engagement.",
             "seo_keywords": [
               "cafe management software",
@@ -302,7 +209,7 @@
           {
             "title": "Catering",
             "slug": "catering",
-            "href": "/industries/food/catering",
+            "href": "/industries/catering",
             "description": "Catering management platforms for event orders, menu planning, staff scheduling, delivery tracking, kitchen workflows, and client communication.",
             "seo_keywords": [
               "catering management software",
@@ -311,25 +218,14 @@
             ]
           },
           {
-            "title": "Fine Dining",
-            "slug": "fine-dining",
-            "href": "/industries/food/fine-dining",
-            "description": "Premium restaurant software for reservations, guest profiles, table management, service workflows, menu operations, and luxury dining experiences.",
+            "title": "Hotels",
+            "slug": "hotels",
+            "href": "/industries/hotels",
+            "description": "Hotel software solutions for reservations, guest management, room operations, service requests, hospitality automation, and reporting.",
             "seo_keywords": [
-              "fine dining restaurant software",
-              "restaurant reservation system",
-              "guest management software"
-            ]
-          },
-          {
-            "title": "Frozen Desserts",
-            "slug": "frozen-desserts",
-            "href": "/industries/food/frozen-desserts",
-            "description": "Software for dessert brands, including online ordering, inventory control, franchise workflows, delivery management, and customer loyalty.",
-            "seo_keywords": [
-              "dessert shop software",
-              "frozen dessert ordering system",
-              "ice cream shop software"
+              "hotel management software",
+              "hotel reservation system",
+              "hospitality software development"
             ]
           }
         ]
@@ -337,7 +233,7 @@
       {
         "title": "Healthcare",
         "slug": "healthcare",
-        "href": "/industries/healthcare",
+        "href": "/industries#healthcare",
         "description": "Secure healthcare software, patient management systems, appointment platforms, AI assistants, clinic dashboards, billing workflows, and automation for healthcare providers.",
         "seo_keywords": [
           "healthcare software development",
@@ -348,9 +244,16 @@
         ],
         "sub_industries": [
           {
+            "title": "Beauty Therapist",
+            "slug": "beauty-therapist",
+            "href": "/industries/beauty-therapist",
+            "description": "Grow a modern beauty therapy business with AI-powered appointment booking, client follow-ups, treatment reminders, review automation, and real-time visibility across beauty service operations.",
+            "seo_keywords": []
+          },
+          {
             "title": "Chiropractor",
             "slug": "chiropractor",
-            "href": "/industries/healthcare/chiropractor",
+            "href": "/industries/chiropractor",
             "description": "Chiropractic software for appointment scheduling, patient records, treatment plans, follow ups, billing workflows, and clinic operations.",
             "seo_keywords": [
               "chiropractor software",
@@ -361,7 +264,7 @@
           {
             "title": "Dentist",
             "slug": "dentist",
-            "href": "/industries/healthcare/dentist",
+            "href": "/industries/dentist",
             "description": "Dental software solutions for appointments, patient history, treatment plans, reminders, billing, dental records, and clinic management.",
             "seo_keywords": [
               "dental software development",
@@ -372,7 +275,7 @@
           {
             "title": "Massage Therapist",
             "slug": "massage-therapist",
-            "href": "/industries/healthcare/massage-therapist",
+            "href": "/industries/massage-therapist",
             "description": "Booking and client management systems for massage therapists, including schedules, payments, reminders, service history, and client retention workflows.",
             "seo_keywords": [
               "massage therapist software",
@@ -383,7 +286,7 @@
           {
             "title": "Myotherapist",
             "slug": "myotherapist",
-            "href": "/industries/healthcare/myotherapist",
+            "href": "/industries/myotherapist",
             "description": "Practice management software for myotherapists, including patient intake, treatment tracking, appointments, follow ups, and admin automation.",
             "seo_keywords": [
               "myotherapy software",
@@ -394,7 +297,7 @@
           {
             "title": "Optometry",
             "slug": "optometry",
-            "href": "/industries/healthcare/optometry",
+            "href": "/industries/optometry",
             "description": "Optometry software for patient records, appointment scheduling, prescription tracking, inventory, billing, optical products, and clinic workflows.",
             "seo_keywords": [
               "optometry software",
@@ -403,9 +306,30 @@
             ]
           },
           {
+            "title": "Osteopath",
+            "slug": "osteopath",
+            "href": "/industries/osteopath",
+            "description": "Grow a modern osteopathy clinic with AI-powered patient intake, appointment automation, treatment follow-ups, and real-time visibility across musculoskeletal care operations.",
+            "seo_keywords": []
+          },
+          {
+            "title": "Physiotherapist",
+            "slug": "physiotherapist",
+            "href": "/industries/physiotherapist",
+            "description": "Grow a modern physiotherapy clinic with AI-powered patient intake, appointment automation, rehabilitation follow-ups, and real-time visibility across therapy operations.",
+            "seo_keywords": []
+          },
+          {
+            "title": "Podiatrist",
+            "slug": "podiatrist",
+            "href": "/industries/podiatrist",
+            "description": "Grow a modern podiatry practice with AI-powered patient intake, appointment automation, follow-up workflows, and real-time visibility across foot and ankle care operations.",
+            "seo_keywords": []
+          },
+          {
             "title": "Psychologist",
             "slug": "psychologist",
-            "href": "/industries/healthcare/psychologist",
+            "href": "/industries/psychologist",
             "description": "Secure practice software for psychologists, including appointment booking, client notes, session tracking, reminders, intake forms, and admin workflows.",
             "seo_keywords": [
               "psychologist practice software",
@@ -418,7 +342,7 @@
       {
         "title": "Professional",
         "slug": "professional",
-        "href": "/industries/professional",
+        "href": "/industries#professional",
         "description": "Business software, AI agents, client portals, booking systems, CRM workflows, dashboards, reporting tools, and automation for professional service providers.",
         "seo_keywords": [
           "professional services software",
@@ -429,9 +353,16 @@
         ],
         "sub_industries": [
           {
+            "title": "Barber",
+            "slug": "barber",
+            "href": "/industries/barber",
+            "description": "Grow a modern barbershop with AI-powered appointment booking, client reminders, rebooking automation, review requests, and real-time visibility across grooming operations.",
+            "seo_keywords": []
+          },
+          {
             "title": "Consulting",
             "slug": "consulting",
-            "href": "/industries/professional/consulting",
+            "href": "/industries/consulting",
             "description": "Consulting software for client portals, project tracking, proposal workflows, reporting dashboards, document management, and business automation.",
             "seo_keywords": [
               "consulting software",
@@ -442,7 +373,7 @@
           {
             "title": "Education",
             "slug": "education",
-            "href": "/industries/professional/education",
+            "href": "/industries/education",
             "description": "Education platforms for student portals, course management, LMS systems, attendance, progress tracking, and AI learning support.",
             "seo_keywords": [
               "education software development",
@@ -453,7 +384,7 @@
           {
             "title": "Fuel Station",
             "slug": "fuel-station",
-            "href": "/industries/professional/fuel-station",
+            "href": "/industries/fuel-station",
             "description": "Fuel station software for sales tracking, inventory, staff workflows, reporting, supplier management, daily operations, and business visibility.",
             "seo_keywords": [
               "fuel station software",
@@ -463,8 +394,8 @@
           },
           {
             "title": "Gym & Fitness",
-            "slug": "gym-fitness",
-            "href": "/industries/professional/gym-fitness",
+            "slug": "gym",
+            "href": "/industries/gym",
             "description": "Fitness business software for memberships, class bookings, trainer schedules, payments, progress tracking, and client engagement.",
             "seo_keywords": [
               "gym management software",
@@ -473,9 +404,23 @@
             ]
           },
           {
+            "title": "Hairdresser",
+            "slug": "hairdresser",
+            "href": "/industries/hairdresser",
+            "description": "Grow a modern ladies hair salon with AI-powered appointment booking, client follow-ups, service reminders, review automation, and real-time visibility across salon operations.",
+            "seo_keywords": []
+          },
+          {
+            "title": "HVAC",
+            "slug": "hvac",
+            "href": "/industries/hvac",
+            "description": "Grow a modern HVAC business with AI-powered service booking, emergency call handling, maintenance reminders, quote follow-ups, review automation, and real-time visibility across heating and cooling operations.",
+            "seo_keywords": []
+          },
+          {
             "title": "Legal Services",
             "slug": "legal-services",
-            "href": "/industries/professional/legal-services",
+            "href": "/industries/legal-services",
             "description": "Legal software for case management, document workflows, client portals, scheduling, billing, secure communication, and firm operations.",
             "seo_keywords": [
               "legal case management software",
@@ -486,23 +431,12 @@
           {
             "title": "Travel Services",
             "slug": "travel-services",
-            "href": "/industries/professional/travel-services",
+            "href": "/industries/travel-services",
             "description": "Travel business platforms for bookings, itineraries, customer management, supplier coordination, payments, documentation, and automation workflows.",
             "seo_keywords": [
               "travel agency software",
               "travel booking platform",
               "itinerary management software"
-            ]
-          },
-          {
-            "title": "Tutor",
-            "slug": "tutor",
-            "href": "/industries/professional/tutor",
-            "description": "Tutor management software for lesson scheduling, student progress, payments, online classes, learning resources, and parent communication.",
-            "seo_keywords": [
-              "tutor management software",
-              "online tutoring platform",
-              "lesson scheduling software"
             ]
           }
         ]
@@ -510,7 +444,7 @@
       {
         "title": "Real Estate",
         "slug": "real-estate",
-        "href": "/industries/real-estate",
+        "href": "/industries#real-estate",
         "description": "Property platforms, real estate CRMs, listing systems, booking workflows, client portals, document automation, and AI powered real estate solutions.",
         "seo_keywords": [
           "real estate software development",
@@ -521,9 +455,16 @@
         ],
         "sub_industries": [
           {
+            "title": "Accountant",
+            "slug": "accountant",
+            "href": "/industries/accountant",
+            "description": "Grow a modern accounting firm with AI-powered client intake, bookkeeping workflow automation, tax season reminders, document collection, and real-time visibility across financial operations.",
+            "seo_keywords": []
+          },
+          {
             "title": "Architecture & Design",
             "slug": "architecture-design",
-            "href": "/industries/real-estate/architecture-design",
+            "href": "/industries/architecture-design",
             "description": "Software for architecture and design firms, including project management, client portals, document sharing, approvals, collaboration, and reporting.",
             "seo_keywords": [
               "architecture project management software",
@@ -534,7 +475,7 @@
           {
             "title": "Commercial",
             "slug": "commercial",
-            "href": "/industries/real-estate/commercial",
+            "href": "/industries/commercial",
             "description": "Commercial real estate platforms for listings, inquiries, tenant workflows, property data, documents, deal tracking, and portfolio visibility.",
             "seo_keywords": [
               "commercial real estate software",
@@ -545,7 +486,7 @@
           {
             "title": "Insurance",
             "slug": "insurance",
-            "href": "/industries/real-estate/insurance",
+            "href": "/industries/insurance",
             "description": "Insurance software for client management, policy workflows, claims tracking, document handling, renewals, reporting, and automation.",
             "seo_keywords": [
               "insurance software development",
@@ -554,20 +495,9 @@
             ]
           },
           {
-            "title": "Micro Finance",
-            "slug": "micro-finance",
-            "href": "/industries/real-estate/micro-finance",
-            "description": "Microfinance platforms for customer records, loan workflows, approvals, repayments, reporting, secure data, and financial operations.",
-            "seo_keywords": [
-              "microfinance software",
-              "loan management software",
-              "microfinance platform development"
-            ]
-          },
-          {
             "title": "Property Management",
             "slug": "property-management",
-            "href": "/industries/real-estate/property-management",
+            "href": "/industries/property-management",
             "description": "Property management software for tenants, leases, maintenance requests, payments, inspections, landlord workflows, and portfolio reporting.",
             "seo_keywords": [
               "property management software",
@@ -578,7 +508,7 @@
           {
             "title": "Residential",
             "slug": "residential",
-            "href": "/industries/real-estate/residential",
+            "href": "/industries/residential",
             "description": "Residential real estate solutions for property listings, buyer inquiries, appointments, agent workflows, lead management, and client communication.",
             "seo_keywords": [
               "residential real estate software",
@@ -591,7 +521,7 @@
       {
         "title": "Trades",
         "slug": "trades",
-        "href": "/industries/trades",
+        "href": "/industries#trades",
         "description": "Field service software, job scheduling systems, customer communication tools, invoicing workflows, mobile apps, and AI automation for trade businesses.",
         "seo_keywords": [
           "trades software development",
@@ -604,7 +534,7 @@
           {
             "title": "Carpentry",
             "slug": "carpentry",
-            "href": "/industries/trades/carpentry",
+            "href": "/industries/carpentry",
             "description": "Carpentry business software for job scheduling, estimates, material tracking, customer communication, invoicing, and field updates.",
             "seo_keywords": [
               "carpentry business software",
@@ -615,7 +545,7 @@
           {
             "title": "Cleaning",
             "slug": "cleaning",
-            "href": "/industries/trades/cleaning",
+            "href": "/industries/cleaning",
             "description": "Cleaning service software for bookings, staff scheduling, recurring jobs, customer management, payments, field updates, and service tracking.",
             "seo_keywords": [
               "cleaning service software",
@@ -626,7 +556,7 @@
           {
             "title": "Electrician",
             "slug": "electrician",
-            "href": "/industries/trades/electrician",
+            "href": "/industries/electrician",
             "description": "Electrical contractor software for service bookings, job dispatch, quotes, field reporting, invoices, maintenance requests, and customer follow ups.",
             "seo_keywords": [
               "electrician software",
@@ -635,20 +565,23 @@
             ]
           },
           {
-            "title": "Electronics",
-            "slug": "electronics",
-            "href": "/industries/trades/electronics",
-            "description": "Electronics service software for repair tracking, inventory, customer tickets, warranties, job updates, service history, and workflow automation.",
-            "seo_keywords": [
-              "electronics repair software",
-              "repair shop management software",
-              "electronics service tracking"
-            ]
+            "title": "Mechanic",
+            "slug": "mechanic",
+            "href": "/industries/mechanic",
+            "description": "Grow a modern auto repair shop with AI-powered appointment booking, service reminders, estimate follow-ups, review automation, and real-time visibility across garage operations.",
+            "seo_keywords": []
+          },
+          {
+            "title": "Painter",
+            "slug": "painter",
+            "href": "/industries/painter",
+            "description": "Grow a modern painting business with AI-powered quote requests, job booking automation, customer follow-ups, review generation, and real-time visibility across painting and decorating operations.",
+            "seo_keywords": []
           },
           {
             "title": "Plumbing",
             "slug": "plumbing",
-            "href": "/industries/trades/plumbing",
+            "href": "/industries/plumbing",
             "description": "Plumbing business software for emergency bookings, job scheduling, estimates, technician dispatch, invoicing, customer updates, and service records.",
             "seo_keywords": [
               "plumbing software",
@@ -659,7 +592,7 @@
           {
             "title": "Roofing",
             "slug": "roofing",
-            "href": "/industries/trades/roofing",
+            "href": "/industries/roofing",
             "description": "Roofing software for inspections, quotes, project scheduling, material tracking, field teams, customer communication, and reporting.",
             "seo_keywords": [
               "roofing software",
@@ -668,14 +601,14 @@
             ]
           },
           {
-            "title": "Welding",
-            "slug": "welding",
-            "href": "/industries/trades/welding",
-            "description": "Welding business software for job management, project tracking, estimates, safety records, material usage, reporting, and client updates.",
+            "title": "Textiles",
+            "slug": "clothing",
+            "href": "/industries/clothing",
+            "description": "E commerce, inventory, customer management, and automation solutions for clothing brands, boutiques, fashion stores, and apparel businesses.",
             "seo_keywords": [
-              "welding business software",
-              "welding job management",
-              "welding project tracking"
+              "clothing business software",
+              "fashion ecommerce development",
+              "apparel inventory software"
             ]
           }
         ]

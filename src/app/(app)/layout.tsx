@@ -7,6 +7,7 @@ import {
   MAIN_SITE_METADATA,
   SITE_NAME,
   SITE_URL,
+  getOrganizationStructuredData,
   getSiteNavigationStructuredData,
   getWebsiteStructuredData,
 } from "@/lib/seo";
@@ -84,6 +85,7 @@ export const metadata: Metadata = {
 };
 
 const websiteStructuredData = getWebsiteStructuredData();
+const organizationStructuredData = getOrganizationStructuredData();
 const navigationStructuredData = getSiteNavigationStructuredData();
 
 export default function RootLayout({
@@ -123,6 +125,11 @@ try {
           id="website-structured-data"
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteStructuredData) }}
+        />
+        <script
+          id="organization-structured-data"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationStructuredData) }}
         />
         <script
           id="navigation-structured-data"

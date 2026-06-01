@@ -42,7 +42,7 @@
       },
       "visual": {
         "type": "process_flow_illustration",
-        "text": "Discovery → Strategy → Development → Testing → Launch → Maintenance",
+        "text": "Discovery → Research → Strategy → UI UX Design → Development → Testing → Deployment → Maintenance",
         "style": "Modern workflow cards with connected lines, icons, soft gradients, and a premium technical look."
       }
     },
@@ -136,6 +136,20 @@
         },
         {
           "step": "05",
+          "title": "UI/UX Designing",
+          "description": "We transform ideas into high-fidelity visuals, crafting intuitive user journeys, premium interfaces, and interactive prototypes before coding begins.",
+          "keyPoints": [
+            "Wireframing & user flows",
+            "High-fidelity UI design",
+            "Interactive prototyping",
+            "AI agent implementation",
+            "Design system creation",
+            "Responsive layout planning"
+          ],
+          "icon": "MdOutlineDesignServices "
+        },
+        {
+          "step": "06",
           "title": "Development & Implementation",
           "description": "Our team starts building the product with clean architecture, scalable code, secure implementation, and user focused design.",
           "keyPoints": [
@@ -150,7 +164,7 @@
           "icon": "code"
         },
         {
-          "step": "06",
+          "step": "07",
           "title": "Testing",
           "description": "Before launch, we test the product carefully to make sure it works correctly, securely, and smoothly.",
           "keyPoints": [
@@ -164,23 +178,10 @@
           ],
           "icon": "shield-check"
         },
-        {
-          "step": "07",
-          "title": "Beta Testing",
-          "description": "We test the product with selected users or stakeholders in a real world environment before final launch.",
-          "keyPoints": [
-            "Real user feedback",
-            "Workflow validation",
-            "Usability review",
-            "Bug tracking",
-            "Performance review",
-            "Final improvements"
-          ],
-          "icon": "users"
-        },
-        {
+
+          {
           "step": "08",
-          "title": "Launch & Deployment",
+          "title": "Deployment",
           "description": "After approval, we deploy the product to production and prepare it for real users and business operations.",
           "keyPoints": [
             "Production deployment",
@@ -194,6 +195,21 @@
         },
         {
           "step": "09",
+          "title": "Beta Testing",
+          "description": "We test the product with selected users or stakeholders in a real world environment before final launch.",
+          "keyPoints": [
+            "Real user feedback",
+            "Workflow validation",
+            "Usability review",
+            "Bug tracking",
+            "Performance review",
+            "Final improvements"
+          ],
+          "icon": "users"
+        },
+      
+        {
+          "step": "10",
           "title": "Maintenance & Continuous Improvement",
           "description": "After launch, we provide ongoing support, updates, optimization, and improvements to keep your product stable and scalable.",
           "keyPoints": [

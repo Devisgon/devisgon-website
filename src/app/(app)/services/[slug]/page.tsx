@@ -12,7 +12,7 @@ import Progress from "@/components/sub_services_pages/process_section";
 import Technalogies from "@/components/sub_services_pages/technalogies";
 import WhatYouGetSection from "@/components/sub_services_pages/what_we_do";
 import { getCachedLanguage } from "@/lib/language";
-import { getJsonSeoMetadata, getServiceSlugMetadata } from "@/lib/seo";
+import { getJsonSeoMetadata, getServicePageStructuredData, getServiceSlugMetadata } from "@/lib/seo";
 import { getServiceDetailData } from "@/lib/service-detail";
 import { toCanonicalSlug } from "@/lib/slugs";
 
@@ -71,10 +71,16 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
 
   const { data } = result;
   const isRTL = activeLang === "ur" || activeLang === "ar";
+  const serviceStructuredData = getServicePageStructuredData({ slug: result.slug, data });
 
   return (
     <>
       <Header />
+      <script
+        id="service-page-structured-data"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceStructuredData) }}
+      />
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
         <Hero data={data.hero_section} />
         <Introduction data={data.introduction_section} />

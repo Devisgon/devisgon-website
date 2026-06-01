@@ -280,67 +280,38 @@
             "title": "Agricultura",
             "links": [
               {
-                "name": "Granja lechera",
-                "href": "/industries/dairy-farm"
+                "name": "Agricultural Equipment",
+                "href": "/industries/agricultural-equipment"
               },
               {
-                "name": "Granjas",
-                "href": "/industries/farms"
+                "name": "Agricultural Shelters",
+                "href": "/industries/agricultural-shelters"
               },
               {
-                "name": "Campos",
-                "href": "/industries/fields"
+                "name": "Fertilizer Suppliers",
+                "href": "/industries/fertilizer-suppliers"
               },
               {
-                "name": "Riego",
-                "href": "/industries/irrigation"
+                "name": "Grain Storage",
+                "href": "/industries/grain-storage"
               },
               {
-                "name": "Paisajismo",
-                "href": "/industries/landscaping"
+                "name": "Pesticide Companies",
+                "href": "/industries/pesticide-companies"
               },
               {
-                "name": "Plantas",
-                "href": "/industries/plants"
-              },
-              {
-                "name": "Granja av?cola",
-                "href": "/industries/poultry-farm"
-              }
-            ]
-          },
-          {
-            "title": "Entretenimiento",
-            "links": [
-              {
-                "name": "Ropa",
-                "href": "/industries/clothing"
-              },
-              {
-                "name": "Eventos",
-                "href": "/industries/events"
-              },
-              {
-                "name": "Hoteles",
-                "href": "/industries/hotels"
-              },
-              {
-                "name": "Producción de medios",
-                "href": "/industries/media-production"
-              },
-              {
-                "name": "Restaurantes",
-                "href": "/industries/restaurants"
-              },
-              {
-                "name": "Supermercado",
-                "href": "/industries/supermarket"
+                "name": "Seed Companies",
+                "href": "/industries/seed-companies"
               }
             ]
           },
           {
             "title": "Alimentos",
             "links": [
+              {
+                "name": "Panader?a",
+                "href": "/industries/bakery"
+              },
               {
                 "name": "Cafés y bares",
                 "href": "/industries/juice-bar"
@@ -350,22 +321,18 @@
                 "href": "/industries/catering"
               },
               {
-                "name": "Cena elegante",
-                "href": "/industries/fine-dining"
-              },
-              {
-                "name": "Panader?a",
-                "href": "/industries/bakery"
-              },
-              {
-                "name": "Postres Congelados",
-                "href": "/industries/ice-cream-parlor"
+                "name": "Hoteles",
+                "href": "/industries/hotels"
               }
             ]
           },
           {
             "title": "Cuidado de la salud",
             "links": [
+              {
+                "name": "Beauty Therapist",
+                "href": "/industries/beauty-therapist"
+              },
               {
                 "name": "Quiropráctico",
                 "href": "/industries/chiropractor"
@@ -387,6 +354,18 @@
                 "href": "/industries/optometry"
               },
               {
+                "name": "Osteopath",
+                "href": "/industries/osteopath"
+              },
+              {
+                "name": "Physiotherapist",
+                "href": "/industries/physiotherapist"
+              },
+              {
+                "name": "Podiatrist",
+                "href": "/industries/podiatrist"
+              },
+              {
                 "name": "Psicólogo",
                 "href": "/industries/psychologist"
               }
@@ -395,6 +374,10 @@
           {
             "title": "Profesional",
             "links": [
+              {
+                "name": "Barber",
+                "href": "/industries/barber"
+              },
               {
                 "name": "Consultante",
                 "href": "/industries/consulting"
@@ -412,22 +395,30 @@
                 "href": "/industries/gym"
               },
               {
+                "name": "Hairdresser",
+                "href": "/industries/hairdresser"
+              },
+              {
+                "name": "HVAC",
+                "href": "/industries/hvac"
+              },
+              {
                 "name": "Servicios Legales",
                 "href": "/industries/legal-services"
               },
               {
                 "name": "Servicios de viaje",
                 "href": "/industries/travel-services"
-              },
-              {
-                "name": "Tutor",
-                "href": "/industries/tutor"
               }
             ]
           },
           {
             "title": "Bienes Ra?ces",
             "links": [
+              {
+                "name": "Accountant",
+                "href": "/industries/accountant"
+              },
               {
                 "name": "Arquitectura y Diseño",
                 "href": "/industries/architecture-design"
@@ -439,10 +430,6 @@
               {
                 "name": "Seguros",
                 "href": "/industries/insurance"
-              },
-              {
-                "name": "Microfinanzas",
-                "href": "/industries/micro-finance"
               },
               {
                 "name": "Gestión de propiedades",
@@ -470,8 +457,12 @@
                 "href": "/industries/electrician"
               },
               {
-                "name": "Electr?nica",
-                "href": "/industries/electronics"
+                "name": "Mechanic",
+                "href": "/industries/mechanic"
+              },
+              {
+                "name": "Painter",
+                "href": "/industries/painter"
               },
               {
                 "name": "Plomería",
@@ -482,8 +473,8 @@
                 "href": "/industries/roofing"
               },
               {
-                "name": "Soldadura",
-                "href": "/industries/welding"
+                "name": "Ropa",
+                "href": "/industries/clothing"
               }
             ]
           }
