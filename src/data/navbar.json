@@ -306,7 +306,29 @@
             ]
           },
           {
-            "title": "Food",
+            "title": "Beauty & Wellness",
+            "links": [
+               {
+                "name": "Barber",
+                "href": "/industries/barber"
+              },
+             {
+                "name": "Beauty Therapist",
+                "href": "/industries/beauty-therapist"
+              },
+              {
+                "name": "Gym & Fitness",
+                "href": "/industries/gym"
+              },
+              
+              {
+                "name": "Hairdresser",
+                "href": "/industries/hairdresser"
+              }
+            ]
+          },
+          {
+            "title": "Food & Hospitality",
             "links": [
               {
                 "name": "Bakery",
@@ -323,16 +345,17 @@
               {
                 "name": "Hotels",
                 "href": "/industries/hotels"
+              },
+              {
+                "name": "Travel Services",
+                "href": "/industries/travel-services"
               }
             ]
           },
           {
             "title": "Healthcare",
             "links": [
-              {
-                "name": "Beauty Therapist",
-                "href": "/industries/beauty-therapist"
-              },
+             
               {
                 "name": "Chiropractor",
                 "href": "/industries/chiropractor"
@@ -374,10 +397,11 @@
           {
             "title": "Professional",
             "links": [
-              {
-                "name": "Barber",
-                "href": "/industries/barber"
+                     {
+                "name": "Accountant",
+                "href": "/industries/accountant"
               },
+           
               {
                 "name": "Consulting",
                 "href": "/industries/consulting"
@@ -390,35 +414,17 @@
                 "name": "Fuel Station",
                 "href": "/industries/fuel-station"
               },
-              {
-                "name": "Gym & Fitness",
-                "href": "/industries/gym"
-              },
-              {
-                "name": "Hairdresser",
-                "href": "/industries/hairdresser"
-              },
-              {
-                "name": "HVAC",
-                "href": "/industries/hvac"
-              },
+              
               {
                 "name": "Legal Services",
                 "href": "/industries/legal-services"
-              },
-              {
-                "name": "Travel Services",
-                "href": "/industries/travel-services"
               }
             ]
           },
           {
             "title": "Real Estate",
             "links": [
-              {
-                "name": "Accountant",
-                "href": "/industries/accountant"
-              },
+       
               {
                 "name": "Architecture & Design",
                 "href": "/industries/architecture-design"
@@ -444,6 +450,7 @@
           {
             "title": "Trades",
             "links": [
+                
               {
                 "name": "Carpentry",
                 "href": "/industries/carpentry"
@@ -455,6 +462,11 @@
               {
                 "name": "Electrician",
                 "href": "/industries/electrician"
+              },
+              
+              {
+                "name": "HVAC",
+                "href": "/industries/hvac"
               },
               {
                 "name": "Mechanic",
@@ -539,8 +551,20 @@
                       "title": "Automation",
                       "links": [
                         {
+                          "name": "Google Apps Script",
+                          "href": "/technologies/google-apps-script"
+                        },
+                        {
+                          "name": "HubSpot",
+                          "href": "/technologies/hubspot"
+                        },
+                        {
                           "name": "Make",
                           "href": "/technologies/make"
+                        },
+                        {
+                          "name": "Microsoft Power Automate",
+                          "href": "/technologies/microsoft-power-automate"
                         },
                         {
                           "name": "n8n",
@@ -556,8 +580,16 @@
                       "title": "CRMs",
                       "links": [
                         {
+                          "name": "GoHighLevel",
+                          "href": "/technologies/gohighlevel"
+                        },
+                        {
                           "name": "Jira CRM",
                           "href": "/technologies/jira-crm"
+                        },
+                        {
+                          "name": "Microsoft Dynamics 365 CRM",
+                          "href": "/technologies/microsoft-dynamics-365-crm"
                         },
                         {
                           "name": "Odoo",

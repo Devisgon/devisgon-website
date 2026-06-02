@@ -11,6 +11,7 @@ import { useRouter } from "next/navigation";
 import { motion, Variants } from "framer-motion";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
+import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import {
   getGetStartedPageDataByLang,
   normalizeLanguage,
@@ -598,6 +599,11 @@ export default function GetStartedClient() {
           </motion.div>
         </section>
       </div>
+      <InternalLinks
+        title="Explore Before Applying"
+        description="Review Devisgon services, industries, technology work, process, and blog resources while preparing your application."
+        links={CORE_INTERNAL_LINKS}
+      />
       <Footer />
     </>
   );

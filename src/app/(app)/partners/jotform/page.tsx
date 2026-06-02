@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import JotformPage from "@/components/others/jotform/jotform_page";
+import InternalLinks, { PARTNER_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getJotformLandingData } from "@/data/loaders/others";
 import { getCachedLanguage } from "@/lib/language";
 import { getJsonSeoMetadata, JOTFORM_PAGE_METADATA } from "@/lib/seo";
@@ -38,6 +39,11 @@ export default async function JotformRoute({ searchParams }: PageProps) {
       <Header />
       <main className="overflow-x-hidden bg-background">
         <JotformPage data={data} />
+        <InternalLinks
+          title="Connect Forms to the Wider Website"
+          description="Explore related services, technologies, partner pages, industries, and contact options."
+          links={PARTNER_INTERNAL_LINKS}
+        />
       </main>
       <Footer />
     </>

@@ -3,6 +3,7 @@ import type { Metadata } from "next";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
+import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getCachedLanguage } from "@/lib/language";
 import { PRIVACY_PAGE_METADATA } from "@/lib/seo";
 
@@ -230,6 +231,14 @@ export default async function PrivacyPolicy() {
         </div>
       </div>
 
+      <InternalLinks
+        title="Continue Through Devisgon"
+        description="Move from privacy information into services, process, contact, blog, technologies, and terms pages."
+        links={[
+          ...CORE_INTERNAL_LINKS,
+          { label: "Terms & Conditions", href: "/terms-condition", description: "Review the terms that govern Devisgon website and service use." },
+        ]}
+      />
       <Footer />
     </>
   );
