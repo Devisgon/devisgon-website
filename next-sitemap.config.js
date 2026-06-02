@@ -1,10 +1,26 @@
 import fs from "fs";
 import path from "path";
 
-const BASE_SERVICES_PATH = path.join(process.cwd(), "src/data/english_data/services");
-const BASE_INDUSTRIES_PATH = path.join(process.cwd(), "src/data/english_data/industries");
-const BASE_TECHNOLOGIES_PATH = path.join(process.cwd(), "src/data/english_data/technologies");
-const BASE_PARTNERS_PATH = path.join(process.cwd(), "src/data/english_data/others");
+const BASE_SERVICES_PATH = path.join(
+  process.cwd(),
+  "src/data/english_data/services",
+);
+
+const BASE_INDUSTRIES_PATH = path.join(
+  process.cwd(),
+  "src/data/english_data/industries",
+);
+
+const BASE_TECHNOLOGIES_PATH = path.join(
+  process.cwd(),
+  "src/data/english_data/technologies",
+);
+
+const BASE_PARTNERS_PATH = path.join(
+  process.cwd(),
+  "src/data/english_data/others",
+);
+
 const PRIORITY_SERVICE_SLUGS = new Set([
   "agentic-ai",
   "ai-agents",
@@ -18,6 +34,61 @@ const PRIORITY_SERVICE_SLUGS = new Set([
   "rag-system",
   "recognition-systems",
 ]);
+
+function getStaticPageUrls() {
+  const lastmod = new Date().toISOString();
+
+  return [
+    {
+      loc: "/",
+      lastmod,
+      changefreq: "daily",
+      priority: 1.0,
+    },
+    {
+      loc: "/services",
+      lastmod,
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      loc: "/industries",
+      lastmod,
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      loc: "/technologies",
+      lastmod,
+      changefreq: "weekly",
+      priority: 0.9,
+    },
+    {
+      loc: "/get-started",
+      lastmod,
+      changefreq: "weekly",
+      priority: 0.85,
+    },
+    {
+      loc: "/contact",
+      lastmod,
+      changefreq: "monthly",
+      priority: 0.8,
+    },
+    {
+      loc: "/privacy-policies",
+      lastmod,
+      changefreq: "yearly",
+      priority: 0.4,
+    },
+    {
+      loc: "/terms-condition",
+      lastmod,
+      changefreq: "yearly",
+      priority: 0.4,
+    },
+  ];
+}
 
 function readJsonFile(filePath) {
   const fileContent = fs.readFileSync(filePath, "utf-8").replace(/^\uFEFF/, "");
@@ -60,7 +131,10 @@ function getServiceUrls() {
 
         const filePath = path.join(folderPath, file);
         const fileContent = readJsonFile(filePath);
-        const slug = canonicalSegment(fileContent.slug || path.basename(file, ".json"));
+
+        const slug = canonicalSegment(
+          fileContent.slug || path.basename(file, ".json"),
+        );
 
         if (!slug) {
           return;
@@ -87,30 +161,33 @@ function getIndustryUrls() {
   function walk(currentDir) {
     const entries = fs.readdirSync(currentDir, { withFileTypes: true });
 
-    for (const entry of entries) {
+    entries.forEach((entry) => {
       const fullPath = path.join(currentDir, entry.name);
 
       if (entry.isDirectory()) {
         walk(fullPath);
-        continue;
+        return;
       }
 
       if (!entry.isFile() || !entry.name.endsWith(".json")) {
-        continue;
+        return;
       }
 
       const relativePath = path.relative(BASE_INDUSTRIES_PATH, fullPath);
       const pathSegments = relativePath.split(path.sep);
 
       if (pathSegments.length !== 2) {
-        continue;
+        return;
       }
 
       const fileContent = readJsonFile(fullPath);
-      const slug = canonicalSegment(fileContent.slug || path.basename(entry.name, ".json"));
+
+      const slug = canonicalSegment(
+        fileContent.slug || path.basename(entry.name, ".json"),
+      );
 
       if (!slug) {
-        continue;
+        return;
       }
 
       urls.push({
@@ -119,7 +196,7 @@ function getIndustryUrls() {
         changefreq: "weekly",
         priority: 0.8,
       });
-    }
+    });
   }
 
   try {
@@ -137,19 +214,20 @@ function getTechnologyUrls() {
   function walk(currentDir) {
     const entries = fs.readdirSync(currentDir, { withFileTypes: true });
 
-    for (const entry of entries) {
+    entries.forEach((entry) => {
       const fullPath = path.join(currentDir, entry.name);
 
       if (entry.isDirectory()) {
         walk(fullPath);
-        continue;
+        return;
       }
 
       if (!entry.isFile() || !entry.name.endsWith(".json")) {
-        continue;
+        return;
       }
 
       const fileContent = readJsonFile(fullPath);
+
       const fallbackSlug =
         entry.name === "index.json"
           ? path.basename(path.dirname(fullPath))
@@ -158,7 +236,7 @@ function getTechnologyUrls() {
       const slug = canonicalSegment(fileContent.slug || fallbackSlug);
 
       if (!slug) {
-        continue;
+        return;
       }
 
       urls.push({
@@ -167,7 +245,7 @@ function getTechnologyUrls() {
         changefreq: "weekly",
         priority: 0.8,
       });
-    }
+    });
   }
 
   try {
@@ -222,59 +300,38 @@ function getPartnerUrls() {
 /** @type {import('next-sitemap').IConfig} */
 const config = {
   siteUrl: "https://www.devisgon.com",
-  generateRobotsTxt: true,
+  generateIndexSitemap: true,
   sitemapSize: 7000,
+  autoLastmod: true,
   changefreq: "weekly",
   priority: 0.7,
-  transform: async (config, currentPath) => ({
-    loc: currentPath,
-    changefreq: currentPath === "/" ? "daily" : config.changefreq,
-    priority: currentPath === "/" ? 1.0 : config.priority,
-    lastmod: new Date().toISOString(),
-  }),
-
-  robotsTxtOptions: {
-    policies: [
-      {
-        userAgent: "*",
-        allow: "/",
-        disallow: [
-          "/admin/",
-          "/api/",
-          "/my-route",
-        ],
-      },
-    ],
-  },
 
   exclude: [
-    "/others/*",
-    "/partners/dctr_hosting",
-    "/partners/dctr-hosting",
-    "/privacy_policies",
-    "/terms_condition",
-    "/industries/*/*",
-    "/services/ai-and-ml/*",
-    "/services/automations/*",
-    "/services/cloud/*",
-    "/services/data-solutions/*",
-    "/services/design/*",
-    "/services/testing/*",
-    "/services/web-and-saas-development/*",
-    "/services/saas/*",
-    "/services/web-and-mobile-development/*",
-    "/services/data_solutions/*",
-    "/services/digital_design/*",
-    "/services/web_and_mobile_development/*",
+    "/admin",
+    "/admin/*",
+    "/api",
+   
   ],
 
+  transform: async (config, currentPath) => {
+    return {
+      loc: currentPath,
+      changefreq: currentPath === "/" ? "daily" : config.changefreq,
+      priority: currentPath === "/" ? 1.0 : config.priority,
+      lastmod: new Date().toISOString(),
+    };
+  },
+
   async additionalPaths() {
-    return [
+    const urls = [
+      ...getStaticPageUrls(),
       ...getServiceUrls(),
       ...getIndustryUrls(),
       ...getTechnologyUrls(),
       ...getPartnerUrls(),
-    ].filter(
+    ];
+
+    return urls.filter(
       (entry, index, entries) =>
         entries.findIndex((candidate) => candidate.loc === entry.loc) === index,
     );
