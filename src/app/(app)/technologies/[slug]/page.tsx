@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
+import InternalLinks, { TECHNOLOGY_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import TechnologyHero from "@/components/technologies/hero";
 import TechnologyWhyUse from "@/components/technologies/why_use";
 import TechnologyArchitecture from "@/components/technologies/architecture";
@@ -69,6 +70,11 @@ export default async function TechnologyDetailPage({ params, searchParams }: Pag
         <TechnologyArchitecture data={data.architecture_section} />
         <TechnologyCompetitiveEdge data={data.edge_section} />
         <TechnologyQuote data={data.quote_section} />
+        <InternalLinks
+          title="Related Technology Paths"
+          description="Connect this stack to services, industry solutions, delivery process, and contact options."
+          links={TECHNOLOGY_INTERNAL_LINKS}
+        />
         <TechnologyConversation data={data.conversation_section} />
       </div>
       <Footer />

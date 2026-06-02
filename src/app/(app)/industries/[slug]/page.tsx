@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
+import InternalLinks, { INDUSTRY_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import IndustryArchitecture from "@/components/industries/architecture";
 import IndustryCarousel from "@/components/industries/carousel";
 import IndustryCaseStudies from "@/components/industries/case_studies";
@@ -103,6 +104,11 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
         {data.carousel_section ? <IndustryCarousel data={data.carousel_section} /> : null}
         <IndustryCaseStudies data={data.case_studies_section} />
         <IndustryExplore data={localizedExploreSection} />
+        <InternalLinks
+          title="Related Industry Resources"
+          description="Jump into the services, technologies, and contact paths that support this industry solution."
+          links={INDUSTRY_INTERNAL_LINKS}
+        />
         <IndustryConversation
           data={data.conversation_section}
           industryName={data.hero_section.highlight}

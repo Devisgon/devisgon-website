@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Header from "@/components/navbar";
 import Footer from "@/components/footer";
 import OurProcessPage from "@/components/proceess/our_process_page";
+import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import type { ProcessPageData } from "@/components/proceess/our_process_page";
 import processData from "@/data/english_data/our_process.json";
 import { DEFAULT_OPEN_GRAPH_IMAGE, SITE_NAME, SITE_URL } from "@/lib/seo";
@@ -63,6 +64,11 @@ export default function ProcessPage() {
         />
       )}
       <OurProcessPage data={processData as ProcessPageData} />
+      <InternalLinks
+        title="Connect the Process to the Rest of the Site"
+        description="Move from delivery stages into services, industries, technologies, blog context, and contact options."
+        links={CORE_INTERNAL_LINKS}
+      />
       <Footer />
     </>
   );

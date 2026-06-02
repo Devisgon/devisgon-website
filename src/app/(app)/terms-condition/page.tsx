@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
+import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getCachedLanguage } from "@/lib/language";
 import { TERMS_PAGE_METADATA } from "@/lib/seo";
 
@@ -137,6 +138,14 @@ export default async function TermsAndConditions() {
           </div>
         </div>
       </div>
+      <InternalLinks
+        title="Continue Through Devisgon"
+        description="Move from terms information into services, process, contact, blog, technologies, and privacy pages."
+        links={[
+          ...CORE_INTERNAL_LINKS,
+          { label: "Privacy Policy", href: "/privacy-policies", description: "Review how Devisgon handles data, privacy, and security practices." },
+        ]}
+      />
       <Footer />
     </>
   );

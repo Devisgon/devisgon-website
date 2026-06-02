@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
+import InternalLinks, { SERVICE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import ServicesCtaSection from "@/components/services_page/cta_section";
 import Casestudy from "@/components/sub_services_pages/case_study";
 import Faqs from "@/components/sub_services_pages/faq";
@@ -90,6 +91,11 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
         <Progress data={data.process_section} />
         <Casestudy data={data.case_study_section} />
         <Faqs data={data.faq_section} />
+        <InternalLinks
+          title="Related Service Paths"
+          description="Continue into connected services, implementation stacks, and industry use cases."
+          links={SERVICE_INTERNAL_LINKS}
+        />
         <ServicesCtaSection />
       </div>
       <Footer />
