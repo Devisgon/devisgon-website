@@ -1,7 +1,25 @@
-# *
+# Allow major search engines and AI bots
+
+User-agent:GPTBot
+User-agent:Googlebot
+User-agent:Google-Extended
+User-agent:PerplexityBot
+User-agent:ClaudBot
+User-agent:Applebot
+Allow: /
+
+
+Disallow: /admin/
+Disallow: /_next/static/
+Disallow: /api/
+Disallow: /my-route
+
 User-agent: *
 Allow: /
+
+
 Disallow: /admin/
+Disallow: /_next/static/
 Disallow: /api/
 Disallow: /my-route
 
