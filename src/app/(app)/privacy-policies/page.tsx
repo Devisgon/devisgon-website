@@ -3,7 +3,6 @@ import type { Metadata } from "next";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
-import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getCachedLanguage } from "@/lib/language";
 import { PRIVACY_PAGE_METADATA } from "@/lib/seo";
 
@@ -217,7 +216,12 @@ export default async function PrivacyPolicy() {
 
                 <div className="flex items-center gap-3 text-t-secondary dark:text-t-primary">
                   <MapPin className="w-5 h-5 text-t-secondary dark:text-t-primary" />
-                  <a href="#" className="text-t-primary hover:underline">
+                  <a
+                    href="https://www.google.com/maps/search/?api=1&query=Okara,+Pakistan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-t-primary hover:underline"
+                  >
                     Okara, Pakistan
                   </a>
                 </div>
@@ -230,15 +234,6 @@ export default async function PrivacyPolicy() {
           </main>
         </div>
       </div>
-
-      <InternalLinks
-        title="Continue Through Devisgon"
-        description="Move from privacy information into services, process, contact, blog, technologies, and terms pages."
-        links={[
-          ...CORE_INTERNAL_LINKS,
-          { label: "Terms & Conditions", href: "/terms-condition", description: "Review the terms that govern Devisgon website and service use." },
-        ]}
-      />
       <Footer />
     </>
   );

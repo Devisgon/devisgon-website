@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import Header from "@/components/navbar";
 import Footer from "@/components/footer";
 import TechnologiesMainPage from "@/components/technologies/main_page";
-import InternalLinks, { TECHNOLOGY_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getCachedLanguage } from "@/lib/language";
 import { getJsonSeoMetadata, TECHNOLOGIES_PAGE_METADATA } from "@/lib/seo";
 import { getCanonicalTechnologySlug, getTechnologiesListingData, getTechnologyData } from "@/data/loaders/technologies";
@@ -124,11 +123,6 @@ export default async function TechnologiesPage() {
       <Header />
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
         <TechnologiesMainPage data={localizedData} />
-        <InternalLinks
-          title="Connect Technologies to Services"
-          description="Move from the technology library into implementation services, industry use cases, process, and project contact options."
-          links={TECHNOLOGY_INTERNAL_LINKS}
-        />
       </div>
       <Footer />
     </>
