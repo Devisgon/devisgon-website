@@ -3,7 +3,6 @@ import { notFound } from "next/navigation";
 import Header from "@/components/navbar";
 import Footer from "@/components/footer";
 import IndustriesMainPage from "@/components/industries/main_page";
-import InternalLinks, { INDUSTRY_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getCachedLanguage } from "@/lib/language";
 import { getJsonSeoMetadata, INDUSTRIES_PAGE_METADATA } from "@/lib/seo";
 import { getIndustriesListingData, getIndustryData, INDUSTRY_GROUPS } from "@/data/loaders/industries";
@@ -143,11 +142,6 @@ export default async function IndustriesPage() {
       <Header />
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
         <IndustriesMainPage data={localizedData} />
-        <InternalLinks
-          title="Connect Industries to Services and Tools"
-          description="Move from industry categories into automation services, CRM technology, broader stacks, and project contact options."
-          links={INDUSTRY_INTERNAL_LINKS}
-        />
       </div>
       <Footer />
     </>

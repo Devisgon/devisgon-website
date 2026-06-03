@@ -9,7 +9,6 @@ import dataEs from "@/data/spanish_data/home_page.json";
 import dataUr from "@/data/urdu_data/home_page.json";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
-import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { BLOGS_PAGE_METADATA } from "@/lib/seo";
 import { getCachedLanguage } from "@/lib/language";
 
@@ -36,11 +35,6 @@ export default async function BlogsPage() {
         <Hero data={activeHomeData.blog_section} />
         <Blogs />
       </section>
-      <InternalLinks
-        title="Explore More Devisgon Resources"
-        description="Move from articles into services, industries, technologies, process, and contact pages."
-        links={CORE_INTERNAL_LINKS}
-      />
       <Footer />
     </>
   );

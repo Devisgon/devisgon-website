@@ -7,7 +7,6 @@ import Link from "next/link";
 import CustomRichText from "@/components/payload_rich_text_styling";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
-import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import { getCachedLanguage } from "@/lib/language";
 import {
   translateLexicalContentForLanguage,
@@ -332,12 +331,6 @@ export default async function BlogPostPage({
           </aside>
         </div>
       </main>
-
-      <InternalLinks
-        title="Continue Reading and Exploring"
-        description="Use the blog, services, industries, technologies, and contact pages to keep moving through related Devisgon content."
-        links={CORE_INTERNAL_LINKS}
-      />
 
       <Footer />
     </>

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 
 export default function NotFound() {
   return (
@@ -41,12 +40,6 @@ export default function NotFound() {
 
           <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[50vw] h-[50vw] bg-[var(--primry)] rounded-full blur-[120px] opacity-10 pointer-events-none z-[-1]"></div>
         </main>
-
-        <InternalLinks
-          title="Find the Right Page"
-          description="Use these internal links to recover into services, industries, technologies, process, articles, or contact."
-          links={CORE_INTERNAL_LINKS}
-        />
 
       </div>
     </>

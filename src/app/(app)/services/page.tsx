@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import Hero from "@/components/services_page/hero";
 import Service from '@/components/services_page/services';
 import ServicesCtaSection from "@/components/services_page/cta_section";
-import InternalLinks, { SERVICE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import Footer from '@/components/footer';
 import Header from '@/components/navbar';
 import { getCachedLanguage } from "@/lib/language";
@@ -49,11 +48,6 @@ export default async function Services() {
       <Header />
       <Hero data={herosection} />
       <Service data={services} />
-      <InternalLinks
-        title="Connect Services to Real Solutions"
-        description="Compare service paths, related technologies, and industry applications before starting a project."
-        links={SERVICE_INTERNAL_LINKS}
-      />
       <ServicesCtaSection data={ctaSection} consultationHref={consultationHref} />
       <Footer />
     </>

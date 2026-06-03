@@ -2,7 +2,6 @@
 
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
-import InternalLinks, { CORE_INTERNAL_LINKS } from "@/components/shared/internal_links";
 import React, { useEffect, useMemo, useRef, useState } from "react";
 import { IoMdCloudUpload } from "react-icons/io";
 import { FaSquareFacebook } from "react-icons/fa6";
@@ -541,11 +540,6 @@ export default function ContactPageClient({ content }: ContactPageProps) {
           </motion.div>
         </section>
       </div>
-      <InternalLinks
-        title="Plan the Next Step"
-        description="Use these related pages to compare services, industries, technologies, process, and articles before or after contacting us."
-        links={CORE_INTERNAL_LINKS}
-      />
       <Footer />
     </>
   );
