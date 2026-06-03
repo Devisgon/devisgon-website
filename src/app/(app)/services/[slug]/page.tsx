@@ -11,9 +11,15 @@ import KeyBenefitsSection from "@/components/sub_services_pages/key_benefits";
 import Progress from "@/components/sub_services_pages/process_section";
 import Technalogies from "@/components/sub_services_pages/technalogies";
 import WhatYouGetSection from "@/components/sub_services_pages/what_we_do";
+import { workflowData as aiMlData } from "@/data/loaders/ai_ml";
+import { workflowData as cloudData } from "@/data/loaders/cloud";
+import { workflowData as dataSolutionsData } from "@/data/loaders/data_solutions";
+import { workflowData as digitalDesignData } from "@/data/loaders/digital_design";
+import { workflowData as testingData } from "@/data/loaders/testing";
+import { workflowData as webDevelopmentData } from "@/data/loaders/web_development";
+import { workflowData as workflowAutomationsData } from "@/data/loaders/workflow_automations";
 import { getCachedLanguage } from "@/lib/language";
 import { getJsonSeoMetadata, getServicePageStructuredData, getServiceSlugMetadata } from "@/lib/seo";
-import { getServiceDetailData } from "@/lib/service-detail";
 import { toCanonicalSlug } from "@/lib/slugs";
 
 type PageProps = {
@@ -21,9 +27,52 @@ type PageProps = {
   searchParams: Promise<{ lang?: string | string[] }>;
 };
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+type ServiceDetailData = any;
+
+const SERVICE_DATASETS: Array<Record<string, Record<string, ServiceDetailData>>> = [
+  aiMlData,
+  workflowAutomationsData,
+  cloudData,
+  dataSolutionsData,
+  digitalDesignData,
+  testingData,
+  webDevelopmentData,
+];
+
 function servicePath(slug: string, lang: string) {
   const langSuffix = lang === "en" ? "" : `?lang=${lang}`;
   return `/services/${slug}${langSuffix}`;
+}
+
+function findServiceDetailData(lang: string, slug: string) {
+  const canonicalSlug = toCanonicalSlug(slug);
+
+  for (const dataset of SERVICE_DATASETS) {
+    const services = dataset[lang];
+
+    if (!services) {
+      continue;
+    }
+
+    for (const [loaderKey, data] of Object.entries(services)) {
+      const dataSlug = typeof data.slug === "string" ? toCanonicalSlug(data.slug) : "";
+      const loaderSlug = toCanonicalSlug(loaderKey);
+
+      if (dataSlug === canonicalSlug || loaderSlug === canonicalSlug) {
+        return {
+          data,
+          slug: dataSlug || loaderSlug,
+        };
+      }
+    }
+  }
+
+  return null;
+}
+
+function getServiceDetailData(lang: string, slug: string) {
+  return findServiceDetailData(lang, slug) ?? (lang === "en" ? null : findServiceDetailData("en", slug));
 }
 
 export async function generateMetadata({

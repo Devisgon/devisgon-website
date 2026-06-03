@@ -22,17 +22,17 @@ const BASE_PARTNERS_PATH = path.join(
 );
 
 const PRIORITY_SERVICE_SLUGS = new Set([
-  "agentic-ai",
-  "ai-agents",
-  "ai-chatbot",
-  "ai-integration",
-  "computer-vision",
-  "deep-learning",
-  "llm-prompt-engineering",
-  "machine-learning",
-  "model-training",
-  "rag-system",
-  "recognition-systems",
+  "agentic-ai-development-automation-services",
+  "ai-agent-development-automation-services",
+  "ai-chatbot-development-automation-services",
+  "ai-integration-automation-services",
+  "computer-vision-ai-development-services",
+  "deep-learning-ai-model-development",
+  "llm-prompt-engineering-optimization-services",
+  "machine-learning-development-services",
+  "ai-model-training-development-services",
+  "rag-system-development-ai-search-services",
+  "ai-recognition-system-development-services",
 ]);
 
 function getStaticPageUrls() {

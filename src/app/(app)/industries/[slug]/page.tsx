@@ -12,8 +12,10 @@ import IndustryHero from "@/components/industries/hero";
 import IndustryKeyBenefits from "@/components/industries/key_benefits";
 import { getIndustryCategoryBySlug, getIndustryData, toPublicIndustrySlug } from "@/data/loaders/industries";
 import { getCachedLanguage } from "@/lib/language";
-import { getIndustrySlugMetadata, getJsonSeoMetadata } from "@/lib/seo";
+import { getIndustrySlugMetadata, getJsonSeoMetadata, INDUSTRIES_PAGE_METADATA } from "@/lib/seo";
 import { toCanonicalSlug } from "@/lib/slugs";
+
+const INDUSTRIES_LISTING_ALIAS_SLUG = "ai-automation-software-solutions";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -31,6 +33,11 @@ export async function generateMetadata({
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
   const publicSlug = toPublicIndustrySlug(slug);
+
+  if (publicSlug === INDUSTRIES_LISTING_ALIAS_SLUG) {
+    return getJsonSeoMetadata(undefined, INDUSTRIES_PAGE_METADATA, "/industries");
+  }
+
   const fallback = getIndustrySlugMetadata(publicSlug);
   const category = getIndustryCategoryBySlug(publicSlug);
 
@@ -56,6 +63,11 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
   const query = await searchParams;
   const activeLang = await getCachedLanguage(query.lang);
   const publicSlug = toPublicIndustrySlug(slug);
+
+  if (publicSlug === INDUSTRIES_LISTING_ALIAS_SLUG) {
+    const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
+    redirect(`/industries${langSuffix}`);
+  }
 
   if (slug !== publicSlug) {
     const langSuffix = activeLang === "en" ? "" : `?lang=${activeLang}`;
