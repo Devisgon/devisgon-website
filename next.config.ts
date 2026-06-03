@@ -96,22 +96,22 @@ const nextConfig: NextConfig = {
       },
       {
         source: "/services/web-and-mobile-development/custom-bots",
-        destination: "/services/custom-bots",
+        destination: "/services/ai-chatbot-development-automation-services",
         permanent: true,
       },
       {
         source: "/services/web-and-mobile-development/custom_bots",
-        destination: "/services/custom-bots",
+        destination: "/services/ai-chatbot-development-automation-services",
         permanent: true,
       },
       {
         source: "/services/web_and_mobile_development/custom-bots",
-        destination: "/services/custom-bots",
+        destination: "/services/ai-chatbot-development-automation-services",
         permanent: true,
       },
       {
         source: "/services/web_and_mobile_development/custom_bots",
-        destination: "/services/custom-bots",
+        destination: "/services/ai-chatbot-development-automation-services",
         permanent: true,
       },
       {
