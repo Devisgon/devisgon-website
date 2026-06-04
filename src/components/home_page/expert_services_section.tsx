@@ -1,82 +1,18 @@
-"use client";
 import { Check } from "lucide-react";
 import Image from "next/image";
-import { motion, useInView, Variants } from "framer-motion"; // Add Variants to your import
-import { useRef } from "react";
 import type { ExpertServicesSectionProps } from "@/types/homepage/expert_services";
 
-/* ------------------ Looping Typewriter Sub-Component ------------------ */
 const TypewriterTitle = ({ text, color }: { text: string; color: string }) => {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { amount: 0.5 });
-
-  const sentence = {
-    hidden: { opacity: 1 },
-    visible: {
-      opacity: 1,
-      transition: {
-        staggerChildren: 0.08,
-        delayChildren: 0.5,
-      },
-    },
-  };
-
-  const letter = {
-    hidden: { opacity: 0, display: "none" },
-    visible: { 
-      opacity: 1, 
-      display: "inline",
-      transition: {
-        repeat: Infinity,
-        repeatType: "reverse" as const,
-        repeatDelay: 1.5,
-        duration: 0.01 
-      }
-    },
-  };
-
-  // 1. Define the cursor blinking animation
-const cursorVariants: Variants = {
-  blinking: {
-    opacity: [0, 0, 1, 1],
-    transition: {
-      duration: 0.8,
-      repeat: Infinity,
-      ease: "linear",
-      times: [0, 0.5, 0.5, 1],
-    },
-  },
-};
-
   return (
-  <motion.span
-  ref={ref}
-  variants={sentence}
-  initial="hidden"
-  animate={isInView ? "visible" : "hidden"}
-  className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide inline-flex items-center flex-wrap"
-  style={{ color: color }}
->
-  {text.split("").map((char, index) => (
-    <motion.span 
-      key={index} 
-      variants={letter}
-      className={char === " " ? "inline-block w-[0.3em]" : "inline"}
+    <span
+      className="font-bold text-xs sm:text-sm mb-2 uppercase tracking-wide inline-flex items-center"
+      style={{ color }}
     >
-      {char === " " ? "\u00A0" : char}
-    </motion.span>
-  ))}
-  
-  <motion.span
-    variants={cursorVariants}
-    animate="blinking"
-    className="w-[2px] h-[1em] ml-0.5 flex-shrink-0"
-    style={{ backgroundColor: color }}
-  />
-</motion.span>
+      {text}
+    </span>
   );
 };
-/* ------------------ Main Section ------------------ */
+
 const ExpertServicesSection = ({ data }: ExpertServicesSectionProps) => {
   return (
     <section className="w-full bg-bg-secondary py-16">

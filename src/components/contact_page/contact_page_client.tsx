@@ -11,7 +11,7 @@ import { MdCalendarToday } from "react-icons/md";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
 import Image from "next/image";
-import { motion, Variants } from "framer-motion";
+import { LazyMotion, domAnimation, m, type Variants } from "framer-motion";
 import { normalizeLanguage, type ContactPageContent } from "@/lib/localized-content";
 import { COUNTRY_OPTIONS, getServiceInquiryOptions } from "@/lib/inquiry-options";
 
@@ -165,8 +165,9 @@ export default function ContactPageClient({ content }: ContactPageProps) {
     <>
       <Header />
      
+      <LazyMotion features={domAnimation}>
       <div className="min-h-screen p-8">
-        <motion.section
+        <m.section
           className="w-full py-16 text-center px-4"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -174,17 +175,17 @@ export default function ContactPageClient({ content }: ContactPageProps) {
         >
           <h1 className="text-4xl md:text-5xl font-extrabold text-t-primary mb-4">{content.hero_title}</h1>
           <p className="max-w-2xl mx-auto text-sm md:text-base text-t-primary">{content.hero_description}</p>
-        </motion.section>
+        </m.section>
 
         <section className="max-w-6xl mx-auto px-4 pb-20">
-          <motion.div
+          <m.div
             className="grid md:grid-cols-2 justify-center items-center md:items-start gap-10"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
           >
-            <motion.div variants={fadeInUpVariants} className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8">
+            <m.div variants={fadeInUpVariants} className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8">
               <h2 className="text-2xl font-bold text-t-primary mb-2">{content.form.title}</h2>
               <p className="text-t-secondary mb-6">{content.form.description}</p>
 
@@ -358,7 +359,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                   />
                 </div>
 
-                <motion.div
+                <m.div
                   whileHover={{ scale: 1.02 }}
                   whileTap={{ scale: 0.98 }}
                   className="border-2 border-dashed text-t-primary border-purple-300 rounded-lg p-8 text-center relative cursor-pointer transition"
@@ -399,7 +400,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                       </div>
                     )}
                   </div>
-                </motion.div>
+                </m.div>
 
                 <div className="flex items-start gap-2 text-sm">
                   <input type="checkbox" className="mt-1" required />
@@ -412,7 +413,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                   </p>
                 </div>
 
-                <motion.button
+                <m.button
                   type="submit"
                   disabled={isSubmitting || !!error || !!phoneError}
                   whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
@@ -420,14 +421,14 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                   className="w-full text-white bg-t-secondary py-3 rounded-md transition disabled:opacity-50"
                 >
                   {isSubmitting ? content.form.buttons.sending : content.form.buttons.send}
-                </motion.button>
+                </m.button>
 
                 {status && <p className="mt-2 text-center text-t-primary font-medium">{status}</p>}
               </form>
-            </motion.div>
+            </m.div>
 
-            <motion.div variants={fadeInUpVariants} className="space-y-6">
-              <motion.div variants={scaleInVariants} className="bg-bg-primary border-[#EAD5F9] rounded-2xl p-8 text-center">
+            <m.div variants={fadeInUpVariants} className="space-y-6">
+              <m.div variants={scaleInVariants} className="bg-bg-primary border-[#EAD5F9] rounded-2xl p-8 text-center">
                 <h2 className="text-2xl font-bold text-t-primary mb-2">{content.schedule.title}</h2>
                 <p className="text-t-secondary mb-4">{content.schedule.description}</p>
 
@@ -436,20 +437,20 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                     <>
                       <MdCalendarToday className="text-t-primary text-5xl mb-4" />
                       <p className="text-t-primary font-bold text-xl mb-4">{content.schedule.provider}</p>
-                      <motion.button
+                      <m.button
                         whileHover={{ scale: 1.05 }}
                         whileTap={{ scale: 0.95 }}
                         onClick={() => setShowOptions(true)}
                         className="bg-[#8145B5] text-white px-6 py-2 rounded-xl hover:bg-purple-700 transition"
                       >
                         {content.schedule.book_button}
-                      </motion.button>
+                      </m.button>
                     </>
                   ) : (
                     <>
                       <p className="text-t-primary font-bold text-xl mb-6">{content.schedule.choose_duration}</p>
 
-                      <motion.div
+                      <m.div
                         className="flex flex-col gap-3 w-full px-6"
                         initial={{ opacity: 0, y: 30 }}
                         whileInView={{ opacity: 1, y: 0 }}
@@ -482,11 +483,11 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                         >
                           {content.schedule.durations.min_60}
                         </a>
-                      </motion.div>
+                      </m.div>
                     </>
                   )}
                 </div>
-              </motion.div>
+              </m.div>
 
               <div className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8 space-y-4">
                 <h3 className="text-2xl font-bold text-t-primary">{content.contact_info.title}</h3>
@@ -523,7 +524,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                     { link: "https://www.linkedin.com/company/devisgon/", Icon: IoLogoLinkedin },
                     { link: "https://www.instagram.com/devisgon", Icon: FaInstagram },
                   ].map((social, idx) => (
-                    <motion.div
+                    <m.div
                       key={idx}
                       whileHover={{ rotate: 360, scale: 1.1 }}
                       transition={{ duration: 0.6 }}
@@ -532,14 +533,15 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                       <a href={social.link} target="_blank" rel="noopener noreferrer">
                         <social.Icon />
                       </a>
-                    </motion.div>
+                    </m.div>
                   ))}
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
+            </m.div>
+          </m.div>
         </section>
       </div>
+      </LazyMotion>
       <Footer />
     </>
   );

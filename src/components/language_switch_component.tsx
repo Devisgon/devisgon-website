@@ -3,7 +3,13 @@
 import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 import { FiGlobe } from "react-icons/fi";
-import { CN, DE, ES, FR, PK, SA, US } from "country-flag-icons/react/3x2";
+import CN from "country-flag-icons/react/3x2/CN";
+import DE from "country-flag-icons/react/3x2/DE";
+import ES from "country-flag-icons/react/3x2/ES";
+import FR from "country-flag-icons/react/3x2/FR";
+import PK from "country-flag-icons/react/3x2/PK";
+import SA from "country-flag-icons/react/3x2/SA";
+import US from "country-flag-icons/react/3x2/US";
 
 type LanguageOption = {
   code: string;
