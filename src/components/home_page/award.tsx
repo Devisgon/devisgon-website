@@ -70,13 +70,13 @@ const Awards = () => {
         <div className="flex flex-wrap justify-center grid grid-cols-2 md:grid-cols-4 gap-12 md:gap-24 text-center">
           {data.map((item, index) => (
             <div key={index} className="flex flex-col items-center gap-6 min-w-[150px]">
-              <h2 className="text-4xl md:text-5xl font-bold text-t-primary">
+              <h4 className="text-4xl md:text-5xl font-bold text-t-primary">
                 <Counter 
                   value={item.value} 
                   prefix={item.prefix} 
                   suffix={item.suffix} 
                 />
-              </h2>
+              </h4>
               <p className="text-t-secondary text-lg md:text-xl font-semibold uppercase tracking-wide">
                 {item.title}
               </p>

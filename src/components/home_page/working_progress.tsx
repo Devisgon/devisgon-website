@@ -60,9 +60,9 @@ export default function ProcessSection({ data }: ProcessSectionProps) {
     <section ref={sectionRef} className="bg-background py-20 px-4 overflow-visible">
       <div className="flex flex-col items-center text-center mb-24">
         <p className="text-t-secondary font-bold text-3xl mb-4">{data.section_heading}</p>
-        <h2 className="text-t-primary font-bold md:text-5xl text-2xl">
+        <p className="text-t-primary font-bold md:text-5xl text-2xl">
           {data.main_heading} <span className="text-t-secondary">{data.span_heading}</span>
-        </h2>
+        </p>
       </div>
 
       <div className="flex justify-center overflow-visible">

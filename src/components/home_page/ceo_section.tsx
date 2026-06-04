@@ -27,9 +27,9 @@ const CEOSection = ({ data }: CEOSectionProps) => {
             </div>
 
             <div className="relative text-center space-y-10  mt-30">
-              <h2 className="text-2xl md:text-3xl font-bold text-t-primary dark:text-[#402060]">
+              <p className="text-2xl md:text-3xl font-bold text-t-primary dark:text-[#402060]">
                 {data.title}
-              </h2>
+              </p>
 
               <p className="text-t-secondary text-sm md:text-base leading-relaxed max-w-xl mx-auto">
                 &quot;At <span className="font-semibold text-secondary">Devisgon</span>
@@ -37,7 +37,7 @@ const CEOSection = ({ data }: CEOSectionProps) => {
               </p>
 
               <div className="space-y-1">
-                <h3 className="text-xl font-bold text-t-primary dark:text-[#402060]">{data.author}</h3>
+                <p className="text-xl font-bold text-t-primary dark:text-[#402060]">{data.author}</p>
                 <p className="text-t-secondary font-medium">{data.role}</p>
               </div>
             </div>
