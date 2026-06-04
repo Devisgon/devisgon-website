@@ -54,7 +54,7 @@ function findServiceDetailData(lang: string, slug: string) {
     if (!services) {
       continue;
     }
-
+          
     for (const [loaderKey, data] of Object.entries(services)) {
       const dataSlug = typeof data.slug === "string" ? toCanonicalSlug(data.slug) : "";
       const loaderSlug = toCanonicalSlug(loaderKey);

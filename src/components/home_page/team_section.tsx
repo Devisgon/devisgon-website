@@ -6,9 +6,9 @@ const TeamSection = ({ data }: TeamSectionProps) => {
   return (
     <section id="team" className="py-20 px-4 md:h-screen lg:h-auto bg-bg-primary">
       <div className="mx-auto">
-        <h2 className="text-3xl font-bold text-t-primary text-center mb-16">
+        <p className="text-3xl font-bold text-t-primary text-center mb-16">
           Meet Our Team
-        </h2>
+        </p>
 
         <div className="md:flex grid grid-cols-2 justify-center md:justify-between items-center gap-4 md:gap-6">
           {data.map((member, index) => {

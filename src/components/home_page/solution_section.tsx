@@ -9,9 +9,9 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
 
           {/* Left Content */}
           <div className="lg:w-1/2 mt-20">
-            <h2 className="text-3xl md:text-4xl font-bold text-t-primary mb-6 leading-tight">
+            <h6 className="text-3xl md:text-4xl font-bold text-t-primary mb-6 leading-tight">
               {data.title}
-            </h2>
+            </h6>
 
             <p className="text-t-secondary dark:text-t-primary text-sm leading-relaxed mb-10 max-w-md">
               At <span className="text-[#8E4EC6] font-semibold">DEVISGON</span>,{" "}
@@ -33,9 +33,9 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
                     />
                   </div>
 
-                  <h3 className="text-lg font-bold text-t-primary mb-2">
+                  <h6 className="text-lg font-bold text-t-primary mb-2">
                     {feature.title}
-                  </h3>
+                  </h6>
 
                   <p className="text-t-secondary dark:text-t-primary text-sm leading-relaxed">
                     {feature.description}
@@ -52,6 +52,7 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
   src="/home_page/solution_section/solution.webp"
   alt="Solutions"
   width={470}
+  
   height={515}
   sizes="(max-width: 768px) 100vw, 470px"
   className="w-[470px] h-[515px] rounded-3xl"
@@ -62,9 +63,9 @@ const SolutionsSection = ({ data }: SolutionsSectionProps) => {
               <p className=" text-xs mb-1">
                 {data.side_card.pre_text}
               </p>
-              <h4 className="text-lg font-bold  mb-2">
+              <h6 className="text-lg font-bold  mb-2">
                 {data.side_card.title}
-              </h4>
+              </h6>
               <p className=" text-xs leading-relaxed">
                 {data.side_card.description}
               </p>

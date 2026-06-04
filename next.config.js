@@ -1,7 +1,18 @@
 import { withPayload } from "@payloadcms/next/withPayload";
-import type { NextConfig } from "next";
+import bundleAnalyzer from "@next/bundle-analyzer";
 
-const nextConfig: NextConfig = {
+const withBundleAnalyzer = bundleAnalyzer({
+  enabled: process.env.ANALYZE === "true",
+});
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  // 1. Production Package Tree-Shaking Optimizations
+  experimental: {
+    optimizePackageImports: ["react-icons", "country-flag-icons"],
+  },
+
+  // 2. SEO Global URL Redirection Mapping
   async redirects() {
     return [
       {
@@ -181,30 +192,24 @@ const nextConfig: NextConfig = {
       },
     ];
   },
+
+  // 3. Build Optimizations
   eslint: {
     ignoreDuringBuilds: true,
   },
+
+  // 4. Remote Image Optimization Security Policies
   images: {
     remotePatterns: [
-      // Local development
       { protocol: "http", hostname: "localhost", port: "3000", pathname: "/**" },
-
-      // Production domain
       { protocol: "https", hostname: "devisgon.com", pathname: "/**" },
-
-      // Supabase storage
       { protocol: "https", hostname: "**.supabase.co", pathname: "/**" },
-
-      // JSON-driven Doctor Hosting hero backgrounds
       { protocol: "https", hostname: "images.unsplash.com", pathname: "/**" },
-
-      // JSON-driven Jotform landing page artwork and integration logos
       { protocol: "https", hostname: "cdn.jotfor.ms", pathname: "/**" },
-
-      // Current S3 bucket used by Payload
       { protocol: "https", hostname: "test-omega-coral-10.vercel.apps3_bucket", pathname: "/**" },
     ],
   },
 };
 
-export default withPayload(nextConfig);
+// 5. Unify PayloadCMS and BundleAnalyzer into a clean wrapper pipeline
+export default withPayload(withBundleAnalyzer(nextConfig));

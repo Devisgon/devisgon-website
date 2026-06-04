@@ -82,9 +82,9 @@ export function CategoryNav({ blogs, categories, lang }: any) {
                 </p>
               </div>
 
-              <h3 className="text-xl md:text-2xl font-bold text-t-primary dark:text-t-secondary mb-4 leading-snug ">
+              <p className="text-xl md:text-2xl font-bold text-t-primary dark:text-t-secondary mb-4 leading-snug ">
                 {blog.title}
-              </h3>
+              </p>
               <a href={`/blogs/${blog.slug}`}>
                 <div className="mt-auto flex items-center text-t-primary  text-sm font-bold ">
                   {copy.readMore}

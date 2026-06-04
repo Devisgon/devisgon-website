@@ -58,10 +58,10 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
         <div className="relative mb-12">
           <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between">
             <div className="relative z-10 shrink-0">
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-16 text-t-primary leading-[1.1]">
+              <p className="text-3xl md:text-4xl lg:text-5xl font-bold mb-16 text-t-primary leading-[1.1]">
                 What Our <br />
                 Client Saying
-              </h2>
+              </p>
               {/* Arrow Vectors */}
               <Image
                 src="/home_page/comments_section/Vector_1.webp"
@@ -157,9 +157,9 @@ const TestimonialSection = ({ data }: TestimonialSectionProps) => {
                     />
 
                     <div>
-                      <h4 className={`font-bold ${isActive ? "text-lg text-t-primary dark:text-t-secondary md:text-xl" : "text-t-primary md:text-lg dark:text-t-secondary"}`}>
+                      <p className={`font-bold ${isActive ? "text-lg text-t-primary dark:text-t-secondary md:text-xl" : "text-t-primary md:text-lg dark:text-t-secondary"}`}>
                         {review.name}
-                      </h4>
+                      </p>
                       <p className="font-medium text-t-primary dark:text-t-primary">
                         {review.role}
                       </p>
