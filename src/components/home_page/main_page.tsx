@@ -3,6 +3,7 @@ import { getCachedLanguage } from "@/lib/language";
 
 import Hero from "@/components/home_page/hero_section";
 import Services from "@/components/home_page/services_section";
+import ExpertServicesSection from "@/components/home_page/expert_services_section";
 import DeferredSections from "@/components/home_page/deferred_sections";
 
 import type { HeroSectionData } from "@/types/homepage/hero";
@@ -45,9 +46,9 @@ export default async function Home() {
     <main>
       <Hero data={heroSection} />
       <Services data={servicesSection} />
+      <ExpertServicesSection data={expertServicesSection} />
       <Suspense fallback={<div className="py-12" />}>
         <DeferredSections
-          expertServicesSection={expertServicesSection}
           solutionsSection={solutionsSection}
           workingProcess={workingProcess}
           testimonialsSection={testimonialsSection}

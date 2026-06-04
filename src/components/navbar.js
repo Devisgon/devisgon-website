@@ -3,9 +3,16 @@
 import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import dynamic from "next/dynamic";
 import { Menu, Moon, Sun, ChevronDown, ChevronLeft } from "lucide-react";
-import Switcher from "./language_switch_component";
 import { getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+
+// Code-split the flag-heavy language selector so country SVGs are requested only
+// after the interactive navbar hydrates, instead of joining every page's first load.
+const Switcher = dynamic(() => import("./language_switch_component"), {
+  ssr: false,
+  loading: () => <div className="h-10 w-11" aria-hidden="true" />,
+});
 
 const getCookieValue = (name) => {
   const token = `${name}=`;

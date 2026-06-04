@@ -8,7 +8,7 @@ import { FaInstagram } from "react-icons/fa";
 import { Mail, Phone, MapPin } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { motion, Variants } from "framer-motion";
+import { LazyMotion, domAnimation, m, type Variants } from "framer-motion";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import {
@@ -244,8 +244,9 @@ export default function GetStartedClient() {
   return (
     <>
       <Header />
+      <LazyMotion features={domAnimation}>
       <div className="min-h-screen p-8">
-        <motion.section
+        <m.section
           className="w-full py-16 text-center px-4"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -257,17 +258,17 @@ export default function GetStartedClient() {
           <p className="max-w-2xl mx-auto text-sm md:text-base text-t-primary">
             {content.hero_description}
           </p>
-        </motion.section>
+        </m.section>
 
         <section className="max-w-6xl mx-auto px-4 pb-20">
-          <motion.div
+          <m.div
             className="grid md:grid-cols-[2fr_1fr] justify-center items-center md:items-start gap-10"
             variants={containerVariants}
             initial="hidden"
             whileInView="visible"
             viewport={{ once: true, amount: 0.1 }}
           >
-            <motion.div
+            <m.div
               variants={fadeInUpVariants}
               className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8"
             >
@@ -470,7 +471,7 @@ export default function GetStartedClient() {
                       <label className="text-t-primary ml-2 mb-1 block">
                         {content.form.labels.upload_cv}
                       </label>
-                      <motion.div
+                      <m.div
                         whileHover={{ scale: 1.01 }}
                         whileTap={{ scale: 0.99 }}
                         className="border-2 border-dashed text-t-primary border-purple-300 rounded-lg p-8 text-center relative cursor-pointer transition bg-bg-secondary"
@@ -500,7 +501,7 @@ export default function GetStartedClient() {
                             </div>
                           )}
                         </div>
-                      </motion.div>
+                      </m.div>
                     </div>
 
                     <div className="flex items-start gap-2 text-sm pt-2">
@@ -514,7 +515,7 @@ export default function GetStartedClient() {
                       </p>
                     </div>
 
-                    <motion.button
+                    <m.button
                       type="submit"
                       disabled={isSubmitting || !!emailError || !!phoneError || isProgramDisabled}
                       whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
@@ -522,16 +523,16 @@ export default function GetStartedClient() {
                       className="w-full bg-t-secondary text-white py-3 rounded-md transition disabled:opacity-50 mt-4"
                     >
                       {isSubmitting ? content.form.buttons.submitting : content.form.buttons.submit}
-                    </motion.button>
+                    </m.button>
 
                     {status && <p className="mt-4 text-center text-t-primary font-medium">{status}</p>}
                   </form>
                 </>
               )}
-            </motion.div>
+            </m.div>
 
-            <motion.div variants={fadeInUpVariants} className="space-y-6">
-              <motion.div className="bg-bg-primary border border-[#EAD5F9] rounded-2xl p-8 text-center">
+            <m.div variants={fadeInUpVariants} className="space-y-6">
+              <m.div className="bg-bg-primary border border-[#EAD5F9] rounded-2xl p-8 text-center">
                 <h2 className="text-2xl font-bold text-t-primary mb-3">{content.side_card.title}</h2>
                 <p className="text-t-secondary mb-6 text-sm leading-relaxed">
                   {content.side_card.description}
@@ -544,7 +545,7 @@ export default function GetStartedClient() {
                     </li>
                   ))}
                 </ul>
-              </motion.div>
+              </m.div>
 
               <div className="bg-bg-primary rounded-2xl border-[#E5E7EB] p-8 space-y-4">
                 <h3 className="text-2xl font-bold text-t-primary">{content.contact.title}</h3>
@@ -581,7 +582,7 @@ export default function GetStartedClient() {
                     { Link: "https://www.linkedin.com/company/devisgon/", Icon: IoLogoLinkedin },
                     { Link: "https://www.instagram.com/devisgon", Icon: FaInstagram },
                   ].map((social, idx) => (
-                    <motion.div
+                    <m.div
                       key={idx}
                       whileHover={{ rotate: 360, scale: 1.1 }}
                       transition={{ duration: 0.6 }}
@@ -590,14 +591,15 @@ export default function GetStartedClient() {
                       <a href={social.Link} target="_blank" rel="noopener noreferrer">
                         <social.Icon />
                       </a>
-                    </motion.div>
+                    </m.div>
                   ))}
                 </div>
               </div>
-            </motion.div>
-          </motion.div>
+            </m.div>
+          </m.div>
         </section>
       </div>
+      </LazyMotion>
       <Footer />
     </>
   );
