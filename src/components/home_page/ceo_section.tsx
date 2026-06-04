@@ -11,7 +11,7 @@ const CEOSection = ({ data }: CEOSectionProps) => {
           <div className="flex justify-center -translate-y-10">
             <div className="w-68 md:w-96 h-84 rounded-xl overflow-hidden shadow-lg">
             <Image
-  src="/home_page/ceo_section/ceo.webp"
+  src="/home_page/ceo_section/ceo.png"
   alt="CEO"
   width={442}
   height={336}
