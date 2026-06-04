@@ -68,11 +68,11 @@ dark:bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060
             <Image
               alt="Solutions"
               src="/home_page/hero_section/hero_bg.webp"
-              width={470}
+              width={1000}
               height={515}
               priority
               fetchPriority="high"
-              sizes="(max-width: 768px) 70vw, 470px"
+              className="w-screen"
             />
           </div>
         </div>
