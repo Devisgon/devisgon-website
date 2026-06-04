@@ -14,9 +14,9 @@ const CEOSection = ({ data }: CEOSectionProps) => {
   src="/home_page/ceo_section/ceo.png"
   alt="CEO"
   width={442}
-  height={300}
+  height={336}
   sizes="(max-width: 768px) 100vw, 442px"
-  className="w-full h-full object-cover"
+  className="w-full h-full object-contain"
 />
             </div>
           </div>
