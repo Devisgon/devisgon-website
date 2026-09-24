@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Purpose
-This file is the working map for the codebase. It explains how requests flow through the app, where content comes from, and what must be updated when code changes.
+This file is the working map for the codebase. It explains how requests flow through the app, where content comes from, and what must be updated when code changes..
 
 ## Update Contract (Mandatory)
 When any feature code, route, API behavior, CMS schema, or data shape changes, update this file in the same change.
