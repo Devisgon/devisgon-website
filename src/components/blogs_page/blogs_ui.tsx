@@ -62,12 +62,13 @@ export function CategoryNav({ blogs, categories, lang }: any) {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-12">
         {filteredBlogs.map((blog: any) => (
           <div key={blog.id} className="group cursor-pointer flex flex-col h-full">
-            <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-72 w-full">
+            <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-96 w-full">
               <Image
                 src={blog.coverImage.url}
                 alt={blog.title}
                 width={100}
-                height={100}
+                height={200}
+                unoptimized={true}
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>

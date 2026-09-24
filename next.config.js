@@ -198,11 +198,14 @@ const nextConfig = {
     ignoreDuringBuilds: true,
   },
 
-  // 4. Remote Image Optimization Security Policies
+ // 4. Remote Image Optimization Security Policies
+ // 4. Remote Image Optimization Security Policies
   images: {
+    dangerouslyAllowSVG: true, // <-- Add this to allow SVGs
+    contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;", // <-- Add this required security policy for SVGs
     remotePatterns: [
       { protocol: "http", hostname: "localhost", port: "3000", pathname: "/**" },
-      { protocol: "https", hostname: "devisgon.com", pathname: "/**" },
+      { protocol: "https", hostname: "**.devisgon.com", pathname: "/**" },
       { protocol: "https", hostname: "**.supabase.co", pathname: "/**" },
       { protocol: "https", hostname: "images.unsplash.com", pathname: "/**" },
       { protocol: "https", hostname: "cdn.jotfor.ms", pathname: "/**" },
