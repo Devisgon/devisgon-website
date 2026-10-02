@@ -1,6 +1,6 @@
 "use client";
 
-import { ArrowUpRight, Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, Phone, SlidersHorizontal } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -9,6 +9,7 @@ import { getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/l
 import { buildNavigation, type NavigationItem } from "@/lib/navigation-model";
 import { getDiscoveryCallHref } from "@/lib/discovery-call";
 import { servicePriority } from "@/lib/service-priorities";
+import { ANALYTICS_PREFERENCES_EVENT } from "@/lib/analytics-config";
 import styles from "./footer.module.css";
 
 const copy: Record<string, { eyebrow: string; headline: string; call: string; resources: string; work: string; promise: string; directory: string }> = {
@@ -55,7 +56,7 @@ export default function Footer() {
         <div className={styles.newsletter}><h3>{newsletter.title}</h3><FooterNewsletterForm lang={language} /></div>
       </div>
       <div className={styles.directory}><p>{text.directory}</p><div className={styles.directoryGrid}>{model.catalogs.map((catalog) => <details key={catalog.id}><summary>{catalog.name}<span aria-hidden="true">+</span></summary><Link className={styles.viewAll} href={catalog.href}>{catalog.name}<ArrowUpRight size={13} /></Link>{catalog.groups.map((group) => <div key={group.title} className={styles.catalogGroup}><h4>{group.title}</h4><FooterLinks items={group.links} /></div>)}</details>)}</div></div>
-      <div className={styles.legal}><p>© {new Date().getFullYear()} Devisgon Pvt. Ltd.</p><div>{legal.map((item) => <Link key={item.href} href={item.href}>{item.name}</Link>)}</div></div>
+      <div className={styles.legal}><p>© {new Date().getFullYear()} Devisgon Pvt. Ltd.</p><div>{legal.map((item) => <span key={item.href} className={styles.legalItem}><Link href={item.href}>{item.name}</Link>{/privacy/.test(item.href) && <button type="button" className={styles.preferencesButton} aria-label="Analytics preferences" title="Analytics preferences" aria-controls="analytics-preferences-panel" onClick={() => window.dispatchEvent(new window.Event(ANALYTICS_PREFERENCES_EVENT))}><SlidersHorizontal size={15} aria-hidden="true" /></button>}</span>)}</div></div>
     </div>
   </footer>;
 }

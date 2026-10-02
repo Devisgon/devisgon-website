@@ -111,16 +111,18 @@ test("wizard keeps Back answers, sends the entire brief, retains failed submissi
 
 test("GA4 stays blocked until consent, configures once and sends one safe page view per route", async () => {
   const dom = new JSDOM('<div id="root"></div>', { url: "https://www.devisgon.com/?email=private@example.com", referrer: "https://example.com/source?private=123" });
-  const globals = ["window","document","navigator","Element","IS_REACT_ACT_ENVIRONMENT"];
+  const globals = ["window","document","navigator","Element","HTMLElement","IS_REACT_ACT_ENVIRONMENT"];
   const previous = globals.map((key)=>Object.getOwnPropertyDescriptor(globalThis,key));
-  for (const key of globals.slice(0,4)) Object.defineProperty(globalThis,key,{value:dom.window[key],writable:true,configurable:true});
+  for (const key of globals.slice(0,5)) Object.defineProperty(globalThis,key,{value:dom.window[key],writable:true,configurable:true});
   globalThis.IS_REACT_ACT_ENVIRONMENT=true;
   const React=await import("react");const {createRoot}=await import("react-dom/client");const {act}=React;
   const {default:Analytics}=await componentModule("src/components/analytics_consent.tsx");
+  const {default:Footer}=await componentModule("src/components/footer.tsx");
+  const content=()=>React.createElement(React.Fragment,null,React.createElement(Analytics),React.createElement(Footer));
   const root=createRoot(document.getElementById("root"));const commands=[];
   window.gtag=(...args)=>commands.push(args);globalThis.__testPath="/";
   try {
-    await act(async()=>root.render(React.createElement(Analytics)));
+    await act(async()=>root.render(content()));
     assert.equal(document.querySelector("script"),null);
     await act(async()=>document.querySelector('[aria-label="Analytics preference"] button').click());
     assert.equal(document.querySelectorAll('script[src*="googletagmanager"]').length,1);
@@ -129,7 +131,19 @@ test("GA4 stays blocked until consent, configures once and sends one safe page v
     assert.equal(commands.filter((item)=>item[0]==="config").length,1);
     assert.equal(commands.find((item)=>item[0]==="config")[1],GA4_MEASUREMENT_ID);
     assert.equal(commands.filter((item)=>item[1]==="page_view").length,1);
-    globalThis.__testPath="/our-work"; await act(async()=>root.render(React.createElement(Analytics)));
+    const preferences=document.querySelector('button[aria-label="Analytics preferences"]');
+    assert.ok(preferences.closest("footer"));
+    assert.equal(preferences.parentElement.querySelector("a").getAttribute("href"),"/privacy-policies");
+    assert.equal(document.querySelector('[aria-label="Analytics preference"]'),null);
+    preferences.focus();await act(async()=>preferences.click());
+    const panel=document.querySelector('[aria-label="Analytics preference"]');
+    assert.ok(panel);assert.equal(document.activeElement,panel.querySelector("button"));
+    assert.ok(!panel.className.includes("bottom-"));
+    await act(async()=>panel.dispatchEvent(new window.KeyboardEvent("keydown",{key:"Escape",bubbles:true})));
+    assert.equal(document.querySelector('[aria-label="Analytics preference"]'),null);
+    assert.equal(document.activeElement,preferences);
+    assert.equal(document.querySelectorAll('script[src*="clarity.ms"]').length,1);
+    globalThis.__testPath="/our-work"; await act(async()=>root.render(content()));
     assert.equal(commands.filter((item)=>item[0]==="config").length,1);
     assert.equal(commands.filter((item)=>item[1]==="page_view").length,2);
     assert.ok(commands.every((item)=>!JSON.stringify(item).includes("private=")));
@@ -170,5 +184,8 @@ test("modern footer keeps the full English catalogue reachable and renders one m
     const hrefs=new Set([...dom.window.document.querySelectorAll("a")].map((link)=>link.getAttribute("href")));
     for(const item of flatten(source.navbar))assert.ok(hrefs.has(item.href),item.href);
     const forms=dom.window.document.querySelectorAll("form");assert.equal(forms.length,1);assert.equal(forms[0].getAttribute("data-clarity-mask"),"true");assert.ok(dom.window.document.querySelector('label[for="footer-newsletter-email"]'));
+    const preferences=dom.window.document.querySelector('button[aria-label="Analytics preferences"]');
+    assert.ok(preferences);assert.equal(preferences.parentElement.querySelector("a").getAttribute("href"),"/privacy-policies");
+    assert.ok(!preferences.className.includes("fixed"));
   } finally {dom.window.close();}
 });

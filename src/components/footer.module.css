@@ -40,6 +40,9 @@
 .legal { border-top:1px solid #ffffff22; margin-top:30px; padding-top:22px; display:flex; justify-content:space-between; gap:20px; font-size:10px; color:#baa4c3; }
 .legal > div { display:flex; flex-wrap:wrap; gap:20px; }
 .legal a { color:#cfbcd5; font-size:10px; }
+.legalItem { display:inline-flex; align-items:center; gap:8px; }
+.preferencesButton { display:inline-flex; align-items:center; justify-content:center; flex-shrink:0; width:32px; height:32px; border:1px solid #ffffff30; border-radius:50%; color:#e9b4db; background:transparent; cursor:pointer; }
+.preferencesButton:hover { color:#fff; background:#ffffff12; border-color:#e9b4db; }
 @media(max-width:1000px) { .mainGrid { grid-template-columns:1fr 1fr; gap:35px; } .inner { padding:44px 28px 24px; } }
 @media(max-width:700px) { .invitation { align-items:flex-start; flex-direction:column; gap:24px; } .directoryGrid { grid-template-columns:1fr; gap:12px; } .mainGrid { gap:32px 25px; } .brand { grid-column:1 / -1; } .brand > p { max-width:400px; } .newsletter { grid-column:1 / -1; max-width:400px; width:100%; } .legal { flex-direction:column; } .inner { padding:38px 20px 24px; } }
 @media(prefers-reduced-motion:reduce) { .footer * { transition:none !important; } }

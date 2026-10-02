@@ -2,9 +2,9 @@
 
 ## Content updates
 
-The Company menu's Team link now opens `/team`. It contains leadership profiles, the original eight staff portraits with owner-authorized placeholder names, culture albums and a Join the Team link to `/get-started`. The original navbar design is preserved.
+The Company menu's Team link now opens `/team`. It contains alternating full-width leadership message/portrait rows (CEO copy left, CTO copy right), the original eight staff portraits with owner-authorized placeholder names in staggered pill portraits and hover/keyboard-focus labels, culture albums and a Join the Team link to `/get-started`. The original navbar design is preserved.
 
-Edit `src/data/company.json` to replace `Team member 01` etc. with the correct names and designations. The CEO photograph is the original asset. A verified CTO portrait was not available in the company or personal-site repositories; the CTO card uses an explicit initials placeholder. Set its `image` to a real local public image path when supplied. Do not assign another staff member's portrait to the CTO.
+Edit `src/data/company.json` to replace `Team member 01` etc. with the correct names and designations. The CEO photograph is the original asset. A verified CTO portrait was not available in the company or personal-site repositories; the CTO card uses an explicit initials placeholder. Set its `image` to a real local public image path when supplied. Leadership `message` paragraphs are editable draft copy; both portraits use contain sizing so the complete supplied image remains visible. Do not assign another staff member's portrait to the CTO.
 
 Culture albums are Mango Day, Iftar Dinner and Devisgon Anniversary, each with its own `/team/culture/<slug>` page. The viewer supports the complete photo grid, previous/next, keyboard arrows, Escape, focus restoration and scroll locking. Album photos are currently empty because no actual event photos were supplied or found. There are no fabricated event photographs. Empty albums stay noindex and are excluded from the sitemap; an album with photos becomes indexable on deployment.
 
@@ -34,7 +34,7 @@ The footer uses Devisgon's purple/magenta branding, a clear call to action, cont
 
 Clarity project: **yrindogf01**. GA4 remains **G-VYTLPTGT2N**. This uses the owner's manual tag option with Next Script; it does not also install the NPM SDK or duplicate the tag.
 
-The shared public root initializes denied consent defaults before scripts. Both external tags load only after opt-in. Clarity uses `consentv2` with `analytics_Storage: granted` and `ad_Storage: denied` after consent. The consent key is versioned to `devisgon-analytics-consent-v2` so a prior GA4-only choice does not silently enable new session recordings. Withdrawal passes denied signals, clears first-party GA/Clarity cookies and reloads without either script after either has loaded.
+The shared public root initializes denied consent defaults before scripts. Both external tags load only after opt-in. Analytics preferences reopen from the accessible icon directly beside Privacy Policy in the footer; no persistent floating button covers legal links. The temporary decision panel appears at the top and closing it restores focus to the footer icon. Clarity uses `consentv2` with `analytics_Storage: granted` and `ad_Storage: denied` after consent. The consent key is versioned to `devisgon-analytics-consent-v2` so a prior GA4-only choice does not silently enable new session recordings. Withdrawal passes denied signals, clears first-party GA/Clarity cookies and reloads without either script after either has loaded.
 
 The enquiry, contact, application and newsletter forms use explicit Clarity masks, including the homepage review screen. No name/email/phone, project answers, identifiers or friendly names are passed to Clarity custom APIs. Custom events use constant event names or step numbers; they describe enquiry progress and accepted submissions without answer contents. Public page URLs should not contain sensitive personal data.
 
