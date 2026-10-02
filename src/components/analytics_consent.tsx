@@ -5,17 +5,19 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 import { trackInquiryEvent } from "@/lib/analytics";
-import { ANALYTICS_CONSENT_KEY, DENIED_CONSENT, GA4_MEASUREMENT_ID, analyticsPageUrl } from "@/lib/analytics-config";
+import { ANALYTICS_CONSENT_KEY, CLARITY_PROJECT_ID, DENIED_CONSENT, GA4_MEASUREMENT_ID, analyticsPageUrl } from "@/lib/analytics-config";
 
-type AnalyticsWindow = Window & { dataLayer?: unknown[]; gtag?: (...args: unknown[]) => void };
+type AnalyticsWindow = Window & { dataLayer?: unknown[]; gtag?: (...args: unknown[]) => void; clarity?: ((...args: unknown[]) => void) & { q?: unknown[] } };
 function updateConsent(value: string) {
   const browser = window as AnalyticsWindow;
   browser.gtag?.("consent", "update", { ...DENIED_CONSENT, analytics_storage: value === "granted" ? "granted" : "denied" });
+  if (!browser.clarity) browser.clarity = function (...args: unknown[]) { (browser.clarity!.q = browser.clarity!.q || []).push(args); };
+  browser.clarity("consentv2", { ad_Storage: "denied", analytics_Storage: value === "granted" ? "granted" : "denied" });
 }
 function clearAnalyticsCookies() {
   for (const cookie of document.cookie.split(";")) {
     const name = cookie.split("=")[0].trim();
-    if (!/^_ga(?:_|$)/.test(name)) continue;
+    if (!/^_ga(?:_|$)/.test(name) && !["_clck", "_clsk"].includes(name)) continue;
     const expiry = `${name}=; Max-Age=0; path=/; SameSite=Lax`;
     document.cookie = expiry;
     const parts = window.location.hostname.split(".");
@@ -27,6 +29,7 @@ export default function AnalyticsConsent() {
   const [consent, setConsent] = useState<string | null>(null);
   const [preferences, setPreferences] = useState(false);
   const [ready, setReady] = useState(false);
+  const [clarityReady, setClarityReady] = useState(false);
   const configured = useRef(false);
   const lastPage = useRef("");
   const path = usePathname();
@@ -65,10 +68,11 @@ export default function AnalyticsConsent() {
     if (value === "denied") {
       clearAnalyticsCookies();
       // Basic consent mode: after withdrawal, reload without the Google script.
-      if (ready) window.location.reload();
+      if (ready || clarityReady) window.location.reload();
     }
   }
   return <>
+    {consent === "granted" && <Script id="devisgon-clarity" src={`https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}`} strategy="afterInteractive" onReady={() => { updateConsent("granted"); setClarityReady(true); }} />}
     {consent === "granted" && <Script id="devisgon-ga4" src={`https://www.googletagmanager.com/gtag/js?id=${GA4_MEASUREMENT_ID}`} strategy="afterInteractive" onReady={() => {
       if (configured.current) return;
       const browser = window as AnalyticsWindow;
@@ -86,7 +90,7 @@ export default function AnalyticsConsent() {
       setReady(true);
     }} />}
     {(consent === "pending" || preferences) && <aside aria-label="Analytics preference" className="fixed bottom-4 left-4 right-4 z-[100] mx-auto max-w-xl rounded-xl border bg-bg-primary p-5 text-t-primary shadow-xl">
-      <p className="text-sm">Allow optional analytics to help us improve this website? We measure page visits and enquiry steps without sending your answers or contact details. <Link href="/privacy-policies" className="underline">Privacy policy</Link></p>
+      <p className="text-sm">Allow Google Analytics and Microsoft Clarity to help us improve this website? We measure visits, enquiry steps, heatmaps and masked session replays. Your form answers and contact details are masked in recordings. <Link href="/privacy-policies" className="underline">Privacy policy</Link></p>
       <div className="mt-3 flex flex-wrap gap-3"><button type="button" onClick={() => choose("granted")} className="rounded-lg bg-btn-primary px-4 py-2 text-btn-secondary">Allow analytics</button><button type="button" onClick={() => choose("denied")} className="rounded-lg border px-4 py-2">Decline</button>{preferences && <button type="button" onClick={() => setPreferences(false)} className="rounded-lg border px-4 py-2">Close</button>}</div>
     </aside>}
     {consent && consent !== "pending" && !preferences && <button type="button" onClick={() => setPreferences(true)} className="fixed bottom-2 right-2 z-50 rounded border bg-bg-primary px-2 py-1 text-xs text-t-primary">Analytics preferences</button>}

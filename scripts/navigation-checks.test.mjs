@@ -44,3 +44,16 @@ test("Company groups partner destinations under a non-navigation label", () => {
   assert.deepEqual(model.partners.map(({ name, href }) => ({ name, href })), [{ name: "DoctorHoster", href: "/partners/doctorhoster" }, { name: "Jotform", href: "/partners/jotform" }]);
   assert.ok(model.company.every((item) => !item.href.startsWith("/partners/")));
 });
+
+
+test("all languages link to the dedicated Team page and the three new services", () => {
+  const required=["/team","/services/voice-agent-development-services","/services/invoice-automation-services","/services/ai-receptionist-services"];
+  for(const file of files){const {navbar}=JSON.parse(fs.readFileSync(file,"utf8").replace(/^\uFEFF/,""));const links=flattenNavigation(navbar);for(const href of required)assert.equal(links.filter((link)=>link.href===href).length,1,file+": "+href);assert.ok(!links.some((link)=>link.href==="/#team"));}
+});
+
+test("new service pages have unique metadata, complete scope guides and real referenced assets", () => {
+  const pages=["ai_and_ml/voice_agents.json","ai_and_ml/ai_receptionist.json","workflow_automations/invoice_automation.json"].map((file)=>JSON.parse(fs.readFileSync("src/data/english_data/services/"+file,"utf8")));
+  assert.equal(new Set(pages.map((page)=>page.seo_metadata.title)).size,3);assert.equal(new Set(pages.map((page)=>page.seo_metadata.description)).size,3);
+  for(const page of pages){assert.ok(page.hero_section.title);for(const field of ["inputs","deliverables","acceptance"])assert.ok(page.buyer_guide[field].length>=3);assert.ok(page.faq_section.questions.length>=4);assert.ok(page.case_study_section.content.result.text.includes("not a published client result"));for(const asset of [page.hero_section.hero_image,page.introduction_section.side_image,page.what_you_get_section.image,page.case_study_section.image])assert.ok(fs.existsSync("public"+asset),asset);}
+  const company=JSON.parse(fs.readFileSync("src/data/company.json","utf8"));assert.equal(company.team.length,8);for(const person of company.team)assert.ok(fs.existsSync("public"+person.image),person.image);
+});

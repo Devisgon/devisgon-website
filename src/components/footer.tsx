@@ -1,243 +1,61 @@
 "use client";
 
-import { Mail, Phone } from "lucide-react";
+import { ArrowUpRight, Mail, Phone } from "lucide-react";
 import Image from "next/image";
-import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
+import { useEffect, useState } from "react";
 import FooterNewsletterForm from "@/components/footer_newsletter_form";
-import { findNavbarItemByHref, getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
-import { toSectionAnchor } from "@/lib/section-anchor";
+import { getFooterDataByLang, getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+import { buildNavigation, type NavigationItem } from "@/lib/navigation-model";
+import { getDiscoveryCallHref } from "@/lib/discovery-call";
+import { servicePriority } from "@/lib/service-priorities";
+import styles from "./footer.module.css";
 
-interface FooterLink {
-  name: string;
-  href: string;
-}
-
-interface FooterColumn {
-  title: string;
-  links: FooterLink[];
-}
-
-interface FooterCategory {
-  title: string;
-  links: FooterLink[];
-}
-
-const getCookieValue = (name: string): string | null => {
-  if (typeof document === "undefined") {
-    return null;
-  }
-
-  const token = `${name}=`;
-  const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
-  return match ? decodeURIComponent(match.slice(token.length)) : null;
+const copy: Record<string, { eyebrow: string; headline: string; call: string; resources: string; work: string; promise: string; directory: string }> = {
+  en: { eyebrow: "YOUR NEXT CHAPTER STARTS WITH A CONVERSATION.", headline: "Let’s build something useful.", call: "Book a discovery call", resources: "Resources", work: "Our work", promise: "AI agents, automations and software built around your business.", directory: "Explore our expertise" },
+  ur: { eyebrow: "اگلا قدم ایک گفتگو سے شروع ہوتا ہے۔", headline: "آئیں کچھ مفید بنائیں۔", call: "کال بک کریں", resources: "وسائل", work: "ہمارا کام", promise: "آپ کے کاروبار کے لیے اے آئی، آٹومیشن اور سافٹ ویئر۔", directory: "ہماری مہارت دیکھیں" },
+  ar: { eyebrow: "خطوتك التالية تبدأ بمحادثة.", headline: "لنبنِ شيئًا مفيدًا معًا.", call: "احجز مكالمة", resources: "الموارد", work: "أعمالنا", promise: "وكلاء الذكاء الاصطناعي والأتمتة والبرمجيات لأعمالك.", directory: "استكشف خبراتنا" },
+  fr: { eyebrow: "VOTRE PROCHAINE ÉTAPE COMMENCE PAR UNE CONVERSATION.", headline: "Créons quelque chose d’utile.", call: "Réserver un appel", resources: "Ressources", work: "Nos projets", promise: "Agents IA, automatisations et logiciels pour votre activité.", directory: "Explorer nos expertises" },
+  de: { eyebrow: "IHR NÄCHSTER SCHRITT BEGINNT MIT EINEM GESPRÄCH.", headline: "Lassen Sie uns etwas Nützliches bauen.", call: "Gespräch buchen", resources: "Ressourcen", work: "Unsere Projekte", promise: "KI-Agenten, Automatisierung und Software für Ihr Unternehmen.", directory: "Unsere Kompetenzen entdecken" },
+  es: { eyebrow: "TU PRÓXIMO PASO EMPIEZA CON UNA CONVERSACIÓN.", headline: "Construyamos algo útil.", call: "Reservar llamada", resources: "Recursos", work: "Nuestros proyectos", promise: "Agentes de IA, automatizaciones y software para tu negocio.", directory: "Explora nuestra experiencia" },
+  zh: { eyebrow: "下一步，从一次交流开始。", headline: "一起打造实用的产品。", call: "预约沟通", resources: "资源", work: "我们的项目", promise: "围绕您的业务构建 AI 智能体、自动化和软件。", directory: "探索我们的专业服务" },
 };
-
-const getInitialLanguage = () => normalizeLanguage(getCookieValue("lang"));
-
-const linkClass =
-  "cursor-pointer text-sm font-medium text-t-secondary underline-offset-4 transition-colors hover:text-btn-primary hover:underline md:text-base";
-
-const serviceCategoryAnchors = [
-  "ai-and-ml-development",
-  "workflow-automation",
-  "cloud-and-architecture",
-  "data-solutions",
-  "design-and-analysis",
-  "",
-  "web-and-saas-development",
-];
-
-const getCategoryHref = (
-  baseHref: string | undefined,
-  category: FooterCategory,
-  index: number,
-  categoryAnchors?: string[],
-) => {
-  if (!baseHref) {
-    return "#";
-  }
-
-  if (categoryAnchors && index in categoryAnchors) {
-    return categoryAnchors[index] ? `${baseHref}#${categoryAnchors[index]}` : baseHref;
-  }
-
-  return `${baseHref}#${toSectionAnchor(category.title)}`;
-};
-
-const FooterStaticColumn = ({ title, links }: FooterColumn) => (
-  <div className="flex flex-col items-start">
-    <h3 className="mb-5 text-xl font-bold text-t-primary">{title}</h3>
-    <ul className="flex flex-col gap-3">
-      {links.map((link) => (
-        <li key={`${title}-${link.href}-${link.name}`}>
-          <a href={link.href} className={linkClass}>
-            {link.name}
-          </a>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-const FooterCategoryColumn = ({
-  title,
-  categories,
-  baseHref,
-  categoryAnchors,
-}: {
-  title: string;
-  categories: FooterCategory[];
-  baseHref?: string;
-  categoryAnchors?: string[];
-}) => {
-  const directLinks = categories.length === 1 && !categories[0].title ? categories[0].links : null;
-
-  return (
-    <div className="flex flex-col items-start">
-      <h3 className="mb-5 text-xl font-bold text-t-primary">{title}</h3>
-
-      {directLinks ? (
-        <ul className="flex flex-col gap-3">
-          {directLinks.map((link) => (
-            <li key={`${title}-${link.href}`}>
-              <a href={link.href} className={linkClass}>
-                {link.name}
-              </a>
-            </li>
-          ))}
-        </ul>
-      ) : (
-        <ul className="flex flex-col gap-3">
-          {categories.map((category, index) => (
-            <li key={`${title}-${category.title}`}>
-              <a
-                href={getCategoryHref(baseHref, category, index, categoryAnchors)}
-                className={linkClass}
-              >
-                {category.title}
-              </a>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-};
-
-const Footer = () => {
-  const [currentLang, setCurrentLang] = useState(getInitialLanguage);
-
+function unique(items: NavigationItem[]) { return items.filter((item,index) => items.findIndex((other) => other.href === item.href) === index); }
+function FooterLinks({ items }: { items: NavigationItem[] }) {
+  return <ul className={styles.links}>{items.map((item) => <li key={item.href}><Link href={item.href === "#about" ? "/#about" : item.href}>{item.name}</Link></li>)}</ul>;
+}
+export default function Footer() {
+  const [language, setLanguage] = useState("en");
   useEffect(() => {
-    const syncLanguageFromCookie = () => {
-      setCurrentLang(normalizeLanguage(getCookieValue("lang")));
-    };
-
-    syncLanguageFromCookie();
-    window.addEventListener("app-language-change", syncLanguageFromCookie);
-    return () => window.removeEventListener("app-language-change", syncLanguageFromCookie);
+    function sync() {
+      const cookie = document.cookie.split(";").map((value) => value.trim()).find((value) => value.startsWith("lang="));
+      try { setLanguage(normalizeLanguage(cookie ? decodeURIComponent(cookie.slice(5)) : "en")); } catch { setLanguage("en"); }
+    }
+    sync(); window.addEventListener("app-language-change",sync);
+    return () => window.removeEventListener("app-language-change",sync);
   }, []);
-
-  const footerData = useMemo(() => getFooterDataByLang(currentLang), [currentLang]);
-  const navbarData = useMemo(() => getNavbarDataByLang(currentLang), [currentLang]);
-  const isRTL = currentLang === "ur" || currentLang === "ar";
-  const footerColumns = footerData.columns as FooterColumn[];
-  const companyColumn = footerColumns.find((column) => column.title.toLowerCase().includes("company")) ?? footerColumns[0];
-  const helpColumn = footerColumns.find((column) => column.title.toLowerCase().includes("help")) ?? footerColumns[1];
-  const newsletterColumn =
-    footerColumns.find((column) => column.title.toLowerCase().includes("newsletter")) ?? footerColumns[2];
-  const legalLinks = helpColumn.links.filter((link) => link.href.includes("privacy") || link.href.includes("terms"));
-  const servicesNav = findNavbarItemByHref(navbarData, "/services");
-  const industriesNav = findNavbarItemByHref(navbarData, "/industries");
-  const technologiesNav = findNavbarItemByHref(navbarData, "/technologies");
-  const partnersNav = navbarData.navbar.find((item) => item.name.toLowerCase().includes("partner"));
-  const aboutNav = navbarData.navbar.find((item) => item.href === "/#about");
-  const servicesCategories = servicesNav?.dropdown?.columns ?? [];
-  const industriesCategories = industriesNav?.dropdown?.columns ?? [];
-  const technologiesCategories = technologiesNav?.dropdown?.columns ?? [];
-  const partnersCategories = partnersNav?.dropdown?.columns ?? [];
-  const aboutLinks = aboutNav?.dropdown?.columns.flatMap((column) => column.links) ?? [];
-
-  return (
-    <footer
-      className="bg-bg-primary px-6 pb-4 pt-14 text-primary md:px-12 lg:px-20"
-      dir={isRTL ? "rtl" : "ltr"}
-      suppressHydrationWarning
-    >
-      <div className="flex w-full flex-col gap-10">
-        <div className="grid grid-cols-1 gap-x-10 gap-y-10 lg:grid-cols-4">
-          <div className="flex flex-col items-start gap-7">
-            <div>
-              <Image src="/logo/logo.webp" alt="logo" width={240} height={80} className="w-60 h-auto dark:hidden" />
-              <Image src="/logo/dark_logo.webp" alt="logo" width={240} height={80} className="hidden w-60 h-auto dark:block" />
-            </div>
-
-            <div className="flex flex-col gap-4 text-start text-md font-medium text-t-primary opacity-80">
-              <a
-                href="mailto:info@devisgon.com"
-                className="group flex items-center gap-3 transition-all duration-300 hover:text-[#8B3DFF]"
-              >
-                <Mail size={20} className="transition-transform group-hover:scale-110" />
-                <span className="border-[#8B3DFF] group-hover:border-b-2">info@devisgon.com</span>
-              </a>
-
-              <a
-                href="tel:+923316944411"
-                className="group flex items-center gap-3 transition-all duration-300 hover:text-[#8B3DFF]"
-              >
-                <Phone size={20} className="transition-transform group-hover:scale-110" />
-                <span className="border-[#8B3DFF] group-hover:border-b-2">+92 331 6944411</span>
-              </a>
-            </div>
-
-          </div>
-
-          <FooterStaticColumn title={companyColumn.title} links={companyColumn.links} />
-          {aboutLinks.length > 0 && <FooterStaticColumn title={aboutNav?.name ?? "About"} links={aboutLinks} />}
-
-          <div className="hidden flex-col items-start lg:flex">
-            <h3 className="mb-5 text-xl font-bold text-t-primary">{newsletterColumn.title}</h3>
-            <FooterNewsletterForm lang={currentLang} />
-          </div>
-        </div>
-
-        <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 lg:grid-cols-4">
-          <FooterCategoryColumn
-            title={servicesNav?.name ?? "Services"}
-            categories={servicesCategories}
-            baseHref="/services"
-            categoryAnchors={serviceCategoryAnchors}
-          />
-          <FooterCategoryColumn
-            title={industriesNav?.name ?? "Industries"}
-            categories={industriesCategories}
-            baseHref="/industries"
-          />
-          <FooterCategoryColumn
-            title={technologiesNav?.name ?? "Technologies"}
-            categories={technologiesCategories}
-            baseHref="/technologies"
-          />
-          <FooterCategoryColumn title={partnersNav?.name ?? "Partners"} categories={partnersCategories} />
-        </div>
-
-        <div className="flex flex-col items-start lg:hidden">
-          <h3 className="mb-5 text-xl font-bold text-t-primary">{newsletterColumn.title}</h3>
-          <FooterNewsletterForm lang={currentLang} />
-        </div>
-
-        <div className="flex flex-col gap-3 border-t border-t-[#D1AFEC] px-0 py-4 text-sm text-t-primary dark:border-[#664282] md:flex-row md:items-center md:justify-between">
-          <p>{footerData.copyright}</p>
-          <div className="flex flex-wrap gap-x-5 gap-y-2 md:justify-end">
-            {legalLinks.map((link) => (
-              <a key={`${link.href}-${link.name}`} href={link.href} className={linkClass}>
-                {link.name}
-              </a>
-            ))}
-          </div>
-        </div>
+  const data = getFooterDataByLang(language);
+  const navigation = getNavbarDataByLang(language).navbar;
+  const model = buildNavigation(navigation);
+  const processLink = navigation.find((item) => item.href === "/our-process");
+  const text = copy[language] ?? copy.en;
+  const company = data.columns[0];
+  const help = data.columns[1];
+  const newsletter = data.columns[2];
+  const legal = help.links.filter((item) => /privacy|terms/.test(item.href));
+  const companyLinks = unique([...model.company, ...(processLink ? [processLink] : []), ...company.links, ...help.links.filter((item) => !/privacy|terms/.test(item.href))].map((item) => ({ ...item, href: item.href === "#about" ? "/#about" : item.href })));
+  const priorities = model.catalogs[0].groups.flatMap((group) => group.links).sort((a,b) => servicePriority(a.href)-servicePriority(b.href)).slice(0,5);
+  return <footer className={styles.footer} dir={language === "ar" || language === "ur" ? "rtl" : "ltr"}>
+    <div className={styles.inner}>
+      <div className={styles.invitation}><div><p>{text.eyebrow}</p><h2>{text.headline}</h2></div><Link href={getDiscoveryCallHref()} className={styles.call}>{text.call}<ArrowUpRight size={18} /></Link></div>
+      <div className={styles.mainGrid}>
+        <div className={styles.brand}><Link href="/" aria-label="Devisgon home"><Image src="/logo/dark_logo.webp" alt="Devisgon" width={240} height={80} sizes="200px" /></Link><p>{text.promise}</p><a href="mailto:info@devisgon.com"><Mail size={15} />info@devisgon.com</a><a href="tel:+923316944411"><Phone size={15} />+92 331 6944411</a><div className={styles.priorityLinks}>{priorities.map((item) => <Link key={item.href} href={item.href}>{item.name}</Link>)}</div></div>
+        <div><h3>{company.title}</h3><FooterLinks items={companyLinks} /></div>
+        <div><h3>{text.resources}</h3><FooterLinks items={unique([{ name: text.work, href: "/our-work" }, ...model.resources, { name: "Automation ROI", href: "/tools/automation-roi" }])} /><h3 className={styles.partnerTitle}>{model.partnerHeading}</h3><FooterLinks items={model.partners} /></div>
+        <div className={styles.newsletter}><h3>{newsletter.title}</h3><FooterNewsletterForm lang={language} /></div>
       </div>
-    </footer>
-  );
-};
-
-export default Footer;
+      <div className={styles.directory}><p>{text.directory}</p><div className={styles.directoryGrid}>{model.catalogs.map((catalog) => <details key={catalog.id}><summary>{catalog.name}<span aria-hidden="true">+</span></summary><Link className={styles.viewAll} href={catalog.href}>{catalog.name}<ArrowUpRight size={13} /></Link>{catalog.groups.map((group) => <div key={group.title} className={styles.catalogGroup}><h4>{group.title}</h4><FooterLinks items={group.links} /></div>)}</details>)}</div></div>
+      <div className={styles.legal}><p>© {new Date().getFullYear()} Devisgon Pvt. Ltd.</p><div>{legal.map((item) => <Link key={item.href} href={item.href}>{item.name}</Link>)}</div></div>
+    </div>
+  </footer>;
+}

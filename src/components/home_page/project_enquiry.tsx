@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState, type FormEvent } from "react";
 import Link from "next/link";
-import { ArrowRight, ArrowUpRight, Bot, Check, Code2, Globe2, Layers3, MessageSquare, Search, Smartphone, Workflow } from "lucide-react";
+import { ArrowRight, ArrowUpRight, Bot, Check, Code2, Globe2, Layers3, MessageSquare, Search, Smartphone, Workflow, Phone, FileText, Headset } from "lucide-react";
 import InquiryProtection from "@/components/inquiry_protection";
 import { trackInquiryEvent } from "@/lib/analytics";
 import { COUNTRY_OPTIONS } from "@/lib/inquiry-options";
@@ -10,7 +10,7 @@ import { EMPTY_ENQUIRY, ENQUIRY_SERVICES, ENQUIRY_STEPS, PROJECT_BUDGETS, PROJEC
 import { getDiscoveryCallHref } from "@/lib/discovery-call";
 import styles from "./conversion_home.module.css";
 
-const icons = [Bot, Workflow, Layers3, Code2, Globe2, Smartphone, Search, MessageSquare, ArrowUpRight];
+const icons = [Bot, Phone, Headset, Workflow, FileText, Layers3, Code2, Globe2, Smartphone, Search, MessageSquare, ArrowUpRight];
 const questions = ["What are you looking to build?", "What does your project look like?", "What budget and timing work for you?", "How can we reach you?", "Ready to send your project brief?"];
 const hints = ["Choose your main focus. We can discuss other needs together.", "A few details help us understand the right starting point.", "Estimates are fine. This helps us propose a realistic scope.", "We’ll use these details to follow up on your enquiry.", "Check your answers. You can edit any section before sending."];
 

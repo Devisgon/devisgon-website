@@ -7,7 +7,7 @@ import vm from "node:vm";
 import { JSDOM } from "jsdom";
 import { build } from "esbuild";
 import { EMPTY_ENQUIRY, enquiryStepError } from "../src/lib/project-enquiry.ts";
-import { CONSENT_BOOTSTRAP, GA4_MEASUREMENT_ID, analyticsPageUrl } from "../src/lib/analytics-config.ts";
+import { ANALYTICS_CONSENT_KEY, CLARITY_PROJECT_ID, CONSENT_BOOTSTRAP, GA4_MEASUREMENT_ID, analyticsPageUrl } from "../src/lib/analytics-config.ts";
 
 const complete = { serviceName: "AI & agents", projectType: "New project", projectSize: "MVP / first version", projectDetail: "Connect our support knowledge to an AI assistant.", budget: "$10,000–$25,000", timeline: "1–3 months", country: "United States", name: "Test Customer", email: "customer@example.com", phone: "+1 555 123 4567" };
 
@@ -26,14 +26,19 @@ test("Google consent defaults to denied before tagging and strips queries from p
   assert.equal(command[0], "consent"); assert.equal(command[1], "default");
   assert.ok(Object.values(command[2]).every((state) => state === "denied"));
   assert.equal(GA4_MEASUREMENT_ID, "G-VYTLPTGT2N");
+  const clarityCommand = Array.from(context.window.clarity.q[0]);
+  assert.equal(clarityCommand[0], "consentv2");
+  assert.equal(clarityCommand[1].analytics_Storage, "denied");
+  assert.equal(clarityCommand[1].ad_Storage, "denied");
   assert.equal(analyticsPageUrl("https://www.devisgon.com/contact?email=private@example.com#private"), "https://www.devisgon.com/contact");
   assert.equal(analyticsPageUrl(""), "");
 });
 
 async function componentModule(entry) {
   const result = await build({ entryPoints: [entry], bundle: true, write: false, platform: "node", format: "esm", jsx: "automatic", external: ["react", "react/jsx-runtime", "lucide-react"], plugins: [{ name: "render-without-next-runtime", setup(builder) {
-    builder.onResolve({ filter: /^(next\/link|next\/script|next\/navigation)$/ }, ({ path }) => ({ path, namespace: "ui-test" }));
+    builder.onResolve({ filter: /^(next\/link|next\/image|next\/script|next\/navigation)$/ }, ({ path }) => ({ path, namespace: "ui-test" }));
     builder.onLoad({ filter: /.*/, namespace: "ui-test" }, ({ path }) => ({ loader: "js", contents: path === "next/navigation" ? 'export const usePathname=()=>globalThis.__testPath || "/";'
+      : path === "next/image" ? 'import React from "react";export default function Image({src,alt,...props}){return React.createElement("img",{src,alt,...props})}'
       : path === "next/link" ? 'import React from "react"; export default function Link(props){return React.createElement("a",props)}'
       : 'import React,{useEffect} from "react";export default function Script(props){useEffect(()=>{props.onReady?.()},[]);return React.createElement("script",{id:props.id,src:props.src})}' }));
     builder.onLoad({ filter: /\.module\.css$/ }, () => ({ contents: 'export default new Proxy({}, {get:(_,key)=>key});', loader: "js" }));
@@ -44,6 +49,19 @@ async function componentModule(entry) {
   await fs.writeFile(file, result.outputFiles[0].text);
   try { return await import(pathToFileURL(file).href); } finally { await fs.unlink(file); }
 }
+
+test("new service FAQs render their questions and contact footer without runtime errors", async () => {
+  const React = await import("react");
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { default: Faq } = await componentModule("src/components/sub_services_pages/faq.tsx");
+  for (const file of ["ai_and_ml/voice_agents.json", "ai_and_ml/ai_receptionist.json", "workflow_automations/invoice_automation.json"]) {
+    const page = JSON.parse(await fs.readFile("src/data/english_data/services/" + file, "utf8"));
+    const html = renderToStaticMarkup(React.createElement(Faq, { data: page.faq_section }));
+    assert.ok(html.includes(page.faq_section.questions[0].question));
+    assert.match(html, /href="\/contact"/);
+    assert.match(html, /Discuss your project/);
+  }
+});
 
 // This exercises the real React components, with only framework routing/script
 // loading stubbed. No real enquiries or analytics network requests are sent.
@@ -57,7 +75,7 @@ test("wizard keeps Back answers, sends the entire brief, retains failed submissi
   const React = await import("react"); const { createRoot } = await import("react-dom/client"); const { act } = React;
   const { default: Form } = await componentModule("src/components/home_page/project_enquiry.tsx");
   const root = createRoot(document.getElementById("root"));
-  const events = []; window.localStorage.setItem("devisgon-analytics-consent", "granted"); window.gtag = (...args) => events.push(args);
+  const events = []; window.localStorage.setItem(ANALYTICS_CONSENT_KEY, "granted"); window.gtag = (...args) => events.push(args);
   let payload; let accepted = false;
   globalThis.fetch = async (_url, options) => { payload = JSON.parse(options.body); return new Response(JSON.stringify({ success: accepted }), { status: accepted ? 200 : 502 }); };
   const click = async (element) => act(async () => { element.click(); });
@@ -106,6 +124,8 @@ test("GA4 stays blocked until consent, configures once and sends one safe page v
     assert.equal(document.querySelector("script"),null);
     await act(async()=>document.querySelector('[aria-label="Analytics preference"] button').click());
     assert.equal(document.querySelectorAll('script[src*="googletagmanager"]').length,1);
+    assert.equal(document.querySelectorAll(`script[src="https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}"]`).length,1);
+    assert.ok(Array.from(window.clarity.q).some((item)=>item[0]==="consentv2" && item[1].analytics_Storage==="granted" && item[1].ad_Storage==="denied"));
     assert.equal(commands.filter((item)=>item[0]==="config").length,1);
     assert.equal(commands.find((item)=>item[0]==="config")[1],GA4_MEASUREMENT_ID);
     assert.equal(commands.filter((item)=>item[1]==="page_view").length,1);
@@ -115,4 +135,40 @@ test("GA4 stays blocked until consent, configures once and sends one safe page v
     assert.ok(commands.every((item)=>!JSON.stringify(item).includes("private=")));
     assert.ok(commands.every((item)=>!JSON.stringify(item).includes("private@example.com")));
   } finally { await act(async()=>root.unmount()); dom.window.close();delete globalThis.__testPath;globals.forEach((key,index)=>{if(previous[index]) Object.defineProperty(globalThis,key,previous[index]);else delete globalThis[key];}); }
+});
+
+
+test("culture gallery opens all photos, wraps navigation, restores focus and closes with Escape", async () => {
+  const dom = new JSDOM('<div id="root"></div>', { url: "https://www.devisgon.com/team" });
+  const globals = ["window", "document", "navigator", "HTMLElement", "Element", "IS_REACT_ACT_ENVIRONMENT"];
+  const previous = globals.map((key)=>Object.getOwnPropertyDescriptor(globalThis,key));
+  for (const key of globals.slice(0,5)) Object.defineProperty(globalThis,key,{value:dom.window[key],writable:true,configurable:true});
+  globalThis.IS_REACT_ACT_ENVIRONMENT=true;
+  window.HTMLDialogElement.prototype.showModal=function(){this.open=true};window.HTMLDialogElement.prototype.close=function(){this.open=false};
+  const React=await import("react");const {createRoot}=await import("react-dom/client");const {act}=React;
+  const {default:Gallery}=await componentModule("src/components/culture_gallery.tsx");
+  const root=createRoot(document.getElementById("root"));
+  try {
+    await act(async()=>root.render(React.createElement(Gallery,{title:"Test album",photos:[{src:"/one.jpg",alt:"First"},{src:"/two.jpg",alt:"Second"}]})));
+    const opener=document.querySelector('button[aria-label="View photo 1: First"]');
+    await act(async()=>opener.click());assert.equal(document.querySelector("dialog").open,true);assert.equal(document.body.style.overflow,"hidden");
+    await act(async()=>document.querySelector('button[aria-label="Next photo"]').click());assert.match(document.querySelector("dialog").textContent,/2 \/ 2/);
+    await act(async()=>document.querySelector("dialog").dispatchEvent(new window.KeyboardEvent("keydown",{key:"ArrowRight",bubbles:true})));assert.match(document.querySelector("dialog").textContent,/1 \/ 2/);
+    await act(async()=>document.querySelector("dialog").dispatchEvent(new window.Event("cancel",{bubbles:true,cancelable:true})));assert.equal(document.querySelector("dialog").open,false);assert.equal(document.activeElement,opener);assert.equal(document.body.style.overflow,"");
+  } finally {await act(async()=>root.unmount());dom.window.close();globals.forEach((key,index)=>{if(previous[index])Object.defineProperty(globalThis,key,previous[index]);else delete globalThis[key];});}
+});
+
+
+test("modern footer keeps the full English catalogue reachable and renders one masked labelled newsletter form", async () => {
+  const React=await import("react");const {renderToStaticMarkup}=await import("react-dom/server");
+  const {default:Footer}=await componentModule("src/components/footer.tsx");
+  const html=renderToStaticMarkup(React.createElement(Footer));
+  const dom=new JSDOM(html);
+  try {
+    const source=JSON.parse(await fs.readFile("src/data/navbar.json","utf8"));
+    function flatten(items){return items.flatMap((item)=>[item,...flatten(item.dropdown?.columns.flatMap((column)=>column.links)||[])])}
+    const hrefs=new Set([...dom.window.document.querySelectorAll("a")].map((link)=>link.getAttribute("href")));
+    for(const item of flatten(source.navbar))assert.ok(hrefs.has(item.href),item.href);
+    const forms=dom.window.document.querySelectorAll("form");assert.equal(forms.length,1);assert.equal(forms[0].getAttribute("data-clarity-mask"),"true");assert.ok(dom.window.document.querySelector('label[for="footer-newsletter-email"]'));
+  } finally {dom.window.close();}
 });

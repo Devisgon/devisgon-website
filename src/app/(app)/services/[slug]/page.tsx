@@ -12,6 +12,7 @@ import KeyBenefitsSection from "@/components/sub_services_pages/key_benefits";
 import Progress from "@/components/sub_services_pages/process_section";
 import Technalogies from "@/components/sub_services_pages/technalogies";
 import WhatYouGetSection from "@/components/sub_services_pages/what_we_do";
+import { workflowData as demandServicesData } from "@/data/loaders/demand-services";
 import { workflowData as aiMlData } from "@/data/loaders/ai_ml";
 import { workflowData as cloudData } from "@/data/loaders/cloud";
 import { workflowData as dataSolutionsData } from "@/data/loaders/data_solutions";
@@ -32,6 +33,7 @@ type PageProps = {
 type ServiceDetailData = any;
 
 const SERVICE_DATASETS: Array<Record<string, Record<string, ServiceDetailData>>> = [
+  demandServicesData,
   aiMlData,
   workflowAutomationsData,
   cloudData,

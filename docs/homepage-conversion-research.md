@@ -46,7 +46,7 @@ Answers remain in React state through Back/Edit and failed requests. They are no
 - In **GA4 Admin > Data streams > Devisgon > Enhanced measurement**, turn off automatic **Form interactions** and **Outbound clicks** because this site measures its own funnel. Under **Page views > Advanced settings**, turn off **Page changes based on browser history events**. The site already sends route pageviews. This avoids double counting and ambiguous automatic form leads.
 - Mark **generate_lead** as a key event. Leave `booking_link_click` separate. Confirm actual booked meetings with Calendly/CRM webhooks and closed clients with CRM records; those connections are a separate task.
 - After production deployment, open the website, allow analytics and check **GA4 Realtime** or Tag Assistant for the supplied measurement ID and a pageview. Navigate once and expect one further pageview. Decline on a fresh visit and expect no external GA4 script. Automatic reporting may lag; a build/test cannot prove receipt by the GA4 account.
-- Clarity needs the owner's project ID before it can be activated. There is no second Google tag or Tag Manager container added.
+- Clarity project `yrindogf01` is now supplied and integrated; see `docs/team-culture-analytics-release.md` for consent/masking and account verification. There is no second Google tag or Tag Manager container added.
 
 ## Validation
 

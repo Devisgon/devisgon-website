@@ -1,4 +1,4 @@
-export const ENQUIRY_SERVICES = ["AI & agents", "Automation", "AI-powered app / SaaS", "Web app", "Website", "Mobile app", "SEO & marketing", "Consultancy", "Other"];
+export const ENQUIRY_SERVICES = ["AI & agents", "Voice agents", "AI receptionist", "Automation", "Invoice automation", "AI-powered app / SaaS", "Web app", "Website", "Mobile app", "SEO & marketing", "Consultancy", "Other"];
 export const PROJECT_TYPES = ["New project", "Improve an existing product", "Fix or rescue a project", "Ongoing support", "Help me decide"];
 export const PROJECT_SIZES = ["One workflow or feature", "MVP / first version", "Full product or platform", "Multiple systems / enterprise", "Not sure yet"];
 export const PROJECT_BUDGETS = ["Under $5,000", "$5,000–$10,000", "$10,000–$25,000", "$25,000–$50,000", "$50,000+", "Need help estimating"];

@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import PrioritySpecialists from "@/components/services_page/priority_specialists";
 import Hero from "@/components/services_page/hero";
 import Service from '@/components/services_page/services';
 import ServicesCtaSection from "@/components/services_page/cta_section";
@@ -47,6 +48,7 @@ export default async function Services() {
     <>
       <Header />
       <Hero data={herosection} />
+      <PrioritySpecialists />
       <Service data={services} />
       <ServicesCtaSection data={ctaSection} consultationHref={consultationHref} />
       <Footer />

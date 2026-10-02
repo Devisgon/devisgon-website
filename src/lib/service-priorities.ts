@@ -1,6 +1,9 @@
 // Commercial priorities set by Devisgon; canonical routes stay stable.
 export const PRIORITY_SERVICE_PATHS = [
   "/services/ai-agent-development-automation-services",
+  "/services/voice-agent-development-services",
+  "/services/ai-receptionist-services",
+  "/services/invoice-automation-services",
   "/services/ai-powered-business-automation-services",
   "/services/business-process-automation-services",
   "/services/ai-software-development-automation-services",
