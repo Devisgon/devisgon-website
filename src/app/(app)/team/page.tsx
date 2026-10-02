@@ -5,19 +5,27 @@ import Header from "@/components/navbar";
 import Footer from "@/components/footer";
 import { companyContent } from "@/lib/company-content";
 import { getJsonSeoMetadata } from "@/lib/seo";
+import { getCachedLanguage } from "@/lib/language";
+import { localizeContentTree } from "@/lib/content-language";
+import LocalizedText from "@/components/localized_text";
 import styles from "./team.module.css";
 
 const PROFILE_ICONS = { website: Globe, email: Mail, linkedin: Linkedin, facebook: Facebook, instagram: Instagram } as const;
 
-export const metadata = getJsonSeoMetadata({ title: "Meet the Team & Culture | Devisgon", description: "Meet Devisgon's leadership and engineering team. Explore our company culture, celebrations and careers in AI, automation, design and software development." }, {}, "/team");
+export async function generateMetadata() {
+  const lang = await getCachedLanguage();
+  const seo = await localizeContentTree({ title: "Meet the Team & Culture | Devisgon", description: "Meet Devisgon's leadership and engineering team. Explore our company culture, celebrations and careers in AI, automation, design and software development." }, lang);
+  return getJsonSeoMetadata(seo, {}, "/team");
+}
 
-export default function TeamPage() {
-  return <><Header /><div className={styles.page}>
+export default async function TeamPage() {
+  const lang = await getCachedLanguage();
+  return <><Header /><LocalizedText lang={lang}><div className={styles.page}>
     <section className={styles.hero}><p className={styles.eyebrow}>PEOPLE. IDEAS. SHARED AMBITION.</p><h1>The people behind<br /><span>your next big step.</span></h1><p>Engineers, automation specialists and designers bringing practical technology to life. Get to know our leadership, our team and life at Devisgon.</p><nav className={styles.sectionNav} aria-label="Team page sections"><a href="#leadership">Leadership</a><a href="#meet-the-team">Meet our team</a><a href="#culture">Our culture</a><a href="#join-the-team">Join the team<ArrowUpRight size={14} /></a></nav></section>
     <section id="leadership" className={styles.section} aria-labelledby="leadership-heading"><div className={styles.sectionHead}><div><p className={styles.eyebrow}>LEADERSHIP / 01</p><h2 id="leadership-heading">A shared vision.<br /><span>Business and technology, together.</span></h2></div></div><div className={styles.leaders}>{companyContent.leadership.map((person) => <article key={person.id} id={person.id} className={`${styles.leader} ${person.id === "cto" ? styles.leaderReverse : ""}`}><div className={styles.leaderCopy}><p className={styles.eyebrow}>A MESSAGE FROM OUR {person.id.toUpperCase()}</p><p className={styles.leaderMessage}>{person.message}</p><h3>{person.name}</h3><p className={styles.role}>{person.designation}</p><div className={styles.profileLinks} role="group" aria-label={`${person.name} profile links`}>{person.links.map((profile) => { const Icon = PROFILE_ICONS[profile.icon as keyof typeof PROFILE_ICONS]; return <a key={profile.label} className={styles.profileLink} href={profile.href} target="_blank" rel="noopener noreferrer" aria-label={`${person.name} — ${profile.label}`} title={profile.label}><Icon size={18} aria-hidden="true" /></a>; })}</div></div><div className={styles.leaderPortrait}>{person.image ? <Image src={person.image} alt={person.name} width={640} height={700} sizes="(max-width: 800px) 90vw, 45vw" className={styles.portrait} /> : <div className={styles.portraitPlaceholder} aria-label={`${person.name}, portrait coming soon`}><span>ASM</span><p>Abdullah Sher Muhammad</p></div>}</div></article>)}</div></section>
     <section id="meet-the-team" className={`${styles.section} ${styles.teamSection}`} aria-labelledby="team-heading"><div className={styles.sectionHead}><div><p className={styles.eyebrow}>MEET OUR TEAM / 02</p><h2 id="team-heading">Different skills.<br /><span>One delivery team.</span></h2></div><p>From the first design decision to the final deployment, our people bring the work together.</p></div><div className={styles.teamGrid}>{companyContent.team.map((person) => <article key={person.id} className={styles.member} tabIndex={0} aria-label={`${person.name}, ${person.designation}`}><div className={styles.memberPortrait}><Image src={person.image} alt={`${person.name} — ${person.designation}`} fill sizes="(max-width: 560px) 42vw, (max-width: 1000px) 22vw, 12vw" /><div className={styles.memberOverlay}><h3>{person.name}</h3><p>{person.designation}</p></div></div></article>)}</div></section>
     <section id="culture" className={styles.section} aria-labelledby="culture-heading"><div className={styles.sectionHead}><div><p className={styles.eyebrow}>LIFE AT DEVISGON / 03</p><h2 id="culture-heading">Good work.<br /><span>Great moments together.</span></h2></div><p>Festivals, shared meals and company milestones. Open an album to browse every photograph.</p></div><div className={styles.albumGrid}>{companyContent.albums.map((album, index) => <Link key={album.slug} href={`/team/culture/${album.slug}`} className={styles.album}><div className={`${styles.albumCover} ${styles[`albumCover${index}`]}`}>{album.photos[0] ? <Image src={album.photos[0].src} alt={album.photos[0].alt} fill sizes="(max-width: 800px) 90vw, 30vw" /> : <><Camera size={32} strokeWidth={1.2} /><span>{album.title}</span><small>Photos coming soon</small></>}</div><div className={styles.albumCopy}><p>{album.category}</p><h3>{album.title}<ArrowUpRight size={18} /></h3><span>{album.photos.length ? `${album.photos.length} photos · View album` : "Explore album"}</span></div></Link>)}</div></section>
     <section id="join-the-team" className={styles.join}><div><p className={styles.eyebrow}>MAKE YOUR NEXT MOVE.</p><h2>Build your future.<br /><span>Build it with us.</span></h2><p>Explore opportunities across software engineering, AI, automation and design.</p></div><Link href="/get-started" className={styles.lightButton}><BriefcaseBusiness size={18} />Join the team<ArrowUpRight size={19} /></Link></section>
     <section className={styles.teamFooter}><Users size={19} /><p>Have a project for our team?</p><Link href="/contact">Let’s talk<ArrowRight size={17} /></Link></section>
-  </div><Footer /></>;
+  </div></LocalizedText><Footer /></>;
 }

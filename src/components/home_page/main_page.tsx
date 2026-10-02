@@ -1,20 +1,5 @@
-import { Suspense } from "react";
 import { getCachedLanguage } from "@/lib/language";
-
-import Hero from "@/components/home_page/hero_section";
-import Services from "@/components/home_page/services_section";
-import ExpertServicesSection from "@/components/home_page/expert_services_section";
-import DeferredSections from "@/components/home_page/deferred_sections";
-import PriorityOffers from "@/components/home_page/priority_offers";
 import ConversionHome from "@/components/home_page/conversion_home";
-
-import type { HeroSectionData } from "@/types/homepage/hero";
-import type { ServicesSectionData } from "@/types/homepage/services";
-import type { ExpertServicesData } from "@/types/homepage/expert_services";
-import type { SolutionsSectionData } from "@/types/homepage/solution";
-import type { ProcessSectionData } from "@/types/homepage/process";
-import type { CEOData } from "@/types/homepage/ceo";
-import type { TeamMember } from "@/types/homepage/team";
 
 import homeEn from '@/data/english_data/home_page.json';
 import homeUr from '@/data/urdu_data/home_page.json';
@@ -24,39 +9,16 @@ import homeZh from '@/data/chinese_data/home_page.json';
 import homeDe from '@/data/german_data/home_page.json';
 import homeEs from '@/data/spanish_data/home_page.json';
 
-/* eslint-disable @typescript-eslint/no-explicit-any */
-const langMap: Record<string, any> = {
+const langMap: Record<string, typeof homeEn> = {
   en: homeEn, ur: homeUr, ar: homeAr,
   fr: homeFr, zh: homeZh, de: homeDe, es: homeEs,
 };
 
 export default async function Home() {
   const lang = await getCachedLanguage();
-  if (lang === "en") return <ConversionHome />;
   const t = langMap[lang] ?? langMap['en'];
 
-  const heroSection        = t.hero_section          as HeroSectionData;
-  const servicesSection    = t.services_section      as ServicesSectionData;
-  const expertServicesSection = t.expert_services_section as ExpertServicesData;
-  const solutionsSection   = t.solutions_section     as SolutionsSectionData;
-  const workingProcess     = t.working_process       as ProcessSectionData;
-  const ceoMessageSection  = t.ceo_message_section   as CEOData;
-  const teamMembers        = (t.teamMembers?.team ?? []) as TeamMember[];
-
-  return (
-    <main id="main-content">
-      <Hero data={heroSection} />
-      {lang === "en" && <PriorityOffers />}
-      <Services data={servicesSection} />
-      <ExpertServicesSection data={expertServicesSection} />
-      <Suspense fallback={<div className="py-12" />}>
-        <DeferredSections
-          solutionsSection={solutionsSection}
-          workingProcess={workingProcess}
-          ceoMessageSection={ceoMessageSection}
-          teamMembers={teamMembers}
-        />
-      </Suspense>
-    </main>
-  );
+  // Keep one homepage layout for every supported language. Copy continues to
+  // come from the language-specific dataset already used by the legacy page.
+  return <ConversionHome lang={lang} homeCopy={t} />;
 }

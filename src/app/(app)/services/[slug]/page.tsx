@@ -23,6 +23,7 @@ import { workflowData as workflowAutomationsData } from "@/data/loaders/workflow
 import { getCachedLanguage } from "@/lib/language";
 import { getJsonSeoMetadata, getServicePageStructuredData, getServiceSlugMetadata } from "@/lib/seo";
 import { toCanonicalSlug } from "@/lib/slugs";
+import { localizeContentTree } from "@/lib/content-language";
 
 type PageProps = {
   params: Promise<{ slug: string }>;
@@ -78,6 +79,8 @@ function getServiceDetailData(lang: string, slug: string) {
   return findServiceDetailData(lang, slug) ?? (lang === "en" ? null : findServiceDetailData("en", slug));
 }
 
+const DEMAND_SERVICE_SLUGS = new Set(Object.keys(demandServicesData.en ?? {}));
+
 export async function generateMetadata({
   params,
   searchParams,
@@ -94,8 +97,13 @@ export async function generateMetadata({
   const englishResult = getServiceDetailData("en", canonicalSlug);
   const result = localizedResult ?? englishResult;
 
+  const seoData = localizedResult?.data?.seo_metadata ?? englishResult?.data?.seo_metadata;
+  const localizedSeo = seoData && activeLang !== "en" && DEMAND_SERVICE_SLUGS.has(canonicalSlug)
+    ? await localizeContentTree(seoData, activeLang)
+    : seoData;
+
   return getJsonSeoMetadata(
-    localizedResult?.data?.seo_metadata ?? englishResult?.data?.seo_metadata,
+    localizedSeo,
     fallback,
     `/services/${result?.slug ?? canonicalSlug}`,
   );
@@ -121,7 +129,9 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
     permanentRedirect(servicePath(result.slug, activeLang));
   }
 
-  const { data } = result;
+  const data = activeLang !== "en" && DEMAND_SERVICE_SLUGS.has(canonicalSlug)
+    ? await localizeContentTree(result.data, activeLang) as ServiceDetailData
+    : result.data;
   const isRTL = activeLang === "ur" || activeLang === "ar";
   const serviceStructuredData = getServicePageStructuredData({ slug: result.slug, data });
 

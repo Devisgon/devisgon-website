@@ -15,6 +15,7 @@ import {
   getWebsiteStructuredData,
 } from "@/lib/seo";
 import NavigationProgress from "@/components/navigation_progress";
+import { getCachedLanguage } from "@/lib/language";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -91,13 +92,16 @@ const websiteStructuredData = getWebsiteStructuredData();
 const organizationStructuredData = getOrganizationStructuredData();
 const navigationStructuredData = getSiteNavigationStructuredData();
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const language = await getCachedLanguage();
+  const direction = language === "ar" || language === "ur" ? "rtl" : "ltr";
+
   return (
-    <html lang="en" className="scroll-smooth">
+    <html lang={language} dir={direction} className="scroll-smooth">
       <head><Script id="devisgon-consent-default" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: CONSENT_BOOTSTRAP }} /></head>
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
         <script

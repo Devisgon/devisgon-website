@@ -7,7 +7,28 @@ import vm from "node:vm";
 import { JSDOM } from "jsdom";
 import { build } from "esbuild";
 import { EMPTY_ENQUIRY, enquiryStepError } from "../src/lib/project-enquiry.ts";
+import { projectEnquiryUi } from "../src/data/project-enquiry-ui.ts";
+import { conversionHomeUi } from "../src/data/conversion-home-ui.ts";
+import { automationRoiUi } from "../src/data/automation-roi-ui.ts";
 import { ANALYTICS_CONSENT_KEY, CLARITY_PROJECT_ID, CONSENT_BOOTSTRAP, GA4_MEASUREMENT_ID, analyticsPageUrl } from "../src/lib/analytics-config.ts";
+
+test("redesigned homepage, enquiry and calculator copy covers every supported language", () => {
+  const locales = ["en", "ur", "ar", "fr", "zh", "de", "es"];
+  for (const locale of locales) {
+    assert.ok(conversionHomeUi[locale], `homepage copy: ${locale}`);
+    assert.ok(automationRoiUi[locale], `calculator copy: ${locale}`);
+    const enquiry = projectEnquiryUi[locale];
+    assert.ok(enquiry, `enquiry copy: ${locale}`);
+    assert.equal(enquiry.progress.length, 5, `enquiry steps: ${locale}`);
+    assert.equal(enquiry.questions.length, 5, `enquiry questions: ${locale}`);
+    assert.equal(enquiry.services.length, 12, `enquiry services: ${locale}`);
+    assert.equal(enquiry.projectTypes.length, 5, `project types: ${locale}`);
+    assert.equal(enquiry.projectSizes.length, 5, `project sizes: ${locale}`);
+    assert.equal(enquiry.budgets.length, 6, `budget ranges: ${locale}`);
+    assert.equal(enquiry.timelines.length, 5, `timelines: ${locale}`);
+    assert.equal(automationRoiUi[locale].fields.length, 7, `calculator fields: ${locale}`);
+  }
+});
 
 const complete = { serviceName: "AI & agents", projectType: "New project", projectSize: "MVP / first version", projectDetail: "Connect our support knowledge to an AI assistant.", budget: "$10,000–$25,000", timeline: "1–3 months", country: "United States", name: "Test Customer", email: "customer@example.com", phone: "+1 555 123 4567" };
 
