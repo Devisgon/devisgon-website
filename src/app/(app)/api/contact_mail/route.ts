@@ -68,7 +68,7 @@ export async function POST(req: Request) {
     const sourceLabel = cleanValue(sourceType, "contact");
     const safeName = escapeHtml(name);
     const safeEmail = escapeHtml(email);
-    const safePhone = escapeHtml(phone);
+    const safePhone = escapeHtml(cleanValue(phone));
     const safeCompany = escapeHtml(cleanValue(company));
     const safeCountry = escapeHtml(cleanValue(country));
     const safeService = escapeHtml(selectedService);

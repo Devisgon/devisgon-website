@@ -137,7 +137,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
       setError("");
     }
 
-    if (!validatePhone(phone)) {
+    if (phone.trim() && !validatePhone(phone)) {
       setPhoneError("Use a valid phone number");
       hasError = true;
     } else {
@@ -267,7 +267,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
 
                   <div className="flex flex-col gap-1">
                     <label htmlFor="phone" className="text-t-primary ml-2">
-                      Phone Number *
+                      Phone Number (optional)
                     </label>
                     <input
                       id="phone"
@@ -284,8 +284,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                           setPhoneError("");
                         }
                       }}
-                      placeholder="+92 300 1234567"
-                      required
+                      placeholder="+1 555 123 4567"
                       className="text-t-primary border-[#D1AFEC] bg-bg-secondary rounded-2xl p-4 outline-none focus:ring-2 focus:ring-purple-400"
                     />
                     {phoneError && <p className="text-red-500 text-sm mt-1">{phoneError}</p>}
@@ -459,7 +458,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
             </m.div>
 
             <m.div variants={fadeInUpVariants} className="space-y-6">
-              <m.div variants={scaleInVariants} className="bg-bg-primary border-[#EAD5F9] rounded-2xl p-8 text-center">
+              <m.div id="book-a-call" style={{ scrollMarginTop: 100 }} variants={scaleInVariants} className="bg-bg-primary border-[#EAD5F9] rounded-2xl p-8 text-center">
                 <h2 className="text-2xl font-bold text-t-primary mb-2">{content.schedule.title}</h2>
                 <p className="text-t-secondary mb-4">{content.schedule.description}</p>
 

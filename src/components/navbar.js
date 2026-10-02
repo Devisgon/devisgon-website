@@ -1,475 +1,165 @@
-﻿"use client";
+"use client";
 
 import { useEffect, useRef, useState } from "react";
+import { usePathname } from "next/navigation";
 import Image from "next/image";
 import Link from "next/link";
 import dynamic from "next/dynamic";
-import { Menu, Moon, Sun, ChevronDown, ChevronLeft } from "lucide-react";
+import { Menu, X, Moon, Sun, ChevronDown, ArrowUpRight, Search } from "lucide-react";
 import { getNavbarDataByLang, normalizeLanguage } from "@/lib/localized-content";
+import { buildNavigation } from "@/lib/navigation-model";
+import { getDiscoveryCallHref } from "@/lib/discovery-call";
+import styles from "./navbar.module.css";
 
-// Code-split the flag-heavy language selector so country SVGs are requested only
-// after the interactive navbar hydrates, instead of joining every page's first load.
-const Switcher = dynamic(() => import("./language_switch_component"), {
-  ssr: false,
-  loading: () => <div className="h-10 w-11" aria-hidden="true" />,
-});
-
-const getCookieValue = (name) => {
-  const token = `${name}=`;
-  const match = document.cookie.split("; ").find((cookie) => cookie.startsWith(token));
-  return match ? decodeURIComponent(match.slice(token.length)) : null;
+const Switcher = dynamic(() => import("./language_switch_component"), { ssr: false, loading: () => <span className={styles.switcherPlaceholder} /> });
+const labels = {
+  en: ["Services", "Our work", "How we work", "Resources", "Company", "Book a call", "Explore all", "Search links", "Close navigation"],
+  ur: ["خدمات", "ہمارا کام", "ہمارا طریقہ", "وسائل", "کمپنی", "کال بک کریں", "سب دیکھیں", "لنکس تلاش کریں", "نیویگیشن بند کریں"],
+  ar: ["الخدمات", "أعمالنا", "كيف نعمل", "الموارد", "الشركة", "احجز مكالمة", "استكشف الكل", "ابحث عن الروابط", "إغلاق التنقل"],
+  fr: ["Services", "Nos projets", "Notre méthode", "Ressources", "Entreprise", "Réserver un appel", "Tout explorer", "Rechercher des liens", "Fermer la navigation"],
+  de: ["Leistungen", "Projekte", "Unser Prozess", "Ressourcen", "Unternehmen", "Gespräch buchen", "Alle ansehen", "Links suchen", "Navigation schließen"],
+  es: ["Servicios", "Proyectos", "Cómo trabajamos", "Recursos", "Empresa", "Reservar llamada", "Explorar todo", "Buscar enlaces", "Cerrar navegación"],
+  zh: ["服务", "我们的项目", "工作流程", "资源", "公司", "预约通话", "查看全部", "搜索链接", "关闭导航"],
+};
+const descriptions = {
+  "/services/ai-agent-development-automation-services": "Business tools, knowledge and actions",
+  "/services/business-process-automation-services": "Connected workflows and approvals",
+  "/services/ai-powered-business-automation-services": "Classification, extraction and drafting",
+  "/services/ai-software-development-automation-services": "AI-powered SaaS, web and mobile apps",
+  "/services/mvp-development-startup-services": "Validate and launch your first product",
+  "/services/web-application-development-services": "Custom platforms for your business",
 };
 
-const findNavItemByHref = (links, href) => {
-  for (const link of links) {
-    if (link.href === href) {
-      return link;
-    }
-
-    for (const column of link.dropdown?.columns ?? []) {
-      const match = findNavItemByHref(column.links ?? [], href);
-      if (match) {
-        return match;
-      }
-    }
-  }
-
-  return null;
-};
-
-const removeNestedNavItemByHref = (link, href) => {
-  if (!link.dropdown) {
-    return link;
-  }
-
-  return {
-    ...link,
-    dropdown: {
-      ...link.dropdown,
-      columns: link.dropdown.columns.map((column) => ({
-        ...column,
-        links: (column.links ?? [])
-          .filter((sublink) => sublink.href !== href)
-          .map((sublink) => removeNestedNavItemByHref(sublink, href)),
-      })),
-    },
-  };
-};
-
-const getDesktopNavLinks = (links) => {
-  const hasTopLevelTechnologies = links.some((link) => link.href === "/technologies");
-  const technologiesItem = findNavItemByHref(links, "/technologies");
-
-  if (hasTopLevelTechnologies || !technologiesItem) {
-    return links;
-  }
-
-  return links.flatMap((link) => {
-    const cleanedLink = removeNestedNavItemByHref(link, "/technologies");
-    return link.href === "/industries" ? [cleanedLink, technologiesItem] : [cleanedLink];
-  });
-};
-
-const Navbar = () => {
+export default function Navbar() {
   const [isDark, setIsDark] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
   const [currentLang, setCurrentLang] = useState("en");
-  const [activeDesktopDropdown, setActiveDesktopDropdown] = useState(null);
-  const [pinnedDesktopDropdown, setPinnedDesktopDropdown] = useState(null);
-  const [activeDesktopNestedDropdown, setActiveDesktopNestedDropdown] = useState(null);
-  const [activeMobileCategory, setActiveMobileCategory] = useState(null);
-  const [activeMobileDropdown, setActiveMobileDropdown] = useState(null);
-  const [activeMobileNestedDropdown, setActiveMobileNestedDropdown] = useState(null);
-  const desktopNavRef = useRef(null);
-
-  const navLinks = getDesktopNavLinks(getNavbarDataByLang(currentLang).navbar);
+  const [open, setOpen] = useState(null);
+  const [catalogId, setCatalogId] = useState("services");
+  const [groupIndex, setGroupIndex] = useState(0);
+  const [query, setQuery] = useState("");
+  const [mobileOpen, setMobileOpen] = useState(false);
+  const headerRef = useRef(null);
+  const dialogRef = useRef(null);
+  const triggerRef = useRef(null);
+  const pathname = usePathname();
+  const model = buildNavigation(getNavbarDataByLang(currentLang).navbar);
+  const copy = labels[currentLang] ?? labels.en;
+  const catalog = model.catalogs.find((item) => item.id === catalogId) ?? model.catalogs[0];
+  const group = catalog.groups[groupIndex] ?? catalog.groups[0];
+  const links = query.trim() ? catalog.groups.flatMap((item) => item.links).filter((item) => item.name.toLocaleLowerCase().includes(query.trim().toLocaleLowerCase())) : group?.links ?? [];
+  const callHref = getDiscoveryCallHref();
 
   useEffect(() => {
-    const hasOpenSession = window.sessionStorage.getItem("theme-session") === "active";
-
-    if (!hasOpenSession) {
-      window.localStorage.removeItem("theme");
-      window.sessionStorage.setItem("theme-session", "active");
-    }
-
-    window.sessionStorage.removeItem("theme");
-
-    const nextIsDark = window.localStorage.getItem("theme") === "dark";
-
-    document.documentElement.classList.toggle("dark", nextIsDark);
-    setIsDark(nextIsDark);
+    const match = document.cookie.split(";").map((value) => value.trim()).find((value) => value.startsWith("lang="));
+    try { setCurrentLang(normalizeLanguage(match ? decodeURIComponent(match.slice(5)) : "en")); } catch { setCurrentLang("en"); }
+    try {
+      if (window.sessionStorage.getItem("theme-session") !== "active") {
+        window.localStorage.removeItem("theme");
+        window.sessionStorage.setItem("theme-session", "active");
+      }
+      const dark = window.localStorage.getItem("theme") === "dark";
+      document.documentElement.classList.toggle("dark", dark);
+      setIsDark(dark);
+    } catch { setIsDark(document.documentElement.classList.contains("dark")); }
   }, []);
 
+  useEffect(() => { setOpen(null); setMobileOpen(false); }, [pathname]);
   useEffect(() => {
-    const cookieLang = getCookieValue("lang");
-    setCurrentLang(normalizeLanguage(cookieLang));
-  }, []);
-
-  useEffect(() => {
-    document.body.style.overflow = mobileOpen ? "hidden" : "unset";
-    return () => {
-      document.body.style.overflow = "unset";
+    const outside = (event) => { if (!headerRef.current?.contains(event.target)) setOpen(null); };
+    const escape = (event) => {
+      if (event.key === "Escape" && open) { setOpen(null); triggerRef.current?.focus(); }
     };
+    document.addEventListener("pointerdown", outside);
+    document.addEventListener("keydown", escape);
+    return () => { document.removeEventListener("pointerdown", outside); document.removeEventListener("keydown", escape); };
+  }, [open]);
+  useEffect(() => {
+    const dialog = dialogRef.current;
+    if (mobileOpen && !dialog?.open) dialog?.showModal();
+    if (!mobileOpen && dialog?.open) dialog?.close();
+    if (!mobileOpen) return;
+    const previous = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const media = window.matchMedia("(min-width: 1100px)");
+    const resize = () => { if (media.matches) setMobileOpen(false); };
+    media.addEventListener("change", resize);
+    return () => { document.body.style.overflow = previous; media.removeEventListener("change", resize); };
   }, [mobileOpen]);
 
-  useEffect(() => {
-    const handlePointerDown = (event) => {
-      if (desktopNavRef.current?.contains(event.target)) {
-        return;
-      }
+  function toggleTheme() {
+    document.documentElement.classList.toggle("dark", !isDark);
+    try { window.localStorage.setItem("theme", isDark ? "light" : "dark"); } catch { /* Page-only choice. */ }
+    setIsDark(!isDark);
+  }
+  function togglePanel(name, event) {
+    triggerRef.current = event.currentTarget;
+    setQuery("");
+    setOpen(open === name ? null : name);
+  }
+  function close() { setOpen(null); setMobileOpen(false); }
+  function keyboardOpen(name, event) {
+    if (event.key !== "ArrowDown") return;
+    event.preventDefault();
+    triggerRef.current = event.currentTarget;
+    setOpen(name);
+    requestAnimationFrame(() => headerRef.current?.querySelector("[data-nav-panel] input, [data-nav-panel] a")?.focus());
+  }
+  function NavLink({ item, description = false }) {
+    return <Link href={item.href} onClick={close} className={styles.catalogLink}><span>{item.name}</span>{description && currentLang === "en" && descriptions[item.href] && <small>{descriptions[item.href]}</small>}<ArrowUpRight size={14} aria-hidden="true" /></Link>;
+  }
+  const trigger = (name, text) => <button type="button" aria-expanded={open === name} aria-controls={`navigation-${name}`} className={`${styles.navTrigger} ${open === name ? styles.active : ""}`} onClick={(event) => togglePanel(name, event)} onKeyDown={(event) => keyboardOpen(name, event)}>{text}<ChevronDown size={14} aria-hidden="true" /></button>;
 
-      setActiveDesktopDropdown(null);
-      setPinnedDesktopDropdown(null);
-      setActiveDesktopNestedDropdown(null);
-    };
-
-    const handleKeyDown = (event) => {
-      if (event.key === "Escape") {
-        setActiveDesktopDropdown(null);
-        setPinnedDesktopDropdown(null);
-        setActiveDesktopNestedDropdown(null);
-      }
-    };
-
-    document.addEventListener("mousedown", handlePointerDown);
-    document.addEventListener("keydown", handleKeyDown);
-
-    return () => {
-      document.removeEventListener("mousedown", handlePointerDown);
-      document.removeEventListener("keydown", handleKeyDown);
-    };
-  }, []);
-
-  const toggleTheme = () => {
-    const newTheme = !isDark;
-    setIsDark(newTheme);
-
-    if (newTheme) {
-      document.documentElement.classList.add("dark");
-      window.localStorage.setItem("theme", "dark");
-    } else {
-      document.documentElement.classList.remove("dark");
-      window.localStorage.setItem("theme", "light");
-    }
-  };
-
-  return (
-    <header className="fixed top-0 z-50 w-screen border-b bg-[#F7EDFE] backdrop-blur-sm dark:bg-[#8457AA]">
-      <div className="mx-auto flex h-16 max-w-screen items-center justify-between px-4 md:px-18">
-        <Link href="/" className="shrink-0">
-          <Image
-            src={isDark ? "/logo/dark_logo.webp" : "/logo/logo.webp"}
-            alt="logo"
-            width={220}
-            height={70}
-            priority
-          />
-        </Link>
-
-        <nav ref={desktopNavRef} className="hidden items-center gap-8 md:flex">
-          {navLinks.map((link) => {
-            const columnCount = link.dropdown?.columns?.length ?? 0;
-            const nestedDesktopItem =
-              activeDesktopNestedDropdown?.parentHref === link.href ? activeDesktopNestedDropdown.item : null;
-            const activeDropdownItem = nestedDesktopItem ?? link;
-            const activeDropdownColumns = activeDropdownItem.dropdown?.columns ?? [];
-            const normalizedHref = activeDropdownItem.href.toLowerCase();
-            const isServicesDropdown = normalizedHref === "/services";
-            const isIndustriesDropdown = normalizedHref === "/industries";
-            const isTechnologiesDropdown = normalizedHref === "/technologies";
-            const isFullWidthDropdown = isServicesDropdown || isIndustriesDropdown || isTechnologiesDropdown;
-            const isDropdownOpen = activeDesktopDropdown === link.href;
-
-         const dropdownPositionClass = isServicesDropdown
-  ? "fixed right-6 top-10 w-[calc(100vw-2rem)]" 
-  : isIndustriesDropdown
-  ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
-  : isTechnologiesDropdown
-  ? "fixed left-2 top-10 w-[calc(100vw-2rem)]"
-  : "absolute left-0 top-full w-[320px]";
-            return (
-              <div
-                key={link.name}
-                className="relative"
-                onMouseEnter={() => {
-                  setActiveDesktopDropdown(link.dropdown ? link.href : null);
-                  if (activeDesktopNestedDropdown?.parentHref !== link.href) {
-                    setActiveDesktopNestedDropdown(null);
-                  }
-                }}
-                onMouseLeave={() => {
-                  if (pinnedDesktopDropdown !== link.href) {
-                    setActiveDesktopDropdown((prev) => (prev === link.href ? pinnedDesktopDropdown : prev));
-                    setActiveDesktopNestedDropdown((prev) =>
-                      prev?.parentHref === link.href && pinnedDesktopDropdown !== link.href ? null : prev,
-                    );
-                  }
-                }}
-              >
-                <Link
-                  href={link.href}
-                  onClick={(event) => {
-                    if (!link.dropdown) {
-                      return;
-                    }
-
-                    if (event.detail > 1) {
-                      return;
-                    }
-
-                    event.preventDefault();
-                    setPinnedDesktopDropdown(link.href);
-                    setActiveDesktopDropdown(link.href);
-                    setActiveDesktopNestedDropdown(null);
-                  }}
-                  data-navbar-dropdown-trigger={link.dropdown ? "true" : undefined}
-                  className="flex items-center gap-1 text-sm font-medium text-[#402060] transition-colors dark:text-[#FEFCFE]"
-                  aria-expanded={link.dropdown ? isDropdownOpen : undefined}
-                >
-                  {link.name}
-                  {link.dropdown && (
-                    <ChevronDown className={`h-4 w-4 transition-transform ${isDropdownOpen ? "rotate-180" : ""}`} />
-                  )}
-                </Link>
-
-               {link.dropdown && (
-  <div
-    className={`${dropdownPositionClass} z-50 transition-all duration-200 ${
-      isDropdownOpen 
-        ? "visible translate-y-3 opacity-100"
-        : "pointer-events-none invisible translate-y-2 opacity-0"
-    }`}
-  >
-    {/* This pt-4 (padding-top) is the "invisible bridge" */}
-    <div className="pt-4"> 
-      <div className="rounded-xl border border-[#D8B4FE]/30 bg-[#F7EDFE] p-8 shadow-2xl dark:bg-[#402060]">
-        {nestedDesktopItem && (
-          <button
-            type="button"
-            onClick={() => setActiveDesktopNestedDropdown(null)}
-            className="mb-5 inline-flex items-center gap-1 text-sm font-semibold text-[#8457AA] transition-opacity hover:opacity-80 dark:text-[#D8B4FE]"
-          >
-            <ChevronLeft className="h-4 w-4" />
-            {link.name}
-          </button>
-        )}
-          <div
-            className={`grid gap-8 ${isFullWidthDropdown ? "max-h-[70vh] overflow-y-auto pr-2" : ""}`}
-            style={{
-              gridTemplateColumns: isFullWidthDropdown
-                ? "repeat(auto-fit, minmax(170px, 1fr))"
-                : `repeat(${nestedDesktopItem ? activeDropdownColumns.length : columnCount}, minmax(0, 1fr))`,
-            }}
-          >
-            {activeDropdownColumns.map((col, colIndex) => (
-              <div key={col.title || `${link.name}-${colIndex}`}>
-                {col.title && (
-                  <h3 className="text-sm font-bold uppercase text-t-primary mb-4">
-                    {col.title}
-                  </h3>
-                )}
-                <ul className="space-y-3">
-                  {col.links.map((sublink) => (
-                    <li key={sublink.name}>
-                      {sublink.dropdown ? (
-                        <button
-                          type="button"
-                          onClick={() => {
-                            setActiveDesktopNestedDropdown({ parentHref: link.href, item: sublink });
-                            setActiveDesktopDropdown(link.href);
-                            setPinnedDesktopDropdown(link.href);
-                          }}
-                          className="block text-left text-sm font-medium text-[#402060] transition-all hover:translate-x-1 hover:text-[#8457AA] dark:text-[#FEFCFE] dark:hover:text-[#D8B4FE]"
-                        >
-                          {sublink.name}
-                        </button>
-                      ) : (
-                        <Link
-                          href={sublink.href}
-                          onClick={() => {
-                            setActiveDesktopDropdown(null);
-                            setPinnedDesktopDropdown(null);
-                            setActiveDesktopNestedDropdown(null);
-                          }}
-                          className="block text-sm font-medium text-[#402060] transition-all hover:translate-x-1 hover:text-[#8457AA] dark:text-[#FEFCFE] dark:hover:text-[#D8B4FE]"
-                        >
-                          {sublink.name}
-                        </Link>
-                      )}
-                    </li>
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
+  return <header ref={headerRef} className={styles.header} onBlur={(event) => { if (event.relatedTarget && !event.currentTarget.contains(event.relatedTarget)) setOpen(null); }}>
+    <a href="#main-content" className={styles.skipLink} onClick={(event) => { const target = document.querySelector("h1"); if (target) { event.preventDefault(); target.setAttribute("tabindex", "-1"); target.focus(); } }}>Skip to content</a>
+    <div className={styles.bar}>
+      <Link href="/" aria-label="Devisgon home" onClick={close} className={styles.logo}><Image src={isDark ? "/logo/dark_logo.webp" : "/logo/logo.webp"} alt="Devisgon" width={185} height={59} priority /></Link>
+      <nav aria-label="Main navigation" className={styles.desktop}>
+        {trigger("services", copy[0])}
+        <Link className={styles.navLink} href="/our-work" onClick={close}>{copy[1]}</Link>
+        <Link className={styles.navLink} href="/our-process" onClick={close}>{copy[2]}</Link>
+        {trigger("resources", copy[3])}
+        {trigger("company", copy[4])}
+      </nav>
+      <div className={styles.actions}>
+        <button type="button" aria-label={isDark ? "Switch to light theme" : "Switch to dark theme"} onClick={toggleTheme} className={styles.iconButton}>{isDark ? <Sun size={18} /> : <Moon size={18} />}</button>
+        <div className={styles.language} aria-label="Website language"><Switcher /></div>
+        <Link href={callHref} className={styles.callButton} onClick={close}>{copy[5]}<ArrowUpRight size={16} aria-hidden="true" /></Link>
+        <button type="button" aria-label="Open navigation" aria-haspopup="dialog" aria-expanded={mobileOpen} onClick={() => { setOpen(null); setMobileOpen(true); }} className={styles.mobileToggle}><Menu size={23} /></button>
       </div>
     </div>
-  </div>
-)}
-              </div>
-            );
-          })}
-
-          <button
-            onClick={toggleTheme}
-            className="rounded-full p-2 text-[#402060] transition-colors hover:bg-white/50 dark:text-[#FEFCFE] dark:hover:bg-white/10"
-            aria-label="Toggle theme"
-          >
-            {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
-          </button>
-
-          <div className="-ml-2">
-            <Switcher onLanguageChange={(code) => setCurrentLang(normalizeLanguage(code))} />
+    {open && <div data-nav-panel id={`navigation-${open}`} className={`${styles.panel} ${open !== "services" ? styles.smallPanel : ""}`}>
+      {open === "services" ? <>
+        <div className={styles.panelTop}>
+          <div className={styles.catalogTabs}>{model.catalogs.map((item) => <button key={item.id} type="button" aria-pressed={catalogId === item.id} className={catalogId === item.id ? styles.selectedTab : ""} onClick={() => { setCatalogId(item.id); setGroupIndex(0); setQuery(""); }}>{item.name}</button>)}</div>
+          <button type="button" className={styles.iconButton} aria-label={copy[8]} onClick={() => { setOpen(null); triggerRef.current?.focus(); }}><X size={19} /></button>
+        </div>
+        <div className={styles.catalogBody}>
+          <div className={styles.categories} aria-label={`${catalog.name} categories`}>
+            {catalog.groups.map((item, index) => <button key={item.title} type="button" aria-pressed={groupIndex === index && !query} className={groupIndex === index && !query ? styles.selectedCategory : ""} onClick={() => { setGroupIndex(index); setQuery(""); }}>{item.title}<span>{item.links.length}</span></button>)}
+            <Link href={catalog.href} onClick={close} className={styles.viewAll}>{copy[6]} {catalog.name.toLowerCase()}<ArrowUpRight size={16} aria-hidden="true" /></Link>
           </div>
-        </nav>
-
-        <div className="flex items-center gap-2 text-[#402060] dark:text-[#FEFCFE] md:hidden">
-          <button onClick={toggleTheme} className="p-2" aria-label="Toggle Theme">
-            {isDark ? <Sun /> : <Moon />}
-          </button>
-
-          <button onClick={() => setMobileOpen(true)} className="p-2" aria-label="Open Menu">
-            <Menu />
-          </button>
-        </div>
-      </div>
-
-      <div
-        className={`fixed inset-y-0 left-0 z-50 w-3/4 max-w-sm transform bg-[#F7EDFE] text-t-primary transition-transform duration-500 dark:bg-[#8457AA] md:hidden ${
-          mobileOpen ? "translate-x-0" : "-translate-x-full"
-        }`}
-      >
-        <div className="flex justify-between p-4">
-          <Image src="/logo/logo.webp" alt="logo" width={180} height={60} className="h-auto dark:hidden" />
-          <Image src="/logo/dark_logo.webp" alt="logo" width={180} height={60} className="hidden h-auto dark:block" />
-        </div>
-
-        <div className="-mt-8 h-screen space-y-6 overflow-y-auto bg-[#F7EDFE] px-4 py-12 dark:bg-[#8457AA]">
-          <div className="-ml-4 -mt-4 h-[1px] w-3xl bg-black" />
-
-          {navLinks.map((link) => {
-            const activeMobileDropdownItem =
-              activeMobileNestedDropdown?.parentHref === link.href ? activeMobileNestedDropdown.item : link;
-            const activeMobileDropdownColumns = activeMobileDropdownItem.dropdown?.columns ?? [];
-
-            return (
-            <div key={link.name} className="pb-3">
-              {link.dropdown ? (
-                <div className="flex items-center justify-between text-xl font-bold">
-                  <Link href={link.href} onClick={() => setMobileOpen(false)}>
-                    {link.name}
-                  </Link>
-
-                  <button
-                    onClick={() => {
-                      setActiveMobileDropdown(activeMobileDropdown === link.href ? null : link.href);
-                      setActiveMobileCategory(null);
-                      setActiveMobileNestedDropdown(null);
-                    }}
-                    aria-label={`Toggle ${link.name} dropdown`}
-                  >
-                    <ChevronDown
-                      className={`transition-transform ${
-                        activeMobileDropdown === link.href ? "rotate-180" : ""
-                      }`}
-                    />
-                  </button>
-                </div>
-              ) : (
-                <Link
-                  href={link.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block text-xl font-bold"
-                >
-                  {link.name}
-                </Link>
-              )}
-
-              {link.dropdown && activeMobileDropdown === link.href && (
-                <div className="mt-4 space-y-3">
-                  {activeMobileNestedDropdown?.parentHref === link.href && (
-                    <button
-                      type="button"
-                      onClick={() => {
-                        setActiveMobileNestedDropdown(null);
-                        setActiveMobileCategory(null);
-                      }}
-                      className="mb-2 inline-flex items-center gap-1 text-sm font-semibold text-btn-primary"
-                    >
-                      <ChevronLeft className="h-4 w-4" />
-                      {link.name}
-                    </button>
-                  )}
-
-                  {activeMobileDropdownColumns.map((col, colIndex) => (
-                    <div key={col.title || `${link.name}-${colIndex}`}>
-                      {col.title ? (
-                        <button
-                          className="flex w-full justify-between text-base font-normal"
-                          onClick={() =>
-                            setActiveMobileCategory(activeMobileCategory === col.title ? null : col.title)
-                          }
-                        >
-                          {col.title}
-                          <ChevronDown
-                            className={`transition-transform ${
-                              activeMobileCategory === col.title ? "rotate-180" : ""
-                            }`}
-                          />
-                        </button>
-                      ) : null}
-
-                      {(!col.title || activeMobileCategory === col.title) && (
-                        <div className={col.title ? "mt-2 space-y-2 pl-4" : "space-y-2 pl-4"}>
-                          {col.links.map((sublink) =>
-                            sublink.dropdown ? (
-                              <button
-                                key={sublink.name}
-                                type="button"
-                                onClick={() => {
-                                  setActiveMobileNestedDropdown({ parentHref: link.href, item: sublink });
-                                  setActiveMobileCategory(null);
-                                }}
-                                className="block text-left text-sm text-t-primary"
-                              >
-                                {sublink.name}
-                              </button>
-                            ) : (
-                              <Link
-                                key={sublink.name}
-                                href={sublink.href}
-                                onClick={() => setMobileOpen(false)}
-                                className="block text-sm text-t-primary"
-                              >
-                                {sublink.name}
-                              </Link>
-                            ),
-                          )}
-                        </div>
-                      )}
-                    </div>
-                  ))}
-                </div>
-              )}
-            </div>
-            );
-          })}
-
-          <div className="mr-4">
-            <Switcher onLanguageChange={(code) => setCurrentLang(normalizeLanguage(code))} />
+          <div className={styles.catalogContent}>
+            <div className={styles.catalogHeading}><p>{query ? copy[7] : group?.title}</p><label className={styles.search}><Search size={16} aria-hidden="true" /><input type="search" aria-label={`${copy[7]}: ${catalog.name}`} placeholder={copy[7]} value={query} onChange={(event) => setQuery(event.target.value)} /></label></div>
+            <div className={styles.linkGrid}>{links.map((item) => <NavLink key={item.href} item={item} description />)}{links.length === 0 && <p className={styles.empty}>No matching links. Try another search.</p>}</div>
           </div>
         </div>
-      </div>
-
-      {mobileOpen && (
-        <div
-          className="fixed inset-0 z-40 h-screen w-full md:hidden"
-          onClick={() => setMobileOpen(false)}
-          onTouchStart={() => setMobileOpen(false)}
-        />
-      )}
-    </header>
-  );
-};
-
-export default Navbar;
+        <div className={styles.panelFooter}><span>AI, automation and product engineering</span><Link href="/contact" onClick={close}>Discuss your project <ArrowUpRight size={15} aria-hidden="true" /></Link></div>
+      </> : <>
+        <div className={styles.simpleHeading}><p>{open === "company" ? copy[4] : copy[3]}</p><button type="button" aria-label={copy[8]} className={styles.iconButton} onClick={() => { setOpen(null); triggerRef.current?.focus(); }}><X size={18} /></button></div>
+        <div className={styles.simpleLinks}>{(open === "company" ? model.company : [...model.resources, { name: "Automation ROI calculator", href: "/tools/automation-roi" }]).map((item) => <NavLink key={item.href} item={item} />)}</div>
+      </>}
+    </div>}
+    <dialog ref={dialogRef} aria-labelledby="mobile-navigation-title" className={styles.mobileDialog} onCancel={() => setMobileOpen(false)} onClose={() => setMobileOpen(false)}>
+      <div className={styles.mobileHeading}><h2 id="mobile-navigation-title">Devisgon</h2><button type="button" aria-label={copy[8]} className={styles.iconButton} onClick={() => setMobileOpen(false)}><X size={24} /></button></div>
+      <nav aria-label="Mobile navigation" className={styles.mobileNavigation}>
+        <Link href="/" onClick={close} className={styles.mobileDirect}>Home</Link>
+        <details><summary>{copy[0]}</summary>{model.catalogs.map((item) => <details key={item.id} className={styles.mobileCatalog}><summary>{item.name}</summary><Link href={item.href} onClick={close} className={styles.viewAll}>{copy[6]} {item.name}</Link>{item.groups.map((category) => <details key={category.title} className={styles.mobileCategory}><summary>{category.title}</summary>{category.links.map((link) => <NavLink key={link.href} item={link} />)}</details>)}</details>)}</details>
+        <Link href="/our-work" onClick={close} className={styles.mobileDirect}>{copy[1]}</Link>
+        <Link href="/our-process" onClick={close} className={styles.mobileDirect}>{copy[2]}</Link>
+        <details><summary>{copy[3]}</summary>{[...model.resources, { name: "Automation ROI calculator", href: "/tools/automation-roi" }].map((item) => <NavLink key={item.href} item={item} />)}</details>
+        <details><summary>{copy[4]}</summary>{model.company.map((item) => <NavLink key={item.href} item={item} />)}</details>
+      </nav>
+      <Link href={callHref} onClick={close} className={styles.mobileCall}>{copy[5]}<ArrowUpRight size={18} aria-hidden="true" /></Link>
+    </dialog>
+  </header>;
+}

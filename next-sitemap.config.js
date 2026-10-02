@@ -44,6 +44,11 @@ function getStaticPageUrls() {
       priority: 1.0,
     },
     {
+      loc: "/our-work",
+      changefreq: "monthly",
+      priority: 0.85,
+    },
+    {
       loc: "/services",
       changefreq: "weekly",
       priority: 0.9,
