@@ -3,7 +3,8 @@ import test from "node:test";
 import fs from "node:fs";
 import path from "node:path";
 import { build } from "esbuild";
-import { validateInquiry, verifyInquiryChallenge, MAX_ATTACHMENT_BYTES } from "../src/lib/inquiry-validation.ts";
+const validationModule = await build({ entryPoints: ["src/lib/inquiry-validation.ts"], bundle: true, write: false, platform: "node", format: "esm" });
+const { validateInquiry, verifyInquiryChallenge, MAX_ATTACHMENT_BYTES } = await import(`data:text/javascript;base64,${Buffer.from(validationModule.outputFiles[0].text).toString("base64")}`);
 import { calculateAutomationValue } from "../src/lib/automation-roi.ts";
 import { buildBlogSitemap } from "../src/lib/blog-sitemap.ts";
 
@@ -91,10 +92,16 @@ test("contact route reports provider failures truthfully and rejects abuse befor
   response = await POST(request({ ...valid, name: "<script>test</script>" }));
   assert.equal(response.status, 200); assert.equal((await response.json()).success, true);
   assert.match(globalThis.__sentMail.html, /&lt;script&gt;/); assert.doesNotMatch(globalThis.__sentMail.html, /<script>test/);
-  const withoutPhone = { ...valid, sourceType: "homepage" }; delete withoutPhone.phone;
+  const withoutPhone = { ...valid, sourceType: "contact" }; delete withoutPhone.phone;
   response = await POST(request(withoutPhone));
   assert.equal(response.status, 200); assert.equal((await response.json()).success, true);
   assert.match(globalThis.__sentMail.html, /Not provided/);
+  const brief = { ...valid, sourceType: "homepage", sourcePage: "/", serviceName: "AI & agents", projectType: "New project", projectSize: "MVP / first version", projectDetail: "Build an assistant for our customer support team.", budget: "$10,000–$25,000", timeline: "1–3 months", country: "United States" };
+  assert.equal((await POST(request({ ...brief, phone: "" }))).status, 400);
+  assert.equal((await POST(request({ ...brief, projectSize: "x".repeat(101) }))).status, 400);
+  response = await POST(request(brief));
+  assert.equal(response.status, 200);
+  for (const field of ["AI &amp; agents", "New project", "MVP / first version", "$10,000–$25,000", "1–3 months", "United States"]) assert.ok(globalThis.__sentMail.html.includes(field), field);
   delete process.env.RESEND_API_KEY;
   assert.equal((await POST(request())).status, 503);
 });

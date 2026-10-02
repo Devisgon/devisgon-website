@@ -36,9 +36,12 @@ export function buildNavigation(items: NavigationItem[]) {
   const catalogHrefs = new Set(catalogs.flatMap((catalog) => [catalog.href, ...catalog.groups.flatMap((group) => group.links.map((link) => link.href))]));
   const resources = flat.filter((item) => item.href === "/resources" || item.href === "/blogs");
   const resourceHrefs = new Set(resources.map((item) => item.href));
-  const company = flat.filter((item) => !catalogHrefs.has(item.href) && !resourceHrefs.has(item.href) && !["/", "/our-process"].includes(item.href));
+  const partnerParent = items.find((item) => item.href.startsWith("/partners/") && item.dropdown);
+  const partners = flattenNavigation(partnerParent?.dropdown?.columns.flatMap((column) => column.links) ?? flat.filter((item) => item.href.startsWith("/partners/")));
+  const partnerHrefs = new Set(partners.map((item) => item.href));
+  const company = flat.filter((item) => !catalogHrefs.has(item.href) && !resourceHrefs.has(item.href) && !partnerHrefs.has(item.href) && !["/", "/our-process"].includes(item.href));
   // Deduplicate destinations, preserving the first localized label. Unknown
   // future destinations remain reachable in Company rather than disappearing.
   const unique = (links: NavigationItem[]) => links.filter((link, index) => links.findIndex((other) => other.href === link.href) === index);
-  return { catalogs, resources: unique(resources), company: unique(company) };
+  return { catalogs, resources: unique(resources), company: unique(company), partners: unique(partners), partnerHeading: partnerParent?.name ?? "Partners" };
 }

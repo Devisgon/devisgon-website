@@ -1,22 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, ArrowRight, Bot, Workflow, Layers3, Code2, Check, Globe2, ShieldCheck } from "lucide-react";
+import { ArrowUpRight, ArrowRight, Bot, Workflow, Layers3, Code2, Check, ShieldCheck } from "lucide-react";
 import { getDiscoveryCallHref } from "@/lib/discovery-call";
 import { featuredWork } from "@/data/featured-work";
 import ProjectEnquiry from "./project_enquiry";
 import styles from "./conversion_home.module.css";
 
 const services = [
-  { icon: Bot, title: "AI agents", description: "Assistants that use your approved knowledge and business tools, with human review where it matters.", href: "/services/ai-agent-development-automation-services", tag: "Knowledge → action" },
-  { icon: Workflow, title: "Business automation", description: "Connect forms, CRM, documents and approvals into workflows your team can operate and maintain.", href: "/services/business-process-automation-services", tag: "Less repetitive work" },
-  { icon: Layers3, title: "AI-powered apps", description: "Turn your idea into an AI-enabled SaaS, MVP, web or mobile product with a clear path to launch.", href: "/services/ai-software-development-automation-services", tag: "Idea → usable product" },
-  { icon: Code2, title: "Web apps & websites", description: "Customer-facing websites and custom business platforms, built around the people who use them.", href: "/services/web-application-development-services", tag: "Built for your business" },
+  { icon: Bot, title: "AI & agents", description: "Give your team assistants that work with your knowledge and approved tools, with human oversight where it matters.", href: "/services/ai-agent-development-automation-services", tag: "01 / INTELLIGENCE" },
+  { icon: Workflow, title: "Automations", description: "Connect your CRM, forms, documents and approvals. Replace repeated handoffs with a workflow your team can run.", href: "/services/business-process-automation-services", tag: "02 / OPERATIONS" },
+  { icon: Layers3, title: "AI-powered apps", description: "Build the first useful version of your AI product. SaaS, MVPs, web and mobile apps, shaped around your users.", href: "/services/ai-software-development-automation-services", tag: "03 / PRODUCTS" },
+  { icon: Code2, title: "Web apps & websites", description: "Turn a complex process into a clear application, or give your business a website that helps people take the next step.", href: "/services/web-application-development-services", tag: "04 / DIGITAL" },
 ];
 const steps = [
-  ["01", "Understand the real problem", "We map your workflow, users, constraints and what success should look like."],
-  ["02", "Agree on the scope", "You review the proposed approach, deliverables and tradeoffs before implementation."],
-  ["03", "Build, review, refine", "Review working milestones and test real scenarios, including failure paths and exceptions."],
-  ["04", "Launch with a handover", "Deployment, documentation and an agreed plan for ownership, maintenance and next steps."],
+  ["01", "Find the right starting point.", "Map the users, workflow, integrations and business problem before choosing the technology."],
+  ["02", "Make the scope concrete.", "Review the approach, deliverables, budget and tradeoffs before committing to implementation."],
+  ["03", "See the work take shape.", "Review working milestones, test real scenarios and refine the product together."],
+  ["04", "Launch with a clear handover.", "Agree on deployment, documentation, ownership and the support you need after launch."],
 ];
 const faqs = [
   ["I know the business problem, but not the right technology. Can you help?", "Yes. Start with the workflow or product you want to improve. We review whether automation, AI, a custom application or a simpler integration fits the need before proposing a build."],
@@ -29,46 +29,38 @@ const faqs = [
 
 export default function ConversionHome() {
   const call = getDiscoveryCallHref();
-  return <main id="main-content" className={styles.page}>
+  return <div id="main-content" className={styles.page}>
     <section className={styles.hero} aria-labelledby="home-heading">
       <div className={styles.heroInner}>
         <div className={styles.heroCopy}>
-          <p className={styles.eyebrow}><span /> AI & AUTOMATION · BUILT FOR BUSINESS</p>
-          <h1 id="home-heading">Build AI-powered products.<br /><span>Automate your business workflows.</span></h1>
-          <p className={styles.heroDescription}>Custom AI agents, reliable automations, and AI-powered SaaS, web and mobile apps for founders and operations teams.</p>
-          <div className={styles.heroActions}><Link href={call} className={styles.primaryButton}>Book a discovery call<ArrowUpRight size={18} aria-hidden="true" /></Link><Link href="#work" className={styles.secondaryButton}>See our work<ArrowRight size={18} aria-hidden="true" /></Link></div>
-          <div className={styles.heroNotes}><span><Check size={14} /> Scope before build</span><span><Check size={14} /> Human review where it matters</span></div>
+          <p className={styles.eyebrow}><span className={styles.brandDot} /> AI. AUTOMATION. REAL-WORLD PRODUCTS.</p>
+          <h1 id="home-heading">AI that works.<br /><span>Products that<br />move you forward.</span></h1>
+          <p className={styles.heroDescription}>We build custom AI agents, automate repetitive work, and turn your idea into an AI-powered SaaS, web or mobile app.</p>
+          <div className={styles.heroActions}><Link href="#start-project" className={styles.primaryButton}>Start my project<ArrowUpRight size={18} aria-hidden="true" /></Link><Link href="#work" className={styles.textLink}>Explore our work<ArrowRight size={17} aria-hidden="true" /></Link></div>
+          <p className={styles.heroCall}>Prefer a conversation? <Link href={call}>Book a discovery call <ArrowUpRight size={14} aria-hidden="true" /></Link></p>
+          <div className={styles.heroNotes}><span><Check size={15} aria-hidden="true" /> Clear scope before build</span><span><ShieldCheck size={16} aria-hidden="true" /> Human oversight for AI</span></div>
+          <div className={styles.heroSignature}><span>STRATEGY → DESIGN → DEVELOPMENT → LAUNCH</span><p>Built around your business.<br /><strong>From the first question to the next release.</strong></p></div>
         </div>
-        <div className={styles.workflowVisual} aria-label="Illustrative business workflow, from incoming request to approved action">
-          <div className={styles.visualTop}><span className={styles.visualDot} /><span>FROM A MANUAL TASK TO A CONNECTED WORKFLOW</span><span className={styles.exampleBadge}>Example</span></div>
-          <div className={styles.visualIntro}><Workflow size={24} /><p>Let your tools work together.</p><span>Built around your process</span></div>
-          <div className={styles.workflowStep}><span className={styles.stepIcon}><Globe2 size={19} /></span><div><strong>Incoming request</strong><small>Email, form or business tool</small></div><span className={styles.stepNumber}>01</span></div>
-          <div className={styles.connector} />
-          <div className={`${styles.workflowStep} ${styles.aiStep}`}><span className={styles.stepIcon}><Bot size={19} /></span><div><strong>AI understands the context</strong><small>Classify · retrieve · prepare</small></div><span className={styles.stepNumber}>02</span></div>
-          <div className={styles.connector} />
-          <div className={styles.workflowStep}><span className={styles.stepIcon}><ShieldCheck size={19} /></span><div><strong>Review and take action</strong><small>Approved actions in your tools</small></div><span className={styles.stepNumber}>03</span></div>
-          <div className={styles.visualBottom}><span>Clear rules. Connected systems. Human control.</span><ArrowUpRight size={16} /></div>
-        </div>
+        <div id="start-project" className={styles.heroEnquiry}><ProjectEnquiry /></div>
       </div>
-      <div className={styles.marketStrip}><p>Remote delivery for <strong>US founders & operations teams</strong></p><span>AI agents</span><span>Workflow automation</span><span>SaaS & MVPs</span><span>Web & mobile apps</span></div>
+      <div className={styles.marketStrip}><span className={styles.marketLabel}>REMOTE COLLABORATION. PRACTICAL DELIVERY.</span><p><strong>USA first.</strong> Canada · Netherlands & Europe · Australia · New Zealand · Gulf</p></div>
     </section>
     <section id="work" className={styles.section} aria-labelledby="work-heading">
-      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>SELECTED ENGINEERING WORK</p><h2 id="work-heading">From capability to working software.</h2></div><Link href="/our-work" className={styles.textLink}>Explore our work<ArrowUpRight size={17} /></Link></div>
-      <p className={styles.sectionIntro}>A selection of AI product and agent engineering projects. See the scope behind the work.</p>
-      <div className={styles.projectGrid}>{featuredWork.map((project, index) => <Link href={`/our-work#${project.slug}`} key={project.slug} className={styles.projectCard}><div className={`${styles.projectVisual} ${styles[`projectVisual${index}`]}`}><span>{project.category}</span><strong>{project.name}</strong><div className={styles.projectTags}>{project.focus.map((tag) => <span key={tag}>{tag}</span>)}</div></div><div className={styles.projectCopy}><span className={styles.projectIndex}>{project.number} / SELECTED WORK</span><h3>{project.title}</h3><p>{project.description}</p><span className={styles.projectCta}>View project scope<ArrowUpRight size={17} /></span></div></Link>)}</div>
+      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>SELECTED PROJECTS / 01</p><h2 id="work-heading">Ideas are good.<br /><span>Working products are better.</span></h2></div><Link href="/our-work" className={styles.textLink}>Explore project scopes<ArrowUpRight size={17} /></Link></div>
+      <div className={styles.projectGrid}>{featuredWork.map((project, index) => <Link key={project.slug} href={`/our-work#${project.slug}`} className={`${styles.projectCard} ${index === 0 ? styles.featuredProject : ""}`}><div className={`${styles.projectVisual} ${styles[`projectVisual${index}`]}`}><div className={styles.projectMeta}><span>{project.category}</span><span>{project.number}</span></div><strong>{project.name}</strong><div className={styles.projectTags}>{project.focus.map((tag) => <span key={tag}>{tag}</span>)}</div><div className={styles.projectOrbit} aria-hidden="true" /></div><div className={styles.projectCopy}><span className={styles.projectIndex}>PROJECT OVERVIEW</span><h3>{project.title}</h3><p>{project.description}</p><span className={styles.projectCta}>See what was built<ArrowUpRight size={18} /></span></div></Link>)}</div>
     </section>
-    <section className={`${styles.section} ${styles.capabilities}`} aria-labelledby="services-heading">
-      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>WHAT WE CAN BUILD TOGETHER</p><h2 id="services-heading">Start with your business need.</h2></div><Link href="/services" className={styles.textLink}>All services<ArrowUpRight size={17} /></Link></div>
-      <div className={styles.serviceGrid}>{services.map((service) => <Link key={service.href} href={service.href} className={styles.serviceCard}><service.icon size={28} strokeWidth={1.6} /><span className={styles.serviceTag}>{service.tag}</span><h3>{service.title}</h3><p>{service.description}</p><span className={styles.projectCta}>Explore service<ArrowUpRight size={17} /></span></Link>)}</div>
-      <div className={styles.supporting}><p>Also here for the work around the product.</p><div><Link href="/services/website-development-design-services">Website development</Link><Link href="/services/mobile-app-development-services">Mobile development</Link><Link href="/services/software-architecture-diagram-documentation-services">Architecture</Link><Link href="/services/ui-ux-design-product-design-services">UI/UX</Link><Link href="/services/cicd-pipeline-devops-automation-services">Deployments</Link><Link href="/services/manual-software-testing-qa-services">Testing & fixes</Link><Link href="/services">Design, ML, SEO & more<ArrowUpRight size={14} /></Link></div></div>
-    </section>
+    <section className={styles.capabilities} aria-labelledby="services-heading"><div className={styles.section}>
+      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>WHAT WE DO / 02</p><h2 id="services-heading">One team.<br /><span>From intelligence to interface.</span></h2></div><p className={styles.sectionIntro}>Start with the business problem. We bring together the AI, automation, design and engineering it needs.</p></div>
+      <div className={styles.serviceGrid}>{services.map((service) => <Link key={service.href} href={service.href} className={styles.serviceCard}><span className={styles.serviceTag}>{service.tag}</span><service.icon size={30} strokeWidth={1.4} aria-hidden="true" /><h3>{service.title}</h3><p>{service.description}</p><span className={styles.projectCta}>Explore service<ArrowUpRight size={17} /></span></Link>)}</div>
+      <div className={styles.supporting}><p>And the expertise to keep it moving.</p><div><Link href="/services/website-development-design-services">Websites</Link><Link href="/services/mobile-app-development-services">Mobile apps</Link><Link href="/services/software-architecture-diagram-documentation-services">Solution architecture</Link><Link href="/services/ui-ux-design-product-design-services">UI / UX</Link><Link href="/services/cicd-pipeline-devops-automation-services">Deployments</Link><Link href="/services/manual-software-testing-qa-services">Testing & fixes</Link><Link href="/services">ML, design, SEO & more<ArrowUpRight size={14} /></Link></div></div>
+    </div></section>
     <section className={styles.section} aria-labelledby="delivery-heading">
-      <div className={styles.deliveryIntro}><div><p className={styles.eyebrow}>HOW WE WORK</p><h2 id="delivery-heading">Clarity before code.<br />Progress you can review.</h2></div><div><p>A clear scope, working milestones and practical handover help you make informed decisions throughout the project.</p><Link href="/our-process" className={styles.textLink}>Our delivery process<ArrowUpRight size={17} /></Link></div></div>
+      <div className={styles.deliveryIntro}><div><p className={styles.eyebrow}>THE WAY WE WORK / 03</p><h2 id="delivery-heading">Big ambition.<br /><span>Clear next steps.</span></h2></div><div><p>You should know what’s being built, why it matters and what happens next. Our delivery starts with clarity and continues with work you can review.</p><Link href="/our-process" className={styles.textLink}>Meet our process<ArrowUpRight size={17} /></Link></div></div>
       <div className={styles.steps}>{steps.map(([number, title, text]) => <div key={number}><span>{number}</span><h3>{title}</h3><p>{text}</p></div>)}</div>
-      <div className={styles.resourceNote}><p>Still shaping the idea? Use our planning guides or estimate the value of automating a workflow.</p><div><Link href="/resources">Planning guides<ArrowUpRight size={15} /></Link><Link href="/tools/automation-roi">Automation calculator<ArrowUpRight size={15} /></Link></div></div>
+      <div className={styles.resourceNote}><p>Still exploring the idea?</p><div><Link href="/resources">Read the planning guides<ArrowUpRight size={15} /></Link><Link href="/tools/automation-roi">Estimate automation value<ArrowUpRight size={15} /></Link></div></div>
     </section>
-    <section className={`${styles.section} ${styles.faqSection}`} aria-labelledby="faq-heading"><div><p className={styles.eyebrow}>BEFORE WE TALK</p><h2 id="faq-heading">A few practical questions.</h2><p>No technical brief yet?<br />Start with the problem you want to solve.</p><Link href={call} className={styles.textLink}>Let’s discuss it<ArrowUpRight size={17} /></Link></div><div className={styles.faqList}>{faqs.map(([question, answer]) => <details key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></section>
-    <section id="start-project" className={`${styles.section} ${styles.contactSection}`} aria-labelledby="project-heading"><div className={styles.contactCopy}><p className={styles.eyebrow}>LET’S BUILD SOMETHING USEFUL</p><h2 id="project-heading">Your next step<br />starts with a conversation.</h2><p>Tell us about your product, workflow or existing application. We’ll discuss the problem and the right next step.</p><Link href={call} className={styles.primaryButton}>Book a discovery call<ArrowUpRight size={18} /></Link><span className={styles.orEmail}>Prefer email? <a href="mailto:info@devisgon.com">info@devisgon.com</a></span></div><ProjectEnquiry /></section>
-    <section id="about" className={`${styles.section} ${styles.companySection}`} aria-labelledby="company-heading"><div><p className={styles.eyebrow}>THE PEOPLE BEHIND THE WORK</p><h2 id="company-heading">Practical technology.<br />Thoughtful delivery.</h2><p>Devisgon brings AI, automation and software engineering together around business needs. We work remotely with clients in the USA, Canada, the Netherlands and Europe, Australia, New Zealand, Qatar, Kuwait, Saudi Arabia and the UAE.</p></div><div className={styles.leadership}><Image src="/home_page/ceo_section/ceo.webp" alt="Zainab Abdullah, CEO of Devisgon" width={112} height={112} sizes="112px" /><div><h3>Zainab Abdullah</h3><span>CEO · Devisgon Pvt. Ltd.</span><p>Our focus is making technology practical for the businesses that use it.</p></div></div><div id="team" className={styles.teamNote}><p>Software engineers, automation specialists and designers working toward a shared delivery plan.</p><Link href="/get-started" className={styles.textLink}>Careers at Devisgon<ArrowUpRight size={16} /></Link></div></section>
-  </main>;
+    <section className={styles.ctaBand} aria-labelledby="next-heading"><div><p className={styles.eyebrow}>LET’S MAKE YOUR NEXT MOVE COUNT.</p><h2 id="next-heading">What could we<br />build for you?</h2><p>A new product. A connected workflow. A better version of what you already have.</p></div><div className={styles.ctaBandActions}><Link href="#start-project" className={styles.lightButton}>Tell us about your project<ArrowUpRight size={19} /></Link><Link href={call}>Or book a discovery call<ArrowUpRight size={16} /></Link><a href="mailto:info@devisgon.com">info@devisgon.com</a></div></section>
+    <section className={`${styles.section} ${styles.faqSection}`} aria-labelledby="faq-heading"><div><p className={styles.eyebrow}>BEFORE WE TALK / 04</p><h2 id="faq-heading">Good questions.<br /><span>Clear answers.</span></h2><p>You don’t need a technical brief.<br />A business problem is a good start.</p></div><div className={styles.faqList}>{faqs.map(([question, answer]) => <details key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></section>
+    <section id="about" className={`${styles.section} ${styles.companySection}`} aria-labelledby="company-heading"><div><p className={styles.eyebrow}>THE PEOPLE BEHIND THE PRODUCT</p><h2 id="company-heading">Technology is our craft.<br /><span>Your business is the focus.</span></h2><p>Devisgon brings AI, automation and software engineering together around practical business needs. We collaborate remotely, with the USA as our primary market, followed by Canada, the Netherlands and Europe, Australia, New Zealand, Qatar, Kuwait, Saudi Arabia and the UAE.</p></div><div className={styles.leadership}><Image src="/home_page/ceo_section/ceo.webp" alt="Zainab Abdullah, CEO of Devisgon" width={112} height={112} sizes="112px" /><div><h3>Zainab Abdullah</h3><span>CEO · Devisgon Pvt. Ltd.</span><p>Making technology practical for the businesses that use it.</p></div></div><div id="team" className={styles.teamNote}><p>Engineers, automation specialists and designers working toward a shared delivery plan.</p><Link href="/get-started" className={styles.textLink}>Careers at Devisgon<ArrowUpRight size={16} /></Link></div></section>
+  </div>;
 }

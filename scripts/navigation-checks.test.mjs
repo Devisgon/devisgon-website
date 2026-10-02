@@ -9,7 +9,7 @@ for (const file of files) test(`every original navigation destination remains re
   const { navbar } = JSON.parse(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, ""));
   const model = buildNavigation(navbar);
   const original = new Set(flattenNavigation(navbar).map((link) => link.href));
-  const reachable = new Set(["/", "/our-process", ...model.company.map((link) => link.href), ...model.resources.map((link) => link.href), ...model.catalogs.flatMap((catalog) => [catalog.href, ...catalog.groups.flatMap((group) => group.links.map((link) => link.href))])]);
+  const reachable = new Set(["/", "/our-process", ...model.company.map((link) => link.href), ...model.partners.map((link) => link.href), ...model.resources.map((link) => link.href), ...model.catalogs.flatMap((catalog) => [catalog.href, ...catalog.groups.flatMap((group) => group.links.map((link) => link.href))])]);
   assert.ok(original.size > 100, "audit must cover the entire catalogue");
   assert.deepEqual([...original].filter((href) => !reachable.has(href)), []);
   assert.ok(model.catalogs[0].groups[0].links.some((link) => link.href === "/services/ai-agent-development-automation-services"));
@@ -35,4 +35,12 @@ test("discovery calls use configured HTTPS Calendly links or the real contact bo
     process.env[keys[0]] = "https://calendly.com/example/30-minutes";
     assert.equal(getDiscoveryCallHref(), "https://calendly.com/example/30-minutes");
   } finally { keys.forEach((key, index) => { if (previous[index] === undefined) delete process.env[key]; else process.env[key] = previous[index]; }); }
+});
+
+test("Company groups partner destinations under a non-navigation label", () => {
+  const { navbar } = JSON.parse(fs.readFileSync("src/data/navbar.json", "utf8").replace(/^\uFEFF/, ""));
+  const model = buildNavigation(navbar);
+  assert.equal(model.partnerHeading, "Partners");
+  assert.deepEqual(model.partners.map(({ name, href }) => ({ name, href })), [{ name: "DoctorHoster", href: "/partners/doctorhoster" }, { name: "Jotform", href: "/partners/jotform" }]);
+  assert.ok(model.company.every((item) => !item.href.startsWith("/partners/")));
 });

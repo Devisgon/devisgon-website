@@ -53,7 +53,7 @@ export async function POST(req: Request) {
     // or misidentify an enquiry using the hosting server's public IP address.
     const locationString = "No external location lookup";
     const {
-      name, email, phone, company, country, projectType, budget, timeline, projectDetail, message,
+      name, email, phone, company, country, projectType, projectSize, budget, timeline, projectDetail, message,
       sourceType, industryName, serviceName, sourcePage,
       fileBase64, fileName, fileType,
     } = body;
@@ -77,6 +77,8 @@ export async function POST(req: Request) {
     const safeSourcePage = escapeHtml(cleanValue(sourcePage));
     const safeBudget = escapeHtml(cleanValue(budget));
     const safeTimeline = escapeHtml(cleanValue(timeline));
+    const safeProjectType = escapeHtml(cleanValue(projectType));
+    const safeProjectSize = escapeHtml(cleanValue(projectSize));
     const safeMessage = escapeHtml(inquiryMessage);
     const safeIp = escapeHtml(ip);
     const safeLocation = escapeHtml(locationString);
@@ -153,6 +155,10 @@ export async function POST(req: Request) {
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Source Page</td>
             <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeSourcePage}</td>
+          </tr>
+          <tr>
+            <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Project Type / Size</td>
+            <td style="padding: 10px 0; font-size: 15px; color: #1a1a1a; text-align: right; border-top: 1px solid #ede7f3;">${safeProjectType} / ${safeProjectSize}</td>
           </tr>
           <tr>
             <td style="padding: 10px 0; font-size: 13px; color: #8145B5; font-weight: 700; text-transform: uppercase; border-top: 1px solid #ede7f3;">Budget / Timeline</td>

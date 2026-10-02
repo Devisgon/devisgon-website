@@ -146,7 +146,7 @@ export default function Navbar() {
         <div className={styles.panelFooter}><span>AI, automation and product engineering</span><Link href="/contact" onClick={close}>Discuss your project <ArrowUpRight size={15} aria-hidden="true" /></Link></div>
       </> : <>
         <div className={styles.simpleHeading}><p>{open === "company" ? copy[4] : copy[3]}</p><button type="button" aria-label={copy[8]} className={styles.iconButton} onClick={() => { setOpen(null); triggerRef.current?.focus(); }}><X size={18} /></button></div>
-        <div className={styles.simpleLinks}>{(open === "company" ? model.company : [...model.resources, { name: "Automation ROI calculator", href: "/tools/automation-roi" }]).map((item) => <NavLink key={item.href} item={item} />)}</div>
+        <div className={styles.simpleLinks}>{(open === "company" ? model.company : [...model.resources, { name: "Automation ROI calculator", href: "/tools/automation-roi" }]).map((item) => <NavLink key={item.href} item={item} />)}{open === "company" && model.partners.length > 0 && <><h3 className={styles.partnerHeading}>{model.partnerHeading}</h3>{model.partners.map((item) => <NavLink key={item.href} item={item} />)}</>}</div>
       </>}
     </div>}
     <dialog ref={dialogRef} aria-labelledby="mobile-navigation-title" className={styles.mobileDialog} onCancel={() => setMobileOpen(false)} onClose={() => setMobileOpen(false)}>
@@ -157,7 +157,7 @@ export default function Navbar() {
         <Link href="/our-work" onClick={close} className={styles.mobileDirect}>{copy[1]}</Link>
         <Link href="/our-process" onClick={close} className={styles.mobileDirect}>{copy[2]}</Link>
         <details><summary>{copy[3]}</summary>{[...model.resources, { name: "Automation ROI calculator", href: "/tools/automation-roi" }].map((item) => <NavLink key={item.href} item={item} />)}</details>
-        <details><summary>{copy[4]}</summary>{model.company.map((item) => <NavLink key={item.href} item={item} />)}</details>
+        <details><summary>{copy[4]}</summary>{model.company.map((item) => <NavLink key={item.href} item={item} />)}{model.partners.length > 0 && <><h3 className={styles.partnerHeading}>{model.partnerHeading}</h3>{model.partners.map((item) => <NavLink key={item.href} item={item} />)}</>}</details>
       </nav>
       <Link href={callHref} onClick={close} className={styles.mobileCall}>{copy[5]}<ArrowUpRight size={18} aria-hidden="true" /></Link>
     </dialog>
