@@ -1,8 +1,8 @@
 {
   "slug": "business-process-automation-services",
   "seo_metadata": {
-    "title": "Business Process Automation | Devisgon",
-    "description": "Devisgon provides professional Business Process Automation services for workflow automation, approval routing, CRM automation, ERP automation, reporting automation, task management, data synchronization, and scalable operations for global businesses.",
+    "title": "Business Process Automation Services | Devisgon",
+    "description": "Automate intake, CRM updates, approvals and reporting across your business tools. Define workflow rules, ownership, exceptions and operational visibility.",
     "keywords": [
       "business process automation services",
       "BPA services",
@@ -198,20 +198,20 @@
     ]
   },
   "case_study_section": {
-    "headline": "Business Process Automation That Improved Approval Speed and Reduced Administrative Workload",
+    "headline": "Illustrative Project Scope — Business Process Automation Services",
     "image": "/all_services/low_code_automation/case_study.webp",
     "content": {
       "problem": {
-        "label": "Operational Roadblock",
-        "text": "A growing company had slow approval cycles across finance, HR, and operations. Requests were handled through email, spreadsheets, and manual follow ups, which caused delays, missed updates, and limited workflow visibility."
+        "label": "Example requirement",
+        "text": "A good fit when a process has repeated handoffs between staff and systems. We start with the rules and bottlenecks; AI is included only where it adds useful capability."
       },
       "solution": {
-        "label": "Our Engineering Approach",
-        "text": "Devisgon mapped the approval process, created structured workflow automation, connected business tools, added role based routing, configured reminders, and built dashboards for process visibility and bottleneck tracking."
+        "label": "Possible delivery scope",
+        "text": "An agreed implementation could include: Workflow map, trigger rules and integrations; Approvals, notifications and monitoring; Runbooks and scoped deployment/support."
       },
       "result": {
-        "label": "Measurable Impact",
-        "text": "The company reduced approval delays, lowered administrative workload, improved status visibility, and created a scalable workflow foundation for finance, HR, operations, and management teams."
+        "label": "How success would be evaluated",
+        "text": "This is an illustrative scenario, not a verified client outcome. Before launch, agree correct records and handoffs without duplicate actions; recovery from failed integrations and missing inputs; measured processing time and exceptions after launch."
       }
     }
   },
@@ -257,5 +257,25 @@
       "link_text": "Schedule a BPA discovery call",
       "link_url": "/contact"
     }
+  },
+  "buyer_guide": {
+    "title": "Plan the right scope before development",
+    "fit": "A good fit when a process has repeated handoffs between staff and systems. We start with the rules and bottlenecks; AI is included only where it adds useful capability.",
+    "inputs": [
+      "Current steps, owners, volumes and approval rules",
+      "Tools, API access and data quality constraints",
+      "Failure cases and baseline time per task"
+    ],
+    "deliverables": [
+      "Workflow map, trigger rules and integrations",
+      "Approvals, notifications and monitoring",
+      "Runbooks and scoped deployment/support"
+    ],
+    "acceptance": [
+      "Correct records and handoffs without duplicate actions",
+      "Recovery from failed integrations and missing inputs",
+      "Measured processing time and exceptions after launch"
+    ],
+    "resource": "/resources/automation-discovery-checklist"
   }
 }

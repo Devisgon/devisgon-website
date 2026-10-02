@@ -1,15 +1,7 @@
 import { NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY!);
-
-function isValidEmail(value: unknown) {
-  return typeof value === "string" && /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value);
-}
-
-function isValidPhone(value: unknown) {
-  return typeof value === "string" && /^\+?[0-9\s().-]{7,20}$/.test(value.trim());
-}
+import { MAX_INQUIRY_BODY_BYTES, validateInquiry, verifyInquiryChallenge } from "@/lib/inquiry-validation";
 
 function escapeHtml(value: unknown) {
   return String(value ?? "")
@@ -27,52 +19,44 @@ function cleanValue(value: unknown, fallback = "Not provided") {
 export async function POST(req: Request) {
   try {
    
-    let ip = req.headers.get("x-forwarded-for")?.split(",")[0] || req.headers.get("x-real-ip");
-    let locationString = "Location Unavailable";
-
-    if (!ip || ip === "::1" || ip === "127.0.0.1" || ip.startsWith("192.168")) {
-      try {
-        const ipRes = await fetch("https://api64.ipify.org?format=json");
-        const ipData = await ipRes.json();
-        ip = ipData.ip;
-      } catch (e) {
-        console.error("Failed to fetch public IP:", e);
-        ip = "Unknown";
-      }
+    const origin = req.headers.get("origin");
+    if (origin && origin !== new URL(req.url).origin) {
+      return NextResponse.json({ success: false, message: "Invalid request origin." }, { status: 403 });
     }
-
-    if (ip && ip !== "Unknown") {
-      try {
-        const geoRes = await fetch(`https://ipwho.is/${ip}`);
-        const geo = await geoRes.json();
-        
-        if (geo.success) {
-          locationString = `${geo.city || "Unknown City"}, ${geo.country || "Unknown Country"}`;
-        } else {
-          console.warn("Geo lookup failed:", geo.message);
-        }
-      } catch (e) {
-        console.error("Geo fetch error:", e);
-      }
+    if (Number(req.headers.get("content-length")) > MAX_INQUIRY_BODY_BYTES) {
+      return NextResponse.json({ success: false, message: "Request is too large." }, { status: 413 });
     }
-    const body = await req.json();
+    const rawBody = await req.text();
+    if (Buffer.byteLength(rawBody) > MAX_INQUIRY_BODY_BYTES) {
+      return NextResponse.json({ success: false, message: "Request is too large." }, { status: 413 });
+    }
+    let body;
+    try { body = JSON.parse(rawBody); } catch {
+      return NextResponse.json({ success: false, message: "Invalid request." }, { status: 400 });
+    }
+    const validationError = validateInquiry(body);
+    if (validationError) return NextResponse.json({ success: false, message: validationError }, { status: 400 });
+    if (body.website?.trim()) return NextResponse.json({ success: false, message: "Unable to accept this request." }, { status: 400 });
+    const challengeSecret = process.env.TURNSTILE_SECRET_KEY;
+    if (Boolean(challengeSecret) !== Boolean(process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY)) {
+      return NextResponse.json({ success: false, message: "The enquiry form is temporarily unavailable. Please contact us by email." }, { status: 503 });
+    }
+    if (challengeSecret && !await verifyInquiryChallenge(body.turnstileToken, challengeSecret)) {
+      return NextResponse.json({ success: false, message: "Please complete verification and try again." }, { status: 400 });
+    }
+    if (!process.env.RESEND_API_KEY || !process.env.RESEND_DOMAIN || !process.env.RESEND_EMAIL_USER) {
+      return NextResponse.json({ success: false, message: "The enquiry form is temporarily unavailable. Please contact us by email." }, { status: 503 });
+    }
+    const resend = new Resend(process.env.RESEND_API_KEY);
+    const ip = req.headers.get("x-forwarded-for")?.split(",")[0]?.trim() || req.headers.get("x-real-ip") || "Unavailable";
+    // Country is supplied by the visitor. Third-party enrichment must not delay
+    // or misidentify an enquiry using the hosting server's public IP address.
+    const locationString = "No external location lookup";
     const {
       name, email, phone, company, country, projectType, budget, timeline, projectDetail, message,
       sourceType, industryName, serviceName, sourcePage,
       fileBase64, fileName, fileType,
     } = body;
-
-    if (
-      typeof name !== "string" ||
-      !name.trim() ||
-      !isValidEmail(email) ||
-      !isValidPhone(phone)
-    ) {
-      return NextResponse.json(
-        { success: false, message: "Name, email, and phone number are required." },
-        { status: 400 },
-      );
-    }
 
     const attachments = fileBase64
       ? [{ filename: fileName || "attachment", content: fileBase64, type: fileType, disposition: "attachment" }]
@@ -103,7 +87,7 @@ export async function POST(req: Request) {
           ? `Service Inquiry: ${selectedService}`
           : "New Contact Form Submission";
   
-    await resend.emails.send({
+    const { data, error } = await resend.emails.send({
       from: process.env.RESEND_DOMAIN!,
       to: [process.env.RESEND_EMAIL_USER!],
       subject: subjectContext,
@@ -201,9 +185,13 @@ export async function POST(req: Request) {
       attachments,
     });
     
-    return NextResponse.json({ success: true, message: "Email sent" });
+    if (error || !data?.id) {
+      console.error("Inquiry email provider did not accept the message.");
+      return NextResponse.json({ success: false, message: "We could not send your enquiry. Please try again or email info@devisgon.com." }, { status: 502 });
+    }
+    return NextResponse.json({ success: true, message: "Enquiry accepted" });
   } catch (error) {
-    console.error("API Error:", error);
-    return NextResponse.json({ success: false, error }, { status: 500 });
+    console.error("Inquiry request failed:", error instanceof Error ? error.name : "Unknown error");
+    return NextResponse.json({ success: false, message: "We could not send your enquiry. Please try again or email info@devisgon.com." }, { status: 500 });
   }
 }

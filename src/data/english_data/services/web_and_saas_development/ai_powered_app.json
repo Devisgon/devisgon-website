@@ -1,8 +1,8 @@
 {
   "slug": "ai-software-development-automation-services",
   "seo_metadata": {
-    "title": "AI App Development | Devisgon",
-    "description": "Devisgon builds AI powered applications for web, mobile, SaaS, automation, personalization, predictive analytics, AI chat, recommendation systems, workflow intelligence, and scalable business software for global companies.",
+    "title": "AI App & SaaS MVP Development | Devisgon",
+    "description": "Build AI-powered SaaS, MVPs, web and mobile apps with user flows, data permissions, model integration, evaluation and release-ready product foundations.",
     "keywords": [
       "AI powered app development",
       "AI app development services",
@@ -25,7 +25,7 @@
     ]
   },
   "hero_section": {
-    "title": "AI Powered App Development Services",
+    "title": "AI-Powered App Development Services",
     "subtitle": "Intelligent Web, Mobile, and SaaS Applications Built for Real Business Growth",
     "description": "Devisgon builds AI powered applications that understand users, automate workflows, personalize experiences, analyze data, predict outcomes, and improve business decisions. We help global companies create intelligent software for SaaS products, mobile apps, web platforms, internal tools, customer portals, and AI first digital experiences.",
     "buttons": [
@@ -198,20 +198,20 @@
     ]
   },
   "case_study_section": {
-    "headline": "AI Powered App That Improved Personalization and Increased Customer Engagement",
+    "headline": "Illustrative Project Scope — AI-Powered App Development Services",
     "image": "/all_services/ai_powered_app/case_study.webp",
     "content": {
       "problem": {
-        "label": "Operational Roadblock",
-        "text": "A retail business wanted to reduce cart abandonment, improve product discovery, and personalize the shopping experience, but its existing app showed the same static product suggestions to every customer."
+        "label": "Example requirement",
+        "text": "For founders building an AI product or teams adding AI to an existing application. Scope the complete user experience and product foundations, including what happens when AI cannot answer."
       },
       "solution": {
-        "label": "Our Engineering Approach",
-        "text": "Devisgon built an AI powered recommendation layer connected to customer behavior, product categories, purchase history, and session activity. The system delivered personalized suggestions and smarter product discovery inside the application."
+        "label": "Possible delivery scope",
+        "text": "An agreed implementation could include: Product scope, UX flows, frontend and backend; Authentication, roles and scoped billing/integrations; AI evaluation, deployment and handoff documentation."
       },
       "result": {
-        "label": "Measurable Impact",
-        "text": "The business improved customer engagement, increased product interaction, reduced manual merchandising effort, and created a smarter shopping experience supported by real user behavior data."
+        "label": "How success would be evaluated",
+        "text": "This is an illustrative scenario, not a verified client outcome. Before launch, agree useful end-to-end user tasks and clear failure states; permission boundaries and representative ai quality tests; agreed performance, cost and release requirements."
       }
     }
   },
@@ -257,5 +257,25 @@
       "link_text": "Schedule an AI app discovery call",
       "link_url": "/contact"
     }
+  },
+  "buyer_guide": {
+    "title": "Plan the right scope before development",
+    "fit": "For founders building an AI product or teams adding AI to an existing application. Scope the complete user experience and product foundations, including what happens when AI cannot answer.",
+    "inputs": [
+      "Target users and one valuable first workflow",
+      "Data access, model constraints and monetization assumptions",
+      "Supported devices and release acceptance criteria"
+    ],
+    "deliverables": [
+      "Product scope, UX flows, frontend and backend",
+      "Authentication, roles and scoped billing/integrations",
+      "AI evaluation, deployment and handoff documentation"
+    ],
+    "acceptance": [
+      "Useful end-to-end user tasks and clear failure states",
+      "Permission boundaries and representative AI quality tests",
+      "Agreed performance, cost and release requirements"
+    ],
+    "resource": "/resources/ai-mvp-scope-checklist"
   }
 }

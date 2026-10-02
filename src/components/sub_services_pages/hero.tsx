@@ -17,10 +17,10 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
       <div className="absolute top-1/2 hidden md:block -translate-y-1/2 left-1/2 w-[300px] h-[300px] rounded-full border-[40px] border-[#8145B5] opacity-10" />
       <div className="absolute top-20 right-16 hidden md:block w-[100px] h-[100px] rounded-full border-[16px] border-[#8145B5] opacity-10" />
 
-      <div className="px-22 relative z-10 flex gap-0.52 ">
+      <div className="px-6 md:px-12 lg:px-22 relative z-10 flex gap-0.52 ">
         <div className="flex flex-col lg:flex-row gap-8 md:gap-2 items-center">
           <div className="w-full  lg:w-2/3 bg-[#EAD5F9] dark:bg-[#8457AA] rounded-2xl p-8 md:p-16 lg:pr-32 shadow-sm relative z-10">
-            <h1 className="text-5xl md:text-6xl font-extrabold  mb-2 tracking-tight  bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060_50.16%,rgba(64,32,96,0.4)_97.71%)] bg-clip-text text-transparent">
+            <h1 className="text-3xl md:text-5xl font-extrabold mb-2 tracking-tight text-[#402060] dark:text-white">
               {title}
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold  mb-6  bg-[linear-gradient(89.7deg,rgba(64,32,96,0.4)_1.56%,#402060_23.75%,#402060_50.16%,rgba(64,32,96,0.4)_97.71%)] bg-clip-text text-transparent">
@@ -55,8 +55,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ data }) => {
               <div className="relative z-[3] h-full flex flex-col justify-between p-6 text-white">
                 <div className="flex justify-between items-start">
                   <div>
-                    <p className="opacity-50 text-xl md:text-3xl font-semibold">Our Work.</p>
-                    <p className="text-2xl md:text-3xl font-bold leading-tight">Their Words.</p>
+                    <p className="rounded-lg bg-[#402060]/90 px-3 py-2 text-sm font-semibold text-white">Explore the possibilities</p>
                   </div>
                 </div>
               </div>

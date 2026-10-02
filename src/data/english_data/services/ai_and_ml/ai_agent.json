@@ -1,8 +1,8 @@
 {
   "slug": "ai-agent-development-automation-services",
   "seo_metadata": {
-    "title": "AI Agent Development | Devisgon",
-    "description": "Devisgon builds custom AI agents for business automation, customer support, CRM workflows, research, operations, task routing, internal tools, and secure AI powered digital systems for global companies.",
+    "title": "Custom AI Agent Development | Devisgon",
+    "description": "Build business AI agents that use tools, retrieve approved knowledge and route tasks with human review. Scope integrations, evaluation and production support.",
     "keywords": [
       "AI agent development services",
       "custom AI agents",
@@ -25,7 +25,7 @@
     ]
   },
   "hero_section": {
-    "title": "Custom AI Agents for Business Automation",
+    "title": "AI Agent Development Services",
     "subtitle": "AI Powered Digital Workers Built for Real Operational Workflows",
     "description": "Devisgon builds secure AI agents that understand tasks, use tools, process business data, support users, automate workflows, and connect with your existing software systems. We help global businesses move from manual repetitive work to intelligent, controlled, and scalable AI powered operations.",
     "buttons": [
@@ -201,20 +201,20 @@
     ]
   },
   "case_study_section": {
-    "headline": "AI Agent Automation That Improved Response Speed and Reduced Manual Work",
+    "headline": "Illustrative Project Scope — AI Agent Development Services",
     "image": "/all_services/custom_bots/case_study.webp",
     "content": {
       "problem": {
-        "label": "Operational Roadblock",
-        "text": "A service business was handling customer inquiries, lead updates, internal notes, task routing, and follow ups manually across disconnected tools. The team was losing time, missing context, and repeating the same operational work every day."
+        "label": "Example requirement",
+        "text": "A good fit when a task needs business context, controlled tool access and human approval. We can scope reception, support triage, internal assistants and CRM workflows."
       },
       "solution": {
-        "label": "Our Engineering Approach",
-        "text": "Devisgon built a custom AI agent connected to the CRM, forms, email summaries, knowledge documents, and task queue. The agent classified requests, prepared responses, updated workflow data, and sent sensitive actions for human approval."
+        "label": "Possible delivery scope",
+        "text": "An agreed implementation could include: Tool/API integrations and controlled agent workflow; Evaluation cases, review paths and audit visibility; Deployment, documentation and an agreed support scope."
       },
       "result": {
-        "label": "Measurable Impact",
-        "text": "The business improved response consistency, reduced repetitive admin work, and created a controlled AI workflow for faster lead handling, support routing, and internal task preparation."
+        "label": "How success would be evaluated",
+        "text": "This is an illustrative scenario, not a verified client outcome. Before launch, agree correct routing and tool permissions on agreed test cases; fallback behavior for missing information and failed tools; cost, response time and review requirements."
       }
     }
   },
@@ -260,5 +260,25 @@
       "link_text": "Schedule an AI agent discovery call",
       "link_url": "/contact"
     }
+  },
+  "buyer_guide": {
+    "title": "Plan the right scope before development",
+    "fit": "A good fit when a task needs business context, controlled tool access and human approval. We can scope reception, support triage, internal assistants and CRM workflows.",
+    "inputs": [
+      "Representative tasks and approved knowledge sources",
+      "Systems to connect, owners and permission boundaries",
+      "Actions that require staff review or escalation"
+    ],
+    "deliverables": [
+      "Tool/API integrations and controlled agent workflow",
+      "Evaluation cases, review paths and audit visibility",
+      "Deployment, documentation and an agreed support scope"
+    ],
+    "acceptance": [
+      "Correct routing and tool permissions on agreed test cases",
+      "Fallback behavior for missing information and failed tools",
+      "Cost, response time and review requirements"
+    ],
+    "resource": "/resources/ai-agent-production-checklist"
   }
 }

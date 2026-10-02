@@ -181,11 +181,11 @@ const Footer = () => {
               </a>
 
               <a
-                href="tel:03316944411"
+                href="tel:+923316944411"
                 className="group flex items-center gap-3 transition-all duration-300 hover:text-[#8B3DFF]"
               >
                 <Phone size={20} className="transition-transform group-hover:scale-110" />
-                <span className="border-[#8B3DFF] group-hover:border-b-2">0331 6944411</span>
+                <span className="border-[#8B3DFF] group-hover:border-b-2">+92 331 6944411</span>
               </a>
             </div>
 

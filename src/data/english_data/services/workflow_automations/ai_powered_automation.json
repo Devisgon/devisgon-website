@@ -1,8 +1,8 @@
 {
   "slug": "ai-powered-business-automation-services",
   "seo_metadata": {
-    "title": "AI Workflow Automation | Devisgon",
-    "description": "Devisgon provides professional AI powered automation services for workflow automation, AI agents, intelligent bots, CRM automation, ERP automation, document processing, reporting automation, data extraction, and scalable business operations for global companies.",
+    "title": "AI Automation Services for Business | Devisgon",
+    "description": "Connect AI classification, document extraction and drafting with your business workflows. Plan validation, approvals, integrations and exception handling.",
     "keywords": [
       "AI powered automation services",
       "AI workflow automation",
@@ -25,7 +25,7 @@
     ]
   },
   "hero_section": {
-    "title": "AI Powered Automation Services",
+    "title": "AI Automation Services",
     "subtitle": "Intelligent Workflow Automation for Faster, Smarter, and Scalable Operations",
     "description": "Devisgon designs AI powered automation systems that reduce manual work, connect business tools, process documents, trigger workflows, support customers, generate reports, and assist teams with intelligent decision making. We help global businesses automate repetitive operations with secure, scalable, and production ready AI workflows.",
     "buttons": [
@@ -198,20 +198,20 @@
     ]
   },
   "case_study_section": {
-    "headline": "AI Automation That Reduced Manual Finance Processing and Improved Operational Speed",
+    "headline": "Illustrative Project Scope — AI Automation Services",
     "image": "/all_services/ai_powered_automation/case_study.webp",
     "content": {
       "problem": {
-        "label": "Operational Roadblock",
-        "text": "A financial services team spent many hours every month manually reviewing invoices, validating fields, matching records, preparing reports, and routing approvals across disconnected tools."
+        "label": "Example requirement",
+        "text": "A good fit when repetitive work involves unstructured text or documents as well as rules. Use deterministic checks for required fields and human review for uncertain outputs."
       },
       "solution": {
-        "label": "Our Engineering Approach",
-        "text": "Devisgon built an AI powered automation workflow that extracted invoice data, validated entries against accounting rules, matched records, routed approvals, updated systems, and generated operational reports."
+        "label": "Possible delivery scope",
+        "text": "An agreed implementation could include: Extraction, classification or drafting steps; Validation, review queues and system integrations; Failure recovery and operational documentation."
       },
       "result": {
-        "label": "Measurable Impact",
-        "text": "The team reduced manual processing time, improved data accuracy, accelerated approval workflows, and created a scalable automation foundation for future finance operations."
+        "label": "How success would be evaluated",
+        "text": "This is an illustrative scenario, not a verified client outcome. Before launch, agree field validation and routing quality on representative samples; handling of unsupported inputs and low-confidence results; duplicate prevention, review load and operating cost."
       }
     }
   },
@@ -257,5 +257,25 @@
       "link_text": "Schedule an AI automation discovery call",
       "link_url": "/contact"
     }
+  },
+  "buyer_guide": {
+    "title": "Plan the right scope before development",
+    "fit": "A good fit when repetitive work involves unstructured text or documents as well as rules. Use deterministic checks for required fields and human review for uncertain outputs.",
+    "inputs": [
+      "Sample documents or messages with sensitive data removed",
+      "Existing workflow rules and downstream systems",
+      "Exception owners and baseline processing effort"
+    ],
+    "deliverables": [
+      "Extraction, classification or drafting steps",
+      "Validation, review queues and system integrations",
+      "Failure recovery and operational documentation"
+    ],
+    "acceptance": [
+      "Field validation and routing quality on representative samples",
+      "Handling of unsupported inputs and low-confidence results",
+      "Duplicate prevention, review load and operating cost"
+    ],
+    "resource": "/resources/automation-discovery-checklist"
   }
 }

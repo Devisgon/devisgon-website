@@ -44,7 +44,7 @@ Required actions after each meaningful code change:
 - Shared marketing, blog, navbar, footer, contact preview, and service-detail imagery should use `next/image` instead of raw `<img>` tags so lint stays clean and image sizing remains explicit.
 - Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`; `src/lib/seo.ts` also maps JSON `seo` / `seo_metadata` objects into Next Metadata API output for JSON-driven pages. The public root layout exports site-wide Metadata API defaults including metadata base, canonical root URL, robots, icons, Open Graph, Twitter card data, Organization/WebSite/navigation JSON-LD, and the generated `/opengraph-image` preview.
 - Public page metadata must emit titles, descriptions, Open Graph/Twitter data, and canonical URLs through Next Metadata API exports (`metadata` or `generateMetadata`); route-supplied canonical paths in `src/lib/seo.ts` take precedence over JSON-provided canonical URLs so tags stay in `<head>` and match canonical public routes.
-- SEO titles should stay unique per canonical page and at or below 55 characters; `src/lib/seo.ts` compacts any future overlong title before rendering, while canonical English JSON `seo` / `seo_metadata` descriptions should remain unique across indexable pages.
+- SEO titles should be concise, descriptive and unique per canonical page; `src/lib/seo.ts` normalizes whitespace and preserves whole editorial titles instead of clipping at 55 characters. Canonical English JSON `seo` / `seo_metadata` descriptions remain unique across indexable pages.
 - The homepage injects page-specific WebPage/Service JSON-LD from `src/app/(app)/page.tsx`, and service detail pages inject BreadcrumbList/Service/FAQ JSON-LD from `src/app/(app)/services/[slug]/page.tsx` using helpers in `src/lib/seo.ts`.
 
 ## Route Flow
@@ -52,7 +52,7 @@ Required actions after each meaningful code change:
 - `/` -> `src/app/(app)/page.tsx` -> `Header` + server-rendered `home_page/main_page` + streamed home blogs preview (`Suspense`) + `Footer`.
 - Home blogs preview route segment (`src/components/home_page/blogs.tsx`) resolves `lang` from cookie and injects localized `home_page.blog_section` heading/subheading before rendering shared blog list.
 - Home services carousel (`src/components/home_page/services_section.tsx` + `src/components/animations/ServicesSection.module.css`) is a viewport-aware client island; the curved marquee loops infinitely while visible and pauses when out of view, hovered, or keyboard-focused; card links are mirrored in each localized `home_page.json` and should point to the closest active flat `/services/<slug>` detail page.
-- The homepage expert services section renders as a static server section after the hero/services blocks; lower homepage islands are routed through `src/components/home_page/deferred_sections.tsx`, which uses `IntersectionObserver` plus `next/dynamic` `ssr: false` imports so animation-heavy chunks are only mounted as they approach the viewport.
+- Homepage core AI/automation/app offers and expert services are server rendered. `src/components/home_page/deferred_sections.tsx` now renders solutions, CEO, process and team immediately; the process retains its client animation with SSR markup. About/Team anchor IDs exist before scrolling. Hardcoded award counters and unrelated sample testimonials are withheld until verified.
 - `/services` -> `src/app/(app)/services/page.tsx` reads `lang` cookie, loads `services_page.json` from language map, renders service sections, and ends with a simple CTA band (`src/components/services_page/cta_section.tsx`) using `contact_form` copy plus Book a Consultation/Contact Us links instead of a form.
 - Services, Industries, and Technologies main and detail hero sections render two fixed CTAs: `Book a Discovery Call` using `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING` with `/contact` fallback, followed by `Contact Us` linking to `/contact`.
 - Service detail public URLs are flat lowercase/hyphenated SEO paths (`/services/<slug>`) resolved by `src/app/(app)/services/[slug]/page.tsx`; category-prefixed service URLs and old short service slugs resolve through aliases and redirect to the canonical JSON `slug`.
@@ -185,8 +185,8 @@ Defined in `src/payload.config.ts`:
   - receives JSON from contact form,
   - validates required name, email, and phone fields,
   - accepts optional company, country, service name, industry name, source page/type, budget, timeline, and attachment fields,
-  - enriches request with IP and geo lookup (`api64.ipify.org`, `ipwho.is`),
-  - sends HTML email via Resend, optional attachment.
+  - uses visitor-supplied country and request IP context; never waits on third-party IP/geo lookup,
+  - validates input/body limits and optional PNG/JPG/WEBP/PDF attachment up to 2 MiB; rejects honeypot and mismatched browser origins; verifies Turnstile on the server when both keys are configured; checks Resend acceptance before success and returns safe errors. The route does not persist enquiries to a CRM/database.
 - `POST /api/apply_mail`:
   - similar flow for application form,
   - validates required name, email, and phone fields,
@@ -226,7 +226,7 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Main nav and service links are in `src/data/navbar.json`.
 - Localized navbar labels are mirrored in `src/data/*_data/navbar.json`; `src/lib/localized-content.ts` resolves the active language dataset.
 - Public `href` values in localized navbar JSON must mirror canonical `src/data/navbar.json` slugs exactly, even when labels are translated or ordered differently.
-- Dropdown categories (`dropdown.columns`) and subcategory links (`links`) in navbar data are maintained in alphabetical order by display name.
+- Services dropdown columns and links prioritize the owner’s AI/automation/agent/AI-app offers, then web apps and websites. Other groups retain their existing order; canonical hrefs and translated labels remain consistent across languages.
 - Services dropdown links are grouped by service category labels but point to flat canonical service routes (`/services/<slug>`). The footer reads these same dropdown groups from localized navbar JSON.
 - About uses a one-column dropdown in each navbar JSON file with `CEO`, `Team`, and `Careers` links; the dropdown column title is intentionally empty so no main category heading appears above those links.
 - Our Process is linked from the About dropdown in `src/data/navbar.json` and localized navbar files at `/our-process`; the page itself currently uses English JSON content.
@@ -241,9 +241,22 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Old service URLs under category-prefixed paths such as `/services/ai-and-ml/*`, `/services/automations/*`, `/services/cloud/*`, `/services/data-solutions/*`, `/services/design/*`, `/services/testing/*`, `/services/web-and-saas-development/*`, `/services/saas/*`, `/services/web-and-mobile-development/*`, `/services/web_and_mobile_development/*`, and `/services/data_solutions/*` are handled by redirects in `next.config.ts` instead of duplicate public URLs.
 - Industry category/slug paths in `src/data/*_data/industries/<category>/<slug>.json` may remain underscore-backed on disk, but public navbar industries links must use flat hyphenated `/industries/<slug>` paths resolved by `src/data/loaders/industries.ts`.
 - Legacy typo-backed industry files such as `tutoer` and `elctronics` have been removed with their retired public slugs.
-- Sitemap generation (`next-sitemap.config.js`) crawls English service, industry, technology, and partner JSON files into deduped canonical URLs without `?lang=` query variants, using JSON `slug` values for the current SEO public URLs.
+- Sitemap generation (`next-sitemap.config.js`) crawls English service, industry, technology, and partner JSON plus planning resources/tools into deduped canonical URLs without `?lang=` variants. It omits false checkout/build lastmod dates; explicit JSON updatedAt is used when available. `/blog-sitemap.xml` queries all published Payload posts in pages of 500, emits their actual updatedAt, caches successful output for one hour, and returns uncached 503 during CMS failure.
 - Sitemap generation gives `/` daily priority and boosts current AI/ML service detail URLs to priority `0.95` so key AI service pages are emphasized in canonical sitemap output.
-- `robots.txt` is generated by `next-sitemap.config.js`; it allows the public main routes, disallows admin/API/internal/legacy/query-parameter URLs, sets crawler delay, and points crawlers at the canonical sitemap index.
+- `robots.txt` is generated by `next-sitemap.config.js`; it permits public routes and Next static assets, restricts admin/API/internal paths and advertises both the static sitemap index and runtime blog sitemap. Sitemap priority values are hints, not Google ranking controls.
+
+## USA-first AI positioning and growth additions
+- Owner priorities: custom AI, automations, agents and AI-powered SaaS/MVP/web/mobile apps first; general web apps and websites second; all other capabilities support them.
+- `src/components/home_page/priority_offers.tsx` renders English primary offers and genuine remote market targeting: USA, Canada, Netherlands/Europe, Australia/NZ and Gulf. Do not imply foreign offices.
+- `src/lib/service-priorities.ts` orders inquiry options; English primary pages include optional `buyer_guide` data rendered by `sub_services_pages/buyer_guide.tsx` (fit, inputs, deliverables, acceptance and resource link).
+- Updated English core anonymous outcomes are labeled illustrative scenarios, not verified client results. Verify permission and evidence before publishing real case studies.
+- All English industry pages have authored or industry-specific metadata. Industry hero has one stable H1; rotating offers are supporting copy. Retired non-equivalent related cards are removed; equivalent links point at current routes across every language.
+- `/resources` and `/resources/[slug]` render three English planning guides from `src/data/planning-guides.ts`; `/tools/automation-roi` has a browser-side scenario calculator using `src/lib/automation-roi.ts`.
+- Public service aliases and normalized variants use permanent redirects; canonical slugs remain stable.
+- Both inquiry forms reset submitting state after network/provider/file errors, preserve failure values, support `InquiryProtection`, and emit success analytics only after API acceptance. Direct forms capture the form node before awaiting.
+- Optional `AnalyticsConsent` loads GA4 only after explicit opt-in. Only accepted submission, form-error and booking-link-click events are sent; no form values or URL query strings. A booking link click is not a completed meeting. Disable automatic form/outbound/history-pageview enhanced measurement in GA4 to avoid duplicate or ambiguous counts. Preferences allow a fresh opt-in decision after reload.
+- Optional Turnstile requires `NEXT_PUBLIC_TURNSTILE_SITE_KEY` plus `TURNSTILE_SECRET_KEY`; partial configuration returns 503. Without keys, only validation/origin/honeypot protections apply. Configure deployment edge rate limiting separately; no global in-memory limiter is claimed.
+- Payload blog mutations require an authenticated user; anonymous blog reads are restricted to published status. Public growth resources do not add a CMS schema or require a database migration.
 
 ## Environment Variables
 Required by runtime code:
@@ -259,6 +272,10 @@ Required by runtime code:
 - `NEXT_PUBLIC_CALENDLY_15_MIN_MEETING`
 - `NEXT_PUBLIC_CALENDLY_30_MIN_MEETING`
 - `NEXT_PUBLIC_CALENDLY_60_MIN_MEETING`
+
+Optional for growth measurement and enquiry verification:
+- `NEXT_PUBLIC_GA4_MEASUREMENT_ID` (real GA4 measurement ID; no script loads when unset)
+- `NEXT_PUBLIC_TURNSTILE_SITE_KEY` and `TURNSTILE_SECRET_KEY` (must be set together)
 
 Optional for blog auto-translation tuning:
 - `BLOG_TRANSLATE_ENGINE` (e.g. `google`, `deepl`, `libre`)
@@ -308,7 +325,7 @@ If you change this, also check this:
 ## Known Risks and Technical Debt
 - `src/data/loaders/digital_design.ts` has Arabic/German imports swapped for `ar` and `de` language maps.
 - Several UI strings show encoding artifacts in source files.
-- No test suite is present (`*.test.*`/`*.spec.*` not found).
+- `scripts/growth-checks.test.mjs` covers inquiry validation/provider error handling, challenge validation, blog sitemap filtering, calculator math and metadata/link invariants. Run with `npm run verify:growth` on Node 22.6+ with TypeScript stripping (validated on Node 24); esbuild is installed transitively with Payload/tsx.
 - `eslint.ignoreDuringBuilds` is enabled in `next.config.ts`, so CI should lint explicitly.
 
 ## Change Log
@@ -472,3 +489,5 @@ If you change this, also check this:
 - 2026-06-03: Removed `src/lib/service-detail.ts` and changed `/services/[slug]` to resolve service pages directly from imported loader data and JSON `slug` fields, with the existing custom-bots legacy redirects pointed at the canonical AI Chatbot URL.
 - 2026-06-04: Reduced production JavaScript bloat by code-splitting the navbar language switcher and below-the-fold homepage sections, switching country labels to a local ISO list, narrowing the shared `react-icons` registry to named imports, and using Framer `LazyMotion` on form routes.
 - 2026-06-04: Prioritized the homepage hero image, moved the expert services section out of client-side Framer animations, and viewport-gated lower homepage dynamic islands to reduce mobile blocking time.
+
+- 2026-10-02: Implemented USA-first AI/automation/agent/AI-app positioning, SSR company anchors, verified-scope content, industry metadata/link repairs, published-only blog sitemap/access, permanent service aliases, resilient bounded enquiries, optional Turnstile/consented GA4, planning resources and automation calculator; added meaningful growth checks and configuration guidance.

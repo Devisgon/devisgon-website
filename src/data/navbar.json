@@ -13,20 +13,24 @@
             "title": "AI & ML",
             "links": [
               {
-                "name": "Agentic AI",
-                "href": "/services/agentic-ai-development-automation-services"
-              },
-              {
                 "name": "AI Agents",
                 "href": "/services/ai-agent-development-automation-services"
               },
               {
-                "name": "AI Chatbots",
-                "href": "/services/ai-chatbot-development-automation-services"
-              },
-              {
                 "name": "AI Integration",
                 "href": "/services/ai-integration-automation-services"
+              },
+              {
+                "name": "RAG Systems",
+                "href": "/services/rag-system-development-ai-search-services"
+              },
+              {
+                "name": "Agentic AI",
+                "href": "/services/agentic-ai-development-automation-services"
+              },
+              {
+                "name": "AI Chatbots",
+                "href": "/services/ai-chatbot-development-automation-services"
               },
               {
                 "name": "Computer Vision",
@@ -49,10 +53,6 @@
                 "href": "/services/ai-model-training-development-services"
               },
               {
-                "name": "RAG Systems",
-                "href": "/services/rag-system-development-ai-search-services"
-              },
-              {
                 "name": "Recognition Systems",
                 "href": "/services/ai-recognition-system-development-services"
               }
@@ -66,12 +66,12 @@
                 "href": "/services/ai-powered-business-automation-services"
               },
               {
-                "name": "Analytics Automation",
-                "href": "/services/analytics-automation-dashboard-services"
-              },
-              {
                 "name": "Business Process Automation",
                 "href": "/services/business-process-automation-services"
+              },
+              {
+                "name": "Analytics Automation",
+                "href": "/services/analytics-automation-dashboard-services"
               },
               {
                 "name": "Infrastructure Automation",
@@ -96,6 +96,43 @@
               {
                 "name": "Sales Automation",
                 "href": "/services/sales-automation-crm-services"
+              }
+            ]
+          },
+          {
+            "title": "Web and Mobile App Development",
+            "links": [
+              {
+                "name": "AI Powered App",
+                "href": "/services/ai-software-development-automation-services"
+              },
+              {
+                "name": "SaaS Development",
+                "href": "/services/saas-development-cloud-application-services"
+              },
+              {
+                "name": "MVPs & POCs",
+                "href": "/services/mvp-development-startup-services"
+              },
+              {
+                "name": "Web Application Development",
+                "href": "/services/web-application-development-services"
+              },
+              {
+                "name": "Website Development",
+                "href": "/services/website-development-design-services"
+              },
+              {
+                "name": "API Integration",
+                "href": "/services/api-integration-automation-services"
+              },
+              {
+                "name": "Mobile App Development",
+                "href": "/services/mobile-app-development-services"
+              },
+              {
+                "name": "Search Engine Optimization",
+                "href": "/services/seo-search-engine-optimization-services"
               }
             ]
           },
@@ -230,43 +267,6 @@
                 "href": "/services/security-testing-vulnerability-assessment-services"
               }
             ]
-          },
-          {
-            "title": "Web and Mobile App Development",
-            "links": [
-              {
-                "name": "AI Powered App",
-                "href": "/services/ai-software-development-automation-services"
-              },
-              {
-                "name": "API Integration",
-                "href": "/services/api-integration-automation-services"
-              },
-              {
-                "name": "Mobile App Development",
-                "href": "/services/mobile-app-development-services"
-              },
-              {
-                "name": "MVPs & POCs",
-                "href": "/services/mvp-development-startup-services"
-              },
-              {
-                "name": "SaaS Development",
-                "href": "/services/saas-development-cloud-application-services"
-              },
-              {
-                "name": "Search Engine Optimization",
-                "href": "/services/seo-search-engine-optimization-services"
-              },
-              {
-                "name": "Web Application Development",
-                "href": "/services/web-application-development-services"
-              },
-              {
-                "name": "Website Development",
-                "href": "/services/website-development-design-services"
-              }
-            ]
           }
         ]
       }
@@ -308,11 +308,11 @@
           {
             "title": "Beauty & Wellness",
             "links": [
-               {
+              {
                 "name": "Barber",
                 "href": "/industries/barber-shop-booking-automation-solutions"
               },
-             {
+              {
                 "name": "Beauty Therapist",
                 "href": "/industries/beauty-therapist-booking-automation-solutions"
               },
@@ -320,7 +320,6 @@
                 "name": "Gym & Fitness",
                 "href": "/industries/gym-fitness-management-software-solutions"
               },
-              
               {
                 "name": "Hairdresser",
                 "href": "/industries/hairdresser-salon-booking-automation-solutions"
@@ -355,7 +354,6 @@
           {
             "title": "Healthcare",
             "links": [
-             
               {
                 "name": "Chiropractor",
                 "href": "/industries/chiropractor-clinic-software-automation-solutions"
@@ -397,11 +395,10 @@
           {
             "title": "Professional",
             "links": [
-                     {
+              {
                 "name": "Accountant",
                 "href": "/industries/accounting-firm-software-automation-solutions"
               },
-           
               {
                 "name": "Consulting",
                 "href": "/industries/consulting-business-software-automation-solutions"
@@ -414,7 +411,6 @@
                 "name": "Fuel Station",
                 "href": "/industries/fuel-station-management-software-solutions"
               },
-              
               {
                 "name": "Legal Services",
                 "href": "/industries/legal-services-case-management-automation-solutions"
@@ -424,7 +420,6 @@
           {
             "title": "Real Estate",
             "links": [
-       
               {
                 "name": "Architecture & Design",
                 "href": "/industries/architecture-design-project-management-solutions"
@@ -450,7 +445,6 @@
           {
             "title": "Trades",
             "links": [
-                
               {
                 "name": "Carpentry",
                 "href": "/industries/carpentry-business-software-automation-solutions"
@@ -463,7 +457,6 @@
                 "name": "Electrician",
                 "href": "/industries/electrician-service-business-automation-solutions"
               },
-              
               {
                 "name": "HVAC",
                 "href": "/industries/hvac-service-business-automation-solutions"
@@ -699,6 +692,10 @@
                     }
                   ]
                 }
+              },
+              {
+                "name": "Planning Guides",
+                "href": "/resources"
               }
             ]
           }

@@ -42,10 +42,10 @@ const Blogs: CollectionConfig = {
     ],
   },
   access: {
-  create: () => true,
-  read: () => true,
-  update: () => true,
-  delete: () => true,
+  create: ({ req }) => Boolean(req.user),
+  read: ({ req }) => req.user ? true : { status: { equals: 'published' } },
+  update: ({ req }) => Boolean(req.user),
+  delete: ({ req }) => Boolean(req.user),
 },
   fields: [
     {

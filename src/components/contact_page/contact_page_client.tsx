@@ -1,5 +1,8 @@
 "use client";
 
+import InquiryProtection from "@/components/inquiry_protection";
+import { trackInquiryEvent } from "@/lib/analytics";
+
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import React, { useEffect, useMemo, useRef, useState } from "react";
@@ -15,7 +18,7 @@ import { LazyMotion, domAnimation, m, type Variants } from "framer-motion";
 import { normalizeLanguage, type ContactPageContent } from "@/lib/localized-content";
 import { COUNTRY_OPTIONS, getServiceInquiryOptions } from "@/lib/inquiry-options";
 
-const calendly15 = process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING!;
+const calendly15 = process.env.NEXT_PUBLIC_CALENDLY_15_MIN_MEETING || process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || "/contact";
 const calendly30 = process.env.NEXT_PUBLIC_CALENDLY_30_MIN_MEETING || calendly15;
 const calendly60 = process.env.NEXT_PUBLIC_CALENDLY_60_MIN_MEETING || calendly15;
 
@@ -56,6 +59,8 @@ export default function ContactPageClient({ content }: ContactPageProps) {
   const formRef = useRef<HTMLFormElement>(null);
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const [challengeReset, setChallengeReset] = useState(0);
   const [file, setFile] = useState<File | null>(null);
   const [preview, setPreview] = useState<string | null>(null);
   const [showOptions, setShowOptions] = useState(false);
@@ -83,6 +88,12 @@ export default function ContactPageClient({ content }: ContactPageProps) {
     ];
   }, [content.form.project_type_options, currentLang]);
 
+  const meetingOptions = [
+    { href: calendly15, label: content.schedule.durations.min_15 },
+    { href: calendly30, label: content.schedule.durations.min_30 },
+    { href: calendly60, label: content.schedule.durations.min_60 },
+  ].filter((option, index, options) => options.findIndex((entry) => entry.href === option.href) === index);
+
   const validateEmail = (value: string): boolean => {
     const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return regex.test(value);
@@ -96,6 +107,13 @@ export default function ContactPageClient({ content }: ContactPageProps) {
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (e.target.files && e.target.files.length > 0) {
       const selectedFile = e.target.files[0];
+      if (selectedFile.size > 2 * 1024 * 1024 || !["application/pdf", "image/png", "image/jpeg", "image/webp"].includes(selectedFile.type)) {
+        setStatus("Attach a PNG, JPG, WEBP or PDF up to 2 MB.");
+        setFile(null);
+        setPreview(null);
+        e.target.value = "";
+        return;
+      }
       setFile(selectedFile);
 
       if (selectedFile.type.startsWith("image/")) {
@@ -131,34 +149,46 @@ export default function ContactPageClient({ content }: ContactPageProps) {
     setIsSubmitting(true);
     setStatus("");
 
-    const formData = new FormData(formRef.current);
-    const jsonData = Object.fromEntries(formData.entries()) as Record<string, unknown>;
+    try {
+      const formData = new FormData(formRef.current);
+      const jsonData = Object.fromEntries(formData.entries()) as Record<string, unknown>;
 
-    if (file) {
-      const base64 = await new Promise<string>((resolve, reject) => {
-        const reader = new FileReader();
-        reader.readAsDataURL(file);
-        reader.onload = () => {
-          const result = (reader.result as string).split(",")[1];
-          resolve(result);
-        };
-        reader.onerror = (err) => reject(err);
+      jsonData.turnstileToken = turnstileToken;
+
+      if (file) {
+        const base64 = await new Promise<string>((resolve, reject) => {
+          const reader = new FileReader();
+          reader.readAsDataURL(file);
+          reader.onload = () => {
+            const result = (reader.result as string).split(",")[1];
+            resolve(result);
+          };
+          reader.onerror = (err) => reject(err);
+        });
+
+        jsonData.fileBase64 = base64;
+        jsonData.fileName = file.name;
+        jsonData.fileType = file.type;
+      }
+
+      const res = await fetch("/api/contact_mail", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(jsonData),
       });
 
-      jsonData.fileBase64 = base64;
-      jsonData.fileName = file.name;
-      jsonData.fileType = file.type;
+      const result = await res.json();
+      if (!res.ok || result.success !== true) throw new Error("Inquiry not accepted");
+      trackInquiryEvent("generate_lead", { source_type: "contact", page_path: "/contact" });
+      setStatus(result.success ? content.form.status.success : content.form.status.error);
+    } catch {
+      setStatus(content.form.status.error + " — please try again or email info@devisgon.com.");
+      trackInquiryEvent("inquiry_error", { source_type: "contact", page_path: "/contact" });
+    } finally {
+      setIsSubmitting(false);
+      setTurnstileToken("");
+      setChallengeReset((value) => value + 1);
     }
-
-    const res = await fetch("/api/contact_mail", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(jsonData),
-    });
-
-    const result = await res.json();
-    setStatus(result.success ? content.form.status.success : content.form.status.error);
-    setIsSubmitting(false);
   };
 
   return (
@@ -190,6 +220,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
               <p className="text-t-secondary mb-6">{content.form.description}</p>
 
               <form className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
+                <InquiryProtection onToken={setTurnstileToken} resetKey={challengeReset} />
                 <input type="hidden" name="sourceType" value="contact" />
                 <input type="hidden" name="sourcePage" value="/contact" />
 
@@ -415,7 +446,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
 
                 <m.button
                   type="submit"
-                  disabled={isSubmitting || !!error || !!phoneError}
+                  disabled={isSubmitting || !!error || !!phoneError || Boolean(process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && !turnstileToken)}
                   whileHover={{ scale: 1.02, boxShadow: "0px 10px 20px rgba(129, 69, 181, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
                   className="w-full text-white bg-t-secondary py-3 rounded-md transition disabled:opacity-50"
@@ -423,7 +454,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                   {isSubmitting ? content.form.buttons.sending : content.form.buttons.send}
                 </m.button>
 
-                {status && <p className="mt-2 text-center text-t-primary font-medium">{status}</p>}
+                {status && <p role="status" aria-live="polite" className="mt-2 text-center text-t-primary font-medium">{status}</p>}
               </form>
             </m.div>
 
@@ -448,7 +479,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                     </>
                   ) : (
                     <>
-                      <p className="text-t-primary font-bold text-xl mb-6">{content.schedule.choose_duration}</p>
+                      <p className="text-t-primary font-bold text-xl mb-6">{meetingOptions.length === 1 ? content.schedule.book_button : content.schedule.choose_duration}</p>
 
                       <m.div
                         className="flex flex-col gap-3 w-full px-6"
@@ -457,32 +488,15 @@ export default function ContactPageClient({ content }: ContactPageProps) {
                         transition={{ duration: 1 }}
                         viewport={{ once: true }}
                       >
-                        <a
-                          href={calendly15}
+                        {meetingOptions.map((option) => <a
+                          key={option.href}
+                          href={option.href}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-t-primary transition hover:scale-105"
                         >
-                          {content.schedule.durations.min_15}
-                        </a>
-
-                        <a
-                          href={calendly30}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-t-primary transition hover:scale-105"
-                        >
-                          {content.schedule.durations.min_30}
-                        </a>
-
-                        <a
-                          href={calendly60}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="bg-bg-primary text-t-primary py-2 rounded-lg hover:bg-secondary hover:text-t-primary transition hover:scale-105"
-                        >
-                          {content.schedule.durations.min_60}
-                        </a>
+                          {meetingOptions.length === 1 ? content.schedule.book_button : option.label}
+                        </a>)}
                       </m.div>
                     </>
                   )}
