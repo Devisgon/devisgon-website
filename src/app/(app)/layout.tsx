@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import AnalyticsConsent from "@/components/analytics_consent";
+import Script from "next/script";
+import { CONSENT_BOOTSTRAP } from "@/lib/analytics-config";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Suspense } from "react";
 import "./globals.css";
@@ -96,6 +98,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head><Script id="devisgon-consent-default" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: CONSENT_BOOTSTRAP }} /></head>
       <body className={`${geistSans.variable} ${geistMono.variable} font-sans antialiased`}>
         <script
           id="temporary-local-theme"

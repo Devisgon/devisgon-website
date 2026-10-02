@@ -1,3 +1,5 @@
+import { EMPTY_ENQUIRY, enquiryStepError, type ProjectEnquiryValues } from "./project-enquiry";
+
 export const MAX_ATTACHMENT_BYTES = 2 * 1024 * 1024;
 export const MAX_INQUIRY_BODY_BYTES = 3 * 1024 * 1024;
 const ALLOWED_ATTACHMENT_TYPES = new Set(["application/pdf", "image/png", "image/jpeg", "image/webp"]);
@@ -7,7 +9,7 @@ export function validateInquiry(body: unknown): string | null {
   const data = body as Record<string, unknown>;
   const limits: Record<string, number> = {
     name: 120, email: 254, phone: 30, company: 200, country: 100,
-    projectType: 200, serviceName: 200, industryName: 200, sourceType: 50,
+    projectType: 200, projectSize: 100, serviceName: 200, industryName: 200, sourceType: 50,
     sourcePage: 500, budget: 100, timeline: 100, projectDetail: 10000, message: 10000,
     fileName: 200, fileType: 100, website: 200, turnstileToken: 2048,
   };
@@ -21,6 +23,11 @@ export function validateInquiry(body: unknown): string | null {
   }
   if (typeof data.phone === "string" && data.phone.trim() && !/^\+?[0-9\s().-]{7,20}$/.test(data.phone.trim())) return "Use a valid phone number or leave it blank.";
   if (typeof (data.projectDetail || data.message) !== "string" || !String(data.projectDetail || data.message).trim()) return "Please describe your project.";
+  if (data.sourceType === "homepage") {
+    const answers = Object.fromEntries(Object.keys(EMPTY_ENQUIRY).map((key) => [key, typeof data[key] === "string" ? data[key] : ""])) as ProjectEnquiryValues;
+    const error = enquiryStepError(4, answers);
+    if (error) return error;
+  }
   if (data.fileBase64 !== undefined) {
     if (typeof data.fileBase64 !== "string" || !data.fileBase64 ||
       data.fileBase64.length % 4 !== 0 || !/^[A-Za-z0-9+/]+={0,2}$/.test(data.fileBase64) ||
