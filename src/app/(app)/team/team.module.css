@@ -88,3 +88,9 @@
 @media(max-width:560px) { .hero { padding:44px 20px; } .hero h1 { font-size:43px; } .hero > p:last-of-type { font-size:14px; } .sectionNav { gap:14px; } .section { padding:46px 20px; } .sectionHead h2 { font-size:31px; } .leaders { gap:50px; } .leaderPortrait { height:400px; } .teamGrid { grid-template-columns:1fr 1fr; gap:24px 18px; } .memberPortrait { height:350px; } .albumGrid { grid-template-columns:1fr; } .albumCover { aspect-ratio:16 / 10; } .join { padding:40px 20px; } .teamFooter { padding:25px 20px; flex-wrap:wrap; font-size:12px; } .teamFooter > a { margin-left:0; } .photoGrid { grid-template-columns:1fr; } .viewer { padding:10px; } }
 :global(.dark) .teamSection { background:#281731; }
 @media(prefers-reduced-motion:reduce) { .page * { transition:none !important; } }
+
+.profileLinks { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
+.profileLink { display:inline-flex; align-items:center; justify-content:center; width:40px; height:40px; border:1px solid var(--line); border-radius:50%; color:var(--ink); background:var(--surface); transition:color .18s,background .18s,border-color .18s,transform .18s; }
+.profileLink:hover { color:#fff; background:#40005B; border-color:#40005B; transform:translateY(-2px); }
+:global(.dark) .profileLink { color:#f3e8f5; border-color:#684a70; background:#281731; }
+:global(.dark) .profileLink:hover { color:#fff; background:#A71A7F; border-color:#A71A7F; }
