@@ -32,7 +32,7 @@ export default function IndustryHero({ data, slides }: IndustryHeroProps) {
           {data.eyebrow}
         </p>
 
-        {/* The Text Switcher */}
+        <h1 className="max-w-5xl text-center text-4xl font-bold leading-tight text-white md:text-6xl">{data.title} {data.highlight}</h1>
         <IndustryHeroRotatingCopy
           slides={slides}
           titlePrefix=""

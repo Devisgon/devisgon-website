@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import AnalyticsConsent from "@/components/analytics_consent";
 import { Geist, Geist_Mono } from "next/font/google";
 import { Suspense } from "react";
 import "./globals.css";
@@ -138,6 +139,7 @@ try {
         />
         <Suspense fallback={null}>
           <NavigationProgress />
+          <AnalyticsConsent />
         </Suspense>
         <main>{children}</main>
       </body>

@@ -35,7 +35,7 @@ export default function IndustryHeroRotatingCopy({
 
   return (
     <div className="flex flex-col items-center justify-center text-center w-full">
-    <h1 className="flex flex-row items-center justify-center gap-x-3 text-2xl  font-bold tracking-tight text-white md:text-7xl whitespace-nowrap">
+    <div aria-hidden="true" className="mt-8 flex flex-row items-center justify-center gap-x-3 text-lg font-bold tracking-tight text-white md:text-2xl">
         <span className="opacity-80">{titlePrefix}</span>
         
         <div className="relative flex items-center justify-center min-w-[120px] md:min-w-[200px] h-[1.2em]">
@@ -52,7 +52,7 @@ export default function IndustryHeroRotatingCopy({
             </span>
           ))}
         </div>
-      </h1>
+      </div>
 
       {/* Description Section with Glassmorphism */}
       <div className="mt-12 md:mt-16 w-full max-w-xl px-4">

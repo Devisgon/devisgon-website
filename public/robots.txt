@@ -1,25 +1,7 @@
-# Allow major search engines and AI bots
-
-User-agent:GPTBot
-User-agent:Googlebot
-User-agent:Google-Extended
-User-agent:PerplexityBot
-User-agent:ClaudBot
-User-agent:Applebot
-Allow: /
-
-
-Disallow: /admin/
-Disallow: /_next/static/
-Disallow: /api/
-Disallow: /my-route
-
+# *
 User-agent: *
 Allow: /
-
-
-Disallow: /admin/
-Disallow: /_next/static/
+Disallow: /admin
 Disallow: /api/
 Disallow: /my-route
 
@@ -28,3 +10,4 @@ Host: https://www.devisgon.com
 
 # Sitemaps
 Sitemap: https://www.devisgon.com/sitemap.xml
+Sitemap: https://www.devisgon.com/blog-sitemap.xml

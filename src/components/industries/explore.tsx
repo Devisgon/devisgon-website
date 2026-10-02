@@ -3,6 +3,7 @@ import type { IndustryExploreSection, IndustryPageProps } from "@/types/industri
 import IndustryIconBadge from "@/components/industries/icon_badge";
 
 export default function IndustryExplore({ data }: IndustryPageProps<IndustryExploreSection>) {
+  if (!data.cards.length) return null;
   return (
     <section className="w-full bg-background px-6 py-14 md:px-12 md:py-20 transition-colors duration-300">
       <div className="mx-auto max-w-6xl">

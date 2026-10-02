@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { notFound, redirect } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
+import BuyerGuide from "@/components/sub_services_pages/buyer_guide";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import ServicesCtaSection from "@/components/services_page/cta_section";
@@ -105,7 +106,7 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
   const canonicalSlug = toCanonicalSlug(slug);
 
   if (slug !== canonicalSlug) {
-    redirect(servicePath(canonicalSlug, activeLang));
+    permanentRedirect(servicePath(canonicalSlug, activeLang));
   }
 
   const result = getServiceDetailData(activeLang, canonicalSlug);
@@ -115,7 +116,7 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
   }
 
   if (result.slug !== canonicalSlug) {
-    redirect(servicePath(result.slug, activeLang));
+    permanentRedirect(servicePath(result.slug, activeLang));
   }
 
   const { data } = result;
@@ -133,6 +134,7 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
         <Hero data={data.hero_section} />
         <Introduction data={data.introduction_section} />
+        <BuyerGuide data={data.buyer_guide} />
         <KeyBenefitsSection data={data.key_benefits_section} />
         <WhatYouGetSection data={data.what_you_get_section} />
         <Technalogies data={data.technologies_section} />

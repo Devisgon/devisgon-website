@@ -5,13 +5,13 @@ import Hero from "@/components/home_page/hero_section";
 import Services from "@/components/home_page/services_section";
 import ExpertServicesSection from "@/components/home_page/expert_services_section";
 import DeferredSections from "@/components/home_page/deferred_sections";
+import PriorityOffers from "@/components/home_page/priority_offers";
 
 import type { HeroSectionData } from "@/types/homepage/hero";
 import type { ServicesSectionData } from "@/types/homepage/services";
 import type { ExpertServicesData } from "@/types/homepage/expert_services";
 import type { SolutionsSectionData } from "@/types/homepage/solution";
 import type { ProcessSectionData } from "@/types/homepage/process";
-import type { TestimonialData } from "@/types/homepage/comments";
 import type { CEOData } from "@/types/homepage/ceo";
 import type { TeamMember } from "@/types/homepage/team";
 
@@ -38,20 +38,19 @@ export default async function Home() {
   const expertServicesSection = t.expert_services_section as ExpertServicesData;
   const solutionsSection   = t.solutions_section     as SolutionsSectionData;
   const workingProcess     = t.working_process       as ProcessSectionData;
-  const testimonialsSection = t.testimonials_section as TestimonialData;
   const ceoMessageSection  = t.ceo_message_section   as CEOData;
   const teamMembers        = (t.teamMembers?.team ?? []) as TeamMember[];
 
   return (
     <main>
       <Hero data={heroSection} />
+      {lang === "en" && <PriorityOffers />}
       <Services data={servicesSection} />
       <ExpertServicesSection data={expertServicesSection} />
       <Suspense fallback={<div className="py-12" />}>
         <DeferredSections
           solutionsSection={solutionsSection}
           workingProcess={workingProcess}
-          testimonialsSection={testimonialsSection}
           ceoMessageSection={ceoMessageSection}
           teamMembers={teamMembers}
         />

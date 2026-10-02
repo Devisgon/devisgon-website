@@ -1,5 +1,8 @@
 "use client";
 
+import InquiryProtection from "@/components/inquiry_protection";
+import { trackInquiryEvent } from "@/lib/analytics";
+
 import { useState } from "react";
 import type { FormEvent } from "react";
 import { COUNTRY_OPTIONS } from "@/lib/inquiry-options";
@@ -35,13 +38,16 @@ export default function DirectInquiryForm({
 }: DirectInquiryFormProps) {
   const [status, setStatus] = useState("");
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [turnstileToken, setTurnstileToken] = useState("");
+  const [challengeReset, setChallengeReset] = useState(0);
   const [emailError, setEmailError] = useState("");
   const [phoneError, setPhoneError] = useState("");
 
   async function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    const formData = new FormData(event.currentTarget);
+    const form = event.currentTarget;
+    const formData = new FormData(form);
     const email = String(formData.get("email") ?? "");
     const phone = String(formData.get("phone") ?? "");
     let hasError = false;
@@ -67,24 +73,29 @@ export default function DirectInquiryForm({
     setStatus("");
     setIsSubmitting(true);
 
-    const payload = Object.fromEntries(formData.entries());
-    const response = await fetch("/api/contact_mail", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify(payload),
-    });
-    const result = await response.json();
-
-    setStatus(result.success ? "Thanks for your inquiry. We will get back to you soon." : "Try again");
-    setIsSubmitting(false);
-
-    if (result.success) {
-      event.currentTarget.reset();
+    try {
+      const payload = { ...Object.fromEntries(formData.entries()), turnstileToken };
+      const response = await fetch("/api/contact_mail", {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
+      });
+      const result = await response.json();
+      if (!response.ok || result.success !== true) throw new Error("Inquiry not accepted");
+      setStatus("Thanks for your inquiry. We will get back to you soon.");
+      trackInquiryEvent("generate_lead", { source_type: sourceType, page_path: window.location.pathname });
+      form.reset();
+    } catch {
+      setStatus("We could not send your enquiry. Please try again or email info@devisgon.com.");
+      trackInquiryEvent("inquiry_error", { source_type: sourceType, page_path: window.location.pathname });
+    } finally {
+      setIsSubmitting(false);
+      setTurnstileToken("");
+      setChallengeReset((value) => value + 1);
     }
   }
 
   return (
     <form className="mt-8 space-y-5" onSubmit={handleSubmit}>
+      <InquiryProtection onToken={setTurnstileToken} resetKey={challengeReset} />
       <input type="hidden" name="sourceType" value={sourceType} />
       <input type="hidden" name="industryName" value={industryName ?? ""} />
       <input type="hidden" name="serviceName" value={serviceName ?? ""} />
@@ -105,7 +116,7 @@ export default function DirectInquiryForm({
 
         <label className="flex flex-col gap-2 text-xs font-black uppercase tracking-[0.1em] text-t-secondary">
           Phone Number
-          <input type="tel" name="phone" placeholder="+92 300 1234567" required className={inputClass} />
+          <input type="tel" name="phone" placeholder="+1 555 123 4567" required className={inputClass} />
           {phoneError && <span className="text-xs font-semibold normal-case tracking-normal text-red-500">{phoneError}</span>}
         </label>
 
@@ -136,14 +147,14 @@ export default function DirectInquiryForm({
       <div className="pt-2">
         <button
           type="submit"
-          disabled={isSubmitting}
+          disabled={isSubmitting || Boolean(process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY && !turnstileToken)}
           className="h-12 w-full rounded-xl bg-btn-primary text-sm font-bold text-btn-secondary shadow-lg transition-all duration-300 hover:opacity-90 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-60"
         >
           {isSubmitting ? "Sending..." : buttonText}
         </button>
       </div>
 
-      {status && <p className="text-center text-sm font-semibold text-t-primary">{status}</p>}
+      {status && <p role="status" aria-live="polite" className="text-center text-sm font-semibold text-t-primary">{status}</p>}
     </form>
   );
 }

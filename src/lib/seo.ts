@@ -9,8 +9,6 @@ type SeoConfig = {
   robots?: Metadata["robots"];
 };
 
-const MAX_TITLE_LENGTH = 55;
-
 export const SITE_NAME = "Devisgon";
 export const SITE_URL = "https://www.devisgon.com";
 export const DEFAULT_OPEN_GRAPH_IMAGE = {
@@ -20,18 +18,8 @@ export const DEFAULT_OPEN_GRAPH_IMAGE = {
   alt: "Devisgon AI software, SaaS, and automation agency",
 };
 
-const LOCAL_SEO_KEYWORDS = [
-  "software houses in Okara",
-  "software house in Okara",
-  "top software houses",
-  "best software house ",
-  "AI software company ",
-  "custom software development ",
-  "software company Pakistan",
-];
-
 const withLocalKeywords = (keywords: string[] = []) =>
-  Array.from(new Set([...keywords, ...LOCAL_SEO_KEYWORDS]));
+  Array.from(new Set(keywords.map((keyword) => keyword.trim()).filter(Boolean)));
 
 const toAbsoluteUrl = (url?: string) => {
   if (!url) return undefined;
@@ -51,22 +39,8 @@ const parseRobots = (robots?: unknown): Metadata["robots"] | undefined => {
 };
 
 const compactSeoTitle = (title: string) => {
-  const cleanTitle = title.trim().replace(/\s+/g, " ");
-
-  if (cleanTitle.length <= MAX_TITLE_LENGTH) {
-    return cleanTitle;
-  }
-
-  const [primaryPart] = cleanTitle.split("|").map((part) => part.trim());
-  const brandedTitle = `${primaryPart} | ${SITE_NAME}`;
-
-  if (brandedTitle.length <= MAX_TITLE_LENGTH) {
-    return brandedTitle;
-  }
-
-  const suffix = ` | ${SITE_NAME}`;
-  const maxPrimaryLength = MAX_TITLE_LENGTH - suffix.length;
-  return `${primaryPart.slice(0, maxPrimaryLength).trim()}${suffix}`;
+  // Search display width varies. Preserve the editorial topic and whole words.
+  return title.trim().replace(/\s+/g, " ");
 };
 
 const uniqueDescription = (description: string) => description.trim().replace(/\s+/g, " ");
@@ -193,30 +167,28 @@ export const getJsonSeoMetadata = (
 };
 
 export const MAIN_SITE_METADATA = toMetadata({
-  title: "Devisgon AI Software Agency",
+  title: "AI Agents, Automation & AI Apps | Devisgon",
   description:
-    "Devisgon is a leading next-gen technology partner specializing in AI development, SaaS platforms, and intelligent business automation. We help global brands and startups in Pakistan scale faster by saving 20-50% of operational time through smarter software solutions.",
+    "Build custom AI agents, business automations and AI-powered SaaS, web and mobile apps with Devisgon. Work with our team remotely from the USA and beyond.",
   keywords: withLocalKeywords([
     "Devisgon",
     "AI automation",
     "software development",
     "business automation agency",
     "SaaS development",
-    "software house Pakistan",
   ]),
   canonicalUrl: "/",
 });
 
 export const HOME_PAGE_METADATA = toMetadata({
-  title: "AI Software Development Company | Devisgon",
+  title: "AI Agents, Automation & AI Apps | Devisgon",
   description:
-    "Devisgon is an AI software development company building AI agents, automation, SaaS platforms, web apps, and cloud systems for startups and growing businesses.",
+    "Custom AI development, business automation, AI agents and AI-powered apps for US founders and growing teams. Plan your SaaS, MVP, web or mobile project.",
   keywords: withLocalKeywords([
     "AI software development company",
     "AI agent development company",
     "AI and ML development services",
     "AI Automation",
-    "Software House Pakistan",
     "SaaS Solutions",
     "custom software development company",
     "business automation software",
@@ -226,11 +198,10 @@ export const HOME_PAGE_METADATA = toMetadata({
 });
 
 export const SERVICES_PAGE_METADATA = toMetadata({
-  title: "All-in-One IT Services & AI Solutions | Devisgon",
+  title: "AI Development & Automation Services | Devisgon",
   description:
-    "Explore Devisgon's full suite of tech services: from Web & App Development to AI Automation, SaaS, and Cloud Deployment. Tailored digital solutions for global growth.",
+    "Explore custom AI agents, business automation and AI-powered SaaS and MVP development, supported by web apps, websites, mobile engineering and design.",
   keywords: withLocalKeywords([
-    "IT services Pakistan",
     "AI software solutions",
     "digital transformation services",
     "Devisgon services",
@@ -425,7 +396,7 @@ export const getWebsiteStructuredData = () => ({
   name: SITE_NAME,
   url: SITE_URL,
   description:
-    "Devisgon provides AI, SaaS, automation, and software development services in Okara, Pakistan and worldwide.",
+    "Devisgon builds custom AI agents, automations and AI-powered apps for remote clients in the USA and other international markets.",
   keywords: withLocalKeywords(["Devisgon", "AI software solutions", "software development"]),
 });
 

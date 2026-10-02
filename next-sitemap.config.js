@@ -36,54 +36,45 @@ const PRIORITY_SERVICE_SLUGS = new Set([
 ]);
 
 function getStaticPageUrls() {
-  const lastmod = new Date().toISOString();
 
   return [
     {
       loc: "/",
-      lastmod,
       changefreq: "daily",
       priority: 1.0,
     },
     {
       loc: "/services",
-      lastmod,
       changefreq: "weekly",
       priority: 0.9,
     },
     {
       loc: "/industries",
-      lastmod,
       changefreq: "weekly",
       priority: 0.9,
     },
     {
       loc: "/technologies",
-      lastmod,
       changefreq: "weekly",
       priority: 0.9,
     },
     {
       loc: "/get-started",
-      lastmod,
       changefreq: "weekly",
       priority: 0.85,
     },
     {
       loc: "/contact",
-      lastmod,
       changefreq: "monthly",
       priority: 0.8,
     },
     {
       loc: "/privacy-policies",
-      lastmod,
       changefreq: "yearly",
       priority: 0.4,
     },
     {
       loc: "/terms-condition",
-      lastmod,
       changefreq: "yearly",
       priority: 0.4,
     },
@@ -106,7 +97,9 @@ function canonicalSegment(value) {
 }
 
 function getFileLastmod(filePath) {
-  return fs.statSync(filePath).mtime.toISOString();
+  // Checkout mtimes describe deployment, not a real editorial change.
+  const updatedAt = readJsonFile(filePath).updatedAt;
+  return updatedAt && !Number.isNaN(Date.parse(updatedAt)) ? new Date(updatedAt).toISOString() : undefined;
 }
 
 function getServiceUrls() {
@@ -301,12 +294,18 @@ function getPartnerUrls() {
 const config = {
   siteUrl: "https://www.devisgon.com",
   generateIndexSitemap: true,
+  generateRobotsTxt: true,
+  robotsTxtOptions: {
+    policies: [{ userAgent: "*", allow: "/", disallow: ["/admin", "/api/", "/my-route"] }],
+    additionalSitemaps: ["https://www.devisgon.com/blog-sitemap.xml"],
+  },
   sitemapSize: 7000,
-  autoLastmod: true,
+  autoLastmod: false,
   changefreq: "weekly",
   priority: 0.7,
 
   exclude: [
+    "/blog-sitemap.xml",
     "/admin",
     "/admin/*",
     "/api",
@@ -318,13 +317,18 @@ const config = {
       loc: currentPath,
       changefreq: currentPath === "/" ? "daily" : config.changefreq,
       priority: currentPath === "/" ? 1.0 : config.priority,
-      lastmod: new Date().toISOString(),
     };
   },
 
   async additionalPaths() {
     const urls = [
       ...getStaticPageUrls(),
+      { loc: "/blogs" },
+      { loc: "/resources" },
+      { loc: "/resources/ai-agent-production-checklist" },
+      { loc: "/resources/ai-mvp-scope-checklist" },
+      { loc: "/resources/automation-discovery-checklist" },
+      { loc: "/tools/automation-roi" },
       ...getServiceUrls(),
       ...getIndustryUrls(),
       ...getTechnologyUrls(),
