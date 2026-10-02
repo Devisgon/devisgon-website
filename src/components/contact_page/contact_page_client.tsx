@@ -219,7 +219,7 @@ export default function ContactPageClient({ content }: ContactPageProps) {
               <h2 className="text-2xl font-bold text-t-primary mb-2">{content.form.title}</h2>
               <p className="text-t-secondary mb-6">{content.form.description}</p>
 
-              <form className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
+              <form data-clarity-mask="true" className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
                 <InquiryProtection onToken={setTurnstileToken} resetKey={challengeReset} />
                 <input type="hidden" name="sourceType" value="contact" />
                 <input type="hidden" name="sourcePage" value="/contact" />

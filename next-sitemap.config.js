@@ -43,6 +43,7 @@ function getStaticPageUrls() {
       changefreq: "daily",
       priority: 1.0,
     },
+    { loc: "/team", changefreq: "monthly", priority: 0.7 },
     {
       loc: "/our-work",
       changefreq: "monthly",
@@ -318,6 +319,10 @@ const config = {
   ],
 
   transform: async (config, currentPath) => {
+    if (currentPath.startsWith("/team/culture/")) {
+      const { albums } = readJsonFile(path.join(process.cwd(), "src/data/company.json"));
+      if (!albums.some((album) => currentPath === `/team/culture/${album.slug}` && album.photos.length)) return null;
+    }
     return {
       loc: currentPath,
       changefreq: currentPath === "/" ? "daily" : config.changefreq,
@@ -328,6 +333,7 @@ const config = {
   async additionalPaths() {
     const urls = [
       ...getStaticPageUrls(),
+      ...readJsonFile(path.join(process.cwd(), "src/data/company.json")).albums.filter((album) => album.photos.length).map((album) => ({ loc: `/team/culture/${album.slug}`, changefreq: "monthly", priority: 0.5 })),
       { loc: "/blogs" },
       { loc: "/resources" },
       { loc: "/resources/ai-agent-production-checklist" },

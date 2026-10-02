@@ -140,10 +140,15 @@ const FooterNewsletterForm = ({ lang = "en" }: { lang?: string }) => {
 
   return (
     <form
+      data-clarity-mask="true"
       onSubmit={handleSubmit}
       className="flex mt-2 w-full max-w-sm flex-col gap-6"
     >
+      <label htmlFor="footer-newsletter-email" className="sr-only">{copy.placeholder}</label>
       <input
+        id="footer-newsletter-email"
+        name="email"
+        autoComplete="email"
         type="email"
         value={email}
         onChange={(e) => {

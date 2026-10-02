@@ -295,7 +295,7 @@ export default function GetStartedClient() {
                   <h2 className="text-2xl font-bold text-t-primary mb-2">{content.form.title}</h2>
                   <p className="text-t-secondary mb-6">{content.form.description}</p>
 
-                  <form className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
+                  <form data-clarity-mask="true" className="space-y-4" onSubmit={handleSubmit} ref={formRef}>
                     <div className="grid md:grid-cols-2 gap-4">
                       <div className="flex flex-col gap-1">
                         <label htmlFor="name" className="text-t-primary ml-2">
