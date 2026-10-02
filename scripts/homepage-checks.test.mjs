@@ -10,6 +10,7 @@ import { EMPTY_ENQUIRY, enquiryStepError } from "../src/lib/project-enquiry.ts";
 import { projectEnquiryUi } from "../src/data/project-enquiry-ui.ts";
 import { conversionHomeUi } from "../src/data/conversion-home-ui.ts";
 import { automationRoiUi } from "../src/data/automation-roi-ui.ts";
+import { localizeCountryOptions } from "../src/lib/localize-country-options.ts";
 import { ANALYTICS_CONSENT_KEY, CLARITY_PROJECT_ID, CONSENT_BOOTSTRAP, GA4_MEASUREMENT_ID, analyticsPageUrl } from "../src/lib/analytics-config.ts";
 
 test("redesigned homepage, enquiry and calculator copy covers every supported language", () => {
@@ -26,8 +27,15 @@ test("redesigned homepage, enquiry and calculator copy covers every supported la
     assert.equal(enquiry.projectSizes.length, 5, `project sizes: ${locale}`);
     assert.equal(enquiry.budgets.length, 6, `budget ranges: ${locale}`);
     assert.equal(enquiry.timelines.length, 5, `timelines: ${locale}`);
+    assert.ok(enquiry.privacyLink, `privacy link label: ${locale}`);
     assert.equal(automationRoiUi[locale].fields.length, 7, `calculator fields: ${locale}`);
   }
+  const countries = [{ value: "United States", label: "United States" }, { value: "France", label: "France" }];
+  for (const locale of ["en", "ur", "ar", "fr", "zh", "de", "es"]) {
+    const localized = localizeCountryOptions(countries, locale);
+    assert.deepEqual(localized.map((country) => country.value).sort(), ["France", "United States"]);
+  }
+  assert.notEqual(localizeCountryOptions(countries, "fr").find((country) => country.value === "United States")?.label, "United States");
 });
 
 const complete = { serviceName: "AI & agents", projectType: "New project", projectSize: "MVP / first version", projectDetail: "Connect our support knowledge to an AI assistant.", budget: "$10,000–$25,000", timeline: "1–3 months", country: "United States", name: "Test Customer", email: "customer@example.com", phone: "+1 555 123 4567" };

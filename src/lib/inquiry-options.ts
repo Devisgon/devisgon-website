@@ -1,5 +1,6 @@
 import { getNavbarDataByLang } from "@/lib/localized-content";
 import { servicePriority } from "@/lib/service-priorities";
+import { localizeCountryOptions } from "@/lib/localize-country-options";
 
 export type SelectOption = {
   value: string;
@@ -22,6 +23,11 @@ export const COUNTRY_OPTIONS: SelectOption[] = COUNTRY_CODES
   }))
   .sort((a, b) => a.priority - b.priority || a.label.localeCompare(b.label, "en", { sensitivity: "base" }))
   .map(({ value, label }) => ({ value, label }));
+
+/** Keep the submitted country value stable while showing its name in the selected UI language. */
+export function getCountryOptions(language: string | null | undefined): SelectOption[] {
+  return localizeCountryOptions(COUNTRY_OPTIONS, language);
+}
 
 export function getServiceInquiryOptions(language: string | null | undefined): SelectOption[] {
   const servicesNavItem = getNavbarDataByLang(language).navbar.find((item) => item.href === "/services");
