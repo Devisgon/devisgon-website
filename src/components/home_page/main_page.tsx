@@ -6,6 +6,7 @@ import Services from "@/components/home_page/services_section";
 import ExpertServicesSection from "@/components/home_page/expert_services_section";
 import DeferredSections from "@/components/home_page/deferred_sections";
 import PriorityOffers from "@/components/home_page/priority_offers";
+import ConversionHome from "@/components/home_page/conversion_home";
 
 import type { HeroSectionData } from "@/types/homepage/hero";
 import type { ServicesSectionData } from "@/types/homepage/services";
@@ -31,6 +32,7 @@ const langMap: Record<string, any> = {
 
 export default async function Home() {
   const lang = await getCachedLanguage();
+  if (lang === "en") return <ConversionHome />;
   const t = langMap[lang] ?? langMap['en'];
 
   const heroSection        = t.hero_section          as HeroSectionData;
@@ -42,7 +44,7 @@ export default async function Home() {
   const teamMembers        = (t.teamMembers?.team ?? []) as TeamMember[];
 
   return (
-    <main>
+    <main id="main-content">
       <Hero data={heroSection} />
       {lang === "en" && <PriorityOffers />}
       <Services data={servicesSection} />

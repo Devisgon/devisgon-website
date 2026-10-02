@@ -11,6 +11,10 @@ const valid = { name: "Test User", email: "test@example.com", phone: "+1 555 123
 
 test("inquiry validation rejects malformed data and oversized attachments", () => {
   assert.equal(validateInquiry(valid), null);
+  assert.equal(validateInquiry({ ...valid, phone: "" }), null);
+  const withoutPhone = { ...valid }; delete withoutPhone.phone;
+  assert.equal(validateInquiry(withoutPhone), null);
+  assert.ok(validateInquiry({ ...valid, phone: 123 }));
   for (const bad of [null, [], { ...valid, email: "bad" }, { ...valid, phone: "abc" }, { ...valid, projectDetail: " " }, { ...valid, name: "x".repeat(121) }]) assert.ok(validateInquiry(bad));
   assert.equal(validateInquiry({ ...valid, fileBase64: Buffer.alloc(MAX_ATTACHMENT_BYTES).toString("base64"), fileType: "application/pdf" }), null);
   assert.ok(validateInquiry({ ...valid, fileBase64: Buffer.alloc(MAX_ATTACHMENT_BYTES + 1).toString("base64"), fileType: "application/pdf" }));
@@ -87,6 +91,10 @@ test("contact route reports provider failures truthfully and rejects abuse befor
   response = await POST(request({ ...valid, name: "<script>test</script>" }));
   assert.equal(response.status, 200); assert.equal((await response.json()).success, true);
   assert.match(globalThis.__sentMail.html, /&lt;script&gt;/); assert.doesNotMatch(globalThis.__sentMail.html, /<script>test/);
+  const withoutPhone = { ...valid, sourceType: "homepage" }; delete withoutPhone.phone;
+  response = await POST(request(withoutPhone));
+  assert.equal(response.status, 200); assert.equal((await response.json()).success, true);
+  assert.match(globalThis.__sentMail.html, /Not provided/);
   delete process.env.RESEND_API_KEY;
   assert.equal((await POST(request())).status, 503);
 });

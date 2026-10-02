@@ -16,10 +16,10 @@ export function validateInquiry(body: unknown): string | null {
     if (value !== undefined && (typeof value !== "string" || value.length > limit)) return "One or more fields are invalid or too long.";
   }
   if (typeof data.name !== "string" || !data.name.trim() ||
-    typeof data.email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email) ||
-    typeof data.phone !== "string" || !/^\+?[0-9\s().-]{7,20}$/.test(data.phone.trim())) {
-    return "Name, email, and a valid phone number are required.";
+    typeof data.email !== "string" || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(data.email)) {
+    return "Name and a valid email address are required.";
   }
+  if (typeof data.phone === "string" && data.phone.trim() && !/^\+?[0-9\s().-]{7,20}$/.test(data.phone.trim())) return "Use a valid phone number or leave it blank.";
   if (typeof (data.projectDetail || data.message) !== "string" || !String(data.projectDetail || data.message).trim()) return "Please describe your project.";
   if (data.fileBase64 !== undefined) {
     if (typeof data.fileBase64 !== "string" || !data.fileBase64 ||

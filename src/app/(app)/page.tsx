@@ -13,7 +13,7 @@ export default function Home() {
 
 
   return (
-    <main>
+    <div>
                 <Header /> 
           <script
             id="home-page-structured-data"
@@ -28,6 +28,6 @@ export default function Home() {
                              <Footer /> 
 
 
-    </main>
+    </div>
   );
 }
