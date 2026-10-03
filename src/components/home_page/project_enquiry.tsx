@@ -12,7 +12,9 @@ import styles from "./conversion_home.module.css";
 import { projectEnquiryUi } from "@/data/project-enquiry-ui";
 
 const icons = [Bot, Phone, Headset, Workflow, FileText, Layers3, Code2, Globe2, Smartphone, Search, MessageSquare, ArrowUpRight];
-export default function ProjectEnquiry({ lang = "en" }: { lang?: string } = {}) {
+type ProjectEnquiryProps = { lang?: string; sourceType?: string; sourcePage?: string };
+
+export default function ProjectEnquiry({ lang = "en", sourceType = "homepage", sourcePage = "/" }: ProjectEnquiryProps = {}) {
   const ui = projectEnquiryUi[lang] ?? projectEnquiryUi.en;
   const countryOptions = getCountryOptions(lang);
   const [answers, setAnswers] = useState<ProjectEnquiryValues>({ ...EMPTY_ENQUIRY });
@@ -49,9 +51,9 @@ export default function ProjectEnquiry({ lang = "en" }: { lang?: string } = {}) 
     if (step < 4) {
       if (!started.current) {
         started.current = true;
-        trackInquiryEvent("inquiry_start", { source_type: "homepage", page_path: "/" });
+        trackInquiryEvent("inquiry_start", { source_type: sourceType, page_path: sourcePage });
       }
-      trackInquiryEvent("inquiry_step", { source_type: "homepage", page_path: "/", step_number: step + 2 });
+      trackInquiryEvent("inquiry_step", { source_type: sourceType, page_path: sourcePage, step_number: step + 2 });
       goTo(step + 1);
       return;
     }
@@ -59,14 +61,14 @@ export default function ProjectEnquiry({ lang = "en" }: { lang?: string } = {}) 
     const honeypot = String(new FormData(event.currentTarget).get("website") || "");
     setSending(true); setStatus("");
     try {
-      const payload = { ...answers, name: answers.name.trim(), email: answers.email.trim(), phone: answers.phone.trim(), projectDetail: answers.projectDetail.trim(), website: honeypot, sourceType: "homepage", sourcePage: "/", turnstileToken: token };
+      const payload = { ...answers, name: answers.name.trim(), email: answers.email.trim(), phone: answers.phone.trim(), projectDetail: answers.projectDetail.trim(), website: honeypot, sourceType, sourcePage, turnstileToken: token };
       const response = await fetch("/api/contact_mail", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload), signal: AbortSignal.timeout(20000) });
       const result = await response.json();
       if (!response.ok || result.success !== true) throw new Error("Enquiry not accepted");
-      trackInquiryEvent("generate_lead", { source_type: "homepage", page_path: "/" });
+      trackInquiryEvent("generate_lead", { source_type: sourceType, page_path: sourcePage });
       setSent(true); setAnswers({ ...EMPTY_ENQUIRY });
     } catch {
-      trackInquiryEvent("inquiry_error", { source_type: "homepage", page_path: "/" });
+      trackInquiryEvent("inquiry_error", { source_type: sourceType, page_path: sourcePage });
       setStatus(ui.failed);
     } finally { setSending(false); setToken(""); setReset((value) => value + 1); }
   }

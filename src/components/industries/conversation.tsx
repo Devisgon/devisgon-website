@@ -1,12 +1,13 @@
-import DirectInquiryForm from "@/components/direct_inquiry_form";
+import ProjectEnquiry from "@/components/home_page/project_enquiry";
 import type { IndustryConversationSection, IndustryPageProps } from "@/types/industries_page";
 
 type IndustryConversationProps = IndustryPageProps<IndustryConversationSection> & {
   industryName: string;
   sourcePage: string;
+  lang: string;
 };
 
-export default function IndustryConversation({ data, industryName, sourcePage }: IndustryConversationProps) {
+export default function IndustryConversation({ data, sourcePage, lang }: IndustryConversationProps) {
   return (
     <section className="w-full bg-bg-primary px-6 pb-16 pt-14 transition-colors duration-300 md:px-12 md:pb-24 md:pt-20">
       <div className="mx-auto max-w-4xl rounded-3xl border border-primary bg-background p-6 shadow-xl md:p-10">
@@ -15,13 +16,7 @@ export default function IndustryConversation({ data, industryName, sourcePage }:
           {data.subtitle}
         </p>
 
-        <DirectInquiryForm
-          buttonText={data.button_text}
-          industryName={industryName}
-          serviceName="Industry Services"
-          sourcePage={sourcePage}
-          sourceType="industry"
-        />
+        <ProjectEnquiry lang={lang} sourcePage={sourcePage} sourceType="industry" />
       </div>
     </section>
   );

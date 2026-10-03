@@ -119,6 +119,7 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
           data={data.conversation_section}
           industryName={data.hero_section.highlight}
           sourcePage={`/industries/${toCanonicalSlug(publicSlug)}`}
+          lang={activeLang}
         />
       </div>
       <Footer />
