@@ -22,14 +22,14 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   if (!project) return {};
   const lang = await getCachedLanguage();
   const copy = await localizeContentTree({
-    title: \`${project.name} Project Case Study | Devisgon\`,
+    title: `${project.name} Project Case Study | Devisgon`,
     description: project.description,
   }, lang);
   return {
     title: copy.title,
     description: copy.description,
-    alternates: { canonical: \`/our-work/${project.slug}\` },
-    openGraph: { title: copy.title, description: copy.description, url: \`/our-work/${project.slug}\` },
+    alternates: { canonical: `/our-work/${project.slug}` },
+    openGraph: { title: copy.title, description: copy.description, url: `/our-work/${project.slug}` },
   };
 }
 
@@ -90,8 +90,8 @@ export default async function WorkProjectPage({ params }: Props) {
               <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-6xl">
                 {project.logoSrc ? (
                   <>
-                    <Image src={project.logoSrc} alt={\`${project.name} logo\`} width={214} height={36} priority className="h-9 w-auto max-w-[300px] object-contain object-left dark:hidden" />
-                    <Image src={project.logoDarkSrc} alt={\`${project.name} logo\`} width={214} height={36} priority className="hidden h-9 w-auto max-w-[300px] object-contain object-left dark:block" />
+                    <Image src={project.logoSrc} alt={`${project.name} logo`} width={214} height={36} priority className="h-9 w-auto max-w-[300px] object-contain object-left dark:hidden" />
+                    <Image src={project.logoDarkSrc} alt={`${project.name} logo`} width={214} height={36} priority className="hidden h-9 w-auto max-w-[300px] object-contain object-left dark:block" />
                   </>
                 ) : project.name}
               </h1>
@@ -123,7 +123,7 @@ export default async function WorkProjectPage({ params }: Props) {
 
             {project.heroImageSrc && (
               <div className="relative aspect-video overflow-hidden rounded-3xl border border-[#D1AFEC]/30 bg-[#15121a] shadow-2xl">
-                <Image src={project.heroImageSrc} alt={\`${project.name} product experience preview\`} fill priority sizes="(max-width: 1024px) 100vw, 55vw" className="object-cover" />
+                <Image src={project.heroImageSrc} alt={`${project.name} product experience preview`} fill priority sizes="(max-width: 1024px) 100vw, 55vw" className="object-cover" />
               </div>
             )}
           </header>
