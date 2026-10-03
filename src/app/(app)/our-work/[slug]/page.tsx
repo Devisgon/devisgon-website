@@ -168,13 +168,29 @@ export default async function WorkProjectPage({ params }: Props) {
             <section className="mt-16" aria-labelledby="project-gallery-heading">
               <h2 id="project-gallery-heading" className="text-3xl font-semibold">{copy.gallery}</h2>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-t-secondary">{copy.galleryHint}</p>
-              <div className="mt-8 space-y-8">
+              <div className="mt-8 grid gap-6 sm:grid-cols-2">
                 {project.images.map((image) => (
-                  <figure key={image.title} className="overflow-hidden rounded-2xl border border-dashed border-[#D1AFEC]">
+                  <figure key={image.title} className="overflow-hidden rounded-2xl border border-[#D1AFEC]/70">
                     {image.src ? (
-                      <Image src={image.src} alt={image.alt} width={1600} height={1000} className="w-full object-cover" />
+                      <a
+                        href={image.src}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={"Open full-size " + image.title}
+                        className="group block"
+                      >
+                        <div className="relative aspect-[16/10] overflow-hidden bg-[#15121a]">
+                          <Image
+                            src={image.src}
+                            alt={image.alt}
+                            fill
+                            sizes="(max-width: 640px) 100vw, 50vw"
+                            className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
+                          />
+                        </div>
+                      </a>
                     ) : (
-                      <div className="flex min-h-72 items-center justify-center bg-[#F7F0FC] p-6 text-center dark:bg-[#281731]">
+                      <div className="flex aspect-[16/10] items-center justify-center bg-[#F7F0FC] p-6 text-center dark:bg-[#281731]">
                         <div>
                           <p className="font-semibold">{image.title}</p>
                           <p className="mt-2 text-sm text-t-secondary">{copy.imagePending}</p>
@@ -182,7 +198,10 @@ export default async function WorkProjectPage({ params }: Props) {
                         </div>
                       </div>
                     )}
-                    <figcaption className="border-t border-[#D1AFEC]/50 p-4 text-sm font-medium">{image.title}</figcaption>
+                    <figcaption className="flex items-center justify-between gap-3 border-t border-[#D1AFEC]/50 p-4 text-sm font-medium">
+                      <span>{image.title}</span>
+                      {image.src && <span className="text-xs text-t-secondary">Open full image ↗</span>}
+                    </figcaption>
                   </figure>
                 ))}
               </div>

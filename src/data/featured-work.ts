@@ -369,7 +369,7 @@ export const featuredWork: FeaturedWorkProject[] = [
     detail: "Designed and built as one connected product across the website, web app and mobile client, backed by specialized AI, identity and communications services. The system combines document retrieval, multi-provider messaging, conversational calling and AWS-hosted backend services.",
     logoSrc: "/our-work/memyselfi-ai/logo-light.png", logoDarkSrc: "/our-work/memyselfi-ai/logo-dark.png", logoIconSrc: "/our-work/memyselfi-ai/icon-light.png", logoIconDarkSrc: "/our-work/memyselfi-ai/icon-dark.png", heroImageSrc: "/our-work/memyselfi-ai/hero.webp", logoUploadPath: "/our-work/memyselfi-ai/logo-light.png", liveUrl: "",
     images: [
-      { title: "Website", alt: "MeMyselfI.ai website screenshot", src: "", uploadPath: "/our-work/memyselfi-ai/website.png" },
+      { title: "Website", alt: "MeMyselfI.ai website in light and dark themes", src: "/our-work/memyselfi-ai/website-light-dark.png", uploadPath: "/our-work/memyselfi-ai/website-light-dark.png" },
       { title: "Web app", alt: "MeMyselfI.ai web app screenshot", src: "", uploadPath: "/our-work/memyselfi-ai/web-app.png" },
       { title: "Mobile app", alt: "MeMyselfI.ai mobile app screenshot", src: "", uploadPath: "/our-work/memyselfi-ai/mobile-app.png" },
       { title: "UI/UX or graphic design", alt: "MeMyselfI.ai design work", src: "", uploadPath: "/our-work/memyselfi-ai/design.png" },
