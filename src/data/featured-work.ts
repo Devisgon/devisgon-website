@@ -5,7 +5,8 @@ export type WorkCategoryId =
   | "logo-design" | "ui-ux-design" | "graphic-design" | "seo";
 
 export type WorkCategory = { id: WorkCategoryId; label: string };
-export type WorkImageSlot = { title: string; alt: string; src: string; uploadPath: string };
+export type WorkGalleryImage = { title: string; alt: string; src: string };
+export type WorkImageSlot = { title: string; alt: string; src: string; uploadPath: string; albumImages?: WorkGalleryImage[] };
 export type WorkSection = { id: string; title: string; summary: string; bullets: string[] };
 
 export const workCategories: WorkCategory[] = [
@@ -369,26 +370,42 @@ export const featuredWork: FeaturedWorkProject[] = [
     detail: "Designed and built as one connected product across the website, web app and mobile client, backed by specialized AI, identity and communications services. The system combines document retrieval, multi-provider messaging, conversational calling and AWS-hosted backend services.",
     logoSrc: "/our-work/memyselfi-ai/logo-light.png", logoDarkSrc: "/our-work/memyselfi-ai/logo-dark.png", logoIconSrc: "/our-work/memyselfi-ai/icon-light.png", logoIconDarkSrc: "/our-work/memyselfi-ai/icon-dark.png", heroImageSrc: "/our-work/memyselfi-ai/hero.webp", cardImageSrc: "/our-work/memyselfi-ai/dashboard-personal-dark.webp", logoUploadPath: "/our-work/memyselfi-ai/logo-light.png", liveUrl: "",
     images: [
-      { title: "Website", alt: "MeMyselfI.ai website in light and dark themes", src: "/our-work/memyselfi-ai/website-light-dark.png", uploadPath: "/our-work/memyselfi-ai/website-light-dark.png" },
-      { title: "Web app dashboard (dark theme)", alt: "MeMyselfI.ai personal dashboard in dark theme", src: "/our-work/memyselfi-ai/dashboard-personal-dark.webp", uploadPath: "/our-work/memyselfi-ai/dashboard-personal-dark.webp" },
+      {
+        title: "Website",
+        alt: "MeMyselfI.ai website in light and dark themes",
+        src: "/our-work/memyselfi-ai/website-light-dark.png",
+        uploadPath: "/our-work/memyselfi-ai/website-light-dark.png",
+        albumImages: [
+          { title: "Website in light and dark themes", alt: "Full-page MeMyselfI.ai website screenshot showing light and dark themes", src: "/our-work/memyselfi-ai/website-light-dark.png" },
+        ],
+      },
+      {
+        title: "Web app",
+        alt: "MeMyselfI.ai personal dashboard in dark theme",
+        src: "/our-work/memyselfi-ai/dashboard-personal-dark.webp",
+        uploadPath: "/our-work/memyselfi-ai/dashboard-personal-dark.webp",
+        albumImages: [
+          { title: "Personal dashboard (dark theme)", alt: "MeMyselfI.ai personal dashboard in dark theme", src: "/our-work/memyselfi-ai/dashboard-personal-dark.webp" },
+          { title: "Business dashboard (light theme)", alt: "MeMyselfI.ai business dashboard in light theme", src: "/our-work/memyselfi-ai/dashboard-business-light.webp" },
+          { title: "AI diary & voice notes (dark theme)", alt: "MeMyselfI.ai diary and voice notes screen in dark theme", src: "/our-work/memyselfi-ai/ai-diary-voice-notes-dark.webp" },
+          { title: "AI call agent (dark theme)", alt: "MeMyselfI.ai AI call agent screen in dark theme", src: "/our-work/memyselfi-ai/ai-call-agent-dark.webp" },
+          { title: "AI call agent (light theme)", alt: "MeMyselfI.ai AI call agent screen in light theme", src: "/our-work/memyselfi-ai/ai-call-agent-light.webp" },
+          { title: "AI voice assistant (dark theme)", alt: "MeMyselfI.ai AI voice assistant screen in dark theme", src: "/our-work/memyselfi-ai/ai-voice-assistant-dark.webp" },
+          { title: "AI voice assistant (light theme)", alt: "MeMyselfI.ai AI voice assistant screen in light theme", src: "/our-work/memyselfi-ai/ai-voice-assistant-light.webp" },
+          { title: "Budget module (dark theme)", alt: "MeMyselfI.ai budget module in dark theme", src: "/our-work/memyselfi-ai/ai-budget-module-dark.webp" },
+          { title: "Calendar: monthly view (dark theme)", alt: "MeMyselfI.ai calendar monthly view in dark theme", src: "/our-work/memyselfi-ai/calendar-monthly-dark.webp" },
+          { title: "Calendar: weekly view (light theme)", alt: "MeMyselfI.ai calendar weekly view in light theme", src: "/our-work/memyselfi-ai/calendar-weekly-light.webp" },
+          { title: "New diary entry (light theme)", alt: "MeMyselfI.ai new diary entry screen in light theme", src: "/our-work/memyselfi-ai/new-entry-light.webp" },
+          { title: "Settings (light theme)", alt: "MeMyselfI.ai settings screen in light theme", src: "/our-work/memyselfi-ai/settings-light.webp" },
+          { title: "Call agent settings (dark theme)", alt: "MeMyselfI.ai call agent settings in dark theme", src: "/our-work/memyselfi-ai/call-agent-settings-dark.webp" },
+          { title: "Unified inbox (dark theme)", alt: "MeMyselfI.ai unified inbox in dark theme", src: "/our-work/memyselfi-ai/unified-inbox-dark.webp" },
+          { title: "Unified inbox (light theme)", alt: "MeMyselfI.ai unified inbox in light theme", src: "/our-work/memyselfi-ai/unified-inbox-light.webp" },
+          { title: "Vault (dark theme)", alt: "MeMyselfI.ai vault in dark theme", src: "/our-work/memyselfi-ai/vault-dark.webp" },
+          { title: "Vault (light theme)", alt: "MeMyselfI.ai vault in light theme", src: "/our-work/memyselfi-ai/vault-light.webp" },
+        ],
+      },
       { title: "Mobile app", alt: "MeMyselfI.ai mobile app screenshot", src: "", uploadPath: "/our-work/memyselfi-ai/mobile-app.png" },
       { title: "UI/UX or graphic design", alt: "MeMyselfI.ai design work", src: "", uploadPath: "/our-work/memyselfi-ai/design.png" },
-      { title: "Business dashboard (light theme)", alt: "MeMyselfI.ai business dashboard in light theme", src: "/our-work/memyselfi-ai/dashboard-business-light.webp", uploadPath: "/our-work/memyselfi-ai/dashboard-business-light.webp" },
-      { title: "AI diary & voice notes (dark theme)", alt: "MeMyselfI.ai diary and voice notes screen in dark theme", src: "/our-work/memyselfi-ai/ai-diary-voice-notes-dark.webp", uploadPath: "/our-work/memyselfi-ai/ai-diary-voice-notes-dark.webp" },
-      { title: "AI call agent (dark theme)", alt: "MeMyselfI.ai AI call agent screen in dark theme", src: "/our-work/memyselfi-ai/ai-call-agent-dark.webp", uploadPath: "/our-work/memyselfi-ai/ai-call-agent-dark.webp" },
-      { title: "AI call agent (light theme)", alt: "MeMyselfI.ai AI call agent screen in light theme", src: "/our-work/memyselfi-ai/ai-call-agent-light.webp", uploadPath: "/our-work/memyselfi-ai/ai-call-agent-light.webp" },
-      { title: "AI voice assistant (dark theme)", alt: "MeMyselfI.ai AI voice assistant screen in dark theme", src: "/our-work/memyselfi-ai/ai-voice-assistant-dark.webp", uploadPath: "/our-work/memyselfi-ai/ai-voice-assistant-dark.webp" },
-      { title: "AI voice assistant (light theme)", alt: "MeMyselfI.ai AI voice assistant screen in light theme", src: "/our-work/memyselfi-ai/ai-voice-assistant-light.webp", uploadPath: "/our-work/memyselfi-ai/ai-voice-assistant-light.webp" },
-      { title: "Budget module (dark theme)", alt: "MeMyselfI.ai budget module in dark theme", src: "/our-work/memyselfi-ai/ai-budget-module-dark.webp", uploadPath: "/our-work/memyselfi-ai/ai-budget-module-dark.webp" },
-      { title: "Calendar: monthly view (dark theme)", alt: "MeMyselfI.ai calendar monthly view in dark theme", src: "/our-work/memyselfi-ai/calendar-monthly-dark.webp", uploadPath: "/our-work/memyselfi-ai/calendar-monthly-dark.webp" },
-      { title: "Calendar: weekly view (light theme)", alt: "MeMyselfI.ai calendar weekly view in light theme", src: "/our-work/memyselfi-ai/calendar-weekly-light.webp", uploadPath: "/our-work/memyselfi-ai/calendar-weekly-light.webp" },
-      { title: "New diary entry (light theme)", alt: "MeMyselfI.ai new diary entry screen in light theme", src: "/our-work/memyselfi-ai/new-entry-light.webp", uploadPath: "/our-work/memyselfi-ai/new-entry-light.webp" },
-      { title: "Settings (light theme)", alt: "MeMyselfI.ai settings screen in light theme", src: "/our-work/memyselfi-ai/settings-light.webp", uploadPath: "/our-work/memyselfi-ai/settings-light.webp" },
-      { title: "Call agent settings (dark theme)", alt: "MeMyselfI.ai call agent settings in dark theme", src: "/our-work/memyselfi-ai/call-agent-settings-dark.webp", uploadPath: "/our-work/memyselfi-ai/call-agent-settings-dark.webp" },
-      { title: "Unified inbox (dark theme)", alt: "MeMyselfI.ai unified inbox in dark theme", src: "/our-work/memyselfi-ai/unified-inbox-dark.webp", uploadPath: "/our-work/memyselfi-ai/unified-inbox-dark.webp" },
-      { title: "Unified inbox (light theme)", alt: "MeMyselfI.ai unified inbox in light theme", src: "/our-work/memyselfi-ai/unified-inbox-light.webp", uploadPath: "/our-work/memyselfi-ai/unified-inbox-light.webp" },
-      { title: "Vault (dark theme)", alt: "MeMyselfI.ai vault in dark theme", src: "/our-work/memyselfi-ai/vault-dark.webp", uploadPath: "/our-work/memyselfi-ai/vault-dark.webp" },
-      { title: "Vault (light theme)", alt: "MeMyselfI.ai vault in light theme", src: "/our-work/memyselfi-ai/vault-light.webp", uploadPath: "/our-work/memyselfi-ai/vault-light.webp" },
     ],
     sections: memyselfiSections,
     technologies: memyselfiTechnologyTools.map((tool) => tool.name),
