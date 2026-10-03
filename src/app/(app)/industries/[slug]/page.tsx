@@ -3,10 +3,6 @@ import { notFound, redirect } from "next/navigation";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import IndustryArchitecture from "@/components/industries/architecture";
-import IndustryCarousel from "@/components/industries/carousel";
-import IndustryCaseStudies from "@/components/industries/case_studies";
-import IndustryConversation from "@/components/industries/conversation";
-import IndustryExplore from "@/components/industries/explore";
 import IndustryFriction from "@/components/industries/friction";
 import IndustryHero from "@/components/industries/hero";
 import IndustryKeyBenefits from "@/components/industries/key_benefits";
@@ -14,6 +10,8 @@ import { getIndustryCategoryBySlug, getIndustryData, toPublicIndustrySlug } from
 import { getCachedLanguage } from "@/lib/language";
 import { getIndustrySlugMetadata, getJsonSeoMetadata, INDUSTRIES_PAGE_METADATA } from "@/lib/seo";
 import { toCanonicalSlug } from "@/lib/slugs";
+import { getIndustryCroUi } from "@/data/industry-cro-ui";
+import { IndustryCalculatorAndProcess, IndustryProofStrip, IndustryServiceGrid } from "@/components/industries/conversion_sections";
 
 const INDUSTRIES_LISTING_ALIAS_SLUG = "ai-automation-software-solutions";
 
@@ -86,41 +84,29 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
     notFound();
   }
 
+  const croCopy = await getIndustryCroUi(activeLang);
+
   const isRTL = activeLang === "ur" || activeLang === "ar";
-  const localizeHref = (href: string) => {
-    if (activeLang === "en") {
-      return href;
-    }
-
-    const queryJoiner = href.includes("?") ? "&" : "?";
-    return `${href}${queryJoiner}lang=${activeLang}`;
-  };
-
-  const localizedExploreSection = {
-    ...data.explore_section,
-    cards: data.explore_section.cards.map((card) => ({
-      ...card,
-      href: localizeHref(card.href),
-    })),
-  };
+  const sourcePage = "/industries/" + toCanonicalSlug(publicSlug);
 
   return (
     <>
       <Header />
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
-        <IndustryHero data={data.hero_section} slides={data.carousel_section?.cards} />
+        <IndustryHero
+          data={data.hero_section}
+          slides={data.carousel_section?.cards}
+          conversation={data.conversation_section}
+          lang={activeLang}
+          sourcePage={sourcePage}
+          calculatorLabel={croCopy.calculatorLink}
+        />
+        <IndustryProofStrip copy={croCopy} data={data.proof_section} />
         <IndustryFriction data={data.friction_section} />
         <IndustryArchitecture data={data.architecture_section} />
+        <IndustryServiceGrid copy={croCopy} />
         <IndustryKeyBenefits data={data.benefits_section} />
-        {data.carousel_section ? <IndustryCarousel data={data.carousel_section} /> : null}
-        <IndustryCaseStudies data={data.case_studies_section} />
-        <IndustryExplore data={localizedExploreSection} />
-        <IndustryConversation
-          data={data.conversation_section}
-          industryName={data.hero_section.highlight}
-          sourcePage={`/industries/${toCanonicalSlug(publicSlug)}`}
-          lang={activeLang}
-        />
+        <IndustryCalculatorAndProcess copy={croCopy} lang={activeLang} />
       </div>
       <Footer />
     </>

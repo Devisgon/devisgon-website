@@ -226,6 +226,8 @@ Note: files under `src/app/(payload)` marked generated should not be manually ed
 - Contact page copy is injected from `src/data/*_data/contact_page.json` based on cookie language.
 - Get-started page copy is injected from `src/data/*_data/get_started_page.json` based on cookie language.
 - Service detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
+- Industry detail pages share a conversion-focused template: the locale-specific industry tagline and five-step homepage questionnaire sit together in the hero, and the form preserves `sourceType: industry` plus the canonical `sourcePage`; rotating service copy remains animated.
+- Industry detail pages follow with optional per-industry `proof_section` metrics and logo image paths with clearly marked editable fallbacks, existing industry-specific friction/solution/benefit content, a shared eight-capability catalog, the automation ROI calculator link, a three-step project process, and a transformation CTA that returns to the hero brief. Replace proof placeholders only with verified figures and approved logos.
 - Industry detail pages resolve language in this order: `?lang=` query -> `lang` cookie -> `en`.
 - Client-side i18next payload loading has been removed from root layout to reduce JS parsing and hydration cost.
 
@@ -513,3 +515,4 @@ If you change this, also check this:
 - 2026-10-03: Localized homepage inquiry privacy-link copy and country names for all seven supported languages while preserving the English region values sent to the existing contact endpoint.
 - 2026-10-03: Replaced industry detail contact forms with the shared localized homepage questionnaire while retaining each page's conversation headline and subtitle above the form and preserving industry source attribution.
 - 2026-10-03: Scoped the shared questionnaire's light/dark color tokens to the form itself so industry pages retain readable text and controls outside homepage styles; added regression coverage.
+- 2026-10-03: Restructured every industry slug around a hero-embedded localized project questionnaire, editable proof placeholders, a shared service catalog, the automation calculator, a short project process, and a transformation CTA; removed repeated bottom conversion and generic cross-industry sections.
