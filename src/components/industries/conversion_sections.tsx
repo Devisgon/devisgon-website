@@ -15,12 +15,13 @@ import type { IndustryCroUi } from "@/data/industry-cro-ui";
 import type { IndustryProofSection } from "@/types/industries_page";
 
 const serviceIcons = [BrainCircuit, Workflow, Globe2, Headset, Bot, PanelsTopLeft, Smartphone, Megaphone];
+const selectedWorkWordmarks = ["MeMyselfI.ai", "LaForme", "Taskera AI", "FulixLabs"];
 
 export function IndustryProofStrip({ copy, data }: { copy: IndustryCroUi; data?: IndustryProofSection }) {
   const metrics = data?.metrics?.length ? data.metrics : copy.metrics;
   const logos: NonNullable<IndustryProofSection["logos"]> = data?.logos?.length
     ? data.logos
-    : copy.logoSlots.map((name) => ({ name }));
+    : selectedWorkWordmarks.map((name) => ({ name }));
 
   return (
     <section className="border-b border-primary/20 bg-bg-secondary px-5 py-10 sm:px-8 md:px-12 md:py-12">
@@ -42,7 +43,7 @@ export function IndustryProofStrip({ copy, data }: { copy: IndustryCroUi; data?:
           <p className="mb-2 mt-5 text-[10px] font-semibold uppercase tracking-[0.12em] text-t-secondary">{copy.logosLabel}</p>
           <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
             {logos.map((logo, index) => (
-              <div key={logo.name + index} className="flex min-h-12 items-center justify-center rounded-lg border border-dashed border-primary/25 bg-bg-primary px-3 text-xs font-bold tracking-[0.12em] text-t-secondary">
+              <div key={logo.name + index} className="flex min-h-12 items-center justify-center rounded-lg border border-primary/15 bg-bg-primary px-3 text-sm font-extrabold tracking-tight text-t-primary">
                 {logo.src ? (
                   <Image src={logo.src} alt={logo.name + " logo"} width={140} height={48} className="h-9 w-auto max-w-full object-contain" />
                 ) : (
