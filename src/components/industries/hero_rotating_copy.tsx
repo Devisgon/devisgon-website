@@ -22,7 +22,7 @@ export default function IndustryHeroRotatingCopy({
   const [activeIndex, setActiveIndex] = useState(0);
 
   useEffect(() => {
-    if (safeSlides.length <= 1) return;
+    if (safeSlides.length <= 1 || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
     const timer = window.setInterval(() => {
       setActiveIndex((prev) => (prev + 1) % safeSlides.length);
     }, HERO_ROTATE_MS);

@@ -161,8 +161,14 @@ export type IndustryListingData = {
   industry_groups?: IndustryListingGroup[];
 };
 
+export type IndustryProofSection = {
+  metrics?: { value: string; label: string }[];
+  logos?: { name: string; src?: string }[];
+};
+
 export type IndustryPageData = {
   slug: string;
+  proof_section?: IndustryProofSection;
   seo?: IndustrySeoMetadata;
   seo_metadata?: IndustrySeoMetadata;
   hero_section: IndustryHeroSection;
