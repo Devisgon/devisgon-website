@@ -368,7 +368,7 @@ export const featuredWork: FeaturedWorkProject[] = [
     categoryIds: ["website", "web-app", "ai", "voice-agents", "saas", "mobile-app", "logo-design", "ui-ux-design", "graphic-design", "seo"],
     focus: ["Website", "Web app", "Mobile app", "AI", "Voice agents", "AWS deployment", "SQA"],
     detail: "Designed and built as one connected product across the website, web app and mobile client, backed by specialized AI, identity and communications services. The system combines document retrieval, multi-provider messaging, conversational calling and AWS-hosted backend services.",
-    logoSrc: "/our-work/memyselfi-ai/logo-light.png", logoDarkSrc: "/our-work/memyselfi-ai/logo-dark.png", logoIconSrc: "/our-work/memyselfi-ai/icon-light.png", logoIconDarkSrc: "/our-work/memyselfi-ai/icon-dark.png", heroImageSrc: "/our-work/memyselfi-ai/hero.webp", cardImageSrc: "/our-work/memyselfi-ai/dashboard-personal-dark.webp", logoUploadPath: "/our-work/memyselfi-ai/logo-light.png", liveUrl: "",
+    logoSrc: "/our-work/memyselfi-ai/logo-light.png", logoDarkSrc: "/our-work/memyselfi-ai/logo-dark.png", logoIconSrc: "/our-work/memyselfi-ai/icon-light.png", logoIconDarkSrc: "/our-work/memyselfi-ai/icon-dark.png", heroImageSrc: "/our-work/memyselfi-ai/hero.webp", cardImageSrc: "/our-work/memyselfi-ai/hero.webp", logoUploadPath: "/our-work/memyselfi-ai/logo-light.png", liveUrl: "",
     images: [
       {
         title: "Website",
