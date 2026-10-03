@@ -1,7 +1,8 @@
 ﻿import type { IndustryBenefitsSection, IndustryPageProps } from "@/types/industries_page";
 import IndustryIconBadge from "@/components/industries/icon_badge";
+import IndustryProjectBriefCta from "@/components/industries/project_brief_cta";
 
-export default function IndustryKeyBenefits({ data }: IndustryPageProps<IndustryBenefitsSection>) {
+export default function IndustryKeyBenefits({ data, ctaLabel }: IndustryPageProps<IndustryBenefitsSection> & { ctaLabel: string }) {
   return (
     <section className="w-screen md:w-full bg-bg-primary px-6 py-14 md:px-12 md:py-20">
       <div className="mx-auto max-w-6xl">
@@ -28,6 +29,9 @@ export default function IndustryKeyBenefits({ data }: IndustryPageProps<Industry
               </div>
             </article>
           ))}
+        </div>
+        <div className="mt-10 flex justify-center">
+          <IndustryProjectBriefCta label={ctaLabel} />
         </div>
       </div>
     </section>

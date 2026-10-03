@@ -1,5 +1,6 @@
 import ProjectEnquiry from "@/components/home_page/project_enquiry";
 import IndustryHeroRotatingCopy from "@/components/industries/hero_rotating_copy";
+import IndustryProjectBriefCta from "@/components/industries/project_brief_cta";
 import type {
   IndustryCarouselCard,
   IndustryConversationSection,
@@ -45,26 +46,16 @@ export default function IndustryHero({
         className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_50%_100%,rgba(117,71,164,0.32),transparent_60%)]"
       />
       <div className="relative z-10 mx-auto grid w-full max-w-7xl items-start gap-10 lg:grid-cols-[0.92fr_1.08fr] lg:gap-12">
-        <div className="pt-2 text-center lg:pt-12 lg:text-left">
-          <p className="mx-auto mb-6 inline-flex rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-[#E3C3F5] shadow-xl backdrop-blur-md sm:text-xs lg:mx-0">
+        <div className="pt-2 text-left lg:pt-12">
+          <p className="mb-6 inline-flex rounded-full border border-white/15 bg-white/5 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-[#E3C3F5] shadow-xl backdrop-blur-md sm:text-xs">
             {data.eyebrow}
           </p>
-          <h1 className="mx-auto max-w-3xl text-4xl font-black leading-[1.08] tracking-tight text-white drop-shadow-xl sm:text-5xl md:text-6xl lg:mx-0">
+          <h1 className="max-w-3xl text-left text-4xl font-black leading-[1.08] tracking-tight text-white drop-shadow-xl sm:text-5xl md:text-6xl">
             {data.title} <span className="text-[#E7B6E7]">{data.highlight}</span>
           </h1>
-          <IndustryHeroRotatingCopy
-            slides={slides}
-            titlePrefix=""
-            fallbackTitle={data.highlight}
-            fallbackDescription={data.description}
-          />
-          <div className="mt-8 flex flex-col justify-center gap-3 sm:flex-row lg:justify-start">
-            <a
-              href="#industry-project-brief"
-              className="inline-flex min-h-12 items-center justify-center rounded-full bg-btn-primary px-7 py-3 text-sm font-bold text-white shadow-xl transition hover:-translate-y-0.5 hover:bg-[#76159A] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
-            >
-              {conversation.button_text}
-            </a>
+          <IndustryHeroRotatingCopy slides={slides} fallbackTitle={data.highlight} />
+          <div className="mt-8 flex flex-col items-start justify-start gap-3 sm:flex-row">
+            <IndustryProjectBriefCta label={conversation.button_text} variant="hero" />
             <a
               href="#industry-automation-calculator"
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/25 bg-white/10 px-7 py-3 text-sm font-bold text-white backdrop-blur-md transition hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
@@ -72,7 +63,7 @@ export default function IndustryHero({
               {calculatorLabel}
             </a>
           </div>
-          <p className="mx-auto mt-5 max-w-xl text-xs leading-relaxed text-white/65 lg:mx-0">
+          <p className="mt-5 max-w-xl text-left text-xs leading-relaxed text-white/65">
             {data.description}
           </p>
         </div>

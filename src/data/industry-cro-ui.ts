@@ -12,6 +12,8 @@ const english = {
   ],
   logosLabel: "Approved client and partner logos",
   logoSlots: ["YOUR LOGO", "YOUR LOGO", "YOUR LOGO", "YOUR LOGO"],
+  architectureCta: "Take a digital dive",
+  benefitsCta: "Take your first step",
   servicesEyebrow: "A connected digital toolkit",
   servicesTitle: "The right tools for the work behind the service.",
   servicesIntro:
