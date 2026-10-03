@@ -218,3 +218,23 @@ test("modern footer keeps the full English catalogue reachable and renders one m
     assert.ok(!preferences.className.includes("fixed"));
   } finally {dom.window.close();}
 });
+
+test("industry conversation keeps its page headline and tagline above the shared homepage questionnaire", async () => {
+  const React = await import("react");
+  const { renderToStaticMarkup } = await import("react-dom/server");
+  const { default: IndustryConversation } = await componentModule("src/components/industries/conversation.tsx");
+  const data = JSON.parse(await fs.readFile("src/data/english_data/industries/professional/gym.json", "utf8")).conversation_section;
+  const html = renderToStaticMarkup(React.createElement(IndustryConversation, {
+    data,
+    industryName: "Gym",
+    sourcePage: "/industries/gym",
+    lang: "en",
+  }));
+  const titleIndex = html.indexOf(data.title);
+  const subtitleIndex = html.indexOf(data.subtitle);
+  const questionnaireIndex = html.indexOf("YOUR NEXT PROJECT");
+  assert.ok(titleIndex >= 0, "industry heading is rendered");
+  assert.ok(subtitleIndex > titleIndex, "industry subtitle remains below its heading");
+  assert.ok(questionnaireIndex > subtitleIndex, "the questionnaire follows the industry tagline");
+  assert.ok(html.includes("What are you looking to build?"), "homepage questionnaire content is rendered");
+});

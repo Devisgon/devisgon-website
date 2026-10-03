@@ -27,6 +27,7 @@ Required actions after each meaningful code change:
 - Most marketing and service content is loaded from JSON in `src/data/*`.
 - The `/our-process` marketing page is English JSON-driven from `src/data/english_data/our_process.json`, with page-specific metadata mapped directly from the JSON `seo` object.
 - Industries content is JSON-driven with language files in each `src/data/*_data/industries/<category>/<slug>.json` folder, including agriculture, food, healthcare, professional, real estate, and trades categories.
+- Every `/industries/[slug]` detail page preserves the locale-specific conversation heading and subtitle above the shared five-step homepage questionnaire. Industry submissions retain `sourceType: industry` and the canonical industry route in `sourcePage` for analytics and lead attribution.
 - Technologies content is JSON-driven with language files in category-scoped folders under `src/data/*_data/technologies/<category>/<slug>.json` (with category `index.json` for main category pages).
 - Partner landing-page content is served from canonical `/partners/<slug>` routes, uses JSON data from `src/data/*_data/others/<slug>.json`, and falls back to English via `src/data/loaders/others.ts`.
 - Blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
@@ -510,3 +511,4 @@ If you change this, also check this:
 - 2026-10-03: Added CEO and CTO profile icon links with new-tab behavior and installed optimized CEO/CTO portraits under the shared public leadership image directory.
 - 2026-10-02: Routed all seven homepage languages through the shared conversion layout, applied locale-specific homepage datasets, synchronized document language/direction, and removed unreferenced legacy homepage components and types.
 - 2026-10-03: Localized homepage inquiry privacy-link copy and country names for all seven supported languages while preserving the English region values sent to the existing contact endpoint.
+- 2026-10-03: Replaced industry detail contact forms with the shared localized homepage questionnaire while retaining each page's conversation headline and subtitle above the form and preserving industry source attribution.
