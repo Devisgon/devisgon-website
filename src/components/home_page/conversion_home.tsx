@@ -4,6 +4,7 @@ import { ArrowUpRight, ArrowRight, Bot, Workflow, Layers3, Code2, Check, ShieldC
 import { getDiscoveryCallHref } from "@/lib/discovery-call";
 import { featuredWork } from "@/data/featured-work";
 import ProjectEnquiry from "./project_enquiry";
+import ProjectEnquiryCta from "./project_enquiry_cta";
 import styles from "./conversion_home.module.css";
 import { conversionHomeUi } from "@/data/conversion-home-ui";
 import { localizeContentTree } from "@/lib/content-language";
@@ -49,7 +50,7 @@ export default async function ConversionHome({ lang, homeCopy }: { lang: string;
           <p className={styles.eyebrow}><span className={styles.brandDot} /> {homeCopy.hero_section.pre_title}</p>
           <h1 id="home-heading">{homeCopy.hero_section.main_title}<br /><span>{homeCopy.hero_section.title}</span></h1>
           <p className={styles.heroDescription}>{ui.heroDescription}</p>
-          <div className={styles.heroActions}><Link href="#start-project" className={styles.primaryButton}>{homeCopy.hero_section.cta_button.text}<ArrowUpRight size={18} aria-hidden="true" /></Link><Link href="#work" className={styles.textLink}>{localized ? homeCopy.services_section.header_title : "Explore our work"}<ArrowRight size={17} aria-hidden="true" /></Link></div>
+          <div className={styles.heroActions}><ProjectEnquiryCta label={homeCopy.hero_section.cta_button.text} /><Link href="#work" className={styles.textLink}>{localized ? homeCopy.services_section.header_title : "Explore our work"}<ArrowRight size={17} aria-hidden="true" /></Link></div>
           <p className={styles.heroCall}>{ui.heroCall} <Link href={call}>{ui.discovery} <ArrowUpRight size={14} aria-hidden="true" /></Link></p>
           <div className={styles.heroNotes}><span><Check size={15} aria-hidden="true" /> {ui.scope}</span><span><ShieldCheck size={16} aria-hidden="true" /> {ui.oversight}</span></div>
           {!localized && <div className={styles.heroSignature}><span>STRATEGY → DESIGN → DEVELOPMENT → LAUNCH</span><p>Built around your business.<br /><strong>From the first question to the next release.</strong></p></div>}
