@@ -9,6 +9,7 @@ import TechnologiesSection from "@/components/sub_services_pages/technalogies";
 import { featuredWork, getWorkProject, workCategories } from "@/data/featured-work";
 import { getCachedLanguage } from "@/lib/language";
 import { localizeContentTree } from "@/lib/content-language";
+import ProjectGallery from "@/components/our_work/project_gallery";
 
 type Props = { params: Promise<{ slug: string }> };
 
@@ -44,6 +45,9 @@ export default async function WorkProjectPage({ params }: Props) {
     liveSoon: "Live project link to be added",
     gallery: "Project gallery",
     galleryHint: "Approved screenshots and design exports can be added to the media paths shown below.",
+    openAlbum: "Open album",
+    openFullImage: "Open full image",
+    closeAlbum: "Close album",
     scope: "How the platform was built",
     scopeKicker: "From product idea to connected system",
     scopeIntro: "MeMyselfI.ai brings several substantial product areas together. The story below follows the work from the user-facing experience through the AI, communications, mobile, cloud and release layers.",
@@ -168,42 +172,11 @@ export default async function WorkProjectPage({ params }: Props) {
             <section className="mt-16" aria-labelledby="project-gallery-heading">
               <h2 id="project-gallery-heading" className="text-3xl font-semibold">{copy.gallery}</h2>
               <p className="mt-3 max-w-3xl text-sm leading-7 text-t-secondary">{copy.galleryHint}</p>
-              <div className="mt-8 grid gap-6 sm:grid-cols-2">
-                {project.images.map((image) => (
-                  <figure key={image.title} className="overflow-hidden rounded-2xl border border-[#D1AFEC]/70">
-                    {image.src ? (
-                      <a
-                        href={image.src}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        aria-label={"Open full-size " + image.title}
-                        className="group block"
-                      >
-                        <div className="relative aspect-[16/10] overflow-hidden bg-[#15121a]">
-                          <Image
-                            src={image.src}
-                            alt={image.alt}
-                            fill
-                            sizes="(max-width: 640px) 100vw, 50vw"
-                            className="object-cover object-top transition-transform duration-300 group-hover:scale-[1.03]"
-                          />
-                        </div>
-                      </a>
-                    ) : (
-                      <div className="flex aspect-[16/10] items-center justify-center bg-[#F7F0FC] p-6 text-center dark:bg-[#281731]">
-                        <div>
-                          <p className="font-semibold">{image.title}</p>
-                          <p className="mt-2 text-sm text-t-secondary">{copy.imagePending}</p>
-                          <code className="mt-3 block break-all text-xs">{image.uploadPath}</code>
-                        </div>
-                      </div>
-                    )}
-                    <figcaption className="flex items-center justify-between gap-3 border-t border-[#D1AFEC]/50 p-4 text-sm font-medium">
-                      <span>{image.title}</span>
-                      {image.src && <span className="text-xs text-t-secondary">Open full image ↗</span>}
-                    </figcaption>
-                  </figure>
-                ))}
+              <div className="mt-8">
+                <ProjectGallery
+                  images={project.images}
+                  labels={{ openAlbum: copy.openAlbum, openFullImage: copy.openFullImage, closeAlbum: copy.closeAlbum, imagePending: copy.imagePending }}
+                />
               </div>
             </section>
           )}
