@@ -1,7 +1,8 @@
 ﻿import type { IndustryArchitectureSection, IndustryPageProps } from "@/types/industries_page";
 import IndustryIconBadge from "@/components/industries/icon_badge";
+import IndustryProjectBriefCta from "@/components/industries/project_brief_cta";
 
-export default function IndustryArchitecture({ data }: IndustryPageProps<IndustryArchitectureSection>) {
+export default function IndustryArchitecture({ data, ctaLabel }: IndustryPageProps<IndustryArchitectureSection> & { ctaLabel: string }) {
   return (
     <section
       id={data.id ?? "industry-architecture"}
@@ -19,6 +20,9 @@ export default function IndustryArchitecture({ data }: IndustryPageProps<Industr
               </li>
             ))}
           </ul>
+          <div className="mt-8">
+            <IndustryProjectBriefCta label={ctaLabel} />
+          </div>
         </div>
 
         <div className="grid gap-4 md:grid-cols-2">

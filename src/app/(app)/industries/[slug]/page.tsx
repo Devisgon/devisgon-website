@@ -103,9 +103,9 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
         />
         <IndustryProofStrip copy={croCopy} data={data.proof_section} />
         <IndustryFriction data={data.friction_section} />
-        <IndustryArchitecture data={data.architecture_section} />
+        <IndustryArchitecture data={data.architecture_section} ctaLabel={croCopy.architectureCta} />
         <IndustryServiceGrid copy={croCopy} />
-        <IndustryKeyBenefits data={data.benefits_section} />
+        <IndustryKeyBenefits data={data.benefits_section} ctaLabel={croCopy.benefitsCta} />
         <IndustryCalculatorAndProcess copy={croCopy} lang={activeLang} />
       </div>
       <Footer />
