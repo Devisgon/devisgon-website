@@ -43,14 +43,16 @@ export default async function WorkProjectPage({ params }: Props) {
 
   return <><Header /><LocalizedText lang={lang}><main id="main-content" className="mx-auto max-w-6xl px-6 pb-24 pt-36 text-t-primary">
     <Link href="/our-work" className="text-sm font-medium underline underline-offset-4">← {copy.back}</Link>
-    <header className="mt-10 max-w-4xl">
-      <p className="text-xs font-semibold uppercase tracking-widest">Project {project.number}</p>
-      <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-6xl">{project.name}</h1>
+    <header className="mt-10 grid items-center gap-8 lg:grid-cols-[0.85fr_1.15fr]"><div className="max-w-4xl">
+      <p className="inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-widest">{project.logoIconSrc && <Image src={project.logoIconSrc} alt="" width={24} height={20} className="h-5 w-auto object-contain" />} Project {project.number}</p>
+      <h1 className="mt-4 text-4xl font-semibold tracking-tight md:text-6xl">{project.logoSrc ? <span className="inline-flex rounded-md bg-[#101010] p-2"><Image src={project.logoSrc} alt={`${project.name} logo`} width={427} height={72} priority className="h-auto w-full max-w-[300px] object-contain object-left" /></span> : project.name}</h1>
       <p className="mt-5 text-xl leading-8">{project.title}</p>
       <p className="mt-4 max-w-3xl text-base leading-8 text-t-secondary">{project.detail}</p>
       <div className="mt-7 flex flex-wrap gap-2">{project.categoryIds.map((id) => <span key={id} className="rounded-full border border-[#D1AFEC] px-3 py-1.5 text-xs">{workCategories.find((category) => category.id === id)?.label ?? id}</span>)}</div>
       {project.liveUrl ? <a href={project.liveUrl} target="_blank" rel="noreferrer" className="mt-8 inline-flex rounded-xl bg-[#40005B] px-5 py-3 text-sm font-semibold text-white">{copy.live} ↗</a> : <p className="mt-8 inline-flex rounded-xl border border-dashed border-[#D1AFEC] px-5 py-3 text-sm">{copy.liveSoon}</p>}
-      {project.logoSrc ? <div className="mt-10"><p className="mb-3 text-sm font-semibold">{copy.logo}</p><Image src={project.logoSrc} alt={`${project.name} logo`} width={240} height={100} className="h-16 w-auto object-contain" /></div> : <p className="mt-8 text-xs text-t-secondary">{copy.logoHint} <code>{project.logoUploadPath}</code></p>}
+      {!project.logoSrc && <p className="mt-8 text-xs text-t-secondary">{copy.logoHint} <code>{project.logoUploadPath}</code></p>}
+    </div>
+      {project.heroImageSrc && <div className="relative aspect-video overflow-hidden rounded-3xl border border-[#D1AFEC]/30 bg-[#15121a] shadow-2xl"><Image src={project.heroImageSrc} alt={`${project.name} product experience preview`} fill priority sizes="(max-width: 1024px) 100vw, 55vw" className="object-cover" /></div>}
     </header>
 
     <section className="mt-16">

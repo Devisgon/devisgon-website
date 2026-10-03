@@ -39,7 +39,7 @@ const memyselfiSections: WorkSection[] = [
 export type FeaturedWorkProject = {
   slug: string; name: string; category: string; number: string; title: string; description: string;
   categoryIds: WorkCategoryId[]; focus: string[]; detail: string;
-  logoSrc: string; logoUploadPath: string; liveUrl: string;
+  logoSrc: string; logoIconSrc: string; heroImageSrc: string; logoUploadPath: string; liveUrl: string;
   images: WorkImageSlot[]; sections: WorkSection[]; technologies: string[];
 };
 
@@ -51,7 +51,7 @@ export const featuredWork: FeaturedWorkProject[] = [
     categoryIds: ["website", "web-app", "ai", "voice-agents", "saas", "mobile-app", "logo-design", "ui-ux-design", "graphic-design", "seo"],
     focus: ["Website", "Web app", "Mobile app", "AI", "Voice agents", "AWS deployment", "SQA"],
     detail: "End-to-end product delivery spanning product marketing, application engineering, AI and voice capabilities, mobile, cloud deployment and quality assurance.",
-    logoSrc: "", logoUploadPath: "/our-work/memyselfi-ai/logo.png", liveUrl: "",
+    logoSrc: "/our-work/memyselfi-ai/logo.png", logoIconSrc: "/our-work/memyselfi-ai/icon-symbol.png", heroImageSrc: "/our-work/memyselfi-ai/hero.webp", logoUploadPath: "/our-work/memyselfi-ai/logo.png", liveUrl: "",
     images: [
       { title: "Website", alt: "MeMyselfI.ai website screenshot", src: "", uploadPath: "/our-work/memyselfi-ai/website.png" },
       { title: "Web app", alt: "MeMyselfI.ai web app screenshot", src: "", uploadPath: "/our-work/memyselfi-ai/web-app.png" },
@@ -66,14 +66,14 @@ export const featuredWork: FeaturedWorkProject[] = [
     description: "A stateful multi-agent assistant with retrieval, MCP tools and task automation.",
     categoryIds: ["ai", "saas"], focus: ["Multi-agent workflows", "RAG", "MCP tools"],
     detail: "Engineering work on a stateful assistant that combines retrieval-augmented generation, connected tools and task automation.",
-    logoSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [],
+    logoSrc: "", logoIconSrc: "", heroImageSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [],
   },
   {
     slug: "fulixlabs", name: "FulixLabs Backend", category: "AI architecture", number: "03", title: "A foundation for capable AI apps.",
     description: "An enterprise multi-agent backend with tool orchestration, persistent memory and productivity APIs.",
     categoryIds: ["ai"], focus: ["Persistent memory", "Tool orchestration", "Productivity APIs"],
     detail: "Backend engineering work supporting multi-agent assistants through MCP tool orchestration, persistent memory and productivity APIs.",
-    logoSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [],
+    logoSrc: "", logoIconSrc: "", heroImageSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [],
   },
 ];
 
