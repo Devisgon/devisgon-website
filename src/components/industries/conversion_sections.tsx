@@ -18,7 +18,9 @@ const serviceIcons = [BrainCircuit, Workflow, Globe2, Headset, Bot, PanelsTopLef
 
 export function IndustryProofStrip({ copy, data }: { copy: IndustryCroUi; data?: IndustryProofSection }) {
   const metrics = data?.metrics?.length ? data.metrics : copy.metrics;
-  const logos = data?.logos?.length ? data.logos : copy.logoSlots.map((name) => ({ name }));
+  const logos: NonNullable<IndustryProofSection["logos"]> = data?.logos?.length
+    ? data.logos
+    : copy.logoSlots.map((name) => ({ name }));
 
   return (
     <section className="border-b border-primary/20 bg-bg-secondary px-5 py-10 sm:px-8 md:px-12 md:py-12">
