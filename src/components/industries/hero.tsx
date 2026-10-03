@@ -14,6 +14,8 @@ type IndustryHeroProps = IndustryPageProps<IndustryHeroSection> & {
   lang: string;
   sourcePage: string;
   calculatorLabel: string;
+  headingPrefix: string;
+  primaryCtaLabel: string;
 };
 
 export default function IndustryHero({
@@ -23,6 +25,8 @@ export default function IndustryHero({
   lang,
   sourcePage,
   calculatorLabel,
+  headingPrefix,
+  primaryCtaLabel,
 }: IndustryHeroProps) {
   const backgroundStyle = data.background_image
     ? {
@@ -51,11 +55,15 @@ export default function IndustryHero({
             {data.eyebrow}
           </p>
           <h1 className="max-w-3xl text-left text-4xl font-black leading-[1.08] tracking-tight text-white drop-shadow-xl sm:text-5xl md:text-6xl">
-            {data.title} <span className="text-[#E7B6E7]">{data.highlight}</span>
+            {headingPrefix} <span className="text-[#E7B6E7]">{data.highlight}</span>
           </h1>
-          <IndustryHeroRotatingCopy slides={slides} fallbackTitle={data.highlight} />
+          <IndustryHeroRotatingCopy
+            slides={slides}
+            fallbackTitle={data.highlight}
+            fallbackDescription={data.description}
+          />
           <div className="mt-8 flex flex-col items-start justify-start gap-3 sm:flex-row">
-            <IndustryProjectBriefCta label={conversation.button_text} variant="hero" />
+            <IndustryProjectBriefCta label={primaryCtaLabel} variant="hero" />
             <a
               href="#industry-automation-calculator"
               className="inline-flex min-h-12 items-center justify-center rounded-full border border-white/25 bg-white/10 px-7 py-3 text-sm font-bold text-white backdrop-blur-md transition hover:bg-white/20 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-white"
