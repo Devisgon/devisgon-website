@@ -79,13 +79,13 @@ export default function IndustryHero({
 
         <div
           id="industry-project-brief"
-          className="scroll-mt-24 rounded-3xl border border-white/15 bg-white/[0.97] p-4 shadow-[0_24px_90px_rgba(0,0,0,0.32)] backdrop-blur-xl sm:p-6 md:p-7"
+          className="scroll-mt-24 rounded-3xl border border-white/15 bg-background p-4 shadow-[0_24px_90px_rgba(0,0,0,0.32)] backdrop-blur-xl sm:p-6 md:p-7"
         >
           <div className="mb-5 text-center">
-            <h2 className="text-2xl font-extrabold tracking-tight text-[#40005B] sm:text-3xl">
+            <h2 className="text-2xl font-extrabold tracking-tight text-t-primary sm:text-3xl">
               {conversation.title}
             </h2>
-            <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-[#6B5B71] sm:text-base">
+            <p className="mx-auto mt-2 max-w-xl text-sm leading-relaxed text-t-secondary sm:text-base">
               {conversation.subtitle}
             </p>
           </div>
