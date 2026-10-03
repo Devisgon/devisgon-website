@@ -115,7 +115,7 @@
 .teamNote { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 24px; display: flex; justify-content: space-between; gap: 20px; }
 .teamNote p { color: var(--muted); font-size: 12px; }
 /* The enquiry is a useful part of the opening screen, with no modal or route change. */
-.enquiryForm { position: relative; padding: 28px; min-height: 582px; border-radius: 17px; border: 1px solid var(--line); background: var(--surface); box-shadow: 0 18px 65px #40005b09; }
+.enquiryForm { --primary: #40005B; --secondary: #A71A7F; --ink: #2d1637; --muted: #6b5b71; --surface: #fff; --soft: #faf6fb; --line: #e9dfea; position: relative; padding: 28px; min-height: 582px; border-radius: 17px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); box-shadow: 0 18px 65px #40005b09; }
 .enquiryForm::before { content: ''; position: absolute; height: 3px; top: -1px; left: 28px; right: 28px; border-radius: 5px; background: linear-gradient(90deg,#40005B,#A71A7F); }
 .formTop { display: flex; align-items: center; justify-content: space-between; gap: 15px; font-size: 9px; letter-spacing: .09em; font-weight: 700; color: var(--secondary); }
 .formTop > span:last-child { letter-spacing: 0; font-weight: 400; color: var(--muted); font-size: 11px; }
@@ -163,6 +163,7 @@
 .enquiryForm > h2 + p:not(.questionHint) { color: var(--muted); font-size: 13px; line-height: 1.8; margin: 20px 0; }
 .enquiryForm > .backButton { display: block; margin-top: 16px; }
 :global(.dark) .page { --ink: #f3e8f5; --muted: #c4b2ca; --surface: #1d1023; --soft: #281731; --line: #48324f; }
+:global(.dark) .enquiryForm { --ink: #f3e8f5; --muted: #c4b2ca; --surface: #1d1023; --soft: #281731; --line: #48324f; }
 :global(.dark) .page :where(.eyebrow,.textLink,.heroCall a,.marketStrip strong,.projectCta,.backButton,.reviewList button,.formPrivacy a,.progressActive[aria-current]) { color: #eab4da; }
 :global(.dark) .primaryButton { background: #A71A7F; }
 :global(.dark) .heroCopy h1 > span { color: #e79bd4; }
