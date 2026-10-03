@@ -2,7 +2,7 @@
 
 Branding is split by the site's light and dark themes:
 
-- `logo-light.png` — complete wordmark for light theme surfaces; shown on a dark backing for contrast.
+- `logo-light.png` — complete wordmark for light theme surfaces.
 - `logo-dark.png` — white/yellow complete wordmark for dark theme surfaces.
 - `icon-light.png` — dark/yellow compact symbol for light theme surfaces.
 - `icon-dark.png` — white/yellow compact symbol for dark theme surfaces.
