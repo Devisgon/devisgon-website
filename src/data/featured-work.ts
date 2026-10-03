@@ -316,7 +316,7 @@ const memyselfiTechnologyTools = [
   },
   {
     "name": "Yahoo Mail",
-    "icon": "FaEnvelope"
+    "icon": "FaGlobe"
   },
   {
     "name": "Slack",
