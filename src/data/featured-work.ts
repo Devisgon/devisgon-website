@@ -37,7 +37,7 @@ const memyselfiSections: WorkSection[] = [
 ];
 
 export type FeaturedWorkProject = {
-  slug: string; name: string; number: string; title: string; description: string;
+  slug: string; name: string; category: string; number: string; title: string; description: string;
   categoryIds: WorkCategoryId[]; focus: string[]; detail: string;
   logoSrc: string; logoUploadPath: string; liveUrl: string;
   images: WorkImageSlot[]; sections: WorkSection[]; technologies: string[];
@@ -45,7 +45,7 @@ export type FeaturedWorkProject = {
 
 export const featuredWork: FeaturedWorkProject[] = [
   {
-    slug: "memyselfi-ai", name: "MeMyselfI.ai", number: "01",
+    slug: "memyselfi-ai", name: "MeMyselfI.ai", category: "AI-powered product", number: "01",
     title: "One AI platform for the many moving parts of life.",
     description: "A connected productivity and life-management platform, delivered across its website, web app, AI services and mobile client.",
     categoryIds: ["website", "web-app", "ai", "voice-agents", "saas", "mobile-app", "logo-design", "ui-ux-design", "graphic-design", "seo"],
@@ -62,14 +62,14 @@ export const featuredWork: FeaturedWorkProject[] = [
     technologies: ["Next.js", "React", "TypeScript", "Flutter", "FastAPI", "Python", "Node.js", "AWS ECS", "Cognito", "DynamoDB", "S3", "OpenAI", "Twilio", "ElevenLabs", "Whisper", "Vercel"],
   },
   {
-    slug: "taskera-ai", name: "Taskera AI", number: "02", title: "Agents with context and tools.",
+    slug: "taskera-ai", name: "Taskera AI", category: "Agents & automation", number: "02", title: "Agents with context and tools.",
     description: "A stateful multi-agent assistant with retrieval, MCP tools and task automation.",
     categoryIds: ["ai", "saas"], focus: ["Multi-agent workflows", "RAG", "MCP tools"],
     detail: "Engineering work on a stateful assistant that combines retrieval-augmented generation, connected tools and task automation.",
     logoSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [],
   },
   {
-    slug: "fulixlabs", name: "FulixLabs Backend", number: "03", title: "A foundation for capable AI apps.",
+    slug: "fulixlabs", name: "FulixLabs Backend", category: "AI architecture", number: "03", title: "A foundation for capable AI apps.",
     description: "An enterprise multi-agent backend with tool orchestration, persistent memory and productivity APIs.",
     categoryIds: ["ai"], focus: ["Persistent memory", "Tool orchestration", "Productivity APIs"],
     detail: "Backend engineering work supporting multi-agent assistants through MCP tool orchestration, persistent memory and productivity APIs.",
