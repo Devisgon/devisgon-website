@@ -390,7 +390,7 @@ export const featuredWork: FeaturedWorkProject[] = [
     description: "An enterprise multi-agent backend with tool orchestration, persistent memory and productivity APIs.",
     categoryIds: ["ai"], focus: ["Persistent memory", "Tool orchestration", "Productivity APIs"],
     detail: "Backend engineering work supporting multi-agent assistants through MCP tool orchestration, persistent memory and productivity APIs.",
-    logoSrc: "", logoDarkSrc: "", logoIconSrc: "", logoIconDarkSrc: "", heroImageSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [],
+    logoSrc: "", logoDarkSrc: "", logoIconSrc: "", logoIconDarkSrc: "", heroImageSrc: "", logoUploadPath: "", liveUrl: "", images: [], sections: [], technologies: [], technologyTools: [],
   },
 ];
 
