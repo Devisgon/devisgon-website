@@ -48,19 +48,24 @@ test("review revalidates all five steps and requires every requested qualificati
   assert.equal(enquiryStepError(4, { ...complete, projectSize: "Not sure yet", budget: "Need help estimating" }), null);
 });
 
-test("Google consent defaults to denied before tagging and strips queries from page URLs", () => {
+test("research mode defaults analytics to granted, honors session opt-out before tagging and denies ads", () => {
   const context = { window: {} };
   vm.runInNewContext(CONSENT_BOOTSTRAP, context);
   const command = Array.from(context.window.dataLayer[0]);
   assert.equal(command[0], "consent"); assert.equal(command[1], "default");
-  assert.ok(Object.values(command[2]).every((state) => state === "denied"));
+  assert.equal(command[2].analytics_storage, "granted");
+  for (const key of ["ad_storage", "ad_user_data", "ad_personalization"]) assert.equal(command[2][key], "denied");
   assert.equal(GA4_MEASUREMENT_ID, "G-VYTLPTGT2N");
   const clarityCommand = Array.from(context.window.clarity.q[0]);
   assert.equal(clarityCommand[0], "consentv2");
-  assert.equal(clarityCommand[1].analytics_Storage, "denied");
+  assert.equal(clarityCommand[1].analytics_Storage, "granted");
   assert.equal(clarityCommand[1].ad_Storage, "denied");
   assert.equal(analyticsPageUrl("https://www.devisgon.com/contact?email=private@example.com#private"), "https://www.devisgon.com/contact");
   assert.equal(analyticsPageUrl(""), "");
+  const declined = { window: { sessionStorage: { getItem: (key) => key === ANALYTICS_CONSENT_KEY ? "denied" : null } } };
+  vm.runInNewContext(CONSENT_BOOTSTRAP, declined);
+  assert.equal(declined.window.dataLayer[0][2].analytics_storage, "denied");
+  assert.equal(declined.window.clarity.q[0][1].analytics_Storage, "denied");
 });
 
 async function componentModule(entry) {
@@ -104,7 +109,7 @@ test("wizard keeps Back answers, sends the entire brief, retains failed submissi
   const React = await import("react"); const { createRoot } = await import("react-dom/client"); const { act } = React;
   const { default: Form } = await componentModule("src/components/home_page/project_enquiry.tsx");
   const root = createRoot(document.getElementById("root"));
-  const events = []; window.localStorage.setItem(ANALYTICS_CONSENT_KEY, "granted"); window.gtag = (...args) => events.push(args);
+  const events = []; window.gtag = (...args) => events.push(args);
   let payload; let accepted = false;
   globalThis.fetch = async (_url, options) => { payload = JSON.parse(options.body); return new Response(JSON.stringify({ success: accepted }), { status: accepted ? 200 : 502 }); };
   const click = async (element) => act(async () => { element.click(); });
@@ -138,7 +143,7 @@ test("wizard keeps Back answers, sends the entire brief, retains failed submissi
   } finally { await act(async()=>root.unmount()); dom.window.close(); globals.forEach((key,index)=>{ if(previous[index]) Object.defineProperty(globalThis,key,previous[index]); else delete globalThis[key]; }); }
 });
 
-test("GA4 stays blocked until consent, configures once and sends one safe page view per route", async () => {
+test("analytics starts without a banner, opens from footer, and keeps opt-out through reloads only", async () => {
   const dom = new JSDOM('<div id="root"></div>', { url: "https://www.devisgon.com/?email=private@example.com", referrer: "https://example.com/source?private=123" });
   const globals = ["window","document","navigator","Element","HTMLElement","IS_REACT_ACT_ENVIRONMENT"];
   const previous = globals.map((key)=>Object.getOwnPropertyDescriptor(globalThis,key));
@@ -146,14 +151,15 @@ test("GA4 stays blocked until consent, configures once and sends one safe page v
   globalThis.IS_REACT_ACT_ENVIRONMENT=true;
   const React=await import("react");const {createRoot}=await import("react-dom/client");const {act}=React;
   const {default:Analytics}=await componentModule("src/components/analytics_consent.tsx");
+  const {trackInquiryEvent}=await componentModule("src/lib/analytics.ts");
   const {default:Footer}=await componentModule("src/components/footer.tsx");
   const content=()=>React.createElement(React.Fragment,null,React.createElement(Analytics),React.createElement(Footer));
-  const root=createRoot(document.getElementById("root"));const commands=[];
+  let root=createRoot(document.getElementById("root"));const commands=[];
   window.gtag=(...args)=>commands.push(args);globalThis.__testPath="/";
+  window.localStorage.setItem("devisgon-analytics-consent-v2", "denied");
   try {
     await act(async()=>root.render(content()));
-    assert.equal(document.querySelector("script"),null);
-    await act(async()=>document.querySelector('[aria-label="Analytics preference"] button').click());
+    assert.equal(document.querySelector('[aria-label="Analytics preference"]'),null);
     assert.equal(document.querySelectorAll('script[src*="googletagmanager"]').length,1);
     assert.equal(document.querySelectorAll(`script[src="https://www.clarity.ms/tag/${CLARITY_PROJECT_ID}"]`).length,1);
     assert.ok(Array.from(window.clarity.q).some((item)=>item[0]==="consentv2" && item[1].analytics_Storage==="granted" && item[1].ad_Storage==="denied"));
@@ -177,6 +183,39 @@ test("GA4 stays blocked until consent, configures once and sends one safe page v
     assert.equal(commands.filter((item)=>item[1]==="page_view").length,2);
     assert.ok(commands.every((item)=>!JSON.stringify(item).includes("private=")));
     assert.ok(commands.every((item)=>!JSON.stringify(item).includes("private@example.com")));
+    trackInquiryEvent("booking_link_click");
+    assert.equal(commands.filter((item)=>item[1]==="booking_link_click").length,1);
+    window.document.cookie="_ga=test; path=/";
+    window.document.cookie="_clck=test; path=/";
+    await act(async()=>preferences.click());
+    const decline=Array.from(document.querySelectorAll('[aria-label="Analytics preference"] button')).find((button)=>button.textContent==="Decline");
+    // jsdom does not implement reload; suppress only that expected diagnostic.
+    dom.virtualConsole.removeAllListeners("jsdomError");
+    await act(async()=>decline.click());
+    assert.equal(window.sessionStorage.getItem(ANALYTICS_CONSENT_KEY),"denied");
+    assert.equal(document.querySelector("script"),null);
+    assert.equal(document.querySelector('[aria-label="Analytics preference"]'),null);
+    assert.ok(!document.cookie.includes("_ga="));
+    assert.ok(!document.cookie.includes("_clck="));
+    assert.equal(commands.filter((item)=>item[0]==="consent").at(-1)[2].analytics_storage,"denied");
+    trackInquiryEvent("booking_link_click");
+    assert.equal(commands.filter((item)=>item[1]==="booking_link_click").length,1,"opt-out suppresses enquiry events");
+    await act(async()=>root.unmount());
+    root=createRoot(document.getElementById("root"));
+    await act(async()=>root.render(content()));
+    assert.equal(document.querySelector("script"),null,"reload respects session opt-out");
+    assert.equal(document.querySelector('[aria-label="Analytics preference"]'),null);
+    const pageViews=commands.filter((item)=>item[1]==="page_view").length;
+    globalThis.__testPath="/contact";await act(async()=>root.render(content()));
+    assert.equal(commands.filter((item)=>item[1]==="page_view").length,pageViews);
+    // Starting a new tab session clears sessionStorage, while legacy localStorage stays.
+    await act(async()=>root.unmount());
+    window.sessionStorage.clear();
+    root=createRoot(document.getElementById("root"));
+    await act(async()=>root.render(content()));
+    assert.equal(document.querySelectorAll('script[src*="googletagmanager"]').length,1);
+    assert.equal(document.querySelectorAll('script[src*="clarity.ms"]').length,1);
+    assert.equal(document.querySelector('[aria-label="Analytics preference"]'),null);
   } finally { await act(async()=>root.unmount()); dom.window.close();delete globalThis.__testPath;globals.forEach((key,index)=>{if(previous[index]) Object.defineProperty(globalThis,key,previous[index]);else delete globalThis[key];}); }
 });
 
