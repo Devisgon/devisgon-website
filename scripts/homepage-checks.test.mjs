@@ -238,3 +238,10 @@ test("industry conversation keeps its page headline and tagline above the shared
   assert.ok(questionnaireIndex > subtitleIndex, "the questionnaire follows the industry tagline");
   assert.ok(html.includes("What are you looking to build?"), "homepage questionnaire content is rendered");
 });
+
+test("shared enquiry form defines readable colors outside the homepage and in dark mode", async () => {
+  const css = await fs.readFile("src/components/home_page/conversion_home.module.css", "utf8");
+  assert.ok(css.includes(".enquiryForm { --primary: #40005B; --secondary: #A71A7F; --ink: #2d1637;"), "light theme tokens are scoped to the form");
+  assert.ok(css.includes("background: var(--surface); color: var(--ink);"), "form text color is readable against its surface");
+  assert.ok(css.includes(":global(.dark) .enquiryForm { --ink: #f3e8f5;"), "dark theme tokens are scoped to the form");
+});
