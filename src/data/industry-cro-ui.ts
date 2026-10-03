@@ -1,6 +1,8 @@
 import { localizeContentTree } from "@/lib/content-language";
 
 const english = {
+  heroHeadingPrefix: "AI & Automation for",
+  heroCta: "Start the transformation",
   proofEyebrow: "Proof points",
   proofTitle: "Make the results easy to verify.",
   proofNote:

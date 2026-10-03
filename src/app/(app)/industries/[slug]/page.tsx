@@ -100,6 +100,8 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
           lang={activeLang}
           sourcePage={sourcePage}
           calculatorLabel={croCopy.calculatorLink}
+          headingPrefix={croCopy.heroHeadingPrefix}
+          primaryCtaLabel={croCopy.heroCta}
         />
         <IndustryProofStrip copy={croCopy} data={data.proof_section} />
         <IndustryFriction data={data.friction_section} />
