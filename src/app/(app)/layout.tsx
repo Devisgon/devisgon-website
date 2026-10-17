@@ -28,6 +28,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   ...MAIN_SITE_METADATA,
+  verification: {
+    other: {
+      "msvalidate.01": "7395FE97494B8D13871BB0B96853B25C",
+    },
+  },
   metadataBase: new URL(SITE_URL),
   applicationName: SITE_NAME,
   generator: "Next.js",
