@@ -45,7 +45,7 @@ Required actions after each meaningful code change:
 - Shared marketing, blog, navbar, footer, contact preview, and service-detail imagery should use `next/image` instead of raw `<img>` tags so lint stays clean and image sizing remains explicit.
 - Centralized SEO metadata and JSON-LD structured data are defined in `src/lib/seo.ts` and injected in `src/app/(app)/layout.tsx`; `src/lib/seo.ts` also maps JSON `seo` / `seo_metadata` objects into Next Metadata API output for JSON-driven pages. The public root layout exports site-wide Metadata API defaults including metadata base, canonical root URL, robots, icons, Open Graph, Twitter card data, Organization/WebSite/navigation JSON-LD, and the generated `/opengraph-image` preview.
 - Public page metadata must emit titles, descriptions, Open Graph/Twitter data, and canonical URLs through Next Metadata API exports (`metadata` or `generateMetadata`); route-supplied canonical paths in `src/lib/seo.ts` take precedence over JSON-provided canonical URLs so tags stay in `<head>` and match canonical public routes.
-- SEO titles should be concise, descriptive and unique per canonical page; `src/lib/seo.ts` normalizes whitespace and preserves whole editorial titles instead of clipping at 55 characters. Canonical English JSON `seo` / `seo_metadata` descriptions remain unique across indexable pages.
+- SEO titles should be concise, descriptive and unique per canonical page; the shared homepage title and description in `src/lib/seo.ts` should explicitly name AI agent development, business automation, and the US startup audience without keyword stuffing. `src/lib/seo.ts` normalizes whitespace and preserves whole editorial titles instead of clipping at 55 characters. Canonical English JSON `seo` / `seo_metadata` descriptions remain unique across indexable pages.
 - The homepage injects page-specific WebPage/Service JSON-LD from `src/app/(app)/page.tsx`, and service detail pages inject BreadcrumbList/Service/FAQ JSON-LD from `src/app/(app)/services/[slug]/page.tsx` using helpers in `src/lib/seo.ts`.
 
 ## Route Flow
@@ -532,3 +532,4 @@ If you change this, also check this:
 - 2026-10-03: Restored the MeMyselfI.ai project hero as its work-card cover and added a click-triggered, repeatable homepage enquiry shake with scroll/focus and reduced-motion support.
 
 - 2026-10-03: Reserved fixed-navbar height in the homepage layout at desktop/mobile breakpoints to prevent the header overlapping the hero and enquiry form.
+- 2026-10-29: Reframed the shared homepage SEO title and description around AI agent development, business automation, and US startup buyers to make the search snippet more specific.
