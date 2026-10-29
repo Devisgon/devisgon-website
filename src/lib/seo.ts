@@ -167,9 +167,9 @@ export const getJsonSeoMetadata = (
 };
 
 export const MAIN_SITE_METADATA = toMetadata({
-  title: "AI Agents, Automation & AI Apps | Devisgon",
+  title: "AI Agent Development & Business Automation | Devisgon",
   description:
-    "Build custom AI agents, business automations and AI-powered SaaS, web and mobile apps with Devisgon. Work with our team remotely from the USA and beyond.",
+    "Build custom AI agents, automate business workflows, and launch AI-powered apps with Devisgon. Remote AI engineering for US startups and growing teams.",
   keywords: withLocalKeywords([
     "Devisgon",
     "AI automation",
@@ -181,9 +181,9 @@ export const MAIN_SITE_METADATA = toMetadata({
 });
 
 export const HOME_PAGE_METADATA = toMetadata({
-  title: "AI Agents, Automation & AI Apps | Devisgon",
+  title: "AI Agent Development & Business Automation | Devisgon",
   description:
-    "Custom AI development, business automation, AI agents and AI-powered apps for US founders and growing teams. Plan your SaaS, MVP, web or mobile project.",
+    "Build custom AI agents, automate business workflows, and launch AI-powered apps with Devisgon. Remote AI engineering for US startups and growing teams.",
   keywords: withLocalKeywords([
     "AI software development company",
     "AI agent development company",
