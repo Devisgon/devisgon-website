@@ -344,7 +344,7 @@ If you change this, also check this:
 
 ## Homepage interaction design
 
-The homepage preserves the original `ProjectEnquiry` form and shared form CSS. Its surrounding presentation uses a compact `automation_demo.tsx` client island with three illustrative workflows; server-localized labels come from `automation-examples.ts`. The one-time animation has pause/resume/replay, stops offscreen/when hidden and honors reduced motion. It does not call external integrations or change form selections. Delivery steps use native expandable details; content remains visible without scroll effects. `homepage_engagement.tsx` reports fixed, consent-gated section reach identifiers; `homepage-engagement.ts` also records explicit demo selections/runs without personal data. See `docs/homepage-interaction-redesign.md` for research, measurement and validation. Run `npm run verify:homepage` for the demo and observer regression checks.
+The homepage keeps the five-step ProjectEnquiry inside the hero. The workflow simulator uses local per-scenario inputs and thresholds to compute a routing outcome and reshape an illustrated signal. Selecting a scenario emits the existing consent-aware selection event. The project switcher uses existing case studies, followed by capabilities, delivery, FAQs, team and the enquiry CTA. Run `npm run verify:homepage` for regression coverage.
 
 ## Change Log
 - 2026-04-17: Initial codebase flow map added.
@@ -547,3 +547,4 @@ The homepage preserves the original `ProjectEnquiry` form and shared form CSS. I
 - 2026-11-18: Prepare static responsive images during build, bypass runtime image optimization, and compress future CMS uploads.
 
 - 2026-11-18: Redesigned the homepage around an interactive automation example, project/service exploration and expandable delivery steps, preserving the hero questionnaire.
+- 2026-11-18: Redesigned the homepage around a hands-on routing simulator, selectable project showcase and connected section artwork.

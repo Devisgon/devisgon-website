@@ -272,3 +272,79 @@
 @media(max-width:1100px) { .heroInner { gap:30px; padding-inline:28px; } .heroCopy h1 { font-size:46px; } .exploreStrip { margin-inline:28px; } .exploreStrip > div { gap:14px; } .section { padding:70px 28px; } .companySection { padding-top:0; } }
 @media(max-width:800px) { .heroInner { max-width:650px; grid-template-columns:1fr; gap:32px; } .heroCopy h1 { font-size:clamp(44px,7.3vw,58px); } .heroDescription { max-width:490px; } .exploreStrip { flex-direction:column; align-items:flex-start; gap:15px; } .serviceCard,.serviceCard:first-child,.serviceCard:nth-child(even),.serviceCard:last-child { padding:25px; border:1px solid #ffffff24; } .featuredProject { display:flex; } .featuredProject .projectVisual { min-height:300px; } .steps h3 { font-size:22px; } .capabilities { margin:0 12px; border-radius:20px; } }
 @media(max-width:560px) { .heroInner { padding:30px 20px; } .heroCopy h1 { font-size:clamp(37px,9.5vw,49px); } .heroDescription { font-size:14px; } .heroActions { gap:18px; } .heroNotes { font-size:10px; } .hero .primaryButton { padding:14px 16px; } .exploreStrip { margin-inline:20px; } .exploreStrip > div { gap:12px; flex-wrap:wrap; } .exploreStrip > div a span { font-size:10px; } .section { padding:58px 20px; } .section h2 { font-size:34px; } .projectCopy h3 { font-size:24px; } .projectCopy { padding:24px; } .capabilities .section { padding:44px 18px; } .serviceGrid { grid-template-columns:1fr; } .serviceCard,.serviceCard:first-child,.serviceCard:nth-child(even),.serviceCard:last-child { padding:25px; } .steps summary { gap:18px; } .steps h3 { font-size:20px; } .steps details > p { padding-inline:34px 0; font-size:13px; } .companySection { padding-top:0; } .faqList summary { font-size:14px; } }
+
+/* A signal enters through the hero, branches into services, and returns at the enquiry CTA. */
+.hero,:global(.dark) .hero { background:radial-gradient(ellipse at 82% 8%,#79376f 0,transparent 42%),linear-gradient(118deg,#151027 10%,#322040 58%,#4c2445); overflow:clip; }
+.hero::before { opacity:.35; mask-image:none; background-image:radial-gradient(#e0addb66 .8px,transparent 1px); background-size:22px 22px; }
+.heroArt { position:absolute; inset:0; overflow:hidden; pointer-events:none; z-index:-1; }
+.heroArt svg { position:absolute; width:135%; height:53%; left:-12%; top:32%; opacity:.48; transform:rotate(-12deg); animation:arrive 1.45s ease-out both; }
+@keyframes arrive { from { opacity:0; transform:translateY(30px) rotate(-15deg); } to { opacity:.48; transform:rotate(-12deg); } }
+.heroInner { position:relative; grid-template-columns:minmax(0,1fr) minmax(0,.94fr); grid-template-areas:"copy form" "studio form"; align-items:start; align-content:start; column-gap:clamp(32px,5vw,82px); row-gap:20px; padding-block:clamp(36px,4.4vw,74px); }
+.heroCopy { grid-area:copy; color:#fff; }
+.heroCopy h1 { font-size:clamp(45px,4.55vw,70px); letter-spacing:-.064em; line-height:1.01; margin:16px 0; text-wrap:balance; }
+.heroCopy h1 > span,:global(.dark) .heroCopy h1 > span { color:#ffd0ac; background:linear-gradient(110deg,#edb8ff,#ffb1c6 50%,#ffdaa4); background-clip:text; -webkit-text-fill-color:transparent; }
+.heroCopy .eyebrow { color:#efc8f6; font:600 10px/1.6 ui-monospace,monospace; letter-spacing:.065em; text-transform:uppercase; }
+.brandDot { background:#ffc199; box-shadow:0 0 0 4px #ffc19921; }
+.heroDescription { font-size:clamp(15px,1.25vw,18px); color:#ede0ed; }
+.heroActions { margin-top:20px; }
+.hero .heroCopy .primaryButton { background:#ffceae; color:#2a1228; border-radius:30px; box-shadow:none; }
+.hero .heroCopy .textLink,.hero .heroCall a,.heroNotes svg { color:#ffddd1; }
+.heroNotes,.heroCall { color:#decddd; }
+.heroNotes { margin-top:10px; }
+.heroEnquiry { grid-area:form; padding:4px; border-radius:22px; background:linear-gradient(145deg,#ffcda8aa,#de89ef33 38%,#9480f077); box-shadow:0 30px 64px #12091c56; }
+.studio { grid-area:studio; min-width:0; }
+.hero .exploreStrip,.hero .marketStrip { width:min(calc(100% - 72px),1188px); margin-inline:auto; border-color:#ffffff32; }
+.hero .exploreStrip a,.hero .marketStrip strong,.hero .marketLabel { color:#ffcda9; }
+.hero .exploreStrip a span,.hero .marketStrip p { color:#eee1ee; }
+.hero .exploreStrip a svg { border-color:#ffffff55; }
+.section h2 { font-size:clamp(36px,4.1vw,60px); letter-spacing:-.055em; }
+.sectionHead .eyebrow,.deliveryIntro .eyebrow,.faqSection .eyebrow,.companySection .eyebrow { font-family:ui-monospace,monospace; }
+.sectionHead .eyebrow::before,.deliveryIntro .eyebrow::before,.faqSection .eyebrow::before,.companySection .eyebrow::before { content:''; width:34px; height:3px; background:linear-gradient(to right,#8d84ed,#f685ab,#ffbb8d); }
+.projectPicker { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:15px; }
+.projectPicker button { display:inline-flex; align-items:center; gap:12px; background:var(--surface); border:1px solid var(--line); color:var(--ink); border-radius:30px; padding:10px 16px; font:inherit; font-size:13px; }
+.projectPicker button[aria-pressed=true] { background:#391c49; border-color:#724981; color:#fff; }
+.projectPanel:not([hidden]) { animation:selectProject .35s ease-out both; }
+@keyframes selectProject { from { opacity:.55; transform:translateY(7px); } to { opacity:1; transform:translateY(0); } }
+.projectCard { border-radius:24px; }
+.projectVisual { min-height:clamp(270px,27vw,415px); }
+.projectVisual1 { background:linear-gradient(145deg,#4d2265,#291b49); color:white; }
+.projectVisual2 { background:linear-gradient(145deg,#192b38,#374f58); }
+.projectArtwork { position:absolute; inset:18% -15% 0; pointer-events:none; transform:rotate(-12deg); opacity:.75; }
+.projectArtwork svg { width:100%; height:100%; }
+.projectVisual > strong,.projectTags { text-shadow:0 2px 8px #190c26; }
+.capabilities { background:radial-gradient(ellipse at 8% 8%,#493055,transparent 48%),#1c1428; }
+.serviceCard { --tile:#372844; }
+.serviceCard:nth-child(2) { --tile:#422738; }
+.serviceCard:nth-child(3) { --tile:#25374a; }
+.serviceCard:nth-child(4) { --tile:#263c3b; }
+.serviceGrid .serviceCard { background:linear-gradient(135deg,var(--tile),#1d1726); border-radius:21px; }
+.serviceIllustration { position:relative; width:100%; height:90px; isolation:isolate; }
+.serviceWave { position:absolute; inset:-20% -35px -5% 8%; overflow:hidden; z-index:-1; opacity:.8; }
+.serviceWave svg,.serviceCard:hover .serviceWave svg { width:100%; height:100%; border:0; background:transparent; padding:0; border-radius:0; transform:none; }
+.serviceWave { transition:transform .45s ease; }
+.serviceCard:is(:hover,:focus-visible) .serviceWave { transform:translateX(6%) scaleY(1.25); }
+.serviceIllustration > svg { background:var(--tile); }
+.steps { border:0; }
+.steps details { border:1px solid var(--line); border-radius:15px; margin:8px 0; overflow:hidden; }
+.steps summary { padding:20px; }
+.steps details[open] { background:var(--soft); box-shadow:inset 4px 0 0 #b456a4; }
+.steps details p { padding-inline:clamp(30px,4vw,66px) 24px; }
+.ctaBand { background:linear-gradient(120deg,#271630,#532451); min-height:310px; }
+.ctaOrbit { inset:auto -8% -28% 25%; width:auto; height:85%; border:0; box-shadow:none; border-radius:0; opacity:.54; transform:rotate(-7deg); }
+.ctaOrbit svg { width:100%; height:100%; }
+.ctaBand:hover .ctaOrbit { transform:rotate(-4deg) translateY(-4%); }
+@media(min-width:900px) {
+  .deliverySection { display:grid; grid-template-columns:.9fr 1.1fr; column-gap:8%; align-items:start; }
+  .deliveryIntro { grid-column:1; grid-row:1 / 3; display:grid; grid-template-columns:1fr; gap:24px; position:sticky; top:110px; }
+  .stepHint,.steps { grid-column:2; } .stepHint { margin-top:0!important; }
+  .resourceNote { grid-column:1 / -1; }
+}
+@media(max-width:800px) {
+  .heroInner { grid-template-areas:"copy" "studio" "form"; grid-template-columns:minmax(0,1fr); gap:24px; }
+  .heroArt svg { top:0; height:26%; left:16%; opacity:.36; }
+  .hero .exploreStrip,.hero .marketStrip { width:calc(100% - 40px); }
+  .heroCopy h1 { font-size:clamp(40px,8vw,58px); }
+  .featuredProject { display:flex; }
+}
+@media(prefers-reduced-motion:reduce) { .heroArt svg,.projectPanel:not([hidden]) { animation:none; } }
+.serviceCard:target { outline:3px solid #ffcbad; outline-offset:4px; }

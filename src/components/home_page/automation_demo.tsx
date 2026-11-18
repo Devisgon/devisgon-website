@@ -1,85 +1,51 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import { ArrowRight, Bot, Check, FileText, Inbox, MessageSquare, Pause, Play, RotateCcw, Workflow } from 'lucide-react';
+import { useId, useState, type CSSProperties } from 'react';
+import { ArrowUpRight, GitBranch } from 'lucide-react';
 import type { AutomationCopy } from '@/data/automation-examples';
 import { trackHomepageEvent, type HomepageItem } from '@/lib/homepage-engagement';
+import SignalRibbon from './signal_ribbon';
 import styles from './automation_demo.module.css';
 
-export default function AutomationDemo({ copy }: { copy: AutomationCopy }) {
+export default function AutomationDemo({ copy, lang = 'en' }: { copy: AutomationCopy; lang?: string }) {
   const [selected, setSelected] = useState(0);
-  const [step, setStep] = useState(-1);
-  const [playing, setPlaying] = useState(false);
-  const [reduced, setReduced] = useState(false);
-  const [visible, setVisible] = useState(true);
-  const container = useRef<HTMLDivElement>(null);
-  const autoStarted = useRef(false);
-  const interacted = useRef(false);
+  const [settings, setSettings] = useState(() => copy.examples.map(({ sample, threshold }) => ({ sample, threshold })));
   const example = copy.examples[selected];
-  const done = step === 3;
+  const values = settings[selected];
+  const above = values.sample >= values.threshold;
+  const resultId = useId();
+  const format = (value: number) => example.id === 'support'
+    ? new Intl.NumberFormat(lang, { style: 'unit', unit: 'hour', unitDisplay: 'short' }).format(value)
+    : new Intl.NumberFormat(lang, { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(value);
 
-  useEffect(() => {
-    const preference = window.matchMedia('(prefers-reduced-motion: reduce)');
-    const sync = () => {
-      setReduced(preference.matches);
-      if (preference.matches) { setPlaying(false); setStep(-1); }
-    };
-    sync(); preference.addEventListener('change', sync);
-    const visibility = () => { if (document.hidden) setPlaying(false); };
-    document.addEventListener('visibilitychange', visibility);
-    const observer = typeof IntersectionObserver === 'undefined' ? null : new IntersectionObserver(([entry]) => {
-      setVisible(entry.isIntersecting);
-      if (!entry.isIntersecting) setPlaying(false);
-      if (entry.isIntersecting && !autoStarted.current && !interacted.current && !preference.matches && !document.hidden) {
-        autoStarted.current = true; setStep(0); setPlaying(true);
-      }
-    }, { threshold: .5 });
-    if (container.current) observer?.observe(container.current);
-    return () => { preference.removeEventListener('change', sync); observer?.disconnect(); document.removeEventListener('visibilitychange', visibility); };
-  }, []);
-
-  useEffect(() => {
-    if (!playing || !visible || reduced) return;
-    const timer = window.setTimeout(() => {
-      if (step >= 2) { setStep(3); setPlaying(false); }
-      else setStep(step + 1);
-    }, 900);
-    return () => window.clearTimeout(timer);
-  }, [playing, visible, reduced, step]);
-
-  function choose(index: number) {
-    interacted.current = true; setSelected(index); setStep(-1); setPlaying(false);
-    trackHomepageEvent('homepage_demo_select', copy.examples[index].id as HomepageItem);
+  function adjust(field: 'sample' | 'threshold', value: number) {
+    setSettings(previous => previous.map((item, index) => index === selected ? { ...item, [field]: value } : item));
   }
-  function run() {
-    interacted.current = true;
-    if (playing) { setPlaying(false); return; }
-    trackHomepageEvent('homepage_demo_run', example.id as HomepageItem);
-    if (reduced) { setStep(3); return; }
-    if (step < 0 || done) setStep(0);
-    setPlaying(true);
-  }
-  const icons = [selected === 1 ? FileText : selected === 2 ? MessageSquare : Inbox, Bot, Check];
-  const Control = playing ? Pause : done ? RotateCcw : Play;
-  const controlLabel = playing ? copy.pause : done ? copy.replay : step >= 0 ? copy.resume : copy.run;
-  return <div ref={container} className={styles.demo} data-home-demo data-playing={playing}>
-    <div className={styles.top}><span><Workflow size={14} aria-hidden="true" />{copy.heading}</span><small>{copy.label}</small></div>
+
+  return <div className={styles.demo} data-home-demo>
+    <div className={styles.top}><GitBranch size={16}/><span>{copy.heading}</span></div>
     <div className={styles.choices} role="group" aria-label={copy.choose}>
-      {copy.examples.map((item, index) => <button key={item.id} type="button" aria-pressed={selected === index} onClick={() => choose(index)}>{item.label}</button>)}
+      {copy.examples.map((item, index) => <button key={item.id} type="button" aria-pressed={index === selected} onClick={() => {
+        setSelected(index);
+        trackHomepageEvent('homepage_demo_select', item.id as HomepageItem);
+      }}>{item.label}</button>)}
     </div>
-    <ol className={styles.flow}>
-      {example.nodes.map((node, index) => {
-        const Icon = icons[index];
-        return <li key={`${example.id}-${index}`} data-active={step === index} data-complete={step > index}>
-          <div className={styles.nodeIcon}><Icon size={21} strokeWidth={1.6} aria-hidden="true" /></div>
-          <span className={styles.stage}>{copy.stages[index]}</span><strong>{node}</strong>
-          {index < 2 && <span className={styles.connector} aria-hidden="true"><i /><ArrowRight size={13} /></span>}
-        </li>;
-      })}
-    </ol>
-    <div className={styles.bottom}>
-      <p role="status" aria-live={interacted.current ? 'polite' : 'off'}>{done ? example.result : playing ? copy.running : step >= 0 ? copy.paused : reduced ? copy.reduced : copy.ready}</p>
-      <button type="button" onClick={run}><Control size={13} aria-hidden="true" />{controlLabel}</button>
+    <div className={styles.controls}>
+      {(['sample', 'threshold'] as const).map(field => <label key={field}>
+        <span>{field === 'sample' ? example.measure : copy.rule}</span><strong>{format(values[field])}</strong>
+        <input type="range" min={0} max={example.maximum} step={example.increment} value={values[field]}
+          aria-label={field === 'sample' ? example.measure : copy.rule} aria-valuetext={format(values[field])} aria-controls={resultId}
+          style={{ '--fill': `${100 * values[field] / example.maximum}%` } as CSSProperties}
+          onChange={event => adjust(field, event.currentTarget.valueAsNumber)}/>
+      </label>)}
     </div>
+    <div className={styles.scene} data-upper={above}>
+      <div className={styles.ribbon}><SignalRibbon variant={selected} tension={values.sample / example.maximum} threshold={values.threshold / example.maximum}/></div>
+      <div id={resultId} role="status" aria-live="polite" className={styles.result}>
+        <span>{copy.outcome} <ArrowUpRight size={13}/></span><strong>{above ? example.high : example.low}</strong>
+        <p>{above ? example.highDetail : example.lowDetail}</p>
+      </div>
+    </div>
+    <a className={styles.explore} href={example.id === 'support' ? '#capability-0' : '#capability-1'}>{copy.explore}<ArrowUpRight size={14}/></a>
   </div>;
 }
