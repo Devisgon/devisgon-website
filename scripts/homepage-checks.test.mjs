@@ -284,3 +284,57 @@ test("shared enquiry form defines readable colors outside the homepage and in da
   assert.ok(css.includes("background: var(--surface); color: var(--ink);"), "form text color is readable against its surface");
   assert.ok(css.includes(":global(.dark) .enquiryForm { --ink: #f3e8f5;"), "dark theme tokens are scoped to the form");
 });
+
+test("automation demo supports pause, selection, reduced motion and offscreen cleanup", async () => {
+  const dom = new JSDOM('<div id="root"></div>', { url: 'https://www.devisgon.com/', pretendToBeVisual: true });
+  const globals = ['window','document','navigator','HTMLElement','Element','IntersectionObserver','IS_REACT_ACT_ENVIRONMENT'];
+  const previous = globals.map(key => Object.getOwnPropertyDescriptor(globalThis,key));
+  for(const key of globals.slice(0,5)) Object.defineProperty(globalThis,key,{value:dom.window[key],configurable:true,writable:true});
+  globalThis.IS_REACT_ACT_ENVIRONMENT=true;
+  let observe; let preferenceChange; let id=0; const timers=new Map();
+  const preference={matches:false,addEventListener:(_event,fn)=>{preferenceChange=fn},removeEventListener:()=>{}};
+  window.matchMedia=()=>preference;
+  window.setTimeout=fn=>{timers.set(++id,fn);return id};window.clearTimeout=id=>timers.delete(id);
+  globalThis.IntersectionObserver=class {constructor(callback){observe=callback} observe(){} disconnect(){}};
+  const React=await import('react');const {act}=React;const {createRoot}=await import('react-dom/client');
+  const {default:Demo}=await componentModule('src/components/home_page/automation_demo.tsx');
+  const {automationExamples}=await componentModule('src/data/automation-examples.ts');
+  const root=createRoot(document.getElementById('root'));const events=[];window.gtag=(...args)=>events.push(args);
+  const button=text=>[...document.querySelectorAll('button')].find(b=>b.textContent===text);
+  const tick=()=>act(async()=>{const entry=timers.entries().next().value;if(entry){timers.delete(entry[0]);entry[1]();}});
+  try {
+    await act(async()=>root.render(React.createElement(Demo,{copy:automationExamples})));
+    await act(async()=>observe([{isIntersecting:true}]));
+    assert.ok(button('Pause'));assert.equal(events.length,0,'autoplay is not counted as a user interaction');
+    await act(async()=>button('Pause').click());assert.equal(timers.size,0);
+    await act(async()=>button('Invoice intake').click());assert.equal(button('Invoice intake').getAttribute('aria-pressed'),'true');
+    assert.match(document.querySelector('ol').textContent,/Extract & check/);
+    await act(async()=>button('Run example').click());await tick();await tick();await tick();
+    assert.match(document.querySelector('[role=status]').textContent,/right person for approval/);assert.ok(button('Run again'));
+    await act(async()=>button('Run again').click());await act(async()=>observe([{isIntersecting:false}]));assert.equal(timers.size,0,'offscreen animation stops');
+    await act(async()=>{preference.matches=true;preferenceChange()});
+    await act(async()=>button('Support request').click());await act(async()=>button('Run example').click());
+    assert.equal(timers.size,0);assert.match(document.querySelector('[role=status]').textContent,/human handoff/);
+    assert.ok(events.every(event=>['leads','invoices','support'].includes(event[2].item_id)));
+    window.sessionStorage.setItem(ANALYTICS_CONSENT_KEY,'denied');const count=events.length;
+    await act(async()=>button('New enquiry').click());await act(async()=>button('Run example').click());assert.equal(events.length,count);
+  } finally {await act(async()=>root.unmount());assert.equal(timers.size,0);dom.window.close();globals.forEach((key,index)=>{if(previous[index])Object.defineProperty(globalThis,key,previous[index]);else delete globalThis[key];});}
+});
+
+test("homepage section measurement is deduplicated and disconnects on unmount", async () => {
+  const dom=new JSDOM('<div id="root"></div><h2 data-home-section="work">Work</h2>',{url:'https://www.devisgon.com/'});
+  const globals=['window','document','navigator','Element','IntersectionObserver','IS_REACT_ACT_ENVIRONMENT'];
+  const previous=globals.map(key=>Object.getOwnPropertyDescriptor(globalThis,key));
+  for(const key of globals.slice(0,4))Object.defineProperty(globalThis,key,{value:dom.window[key],configurable:true,writable:true});
+  globalThis.IS_REACT_ACT_ENVIRONMENT=true;
+  let observe;let disconnected=false;const events=[];window.gtag=(...args)=>events.push(args);
+  globalThis.IntersectionObserver=class {constructor(callback){observe=callback}observe(){}unobserve(){}disconnect(){disconnected=true}};
+  const React=await import('react');const {act}=React;const {createRoot}=await import('react-dom/client');
+  const {default:Engagement}=await componentModule('src/components/home_page/homepage_engagement.tsx');
+  const root=createRoot(document.getElementById('root'));
+  try {
+    await act(async()=>root.render(React.createElement(Engagement)));
+    const entry={isIntersecting:true,target:document.querySelector('h2')};observe([entry]);observe([entry]);
+    assert.equal(events.length,1);assert.equal(events[0][1],'homepage_section_view');assert.deepEqual(events[0][2],{item_id:'work'});
+  }finally{await act(async()=>root.unmount());assert.equal(disconnected,true);dom.window.close();globals.forEach((key,index)=>{if(previous[index])Object.defineProperty(globalThis,key,previous[index]);else delete globalThis[key];});}
+});

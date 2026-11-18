@@ -186,3 +186,89 @@
 .specialists { display:flex; flex-wrap:wrap; align-items:center; gap:18px 30px; padding-top:25px; margin-top:25px; border-top:1px solid #ffffff30; }
 .specialists > span { color:#e9b4db; font-size:11px; }
 .specialists a { display:inline-flex; align-items:center; gap:9px; color:#fff; font-size:12px; }
+
+/* Homepage refresh. Form selectors, tokens and breakpoint rules above are unchanged. */
+.hero { background: #fcf9f6; isolation: isolate; }
+.hero::before { content: ''; pointer-events: none; position: absolute; z-index: -1; inset: 0; opacity: .4; background-image: radial-gradient(#b69ab7 .7px, transparent .7px); background-size: 24px 24px; mask-image: linear-gradient(90deg,#000,transparent 50%); }
+.heroInner { gap: 64px; padding-top: 46px; padding-bottom: 36px; }
+.heroCopy { padding-top: 6px; }
+.heroCopy h1 { font-size: clamp(44px,4.15vw,59px); letter-spacing: -.055em; line-height: 1.04; margin: 20px 0 17px; }
+.heroCopy h1 > span { color: var(--secondary); }
+.heroDescription { font-size: 15px; line-height: 1.65; max-width: 450px; }
+.heroActions { margin-top: 21px; gap: 24px; }
+.heroCall { margin-top: 13px !important; }
+.heroNotes { margin-top: 18px; }
+.hero .primaryButton { border-radius: 7px; box-shadow: 4px 4px 0 #40005b17; }
+.hero .primaryButton:hover { transform: translate(2px,2px); box-shadow: 2px 2px 0 #40005b17; }
+.exploreStrip { max-width: 1188px; margin: auto; display: flex; align-items: center; justify-content: space-between; gap: 25px; border-top: 1px solid var(--line); padding: 20px 0; }
+.exploreStrip > a { display: flex; align-items: center; gap: 22px; font-size: 12px; font-weight: 600; color: var(--primary); }
+.exploreStrip > a svg { padding: 7px; box-sizing: content-box; border: 1px solid var(--line); border-radius: 50%; transition: transform .2s; }
+.exploreStrip > a:hover svg { transform: translateY(3px); }
+.exploreStrip > div { display: flex; gap: 26px; }
+.exploreStrip > div a { font-size: 9px; color: var(--secondary); }
+.exploreStrip > div a span { margin-left: 6px; font-size: 11px; color: var(--muted); }
+.exploreStrip > div a:hover span { color: var(--secondary); }
+.marketStrip { padding: 15px 0; }
+.section { padding-top: 94px; padding-bottom: 94px; }
+.sectionHead { margin-bottom: 44px; }
+.section h2 { font-size: clamp(34px,3.65vw,51px); letter-spacing: -.048em; }
+.projectCard { border-radius: 18px; background: var(--surface); transition: border-color .2s,box-shadow .2s; }
+.projectCard:hover { box-shadow: 0 14px 35px #40005b0c; }
+.featuredProject { grid-template-columns: 1.28fr 1fr; }
+.projectVisual0 { min-height: 370px; }
+.projectVisual1 { background: #eee6f2; }
+.projectVisual2 { background: #281031; }
+.projectVisual { min-height: 260px; }
+.projectHeroImage { transition: transform .55s cubic-bezier(.2,.65,.3,1); }
+.projectCard:hover .projectHeroImage { transform: scale(1.035); }
+.projectOrbit { width: 310px; height: 310px; top: -95px; right: -60px; opacity: .22; transition: transform .6s; }
+.projectOrbit::after { content: ''; position: absolute; top: 44px; left: 31px; width: 14px; height: 14px; border-radius: 4px; background: currentColor; box-shadow: 210px 160px 0 currentColor; transform: rotate(30deg); }
+.projectCard:hover .projectOrbit { transform: rotate(25deg); }
+.projectCopy { padding: 32px; }
+.projectCopy h3 { font-size: 26px; }
+.projectCta svg { transition: transform .2s; }
+.projectCard:hover .projectCta svg,.serviceCard:hover .projectCta svg { transform: translate(3px,-3px); }
+.capabilities { background: #25102e; border-radius: 28px; margin: 0 20px; }
+.capabilities .section { max-width: 1220px; }
+.serviceGrid { grid-template-columns: repeat(2,minmax(0,1fr)); border: 0; gap: 14px; }
+.serviceCard,.serviceCard:first-child,.serviceCard:last-child { padding: 30px; border: 1px solid #ffffff24; border-radius: 14px; background: #ffffff03; position: relative; overflow: hidden; }
+.serviceCard:hover { background: #ffffff08; border-color: #d897c585; }
+.serviceTag { margin-bottom: 34px; }
+.serviceIllustration { display: flex; align-items: center; gap: 0; margin-bottom: 27px; width: 200px; height: 70px; color: #efb6de; }
+.serviceIllustration svg { padding: 16px; width: 66px; height: 66px; border: 1px solid #ffffff40; border-radius: 18px; box-sizing: border-box; background: #44224f; transition: transform .3s; }
+.serviceIllustration span { height: 1px; width: 55px; background: #9a6da8; position: relative; }
+.serviceIllustration span::after { content: ''; width: 8px; height: 8px; border: 1px solid #d49ec7; border-radius: 50%; position: absolute; top: -4px; left: 0; background: #25102e; }
+.serviceIllustration span:last-child::after { left: auto; right: 0; background: #e8b2d9; }
+.serviceCard:hover .serviceIllustration svg { transform: rotate(-7deg) translateY(-3px); }
+.serviceCard h3 { font-size: 27px; }
+.serviceCard p { font-size: 14px; max-width: 420px; line-height: 1.8; }
+.serviceCard .projectCta { border-top: 1px solid #ffffff20; padding-top: 18px; width: 100%; }
+.supporting { margin-top: 34px; }
+.steps { display: block; margin-top: 18px; border-top: 1px solid var(--line); }
+.stepHint { margin-top: 35px !important; font-size: 11px; color: var(--muted); }
+.steps details { border-bottom: 1px solid var(--line); }
+.steps summary { display: flex; align-items: center; gap: 25px; cursor: pointer; padding: 25px 0; list-style: none; }
+.steps summary::-webkit-details-marker { display: none; }
+.steps summary > span { color: var(--secondary); font-family: monospace; font-size: 12px; }
+.steps h3 { margin: 0; font-size: 25px; flex: 1; }
+.steps summary > svg { color: var(--secondary); flex-shrink: 0; transition: transform .2s; }
+.steps details[open] summary > svg { transform: rotate(45deg); }
+.steps details[open] summary h3 { color: var(--secondary); }
+.steps details > p { padding: 0 45px 26px; font-size: 14px; max-width: 680px; }
+.ctaBand { position: relative; isolation: isolate; overflow: hidden; background: #40005b; }
+.ctaBand > div:not(.ctaOrbit) { position: relative; z-index: 1; }
+.ctaOrbit { position: absolute; width: 580px; height: 580px; border: 1px solid #e49ed640; border-radius: 50%; right: -100px; top: -135px; box-shadow: 0 0 0 65px #ffffff04,0 0 0 130px #ffffff03; transition: transform .8s; pointer-events: none; }
+.ctaOrbit i { position: absolute; width: 20px; height: 20px; border: 1px solid #edb6de; border-radius: 6px; background: #7c286f; }
+.ctaOrbit i:nth-child(1) { left: 90px; top: 50px; transform: rotate(25deg); }
+.ctaOrbit i:nth-child(2) { right: 35px; bottom: 125px; transform: rotate(-20deg); }
+.ctaOrbit i:nth-child(3) { left: 65px; bottom: 90px; border-radius: 50%; }
+.ctaBand:hover .ctaOrbit { transform: rotate(10deg); }
+.faqList summary { font-size: 16px; }
+.companySection { padding-top: 0; }
+:global(.dark) .hero { background: #201125; }
+:global(.dark) .exploreStrip > a { color: #eab4da; }
+:global(.dark) .steps details[open] summary h3 { color: #e79bd4; }
+@media(min-width:1600px) { .heroInner { padding-top:60px; padding-bottom:44px; } }
+@media(max-width:1100px) { .heroInner { gap:30px; padding-inline:28px; } .heroCopy h1 { font-size:46px; } .exploreStrip { margin-inline:28px; } .exploreStrip > div { gap:14px; } .section { padding:70px 28px; } .companySection { padding-top:0; } }
+@media(max-width:800px) { .heroInner { max-width:650px; grid-template-columns:1fr; gap:32px; } .heroCopy h1 { font-size:clamp(44px,7.3vw,58px); } .heroDescription { max-width:490px; } .exploreStrip { flex-direction:column; align-items:flex-start; gap:15px; } .serviceCard,.serviceCard:first-child,.serviceCard:nth-child(even),.serviceCard:last-child { padding:25px; border:1px solid #ffffff24; } .featuredProject { display:flex; } .featuredProject .projectVisual { min-height:300px; } .steps h3 { font-size:22px; } .capabilities { margin:0 12px; border-radius:20px; } }
+@media(max-width:560px) { .heroInner { padding:30px 20px; } .heroCopy h1 { font-size:clamp(37px,9.5vw,49px); } .heroDescription { font-size:14px; } .heroActions { gap:18px; } .heroNotes { font-size:10px; } .hero .primaryButton { padding:14px 16px; } .exploreStrip { margin-inline:20px; } .exploreStrip > div { gap:12px; flex-wrap:wrap; } .exploreStrip > div a span { font-size:10px; } .section { padding:58px 20px; } .section h2 { font-size:34px; } .projectCopy h3 { font-size:24px; } .projectCopy { padding:24px; } .capabilities .section { padding:44px 18px; } .serviceGrid { grid-template-columns:1fr; } .serviceCard,.serviceCard:first-child,.serviceCard:nth-child(even),.serviceCard:last-child { padding:25px; } .steps summary { gap:18px; } .steps h3 { font-size:20px; } .steps details > p { padding-inline:34px 0; font-size:13px; } .companySection { padding-top:0; } .faqList summary { font-size:14px; } }

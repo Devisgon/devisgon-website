@@ -338,6 +338,10 @@ If you change this, also check this:
 - `scripts/growth-checks.test.mjs` covers inquiry validation/provider error handling, challenge validation, blog sitemap filtering, calculator math and metadata/link invariants. Run with `npm run verify:growth` on Node 22.6+ with TypeScript stripping (validated on Node 24); esbuild is installed transitively with Payload/tsx.
 - `eslint.ignoreDuringBuilds` is enabled in `next.config.ts`, so CI should lint explicitly.
 
+## Homepage interaction design
+
+The homepage preserves the original `ProjectEnquiry` form and shared form CSS. Its surrounding presentation uses a compact `automation_demo.tsx` client island with three illustrative workflows; server-localized labels come from `automation-examples.ts`. The one-time animation has pause/resume/replay, stops offscreen/when hidden and honors reduced motion. It does not call external integrations or change form selections. Delivery steps use native expandable details; content remains visible without scroll effects. `homepage_engagement.tsx` reports fixed, consent-gated section reach identifiers; `homepage-engagement.ts` also records explicit demo selections/runs without personal data. See `docs/homepage-interaction-redesign.md` for research, measurement and validation. Run `npm run verify:homepage` for the demo and observer regression checks.
+
 ## Change Log
 - 2026-04-17: Initial codebase flow map added.
 - 2026-04-17: Converted dynamic service detail pages to server components (query/cookie language resolution) and removed multiple unused imports/variables across routes and components.
@@ -535,3 +539,5 @@ If you change this, also check this:
 - 2026-10-29: Reframed the shared homepage SEO title and description around AI agent development, business automation, and US startup buyers to make the search snippet more specific.
 - 2026-10-29: Refined homepage and four English service snippets for AI-agent, business-process automation, AI voice-agent and AI receptionist buyer searches; emphasized actual workflows, integrations and human review.
 - 2026-10-29: Rewrote homepage and nine English commercial-page title/description/hero combinations for AI agents, agentic AI, AI automation, voice agents, AI receptionists, AI apps, SaaS, custom web apps and SaaS MVP development; used task, integration and delivery language without unverified location or outcome claims.
+
+- 2026-11-18: Redesigned the homepage around an interactive automation example, project/service exploration and expandable delivery steps, preserving the hero questionnaire.
