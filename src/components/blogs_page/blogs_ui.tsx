@@ -3,6 +3,7 @@
 "use client";
 
 import Image from "next/image";
+import { mediaImageSource } from "@/lib/static-image-resolver.mjs";
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import { ArrowRight } from "lucide-react";
@@ -64,11 +65,11 @@ export function CategoryNav({ blogs, categories, lang }: any) {
           <div key={blog.id} className="group cursor-pointer flex flex-col h-full">
             <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-96 w-full">
               <Image
-                src={blog.coverImage.url}
+                src={mediaImageSource(blog.coverImage)}
                 alt={blog.title}
                 width={100}
                 height={200}
-                unoptimized={true}
+                sizes="(max-width: 768px) 100vw, 50vw"
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
             </div>

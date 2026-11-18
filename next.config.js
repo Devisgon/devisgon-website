@@ -193,6 +193,10 @@ const nextConfig = {
     ];
   },
 
+  async headers() {
+    return [{ source: "/prepared-images/:path*", headers: [{ key: "Cache-Control", value: "public, max-age=31536000, immutable" }] }];
+  },
+
   // 3. Build Optimizations
   eslint: {
     ignoreDuringBuilds: true,
@@ -201,6 +205,8 @@ const nextConfig = {
  // 4. Remote Image Optimization Security Policies
  // 4. Remote Image Optimization Security Policies
   images: {
+    loader: "custom",
+    loaderFile: "./src/lib/static-image-loader.js",
     dangerouslyAllowSVG: true, // <-- Add this to allow SVGs
     contentSecurityPolicy: "default-src 'self'; script-src 'none'; sandbox;", // <-- Add this required security policy for SVGs
     remotePatterns: [

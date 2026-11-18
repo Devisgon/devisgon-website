@@ -21,7 +21,12 @@
     "data:translate": "node scripts/translate_services.mjs",
     "verify:growth": "node --test scripts/growth-checks.test.mjs",
     "verify:navigation": "node --test scripts/navigation-checks.test.mjs",
-    "verify:homepage": "node --test scripts/homepage-checks.test.mjs"
+    "verify:homepage": "node --test scripts/homepage-checks.test.mjs",
+    "images:prepare": "node scripts/prepare-images.mjs",
+    "prebuild": "npm run images:prepare",
+    "predev": "npm run images:prepare",
+    "predev:clean": "npm run images:prepare",
+    "verify:images": "node --test scripts/image-preparation.test.mjs"
   },
   "dependencies": {
     "@aws-sdk/client-s3": "^3.992.0",

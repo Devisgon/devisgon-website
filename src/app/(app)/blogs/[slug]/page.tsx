@@ -3,6 +3,7 @@ import { getPayload } from "payload";
 import config from "@payload-config";
 import { notFound } from "next/navigation";
 import Image from "next/image";
+import { mediaImageSource } from "@/lib/static-image-resolver.mjs";
 import Link from "next/link";
 import CustomRichText from "@/components/payload_rich_text_styling";
 import Footer from "@/components/footer";
@@ -15,6 +16,7 @@ import {
 import { getBlogPostMetadata, BLOGS_PAGE_METADATA } from "@/lib/seo";
 
 type CoverImage = {
+  updatedAt?: string;
   url: string;
   alt?: string | null;
 };
@@ -246,7 +248,7 @@ export default async function BlogPostPage({
             {blog.coverImage && typeof blog.coverImage === "object" && (
               <div className="w-full mb-10 rounded-xl overflow-hidden shadow-sm">
                 <Image
-                  src={blog.coverImage.url}
+                  src={mediaImageSource(blog.coverImage)}
                   alt={blog.coverImage.alt || translatedBlog.title}
                   width={1200}
                   height={300}
@@ -303,7 +305,7 @@ export default async function BlogPostPage({
                     {post.coverImage && typeof post.coverImage === "object" ? (
                       <div className="w-full h-48 overflow-hidden relative">
                         <Image
-                          src={post.coverImage.url}
+                          src={mediaImageSource(post.coverImage)}
                           alt={post.coverImage.alt || post.title}
                           fill
                           sizes="(max-width: 1024px) 100vw, 33vw"
