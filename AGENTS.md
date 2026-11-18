@@ -338,6 +338,10 @@ If you change this, also check this:
 - `scripts/growth-checks.test.mjs` covers inquiry validation/provider error handling, challenge validation, blog sitemap filtering, calculator math and metadata/link invariants. Run with `npm run verify:growth` on Node 22.6+ with TypeScript stripping (validated on Node 24); esbuild is installed transitively with Payload/tsx.
 - `eslint.ignoreDuringBuilds` is enabled in `next.config.ts`, so CI should lint explicitly.
 
+## Image delivery
+
+`npm run build` and development scripts prepare responsive WebP files with Sharp in four sequential local batches, then snapshot public CMS covers. The global custom Next image loader serves these static assets without Vercel runtime image transformations. Keep originals; generated assets/manifest are ignored. CMS sources include updatedAt to avoid stale snapshots; unavailable/new images use direct URLs. Future raster uploads are resized and compressed by Payload. See `docs/image-preparation.md`; run `npm run verify:images`.
+
 ## Change Log
 - 2026-04-17: Initial codebase flow map added.
 - 2026-04-17: Converted dynamic service detail pages to server components (query/cookie language resolution) and removed multiple unused imports/variables across routes and components.
@@ -535,3 +539,5 @@ If you change this, also check this:
 - 2026-10-29: Reframed the shared homepage SEO title and description around AI agent development, business automation, and US startup buyers to make the search snippet more specific.
 - 2026-10-29: Refined homepage and four English service snippets for AI-agent, business-process automation, AI voice-agent and AI receptionist buyer searches; emphasized actual workflows, integrations and human review.
 - 2026-10-29: Rewrote homepage and nine English commercial-page title/description/hero combinations for AI agents, agentic AI, AI automation, voice agents, AI receptionists, AI apps, SaaS, custom web apps and SaaS MVP development; used task, integration and delivery language without unverified location or outcome claims.
+
+- 2026-11-18: Prepare static responsive images during build, bypass runtime image optimization, and compress future CMS uploads.
