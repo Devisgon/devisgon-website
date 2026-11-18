@@ -1,10 +1,13 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowUpRight, ArrowRight, Bot, Workflow, Layers3, Code2, Check, ShieldCheck } from "lucide-react";
+import { ArrowUpRight, ArrowRight, Bot, Workflow, Layers3, Code2, Check, ShieldCheck, ArrowDown, Plus } from "lucide-react";
 import { getDiscoveryCallHref } from "@/lib/discovery-call";
 import { featuredWork } from "@/data/featured-work";
 import ProjectEnquiry from "./project_enquiry";
 import ProjectEnquiryCta from "./project_enquiry_cta";
+import AutomationDemo from "./automation_demo";
+import HomepageEngagement from "./homepage_engagement";
+import { automationExamples } from "@/data/automation-examples";
 import styles from "./conversion_home.module.css";
 import { conversionHomeUi } from "@/data/conversion-home-ui";
 import { localizeContentTree } from "@/lib/content-language";
@@ -43,37 +46,52 @@ export default async function ConversionHome({ lang, homeCopy }: { lang: string;
   })));
   const supportingCopy = { title: "And the expertise to keep it moving.", more: "ML, design, SEO & more", focused: "Focused solutions", websites: "Websites", mobile: "Mobile apps", architecture: "Solution architecture", design: "UI / UX", deployment: "Deployments", testing: "Testing & fixes", voice: "Voice agents", invoices: "Invoice automation", receptionist: "AI receptionist" };
   const supporting = lang === "en" ? supportingCopy : await localizeContentTree(supportingCopy, lang);
+  const experienceCopy = {
+    description: "Custom AI agents, connected workflows and software that move your business forward.",
+    scroll: "Meet the work behind the words", projects: "Selected work", capabilities: "What we build", process: "How it comes together",
+    instruction: "Open a step to see what happens.",
+  };
+  const [experience, demoCopy, deliverySteps] = await Promise.all([
+    localizeContentTree(experienceCopy, lang), localizeContentTree(automationExamples, lang),
+    localizeContentTree(steps.map(([number, title, description]) => ({ number, title, description })), lang),
+  ]);
   return <div id="main-content" className={styles.page}>
+    <HomepageEngagement />
     <section className={styles.hero} aria-labelledby="home-heading">
       <div className={styles.heroInner}>
         <div className={styles.heroCopy}>
           <p className={styles.eyebrow}><span className={styles.brandDot} /> {homeCopy.hero_section.pre_title}</p>
           <h1 id="home-heading">{homeCopy.hero_section.main_title}<br /><span>{homeCopy.hero_section.title}</span></h1>
-          <p className={styles.heroDescription}>{ui.heroDescription}</p>
+          <p className={styles.heroDescription}>{experience.description}</p>
           <div className={styles.heroActions}><ProjectEnquiryCta label={homeCopy.hero_section.cta_button.text} /><Link href="#work" className={styles.textLink}>{localized ? homeCopy.services_section.header_title : "Explore our work"}<ArrowRight size={17} aria-hidden="true" /></Link></div>
           <p className={styles.heroCall}>{ui.heroCall} <Link href={call}>{ui.discovery} <ArrowUpRight size={14} aria-hidden="true" /></Link></p>
           <div className={styles.heroNotes}><span><Check size={15} aria-hidden="true" /> {ui.scope}</span><span><ShieldCheck size={16} aria-hidden="true" /> {ui.oversight}</span></div>
-          {!localized && <div className={styles.heroSignature}><span>STRATEGY → DESIGN → DEVELOPMENT → LAUNCH</span><p>Built around your business.<br /><strong>From the first question to the next release.</strong></p></div>}
+          <AutomationDemo copy={demoCopy} />
         </div>
         <div id="start-project" className={styles.heroEnquiry}><ProjectEnquiry lang={lang} /></div>
       </div>
+      <nav className={styles.exploreStrip} aria-label={experience.scroll}>
+        <a href="#work"><span>{experience.scroll}</span><ArrowDown size={18} aria-hidden="true" /></a>
+        <div><Link href="#work">01 <span>{experience.projects}</span></Link><Link href="#capabilities">02 <span>{experience.capabilities}</span></Link><Link href="#delivery">03 <span>{experience.process}</span></Link></div>
+      </nav>
       <div className={styles.marketStrip}><span className={styles.marketLabel}>{localized ? homeCopy.hero_section.sub_main_title : "REMOTE COLLABORATION. PRACTICAL DELIVERY."}</span><p><strong>{localized ? homeCopy.expert_services_section.core_info_cards[0]?.title : "USA first."}</strong> Canada · Netherlands & Europe · Australia · New Zealand · Gulf</p></div>
     </section>
     <section id="work" className={styles.section} aria-labelledby="work-heading">
-      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>{ui.workEyebrow} / 01</p><h2 id="work-heading">{ui.workTitle}<br /><span>{ui.workTitleAccent}</span></h2></div><Link href="/our-work" className={styles.textLink}>{ui.workLink}<ArrowUpRight size={17} /></Link></div>
+      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>{ui.workEyebrow} / 01</p><h2 id="work-heading" data-home-section="work">{ui.workTitle}<br /><span>{ui.workTitleAccent}</span></h2></div><Link href="/our-work" className={styles.textLink}>{ui.workLink}<ArrowUpRight size={17} /></Link></div>
       <div className={styles.projectGrid}>{localizedWork.map((project, index) => <Link key={project.slug} href={`/our-work/${project.slug}`} className={`${styles.projectCard} ${index === 0 ? styles.featuredProject : ""}`}><div className={`${styles.projectVisual} ${styles[`projectVisual${index}`]}`}>{project.heroImageSrc ? <><Image src={project.heroImageSrc} alt="" fill sizes="(max-width: 768px) 100vw, 50vw" className={styles.projectHeroImage} /><div className={styles.projectHeroOverlay} aria-hidden="true" /><div className={styles.projectMeta}><span>{project.category}</span><span>{project.number}</span></div>{project.logoIconSrc && <><Image src={project.logoIconSrc} alt="" width={44} height={36} className={`${styles.projectHeroMark} rounded-md bg-white p-1 dark:hidden`} /><Image src={project.logoIconDarkSrc} alt="" width={44} height={36} className={`${styles.projectHeroMark} hidden rounded-md bg-[#101010] p-1 dark:block`} /></>}</> : <><div className={styles.projectMeta}><span>{project.category}</span><span>{project.number}</span></div><strong>{project.name}</strong><div className={styles.projectTags}>{project.focus.map((tag) => <span key={tag}>{tag}</span>)}</div><div className={styles.projectOrbit} aria-hidden="true" /></>}</div><div className={styles.projectCopy}><span className={styles.projectIndex}>{ui.projectOverview}</span>{project.logoSrc && <><Image src={project.logoSrc} alt={`${project.name} logo`} width={214} height={36} className={`${styles.projectBrandLogo} ${styles.projectBrandLogoLight}`} /><Image src={project.logoDarkSrc} alt={`${project.name} logo`} width={214} height={36} className={`${styles.projectBrandLogo} ${styles.projectBrandLogoDark}`} /></>}<h3>{project.title}</h3><p>{project.description}</p><span className={styles.projectCta}>{ui.projectLink}<ArrowUpRight size={18} /></span></div></Link>)}</div>
     </section>
-    <section className={styles.capabilities} aria-labelledby="services-heading"><div className={styles.section}>
-      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>{ui.capabilityEyebrow} / 02</p><h2 id="services-heading">{ui.capabilityTitle}<br /><span>{ui.capabilityAccent}</span></h2></div><p className={styles.sectionIntro}>{ui.capabilityIntro}</p></div>
-      <div className={styles.serviceGrid}>{localizedServices.map((service) => <Link key={service.href} href={service.href} className={styles.serviceCard}><span className={styles.serviceTag}>{service.tag}</span><service.icon size={30} strokeWidth={1.4} aria-hidden="true" /><h3>{service.title}</h3><p>{service.description}</p><span className={styles.projectCta}>{ui.explore}<ArrowUpRight size={17} /></span></Link>)}</div>
+    <section id="capabilities" className={styles.capabilities} aria-labelledby="services-heading"><div className={styles.section}>
+      <div className={styles.sectionHead}><div><p className={styles.eyebrow}>{ui.capabilityEyebrow} / 02</p><h2 id="services-heading" data-home-section="services">{ui.capabilityTitle}<br /><span>{ui.capabilityAccent}</span></h2></div><p className={styles.sectionIntro}>{ui.capabilityIntro}</p></div>
+      <div className={styles.serviceGrid}>{localizedServices.map((service) => <Link key={service.href} href={service.href} className={styles.serviceCard}><span className={styles.serviceTag}>{service.tag}</span><div className={styles.serviceIllustration} aria-hidden="true"><span /><service.icon size={32} strokeWidth={1.3} /><span /></div><h3>{service.title}</h3><p>{service.description}</p><span className={styles.projectCta}>{ui.explore}<ArrowUpRight size={17} /></span></Link>)}</div>
       <div className={styles.supporting}><p>{supporting.title}</p><div><Link href="/services/website-development-design-services">{supporting.websites}</Link><Link href="/services/mobile-app-development-services">{supporting.mobile}</Link><Link href="/services/software-architecture-diagram-documentation-services">{supporting.architecture}</Link><Link href="/services/ui-ux-design-product-design-services">{supporting.design}</Link><Link href="/services/cicd-pipeline-devops-automation-services">{supporting.deployment}</Link><Link href="/services/manual-software-testing-qa-services">{supporting.testing}</Link><Link href="/services">{supporting.more}<ArrowUpRight size={14} /></Link></div></div><div className={styles.specialists}><span>{supporting.focused}</span><Link href="/services/voice-agent-development-services">{supporting.voice}<ArrowUpRight size={15} /></Link><Link href="/services/invoice-automation-services">{supporting.invoices}<ArrowUpRight size={15} /></Link><Link href="/services/ai-receptionist-services">{supporting.receptionist}<ArrowUpRight size={15} /></Link></div>
     </div></section>
-    <section className={styles.section} aria-labelledby="delivery-heading">
-      <div className={styles.deliveryIntro}><div><p className={styles.eyebrow}>{ui.deliveryEyebrow} / 03</p><h2 id="delivery-heading">{ui.deliveryTitle}<br /><span>{ui.deliveryAccent}</span></h2></div><div><p>{ui.deliveryCopy}</p><Link href="/our-process" className={styles.textLink}>{ui.meetProcess}<ArrowUpRight size={17} /></Link></div></div>
-      <div className={styles.steps}>{(localized ? homeCopy.working_process.stepsData : steps.map(([number, title]) => ({ id: Number(number), title }))).map(({ id, title }) => <div key={id}><span>{String(id).padStart(2, "0")}</span><h3>{title}</h3></div>)}</div>
+    <section id="delivery" className={`${styles.section} ${styles.deliverySection}`} aria-labelledby="delivery-heading">
+      <div className={styles.deliveryIntro}><div><p className={styles.eyebrow}>{ui.deliveryEyebrow} / 03</p><h2 id="delivery-heading" data-home-section="process">{ui.deliveryTitle}<br /><span>{ui.deliveryAccent}</span></h2></div><div><p>{ui.deliveryCopy}</p><Link href="/our-process" className={styles.textLink}>{ui.meetProcess}<ArrowUpRight size={17} /></Link></div></div>
+      <p className={styles.stepHint}>{experience.instruction}</p>
+      <div className={styles.steps}>{deliverySteps.map((step, index) => <details key={step.number} open={index === 0}><summary><span>{step.number}</span><h3>{localized ? homeCopy.working_process.stepsData[index]?.title ?? step.title : step.title}</h3><Plus size={20} aria-hidden="true" /></summary><p>{step.description}</p></details>)}</div>
       <div className={styles.resourceNote}><p>{ui.resources}</p><div><Link href="/resources">{ui.guides}<ArrowUpRight size={15} /></Link><Link href="/tools/automation-roi">{ui.calculator}<ArrowUpRight size={15} /></Link></div></div>
     </section>
-    <section className={styles.ctaBand} aria-labelledby="next-heading"><div><p className={styles.eyebrow}>{ui.ctaEyebrow}</p><h2 id="next-heading">{ui.ctaTitle}<br />{ui.ctaAccent}</h2><p>{ui.ctaCopy}</p></div><div className={styles.ctaBandActions}><Link href="#start-project" className={styles.lightButton}>{ui.tellUs}<ArrowUpRight size={19} /></Link><Link href={call}>{ui.callInstead}<ArrowUpRight size={16} /></Link><a href="mailto:info@devisgon.com">info@devisgon.com</a></div></section>
+    <section className={styles.ctaBand} aria-labelledby="next-heading"><div className={styles.ctaOrbit} aria-hidden="true"><i /><i /><i /></div><div><p className={styles.eyebrow}>{ui.ctaEyebrow}</p><h2 id="next-heading">{ui.ctaTitle}<br />{ui.ctaAccent}</h2><p>{ui.ctaCopy}</p></div><div className={styles.ctaBandActions}><Link href="#start-project" className={styles.lightButton}>{ui.tellUs}<ArrowUpRight size={19} /></Link><Link href={call}>{ui.callInstead}<ArrowUpRight size={16} /></Link><a href="mailto:info@devisgon.com">info@devisgon.com</a></div></section>
     <section className={`${styles.section} ${styles.faqSection}`} aria-labelledby="faq-heading"><div><p className={styles.eyebrow}>{ui.faqEyebrow} / 04</p><h2 id="faq-heading">{ui.faqTitle}<br /><span>{ui.faqAccent}</span></h2><p>{ui.faqIntro}</p></div><div className={styles.faqList}>{ui.faqs.map(([question, answer]) => <details key={question}><summary>{question}<span aria-hidden="true">+</span></summary><p>{answer}</p></details>)}</div></section>
     <section id="about" className={`${styles.section} ${styles.companySection}`} aria-labelledby="company-heading"><div><p className={styles.eyebrow}>{ui.companyEyebrow}</p><h2 id="company-heading">{ui.companyTitle}<br /><span>{ui.companyAccent}</span></h2><p>{ui.companyCopy}</p></div><div className={styles.leadership}><Image src="/home_page/ceo_section/ceo.png" alt={`${homeCopy.ceo_message_section.author}, ${homeCopy.ceo_message_section.role}`} width={112} height={112} sizes="112px" /><div><h3>{homeCopy.ceo_message_section.author}</h3><span>{homeCopy.ceo_message_section.role}</span><p>{ui.companyCopy}</p></div></div><div id="team" className={styles.teamNote}><p>{ui.teamCopy}</p><Link href="/team" className={styles.textLink}>{ui.teamLink}<ArrowUpRight size={16} /></Link></div></section>
   </div>;
