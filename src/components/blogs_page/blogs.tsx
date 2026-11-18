@@ -12,7 +12,7 @@ export type Blog = {
   category: string;
   author?: string;
   content: unknown;
-  coverImage?: { url: string; alt?: string };
+  coverImage?: { url: string; alt?: string; updatedAt?: string };
   date: string;
   status: string;
   language?: string;
