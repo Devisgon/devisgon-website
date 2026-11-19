@@ -1,3 +1,4 @@
+import hvacGuide from "@/data/english_data/hvac-software-guide.json";
 import { getPayload } from "payload";
 import config from "@payload-config";
 import { CategoryNav } from "./blogs_ui";
@@ -44,7 +45,10 @@ const getPublishedBlogs = unstable_cache(
 
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
-  const blogs = await getPublishedBlogs(lang, limit);
+  const cmsBlogs = await getPublishedBlogs(lang, limit);
+  const blogs = [hvacGuide, ...cmsBlogs.filter((blog) => blog.slug !== hvacGuide.slug)]
+    .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
+    .slice(0, limit || undefined);
   const translatedBlogs = await Promise.all(
     blogs.map(async (blog) => ({
       ...blog,

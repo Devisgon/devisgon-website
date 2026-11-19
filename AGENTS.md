@@ -30,7 +30,8 @@ Required actions after each meaningful code change:
 - Every `/industries/[slug]` detail page preserves the locale-specific conversation heading and subtitle above the shared five-step homepage questionnaire. Industry submissions retain `sourceType: industry` and the canonical industry route in `sourcePage` for analytics and lead attribution. The shared form stylesheet owns its own readable light/dark text and surface tokens so it renders correctly outside the homepage layout.
 - Technologies content is JSON-driven with language files in category-scoped folders under `src/data/*_data/technologies/<category>/<slug>.json` (with category `index.json` for main category pages).
 - Partner landing-page content is served from canonical `/partners/<slug>` routes, uses JSON data from `src/data/*_data/others/<slug>.json`, and falls back to English via `src/data/loaders/others.ts`.
-- Blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
+- The English HVAC software guide lives at `/blog/ai-software-for-hvac-businesses`, with static WebP assets and a dated entry merged into the normal blog listing.
+- Other blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
 - Newsletter subscribers are stored in Payload `newsletter-subscribers` (PostgreSQL/Supabase table) with email-only subscriber records and used for update broadcasts.
 - Contact and apply forms require name, email, and phone, post to internal API routes, then send email via Resend; inquiry forms also pass country and source context when available.
 - Footer newsletter form is email-only, posts to internal `/api/newsletter_subscribe`, stores subscribers, and sends confirmation emails.
@@ -552,3 +553,5 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-18: Replaced the boxed simulator with a page-wide, scroll-linked design and case-study routes.
 
 - 2026-11-19: Aligned homepage artwork, section surfaces and interaction states with the Devisgon palette.
+
+- 2026-11-19: Published the HVAC software comparison with precompressed editorial banners.
