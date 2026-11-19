@@ -10,9 +10,9 @@
 .current { stroke:#fc895c; stroke-width:2.2; stroke-dasharray:1; stroke-dashoffset:1 }
 .journey > [data-flow-stop] { padding-inline:var(--inset); max-width:none; margin-inline:0; position:relative }
 .journey > section:first-of-type { padding-inline:0 }
-.sculpture { position:relative; height:clamp(175px,18vw,305px); margin:8px -4% -18px -5%; pointer-events:none }
+.sculpture { position:relative; height:clamp(175px,18vw,305px); margin:12px -4% 0 -5%; overflow:clip; pointer-events:none }
 .sculpture::before { content:''; position:absolute; inset:18% -5% 8%; background:radial-gradient(ellipse,#a936ca45,transparent 68%); transform:rotate(-12deg) }
-.sculpture img { position:absolute; width:91%; height:150%; left:1%; top:-17%; object-fit:contain; transform:perspective(800px) rotate(-13deg) rotateY(var(--tilt,0deg)); transition:transform .3s ease-out }
+.sculpture img { position:absolute; width:91%; height:100%; left:1%; top:0; object-fit:contain; transform:perspective(800px) rotate(-13deg) rotateY(var(--tilt,0deg)); transition:transform .3s ease-out }
 .branchLink { display:inline-flex; align-items:center; gap:15px; margin-top:18px; font-weight:600; font-size:.85rem; color:var(--primary); padding-block:7px; border-bottom:1px solid currentColor }
 .journal > section { padding:70px 0; background:transparent }
 .journal > section > div:first-child > div:first-child { text-align:start; margin-inline:0 }
@@ -22,7 +22,7 @@
 @media(max-width:800px) {
   .journey { --inset:calc(var(--rail) + 18px) }
   .sculpture { height:150px; margin-block:0 5px }
-  .sculpture img { width:82%; height:140%; left:19%; top:-10% }
+  .sculpture img { width:82%; height:100%; left:19%; top:0 }
   .journal > section { padding-block:50px }
   .returnArt { inset:2% -38% 0 52%; opacity:.4 }
 }
