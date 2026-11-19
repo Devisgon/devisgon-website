@@ -65,7 +65,8 @@ export function CategoryNav({ blogs, categories, lang }: any) {
           <div key={blog.id} className="group cursor-pointer flex flex-col h-full">
             <div className="rounded-2xl overflow-hidden mb-6 h-64 md:h-96 w-full">
               <Image
-                src={mediaImageSource(blog.coverImage)}
+                src={blog.href ? blog.coverImage.url : mediaImageSource(blog.coverImage)}
+                unoptimized={Boolean(blog.href)}
                 alt={blog.title}
                 width={100}
                 height={200}
@@ -87,7 +88,7 @@ export function CategoryNav({ blogs, categories, lang }: any) {
               <p className="text-xl md:text-2xl font-bold text-t-primary dark:text-t-secondary mb-4 leading-snug ">
                 {blog.title}
               </p>
-              <a href={`/blogs/${blog.slug}`}>
+              <a href={blog.href ?? `/blogs/${blog.slug}`}>
                 <div className="mt-auto flex items-center text-t-primary  text-sm font-bold ">
                   {copy.readMore}
                   <ArrowRight className="w-4 h-4 ml-2 transition-transform hover:translate-x-1" />
