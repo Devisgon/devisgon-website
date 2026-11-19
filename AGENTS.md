@@ -31,6 +31,7 @@ Required actions after each meaningful code change:
 - Technologies content is JSON-driven with language files in category-scoped folders under `src/data/*_data/technologies/<category>/<slug>.json` (with category `index.json` for main category pages).
 - Partner landing-page content is served from canonical `/partners/<slug>` routes, uses JSON data from `src/data/*_data/others/<slug>.json`, and falls back to English via `src/data/loaders/others.ts`.
 - The English HVAC software guide lives at `/blog/ai-software-for-hvac-businesses`, with static WebP assets and a dated entry merged into the normal blog listing.
+- The English wireframing agency guide follows the same static article and listing pattern at `/blog/best-wireframing-prototyping-companies`.
 - Other blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
 - Newsletter subscribers are stored in Payload `newsletter-subscribers` (PostgreSQL/Supabase table) with email-only subscriber records and used for update broadcasts.
 - Contact and apply forms require name, email, and phone, post to internal API routes, then send email via Resend; inquiry forms also pass country and source context when available.
@@ -555,3 +556,5 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-19: Aligned homepage artwork, section surfaces and interaction states with the Devisgon palette.
 
 - 2026-11-19: Published the HVAC software comparison with precompressed editorial banners.
+
+- 2026-11-19: Added the wireframing and prototyping firm comparison with precompressed banners.

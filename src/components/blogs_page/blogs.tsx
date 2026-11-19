@@ -1,3 +1,4 @@
+import wireframingGuide from "@/data/english_data/wireframing-guide.json";
 import hvacGuide from "@/data/english_data/hvac-software-guide.json";
 import { getPayload } from "payload";
 import config from "@payload-config";
@@ -46,7 +47,9 @@ const getPublishedBlogs = unstable_cache(
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
   const cmsBlogs = await getPublishedBlogs(lang, limit);
-  const blogs = [hvacGuide, ...cmsBlogs.filter((blog) => blog.slug !== hvacGuide.slug)]
+  const guides = [wireframingGuide, hvacGuide];
+  const guideSlugs = new Set(guides.map((guide) => guide.slug));
+  const blogs = [...guides, ...cmsBlogs.filter((blog) => !guideSlugs.has(blog.slug))]
     .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
     .slice(0, limit || undefined);
   const translatedBlogs = await Promise.all(
