@@ -6,12 +6,12 @@
 }
 .route { position:absolute; inset:0; width:100%; height:100%; pointer-events:none; z-index:3; overflow:visible }
 .route path { fill:none; stroke-linecap:round; stroke-linejoin:round }
-.track { stroke:#a575b2; stroke-width:1; opacity:.58 }
-.current { stroke:#fc895c; stroke-width:2.2; stroke-dasharray:1; stroke-dashoffset:1 }
+.track { stroke:#bc99c7; stroke-width:1; opacity:.58 }
+.current { stroke:var(--secondary); stroke-width:2.2; stroke-dasharray:1; stroke-dashoffset:1 }
 .journey > [data-flow-stop] { padding-inline:var(--inset); max-width:none; margin-inline:0; position:relative }
 .journey > section:first-of-type { padding-inline:0 }
 .sculpture { position:relative; height:clamp(175px,18vw,305px); margin:12px -4% 0 -5%; overflow:clip; pointer-events:none }
-.sculpture::before { content:''; position:absolute; inset:18% -5% 8%; background:radial-gradient(ellipse,#a936ca45,transparent 68%); transform:rotate(-12deg) }
+.sculpture::before { content:''; position:absolute; inset:18% -5% 8%; background:radial-gradient(ellipse,#a71a7f45,transparent 68%); transform:rotate(-12deg) }
 .sculpture img { position:absolute; width:91%; height:100%; left:1%; top:0; object-fit:contain; transform:perspective(800px) rotate(-13deg) rotateY(var(--tilt,0deg)); transition:transform .3s ease-out }
 .branchLink { display:inline-flex; align-items:center; gap:15px; margin-top:18px; font-weight:600; font-size:.85rem; color:var(--primary); padding-block:7px; border-bottom:1px solid currentColor }
 .journal > section { padding:70px 0; background:transparent }
@@ -33,7 +33,7 @@
   border-radius:50%; background:#aa79af; z-index:4;
 }
 .journey [data-flow-stop]:nth-of-type(even)::after { left:auto; right:calc(var(--rail) - 4.5px) }
-.journey [data-current]::after { background:#ff935f; box-shadow:0 0 0 5px #ef895a38,0 0 14px #ffac7e }
+.journey [data-current]::after { background:var(--brand-highlight); box-shadow:0 0 0 5px #a71a7f55,0 0 14px #a71a7f }
 .map {
   position:sticky; top:clamp(82px,12vh,125px); z-index:5; height:0; width:34px;
   margin-left:auto; margin-right:4px; display:flex; flex-direction:column; align-items:center;
@@ -42,7 +42,14 @@
 .map a:first-child { border-radius:15px 15px 0 0 }
 .map a:last-child { border-radius:0 0 15px 15px }
 .map a > span { height:6px; width:6px; border:1px solid #caadc9; border-radius:50%; z-index:1; background:#261a32 }
-.map a[aria-current] > span { background:#ffae79; border-color:#ffae79; box-shadow:0 0 0 3px #ffae7933 }
+.map a[aria-current] > span { background:var(--brand-highlight); border-color:var(--brand-highlight); box-shadow:0 0 0 3px #a71a7f66 }
 .map a > b { display:none; position:absolute; right:100%; padding:6px 12px; border-radius:4px; background:#261a32; font:500 12px/1.4 system-ui; white-space:nowrap; }
 .map a:is(:hover,:focus-visible) b { display:block }
 @media(max-width:1000px) { .map { display:none } }
+
+.branchLink { min-height:44px; color:var(--ink) }
+.branchLink:is(:hover,:focus-visible) { border-color:var(--secondary) }
+@media (prefers-reduced-motion:no-preference) {
+  .branchLink svg { transition:transform .18s ease-out }
+  .branchLink:is(:hover,:focus-visible) svg { transform:translate(3px,3px) }
+}
