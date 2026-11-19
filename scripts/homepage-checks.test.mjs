@@ -285,35 +285,27 @@ test("shared enquiry form defines readable colors outside the homepage and in da
   assert.ok(css.includes(":global(.dark) .enquiryForm { --ink: #f3e8f5;"), "dark theme tokens are scoped to the form");
 });
 
-test("workflow rules change the outcome at the threshold and preserve each scenario", async () => {
+test("the project selection links to its associated capability", async () => {
   const dom = new JSDOM('<div id="root"></div>', { url: 'https://www.devisgon.com/' });
-  const globals = ['window','document','navigator','HTMLElement','Element','IS_REACT_ACT_ENVIRONMENT'];
-  const previous = globals.map(key => Object.getOwnPropertyDescriptor(globalThis,key));
-  for (const key of globals.slice(0,5)) Object.defineProperty(globalThis,key,{value:dom.window[key],configurable:true,writable:true});
-  globalThis.IS_REACT_ACT_ENVIRONMENT=true;
-  const React=await import('react'); const {act}=React; const {createRoot}=await import('react-dom/client');
-  const {default:Demo}=await componentModule('src/components/home_page/automation_demo.tsx');
-  const {automationExamples}=await componentModule('src/data/automation-examples.ts');
-  const root=createRoot(document.getElementById('root'));
-  const pick=label=>act(async()=>[...document.querySelectorAll('button')].find(button=>button.textContent===label).click());
-  const change=async(label,value)=>act(async()=>{
-    const input=document.querySelector('input[aria-label="'+label+'"]');
-    Object.getOwnPropertyDescriptor(dom.window.HTMLInputElement.prototype,'value').set.call(input,String(value));
-    input.dispatchEvent(new dom.window.Event('input',{bubbles:true}));
-  });
-  const result=()=>document.querySelector('[role=status]').textContent;
+  const globals = ['window','document','navigator','IS_REACT_ACT_ENVIRONMENT'];
+  const previous = globals.map(key => Object.getOwnPropertyDescriptor(globalThis, key));
+  for (const key of globals.slice(0,3)) Object.defineProperty(globalThis,key,{value:dom.window[key],configurable:true,writable:true});
+  globalThis.IS_REACT_ACT_ENVIRONMENT = true;
+  const React = await import('react');
+  const { createRoot } = await import('react-dom/client');
+  const { default: Showcase } = await componentModule('src/components/home_page/project_showcase.tsx');
+  const root = createRoot(document.getElementById('root'));
   try {
-    await act(async()=>root.render(React.createElement(Demo,{copy:automationExamples})));
-    assert.match(result(),/Queue a follow-up/);
-    await change('Project budget',10000); assert.match(result(),/Notify the sales lead/);
-    await pick('Invoice intake'); assert.match(result(),/Request approval/);
-    await change('Route changes at',2500); assert.match(result(),/Send to bookkeeping/);
-    await pick('Support request'); assert.match(result(),/Keep in support queue/);
-    await change('Hours waiting',8); assert.match(result(),/Escalate the ticket/);
-    await pick('Invoice intake'); assert.match(result(),/Send to bookkeeping/);
+    const routes = [{href:'#capability-2',label:'Apps'}, {href:'#capability-1',label:'Automation'}];
+    await React.act(async () => root.render(React.createElement(Showcase, { names:['First','Second'],label:'Projects',routes }, 'First case','Second case')));
+    assert.equal(document.querySelector('a').hash, '#capability-2');
+    await React.act(async () => document.querySelectorAll('button')[1].click());
+    assert.equal(document.querySelector('a').hash, '#capability-1');
+    assert.equal(document.querySelector('button[aria-pressed="true"]').textContent, 'Second');
   } finally {
-    await act(async()=>root.unmount()); dom.window.close();
-    globals.forEach((key,index)=>{if(previous[index])Object.defineProperty(globalThis,key,previous[index]);else delete globalThis[key];});
+    await React.act(async () => root.unmount());
+    dom.window.close();
+    globals.forEach((key,i) => { if(previous[i]) Object.defineProperty(globalThis,key,previous[i]); else delete globalThis[key]; });
   }
 });
 

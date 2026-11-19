@@ -14,11 +14,11 @@ const langMap: Record<string, typeof homeEn> = {
   fr: homeFr, zh: homeZh, de: homeDe, es: homeEs,
 };
 
-export default async function Home() {
+export default async function Home({ children }: { children?: React.ReactNode }) {
   const lang = await getCachedLanguage();
   const t = langMap[lang] ?? langMap['en'];
 
   // Keep one homepage layout for every supported language. Copy continues to
   // come from the language-specific dataset already used by the legacy page.
-  return <ConversionHome lang={lang} homeCopy={t} />;
+  return <ConversionHome lang={lang} homeCopy={t}>{children}</ConversionHome>;
 }
