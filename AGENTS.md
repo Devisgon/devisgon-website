@@ -344,7 +344,7 @@ If you change this, also check this:
 
 ## Homepage interaction design
 
-The homepage keeps the five-step ProjectEnquiry inside the hero. The workflow simulator uses local per-scenario inputs and thresholds to compute a routing outcome and reshape an illustrated signal. Selecting a scenario emits the existing consent-aware selection event. The project switcher uses existing case studies, followed by capabilities, delivery, FAQs, team and the enquiry CTA. Run `npm run verify:homepage` for regression coverage.
+The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage sections, including streamed CMS articles, and draws the visitor’s scroll position along a continuous route. Case studies link to related capabilities. Motion respects system preferences.
 
 ## Change Log
 - 2026-04-17: Initial codebase flow map added.
@@ -548,3 +548,5 @@ The homepage keeps the five-step ProjectEnquiry inside the hero. The workflow si
 
 - 2026-11-18: Redesigned the homepage around an interactive automation example, project/service exploration and expandable delivery steps, preserving the hero questionnaire.
 - 2026-11-18: Redesigned the homepage around a hands-on routing simulator, selectable project showcase and connected section artwork.
+
+- 2026-11-18: Replaced the boxed simulator with a page-wide, scroll-linked design and case-study routes.

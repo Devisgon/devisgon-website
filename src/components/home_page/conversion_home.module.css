@@ -348,3 +348,78 @@
 }
 @media(prefers-reduced-motion:reduce) { .heroArt svg,.projectPanel:not([hidden]) { animation:none; } }
 .serviceCard:target { outline:3px solid #ffcbad; outline-offset:4px; }
+
+/* The home route runs in the outside gutter, leaving the content and form clear. */
+.page .hero, :global(.dark) .page .hero {
+  background:radial-gradient(ellipse at 30% 75%,#3c195d,transparent 54%),#17121e;
+  color:#fff7f0; isolation:isolate; border:none;
+}
+.page .hero::before {
+  background:repeating-linear-gradient(90deg,transparent 0 calc(12.5% - 1px),#d6aff318 calc(12.5% - 1px) 12.5%);
+  opacity:.75; mask-image:linear-gradient(0deg,transparent,black 35%);
+}
+.page .heroInner {
+  grid-template-areas:"copy form"; grid-template-columns:minmax(0,1.2fr) minmax(340px,.85fr);
+  padding:clamp(36px,4vw,70px) var(--inset) 30px; max-width:none; align-items:center;
+  column-gap:clamp(30px,5vw,90px);
+}
+.page .heroCopy { padding:0 }
+.page .heroCopy h1 { font-size:clamp(62px,7.5vw,124px); font-weight:550; line-height:.92; letter-spacing:-.075em; margin:24px 0 }
+.page .heroCopy h1 > span, :global(.dark) .page .heroCopy h1 > span {
+  font-family:Georgia,'Times New Roman',serif; font-weight:400; font-style:italic;
+  color:#ffb682; -webkit-text-fill-color:currentColor; background:none; letter-spacing:-.09em;
+}
+.page .heroDescription { max-width:40ch; line-height:1.55; font-size:clamp(15px,1.25vw,19px) }
+.page .heroEnquiry { position:relative; align-self:center; padding:0; border-radius:18px; box-shadow:12px 12px 0 #c7a4eb38 }
+.page .hero .exploreStrip,.page .hero .marketStrip { margin-inline:var(--inset); width:auto; max-width:none; position:relative }
+.page .hero .exploreStrip a { color:#ffc198 }
+.page .section h2,.page .ctaBand h2 { font-size:clamp(36px,4.7vw,74px); line-height:1.02; font-weight:520; letter-spacing:-.065em }
+.page .section h2 span,.page .ctaBand h2 em { font-family:Georgia,serif; font-style:italic; font-weight:400 }
+.page .sectionHead .eyebrow::before,.page .deliveryIntro .eyebrow::before,.page .faqSection .eyebrow::before,.page .companySection .eyebrow::before { content:none }
+.page > [data-flow-stop] { transition:box-shadow .3s ease }
+.page .sectionHead { margin-bottom:clamp(26px,4vw,62px) }
+.page .featuredProject { border-radius:0; border:none; background:transparent; grid-template-columns:1.35fr .9fr; gap:clamp(20px,4vw,68px) }
+.page .featuredProject .projectVisual { border-radius:4px 65px 4px 4px; min-height:clamp(260px,28vw,420px) }
+.page .featuredProject .projectCopy { padding:22px 0; justify-content:center }
+.page .projectCopy .projectCta { margin-top:12px }
+.page .projectCopy h3 { font-size:clamp(25px,2.5vw,42px); line-height:1.12 }
+.page .projectPicker { gap:18px; border-bottom:1px solid var(--line); margin-bottom:22px }
+.page .projectPicker button { background:transparent; border:0; padding:10px 0; border-radius:0; color:var(--muted); border-bottom:3px solid transparent }
+.page .projectPicker button[aria-pressed=true] { color:var(--ink); border-color:#e86d40 }
+.page .capabilities { border-radius:0; background:#261632; padding-block:0 }
+.page .capabilities .section { padding:clamp(65px,7vw,110px) 0; max-width:none }
+.page .serviceGrid { display:flex; flex-direction:column; border:0; gap:0 }
+.page .serviceGrid .serviceCard { display:grid; grid-template-columns:38px minmax(0,1fr) minmax(0,.85fr) auto; align-items:center; gap:12px 24px; padding:24px 0; border:0; border-top:1px solid #e5c9ed42; border-radius:0; background:transparent }
+.page .serviceCard:last-child { border-bottom:1px solid #e5c9ed42 }
+.page .serviceCard .serviceTag { grid-column:2; grid-row:1; margin:0; color:#ffcda4 }
+.page .serviceCard > svg { grid-column:1; grid-row:1 / 3; color:#ffcda4; margin:0 }
+.page .serviceCard h3 { grid-column:2; grid-row:2; font-size:clamp(21px,2.7vw,43px); margin:0; line-height:1.1 }
+.page .serviceCard p { grid-column:3; grid-row:1 / 3; margin:0 }
+.page .serviceCard .projectCta { grid-column:4; grid-row:1 / 3; border:0; padding:0; margin:0 }
+.page .serviceCard:is(:hover,:focus-visible,:target) { background:#513151; box-shadow:12px 0 #513151,-12px 0 #513151 }
+.page .deliverySection { padding-block:clamp(70px,8vw,135px); background:#f4b68e; --ink:#2c1927; --muted:#4f3344; --primary:#43213d; --secondary:#72273d; --line:#92576b73; --soft:#ffd2b3; color:var(--ink) }
+.page .deliverySection .steps details { border:0; border-top:1px solid var(--line); border-radius:0; margin:0 }
+.page .deliverySection .steps details[open] { box-shadow:none; background:transparent }
+.page .deliverySection .steps summary { padding-inline:0 }
+.page .deliverySection .steps details[open] summary h3 { color:var(--primary) }
+.page .deliverySection .resourceNote { border-top:1px solid var(--line); background:transparent; border-radius:0; padding-inline:0 }
+.page .companySection { padding-block:64px; background:var(--soft) }
+.page .leadership { background:transparent; padding:0; }
+.page .leadership img { border-radius:45% 45% 4px 4px; width:105px; height:128px }
+.page .ctaBand { min-height:410px; background:#25122d; }
+.page .ctaBandActions { padding:20px; background:#25122ddc; border-radius:5px }
+.page .ctaBand .lightButton { border-radius:30px; background:#ffbd90; color:#321e31 }
+@media(max-width:800px) {
+  .page .heroInner { grid-template-areas:"copy" "form"; grid-template-columns:minmax(0,1fr); gap:18px; padding-top:35px }
+  .page .heroCopy h1 { font-size:clamp(58px,11vw,88px) }
+  .page .sectionHead { align-items:flex-start }
+  .page .serviceGrid .serviceCard { grid-template-columns:28px minmax(0,1fr); gap:9px 16px; padding-block:22px }
+  .page .serviceCard p,.page .serviceCard .projectCta { grid-column:2; grid-row:auto }
+  .page .serviceCard > svg { width:26px }
+  .page .projectPicker { gap:3px 14px }
+  .page .featuredProject { gap:4px }
+  .page .featuredProject .projectVisual { min-height:225px; border-top-right-radius:40px }
+  .page .hero .exploreStrip { padding-block:17px }
+  .page .companySection { padding-block:50px }
+  .page .ctaBandActions { padding:0; background:transparent }
+}
