@@ -33,6 +33,7 @@ Required actions after each meaningful code change:
 - The English HVAC software guide lives at `/blog/ai-software-for-hvac-businesses`, with static WebP assets and a dated entry merged into the normal blog listing.
 - The English wireframing agency guide follows the same static article and listing pattern at `/blog/best-wireframing-prototyping-companies`.
 - The low-code JavaScript guide links to the Jotform partner page and the contact form at `/contact#contact-form`.
+- The buyer discovery, DemandSphere and analytics automation articles follow the static guide pattern with local WebP assets and direct contact-form links.
 - Other blog list and blog detail pages are CMS-driven from Payload `blogs` collection using a single-source blog model (one post per slug), with server-side auto-translation of title/category/rich-text into the selected language from the `lang` cookie.
 - Newsletter subscribers are stored in Payload `newsletter-subscribers` (PostgreSQL/Supabase table) with email-only subscriber records and used for update broadcasts.
 - Contact and apply forms require name, email, and phone, post to internal API routes, then send email via Resend; inquiry forms also pass country and source context when available.
@@ -561,3 +562,5 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-19: Added the wireframing and prototyping firm comparison with precompressed banners.
 
 - 2026-11-19: Added the five-platform JavaScript guide and direct contact form anchor.
+
+- 2026-11-19: Added buyer discovery, DemandSphere and analytics automation guides to the blog listing.
