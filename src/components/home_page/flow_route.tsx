@@ -99,6 +99,17 @@ export default function FlowRoute({ stages, label }: { stages: Stage[]; label: s
       </a>)}
     </nav>
     <svg ref={svgRef} className={styles.route} aria-hidden="true" focusable="false">
+    <defs>
+      {/* Map the sculpture's luminance to plum shadows, magenta midtones and pale highlights. */}
+      <filter id="devisgon-woven-tone" colorInterpolationFilters="sRGB">
+        <feColorMatrix type="saturate" values="0" />
+        <feComponentTransfer>
+          <feFuncR type="table" tableValues="0.08 0.251 0.655 0.922 1" />
+          <feFuncG type="table" tableValues="0.015 0 0.102 0.64 0.965" />
+          <feFuncB type="table" tableValues="0.11 0.357 0.498 0.84 0.99" />
+        </feComponentTransfer>
+      </filter>
+    </defs>
     <path className={styles.track} /><path className={styles.current} pathLength="1" />
   </svg>
   </>;

@@ -344,7 +344,7 @@ If you change this, also check this:
 
 ## Homepage interaction design
 
-The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage sections, including streamed CMS articles, and draws the visitor’s scroll position along a continuous route. Case studies link to related capabilities. Motion respects system preferences.
+The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage sections, including streamed CMS articles, and draws the visitor’s scroll position along a continuous route. Use Devisgon primary #40005B and secondary #A71A7F across the route, artwork, and actions. Case studies link to related capabilities. Motion respects system preferences.
 
 ## Change Log
 - 2026-04-17: Initial codebase flow map added.
@@ -550,3 +550,5 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-18: Redesigned the homepage around a hands-on routing simulator, selectable project showcase and connected section artwork.
 
 - 2026-11-18: Replaced the boxed simulator with a page-wide, scroll-linked design and case-study routes.
+
+- 2026-11-19: Aligned homepage artwork, section surfaces and interaction states with the Devisgon palette.
