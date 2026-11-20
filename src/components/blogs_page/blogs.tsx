@@ -1,3 +1,7 @@
+import proposalGuide from "@/data/english_data/proposal-guide.json";
+import psychGuide from "@/data/english_data/psych-guide.json";
+import grainGuide from "@/data/english_data/grain-guide.json";
+import hotelGuide from "@/data/english_data/hotel-guide.json";
 import analyticsGuide from "@/data/english_data/analytics-guide.json";
 import demandGuide from "@/data/english_data/demand-guide.json";
 import discoveryGuide from "@/data/english_data/discovery-guide.json";
@@ -51,7 +55,7 @@ const getPublishedBlogs = unstable_cache(
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
   const cmsBlogs = await getPublishedBlogs(lang, limit);
-  const guides = [analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
+  const guides = [proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
   const guideSlugs = new Set(guides.map((guide) => guide.slug));
   const blogs = [...guides, ...cmsBlogs.filter((blog) => !guideSlugs.has(blog.slug))]
     .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
