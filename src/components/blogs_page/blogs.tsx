@@ -60,7 +60,7 @@ const getPublishedBlogs = unstable_cache(
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
   const cmsBlogs = await getPublishedBlogs(lang, limit);
-  const guides = [proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
+  const guides = [databaseGuide, proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
   guides.push(prototypeServices, manualTesting, mobileBackend, computerVision);
   const guideSlugs = new Set(guides.map((guide) => guide.slug));
   const blogs = [...guides, ...cmsBlogs.filter((blog) => !guideSlugs.has(blog.slug))]
