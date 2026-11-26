@@ -1,3 +1,4 @@
+import databaseGuide from "@/data/english_data/database-guide.json";
 import proposalGuide from "@/data/english_data/proposal-guide.json";
 import psychGuide from "@/data/english_data/psych-guide.json";
 import grainGuide from "@/data/english_data/grain-guide.json";
