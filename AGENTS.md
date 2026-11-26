@@ -30,6 +30,7 @@ Required actions after each meaningful code change:
 - Every `/industries/[slug]` detail page preserves the locale-specific conversation heading and subtitle above the shared five-step homepage questionnaire. Industry submissions retain `sourceType: industry` and the canonical industry route in `sourcePage` for analytics and lead attribution. The shared form stylesheet owns its own readable light/dark text and surface tokens so it renders correctly outside the homepage layout.
 - Technologies content is JSON-driven with language files in category-scoped folders under `src/data/*_data/technologies/<category>/<slug>.json` (with category `index.json` for main category pages).
 - Partner landing-page content is served from canonical `/partners/<slug>` routes, uses JSON data from `src/data/*_data/others/<slug>.json`, and falls back to English via `src/data/loaders/others.ts`.
+- The four design, QA, mobile backend and computer vision service guides use standalone article routes, precompressed WebPs and contact-form links.
 - The English HVAC software guide lives at `/blog/ai-software-for-hvac-businesses`, with static WebP assets and a dated entry merged into the normal blog listing.
 - The English wireframing agency guide follows the same static article and listing pattern at `/blog/best-wireframing-prototyping-companies`.
 - The low-code JavaScript guide links to the Jotform partner page and the contact form at `/contact#contact-form`.
@@ -567,5 +568,4 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-19: Added buyer discovery, DemandSphere and analytics automation guides to the blog listing.
 
 - 2026-11-20: Added four sector-specific automation guides with contact-form links.
-
-- 2026-11-26: Added the static database optimization services guide and its two precompressed blog banners.
+- 2026-11-26: Added four English service articles to the blog listing.

@@ -9,6 +9,10 @@ import discoveryGuide from "@/data/english_data/discovery-guide.json";
 import lowCodeGuide from "@/data/english_data/low-code-guide.json";
 import wireframingGuide from "@/data/english_data/wireframing-guide.json";
 import hvacGuide from "@/data/english_data/hvac-software-guide.json";
+import prototypeServices from "@/data/english_data/wireframing-and-prototyping-services.json";
+import manualTesting from "@/data/english_data/manual-software-testing-services.json";
+import mobileBackend from "@/data/english_data/mobile-app-backend-development-services.json";
+import computerVision from "@/data/english_data/custom-computer-vision-development-services.json";
 import { getPayload } from "payload";
 import config from "@payload-config";
 import { CategoryNav } from "./blogs_ui";
@@ -56,7 +60,8 @@ const getPublishedBlogs = unstable_cache(
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
   const cmsBlogs = await getPublishedBlogs(lang, limit);
-  const guides = [databaseGuide, proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
+  const guides = [proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
+  guides.push(prototypeServices, manualTesting, mobileBackend, computerVision);
   const guideSlugs = new Set(guides.map((guide) => guide.slug));
   const blogs = [...guides, ...cmsBlogs.filter((blog) => !guideSlugs.has(blog.slug))]
     .sort((a, b) => Date.parse(b.date) - Date.parse(a.date))
