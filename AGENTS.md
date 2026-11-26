@@ -567,3 +567,5 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-19: Added buyer discovery, DemandSphere and analytics automation guides to the blog listing.
 
 - 2026-11-20: Added four sector-specific automation guides with contact-form links.
+
+- 2026-11-26: Added the static database optimization services guide and its two precompressed blog banners.
