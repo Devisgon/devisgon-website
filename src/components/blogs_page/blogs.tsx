@@ -44,7 +44,9 @@ const getPublishedBlogs = unstable_cache(
     const result = (await (payload as any).find({
       collection: "blogs",
       depth: 1,
-      limit,
+      select: { slug: true, title: true, category: true, author: true, date: true, coverImage: true },
+      limit: limit ?? 0,
+      pagination: Boolean(limit),
       sort: "-date",
       where: {
         status: { equals: "published" },
@@ -80,5 +82,5 @@ export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
     ...Array.from(new Set(translatedBlogs.map((b: Blog) => b.category))),
   ];
 
-  return <CategoryNav key={lang} blogs={translatedBlogs} categories={categories} lang={lang} />;
+  return <CategoryNav key={lang} blogs={translatedBlogs} categories={categories} lang={lang} showViewMore={Boolean(limit)} />;
 }

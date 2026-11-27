@@ -46,6 +46,7 @@ Required actions after each meaningful code change:
 - Theme mode is stored in `localStorage.theme` while an open-tab marker in `sessionStorage.theme-session` clears that local value on fresh sessions; `src/app/(app)/layout.tsx` initializes the class before hydration and `src/components/navbar.js` toggles it, so refresh preserves the theme while reopened tabs default to light.
 - Footer is a client component with modern dark purple/magenta styles in `footer.module.css`, translated CTA/copy, branding/contact, Company and Resources/Partners links, one localized newsletter form, and native expandable Services/Industries/Technologies directories preserving all catalog destinations. Cookie-language synchronization avoids server/client initial-language mismatches. Team links now resolve to `/team`; newsletter has an accessible label and explicit Clarity masking.
 - Public route transitions show immediate feedback through `src/components/navigation_progress.tsx` for internal link clicks plus the route-level fallback spinner in `src/app/(app)/loading.tsx` for slower App Router segment loads.
+- Article body links and the service introduction, industry friction section and CMS article renderer connect related guides and catalog pages. Maintain the editorial relationships in `src/data/article-topics.ts` when publishing a guide.
 - Page-level standalone internal-link sections have been removed; public pages should rely on the navbar/footer plus contextual CTAs, cards, legal anchors, and form links, and any placeholder or dead `href` values found during page work should be replaced with a real related destination.
 - Shared language resolver is cached with React `cache()` in `src/lib/language.ts` and reused across pages.
 - Shared marketing, blog, navbar, footer, contact preview, and service-detail imagery should use `next/image` instead of raw `<img>` tags so lint stays clean and image sizing remains explicit.
@@ -569,3 +570,5 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 
 - 2026-11-20: Added four sector-specific automation guides with contact-form links.
 - 2026-11-26: Added four English service articles to the blog listing.
+
+- 2026-11-27: Added contextual links across guides, service and industry details, and published CMS posts. The full blog directory includes older published posts.

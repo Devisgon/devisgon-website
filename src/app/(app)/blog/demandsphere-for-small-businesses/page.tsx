@@ -30,6 +30,7 @@ export default function DemandGuide() {
           <p>Is DemandSphere a good fit for small businesses? Yes, when a team has a recurring competitive search question, enough keywords or markets to make manual research impractical, and someone who can act on the findings. For a local business with a handful of service pages, Search Console and enquiry tracking are usually a better first investment.</p>
           <h2>What is DemandSphere?</h2>
           <p>DemandSphere is a search intelligence platform for monitoring keyword rankings, competing domains and visibility across search results. Its plans also include tracking for AI prompts. That can be useful when customers research a product in both traditional search and AI-assisted experiences. The buying decision hinges on which report would change what your team does next.</p>
+          <p>If competitor rankings change, use a <Link className="underline underline-offset-4" href="/services/seo-search-engine-optimization-services">search engine optimization review</Link> to decide which pages deserve attention. The <Link className="underline underline-offset-4" href="/blog/tools-understand-how-buyers-discover-software">buyer discovery guide</Link> covers the next question: which searches lead to enquiries?</p>
           <h2>How does DemandSphere work?</h2>
           <ul>
             <li>Monitor search visibility. Choose the keywords, markets and competitors that matter to your business. Track changes for comparable groups over time.</li>

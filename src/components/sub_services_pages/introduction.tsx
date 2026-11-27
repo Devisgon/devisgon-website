@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { IntroductionSectionProps } from "@/types/sub_services_page/intoduction";
 
-const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
+const IntroductionSection: React.FC<React.PropsWithChildren<IntroductionSectionProps>> = ({ data, children }) => {
   if (!data) return null;
 
   return (
@@ -26,6 +26,8 @@ const IntroductionSection: React.FC<IntroductionSectionProps> = ({ data }) => {
               </p>
             ))}
           </div>
+
+          {children}
 
           <div className="mt-4 p-4 bg-[#EAD5F9] dark:bg-[#47295C] border-l-4 border-[#D1AFEC] dark:border-[#664282] rounded-r-xl shadow-sm">
             <p className="text-t-primary font-bold text-lg italic">

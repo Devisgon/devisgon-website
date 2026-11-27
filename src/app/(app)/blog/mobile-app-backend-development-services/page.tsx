@@ -37,6 +37,7 @@ export default function ArticlePage() {
           <p>At Devisgon, we focus on custom backend architecture and development designed around the actual requirements of your business, rather than forcing your processes into generic subscription-based platforms.</p>
           <h2 id="what-is-mobile-app-backend-development">What Is Mobile App Backend Development?</h2>
           <p>Mobile app backend development involves building the server-side systems responsible for managing the data, functionality, security, and business logic behind a mobile application.</p>
+          <p>When scoping <Link className="underline underline-offset-4" href="/services/mobile-app-development-services">mobile app development</Link>, list every external system the app must reach. That list defines the <Link className="underline underline-offset-4" href="/services/api-integration-automation-services">API integration work</Link> and helps identify when to investigate <Link className="underline underline-offset-4" href="/blog/database-optimization-services">database performance</Link>. See how web and mobile work fit together in <Link className="underline underline-offset-4" href="/our-work">Devisgon’s portfolio</Link>.</p>
           <p>While users interact with buttons, screens, and features, the backend handles operations behind the scenes.</p>
           <p>These include:</p>
           <ul>

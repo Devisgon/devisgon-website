@@ -120,3 +120,31 @@ test("English industries have distinct metadata and repaired links across langua
   const inspect = (value, file) => { if (typeof value === "string") assert.ok(!broken.has(value), file + ": " + value); else if (value && typeof value === "object") Object.values(value).forEach((item) => inspect(item, file)); };
   for (const file of walk("src/data").filter((file) => file.endsWith(".json"))) inspect(JSON.parse(fs.readFileSync(file, "utf8").replace(/^\uFEFF/, "")), file);
 });
+
+test("every catalog detail and static guide receives a contextual link from another page", async () => {
+  const compiled = await build({ entryPoints: ["src/lib/related-content.ts"], bundle: true, write: false, platform: "node", format: "esm" });
+  const { relatedContent } = await import(`data:text/javascript;base64,${Buffer.from(compiled.outputFiles[0].text).toString("base64")}`);
+  const { navbar } = JSON.parse(fs.readFileSync("src/data/navbar.json", "utf8"));
+  const catalog = navbar.filter((section) => ["/services", "/industries"].includes(section.href))
+    .flatMap((section) => section.dropdown.columns.flatMap((column) => column.links.map((link) => link.href)));
+  const app = "src/app/(app)";
+  const guides = fs.readdirSync(path.join(app, "blog"), { withFileTypes: true })
+    .filter((entry) => entry.isDirectory()).map((entry) => "/blog/" + entry.name);
+  const pages = new Set([...catalog, ...guides]);
+  const incoming = new Set();
+  for (const page of pages) {
+    const hrefs = page.startsWith("/blog/")
+      ? Array.from(fs.readFileSync(path.join(app, page, "page.tsx"), "utf8")
+        .match(/<article\b[\s\S]*?<\/article>/)?.[0].matchAll(/href="(\/[^"#?]*)"/g) ?? [], (match) => match[1])
+      : relatedContent(page).map((link) => link.href);
+    assert.ok(hrefs.filter((href) => pages.has(href)).length >= 2, page);
+    for (const href of hrefs) {
+      assert.notEqual(href, page);
+      assert.ok(pages.has(href) || ["page.tsx", "page.jsx"].some((file) => fs.existsSync(path.join(app, href, file))), href);
+      incoming.add(href);
+    }
+  }
+  for (const page of pages) assert.ok(incoming.has(page), page);
+  assert.ok(relatedContent("/blogs/example", "HVAC dispatch").some((link) => link.href.startsWith("/industries/hvac-")));
+  assert.deepEqual(relatedContent("/blogs/example", "unmapped topic").map((link) => link.href), ["/services", "/industries"]);
+});

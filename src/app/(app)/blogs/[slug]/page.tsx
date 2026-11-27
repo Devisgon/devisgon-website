@@ -6,6 +6,7 @@ import Image from "next/image";
 import { mediaImageSource } from "@/lib/static-image-resolver.mjs";
 import Link from "next/link";
 import CustomRichText from "@/components/payload_rich_text_styling";
+import RelatedContentLinks from "@/components/related_content_links";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import { getCachedLanguage } from "@/lib/language";
@@ -260,6 +261,7 @@ export default async function BlogPostPage({
 
             <div className="prose prose-lg dark:prose-invert max-w-none mb-12">
               <CustomRichText content={translatedBlog.content} />
+              <RelatedContentLinks path={`/blogs/${slug}`} lang={lang} articleText={`${blog.title} ${blog.category ?? ""} ${slug}`} />
             </div>
 
             <Link

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound, redirect } from "next/navigation";
+import RelatedContentLinks from "@/components/related_content_links";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import IndustryArchitecture from "@/components/industries/architecture";
@@ -104,7 +105,9 @@ export default async function IndustrySlugPage({ params, searchParams }: PagePro
           primaryCtaLabel={croCopy.heroCta}
         />
         <IndustryProofStrip copy={croCopy} data={data.proof_section} />
-        <IndustryFriction data={data.friction_section} />
+        <IndustryFriction data={data.friction_section}>
+          <RelatedContentLinks path={sourcePage} lang={activeLang} />
+        </IndustryFriction>
         <IndustryArchitecture data={data.architecture_section} ctaLabel={croCopy.architectureCta} />
         <IndustryServiceGrid copy={croCopy} />
         <IndustryKeyBenefits data={data.benefits_section} ctaLabel={croCopy.benefitsCta} />
