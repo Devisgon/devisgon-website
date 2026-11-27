@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import BuyerGuide from "@/components/sub_services_pages/buyer_guide";
+import RelatedContentLinks from "@/components/related_content_links";
 import Footer from "@/components/footer";
 import Header from "@/components/navbar";
 import ServicesCtaSection from "@/components/services_page/cta_section";
@@ -145,7 +146,9 @@ export default async function ServiceDetailPage({ params, searchParams }: PagePr
       />
       <div className="overflow-x-hidden" dir={isRTL ? "rtl" : "ltr"}>
         <Hero data={data.hero_section} />
-        <Introduction data={data.introduction_section} />
+        <Introduction data={data.introduction_section}>
+          <RelatedContentLinks path={`/services/${result.slug}`} lang={activeLang} />
+        </Introduction>
         <BuyerGuide data={data.buyer_guide} />
         <KeyBenefitsSection data={data.key_benefits_section} />
         <WhatYouGetSection data={data.what_you_get_section} />

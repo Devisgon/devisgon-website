@@ -38,6 +38,7 @@ export default function ArticlePage() {
           <p>At Devisgon, we focus on tailored software quality assurance solutions that address the way your software actually works and how real customers use it.</p>
           <h2 id="what-are-manual-software-testing-services">What Are Manual Software Testing Services?</h2>
           <p>Manual software testing is the process of checking software functionality, usability, and behavior through human interaction.</p>
+          <p>Use <Link className="underline underline-offset-4" href="/services/manual-software-testing-qa-services">manual software testing</Link> to explore an unfamiliar user journey and <Link className="underline underline-offset-4" href="/services/api-testing-qa-automation-services">API testing</Link> to isolate failures between systems. A <Link className="underline underline-offset-4" href="/blog/wireframing-and-prototyping-services">clickable prototype</Link> can help the team agree on expected behaviour before development.</p>
           <p>Unlike automated testing, where scripts execute predefined checks, manual QA testers explore applications, interact with features, identify unexpected behavior, and evaluate the actual user experience.</p>
           <p>A professional manual testing process can help identify:</p>
           <ul>

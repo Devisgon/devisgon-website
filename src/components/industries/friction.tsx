@@ -1,7 +1,8 @@
-﻿import type { IndustryFrictionSection, IndustryPageProps } from "@/types/industries_page";
+﻿import type { PropsWithChildren } from "react";
+import type { IndustryFrictionSection, IndustryPageProps } from "@/types/industries_page";
 import IndustryIconBadge from "@/components/industries/icon_badge";
 
-export default function IndustryFriction({ data }: IndustryPageProps<IndustryFrictionSection>) {
+export default function IndustryFriction({ data, children }: PropsWithChildren<IndustryPageProps<IndustryFrictionSection>>) {
   return (
     <section className="w-screen md:w-full bg-bg-primary px-6 py-14 md:px-12 md:py-20">
       <div className="mx-auto max-w-6xl">
@@ -29,6 +30,7 @@ export default function IndustryFriction({ data }: IndustryPageProps<IndustryFri
             </article>
           ))}
         </div>
+        {children}
       </div>
     </section>
   );

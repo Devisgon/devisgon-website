@@ -31,6 +31,7 @@ export default function AnalyticsGuide() {
           <p>Analytics automation solutions collect, prepare and report that information on a schedule or when an event occurs. At Devisgon, we help businesses connect those workflows to the people responsible for acting on the result.</p>
           <h2>What are analytics automation solutions?</h2>
           <p>An analytics automation solution connects data sources, applies agreed rules and delivers information through dashboards, scheduled reports or alerts. Common uses include tracking sales and marketing performance, monitoring customer behaviour, generating weekly summaries and flagging unusual changes. AI-assisted analysis is optional.</p>
+          <p>A weekly report and a live exception alert have different requirements. Compare <Link className="underline underline-offset-4" href="/services/analytics-automation-dashboard-services">analytics automation services</Link> with <Link className="underline underline-offset-4" href="/services/data-analytics-dashboard-development-services">dashboard development</Link> when deciding how quickly your team needs to act.</p>
           <p>For example, a business might keep advertising spend, website activity, sales and support requests in four systems. A connected report can show them together, with a last-updated time for each source so readers know how current the figures are.</p>
           <h2>How analytics automation works in five steps</h2>
           <ul>

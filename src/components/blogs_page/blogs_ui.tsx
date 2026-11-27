@@ -21,7 +21,7 @@ const uiByLang: Record<
   fr: { all: "Tous", by: "Par", readMore: "Lire plus", viewMore: "Voir plus", fallbackAuthor: "Equipe Devisgon" },
 };
 
-export function CategoryNav({ blogs, categories, lang }: any) {
+export function CategoryNav({ blogs, categories, lang, showViewMore }: any) {
   const copy = uiByLang[lang] ?? uiByLang.en;
   const [activeCategory, setActiveCategory] = useState(copy.all);
 
@@ -85,25 +85,25 @@ export function CategoryNav({ blogs, categories, lang }: any) {
                 </p>
               </div>
 
-              <p className="text-xl md:text-2xl font-bold text-t-primary dark:text-t-secondary mb-4 leading-snug ">
-                {blog.title}
-              </p>
-              <a href={blog.href ?? `/blogs/${blog.slug}`}>
-                <div className="mt-auto flex items-center text-t-primary  text-sm font-bold ">
+              <Link href={blog.href ?? `/blogs/${blog.slug}`} className="group/link">
+                <span className="block text-xl md:text-2xl font-bold text-t-primary dark:text-t-secondary mb-4 leading-snug group-hover/link:underline">
+                  {blog.title}
+                </span>
+                <span aria-hidden="true" className="flex items-center text-t-primary text-sm font-bold">
                   {copy.readMore}
-                  <ArrowRight className="w-4 h-4 ml-2 transition-transform hover:translate-x-1" />
-                </div>
-              </a>
+                  <ArrowRight className="w-4 h-4 ml-2 transition-transform group-hover/link:translate-x-1" />
+                </span>
+              </Link>
             </div>
           </div>
         ))}
       </div>
 
-      <Link href="/blogs">
-        <button className="p-4 bg-[#402060] hover:-translate-y-4 ml-[30%] hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl md:ml-[40%] mt-20">
+      {showViewMore && (
+        <Link href="/blogs" className="inline-block p-4 bg-[#402060] hover:-translate-y-4 ml-[30%] hover:scale-110 duration-500 dark:bg-[#6F1595] text-white rounded-xl md:ml-[40%] mt-20">
           {copy.viewMore}
-        </button>
-      </Link>
+        </Link>
+      )}
     </div>
   );
 }

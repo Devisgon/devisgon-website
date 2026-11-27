@@ -29,6 +29,7 @@ export default function ArticlePage() {
           <Image unoptimized priority src={guide.coverImage.url} alt={guide.coverImage.alt} width={1200} height={600} className="h-auto w-full rounded-xl" />
           <h2 id="what-if-your-business-could-see-problems-before-they-become-expensive">What If Your Business Could See Problems Before They Become Expensive?</h2>
           <p>Imagine a manufacturing company where hundreds of products move along an assembly line every hour.</p>
+          <p>Compare <Link className="underline underline-offset-4" href="/services/computer-vision-ai-development-services">computer vision development</Link> and <Link className="underline underline-offset-4" href="/services/ai-model-training-development-services">custom model training</Link> when estimating how many labelled examples your inspection team will need.</p>
           <p>An employee manually checks every item for defects.</p>
           <p>One tiny mistake goes unnoticed.</p>
           <p>That single mistake leads to wasted materials, customer complaints, and unnecessary costs.</p>
