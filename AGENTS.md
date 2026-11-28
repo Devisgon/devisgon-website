@@ -572,3 +572,4 @@ The five-step ProjectEnquiry stays in the hero. FlowRoute measures the homepage 
 - 2026-11-26: Added four English service articles to the blog listing.
 
 - 2026-11-27: Added contextual links across guides, service and industry details, and published CMS posts. The full blog directory includes older published posts.
+- 2026-11-27: Added five service guides with contextual industry links, precompressed artwork and contact-form CTAs. The AWS and MVP guides use their requested root URLs.

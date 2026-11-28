@@ -1,3 +1,8 @@
+import mvpServiceGuide from "@/data/english_data/affordable-mvp-development-services-for-non-technical-founders.json";
+import awsServiceGuide from "@/data/english_data/aws-devops-automation-services-usa.json";
+import trainingServiceGuide from "@/data/english_data/ai-model-training-services.json";
+import infraServiceGuide from "@/data/english_data/infrastructure-automation-services.json";
+import designServiceGuide from "@/data/english_data/digital-product-design-services.json";
 import databaseGuide from "@/data/english_data/database-guide.json";
 import proposalGuide from "@/data/english_data/proposal-guide.json";
 import psychGuide from "@/data/english_data/psych-guide.json";
@@ -62,7 +67,7 @@ const getPublishedBlogs = unstable_cache(
 export default async function BlogListPage({ limit }: BlogListPageProps = {}) {
   const lang = await getCachedLanguage();
   const cmsBlogs = await getPublishedBlogs(lang, limit);
-  const guides = [databaseGuide, proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
+  const guides = [designServiceGuide, infraServiceGuide, trainingServiceGuide, awsServiceGuide, mvpServiceGuide, databaseGuide, proposalGuide, psychGuide, grainGuide, hotelGuide, analyticsGuide, demandGuide, discoveryGuide, lowCodeGuide, wireframingGuide, hvacGuide];
   guides.push(prototypeServices, manualTesting, mobileBackend, computerVision);
   const guideSlugs = new Set(guides.map((guide) => guide.slug));
   const blogs = [...guides, ...cmsBlogs.filter((blog) => !guideSlugs.has(blog.slug))]
